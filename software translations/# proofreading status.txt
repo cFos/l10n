@@ -1,0 +1,8 @@
+
+
+
+Proofreading status:
+=================
+
+tr -  1055 - proofreaded almost all strings (12.01.2013)
+zh_cn - 2052 - sent all for proofreading

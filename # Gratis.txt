@@ -5,5 +5,3 @@ Require translation:
 
 pt - 2070 - around 1100 strings
 zh-cn - 2052 - around 800 strings
-
-fd
