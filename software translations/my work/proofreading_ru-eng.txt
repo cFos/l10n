@@ -18,8 +18,23 @@ htm_lang_prefix = "en";
 /
 / ----------------------------------------------------------------------
 
+bc_mainurl = "http://www.cfos.de/en/index.htm";
+bc_updateurl = "http://www.cfos.de/en/download/download.htm";
+bc_orderurl = "https://www.cfos.de/en/order/broadband-connect-n.htm";
+bc_langurl = "";
+bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
+sixlink_mainurl = "http://www.cfos.de/en/index.htm";
+sixlink_updateurl = "http://www.cfos.de/en/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/en/order/cfos-ipv6-link-n.htm";
+sixlink_langurl = "";
+sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 Dial-Up Driver";
+cfospnet_mainurl = "http://www.cfos.de/en/index.htm";
+cfospnet_updateurl = "http://www.cfos.de/en/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/en/order/cfos-personal-net-n.htm";
+cfospnet_langurl = "";
+pnet_pg_name = "%p";
 pnet_desc = "%p, your personal web server";
 renew_params = "Renew parameters";
 dlg_dun_auto = "Auto-connect";
@@ -78,19 +93,21 @@ dlg_https_port = "HTTPS Port:";
 dlg_renew_interval = "Renewal interval (ms):";
 dlg_redirect_delay = "Redirection delay (ms):";
 dlg_monitor_ports = "Monitor port assignment";
+dlg_enable_upnp = "Enable Multimedia Server (UPnP/DLNA)";
+dlg_upnp_info = "Put the media files in the 'media' subdirectory of your public directory.";
 use_https_port = "Use HTTPS port";
 
 / pnet start type dialog
 pnet_start_header = "Start Type";
 pnet_start_subheader = "How shall the program start?";
 pnet_start_mode = "Start %p:";
-pnet_start_login = "at login (recommended)";
+pnet_start_login = "at logon (recommended)";
 pnet_start_system = "as system service";
 pnet_start_manual = "manually";
-pnet_start_info = "It is recommended to start %p automatically if you log in. "
+pnet_start_info = "It is recommended to start %p automatically if you log on. "
                   "If %p shall also run when no user is logged on, you have to start it as system service. "
                   "However in that case there will be no task bar icon and no context menu. "
-                  "If you to make your data public only occasionally, then start %p manually.";
+                  "If you want to make your data public only occasionally, then start %p manually.";
 
 / pnet context menu entry
 publish_with_product = "Publish with %p";
@@ -109,9 +126,12 @@ info_port_in_use = "The port %? needed by %p is in use by another program.\n\nPr
                    "To use %p, you must end the other program or choose another port in the %p configuration.";
 monitor_port_desc = "This task monitors periodically the ports needed by %p and alerts the user, if one of the ports is used by another program.";
 logon_start_desc = "This tasks starts %p if the user shown below logs in.";
+show_home_dir = "Show Home Directory";
+publish_file = "Publish File";
+user_administration = "User Administration";
 
 / pnet connectivity test
-con_test_header = "Connectivity Test";
+connectivity_test = "Connectivity Test";
 con_test_subheader = "Please wait until the connectivity test has finished.";
 con_test = "%p Connectivity Test";
 con_test_not_running = "The connectivity test cannot be executed, since %p is not running. Please start %p and then execute the connectivity test again.";
@@ -123,6 +143,28 @@ con_test_execute = "Execute connectivity test";
 /  cFosSpeed
 /
 / ----------------------------------------------------------------------
+
+speed_mainurl = "http://www.cfos.de/en/index.htm";
+speed_updateurl = "http://www.cfos.de/en/download/download.htm";
+speed_orderurl = "https://www.cfos.de/en/order/cfosspeed-n.htm";
+speed_langurl = "http://www.cfos.de/en/cfosspeed/documentation/lang.htm";
+make_own_skin_url = "http://www.cfos.de/en/skin/skin.htm";
+no_pings_help = "http://www.cfos.de/en/cfosspeed/documentation/no-ping.htm";
+ts_options_help = "http://www.cfos.de/en/traffic-shaping/traffic-shaping-options.htm";
+many_cons_help = "http://www.cfos.de/en/cfosspeed/documentation/bittorrent.htm";
+mainurl_name = "www.cfos.de";
+after_calibration = "http://www.cfos.de/en/traffic-shaping/calibration-message.htm";
+download_more_skins_url = "http://www.cfos.de/en/download/download.htm#skins";
+documentation_url = "http://www.cfos.de/en/cfosspeed/documentation/index.htm";
+expiration_cfosspeed_htm = "http://www.cfos.de/en/cfosspeed/expiration-message.htm";
+speed_test_url = "http://www.cfosspeed.de/speed-test/speed-test_en.htm";
+beta_url = "http://www.cfos.de/en/beta/index.htm";
+keyboard_led_help_url = "http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm";
+logitech_help_url = "http://www.cfos.de/en/cfosspeed/documentation/logitech-keyboard.htm";
+speed_guide_url = "http://www.cfos.de/en/traffic-shaping/speed-guide.htm";
+after_calibration_new = "http://www.cfos.de/en/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "http://www.cfos.de/en/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "http://www.cfos.de/en/cfosspeed/documentation/program-prioritization.htm";
 
 auth_failed = "The consistency check has detected that one or more components have been modified.\n"
    "Please install an unmodified version from our website:\n";
@@ -168,11 +210,11 @@ none = "none";
 lic_expired = "Your test period is expired. %1 is now deactivated. Buy %1 today!";
 settings = "Settings";
 winsettings = "Window Settings";
-openwindow = "Open Window";
-openwindows = "Open Windows";
-closewindow = "Close Window";
-closewindows = "Close Windows";
-autoopen = "Auto-open/Auto-hide";
+openwindow = "Show Window";
+openwindows = "Show Windows";
+closewindow = "Hide Window";
+closewindows = "Hide Windows";
+autoopen = "Auto-show/Auto-hide";
 taskbaricon = "Taskbar Icon";
 autoarrange = "Auto-arrange windows";
 effects = "Effects";
@@ -202,7 +244,7 @@ enable_win = "Enable status window?\n\n"
    "The status window shows the status of your active connection.";
 license = "License";
 licensed_to = "Licensed to %?";
-upgrade = "Get new program version";
+upgrade = "Get latest version";
 connect_to = "Connect to";
 make_own_skin = "Design your own skin";
 click_through = "Click-through";
@@ -212,7 +254,7 @@ on = "On";
 note = "Note";
 deactivated = "deactivated";
 browser_warning = "Internet Explorer version 8 or higher is recommended for this dialog!";
-ole_error = "In order to use this configuration dialog,\\n%p must be installed and running on your PC.\\nPlease verify this and install again, if necessary.";
+ole_error = "In order to use this configuration dialog,\\n%p must be installed and running on your computer.\\nPlease verify this and install again, if necessary.";
 ts_settings = "Traffic Shaping Settings";
 preferences = "Preferences";
 prio_protocols = "Prioritizing protocols";
@@ -260,7 +302,7 @@ prog_hint_text = "Prioritization will work properly only if as little data as po
 save_priorities = "Save priorities";
 delete = "Delete";
 aux_lines = "Auxiliary lines";
-higher_prog_help = "Voice-over-IP, maybe games";
+higher_prog_help = "Voice-over-IP, maybe online games";
 high_prog_help = "Games, Streamed Media, Telnet and other interactive programs";
 low_prog_help = "Server data, FTP data";
 lower_prog_help = "Permanent background traffic, like file sharing";
@@ -268,7 +310,7 @@ delete_help = "Remove from list (i.e., treat packets as normal).";
 prog_help = "Transfer of low(est)-priority packets is slowed only if data with a higher priority is being processed at the same time. Otherwise, low(est)-priority data is, of course, sent at maximum speed.";
 filename = "Filename";
 description = "Description";
-new_program = "New program";
+new_program = "Add program";
 restore_defaults = "Restore defaults";
 add = "Add";
 suggest_program = "Suggest this program to the cFos team";
@@ -284,7 +326,7 @@ activate_firewall_help = "Protection against network intrusions by means of filt
 mtu_opt = "Automatic MSS (MTU) optimization";
 mtu_opt_help = "Adjusts MSS/MTU for maximum transfer speed. Typically, values ranging slightly below 1500/1492 produce faster speeds.";
 strict_rtp = "Strict RTP checks";
-strict_rtp_help = "If activated, %p will recognize only those packets as RTP that come with a valid RTCP source ID. You should deactivate this option for Voice-over-IP programs (like VoIPBuster) that send no RTCP packets.";
+strict_rtp_help = "If activated, %p will recognize only those packets as RTP that come with a valid RTCP source ID. You should disable this option for Voice-over-IP programs (like VoIPBuster) that send no RTCP packets.";
 ts_config = "%p Traffic Shaping Configuration";
 dialup_connection = "Dial-Up Connection";
 dialup_connections = "Dial-Up Connections";
@@ -322,16 +364,16 @@ time_min = "Min";
 time_units = "h:min";
 volume = "Volume";
 volume_limit = "Volume Limit";
-spdbudget_help = "To use a budget, go to the connections dialog and assign it to a particular connection";
+spdbudget_help = "To use a budget, go to the preferences dialog and assign it to a particular connection";
 password_bad = "Bad password";
 sum_button = "cumulative";
 calibrate = "Calibrate line";
 test_pings = "Send test pings";
 variable_bandwidth = "Variable Bandwidth";
 def_bandwidth_help = "Default for <b>new</b> connections";
-cur_bandwidth_help = "Setting for current connection";
-no_ports_open = "No connection open.";
-no_ports_open_help = "Currently, there is no connection open that is handled by %p. "
+cur_bandwidth_help = "Settings for current connection";
+no_ports_open = "No connection established.";
+no_ports_open_help = "Currently, there is no connection established that is handled by %p. "
    "To change the default settings for new connections, click on the \"Default for new connections\" tab, "
    "to change settings for other connections, click on \"Traffic Shaping\" on the left side.";
 ok = "OK";
@@ -349,7 +391,6 @@ tx_limit = "TX Limit";
 max = "Max";
 apply_limits = "Apply Limits";
 limit_help = "Values in kbyte/s, including all protocol overhead, 0 = no limit.";
-redetect_routes = "Re-detect routes";
 enable_speed_shaping = "Enable Traffic Shaping";
 disable_speed_shaping = "Disable Traffic Shaping";
 yes = "Yes";
@@ -395,18 +436,18 @@ performance_help = "To save maximum computational power, we recommend to set the
 loading = "Loading...";
 connection_type_help = "http://www.cfos.de/en/traffic-shaping/traffic-shaping.htm#advanced";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Not cooperative";
-regid_help = "There is a machine without cFos TS on your LAN";
-regid_help_long = "You use your connection with several other machines simultaneously and at least one of them has no cFos Traffic Shaping.";
+regid_help = "Device without cFos Traffic Shaping detected on LAN";
+regid_help_long = "You use your connection with several other devices simultaneously and at least one of them has no cFos Traffic Shaping.";
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
 net_talk = "Net Talk";
 net_talk_help = "Broadcast traffic statistics on your LAN";
-net_talk_help_long = "To improve accuracy, send Traffic Shaping statistics to other PCs on your local (home) network. No data is sent to the Internet.";
+net_talk_help_long = "To improve accuracy, send Traffic Shaping statistics to other computers on your local (home) network. No data is sent to the Internet.";
 net_talk_subheader = "Please select if the Net_Talk feature should be used.";
 
-/ Ping Variance: cFos Speed allow and keeps statisics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
 vari_fixed = "Accommodate for Ping Jitter";
 vari_fixed_help = "Use advanced Traffic Shaping to accommodate for varying ping times";
 vari_fixed_help_long = "Gather ping statistics to accommodate for jitter in ping times; especially useful for mobile/wireless connections. We recommend to keep this option enabled for all other connection types as well.";
@@ -425,7 +466,7 @@ channel_explain = "You can use the channel usage to configure your WLAN station,
 no_adapters = "No adapter info available.";
 wlan_no_service = "Service not available. Please install or start Wireless LAN API for Windows (WZC).";
 wlan_no_station = "Not enough Access Points found.";
-kaspersky_hint = "Kaspersky Internet Security 2010 may cause problems with %p. Please update to Kaspersky Internet Security 2011.";
+kaspersky_hint = "Kaspersky Internet Security 2010 may cause problems with %p. Please update to the latest version of Kaspersky Internet Security.";
 
 console_cancel = "Cancel";
 console_freeze = "Freeze";
@@ -440,7 +481,7 @@ console_prio_prot_off = "Turn off temporary protocol prioritization";
 console_prio_prog = "Temporarily prioritize program";
 console_prio_prog_off = "Turn off temporary program prioritization";
 console_prio_prog_prot = "Temporarily prioritize program & protocol";
-console_prio_prog_prot_off = "Turn off program & protocol prioritization";
+console_prio_prog_prot_off = "Temporarily turn off program & protocol prioritization";
 console_prio_prot_perm = "Permanently prioritize protocol";
 console_prio_prog_perm = "Permanently prioritize program";
 console_prio_advanced = "Advanced priotiziation";
@@ -462,7 +503,8 @@ speed_guide = "Speed Guide";
 lock_position = "Lock window position";
 check_for_news = "Check for news";
 rwin_expansion = "Automatic RWIN expansion";
-rwin_expansion_help = "Automatically expand TCP RWIN to increase download speed if the RWIN selected by Windows is too low.";
+rwin_expansion_help = "Automatically expand TCP Receive Window to increase download speed if the RWIN selected by Windows is too low.";
+query_auto_open = "Disable automatic opening and closing of the status window?\nYou can re-enable it later in the context menu.";
 
 
 / ----------------------------------------------------------------------
@@ -472,6 +514,12 @@ rwin_expansion_help = "Automatically expand TCP RWIN to increase download speed 
 / ----------------------------------------------------------------------
 
 speed_desc = "%p, faster Internet access with Traffic Shaping";
+
+/ URLs
+bc_activation_failed_url = "http://www.cfos.de/en/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "http://www.cfos.de/en/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "http://www.cfos.de/en/cfosspeed/activation-failed.htm";
+cfospnet_activation_failed_url = "http://www.cfos.de/en/cfos-personal-net/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? Installation Wizard";
@@ -492,7 +540,7 @@ welcome_found_unknown = "An existing installation of %? has been detected on you
 welcome_found_modified = "A modified or incomplete installation of %1 v%2 has been detected on your computer in the directory %3.";
 welcome_update = "To replace the existing version click Next.";
 welcome_admin = "You don't have administrator privileges. "
-                "To run this wizard you need to log in as a user who has administrator privileges.";
+                "To run this wizard you need to log on as a user who has administrator privileges.";
 welcome_lang_syslink = "<a href=\"%?\">Additional languages</a>";
 welcome_oem_info = "%1 is an OEM version of %p for %2. Therefore, %p contains all features of %1 and more.";
 
@@ -547,6 +595,7 @@ sn_info = "If you have a 16 digit password of the form xxxx-xxxx-xxxx-xxxx, plea
    "enter it now to load and activate your license key.\n\n";
 sn_serial_number = "Serial number:";
 sn_invalid_serial_number = "Invalid serial number. Please check your input and try again.";
+/ the %? will be replaced by the error number:
 sn_download_err = "Error %? downloading the key file from our server.";
 sn_save_err = "The key file cannot be saved to disk at %?.";
 sn_keyfile_err = "The key file is corrupted.";
@@ -579,11 +628,11 @@ tcp_info = "The TCP receiver window size controls the throughput of incoming dat
 tcp_check = "Optimize TCP receiver window size. (Recommended)";
 
 / hang up online connection dialog
-hangup_header = "Online Connection";
-hangup_subheader = "The online connection must be disconnected.";
+hangup_header = "Dial-Up Connection";
+hangup_subheader = "The dial-up connection must be disconnected.";
 hangup_online = "You are online with the following connection:";
 hangup_offline = "The connection has been disconnected.";
-hangup_info = "To continue with this wizard, the online connection must be disconnected.\n\n"
+hangup_info = "To continue with this wizard, the dial-up connection must be disconnected.\n\n"
               "To disconnect the connection now, click Disconnect.";
 hangup_disco = "Disconnect";
 
@@ -602,7 +651,7 @@ port_forwarding_fritz = "You activate port forwarding in your FRITZ!Box by allow
 
 / crash dump
 query_crash_dump_upload = "An unhandled exception has occurred in %p. The program terminates now.\n\n"
-                          "Do you wish to upload a crash dump to cFos, which helps us to analyze the error?";
+                          "Do you wish to send a crash dump to cFos, which helps us to analyze the error?";
 
 /start installation dialog
 start_header = "Installation";
@@ -616,7 +665,7 @@ progress_inst_wait = "Please wait until the installation is complete.";
 progress_uninst_header = "Uninstall";
 progress_uninst_subheader = "The uninstallation is in progress.";
 progress_uninst_wait = "Please wait until the uninstall process is complete.";
-progress_driver_wait = "Please wait while the operating system (un-)installs the driver. This may take several minutes.";
+progress_driver_wait = "Please wait while the operating system either installs or uninstalls the driver. This may take several minutes.";
 
 / confirm delete dialog
 conf_del_header = "Delete Configuration Files";
@@ -727,7 +776,7 @@ err_os = "Your operating system is %?.\n\n"
 err_os_minxp = "Your operating system is %?.\n\n"
          "%? requires Windows XP or higher to run.";
 err_uninst_driver = "The device driver could not be uninstalled.";
-err_create_process = "Error calling %s: %s";
+err_create_process = "Error starting %s: %s";
 err_write_lock = "%? network components are in use by another process. "
                  "Please close all other applications or reboot your computer and retry.";
 err_file_auth = "Some files of this distribution are corrupt or missing.\n"
@@ -814,7 +863,7 @@ vista_warn_image = "vista_en.bmp";
 dun_wizard_name = "%p Connection Wizard";
 connections = "Connections";
 dun_subheader = "Set up a connection.";
-dun_with_bc = " with cFosBC";
+dun_with_bc = " with cFos Broadband Connect";
 dun_reenter_password = "Please re-enter password";
 dun_list_tonline = "new T-Online connection";
 dun_new_connection = "Setup new connection";
@@ -830,3 +879,31 @@ eml_invalid_email = "The e-mail address you've entered is invalid.";
 eml_invalid_optional_email = "Please enter a valid e-mail address or no address at all.";
 eml_reg_failed = "E-mail address registration failed.";
 eml_checking_domain = "Checking e-mail domain...";
+
+/ "360safe" ---- only the Chinese translations are needed ----
+wrn_unknown_360 = "Unknown version of 360safe found. Please make sure\n"
+                  "you have the latest version of 360safe installed.";
+err_360_too_old = "The version of 360safe on this computer is too old and\n"
+                  "will not work properly together with %p. Please get the\n"
+                  "latest version of 360safe and perform these steps\n"
+                  "in the following order:\n"
+                  "1. Uninstall 360safe\n"
+                  "2. Install %p\n"
+                  "3. Install the latest version of 360safe";
+wrn_360_might_fail = "The program 360safe has been found on this computer.\n"
+                     "The installation of %p might fail while 360safe is\n"
+                     "running. If the installation of %p fails, please get\n"
+                     "the latest version of 360safe and perform these steps\n"
+                     "in the following order:\n"
+                     "1. Uninstall 360safe\n"
+                     "2. Install %p\n"
+                     "3. Install the latest version of 360safe";
+err_360_device_opened = "%p cannot be installed because the following programs still\n"
+                        "have opened the %p device driver:\n"
+                        "%?\n"
+                        "This is probably so because the program 360safe is running\n"
+                        "on this computer. To install %p, please get the latest version\n"
+                        "of 360safe and perform these steps in the following order:\n"
+                        "1. Uninstall 360safe\n"
+                        "2. Install %p\n"
+                        "3. Install the latest version of 360safe";
