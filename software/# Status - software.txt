@@ -1,8 +1,54 @@
 
 
+	Software translation status:
 
-Proofreading status:
-=================
+	[V] - in gratis.html		[x] - no need for the translation	[tab indention = 6]
+	[p] - proofreading stage	[f] - finished
 
-tr -  1055 - proofreaded almost all strings (12.01.2013)
-zh_cn - 2052 - sent all for proofreading
+status  |     lang id          |     status description      |  untransl. |         proofreading status            |              notes
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+[V]	bg - 1026		in gratis		?
+[V]	cs - 1029		in gratis		?
+[V]	el - 1032		in gratis		?
+[V]	es - 1034		in gratis		?
+[V]	th - 1054				?
+[ ]	ar - 1025				?	handled by the translator	translated only by Mussa Salem
+[ ]	zh-tw - 1028			?
+[x]	da - 1030		no need		?
+[ ]	fr - 1036				?
+[ ]	he - 1037				?
+[ ]	hu - 1038				?
+[ ]	Iit - 1040				?
+[ ]	ja - 1041				?
+[ ]	ko - 1042				?
+[ ]	nl - 1043				?
+[x]	no - 1044		no need		?
+[ ]	pl - 1045				?
+[ ]	pt-br - 1046			?
+[ ]	ro - 1048				?
+[ ]	ru - 1049				?	done (20.04.2013)
+[ ]	sv - 1053				?
+[ ]	tr - 1055				?	done (12.01.2013)
+[ ]	iid - 1057				?
+[x]	ua - 1058		no need		?
+[ ]	be - 1059				?
+[ ]	sl - 1060				?
+[ ]	et - 1061				?
+[ ]	vi - 1066				?
+[ ]	mk - 1071				?
+[x]	hi - 1081		no need		?
+[ ]	farsi - 1256			?
+[ ]	zh-cn - 2052			?
+[x]	de-ch - 2055	no need		?
+[x]	en-gb - 2057	no need		?
+[ ]	es-mx - 2058			?
+[x]	iit-ch - 2064 	no need		?
+[V]	pt - 2070		in gratis 		?
+[V]	sr-cs-latn - 2074	in gratis 		?
+[ ]	sr-cyrl-cs - 3098			?
+[x]	zh-hk - 3076	no need		?
+[x]	en-au - 3081	no need		?
+[x]	fr-ca - 3084	no need		?
+[x]	en-ca - 4105 	no need		?
+[x]	fr-ch - 4108	no need		?
+[x]	en-us - 49161	no need		?
