@@ -1,12 +1,6 @@
 
 / strings, which should be updated in all files
 
-#date 2013-05-20
+#date year-month-day
 
-videos_text4 = "cFosSpeed \"Automatic RWIN expansion\" feature keeps your CYGWIN SCP downloads fast";
-videos_text5 = "cFosSpeed \"Automatic RWIN expansion\" feature keeps your Mozilla Firefox downloads fast";
-videos_text6 = "cFosSpeed \"Automatic RWIN expansion\" feature keeps your Internet Explorer downloads fast";
-->
-videos_text4 = "cFosSpeed Automatic RWIN expansion feature keeps your CYGWIN SCP downloads fast";
-videos_text5 = "cFosSpeed Automatic RWIN expansion feature keeps your Mozilla Firefox downloads fast";
-videos_text6 = "cFosSpeed Automatic RWIN expansion feature keeps your Internet Explorer downloads fast";
+emoty
