@@ -3,4 +3,4 @@
 
 #date year-month-day
 
-emoty
+empty
