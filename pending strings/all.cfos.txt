@@ -1,6 +1,12 @@
 
 / strings, which should be updated in all files
 
-#date year-month-day
+/ #date year-month-day
 
-empty
+#date 2013-06-17
+
+pnet_doc_misc_l4 = "Edit the <em>.htaccess</em> file in the directories where your Perl scripts are. Or, to enable Perl scripts globally, edit the <em>.htaccess</em> file in the document root directory or in <em>c:\\programdata\\cfos\\cfospnet\\private</em>. Add the following directive:<br/><b>AddHandler cgi-file pl</b>";
+		AddHandler cgi-file -> AddHandler cgi-script
+
+pnet_doc_misc_l11 = "Edit the <em>.htaccess</em> file in the directories where your PHP scripts are. Or, to enable PHP scripts globally, edit the <em>.htaccess</em> file in the document root directory or in <em>c:\\programdata\\cfos\\cfospnet\\private</em>. Add the following directive:<br/><b>AddHandler php-file php</b>";
+		AddHandler php-file -> AddHandler php-script
