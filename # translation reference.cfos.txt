@@ -55,6 +55,9 @@ Follow (о соц. сетях) = Следить за
 beta version = бета-версия
 beta = бета-версия
 Disclaimer = отказ от ответственности
+Webserver = веб-сервер
+trace files = trace-файлы
+crashdump = аварийный дамп памяти
 
 IP adress, SMTP Server = пишется через дефис (IP-адрес, SMTP-сервер)
 VoiP = IP-телефония
