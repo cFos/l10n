@@ -58,6 +58,7 @@ Disclaimer = отказ от ответственности
 Webserver = веб-сервер
 trace files = trace-файлы
 crashdump = аварийный дамп памяти
+crash = аварийное завершение программы
 
 IP adress, SMTP Server = пишется через дефис (IP-адрес, SMTP-сервер)
 VoiP = IP-телефония
