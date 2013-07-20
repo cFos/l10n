@@ -10,3 +10,23 @@ pnet_doc_misc_l4 = "Edit the <em>.htaccess</em> file in the directories where yo
 
 pnet_doc_misc_l11 = "Edit the <em>.htaccess</em> file in the directories where your PHP scripts are. Or, to enable PHP scripts globally, edit the <em>.htaccess</em> file in the document root directory or in <em>c:\\programdata\\cfos\\cfospnet\\private</em>. Add the following directive:<br/><b>AddHandler php-file php</b>";
 		AddHandler php-file -> AddHandler php-script
+
+#date 2013-07-04
+
+cont_cont_p8
+	</img> tag is probably wrong
+
+	f_checkbox_license_text_pnetbnd = "I have read the license agreements for <a class=\"inline\" href=\"/en/cfos-personal-net/license.shtml\" target=\"_blank\">cFos Personal Net</a> and <a class=\"inline\" href=\"/en/cfosspeed/license.shtml\" target=\"_blank\">cFosSpeed </a> and accept their terms and conditions.";
+		remove space after cFosSpeed
+
+#date 2013-07-15
+f_checkbox_license_text_bconnect = "I have read the <a class=\"inline\" href=\"/en/broadband-connect/license.shtml\" target=\"_blank\">cFos Broadband Connect license agreement</a> and accept its terms and conditions.";
+f_checkbox_license_text_cfos = "I have read the <a class=\"inline\" href=\"/en/cfos-professional/license.shtml\" target=\"_blank\">cFos license agreement</a> and accept its terms and conditions.";
+f_checkbox_license_text_ipv6 = "I have read the<a class=\"inline\" href=\"/en/cfos-ipv6-link/license.shtml\" target=\"_blank\">cFos IPv6 Link Licence agreement</a> and accept it.";
+f_checkbox_license_text_speed = "I have read the <a class=\"inline\" href=\"/en/cfosspeed/license.shtml\" target=\"_blank\">cFosSpeed license agreement</a> and accept its terms and conditions.";
+f_checkbox_license_text_pnet = "I have read the <a class=\"inline\" href=\"/en/cfos-personal-net/license.shtml\" target=\"_blank\">cFos Personal Net license agreement</a> and accept its terms and conditions.";
+f_checkbox_license_text_pnetbnd = "I have read the license agreements for <a class=\"inline\" href=\"/en/cfos-personal-net/license.shtml\" target=\"_blank\">cFos Personal Net</a> and <a class=\"inline\" href=\"/en/cfosspeed/license.shtml\" target=\"_blank\">cFosSpeed </a> and accept their terms and conditions.";
+		.shtml -> .htm
+
+legal_note_text = "Our licensing conditions do explicitly permit putting the most recently released shareware versions of cFos, cFos Broadband Connect, cfos IPv6 Link and cFosSpeed on free CDs for inclusion with magazines.  For more on licensing issues, please consult our <a href=\"/en/cfosspeed/license.shtml\">LICENSE.TXT</a> file.  Both text and artwork on our web site may be used for press and review purposes.";
+		.shtml -> .htm
