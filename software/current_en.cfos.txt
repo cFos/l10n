@@ -14,6 +14,14 @@ htm_lang_prefix = "en";
 
 / ----------------------------------------------------------------------
 /
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+outlook_caldav_desc = "%p";
+
+/ ----------------------------------------------------------------------
+/
 /  6link / broadband connect / pnet
 /
 / ----------------------------------------------------------------------
@@ -165,6 +173,7 @@ speed_guide_url = "http://www.cfos.de/en/traffic-shaping/speed-guide.htm";
 after_calibration_new = "http://www.cfos.de/en/traffic-shaping/calibration-message.htm";
 expiration_cfosspeed_new_htm = "http://www.cfos.de/en/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/en/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "http://www.cfos.de/en/cfosspeed/documentation/status.htm";
 
 auth_failed = "The consistency check has detected that one or more components have been modified.\n"
    "Please install an unmodified version from our website:\n";
@@ -215,7 +224,7 @@ openwindows = "Show Windows";
 closewindow = "Hide Window";
 closewindows = "Hide Windows";
 autoopen = "Auto-show/Auto-hide";
-taskbaricon = "Taskbar Icon";
+taskbaricon = "System Tray Icon";
 autoarrange = "Auto-arrange windows";
 effects = "Effects";
 blend_effect = "Fade windows";
@@ -274,8 +283,8 @@ media_streaming = "Media Streaming";
 file_sharing = "File Sharing";
 special = "Special";
 other = "Other";
-misc_high_short= "Misc. High";
-misc_high= "Miscellaneous high prioritized traffic";
+misc_high_short = "Misc. High";
+misc_high = "Miscellaneous high prioritized traffic";
 hint = "Hint";
 hint_text = "Prioritization will work properly only if as little data as possible is given high priority. Give programs sending out large amounts of data low priority. Protocol prioritization is done before program prioritization.";
 prio_doc_link = "How the prioritization scheme works";
@@ -315,7 +324,7 @@ favor_ping = "Favor Ping Time";
 favor_ping_help = "<b>On</b>: %p will minimize ping times at the expense of slightly reduced bandwidth (if necessary).<br /><b>Off</b>: %p will maximize bandwidth at the expense of slightly higher ping times (if necessary).";
 favor_bandwidth = "Favor Bandwidth";
 avoid_loss = "Packet loss avoidance";
-avoid_loss_help = "%p closes TCP receive windows for receiving streams if too much packet loss is detected. This only happens when your connection are receiving with full speed.";
+avoid_loss_help = "%p closes TCP receive windows for receiving streams if too much packet loss is detected. This only happens when your connections are receiving with full speed. (Recommended for improved Traffic Shaping of downloads)";
 activate_firewall = "Activate Firewall";
 activate_firewall_help = "Protection against network intrusions by means of filtering dangerous packets, state inspection and stealth mode.";
 mtu_opt = "Automatic MSS (MTU) optimization";
@@ -372,7 +381,7 @@ no_ports_open_help = "Currently, there is no connection established that is hand
    "To change the default settings for new connections, click on the \"Default for new connections\" tab, "
    "to change settings for other connections, click on \"Traffic Shaping\" on the left side.";
 ok = "OK";
-connection_medium = "Medium";
+connection_medium = "Broadband Medium";
 connection_type = "Traffic Shaping Mode";
 driver_not_loaded = "Driver not loaded!";
 demon_driver_not_loaded = "Driver not loaded!\n"
@@ -500,6 +509,7 @@ check_for_news = "Check for news";
 rwin_expansion = "Automatic RWIN expansion";
 rwin_expansion_help = "Automatically expand TCP Receive Window to increase download speed if the RWIN selected by Windows is too low.";
 query_auto_open = "Disable automatic opening and closing of the status window?\nYou can re-enable it later in the context menu.";
+preview_skins = "Preview Skins";
 
 
 / ----------------------------------------------------------------------
@@ -644,9 +654,14 @@ port_forwarding_config = "You can configure your router at %?.";
 port_forwarding_fritz = "You activate port forwarding in your FRITZ!Box by allowing changes of security settings via UPnP "
                         "under Home Network / Network / Programs";
 
-/ crash dump
-query_crash_dump_upload = "An unhandled exception has occurred in %p. The program terminates now.\n\n"
-                          "Do you wish to send a crash dump to cFos, which helps us to analyze the error?";
+/ crash handler messages
+crash_msg_crash = "An unhandled exception has occurred in %p.";
+crash_msg_crash_installer = "An unhandled exception has occurred in the %p installation program.";
+crash_msg_virus = "The following module has injected itself into this program and might be a cause for the crash:";
+crash_msg_virus_clean = "This module might be a virus. Therefore it is highly recommended to run a virus scan on your system.";
+crash_msg_hook = "Modules of other programs have been found, that have injected themselves into this program. To make sure that these modules are not the cause of the crash, please run this program again after deactivating or uninstalling the following programs:";
+crash_msg_terminate = "The program terminates now.";
+crash_msg_query_upload = "Do you wish to send a crash dump to cFos, which helps us to analyze the error?";
 
 /start installation dialog
 start_header = "Installation";
@@ -732,7 +747,7 @@ speed_pg_name = "%p Traffic Shaping";
 pg_uninstall = "Uninstall %?";
 pg_www = "www.cfos.de";
 pg_console = "%p console";
-pg_start = "Start %p window";
+pg_start = "Start %p status window";
 pg_menu = "%? menu";
 pg_add_connection = "Add connection";
 pg_enter_serial_number = "Enter serial number";
@@ -874,31 +889,3 @@ eml_invalid_email = "The e-mail address you've entered is invalid.";
 eml_invalid_optional_email = "Please enter a valid e-mail address or no address at all.";
 eml_reg_failed = "E-mail address registration failed.";
 eml_checking_domain = "Checking e-mail domain...";
-
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "Unknown version of 360safe found. Please make sure\n"
-                  "you have the latest version of 360safe installed.";
-err_360_too_old = "The version of 360safe on this computer is too old and\n"
-                  "will not work properly together with %p. Please get the\n"
-                  "latest version of 360safe and perform these steps\n"
-                  "in the following order:\n"
-                  "1. Uninstall 360safe\n"
-                  "2. Install %p\n"
-                  "3. Install the latest version of 360safe";
-wrn_360_might_fail = "The program 360safe has been found on this computer.\n"
-                     "The installation of %p might fail while 360safe is\n"
-                     "running. If the installation of %p fails, please get\n"
-                     "the latest version of 360safe and perform these steps\n"
-                     "in the following order:\n"
-                     "1. Uninstall 360safe\n"
-                     "2. Install %p\n"
-                     "3. Install the latest version of 360safe";
-err_360_device_opened = "%p cannot be installed because the following programs still\n"
-                        "have opened the %p device driver:\n"
-                        "%?\n"
-                        "This is probably so because the program 360safe is running\n"
-                        "on this computer. To install %p, please get the latest version\n"
-                        "of 360safe and perform these steps in the following order:\n"
-                        "1. Uninstall 360safe\n"
-                        "2. Install %p\n"
-                        "3. Install the latest version of 360safe";
