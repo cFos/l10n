@@ -20,6 +20,7 @@ cont_cont_p8
 		remove space after cFosSpeed
 
 #date 2013-07-15
+
 f_checkbox_license_text_bconnect = "I have read the <a class=\"inline\" href=\"/en/broadband-connect/license.shtml\" target=\"_blank\">cFos Broadband Connect license agreement</a> and accept its terms and conditions.";
 f_checkbox_license_text_cfos = "I have read the <a class=\"inline\" href=\"/en/cfos-professional/license.shtml\" target=\"_blank\">cFos license agreement</a> and accept its terms and conditions.";
 f_checkbox_license_text_ipv6 = "I have read the<a class=\"inline\" href=\"/en/cfos-ipv6-link/license.shtml\" target=\"_blank\">cFos IPv6 Link Licence agreement</a> and accept it.";
@@ -30,3 +31,8 @@ f_checkbox_license_text_pnetbnd = "I have read the license agreements for <a cla
 
 legal_note_text = "Our licensing conditions do explicitly permit putting the most recently released shareware versions of cFos, cFos Broadband Connect, cfos IPv6 Link and cFosSpeed on free CDs for inclusion with magazines.  For more on licensing issues, please consult our <a href=\"/en/cfosspeed/license.shtml\">LICENSE.TXT</a> file.  Both text and artwork on our web site may be used for press and review purposes.";
 		.shtml -> .htm
+
+#date 2013-08-03
+
+pnet_doc_access_p1 = "cFos PNet evaluates configuration files, called AccessFiles. By default they are named <em>.htaccess</em>. So called directives therein control the behaviour of cFos PNet for the particular folder (and all subfolder thereof) where they are located. The first <em>.htaccess</em> file is located in the <em>private</em> folder and contains all initial settings. If the a client requests a certain url, say <b>/test/x/file1.txt</b>, all <em>.htaccess</em> files are evaluated for all folders the url mentions. In this example first <em>.htaccess</em> of the <em>private</em> folder is evaluated, then <em>.htaccess</em> of folder <em>pub</em>, then of folder <em>test</em>, then <em>.htaccess</em> or folder <em>x</em>.<br/>All directives are cumulative, ie. they are added or overwritten, but not deleted.";
+	<em>.htaccess</em> or folder <em>x</em> -> <em>.htaccess</em> of folder <em>x</em>
