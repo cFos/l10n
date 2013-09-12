@@ -3,6 +3,7 @@
 
 / #date year-month-day
 
+
 #date 2013-06-17
 
 pnet_doc_misc_l4 = "Edit the <em>.htaccess</em> file in the directories where your Perl scripts are. Or, to enable Perl scripts globally, edit the <em>.htaccess</em> file in the document root directory or in <em>c:\\programdata\\cfos\\cfospnet\\private</em>. Add the following directive:<br/><b>AddHandler cgi-file pl</b>";
@@ -11,6 +12,7 @@ pnet_doc_misc_l4 = "Edit the <em>.htaccess</em> file in the directories where yo
 pnet_doc_misc_l11 = "Edit the <em>.htaccess</em> file in the directories where your PHP scripts are. Or, to enable PHP scripts globally, edit the <em>.htaccess</em> file in the document root directory or in <em>c:\\programdata\\cfos\\cfospnet\\private</em>. Add the following directive:<br/><b>AddHandler php-file php</b>";
 		AddHandler php-file -> AddHandler php-script
 
+
 #date 2013-07-04
 
 cont_cont_p8
@@ -18,6 +20,7 @@ cont_cont_p8
 
 	f_checkbox_license_text_pnetbnd = "I have read the license agreements for <a class=\"inline\" href=\"/en/cfos-personal-net/license.shtml\" target=\"_blank\">cFos Personal Net</a> and <a class=\"inline\" href=\"/en/cfosspeed/license.shtml\" target=\"_blank\">cFosSpeed </a> and accept their terms and conditions.";
 		remove space after cFosSpeed
+
 
 #date 2013-07-15
 
@@ -32,7 +35,27 @@ f_checkbox_license_text_pnetbnd = "I have read the license agreements for <a cla
 legal_note_text = "Our licensing conditions do explicitly permit putting the most recently released shareware versions of cFos, cFos Broadband Connect, cfos IPv6 Link and cFosSpeed on free CDs for inclusion with magazines.  For more on licensing issues, please consult our <a href=\"/en/cfosspeed/license.shtml\">LICENSE.TXT</a> file.  Both text and artwork on our web site may be used for press and review purposes.";
 		.shtml -> .htm
 
+
 #date 2013-08-03
 
 pnet_doc_access_p1 = "cFos PNet evaluates configuration files, called AccessFiles. By default they are named <em>.htaccess</em>. So called directives therein control the behaviour of cFos PNet for the particular folder (and all subfolder thereof) where they are located. The first <em>.htaccess</em> file is located in the <em>private</em> folder and contains all initial settings. If the a client requests a certain url, say <b>/test/x/file1.txt</b>, all <em>.htaccess</em> files are evaluated for all folders the url mentions. In this example first <em>.htaccess</em> of the <em>private</em> folder is evaluated, then <em>.htaccess</em> of folder <em>pub</em>, then of folder <em>test</em>, then <em>.htaccess</em> or folder <em>x</em>.<br/>All directives are cumulative, ie. they are added or overwritten, but not deleted.";
 	<em>.htaccess</em> or folder <em>x</em> -> <em>.htaccess</em> of folder <em>x</em>
+
+
+#date 2013-09-12
+
+cfout_h1_v2 = "Cloud synchronisation of your Outlook calendar, tasks and contacts";
+cfout_p1a = "cFos Outlook DAV is an Outlook Add-in to connect to calendar and contact folders on a CalDAV/CardDAV server in the cloud.";
+cfout_p1a2 = "For home hosted solutions you might want to try out <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\"><b>cFos Personal Net's</b></a> CalDAV/CardDAV services. ";
+cfout_p1d = "The final release will be available for about 10 Euro.";
+cfout_l4_v2 = "Task and contacts synchronisation work exactly like appointment synchronisation. Right-click on the task folder and configure the URL and user name/password as with appointments. You can use the same URL, user name, password as with your appointments. However, for tasks this does not work with google (see below).";
+cfout_p2 = "For <b class=\"green\">cFos Personal Net</b> the CalDAV/CardDAV URL is http://<b>your_pnet_domain</b>/private/<b>your_user_name</b>/caldav_personal, where <b>your_pnet_domain</b> is the domain or IP address of your cFos Personal Net server or localhost or a local IP address in your LAN. <b>your_user_name</b> is the name of owner of the calendar, e.g. <b>admin</b>.";
+cfout_p3a = "For <b class=\"green\">google Calendar</b> the URL is https://www.google.com/calendar/dav/<b>your_google_calendar_id</b>/events (make sure that your URL is of the \"https\" protocol, because \"http\" addresses will not work). <b>you_google_calendar_id</b> for your primary calendar is your Google email address. However, for all other calendars, the calendar ID has the format <b>[long_string]@group.calendar.google.com</b>.";
+cfout_p3c = "As user name and password use the same information as for other google services.";
+cfout_p3f = "<b class=\"green\">Contacts Synchronisation</b> with google: For google contacts the URL is <b>https://www.googleapis.com/carddav/v1/principals/your_google_username/lists/default/</b>.";
+cfout_p4_v2 = "For a <b class=\"green\">DAViCal calendar</b> the URL is <b>http://your_davical_server/caldav.php/your_davical_account/calendar</b>, for <b class=\"green\">DAViCal contacts</b> the URL is <b>http://your_davical_server/caldav.php/your_davical_account/addresses</b>, where <b>your_davical_server</b> is the domain or IP address of your DAViCal server. <b>your_davical_account</b> is the username for this server and the password is the one assigned to this user.";
+cfout_p5a_v2 = "When you start Outlook, cFos Outlook DAV tries to synchronize all data of your Outlook folders with the CalDAV/CardDAV server. If something on the server has changed, the changes are reflected in your Outlook folders.";
+cfout_p5b_v2 = "So data added or modified on the server will be added or modified in your local folder. Data deleted on the server will be deleted in your local folder. This synchronisation is done every <b>n</b> minutes depending on the sync interval you specified in the folder setup.";
+cfout_p6_v3 = "Whenever you add, change or delete an event in your local folders you can update the server data by using the \"Sync All\" button in the ribbon. You should consider doing the same before closing Outlook.";
+cfout_p7a_v2 = "The folder configuration data is stored in the directory <em>c:\\users\\your_username\\appdata\\local\\cfos\\outlook_dav</em>. The directory <em>c:\\programdata\\cfos\\outlook_dav</em> contains <em>folder_setup.hta</em>, so you can later change your configuration.";
+	updated strings. See commit SHA ID: 40ec87a7df48c2c4ecf6fe87c798a21ada513d72
