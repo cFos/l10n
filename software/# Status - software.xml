@@ -5,50 +5,50 @@
   G - in gratis.html  x - no need for the translation
   p - proofreading stage  f - finished
 
-| # |      lang id      | status description | untransl. |    proofreading status    |             notes              |
-|===|===================|====================|===========|===========================|================================|
-| G | bg - 1026         | in gratis          | ?         |                           |                                |
-| G | cs - 1029         | in gratis          | ?         |                           |                                |
-| G | el - 1032         | in gratis          | ?         |                           |                                |
-| G | es - 1034         | in gratis          | ?         |                           |                                |
-| G | th - 1054         |                    | ?         |                           |                                |
-|   | ar - 1025         |                    | ?         | handled by the translator | translated only by Mussa Salem |
-|   | zh-tw - 1028      |                    | ?         |                           |                                |
-| x | da - 1030         | no need            | ?         |                           |                                |
-|   | fr - 1036         |                    | ?         |                           |                                |
-|   | he - 1037         |                    | ?         |                           |                                |
-|   | hu - 1038         |                    | ?         |                           |                                |
-|   | it - 1040         |                    | ?         |                           |                                |
-|   | ja - 1041         |                    | ?         |                           |                                |
-|   | ko - 1042         |                    | ?         |                           |                                |
-|   | nl - 1043         |                    | ?         |                           |                                |
-| x | no - 1044         | no need            | ?         |                           |                                |
-|   | pl - 1045         |                    | ?         |                           |                                |
-|   | pt-br - 1046      |                    | ?         | in progress (400 done)    |                                |
-|   | ro - 1048         |                    | ?         |                           |                                |
-|   | ru - 1049         |                    | 0         | done (22.04.2013)         |                                |
-|   | sv - 1053         |                    | ?         | done (12.01.2013)         |                                |
-|   | tr - 1055         |                    | ?         |                           |                                |
-|   | id - 1057         |                    | ?         |                           |                                |
-| x | ua - 1058         | no need            | ?         |                           |                                |
-|   | be - 1059         |                    | ?         |                           |                                |
-|   | sl - 1060         |                    | ?         |                           |                                |
-|   | et - 1061         |                    | ?         |                           |                                |
-|   | vi - 1066         |                    | ?         |                           |                                |
-|   | mk - 1071         |                    | ?         |                           |                                |
-| x | hi - 1081         | no need            | ?         |                           |                                |
-|   | farsi - 1256      |                    | ?         |                           |                                |
-|   | zh-cn - 2052      |                    | ?         |                           |                                |
-| x | de-ch - 2055      | no need            | ?         |                           |                                |
-| x | en-gb - 2057      | no need            | ?         |                           |                                |
-|   | es-mx - 2058      |                    | ?         |                           |                                |
-| x | it-ch - 2064      | no need            | ?         |                           |                                |
-| G | pt - 2070         | in gratis          | ?         |                           |                                |
-| G | sr-cs-latn - 2074 | in gratis          | ?         |                           |                                |
-|   | sr-cyrl-cs - 3098 |                    | ?         |                           |                                |
-| x | zh-hk - 3076      | no need            | ?         |                           |                                |
-| x | en-au - 3081      | no need            | ?         |                           |                                |
-| x | fr-ca - 3084      | no need            | ?         |                           |                                |
-| x | en-ca - 4105      | no need            | ?         |                           |                                |
-| x | fr-ch - 4108      | no need            | ?         |                           |                                |
-| x | en-us - 49161     | no need            | ?         |                           |                                |
+| # |      lang id      | status description | untransl. |                      proofreading status                      |             notes              |
+|===|===================|====================|===========|===============================================================|================================|
+| G | bg - 1026         | in gratis          | ?         |                                                               |                                |
+| G | cs - 1029         | in gratis          | ?         |                                                               |                                |
+| G | el - 1032         | in gratis          | ?         |                                                               |                                |
+| G | es - 1034         | in gratis          | ?         |                                                               |                                |
+| G | th - 1054         |                    | ?         |                                                               |                                |
+|   | ar - 1025         |                    | ?         | handled by the translator                                     | translated only by Mussa Salem |
+|   | zh-tw - 1028      |                    | ?         |                                                               |                                |
+| x | da - 1030         | no need            | ?         |                                                               |                                |
+|   | fr - 1036         |                    | ?         |                                                               |                                |
+|   | he - 1037         |                    | ?         |                                                               |                                |
+|   | hu - 1038         |                    | ?         |                                                               |                                |
+|   | it - 1040         |                    | ?         | proofread 750 strings by massimocastiglia@alice.it 2013-09-30 |                                |
+|   | ja - 1041         |                    | ?         |                                                               |                                |
+|   | ko - 1042         |                    | ?         |                                                               |                                |
+|   | nl - 1043         |                    | ?         |                                                               |                                |
+| x | no - 1044         | no need            | ?         |                                                               |                                |
+|   | pl - 1045         |                    | ?         |                                                               |                                |
+|   | pt-br - 1046      |                    | ?         | in progress (400 done)                                        |                                |
+|   | ro - 1048         |                    | ?         |                                                               |                                |
+|   | ru - 1049         |                    | 0         | done (22.04.2013)                                             |                                |
+|   | sv - 1053         |                    | ?         | done (12.01.2013)                                             |                                |
+|   | tr - 1055         |                    | ?         |                                                               |                                |
+|   | id - 1057         |                    | ?         |                                                               |                                |
+| x | ua - 1058         | no need            | ?         |                                                               |                                |
+|   | be - 1059         |                    | ?         |                                                               |                                |
+|   | sl - 1060         |                    | ?         |                                                               |                                |
+|   | et - 1061         |                    | ?         |                                                               |                                |
+|   | vi - 1066         |                    | ?         |                                                               |                                |
+|   | mk - 1071         |                    | ?         |                                                               |                                |
+| x | hi - 1081         | no need            | ?         |                                                               |                                |
+|   | farsi - 1256      |                    | ?         |                                                               |                                |
+|   | zh-cn - 2052      |                    | ?         |                                                               |                                |
+| x | de-ch - 2055      | no need            | ?         |                                                               |                                |
+| x | en-gb - 2057      | no need            | ?         |                                                               |                                |
+|   | es-mx - 2058      |                    | ?         |                                                               |                                |
+| x | it-ch - 2064      | no need            | ?         |                                                               |                                |
+| G | pt - 2070         | in gratis          | ?         |                                                               |                                |
+| G | sr-cs-latn - 2074 | in gratis          | ?         |                                                               |                                |
+|   | sr-cyrl-cs - 3098 |                    | ?         |                                                               |                                |
+| x | zh-hk - 3076      | no need            | ?         |                                                               |                                |
+| x | en-au - 3081      | no need            | ?         |                                                               |                                |
+| x | fr-ca - 3084      | no need            | ?         |                                                               |                                |
+| x | en-ca - 4105      | no need            | ?         |                                                               |                                |
+| x | fr-ch - 4108      | no need            | ?         |                                                               |                                |
+| x | en-us - 49161     | no need            | ?         |                                                               |                                |

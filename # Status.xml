@@ -5,50 +5,50 @@
   G - in gratis.html  x - no need for the translation
   p - proofreading stage  f - finished
 
-| # |      lang id      |   status  | untransl. |              proofreading status              |             notes              |
-|===|===================|===========|===========|===============================================|================================|
-| G | bg - 1026         | in gratis |           |                                               |                                |
-| G | cs - 1029         | in gratis |           |                                               |                                |
-| G | el - 1032         | in gratis |           |                                               |                                |
-| G | es - 1034         | in gratis |           |                                               |                                |
-| G | th - 1054         |           | 380       |                                               |                                |
-|   | ar - 1025         |           |           | handled by the translator                     | translated only by Mussa Salem |
-|   | zh-tw - 1028      |           | 190       |                                               |                                |
-| x | da - 1030         | no need   | all       |                                               |                                |
-|   | fr - 1036         |           |           | about to start                                |                                |
-|   | he - 1037         |           | 1900      |                                               |                                |
-| G | hu - 1038         |           | 500       |                                               |                                |
-| G | it - 1040         |           | 1400      |                                               |                                |
-| G | ja - 1041         |           | 1600      |                                               |                                |
-|   | ko - 1042         |           | 1200      |                                               |                                |
-|   | nl - 1043         |           | 600       |                                               |                                |
-| x | no - 1044         | no need   | all       |                                               |                                |
-|   | pl - 1045         |           | 240       |                                               |                                |
-|   | pt-br - 1046      |           | 200       | in progress (400 done)                        |                                |
-|   | ro - 1048         |           | 1400      |                                               |                                |
-|   | ru - 1049         |           | 200       |                                               |                                |
-|   | sv - 1053         |           | 1200      |                                               |                                |
-|   | tr - 1055         |           | 260       | better to start again                         |                                |
-|   | id - 1057         |           | 380       | about to start                                |                                |
-| x | ua - 1058         | no need   | all       |                                               |                                |
-|   | be - 1059         |           | 1600      |                                               |                                |
-|   | sl - 1060         |           | 1500      |                                               |                                |
-|   | et - 1061         |           | 2k        |                                               |                                |
-|   | vi - 1066         |           | 270       | in work (almost half) - better to start again |                                |
-|   | mk - 1071         |           | 1300      |                                               |                                |
-| x | hi - 1081         | no need   | all       |                                               |                                |
-|   | farsi - 1256      |           | all       |                                               |                                |
-|   | zh-cn - 2052      |           | 330       | proofread random parts                        |                                |
-| x | de-ch - 2055      | no need   | all       |                                               |                                |
-| x | en-gb - 2057      | no need   | all       |                                               |                                |
-|   | es-mx - 2058      |           | 1740      |                                               |                                |
-| x | it-ch - 2064      | no need   | all       |                                               |                                |
-| G | pt - 2070         | in gratis | 1200      |                                               |                                |
-| G | sr-cs-latn - 2074 | in gratis | all       |                                               |                                |
-|   | sr-cyrl-cs - 3098 |           | all       |                                               |                                |
-| x | zh-hk - 3076      | no need   | all       |                                               |                                |
-| x | en-au - 3081      | no need   | all       |                                               |                                |
-| x | fr-ca - 3084      | no need   | all       |                                               |                                |
-| x | en-ca - 4105      | no need   | all       |                                               |                                |
-| x | fr-ch - 4108      | no need   | all       |                                               |                                |
-| x | en-us - 49161     | no need   | all       |                                               |                                |
+| # |      lang id      |   status  | untransl. |                      proofreading status                       |             notes              |
+|===|===================|===========|===========|================================================================|================================|
+| G | bg - 1026         | in gratis |           |                                                                |                                |
+| G | cs - 1029         | in gratis |           |                                                                |                                |
+| G | el - 1032         | in gratis |           |                                                                |                                |
+| G | es - 1034         | in gratis |           |                                                                |                                |
+| G | th - 1054         |           | 380       |                                                                |                                |
+|   | ar - 1025         |           |           | handled by the translator                                      | translated only by Mussa Salem |
+|   | zh-tw - 1028      |           | 190       |                                                                |                                |
+| x | da - 1030         | no need   | all       |                                                                |                                |
+|   | fr - 1036         |           |           | about to start                                                 |                                |
+|   | he - 1037         |           | 1900      |                                                                |                                |
+| G | hu - 1038         |           | 500       |                                                                |                                |
+| G | it - 1040         |           | 400       | proofread 1560 strings by massimocastiglia@alice.it 2013-09-30 |                                |
+| G | ja - 1041         |           | 1600      |                                                                |                                |
+|   | ko - 1042         |           | 1200      |                                                                |                                |
+|   | nl - 1043         |           | 600       |                                                                |                                |
+| x | no - 1044         | no need   | all       |                                                                |                                |
+|   | pl - 1045         |           | 240       |                                                                |                                |
+|   | pt-br - 1046      |           | 200       | in progress (400 done)                                         |                                |
+|   | ro - 1048         |           | 1400      |                                                                |                                |
+|   | ru - 1049         |           | 200       |                                                                |                                |
+|   | sv - 1053         |           | 1200      |                                                                |                                |
+|   | tr - 1055         |           | 260       | better to start again                                          |                                |
+|   | id - 1057         |           | 380       | about to start                                                 |                                |
+| x | ua - 1058         | no need   | all       |                                                                |                                |
+|   | be - 1059         |           | 1600      |                                                                |                                |
+|   | sl - 1060         |           | 1500      |                                                                |                                |
+|   | et - 1061         |           | 2k        |                                                                |                                |
+|   | vi - 1066         |           | 270       | in work (almost half) - better to start again                  |                                |
+|   | mk - 1071         |           | 1300      |                                                                |                                |
+| x | hi - 1081         | no need   | all       |                                                                |                                |
+|   | farsi - 1256      |           | all       |                                                                |                                |
+|   | zh-cn - 2052      |           | 330       | proofread random parts                                         |                                |
+| x | de-ch - 2055      | no need   | all       |                                                                |                                |
+| x | en-gb - 2057      | no need   | all       |                                                                |                                |
+|   | es-mx - 2058      |           | 1740      |                                                                |                                |
+| x | it-ch - 2064      | no need   | all       |                                                                |                                |
+| G | pt - 2070         | in gratis | 1200      |                                                                |                                |
+| G | sr-cs-latn - 2074 | in gratis | all       |                                                                |                                |
+|   | sr-cyrl-cs - 3098 |           | all       |                                                                |                                |
+| x | zh-hk - 3076      | no need   | all       |                                                                |                                |
+| x | en-au - 3081      | no need   | all       |                                                                |                                |
+| x | fr-ca - 3084      | no need   | all       |                                                                |                                |
+| x | en-ca - 4105      | no need   | all       |                                                                |                                |
+| x | fr-ch - 4108      | no need   | all       |                                                                |                                |
+| x | en-us - 49161     | no need   | all       |                                                                |                                |
