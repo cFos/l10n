@@ -4,6 +4,24 @@
 / #date year-month-day
 
 
+#date 2013-04-22
+
+pnet_doc_setup_p8 = "cFos PNet comes with a default user setup. The installer creates a folder <em>/users/admin</em> in the <em>pub</em> folder during installation. New users get a configuration file <em>profile.txt</em> in their respective user folder <em>/users/<username></em>. They also get a folder <em>/www/<username></em>.<br/>So if you want to share a file only with a certain user, copy it into his <em>/www/<username></em> folder instead of the <em>pub</em> folder. The <em>.htaccess</em> configuration then allows access to the file only after the user provided his/her username and password. The user can also upload into this folder (after entering the correct password). You can create and delete users and set their passwords, by using <b>/users/index.htm</b> as user \"admin\".";
+
+		in their respective user file -> in their respective user folder
+
+pnet_doc_access_p1 = "cFos PNet evaluates configuration files, called AccessFiles. By default they are named <em>.htaccess</em>. So called directives therein control the behaviour of cFos PNet for the particular folder (and all subfolders thereof) where they are located. The first <em>.htaccess</em> file is located in the <em>private</em> folder and contains all initial settings. If a client requests a certain url, say <b>/test/x/file1.txt</b>, all <em>.htaccess</em> files are evaluated for all folders the url mentions. In this example first <em>.htaccess</em> of the <em>private</em> folder is evaluated, then <em>.htaccess</em> of folder <em>pub</em>, then of folder <em>test</em>, then <em>.htaccess</em> of folder <em>x</em>.<br/>All directives are cumulative, i.e. they are added or overwritten, but not deleted.";
+
+		em>test</em>, then <em>.htaccess</em> or folder -> em>test</em>, then <em>.htaccess</em> of folder
+
+
+#date 2013-05-14
+
+pnet_doc_setup_p4 = "If you want to send mail via Javascript, you also need to set the following keys in the [param] section:<br/><table><tr><td>\"smtp_server\"</td><td>address of your SMTP server</td></tr><tr><td>\"smtp_username\"</td><td>your user name</td></tr><tr><td style=\"padding-right: 20px\">\"smtp_password\"</td><td>your password</td></tr></table>";
+->
+pnet_doc_setup_p4 = "If you want to send mail via Javascript, you also need to set the following keys in the [param] section:<br/><table><tr><td>\"smtp_server\"</td><td>address of your SMTP server</td></tr><tr><td>\"smtp_username\"</td><td>your user name</td></tr><tr><td style=\"padding-right: 20px\">\"smtp_password\"</td><td>your password</td></tr><tr><td style=\"padding-right: 20px\">\"smtp_port\"</td><td>port of the SMTP server, e.g. 25. If you omit the smtp_port parameter, the default port will be used</td></tr></table>";
+
+
 #date 2013-06-17
 
 pnet_doc_misc_l4 = "Edit the <em>.htaccess</em> file in the directories where your Perl scripts are. Or, to enable Perl scripts globally, edit the <em>.htaccess</em> file in the document root directory or in <em>c:\\programdata\\cfos\\cfospnet\\private</em>. Add the following directive:<br/><b>AddHandler cgi-file pl</b>";
@@ -59,3 +77,8 @@ cfout_p5b_v2 = "So data added or modified on the server will be added or modifie
 cfout_p6_v3 = "Whenever you add, change or delete an event in your local folders you can update the server data by using the \"Sync All\" button in the ribbon. You should consider doing the same before closing Outlook.";
 cfout_p7a_v2 = "The folder configuration data is stored in the directory <em>c:\\users\\your_username\\appdata\\local\\cfos\\outlook_dav</em>. The directory <em>c:\\programdata\\cfos\\outlook_dav</em> contains <em>folder_setup.hta</em>, so you can later change your configuration.";
 	updated strings. See commit SHA ID: 40ec87a7df48c2c4ecf6fe87c798a21ada513d72
+
+#date 2013-10-01
+
+info_text_gratis = "Link program, translations.";
+	seems to be translated differently in other languages
