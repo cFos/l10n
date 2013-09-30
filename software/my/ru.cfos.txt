@@ -168,8 +168,8 @@ sygate_hint = "%p был обнаружен Sygate Firewall, который ош
               "должна быть отключена.";
 select_language = "Язык";
 translator = "Русская версия от ";
-translator_name = "Ringil Endimion";
-translator_msg = "По всем замечаниям относительно перевода, пишите на ringil@rbcmail.ru";
+translator_name = "cFos Software GmbH";
+translator_msg = "По всем замечаниям относительно перевода пишите на cfos_ru@cfos.de";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Срок действия Вашей лицензии %3 заканчивается через %1 %2.";
 
