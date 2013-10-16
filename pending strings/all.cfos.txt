@@ -57,3 +57,8 @@ cfout_p2 = "For <b class=\"green\">cFos Personal Net</b> the CalDAV/CardDAV URL 
 
 info_text_gratis = "Link program, translations.";
 	seems to be translated differently in other languages
+
+#date 2013-10-16
+
+cfout_p4 = "For a <b class=\"green\">DAViCal calendar</b> the URL is <b>http://<b>your_davical_server</b>/caldav.php/<b>your_davical_account</b>/calendar</b>, where <b>your_davical_server</b> is the domain or IP address of your DAViCal server. <b>your_davical_account</b> is the username for your calendar and the password is the one assigned to this user.";
+	<b>http://<b>your_davical_server</b>/caldav.php/<b>your_davical_account</b>/calendar</b> -> http://<b>your_davical_server</b>/caldav.php/<b>your_davical_account</b>/calendar
