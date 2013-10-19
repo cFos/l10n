@@ -10,6 +10,29 @@ If you're here for unknown reason, or want to post an issue or pull request with
 In case of any questions - please, contact us with any suitable for you method on [cFos website](http://cfos.de) via `Contact/Support` button or via [Github issues](https://github.com/ArmorDarks/cfos-translation/issues)
 
 
+List of content
+------------------
+
+1. [Intro](#cfos-translation-files)
+2. [List of content](#list-of-content)
+3. [How to participate](#how-to-participate)
+    1. [Report wrong or inaccurate translation](#report-wrong-or-inaccurate-translation)
+    2. [Participate in translation or proofreading](#participate-in-translation-or-proofreading)
+4. [Instructions](#instructions)
+    1. [Quick overview](#quick-overview)
+    2. [How to find your language](#how-to-find-your-language)
+    3. [Translation](#translation)
+        1. [General recommendations](#general-recommendations)
+        2. [Typical errors](#typical-errors)
+        3. [Do not translate](#do-not-translate)
+        4. [Translation reference](#translation-reference)
+        5. [HTML-tags](#html-tags)
+        6. [File format](#file-format)
+        7. [Report](#please-report)
+5. [Syntax highlighting](#syntax-highlighting)
+6. [Important](#important)
+
+
 How to participate
 ------------------
 
@@ -44,19 +67,21 @@ If you'd like to participate in translation of cFos website or software onto you
 
 * **(recommended)** Contact us on [cFos website](http://cfos.de) via `Contact/Support` button:
 
-Don't forget to put in title of message "translation". In that case we'll send you individual file with strings that should be translated onto your native language. By doing it you'll receive free license.
+  Don't forget to put in title of message "translation". In that case we'll send you individual file with strings that should be translated onto your native language. By doing it you'll receive free license.
 
 * **(not recommended)** Make translation by your own and then make Pull Request (for advanced git users only):
 
-You can extract untranslated strings from ml-files by you own, translated them and make Pull Request. Please, keep in mind that it's not recommended scenario, because it would be much harded for your to extract proper untranslated strings, besides you don't know which strings are currently "in work", by this getting into situation when you translation will be overwritten by already working translator. Though, it's still possible if you'd like to work in such way. In that case we'd recommend at least to make us know that you're working over certain section by contacting us on [cFos website](http://cfos.de) via `Contact/Support` button.
+  You can extract untranslated strings from ml-files by you own, translated them and make Pull Request. Please, keep in mind that it's not recommended scenario, because it would be much harded for your to extract proper untranslated strings, besides you don't know which strings are currently "in work", by this getting into situation when you translation will be overwritten by already working translator. Though, it's still possible if you'd like to work in such way. In that case we'd recommend at least to make us know that you're working over certain section by contacting us on [cFos website](http://cfos.de) via `Contact/Support` button.
 
 Minimal number of translated string to receive free license is about *100-200 strings* (quantity heavily depends on length of strings)
 
 We'd be thankful for any help. To remark importance of our top contributors and express our thankfulness to them we have [Hall of Fame](https://www.cfos.de/en/contact/hall-of-fame.htm).
 
 
-Quick overview
---------------
+Instructions:
+-------------
+
+### Quick overview
 
 The main point of interest for you is **ml-files**. As already was mentioned, they contain all translations from cFos website and cFos software.
 
@@ -72,9 +97,6 @@ Other files in repository are rather technical, so we'd recommend simply to igno
 * `[website] pending` and `[software] pending` folders contains strings, which have to be updated. Please, ignore them, because they serve simply as our internal notes regarding workflow;
 * `my` folder contains few personal translations and will be removed from this repository soon.
 
-
-Instructions:
--------------
 
 ### How to find your language
 
@@ -149,9 +171,9 @@ These are just comments
 
 * Use Google for searching string across the site:
 
-For example, to find `increase_throughput = "cFosSpeed increases your throughput and reduces your Ping.";` string on cFos site simply type in Google Search `site:cfos.de cFosSpeed increases your throughput and reduces your Ping` ([example](https://www.google.com/search?q=cfos.de+Internet+Acceleration+via+Traffic+Shaping&oq=cfos.de+Internet+Acceleration+via+Traffic+Shaping&aqs=chrome..69i57.7153j0j1&sourceid=chrome&ie=UTF-8#q=site%3Acfos.de+cFosSpeed+increases+your+throughput+and+reduces+your+Ping)).
+  For example, to find `increase_throughput = "cFosSpeed increases your throughput and reduces your Ping.";` string on cFos site simply type in Google Search `site:cfos.de cFosSpeed increases your throughput and reduces your Ping` ([example](https://www.google.com/search?q=cfos.de+Internet+Acceleration+via+Traffic+Shaping&oq=cfos.de+Internet+Acceleration+via+Traffic+Shaping&aqs=chrome..69i57.7153j0j1&sourceid=chrome&ie=UTF-8#q=site%3Acfos.de+cFosSpeed+increases+your+throughput+and+reduces+your+Ping)).
 
-Don't put html-tags in search query, and keep in mind that not all strings could be found on current website. Some of them maybe used not in pure texts (for example, meta descriptions), and some could be unused in that moment.
+  Don't put html-tags in search query, and keep in mind that not all strings could be found on current website. Some of them maybe used not in pure texts (for example, meta descriptions), and some could be unused in that moment.
 
 * If you're unsure which translation it's better to use for certain words or phrases - try to google it. Usually more proper translation occurs more often than wrong. Besides you have chances to find forums with discussing about proper translation.
 
@@ -159,7 +181,7 @@ Don't put html-tags in search query, and keep in mind that not all strings could
 
 * Don't use [Google Translate](http://translate.google.com/) for all translation.
 
-Yeap, that's it. Don't use it mindlessly all over here and over there. Use it wisely as helping instrument, while *your mind* should be main translating instrument, otherwise you'll end up with machinery translation. Such translation easily detected and, unfortunately, due to poor quality we can't accept them, thus can't offer free license as reward for them.
+  Yeap, that's it. Don't use it mindlessly all over here and over there. Use it wisely as helping instrument, while *your mind* should be main translating instrument, otherwise you'll end up with machinery translation. Such translation easily detected and, unfortunately, due to poor quality we can't accept them, thus can't offer free license as reward for them.
 
 * Use [Syntax highlighting](#syntax-highlighting) for your text editor. It will increase readability and help to avoid markup errors while translating.
 
@@ -189,7 +211,7 @@ right: `string = "backslash: \\";`
 If you're using [Syntax highlighting](#syntax-highlighting) with errors detection - most part of those errors will be highlighted with red, so it will be much easier to avoid any mistakes in markup formatting.
 
 
-#### Do no translate
+#### Do not translate
 
 The following words should be remained untranslated:
 
