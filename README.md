@@ -21,6 +21,7 @@ List of content
 4. [Instructions](#instructions)
     1. [Quick overview](#quick-overview)
     2. [How to find your language](#how-to-find-your-language)
+        1. [Languages IDs](#languages-ids)
     3. [Translation](#translation)
         1. [General recommendations](#general-recommendations)
         2. [Typical errors](#typical-errors)
@@ -111,6 +112,9 @@ Here is how it work:
 * Hit enter and your text editor will take you to the start of the desired language section.
 
 For example, `#language 1033` will take you to the start of English language which is basic referencing language for all other languages.
+
+
+#### Languages IDs
 
 Here is list of main languages IDs for easier access:
 
@@ -225,7 +229,7 @@ The following words should be remained untranslated:
 For some languages we have translations references. You can find them in list above. It contains typical, unified and recommended translation variants for certain words and phrases.
 If there is available translation reference for your language - please, use it.
 
-* [Russian translation reference](https://github.com/ArmorDarks/cfos-translation/blob/master/%23%20Translation%20reference%20-%20russian.md)
+* [Russian translation reference](/Translation%20references/Translation%20reference%20-%20russian.md)
 
 *Note: if you'll find any errors, wrong or inaccurate translation in referencing files - please, let us know. Thanks*
 
