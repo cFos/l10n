@@ -1,0 +1,51 @@
+
+// List of keys, which were changed in master file and requires new translation
+
+#date 2013-04-17
+
+strict_rtp_help = "If activated, %p will recognize only those packets as RTP that come with a valid RTCP source ID. You should disable this option for Voice-over-IP programs (like VoIPBuster) that send no RTCP packets. Only activate this option, if traffic is incorrectly classified as RTP.";
+
+openwindow = "Show Window";
+openwindows = "Show Windows";
+closewindow = "Hide Window";
+closewindows = "Hide Windows";
+autoopen = "Auto-show/Auto-hide";
+
+upgrade = "Get latest version";
+
+ole_error = "In order to use this configuration dialog,\\n%p must be installed and running on your computer.\\nPlease verify this and install again, if necessary.";
+
+higher_prog_help = "Voice-over-IP, maybe online games";
+
+new_program = "Add program";
+
+spdbudget_help = "To use a budget, go to the preferences dialog and assign it to a particular connection";
+
+cur_bandwidth_help = "Settings for current connection";
+no_ports_open = "No connection established.";
+no_ports_open_help = "Currently, there is no connection established that is handled by %p. "
+
+regid_help = "Device without cFos Traffic Shaping detected on LAN";
+regid_help_long = "You use your connection with several other devices simultaneously and at least one of them has no cFos Traffic Shaping.";
+
+net_talk_help_long = "To improve accuracy, send Traffic Shaping statistics to other computers on your local (home) network. No data is sent to the Internet.";
+
+kaspersky_hint = "Kaspersky Internet Security 2010 may cause problems with %p. Please update to the latest version of Kaspersky Internet Security.";
+
+console_prio_prog_prot_off = "Temporarily turn off program & protocol prioritization";
+
+rwin_expansion_help = "Automatically expand TCP Receive Window to increase download speed if the RWIN selected by Windows is too low.";
+
+hangup_header = "Dial-Up Connection";
+hangup_subheader = "The dial-up connection must be disconnected.";
+hangup_info = "To continue with this wizard, the dial-up connection must be disconnected.\n\n"
+              "To disconnect the connection now, click Disconnect.";
+
+query_crash_dump_upload = "An unhandled exception has occurred in %p. The program terminates now.\n\n"
+                          "Do you wish to send a crash dump to cFos, which helps us to analyze the error?";
+
+err_create_process = "Error starting %s: %s";
+
+dun_with_bc = " with cFos Broadband Connect";
+
+taskbaricon = "System Tray Icon";
