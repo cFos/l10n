@@ -169,7 +169,7 @@ sygate_hint = "%p был обнаружен Sygate Firewall, который ош
 select_language = "Язык";
 translator = "Русская версия от ";
 translator_name = "cFos Software GmbH";
-translator_msg = "По всем замечаниям относительно перевода пишите на cfos_ru@cfos.de";
+translator_msg = "По всем замечаниям и пожеланиям относительно перевода пишите на cfos_ru@cfos.de";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Срок действия Вашей лицензии %3 заканчивается через %1 %2.";
 
