@@ -146,6 +146,7 @@ These are just comments
 #### General recommendations
 
 * If you're unsure about contextual usage of certain string - please, ask us. We'd be glad to explain literally anything regarding translation :)
+
 * Use Google for searching string across the site:
 
 For example, to find `increase_throughput = "cFosSpeed increases your throughput and reduces your Ping.";` string on cFos site simply type in Google Search `site:cfos.de cFosSpeed increases your throughput and reduces your Ping` ([example](https://www.google.com/search?q=cfos.de+Internet+Acceleration+via+Traffic+Shaping&oq=cfos.de+Internet+Acceleration+via+Traffic+Shaping&aqs=chrome..69i57.7153j0j1&sourceid=chrome&ie=UTF-8#q=site%3Acfos.de+cFosSpeed+increases+your+throughput+and+reduces+your+Ping)).
@@ -162,10 +163,15 @@ Yeap, that's it. Don't use it mindlessly all over here and over there. Use it wi
 
 * Use [Syntax highlighting](#syntax-highlighting) for your text editor. It will increase readability and help to avoid markup errors while translating.
 
+* Be accurate with escapings (see [Typical errors](#typical-errors)). Wrong or absent escaping can break whole translation file!
+
+* Be accurate with html-tags (see [HTML-tags](#html-tags)). Breaking them can lead to serius visual issues on the website.
+
 
 #### Typical errors
 
 Please, be accurate with endings and quotes - proper formatting is very important for us!
+
 Here is some typical errors:
 
 wrong: `string = "content"`
