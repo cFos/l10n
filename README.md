@@ -37,7 +37,7 @@ List of content
 How to participate
 ------------------
 
-If you're willing to help as there are probably two possible scenarios:
+If you're willing to help us there are probably two possible scenarios:
 
 
 ### Report wrong or inaccurate translation
