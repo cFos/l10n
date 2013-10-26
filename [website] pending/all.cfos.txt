@@ -62,3 +62,13 @@ info_text_gratis = "Link program, translations.";
 
 cfout_p4 = "For a <b class=\"green\">DAViCal calendar</b> the URL is <b>http://<b>your_davical_server</b>/caldav.php/<b>your_davical_account</b>/calendar</b>, where <b>your_davical_server</b> is the domain or IP address of your DAViCal server. <b>your_davical_account</b> is the username for your calendar and the password is the one assigned to this user.";
 	<b>http://<b>your_davical_server</b>/caldav.php/<b>your_davical_account</b>/calendar</b> -> http://<b>your_davical_server</b>/caldav.php/<b>your_davical_account</b>/calendar
+
+#date 2013-10-26
+uninst_h1_speed = "cFosSpeed has been uninstalled";
+uninst_p1_speed = "Thank you for trying out cFosSpeed. Please help us improve cFosSpeed by telling us why you uninstalled it. Your feedback is very important to us.";
+uninst_assess_speed = "How do you assess the following components of cFosSpeed?";
+uninst_install_help_start1 = "Difficulties installing cFosSpeed";
+uninst_pingtime_inc = "cFosSpeed increased my ping";
+uninst_speed_reduce = "cFosSpeed reduced my speed";
+uninst_speed_guide = "Before you completely uninstall cFosSpeed, our <a onclick=\"cfos.set_event('speed_feedback', 'speed_guide'); return true;\" href=\"/en/traffic-shaping/speed-guide.htm\" target=\"_blank\"><b>Speed Guide</b></a> may be a solution for you. It helps you solve the most important speed, ping or prioritization problems. If you start it with cFosSpeed installed, it can evaluate your connection characteristics and adapt the solution to your connection.";
+	cFosSpeed -> cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> | See commit SHA ID: ca66e7d320019cb32065f7c4098e344809f91dea
