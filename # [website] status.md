@@ -48,7 +48,7 @@ Website translation status
 |     | zh-cn - 2052      |        80 |                                                   |       |
 | `x` | de-ch - 2055      |   `x` all |                                                   |       |
 | `x` | en-gb - 2057      |   `x` all |                                                   |       |
-|     | es-mx - 2058      |      1540 |                                                   |       |
+|     | es-mx - 2058      |      1400 |                                                   |       |
 | `x` | it-ch - 2064      |   `x` all |                                                   |       |
 | `G` | pt - 2070         |       500 |                                                   |       |
 | `G` | sr-cs-latn - 2074 |       all |                                                   |       |
