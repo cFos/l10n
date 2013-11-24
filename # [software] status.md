@@ -23,7 +23,7 @@ Software translation status
 | `x` | da - 1030         |       `x` |                                                       |       |
 |     | fr - 1036         |           |                                                       |       |
 |     | he - 1037         |           |                                                       |       |
-|     | hu - 1038         |           |                                                       |       |
+|     | hu - 1038         |         o |                                                       |       |
 |     | it - 1040         |           | proofread 750 strings by Massimo Castiglia 2013-09-30 |       |
 |     | ja - 1041         |           |                                                       |       |
 |     | ko - 1042         |           |                                                       |       |
