@@ -1258,7 +1258,7 @@ dt_advertise = "%? Възможности";
 dt_advertise_desc = "Списък на всички %? възможности.";
 
 / message boxes
-query_reboot = "Трябва да рестартирате компютъра, за да влязат в сила промените.\n\n" 
+query_reboot = "Трябва да рестартирате компютъра, за да влязат в сила промените.\n\n"
 "Да рестартирам ли сега?";
 query_drv_inst_cancel = "Извършва се инсталация/деинсталация на драйвера.\n"
 "На Windows са необходими до 15 минути за\nрегистриране/премахване на драйвера!\n\n"
@@ -10161,7 +10161,7 @@ speed_activation_failed_url = "http://www.cfos.de/fr/cfosspeed/activation-failed
 install_wizard_name = "Assistant d’installation %?";
 uninstall_wizard_name = "Assistant de désinstallation %?";
 brandkey_wizard_name = "Assistant d’enregistrement %?";
-config_wizard_name = "Programme d'installation de %p"; 
+config_wizard_name = "Programme d'installation de %p";
 continue_line = "Cliquez sur Suivant pour continuer.";
 start_inst = "Cliquez sur Suivant pour démarrer l’installation.";
 click_next_further_info = "Cliquez sur suivant pour plus d'informations.";
@@ -22569,7 +22569,7 @@ other_traffic = "Seluruh kepadatan lainnya";
 traffic_analysis = "Analisis Kepadatan";
 slot = "Slot";
 slots = "Slot";
-slots_title = "Penataan Slot"; 
+slots_title = "Penataan Slot";
 can_select_multiple = "Bocoran: Anda dapat memilih opsi berganda dengan menahan tombol Shift atau Ctrl ketika memilih sebuah opsi";
 name_for = "Nama untuk ";
 set_name = "Tata nama";
@@ -27113,7 +27113,7 @@ sn_subheader = "输入序列号并激活。";
 sn_info = "如果您有形如 xxxx-xxxx-xxxx-xxxx 的 16 位序列号，请关闭本对话框并双击您的授权文件。"
    "之后将会出现一个窗口，您可以输入您的密码。\n\n"
    "如果您有形如 xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx 的 30 位序列号请"
-   "e在此输入以激活本产品。\n\n";
+   "在此输入以激活本产品。\n\n";
 sn_serial_number = "序列号:";
 sn_invalid_serial_number = "序列号无效。请检查您的输入否再试。";
 / the %? will be replaced by the error number:
