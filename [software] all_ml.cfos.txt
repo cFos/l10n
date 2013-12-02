@@ -1258,7 +1258,7 @@ dt_advertise = "%? Възможности";
 dt_advertise_desc = "Списък на всички %? възможности.";
 
 / message boxes
-query_reboot = "Трябва да рестартирате компютъра, за да влязат в сила промените.\n\n"
+query_reboot = "Трябва да рестартирате компютъра, за да влязат в сила промените.\n\n" 
 "Да рестартирам ли сега?";
 query_drv_inst_cancel = "Извършва се инсталация/деинсталация на драйвера.\n"
 "На Windows са необходими до 15 минути за\nрегистриране/премахване на драйвера!\n\n"
@@ -2921,6 +2921,13 @@ htm_lang_prefix = "cs";
 
 / ----------------------------------------------------------------------
 /
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  6link / broadband connect / pnet
 /
 / ----------------------------------------------------------------------
@@ -2934,11 +2941,15 @@ bc_desc = "%p, High-Performance Dial-Up Driver";
 sixlink_mainurl = "http://www.cfos.de/cs/index.htm";
 sixlink_updateurl = "http://www.cfos.de/cs/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/cs/order/cfos-ipv6-link-n.htm";
+sixlink_langurl = "";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
 cfospnet_mainurl = "http://www.cfos.de/cs/index.htm";
 cfospnet_updateurl = "http://www.cfos.de/cs/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/cs/order/cfos-personal-net-n.htm";
+cfospnet_langurl = "";
+pnet_pg_name = "%p";
+pnet_desc = "%p, váš personální webový server";
 renew_params = "Aktualizovat parametry";
 dlg_dun_auto = "Automaticky připojit";
 dlg_dun_default = "Výchozí připojení";
@@ -2946,9 +2957,15 @@ dlg_dun_cons = "Profily připojení";
 dlg_dun_name = "Jméno připojení:";
 dlg_dun_uname = "Uživatel:";
 dlg_dun_pwd = "Heslo:";
+dlg_dun_use_ipv4 = "Použít IPv4";
+dlg_dun_use_ipv6 = "Použít IPv6";
 dun_connect_to = "Připojit k %?";
 dun_err_already_exists = "Připojení s tímto jménem již existuje.";
 disconnect = "Odpojit ";
+setup_connections = "Nastavit připojení";
+ask_inst_ipv6 = "Protokol IPv6 nebyl dosud na tomto systému nainstalován.\n\n"
+                "Chcete nainstalovat protokol IPv6 nyní?";
+err_inst_ipv6 = "Chyba %? při instalaci protokolu IPv6.";
 
 / connection entry dialog
 con_err_save = "Nelze uložit informace o připojení!";
@@ -2961,6 +2978,45 @@ con_dns2 = "DNS2:";
 con_enabled = "povoleno";
 
 / pnet configuration dialog
+pnet_header = "Obvyklá nastavení";
+pnet_subheader = "Upravit obvyklá nastavení.";
+pnet_pubdir_header = "Veřejný adresář";
+pnet_pubdir_subheader = "Adresář, který obsahuje stáhnutelné soubory.";
+pnet_pubdir_info = "Udejte umístění složky, kde se nacházejí soubory, které chcete zpřístupnit pro stahování.";
+smtp_subheader = "Konfigurovat servery SMTP.";
+dynip_header = "Dynamický IP server";
+dynip_subheader = "Konfigurovat dynamický IP server";
+dlg_start_now_as_current_user = "Odstartovat nyní %p jako stávající uživatel";
+dlg_autostart = "Startovat %p při startu Windows";
+dlg_autostart_service = "Instalovat %p jako systémovou službu a odstartovat ji při startu Windows";
+dlg_context_menu = "Přidat položku kontextové nabídky ve Windows Exploreru";
+dlg_create_admin_account = "Vytvořit účet správce";
+dlg_admin_pwd = "Heslo pro účet \"admin\":";
+dlg_admin_pwd_needed = "K vytvoření účtu správce musí být zadáno heslo pro uživatele \"admin\".";
+dlg_register_shell_extension = "Registrovat rozšíření shellu";
+dlg_server_port = "Port serveru:";
+dlg_server_name = "Jméno serveru:";
+dlg_server = "Server:";
+dlg_renew_interval = "Interval pro obnovení (ms):";
+dlg_redirect_delay = "Prodleva při přesměrování (ms):";
+
+/ pnet start type dialog
+
+/ pnet context menu entry
+publish_with_product = "Publikovat prostřednictvím %p";
+
+/ pnet backup info
+dlg_backup_info = "Před nahrazením každého z následujících souborů byla vytvořena jeho záložní kopie (.bak):";
+
+/ pnet
+end_program = "Ukončit program";
+file_copy_failed = "Operace kopírování souboru selhala.";
+ipv4_bind_problem = "Server nemůže na udaném portu naslouchat pomocí IPv4, protože port používá jiná aplikace (např. Skype).";
+ipv6_bind_problem = "Server nemůže na udaném portu naslouchat pomocí IPv6, protože port používá jiná aplikace (např. Skype).";
+closing_server = "Server se zavírá.";
+start_product = "Odstartovat %p";
+
+/ pnet connectivity test
 
 / ----------------------------------------------------------------------
 /
@@ -2982,6 +3038,9 @@ expiration_cfosspeed_new_htm = "http://www.cfos.de/cs/cfosspeed/expiration-messa
 prio_doc_link_url = "http://www.cfos.de/cs/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/cs/cfosspeed/documentation/status.htm";
 
+auth_failed = "Kontrola konzistence odhalila, že došlo k modifikaci jedné nebo více komponent.\n"
+   "Prosíme, nainstalujte původní verzi z našich webových stránek:\n";
+
 component_mismatch = "Zjištěn konflikt mezi částmi programu. Nainstalujte poslední verzi.";
 trayicon_tip = "Rychlejší internet pomocí Traffic Shaping, www.cfos.de";
 speed_endsoon = "Vaše testovací doba brzy skončí! Objednejte si %1 ještě dnes!";
@@ -3001,6 +3060,7 @@ service_desc = "Provést skrytá měření pro %p";
 no_pings_error = "Paket Ping, odeslaný pro %p neprošel. Bez toho %p Traffic Shaping nemůže korektně pracovat. Pro nápovědu klikněte zde.";
 other_languages = "Další lokalizace";
 install_dir = "Složka pro instalaci: ";
+ask_clear_tsdata = "Odstranit data řízení provozu (Traffic Shaping) a započít novou kalibraci linky?";
 allow_traffic_shaping = "Povolit Traffic Shaping pro toto připojení?";
 none = "žádný";
 lic_expired = "Testovací doba skončila. %1 byl deaktivován. Objednejte si %1 ještě dnes!";
@@ -3048,6 +3108,7 @@ off = "Vypnuto";
 on = "Zapnuto";
 note = "Poznámka";
 deactivated = "deaktivováno";
+browser_warning = "Pro tento dialog je doporučen Internet Explorer verze 8 nebo vyšší!";
 ole_error = "Pr použití tohoto konfiguračního dialogu,\\n%p musí být instalován a spuštěn na vašem počítači.\\nProsím ověřte, zda program běží popř. program přeinstalujte.";
 ts_settings = "Nastavení Traffic Shaping";
 preferences = "Nastavení";
@@ -3058,6 +3119,8 @@ prio_programs = "Upřednostnění programů";
 program = "Program";
 programs = "Programy";
 current_connections = "Současné připojení";
+current_connections_advanced = "Aktuální připojení (pokročilé)";
+current_connections_standard = "Aktuální připojení (standardní)";
 ts_prios = "Upřednostnění pro Traffic Shaping";
 client_protocols = "Klientské protocoly";
 server_protocols = "Protokoly serveru";
@@ -3067,12 +3130,14 @@ special = "Rozšířené";
 other = "Další";
 hint = "Nápověda";
 hint_text = "Upřednostnění bude pracovat správně pouze pokud lze dát vyskou prioritu malému rozsahu dat. Nastavte pro programy posíání dat v nízké prioritě. Priorita protokolu má přednost před upřednostněním programu.";
+prio_doc_link = "Jak pracuje schéma upřednostňování";
 save_protocols = "Uložit protokoly";
 undo = "Zpět";
 filter_selection = "Volba filtru";
 higher = "Vyšší";
 high = "Vysoký";
 normal = "Normální";
+default = "Standardní nastavení";
 low = "Nízký";
 lower = "Nižší";
 entries = "Vstupy";
@@ -3093,11 +3158,16 @@ prog_help = "Přenos paketů s nejnižší prioritou je pomalejší pouze, pokud
 filename = "Jméno souboru";
 description = "Popis";
 new_program = "Nový program";
+restore_defaults = "Obnovit standardní nastavení";
 add = "Přidat";
+suggest_program = "Navrhněte tento program týmu cFos";
 l7_prot_detection = "Detekce protokolu Layer-7";
 l7_prot_detection_help = "Detekování protokolu analýzou dat. Použijte dialog 'Upřednostnit protokol' pro změnu priority různých protokolů. Pokud tuto volbu deaktivujete, protokoly budou detekovány podle portu, který používají.";
 favor_ping = "Upřednostnit ping";
 favor_ping_help = "<b>Zapnut</b>: %p bude minimalizovat čas pingu na úkor mírně snížené šířky pásma (pokud to bude nutné).<br /><b>Vypnuto</b>: %p bude maximalizovat šířku pásma na úkor delšího času pingu (okud to bude nutné).";
+favor_bandwidth = "Upřednostňit šířku pásma";
+avoid_loss = "Vyvarování se ztráty paketů";
+avoid_loss_help = "%p uzavře pro přijímané proudy příjmové okno TCP, pokud je detekována příliš velká ztráta paketů. K tomu může dojít pouze tehdy, pokud vaše připojení přijímá na plné rychlosti.";
 activate_firewall = "Activovat Firewall";
 activate_firewall_help = "Ochrana proti útokům ze sítě filtrováním nebezpečných paketů, zjištováním stavu a utajením v síti.";
 mtu_opt = "Automatická optimalizace MSS (MTU)";
@@ -3143,15 +3213,24 @@ volume = "Objem";
 volume_limit = "Omezení objemu dat";
 spdbudget_help = "Pro použití hlídání objemu dat jděte do dialogu připojení a přiřaďte je k nějakému připojení";
 password_bad = "Chybné heslo";
-favor_bandwidth = "Upřednostňit šířku pásma";
 sum_button = "kumulativní";
 calibrate = "Calibrovat linku";
+test_pings = "Odeslat testovací pingy";
 variable_bandwidth = "Proměnlivá šířka pásma";
 def_bandwidth_help = "Výchozí pro <b>nové</b> připojení";
+cur_bandwidth_help = "Nastavení stávajícího připojení";
+no_ports_open = "Není otevřeno žádné připojení.";
+no_ports_open_help = "V tomto okamžiku neexistuje žádné otevřené připojení obsluhované %p. "
+   "Pro změnu standardních nastavení u nových připojení klikněte na záložku \"Předvolba pro nová připojení\", "
+   "pro změnu nastavení u jiných připojení klikněte na \"Řízení provozu\" na levé straně.";
 ok = "OK";
 connection_medium = "Střední";
 connection_type = "Traffic Shaping režim";
 driver_not_loaded = "Ovladač načten!";
+demon_driver_not_loaded = "Ovladač nezaveden!\n"
+   "Instalace může být poškozena.\n"
+   "Prosíme, přeinstalujte %p.\n";
+asus_demon_driver_not_loaded = "Po upgradu na nový operační systém přeinstalujte %p.\nPro získání nejnovější verze %p navštivte webové stránky ASUS na %w.";
 many_cons_error = "%p rx-Traffic Shaping je stlačen k limitu, příliš mnoho spojení. Výkon bude lepší s méně spojeními. Klikněte pro nápovědu.";
 limit_bandwidth = "Limit šířky pásma pro současné připojení";
 rx_limit = "RX Limit";
@@ -3168,13 +3247,59 @@ bgraph_totals = "Celkem";
 blocklist = "IP blokování";
 blocklist_help = "Seznam IP adres, pro které je provoz blokován.";
 apply_blocklist = "Použít seznam filtrů";
+search = "Hledat";
+budget_connection = "Nastavte, jaký rozpočet se použije pro to které připojení";
+reset = "Reset";
+autohide_on_fullscreen = "Automaticky skrýt při zobrazení na celou obrazovku";
+slot_selected = "Vybrané protokoly / programy";
+show = "Ukázat";
+hide = "Skrýt";
+slot_explain = "Pokud má datový paket známý protokol a tento protokol již byl přiřazen na některou pozici,"
+               "pak se provoz takového paketu počítá v této pozici (slotu). "
+               "Není-li tomu tak, pak pokud paket patří k připojení jména programu "
+               "přiřazeného k některé pozici, počítá se provoz pro tuto "
+               "pozici. Pokud nejde ani o tento případ, počítá se provoz v pozici, "
+               "kde se počítá veškerý ostatní provoz, pokud byla nastavena.";
+traffic_analysis_title = "Analýza provozu v reálném čase";
+other_traffic = "Veškerý ostatní provoz";
+traffic_analysis = "Analýza provozu";
+slot = "Pozice";
+slots = "Pozice";
+slots_title = "Nastavení pozic";
+can_select_multiple = "Upozornění: Můžete vybrat více možností tak, že při jejich volbě držíte stisknutou klávesu Shift nebo Ctrl";
+name_for = "Jméno pro ";
+set_name = "Udejte jméno";
+rx_only = "Pouze RX";
+tx_only = "Pouze TX";
+max_of_rx_tx = "Maximum RX a TX";
+total_rx_only = "Celková rychlost RX";
+total_tx_only = "Celková rychlost TX";
+total_max_of_rx_tx = "Max. celkové RX & TX";
+check_if_other_also = "Zaškrtněte, pokud chcete, aby se v této pozici počítal veškerý ostatní provoz";
+performance_help = "Pro zachování maximálního výpočetního výkonu doporučujeme nastavit připojení, které se používá pro přístup k internetu, na 'Ano' a všechna ostatní na 'Ne'.";
+loading = "Načítá se...";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Nespolupracující";
+regid_help = "Na vaší LAN je stroj bez cFos TS";
+regid_help_long = "Své připojení používáte současně pro několik dalších strojů a alespoň jeden z nich nemá řízení provozu cFos.";
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+net_talk_help = "Vysílání statistik provozu na vaší LAN";
+net_talk_help_long = "Pro zlepšení přesnosti zasílejte statistiky řízení provozu dalším počítačům na vaší lokální (domácí) síti. Žádná data se neodesílají na  Internet.";
+net_talk_subheader = "Prosíme, vyberte si, zda se má používat relace Net_Talk.";
 
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+vari_fixed = "Přizpůsobit odchylkám v pingu";
+vari_fixed_help = "Použijte pokročilé řízení provozu k přizpůsobení měnícím se dobám pingu";
+vari_fixed_help_long = "Shromáždit statistiky pingu s cílem přizpůsobit se odchylkám v dobách pingu; obzvláště užitečné pro mobilní/bezdrátová připojení. Doporučujeme nechat tuto volbu zapnutou i pro všechny ostatní typy připojení.";
+
+set = "Nastavit";
+tx_limit_help = "Zadejte rychlost v bytech za sekundu nebo procento, s nimiž tento program nebo protokol smí vysílat.";
+download_more_skins = "Stáhnout další skiny";
+documentation = "Dokumentace";
+speed_test = "Test cFos Speed";
+ask_key_banned_info = "Vyskytl se problém s vaším licenčním klíčem.\nPřejete si další informace?";
 
 
 
@@ -3243,6 +3368,9 @@ pwd_activate_info = "Pro aktivaci klíče musíte být připojeni k interentu.";
 pwd_activate_failed = "Aktivace klíče selhala!";
 pwd_activate_failed_code = "Aktivace klíče selhala: chyba %?.";
 
+/ serial number dialog
+/ the %? will be replaced by the error number:
+
 / re-enter password dialog
 repwd_header = "%? heslo.";
 repwd_subheader = "Je třeba znovu zadat heslo pro registraci.";
@@ -3270,6 +3398,14 @@ hangup_online = "Aktivní spojení:";
 hangup_offline = "Spojení bylo ukončeno.";
 hangup_info = "Pro pokračování s průvodcem musí být spojení ukončeno.\n\nPro odpojení klikněte na Odpojit.";
 hangup_disco = "Odpojit";
+
+/ usage statistics
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+
+/ crash handler messages
+
+/start installation dialog
 
 / progress dialog
 progress_inst_header = "Instalace";
@@ -3329,6 +3465,8 @@ task_hangup = "Odpojuji aktivní spojení...";
 task_flush_registry = "Ukládám registry na disk...";
 task_cancel = "Přerušuji operaci...";
 task_canceled = "Operace přerušena!";
+
+/ connectivity test progress tasks
 
 / program group
 speed_pg_name = "%p Traffic Shaping";
@@ -3443,6 +3581,7 @@ order_oem = "Objednejte si profesionální verzi ještě dnes!";
 cfos_endsoon = "Vaše testovací doba brzy skončí.\nKupte %p Professional ještě dnes!\nPřejděte pro %p na stránku\n\nhttps://www.cfos.de/cs/order/order.htm\n";
 cfos_expired  = "Skončila testovací doba produktu %p.\nZakupte %p/Professional ještě dnes!\nPřejděte na objednací stránku %p na\n\nhttps://www.cfos.de/cs/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-228-7669827.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
 
 
 / Don't translate!
@@ -10161,7 +10300,7 @@ speed_activation_failed_url = "http://www.cfos.de/fr/cfosspeed/activation-failed
 install_wizard_name = "Assistant d’installation %?";
 uninstall_wizard_name = "Assistant de désinstallation %?";
 brandkey_wizard_name = "Assistant d’enregistrement %?";
-config_wizard_name = "Programme d'installation de %p";
+config_wizard_name = "Programme d'installation de %p"; 
 continue_line = "Cliquez sur Suivant pour continuer.";
 start_inst = "Cliquez sur Suivant pour démarrer l’installation.";
 click_next_further_info = "Cliquez sur suivant pour plus d'informations.";
@@ -22569,7 +22708,7 @@ other_traffic = "Seluruh kepadatan lainnya";
 traffic_analysis = "Analisis Kepadatan";
 slot = "Slot";
 slots = "Slot";
-slots_title = "Penataan Slot";
+slots_title = "Penataan Slot"; 
 can_select_multiple = "Bocoran: Anda dapat memilih opsi berganda dengan menahan tombol Shift atau Ctrl ketika memilih sebuah opsi";
 name_for = "Nama untuk ";
 set_name = "Tata nama";
