@@ -8392,6 +8392,13 @@ htm_lang_prefix = "es";
 
 / ----------------------------------------------------------------------
 /
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  6link / broadband connect / pnet
 /
 / ----------------------------------------------------------------------
@@ -8467,6 +8474,8 @@ dlg_https_port = "Puerto HTTPS :";
 dlg_renew_interval = "Intervalo de Renovación (ms):";
 dlg_redirect_delay = "Retraso de redireccionamiento (ms):";
 dlg_monitor_ports = "Asignación puerto monitoreo";
+dlg_enable_upnp = "Habilitar servidor multimedia (UPnP/DLNA)";
+dlg_upnp_info = "Pon los archivos multimedia en el subdirectorio 'multimedia' en tu directorio público.";
 use_https_port = "Usar puerto HTTPS";
 
 / pnet start type dialog
@@ -8498,8 +8507,12 @@ info_port_in_use = "El puerto %? requerido por %p está en uso por otro programa
                    "Para usar %p, debe finalizar el otro programa o seleccionar un puerto diferente en la %p configuración.";
 monitor_port_desc = "Esta tarea monitoriza periodicamente los puertos requeridos por %p y alerta al usuario, en caso de que uno de los puertos esté siendo utilizado por otro programa.";
 logon_start_desc = "Estas tareas comienzan %p si el usuario abajo mostrado se conecta.";
+show_home_dir = "Muestra el directorio principal";
+publish_file = "Publicar archivo";
+user_administration = "Administración de usuarios";
 
 / pnet connectivity test
+connectivity_test = "Test de conectividad";
 con_test_subheader = "Por favor, espere hasta que la Prueba de Conectividad haya finalizado.";
 con_test = "%p Prueba de Conectividad";
 con_test_not_running = "La prueba de conectividad no puede ejecutarse, dado que %p no está activo. Por favor, inicie %p y luego realice la prueba de conectividad, nuevamente.";
@@ -8535,6 +8548,7 @@ speed_endsoon = "El periodo de prueba acabará pronto. ¡Por favor adquiera %1 h
 order_info = "Compre ahora:\nInternet: www.cfos.de\npor teléfono: +49-228-7669826";
 badkey = "Hay un problema con la clave de la licencia.\nSe ruega a reinstalar la clave de la licencia haciendo un doble click sobre el archivo original, el cual recibió por e-mail o en disco.";
 no_setup = "Setup (setup.exe) no pudo iniciarse.";
+no_cmd = "Imposible ejecutar el Símbolo del sistema (cmd.exe)!";
 ask_disconnect_ras = "Una conexión de la red activa debe ser re-configurada.\nSe recomienda que se corte la conexión antes.\n¿ Desea desconectar la conexión ahora?";
 sygate_hint = "%p ha encontrado un firewall de Sygate. Éste supone que el\npulso de medición de %p es un ataque de denegación de servicio\npor parte de paquetes del tipo 'Ping of Death'. En vez del pulso de medición deberá\nhacer un download y luego un upload con velocidad máxima respectivamente. Así %p puede\nmedir la línea sin el pulso de medición. Ayuda: La función del firewall \"Anti-Manipulación de IP\" debe estar desactivada.";
 select_language = "Seleccionar idioma";
@@ -8707,6 +8721,7 @@ password_bad = "Contraseña incorrecta";
 sum_button = "acumulativo";
 calibrate = "Calibrar línea";
 test_pings = "Enviar pings de prueba";
+open_console = "Abrir %p consola";
 variable_bandwidth = "Ancho de banda variable";
 def_bandwidth_help = "Valor por defecto para <b>nuevas</b> conexiones";
 cur_bandwidth_help = "Ajuste de la actual conexión";
@@ -8773,7 +8788,7 @@ check_if_other_also = "Marque esta opción, si desea que todo el resto del tráf
 performance_help = "Para mantener el rendimiento de su PC al máximo, le recomendamos que configure la conexión que usa para el Internet en “Si” y todas las demás en “No”.";
 loading = "Cargando...";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "No cooperativo";
 regid_help = "Hay una máquina sin cFos TS en su Red Local - LAN";
 regid_help_long = "Emplea su conexión simultáneamente con otras máquinas y al menos una de ellas no cuenta con cFos Traffic Shaping.";
@@ -8794,6 +8809,7 @@ tx_limit_help = "Ingrese la velocidad en bytes/seg o porcentaje que permite envi
 download_more_skins = "Descargar otras máscaras";
 documentation = "Documentación";
 exit_demon = "Salir";
+speed_test = "Prueba de velocidad cFos";
 ask_key_banned_info = "Se ha registrado un problema con la clave de su licencia.\nDesea más información sobre esta incidencia?";
 
 adapter_info = "Información de Adaptador";
@@ -8841,6 +8857,7 @@ check_for_news = "Chequear noticias";
 rwin_expansion = "Expansión RWIN automática";
 rwin_expansion_help = "Expandir automaticamente TCP RWIN para incrementar la velocidad de bajada si el RWIN seleccionado por Windows es muy lento.";
 query_auto_open = "Desactivar apertura y cierre automáticos de la ventana de estado?\nPuede reestablecerlo más tarde en el menú contextual.";
+preview_skins = "Vista previa de los temas";
 
 
 / ----------------------------------------------------------------------
@@ -8919,6 +8936,7 @@ sn_info = "Si dispone de una contraseña de 16 dígitos con formato xxxx-xxxx-xx
    "Ingréselo ahora para cargar y activar su clave de licencia.\n\n";
 sn_serial_number = "Número de serie:";
 sn_invalid_serial_number = "Número de serie no válido. Por favor revise su entrada y pruebe de nuevo.";
+/ the %? will be replaced by the error number:
 sn_download_err = "Error %? descargando el fichero de clave desde nuestro servidor.";
 sn_save_err = "El fichero de clave no puede ser guardado en el disco en %?.";
 sn_keyfile_err = "El fichero clave está dañado.";
@@ -8965,6 +8983,15 @@ port_forwarding_failed = "Su enrutador%? no parece soportar redireccionado de pu
 port_forwarding_config = "Puede configurar su enrutador en %?.";
 port_forwarding_fritz = "Puede activar redireccionado de puerto en su FRITZ!Box permitiendo cambios en la configuración de seguridad vía UPnP "
                         "bajo Red Doméstica / Red / Programas";
+
+/ crash handler messages
+crash_msg_crash = "Una excepción no conocida ha ocurrido en el %p.";
+crash_msg_crash_installer = "Una excepción no conocida en el programa de instalación ha ocurrido en el %p de la instalación.";
+crash_msg_virus = "El siguiente módulo se ha inyectado a sí mismo en esta aplicación y puede ser una causa del error:";
+crash_msg_virus_clean = "Este módulo podría ser un virus. Por eso es muy recomendable realizar un análisis en su sistema.";
+crash_msg_hook = "Se han encontrado Módulos de otras aplicaciones, que se han inyectado ellos mismos en esta aplicación. Para asegurarse de que estos módulos no son la causa del error, por favor, ejecute esta aplicación de nuevo después de desactivar o desinstalar las siguientes aplicaciones:";
+crash_msg_terminate = "El programa finaliza ahora.";
+crash_msg_query_upload = "¿Quiere enviar un archivo de volcado a cFos, el cual nos ayudará a analizar el error?";
 
 /start installation dialog
 start_header = "Instalación";
@@ -9069,6 +9096,9 @@ err_daemon_start = "No se puede iniciar %?.";
 err_uninst_old = "La versión existente no se pudo desinstalar. Por favor reinicie la computadora.";
 err_os = "Su sistema operativo es %?.\n\n%? requiere Windows 2000/XP o sistemas más recientes para funcionar.";
 err_os_minxp = "Su sistema operativo es %?.\n\n%? requiere Windows XP o sistemas más recientes para funcionar.";
+err_os_sup = "%p soporta oficialmente sólo %? o superior.\n\n"
+             "No ha sido probado por nosotros, pero es posible que %p funcione en su sistema operativo %?.\n\n"
+             "¿Desea continuar con la instalación?";
 err_uninst_driver = "No se pudo desinstalar el controlador del dispositivo.";
 err_create_process = "Error llamando %s: %s";
 err_write_lock = "Los componentes de la red de %? están siendo usados por otro proceso. Por favor cierre todas las otras aplicaciones o reinicie su ordenador y trate nuevamente.";
