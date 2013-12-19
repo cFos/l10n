@@ -103,7 +103,7 @@ Other files in repository are rather technical, so we'd recommend simply to igno
 
 ML-files contain all translation of all languages at once. Thus, it can be sometime tricky to find section with your language.
 
-To make it a bit easier, we'd recommend to you `Search` function of your text editor.
+To make it a bit easier, we'd recommend to use `Search` function of your text editor.
 
 Here is how it work:
 
