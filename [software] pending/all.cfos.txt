@@ -52,3 +52,8 @@ err_create_process = "Error starting %s: %s";
 dun_with_bc = " with cFos Broadband Connect";
 
 taskbaricon = "System Tray Icon";
+
+#date 2014-01-08
+
+allow_traffic_shaping = "Allow Traffic Shaping for this connection?";
+		removed `?` at the end
