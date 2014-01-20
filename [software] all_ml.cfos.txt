@@ -4771,6 +4771,10 @@ sn_download_err = "Fehler %? beim Herunterladen der Schlüsseldatei von unserem 
 sn_save_err = "Die Schlüsseldatei kann nicht unter %? gespeichert werden.";
 sn_keyfile_err = "Die Schlüsseldatei ist fehlerhaft.";
 
+/ new 16 digit serial number dialog
+sn16_info = "Bitte geben Sie Ihre 16-stellige Seriennummer ein, um Ihren Lizenzschlüssel herunterzuladen. Dazu muss eine Verbindung mit dem Internet bestehen.";
+sn16_failed = "Der Lizenzschlüssel konnte nicht heruntergeladen werden!";
+
 / re-enter password dialog
 repwd_header = "%? Passwort.";
 repwd_subheader = "Das Registrierungspasswort muss erneut eingegeben werden.";
@@ -7343,6 +7347,10 @@ sn_invalid_serial_number = "Invalid serial number. Please check your input and t
 sn_download_err = "Error %? downloading the key file from our server.";
 sn_save_err = "The key file cannot be saved to disk at %?.";
 sn_keyfile_err = "The key file is corrupted.";
+
+/ new 16 digit serial number dialog
+sn16_info = "Please enter your 16 digit serial number to receive your license key. You must be connected to the internet to successfully receive the license key.";
+sn16_failed = "Getting the license key failed!";
 
 / re-enter password dialog
 repwd_header = "%? password.";
@@ -13325,6 +13333,7 @@ sixlink_desc = "%p, High-speed IPv6 dial-up driver";
 cfospnet_mainurl = "http://www.cfos.de/ja/index.htm";
 cfospnet_updateurl = "http://www.cfos.de/ja/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/ja/order/cfos-personal-net-n.htm";
+pnet_desc = "パーソナルウェブサーバー %p";
 renew_params = "更新パラメータ";
 dlg_dun_auto = "自動的に接続を構成";
 dlg_dun_default = "スタンダード接続";
@@ -13332,6 +13341,8 @@ dlg_dun_cons = "接続プロファイル";
 dlg_dun_name = "接続名";
 dlg_dun_uname = "使用者名";
 dlg_dun_pwd = "パスワード";
+dlg_dun_use_ipv4 = "IPv4を使用";
+dlg_dun_use_ipv6 = "IPv6を使用";
 dun_connect_to = "%?と接続";
 dun_err_already_exists = "接続名が見つかりません。";
 disconnect = "切る";
@@ -13351,16 +13362,78 @@ con_dns2 = "DNS2:";
 con_enabled = "有効";
 
 / pnet configuration dialog
+pnet_header = "一般設定";
+pnet_subheader = "一般設定を変更します。";
+pnet_conn_header = "接続";
+pnet_conn_subheader = "接続オプションを設定します。";
+pnet_conn_local_ip = "ローカルIPアドレス %?";
+pnet_conn_public_ip = "パブリックIPアドレス %?";
+pnet_pubdir_header = "パブリックディレクトリ";
+pnet_pubdir_subheader = "ダウンロード可能なファイルを置くディレクトリです。";
+pnet_pubdir_info = "ダウンロード可能としたいファイルが格納されているフォルダの場所を指定してください。";
+smtp_header = "SMTPサーバー";
+smtp_subheader = "SMTPサーバーを構成します。";
+dynip_header = "ダイナミックIPサーバー";
+dynip_subheader = "ダイナミックIPサーバーを構成します。";
+dlg_start_now_as_current_user = "カレントユーザーで %p をすぐに起動";
+dlg_autostart = "Windowsのスタートアップ時に %p を起動";
+dlg_autostart_service = "%p をシステムサービスとしてインストールし、Windowsのスタートアップ時に起動";
+dlg_context_menu = "Windowsのエクスプローラーにコンテキストメニューを追加";
+dlg_create_admin_account = "管理者アカウントを作成";
+dlg_admin_pwd = "ユーザー \"admin\" のパスワード:";
+dlg_admin_pwd_needed = "管理者アカウントを作成するにはユーザー \"admin\" のパスワードを指定する必要があります。";
+dlg_register_shell_extension = "シェル拡張を登録";
+dlg_server_port = "サーバーのポート:";
+dlg_server_name = "サーバー名:";
+dlg_server = "サーバー:";
+dlg_https_port = "HTTPSポート:";
+dlg_renew_interval = "更新間隔 (ミリ秒):";
+dlg_redirect_delay = "リダイレクト遅延 (ミリ秒):";
+dlg_monitor_ports = "ポート割り当てを監視";
+dlg_enable_upnp = "マルチメディアサーバー (UPnP/DLNA) を有効化";
+dlg_upnp_info = "メディアファイルはパブリックディレクトリ内のサブフォルダ media に置いてください。";
+use_https_port = "HTTPSポートを使用";
 
 / pnet start type dialog
+pnet_start_header = "起動方法";
+pnet_start_subheader = "プログラムの起動方法を決定します。";
+pnet_start_mode = "%p の起動方法:";
+pnet_start_login = "ログオン時に起動 (推奨)";
+pnet_start_system = "システムサービスとして起動";
+pnet_start_manual = "手動で起動";
+pnet_start_info = "ログオン時に %p を自動的に起動する方法をお勧めします。"
+                  "ログオンしているユーザーがいないときも %p を実行させたいときは、システムサービスとして起動する必要があります。"
+                  "ただし、その場合はタスクバーにアイコンが表示されず、コンテキストメニューにも表れません。"
+                  "ときどきデータを公開するだけであれば、%p を手動で起動してください。";
 
 / pnet context menu entry
+publish_with_product = "%p で公開";
 
 / pnet backup info
+dlg_backup_info = "次のファイルについては、置換前にバックアップファイル (.bak) が作成されました:";
 
 / pnet
+end_program = "プログラムを終了";
+file_copy_failed = "ファイルのコピー処理に失敗しました。";
+ipv4_bind_problem = "他のアプリケーション (例: Skype) で使用中のため、サーバーが指定ポートをIPv4でリスンできません。";
+ipv6_bind_problem = "他のアプリケーション (例: Skype) で使用中のため、サーバーが指定ポートをIPv6でリスンできません。";
+closing_server = "サーバーを停止しています。";
+start_product = "%p を起動";
+info_port_in_use = "%p に必要なポート %? が他のプログラムで使用中です。\n\nプログラム: %?\nパス: %?\n\n"
+                   "%p を使用するには他のプログラムを終了するか、%p の構成で他のポートを選んでください。";
+monitor_port_desc = "%p に必要なポートを定期的に監視するタスクです。他のプログラムで使用中のポートがある場合はユーザーに警告を発します。";
+logon_start_desc = "以下に示すユーザーがログインすると%p を起動するタスクです。";
+show_home_dir = "ホームディレクトリを表示";
+publish_file = "ファイルを公開";
+user_administration = "ユーザー管理";
 
 / pnet connectivity test
+connectivity_test = "接続テスト";
+con_test_subheader = "接続テストが終了するまでお待ちください。";
+con_test = "%p 接続テスト";
+con_test_not_running = "%p が未起動のため接続テストを実行できません。%p を起動してから接続テストを再実行してください。";
+con_test_public_fail = "お使いのパブリックIPアドレスを特定できません。インターネットに接続しているかどうかを確認の上、再度テストを実行してください。";
+con_test_execute = "接続テストを実行";
 
 / ----------------------------------------------------------------------
 /
@@ -13699,6 +13772,10 @@ rwin_expansion = "RWIN自動拡大";
 rwin_expansion_help = "Windowsで設定されているRWINが小さすぎる場合にTCP受信ウィンドウを自動的に拡大してダウンロード速度を上げる。";
 query_auto_open = "ステータスウィンドウの自動開閉を無効化しますか?\nこの設定はいつでもコンテキストメニューで変更できます。";
 preview_skins = "スキンのプレビュー";
+enable_smartphone_skins = "スマートフォンスキンを有効化";
+http_access_enabled = "リモートからのHTTPアクセスを許可";
+http_access_disabled = "リモートからのHTTPアクセスを許可しない";
+set_server_pwd = "サーバーパスワードを設定";
 
 
 / ----------------------------------------------------------------------
@@ -13786,6 +13863,8 @@ sn_download_err = "サーバーからのキーファイルダウンロード時�
 sn_save_err = "キーファイルをディスク上の %? に保存できません。";
 sn_keyfile_err = "キーファイルが壊れています。";
 
+/ new 16 digit serial number dialog
+
 / re-enter password dialog
 repwd_header = "%? パスワード";
 repwd_subheader = "登録用のパスワードをもう一度入力してください";
@@ -13822,10 +13901,26 @@ usage_stats_subheader = "使用状況に関する統計を %p でどのように
 usage_stats_chk = "滋養状況に関する統計をcFosに匿名で送信して製品の性能改善に協力します。";
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "使用可能な場合に自動ポートフォワーディングを使用します。";
+port_forwarding_failed = "お使いのルーター %? が自動ポートフォワーディングをサポートしていないようです。"
+                         "ルーターの構成で自動ポートフォワーディングを有効化できる場合があります。";
+port_forwarding_config = "ルーターの構成は %? で行えます。";
+port_forwarding_fritz = "セキュリティ設定の変更を FRITZ!Box で許可すれば、ポートフォワーディングを有効化できます。"
+                        "ホームネットワーク / ネットワーク / プログラム で UPnP から設定します。";
 
 / crash handler messages
+crash_msg_crash = "%p でハンドルされない例外が発生しました。";
+crash_msg_crash_installer = "%p のインストールプログラムでハンドルされない例外が発生しました。";
+crash_msg_virus = "プログラムに次のモジュールがインジェクションされたことがクラッシュ原因の可能性があります:";
+crash_msg_virus_clean = "このモジュールはウイルスの可能性があります。システムのウイルススキャンを行うことを強くお勧めします。";
+crash_msg_hook = "他のプログラムのモジュールがこのプログラムにインジェクションされています。これらのモジュールがクラッシュの原因でないことを確認するには、以下のプログラムを無効化またはアンインストールしてからこのプログラムを再実行してください:";
+crash_msg_terminate = "プログラムを終了します。";
+crash_msg_query_upload = "cFos でのエラー解析用に、クラッシュダンプを cFos に送信しますか。";
 
 /start installation dialog
+start_header = "インストール";
+start_subheader = "インストールを開始します。";
+start_installation = "すぐにインストールを開始します。";
 
 / progress dialog
 progress_inst_header = "インストール";
@@ -13839,6 +13934,7 @@ progress_driver_wait = "しばらくお待ちください。ドライバの(ア�
 / confirm delete dialog
 conf_del_header = "設定データを消去";
 conf_del_subheader = "環境設定や個人データなどの削除を確認してください";
+conf_del_info = "%p で以下の構成ファイルとディレクトリが作成されました。これらは削除されていません:";
 conf_del_column = "ファイル名";
 conf_del_query = "これらのファイルを削除するときは、個々にチェックを入れ「次へ」をクリックしてください";
 
@@ -13848,12 +13944,15 @@ finish_info_ok = "%?は正常にインストールされました";
 finish_head_fail = "インストールは失敗しました";
 finish_info_fail = "以下の理由によりインストールは失敗しました: ";
 finish_reboot = "システムを再起動する必要があります。今すぐ再起動するには「再起動」、後で再起動するのなら「キャンセル」をクリックしてください";
+finish_uninst_driver_reboot = "現在使われているドライバのアンインストールを完了するにはシステムを再起動する必要があります。"
+                             "システムの再起動後、再度インストールプログラムを実行してください。";
 finish_file_ok = "";
 finish_link_ok = "<a href=\"%?\">%?の特徴</a>";
 finish_file_fail = "詳細情報はログファイル %s を参照してください";
 finish_file_link_fail = "詳細情報は<a href=\"file://%s\">ログファイル</a>を参照してください";
 finish_cfosts_disabled = "%pが既に帯域制御を行っているため、cFosの帯域制御は無効になっています。設定メニューより再び有効にすることができます";
 finish_cfosts_enabled = "cFosの帯域制御が有効になりました";
+finish_link_checkbox = "%p の最新機能を表示";
 
 / uninstall finish page
 ui_finish_head_ok = "アンインストール成功";
@@ -13881,20 +13980,29 @@ task_uninstall_old = "既存バージョンをアンインストールしてい�
 task_stop_daemon = "%?を停止しています";
 task_uninstall_driver = "ドライバをアンインストールしています";
 task_delete_files = "ファイルを削除しています";
+task_cleanup_caches = "キャッシュをクリーンアップしています...";
 task_hangup = "インターネット接続を切断しています";
 task_flush_registry = "レジストリを読み込み中です";
 task_cancel = "処理を中断しています";
 task_canceled = "処理は中断されました";
 
 / connectivity test progress tasks
+task_start_program = "%p を起動中...";
+task_test_localhost = "localhost をテスト中...";
+task_test_local_ip = "ローカルIPアドレスをテスト中...";
+task_test_public_ip = "パブリックIPアドレスをテスト中...";
+task_test_finished = "テストを完了しました。";
 
 / program group
 speed_pg_name = "%p 帯域制御";
 pg_uninstall = "%? をアンインストール";
 pg_www = "www.cfos.de";
 pg_console = "%p コンソール";
+pg_start = "%p のステータスウィンドウを起動";
 pg_menu = "%? メニュー";
 pg_add_connection = "接続を追加する";
+pg_enter_serial_number = "シリアルナンバーを入力";
+pg_configure = "%p を構成";
 
 / desktop symbol
 dt_advertise = "%?の特徴";
@@ -13904,6 +14012,7 @@ dt_advertise_desc = "%?のすべての特徴をリストアップ";
 query_reboot = "変更を有効にするにはシステムを再起動する必要があります。\n\n今すぐ再起動しますか？";
 query_drv_inst_cancel = "OSによるドライバのインストール/アンインストールの処理中です。\nWindowsのセットアップインターフェイスはドライバの登録/解除に15分近くかかることもあります。\nこのままキャンセルせずに実行し続けることを強く推奨します。\n本当にキャンセルしますか？";
 query_driver_err_abort = "ドライバのインストール中にエラーが発生しました。\n直ちにインストールを中断することを推奨します。\n\nインストールを続ける事は可能ですが、テスト用途にとどめてください。\n%pは正しく動作しません。インストールを中断しますか？（推奨）";
+query_further_info = "より詳細な情報をご希望ですか ?";
 
 / error messages
 err_driver_inst = "ドライバをインストールできませんでした";
@@ -13911,6 +14020,9 @@ err_daemon_start = "%?が開始していない可能性があります";
 err_uninst_old = "既存バージョンをアンインストールできませんでした。一旦ログオフしてやり直してください";
 err_os = "OSが%?です。%?を動かすにはWindows2000/XP以上が必要です";
 err_os_minxp = "OSが%?です。%?を動かすにはWindows XP以上が必要です";
+err_os_sup = "%p が公式サポートするのは %? 以上のみです。\n\n"
+             "%p がお使いのオペレーティングシステム %? で動作する可能性はありますが、弊社では確認を行っておりません。\n\n"
+             "インストールを続行しますか ?";
 err_uninst_driver = "デバイス・ドライバをアンインストールできませんでした";
 err_create_process = "%sを呼び出すことができませんでした: %s";
 err_write_lock = "%?のネットワーク構成は他のプロセスによって使用されています。ほかのすべてのプログラムを終了させるか、システムを再起動してください";
@@ -13942,8 +14054,29 @@ err_winhttp =
   "ロードすることはできません。";
 bad_manufacturer = "インストールすることはできませんを開始するため、製品のみを選択したハードウェア用にライセンスされて！";
 cannot_install = "インストールできない";
+err_uninst_daemon =
+   "デーモンをアンインストールできません。"
+   "%p で開いたままのダイアログウィンドウがある場合は、先に閉じてください。"
+   "ない場合はコンピューターを再起動してください。";
+err_activate_10045 =
+   "アクティベーション中にHTTPエラー10045が発生しました。\n"
+   "Winsockが壊れている可能性があります。\n"
+   "Winsockをリセットするには、コマンドシェルを開いて\n"
+   "'netsh winsock reset' と入力します。\n"
+   "次に、コンピューターを再起動してから\n"
+   "アクティベーションを再試行してください。";
+err_activate_12002 =
+   "登録中にHTTPエラー12002 (要求のタイムアウト)\n"
+   "が発生しました。登録に必要なポートが\n"
+   "ファイアウォールやアンチウイルスプログラム、その他のセキュリティソフト\n"
+   "でブロックされているために登録サーバーへの接続が妨げられている\n"
+   "可能性があります。\n"
+   "この種のプログラムを使用している場合は、\n"
+   "一時的に無効化した上で再度登録を試して\n"
+   "ください。";
 / %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "%1を%2にコピー中にエラーが発生しました（%3）";
+err_port_in_use = "サーバーポート %? が他のプログラムで使用中です。\n\nプログラム: %?\nパス: %?";
 
 / warning messages
 wrn_oem_update = "既にライセンスを受けて %p インストールされます。\n\n"
@@ -13952,6 +14085,7 @@ wrn_oem_update = "既にライセンスを受けて %p インストールされ�
   "あなたのライセンスを更新 %p 同じ場所で入手することができます\n"
   "ここで最初にそれを買った。\n\n"
   "とにかくインストールを続行しますか？";
+wrn_close_application = "以下のアプリケーションを閉じてから続行することをお勧めします:";
 
 / traffic shaping algorithm
 tsa_header = "Traffic Shaping モード（マルチユーザー版）";
