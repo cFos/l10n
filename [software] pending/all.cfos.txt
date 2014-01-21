@@ -53,7 +53,19 @@ dun_with_bc = " with cFos Broadband Connect";
 
 taskbaricon = "System Tray Icon";
 
+
 #date 2014-01-08
 
 allow_traffic_shaping = "Allow Traffic Shaping for this connection?";
 		removed `?` at the end
+
+
+#date 2014-01-21
+
+err_activate_12002 =
+   "HTTP error 12002 (request time-out) has occurred during\n"
+   "the registration. A possible reason could be that the connection to our server\n"
+   "necessary for the registration is being blocked by a firewall, an anti-virus\n"
+   "program or any other kind of security software. If you have any of those\n"
+   "programs installed, please deactivate them temporarily and then retry the registration.";
+   		Changed to the version above. Commit
