@@ -68,4 +68,4 @@ err_activate_12002 =
    "necessary for the registration is being blocked by a firewall, an anti-virus\n"
    "program or any other kind of security software. If you have any of those\n"
    "programs installed, please deactivate them temporarily and then retry the registration.";
-   		Changed to the version above. Commit
+   		Changed to the version above. Commit SHA ID a8b0ef33119f489972771ec27b76dabba6f7395e
