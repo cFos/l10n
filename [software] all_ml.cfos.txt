@@ -7582,13 +7582,10 @@ err_activate_10045 =
    "again.";
 err_activate_12002 =
    "HTTP error 12002 (request time-out) has occurred during\n"
-   "the registration. A possible reason could be that the\n"
-   "for the registration necessary connection to our server\n"
-   "is being blocked by a firewall, an anti-virus program or\n"
-   "any other kind of security software.\n"
-   "If you have any of those programs installed, please\n"
-   "deactivate them temporarily and then retry the\n"
-   "registration.";
+   "the registration. A possible reason could be that the connection to our server\n"
+   "necessary for the registration is being blocked by a firewall, an anti-virus\n"
+   "program or any other kind of security software. If you have any of those\n"
+   "programs installed, please deactivate them temporarily and then retry the registration.";
 / %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "Error copying file %1 to %2 (%3).";
 err_port_in_use = "The server port %? is already in use by another program.\n\nProgram: %?\nPath: %?";
@@ -14066,14 +14063,11 @@ err_activate_10045 =
    "次に、コンピューターを再起動してから\n"
    "アクティベーションを再試行してください。";
 err_activate_12002 =
-   "登録中にHTTPエラー12002 (要求のタイムアウト)\n"
-   "が発生しました。登録に必要なポートが\n"
-   "ファイアウォールやアンチウイルスプログラム、その他のセキュリティソフト\n"
-   "でブロックされているために登録サーバーへの接続が妨げられている\n"
-   "可能性があります。\n"
-   "この種のプログラムを使用している場合は、\n"
-   "一時的に無効化した上で再度登録を試して\n"
-   "ください。";
+  "登h中にHTTPエラ`12002 (要求のタイムアウト)がk生しました。\n"
+  "登hに必要な接Aがファイアウォ`ルやアンチウイルスプログラム、\n"
+  "その他のセキュリティソフトでブロックされている可能性があります。\n"
+  "このNのプログラムを使用している龊悉稀⒁r的にo炕した上で\n"
+  "再度登hをしてください。";
 / %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "%1を%2にコピー中にエラーが発生しました（%3）";
 err_port_in_use = "サーバーポート %? が他のプログラムで使用中です。\n\nプログラム: %?\nパス: %?";
