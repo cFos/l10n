@@ -40,13 +40,6 @@ f_checkbox_license_text_pnetbnd = "I have read the license agreements for <a cla
 legal_note_text = "Our licensing conditions do explicitly permit putting the most recently released shareware versions of cFos, cFos Broadband Connect, cfos IPv6 Link and cFosSpeed on free CDs for inclusion with magazines.  For more on licensing issues, please consult our <a href=\"/en/cfosspeed/license.shtml\">LICENSE.TXT</a> file.  Both text and artwork on our web site may be used for press and review purposes.";
 		.shtml -> .htm
 
-
-#date 2013-08-03 - occurs only in sent
-
-pnet_doc_access_p1 = "cFos PNet evaluates configuration files, called AccessFiles. By default they are named <em>.htaccess</em>. So called directives therein control the behaviour of cFos PNet for the particular folder (and all subfolder thereof) where they are located. The first <em>.htaccess</em> file is located in the <em>private</em> folder and contains all initial settings. If the a client requests a certain url, say <b>/test/x/file1.txt</b>, all <em>.htaccess</em> files are evaluated for all folders the url mentions. In this example first <em>.htaccess</em> of the <em>private</em> folder is evaluated, then <em>.htaccess</em> of folder <em>pub</em>, then of folder <em>test</em>, then <em>.htaccess</em> or folder <em>x</em>.<br/>All directives are cumulative, ie. they are added or overwritten, but not deleted.";
-	<em>.htaccess</em> or folder <em>x</em> -> <em>.htaccess</em> of folder <em>x</em>
-
-
 #date 2013-09-12 - only in sent
 
 cfout_p1a = "cFos Outlook DAV is an Outlook Add-in to connect to calendar and contact folders on a CalDAV/CardDAV server in the cloud.";
@@ -64,6 +57,7 @@ cfout_p4 = "For a <b class=\"green\">DAViCal calendar</b> the URL is <b>http://<
 	<b>http://<b>your_davical_server</b>/caldav.php/<b>your_davical_account</b>/calendar</b> -> http://<b>your_davical_server</b>/caldav.php/<b>your_davical_account</b>/calendar
 
 #date 2013-10-26
+
 uninst_h1_speed = "cFosSpeed has been uninstalled";
 uninst_p1_speed = "Thank you for trying out cFosSpeed. Please help us improve cFosSpeed by telling us why you uninstalled it. Your feedback is very important to us.";
 uninst_assess_speed = "How do you assess the following components of cFosSpeed?";
@@ -72,3 +66,8 @@ uninst_pingtime_inc = "cFosSpeed increased my ping";
 uninst_speed_reduce = "cFosSpeed reduced my speed";
 uninst_speed_guide = "Before you completely uninstall cFosSpeed, our <a onclick=\"cfos.set_event('speed_feedback', 'speed_guide'); return true;\" href=\"/en/traffic-shaping/speed-guide.htm\" target=\"_blank\"><b>Speed Guide</b></a> may be a solution for you. It helps you solve the most important speed, ping or prioritization problems. If you start it with cFosSpeed installed, it can evaluate your connection characteristics and adapt the solution to your connection.";
 	cFosSpeed -> cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> | See commit SHA ID: ca66e7d320019cb32065f7c4098e344809f91dea
+
+#date 2014-01-28
+
+pnet_doc_access_p1 = "cFos PNet evaluates configuration files, called AccessFiles. By default they are named <em>.htaccess</em>. So called directives therein control the behaviour of cFos PNet for the particular folder (and all subfolder thereof) where they are located. The first <em>.htaccess</em> file is located in the <em>private</em> folder and contains all initial settings. If the a client requests a certain url, say <b>/test/x/file1.txt</b>, all <em>.htaccess</em> files are evaluated for all folders the url mentions. In this example first <em>.htaccess</em> of the <em>private</em> folder is evaluated, then <em>.htaccess</em> of folder <em>pub</em>, then of folder <em>test</em>, then <em>.htaccess</em> or folder <em>x</em>.<br/>All directives are cumulative, ie. they are added or overwritten, but not deleted.";
+	<em>.htaccess</em> or folder <em>x</em> -> <em>.htaccess</em> of folder <em>x</em>
