@@ -33,7 +33,7 @@ Website translation status
 |     | pl - 1045         |       320 |                                                   |       |
 |     | pt-br - 1046      |       270 | in progress (400 done)                            |       |
 |     | ro - 1048         |      1400 |                                                   |       |
-| `p` | ru - 1049         |       290 | in progrees (by ArmorDarks)                       |       |
+| `p` | ru - 1049         |       290 | in progrees (by Serj Lavre)                       |       |
 |     | sv - 1053         |      1200 |                                                   |       |
 |     | tr - 1055         |       300 |                                                   |       |
 |     | id - 1057         |       290 |                                                   |       |
@@ -50,7 +50,7 @@ Website translation status
 | `x` | en-gb - 2057      |   `x` all |                                                   |       |
 |     | es-mx - 2058      |      1400 |                                                   |       |
 | `x` | it-ch - 2064      |   `x` all |                                                   |       |
-| `G` | pt - 2070         |       500 |                                                   |       |
+| `G` | pt - 2070         |       800 | done by Adriano Maia 2014-01-28                   |       |
 | `G` | sr-cs-latn - 2074 |       all |                                                   |       |
 |     | sr-cyrl-cs - 3098 |       all |                                                   |       |
 | `x` | zh-hk - 3076      |   `x` all |                                                   |       |
