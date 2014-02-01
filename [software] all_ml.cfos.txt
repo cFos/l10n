@@ -65,6 +65,7 @@ speed_mainurl = "http://www.cfos.de/ar/index.htm";
 speed_updateurl = "http://www.cfos.de/ar/download/download.htm";
 speed_orderurl = "https://www.cfos.de/ar/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/ar/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/ar/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/ar/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/ar/traffic-shaping/calibration-message.htm";
@@ -1582,6 +1583,7 @@ speed_mainurl = "http://www.cfos.de/zh-tw/index.htm";
 speed_updateurl = "http://www.cfos.de/zh-tw/download/download.htm";
 speed_orderurl = "https://www.cfos.de/zh-tw/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/zh-tw/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/zh-tw/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/zh-tw/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/zh-tw/traffic-shaping/calibration-message.htm";
@@ -2980,6 +2982,10 @@ con_enabled = "povoleno";
 / pnet configuration dialog
 pnet_header = "Obvyklá nastavení";
 pnet_subheader = "Upravit obvyklá nastavení.";
+pnet_conn_header = "Připojení";
+pnet_conn_subheader = "Nastavení možností připojení.";
+pnet_conn_local_ip = "Lokální IP adresa %?";
+pnet_conn_public_ip = "Veřejná IP adresa %?";
 pnet_pubdir_header = "Veřejný adresář";
 pnet_pubdir_subheader = "Adresář, který obsahuje stáhnutelné soubory.";
 pnet_pubdir_info = "Udejte umístění složky, kde se nacházejí soubory, které chcete zpřístupnit pro stahování.";
@@ -2999,8 +3005,22 @@ dlg_server_name = "Jméno serveru:";
 dlg_server = "Server:";
 dlg_renew_interval = "Interval pro obnovení (ms):";
 dlg_redirect_delay = "Prodleva při přesměrování (ms):";
+dlg_monitor_ports = "Monitorovat přiřazení portů";
+dlg_enable_upnp = "Povolit Multimedia Server (UPnP/DLNA)";
+dlg_upnp_info = "Dej soubory médií do podsložky 'media' tvojí veřejné složky.";
+use_https_port = "Použij HTTPS port";
 
 / pnet start type dialog
+pnet_start_header = "Způsob spuštění";
+pnet_start_subheader = "Jak má být program spuštěn?";
+pnet_start_mode = "Spuštění %p:";
+pnet_start_login = "při přihlášení (doporučeno)";
+pnet_start_system = "jako systémová služba";
+pnet_start_manual = "ručně";
+pnet_start_info = "Doporučeno automatické spuštění %p při přihlášení. "
+                  "Jestliže %p má být spuštěno také, když není přihlášen uživatel, musí být spuštěno jako systémová služba. "
+                  "V tomto případě nebude viditelná ikona ani kontextové menu. "
+                  "Jestliže chcete publikovat data jen příležitostně, pak spouštějte %p ručně.";
 
 / pnet context menu entry
 publish_with_product = "Publikovat prostřednictvím %p";
@@ -3015,8 +3035,21 @@ ipv4_bind_problem = "Server nemůže na udaném portu naslouchat pomocí IPv4, p
 ipv6_bind_problem = "Server nemůže na udaném portu naslouchat pomocí IPv6, protože port používá jiná aplikace (např. Skype).";
 closing_server = "Server se zavírá.";
 start_product = "Odstartovat %p";
+info_port_in_use = "Port %? je %p používán jiným programem.\n\nProgram: %?\nCesta: %?\n\n"
+                   "K použití %p, musí být tento jiný program ukončen nebo musí být vybrán jiný port v %p konfiguraci.";
+monitor_port_desc = "Tato úloha pravidelně monitoruje porty potřebné %p a upozorní uživatele, jestliže je jeden z portů používán jiným programem.";
+logon_start_desc = "Tyto úlohy jsou spuštěny %p jestliže se přihlásí níže uvedený uživatel.";
+show_home_dir = "Zobrazit domovskou složku";
+publish_file = "Publikovat soubor";
+user_administration = "Uživatelská správa";
 
 / pnet connectivity test
+connectivity_test = "Test připojení";
+con_test_subheader = "Prosím, počkejte dokud neskončí test připojení.";
+con_test = "%p Test připojení";
+con_test_not_running = "Test připojení nemůže být proveden, pokud %p není spuštěn. Prosím spusťte %p a proveďte test připojení znovu.";
+con_test_public_fail = "Vaše veřejná IP adresa nebyla zjištěna. Prosím, ujistěte se, že jste připojeni k internetu a zopakujte test.";
+con_test_execute = "Proveďte test připojení";
 
 / ----------------------------------------------------------------------
 /
@@ -3028,6 +3061,7 @@ speed_mainurl = "http://www.cfos.de/cs/index.htm";
 speed_updateurl = "http://www.cfos.de/cs/download/download.htm";
 speed_orderurl = "https://www.cfos.de/cs/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/cs/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/cs/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/cs/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/cs/traffic-shaping/calibration-message.htm";
@@ -3047,6 +3081,7 @@ speed_endsoon = "Vaše testovací doba brzy skončí! Objednejte si %1 ještě d
 order_info = "Objednejte nyní:\nInternet: www.cfos.de\nTelefon: +49-228-7669826";
 badkey = "Byl zjištěn problém s licenčním klíčem.\nPřeinstalujte klíč dvojklikem na originálním souboru,\nkterý jste obdrželi elektronickou poštou nebo na disketě.";
 no_setup = "Nelze spustit instalaci (setup.exe).";
+no_cmd = "Nelze otevřít příkazový řádek (cmd.exe)!";
 ask_disconnect_ras = "Aktivní připojení bude překonfigurováno.\nDoporučujeme před pokračováním ukončit připojení.\nUkončit připojení k síti?";
 sygate_hint = "%p detekoval Sygate Firewall, který zmátl\n%p kalibrační pulz pro Denial of Service útok pomocí\n\"Ping-of-Death\" packetu.\nPřesto budete schopni stahovat plnou rychostí\n30 sekund. Mělo by to být zkalibrováno\n%p pomocí kalibračního pulzu.\n\nRada: Funkce Firewallu \"Manipulace s IP\" by měla být\ndeaktivovaná.";
 select_language = "Vyberte jazyk";
@@ -3124,10 +3159,13 @@ current_connections_standard = "Aktuální připojení (standardní)";
 ts_prios = "Upřednostnění pro Traffic Shaping";
 client_protocols = "Klientské protocoly";
 server_protocols = "Protokoly serveru";
+client_server_protocols = "Protokoly klient-server";
 media_streaming = "Streamovaná média";
 file_sharing = "Sdílení souborů";
 special = "Rozšířené";
 other = "Další";
+misc_high_short = "Ostatní s prioritou";
+misc_high = "Ostatní provoz s vysokou prioritou";
 hint = "Nápověda";
 hint_text = "Upřednostnění bude pracovat správně pouze pokud lze dát vyskou prioritu malému rozsahu dat. Nastavte pro programy posíání dat v nízké prioritě. Priorita protokolu má přednost před upřednostněním programu.";
 prio_doc_link = "Jak pracuje schéma upřednostňování";
@@ -3216,6 +3254,7 @@ password_bad = "Chybné heslo";
 sum_button = "kumulativní";
 calibrate = "Calibrovat linku";
 test_pings = "Odeslat testovací pingy";
+open_console = "Otevři %p konzoli";
 variable_bandwidth = "Proměnlivá šířka pásma";
 def_bandwidth_help = "Výchozí pro <b>nové</b> připojení";
 cur_bandwidth_help = "Nastavení stávajícího připojení";
@@ -3274,6 +3313,9 @@ tx_only = "Pouze TX";
 max_of_rx_tx = "Maximum RX a TX";
 total_rx_only = "Celková rychlost RX";
 total_tx_only = "Celková rychlost TX";
+nettalk_rx = "Rychlost downloadu Net Talk";
+nettalk_tx = "Rychlost uploadu Net Talk";
+nettalk_max_of_rx_tx = "Max. z Net Talk up & downloadu";
 total_max_of_rx_tx = "Max. celkové RX & TX";
 check_if_other_also = "Zaškrtněte, pokud chcete, aby se v této pozici počítal veškerý ostatní provoz";
 performance_help = "Pro zachování maximálního výpočetního výkonu doporučujeme nastavit připojení, které se používá pro přístup k internetu, na 'Ano' a všechna ostatní na 'Ne'.";
@@ -3301,8 +3343,56 @@ documentation = "Dokumentace";
 speed_test = "Test cFos Speed";
 ask_key_banned_info = "Vyskytl se problém s vaším licenčním klíčem.\nPřejete si další informace?";
 
+adapter_info = "Info o adaptéru";
+channel_recommend = "Kanály s minimem využití frekvence (od nejlepšího k nejhoršímu)";
+channel_explain = "Můžete použít využití kanálu ke konfiguraci WLAN stanice, ale mějte na vědomí, že současné využití frekvence záleží na konkrétním použití jiných sítí WLAN. Některé mohou být nečinné, jiné velmi využívané.";
+no_adapters = "Není dostupná informace o adaptéru.";
+wlan_no_service = "Služba není dostupná. Prosím, nainstalujte nebo spusťte bezdrátové LAN API pro Windows (WZC).";
+wlan_no_station = "Nalezeno málo přístupových bodů.";
+kaspersky_hint = "Kaspersky Internet Security 2010 může způsobovat problémy s %p. Prosím, aktualizujte na nejnovější verzi Kaspersky Internet Security.";
 
+console_cancel = "Zrušit";
+console_freeze = "Zastavit";
+console_continue = "Pokračovat";
+console_help = "Můžete nastavit prioritu jednotlivého připojení kliknutím na tabulku níže.<br/>Připojení označené (*) mají dočasně prioritu.";
+console_prio = "Nastavit prioritu tomuto připojení";
+console_prio_off = "Vypnout nastavení priorit";
+console_prio_this = "Dočasně nastavit prioritu pouze tomuto připojení";
+console_prio_this_off = "Zrušit prioritu tomuto připojení";
+console_prio_prot = "Dočasně nastavit prioritu protokolu";
+console_prio_prot_off = "Zrušit nastavení priority protokolu";
+console_prio_prog = "Dočasně nastavit prioritu programu";
+console_prio_prog_off = "Zrušit nastavení priority programu";
+console_prio_prog_prot = "Dočasně nastavit prioritu programu & protokolu";
+console_prio_prog_prot_off = "Dočasně zrušit nastavení priority programu & protokolu";
+console_prio_prot_perm = "Nastavit prioritu protokolu trvale";
+console_prio_prog_perm = "Nastavit prioritu programu trvale";
+console_prio_advanced = "Pokročilé nastavení priorit";
 
+new_version_available = "Je k dispozici nová verze";
+update_beta = "Zkontrolujte také nové beta verze";
+update_skip_version = "Žádné další oznámení pro tuto verzi:";
+check_new_version_now = "Vyhledej novou verzi";
+program_updates = "Aktualizace programu";
+no_new_version_available = "Nová verze není k dispozici";
+use_logitech = "Použijte display Logitech G15/G19/G510";
+detect_logitech = "Detekce obrazovky Logitech";
+logitech_help = "Pomoc pro Logitech display";
+logitech_keyboards = "Logitech hrací klávesnice";
+keyboard_leds = "LED na klávesnici";
+keyboard_led_help = "Pomoc pro LED na klávesnici";
+only_on_fullscreen = "Pouze pro fullscreen";
+speed_guide = "Průvodce rychlosti";
+lock_position = "Zamkni pozici okna";
+check_for_news = "Zkontroluj zprávy";
+rwin_expansion = "Automatické rozšíření RWIN";
+rwin_expansion_help = "Automaticky rozšířit okno příjmu TCP ke zvýšení rychlosti downoladu pokud je RWIN vybrané Windows příliš malé.";
+query_auto_open = "Zakázat automatické otvírání a zavírání stavového okna?\nMůžete později opět zapnout v kontextovém menu.";
+preview_skins = "Ukázka skinů";
+enable_smartphone_skins = "Skiny smartphonů";
+http_access_enabled = "Vzdálený přístup HTTP povolen";
+http_access_disabled = "Vzdálený přístup HTTP zakázán";
+set_server_pwd = "Nastavit heslo serveru";
 
 
 / ----------------------------------------------------------------------
@@ -3322,8 +3412,10 @@ speed_activation_failed_url = "http://www.cfos.de/cs/cfosspeed/activation-failed
 install_wizard_name = "%? Instalační průvodce";
 uninstall_wizard_name = "%? průvodce odinstalací";
 brandkey_wizard_name = "%? Registrační průvodce";
+config_wizard_name = "%p Průvodce konfigurací";
 continue_line = "Pro pokračování klikněte na Další.";
 start_inst = "Pro instalaci klikněte na Další.";
+click_next_further_info = "Klikni Další pro další informace.";
 wizard_lang_line = "Průvodce je v";
 
 / welcome page
@@ -3336,6 +3428,7 @@ welcome_found_modified = "Byla detekována nedokončená instalace %1 v%2 ve slo
 welcome_update = "Pro nahrazení existující verze klikněte na Další.";
 welcome_admin = "Nemáte administrátorská práva. Pro spuštění průvodce je nutné být přihlášen jako uživatel s právy administrátora.";
 welcome_lang_syslink = "<a href=\"%?\">Další jazyky</a>";
+welcome_oem_info = "%1 je OEM verze %p pro %2. Proto %p obsahuje všechny funkce %1 a více.";
 
 / uninstall welcome page
 ui_welcome_line = "Odinstalovat %? v%?.";
@@ -3348,6 +3441,10 @@ bk_welcome_found = "Existující registrační soubor byla nalezen ve složce %?
 bk_welcome_update = "Pro přepsání existujícího klíče klikněte na Další.";
 
 / license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "Licenční smlouva";
+lic_subheader = "K pokračování musíte souhlasit s licenční smlouvou.";
+lic_info = "Jesliže souhlasíte s licenční smlouvou zaškrtněte pole \"Souhlasím\" a klikněte Další, jinak klikněte Zrušit.";
+lic_agree = "Souhlasím.";
 
 / restore point dialog
 rp_header = "Bod obnovení systému";
@@ -3369,7 +3466,23 @@ pwd_activate_failed = "Aktivace klíče selhala!";
 pwd_activate_failed_code = "Aktivace klíče selhala: chyba %?.";
 
 / serial number dialog
+sn_header = "Sériové číslo.";
+sn_subheader = "Zadejte sériové číslo a aktivujte klíč.";
+sn_info = "Jestliže máte 16ti místné heslo ve tvaru xxxx-xxxx-xxxx-xxxx, prosím "
+   "ukončete tento dialog a dvakrát klikněte na Váš licenční klíč. "
+   "Objeví se obrazovka, kde můžete zadat Vaše heslo.\n\n"
+   "Jesliže máte 30to místné sériové číslo ve formě xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, prosím "
+   "zadejte jej nyní ke stažení a aktivování licenčního klíče.\n\n";
+sn_serial_number = "Sériové číslo:";
+sn_invalid_serial_number = "Neplatné sériové číslo. Prosím, zkontrolujte jej a zkuste znovu.";
 / the %? will be replaced by the error number:
+sn_download_err = "Chyba %? stahování klíče z našeho serveru.";
+sn_save_err = "Klíč nemohl být uložen na disk %?.";
+sn_keyfile_err = "Klíč je poškozen.";
+
+/ new 16 digit serial number dialog
+sn16_info = "K získání licenčního klíče zadejte, prosím, Vaše 16ti místné sériové číslo. K získání licenčního klíče musíte být připojeni k internetu.";
+sn16_failed = "Získání licenčního klíče se nezdařilo!";
 
 / re-enter password dialog
 repwd_header = "%? heslo.";
@@ -3384,6 +3497,8 @@ instdir_change = "Změnit";
 instdir_src_dst = "Zdrojový a cílový adresář se nesmí shodovat!";
 instdir_space = "Instalace vyžaduje %u bajtů volného místa. Na vybraném disku je pouze %u bajtů volných.";
 instdir_drivetype = "Zvolený disk není platný. %? Instalovat je možné pouze na pevné disky.";
+instdir_system = "Složka pro instalaci musí být na systémovém disku '%?'.";
+instdir_system_recommended = "Důrazně doporučujeme vybrat složku pro instalaci na systémovém disku '%?'. (Přesto pokračovat kliknutím Další.)";
 
 / tcp settings dialog
 tcp_header = "Nastavit velikost TCP rámce pro příjem.";
@@ -3400,12 +3515,31 @@ hangup_info = "Pro pokračování s průvodcem musí být spojení ukončeno.\n\
 hangup_disco = "Odpojit";
 
 / usage statistics
+usage_stats = "Statistika využití";
+usage_stats_subheader = "Vyberte jak %p použít statistiku využití.";
+usage_stats_chk = "Poslat anonymní statistiku využití cFos ke zlepšení produktu.";
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "Použít automatické přesměrování portů, pokud je to možné.";
+port_forwarding_failed = "Váš router%? nepodporuje automatické přesměrování portů. "
+                         "Tuto funkci můžete aktivovat v konfiguraci routeru.";
+port_forwarding_config = "Můžete konfigurovat Váš router v %?.";
+port_forwarding_fritz = "Můžete aktivovat automatické přesměrování portů ve Vašem FRITZ!Boxu povolením změn bezpečnostního nastavení UPnP "
+                        "pod Home Network / Network / Programs";
 
 / crash handler messages
+crash_msg_crash = "Nastala neošetřená výjimka v %p.";
+crash_msg_crash_installer = "Nastala neošetřená výjimka v %p instalačním programu.";
+crash_msg_virus = "Následující kód se spojil s tímto programem a může být příčinou havárie:";
+crash_msg_virus_clean = "Tento kód může být virus. Důrazně doporučujeme provést antivirovou kontrolu Vašeho systému.";
+crash_msg_hook = "Byly nalezeny kódy jiných programů, které se spojily s tímto programem. Ke zjištění, zda tyto kódy nejsou příčinou havárie, prosím spusťte tento program znovu poté, co deaktivujete nebo odinstalujete následující programy:";
+crash_msg_terminate = "Program bude nyní ukončen.";
+crash_msg_query_upload = "Chcete poslat cFos popis havárie? To nám pomůže analyzovat chybu.";
 
 /start installation dialog
+start_header = "Instalace";
+start_subheader = "Start instalace.";
+start_installation = "Spusťte instalaci.";
 
 / progress dialog
 progress_inst_header = "Instalace";
@@ -3419,6 +3553,7 @@ progress_driver_wait = "Počkejte, než operační systém dokončí instalaci o
 / confirm delete dialog
 conf_del_header = "Smazat konfigurační soubor";
 conf_del_subheader = "Smazání souborů s konfigurací nebo osobními údaji musíte potvrdit.";
+conf_del_info = "Byly vytvořeny následující konfigurační soubory %p a zatím nebyly smazány:";
 conf_del_column = "Jméno souboru";
 conf_del_query = "Pokud chcete smazat také tyto soubory, označte je jednotlivě. Po označení klikněte na Další.";
 
@@ -3428,12 +3563,15 @@ finish_info_ok = "%? byl úspěšně nainstalován na vašem počítači.";
 finish_head_fail = "Instalace nebyla úspěšná.";
 finish_info_fail = "Instalace nebyla úspěšná z následujících důvodů:";
 finish_reboot = "Systém musí být restartován! Klikněte na dokončit pro restart nebo na Storno pokud chcete restartovat později.";
+finish_uninst_driver_reboot = "Odinstalace existujícího ovladače může být provedena restartem systému. "
+                             "Prosím, restartujte Váš systém a spusťte znovu instalační program.";
 finish_file_ok = "";
 finish_link_ok = "<a href=\"%?\">%? výhoda!</a>";
 finish_file_fail = "Další informace najdete v logu %s.";
 finish_file_link_fail = "Zobrazit <a href=\"file://%s\">log soubor</a> pro další informace.";
 finish_cfosts_disabled = "Traffic shaping v běžícím cFos byl zakázán, protože %p už traffic shaping řídí. (Povolit cFos traffic shaping je možno v konfiguraci programu.)";
 finish_cfosts_enabled = "Traffic shaping v cFos byl povolen.";
+finish_link_checkbox = "ukázat poslední %p funkce";
 
 / uninstall finish page
 ui_finish_head_ok = "Odinstalace byla úspěšná.";
@@ -3461,20 +3599,29 @@ task_uninstall_old = "Odinstalovávám existující verzi...";
 task_stop_daemon = "Zastavuji %?...";
 task_uninstall_driver = "Odinstalovávám ovladač...";
 task_delete_files = "Mažu soubory...";
+task_cleanup_caches = "Mazání vyrovnávací paměti...";
 task_hangup = "Odpojuji aktivní spojení...";
 task_flush_registry = "Ukládám registry na disk...";
 task_cancel = "Přerušuji operaci...";
 task_canceled = "Operace přerušena!";
 
 / connectivity test progress tasks
+task_start_program = "Spouštění %p...";
+task_test_localhost = "Testování localhost...";
+task_test_local_ip = "Testování lokální IP adresy...";
+task_test_public_ip = "Testování veřejné IP adresy...";
+task_test_finished = "Test ukončen.";
 
 / program group
 speed_pg_name = "%p Traffic Shaping";
 pg_uninstall = "Odinstalovat %?";
 pg_www = "www.cfos.de";
 pg_console = "%p konsola";
+pg_start = "Otevřít %p stavové okno";
 pg_menu = "%? menu";
 pg_add_connection = "Přidat spojení";
+pg_enter_serial_number = "Zadat seriové číslo";
+pg_configure = "Konfigurovat %p";
 
 / desktop symbol
 dt_advertise = "%? možnosti";
@@ -3484,6 +3631,7 @@ dt_advertise_desc = "Seznam všech možností pro %?.";
 query_reboot = "Pro provedení změn je nezbytné restartovat počítač.\n\nRestartovat systém nyní?";
 query_drv_inst_cancel = "Instalace/odinstalace ovladače je prováděna operačním systémem.\nWindows setup může vyžadovat až 15 minut pro \nregistraci nebo odregistraci ovladače!\n\nJe silně doporučeno nepřerušovat tento proces dokud\nnečekáte opravdu velmi dlouho.\n\nOpravdu přerušit instalaci ?";
 query_driver_err_abort = "Došlo k chybě při instalaci ovladače!\nDoporučujeme instalaci ukončit.\n\nV instalaci je přesto možné pokračovat.\nJe třeba si uvědomit, \nže %p nemusí po nekorektní instalaci běžet správně.\n\nUkončit instalaci ? (doporučeno)";
+query_further_info = "Chcete další informace?";
 
 / error messages
 err_driver_inst = "Nepodařilo se nainstalovat ovladač.";
@@ -3491,6 +3639,9 @@ err_daemon_start = "Nelze spustit %?.";
 err_uninst_old = "Existující verze nebyla odinstalována. Odhlaste se, přihlaste a zkuste to znovu.";
 err_os = "Váš operační systém je %?.\n\n%? vyžaduje Windows 2000/XP nebo vyšší.";
 err_os_minxp = "Váš operační systém je %?.\n\n%? vyžaduje Windows XP nebo vyšší.";
+err_os_sup = "%p posporuje oficiálně jen %? nebo vyšší.\n\n"
+             "Je možné, ale nikoliv otestované, že %p poběží také na Vašem operačním systému %?.\n\n"
+             "Chcete pokračovat v instalaci?";
 err_uninst_driver = "Ovladač nemohl být nainstalován.";
 err_create_process = "Chyba při volání %s: %s";
 err_write_lock = "%? síťové komponenty jsou použity dalším procesem. Zavřete všechny ostatní aplikace nebo restartujte počítač a zkuste to znovu.";
@@ -3513,10 +3664,33 @@ err_gdiplus =
   "adresáře Windows\\system32.\n\n"
   "Stiskněte 'OK' pro otevření příslušné stránky na Microsoft.\n"
   "Klikněte 'Storno' pro ukončení instalace.";
+err_winhttp =
+  "Knihovna WinHTTP nebyla nalezena!\n\n"
+  "Tato instalace může pokračovat pouze s nainstalovanou knihovnou WinHTTP.\n"
+  "Knihovna WinHTTP by měla být součástí Vašeho operačního systému, ale \n"
+  "nemůže být nahrána.";
 bad_manufacturer = "Instalace nemůže začít, protože produkt je licencován pouze pro vybraný hardware!";
 cannot_install = "Nelze instalovat";
+err_uninst_daemon =
+   "Daemon cannot nemůže být odinstalován. "
+   "Pokud je stále %p otevřeno dialogové okno, nejdříve jej zavřete. "
+   "Jinak restartujte Váš počítač.";
+err_activate_10045 =
+   "Během aktivace nastala HTTP chyba 10045.\n"
+   "Je možné, že je Váš Winsock poškozen.\n"
+   "Otevřete command shell k resetování Vašeho Winsock\n"
+   "a zadejte 'netsh winsock reset'.\n"
+   "Pak restartujte Váš počítač a zkuste aktivaci\n"
+   "znovu.";
+err_activate_12002 =
+   "HTTP chyba 12002 (požadavek vypršel) se objevila během\n"
+   "registrace. Možnou příčinou může být, že spojení s naším serverem,\n"
+   "nezbytné pro registraci, je blokováno firewallem, antivirem\n"
+   "nebo jiným druhem bezpečnostního softwaru. Pokud máte nainstalován\n"
+   "některý z těchto programů, prosím, dočasně jej deaktivujte a zkuste registraci znovu.";
 / %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "Chyba při kopírování souboru %1 do %2 (%3).";
+err_port_in_use = "Port serveru %? je již používán jiným programemm.\n\nProgram: %?\nCesta: %?";
 
 / warning messages
 wrn_oem_update = "Licencovaný %p je již instalován.\n\n"
@@ -3525,6 +3699,7 @@ wrn_oem_update = "Licencovaný %p je již instalován.\n\n"
   "Aktualizaci licencované verze %p lze získat na stejném místě\n"
   "kde jste koupili původní licenci.\n\n"
   "Opravdu si přejete pokračovat v instalaci?";
+wrn_close_application = "Doporučujeme zavřít následující aplikace předtím, než budete pokračovat:";
 
 / traffic shaping algorithm
 tsa_header = "Režim Traffic Shaping (víceuživatelská verze)";
@@ -4314,6 +4489,7 @@ speed_orderurl = "https://www.cfos.de/de/order/cfosspeed-n.htm";
 speed_langurl = "http://www.cfos.de/de/cfosspeed/documentation/lang.htm";
 make_own_skin_url = "http://www.cfos.de/en/skin/skin.htm";
 no_pings_help = "http://www.cfos.de/de/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/de/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/de/traffic-shaping/traffic-shaping-options.htm";
 many_cons_help = "http://www.cfos.de/de/cfosspeed/documentation/bittorrent.htm";
 mainurl_name = "www.cfos.de";
@@ -4671,7 +4847,7 @@ rwin_expansion = "Automatische RWIN-Erhöhung" ;
 rwin_expansion_help = "TCP-Empfangsfenster automatisch vergrößern, um die Download-Geschwindigkeit zu verbessern, falls Windows das RWIN zu niedrig wählt.";
 query_auto_open = "Automatsches Öffnen/Schließen des Statusfensters deaktivieren?\nSie können es später im Kontext-Menu wieder anschalten.";
 preview_skins = "Skin-Vorschau";
-enable_smartphone_skins = "Smartphone Skins aktivieren";
+enable_smartphone_skins = "Phone Skins";
 http_access_enabled = "HTTP Zugriff aus der Ferne erlaubt";
 http_access_disabled = "HTTP Zugriff aus der Ferne verboten";
 set_server_pwd = "Server Passwort setzen";
@@ -5987,6 +6163,7 @@ speed_mainurl = "http://www.cfos.de/el/index.htm";
 speed_updateurl = "http://www.cfos.de/el/download/download.htm";
 speed_orderurl = "https://www.cfos.de/el/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/el/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/el/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/el/traffic-shaping/traffic-shaping-options.htm";
 after_calibration = "http://www.cfos.de/el/traffic-shaping/calibration-message.htm";
 download_more_skins_url = "http://www.cfos.de/el/download/download.htm#skins";
@@ -6895,6 +7072,7 @@ speed_orderurl = "https://www.cfos.de/en/order/cfosspeed-n.htm";
 speed_langurl = "http://www.cfos.de/en/cfosspeed/documentation/lang.htm";
 make_own_skin_url = "http://www.cfos.de/en/skin/skin.htm";
 no_pings_help = "http://www.cfos.de/en/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/en/traffic-shaping/traffic-shaping-options.htm";
 many_cons_help = "http://www.cfos.de/en/cfosspeed/documentation/bittorrent.htm";
 mainurl_name = "www.cfos.de";
@@ -7227,7 +7405,7 @@ console_prio_prog_prot = "Temporarily prioritize program & protocol";
 console_prio_prog_prot_off = "Temporarily turn off program & protocol prioritization";
 console_prio_prot_perm = "Permanently prioritize protocol";
 console_prio_prog_perm = "Permanently prioritize program";
-console_prio_advanced = "Advanced priotization";
+console_prio_advanced = "Advanced prioritization";
 
 new_version_available = "New version available";
 update_beta = "Also check for new beta versions";
@@ -7249,7 +7427,7 @@ rwin_expansion = "Automatic RWIN expansion";
 rwin_expansion_help = "Automatically expand TCP Receive Window to increase download speed if the RWIN selected by Windows is too low.";
 query_auto_open = "Disable automatic opening and closing of the status window?\nYou can re-enable it later in the context menu.";
 preview_skins = "Preview Skins";
-enable_smartphone_skins = "Enable Smartphone Skins";
+enable_smartphone_skins = "Phone Skins";
 http_access_enabled = "HTTP access from remote is allowed";
 http_access_disabled = "HTTP access from remote is forbidden";
 set_server_pwd = "Set Server Password";
@@ -8542,6 +8720,7 @@ speed_mainurl = "http://www.cfos.de/es/index.htm";
 speed_updateurl = "http://www.cfos.de/es/download/download.htm";
 speed_orderurl = "https://www.cfos.de/es/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/es/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/es/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/es/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/es/traffic-shaping/calibration-message.htm";
@@ -10011,6 +10190,7 @@ speed_mainurl = "http://www.cfos.de/fr/index.htm";
 speed_updateurl = "http://www.cfos.de/fr/download/download.htm";
 speed_orderurl = "https://www.cfos.de/fr/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/fr/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/fr/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/fr/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/fr/traffic-shaping/calibration-message.htm";
@@ -10858,6 +11038,7 @@ speed_mainurl = "http://www.cfos.de/he/index.htm";
 speed_updateurl = "http://www.cfos.de/he/download/download.htm";
 speed_orderurl = "https://www.cfos.de/he/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/he/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/he/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/he/traffic-shaping/traffic-shaping-options.htm";
 after_calibration = "http://www.cfos.de/he/traffic-shaping/calibration-message.htm";
 download_more_skins_url = "http://www.cfos.de/he/download/download.htm#skins";
@@ -11644,6 +11825,7 @@ speed_mainurl = "http://www.cfos.de/hu/index.htm";
 speed_updateurl = "http://www.cfos.de/hu/download/download.htm";
 speed_orderurl = "https://www.cfos.de/hu/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/hu/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/hu/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/hu/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/hu/traffic-shaping/calibration-message.htm";
@@ -12554,6 +12736,7 @@ speed_mainurl = "http://www.cfos.de/it/index.htm";
 speed_updateurl = "http://www.cfos.de/it/download/download.htm";
 speed_orderurl = "https://www.cfos.de/it/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/it/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/it/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/it/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/it/traffic-shaping/calibration-message.htm";
@@ -13442,6 +13625,7 @@ speed_mainurl = "http://www.cfos.de/ja/index.htm";
 speed_updateurl = "http://www.cfos.de/ja/download/download.htm";
 speed_orderurl = "https://www.cfos.de/ja/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/ja/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/ja/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/ja/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/ja/traffic-shaping/calibration-message.htm";
@@ -13769,7 +13953,6 @@ rwin_expansion = "RWIN自動拡大";
 rwin_expansion_help = "Windowsで設定されているRWINが小さすぎる場合にTCP受信ウィンドウを自動的に拡大してダウンロード速度を上げる。";
 query_auto_open = "ステータスウィンドウの自動開閉を無効化しますか?\nこの設定はいつでもコンテキストメニューで変更できます。";
 preview_skins = "スキンのプレビュー";
-enable_smartphone_skins = "スマートフォンスキンを有効化";
 http_access_enabled = "リモートからのHTTPアクセスを許可";
 http_access_disabled = "リモートからのHTTPアクセスを許可しない";
 set_server_pwd = "サーバーパスワードを設定";
@@ -13899,8 +14082,8 @@ usage_stats_chk = "滋養状況に関する統計をcFosに匿名で送信して
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
 port_forwarding_chk = "使用可能な場合に自動ポートフォワーディングを使用します。";
-port_forwarding_failed = "お使いのルーター %? が自動ポートフォワーディングをサポートしていないようです。"
-                         "ルーターの構成で自動ポートフォワーディングを有効化できる場合があります。";
+port_forwarding_failed = "お使いのル`タ`%?が自鹰荸`トフォワ`ディングをサポ`トしていないようです。"
+                        "ル`タ`の成で自鹰荸`トフォワ`ディングを有炕できる龊悉あります。";
 port_forwarding_config = "ルーターの構成は %? で行えます。";
 port_forwarding_fritz = "セキュリティ設定の変更を FRITZ!Box で許可すれば、ポートフォワーディングを有効化できます。"
                         "ホームネットワーク / ネットワーク / プログラム で UPnP から設定します。";
@@ -14067,7 +14250,7 @@ err_activate_12002 =
   "登hに必要な接Aがファイアウォ`ルやアンチウイルスプログラム、\n"
   "その他のセキュリティソフトでブロックされている可能性があります。\n"
   "このNのプログラムを使用している龊悉稀⒁r的にo炕した上で\n"
-  "再度登hをしてください。";
+  "再度登hをしてください。\n";
 / %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "%1を%2にコピー中にエラーが発生しました（%3）";
 err_port_in_use = "サーバーポート %? が他のプログラムで使用中です。\n\nプログラム: %?\nパス: %?";
@@ -14933,6 +15116,7 @@ speed_mainurl = "http://www.cfos.de/ko/index.htm";
 speed_updateurl = "http://www.cfos.de/ko/download/download.htm";
 speed_orderurl = "https://www.cfos.de/ko/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/ko/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/ko/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/ko/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/ko/traffic-shaping/calibration-message.htm";
@@ -16233,6 +16417,7 @@ speed_mainurl = "http://www.cfos.de/nl/index.htm";
 speed_updateurl = "http://www.cfos.de/nl/download/download.htm";
 speed_orderurl = "https://www.cfos.de/nl/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/nl/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/nl/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/nl/traffic-shaping/traffic-shaping-options.htm";
 after_calibration = "http://www.cfos.de/nl/traffic-shaping/calibration-message.htm";
 download_more_skins_url = "http://www.cfos.de/nl/download/download.htm#skins";
@@ -17377,6 +17562,7 @@ speed_mainurl = "http://www.cfos.de/pl/index.htm";
 speed_updateurl = "http://www.cfos.de/pl/download/download.htm";
 speed_orderurl = "https://www.cfos.de/pl/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/pl/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/pl/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/pl/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "Strona domowa";
 after_calibration = "http://www.cfos.de/pl/traffic-shaping/calibration-message.htm";
@@ -18436,6 +18622,7 @@ speed_mainurl = "http://www.cfos.de/pt-br/index.htm";
 speed_updateurl = "http://www.cfos.de/pt-br/download/download.htm";
 speed_orderurl = "https://www.cfos.de/pt-br/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/pt-br/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/pt-br/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/pt-br/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/pt-br/traffic-shaping/calibration-message.htm";
@@ -19921,7 +20108,7 @@ connectivity_test = "Проверка подключения";
 con_test_subheader = "Пожалуйста, дождитесь окончания проверки подключения.";
 con_test = "Проверка подключения %p";
 con_test_not_running = "Проверка подключения не может быть выполнена, поскольку %p не запущенна. Пожалуйста, запустите %p, после чего повторите проверку.";
-con_test_public_fail = "Ваш публичный IP-адрес не может быть определен. Пожалуйста, убедитесь что Ваш компьютер подключен к интернету, после чего повторите проверку.";
+con_test_public_fail = "Ваш публичный IP-адрес не может быть определен. Пожалуйста, убедитесь что компьютер подключен к Интернету, после чего повторите проверку.";
 con_test_execute = "Проверить подключение";
 
 / ----------------------------------------------------------------------
@@ -19934,6 +20121,7 @@ speed_mainurl = "http://www.cfos.de/ru/index.htm";
 speed_updateurl = "http://www.cfos.de/ru/download/download.htm";
 speed_orderurl = "https://www.cfos.de/ru/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/ru/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/ru/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/ru/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/ru/traffic-shaping/calibration-message.htm";
@@ -19948,13 +20136,14 @@ auth_failed = "Во время проверки было обнаружено, �
    "Пожалуйста, установите оригинальную версию с официального веб-сайта:\n";
 
 component_mismatch = "Между компонентами программы возник конфликт версий. Чтобы исправить данную проблему, пожалуйста, переустановите последнюю версию программы.";
-trayicon_tip = "Увеличьте скорость работы интернета с помощью технологии приоритезации трафика, www.cfos.de";
+trayicon_tip = "Быстрейший Интернет с технологией приоритезации трафика, www.cfos.de";
 speed_endsoon = "Ваш пробный период скоро закончится! Пожалуйста, купите %1 сегодня!";
 order_info = "Купить онлайн на www.cfos.de";
 badkey = "Возникла проблема с лицензионным ключом.\n"
          "Пожалуйста, переустановите ключ, запустив оригинальный\n"
          "файл, который Вы получили по электронной почте или на дискете.";
-no_setup = "Невозможно начать инсталляцию (setup.exe).";
+no_setup = "Не удается начать инсталляцию (setup.exe).";
+no_cmd = "Не удается открыть командную строку (cmd.exe)!";
 ask_disconnect_ras = "Настройки текущего подключения к сети будут изменены.\n"
                      "Рекомендуется отключить его прежде чем продолжить.\n"
                      "Отключить текущее подключение к сети?";
@@ -19963,14 +20152,14 @@ sygate_hint = "%p был обнаружен Sygate Firewall, который ош
               "с пакетами типа \"Ping-of-Death\".\n"
               "В связи с этим, чтобы корректно откалибровать %p,\n"
               "совершите отправку и загрузку какого-либо содержимого\n"
-              "из интернета на максимальной скорости в течении\n"
+              "из Интернета на максимальной скорости в течении\n"
               "порядка 30 секунд, соответственно.\n\n"
               "Примечание: в Sygate Firewall функция \"Anti IP Manipulation\"\n"
               "должна быть отключена.";
 select_language = "Язык";
 translator = "Русская версия от ";
-translator_name = "Ringil Endimion";
-translator_msg = "По всем замечаниям относительно перевода, пишите на ringil@rbcmail.ru";
+translator_name = "cFos Software GmbH";
+translator_msg = "По всем замечаниям и пожеланиям относительно перевода пишите на translation@cfos.de";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Срок действия Вашей лицензии %3 заканчивается через %1 %2.";
 
@@ -20140,6 +20329,7 @@ password_bad = "Неверный пароль";
 sum_button = "Суммарно";
 calibrate = "Калибровка линии";
 test_pings = "Отправить тестовый пинги";
+open_console = "Открыть консоль %p";
 variable_bandwidth = "Непостоянная скорость канала";
 def_bandwidth_help = "по умолчанию для <b>новых</b> подключений";
 cur_bandwidth_help = "Настройки для текущего подключения";
@@ -20203,19 +20393,19 @@ nettalk_tx = "Исходящая скорость Net Talk";
 nettalk_max_of_rx_tx = "Макс. вх. и исх. скор. Net Talk";
 total_max_of_rx_tx = "Макс. общ. вх. и исх. скорости";
 check_if_other_also = "Весь прочий трафик";
-performance_help = "Чтобы минимизировать нагрузку на процессор, рекомендуется установить \"Да\" для используемого интернет-подключения и \"Нет\" для всех остальных.";
+performance_help = "Чтобы минимизировать нагрузку на процессор, рекомендуется установить \"Да\" для используемого Интернет-подключения и \"Нет\" для всех остальных.";
 loading = "Загрузка...";
 connection_type_help = "http://www.cfos.de/ru/traffic-shaping/traffic-shaping.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Само по себе";
 regid_help = "в локальной сети присутствует компьютер или устройство, на котором не используется технология приоритезации трафика cFos";
-regid_help_long = "следует активировать, если одно интернет-подключение используется одновременно с другими компьютерами или устройствам и, по крайней мере, на одном из компьютеров или устройств не используется технология приоритезации трафика cFos.";
+regid_help_long = "следует активировать, если одно Интернет-подключение используется одновременно с другими компьютерами или устройствам и, по крайней мере, на одном из компьютеров или устройств не используется технология приоритезации трафика cFos.";
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
 net_talk = "Net Talk";
 net_talk_help = "вещать статистику приоритезации трафика по локальной сети";
-net_talk_help_long = "отправлять статистику приоритезации трафика другим компьютерам в локальной сети с целью увеличения аккуратности приоритезации трафика. При этом в интернет никакие данные не отправляются.";
+net_talk_help_long = "отправлять статистику приоритезации трафика другим компьютерам в локальной сети с целью увеличения аккуратности приоритезации трафика. При этом в Интернет никакие данные не отправляются.";
 net_talk_subheader = "Пожалуйста, укажите, следует ли включить функцию Net_Talk.";
 
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
@@ -20228,7 +20418,7 @@ tx_limit_help = "скорость в процентах или байт/с, с �
 download_more_skins = "Загрузить больше обложек";
 documentation = "Документация";
 exit_demon = "Выход";
-speed_test = "Тест скорости интернет-подключения";
+speed_test = "Тест скорости Интернет-подключения";
 ask_key_banned_info = "Возникла проблема с Вашим лицензионным ключом.\nЖелаете получить дополнительную информацию?";
 
 adapter_info = "Адаптеры";
@@ -20277,6 +20467,10 @@ rwin_expansion = "Автоматическое расширение RWIN";
 rwin_expansion_help = "Расширять окно TCP в случае, если значение RWIN, выбранное Windows, слишком мало. Включение данной опции позволяет добиться более высокой скорости загрузки.";
 query_auto_open = "Отключить автоматическое сокрытие окна состояния?\nПозже данная настройка может быть изменена в настройках программы.";
 preview_skins = "Обзор обложек";
+enable_smartphone_skins = "Включить обложки для смартфона";
+http_access_enabled = "Удаленный HTTP-доступ разрешен";
+http_access_disabled = "Удаленный HTTP-доступ  запрещен";
+set_server_pwd = "Установить пароль для сервера";
 
 
 / ----------------------------------------------------------------------
@@ -20285,7 +20479,7 @@ preview_skins = "Обзор обложек";
 /
 / ----------------------------------------------------------------------
 
-speed_desc = "%p, увеличьте скорость работы интернета с помощью технологии приоритезации трафика";
+speed_desc = "%p, увеличьте скорость работы Интернета с помощью технологии приоритезации трафика";
 
 / URLs
 bc_activation_failed_url = "http://www.cfos.de/ru/broadband-connect/activation-failed.htm";
@@ -20353,7 +20547,7 @@ pwd_reg_to = "%p будет зарегистрирован на:";
 pwd_password_info = "Пожалуйста, введите пароль для Вашего ключа в формате XXXX-XXXX-XXXX-XXXX.";
 pwd_password = "Пароль:";
 pwd_invalid_password = "Неверный пароль. Пожалуйста, проверьте правильность ввода и попробуйте ещё раз.";
-pwd_activate_info = "Для активации ключа компьютер должен быть подключен к интернету.";
+pwd_activate_info = "Для активации ключа компьютер должен быть подключен к Интернету.";
 pwd_activate_failed = "Не удалось активировать ключ!";
 pwd_activate_failed_code = "Не удалось активировать ключ: ошибка %?.";
 
@@ -20371,6 +20565,10 @@ sn_invalid_serial_number = "Неверный серийный номер. Пож
 sn_download_err = "Ошибка %? загрузки файла с сервера.";
 sn_save_err = "Файл ключа не может быть сохранен на диск по следующему пути: %?.";
 sn_keyfile_err = "Файл ключа поврежден.";
+
+/ new 16 digit serial number dialog
+sn16_info = "Пожалуйста, введите ваш 16-значный серийный номер для того, чтобы получить лицензионный ключ. Для успешного получения необходимо активное Интернет-подключение.";
+sn16_failed = "Не удалось получить лицензионный ключ!";
 
 / re-enter password dialog
 repwd_header = "Пароль %?.";
@@ -20550,6 +20748,9 @@ err_os = "Ваша операционная система %?.\n\n"
          "Для работы %? требуется Windows 2000/XP или выше.";
 err_os_minxp = "Ваша операционная система %?.\n\n"
          "Для работы %? требуется Windows XP или выше.";
+err_os_sup = "%p официально поддерживает только %? и выше.\n\n"
+             "Возможно, %p будет работать на вашей операционной системе %?, но мы не можем гарантировать этого.\n\n"
+             "Всё равно продолжить установку?";
 err_uninst_driver = "Невозможно удалить драйвер.";
 err_create_process = "Ошибка запуска %s: %s";
 err_write_lock = "Сетевые компоненты %? используются другим процессом. "
@@ -20619,7 +20820,7 @@ wrn_close_application = "Прежде чем продолжить, рекоме�
 tsa_header = "Режим приоритезации трафика (многопользовательская версия)";
 tsa_subheader = "Режим приоритезации трафика по умолчанию.";
 tsa_info = "Пожалуйста, выберите режим приоритезации трафика в зависимости "
-           "от Вашего интернет-подключения (позже Вы сможете настроить "
+           "от Вашего Интернет-подключения (позже Вы сможете настроить "
            "параметры для каждого подключения отдельно).";
 
 / vista warning
@@ -20811,6 +21012,7 @@ speed_mainurl = "http://www.cfos.de/sv/index.htm";
 speed_updateurl = "http://www.cfos.de/sv/download/download.htm";
 speed_orderurl = "https://www.cfos.de/sv/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/sv/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/sv/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/sv/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/sv/traffic-shaping/calibration-message.htm";
@@ -21378,6 +21580,7 @@ speed_mainurl = "http://www.cfos.de/th/index.htm";
 speed_updateurl = "http://www.cfos.de/th/download/download.htm";
 speed_orderurl = "https://www.cfos.de/th/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/th/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/th/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/th/traffic-shaping/traffic-shaping-options.htm";
 after_calibration = "http://www.cfos.de/th/traffic-shaping/calibration-message.htm";
 download_more_skins_url = "http://www.cfos.de/th/download/download.htm#skins";
@@ -22093,6 +22296,7 @@ speed_mainurl = "http://www.cfos.de/tr/index.htm";
 speed_updateurl = "http://www.cfos.de/tr/download/download.htm";
 speed_orderurl = "https://www.cfos.de/tr/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/tr/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/tr/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/tr/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/tr/traffic-shaping/calibration-message.htm";
@@ -24463,6 +24667,7 @@ speed_mainurl = "http://www.cfos.de/sl/index.htm";
 speed_updateurl = "http://www.cfos.de/sl/download/download.htm";
 speed_orderurl = "https://www.cfos.de/sl/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/sl/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/sl/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/sl/traffic-shaping/traffic-shaping-options.htm";
 after_calibration = "http://www.cfos.de/sl/traffic-shaping/calibration-message.htm";
 download_more_skins_url = "http://www.cfos.de/sl/download/download.htm#skins";
@@ -25307,6 +25512,7 @@ speed_mainurl = "http://www.cfos.de/vi/index.htm";
 speed_updateurl = "http://www.cfos.de/vi/download/download.htm";
 speed_orderurl = "https://www.cfos.de/vi/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/vi/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/vi/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/vi/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/vi/traffic-shaping/calibration-message.htm";
@@ -25994,6 +26200,7 @@ speed_mainurl = "http://www.cfos.de/mk/index.htm";
 speed_updateurl = "http://www.cfos.de/mk/download/download.htm";
 speed_orderurl = "https://www.cfos.de/mk/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/mk/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/mk/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/mk/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/mk/traffic-shaping/calibration-message.htm";
@@ -27335,6 +27542,7 @@ speed_mainurl = "http://www.cfos.de/zh-cn/index.htm";
 speed_updateurl = "http://www.cfos.de/zh-cn/download/download.htm";
 speed_orderurl = "https://www.cfos.de/zh-cn/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/zh-cn/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/zh-cn/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/zh-cn/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/zh-cn/traffic-shaping/calibration-message.htm";
@@ -28797,7 +29005,7 @@ console_prio_prog_off = "Turn off temporary program prioritisation";
 console_prio_prog_prot = "Temporarily prioritise program & protocol";
 console_prio_prot_perm = "Permanently prioritise protocol";
 console_prio_prog_perm = "Permanently prioritise program";
-console_prio_advanced = "Advanced priotisation";
+console_prio_advanced = "Advanced prioritisation";
 misc_high = "Miscellaneous high prioritised traffic";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
@@ -29073,6 +29281,7 @@ speed_mainurl = "http://www.cfos.de/pt/index.htm";
 speed_updateurl = "http://www.cfos.de/pt/download/download.htm";
 speed_orderurl = "https://www.cfos.de/pt/order/cfosspeed-n.htm";
 no_pings_help = "http://www.cfos.de/pt/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/pt/cfosspeed/documentation/phone-skins.htm";
 ts_options_help = "http://www.cfos.de/pt/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
 after_calibration = "http://www.cfos.de/pt/traffic-shaping/calibration-message.htm";
