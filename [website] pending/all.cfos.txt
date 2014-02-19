@@ -71,3 +71,8 @@ uninst_speed_guide = "Before you completely uninstall cFosSpeed, our <a onclick=
 
 pnet_doc_access_p1 = "cFos PNet evaluates configuration files, called AccessFiles. By default they are named <em>.htaccess</em>. So called directives therein control the behaviour of cFos PNet for the particular folder (and all subfolder thereof) where they are located. The first <em>.htaccess</em> file is located in the <em>private</em> folder and contains all initial settings. If the a client requests a certain url, say <b>/test/x/file1.txt</b>, all <em>.htaccess</em> files are evaluated for all folders the url mentions. In this example first <em>.htaccess</em> of the <em>private</em> folder is evaluated, then <em>.htaccess</em> of folder <em>pub</em>, then of folder <em>test</em>, then <em>.htaccess</em> or folder <em>x</em>.<br/>All directives are cumulative, ie. they are added or overwritten, but not deleted.";
 	<em>.htaccess</em> or folder <em>x</em> -> <em>.htaccess</em> of folder <em>x</em>
+
+#date 2014-02-19
+
+sp_doc_phone_skins_l3 = "Open the browser on your phone or tablet and enter the following address: <b>http://[Your IP address]:1487/cfosspeed/index.htm</b>. <b>[Your IP address]</b> is usually the first listed address from step 2, but you can try all others, it the first doesn't work.";
+	http://[Your IP address]:1487/cfosspeed/index.htm -> http://[Your IP address]:1487/cfosspeed/skin.htm
