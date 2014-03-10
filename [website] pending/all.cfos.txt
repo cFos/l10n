@@ -1,8 +1,6 @@
 
 / strings, which should be updated in all files
-
-/ #date year-month-day
-
+/ NOT FOR TRANSLATION!
 
 #date 2013-04-22 - exists only in some sent files
 
@@ -76,3 +74,25 @@ pnet_doc_access_p1 = "cFos PNet evaluates configuration files, called AccessFile
 
 sp_doc_phone_skins_l3 = "Open the browser on your phone or tablet and enter the following address: <b>http://[Your IP address]:1487/cfosspeed/index.htm</b>. <b>[Your IP address]</b> is usually the first listed address from step 2, but you can try all others, it the first doesn't work.";
 	http://[Your IP address]:1487/cfosspeed/index.htm -> http://[Your IP address]:1487/cfosspeed/skin.htm
+
+#date 2014-03-10
+
+sk_shinnher_text_black = "Shinnher's Skin with black background modified by Scott Danesi";
+sk_shinnher_text_grey = "Shinnher's Skin with grey background modified by Scott Danesi";
+sk_shinnher_text_trans = "Shinnher's Skin with transparent background modified by Scott Danesi";
+	Scott Danesi -> Scott
+
+pnet_wmi_l1e = "RX cps rate";
+pnet_wmi_l1f = "TX cps rate";
+	cps rate -> cps
+
+extras = "Extras:";
+options = "Options:";
+outing = "Routing:";
+	 -> removed `:` at the end
+
+mobile = "Mobile (UMTS, WIMAX, HSDPA, W-CDMA, WCDMA, CDMA, CDMA2000, 3G Mobile, HSCSD)";
+ -> mobile = "Mobile (LTA, UMTS, WIMAX, HSDPA, W-CDMA, WCDMA, CDMA, CDMA2000, 3G Mobile, HSCSD)";
+
+multi_lang = "12+ languages";
+	-> multi_lang = "32+ languages";
