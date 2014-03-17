@@ -96,3 +96,9 @@ mobile = "Mobile (UMTS, WIMAX, HSDPA, W-CDMA, WCDMA, CDMA, CDMA2000, 3G Mobile, 
 
 multi_lang = "12+ languages";
 	-> multi_lang = "32+ languages";
+
+
+#date 2014-03-17
+
+pnet_wmi_p4 = " To prevent others from accessing your WMI data, the cFos WMI Monitor requires a valid user by means of HTTP authentication. So you should configure a user, for example <b>admin</b> in cFos PNet. You can do this by re-running the setup. Or you can add a new user, for example user wmi, by running opening <em>/users/index.htm</em> as admin.";
+	-> removed leading space
