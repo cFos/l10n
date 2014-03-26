@@ -4699,13 +4699,14 @@ prog_help = "Transfer von niedrig/sehr niedrig priorisierten Paketen wird nur ve
 filename = "Dateiname";
 description = "Beschreibung";
 new_program = "Programm hinzufügen";
+restore_defaults = "Default-Werte wiederherstellen";
 add = "Hinzufügen";
 suggest_program = "Dieses Programm dem cFos-Team vorschlagen";
-restore_defaults = "Default-Werte wiederherstellen";
 l7_prot_detection = "Layer-7 Protokoll Erkennung";
 l7_prot_detection_help = "Protokolle anhand der Nutzdaten erkennen lassen. Sie können im Dialog 'Protokolle priorisieren' die Priorität der verschiedenen Protokolle einstellen. Wenn Sie diese Option deaktivieren, werden die Protokolle anhand der Portnummer erkannt.";
 favor_ping = "Ping-Zeit bevorzugen";
 favor_ping_help = "<b>An</b>: %p minimiert die Ping-Zeit auch wenn dies zu leicht reduzierten Transferraten führt (falls nötig).<br /><b>Aus</b>: %p maximiert den Datendurchsatz auch wenn dies zu leicht höheren Ping-Zeiten führt (falls nötig).";
+favor_bandwidth = "Bandbreite bevorzugen";
 avoid_loss = "Paketverlust vermeiden";
 avoid_loss_help = "%p verkleinert das TCP Empfangsfenster, wenn es bei empfangenden TCP Verbindungen zu großen Paketverlust feststellt. Das passiert nur, wenn Ihre Verbindung mit voller Geschwindigkeit Daten empfängt. (Empfohlen für verbessertes Traffic Shaping beim Download)";
 activate_firewall = "Firewall aktivieren";
@@ -4753,7 +4754,6 @@ volume = "Volumen";
 volume_limit = "Volumen-Limit";
 spdbudget_help = "Um ein Budget zu nutzen müssen Sie dieses im Einstellungs-Dialog noch einer Verbindung zuordnen";
 password_bad = "Falsches Passwort";
-favor_bandwidth = "Bandbreite bevorzugen";
 sum_button = "kumulativ";
 calibrate = "Leitung einmessen";
 test_pings = "Test-pings senden";
@@ -4818,16 +4818,16 @@ tx_only = "Nur TX";
 max_of_rx_tx = "Maximum von RX & TX";
 total_rx_only = "Gesamte RX Speed";
 total_tx_only = "Gesamte TX Speed";
-total_max_of_rx_tx = "Max. von Gesamt RX & TX";
 nettalk_rx = "Net Talk RX Speed";
 nettalk_tx = "Net Talk TX Speed";
 nettalk_max_of_rx_tx = "Max. von Net Talk RX & TX";
+total_max_of_rx_tx = "Max. von Gesamt RX & TX";
 check_if_other_also = "Aktiv: Sämtlicher anderer Traffic soll in diesem Slot gezählt werden";
 performance_help = "Um die Rechnerleistung maximal zu halten, empfehlen wir nur die für ihren Internetzugang genutzte Verbindung auf 'Ja' zu setzen und alle anderen auf 'Nein'.";
 loading = "Lade...";
 connection_type_help = "http://www.cfos.de/de/traffic-shaping/traffic-shaping.htm#advanced";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other computers on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Nicht kooperativ";
 regid_help = "Es gibt ein Gerät ohne cFos Traffic Shaping im LAN";
 regid_help_long = "Sie nutzen Ihren Anschluss mit mehreren anderen Geräten und mindestens eines davon hat kein cFos Traffic Shaping installiert.";
@@ -4893,7 +4893,7 @@ only_on_fullscreen = "Nur im Vollbildmodus";
 speed_guide = "Speed Guide";
 lock_position = "Fensterposition sperren";
 check_for_news = "Über Neuigkeiten informieren";
-rwin_expansion = "Automatische RWIN-Erhöhung" ;
+rwin_expansion = "Automatische RWIN-Erhöhung";
 rwin_expansion_help = "TCP-Empfangsfenster automatisch vergrößern, um die Download-Geschwindigkeit zu verbessern, falls Windows das RWIN zu niedrig wählt.";
 query_auto_open = "Automatsches Öffnen/Schließen des Statusfensters deaktivieren?\nSie können es später im Kontext-Menu wieder anschalten.";
 preview_skins = "Skin-Vorschau";
@@ -4995,6 +4995,7 @@ sn_info = "Wenn Sie ein 16-stelligens Passwort der Form xxxx-xxxx-xxxx-xxxx habe
    "haben, geben Sie diese bitte jetzt ein, um Ihren Schlüssel zu laden und zu aktivieren.\n\n";
 sn_serial_number = "Seriennummer:";
 sn_invalid_serial_number = "Ungültige Seriennummer. Bitte überprüfen Sie Ihre Eingabe.";
+/ the %? will be replaced by the error number:
 sn_download_err = "Fehler %? beim Herunterladen der Schlüsseldatei von unserem Server.";
 sn_save_err = "Die Schlüsseldatei kann nicht unter %? gespeichert werden.";
 sn_keyfile_err = "Die Schlüsseldatei ist fehlerhaft.";
@@ -5032,7 +5033,7 @@ tcp_info = "Die TCP Empfangsfenstergröße ist für den Durchsatz eingehender Da
            "(Eine Änderung wird erst nach einem Neustart des Computers wirksam.)";
 tcp_check = "TCP Empfangsfenstergröße optimieren. (Empfohlen)";
 
-/ hang up dial-up connection dialog
+/ hang up online connection dialog
 hangup_header = "Wählverbindung";
 hangup_subheader = "Die Wählverbindung muss getrennt werden.";
 hangup_online = "Sie sind über folgende Verbindung online:";
@@ -5046,6 +5047,14 @@ usage_stats = "Nutzungsstatistiken";
 usage_stats_subheader = "Behandlung von Nutzungsstatistiken.";
 usage_stats_chk = "Anonyme Nutzungsstatistiken an cFos senden, um bei der Produkt-Verbesserung zu helfen.";
 
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "Automatische Portweiterleitung verwenden, falls verfügbar.";
+port_forwarding_failed = "Ihr Router%? scheint zur Zeit keine automatische Portweiterleitung zu unterstützen. "
+                         "Diese können Sie ggf. in der Konfiguration des Routers aktivieren.";
+port_forwarding_config = "Sie können Ihren Router konfigurieren unter %?.";
+port_forwarding_fritz = "In der FRITZ!Box aktivieren Sie die Portweiterleitung, indem Sie unter Heimnetz / Netzwerk / Programme "
+                        "die Änderungen der Sicherheitseinstellungen über UPnP gestatten.";
+
 / crash handler messages
 crash_msg_crash = "In %p trat ein Ausnahmefehler auf.";
 crash_msg_crash_installer = "Im Installationsprogramm von %p trat ein Ausnahmefehler auf.";
@@ -5055,15 +5064,7 @@ crash_msg_hook = "Es wurden Module anderer Programme gefunden, die sich in den A
 crash_msg_terminate = "Das Programm wird jetzt beendet.";
 crash_msg_query_upload = "Soll ein Crash Dump an cFos geschickt werden, damit der Fehler dort analysiert werden kann?";
 
-/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
-port_forwarding_chk = "Automatische Portweiterleitung verwenden, falls verfügbar.";
-port_forwarding_failed = "Ihr Router%? scheint zur Zeit keine automatische Portweiterleitung zu unterstützen. "
-                         "Diese können Sie ggf. in der Konfiguration des Routers aktivieren.";
-port_forwarding_config = "Sie können Ihren Router konfigurieren unter %?.";
-port_forwarding_fritz = "In der FRITZ!Box aktivieren Sie die Portweiterleitung, indem Sie unter Heimnetz / Netzwerk / Programme "
-                        "die Änderungen der Sicherheitseinstellungen über UPnP gestatten.";
-
-/ Start installation dialog
+/start installation dialog
 start_header = "Installation";
 start_subheader = "Start der Installation";
 start_installation = "Installation jetzt beginnen.";
@@ -13196,6 +13197,8 @@ sn_download_err = "Errore %? nel download del file chiave dal nostro Server";
 sn_save_err = "Il file della chiave non può essere salvato su disco a %?.";
 sn_keyfile_err = "Il file della chiave è corrotto.";
 
+/ new 16 digit serial number dialog
+
 / re-enter password dialog
 repwd_header = "Password di %?";
 repwd_subheader = "La password di registrazione deve essere digitata nuovamente";
@@ -13280,7 +13283,7 @@ finish_file_ok = "";
 finish_link_ok = "<a href=\"%?\">Vantaggi di %?!</a>";
 finish_file_fail = "Per ulteriori informazioni vedi il file di log %s";
 finish_file_link_fail = "Per ulteriori informazioni vedi il <a href=\"file://%s\">file di log</a>";
-finish_cfosts_disabled = "Il Traffic Shaping è stato disattivato nell'attuale istanza di cFos, perchè %p supporta già questa funzionalità. (puoi riattivare Traffic Shaping di Cfos nel menù di configurazione)";
+finish_cfosts_disabled = "Il Traffic Shaping è stato disattivato nell'attuale istanza di cFos, perchè %p supporta già questa funzionalità. (puoi riattivare Traffic Shaping di cFos nel menù di configurazione)";
 finish_cfosts_enabled = "Traffic Shaping è stato abilitato con successo!";
 finish_link_checkbox = "Mostra le ultime caratteristiche di %p";
 
@@ -13746,7 +13749,7 @@ short_dexpire = "残り%1%2";
 
 short_exp = "期限切れ";
 / %1=number, %2="day/days", %3=product name
-lic_dexpire ="%1 %2の貴方の評価期間は了しました。 今すぐ %3を購入してください!";
+lic_dexpire = "%1 %2の貴方の評価期間は了しました。 今すぐ %3を購入してください!";
 lic_try = "残り%1%2試用可能です";
 
 enable_win = "ステータスウィンドウを有効にしますか？\n\nステータスウィンドウは有効な接続の状態を表示します";
@@ -15099,6 +15102,13 @@ htm_lang_prefix = "ko";
 
 / ----------------------------------------------------------------------
 /
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  6link / broadband connect / pnet
 /
 / ----------------------------------------------------------------------
@@ -15160,6 +15170,16 @@ dlg_server = "서버:";
 dlg_renew_interval = "갱신 간격 (ms):";
 dlg_redirect_delay = "리디렉션 지연 (ms):";
 
+/ pnet start type dialog
+
+/ pnet context menu entry
+
+/ pnet backup info
+
+/ pnet
+
+/ pnet connectivity test
+
 / ----------------------------------------------------------------------
 /
 /  cFosSpeed
@@ -15181,6 +15201,7 @@ expiration_cfosspeed_new_htm = "http://www.cfos.de/ko/cfosspeed/expiration-messa
 prio_doc_link_url = "http://www.cfos.de/ko/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/ko/cfosspeed/documentation/status.htm";
 
+
 component_mismatch = "동 프로그램에 속한 다양한 컴포넌트들 간에 버전 충돌이 있습니다. 가장 최신 버전을 다시 한번 설치하십시오.";
 trayicon_tip = "트래픽 쉐이핑을 이용한 더 빠른 인터넷, www.cfos.de";
 speed_endsoon = "시험 기간이 곧 끝납니다. %1을(를) 지금 구입 하세요!";
@@ -15192,11 +15213,11 @@ no_setup = "셋업(setup.exe)을 실행할 수 없습니다.";
 ask_disconnect_ras = "지금 현재 살아있는 네트워크 연결이 다시 컨피규레이션되어야 합니다.\n"
                      "연결을 먼저 중단하는 것이 좋습니다.\n"
                      "현재 진행중인 네트워크 연결을 중단시킬까요?";
-sygate_hint =  "%p는 시게이트 방화벽을 발견하였습니다. 이는 %p의 측정 시그날을\n"
-               "\"Ping of Death\" 패키지를 통한 서비스 공격에 대한 거부로 착각하였습니다.\n"
-               "따라서 대신 %p를 이용, 각각 30초씩 빠른 속도로 다운로드와 업로드를\n"
-               "실행하는 것이 좋습니다.\n"
-               "이는 측정 시그날과 마찬가지로 %p를 측정하게 됩니다.";
+sygate_hint = "%p는 시게이트 방화벽을 발견하였습니다. 이는 %p의 측정 시그날을\n"
+					"\"Ping of Death\" 패키지를 통한 서비스 공격에 대한 거부로 착각하였습니다.\n"
+					"따라서 대신 %p를 이용, 각각 30초씩 빠른 속도로 다운로드와 업로드를\n"
+					"실행하는 것이 좋습니다.\n"
+					"이는 측정 시그날과 마찬가지로 %p를 측정하게 됩니다.";
 select_language = "언어 선택";
 translator = "번역";
 translator_name = "";
@@ -15308,6 +15329,7 @@ l7_prot_detection = "Layer-7 프로토콜 감지";
 l7_prot_detection_help = "데이타를 분석함으로서 프로토콜을 감지 합니다. '우선 순위 프로토콜 설정' 창을 사용 해서 여러 프로토콜의 우선 순위를 변경 하세요. 만약 이 옵션을 비활성화 하면, 사용된 포트 번호에 의해 프로토콜이 감지 됩니다.";
 favor_ping = "인기 핑 시간";
 favor_ping_help = "<b>켜기</b>: %p은(는) 필요시 약간의 대역폭을 감소 시켜서 핑 시간을 최소화 합니다.<br /><b>끄기</b>: %p은(는) 필요시 핑을 약간 손해 시키면서 최대의 대역폭을 유지 합니다.";
+favor_bandwidth = "인기 대역폭";
 activate_firewall = "방화벽 활성화";
 activate_firewall_help = "위험한 패킷을 필터링 하고, 상태 수색, 스텔스 모드로 네트워크 침입을 보호 합니다.";
 mtu_opt = "자동 MSS (MTU) 최적화";
@@ -15353,7 +15375,6 @@ volume = "볼륨";
 volume_limit = "볼륨 제한";
 spdbudget_help = "에산을 사용 하려면, 연결 창으로 이동 해서 특정 연결에 지정 하세요.";
 password_bad = "잘못된 암호";
-favor_bandwidth = "인기 대역폭";
 sum_button = "누적";
 calibrate = "조정 라인";
 variable_bandwidth = "변동 대역폭";
@@ -15406,12 +15427,13 @@ check_if_other_also = "모든 다른 트래픽이 이 슬롯으로 카운트 되
 performance_help = "컴퓨터 조작 파워를 절약 하려면, 인터넷 연결에 사용하는 연결만 \"예\"를 선택 하고 나머지는 \"아니오\"를 선택 하세요.";
 loading = "로딩중...";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "협력 안함";
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
 
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+
 
 
 
@@ -15493,6 +15515,11 @@ pwd_activate_info = "키를 저희 서버에서 활성화 시키려면, 인터�
 pwd_activate_failed = "키 활성화 실패!!";
 pwd_activate_failed_code = "키 활성화 실패: %? 에러.";
 
+/ serial number dialog
+/ the %? will be replaced by the error number:
+
+/ new 16 digit serial number dialog
+
 / re-enter password dialog
 repwd_header = "%? 비밀번호.";
 repwd_subheader = "등록 비밀번호를 재입력해주십시오.";
@@ -15524,6 +15551,14 @@ hangup_offline = "연결이 중단되었습니다.";
 hangup_info = "마법사를 계속 진행하시려면 연결이 중단되어야 합니다.\n\n"
               "연결을 지금 중단시키시려면 \"연결 중단\"을 클릭하십시오.";
 hangup_disco = "연결 중단";
+
+/ usage statistics
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+
+/ crash handler messages
+
+/start installation dialog
 
 / progress dialog
 progress_inst_header = "설치";
@@ -15585,6 +15620,8 @@ task_hangup = "현재의 언라인 연결을 중단하는 중...";
 task_flush_registry = "등록파일 저장중...";
 task_cancel = "실행과정 중단중...";
 task_canceled = "실행이 중단되었습니다!";
+
+/ connectivity test progress tasks
 
 / program group
 speed_pg_name = "%p";
@@ -19402,6 +19439,13 @@ htm_lang_prefix = "ro";
 
 / ----------------------------------------------------------------------
 /
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  6link / broadband connect / pnet
 /
 / ----------------------------------------------------------------------
@@ -19450,6 +19494,16 @@ dlg_server = "Server:";
 dlg_renew_interval = "Interval pentru reîmprospătare (ms):";
 dlg_redirect_delay = "Întârzierea redirecţionării (ms):";
 
+/ pnet start type dialog
+
+/ pnet context menu entry
+
+/ pnet backup info
+
+/ pnet
+
+/ pnet connectivity test
+
 / ----------------------------------------------------------------------
 /
 /  cFosSpeed
@@ -19457,6 +19511,7 @@ dlg_redirect_delay = "Întârzierea redirecţionării (ms):";
 / ----------------------------------------------------------------------
 
 preview_skins_url = "http://www.cfos.de/ro/cfosspeed/documentation/status.htm";
+
 
 component_mismatch = "Este un conflict între componentele hardware şi program. Va rugăm reinstalaţi folosind versiunea curentă.";
 trayicon_tip = "Internetul functionează la putere maximă, www.cfos.de";
@@ -19575,6 +19630,7 @@ l7_prot_detection = "Detectarea protocolului Layer-7 ";
 l7_prot_detection_help = "Detectarea protocoalelor prin analizarea datelor. Foloseşte opţiunea \"Prioritizează protocoalele\" pentru a schimba prioritatea mai multor protocoale. Dacă dezactivaţi această opţiune protocoalele vor fi identificate după portul folosit.";
 favor_ping = "Favorizează timpii de răspuns";
 favor_ping_help = "<b>Pornit</b>: %p favorizează timpii de răspuns prin micşorarea lăţimii de bandă pentru a obţine timpi mai buni(dacă este necesar) .<br /><b>Oprit</b>: %p va maximiza banda în defavoarea timpilor de răspuns (dacă este necesar).";
+favor_bandwidth = "Favorizează lăţimea de bandă";
 activate_firewall = "Activează firewall-ul";
 activate_firewall_help = "Protecţie împotriva pachetelor de date periculoase.";
 mtu_opt = "Optimizare MSS (MTU) automată";
@@ -19620,7 +19676,6 @@ volume = "volum";
 volume_limit = "Limită de Volum";
 spdbudget_help = "Pentru a folosi un budget, mergeţi în meniul conexiuni şi atribuiţi-l unei conexiuni particulare";
 password_bad = "Parolă invalidă";
-favor_bandwidth = "Favorizează lăţimea de bandă";
 sum_button = "cumulativ";
 calibrate = "Linia de calibrare";
 variable_bandwidth = "Lăţime de bandă variabila";
@@ -19677,12 +19732,13 @@ check_if_other_also = "Activ: Orice trafic adiţional va fi alocat acestui slot"
 performance_help = "Pentru a limita utilizarea procesorului, vă recomandăm să setati 'Da' doar în cazul conexiunii folosite şi 'Nu' în cazul celorlaltor.";
 loading = "Încarc...";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Necooperativ";
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
 
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+
 
 
 
@@ -19759,6 +19815,11 @@ pwd_activate_info = "Pentru a activa cheia pe serverul nostru trebuie să fiţi 
 pwd_activate_failed = "Activarea cheii a eşuat!";
 pwd_activate_failed_code = "Activarea cheii a eşuat: codul erorii %?.";
 
+/ serial number dialog
+/ the %? will be replaced by the error number:
+
+/ new 16 digit serial number dialog
+
 / re-enter password dialog
 repwd_header = "Parola pt %?.";
 repwd_subheader = "Din cauza modificărilor din regiştrii vă rog să reintroduceţi parola.";
@@ -19787,6 +19848,14 @@ hangup_online = "Sunteţi conectat prin următoarea conexiune:";
 hangup_offline = "Conexiunea a fost terminată.";
 hangup_info = "Pentru a continua cu acest asistent, conexiunea trebuie terminată.\n\nPentru a o termina acum, faceţi click pe \"Deconectează\".";
 hangup_disco = "Deconectează";
+
+/ usage statistics
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+
+/ crash handler messages
+
+/start installation dialog
 
 / progress dialog
 progress_inst_header = "Instalează";
@@ -19847,6 +19916,8 @@ task_flush_registry = "Se memorează regiştrii sistemului de calcul...";
 task_cancel = "Opriţi efectuarea acţiunii...";
 task_canceled = "Operaţiunea opcrită!";
 
+/ connectivity test progress tasks
+
 / program group
 speed_pg_name = "%p Traffic Shaping";
 pg_uninstall = "Dezinstalează %?";
@@ -19861,7 +19932,7 @@ dt_advertise_desc = "Afişează toate caracteristicile lui %?.";
 
 / message boxes
 query_reboot = "Pentru a termina instalarea trebuie să reporniţi calculatorul .\n\n Reporniţi acum?";
-query_drv_inst_cancel ="(Dez)instalarea driverului se efectuează de către sistemul de operare.\n"
+query_drv_inst_cancel = "(Dez)instalarea driverului se efectuează de către sistemul de operare.\n"
 			"Interfaţa necesită în jur de 15 minute pentru instalarea sau \n"
 			"dezinstalarea unui driver.\n"
 			"Este recomandat să aşteptaţi cel puţin atât înainte de a opri procesul.\n"
@@ -19974,6 +20045,7 @@ order_oem = "Cumpăraţiversiunea profesionalăacum!";
 cfos_endsoon = "Perioada de test expiră curând.\nCumpăraţi %p Professional acum!\nStart pentru %p pagina de cumparare la\n\nhttps://www.cfos.de/en/order/order.htm\n";
 cfos_expired = "Această %p versiune a expirat.\nCumpăraţi %p/Professional acum!\nStart pentru %p pagina de cumparare la\n\nhttps://www.cfos.de/en/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-228-7669827.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
 
 
 / Don't translate!
@@ -22284,6 +22356,13 @@ htm_lang_prefix = "tr";
 
 / ----------------------------------------------------------------------
 /
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  6link / broadband connect / pnet
 /
 / ----------------------------------------------------------------------
@@ -22353,6 +22432,8 @@ dlg_server = "Sunucu:";
 dlg_renew_interval = "Yenileme aralığı (ms):";
 dlg_redirect_delay = "Yeniden yönlendirme gecikmesi (ms):";
 
+/ pnet start type dialog
+
 / pnet context menu entry
 publish_with_product = "%p ile yayınla";
 
@@ -22366,6 +22447,8 @@ ipv4_bind_problem = "Sunucu IPv4'lü özelleşmiş portu dinleyemiyor, çünkü 
 ipv6_bind_problem = "Sunucu IPv6'lı özelleşmiş portu dinleyemiyor, çünkü başka bir uygulama tarafından kullanılıyor (örn. Skype).";
 closing_server = "Sunucu kapatılıyor.";
 start_product = "Başlat %p";
+
+/ pnet connectivity test
 
 / ----------------------------------------------------------------------
 /
@@ -22643,7 +22726,7 @@ check_if_other_also = "Eğer tüm diğer trafiğin bu slotta sayılmasını isti
 performance_help = "Bilgisayar gücünden en iyi tasarruf için, internet erişimi için kullandığınız bağlantıyı 'Evet' ve diğer tüm bağlantıları 'Hayır' olarak ayarlamanızı öneririz.";
 loading = "Yükleniyor...";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "İşbirlikli değil";
 regid_help = "LAN ınızda cFos TS si olmayan bir makine var";
 regid_help_long = "Bağlantınızı başka birkaç makineyle eşzamanlı olarak kullanıyorsunuz ve onlardan en az birinde cFos Traffic Shaping yok.";
@@ -22791,9 +22874,12 @@ sn_info = "Eğer xxxx-xxxx-xxxx-xxxx biçiminde 16 haneli bir kodunuz varsa, lü
    "lisans anahtarınızı yüklemek ve etkinleştirmek için şu an girin.\n\n";
 sn_serial_number = "Seri Numarası:";
 sn_invalid_serial_number = "Geçersiz seri numarası. Lütfen kontrol edin ve tekrar deneyin.";
+/ the %? will be replaced by the error number:
 sn_download_err = "Anahtar dosyasını sunucumuzdan indirirken %? hatası oluştu.";
 sn_save_err = "Anahtar dosyası %?'daki diske kaydedilemez.";
 sn_keyfile_err = "Anahtar dosyası bozulmuş.";
+
+/ new 16 digit serial number dialog
 
 / re-enter password dialog
 repwd_header = "%? şifresi.";
@@ -22837,6 +22923,10 @@ port_forwarding_failed = "%? adlı router otomatik port yönlendirmeyi desteklem
 port_forwarding_config = "%? daki router'ınızı şimdi ayarlayabilirsiniz.";
 port_forwarding_fritz = " UPnP aracılığıyla güvenlik ayarlarınızda değişikliklere izin vererek "
                         "Ev Ağı / Ağ / Programlar sekmesinin altından port yönlendirmesini etkinleştirebilirsiniz";
+
+/ crash handler messages
+
+/start installation dialog
 
 / progress dialog
 progress_inst_header = "Kurulum";
@@ -22901,6 +22991,8 @@ task_hangup = "Etkin bağlantılar kesiliyor...";
 task_flush_registry = "Kayıtlar diske kaydediliyor...";
 task_cancel = "İşlem iptal ediliyor...";
 task_canceled = "İşlem iptal edildi!";
+
+/ connectivity test progress tasks
 
 / program group
 speed_pg_name = "%p Traffic Shaping";
@@ -22995,7 +23087,7 @@ tsa_info = "Lütfen Traffic Shaping algoritması için bağlantınıza göre  va
 / vista warning
 vista_header = "Yükleme Notu";
 vista_subheader = "Windows Vista altında sürücü yüklemeyle ilgili not.";
-vista_warn_info = "%p, GlobalSign tarafından dijital olarak sertifika ile imzalanmıştır. GlobalSign Microsoft tarafından lisanlanmış bir kuruluştur. Bununla birlikte, Cfos Yazılım GmbH, Microsoft'un ek, pahalı WHQL sertifikalamasına katılımda bulunmamaktadır. Bu nedenle, Windows Vista altında sürücü yüklerken yayımcının doğrulanamadığına dair bir pencere belirecektir. Lütfen burada \"Bu sürücü yazılımını yine de yükle\" seçeneğini seçin.";
+vista_warn_info = "%p, GlobalSign tarafından dijital olarak sertifika ile imzalanmıştır. GlobalSign Microsoft tarafından lisanlanmış bir kuruluştur. Bununla birlikte, cFos Software GmbH, Microsoft'un ek, pahalı WHQL sertifikalamasına katılımda bulunmamaktadır. Bu nedenle, Windows Vista altında sürücü yüklerken yayımcının doğrulanamadığına dair bir pencere belirecektir. Lütfen burada \"Bu sürücü yazılımını yine de yükle\" seçeneğini seçin.";
 vista_warn_image = "vista_en.bmp";
 
 / dial entry dialog
@@ -26214,6 +26306,13 @@ htm_lang_prefix = "mk";
 
 / ----------------------------------------------------------------------
 /
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  6link / broadband connect / pnet
 /
 / ----------------------------------------------------------------------
@@ -26229,32 +26328,32 @@ sixlink_desc = "%p, Висока-брзина IPv6 dial-up драјвер";
 cfospnet_mainurl = "http://www.cfos.de/mk/index.htm";
 cfospnet_updateurl = "http://www.cfos.de/mk/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/mk/order/cfos-personal-net-n.htm";
-renew_params="Oбнови параметри";
-dlg_dun_auto="Авто-конектирање";
-dlg_dun_default="Стандард конекција";
-dlg_dun_cons="Конекција Профили";
-dlg_dun_name="Конекција име:";
-dlg_dun_uname="Корисничко име:";
-dlg_dun_pwd="Лозинка:";
+renew_params = "Oбнови параметри";
+dlg_dun_auto = "Авто-конектирање";
+dlg_dun_default = "Стандард конекција";
+dlg_dun_cons = "Конекција Профили";
+dlg_dun_name = "Конекција име:";
+dlg_dun_uname = "Корисничко име:";
+dlg_dun_pwd = "Лозинка:";
 dlg_dun_use_ipv4 = "Користи IPv4";
 dlg_dun_use_ipv6 = "Користи IPv6";
-dun_connect_to="Конектирај на %?";
-dun_err_already_exists="Името веќе постои.";
-disconnect="Дисконектирај ";
+dun_connect_to = "Конектирај на %?";
+dun_err_already_exists = "Името веќе постои.";
+disconnect = "Дисконектирај ";
 setup_connections = "Намести конекции";
 ask_inst_ipv6 = "IPv6 протоколот не е инсталиран на овој систем.\n\n"
                 "Треба ли IPv6 протоколот да биде инсталиран сега?";
 err_inst_ipv6 = "Грешка %? при инсталирање на IPv6 протокол.";
 
 / connection entry dialog
-con_err_save="Неможе да се зачуваат податоците за конекцијата!";
-con_ipv4="IPv4";
-con_ipv6="IPv6";
-con_private_address="Приватна адреса:";
-con_prefix="Префикс:";
-con_dns1="DNS1:";
-con_dns2="DNS2:";
-con_enabled="вклучено";
+con_err_save = "Неможе да се зачуваат податоците за конекцијата!";
+con_ipv4 = "IPv4";
+con_ipv6 = "IPv6";
+con_private_address = "Приватна адреса:";
+con_prefix = "Префикс:";
+con_dns1 = "DNS1:";
+con_dns2 = "DNS2:";
+con_enabled = "вклучено";
 
 / pnet configuration dialog
 pnet_header = "Чести Подесувања";
@@ -26270,6 +26369,16 @@ dlg_server_name = "Сервер Име:";
 dlg_server = "Сервер:";
 dlg_renew_interval = "Обнова интервал (мс):";
 dlg_redirect_delay = "Редирекција каснење (мс):";
+
+/ pnet start type dialog
+
+/ pnet context menu entry
+
+/ pnet backup info
+
+/ pnet
+
+/ pnet connectivity test
 
 / ----------------------------------------------------------------------
 /
@@ -26291,6 +26400,7 @@ after_calibration_new = "http://www.cfos.de/mk/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/mk/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/mk/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/mk/cfosspeed/documentation/status.htm";
+
 
 component_mismatch = "Има конфликт на верзии меѓу компоненти на овој програм. Молиме ре-инсталирајте ја најновата верзија.";
 trayicon_tip = "Побрз Интернет со Traffic Shaping, www.cfos.de";
@@ -26372,14 +26482,14 @@ current_connections = "Тековни Конекции";
 ts_prios = "Traffic Shaping Приоритети";
 client_protocols = "Клиент Протоколи";
 server_protocols = "Сервер Протоколи";
-media_streaming="Медија Стримувања";
-file_sharing="Фајл Делења";
+media_streaming = "Медија Стримувања";
+file_sharing = "Фајл Делења";
 special = "Специјално";
 other = "Друго";
-hint="Совет";
+hint = "Совет";
 hint_text = "Приоритизирањето ќе работи како што треба само ако на малку податоци се даде висок приоритет. На програмите кои праќаат многу податоци треба да им се даде низок приоритет. Приоритизирањето на протоколите се прави пред приоритизирањето на програмите.";
 save_protocols = "Зачувај протоколи";
-undo="Врати";
+undo = "Врати";
 filter_selection = "Филтер селекција";
 higher = "Највисок";
 high = "Висок";
@@ -26390,7 +26500,7 @@ entries = "Внесови";
 prog_overwrite = "Програмата #p веќе е на листата.\\nДали сакаш да се заменат веќе постоечките со новите вредности?";
 games = "Игри";
 voip = "Глас-преку-IP";
-remote_control="Далечинска контрола";
+remote_control = "Далечинска контрола";
 prog_hint_text = "Приоритизирањето ќе работи како што треба само ако на малку податоци се даде висок приоритет. На програмите кој праќаат многу податоци, треба да им се даде низок приоритет.<br />";
 save_priorities = "Зачувај приоритети";
 delete = "Избриши";
@@ -26405,15 +26515,16 @@ filename = "Фајл име";
 description = "Опис";
 new_program = "Нова програма";
 add = "Додади";
-l7_prot_detection="Откривање Layer-7 протокол";
+l7_prot_detection = "Откривање Layer-7 протокол";
 l7_prot_detection_help = "Детектира протокол преку анализа на податоците. Употреби го \"Prioritize protocols\" дијалогот за промена на приоритет на различните протоколи. Ако оваа опција е деактивирана, тогаш протоколите се детектираат според портата која ја употребуваат.";
 favor_ping = "Омилено Пинг Време";
 favor_ping_help = "<b>Вклучено</b>: %p ќе го минимизира пингот на сметка на благо намалување на брзината (ако треба).<br /><b>Исклучено</b>: %p ќе ја максимизира брзината на сметка на благо зголемување на пингот (ако треба).";
+favor_bandwidth = "Претендирај подобар Сообраќај";
 activate_firewall = "Активирј Фајрвал";
 activate_firewall_help = "Заштита против мрежни напади преку филтрирање на опасни пакети, проверка и stealth mode.";
 mtu_opt = "Автоматска MSS (MTU) оптимизација";
 mtu_opt_help = "Подеси MSS/MTU за максимум брзина на трансфер. Типично, вредностите малку помали од 1500/1492 продуцираат подобри брзини.";
-strict_rtp="Стриктни RTP проверки";
+strict_rtp = "Стриктни RTP проверки";
 strict_rtp_help = "Ако е активиран, %p ќе ги препознае само оние пакети како RTPs што доаѓаат со валиден RTCP source ID. Пожелно е да се деактивира оваа опција за Глас-преку-IP програми (како VoIPBuster) кои не праќаат RTCP пакети";
 ts_config = "%p Traffic Shaping Конфигурација";
 dialup_connection = "Dial-Up Конекции";
@@ -26454,31 +26565,30 @@ volume = "Волумен";
 volume_limit = "Волуменски Лимит";
 spdbudget_help = "За да се користи некој буџет, треба да се назначи на одредена конекција преку дијалогот за конекции";
 password_bad = "Невалидна лозинка";
-favor_bandwidth = "Претендирај подобар Сообраќај";
 sum_button = "кумулативно";
 calibrate = "Калибрирај линија";
-variable_bandwidth="Варијабилен проток";
-def_bandwidth_help="Зададено за <b>нови</b> конекции";
-ok="Ок";
-connection_medium="Медиум";
-connection_type="Traffic Shaping Мод";
-driver_not_loaded="Драјверот не е вчитан!";
-many_cons_error="%p rx-Traffic Shaping е доведен до граница бидејќи има премногу конекции. Со помалку конекции ќе функционира подобро. Кликнете овде за помош.";
-limit_bandwidth="Лимитирај сообраќај за тековна конекција";
-rx_limit="RX лимит";
-tx_limit="TX лимит";
-max="Макс.";
-apply_limits="Примени лимити";
-limit_help="Вредност во KB/s, вклучувајќи го и сиот додаток од протоколот, 0 = без лимит.";
+variable_bandwidth = "Варијабилен проток";
+def_bandwidth_help = "Зададено за <b>нови</b> конекции";
+ok = "Ок";
+connection_medium = "Медиум";
+connection_type = "Traffic Shaping Мод";
+driver_not_loaded = "Драјверот не е вчитан!";
+many_cons_error = "%p rx-Traffic Shaping е доведен до граница бидејќи има премногу конекции. Со помалку конекции ќе функционира подобро. Кликнете овде за помош.";
+limit_bandwidth = "Лимитирај сообраќај за тековна конекција";
+rx_limit = "RX лимит";
+tx_limit = "TX лимит";
+max = "Макс.";
+apply_limits = "Примени лимити";
+limit_help = "Вредност во KB/s, вклучувајќи го и сиот додаток од протоколот, 0 = без лимит.";
 enable_speed_shaping = "Овозможи Traffic Shaping";
 disable_speed_shaping = "Оневозможи Traffic Shaping";
 yes = "Да";
 no = "Не";
 help = "Помош";
-bgraph_totals="Вкупно";
-blocklist="IP-Блокирач";
-blocklist_help="Листа на IP адреса за кои е блокиран целиот сообраќај.";
-apply_blocklist="Користи филтер листа";
+bgraph_totals = "Вкупно";
+blocklist = "IP-Блокирач";
+blocklist_help = "Листа на IP адреса за кои е блокиран целиот сообраќај.";
+apply_blocklist = "Користи филтер листа";
 search = "Барај";
 budget_connection = "Конфигурирај кој буџет се користи за која конекција";
 reset = "Ресет";
@@ -26511,12 +26621,13 @@ check_if_other_also = "Обележете, ако сакате целиот др
 performance_help = "За зачувување на максимум пресметковна моќ, препорачуваме да ја наместите конекцијата што ја користите за интернет пристап во 'Да' а сите други во 'Не'.";
 loading = "Вчитување...";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
-regid="не кооперативно";
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
+regid = "не кооперативно";
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
 
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+
 
 
 
@@ -26528,7 +26639,7 @@ regid="не кооперативно";
 /
 / ----------------------------------------------------------------------
 
-speed_desc="%p, побрз Интернет пристап со Traffic Shaping";
+speed_desc = "%p, побрз Интернет пристап со Traffic Shaping";
 
 / URLs
 bc_activation_failed_url = "http://www.cfos.de/mk/broadband-connect/activation-failed.htm";
@@ -26590,9 +26701,14 @@ pwd_reg_to = "%p ќе биде регистриран на:";
 pwd_password_info = "Молам внесете ја лозинката на вашиот клуч во формат xxxx-xxxx-xxxx-xxxx.";
 pwd_password = "Лозинка:";
 pwd_invalid_password = "Невалидна лозинка. Молиме проверете и пробајте повторно.";
-pwd_activate_info="Морате да бидете поврзани на Интернет за да го активирате клучот на нашиот сервер.";
-pwd_activate_failed="Активацијата на клучот не беше успешна!";
-pwd_activate_failed_code="Неуспешна активација на клуч: грешка %?.";
+pwd_activate_info = "Морате да бидете поврзани на Интернет за да го активирате клучот на нашиот сервер.";
+pwd_activate_failed = "Активацијата на клучот не беше успешна!";
+pwd_activate_failed_code = "Неуспешна активација на клуч: грешка %?.";
+
+/ serial number dialog
+/ the %? will be replaced by the error number:
+
+/ new 16 digit serial number dialog
 
 / re-enter password dialog
 repwd_header = "%? лозинка.";
@@ -26622,6 +26738,14 @@ hangup_online = "Вие сте онлајн со следнава конекци
 hangup_offline = "Конекцијата е дисконектирана.";
 hangup_info = "За да продолжите со овој волшебник, онлајн конекцијата мора да биде дисконектирана.\n\nЗа да се дисконектирате сега, кликнете Disconnect.";
 hangup_disco = "Дисконектирај";
+
+/ usage statistics
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+
+/ crash handler messages
+
+/start installation dialog
 
 / progress dialog
 progress_inst_header = "Инсталација";
@@ -26665,7 +26789,7 @@ bk_finish_head_fail = "Регистрацијата е неуспешна.";
 bk_finish_info_fail = "Регистрацијата е неуспешна поради следнава причина:";
 
 / progress tasks
-task_register_email="Регистрирање мејл адреса...";
+task_register_email = "Регистрирање мејл адреса...";
 task_restore_point = "Сетирање на system restore point...";
 task_copy = "Копирање фајлови...";
 task_desktop_link = "Креирање на линк на Десктоп...";
@@ -26678,17 +26802,19 @@ task_stop_daemon = "Стопирање %?...";
 task_uninstall_driver = "Деинсталирање драјвер...";
 task_delete_files = "Бришење фајлови...";
 task_hangup = "Дисконектирање на активните он-лајн конекции...";
-task_flush_registry="Сними регистри на диск...";
+task_flush_registry = "Сними регистри на диск...";
 task_cancel = "Откажување на операцијата...";
 task_canceled = "Операцијата е откажана!";
 
+/ connectivity test progress tasks
+
 / program group
-speed_pg_name="%p Traffic Shaping";
+speed_pg_name = "%p Traffic Shaping";
 pg_uninstall = "Деинсталирај %?";
-pg_www="www.cfos.de";
+pg_www = "www.cfos.de";
 pg_console = "%? конзола";
 pg_menu = "%? мени";
-pg_add_connection="Додади конекција";
+pg_add_connection = "Додади конекција";
 
 / desktop symbol
 dt_advertise = "%? Особенсоти";
@@ -26720,31 +26846,31 @@ err_cancel = "Операцијата е откажана.";
 err_no32 = "Неможе да се инсталираат 32-битни драјвери на 64-битен систем.\n\n"
            "OS: %?\n"
            "Product: %?";
-err_bad_keyfile="Фајлот со клучот изгледа дека е невалиден. "
-                  "Молиме контактирајте не за да добиете валиден клуч.";
-err_bad_setup="%p изгледа дека не е инсталиран како што треба или некои фајлови "
-                "се модифицирани. Молиме реинсталирајте го одново "
-                " %p и обидете се повторно.";
-err_bad_signature="Лозинката изгледа дека е погрешна или е за "
-                    "друг фајл со клуч. Молиме внесете ја соодветната "
-                    "лозинка за овој фајл со клуч.";
+err_bad_keyfile = "Фајлот со клучот изгледа дека е невалиден. "
+					"Молиме контактирајте не за да добиете валиден клуч.";
+err_bad_setup = "%p изгледа дека не е инсталиран како што треба или некои фајлови "
+				"се модифицирани. Молиме реинсталирајте го одново "
+				" %p и обидете се повторно.";
+err_bad_signature = "Лозинката изгледа дека е погрешна или е за "
+					"друг фајл со клуч. Молиме внесете ја соодветната "
+					"лозинка за овој фајл со клуч.";
 err_gdiplus=
-  "GDI+ library не е најдена!\n\n"
-  "Оваа инсталација може да продолжи само ако GDI+ library е инсталирана.\n"
-  "Можете да ја симнете GDI+ library од Microsoft како дел од платформскиот SDK\n"
-  "Redistributable. Молиме симнете го инсталациониот фајл и отпакувајте ги\n"
-  "фајловите внатре во <некој директориум> по ваш избор. Потоа копирајте ги сите gdiplus.* фајлови\n"
-  "од фолдерот <некој директориум>\\asms\\10\\msft\\windows\\gdiplus во\n"
-  "фолдерот Windows\\system32.\n\n"
-  "Кликнете 'Oк' за да се отвори соодветната страна за симнување на Microsoft.\n"
-  "Кликнете 'Откажи' за да ја откажете инсталацијата.";
+	"GDI+ library не е најдена!\n\n"
+	"Оваа инсталација може да продолжи само ако GDI+ library е инсталирана.\n"
+	"Можете да ја симнете GDI+ library од Microsoft како дел од платформскиот SDK\n"
+	"Redistributable. Молиме симнете го инсталациониот фајл и отпакувајте ги\n"
+	"фајловите внатре во <некој директориум> по ваш избор. Потоа копирајте ги сите gdiplus.* фајлови\n"
+	"од фолдерот <некој директориум>\\asms\\10\\msft\\windows\\gdiplus во\n"
+	"фолдерот Windows\\system32.\n\n"
+	"Кликнете 'Oк' за да се отвори соодветната страна за симнување на Microsoft.\n"
+	"Кликнете 'Откажи' за да ја откажете инсталацијата.";
 err_winhttp =
   "WinHTTP библиотеката не е пронајдена!\n\n"
   "Ова инсталација може само да продолжи ако WinHTTP библиотеката е инсталирана.\n"
   "WinHTTP библиотеката треба да е дел од вашиот оперативен систем, но таа\n"
   "неможе да се вчита.";
-bad_manufacturer="Инсталацијата неможе да започне, бидејќи производот е лиценциран само за одредениот хардвер!";
-cannot_install="Неможе да инсталира";
+bad_manufacturer = "Инсталацијата неможе да започне, бидејќи производот е лиценциран само за одредениот хардвер!";
+cannot_install = "Неможе да инсталира";
 err_uninst_daemon =
    "Демонот неможе да се деинсталира. "
    "Ако има сеуште %p дијалог прозорец отворен, прво затворете ги тие прозорци. "
@@ -26753,29 +26879,29 @@ err_uninst_daemon =
 err_copy_from_to = "Грешка во копирање на фајлот %1 to %2 (%3).";
 
 / warning messages
-wrn_oem_update="Веќе имате инсталирано лиценциран %p .\n\n"
-  "Моментално се обидувате да инсталирате shareware верзија. Доколку продолжите\n"
-  "со инсталацијата, вашата лиценца нема да работи.\n"
-  "Надградба за вашиот лиценциран %p може да добиете на истото место\n"
-  "каде што ја имате набавено првпат.\n\n"
-  "Дали сепак сакате да продолжите со инсталацијата?";
+wrn_oem_update = "Веќе имате инсталирано лиценциран %p .\n\n"
+	"Моментално се обидувате да инсталирате shareware верзија. Доколку продолжите\n"
+	"со инсталацијата, вашата лиценца нема да работи.\n"
+	"Надградба за вашиот лиценциран %p може да добиете на истото место\n"
+	"каде што ја имате набавено првпат.\n\n"
+	"Дали сепак сакате да продолжите со инсталацијата?";
 
 / traffic shaping algorithm
-tsa_header="Traffic Shaping Мод (Повеќе-Корисници верзија)";
-tsa_subheader="Зададено однесување на Traffic Shaping алгоритамот.";
-tsa_info="Молиме изберете го зададеното однесување на Traffic Shaping алгоритамот "
-           "што одговара на вашата Интернет конекција. (Ова подоцна може да биде одбрано "
-           "индивидуално за секоја конекција.)";
+tsa_header = "Traffic Shaping Мод (Повеќе-Корисници верзија)";
+tsa_subheader = "Зададено однесување на Traffic Shaping алгоритамот.";
+tsa_info = "Молиме изберете го зададеното однесување на Traffic Shaping алгоритамот "
+			"што одговара на вашата Интернет конекција. (Ова подоцна може да биде одбрано "
+			"индивидуално за секоја конекција.)";
 
 / vista warning
-vista_header="Инсталациони забелешки";
-vista_subheader="Забелешка за инсталација на драјверот под Windows Vista.";
-vista_warn_info="%p е дигитално потпишан со сертификат од GlobalSign, компанија "
- "лиценцирана од Microsoft. Сепак, cFos Software GmbH не учествува во скапата додатна WHQL сертификација "
- "на Microsoft. Поради оваа причина, прозорче ќе се појави додека се инсталира драјверот "
- "под Windows Vista со пораката дека издавачот на драјверот неможе да се потврди.\n\n"
- "Доколку се појави ова прозорче, молиме кликнете на \"Install this driver software anyway\".";
-vista_warn_image="vista_en.bmp";
+vista_header = "Инсталациони забелешки";
+vista_subheader = "Забелешка за инсталација на драјверот под Windows Vista.";
+vista_warn_info = "%p е дигитално потпишан со сертификат од GlobalSign, компанија "
+	"лиценцирана од Microsoft. Сепак, cFos Software GmbH не учествува во скапата додатна WHQL сертификација "
+	"на Microsoft. Поради оваа причина, прозорче ќе се појави додека се инсталира драјверот "
+	"под Windows Vista со пораката дека издавачот на драјверот неможе да се потврди.\n\n"
+	"Доколку се појави ова прозорче, молиме кликнете на \"Install this driver software anyway\".";
+vista_warn_image = "vista_en.bmp";
 
 / dial entry dialog
 dun_wizard_name = "%p Конекција Волшебник";
@@ -26817,6 +26943,7 @@ order_oem = "Купете ја професионалната верзија с�
 cfos_endsoon = "Вашиот тест период ќе заврши наскоро.\nКупете ја %p Професионалната верзија сега!\nЗапочнете ја %p нарачката на страна на\n\nhttps://www.cfos.de/mk/order/order.htm\n";
 cfos_expired = "Ова %p верзија е истечена.\nКупете го %p/Професионал сега!\nЗапочнете ја %p нарачката на\n\nhttps://www.cfos.de/mk/order/order.htm\n\nPhone: +49-228-7669826\nFax: +49-228-7669827.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
 
 
 / Don't translate!
@@ -26909,6 +27036,13 @@ htm_lang_prefix = "ar";
 
 / ----------------------------------------------------------------------
 /
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  6link / broadband connect / pnet
 /
 / ----------------------------------------------------------------------
@@ -26936,6 +27070,16 @@ con_enabled = "مقدور";
 
 / pnet configuration dialog
 
+/ pnet start type dialog
+
+/ pnet context menu entry
+
+/ pnet backup info
+
+/ pnet
+
+/ pnet connectivity test
+
 / ----------------------------------------------------------------------
 /
 /  cFosSpeed
@@ -26943,6 +27087,7 @@ con_enabled = "مقدور";
 / ----------------------------------------------------------------------
 
 mainurl_name = "www.cfos.de";
+
 
 component_mismatch = "بين اجزاء اين برنامه يک ورژن مغاير وجود دارد ، لطفا آخرين ورژن جديد را دوباره نصب کنيد ";
 trayicon_tip = "اينترنت سريعتر با شکل دهي ترافيک, www.cfos.de";
@@ -26992,8 +27137,6 @@ days_plural = "روز ها";
 / %1=number, %2="day/days"
 short_try = "سعي کردن براي %1 %2";
 short_dexpire = "سپري %1 %2";
-order_oem ="!همین الآن نسخه حرفه ای را بخر";
-group_order_inet = "خرید پیشرفته %p";
 
 short_exp = "سپري";
 / %1=number, %2="day/days", %3=product name
@@ -27062,6 +27205,7 @@ l7_prot_detection = "طبقه بندي-7 پروتکل اکتشاف";
 l7_prot_detection_help = "پيدا کردن پروتکل ها به وسيله ي تجزيه و تحليل اطلاعات. استفاده از محاوره 'حق تقدم پروتکل ها' براي تغيير دادن اولويت هاي گوناگون پروتکل ها. پروتکل ها نمايان مي سازند مطابق شماره ي درگاه کاربردي اگر شما اين اختيار را بي اثر کنيد";
 favor_ping = "توجه وقت پينگ";
 favor_ping_help = "<b>فعال</b>: سي اف ا اسپيد با وقت پينگ از هزينه مي کاهد از پهناي باند قدري مي کاهد (اگر ضروري باشد )ا.<br /><b>غير فعال</b>: سي اف ا اسپيد با بيشترين پهناي باند بيشتر از وقت پينگ قدري به هزينه مي افزايد (اگر ضروري باشد )ا.";
+favor_bandwidth = "توجه پهناي باند";
 activate_firewall = "ديوار آتش فعال";
 activate_firewall_help = " حفاظت در برابر شبکه  سر زده و بدون اجازه به وسيله ي ميانه روي از فيلترينگ پک هاي خطرناک ، بازرسي دولتي و حالت مخفيانه";
 mtu_opt = "بهينه ساختن خودکار ام اس اس (ام تي يو)ا ";
@@ -27107,7 +27251,6 @@ volume = "حجم";
 volume_limit = "محدوديت حجم";
 spdbudget_help = "براي استفاده از يک بودجه برو به محاوره ي اتصال ها و آن را اتصال ويژه قرار بده";
 password_bad = "رمز بد";
-favor_bandwidth = "توجه پهناي باند";
 sum_button = "انباشته";
 calibrate = "سنجيدن باند";
 variable_bandwidth = "پهناي باند متغير";
@@ -27133,12 +27276,13 @@ blocklist = "IP-Blocker";
 blocklist_help = "لیست آدرس های آی پی برای ترافیک مسدود شده";
 apply_blocklist = "استفاده از لیست فیلتر";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "تعاوني نيست";
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
 
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+
 
 
 
@@ -27208,6 +27352,11 @@ pwd_activate_info = "شما برای فعال سازی کی باید به سرو
 pwd_activate_failed = "فعال سازی کی موفق نشد!";
 pwd_activate_failed_code = "کی فعال سازی از دست رفته: error %?.";
 
+/ serial number dialog
+/ the %? will be replaced by the error number:
+
+/ new 16 digit serial number dialog
+
 / re-enter password dialog
 repwd_header = "%? پسورد.";
 repwd_subheader = "پسورد نام نویسی نیازبه وارد کردن دارد.";
@@ -27235,6 +27384,14 @@ hangup_online = "شما آنلاین هستید به وسیله ی این اتص
 hangup_offline = "اتصال در حال قطع شدن است.";
 hangup_info = "برای ادامه با این جادوگر، اتصال فعال باید غیر فعال شود.\n\nبرای غیر فعال کردن اتصال الآن، بر روی قطع ارتباط کلیک کنید.";
 hangup_disco = "قطع ارتباط";
+
+/ usage statistics
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+
+/ crash handler messages
+
+/start installation dialog
 
 / progress dialog
 progress_inst_header = "نصب";
@@ -27294,6 +27451,8 @@ task_hangup = "در حال قطع ارتباط اتصال های فعال...";
 task_flush_registry = "خالی کردن رجیستری به دیسک...";
 task_cancel = "لغو عملکرد...";
 task_canceled = "عملکرد لغو شد.";
+
+/ connectivity test progress tasks
 
 / program group
 pg_uninstall = "حذف برنامه %?";
@@ -27394,7 +27553,9 @@ eml_checking_domain = "...چک کردن آدرس ایمیل";
 
 / %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
 
+order_oem = "!همین الآن نسخه حرفه ای را بخر";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
 
 
 / Don't translate!
@@ -27461,6 +27622,7 @@ eml_checking_domain = "...چک کردن آدرس ایمیل";
 / configuration messages
 
 / program group
+group_order_inet = "خرید پیشرفته %p";
 
 / registration
 
@@ -27744,7 +27906,7 @@ prog_overwrite = "程序 #p 已经在列表内。\\n您想要用新的值覆盖�
 games = "游戏";
 voip = "VOIP";
 remote_control = "远程控制";
-prog_hint_text ="要使优先次序能正常工作，就要给发送少量数据的程序高优先级，给发送大量数据的程序低优先级。<br />";
+prog_hint_text = "要使优先次序能正常工作，就要给发送少量数据的程序高优先级，给发送大量数据的程序低优先级。<br />";
 save_priorities = "保存优先次序";
 delete = "删除";
 aux_lines = "辅助线";
@@ -28013,7 +28175,7 @@ rp_uninst_info = "系统还原点不代表稍候正常卸载 %1。它只相当�
 / password dialog
 pwd_header = "密码。";
 pwd_subheader = "每个 key 需要一个唯一的密码。";
-pwd_reg_to ="%p 将注册给：";
+pwd_reg_to = "%p 将注册给：";
 pwd_password_info = "请以 xxxx-xxxx-xxxx-xxxx 的格式输入注册密码。";
 pwd_password = "密码：";
 pwd_invalid_password = "密码无效，请检查您的输入并重试。";
@@ -28034,6 +28196,8 @@ sn_invalid_serial_number = "序列号无效。请检查您的输入否再试。"
 sn_download_err = "下载授权文件是发生 %? 错误。";
 sn_save_err = "无法在 %? 保存授权文件。";
 sn_keyfile_err = "授权文件格式不正确。";
+
+/ new 16 digit serial number dialog
 
 / re-enter password dialog
 repwd_header = "%? 密码。";
@@ -30186,6 +30350,13 @@ htm_lang_prefix = "sr";
 
 / ----------------------------------------------------------------------
 /
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  6link / broadband connect / pnet
 /
 / ----------------------------------------------------------------------
@@ -30493,7 +30664,7 @@ performance_help = "Da sačuvate maksimalnu snagu, preporučujemo da postavite v
 loading = "Uèitavanje...";
 connection_type_help = "http://www.cfos.de/traffic_shaping/traffic_shaping_e.htm#advanced";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Bez saradnje";
 regid_help = "Postoji raèunar bez cFos O.S. na vašem LAN-u";
 regid_help_long = "Koristite vašu vezu sa nekoliko drugih raèunara istovremeno a najmanje jedan od njih nema cFos Oblikovanje Saobraæaja.";
@@ -30545,7 +30716,7 @@ console_prio_advanced = "Napredni prioriteti";
 new_version_available = "Nova verzija je dostupna";
 update_beta = "Provjeri postojanje novih beta verzija";
 update_skip_version = "Za sljedeæu verziju više neæe biti napomena:";
-check_new_version_now ="Trenutna provjera za novom verzijom";
+check_new_version_now = "Trenutna provjera za novom verzijom";
 program_updates = "Ažuriranje programa";
 no_new_version_available = "Nema nove verzije";
 use_logitech = "Upotreba Lodžitek G15/G19/G510 ekrana";
@@ -30635,9 +30806,12 @@ sn_subheader = "Unesite serijski broj i aktivirajte kljuè.";
 sn_info = "Ako imate lozinku sa 16 cifri forme xxxx-xxxx-xxxx-xxxx, izaðite iz ovog dijaloga i kliknite duplim klikom na kljuè licence. Pojaviæe se ekran gdje æete unijeti lozinku.\n\nAko imate serijski broj sa 30 cifri forme xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, unesite ga sada kako bi aktivirali kljuè licence.\n\n";
 sn_serial_number = "Serijski broj:";
 sn_invalid_serial_number = "Nevažeæi serijski broj. Provjerite unos i pokušajte ponovo.";
+/ the %? will be replaced by the error number:
 sn_download_err = "Greška %? pri preuzimanju datoteke kljuèa sa našeg servera.";
 sn_save_err = "Datoteku kljuèa nije moguæe saèuvati na lokaciji %?.";
 sn_keyfile_err = "Datoteka kljuèa je ošteæena.";
+
+/ new 16 digit serial number dialog
 
 / re-enter password dialog
 repwd_header = "%? lozinka.";
@@ -30675,6 +30849,10 @@ usage_stats_subheader = "Izaberite kako bi %p trebao rukovati statistikom.";
 usage_stats_chk = "Šalji anonimnu statistiku korišæenja cFos-u radi poboljšanja performansi proizvoda.";
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+
+/ crash handler messages
+
+/start installation dialog
 
 / progress dialog
 progress_inst_header = "Instalacija";
@@ -30738,6 +30916,8 @@ task_hangup = "Prekidanje aktivne online veze...";
 task_flush_registry = "Smještanje registra na disk...";
 task_cancel = "Okazivanje operacije...";
 task_canceled = "Operacija je otkazana!";
+
+/ connectivity test progress tasks
 
 / program group
 speed_pg_name = "%p Oblikovanje Saobraæaja";
@@ -30930,6 +31110,13 @@ htm_lang_prefix = "ср";
 
 / ----------------------------------------------------------------------
 /
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  6link / broadband connect / pnet
 /
 / ----------------------------------------------------------------------
@@ -30995,9 +31182,8 @@ dlg_redirect_delay = "Кашњење при редирекцији (мс):";
 /
 / ----------------------------------------------------------------------
 
-preview_skins_url = "http://www.cfos.de/sr-cyrl-cs/cfosspeed/documentation/status.htm";
-
 mainurl_name = "www.cfos.com";
+preview_skins_url = "http://www.cfos.de/sr-cyrl-cs/cfosspeed/documentation/status.htm";
 
 auth_failed = "Провјера дослиједности је открила да је једна или више компоненти измјењено.\nИнсталирајте немодификовану верзију са наше странице:\n";
 
@@ -31238,7 +31424,7 @@ check_if_other_also = "Означите, ако желите да се сав о
 performance_help = "Да сачувате максималну снагу, препоручујемо да поставите везу коју користите за интернет приступ на 'Да' а све друге на 'Не'.";
 loading = "Учитавање...";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "без сарадње";
 regid_help = "Постоји рачунар без cFos О.С. на вашем LAN-у";
 regid_help_long = "Користите вашу везу са неколико других рачунара истовремено а најмање један од њих нема cFos Обликовање Саобраћаја.";
@@ -31290,7 +31476,7 @@ console_prio_advanced = "Напредни приоритети";
 new_version_available = "Нова верзија је доступна";
 update_beta = "Провјери постојање нових бета верзија";
 update_skip_version = "За сљедећу верзију више неће бити напомена:";
-check_new_version_now ="Тренутна провјера за новом верзијом";
+check_new_version_now = "Тренутна провјера за новом верзијом";
 program_updates = "Ажурирање програма";
 no_new_version_available = "Нема нове верзије";
 use_logitech = "Употреба Лоџитек Г15/Г19/Г510 екрана";
@@ -31380,9 +31566,12 @@ sn_subheader = "Унесите серијски број и активирајт
 sn_info = "Ако имате лозинку са 16 цифри форме xxxx-xxxx-xxxx-xxxx, изађите из овог дијалога и кликните дуплим кликом на кључ лиценце. Појавиће се екран гдје ћете унијети лозинку.\n\nАко имате серијски број са 30 цифри форме xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, унесите га сада како би активирали кључ лиценце.\n\n";
 sn_serial_number = "Серијски број:";
 sn_invalid_serial_number = "Неважећи серијски број. Провјерите унос и покушајте поново.";
+/ the %? will be replaced by the error number:
 sn_download_err = "Грешка %? при преузимању датотеке кључа са нашег сервера.";
 sn_save_err = "Датотеку кључа није могуће сачувати на локацији %?.";
 sn_keyfile_err = "Датотека кључа је оштећена.";
+
+/ new 16 digit serial number dialog
 
 / re-enter password dialog
 repwd_header = "%? лозинка.";
@@ -31420,6 +31609,10 @@ usage_stats_subheader = "Изаберите како би %p требао рук
 usage_stats_chk = "Шаљи анонимну статистику коришћења cFos-у ради побољшања перформанси производа.";
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+
+/ crash handler messages
+
+/start installation dialog
 
 / progress dialog
 progress_inst_header = "Инсталација";
@@ -31483,6 +31676,8 @@ task_hangup = "Прекидање активне онлине везе...";
 task_flush_registry = "Смјештање регистра на диск...";
 task_cancel = "Оказивање операције...";
 task_canceled = "Операција је отказана!";
+
+/ connectivity test progress tasks
 
 / program group
 speed_pg_name = "%p Обликовање Саобраћаја";
