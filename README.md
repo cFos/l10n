@@ -284,7 +284,7 @@ cfos_menu = "Menu"; / I'm not sure about it's context usage
 
 Sometimes you need to use `"` inside of string.
 
-If you remember that `"` marks beginning and ending of our string, you may ask how we can let program to know that `"` right in middle of our string isn't closing part?
+If you remember that `"` marks beginning and ending of our string, you may ask how we can let program to know that `"` right in the middle of our string isn't closing part?
 
 For example, following string will be wrong:
 
@@ -292,25 +292,27 @@ For example, following string will be wrong:
 cfos_test = "Oh, and you should taste that "perfect" hamburger!";
 ```
 
-Program will think that our string is `"Oh, and you should taste that "`, which actually isn't what we meant.
+Program will think that our string is `"Oh, and you should taste that "`, which actually is only part of our string.
 
-Answer is quite simple — such characters should be escaped with `\`, like this one:
+It happens, because program always assuming that first `"` marks beginning of string and second `"` — it's ending (which in our example occurring in the middle of string).
+
+To solve that issue such characters should be escaped with `\`, like in this example:
 
 ```
 cfos_test = "Oh, and you should taste that \"perfect\" hamburger!";
 ```
 
-In our final product it will output correct `Oh, and you should taste that "perfect" hamburger!`
+In our final product it will output correct `Oh, and you should taste that "perfect" hamburger!`. Note that escaping `\` does not appear in output.
 
-Sometime you'll need to output `\` character. However, how can you do it if it's marking escaping by itself?
+Sometime you'll need to output `\` character. But how it can be done, if escaping character doesn't appear in output?
 
-For example:
+For example,
 
 ```
 cfos_test = "Take a look at C:\folder";
 ```
 
-Such string will output `Take a look at C:folder`, without `\` which isn't what we want, of course.
+will output `Take a look at C:folder`, without `\`, because program will think that `\` escaping here character `f`.
 
 To fix it, we should escape `\` characters with `\` too, like this:
 
@@ -335,7 +337,9 @@ Pattern is quite simple:
 {source}__{type}__{language id}--{source language id}__{extraction date}__{translator email}.cfos.txt
 ```
 
-Here is typical example of file with untranslated strings:
+Or maybe not so simple...
+
+Anyway, here is typical example of file with untranslated strings:
 
 ```
 sw__mk__hu--en__2014-03-18__your@email.com.cfos.txt
