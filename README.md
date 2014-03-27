@@ -103,7 +103,6 @@ Other interesting files for you can be found in [Translation references](https:/
 Other files in repository are rather technical, so we'd recommend simply to ignore them:
 * `# [website] status.md` and `# [software] status.md` contains some statistics about translation. They are not updated very frequently, so don't rely on them;
 * `pending` folder contains strings, which have to be updated. Please, ignore them, because they serve simply as our internal notes regarding workflow;
-* `my` folder contains few personal translations and will be removed from this repository soon.
 
 
 ### How to find your language
