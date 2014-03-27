@@ -34,8 +34,9 @@ List of content
         7. [Translation reference](#translation-reference)
         8. [HTML-tags](#html-tags)
         9. [HTML entities](#html-entities)
-        10. [File format](#file-format)
-        11. [Report](#please-report)
+        10. [Line breaks](#line-breaks)
+        11. [File format](#file-format)
+        12. [Report](#please-report)
 5. [Syntax highlighting](#syntax-highlighting)
 6. [Important](#important)
 
@@ -517,6 +518,40 @@ HTML entities can be freely moved around in string's content, however remember n
 You can read more about HTML entities [here](http://www.w3schools.com/html/html_entities.asp).
 
 List of HTML entities can be found [here](http://www.ascii.cl/htmlcodes.htm).
+
+
+#### Line breaks
+
+In software translations you can encounter `\n` — **newline character**.
+
+In website translations for same purpose used **HTML Line Break Element** — `<br />`, which works exactly as `\n`, but for web pages.
+
+In output `\n` and `<br />` will be replaced with line breaks, thus forcing part of string after newline character to wrap on new line.
+
+For example,
+
+```
+lang_key = "I'm first string.\nI'm string on next line";
+```
+
+or
+
+```
+lang_key = "I'm first string.<br />I'm string on next line";
+```
+
+will output
+
+```
+I'm fist string
+I'm string on next line
+```
+
+Please, consider that while functionality of newline character and Line Break Element appears to be same, please, do not alter them in any way, nor replace `<br />` with `\n` or in opposite direction, otherwise it can affect rendering of website's pages or software's texts.
+
+As in case with HTML-entities, newline characters and Line Break Elements can be freely moved around.
+
+However, in most cases it's important to preserve their positions, because being placed in wrong position they can break visual appearance of website's or software's texts.
 
 
 #### File format
