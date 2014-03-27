@@ -86,7 +86,7 @@ Minimal number of translated string to receive free license is about *100-200 st
 We'd be thankful for any help. To remark importance of our top contributors and express our thankfulness to them we have [Hall of Fame](https://www.cfos.de/en/contact/hall-of-fame.htm).
 
 
-Instructions:
+Instructions
 -------------
 
 ### Quick overview
