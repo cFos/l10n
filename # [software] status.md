@@ -28,10 +28,10 @@ Software translation status
 |     | ko - 1042         |           |                                                       |       |
 |     | nl - 1043         |           |                                                       |       |
 |     | pl - 1045         |       400 |                                                       |       |
-|     | pt-br - 1046      |       150 | in progress (400 done)                                |       |
+|     | pt-br - 1046      |       150 |                                                       |       |
 |     | ro - 1048         |           |                                                       |       |
-| `f` | ru - 1049         |         0 | done (22.04.2013) by ArmorDarks                       |       |
-|     | sv - 1053         |           | done (12.01.2013)                                     |       |
+| `f` | ru - 1049         |         0 | done (2013-04-22) by Serj Lavre                       |       |
+|     | sv - 1053         |           | done (2013-01-12)                                     |       |
 | `G` | th - 1054         |       200 |                                                       |       |
 |     | tr - 1055         |       150 |                                                       |       |
 |     | id - 1057         |       170 |                                                       |       |
@@ -43,7 +43,7 @@ Software translation status
 |     | farsi - 1256      |           |                                                       |       |
 |     | zh-cn - 2052      |        17 |                                                       |       |
 | `G` | es-mx - 2058      |           |                                                       |       |
-| `G` | pt - 2070         |         0 |                                                       |       |
+| `G` | pt - 2070         |         0 | 340 done by Adriano Maia                              |       |
 | `G` | sr-cs-latn - 2074 |           |                                                       |       |
 |     | sr-cyrl-cs - 3098 |           |                                                       |       |
 | `x` | it-ch - 2064      |       `x` |                                                       |       |
