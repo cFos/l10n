@@ -102,3 +102,14 @@ multi_lang = "12+ languages";
 
 pnet_wmi_p4 = " To prevent others from accessing your WMI data, the cFos WMI Monitor requires a valid user by means of HTTP authentication. So you should configure a user, for example <b>admin</b> in cFos PNet. You can do this by re-running the setup. Or you can add a new user, for example user wmi, by running opening <em>/users/index.htm</em> as admin.";
 	-> removed leading space
+
+#date 2014-04-09
+
+uninst_h1_speed = "cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> has been uninstalled";
+uninst_p1_speed = "Thank you for trying out cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span>. Please help us improve cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> by telling us why you uninstalled it. Your feedback is very important to us.";
+uninst_assess_speed = "How do you assess the following components of cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span>?";
+uninst_install_help_start1 = "Difficulties installing cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span>";
+uninst_pingtime_inc = "cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> increased my ping";
+uninst_speed_reduce = "cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> reduced my speed";
+uninst_speed_guide = "Before you completely uninstall cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span>, our <a onclick=\"cfos.set_event('speed_feedback', 'speed_guide'); return true;\" href=\"/en/traffic-shaping/speed-guide.htm\" target=\"_blank\"><b>Speed Guide</b></a> may be a solution for you. It helps you solve the most important speed, ping or prioritization problems. If you start it with cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> installed, it can evaluate your connection characteristics and adapt the solution to your connection.";
+	`ROG GameFirst II` -> `ROG GameFirst II / Turbo LAN` | Commit: b28fe0c0186589ea94882bece0327f3d8fcbe1d4
