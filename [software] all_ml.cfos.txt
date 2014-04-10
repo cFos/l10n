@@ -23387,6 +23387,13 @@ htm_lang_prefix = "id";
 
 / ----------------------------------------------------------------------
 /
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  6link / broadband connect / pnet
 /
 / ----------------------------------------------------------------------
@@ -23437,6 +23444,10 @@ con_enabled = "berfungsi";
 / pnet configuration dialog
 pnet_header = "Penataan Umum";
 pnet_subheader = "Sesuaikan penataan umum.";
+pnet_conn_header = "Koneksi";
+pnet_conn_subheader = "Pilihan pengaturan koneksi.";
+pnet_conn_local_ip = "Alamat IP lokal %?";
+pnet_conn_public_ip = "Alamat IP publik %?";
 pnet_pubdir_header = "Direktori Publik";
 pnet_pubdir_subheader = "Direktori yang berisi berkas dapat diunduh.";
 pnet_pubdir_info = "Silakan tetapkan lokasi pelipat tempat beradanya berkas yang ingin Anda buat tersedia untuk diunduh.";
@@ -23455,8 +23466,25 @@ dlg_register_shell_extension = "Daftarkan Ekstensi Shell";
 dlg_server_port = "Pangkalan Peladen:";
 dlg_server_name = "Nama Peladen:";
 dlg_server = "Peladen:";
+dlg_https_port = "Port HTTPS:";
 dlg_renew_interval = "Pembaruan interval (mdet):";
 dlg_redirect_delay = "Masa tunda arahan ulang (mdet):";
+dlg_monitor_ports = "Monitor port yang ditugaskan";
+dlg_enable_upnp = "Aktifkan Multimedia Server (UPnP/DLNA)";
+dlg_upnp_info = "Letakkan file media didalam subdirektori 'media' dari direktori publik anda.";
+use_https_port = "Gunakan port HTTPS";
+
+/ pnet start type dialog
+pnet_start_header = "Tipe memulai";
+pnet_start_subheader = "Bagaimana program ini dapat dimulai?";
+pnet_start_mode = "Mulai %p:";
+pnet_start_login = "pada saat logon (direkomendasikan)";
+pnet_start_system = "sebagai system service";
+pnet_start_manual = "secara manual";
+pnet_start_info = "Sangat direkomendasikan untuk memulai %p secara otomatis jika anda log on. "
+                  "Jika %p ingin menjalankan ketika tidak ada pengguna yang logged on, anda harus memulainya sebagai system service. "
+                  "Namun dalam kasus tersebut disana tidak akan dijumpai ikon task bar dan context menu. "
+                  "Jika anda ingin untuk membuat data publik anda pada suatu saat nanti, mulailah %p secara manual.";
 
 / pnet context menu entry
 publish_with_product = "Terbitkan sebagai %p";
@@ -23471,6 +23499,27 @@ ipv4_bind_problem = "Peladen tak dapat mendengarkan pangkalan ber-IPv4 yang dite
 ipv6_bind_problem = "Peladen tak dapat mendengarkan pangkalan ber-IPv6 yang ditentukan, sebab pangkalan tersebut digunakan oleh aplikasi lain (mis. Skype).";
 closing_server = "Peladen sedang menutup.";
 start_product = "Mulai %p";
+info_port_in_use = "Port ini %? diperlukan oleh %p sedang digunakan oleh program lain.\n\nProgram: %?\nPath: %?\n\n"
+                   "Untuk menggunakannya %p, anda harus mengakhiri program lain atau pilih port lain didalam %p konfigurasi.";
+monitor_port_desc = "Tugas ini memonitor secara periodik port yang dibutuhkan oleh %p dan memperingatkan pengguna, jika salah satu port sedang digunakan oleh program lain.";
+logon_start_desc = "Tugas ini mulai %p jika pengguna yang terlihat dibawah logs in.";
+show_home_dir = "Perlihatkan Home Directory";
+publish_file = "Publikasikan File";
+
+/ pnet connectivity test
+connectivity_test = "Test konektivitas";
+con_test_subheader = "Harap menunggu hingga test konektivitas telah selesai.";
+con_test = "%p Test konektivitas";
+con_test_not_running = "Test konektivitas tidak dapat dieksekusi, sejak %p sedang tidak berjalan. Harap dimulai %p lalu eksekusi test konektivitas lagi.";
+con_test_public_fail = "Alamat IP publik anda tidak dapat ditentukan. Harap dipastikan jika anda telah terhubung dengan Internet dan kemudian diharapkan untuk mengulang test tersebut.";
+con_test_execute = "Eksekusi test konektivitas";
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
 
 / ----------------------------------------------------------------------
 /
@@ -23497,6 +23546,7 @@ badkey = "Terdapat masalah dengan kunci lisensi Anda.\n"
          "Silakan instal ulang kunci dengan jalan mengklik-ganda di atas\n"
          "berkas asli yang Anda terima melalui surel atau disket.";
 no_setup = "Tak dapat memulai penata (setup.exe).";
+no_cmd = "Tidak dapat membuka Command Prompt (cmd.exe)!";
 ask_disconnect_ras = "Sebuah sambungan jaringan yang saat ini sedang aktif akan diatur ulang.\n"
                      "Kami anjurkan agar Anda memutuskan sambungan sebelum melanjutkan.\n"
                      "Putuskan sambungan jaringan saat ini?";
@@ -23570,6 +23620,7 @@ off = "Mati";
 on = "Hidup";
 note = "Catatan";
 deactivated = "lumpuh";
+browser_warning = "Internet Explorer versi 8 atau yang lebih tinggi sangat direkomendasikan untuk dialog ini!";
 ole_error = "Untuk menggunakan dialog konfigurasi ini,\\n%p harus diinstal dan berjalan di PC Anda.\\nSilakan teliti hal ini dan instal lagi jika diperlukan.";
 ts_settings = "Penataan Pembentukan Kepadatan";
 preferences = "Preferensi";
@@ -23580,13 +23631,18 @@ prio_programs = "Memprioritaskan program";
 program = "Program";
 programs = "Program-program";
 current_connections = "Sambungan Saat Ini";
+current_connections_advanced = "Koneksi saat ini (Lanjutan)";
+current_connections_standard = "Koneksi saat ini (Standar)";
 ts_prios = "Prioritas Pembentukan Kepadatan";
 client_protocols = "Protokol Klien";
 server_protocols = "Protokol Peladen";
+client_server_protocols = "Klien dan Server Protocols";
 media_streaming = "Aliran Media";
 file_sharing = "Berbagi Berkas";
 special = "Spesial";
 other = "Lainnya";
+misc_high_short = "Macam. Tinggi";
+misc_high = "Macam lalulintas prioritas tinggi";
 hint = "Petunjuk";
 hint_text = "Pemrioritasan akan bekerja dengan baik hanya jika sesedikit mungkin data diberikan prioritas tinggi. Berikan prioritas rendah untuk program-program yang mengirim keluar data dalam jumlah besar. Pemrioritasan protokol selesai sebelum pemrioritasan program.";
 prio_doc_link = "Bagaimana skema pemrioritasan bekerja";
@@ -23624,6 +23680,7 @@ l7_prot_detection = "Deteksi Protokol Layer-7";
 l7_prot_detection_help = "Mendeteksi protokol dengan menganalisis data. Gunakan dialog 'pemrioritasan protokol' untuk mengubah pemrioritasan dari bermacam protokol. Jika Anda melumpuhkan opsi ini, protokol akan dideteksi berdasarkan nomor pangkalan yang digunakan.";
 favor_ping = "Pilih Waktu Ping";
 favor_ping_help = "<b>Hidup</b>: %p akan meminimalkan waktu ping pada keluaran lebar pita yang sedikit berkurang (jika dibutuhkan).<br /><b>Mati</b>: %p akan memaksimalkan waktu ping pada keluaran lebar pita yang berwaktu ping agak tinggi (jika dibutuhkan).";
+favor_bandwidth = "Pilih Lebar Pita";
 avoid_loss = "Pencegahan paket hilang";
 avoid_loss_help = "%p menutup jendela penerimaan TCP dari menerima arus bila terlalu banyak paket hilang terdeteksi. Ini hanya terjadi jika sambungan Anda menerima dengan kecepatan penuh.";
 activate_firewall = "Aktifkan Tembok Api";
@@ -23671,10 +23728,10 @@ volume = "Volume";
 volume_limit = "Batas Volume";
 spdbudget_help = "Untuk menggunakan sebuah anggaran, tuju dialog sambungan dan terapkan terhadap sambungan tertentu";
 password_bad = "Sandi lewat lemah";
-favor_bandwidth = "Pilih Lebar Pita";
 sum_button = "kumulatif";
 calibrate = "Kalibrasikan baris";
 test_pings = "Kirim ping uji";
+open_console = "Buka %p konsol";
 variable_bandwidth = "Lebar Pita Bervariasi";
 def_bandwidth_help = "Standar untuk sambungan <b>baru</b>";
 cur_bandwidth_help = "Penataan untuk sambungan saat ini";
@@ -23689,6 +23746,7 @@ driver_not_loaded = "Pengandar tak dimuat!";
 demon_driver_not_loaded = "Pengandar tak dimuat!\n"
    "Mungkin instalasi rusak.\n"
    "Silakan menginstal ulang %p.\n";
+asus_demon_driver_not_loaded = "Instal ulang %p setelah meningkatkan sistem operasi terbaru.\nKunjungi website ASUS di %w untuk versi terbaru %p.";
 many_cons_error = "Pembentukan Kepadatan-rx %p sedang dipacu hingga batasnya, karena terlalu banyak sambungan. Dengan sambungan yang lebih sedikit, kemungkinan akan memberi hasil yang lebih baik. Klik di sini untuk melihat bantuan.";
 limit_bandwidth = "Batasi Lebar Pita untuk Sambungan Saat Ini";
 rx_limit = "Batas RX";
@@ -23732,12 +23790,15 @@ tx_only = "TX saja";
 max_of_rx_tx = "RX & TX maksimum";
 total_rx_only = "Total kecepatan RX ";
 total_tx_only = "Total kecepatan TX ";
+nettalk_rx = "Kecepatan Net Talk RX";
+nettalk_tx = "Kecepatan Net Talk TX";
+nettalk_max_of_rx_tx = "Max. dari Net Talk RX & TX";
 total_max_of_rx_tx = "Total maks. RX & TX";
 check_if_other_also = "Centang, jika Anda menginginkan seluruh kepadatan lainnya untuk dihitung di slot ini";
 performance_help = "Untuk menyimpan daya komputasi maksimum, kami anjurkan agar menata sambungan yang Anda gunakan untuk mengakses ke internet 'Ya' dan 'Tidak' untuk sisanya.";
 loading = "Memuat...";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Tak kooperatif";
 regid_help = "Terdapat sebuah mesin tanpa cFos TS di LAN Anda";
 regid_help_long = "Anda memakai sambungan Anda dengan beberapa mesin secara simultan dan setidaknya salah satu di antara mereka tak mempunyai Pembentukan Kepadatan cFos.";
@@ -23781,6 +23842,8 @@ console_prio_prot = "Prioritaskan sementara protokol";
 console_prio_prot_off = "Padamkan pemrioritasan protokol sementara";
 console_prio_prog = "Prioritaskan sementara program";
 console_prio_prog_off = "Padamkan pemrioritasan program sementara";
+console_prio_prog_prot = "Mengutamakan sementara program & protocol";
+console_prio_prog_prot_off = "Mematikan sementara program & protocol utama";
 console_prio_prot_perm = "Prioritaskan permanen protokol";
 console_prio_prog_perm = "Prioritaskan permanen program";
 console_prio_advanced = "Pemrioritasan canggih";
@@ -23803,6 +23866,12 @@ lock_position = "Kunci posisi jendela";
 check_for_news = "Periksa berita";
 rwin_expansion = "Perluasan RWIN otomatis";
 rwin_expansion_help = "Otomatis perluas RWIN TCP guna meningkatkan kecepatan unduhan jika RWIN yang dipilih oleh Windows terlalu lambat.";
+query_auto_open = "Menonaktifkan membuka dan menutup otomatis jendela status?\nAnda dapat mengaktifkannya nanti didalam context menu.";
+preview_skins = "Pratinjau Skins";
+http_access_enabled = "Akses HTTP dari remote diperbolehkan";
+http_access_disabled = "Akses HTTP dari remote dilarang";
+auto_arrange_top = "Atas";
+auto_arrange_bottom = "Bawah";
 
 
 / ----------------------------------------------------------------------
@@ -23889,9 +23958,14 @@ sn_info = "Jika Anda memiliki 16 angka sandi lewat berupa xxxx-xxxx-xxxx-xxxx, s
    "masukkan sekarang untuk dimuat dan mengaktifkan kunci lisensi Anda.\n\n";
 sn_serial_number = "Nomor seri:";
 sn_invalid_serial_number = "Nomor seri tak sah. Silakan periksa masukan Anda dan coba lagi.";
+/ the %? will be replaced by the error number:
 sn_download_err = "Terbentuk galat %? sewaktu mengunduh berkas kunci dari peladen kami.";
 sn_save_err = "Berkas kunci tak dapat disimpan ke disket di %?.";
 sn_keyfile_err = "Berkas kunci rusak.";
+
+/ new 16 digit serial number dialog
+sn16_info = "Harap masukan 16 digit nomor seri anda untuk menerima kunci lisensi anda. Anda harus sudah terhubung dengan internet untuk menerima kunci lisensi dengan sukses.";
+sn16_failed = "Gagal mendapatkan kunci lisensi!";
 
 / re-enter password dialog
 repwd_header = "Sandi lewat %?.";
@@ -23934,6 +24008,28 @@ usage_stats = "Statistik Pemakaian";
 usage_stats_subheader = "Tentukan bagaimana %p mesti menangani statistik pemakaian.";
 usage_stats_chk = "Otomatis kirimkan statistik pemakaian ke cFos guna meningkatkan kinerja produk.";
 
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "Gunakan automatic port forwarding, jika tersedia.";
+port_forwarding_failed = "Router anda%? tampaknya tidak mendukung automatic port forwarding. "
+                         "Anda mungkin dapat mengaktifkan fitur ini ke dalam konfigurasi router anda.";
+port_forwarding_config = "Anda dapat mengkonfigurasi router anda di%?.";
+port_forwarding_fritz = "Anda telah mengaktifkan port forwarding di dalam FRITZ!Box anda dengan mengizinkan perubahan pengaturan keamanan via UPnP "
+                        "melalui Home Network / Network / Programs";
+
+/ crash handler messages
+crash_msg_crash = "Sebuah masalah yang tidak dapat ditangani telah terjadi di %p.";
+crash_msg_crash_installer = "Sebuah masalah yang tidak dapat ditangani telah terjadi di %p instalasi program.";
+crash_msg_virus = "Modul berikut telah menginjekasi sendiri kedalam program ini dan mungkin menyebabkan crash:";
+crash_msg_virus_clean = "Modul ini mungkin adalah virus. Oleh karena itu sangat direkomendasikan untuk menjalankan scan virus pada sistem anda.";
+crash_msg_hook = "Modul dari program lain telah ditemukan, modul tersebut telah menginjeksi dirinya sendiri ke dalam program ini. Untuk meyakinkan bahwa modul tersebut bukan penyebab dari crash, harap jalankan program ini lagi setelah deaktivasi atau melepas program berikut:";
+crash_msg_terminate = "Program berakhir sekarang.";
+crash_msg_query_upload = "Apakah anda ingin mengirimkan crash dump ke cFos, yang akan membantu anda untuk menganalisa error yang terjadi?";
+
+/start installation dialog
+start_header = "Instalasi";
+start_subheader = "Instalasi dimulai.";
+start_installation = "Mulai instalasi sekarang.";
+
 / progress dialog
 progress_inst_header = "Instalasi";
 progress_inst_subheader = "Instalasi sedang dilakukan.";
@@ -23957,6 +24053,8 @@ finish_info_ok = "%? telah berhasil diinstal ke komputer Anda.";
 finish_head_fail = "Instalasi gagal.";
 finish_info_fail = "Instalasi telah gagal dengan penyebab sebagai berikut:";
 finish_reboot = "Sistem harus di-boot ulang! Klik Selesai untuk mem-boot ulang sekarang atau Batal untuk mem-boot ulang belakangan.";
+finish_uninst_driver_reboot = "Proses pelepasan driver yang telah ada hanya dapat di selesaikan dengan reboot sistem. "
+                             "Diharapkan reboot sistem anda dan kemudian jalankan instalasi program kembali.";
 finish_file_ok = "";
 finish_link_ok = "<a href=\"%?\">Fitur-fitur %?!</a>";
 finish_file_fail = "Lihat berkas log %s untuk informasi lebih lanjut.";
@@ -23998,6 +24096,12 @@ task_hangup = "Memutuskan sambungan terhubung yang aktif...";
 task_flush_registry = "Menyentor registri ke disket...";
 task_cancel = "Membatalkan operasi...";
 task_canceled = "Operasi dibatalkan!";
+
+/ connectivity test progress tasks
+task_start_program = "Memulai %p...";
+task_test_local_ip = "Testing alamat IP lokal...";
+task_test_public_ip = "Testing alamat IP publik...";
+task_test_finished = "Test selesai.";
 
 / program group
 speed_pg_name = "Pembentukan Kepadatan %p";
@@ -24042,6 +24146,9 @@ err_os = "Sistem operasi Anda %?.\n\n"
          "%? memerlukan Windows 2000/XP atau lebih tinggi.";
 err_os_minxp = "Sistem operasi Anda %?.\n\n"
          "%? memerlukan Windows XP atau lebih tinggi.";
+err_os_sup = "%p hanya mendukung versi resmi %? atau lebih tinggi.\n\n"
+             "Ini dapat terjadi, tetapi belum ditest oleh kami, itu %p juga dapat dijalankan pada sistem operasi anda%?.\n\n"
+             "Apakah anda ingin melanjutkan instalasi?";
 err_uninst_driver = "Instalasi pengandar peranti tak dapat dihapus.";
 err_create_process = "Gagal memanggil %s: %s";
 err_write_lock = "%? Komponen jaringan sedang dipakai oleh proses lain. "
@@ -24107,6 +24214,7 @@ wrn_oem_update = "Anda sudah menginstal %p yang terdaftar.\n\n"
   "Pemutakhiran untuk %p terlisensi lama Anda dapat diperoleh\n"
   "dari tempat Anda mendapatkannya pertama kali.\n\n"
   "Anda tetap ingin melanjutkan instalasi?";
+wrn_close_application = "Sangat direkomendasikan untuk menutup aplikasi berikut sebelum anda melanjutkan:";
 
 / traffic shaping algorithm
 tsa_header = "Moda Pembentukan Kepadatan (Versi Multi-Pengguna)";
