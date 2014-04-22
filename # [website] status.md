@@ -28,7 +28,7 @@ Website translation status
 |     | ko - 1042         |      1200 |                                                   |       |
 |     | nl - 1043         |       600 |                                                   |       |
 |     | pl - 1045         |       350 |                                                   |       |
-|     | pt-br - 1046      |       370 |                                                   |       |
+|     | pt-br - 1046      |       180 |                                                   |       |
 |     | ro - 1048         |      1400 |                                                   |       |
 | `p` | ru - 1049         |       400 | in progrees (by Serj Lavre)                       |       |
 |     | sv - 1053         |      1200 |                                                   |       |
@@ -42,7 +42,7 @@ Website translation status
 |     | mk - 1071         |      1300 |                                                   |       |
 |     | farsi - 1256      |       all |                                                   |       |
 |     | zh-cn - 2052      |       100 |                                                   |       |
-| `G` | es-mx - 2058      |       260 |                                                   |       |
+| `G` | es-mx - 2058      |       160 |                                                   |       |
 | `G` | pt - 2070         |       850 | done by Adriano Maia 2014-01-28                   |       |
 | `G` | sr-cs-latn - 2074 |       all |                                                   |       |
 |     | sr-cyrl-cs - 3098 |       all |                                                   |       |
