@@ -20,7 +20,7 @@ Software translation status
 |     | de - 1031         |           |                                                       |       |
 | `G` | el - 1032         |           |                                                       |       |
 |     | es - 1034         |        10 |                                                       |       |
-|     | fr - 1036         |         0 | in progress by Gilles Cellier (2014-04-10 done 340)   |       |
+|     | fr - 1036         |         8 | in progress by Gilles Cellier (2014-04-10 done 340)   |       |
 |     | he - 1037         |           |                                                       |       |
 | `G` | hu - 1038         |         6 |                                                       |       |
 |     | it - 1040         |        10 | proofread 750 strings by Massimo Castiglia 2013-09-30 |       |
@@ -43,7 +43,7 @@ Software translation status
 |     | farsi - 1256      |           |                                                       |       |
 |     | zh-cn - 2052      |        17 |                                                       |       |
 | `G` | es-mx - 2058      |           |                                                       |       |
-| `G` | pt - 2070         |         0 | 340 done by Adriano Maia                              |       |
+| `G` | pt - 2070         |        20 | done (2014-04-21) by Adriano Maia                     |       |
 | `G` | sr-cs-latn - 2074 |           |                                                       |       |
 |     | sr-cyrl-cs - 3098 |           |                                                       |       |
 | `x` | it-ch - 2064      |       `x` |                                                       |       |
