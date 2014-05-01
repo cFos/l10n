@@ -26,3 +26,11 @@ uninst_pingtime_inc = "cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> 
 uninst_speed_reduce = "cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> reduced my speed";
 uninst_speed_guide = "Before you completely uninstall cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span>, our <a onclick=\"cfos.set_event('speed_feedback', 'speed_guide'); return true;\" href=\"/en/traffic-shaping/speed-guide.htm\" target=\"_blank\"><b>Speed Guide</b></a> may be a solution for you. It helps you solve the most important speed, ping or prioritization problems. If you start it with cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> installed, it can evaluate your connection characteristics and adapt the solution to your connection.";
 	`ROG GameFirst II` -> `ROG GameFirst II / Turbo LAN` | Commit: b28fe0c0186589ea94882bece0327f3d8fcbe1d4
+
+#date 2014-05-01
+
+pnet_doc_media_p2a = "The root directory for media (audio, video, images) is by default <em>media</em> in the <em>public</em> directory. You can change it with the key <b>media_dir=&lt;directory&gt;</b> in the <b>[param]</b> section of GLOBAL.INI. It should be a subdirectory of <em>public</em>.";
+	`<em>public</em>`  -> `<em>pub</em>`
+
+pnet_doc_scripts_p3 = "In the <em>public</em> folder is a sub-folder <em>users</em> with a subfolder for every user, who has an account on your cFos PNet server. The users password or other optional profile data is stored in a hash list, named <em>PROFILE.TXT</em>. This allows speedy and cached accesses for by cFos PNet built-in HTTP authentication. In the public folder is also a sub-folder <em>www</em> with a subfolder for every user. This folder can contain downloadable files of that user. The <em>file_op.jss</em> script also allows the user to upload files into this folder.";
+	`<em>public</em>`  -> `<em>pub</em>`
