@@ -34,3 +34,8 @@ pnet_doc_media_p2a = "The root directory for media (audio, video, images) is by 
 
 pnet_doc_scripts_p3 = "In the <em>public</em> folder is a sub-folder <em>users</em> with a subfolder for every user, who has an account on your cFos PNet server. The users password or other optional profile data is stored in a hash list, named <em>PROFILE.TXT</em>. This allows speedy and cached accesses for by cFos PNet built-in HTTP authentication. In the public folder is also a sub-folder <em>www</em> with a subfolder for every user. This folder can contain downloadable files of that user. The <em>file_op.jss</em> script also allows the user to upload files into this folder.";
 	`<em>public</em>`  -> `<em>pub</em>`
+
+#date 2014-05-04
+
+pnet_wmi_p4 = "To prevent others from accessing your WMI data, the cFos WMI Monitor requires a valid user by means of HTTP authentication. So you should configure a user, for example <b>admin</b> in cFos PNet. You can do this by re-running the setup. Or you can add a new user, for example user wmi, by running opening <em>/users/index.htm</em> as admin.";
+	-> removed `running` before `opening`
