@@ -1,3 +1,7 @@
 
 // List of keys, which were changed in master file and requires new translation
 
+#2014-05-04
+
+ga_speed_installed = "cFosSpeed appears to be installed on your computer.\n\ncFosSpeed already contains the functionality of the cFos Game Amalyzer.\n\nTo use the latest features of the cFos Game Analyzer, please download and install the latest version of cFosSpeed from www.cfos.de.";
+	`Amalyzer` -> `Analyzer`
