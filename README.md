@@ -465,9 +465,11 @@ The following words should be remained untranslated:
 #### Translation reference
 
 For some languages we have translations references. You can find them in list above. It contains typical, unified and recommended translation variants for certain words and phrases.
+
 If there is available translation reference for your language — please, use it.
 
-* [Russian translation reference](/Translation%20references/Translation%20reference%20-%20russian.md)
+* [French translation reference](/Translation%20references/Translation%20reference%20-%20French.md)
+* [Russian translation reference](/Translation%20references/Translation%20reference%20-%20Russian.md)
 
 *Note: if you'll find any errors, wrong or inaccurate translation in referencing files — please, let us know. Thanks*
 
