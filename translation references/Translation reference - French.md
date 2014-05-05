@@ -1,5 +1,5 @@
 ﻿
-Translation reference (french)
+Translation reference (French)
 ==============================
 
 Contributors: Gilles Cellier
@@ -7,7 +7,7 @@ Contributors: Gilles Cellier
 List of recommended translations:
 ---------------------------------
 
-| english              | french                                                |
+| English              | French                                                |
 | :------------------- | :---------------------------------------------------- |
 | `budget`             | forfait de consommation                               |
 | `connection`         | connexion                                             |
