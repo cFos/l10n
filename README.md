@@ -468,8 +468,8 @@ For some languages we have translations references. You can find them in list ab
 
 If there is available translation reference for your language — please, use it.
 
-* [French translation reference](/Translation%20references/Translation%20reference%20-%20French.md)
-* [Russian translation reference](/Translation%20references/Translation%20reference%20-%20Russian.md)
+* [French translation reference](/translation%20references/Translation%20reference%20-%20French.md)
+* [Russian translation reference](/translation%20references/Translation%20reference%20-%20Russian.md)
 
 *Note: if you'll find any errors, wrong or inaccurate translation in referencing files — please, let us know. Thanks*
 
