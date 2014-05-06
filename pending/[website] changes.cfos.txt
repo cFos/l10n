@@ -39,3 +39,8 @@ pnet_doc_scripts_p3 = "In the <em>public</em> folder is a sub-folder <em>users</
 
 pnet_wmi_p4 = "To prevent others from accessing your WMI data, the cFos WMI Monitor requires a valid user by means of HTTP authentication. So you should configure a user, for example <b>admin</b> in cFos PNet. You can do this by re-running the setup. Or you can add a new user, for example user wmi, by running opening <em>/users/index.htm</em> as admin.";
 	-> removed `running` before `opening`
+
+#date 2014-05-06
+
+zip_tip = "You can extract the ZIP-files listed above for example with <a class=\"inline\" href=\"http://www.pkware.com\">PKZIP</a>, <a class=\"inline\" href=\"http://www.winzip.de\">WinZIP</a> or <a class=\"inline\" href=\"http://www.cdrom.com/pub/infozip/\">Info-ZIP</a>";
+	`href=\"http://www.cdrom.com/pub/infozip/\"` -> `href=\"http://www.info-zip.org/\"`
