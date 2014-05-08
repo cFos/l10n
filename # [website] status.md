@@ -43,7 +43,7 @@ Website translation status
 |     | farsi - 1256      |       all |                                                   |       |
 |     | zh-cn - 2052      |       100 |                                                   |       |
 | `G` | es-mx - 2058      |       160 |                                                   |       |
-| `G` | pt - 2070         |       850 | done by Adriano Maia 2014-01-28                   |       |
+| `G` | pt - 2070         |       720 | done by Adriano Maia 2014-01-28                   |       |
 | `G` | sr-cs-latn - 2074 |       all |                                                   |       |
 |     | sr-cyrl-cs - 3098 |       all |                                                   |       |
 | `x` | da - 1030         |   `x` all |                                                   |       |
