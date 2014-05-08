@@ -54,3 +54,11 @@ zip_tip = "You can extract the ZIP-files listed above for example with <a class=
 	`google` and it's services -> `Google Calendar` etc
 
 	`webserver` -> `web server`
+
+#date 2014-05-08
+
+pnet_wmi_p10 = "The first &quot;Presets&quot; Menu offers (in our opinion) very useful values, like CPU load and frequency as well as network adapter send and receive speed. It also contains interesting <b>cFosSpeed</b> and <b>Open Hardware Monitor</b> values.";
+	`&quot;Presets&quot; Menu` -> `&quot;Presets&quot; menu`
+
+pnet_wmi_p11 = "The second &quot;Process Menu&quot; lists all currently running Windows processes, so you can use cFos WMI Monitor to monitor processes. cFos WMI Monitor displays the CPU usage of the processes or N/A if the process is not running anymore. So cFos WMI Monitor can serve as a process watch dog.";
+	`&quot;Process Menu&quot;` -> `&quot;Processes&quot; menu`
