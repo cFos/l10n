@@ -28,7 +28,7 @@ Software translation status
 |     | ko - 1042         |           |                                                       |       |
 |     | nl - 1043         |           |                                                       |       |
 |     | pl - 1045         |       400 |                                                       |       |
-|     | pt-br - 1046      |       150 |                                                       |       |
+|     | pt-br - 1046      |       150 | in work by Edgard Dias                                |       |
 |     | ro - 1048         |           |                                                       |       |
 | `f` | ru - 1049         |         0 | done (2013-04-22) by Serj Lavre                       |       |
 |     | sv - 1053         |           | done (2013-01-12)                                     |       |
