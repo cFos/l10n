@@ -1143,8 +1143,8 @@ rwin_expansion_help = "Автоматично разшири TCP прозоре�
 query_auto_open = "Забрани автоматичното отваряне и затваряне на прозореца за състоянието?\nМожете да го разрешите по-късно в контекстното меню.";
 preview_skins = "Преглед на облика";
 enable_smartphone_skins = "Облик тип смартфон";
-http_access_enabled = "Дистанционният HTTP достъп е разрешен";
-http_access_disabled = "Дистанционният HTTP достъп е забранен";
+http_access_enabled = "Дистанционният HTTP достъп е разрешен.";
+http_access_disabled = "Дистанционният HTTP достъп е забранен.";
 set_server_pwd = "Поставете парола за сървъра";
 auto_arrange_top = "Най-горе";
 auto_arrange_bottom = "Най-долу";
@@ -3603,8 +3603,8 @@ rwin_expansion_help = "Automaticky rozšířit okno příjmu TCP ke zvýšení r
 query_auto_open = "Zakázat automatické otvírání a zavírání stavového okna?\nMůžete později opět zapnout v kontextovém menu.";
 preview_skins = "Ukázka skinů";
 enable_smartphone_skins = "Skiny smartphonů";
-http_access_enabled = "Vzdálený přístup HTTP povolen";
-http_access_disabled = "Vzdálený přístup HTTP zakázán";
+http_access_enabled = "Vzdálený přístup HTTP povolen.";
+http_access_disabled = "Vzdálený přístup HTTP zakázán.";
 set_server_pwd = "Nastavit heslo serveru";
 
 
@@ -5077,13 +5077,16 @@ rwin_expansion_help = "TCP-Empfangsfenster automatisch vergrößern, um die Down
 query_auto_open = "Automatsches Öffnen/Schließen des Statusfensters deaktivieren?\nSie können es später im Kontext-Menu wieder anschalten.";
 preview_skins = "Skin-Vorschau";
 enable_smartphone_skins = "Phone Skins";
-http_access_enabled = "HTTP Zugriff aus der Ferne erlaubt";
-http_access_disabled = "HTTP Zugriff aus der Ferne verboten";
+http_access_enabled = "Passwort eingetragen, HTTP Zugriff aus der Ferne erlaubt.";
+http_access_disabled = "Kein Passwort eingetragen, HTTP Zugriff aus der Ferne verboten.";
 set_server_pwd = "Server Passwort setzen";
 auto_arrange_top = "Oben";
 auto_arrange_bottom = "Unten";
 show_on_metro_apps = "In Metro Apps anzeigen";
 traffic_shaping_info = "Traffic Shaping Info";
+wlan_access_point = "WLAN access point";
+prioritize_foreground_process = "Prozess im Vordergrund-Fenster priorisieren";
+prioritize_foreground_help = "Die Priorität des Prozesses im Vordergrund-Fenster auf high setzen.";
 
 
 / ----------------------------------------------------------------------
@@ -5098,7 +5101,8 @@ speed_desc = "%p, schnelleres Internet mit Traffic Shaping";
 bc_activation_failed_url = "http://www.cfos.de/de/broadband-connect/activation-failed.htm";
 sixlink_activation_failed_url = "http://www.cfos.de/de/cfos-ipv6-link/activation-failed.htm";
 speed_activation_failed_url = "http://www.cfos.de/de/cfosspeed/activation-failed.htm";
-cfospnet_activation_failed_url = "http://www.cfos.de/en/cfos-personal-net/activation-failed.htm";
+cfospnet_activation_failed_url = "http://www.cfos.de/de/cfos-personal-net/activation-failed.htm";
+virtual_wifi_doc_url = "http://www.cfos.de/de/cfosspeed/documentation/wlan-access-point.htm";
 
 / wizard
 install_wizard_name = "%? Installations-Assistent";
@@ -5489,14 +5493,17 @@ virtual_wifi_subheader = "Einrichten eines softwarebasierten WLAN-Einwahlknotens
 virtual_wifi_info = "Wählen Sie die Netzwerkverbindung, über die der Internetverkehr läuft, und vergeben Sie ein Passwort für den WLAN-Einwahlknoten.";
 virtual_wifi_ssid = "SSID:";
 virtual_wifi_default_ssid = "cFos WLAN";
-virtual_wifi_invalid_ssid = "Ungültige SSID.";
-virtual_wifi_invalid_password = "Ungültiges Passwort.";
+virtual_wifi_invalid_ssid_length = "Die SSID darf nicht leer sein und maximal 32 Zeichen haben.";
+virtual_wifi_invalid_password_length = "Die Passwortlänge muss zwischen 8 und 64 Zeichen liegen.";
 virtual_wifi_ics_not_available = "Die Internet-Verbindungsfreigabe ist auf diesem Computer nicht verfügbar.";
 virtual_wifi_error_get_cons = "Fehler beim Lesen der Netzwerkverbindungen.";
 virtual_wifi_ics_warning = "Die Internet-Verbindungsfreigabe ist für das folgende Netzwerk bereits aktiviert:\n%?\n\nSoll statt dessen dieses Netzwerk verwendet werden:\n%?";
 virtual_wifi_error_enable_ics = "Fehler bei der Aktivierung der Internet-Verbindungsfreigabe.";
 virtual_wifi_error_start = "Fehler beim Start des virtuellen WLANs.";
-virtual_wifi_ok = "Das virtuelle WLAN und die Internet-Verbindungsfreigabe wurden erfolgreich eingerichtet.\n\nHinweis: Falls sich Geräte erfolgreich mit dem virtuellen WLAN verbinden, aber dennoch keine Internetverbindung haben, deinstallieren Sie bitte %p und installieren Sie es anschließend neu.";
+virtual_wifi_ok = "Das virtuelle WLAN und die Internet-Verbindungsfreigabe wurden erfolgreich eingerichtet.\n\nHinweis: Falls sich ein Gerät nicht erfolgreich mit dem virtuellen WLAN verbindet, stoppen und starten Sie das virtuelle WLAN erneut.\n\nFalls sich ein Gerät erfolgreich mit dem virtuellen WLAN verbindet, aber dennoch keine Internetverbindung hat, deinstallieren Sie bitte %p und installieren Sie es anschließend neu.";
+virtual_wifi_query_stop = "Soll das virtuelle WLAN gestoppt werden?";
+virtual_wifi_error_stop = "Fehler beim Stoppen des virtuellen WLANs:";
+virtual_wifi_stopped = "Das virtuelle WLAN wurde erfolgreich angehalten.";
 
 / "360safe" ---- only the Chinese translations are needed ----
 wrn_unknown_360 = "Unbekannte Version von 360safe gefunden. Bitte stellen Sie\n"
@@ -7699,13 +7706,16 @@ rwin_expansion_help = "Automatically expand TCP Receive Window to increase downl
 query_auto_open = "Disable automatic opening and closing of the status window?\nYou can re-enable it later in the context menu.";
 preview_skins = "Preview Skins";
 enable_smartphone_skins = "Phone Skins";
-http_access_enabled = "HTTP access from remote is allowed";
-http_access_disabled = "HTTP access from remote is forbidden";
+http_access_enabled = "Password set, HTTP access from remote is allowed.";
+http_access_disabled = "No password set, HTTP access from remote is forbidden.";
 set_server_pwd = "Set Server Password";
 auto_arrange_top = "Top";
 auto_arrange_bottom = "Bottom";
 show_on_metro_apps = "Show on Metro apps";
 traffic_shaping_info = "Traffic Shaping Info";
+wlan_access_point = "WiFi access point";
+prioritize_foreground_process = "Prioritize process in foreground window";
+prioritize_foreground_help = "Automatically set the priority of the process in foreground window to high.";
 
 
 / ----------------------------------------------------------------------
@@ -7721,6 +7731,7 @@ bc_activation_failed_url = "http://www.cfos.de/en/broadband-connect/activation-f
 sixlink_activation_failed_url = "http://www.cfos.de/en/cfos-ipv6-link/activation-failed.htm";
 speed_activation_failed_url = "http://www.cfos.de/en/cfosspeed/activation-failed.htm";
 cfospnet_activation_failed_url = "http://www.cfos.de/en/cfos-personal-net/activation-failed.htm";
+virtual_wifi_doc_url = "http://www.cfos.de/en/cfosspeed/documentation/wlan-access-point.htm";
 
 / wizard
 install_wizard_name = "%? Installation Wizard";
@@ -8101,14 +8112,17 @@ virtual_wifi_subheader = "Setup a software-based wireless access point and enabl
 virtual_wifi_info = "Select the network connection that routes the Internet traffic and choose a password for the wireless access point.";
 virtual_wifi_ssid = "SSID:";
 virtual_wifi_default_ssid = "cFos Wi-Fi";
-virtual_wifi_invalid_ssid = "Invalid SSID.";
-virtual_wifi_invalid_password = "Invalid password.";
+virtual_wifi_invalid_ssid_length = "The SSID must not be empty and have not more than 32 characters.";
+virtual_wifi_invalid_password_length = "The password length must be between 8 and 64 characters.";
 virtual_wifi_ics_not_available = "Internet Connection Sharing is not available on this computer.";
 virtual_wifi_error_get_cons = "Error getting network connections.";
 virtual_wifi_ics_warning = "Internet Connection Sharing is already enabled on the following network:\n%?\n\nDo you wish to use instead this network:\n%?";
 virtual_wifi_error_enable_ics = "Error enabling Internet Connection Sharing.";
 virtual_wifi_error_start = "Error starting Virtual Wi-Fi.";
-virtual_wifi_ok = "Virtual Wi-Fi and Internet Connection Sharing sucessfully activated.\n\nNote: If clients can connect to the Virtual Wi-Fi but don't get an Internet connection, please uninstall and then reinstall %p.";
+virtual_wifi_ok = "Virtual Wi-Fi and Internet Connection Sharing sucessfully activated.\n\nNote: If a client cannot connect successfully to the Virtual Wi-Fi, please stop and restart the Virtual Wi-Fi.\n\nIf a client can connect to the Virtual Wi-Fi but doesn't get an Internet connection, please uninstall and then reinstall %p.";
+virtual_wifi_query_stop = "Stop Virtual Wi-Fi?";
+virtual_wifi_error_stop = "Error stopping Virutal Wi-Fi:";
+virtual_wifi_stopped = "Virtual Wi-Fi successfully stopped.";
 
 / "360safe" ---- only the Chinese translations are needed ----
 wrn_unknown_360 = "Unknown version of 360safe found. Please make sure\n"
@@ -10874,8 +10888,8 @@ rwin_expansion_help = "Étendre Automatiquement la fenêtre de réception TCP po
 query_auto_open = "Désactiver l'ouverture et la fermeture automatique de la fenêtre de statut?\nVous pouvez la réactiver plus tard à partir du menu contextuel.";
 preview_skins = "Visualiser les interfaces (Skins)";
 enable_smartphone_skins = "Interfaces (Skins) pour téléphone";
-http_access_enabled = "L'accès HTTP à distance est autorisé";
-http_access_disabled = "L'accès HTTP à distance est interdit";
+http_access_enabled = "L'accès HTTP à distance est autorisé.";
+http_access_disabled = "L'accès HTTP à distance est interdit.";
 set_server_pwd = "Entrez le mot de passe Serveur";
 auto_arrange_top = "Haut";
 auto_arrange_bottom = "Bas";
@@ -13500,12 +13514,14 @@ rwin_expansion_help = "Espande automaticamente il TCP RWIN per aumentare la velo
 query_auto_open = "Vuoi disabilitare automaticamente l'apertura e la chiusura della finestra di stato?\nPotrai riabilitarla successivamente dal menù contestuale";
 preview_skins = "Anteprima delle interfacce";
 enable_smartphone_skins = "Interfacce grafiche del telefono";
-http_access_enabled = "L'accesso HTTP da remoto è consentito";
-http_access_disabled = "L'accesso HTTP da remoto è bloccato";
+http_access_enabled = "L'accesso HTTP da remoto è consentito.";
+http_access_disabled = "L'accesso HTTP da remoto è bloccato.";
 set_server_pwd = "Imposta la password del Server";
 auto_arrange_top = "In alto";
 auto_arrange_bottom = "In basso";
 show_on_metro_apps = "Mostra tra le applicazioni nella finestra Metro di Windows 8";
+prioritize_foreground_process = "Assegna priorità del processo della finestra in primo piano";
+prioritize_foreground_help = "Imposta automaticamente la priorità alta del processo della finestra in primo piano";
 
 
 / ----------------------------------------------------------------------
@@ -19486,8 +19502,8 @@ rwin_expansion_help = "Expandir automaticamente o TCP RWIN para aumentar a veloc
 query_auto_open = "Desabilitar abertura e fechamento automático da janela de status?\nVocê pode reativá-la novamente no menu de contexto.";
 preview_skins = "Visualizar Skins";
 enable_smartphone_skins = "Skins para Celular";
-http_access_enabled = "Acesso HTTP remoto está habilitado";
-http_access_disabled = "Acesso HTTP remoto está desabilitado";
+http_access_enabled = "Acesso HTTP remoto está habilitado.";
+http_access_disabled = "Acesso HTTP remoto está desabilitado.";
 set_server_pwd = "Definir Senha do Servidor";
 auto_arrange_top = "Topo";
 auto_arrange_bottom = "Base";
@@ -21114,8 +21130,8 @@ rwin_expansion_help = "Расширять окно TCP в случае, если
 query_auto_open = "Отключить автоматическое сокрытие окна состояния?\nПозже данная настройка может быть изменена в настройках программы.";
 preview_skins = "Обзор обложек";
 enable_smartphone_skins = "Включить обложки для смартфона";
-http_access_enabled = "Удаленный HTTP-доступ разрешен";
-http_access_disabled = "Удаленный HTTP-доступ  запрещен";
+http_access_enabled = "Удаленный HTTP-доступ разрешен.";
+http_access_disabled = "Удаленный HTTP-доступ  запрещен.";
 set_server_pwd = "Установить пароль для сервера";
 auto_arrange_top = "Наверху";
 auto_arrange_bottom = "Внизу";
@@ -24368,8 +24384,8 @@ rwin_expansion = "Perluasan RWIN otomatis";
 rwin_expansion_help = "Otomatis perluas RWIN TCP guna meningkatkan kecepatan unduhan jika RWIN yang dipilih oleh Windows terlalu lambat.";
 query_auto_open = "Menonaktifkan membuka dan menutup otomatis jendela status?\nAnda dapat mengaktifkannya nanti didalam context menu.";
 preview_skins = "Pratinjau Skins";
-http_access_enabled = "Akses HTTP dari remote diperbolehkan";
-http_access_disabled = "Akses HTTP dari remote dilarang";
+http_access_enabled = "Akses HTTP dari remote diperbolehkan.";
+http_access_disabled = "Akses HTTP dari remote dilarang.";
 auto_arrange_top = "Atas";
 auto_arrange_bottom = "Bawah";
 
@@ -30948,8 +30964,8 @@ rwin_expansion_help = "Expandir automaticamente o TCP RWIN para aumentar a veloc
 query_auto_open = "Desativar abertura e fecho automáticos da janela de estado?\nPode reativar a função através do menu de contexto.";
 preview_skins = "Previsualizar Skins";
 enable_smartphone_skins = "Skins de Smartphone";
-http_access_enabled = "Acesso remoto por HTTP permitido";
-http_access_disabled = "Acesso remoto por HTTP bloqueado";
+http_access_enabled = "Acesso remoto por HTTP permitido.";
+http_access_disabled = "Acesso remoto por HTTP bloqueado.";
 set_server_pwd = "Definir Palavra Passe do Servidor";
 auto_arrange_top = "No Topo";
 auto_arrange_bottom = "No Fundo";
