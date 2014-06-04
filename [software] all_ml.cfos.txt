@@ -75,6 +75,7 @@ after_calibration_new = "http://www.cfos.de/ar/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/ar/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/ar/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/ar/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/ar/traffic-shaping/traffic-shaping.htm";
 
 component_mismatch = "يوجد هناك تعارض في النسخة بين مكونات هذا البرنامج . الرجاء إعادة تثبيت آخر نسخة";
 trayicon_tip = "www.cfos.de , إنترنت أسرع مع تشكيل حركة المرور";
@@ -796,7 +797,7 @@ con_test_execute = "Изпълни теста на връзката";
 / ----------------------------------------------------------------------
 
 ga_service_desc = "cFos Game Analyzer - Извличане на данни за работата";
-ga_speed_installed = "cFosSpeed изглежда е инсталиран на Вашия компютър.\n\ncFosSpeed съдържа функциите на cFos Game Amalyzer.\n\nЗа да използвате най-новите възможности на cFos Game Analyzer, моля свалете и инсталирайте последната версия на cFosSpeed от www.cfos.de.";
+ga_speed_installed = "cFosSpeed изглежда е инсталиран на Вашия компютър.\n\ncFosSpeed съдържа функциите на cFos Game Analyzer.\n\nЗа да използвате най-новите възможности на cFos Game Analyzer, моля свалете и инсталирайте последната версия на cFosSpeed от www.cfos.de.";
 
 / ----------------------------------------------------------------------
 /
@@ -1497,6 +1498,8 @@ eml_invalid_optional_email = "Моля въведете валиден и-мей
 eml_reg_failed = "Регистрацията е неуспешна.";
 eml_checking_domain = "Проверка на и-мейл домейн...";
 
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+
 / "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
@@ -1607,6 +1610,8 @@ htm_lang_prefix = "zh-tw";
 /
 / ----------------------------------------------------------------------
 
+ignore_ssl_cert_chk = "å¿½ç•¥ SSL æ†‘è­‰éŒ¯èª¤ï¼ˆä¸å®‰å…¨ï¼‰";
+ignore_ssl_cert_desc = "è‹¥å…è¨± cFos Outlook DAV å¿½ç•¥ SSL æ†‘è­‰éŒ¯èª¤ï¼Œå°±å¯ä»¥é€£ç·šè‡³ä½¿ç”¨ä¸å®‰å…¨ SSL æ†‘è­‰çš„ä¼ºæœå™¨ï¼ˆä¾‹å¦‚è‡ªç°½æ†‘è­‰ä¼ºæœå™¨ï¼‰ã€‚é€šå¸¸ä¸å»ºè­°æ‚¨é–‹å•Ÿæ­¤é¸é …ï¼Œå› ç‚ºé€™æ¨£æœƒé€ æˆ SSL é€£ç·šå¯èƒ½å—åˆ°ä¸­é–“äººæ”»æ“Šçš„å¨è„…ã€‚";
 
 / ----------------------------------------------------------------------
 /
@@ -1730,6 +1735,21 @@ con_test_execute = "進行連線測試";
 
 / ----------------------------------------------------------------------
 /
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+ga_service_desc = "cFos Game Analyzer - å–å¾—æ•ˆèƒ½è³‡æ–™";
+ga_speed_installed = "çœ‹ä¾† cFosSpeed å·²å®‰è£æ–¼æ‚¨çš„é›»è…¦ã€‚\n\ncFosSpeed å·²åŒ…å«äº† cFos Game Analyzer æ‰€éœ€çš„åŠŸèƒ½ã€‚\n\nè‹¥éœ€è¦ cFos Game Analyzer çš„æœ€æ–°åŠŸèƒ½ï¼Œè«‹ç›´æŽ¥åˆ° www.cfos.de ä¸‹è¼‰å®‰è£æœ€æ–°ç‰ˆçš„ cFosSpeedã€‚";
+local_ip_addresses = "æœ¬æ©Ÿ IP åœ°å€:";
+ga_password_subheader = "cFos Game Analyzer çš„å¤–éƒ¨å­˜å–å¯†ç¢¼ã€‚";
+ga_password_info = "ä½¿ç”¨è€…åç¨±: cfosspeed";
+ga_call_info = "åœ¨æ‚¨çš„é›»è…¦ä¸Šé–‹å•Ÿ\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\nä»¥å­˜å– cFos Game Analyzerã€‚\n\nè‹¥éœ€å¾žå¤–éƒ¨è£ç½®å­˜å– cFos Game Analyzerï¼Œè«‹ä½¿ç”¨ä¸Šè¿°å¯†ç¢¼ç™»å…¥ï¼Œä¸¦ä½¿ç”¨ä¸‹åˆ—ä»»ä¸€å€‹ IP åœ°å€å–ä»£ã€Œlocalhostã€é€²è¡Œé€£ç·š:\n";
+ga_detected_by_speed = "åµæ¸¬åˆ°æ‚¨çš„é›»è…¦ä¸­å®‰è£äº† cFos Game Analyzerã€‚cFosSpeed å·²åŒ…å«äº† cFos Game Amalyzer çš„å…¨éƒ¨åŠŸèƒ½ã€‚\n\nè‹¥ç¹¼çºŒï¼Œå°‡æœƒå…ˆç§»é™¤ cFos Game Analyzer å†å®‰è£ cFosSpeedã€‚\n\næ‚¨è¦ç¹¼çºŒå—Žï¼Ÿ";
+ga_use_password_by_speed = "cFosSpeed æ˜¯å¦æ‡‰è©²ç¹¼çºŒä½¿ç”¨ cFos Game Analyzer çš„å¯†ç¢¼ï¼Œè®“æ‚¨èƒ½è‡ªå…¶ä»–è£ç½®å­˜å– cFosSpeedï¼Ÿ";
+
+/ ----------------------------------------------------------------------
+/
 /  cFosSpeed
 /
 / ----------------------------------------------------------------------
@@ -1748,6 +1768,7 @@ after_calibration_new = "http://www.cfos.de/zh-tw/traffic-shaping/calibration-me
 expiration_cfosspeed_new_htm = "http://www.cfos.de/zh-tw/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/zh-tw/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/zh-tw/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/zh-tw/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "完整性檢查發現某些元件已被修改，\n請由我們的網頁下載並安裝未被修改的版本：\n";
 
@@ -2060,6 +2081,13 @@ rwin_expansion = "自動加大接收緩衝區";
 rwin_expansion_help = "如果 Windows 預設的 TCP 接收緩衝區太小，就自動加大接收緩衝區來增加下載速度。";
 query_auto_open = "關閉自動開啟和關閉視窗功能？\n您可以稍後在右鍵選單裏啟用此功能。";
 preview_skins = "預覽面板";
+enable_smartphone_skins = "æ‰‹æ©Ÿé¢æ¿";
+http_access_enabled = "å·²å…è¨±é ç«¯ HTTP å­˜å–";
+http_access_disabled = "å·²ç¦æ­¢é ç«¯ HTTP å­˜å–";
+set_server_pwd = "è¨­å®šä¼ºæœå™¨å¯†ç¢¼";
+auto_arrange_top = "é ‚ç«¯";
+auto_arrange_bottom = "åº•ç«¯";
+show_on_metro_apps = "æ–¼ Metro ç¨‹å¼æ¸…å–®ä¸­é¡¯ç¤ºapps";
 
 
 / ----------------------------------------------------------------------
@@ -2144,6 +2172,8 @@ sn_save_err = "授權檔案無法儲存至磁碟 %?。";
 sn_keyfile_err = "授權檔案損毀。";
 
 / new 16 digit serial number dialog
+sn16_info = "è«‹è¼¸å…¥æ‚¨çš„ 16 ä½æ•¸åºè™Ÿä»¥å–å›žæ‚¨çš„è¨»å†Šé‡‘é‘°ï¼Œæ‚¨å¿…é ˆé€£ç·šè‡³ç¶²éš›ç¶²è·¯æ‰èƒ½æˆåŠŸå–å›žé‡‘é‘°ã€‚";
+sn16_failed = "é‡‘é‘°å–å›žå¤±æ•—ï¼";
 
 / re-enter password dialog
 repwd_header = "%? 密碼。";
@@ -2251,10 +2281,13 @@ task_desktop_link = "建立桌面捷徑…";
 task_program_group = "建立程式群組…";
 task_registry = "建立登錄項目中…";
 task_driver = "安裝驅動程式…";
+task_service = "æ­£åœ¨å®‰è£æœå‹™â€¦";
 task_daemon = "啟動 %?…";
 task_uninstall_old = "移除現存版本…";
 task_stop_daemon = "停止 %?…";
 task_uninstall_driver = "移除驅動程式…";
+task_uninstall_service = "æ­£åœ¨ç§»é™¤æœå‹™â€¦";
+task_uninstall_ga = "æ­£åœ¨ç§»é™¤ cFos Game Analyzerâ€¦";
 task_delete_files = "刪除檔案…";
 task_cleanup_caches = "清除快取…";
 task_hangup = "中斷使用中的網路連線…";
@@ -2292,6 +2325,8 @@ query_further_info = "您需要更多資訊嗎？";
 
 / error messages
 err_driver_inst = "驅動程式安裝失敗。";
+err_service_inst = "æœå‹™å®‰è£å¤±æ•—ã€‚";
+err_service_uninst = "æœå‹™ç§»é™¤å¤±æ•—ã€‚";
 err_daemon_start = "無法啟動 %?。";
 err_uninst_old = "無法移除已安裝的版本，請重新開機後重試。";
 err_os = "您的作業系統是 %?。\n\n%? 需要 Windows 2000/XP 或更新版本的作業系統。";
@@ -2352,6 +2387,8 @@ eml_invalid_email = "您輸入的電子郵件位址不正確。";
 eml_invalid_optional_email = "請輸入正確的電子郵件位址或保留空白。";
 eml_reg_failed = "註冊電子郵件失敗。";
 eml_checking_domain = "檢查電子郵件網域…";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
 / "360safe" ---- only the Chinese translations are needed ----
 wrn_unknown_360 = "發現不明版本的 360safe，請確定您已經安裝最新版的\n360safe。";
@@ -4697,6 +4734,7 @@ after_calibration_new = "http://www.cfos.de/de/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/de/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/de/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/de/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/de/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Der Konsistenz-Check hat ergeben, dass eine oder mehrere Komponenten modifiziert wurden.\n"
    "Bitte installieren Sie eine unmodifizierte Version von unserer Webseite:\n";
@@ -5045,6 +5083,7 @@ set_server_pwd = "Server Passwort setzen";
 auto_arrange_top = "Oben";
 auto_arrange_bottom = "Unten";
 show_on_metro_apps = "In Metro Apps anzeigen";
+traffic_shaping_info = "Traffic Shaping Info";
 
 
 / ----------------------------------------------------------------------
@@ -5442,6 +5481,22 @@ eml_invalid_email = "Die eingegebene E-Mail-Adresse ist ungültig.";
 eml_invalid_optional_email = "Bitte eine gültige oder gar keine E-Mail-Adresse eingeben.";
 eml_reg_failed = "Die E-Mail-Registrierung schlug fehl.";
 eml_checking_domain = "Überprüfung der E-Mail-Domain...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p Virtuelles WLAN Start-Assistent";
+virtual_wifi_header = "Starte Virtuelles WLAN";
+virtual_wifi_subheader = "Einrichten eines softwarebasierten WLAN-Einwahlknotens und Aktivierung der Internet-Verbindungsfreigabe.";
+virtual_wifi_info = "Wählen Sie die Netzwerkverbindung, über die der Internetverkehr läuft, und vergeben Sie ein Passwort für den WLAN-Einwahlknoten.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos WLAN";
+virtual_wifi_invalid_ssid = "Ungültige SSID.";
+virtual_wifi_invalid_password = "Ungültiges Passwort.";
+virtual_wifi_ics_not_available = "Die Internet-Verbindungsfreigabe ist auf diesem Computer nicht verfügbar.";
+virtual_wifi_error_get_cons = "Fehler beim Lesen der Netzwerkverbindungen.";
+virtual_wifi_ics_warning = "Die Internet-Verbindungsfreigabe ist für das folgende Netzwerk bereits aktiviert:\n%?\n\nSoll statt dessen dieses Netzwerk verwendet werden:\n%?";
+virtual_wifi_error_enable_ics = "Fehler bei der Aktivierung der Internet-Verbindungsfreigabe.";
+virtual_wifi_error_start = "Fehler beim Start des virtuellen WLANs.";
+virtual_wifi_ok = "Das virtuelle WLAN und die Internet-Verbindungsfreigabe wurden erfolgreich eingerichtet.\n\nHinweis: Falls sich Geräte erfolgreich mit dem virtuellen WLAN verbinden, aber dennoch keine Internetverbindung haben, deinstallieren Sie bitte %p und installieren Sie es anschließend neu.";
 
 / "360safe" ---- only the Chinese translations are needed ----
 wrn_unknown_360 = "Unbekannte Version von 360safe gefunden. Bitte stellen Sie\n"
@@ -7267,7 +7322,7 @@ con_test_execute = "Execute connectivity test";
 / ----------------------------------------------------------------------
 
 ga_service_desc = "cFos Game Analyzer - Performance Data Retrieval";
-ga_speed_installed = "cFosSpeed appears to be installed on your computer.\n\ncFosSpeed already contains the functionality of the cFos Game Amalyzer.\n\nTo use the latest features of the cFos Game Analyzer, please download and install the latest version of cFosSpeed from www.cfos.de.";
+ga_speed_installed = "cFosSpeed appears to be installed on your computer.\n\ncFosSpeed already contains the functionality of the cFos Game Analyzer.\n\nTo use the latest features of the cFos Game Analyzer, please download and install the latest version of cFosSpeed from www.cfos.de.";
 local_ip_addresses = "Local IP addresses:";
 ga_password_subheader = "Password for external access to the cFos Game Analyzer.";
 ga_password_info = "Username: cfosspeed";
@@ -7304,6 +7359,7 @@ after_calibration_new = "http://www.cfos.de/en/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/en/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/en/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/en/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/en/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "The consistency check has detected that one or more components have been modified.\n"
    "Please install an unmodified version from our website:\n";
@@ -7649,6 +7705,7 @@ set_server_pwd = "Set Server Password";
 auto_arrange_top = "Top";
 auto_arrange_bottom = "Bottom";
 show_on_metro_apps = "Show on Metro apps";
+traffic_shaping_info = "Traffic Shaping Info";
 
 
 / ----------------------------------------------------------------------
@@ -8036,6 +8093,22 @@ eml_invalid_email = "The e-mail address you've entered is invalid.";
 eml_invalid_optional_email = "Please enter a valid e-mail address or no address at all.";
 eml_reg_failed = "E-mail address registration failed.";
 eml_checking_domain = "Checking e-mail domain...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p Virtual Wi-Fi Start Wizard";
+virtual_wifi_header = "Start Virtual Wi-Fi";
+virtual_wifi_subheader = "Setup a software-based wireless access point and enable Internet Connection Sharing.";
+virtual_wifi_info = "Select the network connection that routes the Internet traffic and choose a password for the wireless access point.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid = "Invalid SSID.";
+virtual_wifi_invalid_password = "Invalid password.";
+virtual_wifi_ics_not_available = "Internet Connection Sharing is not available on this computer.";
+virtual_wifi_error_get_cons = "Error getting network connections.";
+virtual_wifi_ics_warning = "Internet Connection Sharing is already enabled on the following network:\n%?\n\nDo you wish to use instead this network:\n%?";
+virtual_wifi_error_enable_ics = "Error enabling Internet Connection Sharing.";
+virtual_wifi_error_start = "Error starting Virtual Wi-Fi.";
+virtual_wifi_ok = "Virtual Wi-Fi and Internet Connection Sharing sucessfully activated.\n\nNote: If clients can connect to the Virtual Wi-Fi but don't get an Internet connection, please uninstall and then reinstall %p.";
 
 / "360safe" ---- only the Chinese translations are needed ----
 wrn_unknown_360 = "Unknown version of 360safe found. Please make sure\n"
@@ -8952,6 +9025,7 @@ after_calibration_new = "http://www.cfos.de/es/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/es/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/es/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/es/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/es/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "La revisión de consistencia ha detectado que uno o más componentes han sido modificados.\n"
    "Por favor instale desde nuestra web una versión no modificada:\n";
@@ -10321,6 +10395,8 @@ htm_lang_prefix = "fr";
 /
 / ----------------------------------------------------------------------
 
+ignore_ssl_cert_chk = "Ignorer les erreurs de certificat SSL (non sûr)";
+ignore_ssl_cert_desc = "Si cFos Outlook DAV est autorisé à ignorer les erreurs de certificat SSL, il peut se connecter à des serveurs dont les certificats SSL ne sont pas sûr, comme par exemple des certificats auto-signés. Activer cette option n'est pas recommandée, car elle rend une connexion SSL vulnérable aux attaques de type man-in-the-middle.";
 
 / ----------------------------------------------------------------------
 /
@@ -10373,6 +10449,7 @@ con_enabled = "activé";
 / pnet configuration dialog
 pnet_header = "Paramètres généraux";
 pnet_subheader = "Ajuster les paramètres généraux.";
+pnet_conn_header = "Connection";
 pnet_conn_subheader = "Paramètres des options de connection.";
 pnet_conn_local_ip = "Adresse IP locale %?";
 pnet_conn_public_ip = "Adresse IP publique %?";
@@ -10394,6 +10471,7 @@ dlg_register_shell_extension = "Registre d'extension shell";
 dlg_server_port = "Port du serveur:";
 dlg_server_name = "Nom du serveur:";
 dlg_server = "Serveur:";
+dlg_https_port = "Port HTTPS :";
 dlg_renew_interval = "Intervalle de renouvellement (ms):";
 dlg_redirect_delay = "Délais de redirection (ms):";
 dlg_monitor_ports = "Surveiller l'affectation des ports";
@@ -10448,6 +10526,8 @@ con_test_execute = "Executer le test de connection";
 /
 / ----------------------------------------------------------------------
 
+ga_service_desc = "cFos Game Analyzer - Récupération des données de performance";
+ga_speed_installed = "cFosSpeed semble être installé sur votre ordinateur.\n\ncFosSpeed possède déjà la fonctionnalité de cFos Game Analyzer.\n\nPour utiliser les fonctionnalités les plus récentes de cFos Game Analyzer, veuillez télécharger et installer la dernière version de cFosSpeed depuis www.cfos.de.";
 
 / ----------------------------------------------------------------------
 /
@@ -10469,6 +10549,7 @@ after_calibration_new = "http://www.cfos.de/fr/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/fr/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/fr/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/fr/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/ar/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Le contrôle de cohérence a détecté qu'un ou plusieurs composants ont été modifiés.\n"
    "Merci d'installer une version non-modifiée présente sur notre site internet:\n";
@@ -10682,6 +10763,7 @@ disable_speed_shaping = "Désactiver la Régulation dynamique de flux réseau (T
 yes = "Oui";
 no = "Non";
 help = "Aide";
+bgraph_totals = "Total";
 blocklist = "Bloqueur d'Ip";
 blocklist_help = "Liste des adresses Ip pour lesquelles tout traffic est bloqué.";
 apply_blocklist = "Utiliser le filtre de listes";
@@ -10740,6 +10822,7 @@ vari_fixed_help_long = "Rassembler les statistiques de ping pour arranger pour J
 set = "Renseigner";
 tx_limit_help = "Entrer la vitesse en bytes/sec ou le pourcentage que ce programme ou ce protocole est autorisé à émettre.";
 download_more_skins = "Télécharger plus d'interface (Skins)";
+documentation = "Documentation";
 exit_demon = "Quitter";
 speed_test = "Test de vitesse cFos";
 ask_key_banned_info = "Il y a un problème avec votre clef de license.\nVoulez-vous plus d'information?";
@@ -10845,6 +10928,10 @@ bk_welcome_found = "Un fichier contenant une clef d’enregistrement existe déj
 bk_welcome_update = "Cliquez sur Suivant pour remplacer la clef d’enregistrement existante.";
 
 / license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "Accords de Licence";
+lic_subheader = "Vous devez accepter les accords de licence pour continuer.";
+lic_info = "Si vous acceptez les accords de licence, cochez le champ 'j'accepte' et cliquez sur Suivant, autrement, cliquez sur Annuler.";
+lic_agree = "J'accepte.";
 
 / restore point dialog
 rp_header = "Point de restauration système";
@@ -10941,6 +11028,7 @@ crash_msg_terminate = "Le programme va se terminer immédiatement.";
 crash_msg_query_upload = "Voulez vous envoyer un rapport de crash à cFos, nous permettant ainsi d'analyser l'erreur ?";
 
 /start installation dialog
+start_header = "Installation";
 start_subheader = "L'installation débute.";
 start_installation = "Lancer l'installation maintenant.";
 
@@ -10996,10 +11084,12 @@ task_desktop_link = "Création des raccourcis du Bureau...";
 task_program_group = "Création du groupe dans Programmes...";
 task_registry = "Création des entrées dans la base de registre...";
 task_driver = "Installation du pilote...";
+task_service = "Installation du service...";
 task_daemon = "Démarrage de %?...";
 task_uninstall_old = "Désinstallation de l’ancienne version...";
 task_stop_daemon = "Arrêt de %?...";
 task_uninstall_driver = "Désinstallation du pilote...";
+task_uninstall_service = "Désinstallation du service...";
 task_delete_files = "Effacement des fichiers...";
 task_cleanup_caches = "Nettoyage du cache...";
 task_hangup = "Arrêt des connexions actives...";
@@ -11037,6 +11127,8 @@ query_further_info = "Voulez-vous plus d'informations ?";
 
 / error messages
 err_driver_inst = "Le pilote n’a pas pu être installé.";
+err_service_inst = "L'installation du service a échoué.";
+err_service_uninst = "La désinstallation du service a échoué.";
 err_daemon_start = "%? n’a pas pu être démarré.";
 err_uninst_old = "La version actuelle n’a pas pu être désinstallée. Merci de redémarrer votre système d'exploitation et de renouveler l’opération.";
 err_os = "Votre système d’exploitation est %?.\n\n%? nécessite Windows 2000/XP ou ultérieur.";
@@ -11135,6 +11227,8 @@ eml_invalid_email = "L'adresse e-mail entrée n'est pas valide.";
 eml_invalid_optional_email = "Veuillez entrer une adresse e-mail valide ou laisser le champ libre.";
 eml_reg_failed = "Échec de l'enregistrement de l'adresse e-mail.";
 eml_checking_domain = "Vérification de domaine de l'adresse e-mail...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
 / "360safe" ---- only the Chinese translations are needed ----
 
@@ -12935,6 +13029,8 @@ htm_lang_prefix = "it";
 /
 / ----------------------------------------------------------------------
 
+ignore_ssl_cert_chk = "Ignora errori certificato SSL (rischioso)";
+ignore_ssl_cert_desc = "Se viene consentito a cFos Outlook DAV d'ignorare gli errori del certificato SSL, esso può connettersi a servers con certificati SSL non sicuri, per esempio certificati auto-firmati. L'attivazione di questa opzione è normalmente sconsigliata, perché rende una qualsiasi connessione SSL vulnerabile ad attacchi di tipo man-in-the-middle.";
 
 / ----------------------------------------------------------------------
 /
@@ -13064,6 +13160,8 @@ con_test_execute = "Esegui il test di connettività";
 /
 / ----------------------------------------------------------------------
 
+ga_service_desc = "Analizzatore di Gioco cFos - Recupero dati sulle prestazioni";
+ga_speed_installed = "cFosSpeed sembra sia già installato sul tuo computer.\n\ncFosSpeed contiene già la funzionalità Analizzatore di gioco di cFos .\n\nPer utilizzare le ultime caratteristiche dell'Analizzatore di Gioco di cFos, si prega di scaricare ed installare l'ultima versione di cFosSpeed da www.cfos.de.";
 
 / ----------------------------------------------------------------------
 /
@@ -13089,6 +13187,7 @@ after_calibration_new = "http://www.cfos.de/it/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/it/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/it/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/it/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/it/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Il controllo di coerenza ha rilevato che uno o più componenti sono stati modificati.\nSi prega di installare una versione non modificata dal nostro sito:\n";
 
@@ -13406,6 +13505,7 @@ http_access_disabled = "L'accesso HTTP da remoto è bloccato";
 set_server_pwd = "Imposta la password del Server";
 auto_arrange_top = "In alto";
 auto_arrange_bottom = "In basso";
+show_on_metro_apps = "Mostra tra le applicazioni nella finestra Metro di Windows 8";
 
 
 / ----------------------------------------------------------------------
@@ -13601,10 +13701,12 @@ task_desktop_link = "Creazione del collegamento sul desktop...";
 task_program_group = "Creazione del gruppo di menù...";
 task_registry = "Creazione dei dati per la registrazione...";
 task_driver = "Installazione del driver...";
+task_service = "Sto installando il servizio...";
 task_daemon = "Avvio di %?...";
 task_uninstall_old = "Disinstallazione della versione esistente...";
 task_stop_daemon = "Interrompere %?...";
 task_uninstall_driver = "Disinstallazione del driver...";
+task_uninstall_service = "Sto disinstallando il servizio...";
 task_delete_files = "Cancellazione dei file...";
 task_cleanup_caches = "Pulizia cache...";
 task_hangup = "Disattivazione della connessione a Internet...";
@@ -13642,6 +13744,8 @@ query_further_info = "Desiderate ulteriori informazioni?";
 
 / error messages
 err_driver_inst = "Impossibile installare il driver";
+err_service_inst = "Installazione del servizio fallita.";
+err_service_uninst = "Disinstallazione del servizio fallita.";
 err_daemon_start = "Impossibile eseguire %?";
 err_uninst_old = "Impossibile disinstallare la versione esistente del driver. Disconnettersi dal sistema e riconnettersi per tentare nuovamente";
 err_os = "Il tuo sistema operativo è %?.\n\n%? necessita di Windows 2000/XP o successivi.";
@@ -13713,6 +13817,8 @@ eml_invalid_email = "L’indirizzo e-mail che hai inserito non é valido..";
 eml_invalid_optional_email = "Inserisci un indirizzo e-mail valido oppure nessun indirizzo";
 eml_reg_failed = "La registrazione dell’e-mail é fallita.";
 eml_checking_domain = "Sto verificando il dominio della casella di posta....";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
 / "360safe" ---- only the Chinese translations are needed ----
 wrn_unknown_360 = "Rilevata versione sconosciuta di 360safe. Prego di assicurarti\ndi avere l'ultima versione di 360safe installato";
@@ -17955,6 +18061,7 @@ after_calibration_new = "http://www.cfos.de/pl/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/pl/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/pl/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/pl/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/pl/traffic-shaping/traffic-shaping.htm";
 
 component_mismatch = "Wystąpił konflikt pomiędzy wersjami komponentów programu. Proszę ponownie zainstalować program używając najnowszej wersji.";
 trayicon_tip = "Szybszy Internet dzięki modelowaniu ruchu, www.cfos.de";
@@ -18917,6 +19024,8 @@ htm_lang_prefix = "pt-br";
 /
 / ----------------------------------------------------------------------
 
+ignore_ssl_cert_chk = "Ignorar erros de certificados SSL (não seguro)";
+ignore_ssl_cert_desc = "Se o cFos Outlook DAV ignorar erros de certificados SSL, ele poderá se conectar à servidores que usam certificados não seguros, por exemplo, certificados auto-assinados. Não é recomendável habilitar esta opção, pois torna uma conexão SSL vulnerável a ataques man-in-the-middle.";
 
 / ----------------------------------------------------------------------
 /
@@ -18966,6 +19075,10 @@ con_enabled = "ativado";
 / pnet configuration dialog
 pnet_header = "Definições Comuns";
 pnet_subheader = "Ajustar as definições comuns.";
+pnet_conn_header = "Conexão";
+pnet_conn_subheader = "Configurar opções da conexão.";
+pnet_conn_local_ip = "Endereço IP local %?";
+pnet_conn_public_ip = "Endereço IP público %?";
 pnet_pubdir_header = "Diretório Público";
 pnet_pubdir_subheader = "Diretório que contém os arquivos para download.";
 pnet_pubdir_info = "Por favor, especifique a localização da pasta onde os arquivos estão situados que você quer tornar disponível para download.";
@@ -18984,12 +19097,25 @@ dlg_register_shell_extension = "Registrar Extensão Shell";
 dlg_server_port = "Porta do Servidor:";
 dlg_server_name = "Nome do Servidor:";
 dlg_server = "Servidor:";
+dlg_https_port = "Porta HTTPS:";
 dlg_renew_interval = "Intervalo de renovação (ms):";
 dlg_redirect_delay = "Redirecionamento de atraso (ms):";
+dlg_monitor_ports = "Monitorar atribuições de porta";
+dlg_enable_upnp = "Habilitar Servidor de Mídia (UPnP/DLNA)";
 dlg_upnp_info = "Coloque os ficheiros de mÃ­dia na subdiretoria 'media' do seu diretÃ³rio pÃºblico.";
 use_https_port = "Utilize a porta HTTPS";
 
 / pnet start type dialog
+pnet_start_header = "Modo de Inicialização";
+pnet_start_subheader = "Como o programa deve iniciar?";
+pnet_start_mode = "Iniciar %p:";
+pnet_start_login = "ao logar-se (recomendado)";
+pnet_start_system = "como um serviço do sistema";
+pnet_start_manual = "manualmente";
+pnet_start_info = "É recomendável iniciar o %p automaticamente ao logar-se."
+                  "Inicia o %p como um serviço do sistema, mesmo quando nenhum usuário fizer logon."
+                  "No entanto, não será mostrado ícone na barra de tarefas, e nem menu de contexto."
+                  "Se você abre seu servidor apenas de vez em quando, inicie o %p manualmente.";
 
 / pnet context menu entry
 publish_with_product = "Publicar com %p";
@@ -19004,8 +19130,17 @@ ipv4_bind_problem = "O Servidor não pode ouvir a porta especificada com IPv4, p
 ipv6_bind_problem = "O Servidor não pode ouvir a porta especificada com IPv6, porque ela é usada por outro aplicativo (por exemplo, Skype).";
 closing_server = "O Servidor está fechando.";
 start_product = "Iniciar %p";
+show_home_dir = "Mostrar Diretório Pessoal";
+publish_file = "Publicar Arquivo";
+user_administration = "Administração de Usuários";
 
 / pnet connectivity test
+connectivity_test = "Teste de Conexão";
+con_test_subheader = "Por favor, aguarde o término do teste de conexão.";
+con_test = "%p Teste de Conexão";
+con_test_not_running = "O Teste de Conexão não pode ser executado, pois %p não está rodando. Inicie %p e tente novamente.";
+con_test_public_fail = "Seu endereço de IP público não pode ser determinado. Por favor, certifique-se de que você está conectado à Internet e tente novamente.";
+con_test_execute = "Executar teste de conexão";
 
 / ----------------------------------------------------------------------
 /
@@ -19013,6 +19148,8 @@ start_product = "Iniciar %p";
 /
 / ----------------------------------------------------------------------
 
+ga_service_desc = "cFos Game Analyzer - Resgatar Informações de Desempenho";
+ga_speed_installed = "cFosSpeed já está instalado em seu computador.\n\nO cFosSpeed possui as funcionalidades do cFos Game Analyzer.\n\nPara usar os recursos mais recentes do cFos Game Analyzer, baixe e instale a última versão do cFosSpeed em www.cfos.de";
 
 / ----------------------------------------------------------------------
 /
@@ -19035,6 +19172,7 @@ after_calibration_new = "http://www.cfos.de/pt-br/traffic-shaping/calibration-me
 expiration_cfosspeed_new_htm = "http://www.cfos.de/pt-br/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/pt-br/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/pt-br/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/pt-br/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "A verificação de consistência detectou que um ou mais componentes foram modificados.\nPor favor, instale uma versão não modificada de nosso sítio na Internet:\n";
 
@@ -19044,6 +19182,7 @@ speed_endsoon = " O seu período de teste acabará em breve! Por favor compre o 
 order_info = " Peça agora:\n Internet: www.cfos.de\n Pelo telefone: +49-228-7669826";
 badkey = "Existe um problema com a chave de licença.\nPor favor, reinsira a chave com um duplo clique no\narquivo original, que recebeu por e-mail ou disquete.";
 no_setup = "Não pôde iniciar o pacote de instalação (setup.exe).";
+no_cmd = "Não foi possível abrir o Prompt de Comando (cmd.exe)!";
 ask_disconnect_ras = "Uma conexão de rede atualmente ativa está prestes a ser reconfigurada.\nÉ recomendado desconectá-la antes de continuar.\nDesconectar a atual conexão de rede?";
 sygate_hint = "O %p detectou o Firewall Sygate, que confunde o sinal\nde calibragem do %p com um Ataque de Negação de\nServiço (DoS attack) com pacotes de dados \"Ping-of-Death\".\nAssim sendo, deve-se baixar e depois carregar um\narquivo com velocidade máxima durante 30 segundos, respectivamente.\nIsto deve calibrar o %p tal qual o sinal de\ncalibragem.\n\nDica: O recurso do Firewall \"Anti IP Manipulation\" deve ser desativado.";
 select_language = "Escolher Idioma";
@@ -19105,6 +19244,7 @@ off = "Desativado";
 on = "Ativado";
 note = "Aviso";
 deactivated = "desativado";
+browser_warning = "Internet Explorer versão 8 ou superior é recomendado para este diálogo!";
 ole_error = "Para poder usar este dialogo de configuraÃ§Ã£o,\\n%p deverÃ¡ estar instalado e correndo no seu computador. \\nPor favor verifique isto e reinstale o programa, se necessÃ¡rio.";
 ts_settings = "Configurações da Modelagem de Tráfego";
 preferences = "Preferências";
@@ -19115,13 +19255,18 @@ prio_programs = "Dando prioridade aos Programas";
 program = "Programa";
 programs = "Programas";
 current_connections = "Conexões Disponíveis";
+current_connections_advanced = "Conexões Atuais (Avançado)";
+current_connections_standard = "Conexões Atuais (Padrão)";
 ts_prios = "Prioridades da Modelagem de Tráfego";
 client_protocols = "Protocolos dos Clientes";
 server_protocols = "Protocolos de Servidor";
+client_server_protocols = "Protocolos - Cliente e Servidor";
 media_streaming = "Mídia em Transmissão Contínua";
 file_sharing = "Compartilhamento de Arquivos";
 special = "Especial";
 other = "Outros";
+misc_high_short = "Misc. Alta";
+misc_high = "Tráfego Misc. de Alta prioridade";
 hint = "Dica";
 hint_text = "A priorização só irá funcionar corretamente se apenas alguns dados possuirem prioridade alta. Dê aos programas que transferem muitos dados prioridade baixa. A priorização de protocolo é feita antes da priorização de programas.";
 prio_doc_link = "Como o esquema de priorização funciona";
@@ -19210,6 +19355,7 @@ password_bad = "Senha ruim";
 sum_button = "cumulativo";
 calibrate = "Calibrar linha";
 test_pings = "Enviar Pings para Teste";
+open_console = "Abrir console do %p";
 variable_bandwidth = "Largura de Banda Variável";
 def_bandwidth_help = "Padrão para <b>novas</b> conexões";
 cur_bandwidth_help = "Configuração da conexão atual";
@@ -19261,6 +19407,9 @@ tx_only = "Apenas TX";
 max_of_rx_tx = "Máximo do RX & TX";
 total_rx_only = "Velocidade de RX total";
 total_tx_only = "Velocidade de TX total";
+nettalk_rx = "Net Talk - Velocidade RX";
+nettalk_tx = "Net Talk - Velocidade TX";
+nettalk_max_of_rx_tx = "Net Talk máxima - RX e TX";
 total_max_of_rx_tx = "Max. do RX & TX total";
 check_if_other_also = "Marque, se você quiser que todos os outros tráfegos sejam contados neste segmento";
 performance_help = "Para economizar o máximo de esforço computacional, recomendamos ajustar a conexão que você usa para acessar a internet para \"Sim\" e todas as outras para \"Não\".";
@@ -19310,6 +19459,8 @@ console_prio_prot = "Priorizar este protocolo temporariamente";
 console_prio_prot_off = "Desativar temporariamente a priorização de protocolo";
 console_prio_prog = "Priorizar este programa temporariamente ";
 console_prio_prog_off = "Desativar temporariamente a priorização de programa";
+console_prio_prog_prot = "Priorizar programa e protocolo, temporariamente";
+console_prio_prog_prot_off = "Desligar priorização de programa e protocolo, temporariamente";
 console_prio_prot_perm = "Priorizar este protocolo permanentemente";
 console_prio_prog_perm = "Priorizar este programa permanentemente";
 console_prio_advanced = "Priorização avançada";
@@ -19332,6 +19483,14 @@ lock_position = "Travar a posição da janela";
 check_for_news = "Verificar novidades";
 rwin_expansion = "Expansão automática do RWIN";
 rwin_expansion_help = "Expandir automaticamente o TCP RWIN para aumentar a velocidade de download se o RWIN selecionado pelo Windows é muito baixo.";
+query_auto_open = "Desabilitar abertura e fechamento automático da janela de status?\nVocê pode reativá-la novamente no menu de contexto.";
+preview_skins = "Visualizar Skins";
+enable_smartphone_skins = "Skins para Celular";
+http_access_enabled = "Acesso HTTP remoto está habilitado";
+http_access_disabled = "Acesso HTTP remoto está desabilitado";
+set_server_pwd = "Definir Senha do Servidor";
+auto_arrange_top = "Topo";
+auto_arrange_bottom = "Base";
 
 
 / ----------------------------------------------------------------------
@@ -19416,6 +19575,8 @@ sn_save_err = "O arquivo de chave não pôde ser salvo no disco em %?.";
 sn_keyfile_err = "O arquivo de chave está corrompido.";
 
 / new 16 digit serial number dialog
+sn16_info = "Digite seu Serial Number de 16 dígitos, para receber a sua chave de licença. Você precisa estar conectado à Internet.";
+sn16_failed = "Falha ao obter chave de licença!";
 
 / re-enter password dialog
 repwd_header = "Contra-senha %?.";
@@ -19453,10 +19614,19 @@ usage_stats_subheader = "Escolha como %p deve lidar com as estatísticas de uso.
 usage_stats_chk = "Enviar automaticamente estatísticas de uso ao cFos para melhorar o desempenho do produto.";
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "Usar Port Forwarding automático, se disponível.";
+port_forwarding_failed = "Seu roteador (%?) parece não suportar Port Forwarding automático. "
+                         "Talvez você possa habilitar essa função nas configurações de seu roteador.";
+port_forwarding_config = "Você pode configurar seu roteador em %?";
 
 / crash handler messages
+crash_msg_terminate = "O programa terminou inesperadamente.";
+crash_msg_query_upload = "Gostaria de enviar um relatório de erro, para nos ajudar a solucionar o problema?";
 
 /start installation dialog
+start_header = "Instalação";
+start_subheader = "Início da Instalação.";
+start_installation = "Iniciar Instalação.";
 
 / progress dialog
 progress_inst_header = "Instalação";
@@ -19480,6 +19650,8 @@ finish_info_ok = "%? foi instalado com sucesso no seu computador.";
 finish_head_fail = "Falha na Instalação.";
 finish_info_fail = "A instalação falhou devido à seguinte razão:";
 finish_reboot = "Reinicie o sistema! Clique em Concluir para reiniciar agora ou Cancelar para reiniciar mais tarde.";
+finish_uninst_driver_reboot = "A desinstalação do driver atual será completada após a reinicialização do sistema. "
+                             "Reinicie o sistema, então execute o programa de instalação novamente.";
 finish_link_ok = "Recursos do <a href=\"%?\">%? !</a>";
 finish_file_fail = "Veja o arquivo de Registro de Atividades %s para mais informações.";
 finish_file_link_fail = "Veja o arquivo de Registro de Atividades<a href=\"file://%s\"></a> para mais informações.";
@@ -19508,10 +19680,12 @@ task_desktop_link = "Criando um atalho no Ambiente de Trabalho...";
 task_program_group = "Criando o grupo de programas...";
 task_registry = "Escrevendo as entradas no Registry do Windows...";
 task_driver = "Instalando o Controlador...";
+task_service = "Instalando serviço...";
 task_daemon = "Iniciando %?...";
 task_uninstall_old = "Desinstalando a versÃ£o actual...";
 task_stop_daemon = "Concluindo %?...";
 task_uninstall_driver = "Desinstalando o Controlador...";
+task_uninstall_service = "Desinstalando serviço...";
 task_delete_files = "Apagando ficheiros...";
 task_cleanup_caches = "Limpando os caches...";
 task_hangup = "Desligando ligaÃ§Ãµes activas ...";
@@ -19520,6 +19694,11 @@ task_cancel = "Cancelando operação...";
 task_canceled = "Operação cancelada!";
 
 / connectivity test progress tasks
+task_start_program = "Inicializando %p...";
+task_test_localhost = "Testando localhost...";
+task_test_local_ip = "Testando endereços IP locais...";
+task_test_public_ip = "Testando endereço IP público...";
+task_test_finished = "Teste concluído.";
 
 / program group
 speed_pg_name = "Modelagem de Tráfego %p";
@@ -19544,10 +19723,15 @@ query_further_info = "Gostaria de mais informações?";
 
 / error messages
 err_driver_inst = "A instalação dos controladores falhou.";
+err_service_inst = "Instalação do serviço falhou.";
+err_service_uninst = "Desinstalação do serviço falhou.";
 err_daemon_start = "Não foi possível iniciar %?.";
 err_uninst_old = "A versão existente não pôde ser desinstalada. Por favor, reinicie o seu sistema operacional e tente novamente.";
 err_os = "O seu sistema operacional é %?.\n\n%? requer o Windows 2000/XP ou posterior para funcionar.";
 err_os_minxp = "O seu sistema operacional é %?.\n\n%? requer o Windows XP ou posterior para funcionar.";
+err_os_sup = "%p suporta apenas %? ou superior.\n\n"
+             "É possível que o %p funcione no seu sistema operacional atual (%?), mesmo que ainda não tenha sido testado.\n\n"
+             "Gostaria de continuar com a instalação?";
 err_uninst_driver = "O controlador do dispositivo não pôde ser desinstalado.";
 err_create_process = "Erro ao executar o programa %s: %s";
 err_write_lock = "Os componentes de rede do %? estÃ£o sendo usados por outro processo. Por favor feche todas as aplicaÃ§Ãµes ou reinicie o computador e tente de novo.";
@@ -19575,6 +19759,7 @@ err_port_in_use = "A porta %? do servidor já está em uso por outro programa.\n
 
 / warning messages
 wrn_oem_update = "Você já tem um %p licenciado instalado.\n\nVocê está prestes a instalar uma versão paga comum. Se você continuar\ncom essa instalação sua licença não irá funcionar.\nUma atualização de seu %p licenciado pode ser obtida no mesmo lugar\nonde você comprou-o originalmente.\n\nVocê deseja continuar a instalação assim mesmo?";
+wrn_close_application = "É recomendável fechar os seguintes programas, antes de continuar:";
 
 / traffic shaping algorithm
 tsa_header = "Algoritmo de Modelagem de Tráfego";
@@ -19607,6 +19792,8 @@ eml_invalid_email = "O endereço de e-mail que você inseriu é inválido.";
 eml_invalid_optional_email = "Por favor, insira um endereço de e-mail válido ou deixe em branco este campo.";
 eml_reg_failed = "O registro do correio eletrÃ´nico falhou.";
 eml_checking_domain = "Revisando o domÃ­nio do e-mail...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
 / "360safe" ---- only the Chinese translations are needed ----
 wrn_unknown_360 = "Foi encontrada uma versão desconhecida do 360safe. Por favor, certifique-se\nque possui a versão mais recente do 360safe instalada.";
@@ -20589,6 +20776,7 @@ after_calibration_new = "http://www.cfos.de/ru/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/ru/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/ru/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/ru/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/ru/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Во время проверки было обнаружено, что один или несколько компонентов были изменены.\n"
    "Пожалуйста, установите оригинальную версию с официального веб-сайта:\n";
@@ -21971,6 +22159,13 @@ htm_lang_prefix = "th";
 
 / ----------------------------------------------------------------------
 /
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  6link / broadband connect / pnet
 /
 / ----------------------------------------------------------------------
@@ -22016,17 +22211,58 @@ con_enabled = "เปิดใช้งาน";
 / pnet configuration dialog
 pnet_header = "ค่าติดตั้งทั่วไป";
 pnet_subheader = "ปรับแต่งค่าติดตั้งทั่วไป";
+pnet_conn_header = "การเชื่อมต่อ";
+pnet_conn_subheader = "ตัวเลือกการเชื่อมต่อ";
+pnet_conn_local_ip = "ที่อยู่ Local IP %?";
+pnet_conn_public_ip = "ที่อยู่ Public IP %?";
+pnet_pubdir_subheader = "พื้นที่ที่มีไฟล์ดาวน์โหลดอยู่";
+pnet_pubdir_info = "โปรดกำหนดสถานที่สำหรับแฟ้มที่ใช้่ในการดาวน์โหลด";
 smtp_header = "เซิฟเวอร์ SMTP";
 smtp_subheader = "ปรับแต่งเซิฟเวอร์ SMTP";
 dynip_header = "เซิฟเวอร์แบบปรับเปลี่ยน IP อัตโนมัติ";
 dynip_subheader = "ปรับแต่งเซิฟเวอร์แบบปรับเปลี่ยน IP อัตโนมัติ";
+dlg_start_now_as_current_user = "เริ่มต้นด้วย %p เป็นผู้ใช้งานขณะนี้";
 dlg_autostart = "เริ่มต้น %p เมื่อเริ่มต้นระบบปฏิบัติการ Windows";
+dlg_autostart_service = "ติดตั้ง %p เป็น system service และเริ่มต้นพร้อมกับ Windows";
+dlg_context_menu = "เพิ่ม conext menu ใหม่ใน Windows Explorer";
+dlg_create_admin_account = "สร้างบัญชี administrator";
+dlg_admin_pwd = "รสัสผ่านสำหรับผู้ใช้งาน \"admin\":";
+dlg_admin_pwd_needed = "รหัสผ่านสำหรับผู้ใช้งาน \"admin\" ต้องถูกกำหนดทุกครั้งเมื่อสร้างบัญชี administrator";
 dlg_register_shell_extension = "ลงทะเบียนส่วนขยายระบบปฏิบัติการ";
 dlg_server_port = "หมายเลขพอร์ตของเซิฟเวอร์:";
 dlg_server_name = "ชื่อของเซิฟเวอร์:";
 dlg_server = "เซิฟเวอร์:";
+dlg_https_port = "HTTPS Port:";
 dlg_renew_interval = "ช่วงระยะเวลาห่างในการต่อใหม่ (มิลลิวินาที):";
 dlg_redirect_delay = "ระยะเวลาหน่วงการเปลี่ยนทิศทาง (มิลลิวินาที):";
+dlg_enable_upnp = "เปิดใช้ Multimedia Server (UPnP/DLNA)";
+dlg_upnp_info = "เพิ่มไฟล์ media ต่างๆไปยังแฟ้ม 'media' ภายใต้ public directory ของคุณ";
+
+/ pnet start type dialog
+pnet_start_subheader = "ต้องการให้โปรแกรมเริ่มต้นทำงานอย่างไร?";
+pnet_start_mode = "เริ่ม %p:";
+pnet_start_login = "ที่ logon (แนะนำ)";
+pnet_start_system = "เป็น system service";
+pnet_start_manual = "เปิดใช้งานเอง";
+pnet_start_info = "เราแนะนำให้เริ่ม %p อัติโนมัติเมื่อคุณ log on. "
+                  "หาก %p ต้องทำงานเวลาไม่มีผู้ใช้งาน logged on, คุณควรตั้งค่าเริ่มต้นเป็นแบบ system service. "
+                  "อย่างไรก็ตามคุณจะไม่เห็นไอคอน task bar icon และไม่มีเ context menu. "
+                  "หากคุณมีการเปลี่ยน data ของคุณให้เป็นส่วนรวมน้อยครั้ง, เราแนะนำให้ใช้ %p เป็นแบบใช้งานเอง.";
+
+/ pnet context menu entry
+
+/ pnet backup info
+
+/ pnet
+
+/ pnet connectivity test
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
 
 / ----------------------------------------------------------------------
 /
@@ -22047,6 +22283,10 @@ after_calibration_new = "http://www.cfos.de/th/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/th/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/th/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/th/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/th/traffic-shaping/traffic-shaping.htm";
+
+auth_failed = "ระบบตรวจสอบความถูกต้องภายในตรวจพบการแก้ไขหรือข้อผิดพลาดของส่วนประกอบในการทำงาน\n"
+   "โปรดติดตั้งเวอร์ชั่นเต็มจากเว็บไซต์ของเราโดยตรง:\n";
 
 component_mismatch = "มีปัญหาเกี่ยวกับเวอร์ชั่นที่ขัดกันระหว่างส่วนประกอบของโปรแกรม, โปรดลงโปรแกรมใหม่อีกครั้งด้วยเวอร์ชั่นที่ใหม่ที่สุดของเรา.";
 trayicon_tip = "อินเตอร์เน็ตรวดเร็วทันใจด้วย Traffic Shaping, www.cfos.de";
@@ -22054,6 +22294,7 @@ speed_endsoon = "ช่วงเวลาการมดลองใช้ขอ
 order_info = "สั่งจองเดี๋ยวนี้:\nทาง อินเตอร์เนต: www.cfos.de\nทาง โทรศัพท์: +49-228-7669826";
 badkey = "มีปัญหาเกิดขึ้นจากรหัสคีย์ของท่าน\nโปรดลงคีย์ใหม่อีกครั้งโดยดับเบิ้ลคลิกสองครั้งที่\nไฟล์, ซึ่งคุณได้รับมาจากทางเมล์ หรือ บนแผ่นดิสก์";
 no_setup = "ไม่สามารถที่จะทำการเริ่มโปรแกรมการตั้งค่าได้ (setup.exe).";
+no_cmd = "ไม่สามารถเปิด Command Prompt (cmd.exe) ได้!";
 ask_disconnect_ras = "การเชื่อมต่อสัญญาณเครือข่ายของท่านตอนนี้กำลังจะถูกจัดการตั้งค่าใหม่\nเราแนะนำให้ท่านตัดสัญญาณก่อนที่ท่านจะทำการต่อไป\nตัดสัญญาณการเชื่อมต่อตอนนี้เลยหรือไม่?";
 sygate_hint = "%p ได้พบโปรแกรม Sygate Firewall, วึ่งเข้าใจผิดว่า\nสัญญาณการตั้งค่าระบบของ %p นั้นเป็นการโจมตีแบบ Denial of Service เหมือน\n\"Ping-of-Death\" แพ๊ดเกจ.\nด้วยเหตุนี้ท่านควรจะลองดาวน์โหลดหรืออัปโหลดด้วยความเร็วเต็มที่\nเป็นระยะเวลาประมาณ 30 วินาที, แบบต่อเนื่อง, เพื่อเป็นการตั้งค่า%p\nเสมือนสัญญาณการตั้งค่าระบบของ %p";
 select_language = "เลือกภาษา";
@@ -22115,6 +22356,7 @@ off = "ปิด";
 on = "เปิด";
 note = "หมายเหตุ";
 deactivated = "ปิดการทำงาน";
+browser_warning = "สำหรับ Internet Explorer เวอร์ชั่น 8 หรือมากกว่าเท่านั้น!";
 ole_error = "ในการที่จะใช้งานการตั้งค่านี้ได้,\\n%p จำเป็นต้องถูกติดตั้งและทำงานอยู่บนเครื่อง PC ของคุณ\\nโปรดตรวจสอบส่วนนี้แล้วทำการติดตั้งใหม่อีกครั้ง, ถ้าหากจำเป็น";
 ts_settings = "การตั้งค่า Traffic Shaping";
 preferences = "การตั้งค่า";
@@ -22125,6 +22367,8 @@ prio_programs = "การจัดค่าความสำคัญโปร
 program = "โปรแกรม";
 programs = "โปรแกรม";
 current_connections = "การเชื่อมต่อขณะนี้";
+current_connections_advanced = "การเชื่อมต่อปัจจุบัน (ขั้นสูง)";
+current_connections_standard = "การเชื่อมต่อปัจจุบัน (ทั่วไป)";
 ts_prios = "ค่าความสำคัญของ Traffic Shaping";
 client_protocols = "โปรโตคอลลูกข่าย";
 server_protocols = "โปรโตคอลแม่ข่าย";
@@ -22132,8 +22376,10 @@ media_streaming = "การรับชมสื่อผ่านเครื�
 file_sharing = "แชร์ไฟล์";
 special = "พิเศษ";
 other = "อื่นๆ";
+misc_high = "โปรแกรมอื่นๆที่มีการใช้งานสูง";
 hint = "แนะนำ";
 hint_text = "การจัดค่าความสำคัญจะทำงานได้ผลดีต่อเมื่อตั้งข้อมูลจำนวนน้อยให้มีความสำคัญสูงสุด, ควรตั้งให้โปรแกรมที่ส่งข้อมูลออกมากมีค่าความสำคัญต่ำ การจัดความสำคัญของโปรโตคอลนั้นถูกทำก่อนการจัดความสำคัญของโปรแกรม";
+prio_doc_link = "การทำงาน จัดอันดับความสำคัญ นั้นมีการทำงานอย่างไร";
 save_protocols = "เก็บค่าโปรโตคอล";
 undo = "ย้อนกลับ";
 filter_selection = "เลือกตัวกรอง";
@@ -22160,11 +22406,15 @@ prog_help = "การส่งข้อมูลของ packets ที่ม�
 filename = "ชื่อไฟล์";
 description = "รายละเอียด";
 new_program = "โปแกรมใหม่";
+restore_defaults = "กลับไปยังค่าเริ่มต้น";
 add = "เพิ่ม";
+suggest_program = "แนะนำโปรแกรมนี้ให้กับ cFos team";
 l7_prot_detection = "การตรวจจับโปรโตคอล Layer-7";
 l7_prot_detection_help = "ตรวจจับโปรโตคอลโดยสำรวจข้อมูล, ใช้หน้าของ 'การจัดความสำคัญของโปรโตคอล' เพื่อทำการเปลี่ยนค่าความสำคัญของโปรโตคอลต่างๆ, ถ้าหากคุณปิดใช้งานตัวเลือกนี้การตรวจจับโปรโตคอลจะทำงานโดยใช้เลขหมายของพอร์ตที่ใช้งานอยู่";
 favor_ping = "แบบ Ping Time";
 favor_ping_help = "<b>เปิด</b>: %p จะทำการลดเวลาการ ping ด้วยการลดขนาด badnwdith ลงนิดหน่อย (ถ้าหากจำเป็น).<br /><b>ปิด</b>: %p will maximize bandwidth at the expense of slightly higher ping times (if necessary).";
+favor_bandwidth = "เน้น Bandwidth";
+avoid_loss_help = "%p ปิดการรับค่า TCP windows สำหรับการใช้งาน streams หาก packet เสียมีจำนวนมาก เกิดขึ้นได้ต่อเมื่อการเชื่อมต่อของคุณมีการรับค่าความเร็วเต็มที่ (แนะนำสำหรับการทำ Traffic Shaping ของการดาวน์โหลด)";
 activate_firewall = "เปิดใช้ Firewall";
 activate_firewall_help = "การป้องกันจากการลักลอบเข้าสู่เครือข่ายโดยการกรองการเข้าของ packets อันตรายต่างๆ, การตรวจสอบสถานะ, และโหมดพรางตัว";
 mtu_opt = "จัดค่า MSS (MTU) ให้ได้ผลดีมากที่สุดอัตโนมัติ";
@@ -22210,15 +22460,25 @@ volume = "ค่าระดับ";
 volume_limit = "ค่าระดับที่ถูกจำกัด";
 spdbudget_help = "ในการใช้งานงบประมาณในการใช้งาน, ให้ไปยังหน้าต่างการเชื่อมต่อและตั้งค่าให้เป็นการเชื่อมต่อแบบเฉพาะเจาะจง";
 password_bad = "รหัสผ่านไม่ดี";
-favor_bandwidth = "เน้น Bandwidth";
 sum_button = "ต่อเนื่อง";
 calibrate = "ตั้งศูนย์การเชื่อมต่อ";
+test_pings = "ส่วค่า test pings";
+open_console = "เปิด %p console";
 variable_bandwidth = "แบนด์วิธที่ปรับเปลี่ยนได้";
 def_bandwidth_help = "ค่าหลักสำหรับการเชื่อมต่อ <b>ใหม่</b>";
+cur_bandwidth_help = "การตั้งค่าสำหรับการเชื่อมต่อปัจจุบัน";
+no_ports_open = "ไม่มีการเชื่อมต่อ";
+no_ports_open_help = "ในตอนนี้, ไม่มีการเชื่อมต่อใดๆที่จัดการโดย %p. "
+   "ถ้าต้องการเปลี่ยนการตั้งค่าเริ่มต้นสำหรับการเชื่อมต่อใหม่, สามารถกดที่ แถบ \"Default for new connections\", "
+   "หากต้องการเปลียนค่าการเชื่อมต่ออื่นๆ, สามารถกดที่ \"Traffic Shaping\" ทางด้านซ้าย";
 ok = "ตกลง";
 connection_medium = "ปานกลาง";
 connection_type = "โหมด Traffic Shaping";
 driver_not_loaded = "Driver ยังไม่ได้ loaded!";
+demon_driver_not_loaded = "Driver ยังไม่ถูกโหลด!\n"
+   "การติดตั้งอาจเสียหาย\n"
+   "โปรดลงโปรแกรม %p อีกครั้ง\n";
+asus_demon_driver_not_loaded = "ทำการติดตั้ง %p ใหม่หลังอัปเกรดเป็นระบบปฏิบัติการใหม่แล้ว\nโปรดเข้าเว็บไซต์ ASUS ที่ %w สำหรับ %p เวอร์ชั่นใหม่";
 many_cons_error = "%p rx-Traffic Shaping นั้นกำลังถูกใช้งานจนเต็ม, เนื่องจากว่ามีการเชื่อมต่อเยอะเกินไป, ด้วย การเชื่อมต่อที่น้อยลงนั้นจะทำให้การใช้งานดีขึ้น, กดที่นี่เพื่อหาทางแก้ไข";
 limit_bandwidth = "จำกัดแบนด์วิธสำหรับการเชื่อมต่อปัจจุบัน";
 rx_limit = "RX Limit";
@@ -22267,15 +22527,80 @@ check_if_other_also = "เลือกช้อนี้ ถ้าต้อง�
 performance_help = "เพื่อประหยัดพลังการประมวลผลสูงสุด เราแนะนำให้ตั้งการเชื่อมต่อที่ใช้กับอินเตอร์เน็ตเป็น 'ใช่' และอื่นๆ เป็น 'ไม่'";
 loading = "กำลังอ่านข้อมูล...";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "แบบไม่ร่วมมือ";
+regid_help = "อุปกรณ์ที่ไม่มี cFos Traffic Shaping ใน LAN";
+regid_help_long = "คุณใช้การเชื่อมต่อร่วมกับอุปกรณ์ต่างๆอย่างต่อเนื่องและอย่างน้อยมีอุกรณ์บางชนิดที่ไม่มี cFos Traffic Shaping อยู่";
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+net_talk_help = "สถิติการส่งข้อมูล Broadcast บน LAN";
+net_talk_help_long = "หากต้องการเพิ่มความแม่นยำ, ทำการส่งข้อมูลสถิติของTraffic Shaping สู่เครื่องคอมพิวเตอร์อื่นๆในเครือข่ายของระบบ(ที่บ้าน)ของคุณ, จะๆม่มีข้อมูลใดๆถูกส่งออก Internet.";
+net_talk_subheader = "โปรดเลือกการทำงานของ Net_Talk";
 
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+vari_fixed = "ดำเนินการปรับปรุงค่า Ping Jitter";
+vari_fixed_help = "ใช้งาน Traffic Shaping ขั้นสูงเพื่อการปรับปรุงค่า ping ให้ดีขึ้น";
+vari_fixed_help_long = "รวบรวมสถิติค่า ping เพื่อนำมาปรับปรุงให้ดีขึ้น โดยเฉพาะการใช้งานบนการเชื่อมต่อแบบ mobile/wireless. เราแนะนำให้เปิดใช้งานตัวเลือกนี้ไว้ตลอดเวลาในทุกการเชื่อมต่อ";
 
+set = "ตั้งค่า";
+tx_limit_help = "โปรดใส่ค่าความเร็วในหน่วย bytes/sec หรือ percentage ที่โปรแกรมนี้สามารถใช้ได้";
+download_more_skins = "โหลด skins เพิ่มเติม";
+documentation = "คู่มือการใช้งาน";
+exit_demon = "ออกจากโปรแกรม";
+speed_test = "ทดสอบ cFos Speed";
+ask_key_banned_info = "มีปัญหาเกี่ยวกับลิขสิทธิ์ของคุณ\nต้องการตรวจหรือไม?";
 
+channel_recommend = "Channels ที่มีค่าการใชังานบ่อยที่สุด (ดีสุดถึงแย่มาก)";
+channel_explain = "คุณสามารถใช้การใช้งาน channel เพื่อตั้งค่าการใช้งาน WLAN, แต่อย่าลืมว่าการใช้งานจริงนั้นขึ้นอยู่กับการใช้งานของแต่ละ WLAN นั้นๆดัวย ซึ่งบางทีอาจไม่ค่อยมีการใช้งานและบางทีอาจมีการใช้งานหนักอยู่ก็เป็นได้";
+no_adapters = "ไม่มีข้อมูล adapter ในตอนนี้";
+wlan_no_service = "Service ไม่มีการทำงาน, โปรดติดตั้งหรือเริ่มต้นการทำงาน WLAN API ของ Windows (WZC).";
+wlan_no_station = "ค้นพบ Access Points จำนวนน้อย";
+kaspersky_hint = "Kaspersky Internet Security 2010 อาจทำให้เกิดปัญหากับ %p ได้ รบกวนอัปเดท Kaspersky Internet Security เป็นเวอร์ชั่นใหม่ด้วย";
 
+console_cancel = "ยกเลิก";
+console_freeze = "หยุดชั่วขณะ";
+console_continue = "ต่อไป";
+console_help = "คุณสามารถจัดการความสำคัญของการเชื่อมต่อในแต่ละอย่างได้โดย ทำการกดที่ตารางด้านล่าง<br/>การเชื่อมต่อที่มีเครื่องหมาย(*) นั้นเป็นการตั้งความสำคัญแบบชั่วคราว";
+console_prio = "จัดการความสำคัญการเชื่อมต่อนี้";
+console_prio_off = "ปิดใช้งานการจัดการความสำคัญ";
+console_prio_this = "จัดการความสำคัญชั่วคราวของการเชื่อมต่อนี้เท่านั้น";
+console_prio_this_off = "ปิดใช้งานการจัดความสำคัญของการเชื่อมต่อนี้";
+console_prio_prot = "จัดความสำคัญชั่วคราวสำหรับ protocol";
+console_prio_prot_off = "ปิดใช้งานการจัดความสำคัญชั่วคราวของ protocol";
+console_prio_prog = "จัดความสำคัญชั่วคราวของ program";
+console_prio_prog_off = "ปิดใช้งานการจัดความสำคัญชั่วคราวของ program";
+console_prio_prog_prot = "จัดความสำคัญชั่วคราวทั้ง program และ protocol";
+console_prio_prog_prot_off = "ปิดใชังานการจัดความสำคัญชั่วคราวของ program และ protocol";
+console_prio_prot_perm = "จัดความสำคัญตลอดไปของ protocol";
+console_prio_prog_perm = "จัดความสำคัญตลอดไปของ program";
+console_prio_advanced = "การจัดการความสำคัญขั้นสูง";
+
+new_version_available = "มีเวอร์ชั่นใหม่มาแล้ว";
+update_beta = "ตรวจสอบเพิ่มเติมสำหรับเวอร์ชั่น Beta";
+update_skip_version = "ไม่มีการแจ้งเพิ่มเติมสำหรับเวอร์ชั่นนี้:";
+check_new_version_now = "ตรวจสอบหาเวอร์ชั่นใหม่เดี๋ยวนี้";
+program_updates = "การอัปเดท Program";
+no_new_version_available = "ไม่พบเวอร์ชั่นใหม่";
+use_logitech = "ใช้จอ Logitech G15/G19/G510";
+detect_logitech = "การตรวจสอบจอ Logitech";
+logitech_help = "ส่วนช่วยเหลือเรื่องจอ Logitech";
+logitech_keyboards = "คีย์บอร์ดสำหรับเล่นเกมส์";
+keyboard_leds = "ไฟ LEDs Keyboard";
+keyboard_led_help = "ส่วนช่วยเหลือเรื่องไฟ Keyboard LED";
+only_on_fullscreen = "ใชจอเต็มเท่านั้น";
+speed_guide = "คู่มือแนะนำเรื่องความเร็ว";
+lock_position = "ล็อคค่าตำแหน่งบนหน้าจอ";
+check_for_news = "ตรวจสอบข่าวสาร";
+rwin_expansion = "ใช้งาน RWIN expansion อัติโนมัติ";
+rwin_expansion_help = "ขยายขนาด TCP Receive Window เพื่อเพิ่มค่าในการดาวน์โหลดมากชึ้น หากทุกอย่างวิ่งช้าลงหลังจากที่เปิดใช้งานแล้ว";
+query_auto_open = "ปิดใช้การเปิดปิดหน้าจอสถานะอัติโนมัติหรือไม่?\nคุณสามารถเปิดใช้งานได้ใหม่อีกครั้งในอcontext menu.";
+preview_skins = "แสดง Skins";
+enable_smartphone_skins = "มือถือ Skins";
+http_access_enabled = "เปิดการเข้าใช้งานผ่าน HTTP จากด้านนอก";
+http_access_disabled = "ปิดการเข้าใช้งานผ่าน HTTP จากด้านนอก";
+set_server_pwd = "ตั้งค่ารหัสผ่านของ Server";
+auto_arrange_top = "ด้านบน";
+auto_arrange_bottom = "ด้านล่าง";
 
 
 / ----------------------------------------------------------------------
@@ -22350,6 +22675,11 @@ pwd_activate_info = "คุณต้องเชื่อมต่ออยู�
 pwd_activate_failed = "Key activation ผิดพลาด!";
 pwd_activate_failed_code = "Key activation failed: ผิดพลาด %?.";
 
+/ serial number dialog
+/ the %? will be replaced by the error number:
+
+/ new 16 digit serial number dialog
+
 / re-enter password dialog
 repwd_header = "%? รหัสผ่าน.";
 repwd_subheader = "รหัสผ่านของการลงทะเบียนจำเป็นต้องใส่อีกครั้ง";
@@ -22378,6 +22708,14 @@ hangup_online = "คุณได้เชื่อต่อด้วยสัญ
 hangup_offline = "สัญญาณได้ถูกตัด";
 hangup_info = "การที่จะทำต่อไปนั้น, การเชื่อมต่อสัญญาณจะต้องถูกตัด\n\nตัดสัญญาณที่ถูกต่อเดี๋ยวนี้, กดปุ่ม Disconnect.";
 hangup_disco = "ตัดสัญญาณ";
+
+/ usage statistics
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+
+/ crash handler messages
+
+/start installation dialog
 
 / progress dialog
 progress_inst_header = "การลงโปรแกรม";
@@ -22436,6 +22774,8 @@ task_hangup = "กำลังยกเลิกการเชื่อมต�
 task_flush_registry = "กำลังนำ Registry ลงสู่ดิสก์...";
 task_cancel = "กำลังยกเลิกการทำงาน...";
 task_canceled = "การทำงานถูกยกเลิก!";
+
+/ connectivity test progress tasks
 
 / program group
 speed_pg_name = "%p การปรับปรุงการเชื่อมต่อ";
@@ -22549,6 +22889,8 @@ eml_invalid_optional_email = "โปรดใส่ที่อยู่ e-mail 
 eml_reg_failed = "การสมัครที่อยู่ e-mail ผิดพลาด";
 eml_checking_domain = "กำลังตรวจสอบที่ E-mail domain...";
 
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+
 / "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
@@ -22568,6 +22910,7 @@ order_oem = "ซื้อรุ่น Profressional เดี๋ยวนี้ 
 cfos_endsoon = "ช่วงเวลาทดลองของท่านไกล้จะหมดแล้ว  \n .ซื้อรุ่น Profressional ตอนนี้! \nสั่งซื้อได้ที่หน้า %p \n\nhttps://www.cfos.de/th/order/order.htm";
 cfos_expired = "%p รุ่นนี้ได้หมดอายุการใช้งานแล้ว \n .ซื้อรุ่น Profressional ตอนนี้! \nสั่งซื้อได้ที่หน้า %p \n\nhttps://www.cfos.de/th/order/order.htm \n\n เบอโทรศัพ +49-228-7669826 \n แฟกซ์ +49-228-7669827";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
 
 
 / Don't translate!
@@ -22774,6 +23117,7 @@ after_calibration_new = "http://www.cfos.de/tr/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/tr/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/tr/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/tr/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/tr/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Tutarlılık kontrolü bir ya da daha fazla bileşenin değiştirildiğini saptadı.\n"
    "Lütfen sitemizden değiştirilmemiş bir sürümü kurun:\n";
@@ -23686,6 +24030,7 @@ speed_mainurl = "http://www.cfos.de/id/index.htm";
 speed_updateurl = "http://www.cfos.de/id/download/download.htm";
 speed_orderurl = "https://www.cfos.de/id/order/cfosspeed-n.htm";
 preview_skins_url = "http://www.cfos.de/id/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/id/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Uji konsistensi telah mendeteksi bahwa satu komponen atau lebih telah termodifikasi.\n"
    "Silakan instal versi tak termodifikasi dari situs web kami:\n";
@@ -24575,6 +24920,7 @@ dlg_redirect_delay = "Затримка переадресації (ms):";
 / ----------------------------------------------------------------------
 
 mainurl_name = "www.cfos.de";
+traffic_shaping_htm = "https://www.cfos.de/ru/traffic-shaping/traffic-shaping.htm";
 
 component_mismatch = "Конфлікт версій між модулями програми. Будь ласка перевстановіть останню версію програми.";
 trayicon_tip = "Швидший Інтернет з трафік шейпінгом, www.cfos.de";
@@ -26168,6 +26514,12 @@ con_test_execute = "Thực hiện kiểm tra kết nối";
 
 ga_service_desc = "cFos Game Analyzer - Thực hiện thu hồi dữ liệu";
 ga_speed_installed = "cFosSpeed ​​dường như được cài đặt trên máy tính của bạn.\n\ncFosSpeed ​​đã có chứa các chức năng của cFos Game Analyzer.\n\nĐể sử dụng các tính năng mới nhất của cFos Game Analyzer, hãy tải về và cài đặt phiên bản mới nhất của cFosSpeed ​​từ www.cfos.de.";
+local_ip_addresses = "Địa chỉ IP cục bộ:";
+ga_password_subheader = "Mật khẩu để truy cập từ bên ngoài cho cFos Game Analyzer.";
+ga_password_info = "Tên người dùng: cfosspeed";
+ga_call_info = "Truy cập cFos Game Analyzer từ máy tính của bạn với\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nTruy cập cFos Game Analyzer từ một thiết bị bên ngoài với mật khẩu ở trên và sử dụng một trong các địa chỉ IP sau thay vì 'localhost':\n";
+ga_detected_by_speed = "Phát hiện một phiên bản của cFos Game Analyzer được cài đặt. cFosSpeed ​​đã có tất cả các tính năng của cFos Game Analyzer.\n\nNếu bạn tiếp tục, cFos Game Analyzer sẽ được gỡ bỏ trước khi cài đặt cFosSpeed​​.\n\nBạn có muốn tiếp tục không?";
+ga_use_password_by_speed = "Có nên để cFosSpeed ​​sử dụng mật khẩu của cFos Game Analyzer, nếu thế bạn có thể truy cập cFosSpeed từ các thiết bị khác?";
 
 / ----------------------------------------------------------------------
 /
@@ -26189,6 +26541,7 @@ after_calibration_new = "http://www.cfos.de/vi/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/vi/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/vi/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/vi/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/vi/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Việc kiểm tra tính nhất quán đã phát hiện ra rằng một hoặc nhiều thành phần đã được sửa đổi.\n"
    "Hãy cài đặt một phiên bản chưa sửa đổi từ trang web của chúng tôi:\n";
@@ -26515,6 +26868,7 @@ http_access_disabled = "Không cho phép truy cập HTTP từ xa";
 set_server_pwd = "Thiết lập mật khẩu máy chủ";
 auto_arrange_top = "Trên cùng";
 auto_arrange_bottom = "Dưới cùng";
+show_on_metro_apps = "Hiển thị trên các ứng dụng Metro";
 
 
 / ----------------------------------------------------------------------
@@ -26537,6 +26891,7 @@ brandkey_wizard_name = "%? Thuật sĩ trợ giúp đăng ký";
 config_wizard_name = "%p Giao diện thiết lập";
 continue_line = "Để tiếp tục, nhấn nút \"Tiếp\"";
 start_inst = "Để bắt đầu cài đặt, chọn Tiếp.";
+click_next_further_info = "Nhấn Next để biết thêm thông tin.";
 wizard_lang_line = "Chọn ngôn ngữ";
 
 / welcome page
@@ -26587,9 +26942,23 @@ pwd_activate_failed = "Kích hoạt tập tin đăng ký thất bại!";
 pwd_activate_failed_code = "Mã kích hoạt thất bại: lỗi %?.";
 
 / serial number dialog
+sn_header = "Số Serial.";
+sn_subheader = "Nhập số serial và kích hoạt bản quyền.";
+sn_info = "Nếu bạn có một mật khẩu gồm 16 chữ số dạng xxxx-xxxx-xxxx-xxxx, xin vui lòng "
+   "thoát khỏi hộp thoại này và nhấn đúp chuột vào tập tin bản quyền của bạn. "
+   "Một cửa sổ sẽ xuất hiện, sau đó bạn nhập mật khẩu của bạn vào.\n\n"
+   "Nếu bạn có một số serial gồm 30 chữ số dạng xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, xin vui lòng "
+   "nhập nó vào và kích hoạt key bản quyền của bạn.\n\n";
+sn_serial_number = "Số Serial:";
+sn_invalid_serial_number = "Số serial không hợp lệ. Vui lòng kiểm tra lại.";
 / the %? will be replaced by the error number:
+sn_download_err = "Lỗi %? tải về tập tin bản quyền từ máy chủ của chúng tôi.";
+sn_save_err = "Tập tin bản quyền không thể lưu tại %?.";
+sn_keyfile_err = "Tập tin bản quyền bị hỏng.";
 
 / new 16 digit serial number dialog
+sn16_info = "Vui lòng nhập số serial gồm 16 chữ số của bạn vào để nhận được key bản quyền. Lưu ý: Máy tính của bạn phải được kết nối với Internet.";
+sn16_failed = "Lỗi!";
 
 / re-enter password dialog
 repwd_header = "%? mật khẩu.";
@@ -26605,6 +26974,7 @@ instdir_src_dst = "Thư mục nguồn và đích phải khác nhau!";
 instdir_space = "Quá trình cài đặt yêu cầu %u bytes dung lượng trống. Ở đây chỉ có %u bytes trống ở thư mục cài đặt đã chọn.";
 instdir_drivetype = "Ổ đĩa được chọn không đúng. %? có thể cài đặt trên ổ đĩa khác.";
 instdir_system = "Thư mục cài đặt phải nằm trong ổ đĩa hệ thống '%?'.";
+instdir_system_recommended = "Bạn nên chọn một thư mục cài đặt trên ổ đĩa hệ thống '%?'. (Nhấn Next để tiếp tục.)";
 
 / tcp settings dialog
 tcp_header = "Điều chỉnh TCP.";
@@ -26621,12 +26991,31 @@ hangup_info = "Để tiếp tục thuật sĩ này, nên bỏ cac kết n�
 hangup_disco = "Bỏ kết nối";
 
 / usage statistics
+usage_stats = "Thống kê sử dụng";
+usage_stats_subheader = "Chọn cách %p xử lý thống kê sử dụng.";
+usage_stats_chk = "Gửi thống kê sử dụng ở chế độ ẩn danh cho cFos để cải thiện hiệu suất sản phẩm.";
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "Sử dụng cổng chuyển tiếp tự động nếu có.";
+port_forwarding_failed = "Router của bạn %? dường như không hỗ trợ cổng chuyển tiếp tự động. "
+                         "Bạn có thể kích hoạt tính năng này trong cấu hình của router.";
+port_forwarding_config = "Bạn có thể cấu hình router của bạn tại %?.";
+port_forwarding_fritz = "Kích hoạt cổng chuyển tiếp trong FRITZ!Box của bạn bằng cách cho phép thay đổi các thiết lập bảo mật thông qua UPnP "
+                        "dưới Home Network / Network / Programs";
 
 / crash handler messages
+crash_msg_crash = "Một sự cố đã xảy ra trong %p.";
+crash_msg_crash_installer = "Một sự cố đã xảy ra trong p% cài đặt chương trình.";
+crash_msg_virus = "Các mô-đun sau đây đã tự gắn chính nó vào chương trình này và có thể là một nguyên nhân của sự cố:";
+crash_msg_virus_clean = "Mô-đun này có thể là một virus. Xin hãy quét virus trên hệ thống của bạn.";
+crash_msg_hook = "Mô-đun của các chương trình khác đã được phát hiện và nó tự gắn mình vào chương trình này. Để đảm bảo rằng các mô-đun không phải là nguyên nhân của sự cố, hãy chạy chương trình này một lần nữa sau khi diệt hoặc gỡ bỏ cài đặt các chương trình sau:";
+crash_msg_terminate = "Chương trình này kết thúc ngay bây giờ.";
+crash_msg_query_upload = "Bạn có muốn gửi thông tin sự cố này cho cFos, nó sẽ giúp chúng tôi phân tích lỗi?";
 
 /start installation dialog
+start_header = "Cài đặt";
+start_subheader = "Bắt đầu cài đặt.";
+start_installation = "Bắt đầu cài đặt bây giờ.";
 
 / progress dialog
 progress_inst_header = "Cài đặt";
@@ -26640,6 +27029,7 @@ progress_driver_wait = "Xin vui lòng đợi trong khi hệ thống cài đ
 / confirm delete dialog
 conf_del_header = "Xóa tập tin cấu hình";
 conf_del_subheader = "Bạn nên xác nhận lại việc xóa các tập tin cài đặt cấu hình hoặc nói cách khác là kiểm tra thông tin cá nhân của chúng.";
+conf_del_info = "Các tập tin và thư mục cấu hình sau được tạo ra bởi %p và chưa được xóa:";
 conf_del_column = "Tên tập tin";
 conf_del_query = "Nếu bạn muốn xóa một vài tập tin này, bạn nên kiểm tra chúng từng tập tin một. Sau đó chọn nút \"Tiếp\".";
 
@@ -26649,11 +27039,14 @@ finish_info_ok = "%? đã cài đặt thành công trên máy tính của 
 finish_head_fail = "Cài đặt thất bại.";
 finish_info_fail = "Quá trình cài đặt đã thất bại vì những lý do sau:";
 finish_reboot = "Nên khởi động lại hệ thống! Chọn Kết thúc để khởi động lại ngay bây giờ hoặc Hủy bỏ để khởi động lại sau.";
+finish_uninst_driver_reboot = "Để hoàn thành quá trình gỡ bỏ, bạn phải khởi động lại hệ thống. "
+                             "Vì vậy, hãy khởi động lại hệ thống của bạn và sau đó chạy lại chương trình cài đặt một lần nữa.";
 finish_link_ok = "<a href=\"%?\">%? đặc trưng!</a>";
 finish_file_fail = "Xem tập tin nhật ký hệ thống %s cho thông tin further information.";
 finish_file_link_fail = "Xem <a href=\"file://%s\">nhật ký hệ thống</a> cho thông tin further information.";
 finish_cfosts_disabled = "Chức năng Phân loại dữ liệu đã bị tắt khi bạn chạy cFos, bởi vì %p đã có chức năng này. (Bạn có thể bật lại chức năng Phân loại dữ liệu ở trình đơn cấu hình của cFos.)";
 finish_cfosts_enabled = "Chức năng Phân loại dữ liệu đã bật khi bạn chạy cFos.";
+finish_link_checkbox = "Hiển thị các tính năng mới nhất của %p";
 
 / uninstall finish page
 ui_finish_head_ok = "Gỡ bỏ thành công.";
@@ -26676,25 +27069,37 @@ task_desktop_link = "Tạo lối tắt...";
 task_program_group = "Tạo nhóm chương trình...";
 task_registry = "Tạo các đầu mục registry...";
 task_driver = "Cài đặt trình điều khiển...";
+task_service = "Đang cài đặt dịch vụ ...";
 task_daemon = "Đang bắt đầu %?...";
 task_uninstall_old = "Đang gỡ bỏ phiên bản đang có...";
 task_stop_daemon = "Ngưng %?...";
 task_uninstall_driver = "Gỡ bỏ trình điều khiển...";
+task_uninstall_service = "Đang gỡ cài đặt dịch vụ  ...";
+task_uninstall_ga = "Đang gỡ cài đặt cFos Game Analyzer...";
 task_delete_files = "Đang xóa các tập tin...";
+task_cleanup_caches = "Đang dọn dẹp bộ nhớ cache...";
 task_hangup = "Đang hủy bỏ các kết nối trực tuyến...";
 task_flush_registry = "Lưu registry tới đĩa...";
 task_cancel = "Đang hủy bỏ...";
 task_canceled = "Đã hủy bỏ!";
 
 / connectivity test progress tasks
+task_start_program = "Đang khởi động %p...";
+task_test_localhost = "Đang kiểm tra localhost...";
+task_test_local_ip = "Đang kiểm tra địa chỉ IP cục bộ...";
+task_test_public_ip = "Đang kiểm tra địa chỉ IP công cộng...";
+task_test_finished = "Kiểm tra kết thúc.";
 
 / program group
 speed_pg_name = "Sắp xếp lại đường truyền của %?";
 pg_uninstall = "Gỡ bỏ %?";
 pg_www = "www.cfos.de";
 pg_console = "%p console";
+pg_start = "Khởi động cửa sổ trạng thái %p";
 pg_menu = "%? trình đơn";
 pg_add_connection = "Thêm kết nối";
+pg_enter_serial_number = "Nhập số serial";
+pg_configure = "Cấu hình %p";
 
 / desktop symbol
 dt_advertise = "%? Đặc trưng";
@@ -26704,13 +27109,19 @@ dt_advertise_desc = "Danh sách các đặc trưng của %?.";
 query_reboot = "Nên khởi động lại hệ thống để thay đổi có hiệu lực.\n\nKhởi động lại ngay bây giờ?";
 query_drv_inst_cancel = "Trình điều khiển được cài đặt (gỡ bỏ) là được thực hiện bởi hệ điều hành.\nGiao diện cài đặt của Windows có thể yêu cầu tới 15 phút để \nđăng ký hoặc bỏ đăng ký một trình điều khiển!\n\nNó là điều chắc chắn nên hủy bỏ tiến trình này trừ phi \nbạn đã sẳn sàng đợi.\n\nBạn thực sự muốn hủy bỏ?";
 query_driver_err_abort = "Có một lỗi trong quá trình cài đặt trình điều khiển thiết bị!\nVì thế bạn nên bỏ cài đặt ngay bây giờ.\n\nDù nếu tiếp tục cài đặt,\ncó nghĩa là nó sẽ cẩn thận kiểm tra lại. Vui lòng giữ lại\nsự lưu ý này vì %p sẽ có thể không thực thi đúng.\n\nBỏ cài đặt? (nên dùng)";
+query_further_info = "Bạn muốn biết thêm thông tin?";
 
 / error messages
 err_driver_inst = "Cài đặt trình điều khiển thất bại.";
+err_service_inst = "Cài đặt dịch vụ thất bại.";
+err_service_uninst = "Gỡ bỏ dịch vụ thất bại.";
 err_daemon_start = "Không thể bắt đầu %?.";
 err_uninst_old = "Phiên bản hiện tại không thể gở bỏ. Vui lòng đăng xuất từ hệ thống và sau đó đăng nhập để thử lại.";
 err_os = "Hệ điều hành của bạn là %?.\n\n%? yêu cầu 2000/XP hoặc cao hơn để thực thi.";
 err_os_minxp = "Hệ điều hành của bạn là %?.\n\n%? yêu cầu XP hoặc cao hơn để thực thi.";
+err_os_sup = "%p hỗ trợ chính thức duy nhất %? hoặc cao hơn.\n\n"
+             "Nó là có thể hoạt động tuy nhiên chưa được chúng tôi thử nghiệm, nhưng %p cũng chạy trên hệ điều hành của bạn %?.\n\n"
+             "Bạn có muốn tiếp tục cài đặt?";
 err_uninst_driver = "Không thể gở bỏ trình điều khiển thiết bị.";
 err_create_process = "Lỗi khi đang gọi %s: %s";
 err_write_lock = "%? các thành phần mạng đang được dùng bở các tiến trình khác. Vui lòng thoát các ứng dụng đang chạy hoặc khởi động lại hệ thống và thử lại.";
@@ -26741,8 +27152,22 @@ err_uninst_daemon =
    "Không thể tháo gỡ chương trình chính. "
    "Nếu vẫn còn %p hộp thoại nào đang mở, vui lòng đóng chúng trước. "
    "Nếu không hãy khởi động lại máy tính của bạn.";
+err_activate_10045 =
+   "Lỗi HTTP 10045 đã xảy ra trong quá trình kích hoạt.\n"
+   "Một lý do có thể là Winsock của bạn bị hỏng.\n"
+   "Để thiết lập lại Winsock của bạn hãy mở Command Prompt\n"
+   "và nhập vào 'netsh winsock reset'.\n"
+   "Sau đó khởi động lại máy tính của bạn và thử lại\n"
+   "một lần nữa.";
+err_activate_12002 =
+   "Lỗi HTTP 12002 (yêu cầu thời gian chờ) đã xảy ra trong suốt\n"
+   "quá trình cài đặt. Một lý do có thể do kết nối đến máy chủ của chúng tôi\n"
+   "cần thiết cho việc đăng ký đang bị chặn bởi tường lửa, phần mềm chống virus\n"
+   "hoặc các loại khác của phần mềm bảo mật. Nếu bạn có bất kỳ\n"
+   "chương trình cài đặt nào đang hoạt động, hãy tạm thời tắt chúng và thử lại việc đăng ký.";
 / %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "Lỗi trong khi sao chép tập tin %1 tới %2 (%3).";
+err_port_in_use = "Cổng kết nối của máy chủ %? đã được sử dụng bởi một chương trình khác.\n\nChương trình: %?\nĐường dẫn: %?";
 
 / warning messages
 wrn_oem_update = "Bạn đã có một bản quyền %p được cài.\n\n"
@@ -26751,6 +27176,7 @@ wrn_oem_update = "Bạn đã có một bản quyền %p được cài.\n\n"
   "Bản cập nhật cho %p có bản quyền của bạn có thể tìm thấy tại chỗ\n"
   "bạn mua nó ban đầu.\n\n"
   "Bạn vẫn muốn tiếp tục cài đặt này?";
+wrn_close_application = "Khuyến cáo: Đóng các ứng dụng sau trước khi tiếp tục:";
 
 / traffic shaping algorithm
 tsa_header = "Chế độ Traffic Shaping (Phiên bản nhiều người sử dụng)";
@@ -26783,6 +27209,8 @@ eml_invalid_email = "Địa chỉ email bạn vừa nhập vào không hợp l�
 eml_invalid_optional_email = "Vui lòng nhập địa chỉ E-mail hợp lệ hoặc không nhập gì cả.";
 eml_reg_failed = "Đăng kí địa chỉ Email không thành công.";
 eml_checking_domain = "Đang kiểm tra domain của Email...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
 / "360safe" ---- only the Chinese translations are needed ----
 
@@ -28394,6 +28822,7 @@ after_calibration_new = "http://www.cfos.de/zh-cn/traffic-shaping/calibration-me
 expiration_cfosspeed_new_htm = "http://www.cfos.de/zh-cn/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/zh-cn/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/zh-cn/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/zh-cn/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "完整性校验发现一个或多个程序组件已被修改。\n"
    "请在我们的网站重新下载安装原始版本:\n";
@@ -30062,6 +30491,8 @@ htm_lang_prefix = "pt";
 /
 / ----------------------------------------------------------------------
 
+ignore_ssl_cert_chk = "Ignorar erros de certificado SSL (inseguro)";
+ignore_ssl_cert_desc = "Se o cFos Outlook DAV ignorar erros de certificado SSL, poderá ligar-se a servidores com certificados SSL inseguros, como por exemplo certificados SSL auto assinados. Ativar esta opção não é recomendável por regra, porque torna uma ligação SSL vulnerável a ataques man-in-the-middle attacks.";
 
 / ----------------------------------------------------------------------
 /
@@ -30179,6 +30610,8 @@ con_test_execute = "Executar teste de conectividade";
 /
 / ----------------------------------------------------------------------
 
+ga_service_desc = "cFos Game Analyzer - Obtenção de Dados de Performance";
+ga_speed_installed = "Parece que o cFosSpeed está instalado no seu computador.\n\nO cFosSpeed contém as funcionalidades do cFos Game Analyzer.\n\nPara utilizar as funcionalidades mais recentes do cFos Game Analyzer, por favor descarregue e instale a versão mais recente do cFosSpeed a partir de www.cfos.de.";
 
 / ----------------------------------------------------------------------
 /
@@ -30200,6 +30633,7 @@ after_calibration_new = "http://www.cfos.de/pt/traffic-shaping/calibration-messa
 expiration_cfosspeed_new_htm = "http://www.cfos.de/pt/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/pt/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/pt/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/pt/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "O verificador de consistência detetou que um ou mais componentes foram modificados.\n"
    "Por favor, instale uma versão não modificada através do nosso website:\n";
@@ -30517,6 +30951,8 @@ enable_smartphone_skins = "Skins de Smartphone";
 http_access_enabled = "Acesso remoto por HTTP permitido";
 http_access_disabled = "Acesso remoto por HTTP bloqueado";
 set_server_pwd = "Definir Palavra Passe do Servidor";
+auto_arrange_top = "No Topo";
+auto_arrange_bottom = "No Fundo";
 
 
 / ----------------------------------------------------------------------
@@ -30717,10 +31153,12 @@ task_desktop_link = "A criar um atalho no Ambiente de Trabalho...";
 task_program_group = "A criar o grupo de programas...";
 task_registry = "A escrever as entradas no Registo do Windows...";
 task_driver = "A instalar Controlador...";
+task_service = "A instalar serviço...";
 task_daemon = "A iniciar %?...";
 task_uninstall_old = "A desinstalar a versão actual...";
 task_stop_daemon = "A parar %?...";
 task_uninstall_driver = "A desinstalar Controlador...";
+task_uninstall_service = "A desinstalar serviço...";
 task_delete_files = "A apagar ficheiros...";
 task_cleanup_caches = "Limpeza de caches...";
 task_hangup = "A desligar ligações activas ...";
@@ -30744,6 +31182,7 @@ pg_start = "Iniciar janela de estado %p";
 pg_menu = "Menu %?";
 pg_add_connection = "Adicionar conexão";
 pg_enter_serial_number = "Introduza número de série";
+pg_configure = "Configurar %p";
 
 / desktop symbol
 dt_advertise = "Características do %?";
@@ -30757,6 +31196,8 @@ query_further_info = "Gostaria de mais informações?";
 
 / error messages
 err_driver_inst = "A instalação do controlador falhou.";
+err_service_inst = "A instalação do serviço falhou.";
+err_service_uninst = "A desinstalação do serviço falhou.";
 err_daemon_start = "Não foi possível iniciar %?.";
 err_uninst_old = "A versão existente não pôde ser removida. Por favor reinicie o seu computador e tente novamente.";
 err_os = "O seu sistema operativo é %?.\n\n%? Precisa do Windows 2000/XP ou posterior para funcionar.";
@@ -30838,6 +31279,8 @@ eml_invalid_email = "O e-mail que digitou não é valido .";
 eml_invalid_optional_email = "Por favor escreva um endereço de e-mail válido ou deixe este campo em branco.";
 eml_reg_failed = "O registo do correio eletrônico falhou.";
 eml_checking_domain = "A verificar o domínio do e-mail...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
 / "360safe" ---- only the Chinese translations are needed ----
 wrn_unknown_360 = "Versão desconhecido do 360safe encontrado. Por favor, faça,\nVocê tem a certeza que a versão mais recente do 360safe está instalado.";
