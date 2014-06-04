@@ -62,3 +62,7 @@ pnet_wmi_p10 = "The first &quot;Presets&quot; Menu offers (in our opinion) very 
 
 pnet_wmi_p11 = "The second &quot;Process Menu&quot; lists all currently running Windows processes, so you can use cFos WMI Monitor to monitor processes. cFos WMI Monitor displays the CPU usage of the processes or N/A if the process is not running anymore. So cFos WMI Monitor can serve as a process watch dog.";
 	`&quot;Process Menu&quot;` -> `&quot;Processes&quot; menu`
+
+#2014-06-04
+
+	cFos Twitter Notifier -> cFos Notifier
