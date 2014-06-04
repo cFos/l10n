@@ -28,7 +28,7 @@ Website translation status
 |     | ko - 1042         |      1200 |                                                   |       |
 |     | nl - 1043         |       600 |                                                   |       |
 |     | pl - 1045         |       350 |                                                   |       |
-|     | pt-br - 1046      |       180 |                                                   |       |
+|     | pt-br - 1046      |        50 |                                                   |       |
 |     | ro - 1048         |      1400 |                                                   |       |
 | `p` | ru - 1049         |       270 | in progrees (by Serj Lavre)                       |       |
 |     | sv - 1053         |      1200 |                                                   |       |
