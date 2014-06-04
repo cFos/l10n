@@ -5,3 +5,13 @@
 
 ga_speed_installed = "cFosSpeed appears to be installed on your computer.\n\ncFosSpeed already contains the functionality of the cFos Game Amalyzer.\n\nTo use the latest features of the cFos Game Analyzer, please download and install the latest version of cFosSpeed from www.cfos.de.";
 	`Amalyzer` -> `Analyzer`
+
+
+#2014-06-04
+
+// has to be reviewed due to changes
+http_access_enabled = "HTTP access from remote is allowed";
+http_access_disabled = "HTTP access from remote is forbidden";
+	-> (new sentence and dots)
+http_access_enabled = "Password set, HTTP access from remote is allowed.";
+http_access_disabled = "No password set, HTTP access from remote is forbidden.";
