@@ -20,17 +20,17 @@ Website translation status
 |     | de - 1031         |       100 |                                                   |       |
 | `G` | el - 1032         |           |                                                   |       |
 |     | es - 1034         |       110 |                                                   |       |
-|     | fr - 1036         |       220 |                                                   |       |
+|     | fr - 1036         |       200 |                                                   |       |
 |     | he - 1037         |      1900 |                                                   |       |
 | `G` | hu - 1038         |       320 |                                                   |       |
-|     | it - 1040         |       500 | done 1560 strings by Massimo Castiglia 2013-09-30 |       |
+|     | it - 1040         |       420 | done 1560 strings by Massimo Castiglia 2013-09-30 |       |
 | `G` | ja - 1041         |      1600 |                                                   |       |
 |     | ko - 1042         |      1200 |                                                   |       |
 |     | nl - 1043         |       600 |                                                   |       |
 |     | pl - 1045         |       350 |                                                   |       |
 |     | pt-br - 1046      |        50 |                                                   |       |
 |     | ro - 1048         |      1400 |                                                   |       |
-| `p` | ru - 1049         |       270 | in progrees (by Serj Lavre)                       |       |
+| `p` | ru - 1049         |       270 | in progrees (by Serj Lavrin)                      |       |
 |     | sv - 1053         |      1200 |                                                   |       |
 | `G` | th - 1054         |       700 |                                                   |       |
 |     | tr - 1055         |       320 |                                                   |       |
