@@ -76,3 +76,12 @@ cont_select_l2 = "Click on gear and then \"Options\"";
 cont_select_l3 = "Now proceed to \"Safe and blocked senders\" under \"Preventing junk email\"";
 cont_select_l4 = "Go to \"Safe senders\" and add our e-mail address.";
 	those string were updated to match modern Outlook GUI
+
+#2014-06-07
+
+no_ping_pccillin = "<h4>PC cillin 2007:</h4><p>To allow the Windows tracert command for PC Cillin 2007 just follow this steps:</p><ol><li>Open the PC Cillin main console->network- and firewall-control->personal firewall->settings->select account->edit->network control->add</li><li>Now you can <samp>add</samp> 2 new protocols. </li><li>for outgoing connections:<br /><samp>(default) allow for outgoing connections<br />(protocol) icmp<br />(port) all ports<br />(ip-settings) all ip-settings<br /></samp></li><li>For incoming connections just repeat step 3 for incoming connections</li></ol>";
+	->
+// fixed first `cillin` and added spaces before and after `->`, fixed capital latter in `for outgoing connections:`
+no_ping_pccillin = "<h4>PC Cillin 2007:</h4><p>To allow the Windows tracert command for PC Cillin 2007 just follow this steps:</p><ol><li>Open the PC Cillin main console -> network- and firewall-control -> personal firewall -> settings -> select account -> edit -> network control -> add</li><li>Now you can <samp>add</samp> 2 new protocols. </li><li>For outgoing connections:<br /><samp>(default) allow for outgoing connections<br />(protocol) icmp<br />(port) all ports<br />(ip-settings) all ip-settings<br /></samp></li><li>For incoming connections just repeat step 3 for incoming connections</li></ol>";
+
+	Youtube -> YouTube
