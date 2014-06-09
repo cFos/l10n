@@ -23,7 +23,7 @@ Website translation status
 |     | fr - 1036         |       200 |                                                   |       |
 |     | he - 1037         |      1900 |                                                   |       |
 | `G` | hu - 1038         |       320 |                                                   |       |
-|     | it - 1040         |       420 | done 1560 strings by Massimo Castiglia 2013-09-30 |       |
+|     | it - 1040         |        34 | done 1560 strings by Massimo Castiglia 2013-09-30 |       |
 | `G` | ja - 1041         |      1600 |                                                   |       |
 |     | ko - 1042         |      1200 |                                                   |       |
 |     | nl - 1043         |       600 |                                                   |       |
