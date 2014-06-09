@@ -42,7 +42,7 @@ Software translation status
 |     | mk - 1071         |           |                                                       |       |
 |     | farsi - 1256      |           |                                                       |       |
 |     | zh-cn - 2052      |        17 |                                                       |       |
-| `G` | es-mx - 2058      |           |                                                       |       |
+| `G` | es-mx - 2058      |       600 |                                                       |       |
 | `G` | pt - 2070         |        22 | done (2014-04-21) by Adriano Maia                     |       |
 | `G` | sr-cs-latn - 2074 |           |                                                       |       |
 |     | sr-cyrl-cs - 3098 |           |                                                       |       |
