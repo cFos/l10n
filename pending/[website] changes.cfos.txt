@@ -85,3 +85,11 @@ no_ping_pccillin = "<h4>PC cillin 2007:</h4><p>To allow the Windows tracert comm
 no_ping_pccillin = "<h4>PC Cillin 2007:</h4><p>To allow the Windows tracert command for PC Cillin 2007 just follow this steps:</p><ol><li>Open the PC Cillin main console -> network- and firewall-control -> personal firewall -> settings -> select account -> edit -> network control -> add</li><li>Now you can <samp>add</samp> 2 new protocols. </li><li>For outgoing connections:<br /><samp>(default) allow for outgoing connections<br />(protocol) icmp<br />(port) all ports<br />(ip-settings) all ip-settings<br /></samp></li><li>For incoming connections just repeat step 3 for incoming connections</li></ol>";
 
 	Youtube -> YouTube
+
+#2014-06-09
+
+	WiFi -> Wi-Fi
+
+#2014-06-09
+
+	statefull -> stateful
