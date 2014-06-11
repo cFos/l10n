@@ -1,34 +1,9 @@
-
-/ strings, which should be updated in all files
-/ NOT FOR TRANSLATION!
-
-
-#date 2014-03-10
-
-pnet_wmi_l1e = "RX cps rate";
-pnet_wmi_l1f = "TX cps rate";
-	cps rate -> cps
+﻿
+/. Strings, which should be updated in all files
+/. NOT FOR TRANSLATION!
 
 
-#date 2014-03-17
-
-pnet_wmi_p4 = " To prevent others from accessing your WMI data, the cFos WMI Monitor requires a valid user by means of HTTP authentication. So you should configure a user, for example <b>admin</b> in cFos PNet. You can do this by re-running the setup. Or you can add a new user, for example user wmi, by running opening <em>/users/index.htm</em> as admin.";
-	-> removed leading space
-
-
-#date 2014-04-09
-
-uninst_h1_speed = "cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> has been uninstalled";
-uninst_p1_speed = "Thank you for trying out cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span>. Please help us improve cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> by telling us why you uninstalled it. Your feedback is very important to us.";
-uninst_assess_speed = "How do you assess the following components of cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span>?";
-uninst_install_help_start1 = "Difficulties installing cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span>";
-uninst_pingtime_inc = "cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> increased my ping";
-uninst_speed_reduce = "cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> reduced my speed";
-uninst_speed_guide = "Before you completely uninstall cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span>, our <a onclick=\"cfos.set_event('speed_feedback', 'speed_guide'); return true;\" href=\"/en/traffic-shaping/speed-guide.htm\" target=\"_blank\"><b>Speed Guide</b></a> may be a solution for you. It helps you solve the most important speed, ping or prioritization problems. If you start it with cFosSpeed<span class=\"asus\"> / ROG GameFirst II</span> installed, it can evaluate your connection characteristics and adapt the solution to your connection.";
-	`ROG GameFirst II` -> `ROG GameFirst II / Turbo LAN` | Commit: b28fe0c0186589ea94882bece0327f3d8fcbe1d4
-
-
-#date 2014-05-01
+#2014-05-01
 
 pnet_doc_media_p2a = "The root directory for media (audio, video, images) is by default <em>media</em> in the <em>public</em> directory. You can change it with the key <b>media_dir=&lt;directory&gt;</b> in the <b>[param]</b> section of GLOBAL.INI. It should be a subdirectory of <em>public</em>.";
 	`<em>public</em>`  -> `<em>pub</em>`
@@ -37,25 +12,20 @@ pnet_doc_scripts_p3 = "In the <em>public</em> folder is a sub-folder <em>users</
 	`<em>public</em>`  -> `<em>pub</em>`
 
 
-#date 2014-05-04
+#2014-05-04
 
 pnet_wmi_p4 = "To prevent others from accessing your WMI data, the cFos WMI Monitor requires a valid user by means of HTTP authentication. So you should configure a user, for example <b>admin</b> in cFos PNet. You can do this by re-running the setup. Or you can add a new user, for example user wmi, by running opening <em>/users/index.htm</em> as admin.";
 	-> removed `running` before `opening`
 
 
-#date 2014-05-06
-
-zip_tip = "You can extract the ZIP-files listed above for example with <a class=\"inline\" href=\"http://www.pkware.com\">PKZIP</a>, <a class=\"inline\" href=\"http://www.winzip.de\">WinZIP</a> or <a class=\"inline\" href=\"http://www.cdrom.com/pub/infozip/\">Info-ZIP</a>";
-	`href=\"http://www.cdrom.com/pub/infozip/\"` -> `href=\"http://www.info-zip.org/\"`
-
-
-#date 2014-05-08
+#2014-05-08
 
 	`google` and it's services -> `Google Calendar` etc
 
 	`webserver` -> `web server`
 
-#date 2014-05-08
+
+#2014-05-08
 
 pnet_wmi_p10 = "The first &quot;Presets&quot; Menu offers (in our opinion) very useful values, like CPU load and frequency as well as network adapter send and receive speed. It also contains interesting <b>cFosSpeed</b> and <b>Open Hardware Monitor</b> values.";
 	`&quot;Presets&quot; Menu` -> `&quot;Presets&quot; menu`
@@ -63,19 +33,6 @@ pnet_wmi_p10 = "The first &quot;Presets&quot; Menu offers (in our opinion) very 
 pnet_wmi_p11 = "The second &quot;Process Menu&quot; lists all currently running Windows processes, so you can use cFos WMI Monitor to monitor processes. cFos WMI Monitor displays the CPU usage of the processes or N/A if the process is not running anymore. So cFos WMI Monitor can serve as a process watch dog.";
 	`&quot;Process Menu&quot;` -> `&quot;Processes&quot; menu`
 
-#2014-06-04
-
-	cFos Twitter Notifier -> cFos Notifier
-
-#2014-06-06
-
-	Hotmail -> Outlook
-
-cont_select_l1 = "Login to your Outlook account.";
-cont_select_l2 = "Click on gear and then \"Options\"";
-cont_select_l3 = "Now proceed to \"Safe and blocked senders\" under \"Preventing junk email\"";
-cont_select_l4 = "Go to \"Safe senders\" and add our e-mail address.";
-	those string were updated to match modern Outlook GUI
 
 #2014-06-07
 
@@ -89,9 +46,3 @@ no_ping_pccillin = "<h4>PC Cillin 2007:</h4><p>To allow the Windows tracert comm
 #2014-06-09
 
 	WiFi -> Wi-Fi
-
-	statefull -> stateful
-
-#2014-06-10
-
-	WIMAX -> WiMAX
