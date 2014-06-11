@@ -1,4 +1,4 @@
-
+﻿
 // List of keys, which were changed in master file and requires new translation
 
 #2014-05-04
