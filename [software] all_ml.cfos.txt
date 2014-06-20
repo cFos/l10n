@@ -7713,7 +7713,7 @@ auto_arrange_top = "Top";
 auto_arrange_bottom = "Bottom";
 show_on_metro_apps = "Show on Metro apps";
 traffic_shaping_info = "Traffic Shaping Info";
-wlan_access_point = "WiFi access point";
+wlan_access_point = "Wi-Fi access point";
 prioritize_foreground_process = "Prioritize process in foreground window";
 prioritize_foreground_help = "Automatically set the priority of the process in foreground window to high.";
 
@@ -14092,6 +14092,15 @@ con_test_execute = "接続テストを実行";
 
 / ----------------------------------------------------------------------
 /
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+ga_detected_by_speed = "システムにインストールされた cFos Game Analyzer を検出しました。cFosSpeed には cFos Game Analyzer のすべての機能が含まれています。\n\nここで続行を選択すると cFosSpeed をインストールする前にcFos Game Analyzer のアンインストールが実行されます。\n\n続行しますか?";
+ga_use_password_by_speed = "他のデバイスから cFosSpeed にアクセスする為に cFos Game Analyzer のパスワードを cFosSpeed で使用しますか?";
+
+/ ----------------------------------------------------------------------
+/
 /  cFosSpeed
 /
 / ----------------------------------------------------------------------
@@ -14431,6 +14440,9 @@ preview_skins = "スキンのプレビュー";
 http_access_enabled = "リモートからのHTTPアクセスを許可";
 http_access_disabled = "リモートからのHTTPアクセスを許可しない";
 set_server_pwd = "サーバーパスワードを設定";
+auto_arrange_top = "上部";
+auto_arrange_bottom = "下部";
+traffic_shaping_info = "トラフィック制御情報";
 
 
 / ----------------------------------------------------------------------
@@ -14519,6 +14531,8 @@ sn_save_err = "キーファイルをディスク上の %? に保存できませ�
 sn_keyfile_err = "キーファイルが壊れています。";
 
 / new 16 digit serial number dialog
+sn16_info = "あなたのライセンスキーとして受け取った 16 桁のシリアル番号を入力してください。ライセンスキーを受け取るためには、インターネット接続環境が必要になります。";
+sn16_failed = "ライセンスキーの取得に失敗!";
 
 / re-enter password dialog
 repwd_header = "%? パスワード";
@@ -14633,6 +14647,7 @@ task_daemon = "%?をスタートしています";
 task_uninstall_old = "既存バージョンをアンインストールしています";
 task_stop_daemon = "%?を停止しています";
 task_uninstall_driver = "ドライバをアンインストールしています";
+task_uninstall_ga = "cFos Game Analyzer をアンインストール中...";
 task_delete_files = "ファイルを削除しています";
 task_cleanup_caches = "キャッシュをクリーンアップしています...";
 task_hangup = "インターネット接続を切断しています";
@@ -14776,7 +14791,24 @@ eml_invalid_optional_email = "してください有効な電子メールアド�
 eml_reg_failed = "E - mailアドレスの登録に失敗しました。";
 eml_checking_domain = "をチェックする電子メールドメイン...";
 
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p 仮想 Wi-Fi 開始ウィザード";
+virtual_wifi_header = "仮想 Wi-Fi を開始";
+virtual_wifi_subheader = "ソフトウェアベースのワイヤレス アクセスポイントのセットアップと、インターネット接続共有の有効化";
+virtual_wifi_info = "インターネット トラフィックを送るネットワーク接続と、ワイヤレス アクセスポイントのパスワードを選択してください";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_ics_not_available = "インターネット接続共有はこのコンピュータで利用できません";
+virtual_wifi_error_get_cons = "ネットワーク接続の取得に失敗";
+virtual_wifi_ics_warning = "インターネット接続共有は、以下のネットワークで既に有効にされています:\n%?\n\n代わりにこのネットワークを使用しますか:\n%?";
+virtual_wifi_error_enable_ics = "インターネット接続共有の有効化に失敗";
+virtual_wifi_error_start = "仮想 Wi-Fi の開始に失敗";
+virtual_wifi_ok = "仮想 Wi-Fi およびインターネット接続共有のアクティベートが完了しました\n\n注意: クライアントの仮想 Wi-Fi への接続後、インターネットに接続できない場合は、%p をアンインストールしてから再インストールしてください";
+
 / "360safe" ---- only the Chinese translations are needed ----
+wrn_unknown_360 = "バージョンが不明な 360safe を検出しました、360safe\nは、最新版をインストールしておいてください。";
+err_360_too_old = "この PC にインストールされているバージョンの 360safe は\n%p と共存させることができません。この問題を解決するには\nまず最新バージョンの 360safe を入手してください。\nそして次のステップを実行します:\n1. 360safe をアンインストール\n2. %p をインストール\n3. 最新版の 360safe をインストール";
+wrn_360_might_fail = "この PC 内にプログラム 360safe が検出されました\n360safe が稼働している状態では、%p のインストールに失敗\nする可能性があります。%p のインストールに失敗する場合\nは、360safe の最新版を入手後、以下の順序でステップを\n実行してください:\n1. 360safe をアンインストール\n2. %p をインストール\n3. 最新版の 360safe をインストール";
+err_360_device_opened = "%p をインストールすることが出来ません、次のプログラムにより\n%p デバイスドライバが開かれています:\n%?\nこれはおそらくこの PC で 360safe が稼働している事が原因\nとなっています。%p をインストールするには、最新版の 360safe を\n入手後、次のステップを実行してみてください:\n1. 360safe をアンインストール\n2. %p をインストール\n3. 最新版の 360safe をインストール";
 
 / ----------------------------------------------------------------------
 /
@@ -30485,6 +30517,427 @@ eml_invalid_email = "The e-mail address you've entered is invalid.";
 / Don't translate!
 / END SECTION: don't translate
 
+#language 2058
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+
+/ ----------------------------------------------------------------------
+/
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+
+/ connection entry dialog
+
+/ pnet configuration dialog
+
+/ pnet start type dialog
+
+/ pnet context menu entry
+
+/ pnet backup info
+
+/ pnet
+
+/ pnet connectivity test
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+
+
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "Su licencia %3 caducará en %1 %2.";
+
+service_desc = "Realiza una medición de la latencia y operaciones privilegiadas para %p";
+no_pings_error = "Los paquetes de ping enviados por %p parecen no estar logrando llegar. "
+                 "Sin estos paquetes,el Traffic Shapping %p no puede funcionar adecuadamente. "
+                 "Haga clic aquí para ayuda";
+other_languages = "Otros idiomas";
+install_dir = "Directório de instalación: ";
+ask_clear_tsdata = "¿Limpiar los datos del Traffic Shaping y comenzar una nueva calibración de la línea?";
+allow_traffic_shaping = "Permitir el Traffic Shaping para esta conexión";
+none = "ninguno";
+lic_expired = "Su periodo de prueba ha terminado. El %1 ha sido desactivado. ¡Adquiera el %1 hoy!";
+settings = "Configuraciones";
+winsettings = "Configuraciones de las ventanas";
+openwindow = "Mostrar ventana";
+openwindows = "Mostrar ventanas";
+closewindow = "Esconder ventana";
+closewindows = "Esconder ventanas";
+autoopen = "Mostrar/esconder automáticamente";
+taskbaricon = "Icono en la bandeja de sistema";
+autoarrange = "Auto-organizar las ventanas";
+effects = "Efectos";
+blend_effect = "Desvanacer las ventanas";
+slide_effect = "Deslizar las ventanas";
+win_behaviour = "Usar el comportamiento predeterminado del sistema";
+selectskin = "Elegir piel";
+topmost = "Siempre en cima";
+defpos = "Posición predeterminada";
+disco_ras = "Terminar la sessión ";
+config = "Opciones";
+order = "¡Adquiera ahora!";
+dayl_singular = "día";
+dayl_plural = "días";
+days_singular = "día";
+days_plural = "días";
+/ %1=number, %2="day/days"
+short_try = "Pruebe durante %1 %2";
+short_dexpire = "Expirado %1 %2";
+
+short_exp = "¡Expirado!";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "Su periodo de evaluación ha caducado para el %1 %2. ¡Adquiera %3 hoy!";
+lic_try = "Puede probar al %3 durante %1 %2 antes de tener que comprarlo.";
+
+enable_win = "¿Habilitar el estado de la ventana?\n\n"
+   "La ventana de estado muestra el estado de su conexión activa.";
+license = "Licencia";
+licensed_to = "Registrado a nombre de %?";
+upgrade = "Obtenga la última versión";
+connect_to = "Conecte a";
+make_own_skin = "Diseñe su propia piél";
+click_through = "Haga clic a través";
+ask = "Preguntar";
+off = "Apagado";
+on = "Encendido";
+note = "Nota";
+deactivated = "desactivado";
+browser_warning = "¡El Internet Explorer versión 8 o mas reciente es la recomendada para este cuadro de diálogo!";
+ole_error = "Para poder usar este dialogo de configuración,\\n%p deberá estar instalado y ejecutándose en su computadora.\\n Por favor verifique esto y vuelva a instalar, de ser necesario.";
+ts_settings = "Configuraciones del Traffic Shaping";
+preferences = "Preferencias";
+prio_protocols = "Priorizando protocolos";
+protocol = "Protocolo";
+protocols = "Protocolos";
+prio_programs = "Priorizando progromas";
+program = "Programa";
+programs = "Programas";
+current_connections = "Conexiones actuales";
+current_connections_advanced = "Conexiones actuales (Avanzado)";
+current_connections_standard = "Conexiones actuales (Normal)";
+ts_prios = "Prioridades del Traffic Shaping";
+client_protocols = "Protocolos de cliente";
+server_protocols = "Protocolos de servidor";
+client_server_protocols = "Protocolos de cliente y servidor";
+media_streaming = "Media Streaming";
+file_sharing = "Compartir archivos";
+special = "Especial";
+other = "Otros";
+misc_high_short = "Varios alto";
+misc_high = "Tráfico variado con alta prioridad";
+hint = "Consejo";
+hint_text = "La priorización funcionará debidamente solamente si se le asignara una cantidad pequeña y controlada de datos. A los programas que envien grandes cantidades de datos se les debe asignar una prioridad baja. La priorización de los protocolos es realizada antes que la priorización de los programas.";
+prio_doc_link = "¿Cómo funciona el esquema de priorización?";
+save_protocols = "Guardar los protocolos";
+undo = "Deshacer";
+filter_selection = "Filtrar selección";
+higher = "Mas alto";
+high = "Alto";
+normal = "Normal";
+default = "Predeterminado";
+low = "Bajo";
+lower = "El más bajo";
+entries = "Entradas";
+prog_overwrite = "El programa #p ya se encuentra en la lista.\\n ¿desea sobreescribir la entrada con los nuevos valores?";
+games = "Juegos";
+voip = "Voz-sobre-IP";
+remote_control = "Control Remoto";
+prog_hint_text = "La priorización funcionará debidamente solamente si se le asignara una cantidad pequeña y controlada de datos. A los programas que envien grandes cantidades de datos se les debe asignar una prioridad baja. La priorización de los protocolos es realizada antes que la priorización de los programas.<br />";
+save_priorities = "Guardar prioridades";
+delete = "Borrar";
+aux_lines = "Líneas auxiliares";
+higher_prog_help = "Voice-over-IP, quizás juegos en línea";
+high_prog_help = "Juegos, Streamed Media, Telnet y otros programas interactivos";
+low_prog_help = "Datos de servidor, datos FTP";
+lower_prog_help = "Tráfico permanente en segundo plano, como el compartir archivos";
+delete_help = "Remover de la lista (ej., tratar los paquetes como normal).";
+prog_help = "La transferencia de los paquetes marcados ocmo de baja (o la más baja) prioridad será ralentizada solamente si hubieran datos etiquetados ocn mayor prioridad y siendo procesados en ese momento en particular. En caso contrario, los datos marcados como de baja proridad osn transmitidos a maxima velocidad.";
+filename = "Nombre de archivo";
+description = "Descripción";
+new_program = "Añadir programa";
+restore_defaults = "Restablecer valores predeterminados";
+add = "Añadir";
+suggest_program = "Sugiera este programa al equipo de cFos";
+l7_prot_detection = "Detección del protocolo de capa-7";
+l7_prot_detection_help = "Detecta protocolos al analizar los datos. Use el dialogo 'Priorizar protocolos' para cambiar la prioridad de losvarios protocolos. si usted desactiva esta opción, los protocolos serán detectados según el numero de puerto usado.";
+favor_ping = "Favorecer el tiempo de Ping";
+favor_ping_help = "<b>Encendido</b>: %p minimizará los tiempos de ping al costo de un ligera baja en el ancho de banda (de ser necesario).<br /><b>apagado</b>: %p maximizará el ancho de banda al pequeño costo de aumentar un poco los tiempos de ping (de ser necesario).";
+favor_bandwidth = "Favorecer el ancho de banda";
+avoid_loss = "Evitar la perdida de paquetes";
+avoid_loss_help = "%p cierra las ventanas de recepción del TCP para el stream de entrada si se llega a detectar demasiadas perdidas de paquetes. Esto solo suele suceder cuando sus conexiones están recibiendo a velocidad máxima. (Recomendado para un Traffic Shaping mejorado de las descargas)";
+activate_firewall = "Activar el Firewall";
+activate_firewall_help = "Protección contra las intrusiones en la red mediante el filtrado de los paquetes peligrosos,inspección del estado y del modo escondido o stealth.";
+mtu_opt = "Optimización automática MSS (MTU)";
+mtu_opt_help = "Ajusta el MSS/MTU para la velocidad máxima de transferencia. Por lo general, los valores variando entre el rango de 1500/1492 producen las velocidades mayores.";
+strict_rtp = "chequeos estríctos RTP";
+strict_rtp_help = "De estar activados, %p reconocerá solamente a aquellos paquetes como siendo RTP simepre y cuando contengan un ID valido de la fuente RTCP. Usted debiera desactivar esta opción para los programas que usen los protocolos Voice-over-IP (como el VoIPBuster) que no envían paquetes RTCP. Solamente active esta opción si el tráfico está siendo erroneamente clasificado como RTP.";
+ts_config = "%p configuración del Traffic Shaping";
+dialup_connection = "Conexión de discado";
+dialup_connections = "Conexiones de discado";
+traffic_shaping = "Traffic Shaping";
+ras_con_help = "<b>Si</b>: activar, <b>no</b>: desactivar, <b>preguntar</b>: pregunta una vez y luego guarda la configuración";
+router_connections = "conexiones del enrutador";
+net_components = "componentes de Red";
+router_help = "<b>Si</b>: activar, <b>no</b>: desactivar, <b>auto</b>: habilita el Traffic Shaping, si el router es encontrado dentro de este componente de red";
+network_adapter = "Tarjeta de red";
+and_save_settings = "y guarda las configuraciones";
+border = "Borde";
+budget = "Cuota";
+budget_settings = "configuraciones de Cuota";
+budget_title = "%p Cuotas en línea";
+budgets = "Cuotas en línea";
+graph_title = "Gráfico del uso";
+hard_limit = "Límites<br>en bruto";
+hard_limit_help_not_set = "Una cuota sobrepasada será indicada solamente en la ventana de estado";
+hard_limit_help_set = "Los paquetes serán dejados caer si es que la cuota es sobrepasada";
+last_3_months = "Ultimos 3 meses";
+last_month = "Ultimo mes";
+last_12_months = "Ultimos 12 meses";
+please_select = "Por favor elija";
+reset_day = "Resetear el día";
+reset_day_unit = "día del mes";
+rxtx_button = "Selección RX/TX";
+save_budgets = "Guardar las cuotas";
+show_for = "Mostrar para";
+this_month = "este mes";
+time = "Tiempo";
+time_limit = "Límite de tiempo";
+volume = "Volumen";
+volume_limit = "Límite del Volumen";
+spdbudget_help = "Para usar una cuota, sírvase ir al diálogo de las preferencias y asígnelo a alguna conexión en particular";
+password_bad = "Contraseña mala";
+sum_button = "cumulativo";
+calibrate = "Calibrar línea";
+test_pings = "Enviar pings de prueba";
+open_console = "Abrir la consola de %p";
+variable_bandwidth = "Ancho de banda variable";
+def_bandwidth_help = "Predeterminado para las <b>nuevas</b> conexiones";
+cur_bandwidth_help = "Configuraciones para la conexión actual";
+no_ports_open = "No se pudo establecer una conexión.";
+no_ports_open_help = "En el presente, no hay conexión establecida que esté siendo manejada por %p. "
+   "Para cambiar las configuraciones predeterminadas para las nuevas conexiones, haga click en la pestaña \"Predeterminado para conexiones nuevas\", "
+   "para cambiar las ocnfiguraciones para otras conexiones, haga click en \"Traffic Shaping\" en el lado izquierdo.";
+connection_medium = "Medio de conexión de banda Ancha ";
+connection_type = "Modo del Traffic Shaping";
+driver_not_loaded = "¡El Driver no se ha podido cargar!";
+demon_driver_not_loaded = "¡El Driver no se ha podido cargar!\n"
+   "Quizas la instalación esté dañada.\n"
+   "Por favor, vuelva a instalar %p.\n";
+asus_demon_driver_not_loaded = "Vuelva a instalar %p luego de hacer la actualización a un nuevo sistema operativo.\nsírvase visitar la pagina web de ASUS en la dirección %w para obtener la última versión de %p.";
+many_cons_error = "El traffic shapping de RX de %p está siendo usada a su límite debido a que hay demasiadas conexiones. Con menos conexiones el programa rendirá mejor. Haga click aquí para obtener más ayuda.";
+limit_bandwidth = "Límite de ancho de banda para la conexión actual";
+rx_limit = "Límite RX";
+tx_limit = "Límite TX";
+apply_limits = "Aplicar Límites";
+limit_help = "Valores en kbyte/s, incluyendo a todas las cabeceras de los protocolos, 0 = sin límites.";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+
+
+
+
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+
+/ URLs
+
+/ wizard
+
+/ welcome page
+
+/ uninstall welcome page
+
+/ brand key welcome page
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+
+/ restore point dialog
+/ %1 = product name
+
+/ password dialog
+
+/ serial number dialog
+/ the %? will be replaced by the error number:
+
+/ new 16 digit serial number dialog
+
+/ re-enter password dialog
+
+/ installation directory dialog
+
+/ tcp settings dialog
+
+/ hang up online connection dialog
+
+/ usage statistics
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+
+/ crash handler messages
+
+/start installation dialog
+
+/ progress dialog
+
+/ confirm delete dialog
+
+/ finish page
+
+/ uninstall finish page
+
+/ brandkey finish page
+
+/ progress tasks
+
+/ connectivity test progress tasks
+
+/ program group
+
+/ desktop symbol
+
+/ message boxes
+
+/ error messages
+/ %1 = source, %2 = destination, %3 = explanation
+
+/ warning messages
+
+/ traffic shaping algorithm
+
+/ vista warning
+
+/ dial entry dialog
+
+/ e-mail registration dialog
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+
+/ "360safe" ---- only the Chinese translations are needed ----
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+
+
 #language 2070
 #fallback 1046
 #fallback1 1034
@@ -30628,6 +31081,12 @@ con_test_execute = "Executar teste de conectividade";
 
 ga_service_desc = "cFos Game Analyzer - Obtenção de Dados de Performance";
 ga_speed_installed = "Parece que o cFosSpeed está instalado no seu computador.\n\nO cFosSpeed contém as funcionalidades do cFos Game Analyzer.\n\nPara utilizar as funcionalidades mais recentes do cFos Game Analyzer, por favor descarregue e instale a versão mais recente do cFosSpeed a partir de www.cfos.de.";
+local_ip_addresses = "Endereços de IP locais:";
+ga_password_subheader = "Palavra passe para acesso externo ao cFos Game Analyzer.";
+ga_password_info = "Utilizador: cfosspeed";
+ga_call_info = "Aceda ao cFos Game Analyzer a partir do seu PC local em\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nAceda ao cFos Game Analyzer de um dispositivo externo com a palavra passe acima e utilize um dos seguintes endereços de IP em vez de 'localhost':\n";
+ga_detected_by_speed = "Foi detetada uma instalação do cFos Game Analyzer. O cFosSpeed já contém todas as funcionalidades do cFos Game Analyzer.\n\nSe continuar, o cFos Game Analyzer será desinstalado antes da instalação do cFosSpeed.\n\nPretende continuar?";
+ga_use_password_by_speed = "O cFosSpeed deverá utilizar a palavra passe do cFos Game Analyzer, para que possa aceder ao cFosSpeed também a partir de outros dispositivos?";
 
 / ----------------------------------------------------------------------
 /
@@ -30969,6 +31428,7 @@ http_access_disabled = "Acesso remoto por HTTP bloqueado.";
 set_server_pwd = "Definir Palavra Passe do Servidor";
 auto_arrange_top = "No Topo";
 auto_arrange_bottom = "No Fundo";
+show_on_metro_apps = "Mostrar nas aplicações Metro";
 
 
 / ----------------------------------------------------------------------
@@ -31175,6 +31635,7 @@ task_uninstall_old = "A desinstalar a versão actual...";
 task_stop_daemon = "A parar %?...";
 task_uninstall_driver = "A desinstalar Controlador...";
 task_uninstall_service = "A desinstalar serviço...";
+task_uninstall_ga = "A desinstalar cFos Game Analyzer...";
 task_delete_files = "A apagar ficheiros...";
 task_cleanup_caches = "Limpeza de caches...";
 task_hangup = "A desligar ligações activas ...";
