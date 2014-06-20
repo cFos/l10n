@@ -1610,8 +1610,8 @@ htm_lang_prefix = "zh-tw";
 /
 / ----------------------------------------------------------------------
 
-ignore_ssl_cert_chk = "å¿½ç•¥ SSL æ†‘è­‰éŒ¯èª¤ï¼ˆä¸å®‰å…¨ï¼‰";
-ignore_ssl_cert_desc = "è‹¥å…è¨± cFos Outlook DAV å¿½ç•¥ SSL æ†‘è­‰éŒ¯èª¤ï¼Œå°±å¯ä»¥é€£ç·šè‡³ä½¿ç”¨ä¸å®‰å…¨ SSL æ†‘è­‰çš„ä¼ºæœå™¨ï¼ˆä¾‹å¦‚è‡ªç°½æ†‘è­‰ä¼ºæœå™¨ï¼‰ã€‚é€šå¸¸ä¸å»ºè­°æ‚¨é–‹å•Ÿæ­¤é¸é …ï¼Œå› ç‚ºé€™æ¨£æœƒé€ æˆ SSL é€£ç·šå¯èƒ½å—åˆ°ä¸­é–“äººæ”»æ“Šçš„å¨è„…ã€‚";
+ignore_ssl_cert_chk = "忽略 SSL 憑證錯誤（不安全）";
+ignore_ssl_cert_desc = "若允許 cFos Outlook DAV 忽略 SSL 憑證錯誤，就可以連線至使用不安全 SSL 憑證的伺服器（例如自簽憑證伺服器）。通常不建議您開啟此選項，因為這樣會造成 SSL 連線可能受到中間人攻擊的威脅。";
 
 / ----------------------------------------------------------------------
 /
@@ -1739,14 +1739,14 @@ con_test_execute = "進行連線測試";
 /
 / ----------------------------------------------------------------------
 
-ga_service_desc = "cFos Game Analyzer - å–å¾—æ•ˆèƒ½è³‡æ–™";
-ga_speed_installed = "çœ‹ä¾† cFosSpeed å·²å®‰è£æ–¼æ‚¨çš„é›»è…¦ã€‚\n\ncFosSpeed å·²åŒ…å«äº† cFos Game Analyzer æ‰€éœ€çš„åŠŸèƒ½ã€‚\n\nè‹¥éœ€è¦ cFos Game Analyzer çš„æœ€æ–°åŠŸèƒ½ï¼Œè«‹ç›´æŽ¥åˆ° www.cfos.de ä¸‹è¼‰å®‰è£æœ€æ–°ç‰ˆçš„ cFosSpeedã€‚";
-local_ip_addresses = "æœ¬æ©Ÿ IP åœ°å€:";
-ga_password_subheader = "cFos Game Analyzer çš„å¤–éƒ¨å­˜å–å¯†ç¢¼ã€‚";
-ga_password_info = "ä½¿ç”¨è€…åç¨±: cfosspeed";
-ga_call_info = "åœ¨æ‚¨çš„é›»è…¦ä¸Šé–‹å•Ÿ\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\nä»¥å­˜å– cFos Game Analyzerã€‚\n\nè‹¥éœ€å¾žå¤–éƒ¨è£ç½®å­˜å– cFos Game Analyzerï¼Œè«‹ä½¿ç”¨ä¸Šè¿°å¯†ç¢¼ç™»å…¥ï¼Œä¸¦ä½¿ç”¨ä¸‹åˆ—ä»»ä¸€å€‹ IP åœ°å€å–ä»£ã€Œlocalhostã€é€²è¡Œé€£ç·š:\n";
-ga_detected_by_speed = "åµæ¸¬åˆ°æ‚¨çš„é›»è…¦ä¸­å®‰è£äº† cFos Game Analyzerã€‚cFosSpeed å·²åŒ…å«äº† cFos Game Amalyzer çš„å…¨éƒ¨åŠŸèƒ½ã€‚\n\nè‹¥ç¹¼çºŒï¼Œå°‡æœƒå…ˆç§»é™¤ cFos Game Analyzer å†å®‰è£ cFosSpeedã€‚\n\næ‚¨è¦ç¹¼çºŒå—Žï¼Ÿ";
-ga_use_password_by_speed = "cFosSpeed æ˜¯å¦æ‡‰è©²ç¹¼çºŒä½¿ç”¨ cFos Game Analyzer çš„å¯†ç¢¼ï¼Œè®“æ‚¨èƒ½è‡ªå…¶ä»–è£ç½®å­˜å– cFosSpeedï¼Ÿ";
+ga_service_desc = "cFos Game Analyzer - 取得效能資料";
+ga_speed_installed = "看來 cFosSpeed 已安裝於您的電腦。\n\ncFosSpeed 已包含了 cFos Game Analyzer 所需的功能。\n\n若需要 cFos Game Analyzer 的最新功能，請直接到 www.cfos.de 下載安裝最新版的 cFosSpeed。";
+local_ip_addresses = "本機 IP 地址:";
+ga_password_subheader = "cFos Game Analyzer 的外部存取密碼。";
+ga_password_info = "使用者名稱: cfosspeed";
+ga_call_info = "在您的電腦上開啟\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n以存取 cFos Game Analyzer。\n\n若需從外部裝置存取 cFos Game Analyzer，請使用上述密碼登入，並使用下列任一個 IP 地址取代「localhost」進行連線:\n";
+ga_detected_by_speed = "偵測到您的電腦中安裝了 cFos Game Analyzer。cFosSpeed 已包含了 cFos Game Amalyzer 的全部功能。\n\n若繼續，將會先移除 cFos Game Analyzer 再安裝 cFosSpeed。\n\n您要繼續嗎？";
+ga_use_password_by_speed = "cFosSpeed 是否應該繼續使用 cFos Game Analyzer 的密碼，讓您能自其他裝置存取 cFosSpeed？";
 
 / ----------------------------------------------------------------------
 /
@@ -2081,13 +2081,13 @@ rwin_expansion = "自動加大接收緩衝區";
 rwin_expansion_help = "如果 Windows 預設的 TCP 接收緩衝區太小，就自動加大接收緩衝區來增加下載速度。";
 query_auto_open = "關閉自動開啟和關閉視窗功能？\n您可以稍後在右鍵選單裏啟用此功能。";
 preview_skins = "預覽面板";
-enable_smartphone_skins = "æ‰‹æ©Ÿé¢æ¿";
-http_access_enabled = "å·²å…è¨±é ç«¯ HTTP å­˜å–";
-http_access_disabled = "å·²ç¦æ­¢é ç«¯ HTTP å­˜å–";
-set_server_pwd = "è¨­å®šä¼ºæœå™¨å¯†ç¢¼";
-auto_arrange_top = "é ‚ç«¯";
-auto_arrange_bottom = "åº•ç«¯";
-show_on_metro_apps = "æ–¼ Metro ç¨‹å¼æ¸…å–®ä¸­é¡¯ç¤ºapps";
+enable_smartphone_skins = "手機面板";
+http_access_enabled = "已允許遠端 HTTP 存取";
+http_access_disabled = "已禁止遠端 HTTP 存取";
+set_server_pwd = "設定伺服器密碼";
+auto_arrange_top = "頂端";
+auto_arrange_bottom = "底端";
+show_on_metro_apps = "於 Metro 程式清單中顯示apps";
 
 
 / ----------------------------------------------------------------------
@@ -2172,8 +2172,8 @@ sn_save_err = "授權檔案無法儲存至磁碟 %?。";
 sn_keyfile_err = "授權檔案損毀。";
 
 / new 16 digit serial number dialog
-sn16_info = "è«‹è¼¸å…¥æ‚¨çš„ 16 ä½æ•¸åºè™Ÿä»¥å–å›žæ‚¨çš„è¨»å†Šé‡‘é‘°ï¼Œæ‚¨å¿…é ˆé€£ç·šè‡³ç¶²éš›ç¶²è·¯æ‰èƒ½æˆåŠŸå–å›žé‡‘é‘°ã€‚";
-sn16_failed = "é‡‘é‘°å–å›žå¤±æ•—ï¼";
+sn16_info = "請輸入您的 16 位數序號以取回您的註冊金鑰，您必須連線至網際網路才能成功取回金鑰。";
+sn16_failed = "金鑰取回失敗！";
 
 / re-enter password dialog
 repwd_header = "%? 密碼。";
@@ -2281,13 +2281,13 @@ task_desktop_link = "建立桌面捷徑…";
 task_program_group = "建立程式群組…";
 task_registry = "建立登錄項目中…";
 task_driver = "安裝驅動程式…";
-task_service = "æ­£åœ¨å®‰è£æœå‹™â€¦";
+task_service = "正在安裝服務…";
 task_daemon = "啟動 %?…";
 task_uninstall_old = "移除現存版本…";
 task_stop_daemon = "停止 %?…";
 task_uninstall_driver = "移除驅動程式…";
-task_uninstall_service = "æ­£åœ¨ç§»é™¤æœå‹™â€¦";
-task_uninstall_ga = "æ­£åœ¨ç§»é™¤ cFos Game Analyzerâ€¦";
+task_uninstall_service = "正在移除服務…";
+task_uninstall_ga = "正在移除 cFos Game Analyzer…";
 task_delete_files = "刪除檔案…";
 task_cleanup_caches = "清除快取…";
 task_hangup = "中斷使用中的網路連線…";
@@ -2325,8 +2325,8 @@ query_further_info = "您需要更多資訊嗎？";
 
 / error messages
 err_driver_inst = "驅動程式安裝失敗。";
-err_service_inst = "æœå‹™å®‰è£å¤±æ•—ã€‚";
-err_service_uninst = "æœå‹™ç§»é™¤å¤±æ•—ã€‚";
+err_service_inst = "服務安裝失敗。";
+err_service_uninst = "服務移除失敗。";
 err_daemon_start = "無法啟動 %?。";
 err_uninst_old = "無法移除已安裝的版本，請重新開機後重試。";
 err_os = "您的作業系統是 %?。\n\n%? 需要 Windows 2000/XP 或更新版本的作業系統。";
