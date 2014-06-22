@@ -1740,12 +1740,12 @@ con_test_execute = "進行連線測試";
 / ----------------------------------------------------------------------
 
 ga_service_desc = "cFos Game Analyzer - 取得效能資料";
-ga_speed_installed = "看來 cFosSpeed 已安裝於您的電腦。\n\ncFosSpeed 已包含了 cFos Game Amalyzer 所需的功能。\n\n若需要 cFos Game Analyzer 的最新功能，請直接到 www.cfos.de 下載安裝最新版的 cFosSpeed。";
+ga_speed_installed = "看來 cFosSpeed 已安裝於您的電腦。\n\ncFosSpeed 已包含了 cFos Game Analyzer 所需的功能。\n\n若需要 cFos Game Analyzer 的最新功能，請直接到 www.cfos.de 下載安裝最新版的 cFosSpeed。";
 local_ip_addresses = "本機 IP 地址:";
 ga_password_subheader = "cFos Game Analyzer 的外部存取密碼。";
 ga_password_info = "使用者名稱: cfosspeed";
 ga_call_info = "在您的電腦上開啟\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n以存取 cFos Game Analyzer。\n\n若需從外部裝置存取 cFos Game Analyzer，請使用上述密碼登入，並使用下列任一個 IP 地址取代「localhost」進行連線:\n";
-ga_detected_by_speed = "偵測到您的電腦中安裝了 cFos Game Analyzer。cFosSpeed 已包含了 cFos Game Amalyzer 的全部功能。\n\n若繼續，將會先移除 cFos Game Analyzer 再安裝 cFosSpeed。\n\n您要繼續嗎？";
+ga_detected_by_speed = "偵測到您的電腦中安裝了 cFos Game Analyzer。cFosSpeed 已包含了 cFos Game Analyzer 的全部功能。\n\n若繼續，將會先移除 cFos Game Analyzer 再安裝 cFosSpeed。\n\n您要繼續嗎？";
 ga_use_password_by_speed = "cFosSpeed 是否應該繼續使用 cFos Game Analyzer 的密碼，讓您能自其他裝置存取 cFosSpeed？";
 
 / ----------------------------------------------------------------------
@@ -1777,6 +1777,7 @@ after_calibration_new = "http://www.cfos.de/zh-tw/traffic-shaping/calibration-me
 expiration_cfosspeed_new_htm = "http://www.cfos.de/zh-tw/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "http://www.cfos.de/zh-tw/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "http://www.cfos.de/zh-tw/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/zh-tw/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "完整性檢查發現某些元件已被修改，\n請由我們的網頁下載並安裝未被修改的版本：\n";
 
@@ -2092,13 +2093,16 @@ rwin_expansion_help = "如果 Windows 預設的 TCP RWIN 接收緩衝區太小�
 query_auto_open = "關閉自動開啟和關閉視窗功能？\n您可以稍後在右鍵選單裏啟用此功能。";
 preview_skins = "預覽面板";
 enable_smartphone_skins = "手機面板";
-http_access_enabled = "已允許遠端 HTTP 存取";
-http_access_disabled = "已禁止遠端 HTTP 存取";
+http_access_enabled = "已設定密碼，已允許遠端 HTTP 存取。";
+http_access_disabled = "未設定密碼，已禁止遠端 HTTP 存取。";
 set_server_pwd = "設定伺服器密碼";
 auto_arrange_top = "頂端";
 auto_arrange_bottom = "底端";
 show_on_metro_apps = "於 Metro 程式清單中顯示應用程式";
-
+traffic_shaping_info = "流量塑型資訊";
+wlan_access_point = "Wi-Fi 熱點";
+prioritize_foreground_process = "調高前景程序優先權";
+prioritize_foreground_help = "自動將前景中的程序的優先權設為高。";
 
 / ----------------------------------------------------------------------
 /
@@ -2113,6 +2117,7 @@ bc_activation_failed_url = "http://www.cfos.de/zh-tw/broadband-connect/activatio
 sixlink_activation_failed_url = "http://www.cfos.de/zh-tw/cfos-ipv6-link/activation-failed.htm";
 speed_activation_failed_url = "http://www.cfos.de/zh-tw/cfosspeed/activation-failed.htm";
 cfospnet_activation_failed_url = "http://www.cfos.de/zh-tw/cfos-personal-net/activation-failed.htm";
+virtual_wifi_doc_url = "http://www.cfos.de/zh-tw/cfosspeed/documentation/wlan-access-point.htm";
 
 / wizard
 install_wizard_name = "%? 安裝精靈";
@@ -2398,6 +2403,25 @@ eml_invalid_email = "您輸入的電子郵件位址不正確。";
 eml_invalid_optional_email = "請輸入正確的電子郵件位址或保留空白。";
 eml_reg_failed = "註冊電子郵件失敗。";
 eml_checking_domain = "檢查電子郵件網域…";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p 虛擬 Wi-Fi 啟動精靈";
+virtual_wifi_header = "啟動虛擬 Wi-Fi";
+virtual_wifi_subheader = "社訂一套以軟體為基礎的無線熱點，並開啟網際網路連線共用。";
+virtual_wifi_info = "選擇分享供無線熱點使用的網際網路連線，並設定密碼。";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "SSID 不能為空白，並且不能超過 32 字元。";
+virtual_wifi_invalid_password_length = "密碼長度必須在 8 到 64 字元之間。";
+virtual_wifi_ics_not_available = "本電腦無法使用網際網路連線共用。";
+virtual_wifi_error_get_cons = "取得網路連線時發生錯誤。";
+virtual_wifi_ics_warning = "已為下列連線啟用網際網路連線共用:\n%?\n\n您是否想改用此網路:\n%?";
+virtual_wifi_error_enable_ics = "啟用網際網路連線共用時發生錯誤。";
+virtual_wifi_error_start = "啟動虛擬 Wi-Fi 時發生錯誤。";
+virtual_wifi_ok = "已成功啟用虛擬 Wi-Fi 與網際網路連線共用。\n\n註: 若客戶端無法正常連線至虛擬 Wi-Fi，請停止並重新開啟虛擬 Wi-Fi。\n\n若客戶端可以連線至虛擬 Wi-Fi 但無法連線至網際網路，請移除並重新安裝 %p。";
+virtual_wifi_query_stop = "要停止虛擬 Wi-Fi？";
+virtual_wifi_error_stop = "停止虛擬 Wi-Fi 時發生錯誤:";
+virtual_wifi_stopped = "已成功停止虛擬 Wi-Fi。";
 
 / "360safe" ---- only the Chinese translations are needed ----
 wrn_unknown_360 = "發現不明版本的 360safe，請確定您已經安裝最新版的\n360safe。";
