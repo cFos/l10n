@@ -2102,7 +2102,7 @@ show_on_metro_apps = "於 Metro 程式清單中顯示應用程式";
 traffic_shaping_info = "流量塑型資訊";
 wlan_access_point = "Wi-Fi 熱點";
 prioritize_foreground_process = "調高前景程序優先權";
-prioritize_foreground_help = "自動將前景中的程序的優先權設為高。";
+prioritize_foreground_help = "自動將前景程序的優先權設為高。";
 
 / ----------------------------------------------------------------------
 /
@@ -2407,8 +2407,8 @@ eml_checking_domain = "檢查電子郵件網域…";
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 virtual_wifi_wizard_name = "%p 虛擬 Wi-Fi 啟動精靈";
 virtual_wifi_header = "啟動虛擬 Wi-Fi";
-virtual_wifi_subheader = "社訂一套以軟體為基礎的無線熱點，並開啟網際網路連線共用。";
-virtual_wifi_info = "選擇分享供無線熱點使用的網際網路連線，並設定密碼。";
+virtual_wifi_subheader = "建立一組軟體無線熱點，並開啟網際網路連線共用。";
+virtual_wifi_info = "選擇要分享來供無線熱點使用的網際網路連線，並設定密碼。";
 virtual_wifi_ssid = "SSID:";
 virtual_wifi_default_ssid = "cFos Wi-Fi";
 virtual_wifi_invalid_ssid_length = "SSID 不能為空白，並且不能超過 32 字元。";
@@ -2418,9 +2418,9 @@ virtual_wifi_error_get_cons = "取得網路連線時發生錯誤。";
 virtual_wifi_ics_warning = "已為下列連線啟用網際網路連線共用:\n%?\n\n您是否想改用此網路:\n%?";
 virtual_wifi_error_enable_ics = "啟用網際網路連線共用時發生錯誤。";
 virtual_wifi_error_start = "啟動虛擬 Wi-Fi 時發生錯誤。";
-virtual_wifi_ok = "已成功啟用虛擬 Wi-Fi 與網際網路連線共用。\n\n註: 若客戶端無法正常連線至虛擬 Wi-Fi，請停止並重新開啟虛擬 Wi-Fi。\n\n若客戶端可以連線至虛擬 Wi-Fi 但無法連線至網際網路，請移除並重新安裝 %p。";
+virtual_wifi_ok = "已成功啟用虛擬 Wi-Fi 與網際網路連線共用。\n\n註：若客戶端無法正常連線至虛擬 Wi-Fi，請停止並重新開啟虛擬 Wi-Fi。\n\n若客戶端可以連線至虛擬 Wi-Fi 但無法連線至網際網路，請移除並重新安裝 %p。";
 virtual_wifi_query_stop = "要停止虛擬 Wi-Fi？";
-virtual_wifi_error_stop = "停止虛擬 Wi-Fi 時發生錯誤:";
+virtual_wifi_error_stop = "停止虛擬 Wi-Fi 時發生錯誤：";
 virtual_wifi_stopped = "已成功停止虛擬 Wi-Fi。";
 
 / "360safe" ---- only the Chinese translations are needed ----
