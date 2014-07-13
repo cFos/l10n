@@ -1,4 +1,4 @@
-#language 1025
+﻿#language 1025
 #fallback 1033
 #charset 178
 
@@ -527,7 +527,6 @@ eml_invalid_optional_email = "الرجاء إدخال عنوان بريد إلك
 eml_reg_failed = "فشل تسجيل عنوان البريد إلكتروني";
 eml_checking_domain = "تدقيق نطاق البريد الالكتروني...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -1500,7 +1499,6 @@ eml_checking_domain = "Проверка на и-мейл домейн...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -1610,7 +1608,6 @@ htm_lang_prefix = "zh-tw";
 /
 / ----------------------------------------------------------------------
 
-outlook_caldav_desc = "%p";
 ignore_ssl_cert_chk = "忽略 SSL 憑證錯誤（不安全）";
 ignore_ssl_cert_desc = "若允許 cFos Outlook DAV 忽略 SSL 憑證錯誤，就可以連線至使用不安全 SSL 憑證的伺服器（例如自簽憑證伺服器）。通常不建議您開啟此選項，因為這樣會造成 SSL 連線可能受到中間人攻擊的威脅。";
 
@@ -1629,7 +1626,6 @@ bc_desc = "%p，高效能撥接驅動程式";
 sixlink_mainurl = "http://www.cfos.de/zh-tw/index.htm";
 sixlink_updateurl = "http://www.cfos.de/zh-tw/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/zh-tw/order/cfos-ipv6-link-n.htm";
-sixlink_langurl = "";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p，高速 IPv6 撥接驅動程式";
 cfospnet_mainurl = "http://www.cfos.de/zh-tw/index.htm";
@@ -1790,9 +1786,7 @@ order_info = "立即訂購：\n網址：www.cfos.de\n電話：+49-228-7669826";
 badkey = "您的授權碼有問題。\n請雙擊您透過電子郵件取得或存於磁碟上的原始檔案，\n來重新安裝您的授權碼。";
 no_setup = "無法啟動安裝程式（setup.exe）。";
 no_cmd = "無法執行命令提示字元（cmd.exe）！";
-ask_disconnect_ras = "需要重新設定使用中的網路連線。\n"
-                     "我們建議您先中斷此連線，\n"
-                     "您要中斷目前的網路連線嗎？";
+ask_disconnect_ras = "需要重新設定使用中的網路連線。\n我們建議您先中斷此連線，\n您要中斷目前的網路連線嗎？";
 sygate_hint = "%p 偵測到 Sygate 防火牆，此防火牆會將 %p 的線路校正誤認為\n阻絕服務攻擊（DoS）的「Ping-of-Death」封包。\n因此請您做 30 秒鐘的全速下載後再進行 30 秒鐘的全速上傳，\n這樣會如同使用線路校正來校正 %p。\n\n提示：您應該停用防火牆的「Anti IP Manipulation」功能。";
 select_language = "選擇語系";
 translator = "翻譯者";
@@ -2023,7 +2017,6 @@ performance_help = "為了節省電腦資源消耗，我們建議將存取網際
 loading = "載入中…";
 connection_type_help = "http://www.cfos.de/zh-tw/traffic-shaping/traffic-shaping.htm#advanced";
 
-
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "非合作模式";
 regid_help = "在您的區域網路上有一台裝置沒有 cFos 流量塑型功能";
@@ -2105,6 +2098,7 @@ traffic_shaping_info = "流量塑型資訊";
 wlan_access_point = "Wi-Fi 熱點";
 prioritize_foreground_process = "調高前景程序優先權";
 prioritize_foreground_help = "自動將前景程序的優先權設為高。";
+
 
 / ----------------------------------------------------------------------
 /
@@ -2425,11 +2419,6 @@ virtual_wifi_query_stop = "要停止虛擬 Wi-Fi？";
 virtual_wifi_error_stop = "停止虛擬 Wi-Fi 時發生錯誤：";
 virtual_wifi_stopped = "已成功停止虛擬 Wi-Fi。";
 
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "發現不明版本的 360safe，請確定您已經安裝最新版的\n360safe。";
-err_360_too_old = "目前電腦中的 360safe 版本太舊，無法和 %p 一起正常\n運作，請取得最新版本的 360safe，並依照底下的步驟安裝：\n1. 移除 360safe\n2. 安裝 %p\n3. 安裝最新版的 360safe";
-wrn_360_might_fail = "發現此電腦安裝了 360safe 程式，當 360safe 執行時，\n%p 可能會無法正確安裝。如果 %p 無法安裝時，\n請取得最新版本的 360safe，並依照底下的步驟安裝：\n1. 移除 360safe\n2. 安裝 %p\n3. 安裝最新版的 360safe";
-err_360_device_opened = "%p 因底下的程式仍然開啟 %p 驅動程式而無法安裝：\n%?\n這通常是因為 360safe 程式正在執行中，若要安裝 %p，\n請取得最新版本的 360safe，並依照底下的步驟來安裝：\n1. 移除 360safe\n2. 安裝 %p\n3. 安裝最新版的 360safe";
 
 / ----------------------------------------------------------------------
 /
@@ -2477,38 +2466,21 @@ quit = "關閉狀態視窗";
 order_oem = "立刻訂購專業版本！";
 morefeatures = "更多的功能!";
 upgrade_easy = "下載新的 %p 驅動程式!";
-ipmtu =
-   "已調整撥號網路設定以最佳化您的網路連線。\n"
-   "調整將在在下次重開機之後生效。";
-closemsg =
-   "很抱歉，為了提供您到期日資訊，將一直顯示此視窗。\n"
-   "這樣您就能夠即時得知您的試用版使用使用期將於何時結束。\n"
-   "\n"
-   "在 %p/Professional 的完整版本中，將不會顯示此視窗，\n"
-   "僅在您需要的時候才會顯示。只要對視窗點擊滑鼠右鍵\n"
-   "點擊 %p 視窗或者工具列中的 %p 圖示即可開啟 %p 的訂購網頁！";
+ipmtu = "已調整撥號網路設定以最佳化您的網路連線。\n調整將在在下次重開機之後生效。";
+closemsg = "很抱歉，為了提供您到期日資訊，將一直顯示此視窗。\n這樣您就能夠即時得知您的試用版使用使用期將於何時結束。\n\n在 %p/Professional 的完整版本中，將不會顯示此視窗，\n僅在您需要的時候才會顯示。只要對視窗點擊滑鼠右鍵\n點擊 %p 視窗或者工具列中的 %p 圖示即可開啟 %p 的訂購網頁！";
 cfos_endsoon = "%p 的試用期即將結束。\n立即訂購 %p 專業版！\n您可以透過以下的網址購買 %p。\n\nhttps://www.cfos.de/zh-tw/order/order.htm";
 cfos_expired = "此 %p 版本已過期。\n立即訂購 %p/Professional！\n您可透過以下方式購買 %p：\n\nhttps://www.cfos.de/zh-tw/order/order.htm\n\n電話: +49-228-7669826\n傳真: +49-228-7669827。";
 actionwait = "連上網絡之後，將執行您指定的行為。";
 discask = "確定要中斷此連線？";
 dial_warn = "允許撥打 %1 嗎?";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
-badvsn =
-   "您使用的 %p 程式適用於 %1，\n"
-   "但您的金鑰只能在 %2 使用。\n"
-   "您可在以下網址訂購升級版：\n"
-   "https://www.cfos.de/zh-tw/order/order.htm\n"
-   "\n"
-   "如果您剛購買了 %p 卻發現版本錯誤，請與我們聯繫：\n"
-   "http://www.cfos.de/zh-tw/contact/contact.htm";
+badvsn = "您使用的 %p 程式適用於 %1，\n但您的金鑰只能在 %2 使用。\n您可在以下網址訂購升級版：\nhttps://www.cfos.de/zh-tw/order/order.htm\n\n如果您剛購買了 %p 卻發現版本錯誤，請與我們聯繫：\nhttp://www.cfos.de/zh-tw/contact/contact.htm";
 
 active = "使用中";
 inactive = "未使用";
 disabled = "已停用";
 setup = "設定";
-no_write = "沒有 %p 檔案的寫入權限\n"
-   "%1。\n\n"
-   "請洽詢的電腦管理員，讓您獲得 CFOS.INI 與 GLOBAL.INI 檔案的寫入和修改權限。\n";
+no_write = "沒有 %p 檔案的寫入權限\n%1。\n\n請洽詢的電腦管理員，讓您獲得 CFOS.INI 與 GLOBAL.INI 檔案的寫入和修改權限。\n";
 oem_for = "%1 的 OEM 版本";
 second = "秒";
 seconds = "秒";
@@ -2564,9 +2536,7 @@ dlg_end_dsl = "建立 DSL 撥號連線";
 dlg_end_isdn = "建立 ISDN 撥號連線";
 dlg_end_block = "設置禁撥電話號碼鎖";
 dlg_oem_header = "%p Professional";
-adv_osna = "這是一個特殊的 DSL 版本，僅適用於您的網路業者。"
-        "此外，您也可以安裝 cFos Professional 的 30 天試用版。"
-        "此版本有下個對話窗中展示，更強大的功能。";
+adv_osna = "這是一個特殊的 DSL 版本，僅適用於您的網路業者。此外，您也可以安裝 cFos Professional 的 30 天試用版。此版本有下個對話窗中展示，更強大的功能。";
 dlg_oem_quest = "您想安裝 30 天試用版嗎？";
 
 / begin dialog
@@ -2580,8 +2550,7 @@ dlg_bgn_update = "更新 (&U)";
 
 / medium dialog
 dlg_med_header = "%p 媒介選擇";
-dlg_med_subheader = "%p 為您整合了 DSL 和 ISDN（和 ATM）。"
-                    "既然 %p 具有多項功能，何必還要安裝多個驅動程式呢？";
+dlg_med_subheader = "%p 為您整合了 DSL 和 ISDN（和 ATM）。既然 %p 具有多項功能，何必還要安裝多個驅動程式呢？";
 dlg_med_isdn_box = "ISDN (CAPI 2.0)";
 dlg_med_dsl_box = "DSL （PPPoE 撥號連線）";
 dlg_med_areacode_txt = "區號：";
@@ -2648,25 +2617,12 @@ dun_with_cfos = "使用 %p";
 dun_fmt = "新增 <%s> 連線";
 
 / dial-up network
-dun_err_modem = "找不到可用來建立撥號連線的\n"
-        "%p 數據機。\n";
+dun_err_modem = "找不到可用來建立撥號連線的\n%p 數據機。\n";
 dun_err_invalid_name = "撥號項目名稱無效。";
 dun_err_invalid_parameter = "您輸入的參數至少有一個無效。";
-dun_err_state_machine = "建立撥號網路連線時\n"
-        "出現了錯誤 695 (state machines not started)。\n"
-        "可能是您的電腦尚未安裝 DUN 撥號網絡。\n"
-        "這種情況下，請安裝 DUN 撥號網絡程式\n"
-        "（1.3 或更新版）。";
+dun_err_state_machine = "建立撥號網路連線時\n出現了錯誤 695 (state machines not started)。\n可能是您的電腦尚未安裝 DUN 撥號網絡。\n這種情況下，請安裝 DUN 撥號網絡程式\n（1.3 或更新版）。";
 dun_err_ras = "建立撥號網路連線項目時出現未知錯誤。\n";
-dun_legal_info = "我們在此向您說明建立撥號連線僅是我們\n"
-        "的安裝程式所提供的服務。透過這個撥號連線撥號上網\n"
-        "之後可能需要支付上網費用。\n"
-        "若需網路業者所提供的服務費率表，或是不同的連線參數\n"
-        "（例如連線號碼），請參見各網路業者（ISP）的網站。\n"
-        "\n"
-        "\n"
-        "%p 所建立的連線行為會與使用 Windows 建立的不同。\n"
-        "請您在撥號網路數定中檢查設定。\n";
+dun_legal_info = "我們在此向您說明建立撥號連線僅是我們\n的安裝程式所提供的服務。透過這個撥號連線撥號上網\n之後可能需要支付上網費用。\n若需網路業者所提供的服務費率表，或是不同的連線參數\n（例如連線號碼），請參見各網路業者（ISP）的網站。\n\n\n%p 所建立的連線行為會與使用 Windows 建立的不同。\n請您在撥號網路數定中檢查設定。\n";
 country_0 = "現有的撥號連線";
 country_49 = "德國";
 
@@ -2684,39 +2640,15 @@ dlg_blk_prefix = "前綴號碼";
 dlg_blk_ask_pref = "";
 dlg_blk_ras = "所有的撥號連線";
 dlg_blk_doublechk = "雙重檢測";
-dlg_blk_doublechk_help = "如果您想檢查包含與不含前綴號碼\n"
-        "的部分，請勾選「雙重檢測」。\n"
-        "通常只在與您的電腦連結的部分裝置需要，而另一部分\n"
-        "又不需要撥號前綴時，才需要勾選此選項。\n";
-dlg_blk_legalinfo = "cFosWatch 與 %p 無法保護的情況：\n"
-        "如果您同時安裝了 ISDN 卡與傳統類比數據機，\n"
-        "這些裝置就還是可能撥打到需要被封鎖的昂貴電話號碼。\n"
-        "如果這發生在沒有 %p 或撥號連線（例：有第三方程式\n"
-        "透過自訂的方式建立語音或數據連線），就無法被\n"
-        "%p 或 cFosWatch 偵測到。這種情況下，您必須\n"
-        "直接拔掉數據機的插頭或關閉電源。目前也沒有辦法保護\n"
-        "由未安裝　%p 或 cFosWatch 的電腦和傳統電話所撥出的\n"
-        "連線。若您想要得到完整的保護，請直接向電信業者申請\n"
-        "封鎖某些電話號碼，但這種服務可能也不是免費的。此外，\n"
-        "我們無法為 %p 和/或 cFosWatch 的功能失效，或是作業系統\n"
-        "與第三方軟體功能負責。若其他第三方軟體刻意停用或規避\n"
-        "%p 和/或 cFosWatch 的功能時，恕本公司亦不承擔任何責任。\n"
-        "\n"
-        "本文也保存到 %p 資料夾的 0190.TXT 文件中。\n";
+dlg_blk_doublechk_help = "如果您想檢查包含與不含前綴號碼\n的部分，請勾選「雙重檢測」。\n通常只在與您的電腦連結的部分裝置需要，而另一部分\n又不需要撥號前綴時，才需要勾選此選項。\n";
+dlg_blk_legalinfo = "cFosWatch 與 %p 無法保護的情況：\n如果您同時安裝了 ISDN 卡與傳統類比數據機，\n這些裝置就還是可能撥打到需要被封鎖的昂貴電話號碼。\n如果這發生在沒有 %p 或撥號連線（例：有第三方程式\n透過自訂的方式建立語音或數據連線），就無法被\n%p 或 cFosWatch 偵測到。這種情況下，您必須\n直接拔掉數據機的插頭或關閉電源。目前也沒有辦法保護\n由未安裝　%p 或 cFosWatch 的電腦和傳統電話所撥出的\n連線。若您想要得到完整的保護，請直接向電信業者申請\n封鎖某些電話號碼，但這種服務可能也不是免費的。此外，\n我們無法為 %p 和/或 cFosWatch 的功能失效，或是作業系統\n與第三方軟體功能負責。若其他第三方軟體刻意停用或規避\n%p 和/或 cFosWatch 的功能時，恕本公司亦不承擔任何責任。\n\n本文也保存到 %p 資料夾的 0190.TXT 文件中。\n";
 
 / password dialog
 dlg_pwd_header = "輸入密碼";
 dlg_pwd_subheader = "您的授權密碼包含您的個人資料，不得轉給第三者使用。";
 dlg_pwd_password = "密碼：";
-dlg_pwd_info = "這是您的 %p 授權的詳細資訊:\n\n"
-        "序號:\t%s\n"
-        "姓名:\t%s\n"
-        "地址:\t%s\n"
-        "城市:\t%s\n"
-        "E-mail:\t%s\n\n"
-        "請在下欄輸入密碼。您可在帳單或授權電子郵件中找到密碼。";
-dlg_pwd_bad = "密碼不正確。請重新輸入。\n\n"
-   "最好的方式是直接以複製貼上的方式，將密碼自電子郵件中輸入本欄位。";
+dlg_pwd_info = "這是您的 %p 授權的詳細資訊:\n\n序號:\t%s\n姓名:\t%s\n地址:\t%s\n城市:\t%s\nE-mail:\t%s\n\n請在下欄輸入密碼。您可在帳單或授權電子郵件中找到密碼。";
+dlg_pwd_bad = "密碼不正確。請重新輸入。\n\n最好的方式是直接以複製貼上的方式，將密碼自電子郵件中輸入本欄位。";
 
 / progress dialog
 pr_wait = "請稍候…";
@@ -2747,53 +2679,22 @@ pr_inst_dun = "正在安裝 Windows 撥號連線…";
 pr_restart_point = "正在建立還原點…";
 
 / ISDN late install
-late_ask = "AOL 在您的電腦偵測到 ISDN 設備，您是否想安裝\n"
-        "AOL 的 ISDN 支援程式 (%p OEM)？\n"
-        "\n"
-        "若您想立即安裝 ISDN 支援程式，請點擊「是」。\n"
-        "\n"
-        "若您想稍候再安裝 ISDN 支援程式，請點擊「否」。\n"
-        "\n"
-        "若您不想安裝 ISDN 支援程式，也不想再被詢問，請點擊「取消」。";
-late_instnever_confirm = "注意：您選擇了「取消」，將不會安裝 AOL 的支援程式。\n"
-        "您有可能無法透過 ISDN 上網。\n"
-        "如果您想透過 ISDN 連線至 AOL，我們則建議您安裝 ISDN 支援程式。\n"
-        "\n"
-        "您要安裝 ISDN 支援程式嗎？";
+late_ask = "AOL 在您的電腦偵測到 ISDN 設備，您是否想安裝\nAOL 的 ISDN 支援程式 (%p OEM)？\n\n若您想立即安裝 ISDN 支援程式，請點擊「是」。\n\n若您想稍候再安裝 ISDN 支援程式，請點擊「否」。\n\n若您不想安裝 ISDN 支援程式，也不想再被詢問，請點擊「取消」。";
+late_instnever_confirm = "注意：您選擇了「取消」，將不會安裝 AOL 的支援程式。\n您有可能無法透過 ISDN 上網。\n如果您想透過 ISDN 連線至 AOL，我們則建議您安裝 ISDN 支援程式。\n\n您要安裝 ISDN 支援程式嗎？";
 
 / DSL late install
-late_dsl_ask = "AOL 在您的電腦偵測到 DSL 設備，您是否想安裝\n"
-        "AOL 的 DSL 支援程式 (%p OEM)？\n"
-        "\n"
-        "若您想立即安裝 DSL 支援程式，請點擊「是」。\n"
-        "\n"
-        "若您想稍候再安裝 DSL 支援程式，請點擊「否」。\n"
-        "\n"
-        "若您不想安裝 DSL 支援程式，也不想再被詢問，請點擊「取消」。";
-late_dsl_instnever_confirm = "注意：您選擇了「取消」，將不會安裝 AOL 的支援程式。\n"
-        "您有可能無法透過 DSL 上網。\n"
-        "如果您想透過 DSL 連線至 AOL，我們則建議您安裝 DSL 支援程式。\n"
-        "\n"
-        "您要安裝 DSL 支援程式嗎？";
+late_dsl_ask = "AOL 在您的電腦偵測到 DSL 設備，您是否想安裝\nAOL 的 DSL 支援程式 (%p OEM)？\n\n若您想立即安裝 DSL 支援程式，請點擊「是」。\n\n若您想稍候再安裝 DSL 支援程式，請點擊「否」。\n\n若您不想安裝 DSL 支援程式，也不想再被詢問，請點擊「取消」。";
+late_dsl_instnever_confirm = "注意：您選擇了「取消」，將不會安裝 AOL 的支援程式。\n您有可能無法透過 DSL 上網。\n如果您想透過 DSL 連線至 AOL，我們則建議您安裝 DSL 支援程式。\n\n您要安裝 DSL 支援程式嗎？";
 
 / modem registration
-regmdm_error = "註冊數據機時出現錯誤。\n\n"
-        "詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
-regmdm_unregerror = "移除數據機時出現錯誤。\n\n"
-        "詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
-regmdm_raserror = "將您的數據機註冊為 RAS（遠端存取服務）裝置時出現錯誤。\n\n"
-        "詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
-regmdm_unraserror = "將您的數據機自 RAS（遠端存取服務）移除時出現錯誤。\n\n"
-        "詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
-lastrasdevice_error = "無法移除數據機，因為這是唯一已註冊的 RAS（遠端存取服務）裝置。\n\n"
-        "Windows NT 需要至少有一台已註冊的 RAS 裝置。"
-        "詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
-getmdmlist_error = "建立可用數據機清單時發生錯誤。\n\n"
-        "詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
-regport_error = "註冊通訊埠時發生錯誤。\n\n"
-        "詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
-regport_unregerror = "移除通訊埠時發生錯誤。\n\n"
-        "詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+regmdm_error = "註冊數據機時出現錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+regmdm_unregerror = "移除數據機時出現錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+regmdm_raserror = "將您的數據機註冊為 RAS（遠端存取服務）裝置時出現錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+regmdm_unraserror = "將您的數據機自 RAS（遠端存取服務）移除時出現錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+lastrasdevice_error = "無法移除數據機，因為這是唯一已註冊的 RAS（遠端存取服務）裝置。\n\nWindows NT 需要至少有一台已註冊的 RAS 裝置。詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+getmdmlist_error = "建立可用數據機清單時發生錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+regport_error = "註冊通訊埠時發生錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+regport_unregerror = "移除通訊埠時發生錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
 
 / tip of the day
 totd_title = "%p - 每日小秘訣";
@@ -2802,156 +2703,63 @@ totd_didyouknow = "您知道嗎？";
 totd_nexttip = "下個秘訣 (&N)";
 
 / OEM versions tips (additional to the regular tips)
-totd_oem =
-"如果您想使用您的 DSL 和 ISDN 連線的完整功能"
-        "您可以將您現有的 %p 升級為完整版本。"
-        "詳細資訊請參見 www.cfos.de 網站。";
+totd_oem = "如果您想使用您的 DSL 和 ISDN 連線的完整功能您可以將您現有的 %p 升級為完整版本。詳細資訊請參見 www.cfos.de 網站。";
 
 / regular tips
-totd1 = "%p 流量塑型可加速您的上下載！此功能能夠讓您的網路更順暢，"
-        "就算是同時有多個傳輸的情況下也能有更好的回應速度。";
-totd2 = "%p 的防火牆可以簡單地保護您的電腦，使您不受來自網路的一般性襲擊 "
-        "以及一般性的弱點所導致的危害！請您使用 %p 防火牆"
-        "作為您的電腦基礎防護。它雖然不能代替一個完整的防火牆，"
-        "但已可滿足初步使用的要求。此外，%p 防火牆可以和"
-        "其它的防火牆同時使用。";
-totd3 = "授權版本的 %p 可更新至所有未來的版本。"
-        "您可以到 www.cfos.de 網站下載更新版，並直接安裝即可"
-        "覆蓋升級原有版本。舊版當中的設定將完全保留。;
-totd4 = "%p 當中有一組超快的連線程式，可讓網路的撥號速度"
-        "比起 Windows 內建的驅動程式快上三倍！";
-totd5 = "對 %p 視窗按下滑鼠右鍵即可開啟選單，您可在此"
-        "找到說明檔案或調整設定。雙擊 %p 圖示即可顯示/隱藏視窗。";
-totd6 = "在功能設定中，您可以讓 %p 保持您的電腦時間與網際網路"
-        "或 ISDN 時間同步。有需要時，每天會進行一次同步與修正。在"
-        "狀態視窗中點擊「設定 %p」，然後點選「功能設定」並勾選「時間同步」。;
-totd7 = "許多網路業者提供每月的免費上網時數。使用 %p 的預算管理功能，"
-        "您就可得知您還有多少免費時數可使用。%p 也支援流量預算功能。";
-totd8 = "想知道是誰來電嗎？您可以直接開啟 %p 功能設定中的"
-        "來電監控器。狀態視窗將會顯示來電號碼。所有號碼將記錄於"
-        "LOGFILE.TXT 檔案中，您甚至可以在不同來電者來電時 "
-        "播放不同的 WAV 音樂檔。請參考 CFOSINI.HTM 以取得更多資訊。";
-totd9 = "%p 有一套特別的閒置計時功能。使用 ATS86=… 參數即可"
-        "指定在幾分鐘沒有流量後，讓 %p 自動斷線。 您可以在"
-        "%p 數據機的設定當中（設定 > 連線 > 進階 > "
-        "輸入更多設定 ATS86=n，n 就是要在幾分鐘沒有流量後"
-        "自動斷線的門檻。）";
-totd10 = "%p 支援面板功能，讓您可以調整狀態視窗的外觀。"
-        "若有關建立面板的更多功能，請參考 SKIN.HTM 檔案。";
-totd11 = "如果您的 DSL 數據機上沒有開關，請您將其電源插入有開關"
-        "的插座。一般來說 DSL 數據機非常耗電，可能會花費您很多電費，"
-        "也不節能省碳。";
-totd12 = "在 %p 狀態視窗中，您隨時可以看到目前的傳輸速度。"
-        "%p 圖示顯示您是否正在傳送或接收資料。";
-totd13 = "%p 當中有超過一百個可以對數據機進行微調的設定。"
-        "MODEM.TXT 當中列出了所有可用的數據機設定與相關指令。"
-	"您只需要點擊 %p 選單中「說明」當中的「MODEM.TXT」擊可閱讀該文件。";
-totd14 = "%p 提供輔助說明的郵件群組，讓您可使用電子郵件訂閱。詳情請參見"
-        " http://www.cfos.de/en/cfos-professional/update.htm。"
-        "此外，您也可以加入我們的公告群組，這樣每當有新版的 %p 釋出時，"
-        "您都會收到一封來自我們的電子郵件。";
-totd15 = "您可以在 WHATSNEW.TXT 檔案中找到所有目前版本新增了什麼功能"
-        "與修正了什麼地方。請點擊 %p 選單中的「說明」，然後點選「WHATSNEW.TXT」。";
+totd1 = "%p 流量塑型可加速您的上下載！此功能能夠讓您的網路更順暢，就算是同時有多個傳輸的情況下也能有更好的回應速度。";
+totd2 = "%p 的防火牆可以簡單地保護您的電腦，使您不受來自網路的一般性襲擊 以及一般性的弱點所導致的危害！請您使用 %p 防火牆作為您的電腦基礎防護。它雖然不能代替一個完整的防火牆，但已可滿足初步使用的要求。此外，%p 防火牆可以和其它的防火牆同時使用。";
+totd3 = "授權版本的 %p 可更新至所有未來的版本。您可以到 www.cfos.de 網站下載更新版，並直接安裝即可覆蓋升級原有版本。舊版當中的設定將完全保留。";
+totd4 = "%p 當中有一組超快的連線程式，可讓網路的撥號速度比起 Windows 內建的驅動程式快上三倍！";
+totd5 = "對 %p 視窗按下滑鼠右鍵即可開啟選單，您可在此找到說明檔案或調整設定。雙擊 %p 圖示即可顯示/隱藏視窗。";
+totd6 = "在功能設定中，您可以讓 %p 保持您的電腦時間與網際網路或 ISDN 時間同步。有需要時，每天會進行一次同步與修正。在狀態視窗中點擊「設定 %p」，然後點選「功能設定」並勾選「時間同步」。";
+totd7 = "許多網路業者提供每月的免費上網時數。使用 %p 的預算管理功能，您就可得知您還有多少免費時數可使用。%p 也支援流量預算功能。";
+totd8 = "想知道是誰來電嗎？您可以直接開啟 %p 功能設定中的來電監控器。狀態視窗將會顯示來電號碼。所有號碼將記錄於LOGFILE.TXT 檔案中，您甚至可以在不同來電者來電時 播放不同的 WAV 音樂檔。請參考 CFOSINI.HTM 以取得更多資訊。";
+totd9 = "%p 有一套特別的閒置計時功能。使用 ATS86=… 參數即可指定在幾分鐘沒有流量後，讓 %p 自動斷線。 您可以在%p 數據機的設定當中（設定 > 連線 > 進階 > 輸入更多設定 ATS86=n，n 就是要在幾分鐘沒有流量後自動斷線的門檻。）";
+totd10 = "%p 支援面板功能，讓您可以調整狀態視窗的外觀。若有關建立面板的更多功能，請參考 SKIN.HTM 檔案。";
+totd11 = "如果您的 DSL 數據機上沒有開關，請您將其電源插入有開關的插座。一般來說 DSL 數據機非常耗電，可能會花費您很多電費，也不節能省碳。";
+totd12 = "在 %p 狀態視窗中，您隨時可以看到目前的傳輸速度。%p 圖示顯示您是否正在傳送或接收資料。";
+totd13 = "%p 當中有超過一百個可以對數據機進行微調的設定。MODEM.TXT 當中列出了所有可用的數據機設定與相關指令。您只需要點擊 %p 選單中「說明」當中的「MODEM.TXT」擊可閱讀該文件。";
+totd14 = "%p 提供輔助說明的郵件群組，讓您可使用電子郵件訂閱。詳情請參見 http://www.cfos.de/en/cfos-professional/update.htm。此外，您也可以加入我們的公告群組，這樣每當有新版的 %p 釋出時，您都會收到一封來自我們的電子郵件。";
+totd15 = "您可以在 WHATSNEW.TXT 檔案中找到所有目前版本新增了什麼功能與修正了什麼地方。請點擊 %p 選單中的「說明」，然後點選「WHATSNEW.TXT」。";
 totd16 = "%p 支援 Lotus Notes。請參見數據機檔案 LOTUS_CF.MDM 以取得更多資訊。";
-totd18 = "嘲諷者說 C.F.O.S. 這個名字來自於 「Creatures from Outer "
-        "Space」（外太空生物），但是這種說法是錯誤的！C.F.O.S."
-        "這個名字的來源其實是「CAPI-FOSSIL」，其中 CAPI 是一種 ISDN 標準，"
-        "FOSSIL 是 DOS 當中的一個序列埠介面。:-)";
-totd17 = "若您遇到任何問題，我們的技術支援團隊樂於協助您："
-        "http://www.cfos.de/zh-tw/contact/contact.htm";
+totd17 = "若您遇到任何問題，我們的技術支援團隊樂於協助您：http://www.cfos.de/zh-tw/contact/contact.htm";
+totd18 = "嘲諷者說 C.F.O.S. 這個名字來自於 「Creatures from Outer Space」（外太空生物），但是這種說法是錯誤的！C.F.O.S.這個名字的來源其實是「CAPI-FOSSIL」，其中 CAPI 是一種 ISDN 標準，FOSSIL 是 DOS 當中的一個序列埠介面。:-)";
 
 / directory creation
 dir_badname = "資料夾名稱與現有檔案發生衝突。";
-dir_create = "資料夾 %s 不存在。\n"
-        "是否要建立此資料夾？";
-dir_create_error = "資料夾 %s 建立失敗。\n"
-        "錯誤：%s";
+dir_create = "資料夾 %s 不存在。\n是否要建立此資料夾？";
+dir_create_error = "資料夾 %s 建立失敗。\n錯誤：%s";
 dir_cd_error = "切換到 %s 資料夾失敗 (r=%d)。";
-dir_nooverwrite = "無法覆蓋所選資料夾中的某些檔案。\n"
-        "請您選擇另一個資料夾進行安裝。\n";
-dir_notnuffree = "%s 中沒有足夠的磁碟空間。\n"
-        "需要的磁碟空間：%lu kBytes\n"
-        "可用磁碟空間：%lu kBytes\n\n"
-        "請您選擇另一個磁碟機進行安裝。";
-dir_baddir = "無法存取該資料夾。\n"
-        "請輸入有效資料夾。";
+dir_nooverwrite = "無法覆蓋所選資料夾中的某些檔案。\n請您選擇另一個資料夾進行安裝。\n";
+dir_notnuffree = "%s 中沒有足夠的磁碟空間。\n需要的磁碟空間：%lu kBytes\n可用磁碟空間：%lu kBytes\n\n請您選擇另一個磁碟機進行安裝。";
+dir_baddir = "無法存取該資料夾。\n請輸入有效資料夾。";
 
 / com port messages
 com_need1 = "您必須至少選擇一個 COM 通訊埠。";
-        "您可以在「COM 通訊埠選擇」畫面中選擇一個 COM 埠，'\n"
-        "或是將通訊埠名稱輸入到「功能設定」畫面當中的「附加參數」欄位。\n";
-com_teles = "您選擇的 COM 通訊埠目前正被 TELES.VCOMM 占用。\n\n"
-        "為了讓能夠 %p 使用這些通訊埠，請您按照以下指示設置 TELES.VCOMM：\n"
-        "點擊：開始 - 設定 - 控制台 - TELES ISDN。\n"
-        "然後，點選數據機，並釋放需要的 COM 通訊埠，\n"
-        "為了使設定生效，您可能必須重開機。";
-com_rvscomnt = "您選擇的 COM 通訊埠可能正被 RVS-COM 占用。\n"
-        "如果您已經進行了以下的改動，請您直接點擊「確定」。\n\n"
-        "為了能夠讓 %p 使用這些通訊埠，請您按照以下指示停止 RVS COM 驅動程式：\n"
-        "點擊： 開始 - 設定 - 控制台 - 裝置。\n"
-        "尋找「RVS Virtual COM Port」裝置，並點擊「停止」。\n"
-        "接下來，點選「啟動」選單，選擇「手動」。然後點擊「確定」-「關閉」。\n"
-        "為了使設定生效，您可能必須重開機。";
-com_rvscom95 = "您選擇的 COM 通訊埠目前正被 RVS-COM 占用。\n\n"
-        "為了能夠讓 %p 使用這些通訊埠，您必須移除或停用\n"
-        "VRVSPORT。您可以在硬體管理員中進行。\n";
+com_teles = "您選擇的 COM 通訊埠目前正被 TELES.VCOMM 占用。\n\n為了讓能夠 %p 使用這些通訊埠，請您按照以下指示設置 TELES.VCOMM：\n點擊：開始 - 設定 - 控制台 - TELES ISDN。\n然後，點選數據機，並釋放需要的 COM 通訊埠，\n為了使設定生效，您可能必須重開機。";
+com_rvscomnt = "您選擇的 COM 通訊埠可能正被 RVS-COM 占用。\n如果您已經進行了以下的改動，請您直接點擊「確定」。\n\n為了能夠讓 %p 使用這些通訊埠，請您按照以下指示停止 RVS COM 驅動程式：\n點擊： 開始 - 設定 - 控制台 - 裝置。\n尋找「RVS Virtual COM Port」裝置，並點擊「停止」。\n接下來，點選「啟動」選單，選擇「手動」。然後點擊「確定」-「關閉」。\n為了使設定生效，您可能必須重開機。";
+com_rvscom95 = "您選擇的 COM 通訊埠目前正被 RVS-COM 占用。\n\n為了能夠讓 %p 使用這些通訊埠，您必須移除或停用\nVRVSPORT。您可以在硬體管理員中進行。\n";
 
 / installation
-install_ask =
-        "安裝資料夾：\n"
-        "   %s"
-        "%s"
-        "%s"
-        "%s\n"
-        "\n"
-        "COM 通訊埠：%s\n"
-        "\n"
-        "參數：\n"
-        "   %s\n"
-        "\n"
-        "開始安裝？";
+install_ask = "安裝資料夾：\n   %s%s%s%s\n\nCOM 通訊埠：%s\n\n參數：\n   %s\n\n開始安裝？";
 inst_dsl_on = "\n\nDSL 支援：\n   可用";
 inst_msn = "\n\nMSN:\n   ";
 inst_ok = "安裝成功。\n\n";
-inst_hypertrm = "在您的電腦上找到舊版的 Hyperterminal（超級終端機）。"
-        "目前已知這個版本與 %p 的新式序列埠驅動程式的同時執行時，會出現問題。"
-        "您可以從 http://www.hilgraeve.com 網站下載 "
-        "名為「Hyperterminal Personal Edition」的修訂版本。"
-        "安裝程式已為您在 %p 程式群組當中建立此網站的連結。\n\n";
-inst_norights = "您沒有權限安裝或移除 %p！\n"
-        "您必須擁有管理員權限才能安裝或移除 %p。\n"
-        "請登出後，以包含管理員權限的帳號登入，再重新執行安裝程式。";
-inst_scm_noopen = "無法開啟服務管理員！\n"
-        "您可能沒有權限？\n"
-        "請登出後，以包含管理員權限的帳號登入，再重新執行安裝程式。\n\n"
-        "詳細資訊請參見 %s。";
-inst_mtuchanged = "撥號連線中設定已被調整，以提供最佳化的速度。"
-        "變更將再重新開機後生效。\n\n";
-inst_rmmodem = "某些 %p 數據機已自您的 COM 埠移除，因為新版的 %p"
-        "當中有新的設定，請在數據機管理員當中調整設定，並重新安裝"
-        "缺少的數據機。\n\n";
+inst_hypertrm = "在您的電腦上找到舊版的 Hyperterminal（超級終端機）。目前已知這個版本與 %p 的新式序列埠驅動程式的同時執行時，會出現問題。您可以從 http://www.hilgraeve.com 網站下載 名為「Hyperterminal Personal Edition」的修訂版本。安裝程式已為您在 %p 程式群組當中建立此網站的連結。\n\n";
+inst_norights = "您沒有權限安裝或移除 %p！\n您必須擁有管理員權限才能安裝或移除 %p。\n請登出後，以包含管理員權限的帳號登入，再重新執行安裝程式。";
+inst_scm_noopen = "無法開啟服務管理員！\n您可能沒有權限？\n請登出後，以包含管理員權限的帳號登入，再重新執行安裝程式。\n\n詳細資訊請參見 %s。";
+inst_mtuchanged = "撥號連線中設定已被調整，以提供最佳化的速度。變更將再重新開機後生效。\n\n";
+inst_rmmodem = "某些 %p 數據機已自您的 COM 埠移除，因為新版的 %p當中有新的設定，請在數據機管理員當中調整設定，並重新安裝缺少的數據機。\n\n";
 inst_reboot = "必須重新啟動 Windows 才能繼續安裝。";
 inst_runonce = "安裝過程將在您的電腦重新啟動之後繼續。";
-inst_winpoet1 = "您同時安裝了 %p for DSL 與 WinPoET。\n"
-        "您必須停止 WinPoET，否則將無法使用 %p "
-        "連線至網路，因為 WinPoET 會中斷您的網路連線。";
-inst_winpoet95 = "要停止 WinPoET，請對工具列中的 WinPoET 圖示按下滑鼠右鍵"
-        "，並選擇關閉。\n\n";
-inst_winpoetnt = "要停止 WinPoET，請點擊開始 > 設定 > "
-        "控制台 > 服務，並停止「WinPPPoverEthernet」服務。\n\n";
-inst_winpoetall = "要停止 WinPoET ，請開啟服務管理員，"
-        "並停止「WinPPPoverEthernet」服務。\n\n";
-inst_closeports = "SETUP 無法繼續，因為某些 %p COM 通訊埠\n"
-        "仍被佔用中。請關閉這些通訊埠，並/或點擊…\n"
-        "是:\t 以再試一次，\n"
-        "否:\t 忽略該問題，繼續安裝（將需要重新開機），\n"
-        "取消:\t 以取消。";
-inst_mdmrename_list = "下列 %p 數據機已被更名。請"
-        "調整您的撥號網路連線以及所有其他需要使用這些數據機的程式:\n";
+inst_winpoet1 = "您同時安裝了 %p for DSL 與 WinPoET。\n您必須停止 WinPoET，否則將無法使用 %p 連線至網路，因為 WinPoET 會中斷您的網路連線。";
+inst_winpoet95 = "要停止 WinPoET，請對工具列中的 WinPoET 圖示按下滑鼠右鍵，並選擇關閉。\n\n";
+inst_winpoetnt = "要停止 WinPoET，請點擊開始 > 設定 > 控制台 > 服務，並停止「WinPPPoverEthernet」服務。\n\n";
+inst_winpoetall = "要停止 WinPoET ，請開啟服務管理員，並停止「WinPPPoverEthernet」服務。\n\n";
+inst_closeports = "SETUP 無法繼續，因為某些 %p COM 通訊埠\n仍被佔用中。請關閉這些通訊埠，並/或點擊…\n是:\t 以再試一次，\n否:\t 忽略該問題，繼續安裝（將需要重新開機），\n取消:\t 以取消。";
+inst_mdmrename_list = "下列 %p 數據機已被更名。請調整您的撥號網路連線以及所有其他需要使用這些數據機的程式:\n";
 inst_mdmrename_entry = "「%s」已更名為「%s」於通訊埠 %s。\n";
-inst_mdmremove_list = "必須移除以下的 %p 數據機。每個 %p 數據機"
-        "可手動透過數據機管理員安裝。請在撥號連線設定與其他使用到這些"
-        "數據機的程式設定中進行調整：\n";
+inst_mdmremove_list = "必須移除以下的 %p 數據機。每個 %p 數據機可手動透過數據機管理員安裝。請在撥號連線設定與其他使用到這些數據機的程式設定中進行調整：\n";
 inst_mdmremove_entry = "「%s」於通訊埠 %s。\n";
 
 / foo messages
@@ -2969,23 +2777,15 @@ deinst_ask = "\n\n開始移除？";
 deinst_ok = "移除成功。\n";
 deinst_askfiles = "找到下列 %p 資料檔案:\n\n";
 deinst_askfiles2 = "\n您要刪除這些文件與資料夾嗎？";
-deinst_askfiles3 = "自 %s 資料夾移除時，\n"
-        "安裝程式 找到下列無法識別的檔案:\n\n";
+deinst_askfiles3 = "自 %s 資料夾移除時，\n安裝程式 找到下列無法識別的檔案:\n\n";
 
 / configuration messages
 conf_nocfos = "找不到可設定的 %p。";
-conf_discard = "尚未儲存設定。\n"
-        "立刻儲存變更？";
-conf_ok_noboot = "已變更設定，並已生效。\n"
-        "%p 已被重新啟動，不須重開機。";
-conf_ok_boot = "已變更設定。\n"
-        "為了使變更的設定，您必須重新開機。";
-conf_no_capi16 = "找不到 CAPI.DLL、CAPI20.DLL 或 VxD-CAPI 2.0。\n\n"
-        "%p/Win 需要 CAPI 驅動程式才能執行。\n"
-        "請先安裝 CAPI 驅動程式，\n"
-        "再重新執行 %p 安裝程式。";
-conf_no_capi32 = "找不到正在執行的 CAPI 2.0 驅動程式。\n"
-        "請安裝並啟動您的 CAPI 驅動程式。";
+conf_discard = "尚未儲存設定。\n立刻儲存變更？";
+conf_ok_noboot = "已變更設定，並已生效。\n%p 已被重新啟動，不須重開機。";
+conf_ok_boot = "已變更設定。\n為了使變更的設定，您必須重新開機。";
+conf_no_capi16 = "找不到 CAPI.DLL、CAPI20.DLL 或 VxD-CAPI 2.0。\n\n%p/Win 需要 CAPI 驅動程式才能執行。\n請先安裝 CAPI 驅動程式，\n再重新執行 %p 安裝程式。";
+conf_no_capi32 = "找不到正在執行的 CAPI 2.0 驅動程式。\n請安裝並啟動您的 CAPI 驅動程式。";
 conf_no_comport = "找不到未被占用的 COM 通訊埠。";
 conf_wrong_os = "DLL 回報了錯誤的作業系統。";
 conf_syserror = "系統或內部錯誤。\n請參見 %s 以取得更多詳細資訊。";
@@ -3005,67 +2805,31 @@ group_dun_isdn = "設定 ISDN 連線";
 group_num_block = "設置禁撥電話號碼鎖";
 
 / registration
-tkey_notfound = "找不到傳輸檔案 %s。\n"
-        "請將檔案複製到 %p 安裝程式所在的資料夾，\n"
-        "並重新啟動 %p 安裝程式。\n";
-tkey_bad = "安裝 %p 金鑰時遇到問題。\n"
-        "若需詳細資訊請參見 %s。\n";
-tkey_ok_reboot = "已成功安裝 %p。\n\n"
-        "本程式已註冊給: %s\n"
-        "序號： %s。\n\n"
-        "您需要重新啟動 %p 或您的電腦，\n"
-        "才能使註冊生效。";
-tkey_ok = "已成功安裝 %p。\n\n"
-        "本程式已註冊給: %s\n"
-        "序號： %s。\n\n"
-        "歡迎使用 %p！";
-tkey_filebad = "傳輸檔案已毀損。\n"
-        "請聯絡我們取得新的檔案：\n"
-        "http://www.cfos.de/zh-tw/contact/contact.htm";
-tkey_inst = "您需要先安裝 %p 才能安裝註冊金鑰。\n"
-        "要立刻安裝 %p 嗎？（若選擇「否」將離開安裝程式。）";
+tkey_notfound = "找不到傳輸檔案 %s。\n請將檔案複製到 %p 安裝程式所在的資料夾，\n並重新啟動 %p 安裝程式。\n";
+tkey_bad = "安裝 %p 金鑰時遇到問題。\n若需詳細資訊請參見 %s。\n";
+tkey_ok_reboot = "已成功安裝 %p。\n\n本程式已註冊給: %s\n序號： %s。\n\n您需要重新啟動 %p 或您的電腦，\n才能使註冊生效。";
+tkey_ok = "已成功安裝 %p。\n\n本程式已註冊給: %s\n序號： %s。\n\n歡迎使用 %p！";
+tkey_filebad = "傳輸檔案已毀損。\n請聯絡我們取得新的檔案：\nhttp://www.cfos.de/zh-tw/contact/contact.htm";
+tkey_inst = "您需要先安裝 %p 才能安裝註冊金鑰。\n要立刻安裝 %p 嗎？（若選擇「否」將離開安裝程式。）";
 tkey_abort = "授權未被接受，註冊已中止。";
 
 / miscellaneous
-bugs =  "請注意：這是 %p 的全新 BETA 版本。\n\n"
-        "這個版本中可能還有一些臭蟲。安裝之前，\n"
-        "請您為所有重要的文件做好備份。\n"
-        "執行此版本時必須有人看管。\n"
-        "若您尚未建立備份，請先點擊\n"
-        "取消，並進行備份；否則請點擊確定，以便繼續安裝。\n";
+bugs = "請注意：這是 %p 的全新 BETA 版本。\n\n這個版本中可能還有一些臭蟲。安裝之前，\n請您為所有重要的文件做好備份。\n執行此版本時必須有人看管。\n若您尚未建立備份，請先點擊\n取消，並進行備份；否則請點擊確定，以便繼續安裝。\n";
 type_choice = "請選擇您想安裝的 %p";
 button_ok = "確定 (&O)";
-ask_reboot = "為了使安裝生效，必須重新啟動 Windows。\n"
-        "立刻重新啟動？\n";
-lic_bad = "無法解壓縮授權協議。\n"
-        "無法繼續安裝。";
-inst_eventvwr = "事件檢視器正在執行中，請先關閉。\n"
-        "安裝程式無法在其執行的同時進行安裝。\n";
+ask_reboot = "為了使安裝生效，必須重新啟動 Windows。\n立刻重新啟動？\n";
+lic_bad = "無法解壓縮授權協議。\n無法繼續安裝。";
+inst_eventvwr = "事件檢視器正在執行中，請先關閉。\n安裝程式無法在其執行的同時進行安裝。\n";
 inst_already = "您已經在「%s」通訊埠安裝了 %p。";
 inst_toinstall = "準備安裝：";
-inst_aol_over_cfi = "您正準備安裝 AOL %p 版本，但您已經\n"
-        "安裝了其他的 OEM %p。\n"
-        "若您繼續安裝這套 AOL 的 %p，與 OEM 間的連線可能會被封鎖。\n\n"
-        "我們建議您到\n"
-        "   http://www.cfos.de/zh-tw/oem/oem.htm\n\n"
-        "下載 %p 試用版。此版本可使您連線至所有 OEM 裝置，\n"
-        "並可能比您現在已安裝的版本還新。";
-inst_cfi_over_aol = "您正準備安裝 OEM %p 版本，但您已經\n"
-        "安裝了一個 AOL %p。\n"
-        "若您繼續安裝這套 %p，與 AOL 間的連線可能會被封鎖。\n\n"
-        "我們建議您到：\n"
-        "   http://www.cfos.de/zh-tw/oem/oem.htm\n"
-        "下載最新的 %p 版本。此版本可以讓您連線至所有 OEM 裝置，\n"
-        "並可能比您現在已安裝的版本還新。";
-inst_raspppoe = "您可能安裝了 RASPPPoE。RASPPPoE 目前的設置為，將每個 %p 封包都記錄下來。"
-   "要停止這個行為，請前往 RASPPPoE 通訊協定，選擇屬性、進階、並取消勾選「Log Warnings」。"
-   "這不會影響 RASPPPoE 的功能，只是使事件記錄大小縮小，並提高執行效能。";
+inst_aol_over_cfi = "您正準備安裝 AOL %p 版本，但您已經\n安裝了其他的 OEM %p。\n若您繼續安裝這套 AOL 的 %p，與 OEM 間的連線可能會被封鎖。\n\n我們建議您到\n   http://www.cfos.de/zh-tw/oem/oem.htm\n\n下載 %p 試用版。此版本可使您連線至所有 OEM 裝置，\n並可能比您現在已安裝的版本還新。";
+inst_cfi_over_aol = "您正準備安裝 OEM %p 版本，但您已經\n安裝了一個 AOL %p。\n若您繼續安裝這套 %p，與 AOL 間的連線可能會被封鎖。\n\n我們建議您到：\n   http://www.cfos.de/zh-tw/oem/oem.htm\n下載最新的 %p 版本。此版本可以讓您連線至所有 OEM 裝置，\n並可能比您現在已安裝的版本還新。";
+inst_raspppoe = "您可能安裝了 RASPPPoE。RASPPPoE 目前的設置為，將每個 %p 封包都記錄下來。要停止這個行為，請前往 RASPPPoE 通訊協定，選擇屬性、進階、並取消勾選「Log Warnings」。這不會影響 RASPPPoE 的功能，只是使事件記錄大小縮小，並提高執行效能。";
 dll_found = "找到下列已安裝的驅動程式：\n\n";
 dll_founddir = "在資料夾";
 dll_replace = "\n若要繼續，此驅動程式將被取代。";
 features_bad = "解壓 FEATURES.HTM/FEAT_E.HTM 檔案失敗。";
-general_error = "安裝過程中出現錯誤。\n\n"
-   "詳細資訊請參見 %s 檔案。";
+general_error = "安裝過程中出現錯誤。\n\n詳細資訊請參見 %s 檔案。";
 
 / Don't translate!
 / END SECTION: don't translate
@@ -3901,7 +3665,6 @@ eml_invalid_optional_email = "Vložte prosím platnou e-mailovou adresu nebo nec
 eml_reg_failed = "Registrace e-mailové adresy nebyla úspěšná.";
 eml_checking_domain = "Kontroluji doménu e-mailu...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -4388,7 +4151,6 @@ vista_warn_image = "vista_en.bmp";
 
 / e-mail registration dialog
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -5454,36 +5216,8 @@ virtual_wifi_ok = "Das virtuelle WLAN und die Internet-Verbindungsfreigabe wurde
 virtual_wifi_query_stop = "Soll das virtuelle WLAN gestoppt werden?";
 virtual_wifi_error_stop = "Fehler beim Stoppen des virtuellen WLANs:";
 virtual_wifi_stopped = "Das virtuelle WLAN wurde erfolgreich angehalten.";
+virtual_wifi_dialup_ics = "Für eine DFÜ-Netz- bzw. Wählverbindung müssen Sie die Internet-Verbindungsfreigabe manuell über die Eigenschaften dieser Verbindung aktivieren.";
 
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "Unbekannte Version von 360safe gefunden. Bitte stellen Sie\n"
-                  "sicher, dass die neuste Version von 360safe installiert ist.";
-err_360_too_old = "Die auf diesem Computer installierte Version von 360safe ist\n"
-                  "zu alt und läuft nicht korrekt gemeinsam mit %p. Bitte halten\n"
-                  "Sie die neuste Version von 360safe bereit und führen dann die\n"
-                  "folgenden Schritte in der genannten Reihenfolge durch:\n"
-                  "1. Deinstallieren Sie 360safe.\n"
-                  "2. Installieren Sie %p.\n"
-                  "3. Installieren Sie die neuste Version von 360safe.";
-wrn_360_might_fail = "Das Programm 360safe wurde auf diesem Computer gefunden.\n"
-                     "%p lässt sich möglicherweise nicht installieren, während\n"
-                     "360safe läuft. Wenn die Installation von %p fehlschlägt,\n"
-                     "halten Sie bitte die neuste Version von 360safe bereit und\n"
-                     "führen dann die folgenden Schritte in der genannten\n"
-                     "Reihenfolge durch:\n"
-                     "1. Deinstallieren Sie 360safe.\n"
-                     "2. Installieren Sie %p.\n"
-                     "3. Installieren Sie die neuste Version von 360safe.";
-err_360_device_opened = "%p kann nicht installiert werden, da die folgenden Programme\n"
-                        "den %p Gerätetreiber noch geöffnet haben:\n"
-                        "%?\n"
-                        "Das liegt vermutlich daran, dass das Programm 360safe auf\n"
-                        "diesem Computer läuft. Um %p zu installieren, halten Sie\n"
-                        "bitte die neuste Version von 360safe bereit und führen dann\n"
-                        "die folgenden Schritte in der genannten Reihenfolge durch:\n"
-                        "1. Deinstallieren Sie 360safe.\n"
-                        "2. Installieren Sie %p.\n"
-                        "3. Installieren Sie die neuste Version von 360safe.";
 
 / ----------------------------------------------------------------------
 /
@@ -7026,7 +6760,6 @@ eml_invalid_optional_email = "Παρακαλούμε εισάγετε μία έ�
 eml_reg_failed = "Η εγγραφή της διεύθυνσης E-mail απέτυχε.";
 eml_checking_domain = "Ελεγχος του E-mail domain...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -8073,34 +7806,8 @@ virtual_wifi_ok = "Virtual Wi-Fi and Internet Connection Sharing sucessfully act
 virtual_wifi_query_stop = "Stop Virtual Wi-Fi?";
 virtual_wifi_error_stop = "Error stopping Virutal Wi-Fi:";
 virtual_wifi_stopped = "Virtual Wi-Fi successfully stopped.";
+virtual_wifi_dialup_ics = "For a dial-up connection you have to enable Internet Connection Sharing manually by changing the properties of this connection.";
 
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "Unknown version of 360safe found. Please make sure\n"
-                  "you have the latest version of 360safe installed.";
-err_360_too_old = "The version of 360safe on this computer is too old and\n"
-                  "will not work properly together with %p. Please get the\n"
-                  "latest version of 360safe and perform these steps\n"
-                  "in the following order:\n"
-                  "1. Uninstall 360safe\n"
-                  "2. Install %p\n"
-                  "3. Install the latest version of 360safe";
-wrn_360_might_fail = "The program 360safe has been found on this computer.\n"
-                     "The installation of %p might fail while 360safe is\n"
-                     "running. If the installation of %p fails, please get\n"
-                     "the latest version of 360safe and perform these steps\n"
-                     "in the following order:\n"
-                     "1. Uninstall 360safe\n"
-                     "2. Install %p\n"
-                     "3. Install the latest version of 360safe";
-err_360_device_opened = "%p cannot be installed because the following programs still\n"
-                        "have opened the %p device driver:\n"
-                        "%?\n"
-                        "This is probably so because the program 360safe is running\n"
-                        "on this computer. To install %p, please get the latest version\n"
-                        "of 360safe and perform these steps in the following order:\n"
-                        "1. Uninstall 360safe\n"
-                        "2. Install %p\n"
-                        "3. Install the latest version of 360safe";
 
 / ----------------------------------------------------------------------
 /
@@ -9641,7 +9348,6 @@ eml_invalid_optional_email = "Por favor ingrese una dirección de correo válida
 eml_reg_failed = "El registro de la dirección de correo electrónico ha fallado.";
 eml_checking_domain = "Chequeando el dominio de correo electrónico...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -11194,7 +10900,6 @@ eml_checking_domain = "Vérification de domaine de l'adresse e-mail...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -11968,7 +11673,6 @@ eml_invalid_optional_email = "הקש כתובת חוקית או השאר שדה 
 eml_reg_failed = "רישום הכתובת נכשל.";
 eml_checking_domain = "בודק שרת דואר...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -12862,11 +12566,6 @@ eml_invalid_optional_email = "Vagy érvényes e-mail címet adjon meg, vagy hagy
 eml_reg_failed = "Az e-mail-regisztrálás sikertelen.";
 eml_checking_domain = "Az e-mail Domain ellenőrzése...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "A 360safe ismeretlen verziója van a PC-n. Győződjön meg\nróla, hogy a 360safe legújabb verziója van-e telepítve.";
-err_360_too_old = "A telepített 360safe-verzió\ntúl régi és nem fut hibátlanul együtt az %p-vel. Tartsa készenlétben a 360safe legújabb verzióját és hajtsa végre a\nkövetkező lépéseket a megadott sorrendben:\n1. Távolítsa el a 360safe-t.\n2. Telepítse a(z) %p-t.\n3. Telepítse a 360safe legújabb verzióját.";
-wrn_360_might_fail = "A 360safe program található a PC-n.\n%p lehet, hogy nem telepíthető, amíg az\n360safe fut. Ha a(z) %p telepítése sikertelen,\ntartsa készen a 360safe új verzióját és\nvégezze el a \nkövetkező lépéseket:\n1. Távolítsa el a 360safe-t.\n2. Telepítse a(z) %p-t.\n3. Telepítse a 360safe új verzióját.";
-err_360_device_opened = "A(z) %p nem telepíthető, mivel a következő programok\nmegnyitva tartják az %p eszközmeghajtót:\n%?\nEz feltehetően amiatt van, mert a 360safe program\nfut az Ön PC-jén. A(z %p telepítéséhez telepítse az\n360safe legújabb verzióját és hajtsa végre a\nkövetkező lépéseket a megadott sorrendben:\n1. Távolítsa el a 360safe-t.\n2. Telepítse a(z) %p-t.\n3. Telepítse a 360safe legújabb verzióját.";
 
 / ----------------------------------------------------------------------
 /
@@ -13786,11 +13485,6 @@ eml_checking_domain = "Sto verificando il dominio della casella di posta....";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "Rilevata versione sconosciuta di 360safe. Prego di assicurarti\ndi avere l'ultima versione di 360safe installato";
-err_360_too_old = "La versione di 360safe in questo computer è troppo vecchia e\nnon funzionerà correttamente con %p. Sei pregato di ottenere\nl'ultima versione di 360safe ed esegui questi passaggi\nnel seguente ordine:\n1. Disinstalla 360safe\n2. Installa %p\n3. Installa l'ultima versione di 360safe";
-wrn_360_might_fail = "E' stato rilevato 360safe in questo computer.\nL' installazione di %p potrebbe fallire mentre è in \nesecuzione 360safe. Se l'installazione di %p fallisce, sei pregato di scaricare\nl'ultima versione di 360safe e seguire queste istruzioni\nnel seguente ordine:\n1. Disinstalla 360safe\n2. Installa %p\n3. Installa l'ultima versione di 360safe";
-err_360_device_opened = "%p non si può installare perchè i seguenti programmi hanno\nancora aperto il %p driver di periferica:\n%?\nQuesto probabilmente accade perchè il programma 360safe è in esecuzione\nsu questo computer. Per installare %p, sei pregato di scaricare l'ultima versione\ndi 360safe ed esegui questi passaggi nel seguente ordine:\n1. Disinstalla 360safe\n2. Installa %p\n3. Installa l'ultima versione di 360safe";
 
 / ----------------------------------------------------------------------
 /
@@ -14754,11 +14448,6 @@ virtual_wifi_error_enable_ics = "インターネット接続共有の有効化�
 virtual_wifi_error_start = "仮想 Wi-Fi の開始に失敗";
 virtual_wifi_ok = "仮想 Wi-Fi およびインターネット接続共有のアクティベートが完了しました\n\n注意: クライアントの仮想 Wi-Fi への接続後、インターネットに接続できない場合は、%p をアンインストールしてから再インストールしてください";
 
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "バージョンが不明な 360safe を検出しました、360safe\nは、最新版をインストールしておいてください。";
-err_360_too_old = "この PC にインストールされているバージョンの 360safe は\n%p と共存させることができません。この問題を解決するには\nまず最新バージョンの 360safe を入手してください。\nそして次のステップを実行します:\n1. 360safe をアンインストール\n2. %p をインストール\n3. 最新版の 360safe をインストール";
-wrn_360_might_fail = "この PC 内にプログラム 360safe が検出されました\n360safe が稼働している状態では、%p のインストールに失敗\nする可能性があります。%p のインストールに失敗する場合\nは、360safe の最新版を入手後、以下の順序でステップを\n実行してください:\n1. 360safe をアンインストール\n2. %p をインストール\n3. 最新版の 360safe をインストール";
-err_360_device_opened = "%p をインストールすることが出来ません、次のプログラムにより\n%p デバイスドライバが開かれています:\n%?\nこれはおそらくこの PC で 360safe が稼働している事が原因\nとなっています。%p をインストールするには、最新版の 360safe を\n入手後、次のステップを実行してみてください:\n1. 360safe をアンインストール\n2. %p をインストール\n3. 最新版の 360safe をインストール";
 
 / ----------------------------------------------------------------------
 /
@@ -16143,7 +15832,6 @@ eml_invalid_optional_email = "유효한 Email 주소를 입력하거나 빈칸�
 eml_reg_failed = "E-mail 주소 등록을 실패 했습니다.";
 eml_checking_domain = "E-mail 도메인 확인중...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -17404,7 +17092,6 @@ eml_invalid_optional_email = "Voer een geldig e-mail adres is of voer geen adres
 eml_reg_failed = "E-mail adres registratie mislukt.";
 eml_checking_domain = "Controleren van E-mail domein...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -17894,7 +17581,6 @@ err_copy_from_to = "Error når kopiering av fil %1 til %2 (%3).";
 
 / e-mail registration dialog
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -18472,7 +18158,6 @@ eml_invalid_email = "Adres e-mail, który podałeś jest nieprawidłowy.";
 eml_reg_failed = "Rejestracja adresu E-mail zakończyła się niepowodzeniem.";
 eml_checking_domain = "Sprawdzanie domeny adresu E-mail...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -19793,11 +19478,6 @@ eml_checking_domain = "Revisando o domÃ­nio do e-mail...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "Foi encontrada uma versão desconhecida do 360safe. Por favor, certifique-se\nque possui a versão mais recente do 360safe instalada.";
-err_360_too_old = "A versão do 360safe neste computador é muito antiga e\nnão irá funcionar adequadamente junto com o %p. Por favor, baixe a\nversão mais recente do 360safe e siga os seguintes passos\nnesta ordem:\n1. desinstale o 360safe\n2. instale o %p\n3. instale a versão mais recente do 360safe";
-wrn_360_might_fail = "O programa 360safe foi encontrado neste computador.\nA instalação do %p pode falhar enquanto o 360safe estiver\nsendo executado. Caso a instalação do %p falhe, por favor, baixe\na versão mais recente do 360safe e siga os seguintes passos\nnesta ordem:\n1. desinstale o 360safe\n2. instale o %p\n3. instale a versão mais recente do 360safe";
-err_360_device_opened = "O %p não pôde ser instalado porque os seguintes programas estão\nusando o controlador do %p:\n%?\nIsto se deve, provavelmente, porque o programa 360safe está sendo executado\nneste computador. Para instalar o %p, por favor, baixe a versão mais recente\ndo 360safe e siga os seguintes passos nesta ordem:\n1. desinstale o 360safe\n2. instale o %p\n3. instale a versão mais recente do 360safe";
 
 / ----------------------------------------------------------------------
 /
@@ -20511,7 +20191,6 @@ eml_invalid_optional_email = "Vă rugăm să introduceţi o adresă validă sau 
 eml_reg_failed = "Înregistrarea adresei de E-Mail a eşuat.";
 eml_checking_domain = "Verificarea domeniului de E-Mail...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -21500,7 +21179,6 @@ eml_invalid_optional_email = "Пожалуйста, введите правил�
 eml_reg_failed = "Не удалось зарегистрировать адрес электронной почты.";
 eml_checking_domain = "Проверка домена электронной почты...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -22036,7 +21714,6 @@ vista_warn_image = "vista_en.bmp";
 
 / e-mail registration dialog
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -22458,7 +22135,6 @@ volume = "ค่าระดับ";
 volume_limit = "ค่าระดับที่ถูกจำกัด";
 spdbudget_help = "ในการใช้งานงบประมาณในการใช้งาน, ให้ไปยังหน้าต่างการเชื่อมต่อและตั้งค่าให้เป็นการเชื่อมต่อแบบเฉพาะเจาะจง";
 password_bad = "รหัสผ่านไม่ดี";
-favor_bandwidth = "เน้น Bandwidth";
 sum_button = "ต่อเนื่อง";
 calibrate = "ตั้งศูนย์การเชื่อมต่อ";
 test_pings = "ส่วค่า test pings";
@@ -22890,7 +22566,6 @@ eml_checking_domain = "กำลังตรวจสอบที่ E-mail doma
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -23757,7 +23432,6 @@ eml_invalid_optional_email = "Geçerli bir e-mail adresi girin ya da bu alanı b
 eml_reg_failed = "E-posta adresi kaydı başarısız oldu.";
 eml_checking_domain = "E-posta alanı kontrol ediliyor...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -24756,7 +24430,6 @@ eml_invalid_optional_email = "Silakan masukkan alamat surel yang sahih atau tida
 eml_reg_failed = "Pendaftaran alamat surel gagal.";
 eml_checking_domain = "Memeriksa ranah surel...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -25401,11 +25074,6 @@ eml_invalid_optional_email = "Будь ласка, введіть коректн
 eml_reg_failed = "Помилка реєстрації E-mail.";
 eml_checking_domain = "Перевірка домена E-mail...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "Знайдена невідома версія 360safe. Перевірте,\nщо встановлена остання версія 360safe.";
-err_360_too_old = "Версія 360safe на цьому комп'ютері занадто стара і\n не працює коректно з %p. Отримайте \nостанню версію 360safe і виконайте ці кроки\nу наступному порядку:\n1. Деінсталюйте 360safe\n2. Встановіть %p\n3. Встановіть останню версію 360safe";
-wrn_360_might_fail = "Програму 360safe знайдено на цьому комп'ютері.\nІнсталяція %p може бути невдалою, поки 360safe is\nзавантажена. Якщо інсталяція %p не вдалася, отримайте\nостанню версію 360safe і виконайте наступні кроки:\n1. Деінсталюйте 360safe\n2. Встановіть %p\n3. Встановіть останню версію 360safe";
-err_360_device_opened = "%p не може бути встановлений, оскільки наступні програми\nвідкрили %p драйвер пристрою:\n%?\nЦе, ймовірно, так, тому що програма 360safe завантажена\nна цьому комп'ютері. Для установки %p, візьміть останню версію\nof 360safe і виконайте ці кроки у наступному порядку:\n1. Деінсталюйте 360safe\n2. Встановіть %p\n3. Встановіть останню версію 360safe";
 
 / ----------------------------------------------------------------------
 /
@@ -26271,7 +25939,6 @@ eml_invalid_optional_email = "Prosim vnesite veljaven e-mail naslov ali pa sploh
 eml_reg_failed = "Registarcija e-mail naslova spodletela.";
 eml_checking_domain = "Preverjanje e-mail domene...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -27211,7 +26878,6 @@ eml_checking_domain = "Đang kiểm tra domain của Email...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -27951,7 +27617,6 @@ eml_invalid_optional_email = "Молиме внесете валидна e-mail 
 eml_reg_failed = "E-mail адреса грешка грегистрирање.";
 eml_checking_domain = "Проверување E-mail домен...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -28566,7 +28231,6 @@ eml_invalid_optional_email = ".لطفا یک ایمیل موجود را وارد
 eml_reg_failed = ".ثبت آدرس ایمیل از دست رفت";
 eml_checking_domain = "...چک کردن آدرس ایمیل";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -29457,28 +29121,6 @@ eml_invalid_optional_email = "请输入完整有效的E-mail地址，或完全�
 eml_reg_failed = "电子邮件地址注册失败。";
 eml_checking_domain = "正在检查电子邮件域...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "发现未知版本的360安全卫士，请确保您已安装最新版本的360安全卫士。\n";
-err_360_too_old = "程序检测到已安装的360安全卫士版本过旧，可能无法与 %p 协同工作。\n"
-                  "请至360官方网站获取最新版本的360安全卫士并依照下述步骤进行安装。\n"
-                  "1. 卸载360安全卫士\n"
-                  "2. 安装 %p\n"
-                  "3. 安装最新版本的360安全卫士";
-wrn_360_might_fail = "程序检测到本机已经安装360安全卫士。\n"
-                     "在360安全卫士运行时安装 %p 程序可能会失败。\n"
-                     "如果安装 %p 失败，请至360官方网站获取最新版本的360安全卫士，\n"
-                     "并按照以下所述步骤进行安装，方可确保程序正常运行。\n"
-                     "1. 卸载360安全卫士\n"
-                     "2. 安装 %p\n"
-                     "3. 安装最新版本的360安全卫士";
-err_360_device_opened = "由于 %p 的设备驱动被以下程序占用，导致 %p 无法正常安装。\n"
-                        "%?\n"
-                        "这可能是由于360安全卫士在本机运行中。\n"
-                        "为了能正常安装 %p，请至360官方网站获取最新版本的360安全卫士，\n"
-                        "并按照以下所述步骤进行安装，方可确保程序正常运行。\n"
-                        "1. 卸载360安全卫士\n"
-                        "2. 安装 %p\n"
-                        "3. 安装最新版本的360安全卫士";
 
 / ----------------------------------------------------------------------
 /
@@ -30379,7 +30021,6 @@ dun_new_connection = "Set up new connection";
 / e-mail registration dialog
 eml_invalid_email = "The e-mail address you've entered is invalid.";
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -30798,7 +30439,6 @@ limit_help = "Valores en kbyte/s, incluyendo a todas las cabeceras de los protoc
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
-/ "360safe" ---- only the Chinese translations are needed ----
 
 / ----------------------------------------------------------------------
 /
@@ -31710,11 +31350,6 @@ eml_checking_domain = "A verificar o domínio do e-mail...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "Versão desconhecido do 360safe encontrado. Por favor, faça,\nVocê tem a certeza que a versão mais recente do 360safe está instalado.";
-err_360_too_old = "A versão do 360safe deste computador é muito velha e\nnão funcionar corretamente em conjunto com %p. Por favor, obtenha a versão mais recente 360safe e execute estas etapas\nna seguinte ordem:\n1. Desinstale 360safe\n2. Instale %p\n3. Instale a versão mais recente do 360safe";
-wrn_360_might_fail = "O programa 360safe foi encontrado neste computador.\nÉ instalação de %p pode falhar enquanto 360safe é\ncorrido. Se a instalação do %p não, por favor entrar\nA versão mais recente do 360safe e executar essas etapas\npela seguinte ordem:\n1. Desinstale 360safe\n2. Instale% p\n3. Instale a versão mais recente do 360safe";
-err_360_device_opened = "%p não pode ser instalado porque ainda tem os seguintes programas\nabertos no driver de dispositivo %p:\n%?\nEste é provavelmente o programa que está sendo executado 360safe\n neste computador. Para instalar %p, por favor, pegue a última versão\ndo 360safe e execute essas etapas, na seguinte ordem:\n1. Desinstalar 360safe\n2. Instale %p\n3. Instale a versão mais recente do 360safe";
 
 / ----------------------------------------------------------------------
 /
@@ -32483,11 +32118,6 @@ eml_invalid_optional_email = "Unesite važeæu adresu e-pošte ili je uopšte ne
 eml_reg_failed = "Registracija adrese e-pošte nije uspjela.";
 eml_checking_domain = "Provjeravanje domena e-pošte...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "Nepoznata verzija programa 360safe je detektovana. Provjerite da li je\nnajnovija verzija programa 360safe instalirana.";
-err_360_too_old = "Verzija programa 360safe na ovom raèunaru je zastarijela i\nneæe ispravno raditi sa %p. Instalirajte\nnajnoviju verziju programa 360safe i uradite ove korake\nredom:\n1. Deinstalirajte 360safe\n2. Instalirajte %p\n3. Instalirajte najnoviju verziju programa 360safe";
-wrn_360_might_fail = "Program 360safe je detektovan na ovom raèunaru.\n%p instalacija možda neæe uspjeti dok je 360safe\npokrenut. Ako %p instalacija ne uspje, instalirajte\nnajnoviju verziju programa 360safe i uradite ove korake\nredom:\n1. Deinstalirajte 360safe\n2. Instalirajte %p\n3. Instalirajte najnoviju verziju programa 360safe";
-err_360_device_opened = "%p ne može biti instaliran zato što slijedeæi programi još uvijek\nkoriste %p upravljaèki program:\n%?\nVjerovatni razlog je što je 360safe pokrenut\nna ovom raèunaru. Da instalirate %p, instalirajte najnoviju verziju\nprograma 360safe i uradite ove korake redom:\n1. Deinstalirajte 360safe\n2. Instalirajte %p\n3. Instalirajte najnoviju verziju programa 360safe";
 
 / ----------------------------------------------------------------------
 /
@@ -33242,11 +32872,6 @@ eml_invalid_optional_email = "Унесите важећу адресу е-пош
 eml_reg_failed = "Регистрација адресе е-поште није успјела.";
 eml_checking_domain = "Провјеравање домена е-поште...";
 
-/ "360safe" ---- only the Chinese translations are needed ----
-wrn_unknown_360 = "Непозната верзија програма 360safe је детектована. Провјерите да ли је\nнајновија верзија програма 360safe инсталирана.";
-err_360_too_old = "Верзија програма 360safe на овом рачунару је застаријела и\nнеће исправно радити са %p. Инсталирајте\nнајновију верзију програма 360safe и урадите ове кораке\nредом:\n1. Деинсталирајте 360safe\n2. Инсталирајте %p\n3. Инсталирајте најновију верзију програма 360safe";
-wrn_360_might_fail = "Програм 360safe је детектован на овом рачунару.\n%p инсталација можда неће успјети док је 360safe\nпокренут. Ако %p инсталација не успје, инсталирајте\nнајновију верзију програма 360safe и урадите ове кораке\nредом:\n1. Деинсталирајте 360safe\n2. Инсталирајте %p\n3. Инсталирајте најновију верзију програма 360safe";
-err_360_device_opened = "%p не може бити инсталиран зато што слиједећи програми још увијек\nнкористе %p управљачки програм:\n%?\nВјероватни разлог је што је 360safe покренут\nна овом рачунару. Да инсталирате %p, инсталирајте најновију верзију\nпрограма 360safe и урадите ове кораке редом:\n1. Деинсталирајте 360safe\n2. Инсталирајте %p\n3. Инсталирајте најновију верзију програма 360safe";
 
 / ----------------------------------------------------------------------
 /
