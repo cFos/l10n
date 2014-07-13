@@ -46,3 +46,9 @@ no_ping_pccillin = "<h4>PC Cillin 2007:</h4><p>To allow the Windows tracert comm
 #2014-06-09
 
 	WiFi -> Wi-Fi
+
+#2014-07-13
+
+	cFos Twitter Notifier -> cFos Notifier
+
+	cFos *tranlsated* ->  cFos Notifier
