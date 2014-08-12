@@ -13,9 +13,9 @@ Software translation status
 
 | #   | lang id           | untransl. | proofreading status                                   | notes |
 | :-: | ----------------- | --------: | ----------------------------------------------------- | ----- |
-|     | ar - 1025         | 350       |                                                       |       |
+| `G` | ar - 1025         | 350       |                                                       |       |
 | `G` | bg - 1026         | 200       |                                                       |       |
-|     | zh-tw - 1028      | 0         | done (2014-06-22) by Peter Chen                       |       |
+| `G` | zh-tw - 1028      | 0         | done (2014-06-22) by Peter Chen                       |       |
 | `G` | cs - 1029         | 0         |                                                       |       |
 |     | de - 1031         |           |                                                       |       |
 | `G` | el - 1032         |           |                                                       |       |
@@ -38,9 +38,9 @@ Software translation status
 |     | be - 1059         |           |                                                       |       |
 |     | sl - 1060         |           |                                                       |       |
 |     | et - 1061         |           |                                                       |       |
-|     | vi - 1066         | 0         |                                                       |       |
+| `G` | vi - 1066         | 0         |                                                       |       |
 |     | mk - 1071         |           |                                                       |       |
-|     | farsi - 1256      |           |                                                       |       |
+| `G` | fa - 1256         | all       |                                                       |       |
 |     | zh-cn - 2052      | 17        |                                                       |       |
 | `G` | es-mx - 2058      | 600       |                                                       |       |
 | `G` | pt - 2070         | 22        | done (2014-04-21) by Adriano Maia                     |       |
@@ -58,4 +58,4 @@ Software translation status
 | `x` | fr-ca - 3084      | `x`       |                                                       |       |
 | `x` | en-ca - 4105      | `x`       |                                                       |       |
 | `x` | fr-ch - 4108      | `x`       |                                                       |       |
-| `x` | en-us - 49161     | `x`       |                                                       |       |
+| `x` | dummy - 49161     | `x`       |                                                       |       |
