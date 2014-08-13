@@ -1790,7 +1790,7 @@ ask_disconnect_ras = "需要重新設定使用中的網路連線。\n我們建�
 sygate_hint = "%p 偵測到 Sygate 防火牆，此防火牆會將 %p 的線路校正誤認為\n阻絕服務攻擊（DoS）的「Ping-of-Death」封包。\n因此請您做 30 秒鐘的全速下載後再進行 30 秒鐘的全速上傳，\n這樣會如同使用線路校正來校正 %p。\n\n提示：您應該停用防火牆的「Anti IP Manipulation」功能。";
 select_language = "選擇語系";
 translator = "翻譯者";
-translator_name = "Peter Chen, Chris Hsu";
+translator_name = "Peter Chen";
 translator_msg = "若有任何翻譯問題，請寄信到 translation@cfos.de";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "您的 %3 授權將於 %1 %2 後到期。";
