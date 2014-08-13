@@ -1791,7 +1791,7 @@ sygate_hint = "%p 偵測到 Sygate 防火牆，此防火牆會將 %p 的線路�
 select_language = "選擇語系";
 translator = "翻譯者";
 translator_name = "Peter Chen";
-translator_msg = "";
+translator_msg = "若有任何翻譯問題，請寄信到 translation@cfos.de";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "您的 %3 授權將於 %1 %2 後到期。";
 
@@ -2376,7 +2376,7 @@ tsa_info = "請依據您的網際網路連線，選擇流量塑型演算法的�
 / vista warning
 vista_header = "安裝說明";
 vista_subheader = "Windows Vista 中的驅動程式安裝說明。";
-vista_warn_info = "%p 已經由 GlobalSign（Microsoft 授權的公司）簽署數位憑證，然而 cFos Software GmbH 並沒有參加 Microsoft 額外且昂貴的 WHQL 認證，因此在安裝驅動程式時，將會跳出一個視窗提醒您此驅動程式未經過認證。\n\n如果出現這個視窗，請點選「繼續安裝」。";
+vista_warn_info = "%p 已經由 GlobalSign（經 Microsoft 授權的公司）簽署數位憑證，然而 cFos Software GmbH 並沒有參加 Microsoft 額外且昂貴的 WHQL 認證，因此在安裝驅動程式時，將會跳出一個視窗提醒您此驅動程式未經過認證。\n\n如果出現這個視窗，請點選「繼續安裝」。";
 vista_warn_image = "vista_en.bmp";
 
 / dial entry dialog
@@ -2453,7 +2453,7 @@ isync = "您的時間 %2 %1 秒";
 late = "慢";
 early = "快";
 / %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
-max_drift = "您已超出了 %1 分鐘的最大允許時間偏差（目前時間偏差為  %2 分鐘）";
+max_drift = "您已超出了 %1 分鐘的最大允許時間偏差（目前時間偏差為 %2 分鐘）";
 
 nosync = "ISDN 時間同步: 一切都設置完畢";
 nosyncreg = "ISDN 時間同步：僅適用於完整版本";
@@ -2470,7 +2470,7 @@ ipmtu = "已調整撥號網路設定以最佳化您的網路連線。\n調整將
 closemsg = "很抱歉，為了提供您到期日資訊，將一直顯示此視窗。\n這樣您就能夠即時得知您的試用版使用使用期將於何時結束。\n\n在 %p/Professional 的完整版本中，將不會顯示此視窗，\n僅在您需要的時候才會顯示。只要對視窗點擊滑鼠右鍵\n點擊 %p 視窗或者工具列中的 %p 圖示即可開啟 %p 的訂購網頁！";
 cfos_endsoon = "%p 的試用期即將結束。\n立即訂購 %p 專業版！\n您可以透過以下的網址購買 %p。\n\nhttps://www.cfos.de/zh-tw/order/order.htm";
 cfos_expired = "此 %p 版本已過期。\n立即訂購 %p/Professional！\n您可透過以下方式購買 %p：\n\nhttps://www.cfos.de/zh-tw/order/order.htm\n\n電話: +49-228-7669826\n傳真: +49-228-7669827。";
-actionwait = "連上網絡之後，將執行您指定的行為。";
+actionwait = "連上網路之後，將執行您指定的行為。";
 discask = "確定要中斷此連線？";
 dial_warn = "允許撥打 %1 嗎?";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
@@ -2501,7 +2501,7 @@ capi14 = "非特定";
 capi15 = "業者占線";
 capi16 = "業者斷線";
 capi17 = "暫時錯誤";
-capi18 = "網絡堵塞";
+capi18 = "網路堵塞";
 capi19 = "業者占線";
 capi20 = "業者占線";
 capi21 = "無 Bearer Cap";
@@ -2536,7 +2536,7 @@ dlg_end_dsl = "建立 DSL 撥號連線";
 dlg_end_isdn = "建立 ISDN 撥號連線";
 dlg_end_block = "設置禁撥電話號碼鎖";
 dlg_oem_header = "%p Professional";
-adv_osna = "這是一個特殊的 DSL 版本，僅適用於您的網路業者。此外，您也可以安裝 cFos Professional 的 30 天試用版。此版本有下個對話窗中展示，更強大的功能。";
+adv_osna = "這是一個特殊的 DSL 版本，僅適用於您的網路業者。此外，您也可以安裝 cFos Professional 的 30 天試用版。此版本將於下個對話窗中展示更強大的功能。";
 dlg_oem_quest = "您想安裝 30 天試用版嗎？";
 
 / begin dialog
@@ -2577,7 +2577,7 @@ fs_doctrafficshp = "（使用 %p 流量塑型來讓上網變得更快）";
 fs_chkcallmon = "ISDN 來電監控器";
 fs_doccallmon = "（顯示來電者的電話號碼；詳情請見 CFOSINI.HTM）";
 fs_chkdyncapi = "載入動態 CAPI";
-fs_docdyncapi = "（我們推薦筆記型電腦使用者使用此功能。使用網絡 CAPI 時必須使用）";
+fs_docdyncapi = "（我們推薦筆記型電腦使用者使用此功能。使用網路 CAPI 時必須使用）";
 
 / uninstall dialog
 dlg_deinst_ok = "移除";
@@ -2620,9 +2620,9 @@ dun_fmt = "新增 <%s> 連線";
 dun_err_modem = "找不到可用來建立撥號連線的\n%p 數據機。\n";
 dun_err_invalid_name = "撥號項目名稱無效。";
 dun_err_invalid_parameter = "您輸入的參數至少有一個無效。";
-dun_err_state_machine = "建立撥號網路連線時\n出現了錯誤 695 (state machines not started)。\n可能是您的電腦尚未安裝 DUN 撥號網絡。\n這種情況下，請安裝 DUN 撥號網絡程式\n（1.3 或更新版）。";
+dun_err_state_machine = "建立撥號網路連線時\n出現了錯誤 695（機器未啟動錯誤狀態）。\n可能是您的電腦尚未安裝 DUN 撥號網路。\n這種情況下，請安裝 DUN 撥號網路程式\n（1.3 或更新版）。";
 dun_err_ras = "建立撥號網路連線項目時出現未知錯誤。\n";
-dun_legal_info = "我們在此向您說明建立撥號連線僅是我們\n的安裝程式所提供的服務。透過這個撥號連線撥號上網\n之後可能需要支付上網費用。\n若需網路業者所提供的服務費率表，或是不同的連線參數\n（例如連線號碼），請參見各網路業者（ISP）的網站。\n\n\n%p 所建立的連線行為會與使用 Windows 建立的不同。\n請您在撥號網路數定中檢查設定。\n";
+dun_legal_info = "我們在此向您說明建立撥號連線僅是我們\n的安裝程式所提供的服務。透過這個撥號連線撥號上網\n之後可能需要支付上網費用。\n若需網路業者所提供的服務費率表，或是不同的連線參數\n（例如連線號碼），請參見各網路業者（ISP）的網站。\n\n\n%p 所建立的連線行為會與使用 Windows 建立的不同。\n請您在撥號網路設定中檢查。\n";
 country_0 = "現有的撥號連線";
 country_49 = "德國";
 
