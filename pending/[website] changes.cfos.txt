@@ -57,3 +57,8 @@ no_ping_pccillin = "<h4>PC Cillin 2007:</h4><p>To allow the Windows tracert comm
 
 asus_p1 = "As a customer of certain ASUS motherboards you have the right to use and benefit from ASUS ROG GameFirst I&amp;II. This is a full-featured, unlimited Traffic Shaping solution powered by cFosSpeed. We hope you enjoy the speed-up possible with your version of ASUS ROG GameFirst I&amp;II.";
 	`ASUS ROG GameFirst I&amp;II` -> `ASUS ROG GameFirst I&amp;II / Turbo LAN`
+
+#2014-08-12
+
+pnet_wmi_p1 = "Monitor vital WMI data on your PC or smartphone.<br/>Free addon package for <a class=\"inline\" href=\"cfos-personal-net.htm\">cFos Personal Net</a> users.";
+	`<a class=\"inline\" href=\"cfos-personal-net.htm\">` -> `<a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\">`
