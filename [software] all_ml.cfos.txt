@@ -5097,6 +5097,7 @@ err_uninst_driver = "Der Gerätetreiber konnte nicht deinstalliert werden.";
 err_create_process = "Das Programm %s konnte nicht gestartet werden: %s";
 err_write_lock = "Netzwerkkomponenten von %? werden von einem anderen Prozess benutzt. "
                  "Bitte beenden Sie alle anderen Programme oder starten Sie Ihr System neu.";
+err_write_lock_process = "Netzwerkkomponenten von %? werden von folgendem Prozess benutzt: %?. Bitte beenden Sie dieses Programm oder starten Sie Ihr System neu.";
 err_file_auth = "Einige Dateien dieser Distribution fehlen oder sind beschädigt.\n"
                 "Bitte besorgen Sie sich eine authentische %p Distribution\n"
                 "(z.B. von www.cfos.de).";
@@ -6869,6 +6870,23 @@ language = "American English";
 language_local = "American English";
 htm_lang_prefix = "en";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to 
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+htm_prefix = "http://www.cfos.de/";
+cfosspeed_feature_highlights_htm = "%url/cfosspeed/cfosspeed-feature-highlights.htm";
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
@@ -7690,6 +7708,7 @@ err_uninst_driver = "The device driver could not be uninstalled.";
 err_create_process = "Error starting %s: %s";
 err_write_lock = "%? network components are in use by another process. "
                  "Please close all other applications or reboot your computer and retry.";
+err_write_lock_process = "%? network components are in use by the following process: %?. Please close this process or reboot your computer and retry.";
 err_file_auth = "Some files of this distribution are corrupt or missing.\n"
                 "Please get an authentic %p distribution\n"
                 "(e.g. from www.cfos.de).";
