@@ -18,19 +18,19 @@ htm_lang_prefix = "ar";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/ar/index.htm";
-bc_updateurl = "http://www.cfos.de/ar/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/ar/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p ، برنامج التشغيل الهاتفي العالي-الأداء";
-sixlink_mainurl = "http://www.cfos.de/ar/index.htm";
-sixlink_updateurl = "http://www.cfos.de/ar/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/ar/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%?";
 sixlink_desc = "%p ,  العالي السرعة IPv6 برنامج التشغيل الهاتفي من";
-cfospnet_mainurl = "http://www.cfos.de/ar/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/ar/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/ar/order/cfos-personal-net-n.htm";
 renew_params = "تجديد المعايير";
 dlg_dun_auto = "إتصال-تلقائي";
@@ -61,20 +61,20 @@ con_enabled = "ممكن";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/ar/index.htm";
-speed_updateurl = "http://www.cfos.de/ar/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/ar/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/ar/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/ar/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/ar/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/ar/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/ar/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/ar/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/ar/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/ar/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/ar/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/ar/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/ar/traffic-shaping/traffic-shaping.htm";
 
 component_mismatch = "يوجد هناك تعارض في النسخة بين مكونات هذا البرنامج . الرجاء إعادة تثبيت آخر نسخة";
@@ -310,9 +310,9 @@ regid = "غير- تعاوني";
 speed_desc = "%p, الإتصال بالإنترنت أسرع مع تشكيل حركة المرور";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/ar/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/ar/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/ar/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? معالج تثبيت";
@@ -534,8 +534,8 @@ eml_checking_domain = "تدقيق نطاق البريد الالكتروني..."
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/ar/index.htm";
-cfos_updateurl = "http://www.cfos.de/ar/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/ar/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -577,7 +577,7 @@ actionwait = "سيتم تنفيذ إجرائك المحدد حالما تتصل 
 discask = "هل تريد فعلا إنهاء هذا الإتصال ؟";
 dial_warn = "الإتصال الهاتفي لـ %1 مسموح به ؟";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
-badvsn = "لـ %1 %p هذا هو\nملف المفتاح الذي تستعمله ، يعمل فقط\nلـ %2\nيمكنك الحصول على الترقية من هنا :\nhttps://www.cfos.de/ar/order/order.htm\n\nمؤخرا و لم تكن هذه %p إذا طلبت\nفالرجاء الإتصال بنا %p النسخة الصحيحة من :\nhttp://www.cfos.de/ar/contact/contact.htm";
+badvsn = "لـ %1 %p هذا هو\nملف المفتاح الذي تستعمله ، يعمل فقط\nلـ %2\nيمكنك الحصول على الترقية من هنا :\nhttps://www.cfos.de/ar/order/order.htm\n\nمؤخرا و لم تكن هذه %p إذا طلبت\nفالرجاء الإتصال بنا %p النسخة الصحيحة من :\n%url/contact/contact.htm";
 
 setup = "إعداد برنامج التشغيل";
 no_write = "%p لا ييسمح بالكتابة إلى ملف بيانات\n%1\n\nالرجاء أطلب من مديرك السماح بالكتابة و التعديل الملفين\nGLOBAL.INI و CFOS.INI على";
@@ -594,7 +594,7 @@ report_title = "%p تقرير إتصال";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/ar/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -805,7 +805,7 @@ ga_speed_installed = "cFosSpeed изглежда е инсталиран на В
 / ----------------------------------------------------------------------
 
 mainurl_name = "www.cFos.de";
-preview_skins_url = "http://www.cfos.de/bg/cfosspeed/documentation/status.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 auth_failed = "Проверката за оригиналност откри, че някои компоненти са променени.\n"
    "Моля инсталирайте немодифицирана версия от нашата страница:\n";
@@ -1617,19 +1617,19 @@ ignore_ssl_cert_desc = "若允許 cFos Outlook DAV 忽略 SSL 憑證錯誤，就
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/zh-tw/index.htm";
-bc_updateurl = "http://www.cfos.de/zh-tw/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/zh-tw/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p，高效能撥接驅動程式";
-sixlink_mainurl = "http://www.cfos.de/zh-tw/index.htm";
-sixlink_updateurl = "http://www.cfos.de/zh-tw/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/zh-tw/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p，高速 IPv6 撥接驅動程式";
-cfospnet_mainurl = "http://www.cfos.de/zh-tw/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/zh-tw/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/zh-tw/order/cfos-personal-net-n.htm";
 cfospnet_langurl = "";
 pnet_pg_name = "%p";
@@ -1752,29 +1752,29 @@ ga_use_password_by_speed = "cFosSpeed 是否應該繼續使用 cFos Game Analyze
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/zh-tw/index.htm";
-speed_updateurl = "http://www.cfos.de/zh-tw/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/zh-tw/order/cfosspeed-n.htm";
-speed_langurl = "http://www.cfos.de/zh-tw/cfosspeed/documentation/lang.htm";
-make_own_skin_url = "http://www.cfos.de/zh-tw/skin/skin.htm";
-no_pings_help = "http://www.cfos.de/zh-tw/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/zh-tw/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/zh-tw/traffic-shaping/traffic-shaping-options.htm";
-many_cons_help = "http://www.cfos.de/zh-tw/cfosspeed/documentation/bittorrent.htm";
+speed_langurl = "%url/cfosspeed/documentation/lang.htm";
+make_own_skin_url = "%url/skin/skin.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+many_cons_help = "%url/cfosspeed/documentation/bittorrent.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/zh-tw/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/zh-tw/download/download.htm#skins";
-documentation_url = "http://www.cfos.de/zh-tw/cfosspeed/documentation/index.htm";
-expiration_cfosspeed_htm = "http://www.cfos.de/zh-tw/cfosspeed/expiration.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+documentation_url = "%url/cfosspeed/documentation/index.htm";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
 speed_test_url = "http://www.cfosspeed.de/speed-test/speed-test_zh-tw.htm";
-beta_url = "http://www.cfos.de/zh-tw/beta/index.htm";
-keyboard_led_help_url = "http://www.cfos.de/zh-tw/cfosspeed/documentation/keyboard-leds.htm";
-logitech_help_url = "http://www.cfos.de/zh-tw/cfosspeed/documentation/logitech-keyboard.htm";
-speed_guide_url = "http://www.cfos.de/zh-tw/traffic-shaping/speed-guide.htm";
-after_calibration_new = "http://www.cfos.de/zh-tw/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/zh-tw/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/zh-tw/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/zh-tw/cfosspeed/documentation/status.htm";
+beta_url = "%url/beta/index.htm";
+keyboard_led_help_url = "%url/cfosspeed/documentation/keyboard-leds.htm";
+logitech_help_url = "%url/cfosspeed/documentation/logitech-keyboard.htm";
+speed_guide_url = "%url/traffic-shaping/speed-guide.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/zh-tw/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "完整性檢查發現某些元件已被修改，\n請由我們的網頁下載並安裝未被修改的版本：\n";
@@ -2015,7 +2015,7 @@ total_max_of_rx_tx = "接收及傳送總計的最大值";
 check_if_other_also = "如果您想要將所有其它流量均計算到此槽位，請勾選此選項";
 performance_help = "為了節省電腦資源消耗，我們建議將存取網際網路的連線設定為「是」，其它連線設定為「否」。";
 loading = "載入中…";
-connection_type_help = "http://www.cfos.de/zh-tw/traffic-shaping/traffic-shaping.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "非合作模式";
@@ -2109,11 +2109,11 @@ prioritize_foreground_help = "自動將前景程序的優先權設為高。";
 speed_desc = "%p，使用流量塑型加快網際網路的速度";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/zh-tw/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/zh-tw/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/zh-tw/cfosspeed/activation-failed.htm";
-cfospnet_activation_failed_url = "http://www.cfos.de/zh-tw/cfos-personal-net/activation-failed.htm";
-virtual_wifi_doc_url = "http://www.cfos.de/zh-tw/cfosspeed/documentation/wlan-access-point.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+cfospnet_activation_failed_url = "%url/cfos-personal-net/activation-failed.htm";
+virtual_wifi_doc_url = "%url/cfosspeed/documentation/wlan-access-point.htm";
 
 / wizard
 install_wizard_name = "%? 安裝精靈";
@@ -2426,8 +2426,8 @@ virtual_wifi_stopped = "已成功停止虛擬 Wi-Fi。";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/zh-tw/index.htm";
-cfos_updateurl = "http://www.cfos.de/zh-tw/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/zh-tw/order/cfos-professional-n.htm";
 budget_file = "budget_tw.cfhta";
 report_tpl = "report_tw.tpl";
@@ -2437,8 +2437,8 @@ cfos_htm = "techinfo\\cfos_e.htm";
 techinfo_htm = "techinfo\\techinfo_e.htm";
 dsldevice_help = "techinfo\\dsldev_e.htm";
 features_htm = "techinfo\\features_e.htm";
-cfos_feat = "http://www.cfos.de/zh-tw/cfos-professional/features.htm";
-after_cfos_calibration = "http://www.cfos.de/zh-tw/traffic-shaping/calibration-message.htm";
+cfos_feat = "%url/cfos-professional/features.htm";
+after_cfos_calibration = "%url/traffic-shaping/calibration-message.htm";
 
 testskin = "測試視窗";
 lastcallers = "最近來電";
@@ -2474,7 +2474,7 @@ actionwait = "連上網路之後，將執行您指定的行為。";
 discask = "確定要中斷此連線？";
 dial_warn = "允許撥打 %1 嗎?";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
-badvsn = "您使用的 %p 程式適用於 %1，\n但您的金鑰只能在 %2 使用。\n您可在以下網址訂購升級版：\nhttps://www.cfos.de/zh-tw/order/order.htm\n\n如果您剛購買了 %p 卻發現版本錯誤，請與我們聯繫：\nhttp://www.cfos.de/zh-tw/contact/contact.htm";
+badvsn = "您使用的 %p 程式適用於 %1，\n但您的金鑰只能在 %2 使用。\n您可在以下網址訂購升級版：\nhttps://www.cfos.de/zh-tw/order/order.htm\n\n如果您剛購買了 %p 卻發現版本錯誤，請與我們聯繫：\n%url/contact/contact.htm";
 
 active = "使用中";
 inactive = "未使用";
@@ -2519,7 +2519,7 @@ report_title = "%p 連線報告";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/zh-tw/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_back = "返回 (&B)";
@@ -2719,10 +2719,10 @@ totd10 = "%p 支援面板功能，讓您可以調整狀態視窗的外觀。若�
 totd11 = "如果您的 DSL 數據機上沒有開關，請您將其電源插入有開關的插座。一般來說 DSL 數據機非常耗電，可能會花費您很多電費，也不節能省碳。";
 totd12 = "在 %p 狀態視窗中，您隨時可以看到目前的傳輸速度。%p 圖示顯示您是否正在傳送或接收資料。";
 totd13 = "%p 當中有超過一百個可以對數據機進行微調的設定。MODEM.TXT 當中列出了所有可用的數據機設定與相關指令。您只需要點擊 %p 選單中「說明」當中的「MODEM.TXT」擊可閱讀該文件。";
-totd14 = "%p 提供輔助說明的郵件群組，讓您可使用電子郵件訂閱。詳情請參見 http://www.cfos.de/en/cfos-professional/update.htm。此外，您也可以加入我們的公告群組，這樣每當有新版的 %p 釋出時，您都會收到一封來自我們的電子郵件。";
+totd14 = "%p 提供輔助說明的郵件群組，讓您可使用電子郵件訂閱。詳情請參見 %url/cfos-professional/update.htm。此外，您也可以加入我們的公告群組，這樣每當有新版的 %p 釋出時，您都會收到一封來自我們的電子郵件。";
 totd15 = "您可以在 WHATSNEW.TXT 檔案中找到所有目前版本新增了什麼功能與修正了什麼地方。請點擊 %p 選單中的「說明」，然後點選「WHATSNEW.TXT」。";
 totd16 = "%p 支援 Lotus Notes。請參見數據機檔案 LOTUS_CF.MDM 以取得更多資訊。";
-totd17 = "若您遇到任何問題，我們的技術支援團隊樂於協助您：http://www.cfos.de/zh-tw/contact/contact.htm";
+totd17 = "若您遇到任何問題，我們的技術支援團隊樂於協助您：%url/contact/contact.htm";
 totd18 = "嘲諷者說 C.F.O.S. 這個名字來自於 「Creatures from Outer Space」（外太空生物），但是這種說法是錯誤的！C.F.O.S.這個名字的來源其實是「CAPI-FOSSIL」，其中 CAPI 是一種 ISDN 標準，FOSSIL 是 DOS 當中的一個序列埠介面。:-)";
 
 / directory creation
@@ -2809,7 +2809,7 @@ tkey_notfound = "找不到傳輸檔案 %s。\n請將檔案複製到 %p 安裝程
 tkey_bad = "安裝 %p 金鑰時遇到問題。\n若需詳細資訊請參見 %s。\n";
 tkey_ok_reboot = "已成功安裝 %p。\n\n本程式已註冊給: %s\n序號： %s。\n\n您需要重新啟動 %p 或您的電腦，\n才能使註冊生效。";
 tkey_ok = "已成功安裝 %p。\n\n本程式已註冊給: %s\n序號： %s。\n\n歡迎使用 %p！";
-tkey_filebad = "傳輸檔案已毀損。\n請聯絡我們取得新的檔案：\nhttp://www.cfos.de/zh-tw/contact/contact.htm";
+tkey_filebad = "傳輸檔案已毀損。\n請聯絡我們取得新的檔案：\n%url/contact/contact.htm";
 tkey_inst = "您需要先安裝 %p 才能安裝註冊金鑰。\n要立刻安裝 %p 嗎？（若選擇「否」將離開安裝程式。）";
 tkey_abort = "授權未被接受，註冊已中止。";
 
@@ -2822,8 +2822,8 @@ lic_bad = "無法解壓縮授權協議。\n無法繼續安裝。";
 inst_eventvwr = "事件檢視器正在執行中，請先關閉。\n安裝程式無法在其執行的同時進行安裝。\n";
 inst_already = "您已經在「%s」通訊埠安裝了 %p。";
 inst_toinstall = "準備安裝：";
-inst_aol_over_cfi = "您正準備安裝 AOL %p 版本，但您已經\n安裝了其他的 OEM %p。\n若您繼續安裝這套 AOL 的 %p，與 OEM 間的連線可能會被封鎖。\n\n我們建議您到\n   http://www.cfos.de/zh-tw/oem/oem.htm\n\n下載 %p 試用版。此版本可使您連線至所有 OEM 裝置，\n並可能比您現在已安裝的版本還新。";
-inst_cfi_over_aol = "您正準備安裝 OEM %p 版本，但您已經\n安裝了一個 AOL %p。\n若您繼續安裝這套 %p，與 AOL 間的連線可能會被封鎖。\n\n我們建議您到：\n   http://www.cfos.de/zh-tw/oem/oem.htm\n下載最新的 %p 版本。此版本可以讓您連線至所有 OEM 裝置，\n並可能比您現在已安裝的版本還新。";
+inst_aol_over_cfi = "您正準備安裝 AOL %p 版本，但您已經\n安裝了其他的 OEM %p。\n若您繼續安裝這套 AOL 的 %p，與 OEM 間的連線可能會被封鎖。\n\n我們建議您到\n   %url/oem/oem.htm\n\n下載 %p 試用版。此版本可使您連線至所有 OEM 裝置，\n並可能比您現在已安裝的版本還新。";
+inst_cfi_over_aol = "您正準備安裝 OEM %p 版本，但您已經\n安裝了一個 AOL %p。\n若您繼續安裝這套 %p，與 AOL 間的連線可能會被封鎖。\n\n我們建議您到：\n   %url/oem/oem.htm\n下載最新的 %p 版本。此版本可以讓您連線至所有 OEM 裝置，\n並可能比您現在已安裝的版本還新。";
 inst_raspppoe = "您可能安裝了 RASPPPoE。RASPPPoE 目前的設置為，將每個 %p 封包都記錄下來。要停止這個行為，請前往 RASPPPoE 通訊協定，選擇屬性、進階、並取消勾選「Log Warnings」。這不會影響 RASPPPoE 的功能，只是使事件記錄大小縮小，並提高執行效能。";
 dll_found = "找到下列已安裝的驅動程式：\n\n";
 dll_founddir = "在資料夾";
@@ -2861,20 +2861,20 @@ htm_lang_prefix = "cs";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/cs/index.htm";
-bc_updateurl = "http://www.cfos.de/cs/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/cs/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "http://www.cfos.de/cs/index.htm";
-sixlink_updateurl = "http://www.cfos.de/cs/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/cs/order/cfos-ipv6-link-n.htm";
 sixlink_langurl = "";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "http://www.cfos.de/cs/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/cs/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/cs/order/cfos-personal-net-n.htm";
 cfospnet_langurl = "";
 pnet_pg_name = "%p";
@@ -2984,20 +2984,20 @@ con_test_execute = "Proveďte test připojení";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/cs/index.htm";
-speed_updateurl = "http://www.cfos.de/cs/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/cs/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/cs/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/cs/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/cs/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/cs/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/cs/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/cs/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/cs/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/cs/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/cs/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/cs/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 auth_failed = "Kontrola konzistence odhalila, že došlo k modifikaci jedné nebo více komponent.\n"
    "Prosíme, nainstalujte původní verzi z našich webových stránek:\n";
@@ -3331,9 +3331,9 @@ set_server_pwd = "Nastavit heslo serveru";
 speed_desc = "%p, rychlejší přístup k internetu s Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/cs/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/cs/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/cs/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? Instalační průvodce";
@@ -3694,7 +3694,7 @@ cfos_expired  = "Skončila testovací doba produktu %p.\nZakupte %p/Professional
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/cs/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -4282,20 +4282,20 @@ ignore_ssl_cert_desc = "Wird cFos Outlook DAV gestattet, SSL-Zertifikatfehler zu
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/de/index.htm";
-bc_updateurl = "http://www.cfos.de/de/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/de/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Einwahl-Treiber";
-sixlink_mainurl = "http://www.cfos.de/de/index.htm";
-sixlink_updateurl = "http://www.cfos.de/de/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/de/order/cfos-ipv6-link-n.htm";
 sixlink_langurl = "";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-Speed IPv6 Einwahl-Treiber";
-cfospnet_mainurl = "http://www.cfos.de/de/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/de/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/de/order/cfos-personal-net-n.htm";
 cfospnet_langurl = "";
 pnet_pg_name = "%p";
@@ -4423,29 +4423,29 @@ ga_use_password_by_speed = "Soll cFosSpeed das Passwort des cFos Game Analyzers 
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/de/index.htm";
-speed_updateurl = "http://www.cfos.de/de/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/de/order/cfosspeed-n.htm";
-speed_langurl = "http://www.cfos.de/de/cfosspeed/documentation/lang.htm";
-make_own_skin_url = "http://www.cfos.de/en/skin/skin.htm";
-no_pings_help = "http://www.cfos.de/de/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/de/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/de/traffic-shaping/traffic-shaping-options.htm";
-many_cons_help = "http://www.cfos.de/de/cfosspeed/documentation/bittorrent.htm";
+speed_langurl = "%url/cfosspeed/documentation/lang.htm";
+make_own_skin_url = "%url/skin/skin.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+many_cons_help = "%url/cfosspeed/documentation/bittorrent.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/de/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/de/download/download.htm#skins";
-documentation_url = "http://www.cfos.de/de/cfosspeed/documentation/index.htm";
-expiration_cfosspeed_htm = "http://www.cfos.de/de/cfosspeed/expiration.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+documentation_url = "%url/cfosspeed/documentation/index.htm";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
 speed_test_url = "http://www.cfosspeed.de/speed-test/speed-test_de.htm";
-beta_url = "http://www.cfos.de/de/beta/index.htm";
-keyboard_led_help_url = "http://www.cfos.de/de/cfosspeed/documentation/keyboard-leds.htm";
-logitech_help_url = "http://www.cfos.de/de/cfosspeed/documentation/logitech-keyboard.htm";
-speed_guide_url = "http://www.cfos.de/de/traffic-shaping/speed-guide.htm";
-after_calibration_new = "http://www.cfos.de/de/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/de/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/de/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/de/cfosspeed/documentation/status.htm";
+beta_url = "%url/beta/index.htm";
+keyboard_led_help_url = "%url/cfosspeed/documentation/keyboard-leds.htm";
+logitech_help_url = "%url/cfosspeed/documentation/logitech-keyboard.htm";
+speed_guide_url = "%url/traffic-shaping/speed-guide.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/de/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Der Konsistenz-Check hat ergeben, dass eine oder mehrere Komponenten modifiziert wurden.\n"
@@ -4716,7 +4716,7 @@ total_max_of_rx_tx = "Max. von Gesamt RX & TX";
 check_if_other_also = "Aktiv: Sämtlicher anderer Traffic soll in diesem Slot gezählt werden";
 performance_help = "Um die Rechnerleistung maximal zu halten, empfehlen wir nur die für ihren Internetzugang genutzte Verbindung auf 'Ja' zu setzen und alle anderen auf 'Nein'.";
 loading = "Lade...";
-connection_type_help = "http://www.cfos.de/de/traffic-shaping/traffic-shaping.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Nicht kooperativ";
@@ -4810,11 +4810,11 @@ prioritize_foreground_help = "Die Priorität des Prozesses im Vordergrund-Fenste
 speed_desc = "%p, schnelleres Internet mit Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/de/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/de/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/de/cfosspeed/activation-failed.htm";
-cfospnet_activation_failed_url = "http://www.cfos.de/de/cfos-personal-net/activation-failed.htm";
-virtual_wifi_doc_url = "http://www.cfos.de/de/cfosspeed/documentation/wlan-access-point.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+cfospnet_activation_failed_url = "%url/cfos-personal-net/activation-failed.htm";
+virtual_wifi_doc_url = "%url/cfosspeed/documentation/wlan-access-point.htm";
 
 / wizard
 install_wizard_name = "%? Installations-Assistent";
@@ -5226,8 +5226,8 @@ virtual_wifi_dialup_ics = "Für eine DFÜ-Netz- bzw. Wählverbindung müssen Sie
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/de/index.htm";
-cfos_updateurl = "http://www.cfos.de/de/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/de/order/cfos-professional-n.htm";
 budget_file = "budget.cfhta";
 report_tpl = "report.tpl";
@@ -5237,8 +5237,8 @@ cfos_htm = "techinfo\\cfos.htm";
 techinfo_htm = "techinfo\\techinfo.htm";
 dsldevice_help = "techinfo\\dsldev.htm";
 features_htm = "techinfo\\features.htm";
-cfos_feat = "http://www.cfos.de/de/cfos-professional/features.htm";
-after_cfos_calibration = "http://www.cfos.de/de/traffic-shaping/calibration-message.htm";
+cfos_feat = "%url/cfos-professional/features.htm";
+after_cfos_calibration = "%url/traffic-shaping/calibration-message.htm";
 
 testskin = "Window testen";
 lastcallers = "Anruferliste";
@@ -5305,7 +5305,7 @@ badvsn =
  "Wenn Sie erst kürzlich bestellt haben und\n"
  "dies die falsche Version ist, setzen Sie\n"
  "sich bitte mit uns in Verbindung:\n"
- "http://www.cfos.de/de/contact/contact.htm";
+ "%url/contact/contact.htm";
 
 active = "aktiviert";
 inactive = "deaktiviert";
@@ -5365,7 +5365,7 @@ no_translate_short_dexpire = "%1 %2 Verzug!";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/de/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_back = "&Zurück";
@@ -5739,14 +5739,14 @@ totd13 = "%p verfügt über mehr als 100 Modem-Register zum optimalen "
         "dahin!";
 totd14 = "Es gibt eine Diskussionsgruppe zu %p, die Sie per E-Mail "
         "anbestellen können.  Wie Sie diese Gruppe abonnieren können, "
-        "lesen Sie unter http://www.cfos.de/de/cfos-professional/cfos-professional.htm  "
+        "lesen Sie unter %url/cfos-professional/cfos-professional.htm  "
         "Sie können sich auch in unsere Announcement-Liste eintragen, dann "
         "bekommen Sie bei jeder neuen Version eine Mail von uns.";
 totd15 = "In der Datei WHATSNEW.TXT finden Sie alle Neuerungen, die in der "
         "aktuellen Version hinzugekommen sind.  Klicken Sie dazu im "
         "Kontext-Menu auf 'Hilfe' und dann auf 'WHATSNEW.TXT'.";
 totd16 = "Unser Hilfe-Team steht Ihnen gerne mit Rat und Tat zur Seite:\n"
-        "http://www.cfos.de/de/contact/contact.htm";
+        "%url/contact/contact.htm";
 totd17 = "%p unterstützt Lotus Notes.  Schauen Sie sich dafür "
         "unsere beiliegende Modemdatei LOTUS_CF.MDM an.";
 totd18 = "Spötter behaupten, C.F.O.S. käme von \"Creatures from Outer "
@@ -5925,7 +5925,7 @@ tkey_ok = "%p Key erfolgreich installiert.\n\n"
 tkey_filebad = "Die Transportdatei ist fehlerhaft.\n"
         "Bitte setzen Sie sich mit uns in Verbindung,\n"
         "um eine fehlerfreie Kopie zu bekommen:\n"
-        "http://www.cfos.de/de/contact/contact.htm";
+        "%url/contact/contact.htm";
 tkey_inst = "Sie müssen erst %p installieren und dann den Key einspielen.\n"
         "Möchten Sie jetzt %p installieren?\n"
         "(Wenn Sie 'Nein' wählen, wird Setup abgebrochen)";
@@ -5955,7 +5955,7 @@ inst_aol_over_cfi = "Sie wollen eine AOL %p Version installieren, haben\n"
         "Bei einer Installation könnte die Verbindung zu dem anderen\n"
         "OEM blockiert werden.\n\n"
         "Daher empfehlen wir, daß Sie die %p Shareware Version laden von :\n"
-        "   http://www.cfos.de/de/oem/oem.htm\n\n"
+        "   %url/oem/oem.htm\n\n"
         "Diese Version ermöglicht es Ihnen, mit allen OEMs zu verbinden und\n"
         "sie ist möglicherweise neuer als die Version, die Sie jetzt installiert\n"
         "haben.";
@@ -5963,7 +5963,7 @@ inst_cfi_over_aol = "Sie wollen eine OEM %p Version installieren, haben\n"
         "aber bereits ein AOL %p installiert.  Durch eine Installation\n"
         "könnte die Verbindung zu AOL blockiert werden.\n\n"
         "Wir empfehlen Ihnen von :\n"
-        "   http://www.cfos.de/de/oem/oem.htm\n"
+        "   %url/oem/oem.htm\n"
         "die neueste %p Version zu laden.  Diese Version erlaubt es Ihnen,\n"
         "mit allen OEMs zu verbinden und ist möglicherweise neuer als die\n"
         "Version, die jetzt installiert ist.";
@@ -6018,20 +6018,20 @@ htm_lang_prefix = "el";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/el/index.htm";
-bc_updateurl = "http://www.cfos.de/el/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/el/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, Dial-Up Οδηγός Υψηλής Απόδοσης";
-sixlink_mainurl = "http://www.cfos.de/el/index.htm";
-sixlink_updateurl = "http://www.cfos.de/el/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/el/order/cfos-ipv6-link-n.htm";
 sixlink_langurl = "";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, Οδηγός High-speed IPv6 Dial-Up";
-cfospnet_mainurl = "http://www.cfos.de/el/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/el/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/el/order/cfos-personal-net-n.htm";
 cfospnet_langurl = "";
 pnet_pg_name = "%p";
@@ -6105,19 +6105,19 @@ closing_server = "Ο Διακομιστής τερματίζεται.";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/el/index.htm";
-speed_updateurl = "http://www.cfos.de/el/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/el/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/el/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/el/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/el/traffic-shaping/traffic-shaping-options.htm";
-after_calibration = "http://www.cfos.de/el/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/el/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/el/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/el/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/el/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/el/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/el/cfosspeed/documentation/status.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 auth_failed = "Ο έλεγχος συνοχής βρήκε ότι μία από τις εφαρμογές έχει τροποποιηθεί.\n"
    "Παρακαλώ εγκαταστήστε μία ατροποίητη έκδοση από την ιστοσελίδα μας:\n";
@@ -6436,9 +6436,9 @@ lock_position = "Κλείδωμα θέσης παραθύρου";
 speed_desc = "%p, ταχύτερη πρόσβαση Internet με Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/el/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/el/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/el/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Βοηθός Εγκατάστασης του %? ";
@@ -6768,8 +6768,8 @@ eml_checking_domain = "Ελεγχος του E-mail domain...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/el/index.htm";
-cfos_updateurl = "http://www.cfos.de/el/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
 
@@ -6792,7 +6792,7 @@ cfos_expired = "Αυτή η %p έκδοση έχει λήξει.\nΑγοράστ
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/el/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -6877,7 +6877,7 @@ htm_lang_prefix = "en";
 /  we don't need to translate the following section of strings.
 /
 /  "%url" contains htm_prefix + htm_lang_prefix, thus in english
-/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to 
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
 /  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
 /
 / ----------------------------------------------------------------------
@@ -6903,20 +6903,20 @@ ignore_ssl_cert_desc = "If cFos Outlook DAV is allowed to ignore SSL certificate
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/en/index.htm";
-bc_updateurl = "http://www.cfos.de/en/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/en/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "http://www.cfos.de/en/index.htm";
-sixlink_updateurl = "http://www.cfos.de/en/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/en/order/cfos-ipv6-link-n.htm";
 sixlink_langurl = "";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 Dial-Up Driver";
-cfospnet_mainurl = "http://www.cfos.de/en/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/en/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/en/order/cfos-personal-net-n.htm";
 cfospnet_langurl = "";
 pnet_pg_name = "%p";
@@ -7044,29 +7044,29 @@ ga_use_password_by_speed = "Should cFosSpeed use the password of the cFos Game A
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/en/index.htm";
-speed_updateurl = "http://www.cfos.de/en/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/en/order/cfosspeed-n.htm";
-speed_langurl = "http://www.cfos.de/en/cfosspeed/documentation/lang.htm";
-make_own_skin_url = "http://www.cfos.de/en/skin/skin.htm";
-no_pings_help = "http://www.cfos.de/en/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/en/traffic-shaping/traffic-shaping-options.htm";
-many_cons_help = "http://www.cfos.de/en/cfosspeed/documentation/bittorrent.htm";
+speed_langurl = "%url/cfosspeed/documentation/lang.htm";
+make_own_skin_url = "%url/skin/skin.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+many_cons_help = "%url/cfosspeed/documentation/bittorrent.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/en/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/en/download/download.htm#skins";
-documentation_url = "http://www.cfos.de/en/cfosspeed/documentation/index.htm";
-expiration_cfosspeed_htm = "http://www.cfos.de/en/cfosspeed/expiration.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+documentation_url = "%url/cfosspeed/documentation/index.htm";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
 speed_test_url = "http://www.cfosspeed.de/speed-test/speed-test_en.htm";
-beta_url = "http://www.cfos.de/en/beta/index.htm";
-keyboard_led_help_url = "http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm";
-logitech_help_url = "http://www.cfos.de/en/cfosspeed/documentation/logitech-keyboard.htm";
-speed_guide_url = "http://www.cfos.de/en/traffic-shaping/speed-guide.htm";
-after_calibration_new = "http://www.cfos.de/en/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/en/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/en/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/en/cfosspeed/documentation/status.htm";
+beta_url = "%url/beta/index.htm";
+keyboard_led_help_url = "%url/cfosspeed/documentation/keyboard-leds.htm";
+logitech_help_url = "%url/cfosspeed/documentation/logitech-keyboard.htm";
+speed_guide_url = "%url/traffic-shaping/speed-guide.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/en/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "The consistency check has detected that one or more components have been modified.\n"
@@ -7334,7 +7334,7 @@ total_max_of_rx_tx = "Max. of Total RX & TX";
 check_if_other_also = "Check, if you want all other traffic to be counted in this slot";
 performance_help = "To save maximum computational power, we recommend to set the connection you use for internet access to 'Yes' and all others to 'No'.";
 loading = "Loading...";
-connection_type_help = "http://www.cfos.de/en/traffic-shaping/traffic-shaping.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Not cooperative";
@@ -7428,11 +7428,11 @@ prioritize_foreground_help = "Automatically set the priority of the process in f
 speed_desc = "%p, faster Internet access with Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/en/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/en/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/en/cfosspeed/activation-failed.htm";
-cfospnet_activation_failed_url = "http://www.cfos.de/en/cfos-personal-net/activation-failed.htm";
-virtual_wifi_doc_url = "http://www.cfos.de/en/cfosspeed/documentation/wlan-access-point.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+cfospnet_activation_failed_url = "%url/cfos-personal-net/activation-failed.htm";
+virtual_wifi_doc_url = "%url/cfosspeed/documentation/wlan-access-point.htm";
 
 / wizard
 install_wizard_name = "%? Installation Wizard";
@@ -7834,8 +7834,8 @@ virtual_wifi_dialup_ics = "For a dial-up connection you have to enable Internet 
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/en/index.htm";
-cfos_updateurl = "http://www.cfos.de/en/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/en/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -7845,8 +7845,8 @@ cfos_htm = "techinfo\\cfos_e.htm";
 techinfo_htm = "techinfo\\techinfo_e.htm";
 dsldevice_help = "techinfo\\dsldev_e.htm";
 features_htm = "techinfo\\features_e.htm";
-cfos_feat = "http://www.cfos.de/en/cfos-professional/features.htm";
-after_cfos_calibration = "http://www.cfos.de/en/traffic-shaping/calibration-message.htm";
+cfos_feat = "%url/cfos-professional/features.htm";
+after_cfos_calibration = "%url/traffic-shaping/calibration-message.htm";
 
 testskin = "Test Window";
 lastcallers = "Last Callers";
@@ -7909,7 +7909,7 @@ badvsn =
    "\n"
    "If you ordered %p recently and this is\n"
    "not the right version of %p, please contact us:\n"
-   "http://www.cfos.de/en/contact/contact.htm";
+   "%url/contact/contact.htm";
 
 active = "active";
 inactive = "inactive";
@@ -7969,7 +7969,7 @@ no_translate_short_dexpire = "Expired %1 %2";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/en/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_back = "&Back";
@@ -8305,7 +8305,7 @@ totd13 = "%p offers more than 100 modem-registers for optimal fine-tuning "
         "to your requirements.  See MODEM.TXT for all modem-registers and "
         "commands.  Click on 'Help' in context-menu and then on MODEM.TXT. ";
 totd14 = "There is an international help conference available on the internet "
-        "as a mailing list.  See http://www.cfos.de/en/cfos-professional/update.htm for "
+        "as a mailing list.  See %url/cfos-professional/update.htm for "
         "more info.  "
         "You can join our announcement list as well; then we will send you "
         "a mail each time a new %p version is released.";
@@ -8318,7 +8318,7 @@ totd17 = "Only cynics think that C.F.O.S. stands for \"Creatures from Outer "
         "Space\"!  It comes from \"CAPI-FOSSIL\", where CAPI is the ISDN "
         "standard and FOSSIL is a serial interface under DOS.  :-)";
 totd18 = "Feel free to contact our support team if you have any problems: "
-        "http://www.cfos.de/en/contact/contact.htm";
+        "%url/contact/contact.htm";
 
 / directory creation
 dir_badname = "Directory name collides with existing file";
@@ -8483,7 +8483,7 @@ tkey_ok = "%p key successfully installed.\n\n"
         "Have fun using %p!";
 tkey_filebad = "The transport file is corrupt.\n"
         "Please contact us to get a new one:\n"
-        "http://www.cfos.de/en/contact/contact.htm";
+        "%url/contact/contact.htm";
 tkey_inst = "You need to install %p prior to installing the key.\n"
         "Install %p now? (selecting 'No' will exit Setup)";
 tkey_abort = "License not accepted, registration aborted.";
@@ -8510,14 +8510,14 @@ inst_aol_over_cfi = "You are trying to install an AOL %p version\n"
         "If you install this AOL %p the connection to the\n"
         "other OEM(s) might get blocked.\n\n"
         "We suggest you install a shareware version downloadable from\n\n"
-        "   http://www.cfos.de/en/oem/oem.htm\n\n"
+        "   %url/oem/oem.htm\n\n"
         "That version will enable you to connect to all OEM(s) and it\n"
         "may be more recent than the version you have now.";
 inst_cfi_over_aol = "You are trying to install an OEM %p version\n"
         "while you have an AOL %p installed.  If you install\n"
         "this %p the connection to AOL might get blocked.\n\n"
         "We suggest you go to :\n"
-        "   http://www.cfos.de/en/oem/oem.htm\n"
+        "   %url/oem/oem.htm\n"
         "and download a new %p version there.  That version will\n"
         "enable you to connect to all OEM(s) and it may be more recent\n"
         "than the version you have now.";
@@ -8579,19 +8579,19 @@ htm_lang_prefix = "es";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/es/index.htm";
-bc_updateurl = "http://www.cfos.de/es/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/es/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "http://www.cfos.de/es/index.htm";
-sixlink_updateurl = "http://www.cfos.de/es/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/es/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "http://www.cfos.de/es/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/es/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/es/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, su servidor web personal";
 renew_params = "Renovar los parámetros";
@@ -8701,20 +8701,20 @@ con_test_execute = "Efectuar la prueba de conectividad";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/es/index.htm";
-speed_updateurl = "http://www.cfos.de/es/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/es/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/es/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/es/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/es/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/es/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/es/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/es/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/es/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/es/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/es/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/es/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/es/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "La revisión de consistencia ha detectado que uno o más componentes han sido modificados.\n"
@@ -9047,9 +9047,9 @@ preview_skins = "Vista previa de los temas";
 speed_desc = "%p, Aceleración del Internet con el Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/es/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/es/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/es/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Asistente de instalación %?";
@@ -9374,8 +9374,8 @@ eml_checking_domain = "Chequeando el dominio de correo electrónico...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/es/index.htm";
-cfos_updateurl = "http://www.cfos.de/es/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/es/order/cfos-professional-n.htm";
 budget_file = "budget_es.cfhta";
 report_tpl = "report_es.tpl";
@@ -9449,7 +9449,7 @@ badvsn =
  "\n"
  "Si han recién pedido y esta es la versión falsa\n"
  "contacte nos:"
- "http://www.cfos.de/es/contact/contact.htm";
+ "%url/contact/contact.htm";
 
 active = "activado";
 inactive = "desactivado";
@@ -9497,7 +9497,7 @@ report_title = "%p informe de conexión";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/es/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_back = "&Atrás";
@@ -9834,13 +9834,13 @@ totd13 = "%p dispone de más de 100 registros de modems para el ajuste fino opti
         "en el %p menú y un clic en 'MODEM.TXT' le lleva ahí!";
 totd14 = "Hay un grupo de discusión de %p que puede pedir por e-mail "
         "Como se pude abonar este Grupo, puede leer en "
-        "http://www.cfos.de/en/cfos-professional/update.htm.  "
+        "%url/cfos-professional/update.htm.  "
         "También se puede registrar para nuestra lista '%p Announce List' y  "
         "recibirán un e-mail cuando versiones nuevas serán publicadas.";
 totd15 = "En el fichero WHATSNEW.TXT encuentra todas novedades de la nueva versión. "
         "Haga clic en el %p menú en 'Ayuda' y 'WHATSNEW.TXT'.";
 totd16 = "Nuestro equipo de soporte les ayudo con mucho gusto.  "
-        "Visiten nos en http://www.cfos.de/es/contact/contact.htm.";
+        "Visiten nos en %url/contact/contact.htm.";
 totd17 = "%p soporta Lotus Notes.  Hecha un vistazo en nuestro fichero para modems LOTUS_CF.MDM an.";
 totd18 = "Burlónes dicen, C.F.O.S. viene de \"Creatures from Outer "
         "Space\". Eso no es justo!  Viene de \"CAPI-FOSSIL\", "
@@ -10010,7 +10010,7 @@ tkey_ok = "El %p Key fue instalado con éxito.\n\n"
         "N° de serie:  %s.\n\n"
         "Disfrute su navegación a alta velocidad!";
 tkey_filebad = "Hay errores en el fichero de transporte.\n"
-        "Por favor contacten nos a http://www.cfos.de/es/contact/contact.htm,\n"
+        "Por favor contacten nos a %url/contact/contact.htm,\n"
         "para recibir una copia sin errores.\n";
 tkey_inst = "Tiene que instalar %p antes del %p Key.\n"
         "Quiere instalar %p ahora?\n"
@@ -10040,13 +10040,13 @@ inst_aol_over_cfi = "Quiere instalar una versión %p de AOL, pero ya tiene\n"
         "instalado una versión OEM de %p de un otro OEM.\n"
         "Con una instalación la conexión del otro OEM podía ser bloqueada\n\n"
         "Recomendamos cargar la versión Shareware de:\n"
-        "   http://www.cfos.de/es/oem/oem.htm\n\n"
+        "   %url/oem/oem.htm\n\n"
         "Esta versión permite conectar con todos los OEMs. Puede ser que esta versión\n"
         "es mas nueva que la versión que tiene instalada ahora.";
 inst_cfi_over_aol = "Quiere instalar un versión OEM de %p, pero tiene\n"
         "instalado una versión %p de AOL. Con una instalación la conexión de AOL podía ser bloqueada\n\n"
         "Recomendamos cargar la versión Shareware de:\n"
-        "   http://www.cfos.de/es/oem/oem.htm\n\n"
+        "   %url/oem/oem.htm\n\n"
         "Esta versión permite conectar con todos los OEMs. Puede ser que esta versión\n"
         "es mas nueva que la versión que tiene instalada ahora.";
 inst_raspppoe = "Parece que tiene instalado RASPPPoE. En el momento RASPPPoE\n"
@@ -10093,19 +10093,19 @@ ignore_ssl_cert_desc = "Si cFos Outlook DAV est autorisé à ignorer les erreurs
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/fr/index.htm";
-bc_updateurl = "http://www.cfos.de/fr/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/fr/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "http://www.cfos.de/fr/index.htm";
-sixlink_updateurl = "http://www.cfos.de/fr/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/fr/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, Driver de communication High-speed IPv6";
-cfospnet_mainurl = "http://www.cfos.de/fr/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/fr/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/fr/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, votre serveur internet privé";
 renew_params = "Renouveler les paramètres";
@@ -10224,20 +10224,20 @@ ga_speed_installed = "cFosSpeed semble être installé sur votre ordinateur.\n\n
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/fr/index.htm";
-speed_updateurl = "http://www.cfos.de/fr/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/fr/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/fr/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/fr/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/fr/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/fr/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/fr/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/fr/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/fr/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/fr/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/fr/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/fr/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/ar/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Le contrôle de cohérence a détecté qu'un ou plusieurs composants ont été modifiés.\n"
@@ -10579,9 +10579,9 @@ auto_arrange_bottom = "Bas";
 speed_desc = "%p, Votre connexion Internet plus rapide avec la Régulation dynamique de flux réseau (Traffic Shaping)";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/fr/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/fr/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/fr/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Assistant d’installation de %?";
@@ -10926,8 +10926,8 @@ eml_checking_domain = "Vérification de domaine de l'adresse e-mail...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/fr/index.htm";
-cfos_updateurl = "http://www.cfos.de/fr/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/fr/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -10974,7 +10974,7 @@ setup = "Options";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/fr/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -11091,16 +11091,16 @@ htm_lang_prefix = "he";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/he/index.htm";
-bc_updateurl = "http://www.cfos.de/he/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/he/order/broadband-connect-n.htm";
 bc_desc = "%p, דריבר חייגן עתיר ביצועים";
-sixlink_mainurl = "http://www.cfos.de/he/index.htm";
-sixlink_updateurl = "http://www.cfos.de/he/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/he/order/cfos-ipv6-link-n.htm";
 sixlink_desc = "%p, דריבר IPv6 מהיר";
-cfospnet_mainurl = "http://www.cfos.de/he/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/he/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/he/order/cfos-personal-net-n.htm";
 renew_params = "חדש פרמטרים";
 dlg_dun_auto = "התחבר אוטומטית";
@@ -11150,19 +11150,19 @@ dlg_redirect_delay = "השהיית הפניה (מש):";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/he/index.htm";
-speed_updateurl = "http://www.cfos.de/he/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/he/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/he/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/he/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/he/traffic-shaping/traffic-shaping-options.htm";
-after_calibration = "http://www.cfos.de/he/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/he/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/he/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/he/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/he/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/he/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/he/cfosspeed/documentation/status.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 component_mismatch = "יש  קונפליקט בגרסאות מרכיבי התוכנה. אנא התקן מחדש את גרסת התוכנה העדכנית ביותר";
 trayicon_tip = "איטרנט מהיר עם עיצוב תעבורה, www.cfos.de";
@@ -11412,9 +11412,9 @@ set = "קבע";
 speed_desc = "%p, חיבור מהיר יותר לאינטרנט על ידי עיצוב תעבורה";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/he/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/he/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/he/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? אשף התקנה";
@@ -11699,8 +11699,8 @@ eml_checking_domain = "בודק שרת דואר...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/he/index.htm";
-cfos_updateurl = "http://www.cfos.de/he/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/he/order/cfos-professional-n.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
@@ -11723,7 +11723,7 @@ cfos_expired = "גרסת %p הסתיים.\nרכוש %p/Professional עכשיו!\
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/he/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -11814,19 +11814,19 @@ htm_lang_prefix = "hu";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/hu/index.htm";
-bc_updateurl = "http://www.cfos.de/hu/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/hu/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "http://www.cfos.de/hu/index.htm";
-sixlink_updateurl = "http://www.cfos.de/hu/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/hu/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "http://www.cfos.de/hu/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/hu/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/hu/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, az Ön személyes web szervere";
 renew_params = "Paraméter frissítése";
@@ -11935,20 +11935,20 @@ con_test_execute = "Csatlakozási teszt futtatása";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/hu/index.htm";
-speed_updateurl = "http://www.cfos.de/hu/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/hu/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/hu/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/hu/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/hu/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/hu/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/hu/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/hu/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/hu/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/hu/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/hu/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/hu/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 auth_failed = "A konzisztencia ellenőrző azt észlelte, hogy a program egy, vagy több összetevőjét módosították.\n"
    "Kérjük, telepítsen egy módosítatlan verziót a honlapunkról:\n";
@@ -12285,9 +12285,9 @@ preview_skins = "Felület előnézete";
 speed_desc = "%p, gyors internet forgalomellenőrzés technikával";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/hu/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/hu/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/hu/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? telepítés-varázsló";
@@ -12592,8 +12592,8 @@ eml_checking_domain = "Az e-mail Domain ellenőrzése...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/hu/index.htm";
-cfos_updateurl = "http://www.cfos.de/hu/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/hu/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -12625,7 +12625,7 @@ cfos_expired = "A %p próbaverzió lejárt.\nVárásolja meg a %p/Professional v
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/hu/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -12720,19 +12720,19 @@ ignore_ssl_cert_desc = "Se viene consentito a cFos Outlook DAV d'ignorare gli er
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/it/index.htm";
-bc_updateurl = "http://www.cfos.de/it/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/it/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, driver per connessioni remote ad alte prestazioni";
-sixlink_mainurl = "http://www.cfos.de/it/index.htm";
-sixlink_updateurl = "http://www.cfos.de/it/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/it/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, driver per connessioni remote IPv6 ad alta velocità";
-cfospnet_mainurl = "http://www.cfos.de/it/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/it/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/it/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, il tuo personal web server";
 renew_params = "Rinnova parametri ";
@@ -12851,24 +12851,24 @@ ga_speed_installed = "cFosSpeed sembra sia già installato sul tuo computer.\n\n
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/it/index.htm";
-speed_updateurl = "http://www.cfos.de/it/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/it/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/it/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/it/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/it/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/it/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/it/download/download.htm#skins";
-documentation_url = "http://www.cfos.de/it/cfosspeed/documentation/index.htm";
-expiration_cfosspeed_htm = "http://www.cfos.de/it/cfosspeed/expiration.htm";
-keyboard_led_help_url = "http://www.cfos.de/it/cfosspeed/documentation/keyboard-leds.htm";
-logitech_help_url = "http://www.cfos.de/it/cfosspeed/documentation/logitech-keyboard.htm";
-speed_guide_url = "http://www.cfos.de/it/traffic-shaping/speed-guide.htm";
-after_calibration_new = "http://www.cfos.de/it/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/it/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/it/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/it/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+documentation_url = "%url/cfosspeed/documentation/index.htm";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+keyboard_led_help_url = "%url/cfosspeed/documentation/keyboard-leds.htm";
+logitech_help_url = "%url/cfosspeed/documentation/logitech-keyboard.htm";
+speed_guide_url = "%url/traffic-shaping/speed-guide.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/it/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Il controllo di coerenza ha rilevato che uno o più componenti sono stati modificati.\nSi prega di installare una versione non modificata dal nostro sito:\n";
@@ -13109,7 +13109,7 @@ total_max_of_rx_tx = "Max. del Totale RX & TX";
 check_if_other_also = "Seleziona, se vuoi che tutto l'altro traffico venga conteggiato in questa porta";
 performance_help = "Per non impegnare la massima potenza di calcolo, si consiglia di impostare la connessione in uso per l'accesso internet su 'Si' e tutti le altre su 'No'.";
 loading = "Caricamento...";
-connection_type_help = "http://www.cfos.de/it/traffic-shaping/traffic-shaping.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Non cooperativa";
@@ -13201,9 +13201,9 @@ prioritize_foreground_help = "Imposta automaticamente la priorità alta del proc
 speed_desc = "%p, Internet più veloce con Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/it/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/it/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/it/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Installazione guidata di %?";
@@ -13511,8 +13511,8 @@ eml_checking_domain = "Sto verificando il dominio della casella di posta....";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/it/index.htm";
-cfos_updateurl = "http://www.cfos.de/it/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/it/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -13544,7 +13544,7 @@ cfos_expired = "Questa %p versione è scaduta.\nOrdina %p/Professional adesso!\n
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/it/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -13637,19 +13637,19 @@ htm_lang_prefix = "ja";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/ja/index.htm";
-bc_updateurl = "http://www.cfos.de/ja/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/ja/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "http://www.cfos.de/ja/index.htm";
-sixlink_updateurl = "http://www.cfos.de/ja/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/ja/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "http://www.cfos.de/ja/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/ja/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/ja/order/cfos-personal-net-n.htm";
 pnet_desc = "パーソナルウェブサーバー %p";
 renew_params = "更新パラメータ";
@@ -13768,20 +13768,20 @@ ga_use_password_by_speed = "他のデバイスから cFosSpeed にアクセス�
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/ja/index.htm";
-speed_updateurl = "http://www.cfos.de/ja/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/ja/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/ja/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/ja/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/ja/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/ja/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/ja/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/ja/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/ja/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/ja/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/ja/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/ja/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 auth_failed = "整合性チェックでコンポーネントの改変が1つ以上検出されました。\n"
    "弊社のウェブサイトから改変されていないバージョンをインストールしてください:\n";
@@ -14117,9 +14117,9 @@ traffic_shaping_info = "トラフィック制御情報";
 speed_desc = "%p, 帯域制御でネットアクセスの高速化";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/ja/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/ja/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/ja/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%?インストールウィザード";
@@ -14474,8 +14474,8 @@ virtual_wifi_ok = "仮想 Wi-Fi およびインターネット接続共有のア
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/ja/index.htm";
-cfos_updateurl = "http://www.cfos.de/ja/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/ja/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -14577,7 +14577,7 @@ report_title = "%p接続状況報告";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/ja/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_back = "戻る";
@@ -14933,12 +14933,12 @@ totd11 = "%pのステータス・ウインドウでは最新の転送速度が�
    "MODEM.TXTではモデム登録、コマンドすべての内容が文章にされています。"
    "コンテキスト・メニューにあるヘルプをクリックしてそのあと、MODEM.TXTをクリックしてください。";
 totd12 = "Eメールで購読できる%pへのディスッカショングループがあります。"
-   "このグループの入会についてはhttp://www.cfos.de/en/cfos-professional/update.htm.を参照ください。"
+   "このグループの入会については%url/cfos-professional/update.htm.を参照ください。"
    "アカウント・リストに登録すると、新しいバージョンが出るそのつどメールが送られてきます。";
 totd13 = "WHATSNEW.TXTのデータ上に新しいバージョンが追加され、更新されたすべてのものが見つかりました。"
    "コンテクスト・メニューの「ヘルプ」、その後「WHATSNEW.TXT」をクリックしてください。";
 totd14 = "サポートチームが助言および行動を持ってお助けします。"
-   "http://www.cfos.de/ja/contact/contact.htmにeメールでお知らせください。";
+   "%url/contact/contact.htmにeメールでお知らせください。";
 totd15 = "%pはLotus Notes【ロータスノーツ】をサポートします。添付されているLOTUS_CF.MDMのモデム・データを見てください。";
 totd16 = "C.F.O.S.はCreatures from Outerから来ているおそれがあるだろうとも言われています。「スペース」一致しません!"
    "DOS環境下のもとISDNスタンダードのCAPIとFOSSILが逐次のインターフェースである際には、CAPI-FOSSILが原因となります。";
@@ -15133,7 +15133,7 @@ tkey_ok =
 tkey_filebad =
  "トランスポートデータは不完全です。\n"
  "完全なコピーを取得するために\n"
- "http://www.cfos.de/ja/contact/contact.htmを参考にしてください。\n";
+ "%url/contact/contact.htmを参考にしてください。\n";
 tkey_inst =
  "%pを最初にインストールし、そのあとキーを挿入する必要があります。\n"
  "今すぐ、%pをインストールしますか？\n"
@@ -15167,7 +15167,7 @@ inst_aol_over_cfi =
  "%pの他のOEMはすでにインストールされています。\n"
  "インストールの際には他のOEMへの接続が遮断されるおそれがあります。\n"
  "よって%pのシェアウエア・バージョンを\n"
- "http://www.cfos.de/ja/oem/oem.htmからダウンロードすることをお勧めします。\n"
+ "%url/oem/oem.htmからダウンロードすることをお勧めします。\n"
  "このバージョンではすべてのOEMとの接続を可能にし、\n"
  "現在インストールされた新しいバージョンです。";
 inst_cfi_over_aol =
@@ -15175,7 +15175,7 @@ inst_cfi_over_aol =
  "すでに%p・バージョンのAOLをインストールされています。\n"
  "インストールによってAOLの接続は遮断されるおそれがあります。\n\n"
  "最新の%p・バージョンを\n"
- "http://www.cfos.de/ja/oem/oem.htmからダウンロードすることを\n"
+ "%url/oem/oem.htmからダウンロードすることを\n"
  "お勧めします。このバージョンではすべてのOEMとの接続を可能にし、\n"
  "現在インストールされた新しいバージョンです。";
 inst_raspppoe =
@@ -15220,19 +15220,19 @@ htm_lang_prefix = "ko";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/ko/index.htm";
-bc_updateurl = "http://www.cfos.de/ko/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/ko/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "http://www.cfos.de/ko/index.htm";
-sixlink_updateurl = "http://www.cfos.de/ko/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/ko/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "http://www.cfos.de/ko/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/ko/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/ko/order/cfos-personal-net-n.htm";
 cfospnet_langurl = "";
 pnet_pg_name = "%p";
@@ -15293,20 +15293,20 @@ dlg_redirect_delay = "리디렉션 지연 (ms):";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/ko/index.htm";
-speed_updateurl = "http://www.cfos.de/ko/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/ko/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/ko/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/ko/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/ko/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/ko/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/ko/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/ko/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/ko/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/ko/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/ko/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/ko/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 
 component_mismatch = "동 프로그램에 속한 다양한 컴포넌트들 간에 버전 충돌이 있습니다. 가장 최신 버전을 다시 한번 설치하십시오.";
@@ -15555,9 +15555,9 @@ regid = "협력 안함";
 speed_desc = "%p, 트래핑 쉐이핑을 이용한 더 빠른 인터넷";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/ko/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/ko/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/ko/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? 설치 마법사";
@@ -15858,8 +15858,8 @@ eml_checking_domain = "E-mail 도메인 확인중...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/ko/index.htm";
-cfos_updateurl = "http://www.cfos.de/ko/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/ko/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -15967,7 +15967,7 @@ report_title = "%p 연결보고서";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/ko/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_back = "&뒤로";
@@ -16293,7 +16293,7 @@ totd12 = "%p는 특별 요구사항에 따라 최적의 "
         "'MODEM.TXT'를 클릭하시면 보실 수 있습니다.";
 totd13 = "%p에는 메일링 리스트가 있어 이메일을 통해 "
         "도움을 받으실 수 있습니다. 이를 정기적으로 구독하시려면, "
-        "http://www.cfos.de/en/cfos-professional/update.htm을 참고하십시오. "
+        "%url/cfos-professional/update.htm을 참고하십시오. "
         "또한 통보용 메일링 리스트에 등록하시면, "
         "새로운 버전이 나올 때 마다 통보 메일을 받으시게 됩니다.";
 totd14 = "WHATSNEW.TXT 파일에서 최신 버전의 모든 새로운 특성들을 찾아보실 수 있습니다. "
@@ -16505,14 +16505,14 @@ inst_aol_over_cfi =
         "차단될 수 있으므로,\n\n"
         "다음의 주소에서 %p 셰어웨어 버전을 다운로드\n"
         "받으시는 것이 좋습니다:\n"
-        "  http://www.cfos.de/ko/oem/oem.htm\n\n"
+        "  %url/oem/oem.htm\n\n"
         "이 버전은 모든 OEM으로의 연결을 가능하게 해줄 뿐 아니라,\n"
         "기존에 설치하신 버전보다 더 최신 버전일 수 있습니다.";
 inst_cfi_over_aol = "OEM %p 버전을 설치하고자 하십니까? 이미\n"
         "AOL %p가 설치되어 있습니다. 설치과정에서\n"
         "AOL로의 연결이 차단될 수 있습니다.\n\n"
         "따라서 다음의 주소\n"
-        "  http://www.cfos.de/ko/oem/oem.htm 에서\n"
+        "  %url/oem/oem.htm 에서\n"
         "가장 최신 %p 버전을 다운로드 받는 것이 좋습니다. 이 버전은\n"
         "모든 OEM으로의 연결을 가능하게 해줄 뿐 아니라 기존에 설치하신\n"
         "버전보다 더 최신 버전일 수 있습니다.";
@@ -16550,16 +16550,16 @@ htm_lang_prefix = "nl";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/nl/index.htm";
-bc_updateurl = "http://www.cfos.de/nl/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/nl/order/broadband-connect-n.htm";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "http://www.cfos.de/nl/index.htm";
-sixlink_updateurl = "http://www.cfos.de/nl/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/nl/order/cfos-ipv6-link-n.htm";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "http://www.cfos.de/nl/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/nl/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/nl/order/cfos-personal-net-n.htm";
 renew_params = "Parameters vernieuwen";
 dlg_dun_auto = "Automatisch verbinden";
@@ -16609,19 +16609,19 @@ dlg_redirect_delay = "Redirection vertraging (ms):";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/nl/index.htm";
-speed_updateurl = "http://www.cfos.de/nl/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/nl/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/nl/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/nl/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/nl/traffic-shaping/traffic-shaping-options.htm";
-after_calibration = "http://www.cfos.de/nl/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/nl/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/nl/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/nl/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/nl/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/nl/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/nl/cfosspeed/documentation/status.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 component_mismatch = "Er is een versie conflict tussen onderdelen van dit programma. Installeer de meest recente versie.";
 trayicon_tip = "Sneller internet door verkeersregeling, www.cfos.de";
@@ -16862,9 +16862,9 @@ regid = "Niet samenwerkend";
 speed_desc = "%p, sneller internettoegang door Verkeers Modellering";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/nl/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/nl/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/nl/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? Installatie Helper";
@@ -17118,8 +17118,8 @@ eml_checking_domain = "Controleren van E-mail domein...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/nl/index.htm";
-cfos_updateurl = "http://www.cfos.de/nl/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/nl/order/cfos-professional-n.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
@@ -17142,7 +17142,7 @@ cfos_expired = "Deze %p versie is verlopen.\nKoop %p/Professional nu!\nStart de 
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/nl/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -17707,19 +17707,19 @@ htm_lang_prefix = "pl";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/pl/index.htm";
-bc_updateurl = "http://www.cfos.de/pl/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/pl/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "http://www.cfos.de/pl/index.htm";
-sixlink_updateurl = "http://www.cfos.de/pl/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/pl/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "http://www.cfos.de/pl/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/pl/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/pl/order/cfos-personal-net-n.htm";
 renew_params = "Odnów parametry";
 dlg_dun_auto = "Auto-łączenie";
@@ -17750,20 +17750,20 @@ con_enabled = "aktywne";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/pl/index.htm";
-speed_updateurl = "http://www.cfos.de/pl/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/pl/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/pl/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/pl/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/pl/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "Strona domowa";
-after_calibration = "http://www.cfos.de/pl/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/pl/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/pl/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/pl/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/pl/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/pl/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/pl/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/pl/traffic-shaping/traffic-shaping.htm";
 
 component_mismatch = "Wystąpił konflikt pomiędzy wersjami komponentów programu. Proszę ponownie zainstalować program używając najnowszej wersji.";
@@ -17969,9 +17969,9 @@ regid = "Nie współdzielony";
 speed_desc = "%p, szybszy dostęp do Internetu przy pomocy Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/pl/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/pl/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/pl/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Kreator instalacji %?";
@@ -18184,8 +18184,8 @@ eml_checking_domain = "Sprawdzanie domeny adresu E-mail...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/pl/index.htm";
-cfos_updateurl = "http://www.cfos.de/pl/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/pl/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -18195,7 +18195,7 @@ cfos_htm = "techinfo\\cfos_e.htm";
 techinfo_htm = "techinfo\\techinfo_e.htm";
 dsldevice_help = "techinfo\\dsldev_e.htm";
 features_htm = "techinfo\\features_e.htm";
-after_cfos_calibration = "http://www.cfos.de/pl/traffic-shaping/calibration-message.htm";
+after_cfos_calibration = "%url/traffic-shaping/calibration-message.htm";
 
 lastcallers = "Ostatni dzwoniący";
 clearlist = "Wyczyść Listę";
@@ -18243,7 +18243,7 @@ badvsn =
    "\n"
    "Jeśli zamawiałeś %p w ostatnim czasie i nie jest to\n"
    "właściwa wersja %p, prosimy o kontakt:\n"
-   "http://www.cfos.de/pl/contact/contact.htm";
+   "%url/contact/contact.htm";
 
 setup = "Opcje";
 no_write = "Brak dostępu do zapisu dla pliku %p\n"
@@ -18263,7 +18263,7 @@ report_title = "%p Raport Połączenia";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/pl/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_back = "&Powrót";
@@ -18515,11 +18515,11 @@ totd10 = "%p wspiera skórki, np. konfigurowalne okienka statusu.  Możesz stwor
 totd11 = "Jeśli Twój modem DSL nie ma wyłącznika, podłącz go do wyłączalnej listwy Z reguły modemy DSL pobierają sporo energii co kosztuje i przyczynia się do zanieczyszczenia środowiska.";
 totd12 = "W oknie statusu %p' możesz zaobserwować aktualną prędkość transferu. Ikona %p wyświetla dane wysyłane i odbierane.";
 totd13 = "%p oferuje ponad 100 modem-registers dla optymalnego dostrojenia do Twoich potrzeb.  Zobacz MODEM.TXT aby poznać wszystkie modem-registers oraz polecenia.  Kliknij na 'Pomoc' w menu kontekstowym a mpóźniej na MODEM.TXT aby je zobaczyć.";
-totd14 = "Istnieje lista mailingowa w Internecie Zobacz http://www.cfos.de/pl/cfos-professional/cfos-professional.htm.htm aby uzyskać więcej informacji.  Możesz również zapisać się do listy powiadamiającej o nowościach. Będziesz otrzymywał informacje gdy pojawi się nowa wersja %p.";
+totd14 = "Istnieje lista mailingowa w Internecie Zobacz %url/cfos-professional/cfos-professional.htm.htm aby uzyskać więcej informacji.  Możesz również zapisać się do listy powiadamiającej o nowościach. Będziesz otrzymywał informacje gdy pojawi się nowa wersja %p.";
 totd15 = "W pliku WHATSNEW.TXT znajdziesz wszystkie nowe funkcje aktualnej wersji programu.  Kliknij na 'Pomoc' a poźniej na 'WHATSNEW.TXT' w menu  kontektowym %p'.";
 totd16 = "%p posiada wsparcie dla Lotus Notes.  Zobacz plik modemu LOTUS_CF.MDM aby uzyskać więcej informacji.";
 totd17 = "Only cynics think that C.F.O.S. stands for \"Creatures from Outer Space\"!  It comes from \"CAPI-FOSSIL\", where CAPI is the ISDN standard and FOSSIL is a serial interface under DOS.  :-)";
-totd18 = "Jeśli masz jakikolwiek problem, możesz skontaktować się z naszym działem wsparcia: http://www.cfos.de/pl/contact/contact.htm";
+totd18 = "Jeśli masz jakikolwiek problem, możesz skontaktować się z naszym działem wsparcia: %url/contact/contact.htm";
 
 / directory creation
 dir_badname = "Nazwa katalogu koliduje z istniejącym plikiem";
@@ -18656,7 +18656,7 @@ tkey_ok = "Klucz %p został zainstalowany.\n\n"
         "Miłego użytkowania %p!";
 tkey_filebad = "Plik transportu jest uszkodzony.\n"
         "Proszę się z nami skontaktować aby uzyskać nowy:\n"
-        "http://www.cfos.de/pl/contact/contact.htm";
+        "%url/contact/contact.htm";
 tkey_inst = "Musisz zainstalować %p aby zainstalować klucz.\n"
         "Zainstalować %p teraz? (Wybór 'nie' zakończy proces)";
 tkey_abort = "Licencja nie została zaakceptowana, rejestracja zostaje przerwana.";
@@ -18678,14 +18678,14 @@ inst_aol_over_cfi = "Próbujesz zainstalować wersję AOL %p\n"
         "If you would install this AOL %p the connection to the\n"
         "other OEM(s) might get blocked.\n\n"
         "Sugerujemy instalację wersji shareware którą możesz popbrać z\n\n"
-        "   http://www.cfos.de/pl/oem/oem.htm\n\n"
+        "   %url/oem/oem.htm\n\n"
         "Ta wersja umożliwi Ci połączenie ze wszystkimi OEM(s) i może być\n"
         "bardziej aktualna od aktualnie używanej.";
 inst_cfi_over_aol = "Próbujesz zainstalować wersję OEM %p\n"
                     "gdy posiadasz zainstalowaną AOL %p. Jeśli chcesz zainstalować\n"
                     "ten %p połaczenie do AOL może zostać zablokowane.\n\n"
                     "Sugerujemy udanie się pod :\n"
-                    "   http://www.cfos.de/pl/oem/oem.htm\n"
+                    "   %url/oem/oem.htm\n"
                     "i pobranie nowej wersji %p.  Ta wersja pozwoli\n"
                     "na połaczenie się do wszystkich OEM(s) i będzie bardziej aktualna\n"
                     "od tej wersji.";
@@ -18735,16 +18735,16 @@ ignore_ssl_cert_desc = "Se o cFos Outlook DAV ignorar erros de certificados SSL,
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/pt-br/index.htm";
-bc_updateurl = "http://www.cfos.de/pt-br/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/pt-br/order/broadband-connect-n.htm";
 bc_desc = "%p, Controlador  de discagem de alto rendimento";
-sixlink_mainurl = "http://www.cfos.de/pt-br/index.htm";
-sixlink_updateurl = "http://www.cfos.de/pt-br/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/pt-br/order/cfos-ipv6-link-n.htm";
 sixlink_desc = "%p, Controlador  de discagem IPv6 de alta velocidade e rendimento ";
-cfospnet_mainurl = "http://www.cfos.de/pt-br/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/pt-br/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/pt-br/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, seu servidor web pessoal";
 renew_params = "Renovar parâmetros";
@@ -18859,21 +18859,21 @@ ga_speed_installed = "cFosSpeed já está instalado em seu computador.\n\nO cFos
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/pt-br/index.htm";
-speed_updateurl = "http://www.cfos.de/pt-br/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/pt-br/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/pt-br/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/pt-br/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/pt-br/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/pt-br/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/pt-br/download/download.htm#skins";
-documentation_url = "http://www.cfos.de/pt-br/cfosspeed/documentation/index.htm";
-expiration_cfosspeed_htm = "http://www.cfos.de/pt-br/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/pt-br/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/pt-br/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/pt-br/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/pt-br/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+documentation_url = "%url/cfosspeed/documentation/index.htm";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/pt-br/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "A verificação de consistência detectou que um ou mais componentes foram modificados.\nPor favor, instale uma versão não modificada de nosso sítio na Internet:\n";
@@ -19204,9 +19204,9 @@ auto_arrange_bottom = "Base";
 speed_desc = "%p, acesso mais rápido a Internet com Modelagem de Tráfego";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/pt-br/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/pt-br/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/pt-br/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Assistente de Instalação do %?";
@@ -19504,8 +19504,8 @@ eml_checking_domain = "Revisando o domÃ­nio do e-mail...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/pt-br/index.htm";
-cfos_updateurl = "http://www.cfos.de/pt-br/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/pt-br/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -19537,7 +19537,7 @@ cfos_expired = "Esta versão %p expirou.\nCompre o %p/Profissional agora!\nAcess
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/pt-br/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_cancel = "&Cancelar";
@@ -19693,7 +19693,7 @@ dlg_redirect_delay = "Întârzierea redirecţionării (ms):";
 /
 / ----------------------------------------------------------------------
 
-preview_skins_url = "http://www.cfos.de/ro/cfosspeed/documentation/status.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 
 component_mismatch = "Este un conflict între componentele hardware şi program. Va rugăm reinstalaţi folosind versiunea curentă.";
@@ -20329,19 +20329,19 @@ htm_lang_prefix = "ru";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/ru/index.htm";
-bc_updateurl = "http://www.cfos.de/ru/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/ru/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, высокопроизводительный Dial-Up драйвер";
-sixlink_mainurl = "http://www.cfos.de/ru/index.htm";
-sixlink_updateurl = "http://www.cfos.de/ru/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/ru/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, высокопроизводительный IPv6 Dial-Up драйвер";
-cfospnet_mainurl = "http://www.cfos.de/ru/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/ru/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/ru/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, Ваш персональный веб-сервер";
 renew_params = "Обновить параметры";
@@ -20458,20 +20458,20 @@ con_test_execute = "Проверить подключение";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/ru/index.htm";
-speed_updateurl = "http://www.cfos.de/ru/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/ru/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/ru/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/ru/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/ru/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/ru/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/ru/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/ru/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/ru/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/ru/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/ru/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/ru/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/ru/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Во время проверки было обнаружено, что один или несколько компонентов были изменены.\n"
@@ -20737,7 +20737,7 @@ total_max_of_rx_tx = "Макс. общ. вх. и исх. скорости";
 check_if_other_also = "Весь прочий трафик";
 performance_help = "Чтобы минимизировать нагрузку на процессор, рекомендуется установить \"Да\" для используемого Интернет-подключения и \"Нет\" для всех остальных.";
 loading = "Загрузка...";
-connection_type_help = "http://www.cfos.de/ru/traffic-shaping/traffic-shaping.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Само по себе";
@@ -20826,9 +20826,9 @@ auto_arrange_bottom = "Внизу";
 speed_desc = "%p, увеличьте скорость работы Интернета с помощью технологии приоритезации трафика";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/ru/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/ru/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/ru/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Мастер установки %?";
@@ -21205,8 +21205,8 @@ eml_checking_domain = "Проверка домена электронной по
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/ru/index.htm";
-cfos_updateurl = "http://www.cfos.de/ru/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/ru/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -21216,7 +21216,7 @@ cfos_htm = "techinfo\\cfos_e.htm";
 techinfo_htm = "techinfo\\techinfo_e.htm";
 dsldevice_help = "techinfo\\dsldev_e.htm";
 features_htm = "techinfo\\features_e.htm";
-after_cfos_calibration = "http://www.cfos.de/ru/traffic-shaping/calibration-message.htm";
+after_cfos_calibration = "%url/traffic-shaping/calibration-message.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
 
@@ -21239,7 +21239,7 @@ cfos_expired = "Срок этой версии %p истек.\nКупите %p/P
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/ru/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -21325,19 +21325,19 @@ htm_lang_prefix = "sv";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/sv/index.htm";
-bc_updateurl = "http://www.cfos.de/sv/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/sv/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "http://www.cfos.de/sv/index.htm";
-sixlink_updateurl = "http://www.cfos.de/sv/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/sv/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "http://www.cfos.de/sv/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/sv/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/sv/order/cfos-personal-net-n.htm";
 
 / connection entry dialog
@@ -21350,19 +21350,19 @@ cfospnet_orderurl = "https://www.cfos.de/sv/order/cfos-personal-net-n.htm";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/sv/index.htm";
-speed_updateurl = "http://www.cfos.de/sv/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/sv/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/sv/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/sv/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/sv/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/sv/traffic-shaping/calibration.htm";
-expiration_cfosspeed_htm = "http://www.cfos.de/sv/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/sv/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/sv/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/sv/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/sv/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 component_mismatch = "Det är en versions konflikt mellan delar av detta program. Var vänlig ominstallera den senaste versionen.";
 trayicon_tip = "Snabbare Internet med Traffic Shaping, www.cfos.de";
@@ -21552,9 +21552,9 @@ help = "Hjälp";
 speed_desc = "%p, snabbare Internet med Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/sv/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/sv/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/sv/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Installationsguide för %?";
@@ -21740,8 +21740,8 @@ vista_warn_image = "vista_en.bmp";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/sv/index.htm";
-cfos_updateurl = "http://www.cfos.de/sv/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/sv/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -21772,7 +21772,7 @@ cfos_expired = "Denna %p version har löpt ut.\nKöp %p/Professional nu!\nÖppna
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/sv/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -21864,16 +21864,16 @@ htm_lang_prefix = "th";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/th/index.htm";
-bc_updateurl = "http://www.cfos.de/th/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/th/order/broadband-connect-n.htm";
 bc_desc = "%p, ไดรเวอร์สำหรับการเชื่อมต่อความเร็วสูง";
-sixlink_mainurl = "http://www.cfos.de/th/index.htm";
-sixlink_updateurl = "http://www.cfos.de/th/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/th/order/cfos-ipv6-link-n.htm";
 sixlink_desc = "%p, ไดรเวอร์สำหรับการเชื่อมต่อด้วย IPv6";
-cfospnet_mainurl = "http://www.cfos.de/th/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/th/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/th/order/cfos-personal-net-n.htm";
 renew_params = "ตั้งค่าตัวแปรใหม่";
 dlg_dun_auto = "เชื่อมต่ออัตโนมัติ";
@@ -21964,19 +21964,19 @@ pnet_start_info = "เราแนะนำให้เริ่ม %p อัต
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/th/index.htm";
-speed_updateurl = "http://www.cfos.de/th/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/th/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/th/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/th/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/th/traffic-shaping/traffic-shaping-options.htm";
-after_calibration = "http://www.cfos.de/th/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/th/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/th/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/th/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/th/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/th/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/th/cfosspeed/documentation/status.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/th/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "ระบบตรวจสอบความถูกต้องภายในตรวจพบการแก้ไขหรือข้อผิดพลาดของส่วนประกอบในการทำงาน\n"
@@ -22306,9 +22306,9 @@ auto_arrange_bottom = "ด้านล่าง";
 speed_desc = "%p, ใช้งาน Internet ได้รวดเร็วด้วย Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/th/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/th/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/th/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? ตัวช่วยการลงโปรแกรม";
@@ -22592,8 +22592,8 @@ eml_checking_domain = "กำลังตรวจสอบที่ E-mail doma
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/th/index.htm";
-cfos_updateurl = "http://www.cfos.de/th/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
 
@@ -22616,7 +22616,7 @@ cfos_expired = "%p รุ่นนี้ได้หมดอายุการ�
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/th/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -22707,19 +22707,19 @@ htm_lang_prefix = "tr";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/tr/index.htm";
-bc_updateurl = "http://www.cfos.de/tr/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/tr/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "http://www.cfos.de/tr/index.htm";
-sixlink_updateurl = "http://www.cfos.de/tr/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/tr/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "http://www.cfos.de/tr/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/tr/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/tr/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, kişisel web sunucunuz";
 renew_params = "Parametreleri yenile";
@@ -22796,20 +22796,20 @@ start_product = "Başlat %p";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/tr/index.htm";
-speed_updateurl = "http://www.cfos.de/tr/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/tr/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/tr/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/tr/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/tr/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/tr/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/tr/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/tr/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/tr/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/tr/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/tr/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/tr/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/tr/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Tutarlılık kontrolü bir ya da daha fazla bileşenin değiştirildiğini saptadı.\n"
@@ -23144,9 +23144,9 @@ rwin_expansion_help = "Eğer Windows tarafından seçilen RWIN çok düşükse, 
 speed_desc = "%p - Traffic Shaping ile Daha Hızlı İnternet!";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/tr/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/tr/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/tr/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? Kurulum Sihirbazı";
@@ -23458,8 +23458,8 @@ eml_checking_domain = "E-posta alanı kontrol ediliyor...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/tr/index.htm";
-cfos_updateurl = "http://www.cfos.de/tr/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/tr/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -23469,7 +23469,7 @@ cfos_htm = "techinfo\\cfos_e.htm";
 techinfo_htm = "techinfo\\techinfo_e.htm";
 dsldevice_help = "techinfo\\dsldev_e.htm";
 features_htm = "techinfo\\features_e.htm";
-after_cfos_calibration = "http://www.cfos.de/tr/traffic-shaping/calibration-message.htm";
+after_cfos_calibration = "%url/traffic-shaping/calibration-message.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
 
@@ -23492,7 +23492,7 @@ cfos_expired = "Bu %p sürümünün zamanı dolmuş.\n%p/Profesyonel'i şimdi sa
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/tr/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -23587,20 +23587,20 @@ ignore_ssl_cert_desc = "Jika cFos Outlook DAV diijinkan untuk mengabaikan error 
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/id/index.htm";
-bc_updateurl = "http://www.cfos.de/id/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/id/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, Pengandar Dial-Up Kinerja Tinggi";
-sixlink_mainurl = "http://www.cfos.de/id/index.htm";
-sixlink_updateurl = "http://www.cfos.de/id/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/id/order/cfos-ipv6-link-n.htm";
 sixlink_langurl = "";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, Pengandar Dial-Up IPv6 Kecepatan Tinggi";
-cfospnet_mainurl = "http://www.cfos.de/id/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/id/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/id/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, peladen web pribadi anda";
 renew_params = "Perbarui parameter";
@@ -23718,10 +23718,10 @@ ga_speed_installed = "cFosSpeed tampaknya telah terinstal di komputer anda.\n\nc
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/id/index.htm";
-speed_updateurl = "http://www.cfos.de/id/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/id/order/cfosspeed-n.htm";
-preview_skins_url = "http://www.cfos.de/id/cfosspeed/documentation/status.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/id/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Uji konsistensi telah mendeteksi bahwa satu komponen atau lebih telah termodifikasi.\n"
@@ -24456,8 +24456,8 @@ eml_checking_domain = "Memeriksa ranah surel...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/id/index.htm";
-cfos_updateurl = "http://www.cfos.de/id/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/id/order/cfos-professional-n.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
@@ -25202,16 +25202,16 @@ htm_lang_prefix = "sl";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/sl/index.htm";
-bc_updateurl = "http://www.cfos.de/sl/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/sl/order/broadband-connect-n.htm";
 bc_desc = "%p, visoko zmogljivi gonilnik na klic";
-sixlink_mainurl = "http://www.cfos.de/sl/index.htm";
-sixlink_updateurl = "http://www.cfos.de/sl/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/sl/order/cfos-ipv6-link-n.htm";
 sixlink_desc = "%p, hitri IPv6 gonilnik";
-cfospnet_mainurl = "http://www.cfos.de/sl/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/sl/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/sl/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, vaš osebni web strežnik";
 renew_params = "Posodobi parametre";
@@ -25285,24 +25285,24 @@ start_product = "Zaženi %p";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/sl/index.htm";
-speed_updateurl = "http://www.cfos.de/sl/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/sl/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/sl/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/sl/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/sl/traffic-shaping/traffic-shaping-options.htm";
-after_calibration = "http://www.cfos.de/sl/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/sl/download/download.htm#skins";
-documentation_url = "http://www.cfos.de/sl/cfosspeed/documentation/index.htm";
-expiration_cfosspeed_htm = "http://www.cfos.de/sl/cfosspeed/expiration.htm";
-beta_url = "http://www.cfos.de/sl/beta/index.htm";
-keyboard_led_help_url = "http://www.cfos.de/sl/cfosspeed/documentation/keyboard-leds.htm";
-logitech_help_url = "http://www.cfos.de/sl/cfosspeed/documentation/logitech-keyboard.htm";
-speed_guide_url = "http://www.cfos.de/sl/traffic-shaping/speed-guide.htm";
-after_calibration_new = "http://www.cfos.de/sl/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/sl/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/sl/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/sl/cfosspeed/documentation/status.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+documentation_url = "%url/cfosspeed/documentation/index.htm";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+beta_url = "%url/beta/index.htm";
+keyboard_led_help_url = "%url/cfosspeed/documentation/keyboard-leds.htm";
+logitech_help_url = "%url/cfosspeed/documentation/logitech-keyboard.htm";
+speed_guide_url = "%url/traffic-shaping/speed-guide.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 auth_failed = "Preverjanje konsistence je detektiralo, da je ena ali več komponent bilo spremenjeno.\n"
    "Prosim inštaliraj nespremenjeno verzijo z naše web strani:\n";
@@ -25554,7 +25554,7 @@ total_max_of_rx_tx = "Maksimum od skupne RX & TX";
 check_if_other_also = "Izberi, če želiš da se ves ostal promet štej k tej reži";
 performance_help = "Za prihranitev maksimalne računalniške moči, predlagamo da se postavi povezave ki se uporabljajo za intenet na 'Da' vse ostale pa na 'Ne'.";
 loading = "Nalagam...";
-connection_type_help = "http://www.cfos.de/sl/traffic-shaping/traffic-shaping.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
 regid = "Brez sodelovanja";
@@ -25630,10 +25630,10 @@ check_for_news = "Preveri za novice";
 speed_desc = "%p, hitrejši internet s preoblikovanjem prometa";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/sl/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/sl/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/sl/cfosspeed/activation-failed.htm";
-cfospnet_activation_failed_url = "http://www.cfos.de/sl/cfos-personal-net/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+cfospnet_activation_failed_url = "%url/cfos-personal-net/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? Instalacijski Čarovnik";
@@ -26075,19 +26075,19 @@ ignore_ssl_cert_desc = "Nếu cFos Outlook DAV được phép bỏ qua lỗi ch�
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/vi/index.htm";
-bc_updateurl = "http://www.cfos.de/vi/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/vi/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, Dial-up Driver với hiệu suất cao";
-sixlink_mainurl = "http://www.cfos.de/vi/index.htm";
-sixlink_updateurl = "http://www.cfos.de/vi/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/vi/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, IPv6 dial-up driver với tốc độ cao";
-cfospnet_mainurl = "http://www.cfos.de/vi/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/vi/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/vi/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, máy chủ web cá nhân của bạn";
 renew_params = "thay thông số mới";
@@ -26212,20 +26212,20 @@ ga_use_password_by_speed = "Có nên để cFosSpeed ​​sử dụng mật kh�
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/vi/index.htm";
-speed_updateurl = "http://www.cfos.de/vi/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/vi/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/vi/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/vi/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/vi/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/vi/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/vi/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/vi/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/vi/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/vi/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/vi/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/vi/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/vi/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Việc kiểm tra tính nhất quán đã phát hiện ra rằng một hoặc nhiều thành phần đã được sửa đổi.\n"
@@ -26565,9 +26565,9 @@ show_on_metro_apps = "Hiển thị trên các ứng dụng Metro";
 speed_desc = "%p, Tăng tốc kết nối với Internet bằng cách sắp xếp lại đường truyền";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/vi/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/vi/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/vi/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Thuật sĩ cài đặt %?";
@@ -26904,8 +26904,8 @@ eml_checking_domain = "Đang kiểm tra domain của Email...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/vi/index.htm";
-cfos_updateurl = "http://www.cfos.de/vi/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/vi/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -26937,7 +26937,7 @@ cfos_expired = "Phiên bản %p này đã hết hạn.\nĐặt mua %p Profession
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/vi/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -27030,16 +27030,16 @@ htm_lang_prefix = "mk";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/mk/index.htm";
-bc_updateurl = "http://www.cfos.de/mk/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/mk/order/broadband-connect-n.htm";
 bc_desc = "%p, Високи-Перформански Dial-Up Драјвер";
-sixlink_mainurl = "http://www.cfos.de/mk/index.htm";
-sixlink_updateurl = "http://www.cfos.de/mk/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/mk/order/cfos-ipv6-link-n.htm";
 sixlink_desc = "%p, Висока-брзина IPv6 dial-up драјвер";
-cfospnet_mainurl = "http://www.cfos.de/mk/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/mk/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/mk/order/cfos-personal-net-n.htm";
 renew_params = "Oбнови параметри";
 dlg_dun_auto = "Авто-конектирање";
@@ -27099,20 +27099,20 @@ dlg_redirect_delay = "Редирекција каснење (мс):";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/mk/index.htm";
-speed_updateurl = "http://www.cfos.de/mk/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/mk/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/mk/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/mk/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/mk/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/mk/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/mk/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/mk/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/mk/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/mk/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/mk/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/mk/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 
 component_mismatch = "Има конфликт на верзии меѓу компоненти на овој програм. Молиме ре-инсталирајте ја најновата верзија.";
@@ -27355,9 +27355,9 @@ regid = "не кооперативно";
 speed_desc = "%p, побрз Интернет пристап со Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/mk/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/mk/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/mk/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? Инсталационен Волшебник";
@@ -27643,8 +27643,8 @@ eml_checking_domain = "Проверување E-mail домен...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/mk/index.htm";
-cfos_updateurl = "http://www.cfos.de/mk/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
 
@@ -27667,7 +27667,7 @@ cfos_expired = "Ова %p верзија е истечена.\nКупете го
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/mk/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
@@ -28368,19 +28368,19 @@ htm_lang_prefix = "zh-cn";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "http://www.cfos.de/zh-cn/index.htm";
-bc_updateurl = "http://www.cfos.de/zh-cn/download/download.htm";
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/zh-cn/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p，高性能拨号驱动程序";
-sixlink_mainurl = "http://www.cfos.de/zh-cn/index.htm";
-sixlink_updateurl = "http://www.cfos.de/zh-cn/download/download.htm";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/zh-cn/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p，高速 IPv6 拨号驱动程序";
-cfospnet_mainurl = "http://www.cfos.de/zh-cn/index.htm";
-cfospnet_updateurl = "http://www.cfos.de/zh-cn/download/download.htm";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/zh-cn/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, 您的个人网络服务器";
 renew_params = "更新参数";
@@ -28490,20 +28490,20 @@ con_test_execute = "执行连通性测试";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/zh-cn/index.htm";
-speed_updateurl = "http://www.cfos.de/zh-cn/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/zh-cn/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/zh-cn/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/zh-cn/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/zh-cn/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/zh-cn/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/zh-cn/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/zh-cn/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/zh-cn/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/zh-cn/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/zh-cn/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/zh-cn/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/zh-cn/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "完整性校验发现一个或多个程序组件已被修改。\n"
@@ -28832,9 +28832,9 @@ query_auto_open = "禁止自动打开或关闭状态窗口吗？\n您可以在�
 speed_desc = "%p，使用流量调整功能可以更快的访问互联网";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/zh-cn/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/zh-cn/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/zh-cn/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? 安装程序向导";
@@ -29147,8 +29147,8 @@ eml_checking_domain = "正在检查电子邮件域...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "http://www.cfos.de/zh-cn/index.htm";
-cfos_updateurl = "http://www.cfos.de/zh-cn/download/download.htm";
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/zh-cn/order/cfos-professional-n.htm";
 budget_file = "budget_cn.cfhta";
 report_tpl = "report_cn.tpl";
@@ -29158,7 +29158,7 @@ cfos_htm = "techinfo\\cfos_e.htm";
 techinfo_htm = "techinfo\\techinfo_e.htm";
 dsldevice_help = "techinfo\\dsldev_e.htm";
 features_htm = "techinfo\\features_e.htm";
-after_cfos_calibration = "http://www.cfos.de/zh-cn/traffic-shaping/calibration-message.htm";
+after_cfos_calibration = "%url/traffic-shaping/calibration-message.htm";
 
 testskin = "测试窗口";
 lastcallers = "来电记录表";
@@ -29209,7 +29209,7 @@ badvsn =
    "https://www.cfos.de/zh-cn/order/order.htm\n"
    "\n"
    "如果您在不久之前订购的程序版本不对，请您与我们联系：\n"
-   "有关网址为http://www.cfos.de/zh-cn/contact/contact.htm";
+   "有关网址为%url/contact/contact.htm";
 
 active = "在使用中";
 inactive = "不在使用中";
@@ -29256,7 +29256,7 @@ report_title = "%p 连接报告";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/zh-cn/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_back = "&返回";
@@ -29626,14 +29626,14 @@ totd13 = "%p 具有一百多个可以对调制解调器进行微调的分类表�
         "便可进入该项设置。";
 totd14 = " %p 提供一个论坛组，您可以通过"
         "电子邮件订阅。细则请参见"
-        " http://www.cfos.de/en/cfos-professional/update.htm 网页。"
+        " %url/cfos-professional/update.htm 网页。"
         "此外，您可以登入我们的通告表，这样发行新版本时， "
         "您都会收到一封来自我们的电子邮件。";
 totd15 = " WHATSNEW.TXT 文件可以向您展示最新版本中 "
         "的更新之处。请您点击菜单中的"
         " '帮助事项'，然后点击 'WHATSNEW.TXT'。";
 totd16 = "我们的帮助与支持小组乐于全面协助您： "
-        "http://www.cfos.de/zh-cn/contact/contact.htm";
+        "%url/contact/contact.htm";
 totd17 = "%p 支持 Lotus Notes。请您参见 "
         "调制解调器文件 LOTUS_CF.MDM 。";
 totd18 = "嘲讽者说 C.F.O.S. 这个名字来自于 \"Creatures from Outer "
@@ -29810,7 +29810,7 @@ tkey_ok = "成功的安装了 %p 注册资料。\n\n"
         "欢迎使用 %p！";
 tkey_filebad = "传输文件有错误。\n"
         "以便获得一个正确的副本，请您与我们联系。\n"
-        "有关网址为http://www.cfos.de/zh-cn/contact/contact.htm";
+        "有关网址为%url/contact/contact.htm";
 tkey_inst = "您必须首先安装 %p ，然后输入相应的注册资料。\n"
         "您想现在安装 %p 程序吗？\n"
         "(若选择 '否' ，则取消 Setup（%p 安装程序）。)";
@@ -29840,7 +29840,7 @@ inst_aol_over_cfi = "您正准备安装 AOL（美国在线）%p版本，但您�
         "在安装的情况下，可能会中断与\n"
         "另一初始设备制造厂家 (OEM) 的连接。\n\n"
         "因此我们建议您从\n"
-        "   http://www.cfos.de/zh-cn/oem/oem.htm\n\n"
+        "   %url/oem/oem.htm\n\n"
         "下载 %p 共享版本。此版本可使您\n"
         "与所有始设备制造厂家 (OEM) 连接，并有可能比您现在已安装\n"
         "的版本更新。";
@@ -29848,7 +29848,7 @@ inst_cfi_over_aol = "您准备安装 OEM %p 版本，但您已经\n"
         "安装了一个 AOL（美国在线）%p 版本。若继续安装，\n"
         "可能会中断与 AOL（美国在线）的连接。\n\n"
         "我们建议您从：\n"
-        "   http://www.cfos.de/zh-cn/oem/oem.htm\n"
+        "   %url/oem/oem.htm\n"
         "下载最新的 %p 版本。此版本使您能够\n"
         "与所有初始设备制造厂家 (OEM) 连接，并有可能比您现在已安装\n"
         "的版本更新。";
@@ -30704,20 +30704,20 @@ ga_use_password_by_speed = "O cFosSpeed deverá utilizar a palavra passe do cFos
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "http://www.cfos.de/pt/index.htm";
-speed_updateurl = "http://www.cfos.de/pt/download/download.htm";
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/pt/order/cfosspeed-n.htm";
-no_pings_help = "http://www.cfos.de/pt/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "http://www.cfos.de/pt/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "http://www.cfos.de/pt/traffic-shaping/traffic-shaping-options.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "http://www.cfos.de/pt/traffic-shaping/calibration.htm";
-download_more_skins_url = "http://www.cfos.de/pt/download/download.htm#skins";
-expiration_cfosspeed_htm = "http://www.cfos.de/pt/cfosspeed/expiration.htm";
-after_calibration_new = "http://www.cfos.de/pt/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "http://www.cfos.de/pt/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "http://www.cfos.de/pt/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "http://www.cfos.de/pt/cfosspeed/documentation/status.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/pt/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "O verificador de consistência detetou que um ou mais componentes foram modificados.\n"
@@ -31050,9 +31050,9 @@ show_on_metro_apps = "Mostrar nas aplicações Metro";
 speed_desc = "%p, o acesso mais rápido à Internet com Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "http://www.cfos.de/pt/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "http://www.cfos.de/pt/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "http://www.cfos.de/pt/cfosspeed/activation-failed.htm";
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Assistente de Instalação %?";
@@ -31406,7 +31406,7 @@ cfos_expired = "Esta %p versão expirou.\nCompre %p/Professional     agora!\nCom
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "http://www.cfos.de/pt/cfos-professional/activation-failed.htm";
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 
