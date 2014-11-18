@@ -2015,7 +2015,7 @@ total_max_of_rx_tx = "接收及傳送總計的最大值";
 check_if_other_also = "如果您想要將所有其它流量均計算到此槽位，請勾選此選項";
 performance_help = "為了節省電腦資源消耗，我們建議將存取網際網路的連線設定為「是」，其它連線設定為「否」。";
 loading = "載入中…";
-connection_type_help = "%url/traffic-shaping/traffic-shaping.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "非合作模式";
@@ -4716,7 +4716,7 @@ total_max_of_rx_tx = "Max. von Gesamt RX & TX";
 check_if_other_also = "Aktiv: Sämtlicher anderer Traffic soll in diesem Slot gezählt werden";
 performance_help = "Um die Rechnerleistung maximal zu halten, empfehlen wir nur die für ihren Internetzugang genutzte Verbindung auf 'Ja' zu setzen und alle anderen auf 'Nein'.";
 loading = "Lade...";
-connection_type_help = "%url/traffic-shaping/traffic-shaping.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Nicht kooperativ";
@@ -6856,6 +6856,9 @@ group_order_inet = "Αγορά προχωρημένου %p";
 / Don't translate!
 / END SECTION: don't translate
 
+
+
+/ eee (please leave this)
 #language 1033
 #fallback 1031
 #charset 0
@@ -7334,7 +7337,7 @@ total_max_of_rx_tx = "Max. of Total RX & TX";
 check_if_other_also = "Check, if you want all other traffic to be counted in this slot";
 performance_help = "To save maximum computational power, we recommend to set the connection you use for internet access to 'Yes' and all others to 'No'.";
 loading = "Loading...";
-connection_type_help = "%url/traffic-shaping/traffic-shaping.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Not cooperative";
@@ -13109,7 +13112,7 @@ total_max_of_rx_tx = "Max. del Totale RX & TX";
 check_if_other_also = "Seleziona, se vuoi che tutto l'altro traffico venga conteggiato in questa porta";
 performance_help = "Per non impegnare la massima potenza di calcolo, si consiglia di impostare la connessione in uso per l'accesso internet su 'Si' e tutti le altre su 'No'.";
 loading = "Caricamento...";
-connection_type_help = "%url/traffic-shaping/traffic-shaping.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Non cooperativa";
@@ -20737,7 +20740,7 @@ total_max_of_rx_tx = "Макс. общ. вх. и исх. скорости";
 check_if_other_also = "Весь прочий трафик";
 performance_help = "Чтобы минимизировать нагрузку на процессор, рекомендуется установить \"Да\" для используемого Интернет-подключения и \"Нет\" для всех остальных.";
 loading = "Загрузка...";
-connection_type_help = "%url/traffic-shaping/traffic-shaping.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Само по себе";
@@ -25554,7 +25557,7 @@ total_max_of_rx_tx = "Maksimum od skupne RX & TX";
 check_if_other_also = "Izberi, če želiš da se ves ostal promet štej k tej reži";
 performance_help = "Za prihranitev maksimalne računalniške moči, predlagamo da se postavi povezave ki se uporabljajo za intenet na 'Da' vse ostale pa na 'Ne'.";
 loading = "Nalagam...";
-connection_type_help = "%url/traffic-shaping/traffic-shaping.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
 regid = "Brez sodelovanja";
@@ -31800,7 +31803,7 @@ total_max_of_rx_tx = "Maks. totalnog RX & TX";
 check_if_other_also = "Oznaèite, ako želite da se sav ostali saobraæaj raèuna u ovom slotu";
 performance_help = "Da sačuvate maksimalnu snagu, preporučujemo da postavite vezu koju koristite za internet pristup na 'Da' a sve druge na 'Ne'.";
 loading = "Uèitavanje...";
-connection_type_help = "http://www.cfos.de/traffic_shaping/traffic_shaping_e.htm#advanced";
+connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Bez saradnje";
