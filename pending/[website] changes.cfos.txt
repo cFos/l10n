@@ -62,3 +62,13 @@ asus_p1 = "As a customer of certain ASUS motherboards you have the right to use 
 
 pnet_wmi_p1 = "Monitor vital WMI data on your PC or smartphone.<br/>Free addon package for <a class=\"inline\" href=\"cfos-personal-net.htm\">cFos Personal Net</a> users.";
 	`<a class=\"inline\" href=\"cfos-personal-net.htm\">` -> `<a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\">`
+
+#2014-12-03
+
+cfout_p7a_v2 = "The folder configuration data is stored in the directory <em>c:\\users\\your_username\\appdata\\local\\cfos\\outlook_dav</em>. The directory <em>c:\\programdata\\cfos\\outlook_dav</em> contains <em>folder_setup.hta</em>, so you can later change your configuration.";
+cfout_p7c = "In <em>c:\\programdata\\cfos\\outlook_dav</em> you can also find a file <em>trace.txt</em> with a log of the last recent sync operations.";
+
+	(cap changes) (4ac867fe21629e806db702beb5665890fb9b4221) ->
+
+cfout_p7a_v2 = "The folder configuration data is stored in the directory <em>C:\\Users\\YOUR_USERNAME\\AppData\\Local\\cFos\\outlook_dav</em>. The directory <em>C:\\ProgramData\\cFos\\outlook_dav</em> contains <em>folder_setup.hta</em>, so you can later change your configuration.";
+cfout_p7c = "In <em>C:\\ProgramData\\cFos\\outlook_dav</em> you can also find a file <em>trace.txt</em> with a log of the last recent sync operations.";
