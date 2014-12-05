@@ -65,6 +65,9 @@ pnet_wmi_p1 = "Monitor vital WMI data on your PC or smartphone.<br/>Free addon p
 
 #2014-12-03
 
+contact_form_o13 = "Phiên bản ASUS (GameFirst &amp; Turbo LAN), Gigabye, ASRock OEM";
+	`Gigabye` -> `Gigabyte`
+
 cfout_p7a_v2 = "The folder configuration data is stored in the directory <em>c:\\users\\your_username\\appdata\\local\\cfos\\outlook_dav</em>. The directory <em>c:\\programdata\\cfos\\outlook_dav</em> contains <em>folder_setup.hta</em>, so you can later change your configuration.";
 cfout_p7c = "In <em>c:\\programdata\\cfos\\outlook_dav</em> you can also find a file <em>trace.txt</em> with a log of the last recent sync operations.";
 
