@@ -75,3 +75,8 @@ cfout_p7c = "In <em>c:\\programdata\\cfos\\outlook_dav</em> you can also find a 
 
 cfout_p7a_v2 = "The folder configuration data is stored in the directory <em>C:\\Users\\YOUR_USERNAME\\AppData\\Local\\cFos\\outlook_dav</em>. The directory <em>C:\\ProgramData\\cFos\\outlook_dav</em> contains <em>folder_setup.hta</em>, so you can later change your configuration.";
 cfout_p7c = "In <em>C:\\ProgramData\\cFos\\outlook_dav</em> you can also find a file <em>trace.txt</em> with a log of the last recent sync operations.";
+
+#2014-12-09
+
+special_offer_xmas = "X-Mas offer! <span class=\"red\">Special prices</span> only until December 31st!";
+	`31st` -> `22nd`
