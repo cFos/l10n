@@ -4316,6 +4316,8 @@ setup_connections = "Verbindungen einrichten";
 ask_inst_ipv6 = "Das IPv6-Protokoll ist auf diesem System noch nicht installiert.\n\n"
                 "Soll die Installation des IPv6-Protokolls jetzt aufgerufen werden?";
 err_inst_ipv6 = "Fehler %? bei der Installation des IPv6-Protokolls.";
+pause_server = "Server pausieren";
+resume_server = "Server fortsetzen";
 
 / connection entry dialog
 con_err_save = "Verbindungsdaten konnten nicht gespeichert werden!";
@@ -6940,6 +6942,8 @@ setup_connections = "Setup connections";
 ask_inst_ipv6 = "The IPv6 protocol has not yet been installed on this system.\n\n"
                 "Would you like to install the IPv6 protocol now?";
 err_inst_ipv6 = "Error %? while installing the IPv6 protocol.";
+pause_server = "Pause server";
+resume_server = "Resume server";
 
 / connection entry dialog
 con_err_save = "Cannot save connection data!";
