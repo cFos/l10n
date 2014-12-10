@@ -12737,6 +12737,21 @@ language = "Italiano";
 language_local = "Italiano";
 htm_lang_prefix = "it";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
@@ -12876,6 +12891,12 @@ con_test_execute = "Esegui il test di connettività";
 
 ga_service_desc = "Analizzatore di Gioco cFos - Recupero dati sulle prestazioni";
 ga_speed_installed = "cFosSpeed sembra sia già installato sul tuo computer.\n\ncFosSpeed contiene già la funzionalità Analizzatore di gioco di cFos .\n\nPer utilizzare le ultime caratteristiche dell'Analizzatore di Gioco di cFos, si prega di scaricare ed installare l'ultima versione di cFosSpeed da www.cfos.de.";
+local_ip_addresses = "Indirizzi IP locali:";
+ga_password_subheader = "Password per l'accesso esterno a cFos Game Analyzer.";
+ga_password_info = "Nome utente: cfosspeed";
+ga_call_info = "Accedi a cFos Game Analyzer dal tuo PC locale con\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nAccedi a cFos Game Analyzer da un dispositivo esterno con la password usata qui sopra e usa uno dei seguenti indirizzi IP al posto di 'localhost':\n";
+ga_detected_by_speed = "È stata rilevata una versione di cFos Game Analyzer installata in questo PC. cFosSpeed contiene già tutte le funzionalità di cFos Game Analyzer.\n\ncFos Game Analyzer verrà disinstallato prima di continuare l'installazione di cFosSpeed.\n\nContinuare?";
+ga_use_password_by_speed = "Usando la stessa password che usi per cFos Game Analyzer anche per cFosSpeed ti permetterà di accedere a cFosSpeed anche da altri dispositivi. Vuoi usare la password di cFos Game Analyzer anche per cFosSpeed?";
 
 / ----------------------------------------------------------------------
 /
@@ -13218,6 +13239,8 @@ set_server_pwd = "Imposta la password del Server";
 auto_arrange_top = "In alto";
 auto_arrange_bottom = "In basso";
 show_on_metro_apps = "Mostra tra le applicazioni nella finestra Metro di Windows 8";
+traffic_shaping_info = "Informazioni sul Traffic Shaping";
+wlan_access_point = "Access point Wi-Fi";
 prioritize_foreground_process = "Assegna priorità del processo della finestra in primo piano";
 prioritize_foreground_help = "Imposta automaticamente la priorità alta del processo della finestra in primo piano";
 
@@ -13421,6 +13444,7 @@ task_uninstall_old = "Disinstallazione della versione esistente...";
 task_stop_daemon = "Interrompere %?...";
 task_uninstall_driver = "Disinstallazione del driver...";
 task_uninstall_service = "Sto disinstallando il servizio...";
+task_uninstall_ga = "Disinstallazione di cFos Game Analyzer in corso...";
 task_delete_files = "Cancellazione dei file...";
 task_cleanup_caches = "Pulizia cache...";
 task_hangup = "Disattivazione della connessione a Internet...";
@@ -13533,6 +13557,23 @@ eml_reg_failed = "La registrazione dell’e-mail é fallita.";
 eml_checking_domain = "Sto verificando il dominio della casella di posta....";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p Start Wizard di Virtual Wi-Fi";
+virtual_wifi_header = "Avvia Virtual Wi-Fi";
+virtual_wifi_subheader = "Allestisci un access point wireless tramite software e abilita la condivisione della connessione ad Internet";
+virtual_wifi_info = "Seleziona la connessione alla rete che instrada il traffico Internet e scegli una password per l'access point wireless.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "L'SSID non può essere vuoto e non può avere più di 32 caratteri.";
+virtual_wifi_invalid_password_length = "La lunghezza della password deve essere compresa tra 8 e 64 caratteri.";
+virtual_wifi_ics_not_available = "La condivisione della connessione ad Internet non è disponibile su questo computer.";
+virtual_wifi_error_get_cons = "Si è verificato un errore nel ricevere le connessioni alla rete";
+virtual_wifi_ics_warning = "La condivisione della rete Internet è abilitata sulla seguente rete:\n%?\n\nPreferisci utilizzare quest'altra rete al suo posto:\n%?";
+virtual_wifi_error_enable_ics = "Si è verificato un errore nell'abilitare la condivisione della connessione ad Internet.";
+virtual_wifi_error_start = "Si è verificato un errore nel avviare Virtual Wi-Fi.";
+virtual_wifi_ok = "Il Virtual Wi-Fi e la condivisione della rete Internet sono stati abilitati.\n\nNota: Se un client non riesce a connettersi al Virtual Wi-Fi, fermare e riavviare il Virtual Wi-Fi\n\nSe un client riesce a connettersi al Virtual Wi-Fi ma non ha la connessione ad Internet, disinstallare e reinstallare %p.";
+virtual_wifi_query_stop = "Fermare il Virtual Wi-Fi?";
+virtual_wifi_error_stop = "Si è verificato un errore nel fermare Virtual Wi-Fi:";
+virtual_wifi_stopped = "Virtual Wi-Fi fermato con successo.";
 
 
 / ----------------------------------------------------------------------
