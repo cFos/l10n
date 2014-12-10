@@ -10069,6 +10069,21 @@ language = "Français";
 language_local = "Français";
 htm_lang_prefix = "fr";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
@@ -10208,6 +10223,12 @@ con_test_execute = "Executer le test de connection";
 
 ga_service_desc = "cFos Game Analyzer - Récupération des données de performance";
 ga_speed_installed = "cFosSpeed semble être installé sur votre ordinateur.\n\ncFosSpeed possède déjà la fonctionnalité de cFos Game Analyzer.\n\nPour utiliser les fonctionnalités les plus récentes de cFos Game Analyzer, veuillez télécharger et installer la dernière version de cFosSpeed depuis www.cfos.de.";
+local_ip_addresses = "Adresses IP locales :";
+ga_password_subheader = "Mot de passe pour l'accès externe à cFos Game Analyzer.";
+ga_password_info = "Nom d'utilisateur: cfosspeed";
+ga_call_info = "Accéder à cFos Game Analyzer depuis votre ordinateur local avec\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nAccéder à cFos Game Analyzer depuis un appareil externe avec le mot de passe ci dessus et utiliser l'une des adresses IP suivantes à la place de 'localhost':\n";
+ga_detected_by_speed = "Une version déjà installée de cFos Game Analyzer a été détectée. cFosSpeed contient déjà toutes les fonctionnalités de cFos Game Analyzer.\n\nSi vous continuez, cFos Game Analyzer sera désinstallé avant l'installation de cFosSpeed.\n\nVoulez-vous continuer ?";
+ga_use_password_by_speed = "cFosSpeed devrait-il utiliser le mot de passe de cFos Game Analyzer, pour ainsi accéder également à cFosSpeed depuis un autre appareil ?";
 
 / ----------------------------------------------------------------------
 /
@@ -10278,6 +10299,7 @@ selectskin = "Sélectionner une apparence (skin)";
 topmost = "Fenêtre toujours au premier plan";
 defpos = "Position par défaut";
 disco_ras = "Déconnecter ";
+config = "Options";
 order = "Acheter tout de suite !";
 dayl_singular = "jour";
 dayl_plural = "jours";
@@ -10555,6 +10577,11 @@ http_access_disabled = "L'accès HTTP à distance est interdit.";
 set_server_pwd = "Entrez le mot de passe Serveur";
 auto_arrange_top = "Haut";
 auto_arrange_bottom = "Bas";
+show_on_metro_apps = "Voir sur l'apps Metro ";
+traffic_shaping_info = "Informations sur la Régulation dynamique de flux réseau (Traffic Shaping)";
+wlan_access_point = "Point d'accès Wi-Fi";
+prioritize_foreground_process = "Prioriser les processus des fenêtres en premier plan";
+prioritize_foreground_help = "Mettre automatiquement les processus des fenêtres en premier plan en priorité haute.";
 
 
 / ----------------------------------------------------------------------
@@ -10766,6 +10793,7 @@ task_uninstall_old = "Désinstallation de l’ancienne version...";
 task_stop_daemon = "Arrêt de %?...";
 task_uninstall_driver = "Désinstallation du pilote...";
 task_uninstall_service = "Désinstallation du service...";
+task_uninstall_ga = "Désintallation de cFos Game Analyzer...";
 task_delete_files = "Effacement des fichiers...";
 task_cleanup_caches = "Nettoyage du cache...";
 task_hangup = "Arrêt des connexions actives...";
@@ -10905,6 +10933,24 @@ eml_reg_failed = "Échec de l'enregistrement de l'adresse e-mail.";
 eml_checking_domain = "Vérification de domaine de l'adresse e-mail...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "Aide au démarrage du Wi-Fi Virtuel de %p";
+virtual_wifi_header = "Démarrer le Wi-Fi Virtuel";
+virtual_wifi_subheader = "Configurer un logiciel basé sur un point d'accès sans fil et activer le partage de connexion Internet.";
+virtual_wifi_info = "Sélectionner la connection réseau qui gère le traffic Internet et choisir un mot de passe pour le point d'accès sans fil.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "Wi-Fi cFos";
+virtual_wifi_invalid_ssid_length = "Le SSID ne doit pas être laisser vide et de doit pas dépasser 32 caractères.";
+virtual_wifi_invalid_password_length = "La longueur de mot de passe doit être entre 8 and 64 caractères.";
+virtual_wifi_ics_not_available = "Le partage de connection Internet n'est pas disponible sur cet ordinateur.";
+virtual_wifi_error_get_cons = "Une erreur est survenue dans l'acquisition des connections réseaux.";
+virtual_wifi_ics_warning = "Le partage de connection Internet est déjà activé sur le réseau suivant :\n%?\n\nVoulez-vous utiliser ce réseau à la place :\n%?";
+virtual_wifi_error_enable_ics = "Une erreur est survenue dans l'activation du partage de connection Internet.";
+virtual_wifi_error_start = "Une erreur est survenue dans le démarrage du Wi-Fi Virtuel.";
+virtual_wifi_ok = "Activations réussies du Wi-Fi Virtuel et du partage de connection Internet.\n\nNote : si un client ne peut pas se connecter avec succès au Wi-Fi Virtuel, veuillez arrêter et redémarrer le Wi-Fi Virtuel.\n\nSi un client peut se connecter au Wi-Fi Virtuel, mais ne peut pas avoir de connection à Internet, veuillez désinstaller et réinstaller %p.";
+virtual_wifi_query_stop = "Arrêter le Wi-Fi virtuel ?";
+virtual_wifi_error_stop = "Une erreur est survenue lors de l'arrêt du Wi-Fi Virtuel :";
+virtual_wifi_stopped = "Le Wi-Fi Virtuel s'est arrêté avec succès.";
+virtual_wifi_dialup_ics = "Pour une connexion par modem/ligne commutée vous devez activer manuellement le partage de connection Internet en modifiant les propriétés de cette connection.";
 
 
 / ----------------------------------------------------------------------
