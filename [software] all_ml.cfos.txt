@@ -26118,7 +26118,7 @@ eml_checking_domain = "Preverjanje e-mail domene...";
 / **********************************************************************
 
 language = "Vietnamese";
-language_local = "Việt Nam";
+language_local = "Tiếng Việt";
 htm_lang_prefix = "vi";
 
 
@@ -26175,7 +26175,7 @@ dlg_dun_uname = "Tên tài khoản sử dụng:";
 dlg_dun_pwd = "Mật khẩu:";
 dlg_dun_use_ipv4 = "Sử dụng IPv4";
 dlg_dun_use_ipv6 = "Sử dụng IPv6";
-dun_connect_to = "Kết nối vào %?";
+dun_connect_to = "Kết nối tới %?";
 dun_err_already_exists = "Tên vừa gọi đã có người dùng trước.";
 disconnect = "ngắt kết nối ";
 setup_connections = "Thiết lập các kết nối";
@@ -26279,7 +26279,7 @@ local_ip_addresses = "Địa chỉ IP cục bộ:";
 ga_password_subheader = "Mật khẩu để truy cập từ bên ngoài cho cFos Game Analyzer.";
 ga_password_info = "Tên người dùng: cfosspeed";
 ga_call_info = "Truy cập cFos Game Analyzer từ máy tính của bạn với\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nTruy cập cFos Game Analyzer từ một thiết bị bên ngoài với mật khẩu ở trên và sử dụng một trong các địa chỉ IP sau thay vì 'localhost':\n";
-ga_detected_by_speed = "Phát hiện một phiên bản của cFos Game Analyzer được cài đặt. cFosSpeed ​​đã có tất cả các tính năng của cFos Game Analyzer.\n\nNếu bạn tiếp tục, cFos Game Analyzer sẽ được gỡ bỏ trước khi cài đặt cFosSpeed​​.\n\nBạn có muốn tiếp tục không?";
+ga_detected_by_speed = "Phát hiện một phiên bản của cFos Game Analyzer đã được cài đặt. cFosSpeed ​​đã có tất cả các tính năng của cFos Game Analyzer.\n\nNếu bạn tiếp tục, cFos Game Analyzer sẽ được gỡ bỏ trước khi cài đặt cFosSpeed​​.\n\nBạn có muốn tiếp tục không?";
 ga_use_password_by_speed = "Có nên để cFosSpeed ​​sử dụng mật khẩu của cFos Game Analyzer, nếu thế bạn có thể truy cập cFosSpeed từ các thiết bị khác?";
 
 / ----------------------------------------------------------------------
@@ -26307,49 +26307,49 @@ traffic_shaping_htm = "https://www.cfos.de/vi/traffic-shaping/traffic-shaping.ht
 auth_failed = "Việc kiểm tra tính nhất quán đã phát hiện ra rằng một hoặc nhiều thành phần đã được sửa đổi.\n"
    "Hãy cài đặt một phiên bản chưa sửa đổi từ trang web của chúng tôi:\n";
 
-component_mismatch = "Phiên bản này có sự trùng lắp giữa các thành phần của chương trình. Vui lòng cài đặt lại phiên bản gần đây đã sử dụng.";
-trayicon_tip = "Tăng tốc độ truy cập Internet với %p, www.cfos.de";
+component_mismatch = "Phiên bản này có sự trùng lặp giữa các thành phần của chương trình. Hãy cài đặt lại phiên bản gần đây.";
+trayicon_tip = "Truy cập Internet nhanh hơn với Tối ưu Băng thông, www.cfos.de";
 speed_endsoon = "Thời  gian dùng thử đã hết! Hãy mua %1 ngay hôm nay!";
-order_info = "Đặt mua:\n Qua Internet: www.cfos.de\n Bằng điện thoại: +49-228-7669826";
+order_info = "Mua ngay:\nInternet: www.cfos.de\n Bằng điện thoại: +49-228-7669826";
 badkey = "Có vấn đề với khóa đăng ký.\nVui lòng cài đặt lại khóa bằng các nhấn đúp trỏ chuột trên\ntập tin gốc mà bạn đã nhận được qua thư điện tử hay đĩa mềm.";
-no_setup = "Không thể bắt đầu cài đặt(setup.exe).";
+no_setup = "Không thể bắt đầu cài đặt (setup.exe).";
 no_cmd = "Không thể mở Command Prompt (cmd.exe)!";
 ask_disconnect_ras = "Một kết nối đang kích hoạt hiện tại cần được cấu hình lại.\nĐề nghị bạn bỏ kết nối trước khi tiếp tục.\nBỏ kết nối mạng hiện tại?";
-sygate_hint = "%p đã phát hiện tường lửa của Sygate, nó sẽ làm nhỡ \n%p các dữ liệu định trước bằng cách từ chối với dịch vụ chống tấn công với các gói tin\n\"Ping-of-Death\".\nBởi vậy bạn nên tải và sau đó truyền lên với \ntốc độ 30 giây cho riêng từng cái. Đây sẽ là kiểm tra \n%p giống như xung xác định.\n\nGợi ý: Chức năng Tường lửa\"Anti IP Manipulation\" sẽ đặt ở trạng thái \nkhông kích hoạt.";
+sygate_hint = "%p đã phát hiện tường lửa của Sygate, nó sẽ làm nhỡ \n%p các dữ liệu định trước bằng cách từ chối với dịch vụ chống tấn công với các gói tin\n\"Ping-of-Death\".\nBởi vậy bạn nên tải và sau đó truyền lên với \ntốc độ 30 giây cho riêng từng cái. Các kiểm tra \n%p giống như xung xác định.\n\nLưu ý: Chức năng Tường lửa\"Anti IP Manipulation\" sẽ đặt ở trạng thái \nkhông kích hoạt.";
 select_language = "Chọn ngôn ngữ";
 translator = "Người dịch:";
-translator_name = "Đoàn Nguyễn Bảo Lân";
-translator_msg = "www.vietnamize.info";
+translator_name = "Phạm Tuấn Khanh - ptk911";
+translator_msg = "ptk911@yahoo.com.vn";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Bạn %3 giấy phép hết hạn trong %1 %2.";
 
-service_desc = "Tự động thực hiện phép đo và trao đặc quyền hoạt động cho %p";
-no_pings_error = "Các gói tin được gởi bởi %p không thấy đến. %p Phân loại dữ liệu không thực hiện chức năng một cách chính xác. Nhấn ở đây để xem trợ giúp.";
+service_desc = "Tự động thực hiện đo độ trễ và tác vụ cho %p";
+no_pings_error = "Các gói tin được gởi bởi %p không thấy đến. Thiếu chúng, %p Tối ưu Băng thông không thể thực hiện chính xác. Bấm ở đây để xem trợ giúp.";
 other_languages = "Ngôn ngữ khác";
 install_dir = "Thư mục cài đặt: ";
-ask_clear_tsdata = "Xóa dữ liệu Traffic Shaping và bắt đầu căn chuẩn đường truyền mới";
-allow_traffic_shaping = "Cho phép sử dụng chức năng Phân loại dữ liệu ở kết nối này";
+ask_clear_tsdata = "Xóa dữ liệu Tối ưu Băng thông và bắt đầu đường truyền mới";
+allow_traffic_shaping = "Cho phép Tối ưu Băng thông với kết nối này";
 none = "không";
-lic_expired = "Bạn đã hết hạn sử dụng phiên bản dùng thử. %1 không còn hoạt động. Đặt mua %1 ngay hôm nay!";
-settings = "Thiết lập";
+lic_expired = "Thời gian dùng thử đã hết. %1 không còn hoạt động. Mua %1 ngay hôm nay!";
+settings = "Cài đặt";
 winsettings = "Thiết lập cửa sổ";
-openwindow = "Mở cửa sổ";
-openwindows = "Mở cửa sổ";
-closewindow = "Đóng cửa sổ";
-closewindows = "Đóng cửa sổ";
-autoopen = "Tự động-mở/Tự động-ẩn";
-taskbaricon = "Biểu tượng ở thanh tác vụ";
-autoarrange = "Tự động sắp xếp các cửa sổ";
+openwindow = "Hiện cửa sổ";
+openwindows = "Hiện cửa sổ";
+closewindow = "Ẩn cửa sổ";
+closewindows = "Ẩn cửa sổ";
+autoopen = "Tự động-hiện/Tự động-ẩn";
+taskbaricon = "Biểu tượng ở khay hệ thống";
+autoarrange = "Tự động bố trí cửa sổ";
 effects = "Hiệu ứng";
 blend_effect = "Cửa sổ mờ";
 slide_effect = "Cửa sổ trượt";
 win_behaviour = "Dùng thiết lập của hệ thống";
 selectskin = "Chọn giao diện";
-topmost = "Luôn nổi trên màn hình";
+topmost = "Luôn ở trên màn hình";
 defpos = "Vị trí mặc định";
 disco_ras = "Đăng xuất ";
 config = "Tùy chọn";
-order = "Đặt hàng!";
+order = "Mua ngay!";
 dayl_singular = "ngày";
 dayl_plural = "ngày";
 days_singular = "ngày";
@@ -26360,94 +26360,94 @@ short_dexpire = "Hết hạn %1 %2";
 
 short_exp = "Hết hạn!";
 / %1=number, %2="day/days", %3=product name
-lic_dexpire = "Bạn đã hết thời hạn dùng thử %1%2. Hãy đặt mua %3 ngay hôm nay!";
+lic_dexpire = "Bạn đã hết thời hạn dùng thử %1%2. Mua %3 ngay hôm nay!";
 lic_try = "Bạn có thể dùng thử %3 trong %1 %2 trước khi mua chính thức.";
 
 enable_win = "Bật cửa sổ trạng thái?\n\nCửa sổ trạng thái sẽ hiển thị trạng thái của kết nối đang dùng.";
-license = "Cấp phép";
+license = "Giấy phép";
 licensed_to = "Đăng ký cho %?";
 upgrade = "Cập nhật phiên bản mới";
-connect_to = "Kết nối đến";
-make_own_skin = "Tự thiết kế giao diện";
-click_through = "Nhấn-xuyên qua";
+connect_to = "Kết nối tới";
+make_own_skin = "Giao diện tự thiết kế";
+click_through = "Bấm-xuyên qua cửa sổ";
 ask = "Hỏi";
 off = "Tắt";
 on = "Mở";
 note = "Chú ý";
 deactivated = "không hoạt động";
-browser_warning = "Phiên bản Internet Explorer 8 hoặc cao hơn được khuyến khích cho hộp thoại này!";
-ole_error = "Nếu mua sản phẩm hãy dùng hộp thoại từ chương trình,\\n%p nên cài đặt và chạy nó trên máy tính của bạn.\\nVui lòng kiểm tra và cài đặt tiếp, nếu cần thiết.";
+browser_warning = "Phiên bản Internet Explorer 8 hoặc cao hơn được đề nghị cho hộp thoại này!";
+ole_error = "Nếu mua sản phẩm hãy từ cấu hình hộp thoại này,\\n%p nên cài đặt và chạy nó trên máy tính của bạn.\\nVui lòng kiểm tra và cài đặt lại, nếu cần thiết.";
 ts_settings = "Thiết lập chức năng Phân loại dữ liệu";
-preferences = "Tùy chọn";
+preferences = "Thiết lập";
 prio_protocols = "Giao thức ưu tiên";
 protocol = "Giao thức";
 protocols = "Giao thức";
 prio_programs = "Chương trình ưu tiên";
 program = "Chương trình";
 programs = "Chương trình";
-current_connections = "Các kết nối hiện tại";
-current_connections_advanced = "Các kết nối hiện tại (nâng cao)";
-current_connections_standard = "Các kết nối hiện tại (cơ bản)";
-ts_prios = "Dùng chức năng Phân loại dữ liệu trước";
+current_connections = "Kết nối hiện tại";
+current_connections_advanced = "Kết nối hiện tại (nâng cao)";
+current_connections_standard = "Kết nối hiện tại (cơ bản)";
+ts_prios = "Tối ưu Băng thông";
 client_protocols = "Giao thức máy con";
 server_protocols = "Giao thức máy chủ";
-client_server_protocols = "Giao thức máy khách và máy chủ";
-media_streaming = "Nhạc trực tuyến";
+client_server_protocols = "Giao thức máy chủ và máy con";
+media_streaming = "Media trực tuyến";
 file_sharing = "Chia sẻ tập tin";
-special = "Đặc biệt";
+special = "Riêng biệt";
 other = "Khác";
 misc_high_short = "Misc. cao";
-misc_high = "Ưu tiên lưu lượng Misc. cao";
+misc_high = "Ưu tiên lưu lượng misc. cao";
 hint = "Gợi ý";
 hint_text = "Sự ưu tiên sẽ làm việc chính xác chỉ nếu có một dữ liệu nhỏ được đặt mức ưu tiên cao nhất. Để chương trình có thể chọn việc gởi dữ liệu ra ngoài với mức ưu tiên thấp. Giao thức được quyền ưu tiên sẽ hoàn thành tốt hơn chương trình có mức ưu tiên đó.";
-prio_doc_link = "Làm thế nào ưu tiên các chương trình";
+prio_doc_link = "Cách thức thực hiện các mức ưu tiên";
 save_protocols = "Lưu giao thức";
-undo = "Hoàn tác";
+undo = "Quay lại";
 filter_selection = "Chọn bộ lọc";
-higher = "Cao nhất";
+higher = "Cao nhất";
 high = "Cao";
-normal = "Bình thường";
+normal = "Vừa";
 default = "Mặc định";
 low = "Thấp";
-lower = "Quá thấp";
-entries = "Đầu mục";
-prog_overwrite = "Chương trình #p đã có trong danh sách.\\nBạn có muốn ghi đè lên giá trị cũ hay không?";
+lower = "Thấp nhất";
+entries = "Mục";
+prog_overwrite = "Chương trình #p đã có trong danh sách.\\nBạn có muốn ghi đè?";
 games = "Trò chơi";
 voip = "Âm thoại-qua-IP";
 remote_control = "Điều khiển từ xa";
-prog_hint_text = "Sự ưu tiên sẽ làm việc chính xác chỉ khi các gói dữ liệu nhỏ được đặt mức ưu tiên cao. Để cho chương trình gởi dữ liệu ra ngoài bằng cách chọn mức ưu tiên thấp cho dữ liệu.<br />";
+prog_hint_text = "Mức ưu tiên sẽ làm việc chính xác chỉ khi các gói dữ liệu nhỏ được đặt ở mức ưu tiên cao. Đặt các chương trình gửi các gói dữ liệu lớn với mức ưu tiên thấp.<br />";
 save_priorities = "Lưu ưu tiên";
 delete = "Xóa";
 aux_lines = "Tuyến phụ";
-higher_prog_help = "Âm thoại-qua-Internet, có thể chơi trò chơi trực tuyến";
+higher_prog_help = "Âm thoại-qua-IP, có thể chơi trò chơi trực tuyến";
 high_prog_help = "Trò chơi, Âm nhạc, Telnet và các chương trình khác";
 low_prog_help = "Dữ liệu máy chủ, dữ liệu FTP";
-lower_prog_help = "truyền tải ở chế độ nền, giống như chia sẻ tập tin";
-delete_help = "Gở bỏ từ danh sách(Ví dụ: làm việc bình thường với các gói tin).";
-prog_help = "Sự truyền tải ở mức ưu tiên quá thấp (nhất) - các gói tin sẽ truyền tải chậm nếu các dữ liệu với độ ưu tiên cao nhất đang được xử lý trong cùng một khoảng thời gian. Cách khác, mức ưu tiên cho các dữ liệu là thấp (nhất), tất nhiên, sẽ được gởi ở tốc độ cao nhất.";
+lower_prog_help = "Truyền tải ở chế độ nền, giống như chia sẻ tập tin";
+delete_help = "Xóa khỏi danh sách (ví dụ: làm việc bình thường với các gói tin).";
+prog_help = "Băng thông ở mức ưu tiên thấp (nhất) - các gói tin truyền tải chậm nếu dữ liệu với độ ưu tiên cao hơn đang được thực hiện trong cùng một khoảng thời gian. Ngoài ra, mức ưu tiên dữ liệu thấp (nhất), dĩ nhiên, sẽ được gởi ở tốc độ cao nhất.";
 filename = "Tên tập tin";
 description = "Mô tả";
-new_program = "Chương trình mới";
+new_program = "Thêm chương trình";
 restore_defaults = "Khôi phục mặc định";
 add = "Thêm";
 suggest_program = "Đề nghị chương trình này cho nhóm cFos";
 l7_prot_detection = "Tự động phát hiện giao thức trong 7 tầng";
 l7_prot_detection_help = "Quá trình tự động phát hiện giao thức đang phân tích dữ liệu. Dùng hộp thoại 'Độ ưu tiên cho giao thức' để thay đổi mức ưu tiên của các giao thức khác nhau. Nếu bạn không kích hoạt tùy chọn này thì nó sẽ hoạt động tùy theo số cổng được dùng.";
-favor_ping = "Giảm ping";
-favor_ping_help = "<b>Bật</b>: %p sẽ giảm thời gian tiêu phí khi băng thông hạ xuống thấp (nếu cần thiết).<br /><b>Off</b>: %p will maximize bandwidth at the expense of slightly higher ping times (if necessary).";
-favor_bandwidth = "Mở rộng đường truyền";
-avoid_loss = "Tránh mất gói dữ liệu";
-avoid_loss_help = "%p đóng cửa sổ tiếp nhận giao thức TCP để tiếp nhận luồng nếu phát hiện quá nhiều gói dữ liệu bị mất. Điều này chỉ xảy ra khi kết nối của bạn nhận được với tốc độ đầy đủ. (Đề nghị để nâng cao lưu lượng định hình khi tải)";
-activate_firewall = "Bật tường lửa";
-activate_firewall_help = "Bảo vệ mạng khỏi các việc xâm phạm bên ngoài nghĩa là lọc bỏ các gói tin nguy hiểm, xem xét kỷ lưỡng các gói tin lén lút xâm nhập vào máy.";
+favor_ping = "Giảm Ping";
+favor_ping_help = "<b>Bật</b>: %p sẽ giảm thời gian ping thấp nhất khi giảm băng thông (nếu cần thiết).<br /><b>Tắt</b>: %p sẽ tăng tối đa băng thông khi thời gian ping cao hơn (nếu cần thiết).";
+favor_bandwidth = "Giảm băng thông";
+avoid_loss = "Tránh mất gói tin";
+avoid_loss_help = "%p đóng cửa sổ tiếp nhận giao thức TCP để tiếp nhận các luồng nếu phát hiện quá nhiều gói tin bị mất. Điều này chỉ xảy ra khi kết nối của bạn nhận được tốc độ đầy đủ. (Đề nghị để nâng cao Tối ưu Băng thông khi tải về)";
+activate_firewall = "Bật Tường lửa";
+activate_firewall_help = "Bảo vệ chống lại sự xâm nhập mạng, tức là lọc bỏ các gói tin nguy hiểm, kiểm tra kỹ lưỡng các gói tin lén lút tìm cách xâm nhập máy tính.";
 mtu_opt = "Tự động tối ưu MSS (MTU)";
-mtu_opt_help = "Điều chỉnh MSS/MTU cho tốc độ truyền tải lớn nhất. Điển hình, giá trị trong khoảng thấp nhất dưới 1500/1492 cho tốc độ nhanh nhất.";
+mtu_opt_help = "Điều chỉnh MSS/MTU cho tốc độ truyền tải lớn nhất. Điển hình, các giá trị dưới mức chuẩn 1500/1492 cho tốc độ nhanh hơn.";
 strict_rtp = "Kiểm tra chính xác RTP";
-strict_rtp_help = "Nếu đã hoạt động, %p chỉ chấp thuận các gói tin như là RTP đến với một RTCP đúng. Bạn sẽ bỏ kích hoạt tùy chọn này cho các chương trình dùng Âm thoại-qua-Interner (như VoIPBuster) gởi các gói tin không dùng RTCP.";
+strict_rtp_help = "Nếu kích hoạt, %p chỉ chấp thuận các gói tin như là RTP với một RTCP đúng. Bạn nên bỏ kích hoạt mục này cho các chương trình dùng Âm thoại-qua-IP (như VoIPBuster) mà không gửi các gói tin không RTCP. Chỉ kích hoạt mục này, nếu gói tin chính xác là RTP.";
 ts_config = "Cấu hình chức năng Phân loại dữ liệu";
 dialup_connection = "Kết nối quay số";
 dialup_connections = "Kết nối quay số";
-traffic_shaping = "Phân loại dữ liệu";
+traffic_shaping = "Tối ưu Băng thông";
 ras_con_help = "<b>Đồng ý</b>: hoạt động, <b>no</b>: không hoạt động, <b>ask</b>: ask once only and then save the setting";
 router_connections = "Kết nối bộ định tuyến";
 net_components = "Thành phần mạng";
@@ -26457,179 +26457,182 @@ network_adapter = "Loại mạng";
 router = "Bộ định tuyến";
 and_save_settings = "và lưu các thiết lập";
 border = "Đường viền";
-budget = "Ngân quỹ";
+budget = "Phân bổ";
 budget_settings = "Thiết lập Budget";
-budget_title = "%p Budget trực tuyến";
-budgets = "Budget trực tuyến";
+budget_title = "Phân bổ trực tuyến";
+budgets = "Phân bổ trực tuyến";
 graph_title = "Biểu đồ";
 hard_limit = "Giới hạn<br>Cứng";
-hard_limit_help_not_set = "hạ thấp Budget sẽ chỉ được hiển thị ở cửa sổ trạng thái.";
-hard_limit_help_set = "Gói tin sẽ được truyền tải nếu hạ thấp Budget";
-last_3_months = "3 tháng cuối";
-last_month = "tháng cuối";
-last_12_months = "12 tháng cuối";
-please_select = "Xin vui lòng lựa chọn";
-reset_day = "Đăt lại ngày";
+hard_limit_help_not_set = "Giảm phân bổ sẽ chỉ được hiển thị ở cửa sổ trạng thái.";
+hard_limit_help_set = "Gói tin sẽ được truyền tải nếu giảm phân bổ";
+last_3_months = "3 tháng gần đây";
+last_month = "tháng gần đây";
+last_12_months = "12 tháng gần đây";
+please_select = "Hãy lựa chọn";
+reset_day = "Đặt lại ngày";
 reset_day_unit = "ngày của tháng";
 rxtx_button = "Lựa chọn RX/TX";
-save_budgets = "Lưu vào Budget";
+save_budgets = "Lưu Phân bổ";
 show_for = "Hiển thị cho";
 this_month = "tháng này";
 time = "Thời gian";
 time_limit = "Giới hạn thời gian";
+/. Used as table header
+/. Short version of "minutes"
 time_min = "Phút";
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "giờ:phút";
-volume = "Âm lượng";
-volume_limit = "Giới hạn âm lượng";
-spdbudget_help = "Để dùng một budget, chuyển đến hộp thoại kết nối và gán nó tới một kết nối riêng biệt";
+volume = "Mức độ";
+volume_limit = "Giới hạn lưu lượng";
+spdbudget_help = "Để dùng 1 phân bổ, vào hộp thoại thiết lập và gán nó tới một kết nối riêng biệt";
 password_bad = "Sai mật khẩu";
 sum_button = "Tích lũy";
-calibrate = "Tuyến định kích thước";
-test_pings = "Gửi ping kiểm tra";
-open_console = "Mở giao diện điều khiển %p";
+calibrate = "Dòng lưu lượng";
+test_pings = "Gửi kiểm tra ping";
+open_console = "Mở lệnh cmd %p";
 variable_bandwidth = "Đường truyền với độ biến động";
-def_bandwidth_help = "Mặc định chp kết nối <b>mới</b>";
+def_bandwidth_help = "Mặc định cho kết nối <b>mới</b>";
 cur_bandwidth_help = "Cài đặt cho kết nối hiện tại";
 no_ports_open = "Không có kết nối được thiết lập.";
 no_ports_open_help = "Hiện tại, không có kết nối được thiết lập xử lý bởi %p. "
    "Để thay đổi các thiết lập mặc định cho các kết nối mới, hãy nhấn nút \"Mặc định cho các kết nối mới\", "
    "để thay đổi các thiết lập cho các kết nối khác, nhấn \"Lưu lượng định hình\" ở phía bên trái.";
-ok = "OK";
-connection_medium = "Trung bình";
+ok = "Đồng ý";
+connection_medium = "Vửa";
 connection_type = "Chế độ Traffic Shaping";
-driver_not_loaded = "Không thể nạp driver!";
-demon_driver_not_loaded = "Driver không chạy!\n"
-   "Có thể cài đặt bị hỏng.\n"
-   "Xin vui lòng cài đặt lại %p.\n";
-asus_demon_driver_not_loaded = "Cài đặt lại %p sau khi nâng cấp lên hệ điều hành mới.\nTruy cập vào trang web của ASUS tại %w để tìm %p phiên bản mới nhất.";
+driver_not_loaded = "Không thể tải driver!";
+demon_driver_not_loaded = "Driver không chạy!\nCó thể cài đặt bị hỏng.\nHãy cài đặt lại %p.\n";
+asus_demon_driver_not_loaded = "Cài đặt lại %p sau khi nâng cấp lên hệ điều hành mới.\nTruy cập vào trang web của ASUS tại %w để tìm phiên bản %p mới nhất.";
 many_cons_error = "%p rx-Traffic Shaping đang được đẩy lên giới hạn, vì có quá nhiều kết nối. Với ít kết nối hơn thì nó sẽ làm việc tốt hơn. Nhấn vào đây để được giúp đỡ.";
 limit_bandwidth = "Giới hạn băng thông cho kết nối hiện tại";
 rx_limit = "Giới hạn RX";
 tx_limit = "Giới hạn TX";
 max = "Tối đa";
-apply_limits = "Thiết lập giới hạn";
-limit_help = "Giá trị tính bởi kbyte/s, bao gồm tất cả các protocol, 0 = không giới hạn.";
-enable_speed_shaping = "Bật Phân loại dữ liệu";
-disable_speed_shaping = "Tắt Phân loại dữ liệu";
-yes = "Đồng ý";
+apply_limits = "Áp dụng Giới hạn";
+limit_help = "Giá trị bằng kbyte/s, bao gồm tất cả các protocol, 0 = không giới hạn.";
+enable_speed_shaping = "Bật Tối ưu Băng thông";
+disable_speed_shaping = "Tắt Tối ưu Băng thông";
+yes = "Có";
 no = "Không";
 help = "Trợ giúp";
 bgraph_totals = "Tổng";
-blocklist = "Bộ chặn IP";
+blocklist = "Chặn IP";
 blocklist_help = "Danh sách địa chỉ IP bị chặn tất cả lưu lượng.";
 apply_blocklist = "Sử dụng bộ lọc danh sách";
 search = "Tìm kiếm";
-budget_connection = "Cấu hình tài nguyên sử dụng cho các kết nối";
-reset = "Thiết lặp lại";
+budget_connection = "Cấu hình phân bổ sử dụng cho các kết nối";
+reset = "Khôi phục";
 autohide_on_fullscreen = "Tự động ẩn khi ở chế độ toàn màn hình";
 slot_selected = "Giao thức / chương trình được chọn";
 show = "Hiện";
 hide = "Ẩn";
-slot_explain = "Nếu một gói dữ liệu có một giao thức đã biết trước và giao thức đó được "
-               "gán cho một ô, lưu lượng của gói dữ liệu được tính cho ô đó "
-               "Mặt khác, nếu gói tin là của kết nối của một chương trình "
-               "mà đã được gán cho một ô, lưu lượng sẽ được tính cho ô đó. "
-               "Nếu không nằm trong các trường hợp trên thì lưu lượng được tính "
-               "cho ô mà tất cả các lưu lượng còn lại được tính chung, nếu được thiết lập ban đầu.";
-traffic_analysis_title = "Phân tích lưu lượng thời gian thực";
+slot_explain = "Nếu một gói dữ liệu có một giao thức đã biết trước và được gán cho một luồng, lưu lượng của gói dữ liệu được đếm trong luồng đó. Ngoài ra, nếu gói tin là kết nối của tên 1 chương trình đã được gán cho một luồng, lưu lượng sẽ được đếm cho luồng đó. Nếu không nằm trong các trường hợp trên thì lưu lượng được đếm trong luồng, nơi tất cả lưu lượng khác được đếm, nếu được thiết lập.";
+traffic_analysis_title = "Phân tích băng thông thời gian thực";
 other_traffic = "Tất cả lưu lượng khác";
-traffic_analysis = "Phân tích lưu lượng thông tin";
-slot = "Ô";
+traffic_analysis = "Phân tích băng thông";
+slot = "Luồng";
 slots = "Các ô";
 slots_title = "Cài đặt ô";
 can_select_multiple = "Gợi ý: Bạn có thể lựa chọn nhiều mục bằng cách giữ phím Shift hoặc Ctrl khi lựa chọn các mục";
 name_for = "Tên cho ";
 set_name = "Đặt tên";
+/. RX stands for `receive` (incoming/download)
 rx_only = "Chỉ RX";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "Chỉ TX";
-max_of_rx_tx = "Tối đa của RX và TX";
-total_rx_only = "Tốc độ RX tổng";
-total_tx_only = "Tốc độ TX tổng";
+max_of_rx_tx = "Tối đa của RX & TX";
+total_rx_only = "Tổng tốc độ RX";
+total_tx_only = "Tổng tốc độ TX";
 nettalk_rx = "Tốc độ Net Talk RX";
 nettalk_tx = "Tốc độ Net Talk TX";
-nettalk_max_of_rx_tx = "Tối đa. Net Talk RX và TX";
-total_max_of_rx_tx = "Tổng giá trị Tối đa của RX và TX";
-check_if_other_also = "Chọn nếu bạn muốn tất cả lưu lượng khác được tính vào ô này";
+nettalk_max_of_rx_tx = "Tối đa của Net Talk RX và TX";
+total_max_of_rx_tx = "Tối đa của tổng RX và TX";
+check_if_other_also = "Chọn, nếu bạn muốn tất cả lưu lượng khác được tính vào luồng này";
 performance_help = "Để đạt hiệu năng cao, chúng tôi khuyên bạn nên thiết lập cho kết nối sử dụng truy nhập internet là 'Yes' và các kết nối khác là 'No'.";
 loading = "Đang tải...";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
-regid = "không hợp tác";
-regid_help = "Có một máy tính không sử dụng cFos TS trong mạng LAN của bạn";
+regid = "Không phản hồi";
+regid_help = "Có một máy tính không sử dụng cFos TS trong mạng LAN";
 regid_help_long = "Kết nối của bạn dùng chung cùng lúc với một số máy tính khác và có ít nhất một trong số máy tính đó không sử dụng cFos Traffic Shaping.";
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
 net_talk = "Đàm thoại mạng";
 net_talk_help = "Thống kê lưu lượng truyền trong mạng LAN của bạn";
-net_talk_help_long = "Để tăng độ chính xác, hãy gửi thống kê Traffic Shaping tới các máy tính khác trong mạng nội bộ của bạn.";
+net_talk_help_long = "Để tăng độ chính xác, hãy gửi thống kê Tối ưu Băng thông tới các máy tính khác trong mạng nội bộ của bạn. Không gửi qua internet.";
 net_talk_subheader = "Vui lòng chọn nếu tính năng Net_Talk được dùng.";
 
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
 vari_fixed = "Phù hợp cho Ping Jitter";
-vari_fixed_help = "Sử dụng công nghệ tiên tiến lưu lượng định hình để phù hợp với thời gian ping khác nhau";
-vari_fixed_help_long = "Thu thập số liệu thống kê ping để phù hợp với jitter trong thời gian ping; đặc biệt hữu ích cho điện thoại di động/ kết nối không dây. Chúng tôi khuyên bạn nên giữ tùy chọn này kích hoạt cho tất cả các loại kết nối khác.";
+vari_fixed_help = "Sử dụng công nghệ tiên tiến Tối ưu Băng thông để phù hợp với thời gian ping khác nhau";
+vari_fixed_help_long = "Thu thập số liệu thống kê ping để phù hợp với jitter trong thời gian ping; đặc biệt hữu ích cho điện thoại di động/wifi. Đề nghị bạn nên kích hoạt tùy chọn này cho tất cả các loại kết nối khác nhau.";
 
 set = "Đặt";
-tx_limit_help = "Nhập vào tốc độ byte/giây hoặc phần trăm mà chương trình này hoặc giao thức được phép gửi.";
-download_more_skins = "Tải về các giao diện mới";
+tx_limit_help = "Nhập tốc độ bằng byte/giây hoặc phần trăm mà chương trình hoặc giao thức này được phép gửi.";
+download_more_skins = "Tải giao diện mới";
 documentation = "Tài liệu";
 exit_demon = "Thoát";
-speed_test = "cFos kiểm tra tốc độ";
-ask_key_banned_info = "Hiện đã có một vấn đề với key bản quyền của bạn.\nBạn có muốn biết thêm thông tin?";
+speed_test = "cFos Kiểm tra tốc độ";
+ask_key_banned_info = "Có vấn đề với mã giấy phép của bạn.\nBạn có muốn biết thêm thông tin?";
 
-adapter_info = "Bộ chuyển đổi thông tin";
-channel_recommend = "Với việc sử dụng các kênh tần số nhỏ nhất (tốt nhất để kém nhất)";
-channel_explain = "Bạn có thể sử dụng việc sử dụng kênh để cấu hình trạm WLAN của bạn, nhưng hãy cẩn thận rằng việc sử dụng tần số thực tế phụ thuộc vào cách sử dụng cụ thể của các mạng WLAN khác. Một số có thể được nhàn rỗi, một số có thể được sử dụng nhiều.";
+adapter_info = "Thông tin Kết nối";
+channel_recommend = "Sử dụng các kênh với tần số nhỏ nhất (tốt nhất tới xấu nhất)";
+channel_explain = "Bạn có thể dùng kênh sử dụng để cấu hình trạm WLAN của bạn, nhưng hãy cẩn thận vì việc sử dụng tần số thực tế là phụ thuộc vào cách sử dụng cụ thể của các mạng WLAN khác. Một số có thể nhàn rỗi, một số có thể sử dụng rất nhiều.";
 no_adapters = "Thông tin chuyển đổi không có sẵn.";
 wlan_no_service = "Dịch vụ không có sẵn. Hãy cài đặt hoặc bắt đầu mạng LAN không dây API cho Windows (WZC).";
-wlan_no_station = "Không đủ điểm truy cập được tìm thấy.";
-kaspersky_hint = "Kaspersky Internet Security 2010 có thể gây ra vấn đề với %p. Xin vui lòng cập nhật phiên bản mới nhất của Kaspersky Internet Security.";
+wlan_no_station = "Không tìm thấy đủ điểm truy cập.";
+kaspersky_hint = "Kaspersky Internet Security 2010 có thể gây ra vấn đề với %p. Hãy cập nhật phiên bản Kaspersky Internet Security mới nhất.";
 
 console_cancel = "Hủy bỏ";
 console_freeze = "Đóng băng";
 console_continue = "Tiếp tục";
-console_help = "Bạn có thể ưu tiên kết nối cá nhân bằng cách nhấp vào nó trong bảng dưới đây.<br/>Kết nối có dấu (*) là ưu tiên tạm thời.";
+console_help = "Bạn có thể ưu tiên kết nối cá nhân bằng cách bấm vào nó trong bảng dưới đây.<br/>Kết nối có dấu (*) là ưu tiên tạm thời.";
 console_prio = "Ưu tiên kết nối này";
 console_prio_off = "Tắt ưu tiên";
-console_prio_this = "Tạm thời chỉ ưu tiên kết nối này";
+console_prio_this = "Chỉ ưu tiên tạm thời kết nối này";
 console_prio_this_off = "Tắt ưu tiên cho kết nối này";
-console_prio_prot = "Tạm thời ưu tiên giao thức";
+console_prio_prot = "Giao thức ưu tiên tạm thời";
 console_prio_prot_off = "Tắt ưu tiên giao thức tạm thời";
-console_prio_prog = "Tạm thời ưu tiên chương trình";
+console_prio_prog = "Chương trình ưu tiên tạm thời";
 console_prio_prog_off = "Tắt ưu tiên chương trình tạm thời";
-console_prio_prog_prot = "Tạm thời ưu tiên chương trình và giao thức";
-console_prio_prog_prot_off = "Tạm thời tắt ưu tiên chương trình và giao thức";
+console_prio_prog_prot = "Chương trình và giao thức ưu tiên tạm thời";
+console_prio_prog_prot_off = "Tắt ưu tiên chương trình và giao thức tạm thời";
 console_prio_prot_perm = "Ưu tiên giao thức vĩnh viễn";
 console_prio_prog_perm = "Ưu tiên chương trình vĩnh viễn";
 console_prio_advanced = "Ưu tiên nâng cao";
 
 new_version_available = "Phiên bản mới có sẵn";
-update_beta = "Kiểm tra cả phiên bản beta mới";
+update_beta = "Kiểm tra cả phiên bản beta";
 update_skip_version = "Không thông báo cho phiên bản này:";
 check_new_version_now = "Kiểm tra cập nhật bây giờ";
 program_updates = "Cập nhật chương trình";
-no_new_version_available = "Không có sẵn phiên bản mới";
+no_new_version_available = "Phiên bản mới chưa có";
 use_logitech = "Sử dụng màn hình hiển thị Logitech G15/G19/G510";
-detect_logitech = "Phát hiện màn hình hiển thị Logitech";
-logitech_help = "Trợ giúp màn hình hiển thị Logitech";
+detect_logitech = "Phát hiện hiển thị Logitech";
+logitech_help = "Trợ giúp hiển thị Logitech";
 logitech_keyboards = "Bàn phím chơi game Logitech";
 keyboard_leds = "Đèn LED bàn phím";
-keyboard_led_help = "Trợ giúp đèn LED bàn phím";
+keyboard_led_help = "Trợ giúp LED bàn phím";
 only_on_fullscreen = "Chỉ trên toàn màn hình";
 speed_guide = "Hướng dẫn tốc độ";
-lock_position = "Vị trí cửa sổ khóa";
-check_for_news = "Kiểm tra các tin tức";
-rwin_expansion = "Mở rộng RWIN tự động";
-rwin_expansion_help = "Tự động mở rộng cửa sổ tiếp nhận giao thức TCP để tăng tốc độ tải về nếu RWIN được lựa chọn bởi Windows là quá thấp.";
-query_auto_open = "Tự động vô hiệu hoá đóng mở của cửa sổ trạng thái?\nBạn có thể kích hoạt lại nó sau này trong menu ngữ cảnh.";
-preview_skins = "Xem trước giao diện";
+lock_position = "Khóa vị trí cửa sổ";
+check_for_news = "Tin tức mới";
+rwin_expansion = "Tự động mở rộng RWIN";
+rwin_expansion_help = "Tự động mở rộng cửa sổ tiếp nhận giao thức TCP để tăng tốc độ tải về nếu RWIN đã chọn bởi Windows là quá thấp.";
+query_auto_open = "Tắt tự động đóng/mở cửa sổ?\nBạn có thể kích hoạt lại nó sau này trong menu ngữ cảnh.";
+preview_skins = "Xem trước Giao diện";
 enable_smartphone_skins = "Giao diện điện thoại";
-http_access_enabled = "Cho phép truy cập HTTP từ xa";
-http_access_disabled = "Không cho phép truy cập HTTP từ xa";
-set_server_pwd = "Thiết lập mật khẩu máy chủ";
-auto_arrange_top = "Trên cùng";
-auto_arrange_bottom = "Dưới cùng";
+http_access_enabled = "Mật khẩu đã thiết lập, cho phép truy cập HTTP từ xa";
+http_access_disabled = "Chưa thiết lập mật khẩu, không cho phép truy cập HTTP từ xa";
+set_server_pwd = "Đặt mật khẩu máy chủ";
+auto_arrange_top = "Trên";
+auto_arrange_bottom = "Dưới";
 show_on_metro_apps = "Hiển thị trên các ứng dụng Metro";
+traffic_shaping_info = "Thông tin Tối ưu Băng thông";
+wlan_access_point = "Điểm truy cập Wi-Fi";
+prioritize_foreground_process = "Mức ưu tiên tiến trình trong cửa sổ nền";
+prioritize_foreground_help = "Tự động thiết lập mức ưu tiên cao cho tiến trình trong cửa sổ nền.";
 
 
 / ----------------------------------------------------------------------
@@ -26638,7 +26641,7 @@ show_on_metro_apps = "Hiển thị trên các ứng dụng Metro";
 /
 / ----------------------------------------------------------------------
 
-speed_desc = "%p, Tăng tốc kết nối với Internet bằng cách sắp xếp lại đường truyền";
+speed_desc = "%p, truy cập Internet nhanh hơn với Tối ưu Băng thông";
 
 / URLs
 bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
@@ -26646,114 +26649,110 @@ sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
 speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
-install_wizard_name = "Thuật sĩ cài đặt %?";
-uninstall_wizard_name = "Thuật sĩ gỡ bỏ %?";
-brandkey_wizard_name = "%? Thuật sĩ trợ giúp đăng ký";
+install_wizard_name = "%? Thuật sĩ cài đặt";
+uninstall_wizard_name = "%? Thuật sĩ Gỡ bỏ";
+brandkey_wizard_name = "%? Thuật sĩ Đăng kí";
 config_wizard_name = "%p Giao diện thiết lập";
-continue_line = "Để tiếp tục, nhấn nút \"Tiếp\"";
-start_inst = "Để bắt đầu cài đặt, chọn Tiếp.";
-click_next_further_info = "Nhấn Next để biết thêm thông tin.";
-wizard_lang_line = "Chọn ngôn ngữ";
+continue_line = "Để tiếp tục, bấm 'Next'";
+start_inst = "Để bắt đầu cài đặt, bấm 'Next'.";
+click_next_further_info = "Bấm 'Next' để biết thêm thông tin.";
+wizard_lang_line = "Thuật sĩ này bằng ngôn ngữ:";
 
 / welcome page
-welcome_line = "Chào mừng đến với %? v%?!";
+welcome_line = "Chào mừng tới %? v%?!";
 welcome_info = "Thuật sĩ này sẽ hướng dẫn bạn cài đặt %? v%?.";
 welcome_found = "Đã tồn tại một phiên bản của %? v%? trên hệ thống của bạn.";
-welcome_found_dir = "Đã tồn tại một phiên bản của %? v%2 trên hệ thống của bạn ở thư mục %3.";
+welcome_found_dir = "Đã tồn tại một phiên bản của %1 v%2 trên hệ thống của bạn ở thư mục %3.";
 welcome_found_unknown = "Đã tồn tại một phiên bản của %? trên hệ thống của bạn ở thư mục %3.";
 welcome_found_modified = "Mộ sự thay đổi hoặc hoàn thành cài đặt %1 v%2 đã có ở thư mục %3.";
-welcome_update = "Để lặp lại phiên bản đã có, nhấn nút Tiếp.";
+welcome_update = "Để thay thế phiên bản đã có, bấm 'Next'.";
 welcome_admin = "Bạn không có quyền quản trị hệ thống. Để chạy thuật sĩ bạn cần đăng nhập bằng tài khoản quản trị.";
 welcome_lang_syslink = "<a href=\"%?\">Thêm ngôn ngữ</a>";
 welcome_oem_info = "%1 là một phiên bản OEM của %p cho %2. Do đó, %p chứa tất cả tính năng của %1 và hơn nữa.";
 
 / uninstall welcome page
 ui_welcome_line = "Gỡ bỏ %? v%?.";
-ui_welcome_info = "Nếu bạn thật sự muốn gỡ bỏ %1 v%2 từ thư mục %3 và gỡ bỏ tất cả các thành phần trong nó chọn nút Next.";
+ui_welcome_info = "Nếu bạn thật sự muốn gỡ bỏ %1 v%2 từ thư mục %3 và tất cả các thành phần của nó, bấm 'Next'.";
 
 / brand key welcome page
-bk_welcome_line = "%? Đăng ký.";
-bk_welcome_info = "Thuật sĩ sẽ hướng dẫn bạn đăng ký %?.";
-bk_welcome_found = "Đã có một khóa đăng ksy ở thư mục này %?.";
-bk_welcome_update = "Để lập lại tập tin đã có nhấn nút \"Tiếp\"";
+bk_welcome_line = "%? Đăng kí.";
+bk_welcome_info = "Thuật sĩ sẽ hướng dẫn bạn đăng kí %?.";
+bk_welcome_found = "Đã có một khóa đăng kí ở thư mục đích %?.";
+bk_welcome_update = "Để thay thế tập tin đã có, bấm 'Next'";
 
 / license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
-lic_header = "Chấp nhận điều khoản";
-lic_subheader = "Bạn nên chấp nhận các điều khoản để tiếp tục.";
-lic_info = "Nếu bạn chấp thuận các điều khoản, đánh dấu kiểm vào mục 'Tôi đồng ý' và chọn nút \"Tiếp\", còn không chọn Hủy bỏ.";
-lic_agree = "Tôi đồng ý.";
+lic_header = "Giấy phép Thỏa thuận";
+lic_subheader = "Bạn cần chấp nhận giấy phép thỏa thuận để tiếp tục.";
+lic_info = "Nếu bạn chấp nhận giấy phép thỏa thuận, chọn 'Tôi đồng ý' rồi bấm 'Next', còn không thì bấm 'Cancel'.";
+lic_agree = "Tôi đồng ý.";
 
 / restore point dialog
-rp_header = "Phục hồi hệ thống";
+rp_header = "Điểm Khôi phục hệ thống";
 rp_subheader = "Đã đặt điểm phục hồi hệ thống để bạn có thể phục hồi lại hệ thống ở tình trạng trước đó.";
-rp_info = "Đã đặt một điểm để bạn có thể phục hồi lại hệ thống. Nên làm như vậy nếu bạn cài đặt trình điều khiển mới.";
-rp_check = "Đặt điểm để phục hồi lại.";
+rp_info = "Đã thiết lập 1 điểm để bạn có thể phục hồi lại hệ thống. Nên làm như vậy nếu bạn cài đặt trình điều khiển mới.";
+rp_check = "Thiết lập điểm khôi phục hệ thống.";
 / %1 = product name
-rp_uninst_info = "Điểm phục hồi hệ thống là không đặt giữa chế độ bình thường và chế độ gỡ cài đặt %1. Nó là điều kiện tốt để phòng ngừa rằng bạn có thể trở về lại trước nếu có xung đột về trình điều khiển. Việc gỡ bỏ %1 có thể chọn ở trình đơn Start ở thư mục %1 hoặc ở Control Panel.";
+rp_uninst_info = "Điểm phục hồi hệ thống là không đặt giữa chế độ bình thường và chế độ gỡ bỏ cài đặt %1. Nó là điều kiện tốt để phòng ngừa rằng bạn có thể trở về lại trước nếu có xung đột về trình điều khiển. Việc gỡ bỏ %1 có thể chọn ở Menu Start ở thư mục %1 hoặc ở Control Panel.";
 
 / password dialog
 pwd_header = "Mật khẩu.";
-pwd_subheader = "Mỗi khóa yêu cầu mỗi mật khẩu.";
-pwd_reg_to = "%p được đăng ký cho:";
-pwd_password_info = "Xin vui lòng nhập mật khẩu cho khóa theo định dạng xxxx-xxxx-xxxx-xxxx.";
+pwd_subheader = "Mỗi mã yêu cầu mỗi mật khẩu.";
+pwd_reg_to = "%p được đăng kí cho:";
+pwd_password_info = "Xin vui lòng nhập mật khẩu cho mã theo định dạng xxxx-xxxx-xxxx-xxxx.";
 pwd_password = "Mật khẩu:";
 pwd_invalid_password = "Sai mật khẩu. Vui lòng kiểm tra và thử lại.";
-pwd_activate_info = "Bạn phải kết nối vào mạng để kích hoạt tập tin đăng ký trên máy chủ chúng tôi.";
-pwd_activate_failed = "Kích hoạt tập tin đăng ký thất bại!";
-pwd_activate_failed_code = "Mã kích hoạt thất bại: lỗi %?.";
+pwd_activate_info = "Bạn phải kết nối mạng để kích hoạt tập tin đăng kí trên máy chủ.";
+pwd_activate_failed = "Kích hoạt mã đăng kí thất bại!";
+pwd_activate_failed_code = "Kích hoạt mã đăng kí thất bại: lỗi %?.";
 
 / serial number dialog
 sn_header = "Số Serial.";
-sn_subheader = "Nhập số serial và kích hoạt bản quyền.";
-sn_info = "Nếu bạn có một mật khẩu gồm 16 chữ số dạng xxxx-xxxx-xxxx-xxxx, xin vui lòng "
-   "thoát khỏi hộp thoại này và nhấn đúp chuột vào tập tin bản quyền của bạn. "
-   "Một cửa sổ sẽ xuất hiện, sau đó bạn nhập mật khẩu của bạn vào.\n\n"
-   "Nếu bạn có một số serial gồm 30 chữ số dạng xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, xin vui lòng "
-   "nhập nó vào và kích hoạt key bản quyền của bạn.\n\n";
+sn_subheader = "Nhập số serial và kích hoạt giấy phép.";
+sn_info = "Nếu bạn có một mật khẩu gồm 16 chữ số dạng xxxx-xxxx-xxxx-xxxx, hãy thoát khỏi hộp thoại này và bấm đúp chuột vào tập tin giấy phép của bạn. Một cửa sổ sẽ xuất hiện, sau đó bạn nhập mật khẩu của bạn vào.\n\nNếu bạn có một số serial gồm 30 chữ số dạng xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, hãy nhập nó vào và kích hoạt mã giấy phép của bạn.\n\n";
 sn_serial_number = "Số Serial:";
 sn_invalid_serial_number = "Số serial không hợp lệ. Vui lòng kiểm tra lại.";
 / the %? will be replaced by the error number:
-sn_download_err = "Lỗi %? tải về tập tin bản quyền từ máy chủ của chúng tôi.";
-sn_save_err = "Tập tin bản quyền không thể lưu tại %?.";
-sn_keyfile_err = "Tập tin bản quyền bị hỏng.";
+sn_download_err = "Lỗi %? tải về tập tin mã giấy phép từ máy chủ.";
+sn_save_err = "Tập tin giấy phép không thể lưu tại %?.";
+sn_keyfile_err = "Tập tin giấy phép bị hỏng.";
 
 / new 16 digit serial number dialog
-sn16_info = "Vui lòng nhập số serial gồm 16 chữ số của bạn vào để nhận được key bản quyền. Lưu ý: Máy tính của bạn phải được kết nối với Internet.";
-sn16_failed = "Lỗi!";
+sn16_info = "Vui lòng nhập số serial gồm 16 chữ số của bạn để nhận mã giấy phép. Lưu ý: Máy tính của bạn phải được kết nối với Internet.";
+sn16_failed = "Lấy mã giấy phép thất bại!";
 
 / re-enter password dialog
 repwd_header = "%? mật khẩu.";
-repwd_subheader = "Cần nhập lại mật khẩu để đăng ký.";
-repwd_reg_to = "Trong suốt quá trình thay đổi cấu hình ở hệ thống của bạn cần nhập lại mật khẩu sau %p để đăng ký: ";
+repwd_subheader = "Cần nhập lại mật khẩu để đăng kí.";
+repwd_reg_to = "Trong suốt tiến trình thay đổi cấu hình ở hệ thống của bạn cần nhập lại mật khẩu để đăng kí %p: ";
 
 / installation directory dialog
 instdir_header = "Thư mục cài đặt";
-instdir_subheader = "Thư mục cài đặt chính xác sẽ chép các tập tin tới ổ đĩa cứng của bạn.";
-instdir_info = "Thư mục cài đặt đặc biệt.";
+instdir_subheader = "Chọn thư mục cài đặt để chép các tập tin.";
+instdir_info = "Chọn 1 thư mục cài đặt.";
 instdir_change = "Thay đổi";
 instdir_src_dst = "Thư mục nguồn và đích phải khác nhau!";
-instdir_space = "Quá trình cài đặt yêu cầu %u bytes dung lượng trống. Ở đây chỉ có %u bytes trống ở thư mục cài đặt đã chọn.";
-instdir_drivetype = "Ổ đĩa được chọn không đúng. %? có thể cài đặt trên ổ đĩa khác.";
+instdir_space = "Tiến trình cài đặt yêu cầu %u bytes dung lượng trống. Ở đây chỉ còn %u bytes trống trong thư mục cài đặt đã chọn.";
+instdir_drivetype = "Ổ đĩa được chọn không hợp lệ. %? chỉ có thể được cài đặt trên ổ đĩa đã sửa lỗi.";
 instdir_system = "Thư mục cài đặt phải nằm trong ổ đĩa hệ thống '%?'.";
-instdir_system_recommended = "Bạn nên chọn một thư mục cài đặt trên ổ đĩa hệ thống '%?'. (Nhấn Next để tiếp tục.)";
+instdir_system_recommended = "Đề nghị bạn chọn một thư mục cài đặt trên ổ đĩa hệ thống '%?'. (Bấm 'Next' để tiếp tục.)";
 
 / tcp settings dialog
-tcp_header = "Điều chỉnh TCP.";
-tcp_subheader = "Độ lớn băng thông nhận của TCP (Phương thức điều khiển tín hiệu đường truyền) nên được điều chỉnh để tín hiệu đường truyền đạt mức độ tốt nhất.";
-tcp_info = "Giao thức TCP điều khiển dữ liệu đến. Nó sẽ lưu ở registry và hiện tại không tinh chỉnh giá trị.\n\nNên dùng thuật sĩ để điều chỉnh giá trị cao nhất cho dữ liệu được truyền qua. (Các thay đổi sẽ được áp dụng sau khi khởi động hệ thống.)";
-tcp_check = "Tinh chỉnh TCP. (nên dùng)";
+tcp_header = "Điều chỉnh kích thước cửa sổ TCP.";
+tcp_subheader = "Kích thước cửa sổ TCP (Transmission Control Protocol) cần được điều chỉnh để tối ưu dữ liệu truyền qua.";
+tcp_info = "Kích thước cửa sổ TCP kiểm soát dữ liệu đến. Nó sẽ lưu ở registry và hiện tại không tối ưu giá trị.\n\nĐề nghị dùng thuật sĩ để điều chỉnh giá trị cao nhất cho dữ liệu truyền qua. (Các thay đổi sẽ được áp dụng sau khi khởi động lại hệ thống.)";
+tcp_check = "Tối ưu kích thước cửa sổ TCP (đề nghị)";
 
 / hang up online connection dialog
-hangup_header = "Kết nối trực tuyến";
-hangup_subheader = "Nên bỏ các kết nối trực tuyến.";
-hangup_online = "Bạn đang trực tuyến với những kết nối sau:";
-hangup_offline = "Kết nối đã được hủy bỏ.";
-hangup_info = "Để tiếp tục thuật sĩ này, nên bỏ cac kết nối trực tuyến.\n\nĐể bỏ kết nối này ngay bây giờ, chọn Bỏ kết nối.";
-hangup_disco = "Bỏ kết nối";
+hangup_header = "Kết nối quay số";
+hangup_subheader = "Các kết nối quay số cần được ngắt.";
+hangup_online = "Bạn đang trực tuyến với các kết nối sau:";
+hangup_offline = "Kết nối đã được ngắt.";
+hangup_info = "Để tiếp tục thuật sĩ này, nên ngắt các kết nối quay số.\n\nĐể ngắt kết nối này ngay bây giờ, chọn Ngắt kết nối.";
+hangup_disco = "Ngắt kết nối";
 
 / usage statistics
 usage_stats = "Thống kê sử dụng";
-usage_stats_subheader = "Chọn cách %p xử lý thống kê sử dụng.";
+usage_stats_subheader = "Chọn cách %p xử lí thống kê sử dụng.";
 usage_stats_chk = "Gửi thống kê sử dụng ở chế độ ẩn danh cho cFos để cải thiện hiệu suất sản phẩm.";
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
@@ -26766,11 +26765,11 @@ port_forwarding_fritz = "Kích hoạt cổng chuyển tiếp trong FRITZ!Box c�
 
 / crash handler messages
 crash_msg_crash = "Một sự cố đã xảy ra trong %p.";
-crash_msg_crash_installer = "Một sự cố đã xảy ra trong p% cài đặt chương trình.";
-crash_msg_virus = "Các mô-đun sau đây đã tự gắn chính nó vào chương trình này và có thể là một nguyên nhân của sự cố:";
-crash_msg_virus_clean = "Mô-đun này có thể là một virus. Xin hãy quét virus trên hệ thống của bạn.";
-crash_msg_hook = "Mô-đun của các chương trình khác đã được phát hiện và nó tự gắn mình vào chương trình này. Để đảm bảo rằng các mô-đun không phải là nguyên nhân của sự cố, hãy chạy chương trình này một lần nữa sau khi diệt hoặc gỡ bỏ cài đặt các chương trình sau:";
-crash_msg_terminate = "Chương trình này kết thúc ngay bây giờ.";
+crash_msg_crash_installer = "Một sự cố đã xảy ra trong khi cài đặt chương trình p%.";
+crash_msg_virus = "Các thành phần sau đây đã tự gắn vào chương trình này và có thể là nguyên nhân của sự cố:";
+crash_msg_virus_clean = "Thành phần này có thể là một virus. Hãy quét virus trên hệ thống của bạn.";
+crash_msg_hook = "Tìm thấy các thành phần của các chương trình khác và nó tự gắn vào chương trình này. Để đảm bảo rằng các thành phần này không phải là nguyên nhân của sự cố, hãy chạy chương trình này một lần nữa sau khi tắt hoặc gỡ bỏ các chương trình sau:";
+crash_msg_terminate = "Kết thúc chương trình bây giờ.";
 crash_msg_query_upload = "Bạn có muốn gửi thông tin sự cố này cho cFos, nó sẽ giúp chúng tôi phân tích lỗi?";
 
 /start installation dialog
@@ -26780,67 +26779,66 @@ start_installation = "Bắt đầu cài đặt bây giờ.";
 
 / progress dialog
 progress_inst_header = "Cài đặt";
-progress_inst_subheader = "Quá trình cài đặt đang được xử lý.";
-progress_inst_wait = "Xin vui lòng đợi cho đến khi kết thúc cài đặt.";
+progress_inst_subheader = "Tiến trình cài đặt đang được thực hiện.";
+progress_inst_wait = "Xin chờ cho đến khi hoàn tất cài đặt.";
 progress_uninst_header = "Gỡ bỏ";
-progress_uninst_subheader = "Quá trình gỡ bỏ đang được xử lý.";
-progress_uninst_wait = "Xin vui lòng đợi cho đến khi kết thúc việc gỡ bỏ.";
-progress_driver_wait = "Xin vui lòng đợi trong khi hệ thống cài đặt (gỡ bỏ) trình điều khiển. Nó có thể thực hiện trong vài phút.";
+progress_uninst_subheader = "Tiến trình gỡ bỏ đang được thực hiện.";
+progress_uninst_wait = "Xin chờ cho đến khi hoàn tất gỡ bỏ.";
+progress_driver_wait = "Xin chờ trong khi hệ thống cài đặt/gỡ bỏ trình điều khiển. Có thể mất vài phút.";
 
 / confirm delete dialog
 conf_del_header = "Xóa tập tin cấu hình";
 conf_del_subheader = "Bạn nên xác nhận lại việc xóa các tập tin cài đặt cấu hình hoặc nói cách khác là kiểm tra thông tin cá nhân của chúng.";
-conf_del_info = "Các tập tin và thư mục cấu hình sau được tạo ra bởi %p và chưa được xóa:";
+conf_del_info = "Các tập tin và thư mục cấu hình ở dưới được tạo ra bởi %p và chưa được xóa:";
 conf_del_column = "Tên tập tin";
-conf_del_query = "Nếu bạn muốn xóa một vài tập tin này, bạn nên kiểm tra chúng từng tập tin một. Sau đó chọn nút \"Tiếp\".";
+conf_del_query = "Nếu bạn muốn xóa các thư mục và tập tin này, bạn nên kiểm tra chúng kỹ lưỡng. Sau khi chọn, bấm 'Next'.";
 
 / finish page
 finish_head_ok = "Cài đặt thành công.";
 finish_info_ok = "%? đã cài đặt thành công trên máy tính của bạn.";
 finish_head_fail = "Cài đặt thất bại.";
-finish_info_fail = "Quá trình cài đặt đã thất bại vì những lý do sau:";
-finish_reboot = "Nên khởi động lại hệ thống! Chọn Kết thúc để khởi động lại ngay bây giờ hoặc Hủy bỏ để khởi động lại sau.";
-finish_uninst_driver_reboot = "Để hoàn thành quá trình gỡ bỏ, bạn phải khởi động lại hệ thống. "
-                             "Vì vậy, hãy khởi động lại hệ thống của bạn và sau đó chạy lại chương trình cài đặt một lần nữa.";
+finish_info_fail = "Tiến trình cài đặt đã thất bại vì những lí do sau:";
+finish_reboot = "Cần khởi động lại hệ thống! Bấm 'Finish' để khởi động lại ngay hoặc 'Cancel' để khởi động lại sau.";
+finish_uninst_driver_reboot = "Để hoàn tất tiến trình gỡ bỏ, bạn cần khởi động lại hệ thống. Hãy khởi động lại hệ thống và sau đó chạy lại chương trình cài đặt một lần nữa.";
 finish_link_ok = "<a href=\"%?\">%? đặc trưng!</a>";
-finish_file_fail = "Xem tập tin nhật ký hệ thống %s cho thông tin further information.";
-finish_file_link_fail = "Xem <a href=\"file://%s\">nhật ký hệ thống</a> cho thông tin further information.";
-finish_cfosts_disabled = "Chức năng Phân loại dữ liệu đã bị tắt khi bạn chạy cFos, bởi vì %p đã có chức năng này. (Bạn có thể bật lại chức năng Phân loại dữ liệu ở trình đơn cấu hình của cFos.)";
-finish_cfosts_enabled = "Chức năng Phân loại dữ liệu đã bật khi bạn chạy cFos.";
-finish_link_checkbox = "Hiển thị các tính năng mới nhất của %p";
+finish_file_fail = "Xem tập tin ghi chép %s để biết thêm thông tin.";
+finish_file_link_fail = "Xem <a href=\"file://%s\">tập tin ghi chép</a> để biết thêm thông tin.";
+finish_cfosts_disabled = "Chức năng Tối ưu Băng thông đã bị tắt khi bạn chạy cFos, bởi vì %p đã có chức năng này. (Bạn có thể bật lại chức năng Tối ưu Băng thông ở menu cấu hình của cFos.)";
+finish_cfosts_enabled = "Chức năng Tối ưu Băng thông đã bật khi bạn chạy cFos.";
+finish_link_checkbox = "Hiển thị các chức năng mới nhất của %p";
 
 / uninstall finish page
 ui_finish_head_ok = "Gỡ bỏ thành công.";
-ui_finish_info_ok = "%? đã gở bỏ thành công từ máy tính của bạn.";
+ui_finish_info_ok = "%? đã gở bỏ thành công khỏi máy tính của bạn.";
 ui_finish_head_fail = "Gỡ bỏ thất bại.";
-ui_finish_info_fail = "%? có thể không được gỡ bỏ khỏi máy tính của bạn vì những lý do sau:";
-ui_finish_not_removed = "Các tập tin sau chỉ được gỡ bỏ cho đến khi khởi động lại hệ thống: ";
+ui_finish_info_fail = "%? không thể gỡ bỏ khỏi máy tính của bạn vì lí do sau:";
+ui_finish_not_removed = "Các tập tin sau chỉ được gỡ bỏ sau khi khởi động lại hệ thống: ";
 
 / brandkey finish page
-bk_finish_head_ok = "Hoàn thành đăng ký.";
-bk_finish_info_ok = "%? đã đăng ký cho:";
-bk_finish_head_fail = "Đăng ký thất bại.";
-bk_finish_info_fail = "Quá trình đăng ký đã thất bại vì có lỗi sau:";
+bk_finish_head_ok = "Đăng kí hoàn tất.";
+bk_finish_info_ok = "%? đã đăng kí cho:";
+bk_finish_head_fail = "Đăng kí thất bại.";
+bk_finish_info_fail = "Đăng kí thất bại vì lỗi sau:";
 
 / progress tasks
-task_register_email = "Đang đăng kí địa chỉ email...";
-task_restore_point = "Đặt điểm phục hồi hệ thống...";
-task_copy = "Đang sao chép tập tin...";
+task_register_email = "Đăng kí địa chỉ email...";
+task_restore_point = "Tạo điểm phục hồi hệ thống...";
+task_copy = "Sao chép các tập tin...";
 task_desktop_link = "Tạo lối tắt...";
 task_program_group = "Tạo nhóm chương trình...";
-task_registry = "Tạo các đầu mục registry...";
+task_registry = "Tạo các mục registry...";
 task_driver = "Cài đặt trình điều khiển...";
 task_service = "Đang cài đặt dịch vụ ...";
-task_daemon = "Đang bắt đầu %?...";
+task_daemon = "Bắt đầu %?...";
 task_uninstall_old = "Đang gỡ bỏ phiên bản đang có...";
-task_stop_daemon = "Ngưng %?...";
+task_stop_daemon = "Dừng %?...";
 task_uninstall_driver = "Gỡ bỏ trình điều khiển...";
 task_uninstall_service = "Đang gỡ cài đặt dịch vụ  ...";
-task_uninstall_ga = "Đang gỡ cài đặt cFos Game Analyzer...";
-task_delete_files = "Đang xóa các tập tin...";
-task_cleanup_caches = "Đang dọn dẹp bộ nhớ cache...";
-task_hangup = "Đang hủy bỏ các kết nối trực tuyến...";
-task_flush_registry = "Lưu registry tới đĩa...";
+task_uninstall_ga = "Gỡ bỏ cFos Game Analyzer...";
+task_delete_files = "Xóa các tập tin...";
+task_cleanup_caches = "Xóa bộ nhớ tạm...";
+task_hangup = "Ngắt các kết nối trực tuyến...";
+task_flush_registry = "Lưu registry...";
 task_cancel = "Đang hủy bỏ...";
 task_canceled = "Đã hủy bỏ!";
 
@@ -26852,24 +26850,24 @@ task_test_public_ip = "Đang kiểm tra địa chỉ IP công cộng...";
 task_test_finished = "Kiểm tra kết thúc.";
 
 / program group
-speed_pg_name = "Sắp xếp lại đường truyền của %?";
+speed_pg_name = "%p Tối ưu Băng thông";
 pg_uninstall = "Gỡ bỏ %?";
 pg_www = "www.cfos.de";
-pg_console = "%p console";
+pg_console = "Lệnh cmd %p";
 pg_start = "Khởi động cửa sổ trạng thái %p";
-pg_menu = "%? trình đơn";
+pg_menu = "%? Menu";
 pg_add_connection = "Thêm kết nối";
 pg_enter_serial_number = "Nhập số serial";
 pg_configure = "Cấu hình %p";
 
 / desktop symbol
-dt_advertise = "%? Đặc trưng";
-dt_advertise_desc = "Danh sách các đặc trưng của %?.";
+dt_advertise = "%? Thông tin";
+dt_advertise_desc = "Danh sách các chức năng của %?.";
 
 / message boxes
-query_reboot = "Nên khởi động lại hệ thống để thay đổi có hiệu lực.\n\nKhởi động lại ngay bây giờ?";
-query_drv_inst_cancel = "Trình điều khiển được cài đặt (gỡ bỏ) là được thực hiện bởi hệ điều hành.\nGiao diện cài đặt của Windows có thể yêu cầu tới 15 phút để \nđăng ký hoặc bỏ đăng ký một trình điều khiển!\n\nNó là điều chắc chắn nên hủy bỏ tiến trình này trừ phi \nbạn đã sẳn sàng đợi.\n\nBạn thực sự muốn hủy bỏ?";
-query_driver_err_abort = "Có một lỗi trong quá trình cài đặt trình điều khiển thiết bị!\nVì thế bạn nên bỏ cài đặt ngay bây giờ.\n\nDù nếu tiếp tục cài đặt,\ncó nghĩa là nó sẽ cẩn thận kiểm tra lại. Vui lòng giữ lại\nsự lưu ý này vì %p sẽ có thể không thực thi đúng.\n\nBỏ cài đặt? (nên dùng)";
+query_reboot = "Cần khởi động lại hệ thống để thay đổi có hiệu lực.\n\nKhởi động lại bây giờ?";
+query_drv_inst_cancel = "Trình điều khiển cài đặt/gỡ bỏ được thực hiện bởi hệ điều hành.\nHộp thoại cài đặt có thể cần tới 15 phút để \nđăng kí hoặc hủy đăng kí một trình điều khiển!\n\nĐề nghị bạn nên hủy bỏ tiến trình này trừ khi\nbạn sẵn sàng đợi.\n\nBạn có muốn hủy bỏ?";
+query_driver_err_abort = "Có lỗi trong tiến trình cài đặt trình điều khiển thiết bị!\nĐề nghị bạn hủy bỏ cài đặt ngay bây giờ.\n\nVì nếu tiếp tục cài đặt,\nnó sẽ cẩn thận kiểm tra lại. Xin lưu ý\nlà %p có thể không thực thi đúng.\n\nHủy bỏ cài đặt? (đề nghị)";
 query_further_info = "Bạn muốn biết thêm thông tin?";
 
 / error messages
@@ -26877,21 +26875,21 @@ err_driver_inst = "Cài đặt trình điều khiển thất bại.";
 err_service_inst = "Cài đặt dịch vụ thất bại.";
 err_service_uninst = "Gỡ bỏ dịch vụ thất bại.";
 err_daemon_start = "Không thể bắt đầu %?.";
-err_uninst_old = "Phiên bản hiện tại không thể gở bỏ. Vui lòng đăng xuất từ hệ thống và sau đó đăng nhập để thử lại.";
+err_uninst_old = "Phiên bản hiện tại không thể gỡ bỏ. Vui lòng đăng xuất khỏi hệ thống và sau đó đăng nhập để thử lại.";
 err_os = "Hệ điều hành của bạn là %?.\n\n%? yêu cầu 2000/XP hoặc cao hơn để thực thi.";
 err_os_minxp = "Hệ điều hành của bạn là %?.\n\n%? yêu cầu XP hoặc cao hơn để thực thi.";
 err_os_sup = "%p hỗ trợ chính thức duy nhất %? hoặc cao hơn.\n\n"
              "Nó là có thể hoạt động tuy nhiên chưa được chúng tôi thử nghiệm, nhưng %p cũng chạy trên hệ điều hành của bạn %?.\n\n"
              "Bạn có muốn tiếp tục cài đặt?";
-err_uninst_driver = "Không thể gở bỏ trình điều khiển thiết bị.";
-err_create_process = "Lỗi khi đang gọi %s: %s";
-err_write_lock = "%? các thành phần mạng đang được dùng bở các tiến trình khác. Vui lòng thoát các ứng dụng đang chạy hoặc khởi động lại hệ thống và thử lại.";
-err_file_auth = "Một vài tập tin bị thay đổi hoặc bị thiếu.\nVui lòng lấy một xác thực cấp phép %p\n(Ví dụ từ www.cfos.de).";
-err_cancel = "Hoạt động đã bị hủy bỏ.";
+err_uninst_driver = "Không thể gỡ bỏ trình điều khiển thiết bị.";
+err_create_process = "Lỗi bắt đầu %s: %s";
+err_write_lock = "%? các thành phần mạng đang được dùng bởi các tiến trình khác. Vui lòng thoát các ứng dụng đang chạy hoặc khởi động lại hệ thống và thử lại.";
+err_file_auth = "Một vài tập tin bị lỗi hoặc mất.\nVui lòng lấy một xác thực cấp phép %p\n(Ví dụ từ www.cfos.de).";
+err_cancel = "Tác vụ đã bị hủy bỏ.";
 err_no32 = "Không thể cài đặt trình điều khiển 32-bit trên hệ thống 64-bit.\n\nHệ điều hành: %?\nSản phẩm: %?";
-err_bad_keyfile = "Tập tin đăng ký bị hư hoặc không phù hợp. Hãy liên hệ với chúng tôi để nhận tập tin phù hợp.";
+err_bad_keyfile = "Tập tin đăng kí bị hỏng hoặc không phù hợp. Hãy liên hệ với chúng tôi để nhận tập tin phù hợp.";
 err_bad_setup = "%p không được cài đặt đúng cách hoặc một số tập tin đã bị thay đổi. Hãy cài đặt lại một bản mởi của %p và thử lại.";
-err_bad_signature = "Mật khẩu đã sai hoặc dành cho tập tin đăng ký khác. Hãy điền vào mật khẩu chính xác cho tập tin đăng ký này.";
+err_bad_signature = "Mật khẩu không đúng hoặc dành cho tập tin đăng kí khác. Hãy điền vào mật khẩu chính xác cho tập tin đăng kí này.";
 err_gdiplus =
   "Không tìm thấy thư viện GDI+!\n\n"
   "Quá trình cài đặt này chỉ có thể tiếp tục nếu đã cài thư viện GDI+.\n"
@@ -26902,42 +26900,19 @@ err_gdiplus =
   "thư mục Windows\\system32.\n\n"
   "Nhấn 'OK' để mở trang tải về tương ứng của Microsoft.\n"
   "Nhấn 'Cancel' để bỏ qua cài đặt.";
-err_winhttp =
-  "Không tìm thấy thư viện WinHTTP!\n\n"
-  "Quá trình cài đặt này chỉ có thể tiếp tục nếu đã cài thư viện WinHTTP.\n"
-  "Thư viện WinHTTP đáng lẽ phải có trong hệ thống của bạn, nhưng nó\n"
-  "không thể tải được.";
-bad_manufacturer = "Cài đặt không thể bắt đầu, bởi vì sản phẩm chỉ được phép sử dụng được cho những phần cứng được chọn!";
+err_winhttp = "Không tìm thấy thư viện WinHTTP!\n\nTiến trình cài đặt này chỉ có thể tiếp tục nếu đã cài thư viện WinHTTP.\nThư viện WinHTTP đáng lẽ phải có trong hệ thống của bạn, nhưng nó\nkhông thể tải được.";
+bad_manufacturer = "Cài đặt không thể bắt đầu, vì sản phẩm chỉ được cấp phép sử dụng được cho phần cứng tương ứng!";
 cannot_install = "Không thể cài đặt";
-err_uninst_daemon =
-   "Không thể tháo gỡ chương trình chính. "
-   "Nếu vẫn còn %p hộp thoại nào đang mở, vui lòng đóng chúng trước. "
-   "Nếu không hãy khởi động lại máy tính của bạn.";
-err_activate_10045 =
-   "Lỗi HTTP 10045 đã xảy ra trong quá trình kích hoạt.\n"
-   "Một lý do có thể là Winsock của bạn bị hỏng.\n"
-   "Để thiết lập lại Winsock của bạn hãy mở Command Prompt\n"
-   "và nhập vào 'netsh winsock reset'.\n"
-   "Sau đó khởi động lại máy tính của bạn và thử lại\n"
-   "một lần nữa.";
-err_activate_12002 =
-   "Lỗi HTTP 12002 (yêu cầu thời gian chờ) đã xảy ra trong suốt\n"
-   "quá trình cài đặt. Một lý do có thể do kết nối đến máy chủ của chúng tôi\n"
-   "cần thiết cho việc đăng ký đang bị chặn bởi tường lửa, phần mềm chống virus\n"
-   "hoặc các loại khác của phần mềm bảo mật. Nếu bạn có bất kỳ\n"
-   "chương trình cài đặt nào đang hoạt động, hãy tạm thời tắt chúng và thử lại việc đăng ký.";
+err_uninst_daemon = "Không thể gỡ bỏ chương trình chính. Nếu vẫn còn %p hộp thoại nào đang mở, vui lòng đóng chúng trước. Nếu không hãy khởi động lại máy tính của bạn.";
+err_activate_10045 = "Lỗi HTTP 10045 đã xảy ra trong tiến trình kích hoạt.\nMột lí do có thể là Winsock của bạn bị hỏng.\nĐể thiết lập lại Winsock của bạn hãy mở Command Prompt\nvà nhập lệnh 'netsh winsock reset'.\nSau đó khởi động lại máy tính của bạn và thử lại\nmột lần nữa.";
+err_activate_12002 = "Lỗi HTTP 12002 (yêu cầu thời gian chờ) đã xảy ra trong suốt\ntiến trình cài đặt. Một lí do có thể do kết nối đến máy chủ của chúng tôi\ncần thiết cho việc đăng kí đang bị chặn bởi tường lửa, phần mềm chống virus\nhoặc các loại khác của phần mềm bảo mật. Nếu bạn có bất kỳ\nchương trình cài đặt nào đang hoạt động, hãy tạm thời tắt chúng và thử lại việc đăng kí.";
 / %1 = source, %2 = destination, %3 = explanation
-err_copy_from_to = "Lỗi trong khi sao chép tập tin %1 tới %2 (%3).";
+err_copy_from_to = "Lỗi sao chép tập tin %1 tới %2 (%3).";
 err_port_in_use = "Cổng kết nối của máy chủ %? đã được sử dụng bởi một chương trình khác.\n\nChương trình: %?\nĐường dẫn: %?";
 
 / warning messages
-wrn_oem_update = "Bạn đã có một bản quyền %p được cài.\n\n"
-  "Bạn sắp cài đặt phần mềm chia sẻ bình thường. Nếu bạn tiếp tục\n"
-  "với cài đặt này thì bản quyền của bạn sẽ không hoạt động.\n"
-  "Bản cập nhật cho %p có bản quyền của bạn có thể tìm thấy tại chỗ\n"
-  "bạn mua nó ban đầu.\n\n"
-  "Bạn vẫn muốn tiếp tục cài đặt này?";
-wrn_close_application = "Khuyến cáo: Đóng các ứng dụng sau trước khi tiếp tục:";
+wrn_oem_update = "Bạn đã có một giấy phép %p được cài.\n\nBạn sắp cài đặt phần mềm phiên bản dùng thử. Nếu bạn tiếp tục\nvới cài đặt này, giấy phép của bạn sẽ không hoạt động.\nBản cập nhật cho %p với giấy phép của bạn có thể tìm thấy\ntại nơi bạn mua nó ban đầu.\n\nBạn vẫn muốn tiếp tục cài đặt?";
+wrn_close_application = "Đề nghị đóng các ứng dụng ở dưới trước khi tiếp tục:";
 
 / traffic shaping algorithm
 tsa_header = "Chế độ Traffic Shaping (Phiên bản nhiều người sử dụng)";
@@ -26947,7 +26922,7 @@ tsa_info = "Hãy chọn biểu hiện mặc định của thuật toán Traffic 
 / vista warning
 vista_header = "Ghi chú cài đặt";
 vista_subheader = "Ghi chú về việc cài đặt driver trong Windows Vista.";
-vista_warn_info = "%p đã có chữ ký điện tử xác nhận bởi Global Sign, một công ty được cấp bản quyền bởi Microsoft. Tuy nhiên,cFos Software GmbH không tham gia thêm vào quá trình xác nhận WHQL mắc tiền của Microsoft. Vì lý do này, một cửa sổ sẽ hiện lên trong quá trình cài đặt driver trong Windows Vista với thông báo là nhà phát hành của driver phần mềm này không thể xác nhận.\n\nNếu cửa sổ này xuất hiện, hãy nhấn vào \"Install this driver software anyway\".";
+vista_warn_info = "%p đã có chữ kí điện tử xác nhận bởi Global Sign, một công ty được cấp bản quyền bởi Microsoft. Tuy nhiên,cFos Software GmbH không tham gia thêm vào quá trình xác nhận WHQL mắc tiền của Microsoft. Vì lí do này, một cửa sổ sẽ hiện lên trong tiến trình cài đặt driver trong Windows Vista với thông báo là nhà phát hành của driver phần mềm này không thể xác nhận.\n\nNếu cửa sổ này xuất hiện, hãy nhấn vào \"Install this driver software anyway\".";
 vista_warn_image = "vista_en.bmp";
 
 / dial entry dialog
@@ -26963,16 +26938,41 @@ dun_err_no_device = "Không tìm thấy thiết bị %p. (Thiết bị sẽ sẵ
 / e-mail registration dialog
 eml_header = "Đăng kí địa chỉ Email";
 eml_subheader = "Đăng kí địa chỉ Email tại cFos.";
-eml_info = "Xin vui lòng đăng kí địa chỉ Email của bạn với cFos để chúng tôi có thể cập nhật thông tin khi bản %p mới nhất.";
-eml_info_optional = "Nếu bạn đăng kí địa chỉ Email của bạn với cFos, bạn sẽ nằm trong danh sách được thông báo về bản %p mới nhất ngay khi có thể.";
+eml_info = "Xin vui lòng đăng kí địa chỉ Email của bạn với cFos để chúng tôi có thể cập nhật thông tin khi có bản %p mới nhất.";
+eml_info_optional = "Nếu bạn đăng kí địa chỉ Email của bạn với cFos, bạn sẽ nằm trong danh sách được thông báo khi có bản %p mới nhất.";
 eml_email = "Địa chỉ Email của bạn:";
 eml_invalid_email = "Địa chỉ email bạn vừa nhập vào không hợp lệ.";
 eml_invalid_optional_email = "Vui lòng nhập địa chỉ E-mail hợp lệ hoặc không nhập gì cả.";
 eml_reg_failed = "Đăng kí địa chỉ Email không thành công.";
-eml_checking_domain = "Đang kiểm tra domain của Email...";
+eml_checking_domain = "Đang kiểm tra tên miền Email...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
-virtual_wifi_dialup_ics = "Đối với một kết nối dial-up bạn phải kích hoạt Internet Connection Sharing thủ công bằng cách thay đổi các thuộc tính của kết nối này.";
+virtual_wifi_wizard_name = "%p Thuật sĩ kích hoạt Wi-Fi ảo";
+virtual_wifi_header = "Khởi động Wi-Fi ảo";
+virtual_wifi_subheader = "Cài đặt 1 điểm truy cập Wi-Fi và kích hoạt Chia sẻ kết nối Internet";
+virtual_wifi_info = "Chọn kiểu kết nối Internet và đặt 1 mật khẩu cho điểm truy cập Wi-Fi.";
+virtual_wifi_ssid = "Tên Wifi:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "Tên Wifi không được trống và phải nhỏ hơn 32 kí tự.";
+virtual_wifi_invalid_password_length = "Mật khẩu phải từ 8 tới 64 kí tự.";
+virtual_wifi_ics_not_available = "Chia sẻ kết nối Internet không có sẵn trong máy tính này.";
+virtual_wifi_error_get_cons = "Lỗi kết nối mạng.";
+virtual_wifi_ics_warning = "Chia sẻ kết nối Internet đã được kích hoạt cho mạng ở dưới:\n%?\n\nBạn có muốn sử dụng thay thế mạng này:\n%?";
+virtual_wifi_error_enable_ics = "Lỗi kích hoạt Chia sẻ kết nối Internet.";
+virtual_wifi_error_start = "Lỗi khởi động Wi-Fi ảo.";
+virtual_wifi_ok = "Wi-Fi ảo và Chia sẻ kết nối Internet đã được kích hoạt.\n\nLưu ý: Nếu máy con không thể kết nối với Wi-Fi ảo, hãy dừng và khởi động lại Wi-Fi ảo.\n\nNếu máy con kết nối được với Wi-Fi ảo nhưng không thể truy cập Internet, hãy gỡ bỏ và cài đặt lại %p.";
+virtual_wifi_query_stop = "Dừng Wi-Fi ảo?";
+virtual_wifi_error_stop = "Lỗi dừng Wi-Fi ảo:";
+virtual_wifi_stopped = "Wi-Fi ảo đã được dừng.";
+virtual_wifi_dialup_ics = "Để kết nối quay số bạn cần kích hoạt thủ công Chia sẻ kết nối Internet và thay đổi thuộc tính kết nối.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
@@ -27029,6 +27029,7 @@ cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 / uninstall dialog
 
 / configuration dialog
+dlg_cnf_header = "Cấu hình %p";
 
 / startmode dialog
 
