@@ -32559,7 +32559,7 @@ dlg_cnf_header = "Konfiguriši %p";
 
 language = "Српски (Ћирилица)";
 language_local = "Српски";
-htm_lang_prefix = "ср";
+htm_lang_prefix = "sr-cyrl-cs";
 
 / ----------------------------------------------------------------------
 /
