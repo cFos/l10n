@@ -26107,6 +26107,21 @@ language = "Vietnamese";
 language_local = "Việt Nam";
 htm_lang_prefix = "vi";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
@@ -26943,6 +26958,7 @@ eml_reg_failed = "Đăng kí địa chỉ Email không thành công.";
 eml_checking_domain = "Đang kiểm tra domain của Email...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_dialup_ics = "Đối với một kết nối dial-up bạn phải kích hoạt Internet Connection Sharing thủ công bằng cách thay đổi các thuộc tính của kết nối này.";
 
 
 / ----------------------------------------------------------------------
