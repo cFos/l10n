@@ -7828,6 +7828,14 @@ virtual_wifi_stopped = "Virtual Wi-Fi successfully stopped.";
 virtual_wifi_dialup_ics = "For a dial-up connection you have to enable Internet Connection Sharing manually by changing the properties of this connection.";
 
 
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
+
+
 / ----------------------------------------------------------------------
 /
 /  cFos
