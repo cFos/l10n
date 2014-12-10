@@ -7253,7 +7253,11 @@ show_for = "Show for";
 this_month = "this month";
 time = "Time";
 time_limit = "Time Limit";
+/. Used as table header
+/. Short version of "minutes"
 time_min = "Min";
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "h:min";
 volume = "Volume";
 volume_limit = "Volume Limit";
@@ -7316,7 +7320,9 @@ slots_title = "Slot Setup";
 can_select_multiple = "Hint: You can select multiple options by holding down the Shift or Ctrl key while selecting an option";
 name_for = "Name for ";
 set_name = "Set name";
+/. RX stands for `receive` (incoming/download)
 rx_only = "RX only";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "TX only";
 max_of_rx_tx = "Maximum of RX & TX";
 total_rx_only = "Total RX speed";
