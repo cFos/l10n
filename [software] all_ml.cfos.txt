@@ -26629,10 +26629,10 @@ set_server_pwd = "Đặt mật khẩu máy chủ";
 auto_arrange_top = "Trên";
 auto_arrange_bottom = "Dưới";
 show_on_metro_apps = "Hiển thị trên các ứng dụng Metro";
-traffic_shaping_info = "Thông tin Tối ưu Băng thông";
+traffic_shaping_info = "Thông tin phân luồng lưu lượng";
 wlan_access_point = "Điểm truy cập Wi-Fi";
-prioritize_foreground_process = "Mức ưu tiên tiến trình trong cửa sổ nền";
-prioritize_foreground_help = "Tự động thiết lập mức ưu tiên cao cho tiến trình trong cửa sổ nền.";
+prioritize_foreground_process = "Ưu tiên tiến trình truy cập cho cửa sổ hiện hành";
+prioritize_foreground_help = "Tự động thiết lập ưu tiên ở mức cao cho tiến trình truy trong cửa sổ hiện hành.";
 
 
 / ----------------------------------------------------------------------
@@ -26947,23 +26947,23 @@ eml_reg_failed = "Đăng kí địa chỉ Email không thành công.";
 eml_checking_domain = "Đang kiểm tra tên miền Email...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
-virtual_wifi_wizard_name = "%p Thuật sĩ kích hoạt Wi-Fi ảo";
-virtual_wifi_header = "Khởi động Wi-Fi ảo";
-virtual_wifi_subheader = "Cài đặt 1 điểm truy cập Wi-Fi và kích hoạt Chia sẻ kết nối Internet";
-virtual_wifi_info = "Chọn kiểu kết nối Internet và đặt 1 mật khẩu cho điểm truy cập Wi-Fi.";
-virtual_wifi_ssid = "Tên Wifi:";
+virtual_wifi_wizard_name = "%p Khởi động thuật sĩ tạo mạng Wi-Fi ảo";
+virtual_wifi_header = "Khởi động mạng Wi-Fi ảo";
+virtual_wifi_subheader = "Thiết lập một điểm truy cập không dây dựa trên phần mềm và kích hoạt Chia sẻ kết nối Internet.";
+virtual_wifi_info = "Chọn kết nối mạng điều khiển đường truyền Internet và chọn một mật khẩu cho điểm truy cập không dây.";
+virtual_wifi_ssid = "SSID:";
 virtual_wifi_default_ssid = "cFos Wi-Fi";
-virtual_wifi_invalid_ssid_length = "Tên Wifi không được trống và phải nhỏ hơn 32 kí tự.";
-virtual_wifi_invalid_password_length = "Mật khẩu phải từ 8 tới 64 kí tự.";
-virtual_wifi_ics_not_available = "Chia sẻ kết nối Internet không có sẵn trong máy tính này.";
-virtual_wifi_error_get_cons = "Lỗi kết nối mạng.";
-virtual_wifi_ics_warning = "Chia sẻ kết nối Internet đã được kích hoạt cho mạng ở dưới:\n%?\n\nBạn có muốn sử dụng thay thế mạng này:\n%?";
-virtual_wifi_error_enable_ics = "Lỗi kích hoạt Chia sẻ kết nối Internet.";
-virtual_wifi_error_start = "Lỗi khởi động Wi-Fi ảo.";
-virtual_wifi_ok = "Wi-Fi ảo và Chia sẻ kết nối Internet đã được kích hoạt.\n\nLưu ý: Nếu máy con không thể kết nối với Wi-Fi ảo, hãy dừng và khởi động lại Wi-Fi ảo.\n\nNếu máy con kết nối được với Wi-Fi ảo nhưng không thể truy cập Internet, hãy gỡ bỏ và cài đặt lại %p.";
+virtual_wifi_invalid_ssid_length = "SSID không được để trống và có không quá 32 ký tự.";
+virtual_wifi_invalid_password_length = "Chiều dài mật khẩu phải từ 8 đến 64 ký tự.";
+virtual_wifi_ics_not_available = "Chia sẻ kết nối Internet không có sẵn trên máy tính này.";
+virtual_wifi_error_get_cons = "Lỗi trong việc kết nối mạng.";
+virtual_wifi_ics_warning = "Chia sẻ kết nối Internet đã được bật cho mạng sau:\n%?\n\nBạn có muốn dùng kết nối này thay cho mạng:\n% không?";
+virtual_wifi_error_enable_ics = "Lỗi trong việc bật Chia sẻ kết nối Internet";
+virtual_wifi_error_start = "Lỗi trong việc khỏi động Wi-Fi ảo";
+virtual_wifi_ok = "Đã kích hoạt thành công Wi-Fi ảo và Chia sẻ kết nối Internet.\n\nLưu ý: Nếu người dùng không thể kết nối thành công với Wi-Fi ảo, hãy dừng và khởi động lại Wi-Fi ảo.\n\nNếu người dùng có thể kết nối với Wi-Fi ảo nhưng không có được kết nối Internet, xin vui lòng gỡ bỏ cài đặt và sau đó cài đặt lại %p.";
 virtual_wifi_query_stop = "Dừng Wi-Fi ảo?";
-virtual_wifi_error_stop = "Lỗi dừng Wi-Fi ảo:";
-virtual_wifi_stopped = "Wi-Fi ảo đã được dừng.";
+virtual_wifi_error_stop = "Lỗi trong việc dừng Wi-Fi ảo:";
+virtual_wifi_stopped = "Đã dừng Wi-Fi ảo thành công.";
 virtual_wifi_dialup_ics = "Để kết nối quay số bạn cần kích hoạt thủ công Chia sẻ kết nối Internet và thay đổi thuộc tính kết nối.";
 
 
