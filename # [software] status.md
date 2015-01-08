@@ -23,7 +23,7 @@ Software translation status
 |     | fr - 1036         | 8         | done (2014-04-22) by Gilles Cellier                   |       |
 | `l` | he - 1037         |           |                                                       |       |
 | `G` | hu - 1038         | 25        |                                                       |       |
-|     | it - 1040         | 26        | proofread 750 strings by Massimo Castiglia 2013-09-30 |       |
+|     | it - 1040         | 4         | proofread 750 strings by Massimo Castiglia 2013-09-30 |       |
 | `G` | ja - 1041         | 21        |                                                       |       |
 |     | ko - 1042         |           |                                                       |       |
 | `l` | nl - 1043         |           |                                                       |       |
@@ -38,7 +38,7 @@ Software translation status
 |     | be - 1059         |           |                                                       |       |
 |     | sl - 1060         |           |                                                       |       |
 |     | et - 1061         |           |                                                       |       |
-| `G` | vi - 1066         | 0         |                                                       |       |
+| `G` | vi - 1066         | 3         |                                                       |       |
 | `l` | mk - 1071         |           |                                                       |       |
 | `G` | fa - 1256         | all       |                                                       |       |
 |     | zh-cn - 2052      | 80        |                                                       |       |
