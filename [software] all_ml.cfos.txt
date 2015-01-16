@@ -5207,6 +5207,7 @@ virtual_wifi_query_stop = "Soll das virtuelle WLAN gestoppt werden?";
 virtual_wifi_error_stop = "Fehler beim Stoppen des virtuellen WLANs:";
 virtual_wifi_stopped = "Das virtuelle WLAN wurde erfolgreich angehalten.";
 virtual_wifi_dialup_ics = "Für eine DFÜ-Netz- bzw. Wählverbindung müssen Sie die Internet-Verbindungsfreigabe manuell über die Eigenschaften dieser Verbindung aktivieren.";
+virtual_wifi_error_not_present = "Kein (einsatzbereites) WLAN-Interface gefunden.\n\nZur Einrichtung eines virtuellen WLANs muss ein WLAN-Interface vorhanden und einsatzbereit sein.";
 
 
 / ----------------------------------------------------------------------
@@ -7826,6 +7827,7 @@ virtual_wifi_query_stop = "Stop Virtual Wi-Fi?";
 virtual_wifi_error_stop = "Error stopping Virutal Wi-Fi:";
 virtual_wifi_stopped = "Virtual Wi-Fi successfully stopped.";
 virtual_wifi_dialup_ics = "For a dial-up connection you have to enable Internet Connection Sharing manually by changing the properties of this connection.";
+virtual_wifi_error_not_present = "No (ready) Wi-Fi interface found.\n\nTo set up a Virtual Wi-Fi a Wi-Fi interface must be present and ready.";
 
 
 / !!! DO NOT TRANSLATE !!!
