@@ -1,0 +1,1616 @@
+#language 1041
+#fallback 1033
+#charset 128
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Japanese";
+language_local = "日本語";
+htm_lang_prefix = "ja";
+
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
+/ ----------------------------------------------------------------------
+/
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
+bc_orderurl = "https://www.cfos.de/ja/order/broadband-connect-n.htm";
+bc_langurl = "";
+bc_pg_name = "%p";
+bc_desc = "%p, High-Performance Dial-Up Driver";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/ja/order/cfos-ipv6-link-n.htm";
+sixlink_pg_name = "%p";
+sixlink_desc = "%p, High-speed IPv6 dial-up driver";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/ja/order/cfos-personal-net-n.htm";
+pnet_desc = "パーソナルウェブサーバー %p";
+renew_params = "更新パラメータ";
+dlg_dun_auto = "自動的に接続を構成";
+dlg_dun_default = "スタンダード接続";
+dlg_dun_cons = "接続プロファイル";
+dlg_dun_name = "接続名";
+dlg_dun_uname = "使用者名";
+dlg_dun_pwd = "パスワード";
+dlg_dun_use_ipv4 = "IPv4を使用";
+dlg_dun_use_ipv6 = "IPv6を使用";
+dun_connect_to = "%?と接続";
+dun_err_already_exists = "接続名が見つかりません。";
+disconnect = "切る";
+setup_connections = "セットアップの接続";
+ask_inst_ipv6 = "IPv6プロトコルは、まだこのシステムにインストールされていない.\n\n"
+                "IPv6のプロトコルこれがインストールさせましょうか？";
+err_inst_ipv6 = "エラー%?中には、IPv6プロトコルをインストールします。.";
+
+/ connection entry dialog
+con_err_save = "接続データを保存することはできません！";
+con_ipv4 = "IPv4";
+con_ipv6 = "IPv6";
+con_private_address = "プライベートアドレス：";
+con_prefix = "接頭辞：";
+con_dns1 = "DNS1:";
+con_dns2 = "DNS2:";
+con_enabled = "有効";
+
+/ pnet configuration dialog
+pnet_header = "一般設定";
+pnet_subheader = "一般設定を変更します。";
+pnet_conn_header = "接続";
+pnet_conn_subheader = "接続オプションを設定します。";
+pnet_conn_local_ip = "ローカルIPアドレス %?";
+pnet_conn_public_ip = "パブリックIPアドレス %?";
+pnet_pubdir_header = "パブリックディレクトリ";
+pnet_pubdir_subheader = "ダウンロード可能なファイルを置くディレクトリです。";
+pnet_pubdir_info = "ダウンロード可能としたいファイルが格納されているフォルダの場所を指定してください。";
+smtp_header = "SMTPサーバー";
+smtp_subheader = "SMTPサーバーを構成します。";
+dynip_header = "ダイナミックIPサーバー";
+dynip_subheader = "ダイナミックIPサーバーを構成します。";
+dlg_start_now_as_current_user = "カレントユーザーで %p をすぐに起動";
+dlg_autostart = "Windowsのスタートアップ時に %p を起動";
+dlg_autostart_service = "%p をシステムサービスとしてインストールし、Windowsのスタートアップ時に起動";
+dlg_context_menu = "Windowsのエクスプローラーにコンテキストメニューを追加";
+dlg_create_admin_account = "管理者アカウントを作成";
+dlg_admin_pwd = "ユーザー \"admin\" のパスワード:";
+dlg_admin_pwd_needed = "管理者アカウントを作成するにはユーザー \"admin\" のパスワードを指定する必要があります。";
+dlg_register_shell_extension = "シェル拡張を登録";
+dlg_server_port = "サーバーのポート:";
+dlg_server_name = "サーバー名:";
+dlg_server = "サーバー:";
+dlg_https_port = "HTTPSポート:";
+dlg_renew_interval = "更新間隔 (ミリ秒):";
+dlg_redirect_delay = "リダイレクト遅延 (ミリ秒):";
+dlg_monitor_ports = "ポート割り当てを監視";
+dlg_enable_upnp = "マルチメディアサーバー (UPnP/DLNA) を有効化";
+dlg_upnp_info = "メディアファイルはパブリックディレクトリ内のサブフォルダ media に置いてください。";
+use_https_port = "HTTPSポートを使用";
+
+/ pnet start type dialog
+pnet_start_header = "起動方法";
+pnet_start_subheader = "プログラムの起動方法を決定します。";
+pnet_start_mode = "%p の起動方法:";
+pnet_start_login = "ログオン時に起動 (推奨)";
+pnet_start_system = "システムサービスとして起動";
+pnet_start_manual = "手動で起動";
+pnet_start_info = "ログオン時に %p を自動的に起動する方法をお勧めします。"
+                  "ログオンしているユーザーがいないときも %p を実行させたいときは、システムサービスとして起動する必要があります。"
+                  "ただし、その場合はタスクバーにアイコンが表示されず、コンテキストメニューにも表れません。"
+                  "ときどきデータを公開するだけであれば、%p を手動で起動してください。";
+
+/ pnet context menu entry
+publish_with_product = "%p で公開";
+
+/ pnet backup info
+dlg_backup_info = "次のファイルについては、置換前にバックアップファイル (.bak) が作成されました:";
+
+/ pnet
+end_program = "プログラムを終了";
+file_copy_failed = "ファイルのコピー処理に失敗しました。";
+ipv4_bind_problem = "他のアプリケーション (例: Skype) で使用中のため、サーバーが指定ポートをIPv4でリスンできません。";
+ipv6_bind_problem = "他のアプリケーション (例: Skype) で使用中のため、サーバーが指定ポートをIPv6でリスンできません。";
+closing_server = "サーバーを停止しています。";
+start_product = "%p を起動";
+info_port_in_use = "%p に必要なポート %? が他のプログラムで使用中です。\n\nプログラム: %?\nパス: %?\n\n"
+                   "%p を使用するには他のプログラムを終了するか、%p の構成で他のポートを選んでください。";
+monitor_port_desc = "%p に必要なポートを定期的に監視するタスクです。他のプログラムで使用中のポートがある場合はユーザーに警告を発します。";
+logon_start_desc = "以下に示すユーザーがログインすると%p を起動するタスクです。";
+show_home_dir = "ホームディレクトリを表示";
+publish_file = "ファイルを公開";
+user_administration = "ユーザー管理";
+
+/ pnet connectivity test
+connectivity_test = "接続テスト";
+con_test_subheader = "接続テストが終了するまでお待ちください。";
+con_test = "%p 接続テスト";
+con_test_not_running = "%p が未起動のため接続テストを実行できません。%p を起動してから接続テストを再実行してください。";
+con_test_public_fail = "お使いのパブリックIPアドレスを特定できません。インターネットに接続しているかどうかを確認の上、再度テストを実行してください。";
+con_test_execute = "接続テストを実行";
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+ga_detected_by_speed = "システムにインストールされた cFos Game Analyzer を検出しました。cFosSpeed には cFos Game Analyzer のすべての機能が含まれています。\n\nここで続行を選択すると cFosSpeed をインストールする前にcFos Game Analyzer のアンインストールが実行されます。\n\n続行しますか?";
+ga_use_password_by_speed = "他のデバイスから cFosSpeed にアクセスする為に cFos Game Analyzer のパスワードを cFosSpeed で使用しますか?";
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
+speed_orderurl = "https://www.cfos.de/ja/order/cfosspeed-n.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+mainurl_name = "www.cfos.de";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
+
+auth_failed = "整合性チェックでコンポーネントの改変が1つ以上検出されました。\n"
+   "弊社のウェブサイトから改変されていないバージョンをインストールしてください:\n";
+
+component_mismatch = "プログラムのコンポーネント間にバージョンの不整合があります。最新バージョンを再インストールしてください。";
+trayicon_tip = "帯域制御で快速インターネット www.cfos.de";
+speed_endsoon = "評価期間がまもなく終了します。今すぐ%1を購入してください。";
+order_info = "今すぐ購入:\nインターネット: www.cfos.de\n電話+49-228-7669826";
+badkey = "ライセンスキーに問題があります。\ne-mailやディスクで受け取った元のファイルをダブルクリックしてインストールし直してください。";
+no_setup = "セットアップを開始できませんでした (setup.exe)。";
+no_cmd = "コマンドプロンプト (cmd.exe) を開けません。";
+ask_disconnect_ras = "現在使用中のインターネット接続を再構成します。\nインターネット接続を切断してから続行することをお勧めします。\n現在使用中のインターネット接続を切断しますか？";
+sygate_hint = "Sygateファイアウォールが見つかりました。Sygateファイアウォールは %p のキャリブレーション用信号を「Ping-of-Death」パケットによるサービス拒否 (DDoS) 攻撃と誤って認識します。したがって、キャリブレーション信号を使う代わりに、フルスピードでのダウンロードとアップロードを30秒ずつ実行して %p の補正を行ってください。\n\nヒント: ファイアウォールの「Anti IP Manipulation」機能は無効にしてください";
+select_language = "言語選択";
+translator = "various translators";
+translator_name = "Babizo";
+translator_msg = "これを機にソフト翻訳に本格的に身を乗り出そうかと。\n目指すはソフト翻訳の戸○奈津子さん。\n仕事あったらください。";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "お使いの %3 ライセンスの有効期限はあと %1%2 です。";
+
+service_desc = "%p 間、レイテンシー測定と特権処理を実行します。";
+no_pings_error = "%pからのpingパケットが到達していません。このパケットを受信できないと、%pの帯域制御は正しく機能しません。ヘルプを参照してください。";
+other_languages = "他の言語";
+install_dir = "インストールディレクトリ: ";
+ask_clear_tsdata = "帯域制御データをクリアして新規に回線キャリブレーションを開始しますか？";
+allow_traffic_shaping = "この接続で帯域制御を許可しますか";
+none = "なし";
+lic_expired = "評価期間は終了しました。%1は無効化されました。今すぐ%1を購入してください。";
+settings = "設定";
+winsettings = "表示設定";
+openwindow = "表示";
+openwindows = "表示";
+closewindow = "閉じる";
+closewindows = "閉じる";
+autoopen = "自動的に表示/非表示";
+taskbaricon = "タスクバーアイコン";
+autoarrange = "自動配置";
+effects = "効果";
+blend_effect = "フェード";
+slide_effect = "スライド";
+win_behaviour = "システム設定を利用";
+selectskin = "スキンの選択";
+topmost = "常に手前に表示";
+defpos = "デフォルトの位置";
+disco_ras = "切断";
+config = "オプション";
+order = "今すぐ購入!!";
+dayl_singular = "日";
+dayl_plural = "日";
+days_singular = "日";
+days_plural = "日";
+/ %1=number, %2="day/days"
+short_try = "残り%1%2試用可能";
+short_dexpire = "%1%2 前に期限切れ ";
+
+short_exp = "期限切れ";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "%1 %2前に評価期間が終了しました。今すぐ%3を購入してください！";
+lic_try = "残り%1%2、%3を試用可能です。";
+
+enable_win = "ステータスウィンドウを有効にしますか？\n\nステータスウィンドウは有効な接続の状態を表示します。";
+license = "ライセンス";
+licensed_to = "%?にライセンスされています";
+upgrade = "最新バージョンを入手";
+connect_to = "接続先 ";
+make_own_skin = "スキンのデザイン";
+click_through = "クリックスルー";
+ask = "確認";
+off = "オフ";
+on = "オン";
+note = "メモ";
+deactivated = "無効";
+browser_warning = "このダイアログにはInternet Explorer 8以降の利用をお勧めします。";
+ole_error = "この構成ダイアログを使用するには、\\n%pがコンピューターにインストールされていて、起動している必要があります。\\nこのことを確認し、必要に応じて再インストールしてください。";
+ts_settings = "帯域制御の設定";
+preferences = "設定";
+prio_protocols = "プロトコル優先度";
+protocol = "プロトコル";
+protocols = "プロトコル";
+prio_programs = "プログラム優先度";
+program = "プログラム";
+programs = "プログラム";
+current_connections = "現在の接続";
+current_connections_advanced = "現在の接続 (詳細)";
+current_connections_standard = "現在の接続 (標準)";
+ts_prios = "帯域制御の優先度";
+client_protocols = "クライアントプロトコル";
+server_protocols = "サーバプロトコル";
+client_server_protocols = "クライアント/サーバープロトコル";
+media_streaming = "メディアストリーミング";
+file_sharing = "ファイル共有";
+special = "特殊";
+other = "その他";
+misc_high_short = "その他 高";
+misc_high = "その他の高優先度トラフィック";
+hint = "ヒント";
+hint_text = "優先度の設定による理想的な効果を得るには、優先度を高く設定するデータをできるだけ少なくします。大量のデータを送出するプログラムの優先度は低く設定してください。プロトコルの優先度はプログラムの優先度よりも先に処理されます。";
+prio_doc_link = "優先処理の仕組み";
+save_protocols = "プロトコルの保存";
+undo = "元に戻す";
+filter_selection = "フィルターの選択";
+higher = "最高";
+high = "高";
+normal = "通常";
+default = "デフォルト";
+low = "低";
+lower = "最低";
+entries = "エントリー";
+prog_overwrite = "%p はすでにリストに存在します。\\n新しい値で上書きしますか？";
+games = "ゲーム";
+voip = "VoIP";
+remote_control = "リモートコントロール";
+prog_hint_text = "優先度の設定による理想的な効果を得るには、優先度を高く設定するデータをできるだけ少なくします。大量のデータを送出するプログラムの優先度は低く設定してください。<br />";
+save_priorities = "優先度の保存";
+delete = "削除";
+aux_lines = "ヘルプライン";
+higher_prog_help = "VoIPや一部のゲーム";
+high_prog_help = "ゲーム、ストリーミング、Telnetなどインタラクティブなプログラム";
+low_prog_help = "サーバデータ、FTPデータ";
+lower_prog_help = "常にバックグラウンドのトラフィック (ファイル共有など)";
+delete_help = "リストから消去 (通常の優先度) ";
+prog_help = "低または最低に設定されたパケットは、同時に高優先度のデータが処理されているときにのみ、低速で処理されます。それ以外の場合は最大速度で送信されます。";
+filename = "ファイル名";
+description = "説明";
+new_program = "プログラムの追加";
+restore_defaults = "デフォルトに戻す";
+add = "追加";
+suggest_program = "cFosチームにこのプログラムを推薦する";
+l7_prot_detection = "レイヤー7プロトコル検知";
+l7_prot_detection_help = "データの分析によってプロトコルを検知します。プロトコルの優先度を変えるには優先プロトコルのダイアログより行います。このオプションを無効にした場合は使用ポート番号によってプロトコルを検知します。";
+favor_ping = "Ping応答時間の優先";
+favor_ping_help = "<b>オン</b>: 必要に応じて帯域幅を縮小し、Ping応答時間を最小にします。<br /><b>オフ</b>: 最大帯域幅を確保します。場合によってはPing応答時間が長めとなります。";
+favor_bandwidth = "帯域幅を優先";
+avoid_loss = "パケットロスの回避";
+avoid_loss_help = "%p でパケットロスが多いときにストリームを受信するTCP受信ウィンドウを閉じます。ただし、接続の受信速度が最大の場合に限ります (ダウンロードの帯域制御効果を改善したい場合にお勧めします)。";
+activate_firewall = "ファイアウォールの有効化";
+activate_firewall_help = "危険なパケットのフィルタリング、状態監視やステルスモードによってネットワークへの侵入を防ぎます。";
+mtu_opt = "MSS (MTU) の自動最適化";
+mtu_opt_help = "MSS/MTUの値を調整して転送速度の最大化を図ります。通常は1500/1492よりもやや低い値で最高速度が得られます。";
+strict_rtp = "厳密なRTPチェック";
+strict_rtp_help = "有効にすると、%pは正しいRTCPソースIDを持つパケットのみをRTPと認識します。RTCPパケットを送信しないプログラム (例 VoIPBuster) などではこのオプションは無効にしてください。トラフィックが誤ってRTPに分類される場合にのみ、このオプションを有効にします。";
+ts_config = "%p 帯域制御設定";
+dialup_connection = "ダイアルアップ接続";
+dialup_connections = "ダイアルアップ接続";
+traffic_shaping = "帯域制御";
+ras_con_help = "<b>はい</b>: 有効にする, <b>いいえ</b>: 無効にする, <b>確認</b>:一度だけ確認し設定を保存する;";
+router_connections = "ルーター接続";
+net_components = "ネットワークコンポーネント";
+auto = "自動";
+router_help = "<b>はい</b>: 有効にする, <b>いいえ</b>: 無効にする, <b>自動</b>: ルーターがネットワーク上にあれば帯域制御有効";
+network_adapter = "ネットワークアダプター";
+router = "ルーター";
+and_save_settings = "設定する";
+border = "境界";
+budget = "割当";
+budget_settings = "利用量の割当設定";
+budget_title = "%p オンライン利用量の割当";
+budgets = "オンライン利用量の割当";
+graph_title = "使用状況グラフ";
+hard_limit = "ハード<br>制限";
+hard_limit_help_not_set = "完全に消費された割当はステータスウィンドウにのみ表示されます";
+hard_limit_help_set = "割当分が完全に消費されるとパケットは破棄されます";
+last_3_months = "過去3ヶ月";
+last_month = "先月";
+last_12_months = "過去12ヶ月";
+please_select = "選択してください";
+reset_day = "リセット日";
+reset_day_unit = "日";
+rxtx_button = "RX/TX 選択";
+save_budgets = "利用割当量の保存";
+show_for = "期間";
+this_month = "今月";
+time = "時間";
+time_limit = "時間制限";
+/. Used as table header
+/. Short version of "minutes"
+time_min = "分";
+/. Used as table header
+/. Short version of "hours:minutes"
+time_units = "時:分";
+volume = "ボリューム";
+volume_limit = "ボリューム制限";
+spdbudget_help = "割当を使用するには、接続ダイアログで特定の接続に対して適用してください";
+password_bad = "パスワードが違います";
+sum_button = "累積";
+calibrate = "回線キャリブレーション";
+test_pings = "テスト用の ping を送信";
+open_console = "%p コンソールを開く";
+variable_bandwidth = "可変帯域幅";
+def_bandwidth_help = " <b>新規</b>接続のデフォルト設定";
+cur_bandwidth_help = "現在の接続の設定";
+no_ports_open = "確立された接続はありません。";
+no_ports_open_help = "確立された接続で %p が扱っているものはありません。"
+   "新規接続のデフォルト設定を変更するには、\"新規接続のデフォルト\" タブをクリックします。"
+   "その他の接続の設定を変更するには、左側の \"帯域制御\" をクリックしてください。";
+ok = "OK";
+connection_medium = "ブロードバンド接続方式";
+connection_type = "帯域制御モード";
+driver_not_loaded = "ドライバーが読み込まれていません";
+demon_driver_not_loaded = "ドライバーが読み込まれていません\n"
+   "インストールが不完全な可能性があります。\n"
+   "%p の再インストールをお試しください。\n";
+asus_demon_driver_not_loaded = "新しいオペレーティングシステムにアップグレード後、%pを再度インストールしてください。最新の%pはASUSオフィシャルサイトからダウンロードできます。(http://%w)";
+many_cons_error = "接続が多すぎるため、%p のRX帯域制御が限界に達しています。接続を少なくするとパフォーマンスが向上する可能性があります。ヘルプを参照してください。";
+limit_bandwidth = "現在の接続で帯域を制限";
+rx_limit = "RX 制限";
+tx_limit = "TX 制限";
+max = "最大";
+apply_limits = "制限を適用";
+limit_help = "値はプロトコルのオーバーヘッドを含む kbyte/秒です (0 = 制限なし)。";
+enable_speed_shaping = "速度制御有効";
+disable_speed_shaping = "速度制御無効";
+yes = "はい";
+no = "いいえ";
+help = "ヘルプ";
+bgraph_totals = "合計";
+blocklist = "IPアドレスブロック";
+blocklist_help = "すべてのトラフィックをブロックするIPアドレスのリストです。";
+apply_blocklist = "フィルターリストを使用";
+search = "検索";
+budget_connection = "どの接続に対してどの割当を適用するかを設定します";
+reset = "リセット";
+autohide_on_fullscreen = "全画面表示で非表示";
+slot_selected = "選択したプロトコル/プログラム";
+show = "表示";
+hide = "非表示";
+slot_explain = "データパケットに既知のプロトコルが含まれていて、そのプロトコルがスロットに "
+               "割り当てられている場合、そのパケットのトラフィックは該当スロットでカウントされます。 "
+               "それ以外の場合で、パケットがスロットに割り当てられているプログラム名の接続に "
+               "属しているときは、そのトラフィックは該当スロットでカウントされます。このどちらでもない"
+               "場合は、その他すべてのトラフィックがカウントされるスロット (設定されている場合) で"
+               "カウントされます。";
+traffic_analysis_title = "リアルタイムトラフィック解析";
+other_traffic = "他のすべてのトラフィック";
+traffic_analysis = "トラフィック解析";
+slot = "スロット";
+slots = "スロット";
+slots_title = "スロットのセットアップ";
+can_select_multiple = "ヒント: ShiftキーまたはCtrlキーを押したままで選択すると複数のオプションを選択できます";
+name_for = "スロット名 - ";
+set_name = "名前を設定";
+/. RX stands for `receive` (incoming/download)
+rx_only = "RX のみ";
+/. TX stands for `transmit` (outgoing/upload)
+tx_only = "TX のみ";
+max_of_rx_tx = "RX と TX の最大値";
+total_rx_only = "合計 RX 速度";
+total_tx_only = "合計 TX 速度";
+nettalk_rx = "Net Talk RX 速度";
+nettalk_tx = "Net Talk TX 速度";
+nettalk_max_of_rx_tx = "Net Talk の RX と TX の最大値";
+total_max_of_rx_tx = "RX と TX の合計値の最大値";
+check_if_other_also = "その他のすべてのトラフィックをこのスロットでカウントする場合はチェック";
+performance_help = "CPU能力をセーブするため、インターネットへのアクセスに使用する接続を「はい」とし、それ以外のすべての「いいえ」とすることをお勧めします。";
+loading = "読み込んでいます...";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
+regid = "非協調";
+regid_help = "cFosの帯域制御対象でないデバイスをLAN上に検出しました";
+regid_help_long = "接続で他のデバイスが同時に使用されており、少なくとも1つがcFosの帯域制御対象ではありません。";
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+net_talk_help = "LAN上のブロードキャストトラフィック";
+net_talk_help_long = "精度を改善するには、帯域制御統計をローカル (ホーム) ネットワーク上の他のコンピューターに送信してください。データはインターネット上には送信されません。";
+net_talk_subheader = "Net_Talk機能を使用するときは選択します。";
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+vari_fixed = "pingのジッターに対応する";
+vari_fixed_help = "帯域制御を使用してping応答時間の変動に対応します";
+vari_fixed_help_long = "pingのジッターに対応するため、ping統計を収集します。特に、モバイル接続やワイヤレス接続の場合に役立ちます。他の接続タイプでも、このオプションを有効にしておくことをお勧めします。";
+
+set = "設定";
+tx_limit_help = "プログラムまたはプロトコルで許可する送信速度をバイト/秒またはパーセントで指定します。";
+download_more_skins = "他のスキンをダウンロードする";
+documentation = "マニュアル";
+exit_demon = "終了";
+speed_test = "cFosスピードテスト";
+ask_key_banned_info = "ライセンスキーに問題があります。\n詳細情報を表示しますか?";
+
+adapter_info = "アダプター情報";
+channel_explain = "使用チャンネルの設定をWLAN局に適用しても、他のWLANネットワークの利用状況によっては異なる周波数が実際には使われる場合があります。チャンネルによっては使用状況に余裕があったり、なかったりするためです。";
+no_adapters = "アダプター情報が見つかりません。";
+wlan_no_service = "サービスを利用できません。Wireless LAN API for Windows (WZC) をインストールまたは起動してください。";
+wlan_no_station = "アクセスポイントが足りません。";
+kaspersky_hint = "Kaspersky Internet Security 2010を %p と同時に使用すると問題が生じる場合があります。最新版のKaspersky Internet Securityにアップデートしてください。";
+
+console_cancel = "キャンセル";
+console_freeze = "固定";
+console_continue = "継続";
+console_help = "接続を以下の表でクリックして個別に優先設定できます。<br/>(*) 印の付いた接続は一時的に優先設定されている接続です。";
+console_prio = "この接続を優先する";
+console_prio_off = "優先設定を無効化する";
+console_prio_this = "一時的にこの接続のみを優先する";
+console_prio_this_off = "この接続の優先設定を終了する";
+console_prio_prot = "一時的にプロトコルを優先する";
+console_prio_prot_off = "一時的なプロトコル優先を終了する";
+console_prio_prog = "一時的にプログラムを優先する";
+console_prio_prog_off = "一時的なプログラムの優先設定を終了する";
+console_prio_prog_prot = "一時的にプログラムとプロトコルを優先する";
+console_prio_prog_prot_off = "一時的なプログラムとプロトコルの優先設定を終了する";
+console_prio_prot_perm = "プロトコルを常時優先する";
+console_prio_prog_perm = "プログラムを常時優先する";
+console_prio_advanced = "アドバンスト優先設定";
+
+new_version_available = "利用可能な新バージョン";
+update_beta = "ベータバージョンもチェックする";
+update_skip_version = "このバージョンについてのお知らせはこれ以上ありません:";
+check_new_version_now = "今すぐ新バージョンをチェックする";
+program_updates = "プログラムのアップデート";
+no_new_version_available = "新しいバージョンはありません";
+use_logitech = "ロジクール G15/G19/G510 ディスプレイを使用する";
+detect_logitech = "ロジクールディスプレイの検出";
+logitech_help = "ロジクールディスプレイのヘルプ";
+logitech_keyboards = "ロジクールゲーミングキーボード";
+keyboard_leds = "キーボードLED";
+keyboard_led_help = "キーボードLEDのヘルプ";
+only_on_fullscreen = "フルスクリーン時のみ";
+speed_guide = "スピードガイド";
+lock_position = "ウィンドウ位置を固定する";
+check_for_news = "新着情報を確認する";
+rwin_expansion = "RWIN自動拡大";
+rwin_expansion_help = "Windowsで設定されているRWINが小さすぎる場合にTCP受信ウィンドウを自動的に拡大してダウンロード速度を上げる。";
+query_auto_open = "ステータスウィンドウの自動開閉を無効化しますか?\nこの設定はいつでもコンテキストメニューで変更できます。";
+preview_skins = "スキンのプレビュー";
+http_access_enabled = "リモートからのHTTPアクセスを許可";
+http_access_disabled = "リモートからのHTTPアクセスを許可しない";
+set_server_pwd = "サーバーパスワードを設定";
+auto_arrange_top = "上部";
+auto_arrange_bottom = "下部";
+show_on_metro_apps = "Metroアプリで表示";
+traffic_shaping_info = "帯域制御情報";
+wlan_access_point = "WiFiアクセスポイント";
+prioritize_foreground_process = "フォアグラウンドのウィンドウの処理を優先する";
+prioritize_foreground_help = "フォアグラウンドウィンドウの処理の優先度を自動的に高に設定します。";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p, 帯域制御でネットアクセスの高速化";
+
+/ URLs
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+
+/ wizard
+install_wizard_name = "%? インストールウィザード";
+uninstall_wizard_name = "%? アンインストールウィザード";
+brandkey_wizard_name = "%? 登録ウィザード";
+config_wizard_name = "%p 設定ウィザード";
+continue_line = "続ける場合は「次へ」をクリックしてください";
+start_inst = "インストールするには「次へ」をクリックしてください";
+click_next_further_info = "「次へ」をクリックすると詳細が表示されます。";
+wizard_lang_line = "このウィザードの言語: ";
+
+/ welcome page
+welcome_line = "%? v%?にようこそ";
+welcome_info = "このウィザードで%? v%?をインストールします。";
+welcome_found = "既存の%? v%?がシステム上に見つかりました。";
+welcome_found_dir = "既存の%1 v%2がディレクトリ %3 に見つかりました。";
+welcome_found_unknown = "既存の%?がシステム上に見つかりました。";
+welcome_found_modified = "改ざんされたかもしくは不完全な%1 v%2が ディレクトリ %3 に見つかりました。";
+welcome_update = "既存のバージョンを置き換える場合は「次へ」をクリックしてください。";
+welcome_admin = "管理者権限がありません。管理者権限を持つユーザのみがこのウィザードを実行できます。";
+welcome_lang_syslink = "<a href=\"%?\">その他の言語</a>";
+welcome_oem_info = "%1 は %p の %2 向けOEMバージョンです。そのため %p には %1 のすべての機能に加えてその他機能が含まれています。";
+
+/ uninstall welcome page
+ui_welcome_line = "%? v%?のアンインストール";
+ui_welcome_info = "%1 v%2を %3 からアンインストールして関連するすべてのコンポーネントを削除するには「次へ」をクリックしてください。";
+
+/ brand key welcome page
+bk_welcome_line = "%?の登録";
+bk_welcome_info = "このウィザードで%?のユーザ登録を行います";
+bk_welcome_found = "既存のキーファイルがディレクトリ %? に見つかりました";
+bk_welcome_update = "既存のキーを置き換える場合は「次へ」をクリックしてください。";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "ライセンス同意書";
+lic_subheader = "続行するためにはライセンス同意書への同意が必要です";
+lic_info = "ライセンス同意書に同意するなら「了承する」のフィールドにチェックを入れ「次へ」をクリックしてください。同意しない場合は「キャンセル」をクリックしてください";
+lic_agree = "了承する";
+
+/ restore point dialog
+rp_header = "システムの復元ポイント";
+rp_subheader = "復元ポイントを作成しておくと以前のシステム状態に戻すことができます";
+rp_info = "復元ポイントを作成しておくとWindowsシステムを復元ポイントの作成時点の状態に戻すことができます。新しいドライバーをインストールするときは復元ポイントの作成をお勧めします。";
+rp_check = "復元ポイントを設定";
+/ %1 = product name
+rp_uninst_info = "システムの復元ポイントは通常のアンインストールを実行するためのものではなく、ドライバーの競合が発生した場合にシステムを前回起動した状態に戻すための追加予防措置です。%1を通常の方法でアンインストールするには、スタートメニューの%1フォルダか、コントロールパネルのアプリケーションの追加と削除から行います。";
+
+/ password dialog
+pwd_header = "パスワード";
+pwd_subheader = "キーには固有のパスワードが必要です。";
+pwd_reg_to = "%p を登録します。登録ユーザ名: ";
+pwd_password_info = "xxxx-xxxx-xxxx-xxxxの形式でパスワードを入力してください。";
+pwd_password = "パスワード: ";
+pwd_invalid_password = "無効なパスワードです。入力内容を確認の上、再入力してください。";
+pwd_activate_info = "サーバーでキーをアクティブ化するにはインターネットに接続している必要があります。";
+pwd_activate_failed = "キーをアクティブ化できませんでした。";
+pwd_activate_failed_code = "キーをアクティブ化できませんでした: エラー %?。";
+
+/ serial number dialog
+sn_header = "シリアルナンバー";
+sn_subheader = "シリアルナンバーを入力してキーをアクティブ化してください。";
+sn_info = "16桁の xxxx-xxxx-xxxx-xxxx 形式のパスワードをお持ちの場合は、"
+   "このダイアログを終了してライセンスキーをダブルクリックしてください。"
+   "表示される画面でパスワードを入力してください。\n\n"
+   "30桁の xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx 形式のパスワードをお持ちの場合は、"
+   "ここで入力してライセンスキーをアクティベート化してください。\n\n";
+sn_serial_number = "シリアルナンバー:";
+sn_invalid_serial_number = "シリアルナンバーが無効です。入力内容を確認の上、再入力してください。";
+/ the %? will be replaced by the error number:
+sn_download_err = "サーバーからのキーファイルダウンロード時にエラー %? が発生しました。";
+sn_save_err = "キーファイルをディスク上の %? に保存できません。";
+sn_keyfile_err = "キーファイルが壊れています。";
+
+/ new 16 digit serial number dialog
+sn16_info = "あなたのライセンスキーとして受け取った 16 桁のシリアル番号を入力してください。ライセンスキーを受け取るためには、インターネット接続環境が必要になります。";
+sn16_failed = "ライセンスキーの取得に失敗!";
+
+/ re-enter password dialog
+repwd_header = "%? パスワード";
+repwd_subheader = "登録用のパスワードをもう一度入力してください";
+repwd_reg_to = "システム構成が変更されたため、パスワードを再入力して%pを登録しなおしてください: ";
+
+/ installation directory dialog
+instdir_header = "インストールディレクトリ";
+instdir_subheader = "ハードディスクのどこにファイルをコピーするかをインストールディレクトリで指定します。";
+instdir_info = "インストールディレクトリを指定してください。";
+instdir_change = "変更";
+instdir_src_dst = "コピー元とコピー先を同一の場所にすることはできません。";
+instdir_space = "インストールには%uバイトのディスクの空き容量が必要です。選択されたディレクトリには%uバイトの空きしかありません。";
+instdir_drivetype = "選択されたドライブは無効です。%?はローカルの固定ドライブにのみインストールできます。";
+instdir_system = "インストールディレクトリはシステムドライブ '%?' 上とする必要があります。";
+instdir_system_recommended = "インストールディレクトリはシステムドライブ '%?' 上とすることを強くお勧めします (「次へ」をクリックするとこのまま続行します。)";
+
+/ tcp settings dialog
+tcp_header = "TCP受信ウィンドウの大きさを調整する";
+tcp_subheader = "TCP (トランスミッションコントロールプロトコル) 受信ウィンドウの大きさを調整して最適なデータスループットを得るようにしてください。";
+tcp_info = "受信ウィンドウの大きさは受信データのスループットに影響します。現在レジストリに格納されている値は最適ではありません。\n\nこのウィザードで値を調整してスループットを改善することをお勧めします (システム再起動後に変更が有効となります)。";
+tcp_check = "TCP受信ウィンドウの大きさを最適の状態にする（推奨）";
+
+/ hang up online connection dialog
+hangup_header = "ダイヤルアップ接続";
+hangup_subheader = "ダイヤルアップ接続を切断する必要があります。";
+hangup_online = "以下の接続を使用しています: ";
+hangup_offline = "接続を終了しました。";
+hangup_info = "ウィザードを続行するにはダイヤルアップ接続を一旦切断する必要があります。\n\nただちに切断するには「切断」をクリックしてください。";
+hangup_disco = "切断";
+
+/ usage statistics
+usage_stats = "使用状況に関する統計";
+usage_stats_subheader = "使用状況に関する統計を %p でどのように扱うかを選択します。";
+usage_stats_chk = "使用状況に関する統計をcFosに匿名で送信して製品の性能改善に協力します。";
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "可能な場合は自動ポートフォワーディングを使用します。";
+port_forwarding_failed = "お使いのルーター%?が自動ポートフォワーディングをサポートしていないようです。"
+                        "ルーターの構成でこの機能を有効かできる場合があります。";
+port_forwarding_config = "ルーターの構成は%?で行えます。";
+port_forwarding_fritz = "FRITZ!Boxでポートフォワーディングを有効化するには、セキュリティ設定の変更を許可します。変更はUPnPを介して"
+                        "ホームネットワーク / ネットワーク / プログラム から設定します。";
+
+/ crash handler messages
+crash_msg_crash = "%p でハンドルされていない例外が発生しました。";
+crash_msg_crash_installer = "%p のインストールプログラムでハンドルされていない例外が発生しました。";
+crash_msg_virus = "プログラムに次のモジュールがインジェクションされたことがクラッシュの原因となった可能性があります:";
+crash_msg_virus_clean = "このモジュールはウイルスの可能性があります。システムのウイルススキャンを行うことを強くお勧めします。";
+crash_msg_hook = "他のプログラムのモジュールがこのプログラムにインジェクションされています。これらのモジュールがクラッシュの原因でないことを確認するには、以下のプログラムを無効化またはアンインストールしてからこのプログラムを再実行してください:";
+crash_msg_terminate = "プログラムを終了します。";
+crash_msg_query_upload = "cFos でのエラー解析用に、クラッシュダンプを cFos に送信しますか。";
+
+/start installation dialog
+start_header = "インストール";
+start_subheader = "インストールを開始します。";
+start_installation = "すぐにインストールを開始します。";
+
+/ progress dialog
+progress_inst_header = "インストール";
+progress_inst_subheader = "インストールを実行中です。";
+progress_inst_wait = "インストールが終了するまでお待ちください。";
+progress_uninst_header = "アンインストール";
+progress_uninst_subheader = "アンインストールを実行中です。";
+progress_uninst_wait = "アンインストールが終了するまでお待ちください。";
+progress_driver_wait = "しばらくお待ちください。ドライバーをインストールまたはアンインストール中です。この処理は数分かかる場合があります。";
+
+/ confirm delete dialog
+conf_del_header = "設定データの消去";
+conf_del_subheader = "環境設定や個人情報などを含む構成ファイルの削除には確認が必要です。";
+conf_del_info = "以下の構成ファイルとディレクトリは %p によって作成されました。これらは削除されていません:";
+conf_del_column = "ファイル名";
+conf_del_query = "これらのファイルを削除するときは、個別にチェックを入れて「次へ」をクリックしてください。";
+
+/ finish page
+finish_head_ok = "インストールに成功しました。";
+finish_info_ok = "%?は正常にインストールされました。";
+finish_head_fail = "インストールは失敗しました。";
+finish_info_fail = "以下の理由によりインストールは失敗しました: ";
+finish_reboot = "システムを再起動する必要があります。今すぐ再起動するには「再起動」、後で再起動するには「キャンセル」をクリックしてください。";
+finish_uninst_driver_reboot = "現在使われているドライバーのアンインストールを完了するにはシステムを再起動する必要があります。"
+                             "システムを再起動後、再度インストールプログラムを実行してください。";
+finish_link_ok = "<a href=\"%?\">%?の特長</a>";
+finish_file_fail = "詳細情報はログファイル %s を参照してください";
+finish_file_link_fail = "詳細情報は<a href=\"file://%s\">ログファイル</a>を参照してください";
+finish_cfosts_disabled = "%pがすでに帯域制御を行っているため、cFosの帯域制御が無効化されました。cFosの設定メニューより再び有効化できます。";
+finish_cfosts_enabled = "cFosの帯域制御が有効になりました。";
+finish_link_checkbox = "%p の最新機能を表示";
+
+/ uninstall finish page
+ui_finish_head_ok = "アンインストールに成功しました。";
+ui_finish_info_ok = "%?はコンピューターから削除されました";
+ui_finish_head_fail = "アンインストールに失敗しました。";
+ui_finish_info_fail = "以下の理由により%?をコンピューターから削除できませんでした。";
+ui_finish_not_removed = "システムを再起動するまで以下のファイルは削除されません: ";
+
+/ brandkey finish page
+bk_finish_head_ok = "登録を完了しました。";
+bk_finish_info_ok = "%?を登録しました。登録ユーザ名:";
+bk_finish_head_fail = "登録できませんでした。";
+bk_finish_info_fail = "以下の理由により登録できませんでした:";
+
+/ progress tasks
+task_register_email = "e-mailアドレスを登録しています...";
+task_restore_point = "システムの復元ポイントを作成中...";
+task_copy = "ファイルをコピーしています...";
+task_desktop_link = "デスクトップにショートカットを作成しています...";
+task_program_group = "プログラムグループを作成しています...";
+task_registry = "レジストリエントリを作成しています...";
+task_driver = "ドライバーをインストールしています...";
+task_daemon = "%?を開始しています...";
+task_uninstall_old = "既存バージョンをアンインストールしています...";
+task_stop_daemon = "%?を停止しています...";
+task_uninstall_driver = "ドライバーをアンインストールしています...";
+task_uninstall_ga = "cFos Game Analyzer をアンインストール中...";
+task_delete_files = "ファイルを削除しています...";
+task_cleanup_caches = "キャッシュをクリーンアップしています...";
+task_hangup = "現在のネット接続を切断しています...";
+task_flush_registry = "レジストリをディスクに書き出し中です...";
+task_cancel = "処理を中断しています...";
+task_canceled = "処理は中断されました。";
+
+/ connectivity test progress tasks
+task_start_program = "%p を起動中...";
+task_test_localhost = "localhost をテスト中...";
+task_test_local_ip = "ローカルIPアドレスをテスト中...";
+task_test_public_ip = "パブリックIPアドレスをテスト中...";
+task_test_finished = "テストを完了しました。";
+
+/ program group
+speed_pg_name = "%p 帯域制御";
+pg_uninstall = "%? のアンインストール";
+pg_www = "www.cfos.de";
+pg_console = "%p コンソール";
+pg_start = "%p ステータスウィンドウの起動";
+pg_menu = "%? メニュー";
+pg_add_connection = "接続を追加する";
+pg_enter_serial_number = "シリアルナンバーを入力";
+pg_configure = "%p を構成";
+
+/ desktop symbol
+dt_advertise = "%? の特長";
+dt_advertise_desc = "%? の特長をすべて一覧表示します。";
+
+/ message boxes
+query_reboot = "変更を有効化するにはシステムを再起動する必要があります。\n\n今すぐ再起動しますか？";
+query_drv_inst_cancel = "ドライバーのインストール/アンインストールはOSが行います。\nWindowsのセットアップインターフェイスはドライバーの登録/解除に15分近くかかることがあります。\nまだ短時間しか経過していない場合には、このままキャンセルせずに待つことを強く推奨します。\n\n本当にキャンセルしますか？";
+query_driver_err_abort = "ドライバーのインストール中にエラーが発生しました。\n直ちにインストールを中断することを推奨します。\n\nインストールを続行することも可能ですが、テスト用途にとどめてください。\n%pは正しく動作しません。インストールを中断しますか？（推奨）";
+query_further_info = "詳細な情報をご希望ですか？";
+
+/ error messages
+err_driver_inst = "ドライバーをインストールできませんでした。";
+err_service_inst = "サービスをインストールできませんでした。";
+err_service_uninst = "サービスをアンインストールできませんでした。";
+err_daemon_start = "%?を開始できませんでした。";
+err_uninst_old = "既存バージョンをアンインストールできませんでした。OSを再起動してやり直してください。";
+err_os = "お使いのOSは%?です。\n\n%?を使うにはWindows2000/XP以上が必要です。";
+err_os_minxp = "お使いのOSは%?です。\n\n%?を使うにはWindows XP以上が必要です。";
+err_os_sup = "%p が公式サポートするのは %? 以上のみです。\n\n"
+             "%p がお使いのオペレーティングシステム %? で動作する可能性はありますが、弊社では確認を行っておりません。\n\n"
+             "インストールを続行しますか？";
+err_uninst_driver = "デバイスドライバーをアンインストールできませんでした。";
+err_create_process = "%sを開始できませんでした: %s";
+err_write_lock = "%?のネットワークコンポーネントが他のプロセスによって使用されています。他のプログラムをすべて終了させるか、システムを再起動してやり直してください。";
+err_file_auth = "いくつかのファイルがないか、破損しています。\n信頼できる %p のパッケージを入手してください (www.cfos.de からダウンロードするなど)。";
+err_cancel = "処理はキャンセルされました。";
+err_no32 = "32ビット用のドライバーは64ビットシステムにはインストールできません。\n\nOS: %?\n製品: %?";
+err_bad_keyfile = "キーファイルが壊れているか、無効です。"
+                  "有効なキーファイルを入手する方法を弊社までお問い合わせください。";
+err_bad_setup = "%p のインストールが不完全か、改ざんされている可能性があります。もう一度はじめから%pを再インストールしてやり直してください。";
+err_bad_signature = "パスワードが間違っているか、別のキーファイルのパスワードの可能性があります。このキーファイル用のパスワードを入力してください。";
+err_gdiplus =
+  "GDI +ライブラリが見つかりませんでした。\n\n"
+  "インストールを続行するにはGDI +ライブラリがインストールされている必要があります。\n"
+  "GDI +ライブラリはPlatform SDKの再頒布可能パッケージに含まれる形でマイクロソフトから\n"
+  "ダウンロードできます。ダウンロードしたインストールファイルを実行し、ファイル内容を解凍して任意の\n"
+  "<ターゲットディレクトリ>に置きます。次に、\n<ターゲットディレクトリ>\\asms\\10\\msft\\windows\\gdiplus 内の gdiplus.* ファイルすべてを\n"
+  "Windows\\system32 ディレクトリにコピーしてください。\n\n"
+  "[OK] をクリックするとマイクロソフトの該当ダウンロードページを開きます。\n"
+  "[キャンセル] をクリックするとインストールを中止します。";
+err_winhttp =
+  "WinHTTPライブラリが見つかりませんでした。\n\n"
+  "インストールを続行するにはWinHTTPライブラリがインストールされている必要があります。\n"
+  "通常、WinHTTPライブラリはオペレーティングシステムに含まれていますが、読み込めません。";
+bad_manufacturer = "インストールを開始できません。この製品は、特定のハードウェアに対してのみラインセンスされています。";
+cannot_install = "インストールできません";
+err_uninst_daemon =
+   "デーモンをアンインストールできません。"
+   "開いたままの %p ダイアログウィンドウがある場合は、先に閉じてください。"
+   "ない場合は、コンピューターを再起動してください。";
+err_activate_10045 =
+   "アクティベーション中にHTTPエラー10045が発生しました。\n"
+   "Winsockが壊れている可能性があります。\n"
+   "Winsockをリセットするには、コマンドシェルを開いて\n"
+   "'netsh winsock reset と入力します。\n"
+   "次に、コンピューターを再起動してから\n"
+   "アクティベーションを再試行してください。";
+err_activate_12002 =
+  "登録中にHTTPエラー12002 (要求のタイムアウト) が発生しました。\n"
+  "登録に必要な接続がファイアウォールやアンチウイルスプログラム、\n"
+  "その他のセキュリティソフトでブロックされている可能性があります。\n"
+  "この種のプログラムを使用している場合は、これらを一時的に無効化した上で\n"
+  "登録を再試行してください。\n";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "%1を%2にコピー中にエラーが発生しました (%3)。";
+err_port_in_use = "サーバーポート %? が他のプログラムで使用中です。\n\nプログラム: %?\nパス: %?";
+
+/ warning messages
+wrn_oem_update = "ライセンスずみの %p がすでにインストールされています。\n\n"
+  "現在、通常のシェアウェアバージョンをインストールしようとしています。このインストールを続行すると、\n"
+  "これまでのライセンスは使えなくなります。\n"
+  "従来の %p ライセンスの更新版は、該当するライセンスを最初に入手した場所から入手できます。\n\n"
+  "インストールを続行しますか？";
+wrn_close_application = "以下のアプリケーションを閉じてから続行することをお勧めします:";
+
+/ traffic shaping algorithm
+tsa_header = "帯域制御モード (マルチユーザー版)";
+tsa_subheader = "帯域制御アルゴリズムのデフォルト動作です。";
+tsa_info = "利用しているインターネット接続に合わせて帯域制御のデフォルト動作を選択してください。"
+           "この選択は後から接続ごとに決定することもできます。";
+
+/ vista warning
+vista_header = "インストールに関する注意";
+vista_subheader = "Windows Vistaでドライバーをインストールする場合は次の点に注意してください。";
+vista_warn_info = "%p はマイクロソフトのライセンスを受けているGlobalSign社によって電子署名が施されていますが、"
+ "cFos Software GmbHはマイクロソフトのWHQL認証プログラムには参加していません。これは同プログラムが高額なためです。"
+ "そのため、Windows Vistaではドライバーのインストール時にポップアップでドライバーソフトウェアの発行元を確認"
+ "できないとのメッセージが表示されます。\n\n"
+ "このウィンドウが表示されときは、\"このドライバー ソフトウェアをインストールします\"をクリックしてください。";
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+dun_wizard_name = "%p 接続ウィザード";
+connections = "接続";
+dun_subheader = "接続を設定します。";
+dun_with_bc = "cFos Broadband Connect を使用";
+dun_reenter_password = "パスワードを再入力してください";
+dun_list_tonline = "新しいT-Online接続";
+dun_new_connection = "新規接続を設定";
+dun_err_no_device = "%p デバイスが見つかりませんでした (通常、コンピューターの再起動後にデバイスを使用できます)。";
+
+/ e-mail registration dialog
+eml_header = "e-mail登録";
+eml_subheader = "cFosにe-mailアドレスを登録します。";
+eml_info = "e-mailアドレスをcFosに登録していただくと、%p の新バージョンが利用可能になったときに弊社からメーリングリストでお知らせします。";
+eml_info_optional = "ご登録いただいた場合にはcFosからのお知らせメーリングリストに追加させていただくと同時に、%p の新バージョンが利用可能になったことをお知らせします。お知らせメールの受信をご希望でない場合は、入力フィールドを空白のままにしてください。";
+eml_email = "e-mailアドレス：";
+eml_invalid_email = "入力されたe-mailアドレスが無効です。";
+eml_invalid_optional_email = "有効なe-mailアドレスを入力するか、空白のままとしてください。";
+eml_reg_failed = "e-mailアドレスを登録できませんでした。";
+eml_checking_domain = "e-mailのドメインを確認中です...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p 仮想Wi-Fi起動ウィザード";
+virtual_wifi_header = "仮想Wi-Fiの起動";
+virtual_wifi_subheader = "ソフトウェアベースの無線アクセスポイントを設定してインターネット接続の共有を有効化します。";
+virtual_wifi_info = "インターネットトラフィックのルーティングを行うネットワーク接続を選択し、無線アクセスポイントのパスワードを選んでください。";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "SSIDは空のままにはできません。また、最大で32文字とします。";
+virtual_wifi_invalid_password_length = "パスワードは8から64文字とする必要があります。";
+virtual_wifi_ics_not_available = "このコンピューターではインターネット接続の共有を利用できません。";
+virtual_wifi_error_get_cons = "ネットワーク接続の取得でエラーが発生しました。";
+virtual_wifi_ics_warning = "インターネット接続の共有が次のネットワークですでに有効化されています:\n%?\n\nこのネットワークの代わりに使用しますか:\n%?";
+virtual_wifi_error_enable_ics = "インターネット接続の共有の有効化でエラーが発生しました。";
+virtual_wifi_error_start = "仮想Wi-Fiの起動時にエラーが発生しました。";
+virtual_wifi_ok = "仮想Wi-Fiとインターネット接続の共有を有効化しました。\n\n注: クライアントが仮想Wi-Fiにうまく接続できないときは、仮想Wi-Fiを一旦停止し、再起動してください。\n\nクライアントが仮想Wi-Fiには接続できてもインターネットに接続できないときは、%p をアンインストールしてから再インストールしてください。";
+virtual_wifi_query_stop = "仮想Wi-Fiを停止しますか？";
+virtual_wifi_error_stop = "仮想Wi-Fiを停止できませんでした:";
+virtual_wifi_stopped = "仮想Wi-Fiを停止しました。";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
+cfos_orderurl = "https://www.cfos.de/ja/order/cfos-professional-n.htm";
+budget_file = "budget_e.cfhta";
+report_tpl = "report_e.tpl";
+invkey = "invkey_e.htm";
+aoltec = "techinfo\\aoltec_e.htm";
+cfos_htm = "techinfo\\cfos_e.htm";
+techinfo_htm = "techinfo\\techinfo_e.htm";
+dsldevice_help = "techinfo\\dsldev_e.htm";
+features_htm = "techinfo\\features_e.htm";
+
+testskin = "ウィンドウをテストする。";
+lastcallers = "電話をかけてきた人のリスト";
+clearlist = "リストを消去";
+ras_error = "ダイヤルネットアップワークがエラーを通知する。";
+pwd_error = "パスワードのエラー";
+check_dialup = "ダイヤルネットアップワーク接続をチェックしてください。";
+/ %1 = number of seconds, %2 = "late"/"early"
+sync = "ISDN時間同調: %1秒%2";
+isync = "時間は%1%2";
+
+late = "非常に遅い";
+early = "非常に早い";
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+max_drift = "%1秒の最大時差を超過する。（%2秒）";
+
+nosync = "ISDN時間同調:すべて問題なし。";
+nosyncreg = "ISDNの時間同調:完全バージョンのみ";
+inetsync = "インターネットの時間に設定する。";
+noinetsync = "インターネットの時間に設定する:完全バージョンのみ。";
+conrep = "接続状況報告";
+startserv = "%1のサービスがスタートしています。";
+stopserv = "%1のサービスが止まっています。";
+quit = "ステータスウインドウを終了します。";
+order_oem = "今すぐプロフェッショナルバージョンを購入します。";
+morefeatures = "多機能";
+upgrade_easy = "新しい%p・ドライバーをダウンロードする。";
+ipmtu = "ダイヤルネットアップワークのネット上での設定は最適な処理能力に変更されました。\n変更は再起動した後、有効になります。";
+closemsg =
+ "シェアウエアバージョンがまもなく終了することを早めに知ってもらうためこのウィンドウは開いたままになっています。\n\n"
+ "シフォス・プロフェッショナル　完全バージョンではこのウィンドウは自動的に閉じ、必要に応じたときにのみ開きます。\n"
+ "シフォス　ウィンドウをもしくはシフォス　タスクバーのシンボルを右クリックくるとすぐに注文に移動できます。";
+cfos_endsoon = "評価期間がまもなく終了します\nすぐに %p プロフェッショナル仕様を購入しましょう!!\nご購入は%p以下のページで \n\nhttps://www.cfos.de/ja/order/order.htm\n";
+cfos_expired = "この %p は評価期間がまもなく終了しました\n %p/プロフェッショナル仕様を購入しましょう!\nご購入は %p以下のページで at\n\nhttps://www.cfos.de/ja/order/order.htm\n\n電話番号: +49-228-7669826\nFax番号:  +49-228-7669827.";
+actionwait = "オンラインの状態になるとすぐに、選択された動作が機能します。";
+discask = "本当にこの接続を切りますか？";
+dial_warn = "%1の選択を認可しますか？";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+badvsn = "%1のために%pを使用しています。\n"
+         "登録はただし%2のみです。\n"
+         "https://www.cfos.de/ja/order/order.htm\n"
+         "のサイトでアップデートできます。\n\n"
+         "つい最近、注文された場合や\n"
+         "間違ったバージョンだった場合には、\n"
+         "https://www.cfos.de/ja/order/order.htm\n"
+         "にメールでお知らせください。\n";
+
+active = "動作を作動する";
+inactive = "動作を停止する";
+disabled = "電源を切る";
+setup = "設定";
+no_write =
+ "%pのデータには%1の書き込みが不可能です。\n\n"
+ "アドミニストレータの権利をもってCFOS.INI と GLOBAL.INIの書き換えをおこなってください。";
+oem_for = "%1のOEMバージョン";
+second = "秒";
+seconds = "秒";
+capi1 = "レベル１-エラー";
+capi2 = "レベル２-エラー";
+capi3 = "レベル３-エラー";
+capi4 = "不明なエラー";
+capi5 = "不明なエラー";
+capi6 = "分配されない";
+capi7 = "不明なエラー";
+capi8 = "使用中";
+capi9 = "返答なし";
+capi10 = "返答なし";
+capi11 = "拒否";
+capi12 = "新しい番号";
+capi13 = "間違った番号";
+capi14 = "不明なエラー";
+capi15 = "ISDNネット使用中";
+capi16 = "ISDNネット使用不可能";
+capi17 = "時間のエラー";
+capi18 = "ネットワークに負担がかかっている";
+capi19 = "ISDNネット使用中";
+capi20 = "ISDNネット使用中";
+capi21 = "Bearer Capなし";
+capi22 = "サービス使用不可能";
+
+report_title = "%p接続状況報告";
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
+
+/ dialog elements
+dlg_btn_back = "戻る";
+dlg_btn_cancel = "中断";
+dlg_btn_ok = "OK";
+dlg_btn_change = "変更";
+dlg_btn_next = "次へ";
+dlg_btn_end = "終了";
+dlg_btn_accept = "承諾";
+dlg_btn_decline = "拒否";
+dlg_inst_subheader = "%pはコンピュータに現在、インストールさています。";
+dlg_start_header = "インストール開始する。";
+dlg_end_dsl = "DSL接続を構成";
+dlg_end_isdn = "ISDN接続を構成";
+dlg_end_block = "ダイアラーなどによる怪しい電話番号からのブロック";
+dlg_oem_header = "%p・プロフェッショナル";
+adv_osna =
+ "%p・プロフェッショナルはISP（インターネット・サービス・プロバイダー）と利用してのみ使うことができる"
+ "特別DSLバージョンです。他の方法として%p・プロフェッショナルの30日間お試しバージョンを"
+ "インストールできます。次のダイアログ画面では表示される追加機能といった性能範囲を広げます。";
+dlg_oem_quest = "30日間のお試しバージョンをインストールしますか？";
+
+/ begin dialog
+dlg_title = "%pDSL/ISDNドライバー・セットアップ";
+dlg_bgn_header = "%pをインストール";
+dlg_bgn_dir_txt = "インストールリスト";
+dlg_bgn_dir_sel_title = "%pはインストールリスト選択しました。";
+dlg_bgn_dir_type_desc = "%p・インストールリスト";
+dlg_bgn_inst = "インストール";
+dlg_bgn_update = "アップデート";
+
+/ medium dialog
+dlg_med_header = "%p　モデムを選択";
+dlg_med_subheader =
+ "%pはDSLおよびISDN（ATM）を統一します。 "
+ "ひとつですべてのことができるのにどうしてドライバーをたくさん使う必要があるのでしょう？";
+dlg_med_isdn_box = "ISDN (CAPI 2.0)";
+dlg_med_dsl_box = "DSL (PPPoE ブロアドバンド・アクセス)";
+dlg_med_areacode_txt = "市外局番";
+dlg_med_msn_txt = "MSN (ISDN呼び出し番号):";
+dlg_med_netbt_txt = "理想的な処理能力のためにTCP/IP設定を適合させ、NetBIOS over TCP/IPの活動停止を奨励します。";
+
+/ com port dialog
+dlg_com_header = "%pはCOMポートを選択";
+dlg_com_subheader = "多くのCOMポートのサポートISDNおよびMulti-Linkとのチャンネル・バンベル。";
+dlg_com_txt = "COMポートを選択してください。";
+dlg_com_prefix = "COM";
+
+/ feature dialog
+dlg_fea_header = "%p・追加機能のセットアップ";
+dlg_fea_subheader = "ほかの特徴: 正確なチューニングのための50以上の命令100以上の登録";
+dlg_fea_param = "パラメータの追加（変更は不可能です。）";
+dlg_fea_spdts =
+ "コンピュータ上にはすでにシフォス　スピードが作動しています。\n\n"
+ "%p上のトラフック　シャーピングを有効しないことを奨励します。\n\n"
+ "%p上のトラフック　シャーピングをそれでも有効にしますか？";
+fs_chktimesync = "時間同期";
+fs_doctimesync = "時間はインターネットもしくはISDNのネットから自動的に引き継ぎます。";
+fs_chkfirewall = "ファイヤーウオール";
+fs_docfirewall = "ウイルスの脅威からPCを守ります。";
+fs_chktrafficshp = "トラフィック・シャーピング";
+fs_doctrafficshp = "（%pのトラフィック・シャーピングでさらに早くインターネットサーフィン）";
+fs_chkcallmon = "ISDN呼び出し画面";
+fs_doccallmon = "詳細な電話の表示。詳細はCFOSINI.HTMで";
+fs_chkdyncapi = "CAPIを必要する場合にダウンローする。";
+fs_docdyncapi = "デスクトップ使用者にはお勧めです。またCAPのネットワークの際には必要です。";
+
+/ uninstall dialog
+dlg_deinst_ok = "Ok";
+dlg_deinst_header = "%pをアンインストールします。";
+dlg_deinst_subheader = "%pはアンインストールされます。";
+
+/ configuration dialog
+dlg_cnf_header = "%p設定";
+dlg_cnf_subheader = "%pDSL/ISDNドライバーセットアップ\nhttp://www.cfos.de";
+dlg_cnf_dslisdn = "DSL && ISDN 設定";
+dlg_cnf_comports = "COMポート選択";
+dlg_cnf_features = "Featureセットアップ";
+dlg_cnf_dundsl = "DSL接続を構成";
+dlg_cnf_dunisdn = "ISDN接続を構成";
+dlg_cnf_block = "ダイアラーなどによる怪しい電話番号からのブロック";
+dlg_cnf_startmode = "スタートモデムを設定";
+dlg_cnf_icon = "トレイアイコンを起動する";
+
+/ startmode dialog
+dlg_smd_header = "%pのスタートモード設定";
+dlg_smd_subheader = "%pDSL/ISDNドライバーセットアップ\nhttp://www.cfos.de";
+dlg_smd_automatic = "自動的（システムをスタートする際には）";
+dlg_smd_manual = "マニュアル（ステータス画面について）";
+
+/ dial-up network dialog
+dlg_dun_header = "ダイヤルネットアップワーク接続";
+dlg_dun_header_dsl = "DSL接続";
+dlg_dun_header_isdn = "ISDN接続";
+dlg_dun_subheader = "ダイヤルネットアップワーク接続を設定してください。その際には、ログインの名前パスワードのすべてを正確でかつ完全に入力してください。";
+dlg_dun_phone = "電話番号のアクセス";
+dlg_dun_line = "局番号をふくめて（必要な場合において）";
+dlg_dun_showall = "すべての国を表示する";
+
+/ user connection dialog
+dun_usercon = "利用者の認識による接続の特徴";
+dun_with_cfos = "%pと";
+dun_fmt = "新しい%sの接続";
+
+/ dial-up network
+dun_err_modem =
+ "ダイヤルネットアップワーク接続を設定するに必要な\n"
+ "インストール済みの%p・モデムは\n"
+ "見つかりませんでした。\n";
+dun_err_invalid_name = "接続名は無効です。";
+dun_err_invalid_parameter = "登録されたパラメータのひとつは無効です。";
+dun_err_state_machine =
+ "ダイヤルネットアップワークの接続を\n"
+ "設定中のエラー695（State Machineは開始されていません。）\n"
+ "このエラーはダイヤルネットアップワークがインストールされていないと生じます。\n"
+ "この様な場合にはDUN (バージョン 1.3 もしくはそれ以上のバージョン)を\n"
+ "コンピュータにインストールしてください。\n";
+dun_err_ras = "ダイヤルネットアップワークの接続を設定している時の不明なエラー。";
+dun_legal_info =
+ "インストールプログラムのサービスでダイヤルネットアップワークの接続を\n"
+ "設定することを指示します。ダイヤルネットアップワークの接続では\n"
+ "ダイアルアップするそのつどインターネット・プロバイダー・サービス(ISP）に\n"
+ "更なる費用が生じます。プロバイダーの料金とアクセス情報（電話番号）の変更について"
+ "は、そのつどISPのｳｴｯﾌﾟサイトで知ることができます。\n"
+ "\n"
+ "%pが設定した接続では\n"
+ "ウィンドウズ・スタンダードとは異なり機能しない場合における動作に設定されました。\n"
+ "ダイヤルネットアップワーク上の接続すべてをチェックしてください。\n";
+country_0 = "現在のダイヤルネットアップワークの接続";
+country_49 = "ドイツ";
+
+/ phone number blocking dialog
+dlg_blk_header = "ダイアラーなどからの怪しい電話番号";
+dlg_blk_subheader = "高額な金額を要求するダイアラーからお守りします。";
+dlg_blk_off = "デアクティブな状態にする";
+dlg_blk_internet = "インターネット接続専用";
+dlg_blk_all = "すべての%p・モデム用";
+dlg_blk_block = "受信拒否の電話番号";
+dlg_blk_warn = "警告電話番号";
+dlg_blk_add = "追加";
+dlg_blk_del = "削除";
+dlg_blk_prefix = "局番号";
+dlg_blk_ask_pref =
+ "パソコンの中のISDNカードが\n"
+ "例えば電話やファックスといった機械のPBX【構内交換機】である場合には\n"
+ "局番号のみが必要です。\n"
+ "反対にISDNカードが直接NTBAと共に電話局に接続された場合には、\n"
+ "局番号は申告されません。\n"
+ "独自の局番号を\n"
+ "持ちたいですか？";
+dlg_blk_ras = "すべてのダイヤルネットアップワークの接続";
+dlg_blk_doublechk = "ダブルチェック";
+dlg_blk_doublechk_help =
+ "電話番号を局番号なしでチェックしたい場合は、\n"
+ "ダブルチェックをアクティブな状態にしてください、\n"
+ "コンピュータに付随されたデバイスが\n"
+ "局番号をつけて、また一部では局番号なしで\n"
+ "ダイヤルネットアップワークの接続を行う場合のみ、\n"
+ "アクティブな状態にする必要があります。";
+dlg_blk_legalinfo =
+ "シフォス・ウオッチとシフォスは次のことからは保護できません。:\n"
+ "ISDNカードもしくはアナログ形式モデムをすでにインストールし\n"
+ "スイッチを入れている場合には\n"
+ "電話、Faxやモデムなどの最後のデバイスを介してダイアラーなどからの\n"
+ "怪しい電話番号がダイヤルされた可能性があります。\n"
+ "シフォスもしくは\n"
+ "ダイヤルネットアップワークの接続に関することで何もなかった場合\n"
+ "（他のメーカのソフトウエアが独自のルータを使用中に\n"
+ "データではなく、言語もしくはデータ接続が構成する場合。）\n"
+ "シフォスもしくはシフォス・ウオッチのものでない電話番号を\n"
+ "チェックすることができません。\n"
+ "その場合には電源コードを抜く必要があります。\n"
+ "（モデムの電源を切る）同様に電話やシフォスこの場合では\n"
+ "シフォス・ウオッチがインストールされていない他のPCには\n"
+ "当然のことながら保護はありません。\n"
+ "確実にかつ安全に進めようと思っている方は、\n"
+ "ドイチェテレコムでダイアラーなどからの怪しいすべての電話番号の接続を\n"
+ "停止してもらうことができます。\n"
+ "しかしこのサービスを受けるには費用がかかります。\n"
+ "さらにシフォス、シフォス・ウオッチの保護装置はシフォス、\n"
+ "シフォス・ウオッチ上ないしドライーバシステム、他のソフトウエア上では\n"
+ "100％の効果を発揮できないことにたいしては\n"
+ "責任を負いかねます。原則的には、シフォス・ウオッチと同じ保護プログラムを\n"
+ "回避やアクティブな状態を停止する可能性があるからです。\n"
+ "\n"
+ "このテキストはシフォス・リストにある0190.TXTのデータ上にも保存されます。\n";
+
+/ password dialog
+dlg_pwd_header = "パスワード入力";
+dlg_pwd_subheader = "ライセンスキーは個人のライセンスデータと含んでいます。第三者の手に渡すことは禁止されています。";
+dlg_pwd_password = "パスワード";
+dlg_pwd_info =
+ "これは%pのライセンスのデータです。\n\n"
+ "連続番号:\t%s\n"
+ "名前:\t%s\n"
+ "住所:\t%s\n"
+ "場所:\t%s\n"
+ "Eメール:\t%s\n\n"
+ "クリップボードにパスワードを入れてください。"
+ "パスワードはEメールで通達されたか、あるいはパソコンに入力されました。";
+dlg_pwd_bad =
+ "パスワードは正しくないです、もう一度新しく入れなおしてください。\n\n"
+ "Eメールでパスワードを入手する場合には、一番簡単な方法としては\n"
+ "コピーペーストでクリップボードにパスワードを張りつけてください。\n";
+
+/ progress dialog
+pr_wait = "お待ちください。";
+pr_go = "開始";
+pr_chk_sw = "ソフトウエアを検査しています。";
+pr_unreg_old_drv = "古いドライバーの使用中止を届けています。";
+pr_inst_new_drv = "新しいドライバーをインストールしています。";
+pr_unreg_drv = "ドライバーの登録を取り消しています。";
+pr_reg_drv = "ドライバーを登録しています。";
+pr_rm_group = "プログラムグループを削除しています。";
+pr_cr_group = "プログラムグループを設定しています。";
+pr_rm_inf = "INFのデータを削除しています。";
+pr_rm_prod = "製品データを削除しています。";
+pr_del_files = "古いデータを消去しています。";
+pr_cpy_files = "データをコピーしています。";
+pr_rm_ports = "接続を切断しています。";
+pr_rm_obs_ports = "古い接続を切断しています。もうしばらくお待ちください。";
+pr_rm_modems = "モデムを削除しています。";
+pr_rm_obs_modems = "古いモデムを削除しています。もうしばらくお待ちください。";
+pr_add_pm = "接続とモデムを追加しています。";
+pr_add_ports = "新しい接続を追加しています。もうしばらくお待ちください。";
+pr_add_modems = "新しいモデムを追加中です、もうしばらくお待ちください。";
+pr_clean_up = "削除しています。";
+pr_start_drv = "スタートドライバー";
+pr_dun_modems = "ダイヤルネットアップワーク接続上のモデムの名前をチェックしています。";
+pr_inst_ras = "Windows RASをインストールしています。";
+pr_inst_dun = "Windowsダイヤルネットワークをインストールしています。";
+pr_restart_point = "復旧ポイントを作成しています。";
+
+/ ISDN late install
+late_ask =
+ "AOLがISDNのデバイスをコンピュータ上で見つけました。\n"
+ "AOL専用ISDNサポート(%pOEM)をインストールしますか？\n\n"
+ "ISDNサポートを今すぐインストールするために「はい」をクリックしてください。\n\n"
+ "ISDNサポートを後でインストールするなら「いいえ」をクリックしてください。\n\n"
+ "ISDNサポートをインストールする必要がなく\n"
+ "つづけて要求がない場合、「中断」をクリックしてください。";
+late_instnever_confirm =
+ "注意”「中断」を選択しました。AOLのISDNサポートをインストールしませんでした。\n"
+ "ISDNではオンラインに入れない可能性があります。\n"
+ "AOLをISDNで使用したい場合ISDNサポートを\n"
+ "アクティブな状態にすることお勧めします。\n\n"
+ "ISDNサポートをインストールしますか？";
+
+/ DSL late install
+late_dsl_ask =
+ "AOLはコンピュター上でDSLデバイスを見つけました。\n"
+ "AOL用のDSLサポート（%pOEM)）をインストールしますか？\n\n"
+ "DSLサポートを今すぐインストールするために「はい」をクリックしてください。\n\n"
+ "DSLサポートを後でインストールするなら「いいえ」をクリックしてください。\n\n"
+ "DSLサポートをインストールする必要がなく他に要求がない場合\n"
+ "「中断」をクリックしてください。";
+late_dsl_instnever_confirm =
+ "注意”「中断」を選択しました。AOLのDSLサポートはインストールされません。\n"
+ "DSLでオンラインの状態にできない可能性があります。\n"
+ "AOLをDSLで使用したい場合、DSLサポートをアクティブな状態にすることをお勧めします。\n\n"
+ "DSLサポートをインストールしますか？";
+
+/ modem registration
+regmdm_error =
+ "モデムを登録する際にエラーが生じました。\n\n"
+ "詳しい情報はウインドウ・リスト上の\n"
+ "プロトコールデータのCFSETUP.TXTから\n"
+ "入手してください。";
+regmdm_unregerror =
+ "モデムをデバイスリストから削除する際にエラーが生じました。\n\n"
+ "詳しい情報はウィンドウ・リスト上の\n"
+ "プロトコールデータのCFSETUP.TXTから\n"
+ "入手してください。";
+regmdm_raserror =
+ "RASデバイス(Remote Access Service)としてモデムを\n"
+ "設置する際にエラーが生じました。\n\n"
+ "詳しい情報はウィンドウ・リスト上の\n"
+ "プロトコールデータのCFSETUP.TXTから\n"
+ "入手してください。";
+regmdm_unraserror =
+ "RASデバイス(Remote Access Service)としてモデムを\n"
+ "アンインストールする際にエラーが生じました。\n\n"
+ "詳しい情報はウィンドウ・リスト上の\n"
+ "プロトコールデータのCFSETUP.TXTから\n"
+ "入手してください。";
+lastrasdevice_error =
+ "登録されたRASデバイス(Remote Access Service)は一つしかないので\n"
+ "モデムを削除することができません。\n\n"
+ "説明:\n"
+ "Windows NT環境下では、すでにRASデバイスがすくなくとも登録されている必要があります。";
+getmdmlist_error =
+ "使用可能モデムのリストを\n"
+ "作成することができません。\n\n"
+ "詳しい情報はウィンドウ・リスト上の\n"
+ "プロトコールデータのCFSETUP.TXTから\n"
+ "入手してください。";
+regport_error =
+ "ポート登録する際にエラーが生じました。\n\n"
+ "詳しい情報はウィンドウ・リスト上の\n"
+ "プロトコールデータのCFSETUP.TXTから\n"
+ "入手してください。";
+regport_unregerror =
+ "ポートをデバイスリストから削除する際に\n"
+ "エラーが生じました。\n\n"
+ "詳しい情報はウィンドウ・リスト上の\n"
+ "プロトコールデータのCFSETUP.TXTから\n"
+ "入手してください。";
+
+/ tip of the day
+totd_title = "%p　今日のヒント";
+totd_show = "このウインドウはこれ以上表示しません。";
+totd_didyouknow = "すでにご存知でしたか？";
+totd_nexttip = "つぎのヒント";
+
+/ OEM versions tips (additional to the regular tips)
+totd_oem =
+ "完全なパフォーマンス状態でISDNとDSL接続を利用するなら、"
+ "%pの最新バージョンを完全バージョンへとアップグレートすることができます。"
+ "詳しい情報はwww.cfos.deで";
+
+/ regular tips
+totd1 = "%pのトラフック・シャーピングはアップ・ダウンロードの速度を速めます。"
+   "インターネットへの多くの接続が仮にあったとしても、接続時間の状況を改善し、返答時間を短くします。"
+   "%p・ファイヤーウォールはインターネットからのコンピュータウイルスによる攻撃を防ぎ、これらの脅威からPCを守ります。"
+   "安全の基礎として%pのファイヤーウォールをご使用ください。"
+   "バージョンアップしているファイヤーウォールには変換できませんが、初期段階では有効です。他のファイヤーウォールも使用して作業が行えます。";
+totd2 = "%pでウィンドウズ・システムのもと通常のドライバーよりも三倍早くインターネットにログインできます。"
+   "%pはハイスピードログインを可能にします。";
+totd3 = "%pのラインスを所得している場合には、次回からすべてのバージョンを開くことができます。"
+   "www.cfos.deから最新のシェアウエアをダウンロードして、アンインストールをしないで、使用許可のバージョンの上にインストールしてください。"
+   "設定が実行されました。新しいバージョンを使用できます。";
+totd4 = "%pはスキン作成をお手伝いします。つまり自分の思うままにステータス・ウインドウの外見を設定できます。"
+   "スキンの設定のやり方についての説明はSKIN.HTM.のデータのなかに書かれています。";
+totd5 = "DSLモデムにブレーカがない場合、コンセントに挟んでください。"
+   "デバイスは多くの電気を消費しますので、経済面、環境面において負担がかかります。";
+totd6 = "マウスの右クリックで%pの画面を押すと、%pのコンテクスト・メニューが表示されます。そこにはヘルプや画面設定といったものがあります。"
+   "%p・シンボルをダブルクリックすると%p画面を開けたり閉じたりできます。";
+totd7 = "追加機能ではコンピュータの時計はいつもインターネットもしくはISDNの"
+   "時間に設定されます。そのため時計の時間はいつも正確です。ステータスウインドウの"
+   "%p・構成をクリックして、そのあとに追加機能のセットアップをクリックし時間同調を選択してください。";
+totd8 = "誰から電話がかかってきているのか知りたいとおもいませんか？"
+   "追加機能にある電話画面を起動させると、%pの画面には電話をかけてきた人の電話番号が表示されます。"
+   "電話はLOGFILE.TXTのデータに登録され、電話をかけてきた人によって一定のWAVデータを流すことができます。"
+   "CFOSINI.HTMを見てもらえばすべての情報が手に入ります。";
+totd9 = "多くのプロバイダーは毎月一定の期間においてインターネット接続無料のサービスを行っています。"
+   "%pの予算管理では何時間まだフリーなのか簡単に知ることができます。"
+   "ヘルプをご覧ください。%pはデータの量にかかる予算もまたサポートしています。";
+totd10 = "%pはデータが転送されなかった場合には、'n'秒後、使用者の要望に応じてインターネット接続を自動的に切断します。"
+   "よって電話料金を低料金に抑えることができます。%p・モデムが動いていない時間を記入してください。"
+   "（設定―接続―次へ―その他,そこにはATS86（電話機を置いてから秒後の際には）";
+totd11 = "%pのステータス・ウインドウでは最新の転送速度が見られます。%pのシンボルはデータの受信・送信を表示します。"
+   "%pは特別な要求に応じてチューニングをよりよいものにするためにおよそ100以上のモデム登録が自由にできます。"
+   "MODEM.TXTではモデム登録、コマンドすべての内容が文章にされています。"
+   "コンテキスト・メニューにあるヘルプをクリックしてそのあと、MODEM.TXTをクリックしてください。";
+totd12 = "Eメールで購読できる%pへのディスッカショングループがあります。"
+   "このグループの入会については%url/cfos-professional/update.htm.を参照ください。"
+   "アカウント・リストに登録すると、新しいバージョンが出るそのつどメールが送られてきます。";
+totd13 = "WHATSNEW.TXTのデータ上に新しいバージョンが追加され、更新されたすべてのものが見つかりました。"
+   "コンテクスト・メニューの「ヘルプ」、その後「WHATSNEW.TXT」をクリックしてください。";
+totd14 = "サポートチームが助言および行動を持ってお助けします。"
+   "%url/contact/contact.htmにeメールでお知らせください。";
+totd15 = "%pはLotus Notes【ロータスノーツ】をサポートします。添付されているLOTUS_CF.MDMのモデム・データを見てください。";
+totd16 = "C.F.O.S.はCreatures from Outerから来ているおそれがあるだろうとも言われています。「スペース」一致しません!"
+   "DOS環境下のもとISDNスタンダードのCAPIとFOSSILが逐次のインターフェースである際には、CAPI-FOSSILが原因となります。";
+
+/ directory creation
+dir_badname = "目標ディレクトリーはすでに現在のデータに存在しています。";
+dir_create = "%sのリストには存在していません。\nリストを作成しますか？";
+dir_create_error = "%sのリスト作成に失敗しました。\nエラー:%s";
+dir_cd_error = "%sのリスト変更に失敗しました。(r=%d).";
+dir_nooverwrite =
+ "希望するリストにデータを上書きすることができませんでした。\n"
+ "インストールするためにほかのリストを選択してください。\n";
+dir_notnuffree =
+ "%には十分なディスクスペースがありません。\n"
+ "必要：%luバイト\n"
+ "空き：%luバイト\n\n"
+ "インストール用にほかのハードディスクを選択してください。";
+dir_baddir = "リスト上には呼び出すことができません。\n新しいリストを入力してください。";
+
+/ com port messages
+com_need1 =
+ "少なくともCOMポートを選択してください。\n\n"
+ "さらにCOM ポート選択にチェックすることができます。\n"
+ "もしくは、(COM9をこえるポートの場合)「追加機能」の\n"
+ "「追加パラメータ」の行に名前を記入できます。";
+com_teles =
+ "TELES.VCOMMによって確保されたCOM ポートを現在、選択しました。\n\n"
+ "%pを使ってこのポートが使用できるためにTELES.VCOMMを\n"
+ "つぎのやり方で構成してください。\n"
+ "スタート―設定―コントロールパネル―TELES ISDNとクリックしてください。\n"
+ "モデムだけをクリックしてCOMポートを必要とするポートが\n"
+ "空くように設定してください。\n"
+ "設定を有効にするためにコンピュータを再起動する必要があります。";
+com_rvscomnt =
+ "RVS-COMにより確保しえたCOMポートを選択しました。\n"
+ "次の変更がすでに終了されている場合、「Ok」をクリックしてください。\n\n"
+ "%pを使ってポートを使用できるようにするためには、RVS-COMドライバーを\n"
+ "つぎのやり方で停止してください。\n"
+ "スタート―設定―コントロールパネル―デバイスとクリックしてください。\n"
+ "RVSバーチャル COMポートのデバイスリストから探し出して、\n"
+ "「終了」をクリックしてください。\n"
+ "今すぐに「スタートアップ」―「マニュアル」―「Ok」―「閉じる」の順で\n"
+ "クリックしてください。\n"
+ "設定を有効にするためにコンピュータを再起動させる必要があります。";
+com_rvscom95 =
+ "現在RVS-COMにより確保されたCOMポートを選択しました。\n\n"
+ "%pを使ってこのポートを利用できるようにするためにVRVSPORTドライバーを\n"
+ "アンインストールもしくは削除する必要があります。この作業を\n"
+ "ハードウエア・マネージャで試してください。\n";
+
+/ installation
+install_ask =
+        "インストールリスト\n"
+        "   %s"
+        "%s"
+        "%s"
+        "%s\n"
+        "\n"
+        "COMポート:%s\n"
+        "\n"
+        "パラメータ:\n"
+        "   %s\n"
+        "\n"
+        "インストールを開始しますか？";
+inst_dsl_on = "\n\nDSLサポート:\n   有効";
+inst_msn = "\n\n電話番号:\n   ";
+inst_ok = "インストールに成功しました.\n\n";
+inst_hypertrm =
+ "Hyperterminalの古いバージョンはパソコン上で見つかりました。"
+ "このバージョンは%pのような新しいシリーズのドライバーに関する問題だと"
+ "認識されました。訂正バージョンHyperterminal Personal Editionを"
+ "http://www.hilgraeve.comからダウンロードできます。"
+ "セットアップでは%pのプログラム・グループ内リンク情報を提供します。";
+inst_norights =
+ "%pを（アン）インストールするための必要な権利を持っていません。\n"
+ "%pを（アン）インストールするための権利を必要とします。\n"
+ "アドミニストレータとして再び通知し、その後セットアップを更新してください。";
+inst_scm_noopen =
+ "サービス・メッセンジャーを開く際のエラー。\n"
+ "作業を続けるために必要な権利を完全に保持していないおそれがあります。\n"
+ "使用中止を届けだしてください。再度、アドミニストレータとしてセットアップを再起動してください。\n\n"
+ "%s上のデータ";
+inst_mtuchanged =
+ "理想的な処理能力にするためにダイヤルネットアップワーク上の設定を変更しました。"
+ "次の再起動の後に変更が有効になります。\n\n";
+inst_rmmodem =
+ "新しい%p・バージョンには新しいモデムバージョンの設定がついているので、"
+ "%p・モデムはインストールにより削除されました。"
+ "モデム・マネージャをスタートして、インストールされたモデムを"
+ "チェックした後、不足しているモデムを手動インストールしてください。\n\n";
+inst_reboot =
+ "インストールを続けるために\n"
+ "ウィンドウズを再起動させる必要があります、";
+inst_runonce =
+ "コンピュータの再起動後、\n"
+ "インストールは続行されます。";
+inst_winpoet1 =
+ "DSLおよびWinPoET用の%pをインストールしました。"
+ "WinPoETを停止する必要があります。もしくは直接WinPoETを"
+ "終了するため、%pとの接続を構成する必要があります。";
+inst_winpoet95 = "WinPoETを停止するためにWinPoETタスクバーアイコンをマウスで右クリックして、シャットダウンを選択してください。\n\n";
+inst_winpoetnt =
+ "WinPoETを停止するためスタート―設定―コントローラパネル―サービスを選択しWinPPPoverEthernetのサービスの"
+ "利用を停止してください。\n\n";
+inst_winpoetall = "WinPoETを停止するためサービスマネージャをスタートしてWinPPPoverEthernetのサービスを停止してください。\n\n";
+inst_closeports =
+ "COMポートが使用中であるため、セットアップは続行できません。\n"
+ "ポートを閉めて、\n"
+ "「はい」もう一度試す。"
+ "「いいえ」それにもかかわらず続ける。（再起動の必要があります。）\n"
+ "「中断」中断する"
+ "のどれかをクリックしてください。\n";
+inst_mdmrename_list =
+ "次の%p・モデムは変更されました。"
+ "モデムを使用するそのつどすべてのプログラム"
+ "また同様にダイヤルネットアップワーク接続に新しい名前を記入してください。\n";
+inst_mdmrename_entry = "%sポートの%sにある%s\n";
+inst_mdmremove_list =
+ "次の%p・モデムは削除できませんでした。"
+ "すべての%p・モデムはモデム・マネージャとともに後から手動インストールできます。"
+ "他のすべてのプログラム上にあるこのモデムを使用する事項と"
+ "そのつどダイヤルネットアップワーク接続を変更してください。\n";
+inst_mdmremove_entry = "%sポートの%s\n";
+
+/ foo messages
+foo_openerror = "%sを開くことができません。:%s";
+foo_testbad = "アーカイブ・テストのエラー。\nセットアップは続行できません。";
+foo_badarc = "アーカイブの解凍に失敗。\nセットアップは続行できません";
+foo_test = "アーカイブのテスト、お待ちください。";
+foo_extract = "データを解凍、お待ちください。";
+foo_nodriver = "%sのデータ・ドライバーを見つけることができません。%sのエラー";
+
+/ uninstallation
+deinst_nocfos = "%pは存在しません。";
+deinst_notthis = "%pのバージョンはアンインストールできません。";
+deinst_ask = "\n\nアンインストールを開始しますか？";
+deinst_ok = "アンインストールは成功しました。\n";
+deinst_askfiles = "以下の%pのデータファイルはまだ存在します。\n\n";
+deinst_askfiles2 = "\nこのファイルを消去しリストを削除しますか？";
+deinst_askfiles3 = "%sのリストのアンインストールをする際\nセットアップでは以下のファイルを見つけました。\n\n";
+
+/ configuration messages
+conf_nocfos = "構成するための%pが見つかりませんでした。";
+conf_discard = "今までの設定は保存されませんでした。\n今すぐ、保存しますか？";
+conf_ok_noboot = "構成が変更され、アクティブな状態になりました。\n%pが再起動されました。";
+conf_ok_boot = "構成が変更されました。\n設定を有効にするためにウィンドウズを再起動する必要があります。";
+conf_no_capi16 =
+ "CAPI.DLL, CAPI20.DLLもVxD-CAPI 2.0も見つかりませんでした。\n\n"
+ "%p/WinはCAPIドライバーが必要です。\n"
+ "最初にCAPIドライバーをインストールしてください。\n"
+ "その後、%pのセットアップを再起動してください。";
+conf_no_capi32 =
+ "有効なCAPI 2.0ドライバーを見つけることができません。\n"
+ "CAPIドライバーをインストールして起動させてください。";
+conf_no_comport = "空きのあるCOMポートを見つけられませんでした。";
+conf_wrong_os = "DLLが間違ったドライバーシステムを通知しています。";
+conf_syserror = "システムもしくは内部のエラーです。\n%sを読んでください。";
+conf_some_error = "DLLエラー%d";
+conf_wait = "設定を書き換えてください。";
+
+/ program group
+group_order_inet = "購入詳細 %p";
+group_order_oem = "%p・追加ドライバーをダウンロードする。";
+group_conf = "%pを構成する。";
+group_deinstall = "%pをアンインストールする。";
+group_doc = "%pのドキュメント";
+group_wwwcfos = "www.cfos.de";
+group_hypertrm = "Internet Hyperterminal";
+group_dun_dsl = "DSL接続を追加する。";
+group_dun_isdn = "ISDN接続を追加する。";
+group_num_block = "ダイアラーなどによる怪しい電話番号からのブロック";
+
+/ registration
+tkey_notfound =
+ "%sのトランスポートデータは見つかりませんでした。\n"
+ "%pのセットアップがあるリストにデータをコピーしてください。\n"
+ "セットアップを再起動してください。\n";
+tkey_bad =
+ "%p・キーをインストールした際の問題。\n"
+ "%sのファイルを削除してください。\n";
+tkey_ok_reboot =
+ "%p・キーをインストールするのに成功しました。\n\n"
+ "現在、このプログラムは%sに登録されています.\n"
+ "シリーズ番号:%s\n\n"
+ "キーを有効にするために\n"
+ "今すぐ%pもしくはコンピュータを再起動させる必要があります。";
+tkey_ok =
+ "%p・キーのインストールには成功しました。\n\n"
+ "現在、このプログラムは%sに登録されています.\n"
+ "シリーズ番号: %s\n\n"
+ "%p使ってお楽しみください。";
+tkey_filebad =
+ "トランスポートデータは不完全です。\n"
+ "完全なコピーを取得するために\n"
+ "%url/contact/contact.htmを参考にしてください。\n";
+tkey_inst =
+ "%pを最初にインストールし、そのあとキーを挿入する必要があります。\n"
+ "今すぐ、%pをインストールしますか？\n"
+ "（「いいえ」を選択すると、セットアップは中断されます。)";
+tkey_abort = "ライセンスは承諾されず、登録は中断されます。";
+
+/ miscellaneous
+bugs =
+ "注意:これは%pの新しいバージョンのひとつであるBETAバージョンです。\n\n"
+ "重大なエラーを含んでいるおそれがあります。\n"
+ "作業を進め、このバージョンをコントロールする前に、\n"
+ "安全のために重要なデータすべてをコピーしてください。\n"
+ "安全のためにコピーをとっていないのなら、\n"
+ "今すぐ「中断」をクリックしてデータを確保してください。\n"
+ "それ以外はセットアップを始めるために「OK」をクリックしてください。";
+type_choice = "インストールするために%pを選択してください。";
+button_ok = "&Ok";
+ask_reboot =
+ "変更を有効にするためにウィンドウズを再起動してください。\n\n"
+ "今すぐ再起動しますか？\n";
+lic_bad =
+ "ライセンス条件のファイルを解凍することができませんでした。\n"
+ "つづけてインストールを行うことができません。";
+inst_eventvwr =
+ "イベント・ログが開始されました。イベント・ログがアクティブな間は\n"
+ "インストールを続行することができないので状況表示を閉じてください。\n";
+inst_already = "すでに%pのポート'%s'をインストールしました。\n";
+inst_toinstall = "インストールされました。";
+inst_aol_over_cfi =
+ "%pのAOLバージョンのインストールを望んでいますが、\n"
+ "%pの他のOEMはすでにインストールされています。\n"
+ "インストールの際には他のOEMへの接続が遮断されるおそれがあります。\n"
+ "よって%pのシェアウエア・バージョンを\n"
+ "%url/oem/oem.htmからダウンロードすることをお勧めします。\n"
+ "このバージョンではすべてのOEMとの接続を可能にし、\n"
+ "現在インストールされた新しいバージョンです。";
+inst_cfi_over_aol =
+ "%p・バージョンのOEMのインストールを望まれますが、\n"
+ "すでに%p・バージョンのAOLをインストールされています。\n"
+ "インストールによってAOLの接続は遮断されるおそれがあります。\n\n"
+ "最新の%p・バージョンを\n"
+ "%url/oem/oem.htmからダウンロードすることを\n"
+ "お勧めします。このバージョンではすべてのOEMとの接続を可能にし、\n"
+ "現在インストールされた新しいバージョンです。";
+inst_raspppoe =
+ "RASPPPoEをインストールされているようです。RASPPPoEは現在すべての%p・データブロック用に状況表示上に登録するように設定されています。"
+ "スイッチを切るためにRASPPPoE プロトコルにすすみ、設定、Advancedを選択し、警告のプロトコルを遮断してください。"
+ "これらのことはRASPPPoEの機能には支障をきたしませんが、イベント・ログを小さくしたり、早くしたりすることはできません。";
+dll_found = "つぎの%p・バージョンを見つけました。\n\n";
+dll_founddir = "リスト上";
+dll_replace = "\n続行する場合には、このバージョンに交換されます。";
+features_bad = "FEATURES.HTM/FEAT_E.HTMの解凍に失敗しました。";
+general_error =
+ "インストールの際に問題が生じました。\n\n"
+ "引き続いて\n%sのファイルで情報を手に入れてください。";
+
+/ Don't translate!
+/ END SECTION: don't translate
+

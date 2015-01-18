@@ -1,0 +1,609 @@
+#language 1256
+#fallback 1033
+#charset 0
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Farsi";
+language_local = "Farsi";
+htm_lang_prefix = "fa";
+
+/ ----------------------------------------------------------------------
+/
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+renew_params = "تجدید پارامتر ها";
+dlg_dun_auto = "اتصال خودکار";
+dlg_dun_default = "اتصال پیش فرض";
+dlg_dun_cons = "حساب های اتصال";
+dlg_dun_name = ":نام اتصال";
+dlg_dun_uname = "User name:";
+dlg_dun_pwd = "Password:";
+dun_connect_to = "اتصال به %?";
+dun_err_already_exists = ".نام تلفن وارد شده پیش از این وجود داشت";
+disconnect = "قطع اتصال ";
+
+/ connection entry dialog
+con_err_save = "ناتوان در ذخیره اطلاعات اتصال";
+con_ipv4 = "IPv4";
+con_ipv6 = "IPv6";
+con_private_address = ":آدرس اختصاصی";
+con_prefix = ":پیشوند";
+con_dns1 = "DNS1:";
+con_dns2 = "DNS2:";
+con_enabled = "مقدور";
+
+/ pnet configuration dialog
+
+/ pnet start type dialog
+
+/ pnet context menu entry
+
+/ pnet backup info
+
+/ pnet
+
+/ pnet connectivity test
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+mainurl_name = "www.cfos.de";
+
+
+component_mismatch = "بين اجزاء اين برنامه يک ورژن مغاير وجود دارد ، لطفا آخرين ورژن جديد را دوباره نصب کنيد ";
+trayicon_tip = "اينترنت سريعتر با شکل دهي ترافيک, www.cfos.de";
+speed_endsoon = "دوره ي آزمون شما به زودي به پايان مي رسد! لطفا سفارش بدهيد %1 امروز";
+order_info = "بخر الآن:\nInternet: www.cfos.com\nBy phone: +49-228-7669826";
+badkey = "يک مشکل با شماره ي جواز است.\nلطفا دوباره شماره را به وسيله ي دو بار کليک بر روي برنامه ثبت کننده نصب کنيد,شما چه دريافت کرديد به وسيله ي ايميل با گرده ي کوچک.";
+no_setup = "قادر به شروع نصب نيست(setup.exe).";
+ask_disconnect_ras = " يک جريان فعال شبکه اتصال درحال باز تنظيم کردن هست .\nپيشنهاد مي کنم که شما قبل از ادامه اتصال را قطع کنيد .\nآيا اتصال شبکه را قطع مي کنيد ؟ ";
+sygate_hint = "%p اسپاي گيت فاير وال پيدا کرده ، که اشتباه ها \n%p درجه بندي نبض براي رد سرويس افند با\n\"صداي غژ-براي-مرگ\" بسته ها\nبنابر اين شما بايد انجام بدهيد دانلود و سپس آپلود با تمام \nسرعت براي حدود 30 ثانيه ، بترتيب. اين بايد سنجيده شود\n%p مانند سنجيدن نبض. .\n\nتذکر: کارکرد-فايروال \"ضد دستکاري آي پي \" بايد باشد\nغير فعال.";
+select_language = "انتخاب زبان";
+translator = "مترجم";
+translator_name = "Mohammad Salmani";
+translator_msg = "Salmani.mohammad@gmail.com";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "جواز %3 شما تمام شده در %1 %2.";
+
+service_desc = "اجرا کردن رکورد اندازه گيري و قابل استفاده ي ممتاز براي%p";
+no_pings_error = "پک هاي پينگ فرستاده شدند به وسيله ي%p به نظر نمي آيد که تمام رسيده باشند. بدون آن ها را ، %p شکل دهي ترافيک نمي تواند شايسته باشد. براي راهنمايي اين جا کليک کنيد";
+other_languages = "زبان هاي ديگر";
+install_dir = "مسير نصب: ";
+allow_traffic_shaping = "آيا شکل دهي ترافيک براي اين اتصال باشد ";
+none = "هيچ";
+lic_expired = "دوره ي آزمون شما تمام شده. %1 الآن بي اثر سازي شد.  بخرید %1 امروز";
+settings = "تنظيمات";
+winsettings = "تنظيمات پنجره";
+openwindow = "باز کردن پنجره";
+openwindows = "باز کردن پنجره ها";
+closewindow = "بستن پنجره";
+closewindows = "بستن پنجره ها";
+autoopen = "باز کردن خودکار/پنهان کردن خودکار";
+taskbaricon = "تصوير نوار وظيفه";
+autoarrange = "چيدن خودکار پنجره ها";
+effects = "افکت ها";
+blend_effect = "محو شدن پنجره ها";
+slide_effect = "سر خوردن پنجره ها";
+win_behaviour = "استفاده از وضع سيستم";
+selectskin = "انتخاب پوسته";
+topmost = "هميشه در جلو(رو)ا";
+defpos = "وضعيت پيش فرض";
+disco_ras = "خروج ازسيستم ";
+config = "تنظيمات";
+order = "الآن بخر";
+dayl_singular = "روز";
+dayl_plural = "روز ها";
+days_singular = "روز";
+days_plural = "روز ها";
+/ %1=number, %2="day/days"
+short_try = "سعي کردن براي %1 %2";
+short_dexpire = "سپري %1 %2";
+
+short_exp = "سپري";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "دوره ي ارزيا بي شما سپري شده براي %1 %2. بخرید  %3 امروز";
+lic_try = "شما ممکن است سعي کنيد %3 براي %1 %2 خريدن الآن و قبلا.";
+
+enable_win = "آيا پنجره ي وضعيت فعال باشد ؟\n\nپنجره ي وضعيت ،وضعيت اتصال فعال شما را نشان مي دهد";
+license = "جواز ";
+licensed_to = "جواز به نام %?";
+upgrade = "گرفتن ورژن جديد برنامه";
+connect_to = "وصل شدن به";
+make_own_skin = "طرح پوسته ي ما و شما";
+click_through = "کليک کن -سرتاسر";
+ask = "پرسيدن";
+off = "غير فعال";
+on = "فعال";
+note = "تذکر";
+deactivated = "بي اثر شده";
+ole_error = "در نظام استفاده ي اين محاوره ي پيکر بندي ،\\n%p بايد روي پي سي شما نصب شود و اجرا شود\\nاگر لازم است ،لطفا اين نصب را دوباره بازبيني کنيد";
+ts_settings = "تنظيمات شکل دهي ترافيک";
+preferences = "اولويت ها";
+prio_protocols = "پروتکل هاي قبلي";
+protocol = "پروتکل";
+protocols = "پروتکل ها";
+prio_programs = "برنامه هاي قبلي";
+program = "برنامه";
+programs = "برنامه ها";
+current_connections = "اتصال هاي رايج";
+ts_prios = "اولويت شکل دهي ترافيک";
+client_protocols = "پروتکل هاي مشتري";
+server_protocols = "پروتکل هاي سرور";
+media_streaming = "جريان چند رسانه اي";
+file_sharing = "اشتراک پرونده";
+special = "ويژه";
+other = "ديگر";
+hint = "تذکر";
+hint_text = "حق تقدم مي خواهد بطور صحيح عملي شود فقط اگر چنانچه اطلاعات کوچک هنگامي که امکان حق تقدم برتر معين باشد.  برنامه هايي با حق تقدم کمتر را به بيرون بفرستيد. پروتکل برتر قبل از برنامه ي برتراجرا شده";
+save_protocols = "ذخيره ي پروتکل ها";
+undo = "خنثي کردن";
+filter_selection = "انتخاب فيلتر";
+higher = "حداکثر";
+high = "زياد";
+normal = "معمولي";
+low = "کم";
+lower = "حداقل";
+entries = "تمام";
+prog_overwrite = "برنامه ي #p از قبل در ليست هست.\\nآيا مي خواهيد دوباره بنويسيد با مقدار جديد؟";
+games = "بازي ها";
+voip = "صدا-بالايي-IP";
+remote_control = "کنترل دور";
+prog_hint_text = "اولويت مي خواهد کار کند مخصوصا فقط اگراطلاعات کوچک با اولويت بيشتر ممکن باشد. برنامه هاي زيادي با اطلاعات کم اولويت را به خارج بفرستيد.<br />";
+save_priorities = "ذخيره ي اولويت ها";
+delete = "حذف";
+aux_lines = "باند هاي کمکي";
+higher_prog_help = "صدا-مافوق-IP, شايد بازي ها";
+high_prog_help = "بازي ها ، جريان رسانه اي ،  پروتکل آي پي/تي سي پي و ديگر فعل و انفعال برنامه ها";
+low_prog_help = "اطلاعات سرور ، اطلاعات اف تي پي";
+lower_prog_help = "پيش زمينه ي ترافيک پايدار ، مانند شکل دهي پرونده";
+delete_help = "پاک کردن از اين ليست (i.e., رفتار کردن پک ها به حالت معمولي).";
+prog_help = "انتقال پک هاي کم اولويت آرام است فقط اگر اطلاعات با اولويت بيشتر در حال پردازشند در زمان هاي مشابه. وگرنه اطلاعات با اولويت پايين ،البته، فرستاده مي شوند با بيشترين سرعت";
+filename = "نام پرونده";
+description = "تشريح";
+new_program = "برنامه ي جديد";
+add = "اضافه کردن";
+l7_prot_detection = "طبقه بندي-7 پروتکل اکتشاف";
+l7_prot_detection_help = "پيدا کردن پروتکل ها به وسيله ي تجزيه و تحليل اطلاعات. استفاده از محاوره 'حق تقدم پروتکل ها' براي تغيير دادن اولويت هاي گوناگون پروتکل ها. پروتکل ها نمايان مي سازند مطابق شماره ي درگاه کاربردي اگر شما اين اختيار را بي اثر کنيد";
+favor_ping = "توجه وقت پينگ";
+favor_ping_help = "<b>فعال</b>: سي اف ا اسپيد با وقت پينگ از هزينه مي کاهد از پهناي باند قدري مي کاهد (اگر ضروري باشد )ا.<br /><b>غير فعال</b>: سي اف ا اسپيد با بيشترين پهناي باند بيشتر از وقت پينگ قدري به هزينه مي افزايد (اگر ضروري باشد )ا.";
+favor_bandwidth = "توجه پهناي باند";
+activate_firewall = "ديوار آتش فعال";
+activate_firewall_help = " حفاظت در برابر شبکه  سر زده و بدون اجازه به وسيله ي ميانه روي از فيلترينگ پک هاي خطرناک ، بازرسي دولتي و حالت مخفيانه";
+mtu_opt = "بهينه ساختن خودکار ام اس اس (ام تي يو)ا ";
+mtu_opt_help = "تظيم کردن ام اس اس/ام تي يو براي حداکثر سرعت انتقال. به طور مثال ، ارزش دسترسي در زير1500/1492 توليد کردن سرعت هاي بيشتر";
+strict_rtp = " رسيدگي کردن سخت آر تي پي";
+strict_rtp_help = "اگر فعال باشد ، برنامه فقط تشخيص مي دهد آن پک ها يي را که به عنوان آر تي پي به وسيله ي آر تي سي پي معتبر از مبدأ آي دي مي رسند. شما بايد غير فعال کنيد اين اختيار را براي صدا-بالايي-آپي برنامه ها(مثل ووآي پي باستر) که پک هاي آر تي سي پي نمي فرستد";
+ts_config = "%p پيکر بندي شکل دهي ترافيک";
+dialup_connection = "اتصال تلفن";
+dialup_connections = "اتصال هاي تلفن";
+traffic_shaping = "شکل دهي به ترافيک";
+ras_con_help = "<b>بله</b>: فعال, <b>نه</b>: غير فعال, <b>پرسيدن</b>: پرسيدن فقط يک بار ديگر و سپس ذخيره تنظيمات";
+router_connections = "اتصال هاي راه پيما";
+net_components = "اجزاء شبکه";
+auto = "خودکار";
+router_help = "<b>بله</b>: فعال, <b>نه</b>: غير فعال, <b>خودکار</b>: فعال بودن شکل دهي ترافيک ، اگر راه پيما در اين شبکه مولفه اي را پيدا کند ";
+network_adapter = "آداپتور شبکه";
+router = "راه پيما";
+and_save_settings = "و ذخيره ي تنظيمات";
+border = "حاشيه";
+budget = "بودجه";
+budget_settings = "تنظيمات بودجه";
+budget_title = "%p بودجه هاي آنلاين";
+budgets = "بودجه هاي آنلاين";
+graph_title = "گراف کاربردي";
+hard_limit = "سخت<br>محدوديت ها";
+hard_limit_help_not_set = "يک بودجه ي خسته در پنجره ي وضعيت فقط مي خواهد نشان بدهد";
+hard_limit_help_set = "پک(بسته) ها آويخته مي شوند اگر بودجه خسته باشد";
+last_3_months = "سه ماه قبل";
+last_month = "ماه قبل";
+last_12_months = "يک سال پيش";
+please_select = "لطفا انتخاب کنيد";
+reset_day = "باز نشاندن روز";
+reset_day_unit = "روز از ماه";
+rxtx_button = "RX/TX انتخاب";
+save_budgets = "ذخيره ي بودجه ها";
+show_for = "نمايش براي";
+this_month = "اين ماه";
+time = "زمان";
+time_limit = "محدوديت زمان";
+time_min = "دقيقه";
+time_units = "ساعت:دقيقه";
+volume = "حجم";
+volume_limit = "محدوديت حجم";
+spdbudget_help = "براي استفاده از يک بودجه برو به محاوره ي اتصال ها و آن را اتصال ويژه قرار بده";
+password_bad = "رمز بد";
+sum_button = "انباشته";
+calibrate = "سنجيدن باند";
+variable_bandwidth = "پهناي باند متغير";
+def_bandwidth_help = "پيش فرض براي <b>جديد</b> اتصال ها";
+ok = "باشه";
+connection_medium = "متوسط";
+connection_type = "حالت شکل دهي ترافيک";
+driver_not_loaded = "درايور اجرا(خوانده) نشد";
+many_cons_error = "%p rx-شکل دهي ترافيک با محدوديت به جلو مي رود ، اتصال ها زياد است با تعداد کمي از اتصال ها آن متحمل اجراي بهتري مي شود. براي راهنمايي اين جا کليک کنيد";
+limit_bandwidth = "محدوديت پهناي باند براي اتصال جاري";
+rx_limit = "RX محدوديت";
+tx_limit = "TX محدوديت";
+max = "حد اکثر";
+apply_limits = "به کار بردن حدود";
+limit_help = "مقدار در کيلو بايت/ثانيه , بضميمه ي همه ي پروتکل هاي بالاسري, 0 = بدون محدوديت.";
+enable_speed_shaping = "فعال کردن شکل دهي ترافيک";
+disable_speed_shaping = "از کار انداختن شکل دهي ترافيک";
+yes = "بله";
+no = "نه";
+help = "راهنمايي";
+bgraph_totals = "کل";
+blocklist = "IP-Blocker";
+blocklist_help = "لیست آدرس های آی پی برای ترافیک مسدود شده";
+apply_blocklist = "استفاده از لیست فیلتر";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
+regid = "تعاوني نيست";
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+
+
+
+
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p, دسترسی به اینترنت سریع تر با شکل دهی اطلاعات";
+
+/ URLs
+
+/ wizard
+install_wizard_name = "%? نصب جادویی";
+uninstall_wizard_name = "%? جادوگر حذف برنامه";
+brandkey_wizard_name = "%? نام نویسی جادویی";
+continue_line = "برای ادامه،بر روی بعدی کلیک کن.";
+start_inst = "برای شروع نصب الآن، بر روی بعدی کلیک کنید.";
+wizard_lang_line = "این جادوگر هست به زبان";
+
+/ welcome page
+welcome_line = "خوش آمدید به %? v%?!";
+welcome_info = "جادوگر راهنمایی می کند شما را در تمام نصب %? v%?.";
+welcome_found = "یک نصب موجود %? v%? بر روی سیستم شما در حال یافتن است.";
+welcome_found_dir = "یک نصب موجود %1 v%2 در حال یافتن است در رایانه ی شما در مسیر %3.";
+welcome_found_unknown = "یک نصب موجود %? روی سیستم شما درحال یافتن است.";
+welcome_found_modified = "یک اصلاح شده یا نصب کامل نشده ی %1 v%2 کشف شده بر روی رایانه ی شما در مسیر %3.";
+welcome_update = "برای جایگزین کردن ورژن موجود بر روی بعدی کلیک کنید.";
+welcome_admin = "شما مدیر مزایا ندارید. شما برای اجرای این جادوگر نیاز دارید به وارد شدن به یک استفاده کننده که مدیر مزایا دارد.";
+welcome_lang_syslink = "<a href=\"%?\">زبان های اضافی</a>";
+
+/ uninstall welcome page
+ui_welcome_line = "حذف برنامه %? v%?.";
+ui_welcome_info = "اگر شما واقعا می خواهید حذف کنید %1 v%2 از مسیر %3 و پاک کنید همه ی اجزا را، بر روی بعدی کلیک کنید.";
+
+/ brand key welcome page
+bk_welcome_line = "%? نام نویسی.";
+bk_welcome_info = "این جادوگر راهنمایی می کند تو را در تمام نام نویسی %?.";
+bk_welcome_found = "یک کی فایل پیدا شده در دایرکتوری مقصد %?.";
+bk_welcome_update = "برای جایگزین کردن کی موجود بر روی بعدی کلیک کنید";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "موافقت جواز";
+lic_subheader = "شما باید برای ادامه موافق باشید.";
+lic_info = "اگر شما قبول کردید این پیمان جواز را، چک کنید 'موافقم' فیلد و بر روی بعدی کلیک کنید، در غیر این صورت، بر روی لغو کلیک کنید.";
+lic_agree = "موافقم.";
+
+/ restore point dialog
+rp_header = "پوینت باز گردانی سیستم";
+rp_subheader = "پوینت های بازگردانی سیستم فعال است شما به سوی باز گردانی سیستم به حالت قبلی هستید.";
+rp_info = "یک پوینت باز گردانی سیستم فعال است شما باز گردانی می کنید سیستم ویندوزتان را به حالتی که پوینت بازگردانی مقرر کرده است. پیش فرض است که شما مقرر کنید پوینت بازگردانی سیستمتان را اگر یک درایور جدید نصب شده است.";
+rp_check = "نشاندن پوینت بازگردانی سیستم";
+/ %1 = product name
+rp_uninst_info = "پوینت بازگردانی سیستم متوسط نیست برای حذف نرمال بعدی %1. آن هست یک احتیاط اضافی که فعال است برای شما برای برگرداندن سیستمتان به حالت اصلی در سرگذشت درایو ناسازگارتان. یک حذف نرمال  %1 می تواند انتخاب بشود هر دوتا در منوی استارت در پوشه ی  %1یا در صفحه ی کنترل زیر نرم افزار.";
+
+/ password dialog
+pwd_header = "پسورد.";
+pwd_subheader = "هر کی باید یک پسورد بی همتا داشته باشد.";
+pwd_reg_to = "%p در حال نام نویسی برای:";
+pwd_password_info = "لطفا پسورد را برای کی شما به شکل xxxx-xxxx-xxxx-xxxx وارد کنید  .";
+pwd_password = "پسورد:";
+pwd_invalid_password = "پسورد بی اعتبار. لطفا دوباره درون گذاشتتان را بررسی کنید و دوباره سعی کنید.";
+pwd_activate_info = "شما برای فعال سازی کی باید به سرور ما در اینترنت وصل شوید.";
+pwd_activate_failed = "فعال سازی کی موفق نشد!";
+pwd_activate_failed_code = "کی فعال سازی از دست رفته: error %?.";
+
+/ serial number dialog
+/ the %? will be replaced by the error number:
+
+/ new 16 digit serial number dialog
+
+/ re-enter password dialog
+repwd_header = "%? پسورد.";
+repwd_subheader = "پسورد نام نویسی نیازبه وارد کردن دارد.";
+repwd_reg_to = "مقتضی برای تغییر دادن پیکر بندی سیستم شما،شما نیاز دارید به وارد کردان پسورد مانند %p نام نویسی: ";
+
+/ installation directory dialog
+instdir_header = "نصب دایرکتوری";
+instdir_subheader = "مسیر نصب جایی را در هارد دیسک شما که فایل ها می خواهند در آن کپی شوند تعیین می کند.";
+instdir_info = "مسیر نصب را بیان کنید.";
+instdir_change = "تغییر دادن";
+instdir_src_dst = "منشا و مقصد نصب نباید یکی باشد!";
+instdir_space = "نصب لازم دارد %u بایت ها از فضای دسترس پذیر دیسک شما. فقط وجود دارد %u بایت های دسترس پذیر در مسیر انتخابی شما.";
+instdir_drivetype = "درایو انتخاب شده بی اعتبار است. %? شما فقط می توانید بر روی درایو های ثابت نصب کنید.";
+
+/ tcp settings dialog
+tcp_header = "میزان کردن تی سی پی اندازه ی پنجره در یافت کننده";
+tcp_subheader = "تی سی پی (پروتکل کنترل مخابره) اندازه ی پنجره ی دریافت کننده باید برای توان عملیاتی بهینه تنظیم شود.";
+tcp_info = "اندازه ی پنجره ی دریافت کننده ی تی سی پی توان عملیاتی اطلاعات وارد شونده را کنترل می کند. اگر ذخیره شده رجیستری ویندوز و جاری نیست بر روی یک ارزش بهین.\n\nIt پیش فرض است که اجازه بدهید به جادوگر برای تنظیم ارزش برای  توان اطلاعاتی بیشتر اطلاعات. (یک تنظیم بعد از ریبوت سیستم شما اثر خواهد گرفت.)ا";
+tcp_check = "بهینه ساختن تی سی پی اندازه ی پنجره ی دریافت کننده (پیش فرض)ا";
+
+/ hang up online connection dialog
+hangup_header = "اتصال آنلاین";
+hangup_subheader = "اتصال آنلاین باید قطع شود.";
+hangup_online = "شما آنلاین هستید به وسیله ی این اتصال:";
+hangup_offline = "اتصال در حال قطع شدن است.";
+hangup_info = "برای ادامه با این جادوگر، اتصال فعال باید غیر فعال شود.\n\nبرای غیر فعال کردن اتصال الآن، بر روی قطع ارتباط کلیک کنید.";
+hangup_disco = "قطع ارتباط";
+
+/ usage statistics
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+
+/ crash handler messages
+
+/start installation dialog
+
+/ progress dialog
+progress_inst_header = "نصب";
+progress_inst_subheader = "نصب در حال پیشرفت است.";
+progress_inst_wait = "لطفا منتظر بمانید تا زمانی که نصب کامل شود.";
+progress_uninst_header = "حذف برنامه";
+progress_uninst_subheader = "حذف برنامه در حال پیشرفت است.";
+progress_uninst_wait = "لطفا منتظر بمانید تا زمانی که حذف برنامه کامل شود.";
+progress_driver_wait = "لطفا صبرکنید تا زمانی که سیستم عامل (نصب یا حذف)کند درایور را. ممکن است چند دقیقه طول بکشد.";
+
+/ confirm delete dialog
+conf_del_header = "پاک کردن پیکر بندی فایل ها";
+conf_del_subheader = "شما باید تایید کنید حذف فایل ها را با پیکر بندی تنظیمات یا در غیر این صورت شخصا خبر رسانی می کنم.";
+conf_del_column = "اسم فایل";
+conf_del_query = "اگر می خواهید این فایل ها را حذف کنید، شما می توانید آن ها را چک کنید. بعد از انتخاب بر روی بعدی کلیک کن";
+
+/ finish page
+finish_head_ok = "نصب با موفقیت به پایان رسید.";
+finish_info_ok = "%? نصب بر روی رایانه ی شما با موفقیت به پایان رسید.";
+finish_head_fail = "نصب نا موفق";
+finish_info_fail = "نصب نا موفق بود به دلیل زیر:";
+finish_reboot = "سیستم باید ریبوت شود! برروی پایان برای ریبوت الآن وبر روی لغو برای ریبوت بعدا کلیک کنید.";
+finish_link_ok = "<a href=\"%?\">%? ویژگی ها!</a>";
+finish_file_fail = "ثبت وقایع فایل را ببینید %s برای اطلاعات بیشتر.";
+finish_file_link_fail = "ببینید <a href=\"فایل://%s\">ثبت وقایع فایل</a> برای اطلاعات بیشتر.";
+finish_cfosts_disabled = "شکل دهی ترافیک در حال از کار افتادن است به وسیله ی اجرای سی اف ا اس شما, زیرا %p قبلا شکل دهی ترافیک نبود. (شما می توانید دوباره شکل دهی ترافیک سی اف ا اس در منوی تنظیمات فعال کنید.)ا";
+finish_cfosts_enabled = "شکل دهی ترافیک در حال فعال شدن است با اجرای سی اف ا اس شما.";
+
+/ uninstall finish page
+ui_finish_head_ok = "حذف برنامه با موفقیت به پایان رسید.";
+ui_finish_info_ok = "%? با موفقیت به پایان رسیده حذف شده از رایانه ی شما.";
+ui_finish_head_fail = "حذف برنامه نا موفق.";
+ui_finish_info_fail = "%? از رایانه ی شما مقتضی را به شرح ذیل نمی تواند حذف کند:";
+ui_finish_not_removed = "فایل های ذیل فقط بعد از ریبوت می توانند حذف شوند: ";
+
+/ brandkey finish page
+bk_finish_head_ok = "نام نویسی کامل شد.";
+bk_finish_info_ok = "%? در حال نام نویسی برای:";
+bk_finish_head_fail = "نام نویسی نا موفق.";
+bk_finish_info_fail = "به این دلیل نام نویسی نا موفق بود:";
+
+/ progress tasks
+task_register_email = "...ثبت آدرس الکترونیک";
+task_restore_point = "تنظیم کردن پوینت باز گردانی سیستم...";
+task_copy = "کپی فایل ها...";
+task_desktop_link = "ساختن میانبر دسکتاپ...";
+task_program_group = "ایجاد گروه برنامه...";
+task_registry = "ساختن ثبت رجیستری...";
+task_driver = "نصب درایور...";
+task_daemon = "در حال شروع %?...";
+task_uninstall_old = "در حال حذف ورژن موجود...";
+task_stop_daemon = "در حال توقف %?...";
+task_uninstall_driver = "در حال حذف درایور...";
+task_delete_files = "پاک کردن فایل ها...";
+task_hangup = "در حال قطع ارتباط اتصال های فعال...";
+task_flush_registry = "خالی کردن رجیستری به دیسک...";
+task_cancel = "لغو عملکرد...";
+task_canceled = "عملکرد لغو شد.";
+
+/ connectivity test progress tasks
+
+/ program group
+pg_uninstall = "حذف برنامه %?";
+pg_www = "www.cfos.de";
+pg_console = "%p پیشانه";
+pg_menu = "%? منو";
+pg_add_connection = "اضافه کردن اتصال";
+
+/ desktop symbol
+dt_advertise = "%? ویژگی";
+dt_advertise_desc = "لیست همه %? ویژگی ها.";
+
+/ message boxes
+query_reboot = "شما باید سیستمتان را ریبوت کنید تا تغییرات اثر بگیرند.\n\nآیا الآن سیستم را ریبوت می کنید?";
+query_drv_inst_cancel = "درایور حذف یا نصب به وسیله ی سیستم عامل اجرا شده است.\nنصب ویندوز می تواند 15 دقیقه رابط باشد برای\nنام نویسی یا نام نویسی نکردن یک درایور!\n\nIt شدیدا لغو نکردن این پردازش پیش فرض است مگر این که\nمگر این که قبلا زیاد صبر کرده باشید.\n\nآیا واقعا می خواهید لغو کنید?";
+query_driver_err_abort = " یک خطا در طول نصب درایور وجود دارد!\nبنابر این پیش فرض این است که شما نصب را متوقف کنید\nالآن.\n\nIt هر چند ادامه ی نصب امکان پذیر است,\nکدام انرژی دارد برای موفقیت در هدف آزمون. لطفا نگه دارید\nin مراقب باشید که %p به احتمال زیاد اجرا نشود\nبطور صحیح.\n\nتوقف نصب? (پیش فرض)ا";
+
+/ error messages
+err_driver_inst = "درایور نصب از بین رفته.";
+err_daemon_start = "نمی تواند شروع کند %?.";
+err_uninst_old = "ورژن موجود نمی تواند حذف شود. لطفا از سیستم عامل خارج شوید و دوباره وارد شوید و سعی کنید.";
+err_os = "سیستم عامل شما هست %?.\n\n%? باید برای اجرا ویندوز 2000/ایکس پی یا بالا تر باشد .";
+err_os_minxp = "سیستم عامل شما هست %?.\n\n%? باید برای اجرا ویندوز ایکس پی یا بالا تر باشد .";
+err_uninst_driver = "ابزار درایور نمی تواند حذف شود.";
+err_create_process = "خطای فراخوانی %s: %s";
+err_write_lock = "%? شبکه ی ترکیب کننده در حال استفاده به وسیله پردازشگر دیگر هست. لطفا از همه ی نرم افزار ها خارج شوید یا سیستمتان را ریبوت کنید و سعی کنید.";
+err_file_auth = "بعضي از پرونده هاي اين بخش فاسد هستند يا گم شدند.\nلطفا يک صحيح آن را بگيريد %p توزيع\n(e.g. from www.cfos.de).";
+err_cancel = "عملکرد لغو شده بود.";
+err_no32 = "نمی تواند نصب کند 32-bit درایور ها بر روی 64-bit سیستم ها.\n\nOS: %?\nمحصول: %?";
+err_bad_keyfile = "به نظر می آید کی فایل فاسد یا بی اعتبار باشد. لطفا با ما تماس بگیرید برای طرز کار کی فایل";
+err_bad_setup = "%p به نظر می آید نصب به طور نامناسب بوده یا بعضی فایل ها تعدیل شده اند. لطفا دوباره نصب کنید یک کپی تازه از %p را و دوباره سعی کنید.";
+err_bad_signature = "به نظر می آید پسورد اشتباه باشد یا با فایل کی متمایز باشد. لطفا پسورد منطبق این فال کی را وارد کنید.";
+err_gdiplus =
+  "کتابخانه GDI+ پیدا نشد\n\n"
+  ".نصب فقط زمانی ادامه پیدا می کند که کتابخانه GDI+ نصب شده باشد\n"
+  "شما می توانید کتابخانه GDI+ را از ماکروسافت به عنوان قسمتی از پلتفرم SDK دانلود نمایید\n"
+  "توزیع دوباره . لطفا شروع به دانلود نصب و آنپک کردن آن کنید\n"
+  "قرار دادن فایل ها در <target directory> از انتخاب شما. سپس کپی کن همه gdiplus.* فایل ها\n"
+  "از مسیر <target directory>\\asms\\10\\msft\\windows\\gdiplus to the\n"
+  "directory Windows\\system32.\n\n"
+  ". برای باز کردن صفحه متناظر دانلود ماکروسافت برروی OK کلیک کنید\n"
+  ".برای لغو نصب برروی Cancel کلیک کنید";
+bad_manufacturer = "!نصب نمی تواند شروع شود چون محصول فقط برای سخت افزار مجاز است";
+cannot_install = "ناتوان در نصب";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "خطای کپی فایل %1به %2 (%3)ا.";
+
+/ warning messages
+wrn_oem_update = "شما پیش از این مجاز شده اید %p نصب شده.\n\n"
+  ".اگر شما ادامه بدهید در حد نصب نرم افزار منتظم ورژن اشتراک افزار (هزینه ای) هستید\n"
+  ".با این نصب مجوز شما کار نخواهد کرد\n"
+  "یک بروز رسانی مجوز شما %p را می توان از مکان قبلی به دست آورد\n"
+  ".جایی که اصلش را خریدید\n\n"
+  "؟ آیا می خواهید در هر صورت نصب را ادامه دهید";
+
+/ traffic shaping algorithm
+tsa_header = "حالت شکل دهی ترافیک (ورژن چند استفاده کننده)ا";
+tsa_subheader = "به طور پیش فرض رفتار شکل دهی ترافیک آلگوریتم است.";
+tsa_info = "لطفا وضع پیش فرض آلگوریتم شکل دهی ترافیک بر روی اتصال اینترنت شما را انتخاب کنید. (بعدا این انتخاب را برای هر اتصال می تواند بسازد.)ا";
+
+/ vista warning
+vista_header = "یادداشت نصب";
+vista_subheader = "یادداشت درباره درایور نصب زیر ویندوز ویستا";
+vista_warn_info = "سی اف ا اسپید امضا می کند گواهینامه را به وسیله ی امضای جهانی, یک کمپانی ثبت جواز می کند به وسیله ی مایکروسافت. هرچند، نرم افزار سی اف ا اس جی ام بی ایچ شریک اضافی ندارد درمایکروسافت, تصدیق گران دبلیو ایچ کیو ال. به این دلیل یک پنجره می آید بالا در طول نصب درایور زیر ویندوز ویستا با پیغامی که هست نرم افزار ناشر داریور نمی تواند بازبینی کند.\n\nIf این پنجره ظاهر می شود، لطفا کلیک کنید در داخل آن روی \"نصب این نرم افزار درایور در هر صورتا\".";
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+dun_wizard_name = "%p جادوگر اتصال";
+connections = "اتصالات";
+dun_subheader = "نصب یک اتصال";
+dun_with_bc = " با cFos Broadband Connect";
+dun_reenter_password = "لطفا پسورد را دوباره وارد نمایید";
+dun_list_tonline = "new T-Online connection";
+dun_new_connection = "نصب اتصال جدید";
+dun_err_no_device = "هیچ %p (شیوه ای پیدا نشد (شیوه باید بعد از این که رایانه را ریبوت کردید قابل دسترس باشد";
+
+/ e-mail registration dialog
+eml_header = "ثبت ایمیل";
+eml_subheader = "ایمیل خود را در cFos ثبت کن .";
+eml_info = "لطفا ایمیل خود را ثبت کنید با cFos, بنا براین ما می توانیم شما را در لیست افرادی قرار بدهیم که با ایمیل از ورژن جدید مطلع می شوند %p در دسترس است.";
+eml_info_optional = "اگر شما ایمیل خود را ثبت کنید با cFos, بنا براین ما می توانیم شما را در لیست افرادی قرار بدهیم که با ایمیل از ورژن جدید مطلع می شوند %p در دسترس است اگر شما نمی خواهید آگاه باشید این فیلد را خالی بگذارید";
+eml_email = ":آدرس ایمیل شما";
+eml_invalid_email = ".ایملی که وارد کردید اشتباه است";
+eml_invalid_optional_email = ".لطفا یک ایمیل موجود را وارد کنید یا هیچ آدرسی وارد نکنید";
+eml_reg_failed = ".ثبت آدرس ایمیل از دست رفت";
+eml_checking_domain = "...چک کردن آدرس ایمیل";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+order_oem = "!همین الآن نسخه حرفه ای را بخر";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+group_order_inet = "خرید پیشرفته %p";
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+

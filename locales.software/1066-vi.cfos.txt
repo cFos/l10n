@@ -1,0 +1,974 @@
+#language 1066
+#fallback 1033
+#charset 163
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Vietnamese";
+language_local = "Tiếng Việt";
+htm_lang_prefix = "vi";
+
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
+/ ----------------------------------------------------------------------
+/
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+ignore_ssl_cert_chk = "Bỏ qua lỗi chứng chỉ SSL (không an toàn)";
+ignore_ssl_cert_desc = "Nếu cFos Outlook DAV được phép bỏ qua lỗi chứng chỉ SSL, nó có thể kết nối đến các máy chủ với giấy chứng nhận SSL không an toàn, ví dụ giấy chứng nhận tự ký. Kích hoạt tùy chọn này thường không được khuyến khích, bởi vì nó làm cho một kết nối SSL dễ bị tấn công man-in-the-middle.";
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
+bc_orderurl = "https://www.cfos.de/vi/order/broadband-connect-n.htm";
+bc_langurl = "";
+bc_pg_name = "%p";
+bc_desc = "%p, Dial-up Driver với hiệu suất cao";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/vi/order/cfos-ipv6-link-n.htm";
+sixlink_pg_name = "%p";
+sixlink_desc = "%p, IPv6 dial-up driver với tốc độ cao";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/vi/order/cfos-personal-net-n.htm";
+pnet_desc = "%p, máy chủ web cá nhân của bạn";
+renew_params = "thay thông số mới";
+dlg_dun_auto = "Tự động kết nối";
+dlg_dun_default = "Thiết lập mặc định cho kết nối ";
+dlg_dun_cons = "Hồ sơ của kết nối";
+dlg_dun_name = "Tên kết nối:";
+dlg_dun_uname = "Tên tài khoản sử dụng:";
+dlg_dun_pwd = "Mật khẩu:";
+dlg_dun_use_ipv4 = "Sử dụng IPv4";
+dlg_dun_use_ipv6 = "Sử dụng IPv6";
+dun_connect_to = "Kết nối tới %?";
+dun_err_already_exists = "Tên vừa gọi đã có người dùng trước.";
+disconnect = "ngắt kết nối ";
+setup_connections = "Thiết lập các kết nối";
+ask_inst_ipv6 = "Giao thức IPv6 chưa được cài đặt trong hệ thống này.\n\n"
+                "Bạn có muốn cài đặt giao thức IPv6 ngay bây giờ không?";
+err_inst_ipv6 = "Có lỗi %? xảy ra khi đang cài đặt giao thức IPv6.";
+
+/ connection entry dialog
+con_err_save = "Không lưu được dữ liệu của kết nối!";
+con_ipv4 = "phương thức IPv4";
+con_ipv6 = "phương thức IPv6";
+con_private_address = "Địa chỉ riêng:";
+con_prefix = "Tiền tố:";
+con_dns1 = "DNS1:";
+con_dns2 = "DNS2:";
+con_enabled = "kích hoạt";
+
+/ pnet configuration dialog
+pnet_header = "Các thiết lặp chung";
+pnet_subheader = "Điều chỉnh các thiết lập chung.";
+pnet_conn_header = "Kết nối";
+pnet_conn_subheader = "Thiết lập tùy chọn kết nối.";
+pnet_conn_local_ip = "Địa chỉ IP cục bộ %?";
+pnet_conn_public_ip = "Địa chỉ IP công cộng %?";
+pnet_pubdir_header = "Thư mục công cộng";
+pnet_pubdir_subheader = "Thư mục chứa các tập tin tải về.";
+pnet_pubdir_info = "Xin vui lòng xác định vị trí của thư mục nơi có tập tin mà bạn muốn sẵn sàng để tải xuống.";
+smtp_header = "Máy chủ SMTP";
+smtp_subheader = "Cấu hình máy chủ SMTP.";
+dynip_header = "Máy chủ IP động";
+dynip_subheader = "Cấu hình máy chủ IP động";
+dlg_start_now_as_current_user = "Bắt đầu %p bây giờ là người dùng hiện tại";
+dlg_autostart = "Khởi động %p khi Windows khởi động";
+dlg_autostart_service = "Cài đặt %p như là dịch vụ hệ thống và bắt đầu nó khi Windows khởi động";
+dlg_context_menu = "Thêm mục trình đơn ngữ cảnh trong Windows Explorer";
+dlg_create_admin_account = "Tạo tài khoản quản trị viên";
+dlg_admin_pwd = "Mật khẩu cho người dùng \"quản trị viên\":";
+dlg_admin_pwd_needed = "Mật khẩu cho người sử dụng \"quản trị viên\" phải được để tạo ra các tài khoản quản trị.";
+dlg_register_shell_extension = "Đăng kí trình giao tiếp mở rộng";
+dlg_server_port = "Cổng máy chủ:";
+dlg_server_name = "Tên máy chủ:";
+dlg_server = "Máy chủ:";
+dlg_https_port = "Cổng HTTPS:";
+dlg_renew_interval = "Thời gian phục hồi (ms):";
+dlg_redirect_delay = "Độ trễ chuyển hướng (ms):";
+dlg_monitor_ports = "Theo dõi phân công cổng";
+dlg_enable_upnp = "Cho phép máy chủ đa phương tiện (UPnP/DLNA)";
+dlg_upnp_info = "Đặt các tập tin đa phương tiện trong thư mục con 'media' của thư mục công cộng của bạn.";
+use_https_port = "Sử dụng cổng HTTPS";
+
+/ pnet start type dialog
+pnet_start_header = "Loại bắt đầu";
+pnet_start_subheader = "Làm thế nào để chương trình bắt đầu?";
+pnet_start_mode = "Bắt đầu %p:";
+pnet_start_login = "lúc đăng nhập (đề nghị)";
+pnet_start_system = "như dịch vụ hệ thống ";
+pnet_start_manual = "thủ công";
+pnet_start_info = "Nó được khuyến khích để bắt đầu %p tự động nếu bạn đăng nhập vào. "
+                  "Nếu %p cũng chạy khi không có người dùng đăng nhập vào, bạn phải bắt đầu nó như là hệ thống dịch vụ. "
+                  "Tuy nhiên trong trường hợp đó sẽ không có biểu tượng thanh tác vụ và không có menu ngữ cảnh. "
+                  "Nếu bạn chỉ thỉnh thoảng chia sẻ dữ liệu công cộng, sau đó bắt đầu %p bằng tay.";
+
+/ pnet context menu entry
+publish_with_product = "Công khai với %p";
+
+/ pnet backup info
+dlg_backup_info = "Một tập tin sao lưu (.bak) đã được tạo ra của mỗi tập tin sau đây trước khi chúng được thay thế:";
+
+/ pnet
+end_program = "Kết thúc chương trình";
+file_copy_failed = "Sao chép tập tin thất bại.";
+ipv4_bind_problem = "Máy chủ không thể lắng nghe những quy định với cổng IPv4, bởi vì nó được sử dụng bởi một ứng dụng khác (ví dụ như Skype).";
+ipv6_bind_problem = "Máy chủ không thể lắng nghe những quy định với cổng IPv6, bởi vì nó được sử dụng bởi một ứng dụng khác (ví dụ như Skype).";
+closing_server = "Máy chủ đang đóng.";
+start_product = "Bắt đầu %p";
+info_port_in_use = "Cổng %? cần thiết bởi %p được sử dụng bởi một chương trình khác.\n\nChương trình: %?\nĐường dẫn: %?\n\n"
+                   "Để sử dụng %p, bạn phải kết thúc chương trình khác hoặc chọn một cổng khác trong cấu hình p%.";
+monitor_port_desc = "Nhiệm vụ này theo dõi định kỳ các cổng cần thiết bởi %p và cảnh báo người sử dụng biết khi một trong các cổng được sử dụng bởi một chương trình khác.";
+logon_start_desc = "Nhiệm vụ này bắt đầu %p nếu người dùng hiển thị dưới đây đăng nhập.";
+show_home_dir = "Hiện thư mục chính";
+publish_file = "Tập tin công cộng";
+user_administration = "Quản trị viên";
+
+/ pnet connectivity test
+connectivity_test = "Kiểm tra kết nối";
+con_test_subheader = "Hãy đợi cho đến khi quá trình kiểm tra kết nối đã hoàn tất.";
+con_test = "%p kiểm tra kết nối";
+con_test_not_running = "Kiểm tra kết nối không được thực hiện, kể từ khi %p không chạy. Hãy bắt đầu %p và thử kết nối lại.";
+con_test_public_fail = "Địa chỉ IP công cộng của bạn không thể xác định. Hãy chắc chắn rằng bạn đã kết nối với Internet và sau đó xin vui lòng thử lại.";
+con_test_execute = "Thực hiện kiểm tra kết nối";
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+ga_service_desc = "cFos Game Analyzer - Thực hiện thu hồi dữ liệu";
+ga_speed_installed = "cFosSpeed ​​dường như được cài đặt trên máy tính của bạn.\n\ncFosSpeed ​​đã có chứa các chức năng của cFos Game Analyzer.\n\nĐể sử dụng các tính năng mới nhất của cFos Game Analyzer, hãy tải về và cài đặt phiên bản mới nhất của cFosSpeed ​​từ www.cfos.de.";
+local_ip_addresses = "Địa chỉ IP cục bộ:";
+ga_password_subheader = "Mật khẩu để truy cập từ bên ngoài cho cFos Game Analyzer.";
+ga_password_info = "Tên người dùng: cfosspeed";
+ga_call_info = "Truy cập cFos Game Analyzer từ máy tính của bạn với\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nTruy cập cFos Game Analyzer từ một thiết bị bên ngoài với mật khẩu ở trên và sử dụng một trong các địa chỉ IP sau thay vì 'localhost':\n";
+ga_detected_by_speed = "Phát hiện một phiên bản của cFos Game Analyzer đã được cài đặt. cFosSpeed ​​đã có tất cả các tính năng của cFos Game Analyzer.\n\nNếu bạn tiếp tục, cFos Game Analyzer sẽ được gỡ bỏ trước khi cài đặt cFosSpeed​​.\n\nBạn có muốn tiếp tục không?";
+ga_use_password_by_speed = "Có nên để cFosSpeed ​​sử dụng mật khẩu của cFos Game Analyzer, nếu thế bạn có thể truy cập cFosSpeed từ các thiết bị khác?";
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
+speed_orderurl = "https://www.cfos.de/vi/order/cfosspeed-n.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+mainurl_name = "www.cfos.de";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/vi/traffic-shaping/traffic-shaping.htm";
+
+auth_failed = "Việc kiểm tra tính nhất quán đã phát hiện ra rằng một hoặc nhiều thành phần đã được sửa đổi.\n"
+   "Hãy cài đặt một phiên bản chưa sửa đổi từ trang web của chúng tôi:\n";
+
+component_mismatch = "Phiên bản này có sự trùng lặp giữa các thành phần của chương trình. Hãy cài đặt lại phiên bản gần đây.";
+trayicon_tip = "Truy cập Internet nhanh hơn với Tối ưu Băng thông, www.cfos.de";
+speed_endsoon = "Thời  gian dùng thử đã hết! Hãy mua %1 ngay hôm nay!";
+order_info = "Mua ngay:\nInternet: www.cfos.de\n Bằng điện thoại: +49-228-7669826";
+badkey = "Có vấn đề với khóa đăng ký.\nVui lòng cài đặt lại khóa bằng các nhấn đúp trỏ chuột trên\ntập tin gốc mà bạn đã nhận được qua thư điện tử hay đĩa mềm.";
+no_setup = "Không thể bắt đầu cài đặt (setup.exe).";
+no_cmd = "Không thể mở Command Prompt (cmd.exe)!";
+ask_disconnect_ras = "Một kết nối đang kích hoạt hiện tại cần được cấu hình lại.\nĐề nghị bạn bỏ kết nối trước khi tiếp tục.\nBỏ kết nối mạng hiện tại?";
+sygate_hint = "%p đã phát hiện tường lửa của Sygate, nó sẽ làm nhỡ \n%p các dữ liệu định trước bằng cách từ chối với dịch vụ chống tấn công với các gói tin\n\"Ping-of-Death\".\nBởi vậy bạn nên tải và sau đó truyền lên với \ntốc độ 30 giây cho riêng từng cái. Các kiểm tra \n%p giống như xung xác định.\n\nLưu ý: Chức năng Tường lửa\"Anti IP Manipulation\" sẽ đặt ở trạng thái \nkhông kích hoạt.";
+select_language = "Chọn ngôn ngữ";
+translator = "Người dịch:";
+translator_name = "Phạm Tuấn Khanh - ptk911";
+translator_msg = "ptk911@yahoo.com.vn";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "Bạn %3 giấy phép hết hạn trong %1 %2.";
+
+service_desc = "Tự động thực hiện đo độ trễ và tác vụ cho %p";
+no_pings_error = "Các gói tin được gởi bởi %p không thấy đến. Thiếu chúng, %p Tối ưu Băng thông không thể thực hiện chính xác. Bấm ở đây để xem trợ giúp.";
+other_languages = "Ngôn ngữ khác";
+install_dir = "Thư mục cài đặt: ";
+ask_clear_tsdata = "Xóa dữ liệu Tối ưu Băng thông và bắt đầu đường truyền mới";
+allow_traffic_shaping = "Cho phép Tối ưu Băng thông với kết nối này";
+none = "không";
+lic_expired = "Thời gian dùng thử đã hết. %1 không còn hoạt động. Mua %1 ngay hôm nay!";
+settings = "Cài đặt";
+winsettings = "Thiết lập cửa sổ";
+openwindow = "Hiện cửa sổ";
+openwindows = "Hiện cửa sổ";
+closewindow = "Ẩn cửa sổ";
+closewindows = "Ẩn cửa sổ";
+autoopen = "Tự động-hiện/Tự động-ẩn";
+taskbaricon = "Biểu tượng ở khay hệ thống";
+autoarrange = "Tự động bố trí cửa sổ";
+effects = "Hiệu ứng";
+blend_effect = "Cửa sổ mờ";
+slide_effect = "Cửa sổ trượt";
+win_behaviour = "Dùng thiết lập của hệ thống";
+selectskin = "Chọn giao diện";
+topmost = "Luôn ở trên màn hình";
+defpos = "Vị trí mặc định";
+disco_ras = "Đăng xuất ";
+config = "Tùy chọn";
+order = "Mua ngay!";
+dayl_singular = "ngày";
+dayl_plural = "ngày";
+days_singular = "ngày";
+days_plural = "ngày";
+/ %1=number, %2="day/days"
+short_try = "Dùng thử trong %1 %2";
+short_dexpire = "Hết hạn %1 %2";
+
+short_exp = "Hết hạn!";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "Bạn đã hết thời hạn dùng thử %1%2. Mua %3 ngay hôm nay!";
+lic_try = "Bạn có thể dùng thử %3 trong %1 %2 trước khi mua chính thức.";
+
+enable_win = "Bật cửa sổ trạng thái?\n\nCửa sổ trạng thái sẽ hiển thị trạng thái của kết nối đang dùng.";
+license = "Giấy phép";
+licensed_to = "Đăng ký cho %?";
+upgrade = "Cập nhật phiên bản mới";
+connect_to = "Kết nối tới";
+make_own_skin = "Giao diện tự thiết kế";
+click_through = "Bấm-xuyên qua cửa sổ";
+ask = "Hỏi";
+off = "Tắt";
+on = "Mở";
+note = "Chú ý";
+deactivated = "không hoạt động";
+browser_warning = "Phiên bản Internet Explorer 8 hoặc cao hơn được đề nghị cho hộp thoại này!";
+ole_error = "Nếu mua sản phẩm hãy từ cấu hình hộp thoại này,\\n%p nên cài đặt và chạy nó trên máy tính của bạn.\\nVui lòng kiểm tra và cài đặt lại, nếu cần thiết.";
+ts_settings = "Thiết lập chức năng Phân loại dữ liệu";
+preferences = "Thiết lập";
+prio_protocols = "Giao thức ưu tiên";
+protocol = "Giao thức";
+protocols = "Giao thức";
+prio_programs = "Chương trình ưu tiên";
+program = "Chương trình";
+programs = "Chương trình";
+current_connections = "Kết nối hiện tại";
+current_connections_advanced = "Kết nối hiện tại (nâng cao)";
+current_connections_standard = "Kết nối hiện tại (cơ bản)";
+ts_prios = "Tối ưu Băng thông";
+client_protocols = "Giao thức máy con";
+server_protocols = "Giao thức máy chủ";
+client_server_protocols = "Giao thức máy chủ và máy con";
+media_streaming = "Media trực tuyến";
+file_sharing = "Chia sẻ tập tin";
+special = "Riêng biệt";
+other = "Khác";
+misc_high_short = "Misc. cao";
+misc_high = "Ưu tiên lưu lượng misc. cao";
+hint = "Gợi ý";
+hint_text = "Sự ưu tiên sẽ làm việc chính xác chỉ nếu có một dữ liệu nhỏ được đặt mức ưu tiên cao nhất. Để chương trình có thể chọn việc gởi dữ liệu ra ngoài với mức ưu tiên thấp. Giao thức được quyền ưu tiên sẽ hoàn thành tốt hơn chương trình có mức ưu tiên đó.";
+prio_doc_link = "Cách thức thực hiện các mức ưu tiên";
+save_protocols = "Lưu giao thức";
+undo = "Quay lại";
+filter_selection = "Chọn bộ lọc";
+higher = "Cao nhất";
+high = "Cao";
+normal = "Vừa";
+default = "Mặc định";
+low = "Thấp";
+lower = "Thấp nhất";
+entries = "Mục";
+prog_overwrite = "Chương trình #p đã có trong danh sách.\\nBạn có muốn ghi đè?";
+games = "Trò chơi";
+voip = "Âm thoại-qua-IP";
+remote_control = "Điều khiển từ xa";
+prog_hint_text = "Mức ưu tiên sẽ làm việc chính xác chỉ khi các gói dữ liệu nhỏ được đặt ở mức ưu tiên cao. Đặt các chương trình gửi các gói dữ liệu lớn với mức ưu tiên thấp.<br />";
+save_priorities = "Lưu ưu tiên";
+delete = "Xóa";
+aux_lines = "Tuyến phụ";
+higher_prog_help = "Âm thoại-qua-IP, có thể chơi trò chơi trực tuyến";
+high_prog_help = "Trò chơi, Âm nhạc, Telnet và các chương trình khác";
+low_prog_help = "Dữ liệu máy chủ, dữ liệu FTP";
+lower_prog_help = "Truyền tải ở chế độ nền, giống như chia sẻ tập tin";
+delete_help = "Xóa khỏi danh sách (ví dụ: làm việc bình thường với các gói tin).";
+prog_help = "Băng thông ở mức ưu tiên thấp (nhất) - các gói tin truyền tải chậm nếu dữ liệu với độ ưu tiên cao hơn đang được thực hiện trong cùng một khoảng thời gian. Ngoài ra, mức ưu tiên dữ liệu thấp (nhất), dĩ nhiên, sẽ được gởi ở tốc độ cao nhất.";
+filename = "Tên tập tin";
+description = "Mô tả";
+new_program = "Thêm chương trình";
+restore_defaults = "Khôi phục mặc định";
+add = "Thêm";
+suggest_program = "Đề nghị chương trình này cho nhóm cFos";
+l7_prot_detection = "Tự động phát hiện giao thức trong 7 tầng";
+l7_prot_detection_help = "Quá trình tự động phát hiện giao thức đang phân tích dữ liệu. Dùng hộp thoại 'Độ ưu tiên cho giao thức' để thay đổi mức ưu tiên của các giao thức khác nhau. Nếu bạn không kích hoạt tùy chọn này thì nó sẽ hoạt động tùy theo số cổng được dùng.";
+favor_ping = "Giảm Ping";
+favor_ping_help = "<b>Bật</b>: %p sẽ giảm thời gian ping thấp nhất khi giảm băng thông (nếu cần thiết).<br /><b>Tắt</b>: %p sẽ tăng tối đa băng thông khi thời gian ping cao hơn (nếu cần thiết).";
+favor_bandwidth = "Giảm băng thông";
+avoid_loss = "Tránh mất gói tin";
+avoid_loss_help = "%p đóng cửa sổ tiếp nhận giao thức TCP để tiếp nhận các luồng nếu phát hiện quá nhiều gói tin bị mất. Điều này chỉ xảy ra khi kết nối của bạn nhận được tốc độ đầy đủ. (Đề nghị để nâng cao Tối ưu Băng thông khi tải về)";
+activate_firewall = "Bật Tường lửa";
+activate_firewall_help = "Bảo vệ chống lại sự xâm nhập mạng, tức là lọc bỏ các gói tin nguy hiểm, kiểm tra kỹ lưỡng các gói tin lén lút tìm cách xâm nhập máy tính.";
+mtu_opt = "Tự động tối ưu MSS (MTU)";
+mtu_opt_help = "Điều chỉnh MSS/MTU cho tốc độ truyền tải lớn nhất. Điển hình, các giá trị dưới mức chuẩn 1500/1492 cho tốc độ nhanh hơn.";
+strict_rtp = "Kiểm tra chính xác RTP";
+strict_rtp_help = "Nếu kích hoạt, %p chỉ chấp thuận các gói tin như là RTP với một RTCP đúng. Bạn nên bỏ kích hoạt mục này cho các chương trình dùng Âm thoại-qua-IP (như VoIPBuster) mà không gửi các gói tin không RTCP. Chỉ kích hoạt mục này, nếu gói tin chính xác là RTP.";
+ts_config = "Cấu hình chức năng Phân loại dữ liệu";
+dialup_connection = "Kết nối quay số";
+dialup_connections = "Kết nối quay số";
+traffic_shaping = "Tối ưu Băng thông";
+ras_con_help = "<b>Đồng ý</b>: hoạt động, <b>no</b>: không hoạt động, <b>ask</b>: ask once only and then save the setting";
+router_connections = "Kết nối bộ định tuyến";
+net_components = "Thành phần mạng";
+auto = "Tự động";
+router_help = "<b>Đồng ý</b>: hoạt động, <b>không</b>: không hoạt động, <b>tự động</b>: bật Phân loại dữ liệu, nếu tìm thấy bộ định tuyến ở mạng này";
+network_adapter = "Loại mạng";
+router = "Bộ định tuyến";
+and_save_settings = "và lưu các thiết lập";
+border = "Đường viền";
+budget = "Phân bổ";
+budget_settings = "Thiết lập Budget";
+budget_title = "Phân bổ trực tuyến";
+budgets = "Phân bổ trực tuyến";
+graph_title = "Biểu đồ";
+hard_limit = "Giới hạn<br>Cứng";
+hard_limit_help_not_set = "Giảm phân bổ sẽ chỉ được hiển thị ở cửa sổ trạng thái.";
+hard_limit_help_set = "Gói tin sẽ được truyền tải nếu giảm phân bổ";
+last_3_months = "3 tháng gần đây";
+last_month = "tháng gần đây";
+last_12_months = "12 tháng gần đây";
+please_select = "Hãy lựa chọn";
+reset_day = "Đặt lại ngày";
+reset_day_unit = "ngày của tháng";
+rxtx_button = "Lựa chọn RX/TX";
+save_budgets = "Lưu Phân bổ";
+show_for = "Hiển thị cho";
+this_month = "tháng này";
+time = "Thời gian";
+time_limit = "Giới hạn thời gian";
+/. Used as table header
+/. Short version of "minutes"
+time_min = "Phút";
+/. Used as table header
+/. Short version of "hours:minutes"
+time_units = "giờ:phút";
+volume = "Mức độ";
+volume_limit = "Giới hạn lưu lượng";
+spdbudget_help = "Để dùng 1 phân bổ, vào hộp thoại thiết lập và gán nó tới một kết nối riêng biệt";
+password_bad = "Sai mật khẩu";
+sum_button = "Tích lũy";
+calibrate = "Dòng lưu lượng";
+test_pings = "Gửi kiểm tra ping";
+open_console = "Mở lệnh cmd %p";
+variable_bandwidth = "Đường truyền với độ biến động";
+def_bandwidth_help = "Mặc định cho kết nối <b>mới</b>";
+cur_bandwidth_help = "Cài đặt cho kết nối hiện tại";
+no_ports_open = "Không có kết nối được thiết lập.";
+no_ports_open_help = "Hiện tại, không có kết nối được thiết lập xử lý bởi %p. "
+   "Để thay đổi các thiết lập mặc định cho các kết nối mới, hãy nhấn nút \"Mặc định cho các kết nối mới\", "
+   "để thay đổi các thiết lập cho các kết nối khác, nhấn \"Lưu lượng định hình\" ở phía bên trái.";
+ok = "Đồng ý";
+connection_medium = "Vửa";
+connection_type = "Chế độ Traffic Shaping";
+driver_not_loaded = "Không thể tải driver!";
+demon_driver_not_loaded = "Driver không chạy!\nCó thể cài đặt bị hỏng.\nHãy cài đặt lại %p.\n";
+asus_demon_driver_not_loaded = "Cài đặt lại %p sau khi nâng cấp lên hệ điều hành mới.\nTruy cập vào trang web của ASUS tại %w để tìm phiên bản %p mới nhất.";
+many_cons_error = "%p rx-Traffic Shaping đang được đẩy lên giới hạn, vì có quá nhiều kết nối. Với ít kết nối hơn thì nó sẽ làm việc tốt hơn. Nhấn vào đây để được giúp đỡ.";
+limit_bandwidth = "Giới hạn băng thông cho kết nối hiện tại";
+rx_limit = "Giới hạn RX";
+tx_limit = "Giới hạn TX";
+max = "Tối đa";
+apply_limits = "Áp dụng Giới hạn";
+limit_help = "Giá trị bằng kbyte/s, bao gồm tất cả các protocol, 0 = không giới hạn.";
+enable_speed_shaping = "Bật Tối ưu Băng thông";
+disable_speed_shaping = "Tắt Tối ưu Băng thông";
+yes = "Có";
+no = "Không";
+help = "Trợ giúp";
+bgraph_totals = "Tổng";
+blocklist = "Chặn IP";
+blocklist_help = "Danh sách địa chỉ IP bị chặn tất cả lưu lượng.";
+apply_blocklist = "Sử dụng bộ lọc danh sách";
+search = "Tìm kiếm";
+budget_connection = "Cấu hình phân bổ sử dụng cho các kết nối";
+reset = "Khôi phục";
+autohide_on_fullscreen = "Tự động ẩn khi ở chế độ toàn màn hình";
+slot_selected = "Giao thức / chương trình được chọn";
+show = "Hiện";
+hide = "Ẩn";
+slot_explain = "Nếu một gói dữ liệu có một giao thức đã biết trước và được gán cho một luồng, lưu lượng của gói dữ liệu được đếm trong luồng đó. Ngoài ra, nếu gói tin là kết nối của tên 1 chương trình đã được gán cho một luồng, lưu lượng sẽ được đếm cho luồng đó. Nếu không nằm trong các trường hợp trên thì lưu lượng được đếm trong luồng, nơi tất cả lưu lượng khác được đếm, nếu được thiết lập.";
+traffic_analysis_title = "Phân tích băng thông thời gian thực";
+other_traffic = "Tất cả lưu lượng khác";
+traffic_analysis = "Phân tích băng thông";
+slot = "Luồng";
+slots = "Các ô";
+slots_title = "Cài đặt ô";
+can_select_multiple = "Gợi ý: Bạn có thể lựa chọn nhiều mục bằng cách giữ phím Shift hoặc Ctrl khi lựa chọn các mục";
+name_for = "Tên cho ";
+set_name = "Đặt tên";
+/. RX stands for `receive` (incoming/download)
+rx_only = "Chỉ RX";
+/. TX stands for `transmit` (outgoing/upload)
+tx_only = "Chỉ TX";
+max_of_rx_tx = "Tối đa của RX & TX";
+total_rx_only = "Tổng tốc độ RX";
+total_tx_only = "Tổng tốc độ TX";
+nettalk_rx = "Tốc độ Net Talk RX";
+nettalk_tx = "Tốc độ Net Talk TX";
+nettalk_max_of_rx_tx = "Tối đa của Net Talk RX và TX";
+total_max_of_rx_tx = "Tối đa của tổng RX và TX";
+check_if_other_also = "Chọn, nếu bạn muốn tất cả lưu lượng khác được tính vào luồng này";
+performance_help = "Để đạt hiệu năng cao, chúng tôi khuyên bạn nên thiết lập cho kết nối sử dụng truy nhập internet là 'Yes' và các kết nối khác là 'No'.";
+loading = "Đang tải...";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
+regid = "Không phản hồi";
+regid_help = "Có một máy tính không sử dụng cFos TS trong mạng LAN";
+regid_help_long = "Kết nối của bạn dùng chung cùng lúc với một số máy tính khác và có ít nhất một trong số máy tính đó không sử dụng cFos Traffic Shaping.";
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+net_talk = "Đàm thoại mạng";
+net_talk_help = "Thống kê lưu lượng truyền trong mạng LAN của bạn";
+net_talk_help_long = "Để tăng độ chính xác, hãy gửi thống kê Tối ưu Băng thông tới các máy tính khác trong mạng nội bộ của bạn. Không gửi qua internet.";
+net_talk_subheader = "Vui lòng chọn nếu tính năng Net_Talk được dùng.";
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+vari_fixed = "Phù hợp cho Ping Jitter";
+vari_fixed_help = "Sử dụng công nghệ tiên tiến Tối ưu Băng thông để phù hợp với thời gian ping khác nhau";
+vari_fixed_help_long = "Thu thập số liệu thống kê ping để phù hợp với jitter trong thời gian ping; đặc biệt hữu ích cho điện thoại di động/wifi. Đề nghị bạn nên kích hoạt tùy chọn này cho tất cả các loại kết nối khác nhau.";
+
+set = "Đặt";
+tx_limit_help = "Nhập tốc độ bằng byte/giây hoặc phần trăm mà chương trình hoặc giao thức này được phép gửi.";
+download_more_skins = "Tải giao diện mới";
+documentation = "Tài liệu";
+exit_demon = "Thoát";
+speed_test = "cFos Kiểm tra tốc độ";
+ask_key_banned_info = "Có vấn đề với mã giấy phép của bạn.\nBạn có muốn biết thêm thông tin?";
+
+adapter_info = "Thông tin Kết nối";
+channel_recommend = "Sử dụng các kênh với tần số nhỏ nhất (tốt nhất tới xấu nhất)";
+channel_explain = "Bạn có thể dùng kênh sử dụng để cấu hình trạm WLAN của bạn, nhưng hãy cẩn thận vì việc sử dụng tần số thực tế là phụ thuộc vào cách sử dụng cụ thể của các mạng WLAN khác. Một số có thể nhàn rỗi, một số có thể sử dụng rất nhiều.";
+no_adapters = "Thông tin chuyển đổi không có sẵn.";
+wlan_no_service = "Dịch vụ không có sẵn. Hãy cài đặt hoặc bắt đầu mạng LAN không dây API cho Windows (WZC).";
+wlan_no_station = "Không tìm thấy đủ điểm truy cập.";
+kaspersky_hint = "Kaspersky Internet Security 2010 có thể gây ra vấn đề với %p. Hãy cập nhật phiên bản Kaspersky Internet Security mới nhất.";
+
+console_cancel = "Hủy bỏ";
+console_freeze = "Đóng băng";
+console_continue = "Tiếp tục";
+console_help = "Bạn có thể ưu tiên kết nối cá nhân bằng cách bấm vào nó trong bảng dưới đây.<br/>Kết nối có dấu (*) là ưu tiên tạm thời.";
+console_prio = "Ưu tiên kết nối này";
+console_prio_off = "Tắt ưu tiên";
+console_prio_this = "Chỉ ưu tiên tạm thời kết nối này";
+console_prio_this_off = "Tắt ưu tiên cho kết nối này";
+console_prio_prot = "Giao thức ưu tiên tạm thời";
+console_prio_prot_off = "Tắt ưu tiên giao thức tạm thời";
+console_prio_prog = "Chương trình ưu tiên tạm thời";
+console_prio_prog_off = "Tắt ưu tiên chương trình tạm thời";
+console_prio_prog_prot = "Chương trình và giao thức ưu tiên tạm thời";
+console_prio_prog_prot_off = "Tắt ưu tiên chương trình và giao thức tạm thời";
+console_prio_prot_perm = "Ưu tiên giao thức vĩnh viễn";
+console_prio_prog_perm = "Ưu tiên chương trình vĩnh viễn";
+console_prio_advanced = "Ưu tiên nâng cao";
+
+new_version_available = "Phiên bản mới có sẵn";
+update_beta = "Kiểm tra cả phiên bản beta";
+update_skip_version = "Không thông báo cho phiên bản này:";
+check_new_version_now = "Kiểm tra cập nhật bây giờ";
+program_updates = "Cập nhật chương trình";
+no_new_version_available = "Phiên bản mới chưa có";
+use_logitech = "Sử dụng màn hình hiển thị Logitech G15/G19/G510";
+detect_logitech = "Phát hiện hiển thị Logitech";
+logitech_help = "Trợ giúp hiển thị Logitech";
+logitech_keyboards = "Bàn phím chơi game Logitech";
+keyboard_leds = "Đèn LED bàn phím";
+keyboard_led_help = "Trợ giúp LED bàn phím";
+only_on_fullscreen = "Chỉ trên toàn màn hình";
+speed_guide = "Hướng dẫn tốc độ";
+lock_position = "Khóa vị trí cửa sổ";
+check_for_news = "Tin tức mới";
+rwin_expansion = "Tự động mở rộng RWIN";
+rwin_expansion_help = "Tự động mở rộng cửa sổ tiếp nhận giao thức TCP để tăng tốc độ tải về nếu RWIN đã chọn bởi Windows là quá thấp.";
+query_auto_open = "Tắt tự động đóng/mở cửa sổ?\nBạn có thể kích hoạt lại nó sau này trong menu ngữ cảnh.";
+preview_skins = "Xem trước Giao diện";
+enable_smartphone_skins = "Giao diện điện thoại";
+http_access_enabled = "Mật khẩu đã thiết lập, cho phép truy cập HTTP từ xa";
+http_access_disabled = "Chưa thiết lập mật khẩu, không cho phép truy cập HTTP từ xa";
+set_server_pwd = "Đặt mật khẩu máy chủ";
+auto_arrange_top = "Trên";
+auto_arrange_bottom = "Dưới";
+show_on_metro_apps = "Hiển thị trên các ứng dụng Metro";
+traffic_shaping_info = "Thông tin phân luồng lưu lượng";
+wlan_access_point = "Điểm truy cập Wi-Fi";
+prioritize_foreground_process = "Ưu tiên tiến trình truy cập cho cửa sổ hiện hành";
+prioritize_foreground_help = "Tự động thiết lập ưu tiên ở mức cao cho tiến trình truy trong cửa sổ hiện hành.";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p, truy cập Internet nhanh hơn với Tối ưu Băng thông";
+
+/ URLs
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+
+/ wizard
+install_wizard_name = "%? Thuật sĩ cài đặt";
+uninstall_wizard_name = "%? Thuật sĩ Gỡ bỏ";
+brandkey_wizard_name = "%? Thuật sĩ Đăng kí";
+config_wizard_name = "%p Giao diện thiết lập";
+continue_line = "Để tiếp tục, bấm 'Next'";
+start_inst = "Để bắt đầu cài đặt, bấm 'Next'.";
+click_next_further_info = "Bấm 'Next' để biết thêm thông tin.";
+wizard_lang_line = "Thuật sĩ này bằng ngôn ngữ:";
+
+/ welcome page
+welcome_line = "Chào mừng tới %? v%?!";
+welcome_info = "Thuật sĩ này sẽ hướng dẫn bạn cài đặt %? v%?.";
+welcome_found = "Đã tồn tại một phiên bản của %? v%? trên hệ thống của bạn.";
+welcome_found_dir = "Đã tồn tại một phiên bản của %1 v%2 trên hệ thống của bạn ở thư mục %3.";
+welcome_found_unknown = "Đã tồn tại một phiên bản của %? trên hệ thống của bạn ở thư mục %3.";
+welcome_found_modified = "Mộ sự thay đổi hoặc hoàn thành cài đặt %1 v%2 đã có ở thư mục %3.";
+welcome_update = "Để thay thế phiên bản đã có, bấm 'Next'.";
+welcome_admin = "Bạn không có quyền quản trị hệ thống. Để chạy thuật sĩ bạn cần đăng nhập bằng tài khoản quản trị.";
+welcome_lang_syslink = "<a href=\"%?\">Thêm ngôn ngữ</a>";
+welcome_oem_info = "%1 là một phiên bản OEM của %p cho %2. Do đó, %p chứa tất cả tính năng của %1 và hơn nữa.";
+
+/ uninstall welcome page
+ui_welcome_line = "Gỡ bỏ %? v%?.";
+ui_welcome_info = "Nếu bạn thật sự muốn gỡ bỏ %1 v%2 từ thư mục %3 và tất cả các thành phần của nó, bấm 'Next'.";
+
+/ brand key welcome page
+bk_welcome_line = "%? Đăng kí.";
+bk_welcome_info = "Thuật sĩ sẽ hướng dẫn bạn đăng kí %?.";
+bk_welcome_found = "Đã có một khóa đăng kí ở thư mục đích %?.";
+bk_welcome_update = "Để thay thế tập tin đã có, bấm 'Next'";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "Giấy phép Thỏa thuận";
+lic_subheader = "Bạn cần chấp nhận giấy phép thỏa thuận để tiếp tục.";
+lic_info = "Nếu bạn chấp nhận giấy phép thỏa thuận, chọn 'Tôi đồng ý' rồi bấm 'Next', còn không thì bấm 'Cancel'.";
+lic_agree = "Tôi đồng ý.";
+
+/ restore point dialog
+rp_header = "Điểm Khôi phục hệ thống";
+rp_subheader = "Đã đặt điểm phục hồi hệ thống để bạn có thể phục hồi lại hệ thống ở tình trạng trước đó.";
+rp_info = "Đã thiết lập 1 điểm để bạn có thể phục hồi lại hệ thống. Nên làm như vậy nếu bạn cài đặt trình điều khiển mới.";
+rp_check = "Thiết lập điểm khôi phục hệ thống.";
+/ %1 = product name
+rp_uninst_info = "Điểm phục hồi hệ thống là không đặt giữa chế độ bình thường và chế độ gỡ bỏ cài đặt %1. Nó là điều kiện tốt để phòng ngừa rằng bạn có thể trở về lại trước nếu có xung đột về trình điều khiển. Việc gỡ bỏ %1 có thể chọn ở Menu Start ở thư mục %1 hoặc ở Control Panel.";
+
+/ password dialog
+pwd_header = "Mật khẩu.";
+pwd_subheader = "Mỗi mã yêu cầu mỗi mật khẩu.";
+pwd_reg_to = "%p được đăng kí cho:";
+pwd_password_info = "Xin vui lòng nhập mật khẩu cho mã theo định dạng xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "Mật khẩu:";
+pwd_invalid_password = "Sai mật khẩu. Vui lòng kiểm tra và thử lại.";
+pwd_activate_info = "Bạn phải kết nối mạng để kích hoạt tập tin đăng kí trên máy chủ.";
+pwd_activate_failed = "Kích hoạt mã đăng kí thất bại!";
+pwd_activate_failed_code = "Kích hoạt mã đăng kí thất bại: lỗi %?.";
+
+/ serial number dialog
+sn_header = "Số Serial.";
+sn_subheader = "Nhập số serial và kích hoạt giấy phép.";
+sn_info = "Nếu bạn có một mật khẩu gồm 16 chữ số dạng xxxx-xxxx-xxxx-xxxx, hãy thoát khỏi hộp thoại này và bấm đúp chuột vào tập tin giấy phép của bạn. Một cửa sổ sẽ xuất hiện, sau đó bạn nhập mật khẩu của bạn vào.\n\nNếu bạn có một số serial gồm 30 chữ số dạng xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, hãy nhập nó vào và kích hoạt mã giấy phép của bạn.\n\n";
+sn_serial_number = "Số Serial:";
+sn_invalid_serial_number = "Số serial không hợp lệ. Vui lòng kiểm tra lại.";
+/ the %? will be replaced by the error number:
+sn_download_err = "Lỗi %? tải về tập tin mã giấy phép từ máy chủ.";
+sn_save_err = "Tập tin giấy phép không thể lưu tại %?.";
+sn_keyfile_err = "Tập tin giấy phép bị hỏng.";
+
+/ new 16 digit serial number dialog
+sn16_info = "Vui lòng nhập số serial gồm 16 chữ số của bạn để nhận mã giấy phép. Lưu ý: Máy tính của bạn phải được kết nối với Internet.";
+sn16_failed = "Lấy mã giấy phép thất bại!";
+
+/ re-enter password dialog
+repwd_header = "%? mật khẩu.";
+repwd_subheader = "Cần nhập lại mật khẩu để đăng kí.";
+repwd_reg_to = "Trong suốt tiến trình thay đổi cấu hình ở hệ thống của bạn cần nhập lại mật khẩu để đăng kí %p: ";
+
+/ installation directory dialog
+instdir_header = "Thư mục cài đặt";
+instdir_subheader = "Chọn thư mục cài đặt để chép các tập tin.";
+instdir_info = "Chọn 1 thư mục cài đặt.";
+instdir_change = "Thay đổi";
+instdir_src_dst = "Thư mục nguồn và đích phải khác nhau!";
+instdir_space = "Tiến trình cài đặt yêu cầu %u bytes dung lượng trống. Ở đây chỉ còn %u bytes trống trong thư mục cài đặt đã chọn.";
+instdir_drivetype = "Ổ đĩa được chọn không hợp lệ. %? chỉ có thể được cài đặt trên ổ đĩa đã sửa lỗi.";
+instdir_system = "Thư mục cài đặt phải nằm trong ổ đĩa hệ thống '%?'.";
+instdir_system_recommended = "Đề nghị bạn chọn một thư mục cài đặt trên ổ đĩa hệ thống '%?'. (Bấm 'Next' để tiếp tục.)";
+
+/ tcp settings dialog
+tcp_header = "Điều chỉnh kích thước cửa sổ TCP.";
+tcp_subheader = "Kích thước cửa sổ TCP (Transmission Control Protocol) cần được điều chỉnh để tối ưu dữ liệu truyền qua.";
+tcp_info = "Kích thước cửa sổ TCP kiểm soát dữ liệu đến. Nó sẽ lưu ở registry và hiện tại không tối ưu giá trị.\n\nĐề nghị dùng thuật sĩ để điều chỉnh giá trị cao nhất cho dữ liệu truyền qua. (Các thay đổi sẽ được áp dụng sau khi khởi động lại hệ thống.)";
+tcp_check = "Tối ưu kích thước cửa sổ TCP (đề nghị)";
+
+/ hang up online connection dialog
+hangup_header = "Kết nối quay số";
+hangup_subheader = "Các kết nối quay số cần được ngắt.";
+hangup_online = "Bạn đang trực tuyến với các kết nối sau:";
+hangup_offline = "Kết nối đã được ngắt.";
+hangup_info = "Để tiếp tục thuật sĩ này, nên ngắt các kết nối quay số.\n\nĐể ngắt kết nối này ngay bây giờ, chọn Ngắt kết nối.";
+hangup_disco = "Ngắt kết nối";
+
+/ usage statistics
+usage_stats = "Thống kê sử dụng";
+usage_stats_subheader = "Chọn cách %p xử lí thống kê sử dụng.";
+usage_stats_chk = "Gửi thống kê sử dụng ở chế độ ẩn danh cho cFos để cải thiện hiệu suất sản phẩm.";
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "Sử dụng cổng chuyển tiếp tự động nếu có.";
+port_forwarding_failed = "Router của bạn %? dường như không hỗ trợ cổng chuyển tiếp tự động. "
+                         "Bạn có thể kích hoạt tính năng này trong cấu hình của router.";
+port_forwarding_config = "Bạn có thể cấu hình router của bạn tại %?.";
+port_forwarding_fritz = "Kích hoạt cổng chuyển tiếp trong FRITZ!Box của bạn bằng cách cho phép thay đổi các thiết lập bảo mật thông qua UPnP "
+                        "dưới Home Network / Network / Programs";
+
+/ crash handler messages
+crash_msg_crash = "Một sự cố đã xảy ra trong %p.";
+crash_msg_crash_installer = "Một sự cố đã xảy ra trong khi cài đặt chương trình p%.";
+crash_msg_virus = "Các thành phần sau đây đã tự gắn vào chương trình này và có thể là nguyên nhân của sự cố:";
+crash_msg_virus_clean = "Thành phần này có thể là một virus. Hãy quét virus trên hệ thống của bạn.";
+crash_msg_hook = "Tìm thấy các thành phần của các chương trình khác và nó tự gắn vào chương trình này. Để đảm bảo rằng các thành phần này không phải là nguyên nhân của sự cố, hãy chạy chương trình này một lần nữa sau khi tắt hoặc gỡ bỏ các chương trình sau:";
+crash_msg_terminate = "Kết thúc chương trình bây giờ.";
+crash_msg_query_upload = "Bạn có muốn gửi thông tin sự cố này cho cFos, nó sẽ giúp chúng tôi phân tích lỗi?";
+
+/start installation dialog
+start_header = "Cài đặt";
+start_subheader = "Bắt đầu cài đặt.";
+start_installation = "Bắt đầu cài đặt bây giờ.";
+
+/ progress dialog
+progress_inst_header = "Cài đặt";
+progress_inst_subheader = "Tiến trình cài đặt đang được thực hiện.";
+progress_inst_wait = "Xin chờ cho đến khi hoàn tất cài đặt.";
+progress_uninst_header = "Gỡ bỏ";
+progress_uninst_subheader = "Tiến trình gỡ bỏ đang được thực hiện.";
+progress_uninst_wait = "Xin chờ cho đến khi hoàn tất gỡ bỏ.";
+progress_driver_wait = "Xin chờ trong khi hệ thống cài đặt/gỡ bỏ trình điều khiển. Có thể mất vài phút.";
+
+/ confirm delete dialog
+conf_del_header = "Xóa tập tin cấu hình";
+conf_del_subheader = "Bạn nên xác nhận lại việc xóa các tập tin cài đặt cấu hình hoặc nói cách khác là kiểm tra thông tin cá nhân của chúng.";
+conf_del_info = "Các tập tin và thư mục cấu hình ở dưới được tạo ra bởi %p và chưa được xóa:";
+conf_del_column = "Tên tập tin";
+conf_del_query = "Nếu bạn muốn xóa các thư mục và tập tin này, bạn nên kiểm tra chúng kỹ lưỡng. Sau khi chọn, bấm 'Next'.";
+
+/ finish page
+finish_head_ok = "Cài đặt thành công.";
+finish_info_ok = "%? đã cài đặt thành công trên máy tính của bạn.";
+finish_head_fail = "Cài đặt thất bại.";
+finish_info_fail = "Tiến trình cài đặt đã thất bại vì những lí do sau:";
+finish_reboot = "Cần khởi động lại hệ thống! Bấm 'Finish' để khởi động lại ngay hoặc 'Cancel' để khởi động lại sau.";
+finish_uninst_driver_reboot = "Để hoàn tất tiến trình gỡ bỏ, bạn cần khởi động lại hệ thống. Hãy khởi động lại hệ thống và sau đó chạy lại chương trình cài đặt một lần nữa.";
+finish_link_ok = "<a href=\"%?\">%? đặc trưng!</a>";
+finish_file_fail = "Xem tập tin ghi chép %s để biết thêm thông tin.";
+finish_file_link_fail = "Xem <a href=\"file://%s\">tập tin ghi chép</a> để biết thêm thông tin.";
+finish_cfosts_disabled = "Chức năng Tối ưu Băng thông đã bị tắt khi bạn chạy cFos, bởi vì %p đã có chức năng này. (Bạn có thể bật lại chức năng Tối ưu Băng thông ở menu cấu hình của cFos.)";
+finish_cfosts_enabled = "Chức năng Tối ưu Băng thông đã bật khi bạn chạy cFos.";
+finish_link_checkbox = "Hiển thị các chức năng mới nhất của %p";
+
+/ uninstall finish page
+ui_finish_head_ok = "Gỡ bỏ thành công.";
+ui_finish_info_ok = "%? đã gở bỏ thành công khỏi máy tính của bạn.";
+ui_finish_head_fail = "Gỡ bỏ thất bại.";
+ui_finish_info_fail = "%? không thể gỡ bỏ khỏi máy tính của bạn vì lí do sau:";
+ui_finish_not_removed = "Các tập tin sau chỉ được gỡ bỏ sau khi khởi động lại hệ thống: ";
+
+/ brandkey finish page
+bk_finish_head_ok = "Đăng kí hoàn tất.";
+bk_finish_info_ok = "%? đã đăng kí cho:";
+bk_finish_head_fail = "Đăng kí thất bại.";
+bk_finish_info_fail = "Đăng kí thất bại vì lỗi sau:";
+
+/ progress tasks
+task_register_email = "Đăng kí địa chỉ email...";
+task_restore_point = "Tạo điểm phục hồi hệ thống...";
+task_copy = "Sao chép các tập tin...";
+task_desktop_link = "Tạo lối tắt...";
+task_program_group = "Tạo nhóm chương trình...";
+task_registry = "Tạo các mục registry...";
+task_driver = "Cài đặt trình điều khiển...";
+task_service = "Đang cài đặt dịch vụ ...";
+task_daemon = "Bắt đầu %?...";
+task_uninstall_old = "Đang gỡ bỏ phiên bản đang có...";
+task_stop_daemon = "Dừng %?...";
+task_uninstall_driver = "Gỡ bỏ trình điều khiển...";
+task_uninstall_service = "Đang gỡ cài đặt dịch vụ  ...";
+task_uninstall_ga = "Gỡ bỏ cFos Game Analyzer...";
+task_delete_files = "Xóa các tập tin...";
+task_cleanup_caches = "Xóa bộ nhớ tạm...";
+task_hangup = "Ngắt các kết nối trực tuyến...";
+task_flush_registry = "Lưu registry...";
+task_cancel = "Đang hủy bỏ...";
+task_canceled = "Đã hủy bỏ!";
+
+/ connectivity test progress tasks
+task_start_program = "Đang khởi động %p...";
+task_test_localhost = "Đang kiểm tra localhost...";
+task_test_local_ip = "Đang kiểm tra địa chỉ IP cục bộ...";
+task_test_public_ip = "Đang kiểm tra địa chỉ IP công cộng...";
+task_test_finished = "Kiểm tra kết thúc.";
+
+/ program group
+speed_pg_name = "%p Tối ưu Băng thông";
+pg_uninstall = "Gỡ bỏ %?";
+pg_www = "www.cfos.de";
+pg_console = "Lệnh cmd %p";
+pg_start = "Khởi động cửa sổ trạng thái %p";
+pg_menu = "%? Menu";
+pg_add_connection = "Thêm kết nối";
+pg_enter_serial_number = "Nhập số serial";
+pg_configure = "Cấu hình %p";
+
+/ desktop symbol
+dt_advertise = "%? Thông tin";
+dt_advertise_desc = "Danh sách các chức năng của %?.";
+
+/ message boxes
+query_reboot = "Cần khởi động lại hệ thống để thay đổi có hiệu lực.\n\nKhởi động lại bây giờ?";
+query_drv_inst_cancel = "Trình điều khiển cài đặt/gỡ bỏ được thực hiện bởi hệ điều hành.\nHộp thoại cài đặt có thể cần tới 15 phút để \nđăng kí hoặc hủy đăng kí một trình điều khiển!\n\nĐề nghị bạn nên hủy bỏ tiến trình này trừ khi\nbạn sẵn sàng đợi.\n\nBạn có muốn hủy bỏ?";
+query_driver_err_abort = "Có lỗi trong tiến trình cài đặt trình điều khiển thiết bị!\nĐề nghị bạn hủy bỏ cài đặt ngay bây giờ.\n\nVì nếu tiếp tục cài đặt,\nnó sẽ cẩn thận kiểm tra lại. Xin lưu ý\nlà %p có thể không thực thi đúng.\n\nHủy bỏ cài đặt? (đề nghị)";
+query_further_info = "Bạn muốn biết thêm thông tin?";
+
+/ error messages
+err_driver_inst = "Cài đặt trình điều khiển thất bại.";
+err_service_inst = "Cài đặt dịch vụ thất bại.";
+err_service_uninst = "Gỡ bỏ dịch vụ thất bại.";
+err_daemon_start = "Không thể bắt đầu %?.";
+err_uninst_old = "Phiên bản hiện tại không thể gỡ bỏ. Vui lòng đăng xuất khỏi hệ thống và sau đó đăng nhập để thử lại.";
+err_os = "Hệ điều hành của bạn là %?.\n\n%? yêu cầu 2000/XP hoặc cao hơn để thực thi.";
+err_os_minxp = "Hệ điều hành của bạn là %?.\n\n%? yêu cầu XP hoặc cao hơn để thực thi.";
+err_os_sup = "%p hỗ trợ chính thức duy nhất %? hoặc cao hơn.\n\n"
+             "Nó là có thể hoạt động tuy nhiên chưa được chúng tôi thử nghiệm, nhưng %p cũng chạy trên hệ điều hành của bạn %?.\n\n"
+             "Bạn có muốn tiếp tục cài đặt?";
+err_uninst_driver = "Không thể gỡ bỏ trình điều khiển thiết bị.";
+err_create_process = "Lỗi bắt đầu %s: %s";
+err_write_lock = "%? các thành phần mạng đang được dùng bởi các tiến trình khác. Vui lòng thoát các ứng dụng đang chạy hoặc khởi động lại hệ thống và thử lại.";
+err_file_auth = "Một vài tập tin bị lỗi hoặc mất.\nVui lòng lấy một xác thực cấp phép %p\n(Ví dụ từ www.cfos.de).";
+err_cancel = "Tác vụ đã bị hủy bỏ.";
+err_no32 = "Không thể cài đặt trình điều khiển 32-bit trên hệ thống 64-bit.\n\nHệ điều hành: %?\nSản phẩm: %?";
+err_bad_keyfile = "Tập tin đăng kí bị hỏng hoặc không phù hợp. Hãy liên hệ với chúng tôi để nhận tập tin phù hợp.";
+err_bad_setup = "%p không được cài đặt đúng cách hoặc một số tập tin đã bị thay đổi. Hãy cài đặt lại một bản mởi của %p và thử lại.";
+err_bad_signature = "Mật khẩu không đúng hoặc dành cho tập tin đăng kí khác. Hãy điền vào mật khẩu chính xác cho tập tin đăng kí này.";
+err_gdiplus =
+  "Không tìm thấy thư viện GDI+!\n\n"
+  "Quá trình cài đặt này chỉ có thể tiếp tục nếu đã cài thư viện GDI+.\n"
+  "Bạn có thể tải thư viện GDI+ từ Microsoft như một phần của Platform SDK\n"
+  "Vui lòng tải về tập tin cài đặt và giải nén\n"
+  "các tập tin bên trong vào một <thư mục đích> bạn chọn. Sau đó sao chép tất cả tập tin dạng gdiplus.*\n"
+  "từ thư mục <thư mục đích>\\asms\\10\\msft\\windows\\gdiplus đến\n"
+  "thư mục Windows\\system32.\n\n"
+  "Nhấn 'OK' để mở trang tải về tương ứng của Microsoft.\n"
+  "Nhấn 'Cancel' để bỏ qua cài đặt.";
+err_winhttp = "Không tìm thấy thư viện WinHTTP!\n\nTiến trình cài đặt này chỉ có thể tiếp tục nếu đã cài thư viện WinHTTP.\nThư viện WinHTTP đáng lẽ phải có trong hệ thống của bạn, nhưng nó\nkhông thể tải được.";
+bad_manufacturer = "Cài đặt không thể bắt đầu, vì sản phẩm chỉ được cấp phép sử dụng được cho phần cứng tương ứng!";
+cannot_install = "Không thể cài đặt";
+err_uninst_daemon = "Không thể gỡ bỏ chương trình chính. Nếu vẫn còn %p hộp thoại nào đang mở, vui lòng đóng chúng trước. Nếu không hãy khởi động lại máy tính của bạn.";
+err_activate_10045 = "Lỗi HTTP 10045 đã xảy ra trong tiến trình kích hoạt.\nMột lí do có thể là Winsock của bạn bị hỏng.\nĐể thiết lập lại Winsock của bạn hãy mở Command Prompt\nvà nhập lệnh 'netsh winsock reset'.\nSau đó khởi động lại máy tính của bạn và thử lại\nmột lần nữa.";
+err_activate_12002 = "Lỗi HTTP 12002 (yêu cầu thời gian chờ) đã xảy ra trong suốt\ntiến trình cài đặt. Một lí do có thể do kết nối đến máy chủ của chúng tôi\ncần thiết cho việc đăng kí đang bị chặn bởi tường lửa, phần mềm chống virus\nhoặc các loại khác của phần mềm bảo mật. Nếu bạn có bất kỳ\nchương trình cài đặt nào đang hoạt động, hãy tạm thời tắt chúng và thử lại việc đăng kí.";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "Lỗi sao chép tập tin %1 tới %2 (%3).";
+err_port_in_use = "Cổng kết nối của máy chủ %? đã được sử dụng bởi một chương trình khác.\n\nChương trình: %?\nĐường dẫn: %?";
+
+/ warning messages
+wrn_oem_update = "Bạn đã có một giấy phép %p được cài.\n\nBạn sắp cài đặt phần mềm phiên bản dùng thử. Nếu bạn tiếp tục\nvới cài đặt này, giấy phép của bạn sẽ không hoạt động.\nBản cập nhật cho %p với giấy phép của bạn có thể tìm thấy\ntại nơi bạn mua nó ban đầu.\n\nBạn vẫn muốn tiếp tục cài đặt?";
+wrn_close_application = "Đề nghị đóng các ứng dụng ở dưới trước khi tiếp tục:";
+
+/ traffic shaping algorithm
+tsa_header = "Chế độ Traffic Shaping (Phiên bản nhiều người sử dụng)";
+tsa_subheader = "Biểu hiện mặc định cho thuật toán Traffic Shaping.";
+tsa_info = "Hãy chọn biểu hiện mặc định của thuật toán Traffic Shaping dựa theo đường truyền Internet của bạn. (Lựa chọn này có thể thay đổi lúc sau đối với mỗi kết nối khác nhau.)";
+
+/ vista warning
+vista_header = "Ghi chú cài đặt";
+vista_subheader = "Ghi chú về việc cài đặt driver trong Windows Vista.";
+vista_warn_info = "%p đã có chữ kí điện tử xác nhận bởi Global Sign, một công ty được cấp bản quyền bởi Microsoft. Tuy nhiên,cFos Software GmbH không tham gia thêm vào quá trình xác nhận WHQL mắc tiền của Microsoft. Vì lí do này, một cửa sổ sẽ hiện lên trong tiến trình cài đặt driver trong Windows Vista với thông báo là nhà phát hành của driver phần mềm này không thể xác nhận.\n\nNếu cửa sổ này xuất hiện, hãy nhấn vào \"Install this driver software anyway\".";
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+dun_wizard_name = "%p Thiết lập kết nối với hệ thống giúp đỡ";
+connections = "Kết nối";
+dun_subheader = "Thiết lập kết nối.";
+dun_with_bc = " với cFos Broadband Connect";
+dun_reenter_password = "Xin Vui long đánh lại mật khẩu";
+dun_list_tonline = "Kết nối T-Online mới";
+dun_new_connection = "Thiết lập kết nối mới";
+dun_err_no_device = "Không tìm thấy thiết bị %p. (Thiết bị sẽ sẵn sang hoạt động sau khi bạn khởi động lại máy.)";
+
+/ e-mail registration dialog
+eml_header = "Đăng kí địa chỉ Email";
+eml_subheader = "Đăng kí địa chỉ Email tại cFos.";
+eml_info = "Xin vui lòng đăng kí địa chỉ Email của bạn với cFos để chúng tôi có thể cập nhật thông tin khi có bản %p mới nhất.";
+eml_info_optional = "Nếu bạn đăng kí địa chỉ Email của bạn với cFos, bạn sẽ nằm trong danh sách được thông báo khi có bản %p mới nhất.";
+eml_email = "Địa chỉ Email của bạn:";
+eml_invalid_email = "Địa chỉ email bạn vừa nhập vào không hợp lệ.";
+eml_invalid_optional_email = "Vui lòng nhập địa chỉ E-mail hợp lệ hoặc không nhập gì cả.";
+eml_reg_failed = "Đăng kí địa chỉ Email không thành công.";
+eml_checking_domain = "Đang kiểm tra tên miền Email...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p Khởi động thuật sĩ tạo mạng Wi-Fi ảo";
+virtual_wifi_header = "Khởi động mạng Wi-Fi ảo";
+virtual_wifi_subheader = "Thiết lập một điểm truy cập không dây dựa trên phần mềm và kích hoạt Chia sẻ kết nối Internet.";
+virtual_wifi_info = "Chọn kết nối mạng điều khiển đường truyền Internet và chọn một mật khẩu cho điểm truy cập không dây.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "SSID không được để trống và có không quá 32 ký tự.";
+virtual_wifi_invalid_password_length = "Chiều dài mật khẩu phải từ 8 đến 64 ký tự.";
+virtual_wifi_ics_not_available = "Chia sẻ kết nối Internet không có sẵn trên máy tính này.";
+virtual_wifi_error_get_cons = "Lỗi trong việc kết nối mạng.";
+virtual_wifi_ics_warning = "Chia sẻ kết nối Internet đã được bật cho mạng sau:\n%?\n\nBạn có muốn dùng kết nối này thay cho mạng:\n% không?";
+virtual_wifi_error_enable_ics = "Lỗi trong việc bật Chia sẻ kết nối Internet";
+virtual_wifi_error_start = "Lỗi trong việc khỏi động Wi-Fi ảo";
+virtual_wifi_ok = "Đã kích hoạt thành công Wi-Fi ảo và Chia sẻ kết nối Internet.\n\nLưu ý: Nếu người dùng không thể kết nối thành công với Wi-Fi ảo, hãy dừng và khởi động lại Wi-Fi ảo.\n\nNếu người dùng có thể kết nối với Wi-Fi ảo nhưng không có được kết nối Internet, xin vui lòng gỡ bỏ cài đặt và sau đó cài đặt lại %p.";
+virtual_wifi_query_stop = "Dừng Wi-Fi ảo?";
+virtual_wifi_error_stop = "Lỗi trong việc dừng Wi-Fi ảo:";
+virtual_wifi_stopped = "Đã dừng Wi-Fi ảo thành công.";
+virtual_wifi_dialup_ics = "Để kết nối quay số bạn cần kích hoạt thủ công Chia sẻ kết nối Internet và thay đổi thuộc tính kết nối.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
+cfos_orderurl = "https://www.cfos.de/vi/order/cfos-professional-n.htm";
+budget_file = "budget_e.cfhta";
+report_tpl = "report_e.tpl";
+invkey = "invkey_e.htm";
+aoltec = "techinfo\\aoltec_e.htm";
+cfos_htm = "techinfo\\cfos_e.htm";
+techinfo_htm = "techinfo\\techinfo_e.htm";
+dsldevice_help = "techinfo\\dsldev_e.htm";
+features_htm = "techinfo\\features_e.htm";
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+order_oem = "Đặt mua phiên bản chuyên nghiệp ngay bây giờ!";
+cfos_endsoon = "Bạn sắp hết thời hạn dùng thử.\n Đặt mua %p Professional ngay hôm nay\n Đặt hàng %p tại\n\nhttps://www.cfos.de/vi/order/order.htm\n";
+cfos_expired = "Phiên bản %p này đã hết hạn.\nĐặt mua %p Professional ngay hôm nay!\nĐặt hàng %p tại\n\nhttps://www.cfos.de/vi/order/order.htm\n\nĐiện thoại: +49-228-7669826\nFax: +59-228-7669827.";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+dlg_cnf_header = "Cấu hình %p";
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+group_order_inet = "Đặt mua %p nâng cao";
+group_wwwcfos = "www.cfos.de";
+group_hypertrm = "Internet Hyperterminal";
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+

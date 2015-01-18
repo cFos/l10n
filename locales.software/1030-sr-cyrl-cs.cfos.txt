@@ -1,0 +1,491 @@
+#language 1030
+#fallback 1033
+#charset 1
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Dansk";
+language_local = "Dansk";
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+
+/ connection entry dialog
+
+/ pnet configuration dialog
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+mainurl_name = "www.cfos.de";
+
+component_mismatch = "Der er en versions-konflikt mellem komponenter i dette program. Vær venlig at geninstaller den nyeste version.";
+trayicon_tip = "Hurtigere internet med Traffic Shaping, www.cfos.de";
+speed_endsoon = "Den testperiode er snart forbi! Køb venligst %1 i dag!";
+order_info = "Køb nu!:\nInternet: www.cfos.de\nPer Telefon: +49-228-7669826";
+badkey = "Der er et problem med licens-nøglen.\nVær venlig og geninstaller nøglen ved at dobbeltklikke på den\noriginale fil, som du modtog per e-mail eller på en diskette.";
+no_setup = "Kunne ikke starte setup (setup.exe).";
+ask_disconnect_ras = "En aktiv netværks-forbindelse skal til at blive genkonfigureret.\nDet foreslåes at du afbryder forbindelsen inden du forsætter.\nAfbryd den aktive forbindelse?";
+sygate_hint = "%p har opdaget Sygate Firewall, som fejlopfatter\n%p kalibrationspulsen som et Denial of Service angreb med\n\"Ping-of-Death\" pakker.\nDerfor burde du hhv. downloade og uploade med maksimal \nhastighed i 30 sekunder. Dette skulle kalibrere ligesom\n%p kalibrationspulsen.\n\nHint: Firewallfunktionen \"Anti IP Manipulation\" skulle \ndeaktiveres.";
+select_language = "Vælg Sprog";
+translator = "Oversætter";
+translator_name = "eZtaR";
+translator_msg = "i <3 %p";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "Din %3 licens udløber om %1 %2.";
+
+service_desc = "Udfører latency-målinger og priviligerede opgaver for %p";
+no_pings_error = "Ping-pakkerne udsendt af  %p ser ikke ud til at komme igennem. Uden dem kan, %p Traffic Shaping ikke fungere optimalt. Klik her for at få hjælp.";
+other_languages = "Andre Sprog";
+install_dir = "Installationsmappe: ";
+allow_traffic_shaping = "Tillad Traffic Shaping for denne forbindelse";
+none = "ingen";
+lic_expired = "Din testperiode er udløbet. %1 er nu deaktiveret. Køb %1 i dag!";
+settings = "Indstillinger";
+winsettings = "Vindueindstillinger";
+openwindow = "Åbn Vindue";
+openwindows = "Åbn Vinduer";
+closewindow = "Luk Vindue";
+closewindows = "Luk Vinduer";
+autoopen = "Auto-åbn/Auto-gem";
+taskbaricon = "Proceslinje-Ikon";
+autoarrange = "Auto-arranger vinduer";
+effects = "Effekter";
+blend_effect = "Udton vinduer";
+slide_effect = "Lad vinduer glide";
+win_behaviour = "Brug systemadfærd";
+selectskin = "Vælg Skin";
+topmost = "Altid Øverst";
+defpos = "Standard Position";
+disco_ras = "Log af ";
+config = "Egenskaber";
+order = "Køb Nu!";
+dayl_singular = "dag";
+dayl_plural = "dage";
+days_singular = "dag";
+days_plural = "dage";
+/ %1=number, %2="day/days"
+short_try = "Prøv i %1 %2";
+short_dexpire = "Udløbet %1 %2";
+
+short_exp = "Udløbet!";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "Evaluerings perioden for %1 %2 er forbi. Køb %3 i dag!";
+lic_try = "Du må prøve %3 i %1 %2 endnu før du skal købe det.";
+
+enable_win = "Aktiver status-vindue?\n\nStatusvinduet viser status for din aktive forbindelse.";
+license = "Licens";
+licensed_to = "Licenseret til %?";
+upgrade = "Få en ny programversion";
+connect_to = "Forbind til";
+make_own_skin = "Design dit eget skin";
+click_through = "Klik igennem";
+ask = "Spørg";
+off = "Deaktiveret";
+on = "Aktiveret";
+note = "Note";
+deactivated = "deaktiveret";
+ole_error = "For at bruge denne konfigurationsdialog skal,\\n%p være installeret og køre på din PC.\\nBekræft venligst dette og prøv igen, hvis nødvendigt.";
+ts_settings = "Traffic Shaping Indstillinger";
+preferences = "Indstillinger";
+prio_protocols = "Prioritering af protokoller";
+protocol = "Protokol";
+protocols = "Protokoller";
+prio_programs = "Prioritering af programmer";
+program = "Program";
+programs = "Programmer";
+current_connections = "Nuværende Forbindelser";
+ts_prios = "Traffic Shaping Prioriteter";
+client_protocols = "Klient Protokoller";
+server_protocols = "Serverprotokoller";
+media_streaming = "Medie Streaming";
+file_sharing = "Fildeling";
+special = "Speciel";
+other = "Andet";
+hint = "Hint";
+hint_text = "Kun hvis en så lille mængde data som muligt bliver sat på høj prioritet, vil prioritering virke ordentligt. Giv programmer som sender meget data lav prioritet. Protokol-prioriteting bliver gjort før program-prioritering.";
+save_protocols = "Gem protokoller";
+undo = "Fortryd";
+filter_selection = "Filtervalg";
+higher = "Højere";
+high = "Høj";
+normal = "Normal";
+low = "Lav";
+lower = "Lavere";
+entries = "Indskrivelser";
+prog_overwrite = " Programmet #p er allerede på listen.\\nVil du overskrive den med nye værdier?";
+games = "Spil";
+voip = "Stemmekommunikationsprogrammer";
+remote_control = "Fjernbetjening";
+save_priorities = "Gem prioriteter";
+delete = "Slet";
+aux_lines = "Auxiliary linjer";
+higher_prog_help = "Stemmekommunikation, måske spil";
+high_prog_help = "Spil, Streamede Medier, Telnet og andre interaktive programmer";
+low_prog_help = "Server data, FTP data";
+lower_prog_help = "permanent baggrundstrafik, f.eks. fildeling";
+delete_help = "Slet fra liste (d.v.s. behandl pakker som normalt).";
+prog_help = "Overførsel af pakker med lav(este) prioritet, bliver kun sænket i far hvis data med en højere prioritet behandles på samme tid.";
+filename = "Filnavn";
+description = "Beskrivelse";
+new_program = "Nyt Program";
+add = "Tilføj";
+l7_prot_detection = "Layer-7 Protokol Opsporing";
+l7_prot_detection_help = "Opspor protokoller ved at analysere dataene. Brug dialogen 'Prioriter protokoler'  til at ændre prioriteten på de forskellige protokoller. Hvis du deaktiverer denne indstilling, bliver protokollerne opsporet efter portnummeret de bruger.";
+favor_ping = "Favoriser Pingtider";
+favor_ping_help = "<b>Aktiveret</b>: %p vil minimere pingtider på bekostning af let reduceret båndbredde (hvis nødvendigt).<br /><b>Deaktiveret</b>: %p vil maksimere båndbredden på bekostning af lidt højere pingtider (hvis nødvendigt).";
+activate_firewall = "Aktiver Firewall";
+activate_firewall_help = "Beskyttelse mod netværkindtrængen ved filtrering af farlige pakker, tilstandseftersyn og stealth-mode.";
+mtu_opt = "Automatisk MSS (MTU) optimering";
+mtu_opt_help = "Juster MSS/MTU til maksimal overførselshastighed. Typisk, giver værdier lidt under 1500/1492 hurtigere hastigheder.";
+strict_rtp = "Strenge RTP kontroller";
+strict_rtp_help = "Hvis den er aktiveret, vil %p kun genkende de RTP-pakker som kommer med et gyldigt RTCP kilde-ID. Du burde deaktivere denne funktion for stemmekommunikationsprogrammer (som f.eks. VoIPBuster) som ikke sender RTCP pakker.";
+ts_config = "%p Traffic Shaping Konfiguration";
+dialup_connection = "Opkaldsforbindelse";
+dialup_connections = "Opkaldsforbindelser";
+traffic_shaping = "Traffic Shaping";
+ras_con_help = "<b>Ja</b>: aktiver, <b>nej</b>: deaktiver, <b>spørg</b>: spørg kun én gang og gem indstillingen";
+router_connections = "Routerforbindelser";
+net_components = "Netværkskomponenter";
+router_help = "<b>Ja</b>: aktiver, <b>nej</b>: deaktiver, <b>auto</b>: aktiver Traffic Shaping, hvis routeren findes på dette netværkskomponent";
+network_adapter = "Netværksadapter";
+router = "Router";
+and_save_settings = "og gem indstillinger";
+border = "Grænse";
+budget = "Budget";
+budget_settings = "Budget Indstillinger";
+budget_title = "%p Online Budgetter";
+budgets = "Online Budgetter";
+graph_title = "Usage Graph";
+hard_limit = "Hårde<br>Grænser";
+hard_limit_help_not_set = "Et udmattet budget vil kun blive indikeret i statusviduet";
+hard_limit_help_set = "Hvis budgettet er udmattet vil pakkerne blive droppet.";
+last_3_months = "sidste 3 måneder";
+last_month = "sidste måned";
+last_12_months = "sidste 12 måneder";
+please_select = "Vælg Venligst";
+reset_day = "Nulstil Dag";
+reset_day_unit = "dag af måned";
+rxtx_button = "RX/TX valg";
+save_budgets = "Gem Budgetter";
+show_for = "Vis for";
+this_month = "denne måned";
+time = "Tid";
+time_limit = "Tidsbegrænsning";
+volume = "Volume";
+volume_limit = "Volume Begrænsning";
+spdbudget_help = "For at bruge et budget, gå til forbindelses-dialogen og tildel den en bestemt forbindelse.";
+password_bad = "Ugyldigt Password";
+favor_bandwidth = "Favoriser Båndbredde";
+sum_button = "kumulativ";
+calibrate = "Kalibrer linje";
+enable_speed_shaping = "Aktiver Traffic Shaping";
+disable_speed_shaping = "Deaktiver Traffic Shaping";
+yes = "Ja";
+no = "Nej";
+help = "Hjælp";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+
+
+
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p, hurtigere internetadgang Traffic Shaping";
+
+/ URLs
+
+/ wizard
+install_wizard_name = "%? Installationsguide";
+uninstall_wizard_name = "%? Afinstallationsguide";
+brandkey_wizard_name = "%? Registrationsguide";
+continue_line = "For at forsætte, Tryk Næste.";
+start_inst = "Tryk Næste for at starte installationen nu.";
+wizard_lang_line = "Denne guide er på Dansk";
+
+/ welcome page
+welcome_line = "Velkommen til %? v%?!";
+welcome_info = "Denne guide vil guide dig igennem installationen af %? v%?.";
+welcome_found = "En eksisterende installation af %? v%? er blevet opdaget på din computer.";
+welcome_found_dir = "En eksisterende installation af %1 v%2 er blevet opdaget på din computer i mappen %3.";
+welcome_found_unknown = "En eksisterende installation af %? er blevet opdaget på din computer.";
+welcome_found_modified = "En modificeret eller ufærdig installation af %1 v%2 er blevet opdaget på din computer i mappen %3.";
+welcome_update = "For at erstatte den eksisterende version tryk Næste.";
+welcome_admin = "Du har ikke administratorrettigheder. For at køre denne guide skal du logge ind som en som har administratorrettigheder.";
+welcome_lang_syslink = "<a href=\"%?\">Yderligere sprog</a>";
+
+/ uninstall welcome page
+ui_welcome_line = "Afinstaller %? v%?.";
+ui_welcome_info = "Hvis du vil afinstallere %1 v%2 fra mappen %3 og fjerne alle alle dens komponenter, så tryk Næste.";
+
+/ brand key welcome page
+bk_welcome_line = "%? Registration.";
+bk_welcome_info = "Denne guide vil hjælpe dig igennem registrationen af %?.";
+bk_welcome_found = "En eksisterende nøgle-fil er blevet fundet i mappen %?.";
+bk_welcome_update = "For at erstatte den eksisterende nøgle-fil tryk Næste.";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+
+/ restore point dialog
+rp_header = "Systemgendannelsespunkt";
+rp_subheader = "Med systemgendannelsespunkter kan du genoprette dit system til en tidligere tilstand.";
+rp_info = "Med et systemgendannelsespunkt kan du genoprette dit Windows system til den tilstand den var i da punktet blev sat. Det foreslåes at sætte et systemgendannelsespunkt hvis en ny driver installeres.";
+rp_check = "Sæt systemgendannelsespunkt.";
+/ %1 = product name
+rp_uninst_info = "Det er ikke meningen at du skal bruge systemgendannelse til at afinstallere %1. Det er nærmere en ekstra sikkerhedsforanstaltning som kan gendanne dit system i tilfælde af en driverkonflikt. En normal afinstallation af %1 kan gøres enten fra Startmenuen i mappen %1 eller i Kontrolpanelet under Software.";
+
+/ password dialog
+pwd_header = "Password.";
+pwd_subheader = "Hver nøgle kræver et unikt password.";
+pwd_reg_to = "%p vil blive registreret til:";
+pwd_password_info = "Vær venlig og indtast dit password i dette format: xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "Password:";
+pwd_invalid_password = "Ugyldigt password. Genlæs hvad du har skrevet og prøv igen.";
+
+/ re-enter password dialog
+repwd_header = "%? password.";
+repwd_subheader = "Registrationspasswordet skal genindtastes.";
+repwd_reg_to = "P.g.a. ændringer i dine systemkonfigurationer skal du genindtaste passwordet for den følgende %p registration: ";
+
+/ installation directory dialog
+instdir_header = "Installationsmappe";
+instdir_subheader = "Installationsmappen angiver hvor filerne bliver kopieret hen på din harddisk.";
+instdir_info = "Bestem installationsmappen.";
+instdir_change = "Ændre";
+instdir_src_dst = "Kilde- og destinations-mappe må ikke være identiske!";
+instdir_space = "Denne installation kræver %u byte fri harddisk plads. Der er kun %u byte fri plads i den valgte mappe.";
+instdir_drivetype = "Det valgte drev er ugyldigt. %? kan kun installeres på lokale drev.";
+
+/ tcp settings dialog
+tcp_header = "Juster TCP modtager vinduestørrelse.";
+tcp_subheader = "TCP (Transmission Control Protocol)-modtager vinduestørrelsen skal optimeres for optimal datagennemstrømning.";
+tcp_info = "TCP-modtager vinduestørrelsen styrer gennemstrømningen af indkommende data. Det oplagres i registreringsdatabasen og er ikke af optimal størrelse lige nu.\n\nDet foreslåes at du lader denne guide justere størrelsen af denne for at få større gennemstrøm af data. (En justering tager effekt efter genstart.)";
+tcp_check = "Optimer TCP modtager vinduestørrelse. (Foreslåes)";
+
+/ hang up online connection dialog
+hangup_header = "Online Forbindelse";
+hangup_subheader = "Den online forbindelse skal afbrydes.";
+hangup_online = "Du er online med flg. forbindelse:";
+hangup_offline = "Forbindelsen er blevet afbrudt.";
+hangup_info = "For at forsætte denne guide, skal den online forbindelse afbrydes.\n\nFor at afbryde forbindelsen nu, tryk Afbryd forbindelse.";
+hangup_disco = "Afbryd forbindelse";
+
+/ progress dialog
+progress_inst_header = "Installation";
+progress_inst_subheader = "Installationen er i gang.";
+progress_inst_wait = "Vent venligst indtil installationen er færdig.";
+progress_uninst_header = "Afinstaller";
+progress_uninst_subheader = "Afinstallationen er i gang.";
+progress_uninst_wait = "Vent venligst indtil afinstallationen er færdig.";
+progress_driver_wait = "Vent venligst mens styresystemet (af-)installerer driveren. Dette kan tage flere minutter.";
+
+/ confirm delete dialog
+conf_del_header = "Slet Konfigurationsfiler";
+conf_del_subheader = "Du skal bekræfte at du gerne vil slette filer med konfigurationsinstillinger eller på anden måde personlig information.";
+conf_del_column = "Filnavn";
+conf_del_query = "Hvis du også vil slette disse filer, kan du vælge den individuelt. Efter valget tryk Næste.";
+
+/ finish page
+finish_head_ok = "Installation fuldført.";
+finish_info_ok = "%? er blevet installeret på din computer med succes.";
+finish_head_fail = "Installationen slog fejl.";
+finish_info_fail = "Installationen slog fejl p.g.a. følgende:";
+finish_reboot = "Systemet skal genstartes! Tryk Færdig for at genstarte nu eller Annuler for at genstarte senere.";
+finish_link_ok = "<a href=\"%?\">%? features!</a>";
+finish_file_fail = "Se log-filen %s for yderligere information.";
+finish_file_link_fail = "Se <a href=\"file://%s\">log-filen</a> for yderligere information.";
+finish_cfosts_disabled = "Traffic shaping er blevet slået fra i cFos, fordi %p allerede sørger for traffic shaping. (Du kan slå traffic shaping til igen i cFos konfigurationsmenuen.)";
+finish_cfosts_enabled = "Traffic shaping er blevet slået til fordi du kører cFos.";
+
+/ uninstall finish page
+ui_finish_head_ok = "Afinstallation lykkedes.";
+ui_finish_info_ok = "%? er blevet fjernet fra din computer.";
+ui_finish_head_fail = "Afinstallation mislykkedes.";
+ui_finish_info_fail = "%? kunne ikke blive fjernet fra din computer af flg. grund:";
+ui_finish_not_removed = "Følgende filer vil blive slettet efter genstart: ";
+
+/ brandkey finish page
+bk_finish_head_ok = "Registration fuldendt.";
+bk_finish_info_ok = "%? er blevet registreret til:";
+bk_finish_head_fail = "Registration mislykkedes.";
+bk_finish_info_fail = "Registrationen mislykkedes p.g.a. følgende:";
+
+/ progress tasks
+task_restore_point = "Sætter systemgendannelsespunkt...";
+task_copy = "Kopierer filer...";
+task_desktop_link = "Placerer genvej på skrivebordet...";
+task_program_group = "Laver programgrupper...";
+task_registry = "Laver indlæg i registreringsdatabasen ...";
+task_driver = "Installerer driver...";
+task_daemon = "Starter %?...";
+task_uninstall_old = "Afinstallerer den eksisterende version...";
+task_stop_daemon = "Stopper %?...";
+task_uninstall_driver = "Afinstallerer driver...";
+task_delete_files = "Sletter filer...";
+task_hangup = "Afbryder aktive online forbindelser...";
+task_flush_registry = "Gemmer registreringsdatabase på harddisken...";
+task_cancel = "Afbryder operation...";
+task_canceled = "Operation afbrudt!";
+
+/ program group
+speed_pg_name = "%p Traffic Shaping";
+pg_uninstall = "Afinstaller %?";
+pg_console = "%p konsol";
+pg_menu = "%? menu";
+
+/ desktop symbol
+dt_advertise = "%? Særlige features";
+dt_advertise_desc = "Skriver alle %? særlige features.";
+
+/ message boxes
+query_drv_inst_cancel = "Driver af-/installation udføres af styresystemet.\nWindows setup interfacet kan kræve op til 15 minutter at\nregistrere or afregistrere en driver!\n\nDet foreslåes på det stærkeste ikke at afbryde denne proces med mindre\ndu allerede har ventet så længe.\n\nVil du virkelig afbryde?";
+query_driver_err_abort = "Der var en fejl under installationen af driveren!\nDerfor er der foreslåes det at installationen afbrydes\nnu.\n\nDet er dog muligt at forsætte installationen,\nhvilket måske ville være nyttigt til test-formål. Vær venlig at\nhuske på at %p måske ikke kører\nordentligt.\n\nAfbryd installationen? (foreslåes)";
+
+/ error messages
+err_driver_inst = "Fejl ved driverinstallation.";
+err_daemon_start = "Kunne ikke starte %?.";
+err_uninst_old = "Den eksisterende version kunne ikke afinstalleres. Log af dit styresystem, log på igen og prøv igen.";
+err_os = "Dit styresystem er %?.\n\n%? kræver Windows 2000/XP eller højere for at køre.";
+err_os_minxp = "Dit styresystem er %?.\n\n%? kræver Windows XP eller højere for at køre.";
+err_uninst_driver = "Driveren kunne ikke afinstalleres.";
+err_create_process = "Kunne ikke kalde %s: %s";
+err_write_lock = "%? netværkskomponenter bliver brugt af en anden proces. Luk alle programmer eller genstart og prøv igen.";
+err_file_auth = "Nogle filer i denne distribution er korrupte eller manglende.\nVær så venlig at få en ægte %p distribution\n(f.eks. fra www.cfos.de).";
+err_cancel = "Handlingen blev annuleret.";
+err_no32 = "Kan ikke installere 32-bit drivere på 64-bit systemer.\n\nStyresystem: %?\nProdukt: %?";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "Fejl ved kopiering af filen %1 til %2 (%3).";
+
+/ warning messages
+
+/ traffic shaping algorithm
+
+/ vista warning
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+
+/ e-mail registration dialog
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+budget_file = "budget_e.cfhta";
+report_tpl = "report_e.tpl";
+invkey = "invkey_e.htm";
+aoltec = "techinfo\\aoltec_e.htm";
+cfos_htm = "techinfo\\cfos_e.htm";
+techinfo_htm = "techinfo\\techinfo_e.htm";
+dsldevice_help = "techinfo\\dsldev_e.htm";
+features_htm = "techinfo\\features_e.htm";
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+order_oem = "Køb den professionelle version nu!";
+cfos_endsoon = " Din testperiode er snart forbi.\nKøb den %p Professionelle nu!\nStart %p bestillingen på\n\nhttps://www.cfos.de/en/order/order.htm";
+cfos_expired = "Denne %p version er udløbet.\nKøb den %p/Professionelle nu!\nStart %p bestillingen på\n\nhttps://www.cfos.de/en/order/order.htm\n\nPhone: +49-228-7669826\nFax: +49-228-7669827.";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+group_order_inet = "Køb avanceret %p";
+group_wwwcfos = "www.cfos.de";
+group_hypertrm = "Internet Hyperterminal";
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+

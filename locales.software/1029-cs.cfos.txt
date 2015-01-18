@@ -1,0 +1,919 @@
+#language 1029
+#fallback 1033
+#charset 238
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Czech";
+language_local = "Čeština";
+htm_lang_prefix = "cs";
+
+/ ----------------------------------------------------------------------
+/
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
+bc_orderurl = "https://www.cfos.de/cs/order/broadband-connect-n.htm";
+bc_langurl = "";
+bc_pg_name = "%p";
+bc_desc = "%p, High-Performance Dial-Up Driver";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/cs/order/cfos-ipv6-link-n.htm";
+sixlink_langurl = "";
+sixlink_pg_name = "%p";
+sixlink_desc = "%p, High-speed IPv6 dial-up driver";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/cs/order/cfos-personal-net-n.htm";
+cfospnet_langurl = "";
+pnet_pg_name = "%p";
+pnet_desc = "%p, váš personální webový server";
+renew_params = "Aktualizovat parametry";
+dlg_dun_auto = "Automaticky připojit";
+dlg_dun_default = "Výchozí připojení";
+dlg_dun_cons = "Profily připojení";
+dlg_dun_name = "Jméno připojení:";
+dlg_dun_uname = "Uživatel:";
+dlg_dun_pwd = "Heslo:";
+dlg_dun_use_ipv4 = "Použít IPv4";
+dlg_dun_use_ipv6 = "Použít IPv6";
+dun_connect_to = "Připojit k %?";
+dun_err_already_exists = "Připojení s tímto jménem již existuje.";
+disconnect = "Odpojit ";
+setup_connections = "Nastavit připojení";
+ask_inst_ipv6 = "Protokol IPv6 nebyl dosud na tomto systému nainstalován.\n\n"
+                "Chcete nainstalovat protokol IPv6 nyní?";
+err_inst_ipv6 = "Chyba %? při instalaci protokolu IPv6.";
+
+/ connection entry dialog
+con_err_save = "Nelze uložit informace o připojení!";
+con_ipv4 = "IPv4";
+con_ipv6 = "IPv6";
+con_private_address = "Lokální adresa:";
+con_prefix = "Prefix:";
+con_dns1 = "DNS1:";
+con_dns2 = "DNS2:";
+con_enabled = "povoleno";
+
+/ pnet configuration dialog
+pnet_header = "Obvyklá nastavení";
+pnet_subheader = "Upravit obvyklá nastavení.";
+pnet_conn_header = "Připojení";
+pnet_conn_subheader = "Nastavení možností připojení.";
+pnet_conn_local_ip = "Lokální IP adresa %?";
+pnet_conn_public_ip = "Veřejná IP adresa %?";
+pnet_pubdir_header = "Veřejný adresář";
+pnet_pubdir_subheader = "Adresář, který obsahuje stáhnutelné soubory.";
+pnet_pubdir_info = "Udejte umístění složky, kde se nacházejí soubory, které chcete zpřístupnit pro stahování.";
+smtp_subheader = "Konfigurovat servery SMTP.";
+dynip_header = "Dynamický IP server";
+dynip_subheader = "Konfigurovat dynamický IP server";
+dlg_start_now_as_current_user = "Odstartovat nyní %p jako stávající uživatel";
+dlg_autostart = "Startovat %p při startu Windows";
+dlg_autostart_service = "Instalovat %p jako systémovou službu a odstartovat ji při startu Windows";
+dlg_context_menu = "Přidat položku kontextové nabídky ve Windows Exploreru";
+dlg_create_admin_account = "Vytvořit účet správce";
+dlg_admin_pwd = "Heslo pro účet \"admin\":";
+dlg_admin_pwd_needed = "K vytvoření účtu správce musí být zadáno heslo pro uživatele \"admin\".";
+dlg_register_shell_extension = "Registrovat rozšíření shellu";
+dlg_server_port = "Port serveru:";
+dlg_server_name = "Jméno serveru:";
+dlg_server = "Server:";
+dlg_renew_interval = "Interval pro obnovení (ms):";
+dlg_redirect_delay = "Prodleva při přesměrování (ms):";
+dlg_monitor_ports = "Monitorovat přiřazení portů";
+dlg_enable_upnp = "Povolit Multimedia Server (UPnP/DLNA)";
+dlg_upnp_info = "Dej soubory médií do podsložky 'media' tvojí veřejné složky.";
+use_https_port = "Použij HTTPS port";
+
+/ pnet start type dialog
+pnet_start_header = "Způsob spuštění";
+pnet_start_subheader = "Jak má být program spuštěn?";
+pnet_start_mode = "Spuštění %p:";
+pnet_start_login = "při přihlášení (doporučeno)";
+pnet_start_system = "jako systémová služba";
+pnet_start_manual = "ručně";
+pnet_start_info = "Doporučeno automatické spuštění %p při přihlášení. "
+                  "Jestliže %p má být spuštěno také, když není přihlášen uživatel, musí být spuštěno jako systémová služba. "
+                  "V tomto případě nebude viditelná ikona ani kontextové menu. "
+                  "Jestliže chcete publikovat data jen příležitostně, pak spouštějte %p ručně.";
+
+/ pnet context menu entry
+publish_with_product = "Publikovat prostřednictvím %p";
+
+/ pnet backup info
+dlg_backup_info = "Před nahrazením každého z následujících souborů byla vytvořena jeho záložní kopie (.bak):";
+
+/ pnet
+end_program = "Ukončit program";
+file_copy_failed = "Operace kopírování souboru selhala.";
+ipv4_bind_problem = "Server nemůže na udaném portu naslouchat pomocí IPv4, protože port používá jiná aplikace (např. Skype).";
+ipv6_bind_problem = "Server nemůže na udaném portu naslouchat pomocí IPv6, protože port používá jiná aplikace (např. Skype).";
+closing_server = "Server se zavírá.";
+start_product = "Odstartovat %p";
+info_port_in_use = "Port %? je %p používán jiným programem.\n\nProgram: %?\nCesta: %?\n\n"
+                   "K použití %p, musí být tento jiný program ukončen nebo musí být vybrán jiný port v %p konfiguraci.";
+monitor_port_desc = "Tato úloha pravidelně monitoruje porty potřebné %p a upozorní uživatele, jestliže je jeden z portů používán jiným programem.";
+logon_start_desc = "Tyto úlohy jsou spuštěny %p jestliže se přihlásí níže uvedený uživatel.";
+show_home_dir = "Zobrazit domovskou složku";
+publish_file = "Publikovat soubor";
+user_administration = "Uživatelská správa";
+
+/ pnet connectivity test
+connectivity_test = "Test připojení";
+con_test_subheader = "Prosím, počkejte dokud neskončí test připojení.";
+con_test = "%p Test připojení";
+con_test_not_running = "Test připojení nemůže být proveden, pokud %p není spuštěn. Prosím spusťte %p a proveďte test připojení znovu.";
+con_test_public_fail = "Vaše veřejná IP adresa nebyla zjištěna. Prosím, ujistěte se, že jste připojeni k internetu a zopakujte test.";
+con_test_execute = "Proveďte test připojení";
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
+speed_orderurl = "https://www.cfos.de/cs/order/cfosspeed-n.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+mainurl_name = "www.cfos.de";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
+
+auth_failed = "Kontrola konzistence odhalila, že došlo k modifikaci jedné nebo více komponent.\n"
+   "Prosíme, nainstalujte původní verzi z našich webových stránek:\n";
+
+component_mismatch = "Zjištěn konflikt mezi částmi programu. Nainstalujte poslední verzi.";
+trayicon_tip = "Rychlejší internet pomocí Traffic Shaping, www.cfos.de";
+speed_endsoon = "Vaše testovací doba brzy skončí! Objednejte si %1 ještě dnes!";
+order_info = "Objednejte nyní:\nInternet: www.cfos.de\nTelefon: +49-228-7669826";
+badkey = "Byl zjištěn problém s licenčním klíčem.\nPřeinstalujte klíč dvojklikem na originálním souboru,\nkterý jste obdrželi elektronickou poštou nebo na disketě.";
+no_setup = "Nelze spustit instalaci (setup.exe).";
+no_cmd = "Nelze otevřít příkazový řádek (cmd.exe)!";
+ask_disconnect_ras = "Aktivní připojení bude překonfigurováno.\nDoporučujeme před pokračováním ukončit připojení.\nUkončit připojení k síti?";
+sygate_hint = "%p detekoval Sygate Firewall, který zmátl\n%p kalibrační pulz pro Denial of Service útok pomocí\n\"Ping-of-Death\" packetu.\nPřesto budete schopni stahovat plnou rychostí\n30 sekund. Mělo by to být zkalibrováno\n%p pomocí kalibračního pulzu.\n\nRada: Funkce Firewallu \"Manipulace s IP\" by měla být\ndeaktivovaná.";
+select_language = "Vyberte jazyk";
+translator = "Překladač";
+translator_name = "";
+translator_msg = "";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "Vaše %3 licence skončila %1 %2.";
+
+service_desc = "Provést skrytá měření pro %p";
+no_pings_error = "Paket Ping, odeslaný pro %p neprošel. Bez toho %p Traffic Shaping nemůže korektně pracovat. Pro nápovědu klikněte zde.";
+other_languages = "Další lokalizace";
+install_dir = "Složka pro instalaci: ";
+ask_clear_tsdata = "Odstranit data řízení provozu (Traffic Shaping) a započít novou kalibraci linky?";
+allow_traffic_shaping = "Povolit Traffic Shaping pro toto připojení";
+none = "žádný";
+lic_expired = "Testovací doba skončila. %1 byl deaktivován. Objednejte si %1 ještě dnes!";
+settings = "Nastavení";
+winsettings = "Nastavení oken";
+openwindow = "Otevřít okno";
+openwindows = "Otevřít okna";
+closewindow = "Zavřít okno";
+closewindows = "Zavřít okna";
+autoopen = "Automaticky zobrazit/skrývat";
+taskbaricon = "Ikona";
+autoarrange = "Automaticky uspořádat okna";
+effects = "Efekty";
+blend_effect = "Slábnutí oken";
+slide_effect = "Přechodová okna";
+win_behaviour = "Použít nastavení systému";
+selectskin = "Vyberte skin";
+topmost = "Vždy nahoře";
+defpos = "Výchozí pozice";
+disco_ras = "Odhlásit ";
+config = "Možnosti";
+order = "Objednejte nyní!";
+dayl_singular = "den";
+dayl_plural = "dnů";
+days_singular = "den";
+days_plural = "dny";
+/ %1=number, %2="day/days"
+short_try = "Zkuste %1 %2";
+short_dexpire = "Testovací období skončilo %1 %2";
+
+short_exp = "Testovací období skončilo!";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "Testovací doba pro %1 %2 skončila. Objednejte si %3 ještě dnes!";
+lic_try = "Vyzoušejte %3 místo %1 %2 ještě před nákupem.";
+
+enable_win = "Povolit stavové okno?\n\nStavové okno zobrazuje stav aktivního připojení.";
+license = "Licence ";
+licensed_to = "Licence platí pro %?";
+upgrade = "Získat novou verzi programu";
+connect_to = "Připojit k";
+make_own_skin = "Upravte si vlastní skin";
+click_through = "Prokliknout";
+ask = "Dotaz";
+off = "Vypnuto";
+on = "Zapnuto";
+note = "Poznámka";
+deactivated = "deaktivováno";
+browser_warning = "Pro tento dialog je doporučen Internet Explorer verze 8 nebo vyšší!";
+ole_error = "Pr použití tohoto konfiguračního dialogu,\\n%p musí být instalován a spuštěn na vašem počítači.\\nProsím ověřte, zda program běží popř. program přeinstalujte.";
+ts_settings = "Nastavení Traffic Shaping";
+preferences = "Nastavení";
+prio_protocols = "Upřednostnění protokolů";
+protocol = "Protokol";
+protocols = "Protokoly";
+prio_programs = "Upřednostnění programů";
+program = "Program";
+programs = "Programy";
+current_connections = "Současné připojení";
+current_connections_advanced = "Aktuální připojení (pokročilé)";
+current_connections_standard = "Aktuální připojení (standardní)";
+ts_prios = "Upřednostnění pro Traffic Shaping";
+client_protocols = "Klientské protocoly";
+server_protocols = "Protokoly serveru";
+client_server_protocols = "Protokoly klient-server";
+media_streaming = "Streamovaná média";
+file_sharing = "Sdílení souborů";
+special = "Rozšířené";
+other = "Další";
+misc_high_short = "Ostatní s prioritou";
+misc_high = "Ostatní provoz s vysokou prioritou";
+hint = "Nápověda";
+hint_text = "Upřednostnění bude pracovat správně pouze pokud lze dát vyskou prioritu malému rozsahu dat. Nastavte pro programy posíání dat v nízké prioritě. Priorita protokolu má přednost před upřednostněním programu.";
+prio_doc_link = "Jak pracuje schéma upřednostňování";
+save_protocols = "Uložit protokoly";
+undo = "Zpět";
+filter_selection = "Volba filtru";
+higher = "Vyšší";
+high = "Vysoký";
+normal = "Normální";
+default = "Standardní nastavení";
+low = "Nízký";
+lower = "Nižší";
+entries = "Vstupy";
+prog_overwrite = "Program #p je již v seznamu uveden.\\nPřejete si přepsat existující záznam novou hodnotou?";
+games = "Hry";
+voip = "Voice-over-IP";
+remote_control = "Dálkové ovládání";
+prog_hint_text = "Upřednostnění bude pracovat správně pouze v případě, pokud je dat s vyšší prioritou málo. Nastavte pro rogramy, které posílají mnoho dat nízkou prioritu.<br />";
+save_priorities = "Uložit upřednostnění";
+delete = "Smazat";
+aux_lines = "Nesouměrné linky";
+higher_prog_help = "VOIP telefonie, možná hry";
+high_prog_help = "Hry, streamované video, Telnet a další interativní programy";
+low_prog_help = "Serverová data, FTP data";
+lower_prog_help = "trvalý přenos na pozadí, obvykle sdílení souborů";
+delete_help = "Odstranit ze seznamu (zacházet s paketem jako normálním).";
+prog_help = "Přenos paketů s nejnižší prioritou je pomalejší pouze, pokud se budou přenášet data s vyší prioritou. Jinak budou pakety s nejnižší prioritou zpracovávány maximální rychlostí.";
+filename = "Jméno souboru";
+description = "Popis";
+new_program = "Nový program";
+restore_defaults = "Obnovit standardní nastavení";
+add = "Přidat";
+suggest_program = "Navrhněte tento program týmu cFos";
+l7_prot_detection = "Detekce protokolu Layer-7";
+l7_prot_detection_help = "Detekování protokolu analýzou dat. Použijte dialog 'Upřednostnit protokol' pro změnu priority různých protokolů. Pokud tuto volbu deaktivujete, protokoly budou detekovány podle portu, který používají.";
+favor_ping = "Upřednostnit ping";
+favor_ping_help = "<b>Zapnut</b>: %p bude minimalizovat čas pingu na úkor mírně snížené šířky pásma (pokud to bude nutné).<br /><b>Vypnuto</b>: %p bude maximalizovat šířku pásma na úkor delšího času pingu (okud to bude nutné).";
+favor_bandwidth = "Upřednostňit šířku pásma";
+avoid_loss = "Vyvarování se ztráty paketů";
+avoid_loss_help = "%p uzavře pro přijímané proudy příjmové okno TCP, pokud je detekována příliš velká ztráta paketů. K tomu může dojít pouze tehdy, pokud vaše připojení přijímá na plné rychlosti.";
+activate_firewall = "Activovat Firewall";
+activate_firewall_help = "Ochrana proti útokům ze sítě filtrováním nebezpečných paketů, zjištováním stavu a utajením v síti.";
+mtu_opt = "Automatická optimalizace MSS (MTU)";
+mtu_opt_help = "Nastavit MSS/MTU pro maximální přenosovou rychlost. Typicky, hodnoty v rozsahu mírně pod 1500/1492 mají za následek vyšší rychlost.";
+strict_rtp = "Striktní kontrola RTP";
+strict_rtp_help = "okud je aktivní, %p bude rozeznávat jako RTP pakety pouze ty, které příjdou z platného RTCP zdroje. Tato volba by měla být deaktivována pro VOIP telefonii, protože programy (např. VoIPBuster) neposílají RTCP pakety.";
+ts_config = "Konfigurace %p Traffic Shaping";
+dialup_connection = "Vytáčené připojení";
+dialup_connections = "Vytáčená připojení";
+traffic_shaping = "Traffic Shaping";
+ras_con_help = "<b>Ano</b>: aktivovat, <b>ne</b>: deaktivovat, <b>dotaz</b>: zeptat se pouze jednou a pak uložit nastavení";
+router_connections = "Připojení routeru";
+net_components = "Síťové komponenty";
+auto = "Automaticky";
+router_help = "<b>Ano</b>: aktivovat, <b>ne</b>: deactivovat, <b>automaticky</b>: povolit Traffic Shaping, pokud je router nalezen";
+network_adapter = "Síťové adaptéry";
+router = "Router";
+and_save_settings = "a uložit nastavení";
+border = "Hranice";
+budget = "Hlídní objemu dat";
+budget_settings = "Nastavení objemu dat";
+budget_title = "%p online objem dat";
+budgets = "Online hlidání obejmu dat";
+graph_title = "Graf využití";
+hard_limit = "Tvrdé<br>limity";
+hard_limit_help_not_set = "Překročení objemu dat bude indikování pouze ve stavovém okně";
+hard_limit_help_set = "Při překročení objemu dat budu pakety zahozeny";
+last_3_months = "poslední 3 měsíce";
+last_month = "poslední měsíc";
+last_12_months = "poslední 12 měsíce";
+please_select = "Zvolte";
+reset_day = "Resetovat dne";
+reset_day_unit = "den v měsíci";
+rxtx_button = "Volba RX/TX";
+save_budgets = "Uložit nastavení účtu";
+show_for = "Zoprazit pro";
+this_month = "tento měsíc";
+time = "Čas";
+time_limit = "Časový limit";
+volume = "Objem";
+volume_limit = "Omezení objemu dat";
+spdbudget_help = "Pro použití hlídání objemu dat jděte do dialogu připojení a přiřaďte je k nějakému připojení";
+password_bad = "Chybné heslo";
+sum_button = "kumulativní";
+calibrate = "Calibrovat linku";
+test_pings = "Odeslat testovací pingy";
+open_console = "Otevři %p konzoli";
+variable_bandwidth = "Proměnlivá šířka pásma";
+def_bandwidth_help = "Výchozí pro <b>nové</b> připojení";
+cur_bandwidth_help = "Nastavení stávajícího připojení";
+no_ports_open = "Není otevřeno žádné připojení.";
+no_ports_open_help = "V tomto okamžiku neexistuje žádné otevřené připojení obsluhované %p. "
+   "Pro změnu standardních nastavení u nových připojení klikněte na záložku \"Předvolba pro nová připojení\", "
+   "pro změnu nastavení u jiných připojení klikněte na \"Řízení provozu\" na levé straně.";
+ok = "OK";
+connection_medium = "Střední";
+connection_type = "Traffic Shaping režim";
+driver_not_loaded = "Ovladač načten!";
+demon_driver_not_loaded = "Ovladač nezaveden!\n"
+   "Instalace může být poškozena.\n"
+   "Prosíme, přeinstalujte %p.\n";
+asus_demon_driver_not_loaded = "Po upgradu na nový operační systém přeinstalujte %p.\nPro získání nejnovější verze %p navštivte webové stránky ASUS na %w.";
+many_cons_error = "%p rx-Traffic Shaping je stlačen k limitu, příliš mnoho spojení. Výkon bude lepší s méně spojeními. Klikněte pro nápovědu.";
+limit_bandwidth = "Limit šířky pásma pro současné připojení";
+apply_limits = "Aplikovat limity";
+limit_help = "Hodnoty v kbyte/s, zahrnující všechny protokoly, 0 = bez limitu.";
+enable_speed_shaping = "Povolit Traffic Shaping";
+disable_speed_shaping = "Zakázat Traffic Shaping";
+yes = "Ano";
+no = "Ne";
+help = "Nápověda";
+bgraph_totals = "Celkem";
+blocklist = "IP blokování";
+blocklist_help = "Seznam IP adres, pro které je provoz blokován.";
+apply_blocklist = "Použít seznam filtrů";
+search = "Hledat";
+budget_connection = "Nastavte, jaký rozpočet se použije pro to které připojení";
+reset = "Reset";
+autohide_on_fullscreen = "Automaticky skrýt při zobrazení na celou obrazovku";
+slot_selected = "Vybrané protokoly / programy";
+show = "Ukázat";
+hide = "Skrýt";
+slot_explain = "Pokud má datový paket známý protokol a tento protokol již byl přiřazen na některou pozici,"
+               "pak se provoz takového paketu počítá v této pozici (slotu). "
+               "Není-li tomu tak, pak pokud paket patří k připojení jména programu "
+               "přiřazeného k některé pozici, počítá se provoz pro tuto "
+               "pozici. Pokud nejde ani o tento případ, počítá se provoz v pozici, "
+               "kde se počítá veškerý ostatní provoz, pokud byla nastavena.";
+traffic_analysis_title = "Analýza provozu v reálném čase";
+other_traffic = "Veškerý ostatní provoz";
+traffic_analysis = "Analýza provozu";
+slot = "Pozice";
+slots = "Pozice";
+slots_title = "Nastavení pozic";
+can_select_multiple = "Upozornění: Můžete vybrat více možností tak, že při jejich volbě držíte stisknutou klávesu Shift nebo Ctrl";
+name_for = "Jméno pro ";
+set_name = "Udejte jméno";
+rx_only = "Pouze RX";
+tx_only = "Pouze TX";
+max_of_rx_tx = "Maximum RX a TX";
+total_rx_only = "Celková rychlost RX";
+total_tx_only = "Celková rychlost TX";
+nettalk_rx = "Rychlost downloadu Net Talk";
+nettalk_tx = "Rychlost uploadu Net Talk";
+nettalk_max_of_rx_tx = "Max. z Net Talk up & downloadu";
+total_max_of_rx_tx = "Max. celkové RX & TX";
+check_if_other_also = "Zaškrtněte, pokud chcete, aby se v této pozici počítal veškerý ostatní provoz";
+performance_help = "Pro zachování maximálního výpočetního výkonu doporučujeme nastavit připojení, které se používá pro přístup k internetu, na 'Ano' a všechna ostatní na 'Ne'.";
+loading = "Načítá se...";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
+regid = "Nespolupracující";
+regid_help = "Na vaší LAN je stroj bez cFos TS";
+regid_help_long = "Své připojení používáte současně pro několik dalších strojů a alespoň jeden z nich nemá řízení provozu cFos.";
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+net_talk_help = "Vysílání statistik provozu na vaší LAN";
+net_talk_help_long = "Pro zlepšení přesnosti zasílejte statistiky řízení provozu dalším počítačům na vaší lokální (domácí) síti. Žádná data se neodesílají na  Internet.";
+net_talk_subheader = "Prosíme, vyberte si, zda se má používat relace Net_Talk.";
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+vari_fixed = "Přizpůsobit odchylkám v pingu";
+vari_fixed_help = "Použijte pokročilé řízení provozu k přizpůsobení měnícím se dobám pingu";
+vari_fixed_help_long = "Shromáždit statistiky pingu s cílem přizpůsobit se odchylkám v dobách pingu; obzvláště užitečné pro mobilní/bezdrátová připojení. Doporučujeme nechat tuto volbu zapnutou i pro všechny ostatní typy připojení.";
+
+set = "Nastavit";
+tx_limit_help = "Zadejte rychlost v bytech za sekundu nebo procento, s nimiž tento program nebo protokol smí vysílat.";
+download_more_skins = "Stáhnout další skiny";
+documentation = "Dokumentace";
+speed_test = "Test cFos Speed";
+ask_key_banned_info = "Vyskytl se problém s vaším licenčním klíčem.\nPřejete si další informace?";
+
+adapter_info = "Info o adaptéru";
+channel_recommend = "Kanály s minimem využití frekvence (od nejlepšího k nejhoršímu)";
+channel_explain = "Můžete použít využití kanálu ke konfiguraci WLAN stanice, ale mějte na vědomí, že současné využití frekvence záleží na konkrétním použití jiných sítí WLAN. Některé mohou být nečinné, jiné velmi využívané.";
+no_adapters = "Není dostupná informace o adaptéru.";
+wlan_no_service = "Služba není dostupná. Prosím, nainstalujte nebo spusťte bezdrátové LAN API pro Windows (WZC).";
+wlan_no_station = "Nalezeno málo přístupových bodů.";
+kaspersky_hint = "Kaspersky Internet Security 2010 může způsobovat problémy s %p. Prosím, aktualizujte na nejnovější verzi Kaspersky Internet Security.";
+
+console_cancel = "Zrušit";
+console_freeze = "Zastavit";
+console_continue = "Pokračovat";
+console_help = "Můžete nastavit prioritu jednotlivého připojení kliknutím na tabulku níže.<br/>Připojení označené (*) mají dočasně prioritu.";
+console_prio = "Nastavit prioritu tomuto připojení";
+console_prio_off = "Vypnout nastavení priorit";
+console_prio_this = "Dočasně nastavit prioritu pouze tomuto připojení";
+console_prio_this_off = "Zrušit prioritu tomuto připojení";
+console_prio_prot = "Dočasně nastavit prioritu protokolu";
+console_prio_prot_off = "Zrušit nastavení priority protokolu";
+console_prio_prog = "Dočasně nastavit prioritu programu";
+console_prio_prog_off = "Zrušit nastavení priority programu";
+console_prio_prog_prot = "Dočasně nastavit prioritu programu & protokolu";
+console_prio_prog_prot_off = "Dočasně zrušit nastavení priority programu & protokolu";
+console_prio_prot_perm = "Nastavit prioritu protokolu trvale";
+console_prio_prog_perm = "Nastavit prioritu programu trvale";
+console_prio_advanced = "Pokročilé nastavení priorit";
+
+new_version_available = "Je k dispozici nová verze";
+update_beta = "Zkontrolujte také nové beta verze";
+update_skip_version = "Žádné další oznámení pro tuto verzi:";
+check_new_version_now = "Vyhledej novou verzi";
+program_updates = "Aktualizace programu";
+no_new_version_available = "Nová verze není k dispozici";
+use_logitech = "Použijte display Logitech G15/G19/G510";
+detect_logitech = "Detekce obrazovky Logitech";
+logitech_help = "Pomoc pro Logitech display";
+logitech_keyboards = "Logitech hrací klávesnice";
+keyboard_leds = "LED na klávesnici";
+keyboard_led_help = "Pomoc pro LED na klávesnici";
+only_on_fullscreen = "Pouze pro fullscreen";
+speed_guide = "Průvodce rychlosti";
+lock_position = "Zamkni pozici okna";
+check_for_news = "Zkontroluj zprávy";
+rwin_expansion = "Automatické rozšíření RWIN";
+rwin_expansion_help = "Automaticky rozšířit okno příjmu TCP ke zvýšení rychlosti downoladu pokud je RWIN vybrané Windows příliš malé.";
+query_auto_open = "Zakázat automatické otvírání a zavírání stavového okna?\nMůžete později opět zapnout v kontextovém menu.";
+preview_skins = "Ukázka skinů";
+enable_smartphone_skins = "Skiny smartphonů";
+http_access_enabled = "Vzdálený přístup HTTP povolen.";
+http_access_disabled = "Vzdálený přístup HTTP zakázán.";
+set_server_pwd = "Nastavit heslo serveru";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p, rychlejší přístup k internetu s Traffic Shaping";
+
+/ URLs
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+
+/ wizard
+install_wizard_name = "%? Instalační průvodce";
+uninstall_wizard_name = "%? průvodce odinstalací";
+brandkey_wizard_name = "%? Registrační průvodce";
+config_wizard_name = "%p Průvodce konfigurací";
+continue_line = "Pro pokračování klikněte na Další.";
+start_inst = "Pro instalaci klikněte na Další.";
+click_next_further_info = "Klikni Další pro další informace.";
+wizard_lang_line = "Průvodce je v";
+
+/ welcome page
+welcome_line = "Vítejte v %? v%?!";
+welcome_info = "Průvodce vás provede instalací  %? v%?.";
+welcome_found = "Byla detekována existující instalace %? v%?.";
+welcome_found_dir = "Byla detekována existující instalace %1 v%2 ve složce %3.";
+welcome_found_unknown = "Byla detekována existující instalace %?.";
+welcome_found_modified = "Byla detekována nedokončená instalace %1 v%2 ve složce %3.";
+welcome_update = "Pro nahrazení existující verze klikněte na Další.";
+welcome_admin = "Nemáte administrátorská práva. Pro spuštění průvodce je nutné být přihlášen jako uživatel s právy administrátora.";
+welcome_lang_syslink = "<a href=\"%?\">Další jazyky</a>";
+welcome_oem_info = "%1 je OEM verze %p pro %2. Proto %p obsahuje všechny funkce %1 a více.";
+
+/ uninstall welcome page
+ui_welcome_line = "Odinstalovat %? v%?.";
+ui_welcome_info = "Pokud opravdu chcete odinstalovat %1 v%2 z adresáře %3 včetně všech komponent, klikněte na Další.";
+
+/ brand key welcome page
+bk_welcome_line = "%? Registrace.";
+bk_welcome_info = "Průvodce vás provede registrací %?.";
+bk_welcome_found = "Existující registrační soubor byla nalezen ve složce %?.";
+bk_welcome_update = "Pro přepsání existujícího klíče klikněte na Další.";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "Licenční smlouva";
+lic_subheader = "K pokračování musíte souhlasit s licenční smlouvou.";
+lic_info = "Jesliže souhlasíte s licenční smlouvou zaškrtněte pole \"Souhlasím\" a klikněte Další, jinak klikněte Zrušit.";
+lic_agree = "Souhlasím.";
+
+/ restore point dialog
+rp_header = "Bod obnovení systému";
+rp_subheader = "Bod obnovení systému vám umožní vrátit systém do předchozího stavu.";
+rp_info = "Bod obnovení vám umožní vrátit změny v systému provedené po vytvoření tohoto bodu. Je doporučeno vytvořit bod obnovení před instalací nového ovladače.";
+rp_check = "Nastavit bod obnovení systému.";
+/ %1 = product name
+rp_uninst_info = "Bod obnovení systému neslouží pro budoucí standardní odinstalaci %1. Slouží jako prevence potenciálních problémů, např. konflikt ovladačů. Normální odinstalace %1 se spustí z menu Start / %1 nebo z Odinstalace programů v Ovládacích panelech.";
+
+/ password dialog
+pwd_header = "Heslo.";
+pwd_subheader = "Každý klíč vyžaduje unikátní heslo.";
+pwd_reg_to = "%p bude registrován pro:";
+pwd_password_info = "Zadejte heslo pro váš klíč ve formátu xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "Heslo:";
+pwd_invalid_password = "Chybné heslo. Zkontrolujte zadání a zkuste to znovu.";
+pwd_activate_info = "Pro aktivaci klíče musíte být připojeni k interentu.";
+pwd_activate_failed = "Aktivace klíče selhala!";
+pwd_activate_failed_code = "Aktivace klíče selhala: chyba %?.";
+
+/ serial number dialog
+sn_header = "Sériové číslo.";
+sn_subheader = "Zadejte sériové číslo a aktivujte klíč.";
+sn_info = "Jestliže máte 16ti místné heslo ve tvaru xxxx-xxxx-xxxx-xxxx, prosím "
+   "ukončete tento dialog a dvakrát klikněte na Váš licenční klíč. "
+   "Objeví se obrazovka, kde můžete zadat Vaše heslo.\n\n"
+   "Jesliže máte 30to místné sériové číslo ve formě xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, prosím "
+   "zadejte jej nyní ke stažení a aktivování licenčního klíče.\n\n";
+sn_serial_number = "Sériové číslo:";
+sn_invalid_serial_number = "Neplatné sériové číslo. Prosím, zkontrolujte jej a zkuste znovu.";
+/ the %? will be replaced by the error number:
+sn_download_err = "Chyba %? stahování klíče z našeho serveru.";
+sn_save_err = "Klíč nemohl být uložen na disk %?.";
+sn_keyfile_err = "Klíč je poškozen.";
+
+/ new 16 digit serial number dialog
+sn16_info = "K získání licenčního klíče zadejte, prosím, Vaše 16ti místné sériové číslo. K získání licenčního klíče musíte být připojeni k internetu.";
+sn16_failed = "Získání licenčního klíče se nezdařilo!";
+
+/ re-enter password dialog
+repwd_header = "%? heslo.";
+repwd_subheader = "Je třeba znovu zadat heslo pro registraci.";
+repwd_reg_to = "Z důvodu změn provedených v konfiguraci vašeho systému bude třeba znovu zadat heslo pro registraci %p: ";
+
+/ installation directory dialog
+instdir_header = "Složka pro instalaci";
+instdir_subheader = "Složka pro instalaci určuje místo, kam bude program nainstalován.";
+instdir_info = "Zadejte složku pro instalaci.";
+instdir_change = "Změnit";
+instdir_src_dst = "Zdrojový a cílový adresář se nesmí shodovat!";
+instdir_space = "Instalace vyžaduje %u bajtů volného místa. Na vybraném disku je pouze %u bajtů volných.";
+instdir_drivetype = "Zvolený disk není platný. %? Instalovat je možné pouze na pevné disky.";
+instdir_system = "Složka pro instalaci musí být na systémovém disku '%?'.";
+instdir_system_recommended = "Důrazně doporučujeme vybrat složku pro instalaci na systémovém disku '%?'. (Přesto pokračovat kliknutím Další.)";
+
+/ tcp settings dialog
+tcp_header = "Nastavit velikost TCP rámce pro příjem.";
+tcp_subheader = "Přijímací rámec TCP (Transmission Control Protocol) by měl být nastaven pro optimální průchodnost dat.";
+tcp_info = "Velikost rámce TCP příjmu má vliv na průchodnost přijímaných dat. Velikost je uložena v registrech Windows a její aktuální velikost není optimální.\n\nDoporučujeme nastavit průvodcem optimální velikost pro vyšší průchodnost. (Nastavení se projeví po restartu systému.)";
+tcp_check = "Optimalizace velikosti TCP přijímacího rámce. (Doporučeno)";
+
+/ hang up online connection dialog
+hangup_header = "Připojení je aktivní";
+hangup_subheader = "Aktivní spojení musí být ukončeno.";
+hangup_online = "Aktivní spojení:";
+hangup_offline = "Spojení bylo ukončeno.";
+hangup_info = "Pro pokračování s průvodcem musí být spojení ukončeno.\n\nPro odpojení klikněte na Odpojit.";
+hangup_disco = "Odpojit";
+
+/ usage statistics
+usage_stats = "Statistika využití";
+usage_stats_subheader = "Vyberte jak %p použít statistiku využití.";
+usage_stats_chk = "Poslat anonymní statistiku využití cFos ke zlepšení produktu.";
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "Použít automatické přesměrování portů, pokud je to možné.";
+port_forwarding_failed = "Váš router%? nepodporuje automatické přesměrování portů. "
+                         "Tuto funkci můžete aktivovat v konfiguraci routeru.";
+port_forwarding_config = "Můžete konfigurovat Váš router v %?.";
+port_forwarding_fritz = "Můžete aktivovat automatické přesměrování portů ve Vašem FRITZ!Boxu povolením změn bezpečnostního nastavení UPnP "
+                        "pod Home Network / Network / Programs";
+
+/ crash handler messages
+crash_msg_crash = "Nastala neošetřená výjimka v %p.";
+crash_msg_crash_installer = "Nastala neošetřená výjimka v %p instalačním programu.";
+crash_msg_virus = "Následující kód se spojil s tímto programem a může být příčinou havárie:";
+crash_msg_virus_clean = "Tento kód může být virus. Důrazně doporučujeme provést antivirovou kontrolu Vašeho systému.";
+crash_msg_hook = "Byly nalezeny kódy jiných programů, které se spojily s tímto programem. Ke zjištění, zda tyto kódy nejsou příčinou havárie, prosím spusťte tento program znovu poté, co deaktivujete nebo odinstalujete následující programy:";
+crash_msg_terminate = "Program bude nyní ukončen.";
+crash_msg_query_upload = "Chcete poslat cFos popis havárie? To nám pomůže analyzovat chybu.";
+
+/start installation dialog
+start_header = "Instalace";
+start_subheader = "Start instalace.";
+start_installation = "Spusťte instalaci.";
+
+/ progress dialog
+progress_inst_header = "Instalace";
+progress_inst_subheader = "Probíhá instalace.";
+progress_inst_wait = "Počkejte na dokončení instalace.";
+progress_uninst_header = "Odinstalovat";
+progress_uninst_subheader = "Probíhá odinstalace.";
+progress_uninst_wait = "Počkejte na dokončení odinstalace.";
+progress_driver_wait = "Počkejte, než operační systém dokončí instalaci ovladačů. To může trvat několik minut.";
+
+/ confirm delete dialog
+conf_del_header = "Smazat konfigurační soubor";
+conf_del_subheader = "Smazání souborů s konfigurací nebo osobními údaji musíte potvrdit.";
+conf_del_info = "Byly vytvořeny následující konfigurační soubory %p a zatím nebyly smazány:";
+conf_del_column = "Jméno souboru";
+conf_del_query = "Pokud chcete smazat také tyto soubory, označte je jednotlivě. Po označení klikněte na Další.";
+
+/ finish page
+finish_head_ok = "Instalace proběhla v pořádku.";
+finish_info_ok = "%? byl úspěšně nainstalován na vašem počítači.";
+finish_head_fail = "Instalace nebyla úspěšná.";
+finish_info_fail = "Instalace nebyla úspěšná z následujících důvodů:";
+finish_reboot = "Systém musí být restartován! Klikněte na dokončit pro restart nebo na Storno pokud chcete restartovat později.";
+finish_uninst_driver_reboot = "Odinstalace existujícího ovladače může být provedena restartem systému. "
+                             "Prosím, restartujte Váš systém a spusťte znovu instalační program.";
+finish_link_ok = "<a href=\"%?\">%? výhoda!</a>";
+finish_file_fail = "Další informace najdete v logu %s.";
+finish_file_link_fail = "Zobrazit <a href=\"file://%s\">log soubor</a> pro další informace.";
+finish_cfosts_disabled = "Traffic shaping v běžícím cFos byl zakázán, protože %p už traffic shaping řídí. (Povolit cFos traffic shaping je možno v konfiguraci programu.)";
+finish_cfosts_enabled = "Traffic shaping v cFos byl povolen.";
+finish_link_checkbox = "ukázat poslední %p funkce";
+
+/ uninstall finish page
+ui_finish_head_ok = "Odinstalace byla úspěšná.";
+ui_finish_info_ok = "%? byl úspěšně odstraněn z vašeho počítače.";
+ui_finish_head_fail = "Odinstalace neúspěšná.";
+ui_finish_info_fail = "%? nelze odstranit z následujících důvodů:";
+ui_finish_not_removed = "Následující soubory budou odstraněny po příštím restartu: ";
+
+/ brandkey finish page
+bk_finish_head_ok = "Registrace je kompletní.";
+bk_finish_info_ok = "%? byl registrován pro:";
+bk_finish_head_fail = "Registrace nebyla úspěšná.";
+bk_finish_info_fail = "Registrace nebyla úspěšná z následujících důvodů:";
+
+/ progress tasks
+task_register_email = "Registra E-mail adresy...";
+task_restore_point = "Vytvářím bod obnovení systému...";
+task_copy = "Kopíruji soubory...";
+task_desktop_link = "Vytvářím odkazu na ploše...";
+task_program_group = "Vytvářím programovou skupinu...";
+task_registry = "Zapisuji do registrů...";
+task_driver = "Instaluji ovladač...";
+task_daemon = "Spouštím %?...";
+task_uninstall_old = "Odinstalovávám existující verzi...";
+task_stop_daemon = "Zastavuji %?...";
+task_uninstall_driver = "Odinstalovávám ovladač...";
+task_delete_files = "Mažu soubory...";
+task_cleanup_caches = "Mazání vyrovnávací paměti...";
+task_hangup = "Odpojuji aktivní spojení...";
+task_flush_registry = "Ukládám registry na disk...";
+task_cancel = "Přerušuji operaci...";
+task_canceled = "Operace přerušena!";
+
+/ connectivity test progress tasks
+task_start_program = "Spouštění %p...";
+task_test_localhost = "Testování localhost...";
+task_test_local_ip = "Testování lokální IP adresy...";
+task_test_public_ip = "Testování veřejné IP adresy...";
+task_test_finished = "Test ukončen.";
+
+/ program group
+speed_pg_name = "%p Traffic Shaping";
+pg_uninstall = "Odinstalovat %?";
+pg_www = "www.cfos.de";
+pg_console = "%p konsola";
+pg_start = "Otevřít %p stavové okno";
+pg_menu = "%? menu";
+pg_add_connection = "Přidat spojení";
+pg_enter_serial_number = "Zadat seriové číslo";
+pg_configure = "Konfigurovat %p";
+
+/ desktop symbol
+dt_advertise = "%? možnosti";
+dt_advertise_desc = "Seznam všech možností pro %?.";
+
+/ message boxes
+query_reboot = "Pro provedení změn je nezbytné restartovat počítač.\n\nRestartovat systém nyní?";
+query_drv_inst_cancel = "Instalace/odinstalace ovladače je prováděna operačním systémem.\nWindows setup může vyžadovat až 15 minut pro \nregistraci nebo odregistraci ovladače!\n\nJe silně doporučeno nepřerušovat tento proces dokud\nnečekáte opravdu velmi dlouho.\n\nOpravdu přerušit instalaci ?";
+query_driver_err_abort = "Došlo k chybě při instalaci ovladače!\nDoporučujeme instalaci ukončit.\n\nV instalaci je přesto možné pokračovat.\nJe třeba si uvědomit, \nže %p nemusí po nekorektní instalaci běžet správně.\n\nUkončit instalaci ? (doporučeno)";
+query_further_info = "Chcete další informace?";
+
+/ error messages
+err_driver_inst = "Nepodařilo se nainstalovat ovladač.";
+err_daemon_start = "Nelze spustit %?.";
+err_uninst_old = "Existující verze nebyla odinstalována. Odhlaste se, přihlaste a zkuste to znovu.";
+err_os = "Váš operační systém je %?.\n\n%? vyžaduje Windows 2000/XP nebo vyšší.";
+err_os_minxp = "Váš operační systém je %?.\n\n%? vyžaduje Windows XP nebo vyšší.";
+err_os_sup = "%p posporuje oficiálně jen %? nebo vyšší.\n\n"
+             "Je možné, ale nikoliv otestované, že %p poběží také na Vašem operačním systému %?.\n\n"
+             "Chcete pokračovat v instalaci?";
+err_uninst_driver = "Ovladač nemohl být nainstalován.";
+err_create_process = "Chyba při volání %s: %s";
+err_write_lock = "%? síťové komponenty jsou použity dalším procesem. Zavřete všechny ostatní aplikace nebo restartujte počítač a zkuste to znovu.";
+err_file_auth = "Některé soubory z distribuce chybí nebo jsou poškozeny.\nOriginální distribuci %p \nzískáte např. na www.cfos.de.";
+err_cancel = "Operace byla přerušena.";
+err_no32 = "Nelze instalovat 32-bitové ovladače na 64-bitový systém.\n\nOS: %?\nProdukt: %?";
+err_bad_keyfile = "Soubor s klíčem je porušený nebo není platný. "
+                  "Kontaktujte nás pro získání funkčního souboru s klíčem.";
+err_bad_setup = "%p není nainstalován korektně nebo některé soubory "
+                "byly změněny. Opakujte instalaci %p.";
+err_bad_signature = "Heslo není platné pro tento klíčový soubor. "
+                    "Vložte platné heslo, odpovídající klíčovému souboru.";
+err_gdiplus =
+  "Knihovna GDI+ nebyla nalezena!\n\n"
+  "Instalace může pokračovat pouze s instalovanou knihovnou GDI+.\n"
+  "Knihovna GDI+ je ke stažení od Microsoftu jako součást Platform SDK\n"
+  "Redistributable. Stáhněte instalační soubor a rozbalte soubory,\n"
+  "které obsahuje do <cílový adresář> dle vaší volby. Pak zkopírujte všechny soubory gdiplus.*\n"
+  "z adresáře <cílový adresář>\\asms\\10\\msft\\windows\\gdiplus do the\n"
+  "adresáře Windows\\system32.\n\n"
+  "Stiskněte 'OK' pro otevření příslušné stránky na Microsoft.\n"
+  "Klikněte 'Storno' pro ukončení instalace.";
+err_winhttp =
+  "Knihovna WinHTTP nebyla nalezena!\n\n"
+  "Tato instalace může pokračovat pouze s nainstalovanou knihovnou WinHTTP.\n"
+  "Knihovna WinHTTP by měla být součástí Vašeho operačního systému, ale \n"
+  "nemůže být nahrána.";
+bad_manufacturer = "Instalace nemůže začít, protože produkt je licencován pouze pro vybraný hardware!";
+cannot_install = "Nelze instalovat";
+err_uninst_daemon =
+   "Daemon cannot nemůže být odinstalován. "
+   "Pokud je stále %p otevřeno dialogové okno, nejdříve jej zavřete. "
+   "Jinak restartujte Váš počítač.";
+err_activate_10045 =
+   "Během aktivace nastala HTTP chyba 10045.\n"
+   "Je možné, že je Váš Winsock poškozen.\n"
+   "Otevřete command shell k resetování Vašeho Winsock\n"
+   "a zadejte 'netsh winsock reset'.\n"
+   "Pak restartujte Váš počítač a zkuste aktivaci\n"
+   "znovu.";
+err_activate_12002 =
+   "HTTP chyba 12002 (požadavek vypršel) se objevila během\n"
+   "registrace. Možnou příčinou může být, že spojení s naším serverem,\n"
+   "nezbytné pro registraci, je blokováno firewallem, antivirem\n"
+   "nebo jiným druhem bezpečnostního softwaru. Pokud máte nainstalován\n"
+   "některý z těchto programů, prosím, dočasně jej deaktivujte a zkuste registraci znovu.";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "Chyba při kopírování souboru %1 do %2 (%3).";
+err_port_in_use = "Port serveru %? je již používán jiným programemm.\n\nProgram: %?\nCesta: %?";
+
+/ warning messages
+wrn_oem_update = "Licencovaný %p je již instalován.\n\n"
+  "Pokoušíte se nainstalovat shareware verzi. Pokud budete pokračovat\n"
+  "s instalací, příjdete o vaši licencovanou verzi.\n"
+  "Aktualizaci licencované verze %p lze získat na stejném místě\n"
+  "kde jste koupili původní licenci.\n\n"
+  "Opravdu si přejete pokračovat v instalaci?";
+wrn_close_application = "Doporučujeme zavřít následující aplikace předtím, než budete pokračovat:";
+
+/ traffic shaping algorithm
+tsa_header = "Režim Traffic Shaping (víceuživatelská verze)";
+tsa_subheader = "Výchozí chování algoritmu pro Traffic Shaping.";
+tsa_info = "Zvolte vchozí chování algoritmu pro Traffic Shaping  "
+           "v závislosti na vašem internetovém připojení. (Tato volba může být později "
+           "úpravena pro každé připojení.)";
+
+/ vista warning
+vista_header = "Poznámky k instalaci";
+vista_subheader = "Pro instalaci ovladače pod Windows Vista.";
+vista_warn_info = "%p je digitálně podepsán certifikátem GlobalSign, společností "
+ "licencovanou Microsoftem. Přesto se cFos Software GmbH neúčastní Microsoftí "
+ "nákladné WHQL certifikace. Při instalaci ovladače pod Windows Vista se zobrazí okno  "
+ "se zprávou, že vydavatel software nemůže být ověřen.\n\n"
+ "Pokud se okno objeví, klikněte na \"Přesto instalovat tento software\".";
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+dun_wizard_name = "%p Průvodce připojením";
+connections = "Připojení";
+dun_subheader = "Nastavit připojení.";
+dun_with_bc = " pomocí cFos Broadband Connect";
+dun_reenter_password = "Zadejte znovu heslo";
+dun_list_tonline = "nové T-Online připojení";
+dun_new_connection = "Nastavit nové připojení";
+dun_err_no_device = "Žádné %p zařízení nenalezeno. (zařízení může být dostupné až po restartu počítače.)";
+
+/ e-mail registration dialog
+eml_header = "Registrace e-mailové adresy";
+eml_subheader = "Zaregistrujte si vaši e-mailovou adresu na cFos.";
+eml_info = "Vložte prosím vaši e-mailovou adresu. Budete dostávat informační maily a upozornění o dostupnosti nové verze %p.";
+eml_info_optional = "Pokid zaregistrujete svou e-mailovou adresu, budete zařazeni do našeho informačního maillistu a automaticky budete upozorněni, pokud bude dostupná nová verze %p. Pokud si nepřejete informace dostávat, nechte pole prázdné.";
+eml_email = "Vaše e-mailová adresa:";
+eml_invalid_email = "zadaná e-mailová adresa není platná.";
+eml_invalid_optional_email = "Vložte prosím platnou e-mailovou adresu nebo nechte pole prázdné.";
+eml_reg_failed = "Registrace e-mailové adresy nebyla úspěšná.";
+eml_checking_domain = "Kontroluji doménu e-mailu...";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+order_oem = "Objednejte si profesionální verzi ještě dnes!";
+cfos_endsoon = "Vaše testovací doba brzy skončí.\nKupte %p Professional ještě dnes!\nPřejděte pro %p na stránku\n\nhttps://www.cfos.de/cs/order/order.htm\n";
+cfos_expired  = "Skončila testovací doba produktu %p.\nZakupte %p/Professional ještě dnes!\nPřejděte na objednací stránku %p na\n\nhttps://www.cfos.de/cs/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-228-7669827.";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+group_order_inet = "zakupte vyšší verzi %p";
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+

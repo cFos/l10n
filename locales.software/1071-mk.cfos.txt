@@ -1,0 +1,728 @@
+#language 1071
+#fallback 1033
+#charset 0
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Makedonski";
+language_local = "Македонски";
+htm_lang_prefix = "mk";
+
+/ ----------------------------------------------------------------------
+/
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
+bc_orderurl = "https://www.cfos.de/mk/order/broadband-connect-n.htm";
+bc_desc = "%p, Високи-Перформански Dial-Up Драјвер";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/mk/order/cfos-ipv6-link-n.htm";
+sixlink_desc = "%p, Висока-брзина IPv6 dial-up драјвер";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/mk/order/cfos-personal-net-n.htm";
+renew_params = "Oбнови параметри";
+dlg_dun_auto = "Авто-конектирање";
+dlg_dun_default = "Стандард конекција";
+dlg_dun_cons = "Конекција Профили";
+dlg_dun_name = "Конекција име:";
+dlg_dun_uname = "Корисничко име:";
+dlg_dun_pwd = "Лозинка:";
+dlg_dun_use_ipv4 = "Користи IPv4";
+dlg_dun_use_ipv6 = "Користи IPv6";
+dun_connect_to = "Конектирај на %?";
+dun_err_already_exists = "Името веќе постои.";
+disconnect = "Дисконектирај ";
+setup_connections = "Намести конекции";
+ask_inst_ipv6 = "IPv6 протоколот не е инсталиран на овој систем.\n\n"
+                "Треба ли IPv6 протоколот да биде инсталиран сега?";
+err_inst_ipv6 = "Грешка %? при инсталирање на IPv6 протокол.";
+
+/ connection entry dialog
+con_err_save = "Неможе да се зачуваат податоците за конекцијата!";
+con_ipv4 = "IPv4";
+con_ipv6 = "IPv6";
+con_private_address = "Приватна адреса:";
+con_prefix = "Префикс:";
+con_dns1 = "DNS1:";
+con_dns2 = "DNS2:";
+con_enabled = "вклучено";
+
+/ pnet configuration dialog
+pnet_header = "Чести Подесувања";
+pnet_subheader = "Намести чести подесувања.";
+smtp_header = "SMTP Сервер";
+smtp_subheader = "Конфигурирај SMTP сервери.";
+dynip_header = "Димамички IP сервер";
+dynip_subheader = "Конфигурирај димамички IP сервер";
+dlg_autostart = "Вклучи %p при старт на Windows";
+dlg_register_shell_extension = "Регистрирај екстензија";
+dlg_server_port = "Сервер Порт:";
+dlg_server_name = "Сервер Име:";
+dlg_server = "Сервер:";
+dlg_renew_interval = "Обнова интервал (мс):";
+dlg_redirect_delay = "Редирекција каснење (мс):";
+
+/ pnet start type dialog
+
+/ pnet context menu entry
+
+/ pnet backup info
+
+/ pnet
+
+/ pnet connectivity test
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
+speed_orderurl = "https://www.cfos.de/mk/order/cfosspeed-n.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+mainurl_name = "www.cfos.de";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
+
+
+component_mismatch = "Има конфликт на верзии меѓу компоненти на овој програм. Молиме ре-инсталирајте ја најновата верзија.";
+trayicon_tip = "Побрз Интернет со Traffic Shaping, www.cfos.de";
+speed_endsoon = "Вашиот тест период ќе заврши наскоро! Молиме купетего %1 денес!";
+order_info = "Купи сега:\nInternet: www.cfos.de\nПотелефон: +49-228-7669826";
+badkey = "Има проблем со лиценцниот клуч.\nМолиме ре-инсталирајте го клучот со двоен-клик на\nоргиналниот фајл, кој го добивте по е-маил или на дискета.";
+no_setup = "Неможе да се стартува setup (setup.exe).";
+ask_disconnect_ras = "Активната мрежна конекција треба да се реконфигурира.\nПрепорачливо е да се дисконектирате пред да продолжите.\nДа се дисконектира моменталната мрежна конекција?";
+sygate_hint = "%p го детектира Sygate Firewall, што го помешува \n%p калибрациониот пулс со Denial of Service напад со\n\"Ping-of-Death\" пакети.\nЗатоа треба да преземате а потоа да прикачите со полна\nбрзина за некои 30 секунди, секое. Ова би требало да го подеси\n%p исто како калибрациониот пулс.";
+select_language = "Изберете Јазик";
+translator = "Македонска Верзија:";
+translator_name = "Aleksandar Dzartov";
+translator_msg = "Aleksandar Dzartov\nE-mail:alekdaone@gmail.com";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "Вашата %3 лиценца истекува за %1 %2.";
+
+service_desc = "Извршува мерење на задоцнувањето и привилегирани операции за %p";
+no_pings_error = "Пинг пакетите пратени од by %p изгледа неможат да поминат. Без нив, %p Traffic Shaping неможе да функционира правилно. Можеби некој firewall ги блокира?";
+other_languages = "Други јазици";
+install_dir = "Инсталационен Директориум: ";
+ask_clear_tsdata = "Исчисти Traffic Shaping податоци и започни нова калибрација на линија?";
+allow_traffic_shaping = "Дозволи Traffic Shaping за оваа конекција";
+none = "ништо";
+lic_expired = "Вашиот пробен период истече. %1 е сега деактивиран Купете го %1 денес!";
+settings = "Подесувања";
+winsettings = "Прозорец Подесувања";
+openwindow = "Отвори Прозорец";
+openwindows = "Отвори Прозорци";
+closewindow = "Затвори прозорец";
+closewindows = "Затвори прозорци";
+autoopen = "Авто-отвори/Авто-скриј";
+taskbaricon = "Таскбар Икона";
+autoarrange = "Авто-аранжирај прозорци";
+effects = "Ефекти";
+blend_effect = "Избледи прозорец";
+slide_effect = "Лизгај прозорци";
+win_behaviour = "Користи системско однесување";
+selectskin = "Изберете Маска";
+topmost = "Секогаш на врв";
+defpos = "Стандардна позиција";
+disco_ras = "Дисконектирај ";
+config = "Опции";
+order = "Купи сега!";
+dayl_singular = "ден";
+dayl_plural = "денови";
+days_singular = "ден";
+days_plural = "денови";
+/ %1=number, %2="day/days"
+short_try = "Пробај %1 %2";
+short_dexpire = "Истече %1 %2";
+
+short_exp = "Истече!";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "Вашиот пробен период истече за %1 %2. Купете го %3 денес!";
+lic_try = "Може да го пробате %3 за %1 %2 пред да го купите.";
+
+enable_win = "Овозможи статус прозорец?\n\ncFos статус прозорецот го покажува статусот на вашата активна конекција.";
+license = "Лиценца ";
+licensed_to = "Лиценцирано на %?";
+upgrade = "Земи нова верзија на програмата";
+connect_to = "Конектирај со";
+make_own_skin = "Дизајнирај сопствена маска";
+click_through = "Кликај низ него";
+ask = "Прашај";
+off = "Исклучено";
+on = "Вклучено";
+note = "Забелешка";
+deactivated = "деактивирано";
+ole_error = "За да се користи овој конфигурациски дијалог,\\n%p мора да биде инсталиран и стартуван на вашиот компјутер.\\nПроверете и инсталирајте повторно, ако треба.";
+ts_settings = "Traffic Shaping Подесувања";
+preferences = "Подесувања";
+prio_protocols = "Приоритизирање протоколи";
+protocol = "Протокол";
+protocols = "Протоколи";
+prio_programs = "Приоритизирање програми";
+program = "Програма";
+programs = "Програми";
+current_connections = "Тековни Конекции";
+ts_prios = "Traffic Shaping Приоритети";
+client_protocols = "Клиент Протоколи";
+server_protocols = "Сервер Протоколи";
+media_streaming = "Медија Стримувања";
+file_sharing = "Фајл Делења";
+special = "Специјално";
+other = "Друго";
+hint = "Совет";
+hint_text = "Приоритизирањето ќе работи како што треба само ако на малку податоци се даде висок приоритет. На програмите кои праќаат многу податоци треба да им се даде низок приоритет. Приоритизирањето на протоколите се прави пред приоритизирањето на програмите.";
+save_protocols = "Зачувај протоколи";
+undo = "Врати";
+filter_selection = "Филтер селекција";
+higher = "Највисок";
+high = "Висок";
+normal = "Нормален";
+low = "Низок";
+lower = "Најнизок";
+entries = "Внесови";
+prog_overwrite = "Програмата #p веќе е на листата.\\nДали сакаш да се заменат веќе постоечките со новите вредности?";
+games = "Игри";
+voip = "Глас-преку-IP";
+remote_control = "Далечинска контрола";
+prog_hint_text = "Приоритизирањето ќе работи како што треба само ако на малку податоци се даде висок приоритет. На програмите кој праќаат многу податоци, треба да им се даде низок приоритет.<br />";
+save_priorities = "Зачувај приоритети";
+delete = "Избриши";
+aux_lines = "Додатни линии";
+higher_prog_help = "Глас-преку-IP, може и игри";
+high_prog_help = "Игри, Стримувани Медии, Телнет и други интерактивни програми";
+low_prog_help = "Сервер податоци, FTP податоци";
+lower_prog_help = "Постојан сообраќај во позадина, како фајл делења";
+delete_help = "Отстрани од листа (п.р. третирај ги пакетите како нормални).";
+prog_help = "Трансферот на пактите од (Нај)низок приоритет е успоруван само ако податоци од повисок приоритет е процесиран во исто време. Ако не, тогаш се праќаат со максимална брзина.";
+filename = "Фајл име";
+description = "Опис";
+new_program = "Нова програма";
+add = "Додади";
+l7_prot_detection = "Откривање Layer-7 протокол";
+l7_prot_detection_help = "Детектира протокол преку анализа на податоците. Употреби го \"Prioritize protocols\" дијалогот за промена на приоритет на различните протоколи. Ако оваа опција е деактивирана, тогаш протоколите се детектираат според портата која ја употребуваат.";
+favor_ping = "Омилено Пинг Време";
+favor_ping_help = "<b>Вклучено</b>: %p ќе го минимизира пингот на сметка на благо намалување на брзината (ако треба).<br /><b>Исклучено</b>: %p ќе ја максимизира брзината на сметка на благо зголемување на пингот (ако треба).";
+favor_bandwidth = "Претендирај подобар Сообраќај";
+activate_firewall = "Активирј Фајрвал";
+activate_firewall_help = "Заштита против мрежни напади преку филтрирање на опасни пакети, проверка и stealth mode.";
+mtu_opt = "Автоматска MSS (MTU) оптимизација";
+mtu_opt_help = "Подеси MSS/MTU за максимум брзина на трансфер. Типично, вредностите малку помали од 1500/1492 продуцираат подобри брзини.";
+strict_rtp = "Стриктни RTP проверки";
+strict_rtp_help = "Ако е активиран, %p ќе ги препознае само оние пакети како RTPs што доаѓаат со валиден RTCP source ID. Пожелно е да се деактивира оваа опција за Глас-преку-IP програми (како VoIPBuster) кои не праќаат RTCP пакети";
+ts_config = "%p Traffic Shaping Конфигурација";
+dialup_connection = "Dial-Up Конекции";
+dialup_connections = "Dial-Up Конекции";
+traffic_shaping = "Traffic Shaping";
+ras_con_help = "<b>Да</b>: активирај, <b>не</b>: деактивирај, <b>прашај</b>: прашај еднаш и зачувај ги подесувањата";
+router_connections = "Рутер Конекции";
+net_components = "Мрежни Компоненти";
+auto = "Авто";
+router_help = "<b>Да</b>: активирај, <b>не</b>: деактивирај, <b>ауто</b>: Уклучи Traffic Shaping, ако има рутер на оваа мрежна компонента";
+network_adapter = "Мрежен Адаптер";
+router = "Рутер";
+and_save_settings = "и зачувај подесувања";
+border = "Граница";
+budget = "Буџет";
+budget_settings = "Буџетски Подесувања";
+budget_title = "Оналјн Буџети";
+budgets = "Буџети";
+graph_title = "Графа на Користење";
+hard_limit = "Тврди<br>Лимити";
+hard_limit_help_not_set = "Потрошениот буџет ќе биде прикажан само во статус прозорецот";
+hard_limit_help_set = "Пакетите нема да се процесираат ако буџетот е потрошен";
+last_3_months = "последни 3 месеци";
+last_month = "последен месец";
+last_12_months = "последните 12 месеци";
+please_select = "Молам изберете";
+reset_day = "Ресетирај Ден";
+reset_day_unit = "ден од месец";
+rxtx_button = "RX/TX селекција";
+save_budgets = "Зачувај Буџети";
+show_for = "Прикажи за";
+this_month = "овој месец";
+time = "Време";
+time_limit = "Временски Лимит";
+time_min = "Мин";
+time_units = "ч:мин";
+volume = "Волумен";
+volume_limit = "Волуменски Лимит";
+spdbudget_help = "За да се користи некој буџет, треба да се назначи на одредена конекција преку дијалогот за конекции";
+password_bad = "Невалидна лозинка";
+sum_button = "кумулативно";
+calibrate = "Калибрирај линија";
+variable_bandwidth = "Варијабилен проток";
+def_bandwidth_help = "Зададено за <b>нови</b> конекции";
+ok = "Ок";
+connection_medium = "Медиум";
+connection_type = "Traffic Shaping Мод";
+driver_not_loaded = "Драјверот не е вчитан!";
+many_cons_error = "%p rx-Traffic Shaping е доведен до граница бидејќи има премногу конекции. Со помалку конекции ќе функционира подобро. Кликнете овде за помош.";
+limit_bandwidth = "Лимитирај сообраќај за тековна конекција";
+rx_limit = "RX лимит";
+tx_limit = "TX лимит";
+max = "Макс.";
+apply_limits = "Примени лимити";
+limit_help = "Вредност во KB/s, вклучувајќи го и сиот додаток од протоколот, 0 = без лимит.";
+enable_speed_shaping = "Овозможи Traffic Shaping";
+disable_speed_shaping = "Оневозможи Traffic Shaping";
+yes = "Да";
+no = "Не";
+help = "Помош";
+bgraph_totals = "Вкупно";
+blocklist = "IP-Блокирач";
+blocklist_help = "Листа на IP адреса за кои е блокиран целиот сообраќај.";
+apply_blocklist = "Користи филтер листа";
+search = "Барај";
+budget_connection = "Конфигурирај кој буџет се користи за која конекција";
+reset = "Ресет";
+autohide_on_fullscreen = "Авто-скриј на целекран";
+slot_selected = "Изберани протоколи / програми";
+show = "Покажи";
+hide = "Скриј";
+slot_explain = "Ако пакетот на податоци има познат протокол и тој протокол е "
+               "запишан на слот, сообраќајот на пакетите се брои во тој слот. "
+               "Инаку, ако пакетот припаѓа на конекцијата од програм името "
+               "кое е запишано на слотот, сообраќајот се брои за тој "
+               "слот.  Ако тоа не е случајот, сообраќајот се брои во "
+               "слот каде сите други сообраќаји се броени, ако тоа е наместено.";
+traffic_analysis_title = "Вистинско-Време Сообраќај Анализа";
+other_traffic = "Сите други сообраќаји";
+traffic_analysis = "Сообраќај Анализи";
+slot = "Слот";
+slots = "Слотови";
+slots_title = "Намести Слот";
+can_select_multiple = "Совет: Можете да изберете повеќе опции со задржување на Shift или Ctrl копчето при избирање опција";
+name_for = "Име за";
+set_name = "Намести име";
+rx_only = "само RX";
+tx_only = "само TX";
+max_of_rx_tx = "Максимум од RX & TX";
+total_rx_only = "Вкупна RX брзина";
+total_tx_only = "Вкупна TX брзина";
+total_max_of_rx_tx = "Макс. од вкупна RX & TX";
+check_if_other_also = "Обележете, ако сакате целиот друг сообраќај да се брои во овој слот";
+performance_help = "За зачувување на максимум пресметковна моќ, препорачуваме да ја наместите конекцијата што ја користите за интернет пристап во 'Да' а сите други во 'Не'.";
+loading = "Вчитување...";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
+regid = "не кооперативно";
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+
+
+
+
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p, побрз Интернет пристап со Traffic Shaping";
+
+/ URLs
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+
+/ wizard
+install_wizard_name = "%? Инсталационен Волшебник";
+uninstall_wizard_name = "%? Деинсталационен Волшебник";
+brandkey_wizard_name = "%? Регистрационен Волшебник";
+config_wizard_name = "%p Конфигурација Волшебник";
+continue_line = "За да продолжите, кликнете на Следно.";
+start_inst = "За да започне инсталцијата сега, кликнете Следно.";
+wizard_lang_line = "Овој волшебник е на";
+
+/ welcome page
+welcome_line = "Добродојдовте во %? v%?!";
+welcome_info = "Овој волшебник ќе ве води низ инсталацијата на %? v%?.";
+welcome_found = "Постоечка инсталација на %? v%? е детектирана на вашиот систем.";
+welcome_found_dir = "Постоечка инсталација на %1 v%2 е детектирана на вашиот систем во директориумот %3.";
+welcome_found_unknown = "Постоечка инсталација на %? е детектирана на вашиот систем.";
+welcome_found_modified = "Модифицирана или некомплетна инсталација на %1 v%2 е детектирана на вашиот систем во директориумот %3.";
+welcome_update = "За да ја замените постоечката верзија, кликнете Next.";
+welcome_admin = "Немате администраторски привилегии. За да го стартувате овој Волшебник трба да се логирате како корисник кој има администраторски привилегии.";
+welcome_lang_syslink = "<a href=\"%?\">Додатни јазици</a>";
+welcome_oem_info = "%1 е OEM верзија на %p за %2. Затоа, %p ги содржи сите опции од %1 и повеќе.";
+
+/ uninstall welcome page
+ui_welcome_line = "Деинсталирај %? v%?.";
+ui_welcome_info = "Ако навистина сакате да го деинсталирате %1 v%2 од директориумот %3 и да ги отстраните сите негови компоненти, тогаш кликнете Следно.";
+
+/ brand key welcome page
+bk_welcome_line = "%? Регистрација.";
+bk_welcome_info = "Овој волшебник ќе ве води низ регистрацијата на %?.";
+bk_welcome_found = "Постоечки клучен фајл е пронајден во директориумот %?.";
+bk_welcome_update = "За да го замените постоечкиот клучен фајл, кликнете Следно.";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "Лиценцен Договор";
+lic_subheader = "Мора да се согласите со лиценцниот договор за да продолжите.";
+lic_info = "Ако се согласувате со лиценцниот договор, обележето го 'I agree' полето и кликнете Следно, инаку, кликнете Откажи.";
+lic_agree = "Се согласувам.";
+
+/ restore point dialog
+rp_header = "System Restore Point";
+rp_subheader = "System restore points Ви овозможуваат да го повратите вашиот систем во претходна состојба.";
+rp_info = "System restore point Ви овозможува да до повратите вашиот Windows систем во состојбата во која бил последниот пат кога бил поставен restore point. Препорачливо е да поставите system restore point кога се инсталира нов драјвер.";
+rp_check = "Поставете system restore point.";
+/ %1 = product name
+rp_uninst_info = "System restore point не е препорачливо како нормално одинсталирање на %1. Тоа е само додатна "
+                 "претпазливост која овозможува да го вратите системот како што си бил претходно доколку има "
+                 "некаков проблем со драјверите. Нормална одинсталација на %1 може да се одбере или преку Start Менито во "
+                 "директориумот %1 или во Control Panel под Software.";
+
+/ password dialog
+pwd_header = "Лозинка.";
+pwd_subheader = "Секој клуч бара уникатна лозинка.";
+pwd_reg_to = "%p ќе биде регистриран на:";
+pwd_password_info = "Молам внесете ја лозинката на вашиот клуч во формат xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "Лозинка:";
+pwd_invalid_password = "Невалидна лозинка. Молиме проверете и пробајте повторно.";
+pwd_activate_info = "Морате да бидете поврзани на Интернет за да го активирате клучот на нашиот сервер.";
+pwd_activate_failed = "Активацијата на клучот не беше успешна!";
+pwd_activate_failed_code = "Неуспешна активација на клуч: грешка %?.";
+
+/ serial number dialog
+/ the %? will be replaced by the error number:
+
+/ new 16 digit serial number dialog
+
+/ re-enter password dialog
+repwd_header = "%? лозинка.";
+repwd_subheader = "Лозинката за регистрацијата треба повторно да биде внесена.";
+repwd_reg_to = "Поради промени во вашата системска конфигурација, треба повторно да ја внесете лозинката за следнава %p регистрација: ";
+
+/ installation directory dialog
+instdir_header = "Инсталационен Директориум";
+instdir_subheader = "Инсталациониот директориум специфицира каде фајловите ќе бидат копирани на вашиот хард диск.";
+instdir_info = "Специфицирајте инсталационен директориум.";
+instdir_change = "Промени";
+instdir_src_dst = "Изворниот и дестинациониот директориум несмеат да бидат идентични!";
+instdir_space = "Оваа инсталација бара %u бајти слободен диск простор. Има само %u бајти слободни во селектираниот директориум.";
+instdir_drivetype = "Селектираниот драјв не е валиден. %? може да биде инсталиран само на локални фиксни драјвови.";
+instdir_system = "Инсталацискиот директориум мора да е во системскиот драјв '%?'.";
+
+/ tcp settings dialog
+tcp_header = "Сетирање TCP receiver window size.";
+tcp_subheader = "TCP (Transmission Control Protocol) receiver window size треба да биде подесен за оптимален проток на податоци.";
+tcp_info = "TCP receiver window size го контролира протокот на податоците што доаѓаат. Се наоѓа во Windows registry и моментално не е оптимална вредноста.\n\nСе препорачува волшебникот да ја подеси таа вредност за поголем проток на податоци. (Подесувањето ќе биде ефективно откако ќе се рестартира системот.)";
+tcp_check = "Оптимизирање на TCP receiver window size. (Препорачливо)";
+
+/ hang up online connection dialog
+hangup_header = "Онлајн Конекција";
+hangup_subheader = "Онлајн конекцијата мора да биде дисконектирана.";
+hangup_online = "Вие сте онлајн со следнава конекција:";
+hangup_offline = "Конекцијата е дисконектирана.";
+hangup_info = "За да продолжите со овој волшебник, онлајн конекцијата мора да биде дисконектирана.\n\nЗа да се дисконектирате сега, кликнете Disconnect.";
+hangup_disco = "Дисконектирај";
+
+/ usage statistics
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+
+/ crash handler messages
+
+/start installation dialog
+
+/ progress dialog
+progress_inst_header = "Инсталација";
+progress_inst_subheader = "Инсталацијата е во тек.";
+progress_inst_wait = "Молам почекајте додека да заврши инсталацијата.";
+progress_uninst_header = "Деинсталација";
+progress_uninst_subheader = "Деинсталацијата е во тек.";
+progress_uninst_wait = "Молам почекајте додека заврши деинсталацијата.";
+progress_driver_wait = "Молам почекајте. Де-/инсталацијата на драјверот е во тек. Ова може да потрае неколку минути.";
+
+/ confirm delete dialog
+conf_del_header = "Избриши Конфигурациски Фајлови";
+conf_del_subheader = "Мора да го потврдите бришењето на конфигурациските фајлови или други лични информации.";
+conf_del_column = "Име на фајл";
+conf_del_query = "Ако сакате да ги избршете и овие фајлови, можете да ги проверите индивидуално. По селектирањето кликнете на Next.";
+
+/ finish page
+finish_head_ok = "Инсталацијата е успешна.";
+finish_info_ok = "%? е успешно инсталиран на вашиот компјутер.";
+finish_head_fail = "Инсталацијата е неуспешна.";
+finish_info_fail = "Инсталацијата е несупешна поради следнава причина:";
+finish_reboot = "Системот мора да се ресетира! Кликнете на Finish за да се рестартира сега или Cancel за подоцна.";
+finish_link_ok = "<a href=\"%?\">%? features!</a>";
+finish_file_fail = "Проверето го log фајлот %s за подетални информации.";
+finish_file_link_fail = "Видете го <a href=\"file://%s\">log file</a> за подетални информации.";
+finish_cfosts_disabled = "Traffic shaping е исклучен во cFos, затоа што %p веќе имплементира traffic shaping. (Може повторно да го вклучите cFos traffic shaping во cFos конфигурационото мени.)";
+finish_cfosts_enabled = "Traffic shaping е овозможено од веќе уклучениот cFos.";
+
+/ uninstall finish page
+ui_finish_head_ok = "Деинсталацијата е успешна.";
+ui_finish_info_ok = "%? е успешно отстранет од вашиот компјутер.";
+ui_finish_head_fail = "Деинсталацијата не е успешна.";
+ui_finish_info_fail = "%? неможе да биде отстранет од вашиот систем поради следнава причина:";
+ui_finish_not_removed = "Следниве фајлови можат да се отстранат само откако ќе се рестартира системот: ";
+
+/ brandkey finish page
+bk_finish_head_ok = "Регистрацијата е комплетирана.";
+bk_finish_info_ok = "%? е регистриран на:";
+bk_finish_head_fail = "Регистрацијата е неуспешна.";
+bk_finish_info_fail = "Регистрацијата е неуспешна поради следнава причина:";
+
+/ progress tasks
+task_register_email = "Регистрирање мејл адреса...";
+task_restore_point = "Сетирање на system restore point...";
+task_copy = "Копирање фајлови...";
+task_desktop_link = "Креирање на линк на Десктоп...";
+task_program_group = "Креирање на програмска група...";
+task_registry = "Внесување на регистри...";
+task_driver = "Инсталирање на драјвер...";
+task_daemon = "Стартува %?...";
+task_uninstall_old = "Деинсталирање постоечка верзија...";
+task_stop_daemon = "Стопирање %?...";
+task_uninstall_driver = "Деинсталирање драјвер...";
+task_delete_files = "Бришење фајлови...";
+task_hangup = "Дисконектирање на активните он-лајн конекции...";
+task_flush_registry = "Сними регистри на диск...";
+task_cancel = "Откажување на операцијата...";
+task_canceled = "Операцијата е откажана!";
+
+/ connectivity test progress tasks
+
+/ program group
+speed_pg_name = "%p Traffic Shaping";
+pg_uninstall = "Деинсталирај %?";
+pg_www = "www.cfos.de";
+pg_console = "%? конзола";
+pg_menu = "%? мени";
+pg_add_connection = "Додади конекција";
+
+/ desktop symbol
+dt_advertise = "%? Особенсоти";
+dt_advertise_desc = "Покажи ги сите %? особености.";
+
+/ message boxes
+query_reboot = "Морате да го рестартирате системот за промените да бидат ефективни.\n\nДа се рестартира сега?";
+query_drv_inst_cancel = "Де-/инсталацијата на драјверот е во тек.\nНа интерфејсот на Windows setup може да му бидат потребни до 15 минути за\nрегистрација или одрегистрација на драјвер!\n\nМногу препорачливо е да не го откажете процесот освен\nако веќе чекате повеќе од тоа.\n\nДали навистина сакате да откажете?";
+query_driver_err_abort = "Имеше грешка во инсталацијата на драјверот!\n"
+                         "Затоа се препорачува да се откаже инсталацијата\n"
+                         "сега.\n\n"
+                         "Сепак можно е и да се продолжи со инсталацијата,\n"
+                         "што може да биде корисно за тестирање. Рачунајте дека\n"
+                         " %p најверојатно нема да работи како што\n"
+                         "треба.\n\n"
+                         "Откажи инсталација? (препорачливо)";
+
+/ error messages
+err_driver_inst = "Инсталацијата на драјверот е неуспешна.";
+err_daemon_start = "Неможе да се стартува %?.";
+err_uninst_old = "Постоечката верзија неможе да се одинсталира. Направете log off од вашиот оперативен систем, па повторно логирајте се и пробајте.";
+err_os = "Вашиот оперативен систем е %?.\n\n%? потребен е Windows 2000/XP или подобар за да работи.";
+err_os_minxp = "Вашиот оперативен систем е %?.\n\n%? потребен е Windows XP или подобар за да работи.";
+err_uninst_driver = "Драјверот неможе да се деинсталира.";
+err_create_process = "Грешка во повикување на %s: %s";
+err_write_lock = "%? мрежните компоненти се во употреба од друг прозорец. Молиме затворете ги сите други апликации или рестартирајте го компјутерот и пробајте пак.";
+err_file_auth = "Некои фајлови од оваа дистрибуција се оштетени или недостасуваат.\nМолиме набавете автентична %p дистрибуција\n(на пример од www.cfos.de).";
+err_cancel = "Операцијата е откажана.";
+err_no32 = "Неможе да се инсталираат 32-битни драјвери на 64-битен систем.\n\n"
+           "OS: %?\n"
+           "Product: %?";
+err_bad_keyfile = "Фајлот со клучот изгледа дека е невалиден. "
+					"Молиме контактирајте не за да добиете валиден клуч.";
+err_bad_setup = "%p изгледа дека не е инсталиран како што треба или некои фајлови "
+				"се модифицирани. Молиме реинсталирајте го одново "
+				" %p и обидете се повторно.";
+err_bad_signature = "Лозинката изгледа дека е погрешна или е за "
+					"друг фајл со клуч. Молиме внесете ја соодветната "
+					"лозинка за овој фајл со клуч.";
+err_gdiplus=
+	"GDI+ library не е најдена!\n\n"
+	"Оваа инсталација може да продолжи само ако GDI+ library е инсталирана.\n"
+	"Можете да ја симнете GDI+ library од Microsoft како дел од платформскиот SDK\n"
+	"Redistributable. Молиме симнете го инсталациониот фајл и отпакувајте ги\n"
+	"фајловите внатре во <некој директориум> по ваш избор. Потоа копирајте ги сите gdiplus.* фајлови\n"
+	"од фолдерот <некој директориум>\\asms\\10\\msft\\windows\\gdiplus во\n"
+	"фолдерот Windows\\system32.\n\n"
+	"Кликнете 'Oк' за да се отвори соодветната страна за симнување на Microsoft.\n"
+	"Кликнете 'Откажи' за да ја откажете инсталацијата.";
+err_winhttp =
+  "WinHTTP библиотеката не е пронајдена!\n\n"
+  "Ова инсталација може само да продолжи ако WinHTTP библиотеката е инсталирана.\n"
+  "WinHTTP библиотеката треба да е дел од вашиот оперативен систем, но таа\n"
+  "неможе да се вчита.";
+bad_manufacturer = "Инсталацијата неможе да започне, бидејќи производот е лиценциран само за одредениот хардвер!";
+cannot_install = "Неможе да инсталира";
+err_uninst_daemon =
+   "Демонот неможе да се деинсталира. "
+   "Ако има сеуште %p дијалог прозорец отворен, прво затворете ги тие прозорци. "
+   "Инаку рестартирајте го компјутерот.";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "Грешка во копирање на фајлот %1 to %2 (%3).";
+
+/ warning messages
+wrn_oem_update = "Веќе имате инсталирано лиценциран %p .\n\n"
+	"Моментално се обидувате да инсталирате shareware верзија. Доколку продолжите\n"
+	"со инсталацијата, вашата лиценца нема да работи.\n"
+	"Надградба за вашиот лиценциран %p може да добиете на истото место\n"
+	"каде што ја имате набавено првпат.\n\n"
+	"Дали сепак сакате да продолжите со инсталацијата?";
+
+/ traffic shaping algorithm
+tsa_header = "Traffic Shaping Мод (Повеќе-Корисници верзија)";
+tsa_subheader = "Зададено однесување на Traffic Shaping алгоритамот.";
+tsa_info = "Молиме изберете го зададеното однесување на Traffic Shaping алгоритамот "
+			"што одговара на вашата Интернет конекција. (Ова подоцна може да биде одбрано "
+			"индивидуално за секоја конекција.)";
+
+/ vista warning
+vista_header = "Инсталациони забелешки";
+vista_subheader = "Забелешка за инсталација на драјверот под Windows Vista.";
+vista_warn_info = "%p е дигитално потпишан со сертификат од GlobalSign, компанија "
+	"лиценцирана од Microsoft. Сепак, cFos Software GmbH не учествува во скапата додатна WHQL сертификација "
+	"на Microsoft. Поради оваа причина, прозорче ќе се појави додека се инсталира драјверот "
+	"под Windows Vista со пораката дека издавачот на драјверот неможе да се потврди.\n\n"
+	"Доколку се појави ова прозорче, молиме кликнете на \"Install this driver software anyway\".";
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+dun_wizard_name = "%p Конекција Волшебник";
+connections = "Конекции";
+dun_subheader = "Наместете конекција.";
+dun_with_bc = " со cFos Broadband Connect";
+dun_reenter_password = "Молиме ревнесете лозинка";
+dun_list_tonline = "нова T-Online конекција";
+dun_new_connection = "Немести нова конекција";
+dun_err_no_device = "Нема %p пронајдено уред. (Уредот треба да биде достапен по рестартирањето на вашиот компјутер.)";
+
+/ e-mail registration dialog
+eml_header = "E-mail Регистрација";
+eml_subheader = "Регистрирајте ја вашата e-mail адреса со cFos.";
+eml_info = "Молиме регистрирајте ја вашата e-mail адреса со cFos, за да можеме да ве вклучиме во нашата маилинг листа за соопштенија и да ве известиме кога нова верзија од %p е достапна.";
+eml_info_optional = "Ако ја регистрирате вашата e-mail адреса со cFos ќе бидете вклучени во нашата маилинг листа за соопштенија и автоматски ќе бидете известени кога нова верзија од %p е достапна. Ако не сакате да бидете известувани ве молиме оставете го полето празно.";
+eml_email = "Вашата e-mail адреса:";
+eml_invalid_email = "E-mail адресата што ја внесовте не е валидна.";
+eml_invalid_optional_email = "Молиме внесете валидна e-mail адреса или без адреса во целост.";
+eml_reg_failed = "E-mail адреса грешка грегистрирање.";
+eml_checking_domain = "Проверување E-mail домен...";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+order_oem = "Купете ја професионалната верзија сега!";
+cfos_endsoon = "Вашиот тест период ќе заврши наскоро.\nКупете ја %p Професионалната верзија сега!\nЗапочнете ја %p нарачката на страна на\n\nhttps://www.cfos.de/mk/order/order.htm\n";
+cfos_expired = "Ова %p верзија е истечена.\nКупете го %p/Професионал сега!\nЗапочнете ја %p нарачката на\n\nhttps://www.cfos.de/mk/order/order.htm\n\nPhone: +49-228-7669826\nFax: +49-228-7669827.";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+group_order_inet = "Купи напредно %p";
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+

@@ -1,0 +1,716 @@
+#language 1037
+#fallback 1033
+#charset 177
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Hebrew";
+language_local = "עברית";
+htm_lang_prefix = "he";
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
+bc_orderurl = "https://www.cfos.de/he/order/broadband-connect-n.htm";
+bc_desc = "%p, דריבר חייגן עתיר ביצועים";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/he/order/cfos-ipv6-link-n.htm";
+sixlink_desc = "%p, דריבר IPv6 מהיר";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/he/order/cfos-personal-net-n.htm";
+renew_params = "חדש פרמטרים";
+dlg_dun_auto = "התחבר אוטומטית";
+dlg_dun_default = "קישור ברירת מחדל";
+dlg_dun_cons = "פרופילי קישורים";
+dlg_dun_name = "שם קישור:";
+dlg_dun_uname = "שם משתמש:";
+dlg_dun_pwd = "סיסמא:";
+dlg_dun_use_ipv4 = "השתמש ב IPv4";
+dlg_dun_use_ipv6 = "התשמש ב IPv6";
+dun_connect_to = "התחבר אל %?";
+dun_err_already_exists = "שם החיבור קיים.";
+disconnect = "התנתק ";
+setup_connections = "הגדר קישורים";
+ask_inst_ipv6 = "פרוטוקול IPv6 טרם הותקן על מחשב זה.\n\n"
+                "הינך מעוניין בהתקנת פרוטוקול IPv6 עכשיו?";
+err_inst_ipv6 = "שגיאה %? בזמן התקנת פרוטוקול IPv6.";
+
+/ connection entry dialog
+con_err_save = "לא ניתן לשמור מידע !";
+con_ipv4 = "IPv4";
+con_ipv6 = "IPv6";
+con_private_address = "כתובת פרטית:";
+con_prefix = "קידומת:";
+con_dns1 = "DNS1:";
+con_dns2 = "DNS2:";
+con_enabled = "פעיל";
+
+/ pnet configuration dialog
+pnet_header = "הגדרות כלליות";
+pnet_subheader = "שנה הגדרות כלליות.";
+smtp_header = "שרת SMTP";
+smtp_subheader = "הגדר שרתי SMTP.";
+dynip_header = "שרת IP דינאמי";
+dynip_subheader = "הגדר את שרת ה IP הדינאמי";
+dlg_autostart = "הפעל את %p בעת הפעלת חלונות";
+dlg_register_shell_extension = "רשום תוספת ל Shell";
+dlg_server_port = "פורט שרת:";
+dlg_server_name = "שם שרת:";
+dlg_server = "שרת:";
+dlg_renew_interval = "השהיית חידוש (מש):";
+dlg_redirect_delay = "השהיית הפניה (מש):";
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
+speed_orderurl = "https://www.cfos.de/he/order/cfosspeed-n.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
+
+component_mismatch = "יש  קונפליקט בגרסאות מרכיבי התוכנה. אנא התקן מחדש את גרסת התוכנה העדכנית ביותר";
+trayicon_tip = "איטרנט מהיר עם עיצוב תעבורה, www.cfos.de";
+speed_endsoon = "תקופת הנסיון עומדת להסתיים בקרוב! רכוש עוד היום את %1!";
+order_info = "רכוש היום: \nבאינטרנט: www.cfos.de\nבטלפון: +49-228-7669826";
+badkey = "יש בעיה עם קובץ הרשיון.\nאנא התקן מחדש את המפתח עי פתיחת הקובץ\nאשר קיבלת במייל או על גבי דיסקט";
+no_setup = ".(setup.exe) נכשל להתחיל בהתקנה ";
+ask_disconnect_ras = "חיבור רשת פעיל עומד להשתנות\nמומלץ לנתק את החיבור לפני שתמשיך\nהאם לנתק את החיבור ?";
+sygate_hint = "SYGATE התוכנה זיהתה חומת אש של\n אשר מזהה בטעות את פולס הכיול כמתקפת האקרים\nלכן עליך לבצע הורדה ואחר כך העלאה במהירות מלאה ל 30 שניות\nפעולה זו תגרום לכיול התוכנה.";
+select_language = "בחר שפה";
+translator = "מתרגם";
+translator_name = "גיא ואגו";
+translator_msg = "";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = ".רשיון התוכנה שלך יפוג בעוד %1 %2";
+
+service_desc = "%p בצע מדידת מהירות עבור ";
+no_pings_error = ".הפינגים הנשלחים מהתוכנה אינם עוברים, בלעדיהם עיצוב התעבורה אינו יכול לעבוד כראוי. לחץ כאן לעזרה";
+other_languages = "שפות אחרות";
+install_dir = "ספריית התקנה: ";
+ask_clear_tsdata = "לאתחל מידע עיצוב תעבורה ולהתחיל כיול קישור מחדש?";
+allow_traffic_shaping = "האם לאפשר עיצוב תעבורה עבור חיבור זה ";
+none = "כלום";
+lic_expired = "תקופת הנסיון הסתיימה. פעילות %1 מופסקת. רכוש את %1 היום!";
+settings = "אפשרויות";
+winsettings = "הגדרת חלונות";
+openwindow = "פתח חלון";
+openwindows = "פתח חלונות";
+closewindow = "סגור חלון";
+closewindows = "סגור חלונות";
+autoopen = "פתח אוטומטית/הסתר אוטומטית";
+taskbaricon = "צלמית שעון";
+autoarrange = "סדר חלונות אוטומטית";
+effects = "אפקטים";
+blend_effect = "ערפל חלונות";
+slide_effect = "החלק חלונות";
+win_behaviour = "השתמש בהתנהגות המערכת";
+selectskin = "בחר סקין";
+topmost = "תמיד ממעל";
+defpos = "מיקום ברירת המחדל";
+disco_ras = "התנתק ";
+config = "אפשרויות";
+order = "קנה!";
+dayl_singular = "יום";
+dayl_plural = "ימים";
+days_singular = "יום";
+days_plural = "ימים";
+/ %1=number, %2="day/days"
+short_try = "נסה עוד %1 %2";
+short_dexpire = "פג תוקף %1 %2";
+
+short_exp = "פג תוקף!";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = " תקופת הנסיון הסתיימה עבור%1 %2. רכוש את %3 היום!";
+lic_try = "%3 נותרו %1 %2 לפני שתאלץ לרכוש את ";
+
+enable_win = "אפשר את חלון הטטוס?\n\nחלון הסטטוס מראה את הסטטוס של החיבור האקטיבי שלך.";
+license = "רשיון ";
+licensed_to = "%? רשום ל ";
+upgrade = "קבל גרסת תוכנה חדשה";
+connect_to = "התחבר אל";
+make_own_skin = "עצב סקין משלך";
+click_through = "לחץ-דרך";
+ask = "שאל";
+off = "כבוי";
+on = "דלוק";
+note = "הערה";
+deactivated = "מופסק";
+ole_error = "על מנת להשתמש בחלונית ההגדרות התוכנה צריכה להיות מותקנת ועובדת בצורה טובה על המחשב. אנא וודא את תקינות ההתקנה ונסה שנית. ";
+ts_settings = "הגדרות עיצוב תעבורה";
+preferences = "העדפות";
+prio_protocols = "תעדוף פרוטוקולים";
+protocol = "פרוטוקול";
+protocols = "פרוטוקולים";
+prio_programs = "תעדוף תוכנות";
+program = "תוכנה";
+programs = "תוכנות";
+current_connections = "קישורים עכשוויים";
+ts_prios = "תעדוף עיצוב התעבורה";
+client_protocols = "פרוטוקולי קליינט";
+server_protocols = "פורוטוקולי שרת";
+media_streaming = "מדיה זורמת";
+file_sharing = "שיתוף קבצים";
+special = "מיוחד";
+other = "אחר";
+hint = "רמז";
+hint_text = "תעדוף יעבוד בצורה טובה רק אם כמות מידע מועטה תוגדר כבעלת עדיפות גבוהה. הענק ליישומים אשר שולחים מידע רב עדיפות נמוכה. תעדוף על פי פרוטוקול נעשה לפני תעדוף על פי ישום. ";
+save_protocols = "שמור פרוטוקולים";
+undo = "ביטול";
+filter_selection = "סינון נבחר";
+higher = "גבוה יותר";
+high = "גבוה";
+normal = "נורמלי";
+low = "נמוך";
+lower = "נמוך יותר";
+entries = "רשומות";
+prog_overwrite = "התוכנה #p כבר מופיעה ברשימה.\\nהאם תרצה להחליף ";
+games = "משחקים";
+voip = "טלפוניה מבוססת אינטרנט";
+remote_control = "שליטה מרחוק";
+prog_hint_text = " תעדוף יעבוד בצורה טובה רק אם כמות מידע מועטה תוגדר כבעלת עדיפות גבוהה. הענק ליישומים אשר שולחים מידע רב עדיפות נמוכה.<br />";
+save_priorities = "שמור תעדופים";
+delete = "מחק";
+aux_lines = "קווי עזר";
+higher_prog_help = "טלפוניה מבוססת אינטרנט ואולי משחקים";
+high_prog_help = "משחקים, מדיה זורמת, טלנט ועוד יישומים אינטראקטיביים ";
+low_prog_help = "נתוני שרת, נתוני שרת קבצים";
+lower_prog_help = "תעבורת רקע קבועה, כגון שיתוף קבצים ";
+delete_help = "הסר מהרשימה (כלומר התייחס למידע כרגיל)";
+prog_help = "העברה של חבילות מידע בעלות עדיפות נמוכה מעוכבת רק אם חבילות מידע בעדיפות גבוהה יותר מעובדות באותו הזמן. במידה ואין פעילות עדיפה, חבילות המידע (בעלות העדיפות הנמוכה) ישלחו במהירות המקסימלית. ";
+filename = "שם קובץ";
+description = "תאור";
+new_program = "תוכנה חדשה";
+add = "הוסף";
+l7_prot_detection = "זיהוי פרוטוקול שכבה שביעית ";
+l7_prot_detection_help = "זיהוי פרוטוקול על ידי ניתוח המידע. השתמש בחלונית תעדוף פרוטוקולים על מנת לערוך את העדיפות הניתנת לפרוטוקולים השונים. אם תכבה את אופציה זו אז הפרוטוקולים יזוהו על ידי מספר הפורט שבשימוש. ";
+favor_ping = "העדף זמן פינג";
+favor_ping_help = "<b>הפעל</b>: התוכנה תמזער את זמני הפינג על חשבון רוחב הפס (במידת הצורך)<br /><b>כבה</b>: התוכנה תגדיל את רוחב בפס על חשבון זמני פינג (במידת הצורך)";
+activate_firewall = "הפעל חומת אש";
+activate_firewall_help = "הגנה מפני חדירות מהרשת על ידי סינון חבילות מידע מסוכנות, בחינת מצב ותצורה חשאית";
+mtu_opt = "ייעול אוטומטי של גודל יחידת תעבורה וגודל מקטע ";
+mtu_opt_help = "כיוון של גודל יחידת מידע וגודל מקטע עבור אפשור מהירות מקסימלית. לרוב, ערכים מעט נמוכים מ 1500/1492 יאפשרו מהירויות גבוהות יותר. ";
+strict_rtp = "בדיקות זמן-אמת קפדניות ";
+strict_rtp_help = "עי הפעלת התכונה, התוכנה תזהה רק את חבילות המידע מבוססות זמן-אמת אשר מגיעות עם מידע איתותים תקין. עליך לבטל אופציה זו עבור תוכנות טלפוניה אינטרנטית אשר אינן שולחות חבילות איתותים (כגון ויפבסטר) ";
+ts_config = "התוכנה הגדרות עיצוב התעבורה של";
+dialup_connection = "חייגן";
+dialup_connections = "קישורי חייגנים";
+traffic_shaping = "עיצוב תעבורה";
+ras_con_help = "<b>כן</b>: הפעל, <b>no</b>: הפסק, <b>שאל</b>: שאל פעם אחת ושמור את השינויים";
+router_connections = "קישורי נתב";
+net_components = "רכיבי רשת";
+auto = "אוטומטי";
+router_help = "<b>כן</b>: הפעל, <b>לא</b>: הפסק, <b>אוטומטי</b>: אפשר עיצוב תעבורה, אם נמצא נתב בהתקן הרשת ";
+network_adapter = "התקן רשת";
+router = "נתב";
+and_save_settings = "ושמור שינויים";
+border = "גבול";
+budget = "תקציב";
+budget_settings = "הגדרות תקציב";
+budget_title = "התוכנה תקציב מקוונן של";
+budgets = "תקציבים מקוונים";
+graph_title = "גרף שימוש";
+hard_limit = "ספים<br>קשיחים";
+hard_limit_help_not_set = "תקציב שנגמר יוצג בחלונית הסטטוס בלבד ";
+hard_limit_help_set = "חבילות המידע יזרקו אם התקציב יגמר ";
+last_3_months = "שלושה חודשים אחרונים";
+last_month = "חודש אחרון";
+last_12_months = "שנה אחרונה";
+please_select = "אנא בחר";
+reset_day = "יום אתחול";
+reset_day_unit = "יום בחודש";
+rxtx_button = "בחירת שידור/קליטה";
+save_budgets = "שמור תקציבים";
+show_for = "הצג עבור";
+this_month = "החודש";
+time = "זמן";
+time_limit = "הגבלת זמן";
+time_min = "דקות";
+time_units = "שעות:דקות";
+volume = "נפח";
+volume_limit = "הגבלת נפח";
+spdbudget_help = "על מנת להשתמש בתקציב, עבור לחלונית הקישורים ושייך את התקציב לקישור מסויים. ";
+password_bad = "סיסמא שגויה";
+favor_bandwidth = "העדף רוחב פס";
+sum_button = "מצטבר";
+calibrate = "כייל קו";
+variable_bandwidth = "רוחב פס משתנה";
+def_bandwidth_help = "ברירת המחדל עבור <b>חדש</b> קישור";
+ok = "אישור";
+connection_medium = "בינוני";
+connection_type = "מצב עיצוב תעבורה";
+driver_not_loaded = "דריבר לא טעון.";
+many_cons_error = "%p עיצוב התעבורה הנכנסת נמצא בגבול קצה היכולת בגלל ריבוי קישורים. הפחתת הקישורים תעזור לשיפור בביצועים. לחץ כאן לעזרה.";
+limit_bandwidth = "הגבלת רוחב סרט עבור קישור זה";
+rx_limit = "מגבלת קליטה";
+tx_limit = "מגבלת שידור";
+max = "מקסימלי";
+apply_limits = "החל מגבלות";
+limit_help = "הערכים בקילובייט/שניה, כולל אוברהד, 0= ללא הגבלה.";
+enable_speed_shaping = "אפשר את עיצוב התעבורה";
+disable_speed_shaping = "הפסק את עיצוב התעבורה";
+yes = "כן";
+no = "לא";
+help = "עזרה";
+bgraph_totals = "סיכום";
+blocklist = "חוסם כתובות";
+blocklist_help = "רשימת כתובות עבורם התעבורה חסומה.";
+apply_blocklist = "הפעל פילטר";
+search = "חפש";
+budget_connection = "הגדר תציבים לקישורים";
+reset = "אתחל";
+autohide_on_fullscreen = "הסתר אוטומטית במצב מסך מלא";
+slot_selected = "פרוטוקולים / תוכניות נבחרים";
+show = "הראה";
+hide = "הסתר";
+slot_explain = "אם לחבילת מידע פרוטוקול מסויים ופרוטוקול זה שוייך "
+               "להקצאה מסויימת, חבילות המידע יספרו בהקצאה זו. "
+               "אם לא, אם חבילת המידע שייכת לחיבור של תוכנה אשר שוייכה להקצאה "
+               "התעבורה תשוייך להקצאה זו. "
+               "אם גם זה אינו המקרה, התעבורה תשוייך להקצאה  "
+               "אליה שוייכה כל התעבורה האחרת.";
+traffic_analysis_title = "אנליזת תעבורה בזמן אמת";
+other_traffic = "כל התעבורה האחרת";
+traffic_analysis = "אנליזת תעבורה";
+slot = "הקצאה";
+slots = "הקצאות";
+slots_title = "הגדרת הקצאות";
+can_select_multiple = "טיפ: ניתן לסמן מספר אפשרויות על ידי שימוש במקש ה Shift או ה Ctrl";
+name_for = "שם עבור ";
+set_name = "הגדר שם";
+rx_only = "קליטה בלבד";
+tx_only = "שידור בלבד";
+max_of_rx_tx = "מינימום שידור וקליטה";
+total_rx_only = "סיכום מהירות קליטה";
+total_tx_only = "סיכום מהירות שידור";
+total_max_of_rx_tx = "סיכום מקס שידור וקליטה";
+check_if_other_also = "בדוק, האם אתה מעוניין לכלול את כל התעבורה האחרת להקצאה זו";
+performance_help = "למיקסום כח המחשוב, אנו ממליצים לקבוע ל'כן' את הקישור בו מתבצע שימוש גישה לאינטרנט ו'לא' לכל האחרים.";
+loading = "טוען...";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+regid = "לא שיתופי";
+regid_help = "אתה משתמש בקישור זה ביחד עם מחשבים נוספים ולפחות אחר המחשבים אינו מריץ את תוכנה מבית cFos.";
+regid_help_long = "אתה משתמש בקישור זה ביחד עם מחשבים נוספים ולפחות אחר המחשבים אינו מריץ את תוכנה מבית cFos.";
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+net_talk = "דיבור רשת";
+net_talk_help = "לשיפור בדיוק, שלח סטטיסטיקות עיצוב תעבורה למחשבים האחרים ברשת שלך.";
+net_talk_help_long = "לשיפור בדיוק, שלח סטטיסטיקות עיצוב תעבורה למחשבים האחרים ברשת שלך.";
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+vari_fixed = "גמישות בפינג";
+vari_fixed_help = "אפשר גמישות לזמני פינג";
+vari_fixed_help_long = "אסוף סטטיסטיקות פינג להגדרת גמישות בזמני פינג; שימושי במיוחד לחיבור נייד/אלחוטי.";
+
+set = "קבע";
+
+
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p, חיבור מהיר יותר לאינטרנט על ידי עיצוב תעבורה";
+
+/ URLs
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+
+/ wizard
+install_wizard_name = "%? אשף התקנה";
+uninstall_wizard_name = "%? אשף הסרה";
+brandkey_wizard_name = "%? אשף רישום";
+config_wizard_name = "אשף הגדרת %p";
+continue_line = "להמשך לחץ על לחצן הבא או NEXT";
+start_inst = "להתלת ההתקנה, לחץ המשך או Next.";
+wizard_lang_line = "האשף נמצא במצב";
+
+/ welcome page
+welcome_line = "ברוכים הבאים אל %? v%?!";
+welcome_info = "אסף זה יסיע לך בהתקנת %? v%?.";
+welcome_found = "התקנה קיימת של %? v%? זוהתה על המחשב.";
+welcome_found_dir = "התקנה קיימת של %1 v%2 זוהתה על המחשב בתיקייה %3.";
+welcome_found_unknown = "התקנה קיימת של %? זוהתה על המחשב.";
+welcome_found_modified = "התקנה חלקית או ערוכה של %1 v%2 זוהתה על המחשב בתיקייה %3.";
+welcome_update = "על מנת להחליף את הגרסא הקיימת לחץ על הבא או Next.";
+welcome_admin = "אין לך הרשאות אדמיניסטרטור. "
+                "על מנת להשתמש באשף זה עליך לקבל הרשאות אדמיניסטרטור";
+welcome_lang_syslink = "<a href=\"%?\">שפות נוספות</a>";
+welcome_oem_info = "%1 הינה גרסת OEM של %p עבור %2. לכן, %p מכיל את כל היכולות של %1 ויותר.";
+
+/ uninstall welcome page
+ui_welcome_line = "הסר %? v%?.";
+ui_welcome_info = "אם ברצונך להסיר את %1 v%2 מתיקייה %3 "
+                  "ואת כל רכיביה, לחץ הבא או Next.";
+
+/ brand key welcome page
+bk_welcome_line = "%? רישום.";
+bk_welcome_info = "אשף זה יסיע לך ברישום %?.";
+bk_welcome_found = "מפתח רישום קיים נמצא בתיקייה %?.";
+bk_welcome_update = "להחלפת המפתח לחץ הבא או Next.";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+
+/ restore point dialog
+rp_header = "נקודת שחזור";
+rp_subheader = "נקודות שחזור מאפשרות לך להחזיר את את המערכת למצב קודם.";
+rp_info = "נקודת שחזור מערכת מאפשרת לך להחזיר את מערכת חלונות למצב בו היא הייתה בזמן"
+          "בו נשמרה. מומלץ לקבוע נקודת שחזור בזמן התקנת דריברים.";
+rp_check = "קבע נקודת שחזור.";
+/ %1 = product name
+rp_uninst_info = "נקודת שחזור מערכת איננה מיועדת לביצוע השסרה תקינה של %1."
+                 "אלא אמצעי זהירות המאפשר חזרה למצב קודם במרה של קונפליקט דרייברים"
+                 "להסרה תקינה של %1 יש לבחור בהסרה מתפריט ההתחל או מתפריט הסרט התוכנות";
+
+/ password dialog
+pwd_header = "סיסמא.";
+pwd_subheader = "לכל מפתח נדרש קוד יחודי.";
+pwd_reg_to = "%p ירשם עבור:";
+pwd_password_info = "אנא הקש את הססמא שקיבלת בפורמט xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "סיסמא:";
+pwd_invalid_password = "סיסמא שגויה. נסה שוב.";
+pwd_activate_info = "עליך להיות מחובר לאינטרנט על מנת לאמת את הקוד עם שרתי החברה.";
+pwd_activate_failed = "הפעלת סיסמא נכשלה!";
+pwd_activate_failed_code = "הפעלת סיסמא נכשלה: שגיאה %?.";
+
+/ re-enter password dialog
+repwd_header = "%? סיסמא.";
+repwd_subheader = "יש להזין שנית את את קישום הסיסמא.";
+repwd_reg_to = "בשל שינוי במערכת שלך אליך להזין שנית "
+               "סיסמא עבור הרישום של %p :";
+
+/ installation directory dialog
+instdir_header = "תיקיית התקנה";
+instdir_subheader = "ספריית ההתקנה מגדירה לאן במחשבך יועתקו הקבצים.";
+instdir_info = "ציין תקיית התקנה.";
+instdir_change = "שנה";
+instdir_src_dst = "תיקיית מקור ויעד לא יכולות להיות זהות!";
+instdir_space = "עבור תקיית התקנה זו נדרשים %u בייטים פנויים. "
+                "ישנם רק %u בייטים פנויים בתיקיה הנבחרת.";
+instdir_drivetype = "הכונן שבחרת איננו חוקי. %? יכול להיות מותקן רק על גוננים קבועים.";
+instdir_system = "ספריית ההתקנה חייבת להמצא על דיסק '%?'.";
+
+/ tcp settings dialog
+tcp_header = "התאם את גודל חלון מקלט ה TCP.";
+tcp_subheader = "יש לבצע שינוי בגודל חלון מקלט ה TCP על מנת לאפשר משלוח מידע בצורה אופטימאלית.";
+tcp_info = "גודל חלון מקלט ה TCP משפיע על זרימת המידע הנכנס"
+           "ערך זה שמור ברישומי המערכת ואינו אופטימאלי כרגע.\n\n"
+           "מומלץ לתת לאשף זה לבצע שינוי בערך זה על מנת לאפשר מעבר גבוה יותר של מידע."
+           "(השינוי יתבצע לאחר אתחול של המחשב.)";
+tcp_check = "בצע אופטימיזציה של גודל חלון מקלט ה TCP. )מומלץ(";
+
+/ hang up online connection dialog
+hangup_header = "קישור מקוון";
+hangup_subheader = "יש לנתק את הקישור המקוון.";
+hangup_online = "הינך מקוון על ידי החיבור הבא:";
+hangup_offline = "הקישור נותק.";
+hangup_info = "יש להתנתק מהרשת על מנת שאשף זה יוכל להמשיך.\n\n"
+              "לניתוק, לחץ נתק.";
+hangup_disco = "נתק";
+
+/ progress dialog
+progress_inst_header = "התקנה";
+progress_inst_subheader = "תהליך ההתקנה נתבצע כעט.";
+progress_inst_wait = "אנא המתן לסיום תתהליך ההתקנה.";
+progress_uninst_header = "הסר";
+progress_uninst_subheader = "תהליך ההסרה מתבצע כעט.";
+progress_uninst_wait = "אנא המתן לסיום תהליך ההסרה.";
+progress_driver_wait = "אנא המתן בזמן שמערכת ההפעלה מתקינה את הדריבר המתאים. תהליך זה עשוי לקחת מספר דקות.";
+
+/ confirm delete dialog
+conf_del_header = "מחק הגדרות תצורה";
+conf_del_subheader = "עליך לאשר את המחיקה של קבצים המכילים מידע פרטי או הגדרות התצורה.";
+conf_del_column = "קובץ";
+conf_del_query = "אם ברצונך למחוק גם את הקבצים הללו, עליך לסמנם במיוחד. "
+                 "לאחר שבחרת, לחץ הבא.";
+
+/ finish page
+finish_head_ok = "ההתקנה בוצעה בהצלחה.";
+finish_info_ok = "%? הוקן בהצלחה על המחשב.";
+finish_head_fail = "ההתקנה נכשלה.";
+finish_info_fail = "ההתקנה נכשלה מהסיבה הבאה:";
+finish_reboot = "יש לאתחל את המחשב! לחץ סיים על מנת לאתחל או בטל על מנת לאתחל בזמן מאוחר יותר.";
+finish_link_ok = "<a href=\"%?\">%? features!</a>";
+finish_file_fail = "לפרטים נוספים צפה בקובץ %s.";
+finish_file_link_fail = "לפרטים נוספים צפה בקובץ <a href=\"file://%s\">log file</a>.";
+finish_cfosts_disabled = "עיצוב תעבורה הופסק, "
+                         "%p כבר מבצע עיצוב תעבורה. (הינך יכול "
+                         "לאפשר מחדש את עיצוב התעבורה מתפריט התוכנה.)";
+finish_cfosts_enabled = "עיצוב התעבורה הופעל מחדש.";
+
+/ uninstall finish page
+ui_finish_head_ok = "ההסרה התבצעה בהצלחה.";
+ui_finish_info_ok = "%? הוסר בהצלחה מהמחשב.";
+ui_finish_head_fail = "הסרת התוכנה נכשלה.";
+ui_finish_info_fail = "%? ההסרה נכשלה מסיבות הבאות:";
+ui_finish_not_removed = "הקבצים הבאים יוסרו רק לאחר אתחול: ";
+
+/ brandkey finish page
+bk_finish_head_ok = "הרישום הושלם.";
+bk_finish_info_ok = "%? רשום עבור:";
+bk_finish_head_fail = "הרישום נכשל.";
+bk_finish_info_fail = "הרישום נכשל מהסיבות הבאות:";
+
+/ progress tasks
+task_register_email = "רישום עבור כתובת...";
+task_restore_point = "קובע נקודת אחזור...";
+task_copy = "מעתיק קבצים...";
+task_desktop_link = "יותר קיצור דרך על שוחן העבודה...";
+task_program_group = "יוצר תיקיית תוכנה...";
+task_registry = "מבצע רישום מערכת...";
+task_driver = "מתקין דריבר...";
+task_daemon = "מתחיל את %?...";
+task_uninstall_old = "מבצע הסרה של גרסא קודמת...";
+task_stop_daemon = "עוצר את  %?...";
+task_uninstall_driver = "מבצע הסרה של הדריבר...";
+task_delete_files = "מבצע מחיקת קבצים...";
+task_hangup = "מנתק קישורי רשת קיימים...";
+task_flush_registry = "שומר רישומי מערכת לדיסק...";
+task_cancel = "מבטל את הפעולות...";
+task_canceled = "הפעולה נכשלה!";
+
+/ program group
+speed_pg_name = "%p עיצוב תעבורה";
+pg_uninstall = "הסר את %?";
+pg_www = "www.cfos.de";
+pg_console = "%p מסוף";
+pg_menu = "%? תפריט";
+pg_add_connection = "הוסף קישור";
+
+/ desktop symbol
+dt_advertise = "%? מאפיינים";
+dt_advertise_desc = "רשימת מאפייני %?.";
+
+/ message boxes
+query_reboot = "עליך לאתחל את המערכת על מנת לתקף את השינויים שבוצעו.\n\n"
+   "האם לאתחל כעת?";
+query_drv_inst_cancel = "הסרה-/התקנה של הדרביבר מבוצעת על ידי מערכת ההפעלה.\n"
+                        "ממשך ההתקנה יכול לערוך עד 15 דקות\n"
+                        "להסרה והתקנה של הדריבר!\n\n"
+                        "מומלץ מאוד לא לבטל את הפעולה באמצע\n"
+                        "המתנתם כבר זמן רב.\n\n"
+                        "מעוניין לבטל את הפעולה?";
+query_driver_err_abort = "ארעה שגיעה בעת התקנת הדריבר!\n"
+                         "לכן מומלץ להפסיק את ההתקנה\n"
+                         "עכשיו.\n\n"
+                         "אפשר להמשיך את ההתקנה,\n"
+                         "דבר שיכול להיות שימושי לצורך בדיקה. זכור \n"
+                         "כי סביר שהתוכנה %p לא תעבוד\n"
+                         "כראוי.\n\n"
+                         "לבטל את ההתקנה? (מומלץ)";
+
+/ error messages
+err_driver_inst = "התקנת הדריבר נכשלה.";
+err_daemon_start = "לא ניתן להריץ את %?.";
+err_uninst_old = "לא ניתן להסיר את הגרסא הנוכחית . "
+                 "צא מחשבון משתמש החלונות שלך, היכנס אליו שנית ונסה שוב.";
+err_os = "מערכת ההפעלה שלך %?.\n\n"
+         "%? זקוקה ל Windows 2000/XP ומעלה על מנת לעבוד.";
+err_os_minxp = "מערכת ההפעלה שלך %?.\n\n"
+         "%? זקוקה ל Windows XP ומעלה על מנת לעבוד.";
+err_uninst_driver = "לא ניתן להסיר את הדריבר.";
+err_create_process = "שגיאה %s: %s";
+err_write_lock = "%? רכיבי הרשת תפוסים על ידי ישום אחר. "
+                 "סגור את היישומים הפתוחים, אתחל את המחשב ונסה שנית.";
+err_file_auth = ".קבצים מסויימים של ההתקנה פגומים או חסרים\nאנא הורד גרסא אוטנטית של התוכנה מהאתר\n(e.g. from www.cfos.de).";
+err_cancel = "הפעולה בוטלה.";
+err_no32 = "לא ניתן להתין דריבר 32-bit במערכת 64-bit.\n\nמערכת הפעלה: %?\nמוצר: %?";
+err_bad_keyfile = "קובץ המפתח אינו תקין. "
+                  "אנא צור עימנו קשר לקבלת מפתח חדש.";
+err_bad_setup = "%p מותקן בצורה שגויה או שקבצי מערכת "
+                "שונו. אנא בצע התקנה מחודשת "
+                "של %p ונסה שנית.";
+err_bad_signature = "הסיסמא שגויה או מתאימה לקובץ "
+                    "מפתח אחר. אנא הכנס את  "
+                    "הססמא הנכונה לקובת פתח זה.";
+err_gdiplus =
+  "ספריית GDI+ לא נמצאה!\n\n"
+  "התקנה זו לא יכולה להמשיך ללא ספריית GDI+ במערכת.\n"
+  "ספריית GDI+ ניתנת להורדת מאתר מיקרוסופט Platform SDK\n"
+  "Redistributable. התחל את הורדת קובץ ההתקנה. פתח את תוכנו  לתיקיה שתבחר\n"
+  "לאחר פריסת הקבצים. העתק את קבצי gdiplus.* \n"
+  "מהתיקיה שבחרת <target directory>\\asms\\10\\msft\\windows\\gdiplus אל\n"
+  " Windows\\system32.\n\n"
+  "לחץ 'אישור' לפתיחת דף ההורדה המתאים באתר מיקרוסופט.\n"
+  "לחץ 'ביטול' לביטול ההתקנה.";
+err_winhttp =
+  "ספריית WinHTTP לא נמצאה!\n\n"
+  "התקנה זו אינה יכולה להמשיך ללא התקנת ספריית WinHTTP.\n"
+  "ספריית WinHTTP אמורה להיות חלק ממערכת ההפעלה אך איננה טעונה\n";
+bad_manufacturer = "לא ניתן להתחיל בהתקנה מאחר והמוצר מורשה על חומרות נבחרות בלבד!";
+cannot_install = "לא ניתן להתקין";
+err_uninst_daemon =
+   "לא ניתן להסיר את ה'דימון'. "
+   "באם ישנם עדיין חלונות %p פתוחים, סגור ראשית חלונות אלו. "
+   "אם לא, אתחל את המחשב.";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "שגיאה בהעתקת %1 אל%2 (%3).";
+
+/ warning messages
+wrn_oem_update = "%p ברישיון כבר מותקנת.\n\n"
+  "הנך עומד להתקין גרסת נסיון רגילה. אם תבחר להמשיך\n"
+  "בהתקנה זו, הרשיון שברשותך לא יעבוד.\n"
+  "רשיון מעודכן עבור %p שברשותך. ניתן לקבל במקום בו רכשת\n"
+  "את התוכנה במקור.\n\n"
+  "האם ברצונך להמשיך בכל זאת?";
+
+/ traffic shaping algorithm
+tsa_header = "מצב עיצוב תעבורה (גרסת ריבוי משתמשים)";
+tsa_subheader = "אלגוריתם ברירת המחדל להתנהגות עיצוב התעבורה.";
+tsa_info = "בחר את ברירת המחדל עבור אלגוריתם עיצוב התעבורה "
+           "בהתאם לסוג הקישור לרשת. (ניתן לשנות "
+           "בחירה זאת עבור כל קישור בנפרד.)";
+
+/ vista warning
+vista_header = "הערת התקנה";
+vista_subheader = "הערת התקנה לדריבר במערכת Windows Vista.";
+vista_warn_info = "%p נחתם דיגיטאלית על ידי GlobalSign, חברה מורשית של "
+ "מיקרוסופט. אולם, cFos Software GmbH אינה משתתפת בהסמכת WHQL היקרה. "
+ "מסיבה זו, במהלך ההתקנה תופיע חלונית אזהרה האומרת כילא ניתן לוודא "
+ "את מהימנות מפרסם הדריבר.\n\n"
+ "כאשר חלון זה יופיע, אנא לחץ על \"Install this driver software anyway\".";
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+dun_wizard_name = "אשף הקישור של %p";
+connections = "קישורים";
+dun_subheader = "הגדרת קישור.";
+dun_with_bc = " עם cFos Broadband Connect";
+dun_reenter_password = "הקש סיסמא שנית";
+dun_list_tonline = "קישור T-Online חדש";
+dun_new_connection = "הגדרת קישור חדש";
+dun_err_no_device = "%p לא נמצא. (יש לבצע אתחול למחשב.)";
+
+/ e-mail registration dialog
+eml_header = "רישום דואר אלקטרוני";
+eml_subheader = "רשום את הדואר האלקטרוני שלך באתר cFos.";
+eml_info = "אנא הרשם באתר cFos עם כתובת הדואר האלקטרוני שלך על מנת, שנוכל להכניסך לרשימת הממוענים שלנו ולעדכנך כאשר תשוחרר גרסא חדשה עבור %p .";
+eml_info_optional = "רישום כתובת הדואר האלקטרונית שלך יתווסף לרשימת התפוצה שלנו כך שתקבל הודעה אוטומטית כאשר גרסא חדשה של  %p תהיה זמינה. אם אינך מעוניין לקבל התראות אלו, השאר שדה זה ריק.";
+eml_email = "כתובת הדואר האלקטרונית:";
+eml_invalid_email = "הכתובת שהוקשה אינה חוקית.";
+eml_invalid_optional_email = "הקש כתובת חוקית או השאר שדה זה ריק.";
+eml_reg_failed = "רישום הכתובת נכשל.";
+eml_checking_domain = "בודק שרת דואר...";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
+cfos_orderurl = "https://www.cfos.de/he/order/cfos-professional-n.htm";
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+order_oem = "רכוש את הגרסא המקצועית עכשיו!";
+cfos_endsoon = " תקופת הנסיון עומדת להסתיים בקרוב.\nקנה %p Professional עכשיו!\nפתח את דף הזמנת %p בכתובת\n\nhttps://www.cfos.de/he/order/order.htm\n";
+cfos_expired = "גרסת %p הסתיים.\nרכוש %p/Professional עכשיו!\nפתח את דף הזמנת %p בכתובת \n\nhttps://www.cfos.de/he/order/order.htm\n\nטלפון: +49-228-7669826\nפקס:     +49-228-7669827.";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+group_order_inet = "קניה מתקדמת של %p";
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+

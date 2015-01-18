@@ -1,0 +1,529 @@
+#language 1053
+#fallback 1033
+#charset 1
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Svenska";
+language_local = "Svenska";
+htm_lang_prefix = "sv";
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
+bc_orderurl = "https://www.cfos.de/sv/order/broadband-connect-n.htm";
+bc_langurl = "";
+bc_pg_name = "%p";
+bc_desc = "%p, High-Performance Dial-Up Driver";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/sv/order/cfos-ipv6-link-n.htm";
+sixlink_pg_name = "%p";
+sixlink_desc = "%p, High-speed IPv6 dial-up driver";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/sv/order/cfos-personal-net-n.htm";
+
+/ connection entry dialog
+
+/ pnet configuration dialog
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
+speed_orderurl = "https://www.cfos.de/sv/order/cfosspeed-n.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+mainurl_name = "www.cfos.de";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
+
+component_mismatch = "Det är en versions konflikt mellan delar av detta program. Var vänlig ominstallera den senaste versionen.";
+trayicon_tip = "Snabbare Internet med Traffic Shaping, www.cfos.de";
+speed_endsoon = "Din test period slutar snart! Var snäll och köp %1 idag!";
+order_info = "Köp nu:\nInternet: www.cfos.de\nTelefon: +49-228-7669826";
+badkey = "Ogiltig licensnyckel.\nOminstallera din licensnyckel genom att dubbelklicka på\norginalfilen som du mottagit via mail eller diskett.";
+no_setup = "Fel vid start av installationsprogrammet (setup.exe).";
+ask_disconnect_ras = "En aktiv nätverksanslutning kommer att ändras.\nDu rekommenderas att inaktivera den innan du fortsätter.\nInaktivera den aktiva nätverksanslutningen?";
+sygate_hint = "%p har upptäckt Sygate Firewall, vilket misstar\n%ps kalibrationspuls för en \"Denial of Service\"-attack med\n\"Ping-of-Death\" paket.\nPå grund av det bör du först ladda ner och sedan upp med\nmaxhastighet i cirka 30 sekunder. Detta bör kalibrera\n%p på samma sätt som en kalibrationspuls";
+select_language = "Välj språk";
+translator = "Svensk översättning av";
+translator_name = "Mattias Boström";
+translator_msg = "Kommentarer/frågor om översättningen?\nMaila onetheneo@hotmail.com";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "Din %3 licens upphör om %1 %2.";
+
+service_desc = "Utför fördold mätning och privilgierad operation för %p";
+no_pings_error = "Ping paketen som sänts av %p kommer inte igenom. Utan dom, %p kommer Traffic Shaping inte att fungera ordentligt. Klicka här för hjälp.";
+other_languages = "Andra språk";
+install_dir = "Installations mapp: ";
+allow_traffic_shaping = "Tillåta %p Traffic Shaping för denna anslutning";
+none = "ingen";
+lic_expired = "Din test period har avslutats. %1 är nu avaktiverat. Köp %1 idag!";
+settings = "Inställningar";
+winsettings = "Fönsterinställningar";
+openwindow = "Visa Fönster";
+openwindows = "Visa Fönster";
+closewindow = "Stäng Fönster";
+closewindows = "Stäng Fönster";
+autoopen = "Öppna/stäng automatiskt";
+taskbaricon = "Aktivitetsfältsikon";
+autoarrange = "Ordna fönster automatiskt";
+effects = "Effekter";
+blend_effect = "Tona Fönster";
+slide_effect = "Låt fönster glida";
+win_behaviour = "Använd operativsystemets inställningar";
+selectskin = "Ändra utseende";
+topmost = "Alltid överst";
+defpos = "Standardposition";
+disco_ras = "Logga ut ";
+config = "Val";
+order = "Köp nu!";
+dayl_singular = "dag";
+dayl_plural = "dagar";
+days_singular = "dag";
+days_plural = "dagar";
+/ %1=number, %2="day/days"
+short_try = "Prova i %1 %2";
+short_dexpire = "Utgått %1 %2";
+
+short_exp = "Utgått!";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "Din utvärderings tid har avslutats för %1 %2. Köp %3 idag!";
+lic_try = "Du får testa %3 i %1 %2 till innan köp.";
+
+enable_win = "Aktivera statusfönster?\n\nStatusfönstret visar statusen för den aktiva anslutningen.";
+license = "Licens";
+licensed_to = "Licensierad till %?";
+upgrade = "Ladda ner programuppdatering";
+connect_to = "Koppla till";
+make_own_skin = "Designa ditt eget skinn";
+click_through = "Genom-klickbar";
+ask = "Fråga";
+off = "Av";
+on = "På";
+note = "Notering";
+deactivated = "avaktiverad";
+ole_error = "För att kunna använda denna installations dialog,\\n%p måste vara installerad och köras på din PC.\\nvar vänlig och kontrollera detta och ominstallera vid behov.";
+ts_settings = "Traffic Shaping Inställningar";
+preferences = "Rangordning";
+prio_protocols = "Prioritera protokoll";
+protocol = "Protokoll";
+protocols = "Protokoll";
+prio_programs = "Prioritera program";
+program = "Program";
+programs = "Program";
+current_connections = "Aktuella Uppkopplingar";
+ts_prios = "Traffic Shaping Prioritering";
+client_protocols = "Klient Protokoll";
+server_protocols = "Server Protokoll";
+media_streaming = "Media Strömning";
+file_sharing = "Fil Delning";
+special = "Special";
+other = "Annat";
+hint = "Ledtråd";
+hint_text = "Prioritering kommer bara att fungera om så lite data som möjligt har hög prioritering. Ge program som sänder ut mycket data låg prioritering. Protokoll prioritering är gjort före program prioritering.";
+save_protocols = "Spara protokoll";
+undo = "Ångra";
+filter_selection = "Filter sortiment";
+higher = "Högre";
+high = "Hög";
+normal = "Normal";
+low = "Låg";
+lower = "Lägre";
+entries = "Inlägg";
+prog_overwrite = "Detta program #p är redan i listan.\\nVill du skriva över inlägget med nya värden?";
+games = "Spel";
+voip = "Voice-over-IP";
+remote_control = "Fjärr Kontroll";
+save_priorities = "Spara prioriteringar";
+delete = "Ta bort";
+aux_lines = "Hjälp linjer";
+higher_prog_help = "Voice-over-IP, kanske spel";
+high_prog_help = "Spel, Strömmande Media, Telnet och andra interaktiva program";
+low_prog_help = "Server data, FTP data";
+lower_prog_help = "permanent bakgrunds trafik, t.ex fil delning";
+delete_help = "Ta bort ifrån listan (behandla paket som normalt).";
+prog_help = "Transport av låg(lägre)-prioriterade paket saktas ner bara om data med högre prioritering rangordnas samtidigt. Annars så sänds låg(lägre)-prioriterad data med maximal hastighet.";
+filename = "Filnamn";
+description = "Beskrivning";
+new_program = "Nytt program";
+add = "Lägg till";
+l7_prot_detection = "Layer-7 Protokoll upptäckt";
+l7_prot_detection_help = "Upptäck protokoll med data analys. Använd dialogen 'Prioritera protokoll' för att ändra prioritering mellan dom olika protokollen. Om du avaktiverar denna möjlighet så upptäcks protokollen enligt port nummer istället.";
+favor_ping = "Favorisera Ping Tid";
+favor_ping_help = "<b>On</b>: %p kommer att minimera ping tiden på bekostnad av lite sämre bandbredd (om det blir nödvändigt så).<br /><b>Off</b>: kommer %p att maximera bandbredden på bekostnad av något högre ping tid (om det blir nödvändigt).";
+activate_firewall = "Aktivera Brandvägg";
+activate_firewall_help = "Skydd mot nätverksintrång med medel som filtrering av farliga paket, tillstånds inspektion och dolt läge.";
+mtu_opt = "Automatisk MSS (MTU) optimering";
+mtu_opt_help = "Justera MSS/MTU för maximal överförings hastighet. Värden något lägre än 1500/1492 producerar högre hastigheter.";
+strict_rtp = "Skärpt RTP kontroll";
+strict_rtp_help = "Vid aktivering, kommer %p att bara känna igen dom paket som RTP som har en godkänd RTCP käll ID kod. Du borde avaktivera detta val för Voice-over-IP program (t.ex VoIPBuster) som inte sänder några RTCP paket.";
+ts_config = "%p Traffic Shaping Inställning";
+dialup_connection = "Uppringd uppkoppling";
+dialup_connections = "Uppringda uppkopplingar";
+traffic_shaping = "Traffic Shaping";
+ras_con_help = "<b>Ja</b>: aktivera, <b>nej</b>: avaktivera, <b>fråga</b>: fråga endast en gång och spara sedan";
+router_connections = "Router Uppkopplingar";
+net_components = "Nätverks Komponenter";
+router_help = "<b>Ja</b>: aktivera, <b>nej</b>: avaktivera, <b>auto</b>: aktivera Traffic Shaping, om en router hittas i detta nätverk";
+network_adapter = "Nätverkskort";
+router = "Router";
+and_save_settings = "och spara inställningar";
+border = "Gräns";
+budget = "Budget";
+budget_settings = "Budget Inställningar";
+budget_title = "%p Online Budget";
+budgets = "Online Budget";
+graph_title = "Användnings kurva";
+hard_limit = "Hård<br>Begränsning";
+hard_limit_help_not_set = "En överansträngd budget kommer endast att redovisas i status fönstret";
+hard_limit_help_set = "Paket kommer att dumpas om budgeten är överansträngd";
+last_3_months = "senaste 3 månaderna";
+last_month = "senaste månaden";
+last_12_months = "senaste 12 månaderna";
+please_select = "Var vänlig välj";
+reset_day = "Nollställ dag";
+reset_day_unit = "dag i månaden";
+rxtx_button = "RX/TX sortiment";
+save_budgets = "Spara Budget";
+show_for = "Visa för";
+this_month = "denna månad";
+time = "Tid";
+time_limit = "Tids Gräns";
+volume = "Volym";
+volume_limit = "Volym Gräns";
+spdbudget_help = "För att använda en budget, gå till uppkopplings dialogen och ange det för en särskild uppkoppling";
+password_bad = "Fel lösenord";
+favor_bandwidth = "Favorisera bandbredd";
+sum_button = "Ökande";
+calibrate = "Kalibrera Linan";
+enable_speed_shaping = "Aktivera Traffic Shaping";
+disable_speed_shaping = "Avaktivera Traffic Shaping";
+yes = "Ja";
+no = "Nej";
+help = "Hjälp";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+
+
+
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p, snabbare Internet med Traffic Shaping";
+
+/ URLs
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+
+/ wizard
+install_wizard_name = "Installationsguide för %?";
+uninstall_wizard_name = "%? Avinstallationsguide";
+brandkey_wizard_name = "Registreringsguide för %?";
+continue_line = "Klicka på Nästa för att fortsätta.";
+start_inst = "Klicka på Nästa för att starta installationen.";
+wizard_lang_line = "Detta installationsprogram är på Svenska";
+
+/ welcome page
+welcome_line = "Välkommen till %? v%?!";
+welcome_info = "Detta program kommer att guide dig genom installationen av %? v%?.";
+welcome_found = "En tidigare installation av %? v%? har upptäckts.";
+welcome_found_dir = "En tidigare installation av %1 v%2 har upptäckts i mappen %3.";
+welcome_found_unknown = "En tidigare installation av %? har upptäckts.";
+welcome_found_modified = "En modifierad eller ofullständig installation av %1 v%2 har upptäckts i mappen %3.";
+welcome_update = "Tryck Nästa för att ersätta den tidigare installationen.";
+welcome_admin = "Du har inte administratörsrättigheter. Du måste vara inloggad som en användare med administratörsrättigheter för att kunna köra denna guide.";
+welcome_lang_syslink = "<a href=\"%?\">Ytterligare språk</a>";
+
+/ uninstall welcome page
+ui_welcome_line = "Avinstallera %? v%?.";
+ui_welcome_info = "Tryck Nästa för att avinstallera %1 v%2 från mappen %3 och alla dess komponenter.";
+
+/ brand key welcome page
+bk_welcome_line = "Registrering av %?.";
+bk_welcome_info = "Detta program kommer att guida dig genom registreringen av %?.";
+bk_welcome_found = "En existerande registreringsnyckel hittades i målmappen %?.";
+bk_welcome_update = "Klicka på Nästa för att ersätta den existerande registreringsnyckeln.";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "Licensavtal";
+lic_subheader = "Du måste godkänna licensavtalet för att fortsätta";
+lic_info = "Kryssa i 'Jag godkänner' om du accepterar licensavtalet, annars trycker du Avbryt.";
+lic_agree = "Jag godkänner.";
+
+/ restore point dialog
+rp_header = "Systemåterställningspunkt";
+rp_subheader = "En systemåterställningspunkt tillåter dig att återgå till det skick Windows var i när du skapade den";
+rp_info = "En systemåterställningspunkt tillåter dig att återgå till det skick Windows var i när du skapade den. Det är rekommenderat att skapa en systemåterställningspunk vid installation av nya drivrutiner.";
+rp_check = "Skapa en systemåterställningspunkt.";
+/ %1 = product name
+rp_uninst_info = "Återställningspunkten är inte avsedd för en senare normal avinstallation av %1. Det är snarare en skyddsåtgärd för att återställa ditt system till original läge vid drivrutins konflikt. En normal avinstallation av %1 kan väljas antingen i Start Menyn i mappen %1 eller på kontrollpanelen under Lägg till eller ta bort program.";
+
+/ password dialog
+pwd_header = "Lösenord.";
+pwd_subheader = "Varje registreringsnyckel kräver ett unikt lösenord.";
+pwd_reg_to = "%p kommer att registreras till:";
+pwd_password_info = "Skriv in lösenordet for your registreringsnyckel i formatet xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "Lösenord:";
+pwd_invalid_password = "Felaktigt lösenord. Kontrollera stavning och försök igen.";
+
+/ re-enter password dialog
+repwd_header = "Lösenord för %?.";
+repwd_subheader = "Skriv in registreringslösenordet igen.";
+repwd_reg_to = "På grund av ändringar i dina systeminställningar måste du skriva in lösenordet igen för den följande registreringen av %p: ";
+
+/ installation directory dialog
+instdir_header = "Installationsmapp";
+instdir_subheader = "Installationsmappen anger var på hårddisken programfilerna installeras.";
+instdir_info = "Välj installationsmapp.";
+instdir_change = "Ändra";
+instdir_src_dst = "Käll- och målmapp kan ej vara samma";
+instdir_space = "Denna installation kräver %u byte ledigt diskutrymme. Det finns endast %u byte ledigt i den valda mappen.";
+instdir_drivetype = "Den valda enheten är ogiltig. %? kan endast installeras på lokala fysiska enheter.";
+
+/ tcp settings dialog
+tcp_header = "Finjustera storlek för TCP-mottagning";
+tcp_subheader = "TCP (Transmission Control Protocol) mottagningen bör justeras för bästa dataöverföringshastighet.";
+tcp_info = "Storleken på TCP-mottagningen kontrollerar hur snabbt inkommande data kan tas emot. Värdet lagras i Windowsregistret och är för tillfället inte ett optimalt värde.\n\nDet rekommenderas att låta guiden justera värdet för bästa resultat. (Ändringar träder i kraft vid omstart av datorn.)";
+tcp_check = "Optimera storlek för TCP-mottagare. (Rekommenderat)";
+
+/ hang up online connection dialog
+hangup_header = "Aktiv anslutning";
+hangup_subheader = "Den aktiva anslutningen måste kopplas från.";
+hangup_online = "Du är aktiv med följande anslutning:";
+hangup_offline = "Anslutningen har kopplats från.";
+hangup_info = "Den aktiva anslutningen måste kopplas från för att du ska kunna fortsätta.\n\nKlicka på Koppla från för att koppla från anslutningen.";
+hangup_disco = "Koppla från";
+
+/ progress dialog
+progress_inst_header = "Installation";
+progress_inst_subheader = "Installationen pågår.";
+progress_inst_wait = "Var god vänta tills installationen är slutförd.";
+progress_uninst_header = "Avinstallera";
+progress_uninst_subheader = "Avinstallationen pågår.";
+progress_uninst_wait = "Var god vänta tills avinstallationen är slutförd.";
+progress_driver_wait = "Var god vänta. Drivrutiner avinstalleras/installeras av operativsystemet. Detta kan ta flera minuter.";
+
+/ confirm delete dialog
+conf_del_header = "Ta bort installationsfiler";
+conf_del_subheader = "Bakräfta borttagandet av installationsfiler eller andra filer med personlig information";
+conf_del_column = "Filnamn";
+conf_del_query = "Om du även vill ta bort dessa filer kan du markera dem individuellt. Klicka på Nästa när du är klar.";
+
+/ finish page
+finish_head_ok = "Installationen är slutförd.";
+finish_info_ok = "%? har installerats på din dator.";
+finish_head_fail = "Installationen misslyckades.";
+finish_info_fail = "Installationen har misslyckats på grund av följande:";
+finish_reboot = "Du måste starta om datorn. Klicka på Slutför för att starta om nu eller Avbryt om du vill starta om senare.";
+finish_link_ok = "<a href=\"%?\">Funktioner för %?!</a>";
+finish_file_fail = "Se logfilen %s för mer information.";
+finish_file_link_fail = "Se <a href=\"file://%s\">logfilen</a> för mer information.";
+finish_cfosts_disabled = "Traffic shaping är inaktiverat i cFos, eftersom %p redan sköter detta. (Du kan återaktivera cFos Traffic Shaping i inställningsmenyn i cFos.)";
+finish_cfosts_enabled = "Traffic shaping har blivit aktiverat i ditt startade cFos.";
+
+/ uninstall finish page
+ui_finish_head_ok = "Avinstallationen slutförd.";
+ui_finish_info_ok = "%? har blivit avinstallerat.";
+ui_finish_head_fail = "Avinstallationen misslyckades.";
+ui_finish_info_fail = "%? kunde inte avinstalleras på grund av följande:";
+ui_finish_not_removed = "Följande filer kan tas bort efter omstart av datorn: ";
+
+/ brandkey finish page
+bk_finish_head_ok = "Registreringen är slutförd.";
+bk_finish_info_ok = "%? har blivit registrerad till:";
+bk_finish_head_fail = "Registreringen misslyckades.";
+bk_finish_info_fail = "Registreringen har misslyckats på grund av följande:";
+
+/ progress tasks
+task_restore_point = "Skapar systemåterställningspunkt...";
+task_copy = "Kopierar filer...";
+task_desktop_link = "Skapar genväg på skrivbordet...";
+task_program_group = "Skapar programgrupp...";
+task_registry = "Skapar registerposter...";
+task_driver = "Installerar drivrutin...";
+task_daemon = "Startar %?...";
+task_uninstall_old = "Avinstallerar nuvarande version...";
+task_stop_daemon = "Stoppar %?...";
+task_uninstall_driver = "Avinstallerar drivrutin...";
+task_delete_files = "Tar bort filer...";
+task_hangup = "Kopplar från aktiva anslutningar...";
+task_flush_registry = "Uppdaterar registret...";
+task_cancel = "Avbryter...";
+task_canceled = "Åtgärden avbruten!";
+
+/ program group
+speed_pg_name = "%p";
+pg_uninstall = "Avinstallera %?";
+pg_console = "%? konsol";
+pg_menu = "%? meny";
+
+/ desktop symbol
+dt_advertise = "Funktioner i %? ";
+dt_advertise_desc = "Listar alla funktioner i %? r.";
+
+/ message boxes
+query_reboot = "Du måste starta om datorn innan ändringarna börjar gälla.\n\nStarta om nu?";
+query_drv_inst_cancel = "Avinstallation/Installation av drivrutiner utförs av operativsystemet.\nWindows installationsinterface kan ta upp till 15 minuter att\nregistrera eller avregistrera en drivrutin!\n\nDet är starkt rekommenderat att inte avbryta denna process innan\ndu har väntat så länge.\n\nÄr du säker på att du vill avbryta?";
+query_driver_err_abort = "Det har inträffat ett fel vid drivrutins installationen!\nDärför är det rekommenderat att avbryta installationen\nnu.\n\nDet är även möjligt att fortsätta installationen,\nvilket kan vara användbart vid test syften. Kom ihåg\natt %p nog inte kommer att fungera\nordentligt.\n\nAvbryta installationen? (rekommenderat)";
+
+/ error messages
+err_driver_inst = "Installation av drivrutiner misslyckades.";
+err_daemon_start = "Fel vid start av %?.";
+err_uninst_old = "Den existerande versionen kunde ej avinstalleras. Starta om datorn och försök igen.";
+err_os = "Ditt operativsystem är %?.\n\n%? kräver Windows 2000/XP eller senare för att fungera.";
+err_os_minxp = "Ditt operativsystem är %?.\n\n%? kräver Windows XP eller senare för att fungera.";
+err_uninst_driver = "Drivrutinen kunde ej avinstalleras.";
+err_create_process = "fel vid användandet av %s: %s";
+err_write_lock = "%? nätverkskomponenter används av ett annat program. Avsluta alla öppna program eller starta om datorn och försök igen.";
+err_file_auth = "En del filer är felaktiga eller saknas.\nProva att ladda ner en officiell version\n(www.cfos.de).";
+err_cancel = "Åtgärden avbröts.";
+err_no32 = "Kan inte installera 32-bits drivrutiner på 64-bitars system.\n\nOS: %?\nProdukt: %?";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "Fel vid kopiering av filen %1 till %2 (%3).";
+
+/ warning messages
+
+/ traffic shaping algorithm
+
+/ vista warning
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+
+/ e-mail registration dialog
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
+cfos_orderurl = "https://www.cfos.de/sv/order/cfos-professional-n.htm";
+budget_file = "budget_e.cfhta";
+report_tpl = "report_e.tpl";
+invkey = "invkey_e.htm";
+aoltec = "techinfo\\aoltec_e.htm";
+cfos_htm = "techinfo\\cfos_e.htm";
+techinfo_htm = "techinfo\\techinfo_e.htm";
+dsldevice_help = "techinfo\\dsldev_e.htm";
+features_htm = "techinfo\\features_e.htm";
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+order_oem = "Köp den professionella versionen nu!";
+cfos_endsoon = "Din test period kommer avslutas snart.\nKöp %p  Professional nu!\nÖppna %p order sidan här\n\nhttps://www.cfos.de/sv/order/order.htm\n";
+cfos_expired = "Denna %p version har löpt ut.\nKöp %p/Professional nu!\nÖppna %p order sidan här\n\nhttps://www.cfos.de/sv/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-228-7669827.";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+group_wwwcfos = "www.cfos.de";
+group_hypertrm = "Internet Hyperterminal";
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+

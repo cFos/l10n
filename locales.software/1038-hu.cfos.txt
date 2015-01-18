@@ -1,0 +1,903 @@
+#language 1038
+#fallback 1033
+#charset 238
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Magyar";
+language_local = "Magyar";
+htm_lang_prefix = "hu";
+
+/ ----------------------------------------------------------------------
+/
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
+bc_orderurl = "https://www.cfos.de/hu/order/broadband-connect-n.htm";
+bc_langurl = "";
+bc_pg_name = "%p";
+bc_desc = "%p, High-Performance Dial-Up Driver";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/hu/order/cfos-ipv6-link-n.htm";
+sixlink_pg_name = "%p";
+sixlink_desc = "%p, High-speed IPv6 dial-up driver";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/hu/order/cfos-personal-net-n.htm";
+pnet_desc = "%p, az Ön személyes web szervere";
+renew_params = "Paraméter frissítése";
+dlg_dun_auto = "Automatikus kapcsolatkiépítés";
+dlg_dun_default = "Alapértelmezett-kapcsolat";
+dlg_dun_cons = "Ismert kapcsolatprofilok";
+dlg_dun_name = "Kapcsolatnév:";
+dlg_dun_uname = "Felhasználónév:";
+dlg_dun_pwd = "Jelszó:";
+dlg_dun_use_ipv4 = "IPv4 használata";
+dlg_dun_use_ipv6 = "IPv6 használata";
+dun_connect_to = "Kapcsolódás ezzel: %?";
+dun_err_already_exists = "A kapcsolatnév már létezik.";
+disconnect = "Leteszi ";
+setup_connections = "Kapcsolat előkészítése";
+ask_inst_ipv6 = "Az IPv6-protokoll még nincs telepítve e rendszerre.\n\n"
+                "Be kell hívni az IPv6-protokoll telepítését?";
+err_inst_ipv6 = "%? hiba az IPv6-protokoll telepítésekor.";
+
+/ connection entry dialog
+con_err_save = "A kapcsolat-adatokat nem lehetett elmenteni!";
+con_ipv4 = "IPv4";
+con_ipv6 = "IPv6";
+con_private_address = "Privát cím:";
+con_prefix = "Előtag:";
+con_dns1 = "DNS1:";
+con_dns2 = "DNS2:";
+con_enabled = "aktív";
+
+/ pnet configuration dialog
+pnet_header = "Konfiguráció";
+pnet_subheader = "Általános konfiguráció-beállítások elvégzése.";
+pnet_conn_header = "Csatlakozás";
+pnet_conn_subheader = "Csatlakozási opciók beállítása.";
+pnet_conn_local_ip = "Helyi IP cím %?";
+pnet_conn_public_ip = "Nyílvános IP cím %?";
+pnet_pubdir_header = "Nyílvános könyvtár";
+pnet_pubdir_subheader = "Az a könyvtár, amelyik tartalmazza a letölthető fájlokat.";
+pnet_pubdir_info = "Kérlek, add meg azt a mappa helyét, ahol azok a fájlok találhatók, amelyeket elérhetővé szeretnél tenni a letöltéshez.";
+smtp_header = "SMTP-szerver";
+smtp_subheader = "SMTP-szerver beállítása.";
+dynip_header = "Dinamikus IP-szerver";
+dynip_subheader = "Dinamikus IP-szerver beállítása";
+dlg_start_now_as_current_user = "Futtasd a %p-t, a jelenlegi felhasználóval";
+dlg_autostart = "%p indítása a Windows-zal együtt";
+dlg_autostart_service = "Telepítsd a %p, mint rendszer folyamat és bekapcsolásnál induljon el a Windows-al együtt";
+dlg_context_menu = "Helyi menű hozzáadása a Windows Explorer-hez";
+dlg_create_admin_account = "Rendszergazdai fiók létrehozása";
+dlg_admin_pwd = "Jelszó az \"admin\" felhasználóhoz:";
+dlg_admin_pwd_needed = "Rendszergazdai felhasználóval szükséges létrehozni az \"admin\" felhasználó jelszavát.";
+dlg_register_shell_extension = "Shell-kiterjesztés regisztrálása";
+dlg_server_port = "Szerver-port:";
+dlg_server_name = "Szervernév:";
+dlg_server = "Szerver:";
+dlg_renew_interval = "Frissítési intervallum (ms):";
+dlg_redirect_delay = "Továbbítás-késleltetés (ms):";
+dlg_monitor_ports = "Port figyelés hozzárendelése";
+dlg_enable_upnp = "Engedélyezd a mulimédia szervert (UPnP/DLNA)";
+dlg_upnp_info = "Tedd a média fájlokat a nyílvános könyvtár (public directory) 'media' alkönyvtárába.";
+use_https_port = "Használj HTTPS portot";
+
+/ pnet start type dialog
+pnet_start_header = "Indítás típusa";
+pnet_start_subheader = "Hogyan induljon a program?";
+pnet_start_mode = "%p indítása:";
+pnet_start_login = "bejelentkezéskor (ajánlott)";
+pnet_start_system = "mint rendszer folyamat";
+pnet_start_manual = "kézzel indítva";
+pnet_start_info = "Ajánlott, hogy a %p automatikusan elinduljon bejelentkezéskor. "
+                  "Ha az szükséges, hogy a %p fusson mielőtt még bárki is bejelentkezett volna a Windows-ba, akkor a %p rendszer folyamatként szükséges futtatni. "
+                  "Mindamellett előfordulhat, hogy nem fog megjelenni a tálcán feladat ikon vagy helyi menü. "
+                  "Ha csak ritkán szeretné nyílvánosan megosztani adatait, akkor kézzel indítsa el a %p-ot.";
+
+/ pnet context menu entry
+publish_with_product = "Közzététel a %p-al";
+
+/ pnet backup info
+dlg_backup_info = "Minden olyan fájlról létre lett hozva egy biztonsági fájl (.bak), amely módosításra került:";
+
+/ pnet
+end_program = "Kilépés";
+file_copy_failed = "Fájlmásolás nem sikerült.";
+ipv4_bind_problem = "A szerver nem tudja jelenleg figyelni a megadott portot IPv4 protokollal, mert éppen egy másik program használja (pl.: Skype).";
+ipv6_bind_problem = "A szerver nem tudja jelenleg figyelni a megadott portot IPv6 protokollal, mert éppen egy másik program használja (pl.: Skype).";
+closing_server = "A szerver leáll.";
+start_product = "%p indítása";
+info_port_in_use = "A %? portra szüksége van a %p programnak, amit jelenleg egy másik program használ.\n\nProgram: %?\nElérési út: %?\n\n"
+                   "Ahhoz, hogy megfelelően működjön a %p, be kell zárnia a másik programot vagy másik portot kell választania a %p beállításainál.";
+monitor_port_desc = "Ez a folyamat periódikusan figyeli azokat a portokat, amit szükségesek a %p programnak és értesíti a felhasználót , ha a használt portok közül egy másik folyamat megpróbálja azt használni.";
+logon_start_desc = "Ez a feladat %p néven indul el, amikor a felhasználó bejelentkezik.";
+show_home_dir = "Mutasd a Saját Könyvtárat";
+publish_file = "Fájl közzététel";
+user_administration = "Felhasználói Ügyintézés";
+
+/ pnet connectivity test
+connectivity_test = "Csatlakozási teszt";
+con_test_subheader = "Kérjük várjon addig, amíg a csatlakozási teszt befejeződik.";
+con_test = "%p csatlakozási teszt";
+con_test_not_running = "A csatlakozási teszt nem hajtható végre, amíg a %p nem fut. Kérjük, indítsa el a %p programot majd futtassa ismét a csatlakozási tesztet.";
+con_test_public_fail = "A nyilvános IP címe nem meghatározható. Bizonyososdjon meg róla, hogy kapcsolódik az internethez, majd ismételje meg a tesztet.";
+con_test_execute = "Csatlakozási teszt futtatása";
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
+speed_orderurl = "https://www.cfos.de/hu/order/cfosspeed-n.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+mainurl_name = "www.cfos.de";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
+
+auth_failed = "A konzisztencia ellenőrző azt észlelte, hogy a program egy, vagy több összetevőjét módosították.\n"
+   "Kérjük, telepítsen egy módosítatlan verziót a honlapunkról:\n";
+
+component_mismatch = "Verzióhiba lépett fel az alkamazás több része között. Kérem telepítse újra a legfrissebb verziót.";
+trayicon_tip = "Gyors internet, Traffic Shaping technológiával, www.cfos.de";
+speed_endsoon = "Hamarosan lejár a próbaidõszak! Kérem vásárolja meg a %1 programot még ma!";
+order_info = "Megvásárlás:\nInterneten: www.cfos.de\nTelefonon: +49-228-7669826";
+badkey = "Hiba lépett fel a licenc kulcssal kapcsolatban.\nKérem telepítse újra a kulcsot. Kattintson\nkétszer az eredeti kulcsra, amelyet eMail-ben vagy floppy lemezen kapott.";
+no_setup = "Setup (setup.exe) nem futtatható.";
+no_cmd = "Nem lehet megnyitni a parancssort (cmd.exe)!";
+ask_disconnect_ras = "Egy aktív hálózati kapcsolaton kíván változtatni.\nFolytatás elõtt ajánlott bontani a kapcsolatot.\nBontja a jelenlegi hálózati kapcsolatot?";
+sygate_hint = "A %p Sygate Firewall-t érzékelt, amely a\nbemérési adatot egy rendszertámadásnak\nvéli \"Ping of Death\"-csomagokkal.\n30 mp-en keresztül végezzen el teljes sebességgel történõ fel-, és letöltést.\nA %p ezt bemérési adat küldése nélkül is beméri.";
+select_language = "Nyelv kiválasztása";
+translator = "Fordító";
+translator_name = "";
+translator_msg = "";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "Az Ön %3 licence %1 %2 múlva lejár.";
+
+service_desc = "Beméri a %p nek a várakozási mértéket és az elsõbbségbe helyezett alkalmazásokat";
+no_pings_error = "A %p által küldött ping adatcsomagok nem értek célba. "
+                 "Enélkül a %p Traffic Shaping nem tud rendesen mûködni. "
+                 "Lehet, hogy a tûzfal blokkolja? '%p Service' (spd.exe) "
+                 "számára elengedethetetlen a nethozzáférés.";
+other_languages = "Más nyelven";
+install_dir = "Telepítési útvonal: ";
+ask_clear_tsdata = "Forgalomalakulás adatok törlése és a vonal újrabemérése?";
+allow_traffic_shaping = "Engedélyezi a forgalomalakítási technológiát erre a kapcsolatra";
+none = "Semelyik";
+lic_expired = "A próbaidőszak lejárt. %1 kikapcsol. Vásárolja meg a %1 programot még ma!";
+settings = "Beállítások";
+winsettings = "Ablakbeállítások";
+openwindow = "Ablak megnyitása";
+openwindows = "Ablak megnyitása";
+closewindow = "Ablak bezárása";
+closewindows = "Ablak bezárása";
+autoopen = "Automatikus megnyitás/bezárás";
+taskbaricon = "Megjelenítés a tálcán";
+autoarrange = "Ablakok automatikus elhelyezése";
+effects = "Látvány";
+blend_effect = "Felbukkanó ablak";
+slide_effect = "Ablakok görgetése";
+win_behaviour = "Rendszerbeállítások használata";
+selectskin = "Felület kiválasztása";
+topmost = "Ablak mindig elõtérben";
+defpos = "Alapállapot";
+disco_ras = "Kapcsolat bontása: ";
+config = "Beállítások";
+order = "Megvásárolom most!";
+dayl_singular = "Nap";
+dayl_plural = "Nap";
+days_singular = "Próbanap";
+days_plural = "Próbanap";
+/ %1=number, %2="day/days"
+short_try = "Még %1 %2";
+short_dexpire = "%1 %2 késedelem!";
+
+short_exp = "Lejárt!";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "A %1 próbaidőszak %2 -ja lejárt. Vásárolja meg a %3 programot még ma!";
+lic_try = "A %3 még %1 %2 tesztelheti, mielõtt megvásárolná.";
+
+enable_win = "Engedélyezi az állapotjelzõ ablakot?\n\nA cFos állapotjelzõ ablak kimutatja a jelenlegi kapcsolat állapotát.";
+license = "Licenc";
+licensed_to = "A licenc tulajdonosa %?";
+upgrade = "Programfrissítés letöltése";
+connect_to = "Kapcsolódva";
+make_own_skin = "Saját felület szerkesztése";
+click_through = "átkattinthatóság";
+ask = "rákérdez";
+off = "kikapcsolva";
+on = "bekapcsolva";
+note = "Figyelem";
+deactivated = "kikapcsolva";
+browser_warning = "Az Internet Explorer 8-as vagy magasabb verziója ajánlott ehhez a párbeszédablakhoz!";
+ole_error = "Ehhez a beállításhoz a,\\n%p-nek telepítve kell lennie és futnia kell a rendszeren.\\nKérem futassa a rogramot vagy telepítse újra a %p-et.";
+ts_settings = "Forgalomalakítás Beállításai";
+preferences = "Beállítások";
+prio_protocols = "Forgalomszabályzási Protokol Priorítások";
+protocol = "Protokol";
+protocols = "Protokolok";
+prio_programs = "Programok priorizálása";
+program = "Program";
+programs = "Programok";
+current_connections = "Kapcsolatok";
+current_connections_advanced = "Jelenlegi kapcsolatok (Haladó)";
+current_connections_standard = "Jelenlegi kapcsolatok (Általános)";
+ts_prios = "Forgalomalakítási Priorizálások";
+client_protocols = "Kliens Protokolok";
+server_protocols = "Kiszolgáló Protokolok";
+client_server_protocols = "Ügyfél- és szerver protokollok";
+media_streaming = "Média Streaming";
+file_sharing = "Fájlmegosztás";
+special = "Különleges";
+other = "Egyéb";
+misc_high_short = "Magas Vegyes";
+misc_high = "Magas prioritású, vegyes forgalom";
+hint = "Tipp";
+hint_text = "A priorizálás akkor nyer értelmet amennyiben minél kevesebb adat van magasan priorizálva. A sok feltöltéssel járó programoknak alacsony priotítást érdemes adni. Ne priorizálja azokat a programokat amiknek a protokoljai már a 'Protokolok' listában van. A programok priorizálása csak Windows XP alatt működnek!";
+prio_doc_link = "Hogyan működik a fontossági sorrend";
+save_protocols = "Protokolok Mentése";
+undo = "Visszavonás";
+filter_selection = "Szûrõ kiválasztása";
+higher = "Legmagasabb priorítás";
+high = "Magas priorítás";
+normal = "normál";
+default = "Alapértelmezett";
+low = "Alacsony";
+lower = "Legalacsonyabb";
+entries = "Bejegyzések";
+prog_overwrite = "A #p nevű program már szerepel a listában.\\nFelül szeretné írni az új beállításokkal?";
+games = "Játékok";
+voip = "Voice-over-IP";
+remote_control = "Távirányítás";
+prog_hint_text = "A rangsorolás csak akkor hatékony, ha lehetőség szerint kevés adat magasan rangsorolt. Adjon ezért azon programoknak alacsony besorolást, amelyek sok adatot küldenek.<br />";
+save_priorities = "Priorítások Mentése";
+delete = "Töröl";
+aux_lines = "Segédvonalak";
+higher_prog_help = "Voice-over-IP (VoIP), esetleg játékok";
+high_prog_help = "Játékok, Streaming Média, Telnet és más interaktív programok";
+low_prog_help = "Szerver adat, FTP adat";
+lower_prog_help = "állandó háttérben zajló forgalom, mint például fájlmegosztás";
+delete_help = "Listából törlés (más szóval normál priorítás visszaállítása).";
+prog_help = "Az alacsony priorítású programok csak abban az esetben korlátozódnak le amennyiben egy magasabb priorítású program fut vele párhuzamosan. Egyéb esetben természetesen a legnagyobb sebességet próbálja elérni a %p.";
+filename = "Fájlnév";
+description = "Leírás";
+new_program = "Új program";
+restore_defaults = "Alapértelmezések visszaállítása";
+add = "Hozzáad";
+suggest_program = "Javasold ezt a programot a cFos csapatának";
+l7_prot_detection = "Layer-7 Protokol Detektálás";
+l7_prot_detection_help = " Protokolok detektálása adatok analizása alapján. Használja a 'Protokolok priorizálása' opciót a protokolok priorizálásához. Amennyiben ezt az opciót kikapcsolja, a protokolok a port alapján lesznek detektálva.";
+favor_ping = "Ping javítása";
+favor_ping_help = "<b>Be</b>: a %p a lehető legjobb ping időt próbálja elérni, viszont a sávszélesség enyhe rovására mehet.<br /> <b>Ki</b>: a %p a lehető legnagyobb sávszélességet próbálja elérni, viszont a pings enyhe rovására mehet.";
+favor_bandwidth = "Átviteli sebesség elonyben részesítése";
+avoid_loss = "Csomagvesztés elkerülése";
+avoid_loss_help = "%p lekicsinyíti a TCP-fogadó ablakot, ha a fogadott TCP kapcsolatoknál túl nagy csomagvesztést állapít meg. Ez csak akkor történik meg, ha a kapcsolat teljes sebességgel adatokat fogad.";
+activate_firewall = "Beépített tûzfal használata";
+activate_firewall_help = "Védelem külsõ hálózati behatolások ellen a gyanús csomagok kiszûrésével.";
+mtu_opt = "Automatikus MSS (MTU) optimizálás";
+mtu_opt_help = "Beállítja az MSS/MTU értékeket a legnagyobb átviteli sebesség érdekében. Tipikusan a 1500/1492 értékek alatt érhető el a legjobb eredmény.";
+strict_rtp = "Szigorú RTP Ellenőrzések";
+strict_rtp_help = "Ha aktiválja, a %p csak azokat a packeteket észleli RTP-nek amik érvényes RTCP forrás ID-vel rendelkeznek. Ezt az opciót kapcsolja ki VoIP programoknál(mint pl. VoIPBuster) amik nem küldenek RTCP packeteket.";
+ts_config = "%p forgalomalakítási beállítások";
+dialup_connection = "Telefonos kapcsolat";
+dialup_connections = "Telefonos kapcsolatok";
+traffic_shaping = "Forgalomalakítás";
+ras_con_help = "<b>igen</b>: engedélyez, <b>nem</b>: letilt, <b>rákérdez</b>: rákérdez és utána elmenti a beállításokat";
+router_connections = "Útválasztó kapcsolatok";
+net_components = "Hálózati eszközök";
+auto = "auto";
+router_help = "<b>igen</b>: aktiválás, <b>nem</b>: kikapcsolás, <b>auto</b>: forgalomalakíás engedélyezése, ha router észlelhetõ a hálózati kártyánál";
+network_adapter = "Hálózati kártya";
+router = "Router";
+and_save_settings = "(Beállítások elmentése)";
+border = "Határ";
+budget = "Korlátok";
+budget_settings = "Forgalomkorlátozás";
+budget_title = "Forgalomkorlátozások";
+budgets = "Lehetõségek";
+graph_title = "Használati grafikon";
+hard_limit = "Szigorú korlátozások";
+hard_limit_help_not_set = "Csak egy figyelmeztetõ üzenet jelenik meg, ha elérte a limitet";
+hard_limit_help_set = "Az adatforgalom befejezõdik, ha elérte a limitet";
+last_3_months = "előző 3 hónap";
+last_month = "előző hónap";
+last_12_months = "előző 12 hónap";
+please_select = "kérem válasszon";
+reset_day = "Nap Nullázása";
+reset_day_unit = "a hónap x.napja";
+rxtx_button = "RX/TX kiválasztás";
+save_budgets = "Beállítások mentése";
+show_for = "Megjelenítés";
+this_month = "jelenlegi hónap";
+time = "Idő";
+time_limit = "Időkorlát";
+time_min = "Perc";
+time_units = "h:min";
+volume = "Adatmennyiség";
+volume_limit = "Adatkorlát";
+spdbudget_help = "A forgalomkorlátozás használatához menjen a kapcsolatok menübe és állítsa be a megfelelo kapcsolathoz a korlátozást";
+password_bad = "Hibás jelszó";
+sum_button = "halmozott megjelentés";
+calibrate = "Kapcsolat kalibrálása";
+test_pings = "Teszt-ping küldése";
+open_console = "%p konzol megnyitása";
+variable_bandwidth = "Változó sávszélesség";
+def_bandwidth_help = "Ez az alapértelmezett az új kapcsolatoknál";
+cur_bandwidth_help = "A jelenlegi kapcsolat beállításai";
+no_ports_open = "Nincs kapcsolat nyitva.";
+no_ports_open_help = "Jelenleg nincs kapcsolat nyitva ezzel: %p. "
+   "Az új kapcsolatok beállításainak megváltoztatásához, kattintson a fülre "
+   "\"Új kapcsolatok előbeállításai\". Más kapcsolatok beállításainak megváltoztatása céljából, "
+   "kattintson \"Forgalom ellenőrzés\"-re a bal oldalon.";
+ok = "OK";
+connection_medium = "Kapcsolat";
+connection_type = "Régi forgalomalakítás mód";
+driver_not_loaded = "A driver nincs betöltve!";
+demon_driver_not_loaded = "Driver nincs betöltve!\n"
+   "Esetleg a telepítés megsérűlt.\n"
+   "Kérjük, telepítse újra a %p programot.\n";
+asus_demon_driver_not_loaded = "A %p-t telepítse újra, miután frissítette az operációs rendszerét.\nLátogassa meg az ASUS weboldalát az %w címen, a legújabb %p verzióért.";
+many_cons_error = "A %p rx-forgalomalakítás elérte teljesítőképessége határát, mert jelenleg túl sok az aktív kapcsolat. Amint kevesebb lesz az aktív kapcsolatok száma, a forgalomalakítás hatékonyabban fog működni. Kattintson ide bővebb információkért.";
+limit_bandwidth = "Sávszélesség korlátozása a jelenlegi kapcsolatra";
+rx_limit = "RX korlát";
+tx_limit = "TX korlát";
+apply_limits = "korlátozások alkalmazása";
+limit_help = "Az értékek kbyte/s-ban értendők, ezek lesznek a protokolok felső határai, 0 = nincs korlát.";
+enable_speed_shaping = "Forgalomalakítás engedélyezése";
+disable_speed_shaping = "Forgalomalakítás letiltása";
+yes = "Igen";
+no  = "Nem";
+help = "Súgó";
+bgraph_totals = "Összes";
+blocklist = "IP-blokkoló";
+blocklist_help = "IP-címek, melyekhez minden forgalom blokkolva lesz.";
+apply_blocklist = "Szűrőlista használata";
+search = "Keresés";
+budget_connection = "Kapcsolatokhoz beosztás hozzárendelése";
+reset = "Alapra állítás";
+autohide_on_fullscreen = "Automatikus elrejtés, teljes képernyős programnál";
+slot_selected = "Választott protokollok / programok";
+show = "Megjelenítés";
+hide = "Elrejtés";
+slot_explain = "Ha egy adatcsomagnak ismert protokollja van és ez "
+               "egy Slothoz lett hozzárendelve, akkor a csomagot ehhez a slothoz számítják. "
+               "Ha nem, de a csomag egy kapcsolathoz tartozik, "
+               "melynek programjai egy slothoz lett rendelve, akkor a csomagot "
+               "e Slot-hoz  számítjuk.  Akkor is, ha nem ez a helyzet, a csomagot "
+               "abba a slotba számolják, amelybe az összes más forgalmat "
+               "számítják, ha be van állítva.";
+traffic_analysis_title = "Valós idejű forgalom elemzés";
+other_traffic = "Összes más forgalom";
+traffic_analysis = "Forgalom-elemzés";
+slot = "Slot";
+slots = "Slot-ok";
+slots_title = "Slot beállítások";
+can_select_multiple = "Útmutatás: Ön több opciót kiválaszthat, mialatt a Shift- vagy CTRL-gombot lenyomva tartja, mialatt egy opciót kiválaszt.";
+name_for = "Név ehhez: ";
+set_name = "Név megadása";
+rx_only = "Csak RX";
+tx_only = "Csak TX";
+max_of_rx_tx = "RX & TX maximuma";
+total_rx_only = "Összes RX sebesség";
+total_tx_only = "Összes TX sebesség";
+nettalk_rx = "Net-beszélgetés vételi sebessége";
+nettalk_tx = "Net-beszélgetés adási sebessége ";
+nettalk_max_of_rx_tx = "A Net-beszélgetés maximális vételi és adási sebessége";
+total_max_of_rx_tx = "Összes RX & TX maximuma";
+check_if_other_also = "Aktív: az összes többi forgalmat e Slotba kell számítani";
+performance_help = "A PC-teljesítmény maximumon tartása érdekében, csak az Ön internet-hozzáféréséhez használt kapcsolat 'Igen'-re állítását javasoljuk és az összes többit 'Nem'-re.";
+loading = "Betöltés...";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
+regid = "Nem együttmûködõ";
+regid_help = "Az Ön LAN-ján egy PC van cFos TS nélkül";
+regid_help_long = "Ön a csatlakozást több más PC-vel használja és legalább egyen nincs cFos Traffic Shaping telepítve.";
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+net_talk = "Net-beszélgetés";
+net_talk_help = "Forgalom-statisztika küldése a LAN-on";
+net_talk_help_long = "Statisztikai adatok küldése a forgalomszabályozásról a helyi hálózat másik PC-jére. Ez növeli a forgalomszabályozás pontosságát. Adatküldés nem történik az interneten.";
+net_talk_subheader = "Válasszon, hogy a net-beszélgetés tulajdonság használatba kerüljön-e.";
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+vari_fixed = "Ping-ingadozások testre szabása";
+vari_fixed_help = "Bővített Traffic Shaping használata az ingadozó ping-idők testreszabása érdekében";
+vari_fixed_help_long = "Statisztikai adatok gyűjtése a ping-idők ingadozásáról; ez különösen mobil-, vagy WLAN-kapcsolatoknál hasznos. Javasoljuk az opció bekapcsolva hagyását más esetekben is.";
+
+set = "Megadni";
+tx_limit_help = "Add meg a sebességet bájt/másodperc-ben vagy százalékban, hogy ez a program vagy protokoll mekkora sebességgel tudjon forgalmazni.";
+download_more_skins = "Több felszín letöltése";
+documentation = "Dokumentáció";
+exit_demon = "Kilépés";
+speed_test = "cFos sebességteszt";
+ask_key_banned_info = "Probléma lépett fel az Ön licenckulcsával.\nAkar további információkat?";
+
+adapter_info = "Adapter-infó";
+channel_recommend = "Minimális frekvenciaterhelésű csatornák (legjobbtól a legrosszabbig)";
+channel_explain = "Használhatja a csatornakihasználtságot, a WLAN állomás konfigurálására, de ügyeljen arra, hogy a valódi kihasználtság a többi WLAN hálózat kihasználtságától függ. Ezek egyike lehet nem használt, mások erősen kihasználtak.";
+no_adapters = "Nem áll rendelkezésre adapter-infó.";
+wlan_no_service = "A szolgáltatás nem áll rendelkezésre. Telepítse, vagy indítsa az automatikus WLAN-konfigurációt (WZC)";
+wlan_no_station = "Nics elegendő bázisállomás";
+kaspersky_hint = "Kaspersky Internet Security 2010 problémát okozhat a %p-del együtt. Frissítse a Kaspersky Internet Security 2011-et.";
+
+console_cancel = "Mégse";
+console_freeze = "Befagyaztás";
+console_continue = "Folytatás";
+console_help = "Priorizálni tudja az egyes kapcsolatokat ha a táblán belül rákattint.<br/>Az ideiglenesen priorizált kapcsolatok csillaggal (*) vannak megjelölve.";
+console_prio = "Priorizáld ezt a kapcsolatot";
+console_prio_off = "Priorizálás kikapcsolása";
+console_prio_this = "Csak ezt a kapcsolatot priorizáld átmenetileg";
+console_prio_this_off = "Priorizálás kikapcsolása ehhez a kapcsolathoz";
+console_prio_prot = "Protokoll átmeneti priorizálása";
+console_prio_prot_off = "Átmeneti protokoll priorizálás kikapcsolása";
+console_prio_prog = "Átmeneti program priorizálás";
+console_prio_prog_off = "Átmeneti program priorizálás kikapcsolása";
+console_prio_prog_prot = "Átmeneti program és protokoll priorizálás";
+console_prio_prog_prot_off = "Átmeneti program és protokoll priorizálás kikapcsolása";
+console_prio_prot_perm = "Protokoll priorizálása tartósan";
+console_prio_prog_perm = "Program priorizálás tartósan";
+console_prio_advanced = "Haladó priorizálás";
+
+new_version_available = "Új verzió található";
+update_beta = "Új béta-verzió keresése is";
+update_skip_version = "Nincs további utalás e verzióról:";
+check_new_version_now = "Most új verzió keresése";
+program_updates = "Programfrissítés";
+no_new_version_available = "Nincs új verzió";
+use_logitech = "Logitech G15/G19/G510 kijelző használata";
+detect_logitech = "Logitech kijelző észlelése";
+logitech_help = "Logitech kijelző segítség";
+logitech_keyboards = "Logitech játék billentyűzet";
+keyboard_leds = "Billentyűzet LED-ek";
+keyboard_led_help = "Billentyűzet LED segítség";
+only_on_fullscreen = "Csak teljes ablakban";
+speed_guide = "Sebesség Kalauz";
+lock_position = "Ablak pozíció zárolása";
+check_for_news = "Hírek keresése";
+rwin_expansion = "Automatikus RWIN kiegészítő";
+rwin_expansion_help = "Automatikus TCP letöltési ablak növelése a letöltési sebesség növeléséért, ha a Windows által kiválasztott RWIN túl alacsony.";
+query_auto_open = "Letiltja a státusz ablak automatikus megnyitását és bezárását?\nÚjra engedélyezheti később a helyi menüben.";
+preview_skins = "Felület előnézete";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p, gyors internet forgalomellenőrzés technikával";
+
+/ URLs
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+
+/ wizard
+install_wizard_name = "%? telepítés-varázsló";
+uninstall_wizard_name = "%? Törlés-varázsló";
+brandkey_wizard_name = "%? regisztráció-varázsló";
+config_wizard_name = "%p konfiguráció-varázsló";
+continue_line = "Folytatáshoz kattintson a \"Tovább\", gombra.";
+start_inst = "Kattintson a \"Tovább\" gombra, a telepítés indításához.";
+click_next_further_info = "Kattintson a \"Tovább\"-ra, ha közelebbi információkat akar.";
+wizard_lang_line = "A varázsló nyelve";
+
+/ welcome page
+welcome_line = "Üdvözli a %? v%?!";
+welcome_info = "A varázsló segít a %? v%? telepítésében.";
+welcome_found = "%? v%? telepített verzióját találtam a számítógépén.";
+welcome_found_dir = "%1 v%2 telepített verziója található a %3 mappában.";
+welcome_found_unknown = "%? telepített verziója található.";
+welcome_found_modified = "A %1 v%2 módosított változata vagy hiányos telepítés található a %3 mappában!";
+welcome_update = "Kattintson a \"Tovább\" gombra, a telepített verzió felülírásához.";
+welcome_admin = "Nincs rendszergazdai jogosultsága. Csak rendszergazda joggal rendelkező személy futtathatja a varázslót.";
+welcome_lang_syslink = "<a href=\"%?\">További nyelvek</a>";
+welcome_oem_info = "A(z) %1 az %p OEM-verziója a %2-höz. Ez azt jelenti, hogy a(z) %p tartalmazza a(z) %1 minden tulajdonságát és még másokat is.";
+
+/ uninstall welcome page
+ui_welcome_line = "%? v%? törlése.";
+ui_welcome_info = "Ha a %1 v%2 fájlokat a %3 mappából minden komponenssel együtt törölni akarja, kattintson a \"Tovább\" gombra.";
+
+/ brand key welcome page
+bk_welcome_line = "%? regisztráció.";
+bk_welcome_info = "A varázsló segít Önnek a(z) %? regisztrálásában.";
+bk_welcome_found = "A %? mappában már létezik egy kulcsfájl.";
+bk_welcome_update = "A meglévő kulcsfájl felülírásához kattintson a \"Tovább\" gombra.";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "Licencfeltételek";
+lic_subheader = "A folytatáshoz egyet kell értenie a licencfeltételekkel.";
+lic_info = "Ha elismeri a licencfeltételeket, kattintson az \"Egyetértek\"-re és aztán a \"Tovább\"-ra, vagy a \"Mégse\"-re.";
+lic_agree = "Egyetértek.";
+
+/ restore point dialog
+rp_header = "Visszaállítási pont";
+rp_subheader = "A visszaállítási ponttal visszaállíthatja rendszerének korábbi állapotát.";
+rp_info = "A visszaállítási pont segítségével bármikor visszaállíthatja  rendszerét a program telepítése előtti időpontra. Mielőtt telepítene egy illesztőprogramot, ajánlatos létrehozni egy visszaállítási pontot.";
+rp_check = "Visszaállítási pont létrehozása.";
+/ %1 = product name
+rp_uninst_info = "A rendszervisszaállítás nem a %1 program későbbi eltávolítása céljából történik. Ez csak egy lehetőség arra az esetre, ha a driver nem mûködne megfelelően a telepítés után. A %1 eltávolítása a Startmenü %1 mappájában vagy a Vezérlőpulton a Programok telepítése/törlése pontban végezhető el.";
+
+/ password dialog
+pwd_header = "Jelszó.";
+pwd_subheader = "Minden kulcs egy jelszót igényel.";
+pwd_reg_to = "Jogos felhasználó:";
+pwd_password_info = "A regisztrációs jelszót ebben a formában adja meg: xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "Jelszó:";
+pwd_invalid_password = "Érvénytelen jelszó. Ellenőrizze a beírást.";
+pwd_activate_info = "A kulcs szerveren történő aktiválásához internetkapcsolat kell.";
+pwd_activate_failed = "A kulcs aktiválása sikertelen!";
+pwd_activate_failed_code = "A kulcs aktiválása sikertelen: hibaszám %?.";
+
+/ serial number dialog
+sn_header = "Sorozatszám.";
+sn_subheader = "Add meg a sorozatszámot és aktiváld a kulcsot.";
+sn_info = "Ha Önnek 16 számjegyű jelszava van az alábbi formában xxxx-xxxx-xxxx-xxxx, akkor kérjük "
+   "lépjen ki ebből a párbeszédablakból, majd duplakattintással nyissa meg az aktivációs kulcsát. "
+   "Ekkor egy képernyő fog megjelenni, ahol megadhatja a jelszavát.\n\n"
+   "Ha 30 számjegyű sorozatszáma van xxxx-xxxx-xxxx-xxxx, akkor kérjük "
+   "adja meg most itt és érvényesítse az aktivációs kulcsát.\n\n";
+sn_serial_number = "Sorozatszám:";
+sn_invalid_serial_number = "Érvénytelen sorozatszám. Ellenőrizze a beírt adatokat majd próbálja újra.";
+/ the %? will be replaced by the error number:
+sn_download_err = "Hiba %?, a kulcsfájl letöltése közben a szerverünkről.";
+sn_save_err = "A kulcsfájl nem sikerült menteni a háttértárra %?.";
+sn_keyfile_err = "A kulcsfájl sérült.";
+
+/ re-enter password dialog
+repwd_header = "%? Jelszó.";
+repwd_subheader = "Újból be kell írni a regisztrációs jelszót.";
+repwd_reg_to = "A rendszerbeállítások változása miatt újból be kell adnia a %p-regisztráció jelszavát: ";
+
+/ installation directory dialog
+instdir_header = "Telepítő-mappa";
+instdir_subheader = "A telepítő-mappa megadja, hogy a fájlok másolása hová történjen a merevlemezen.";
+instdir_info = "Válasszon telepítő-mappát.";
+instdir_change = "Változtatás";
+instdir_src_dst = "A forrás- és célmappa nem lehet azonos!";
+instdir_space = "A telepítéshez %? bájt szabad helyre van szükség a merevlemezen. A választott mappában viszont csak %? bájt szabad hely van.";
+instdir_drivetype = "A választott meghajtó érvénytelen. %? telepítése csak nem eltávolítható adathordozóra lehetséges.";
+instdir_system = "A telepítő mappának a(z) '%?' rendszermeghajtón kell lennie.";
+instdir_system_recommended = "Sürgősen javasolt a telepítő-mappát a %? rendszermeghajtóra választani. ('Kattintson a 'Továbbra', ha mégis folytatja.)";
+
+/ tcp settings dialog
+tcp_header = "TCP fogadás ablakméretének megváltoztatása.";
+tcp_subheader = "A TCP (Transmission Control Protocol) fogadás ablakméretét az optimális adatforgalom érdekében meg kellene változtatni.";
+tcp_info = "A TCP fogadás a bejövő adatforgalomért felelős. Ez el van mentve a Windows regisztrációs fájljában, de még nincs optimalizálva.\n\nAjánlott a jobb adatforgalom érdekében ennek beállítása engedélyezése. (A változás csak a rendszer újraindítása után lép érvénybe.)";
+tcp_check = "TCP fogadás ablakméretének optimalizálása. (Ajánlott)";
+
+/ hang up online connection dialog
+hangup_header = "Online kapcsolat";
+hangup_subheader = "Bontani kell az online internet kapcsolatot.";
+hangup_online = "Online internet kapcsolat:";
+hangup_offline = "A kapcsolat bontva.";
+hangup_info = "Bontani kell a kapcsolatot, ha folytatja a varázslóval.\n\nKattintson a \"Bontás\" gombra, ha bontani szeretné most a kapcsolatot.";
+hangup_disco = "Bontás";
+
+/ usage statistics
+usage_stats = "Használati statisztikák";
+usage_stats_subheader = "Válasszon, hogy a %p hogyan kezelje a használati statisztikákat.";
+usage_stats_chk = "Névtelen használati statisztikák küldése a cFos-nak, hogy továbbfejlesszék a termék teljesítményét.";
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "Automatikus port továbbítás használata, ha elérhető.";
+port_forwarding_failed = "Úgy tűnik, hogy a %? routere nem támogatja az automatikus port továbbítást. "
+                         "Lehetséges, hogy aktiválni tudja ezt a funkciót a routerében a beállításoknál.";
+port_forwarding_config = "A routerét beállíthatja a %? címen.";
+port_forwarding_fritz = "Aktiválhatja a port továbbítást a FRITZ!Box-nál, ha megváltoztatja a biztonsági beállításokat UPnP-n keresztül "
+                        "az \"Otthoni hálózat / Hálózat / Programok\" menüpont alatt.";
+
+/ crash handler messages
+crash_msg_crash = "Egy kezeletlen programhiba történt: %p.";
+crash_msg_crash_installer = "Egy kezeletlen programhiba történt a %p telepítő programban.";
+crash_msg_virus = "A következő modul ágyazta be magát ebbe a programba és lehet, hogy emiatt omlott össze a program:";
+crash_msg_virus_clean = "Ez a modul lehet, hogy vírus. Erősen ajánlott, hogy futtasson víruskeresést a számítógépén!";
+crash_msg_hook = "Más szoftver modulja lett érzékelve, ami beágyazta magát ebbe a programba. Bizonyosodjon meg róla, hogy nem ezek a modulok okozzák az összeomlást, majd futtassa újra ezt programot miután letiltotta vagy letörölte az alábbi programo(ka)t:";
+crash_msg_terminate = "A program most befejeződik.";
+crash_msg_query_upload = "Szeretné elküldeni az összeomlás adatait a cFos-nak, amely segíthet meghatározni a hibát?";
+
+/start installation dialog
+start_header = "Telepítés";
+start_subheader = "Telepítés indítása.";
+start_installation = "Telepítés indítása most.";
+
+/ progress dialog
+progress_inst_header = "Telepítés";
+progress_inst_subheader = "A telepítés folyamatban.";
+progress_inst_wait = "Várjon, amíg befejeződik a telepítés.";
+progress_uninst_header = "Eltávolítás";
+progress_uninst_subheader = "Eltávolítás folyamatban.";
+progress_uninst_wait = "Várjon, amíg az eltávolítás befejeződik.";
+progress_driver_wait = "Türelmét kérem. A rendszer telepíti/törli a meghajtót és ez percekig is eltarthat.";
+
+/ confirm delete dialog
+conf_del_header = "Konfiguráció-adatok törlése";
+conf_del_subheader = "Engedélyeznie kell a beállítási,- és egyéb fájlok törlését, személyes információkkal.";
+conf_del_info = "Az alábbi konfigurációs fájlok és mappák lettek létrehozva a %p-al, amik még nem lettek elávolítva:";
+conf_del_column = "Fájlnév";
+conf_del_query = "Ha e fájlokat is törölni akarja, válassza ki a törlendő elemeket a pipa betételével. Utána kattintson a \"Tovább\" gombra.";
+
+/ finish page
+finish_head_ok = "Telepítés sikeres.";
+finish_info_ok = "%? sikeresen telepítve a számítógépére.";
+finish_head_fail = "Telepítés sikertelen.";
+finish_info_fail = "A sikertelen telepítés oka:";
+finish_reboot = "Újra kell indítani a rendszert. Kattintson az \"Elkészítés\" gombra, ha most szeretné újraindítani vagy a \"Mégse\" gombra, a későbbi újraindításhoz.";
+finish_uninst_driver_reboot = "A használatban lévő driver-ek csak újraindítás után lehet letörölni. "
+                             "Ezért, kérjük indítsa újra számítógépét, majd futtassa a telepítő programot ismét.";
+finish_link_ok = "<a href=\"%?\"> %?!</a> előnyei";
+finish_file_fail = "Bővebb információt a(z) %s naplófájlban talál.";
+finish_file_link_fail = "Bővebb információt a <a href=\"file://%s\">naplófájl</a> ad.";
+finish_cfosts_disabled = "A forgalom-szabályozás ki van kapcsolva a cFos-ban, mivel a(z) %p ezt már támogatja. (Ezt ismét bekapcsolhatja a cFos konfiguráció-menüben.)";
+finish_cfosts_enabled = "A forgalom-szabályozás be van kapcsolva.";
+finish_link_checkbox = "Mutasd a legújabb %p funkciókat";
+
+/ uninstall finish page
+ui_finish_head_ok = "Sikeres eltávolítás.";
+ui_finish_info_ok = "%? eltávolítása a számítógépéről sikeresen befejeződött.";
+ui_finish_head_fail = "Sikertelen eltávolítás.";
+ui_finish_info_fail = "%? eltávolítása a számítógépről a következő okból nem sikerült:";
+ui_finish_not_removed = "A következő adatok csak a rendszer újraindítása után törlődnek: ";
+
+/ brandkey finish page
+bk_finish_head_ok = "Sikeres regisztráció.";
+bk_finish_info_ok = "%? e névre regisztrálva:";
+bk_finish_head_fail = "Sikertelen regisztráció.";
+bk_finish_info_fail = "A regisztráció a következő okokból nem sikerült:";
+
+/ progress tasks
+task_register_email = "Regisztrált e-mail-cím...";
+task_restore_point = "Visszaállítási pont létrehozása...";
+task_copy = "Fájlok másolása...";
+task_desktop_link = "Parancsikon létrehozása...";
+task_program_group = "Programcsoport létrehozása...";
+task_registry = "Végezzen beírásokat a regisztrybe...";
+task_driver = "Meghajtó telepítése...";
+task_daemon = "%? futtatása...";
+task_uninstall_old = "Meglévő verzió törlése...";
+task_stop_daemon = "%? befejezése...";
+task_uninstall_driver = "Illesztőprogram törlése...";
+task_delete_files = "Fájlok törlése...";
+task_cleanup_caches = "Gyorsítótár törlése...";
+task_hangup = "Elő internetkapcsolat bontása...";
+task_flush_registry = "Regisztrációs fájl mentése...";
+task_cancel = "Művelet megszakítása...";
+task_canceled = "Művelet megszakadt!";
+
+/ connectivity test progress tasks
+task_start_program = "%p indítása...";
+task_test_localhost = "Localhost tesztelése...";
+task_test_local_ip = "Helyi IP cím tesztelése...";
+task_test_public_ip = "Nyílvános IP cím tesztelése...";
+task_test_finished = "A teszt befejeződött.";
+
+/ program group
+speed_pg_name = "%p forgalomellenőrzés";
+pg_uninstall = "%? eltávolítása";
+pg_www = "www.cfos.de";
+pg_console = "%p konzol";
+pg_start = "%p állapot ablak indítása";
+pg_menu = "%?-menü";
+pg_add_connection = "Kapcsolat hozzáadása";
+pg_enter_serial_number = "Sorozatszám megadása";
+pg_configure = "%p beállítása";
+
+/ desktop symbol
+dt_advertise = "%? tulajdonságok";
+dt_advertise_desc = "Kilistáz minden %? tulajdonságot.";
+
+/ message boxes
+query_reboot = "A változások érvénybe lépéséhez,\nindítsa újra a rendszert.\n\nÚjraindítja most?";
+query_drv_inst_cancel = "A meghajtót a rendszer telepíti/törli.\nEz a folyamat 15 percig is eltarthat!\n\nHa ennyi idő még nem telt el, ajánlott,\nhogy ne szakítsa félbe a folyamatot.\n\nValóban megszakítja?";
+query_driver_err_abort = "Hiba történt a meghajtó telepítése közben!\nAjánlott a telepítés leállítása.\n\nA telepítés tesztcélból folytatható.\n A(z) %p nem biztos, hogy rendesen fog működni.\n\nLeállítja a telepítést? (ajánlott)";
+query_further_info = "Akar további információkat?";
+
+/ error messages
+err_driver_inst = "A meghajtót nem lehetett telepíteni.";
+err_daemon_start = "%? indítása sikertelen volt.";
+err_uninst_old = "A meglévõ verzió eltávolítása sikertelen. Indítsa újra a rendszert, majd próbálja újra.";
+err_os = "Az ön operációs rendszere %?.\n\n%? a futtatáshoz Windows 2000/XP vagy újabb szükséges.";
+err_os_minxp = "Az ön operációs rendszere %?.\n\n%? futtatásához Windows XP vagy újabb szükséges.";
+err_os_sup = "%p hivatalosan csak a %? vagy magasabb verziót támogatja.\n\n"
+             "Lehetséges, de általunk nincs tesztelve, hogy a %p elfut-e az ön %? operációs rendszerén.\n\n"
+             "Biztos szeretné folytatni a telepítést?";
+err_uninst_driver = "Az eszközmeghajtó eltávolítása sikertelen.";
+err_create_process = "A(z) %s programot nem lehetett behívni: %s";
+err_write_lock = "A(z) %? hálózati összetevőit egy másik folyamat használja. Fejezzen be minden más programot, vagy indítsa újra a rendszert.";
+err_file_auth = "E disztribúció néhány fájlja hiányzik, vagy sérült.\nSzerezzen be hiteles %p disztribúciót\n(pl. innen: www.cfos.de).";
+err_cancel = "A művelet megszakadt.";
+err_no32 = "Nem lehet 32-bites meghajtót 64-bites rendszerre telepíteni.\n\nOP.rendszer: %?\nTermék: %?";
+err_bad_keyfile = "A kulcsfájl hibás vagy érvénytelen. Lépjen kapcsolatba velünk egy működő kulcsfájlért.";
+err_bad_setup = "Úgy tűnik, hogy a %p hibásan települt vagy néhány fájl megváltozott. Töltse le a(z) a %p programot majd telepítse újból.";
+err_bad_signature = "A jelszó hibás vagy egy másik kulcsfájlhoz való. Adja meg a kulcsfájlhoz tartózó helyes jelszót.";
+err_gdiplus =
+  "A GDI+ könyvtár nem található!\n\n"
+  "A telepítés csak akkor folytatható, ha a GDI+ könyvtár telepítve van.\n"
+  "Ez letölthető a Microsoft-tól az SDK platform keretében.\n"
+  "A telepítőfájl letöltése után indítsa\n"
+  "ezt és csomagolja ki a benne lévő fájlokat egy az Ön által választott\n"
+  "<célmappába>. Ezt követően másoljon minden gdiplus.*-fájlt az\n"
+  "<célmappa>\\asms\\10\\msft\\windows\\gdiplus mappából a Windows\\system32.\n"
+  "mappába.\n\n"
+  "Kattintson az 'OK'-ra, hogy megnyíljon a Microsoft\n"
+  "letöltés-oldala.\n"
+  "Kattintson a 'Mégse'-re, ha megszakítja a telepítést.";
+err_winhttp = "A WinHTTP könyvtár nem található!\n\nA telepítés csak akkor folytatható, ha a WinHTTP-könyvtár telepítve van.\nA WinHTTP-könyvtár az op.rendszer része, de nem lehetett\nbetölteni.";
+bad_manufacturer = "A telepítés nem kezdődhet, mert a termék csak meghatározott hardverhez engedélyezett!";
+cannot_install = "A telepítés nem lehetséges";
+err_uninst_daemon = "A Daemon nem telepíthető. Zárjon be minden megnyitott %p-párbeszédablakot, vagy indítsa újra a PC-t.";
+err_activate_10045 = "Aktiváláskor 10045 HTTP-hiba történt.\nEnnek oka az lehet, hogy a Winsock-ot\nalapra kell állítani. Nyissa meg ehhez a beírás-\nfelszólítást és írja be a 'netsh winsock reset' kifejezést.\nEz után indítsa újra a PC-t és végezze el\nismét az aktiválást.";
+err_activate_12002 = "Regisztráláskor az 12002 HTTP-hiba történt.\n(csatlakozás-kérelemnél időtúllépés).\nEnnek oka az lehet, hogy a regisztráláshoz szükséges\nszerver-csatlakozást blokkolja\na tűzfal, egy antivírus-prg.- vagy valami más\nbiztonsági program.\nKapcsolja ki ezt átmenetileg és\nvégezze el ismét a regisztrálást.";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "A(z) %1 fájlt nem lehetett a(z) %2-re másolni (%3).";
+err_port_in_use = "A szerver %? portját jelenleg egy másik program használja.\n\nProgram: %?\nElérési út: %?";
+
+/ warning messages
+wrn_oem_update = "Ön már telepített egy licenccel rendelkező %p-t.\n\nÖn épp egy normál Shareware verziót akar telepíteni.\nHa folytatja a telepítést, a licenc nem vehető át e verzióhoz.\nA licenccel rendelkező %p-hez frissítés\nérhető el ugyanazon a helyen, ahol az engedélyezett verziót megvette.\n\nMégis folytatja a telepítést?";
+wrn_close_application = "Az alábbi programokat ajánlott bezárni, mielőtt folytatná:";
+
+/ traffic shaping algorithm
+tsa_header = "Forgalomellenőrzés módja (Többfelhasználós verzió)";
+tsa_subheader = "A forgalomellenőrzés algoritmusa alapmagatartásának kiválasztása.";
+tsa_info = "Válassza ki a forgalomellenőrzés algoritmusának alapértelmezett magatartásátmódját. (Ez a beállítás később külön-külön állítható minden kapcsolatra.)";
+
+/ vista warning
+vista_header = "Telepítési útmutatás";
+vista_subheader = "Útmutatás a Vista-ra történő telepítéshez.";
+vista_warn_info = "A %p digitálisan alá van írva a GlobalSign cég által, melyet a Microsoft licencel. De a cFos Software GmbH szoftverei nem mentek át a Microsoft  WHQL  ellenőrzésén. Ezért a telepítés közben egy párbeszédablak jelenik meg. Vista alatt az jelenik meg, hogy a meghajtó nem ment át az ellenőrzésen.\n\nHa megjelenik ez az üzenet, kattintson a \"Telepítés folytatása\" gombra.";
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+dun_wizard_name = "%p kapcsolat-varázsló";
+connections = "Kapcsolatok";
+dun_subheader = "Egy kapcsolat beállítása";
+dun_with_bc = " cFos Broadband Connect-vel";
+dun_reenter_password = "Adja meg újból";
+dun_list_tonline = "Új T-Online-kapcsolat";
+dun_new_connection = "Új kapcsolat beállítása";
+dun_err_no_device = "Nem található %p-eszköz. (A PC. újraindítása után az eszköznek rendelkezésre kell állnia.)";
+
+/ e-mail registration dialog
+eml_header = "E-mail regisztrálás";
+eml_subheader = "Regisztrálja e-mail címét a cFos-nál.";
+eml_info = "Regisztrálja e-mail címét a cFos-nál, hogy az üzenetelosztónk felvehesse Önt és tájékoztathassa, ha új %p-verzió jelenik meg.";
+eml_info_optional = "Ha regisztrálja e-mail címét a cFos-nál, felveheti üzenetelosztónk Önt és tájékoztatni fogja, ha új %p-verzió jelenik meg. Ha nem akar tájékoztatást, hagyja üresen a mezőt.";
+eml_email = "Az Ön e-mail címe:";
+eml_invalid_email = "A megadott e-mail cím érvénytelen.";
+eml_invalid_optional_email = "Vagy érvényes e-mail címet adjon meg, vagy hagyja üresen a mezőt.";
+eml_reg_failed = "Az e-mail-regisztrálás sikertelen.";
+eml_checking_domain = "Az e-mail Domain ellenőrzése...";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
+cfos_orderurl = "https://www.cfos.de/hu/order/cfos-professional-n.htm";
+budget_file = "budget_e.cfhta";
+report_tpl = "report_e.tpl";
+invkey = "invkey_e.htm";
+aoltec = "techinfo\\aoltec_e.htm";
+cfos_htm = "techinfo\\cfos_e.htm";
+techinfo_htm = "techinfo\\techinfo_e.htm";
+dsldevice_help = "techinfo\\dsldev_e.htm";
+features_htm = "techinfo\\features_e.htm";
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+order_oem = "Professional verzió megvásárlása most!";
+cfos_endsoon = "A próbaidőszak hamarosan lejár.\nVásárolja meg a %p Professional verzióját most!\n %p megrendelő oldal meglátogatása\n\nhttps://www.cfos.de/hu/order/order.htm\n";
+cfos_expired = "A %p próbaverzió lejárt.\nVárásolja meg a %p/Professional verzióját most!\n %p megrendelő oldal meglátogatása\n\nhttps://www.cfos.de/hu/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-228-7669827.";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+group_order_inet = "Advanced %p megvásárlás";
+group_wwwcfos = "www.cfos.de";
+group_hypertrm = "Internet Hyperterminal";
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+

@@ -1,0 +1,675 @@
+#language 1043
+#fallback 1033
+#charset 0
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Nederlands";
+language_local = "Nederlands";
+htm_lang_prefix = "nl";
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
+bc_orderurl = "https://www.cfos.de/nl/order/broadband-connect-n.htm";
+bc_desc = "%p, High-Performance Dial-Up Driver";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/nl/order/cfos-ipv6-link-n.htm";
+sixlink_desc = "%p, High-speed IPv6 dial-up driver";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/nl/order/cfos-personal-net-n.htm";
+renew_params = "Parameters vernieuwen";
+dlg_dun_auto = "Automatisch verbinden";
+dlg_dun_default = "Standaard verbinding";
+dlg_dun_cons = "Verbindings profielen";
+dlg_dun_name = "Verbindingds naam:";
+dlg_dun_uname = "Gebruikers naam:";
+dlg_dun_pwd = "Wachtwoord:";
+dlg_dun_use_ipv4 = "Gebruik IPv4";
+dlg_dun_use_ipv6 = "Gebruik IPv6";
+dun_connect_to = "Verbinden met %?";
+dun_err_already_exists = "De inbelverbiding bestaat al.";
+disconnect = "Connectie Verbreken.";
+setup_connections = "Zet verbindingen op";
+ask_inst_ipv6 = "Het IPv6 protocol is not niet geïnstalleerd op het systeem..\n\n"
+                "Wilt u het IPv6 protocol nu installeren?";
+err_inst_ipv6 = "Fout %? tijdens het installeren van het IPv6 protocol.";
+
+/ connection entry dialog
+con_err_save = "Kan verbindings data niet opslaan!";
+con_ipv4 = "IPv4";
+con_ipv6 = "IPv6";
+con_private_address = "Privé Adres:";
+con_prefix = "Voorvoegsel:";
+con_dns1 = "DNS1:";
+con_dns2 = "DNS2:";
+con_enabled = "ingeschakeld";
+
+/ pnet configuration dialog
+pnet_header = "Algemene instellingen";
+pnet_subheader = "Algemene instellingen configureren.";
+smtp_header = "SMTP Server";
+smtp_subheader = "De SMTP servers configureren.";
+dynip_header = "Dynamic IP Server";
+dynip_subheader = "De dynamic IP server configureren";
+dlg_autostart = "Start %p wanneer Windows start";
+dlg_register_shell_extension = "Registreer verkennermenu";
+dlg_server_port = "Server Poort:";
+dlg_server_name = "Server Naam:";
+dlg_server = "Server:";
+dlg_renew_interval = "Verversing interval (ms):";
+dlg_redirect_delay = "Redirection vertraging (ms):";
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
+speed_orderurl = "https://www.cfos.de/nl/order/cfosspeed-n.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
+
+component_mismatch = "Er is een versie conflict tussen onderdelen van dit programma. Installeer de meest recente versie.";
+trayicon_tip = "Sneller internet door verkeersregeling, www.cfos.de";
+speed_endsoon = "Je probeerperiode gaat binnenkort verlopen! Alstublieft koop %1 vandaag!";
+order_info = "Koop nu:\nInternet: www.cfos.de\nDoor te bellen:  +49-228-7669826";
+badkey = "Er is een probleem met de Licentie sleutel.\nInstalleer de sleutel opnieuw door te dubbelklikken op het \noriginele bestand, dat je via de mail of op diskette hebt ontvangen.";
+no_setup = "Onmogelijk om de opzet uit te voeren. (setup.exe).";
+ask_disconnect_ras = "Een huidig gebruikte netwerkverbingding wordt opnieuw ingesteld.\nHet wordt aanbevolen om de verbinding te verbreken voordat je verder gaat.\nDe huidige netwerkverbinding verbreken?";
+sygate_hint = "%p heeft de Sygate Firewall ontdekt, Wat het \n%p calibratie signaal aanziet als een Denial of Service aanval met \n\"Ping-of-Death\" pakketten.\nDaarom zou je een download en dan een upload met volledige \nsnelheid voor ongeveer 30 secondes moeten uitvoeren. Dit zou \n%p moeten calibreren zoals het calibratie signaal dat doet.";
+select_language = "Kies de taal";
+translator = "Vertaald door";
+translator_name = "Peter Plate";
+translator_msg = "Omdat dit programma zo'n goede dienst doet,\nheb ik besloten om het even te vertalen in het Nederlands,\nonze moerstaal. Hopelijk vinden jullie het wat.";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "Je %3 Licentie verloop over %1 %2.";
+
+service_desc = "Voert wachtmetingen en voorrangs metingen uit voor %p";
+no_pings_error = "De ping pakketen die door %p verzonden worden komen niet aan. Zonder deze kan %p Verkeersregeling niet goed functioneren. Er is misschien een vuurmuur (firewall) die deze tegenhoudt?";
+other_languages = "Andere talen";
+install_dir = "Installatie map : ";
+ask_clear_tsdata = "Wis verkeersregelingsdata en start een nieuwe lijncalibratie";
+allow_traffic_shaping = "Verkeersregeling voor deze verbinding toestaan";
+none = "geen";
+lic_expired = "Je probeerperiode is verlopen. %1 is nu gedeactiveerd. Koop %1 vandaag!";
+settings = "Opties";
+winsettings = "Vensterinstellingen";
+openwindow = "Venster openen";
+openwindows = "Vensters openen";
+closewindow = "Sluit venster";
+closewindows = "Sluit vensters";
+autoopen = "Automatisch openen / verbergen";
+taskbaricon = "Taakbalk pictogram";
+autoarrange = "Vensters Automatisch schikken";
+effects = "Effecten";
+blend_effect = "Vensters laten vervagen";
+slide_effect = "Schuif vensters";
+win_behaviour = "Gebruik de instellingen van het systeem";
+selectskin = "Kies het uiterlijk";
+topmost = "Altijd bovenop";
+defpos = "Uitgangs positie";
+disco_ras = "Afmelden ";
+config = "Opties";
+order = "Koop nu!";
+dayl_singular = "dag";
+dayl_plural = "dagen";
+days_singular = "dag";
+days_plural = "dagen";
+/ %1=number, %2="day/days"
+short_try = "Probeer nog %1 %2";
+short_dexpire = "%1 %2 Verlopen";
+
+short_exp = "Verlopen!";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "Uw evaluatie periode is al %1 %2 verlopen. Koop %3 vandaag!";
+lic_try = "Je mag %3 nog voor %1 %2 proberen voordat je het kopen moet.";
+
+enable_win = "Status venster laten zien?\n\ncFos status venster laat de status zien van je actieve verbinding.";
+license = "Licentie ";
+licensed_to = "Licentie op naam van %?";
+upgrade = "Haal een nieuwe versie op";
+connect_to = "Verbinden met";
+make_own_skin = "Ontwerp je eigen uiterlijk";
+click_through = "Verder-klikken";
+ask = "Vraag";
+off = "Uit";
+on = "Aan";
+note = "Opmerking";
+deactivated = "uitgeschakeld";
+ole_error = "Om gebruik te kunnen maken van deze configuratie dialoog,\\nmoet %p geinstalleerd en ingeschakeld zijn op deze PC.\\nControleer dit en indien nodig, installeer opnieuw.";
+ts_settings = "Instellingen voor verkeers regeling";
+preferences = "Instellingen";
+prio_protocols = "Prioriteit geven aan protocollen";
+protocol = "Protocol";
+protocols = "Protocollen";
+prio_programs = "Prioriteit geven aan programma\\'s";
+program = "Programma";
+programs = "Programma's";
+current_connections = "Huidige verbindingen";
+ts_prios = "Prioriteiten bij verkeersregeling";
+client_protocols = "Ciënt protocollen";
+server_protocols = "Server Protocollen";
+media_streaming = "Media Streaming";
+file_sharing = "Bestand Delen";
+special = "Speciaal";
+other = "Andere";
+hint = "Hint";
+hint_text = "Prioriteiten stellen werkt alleen goed indien zo weinig mogelijk data aangemerkt wordt als hoge prioriteit. Geef programma's die veel data uitzenden een lage prioriteit. Protocol prioriteiten stellen wordt gedaan voor prioritatie van programma's.";
+save_protocols = "Protocollen opslaan";
+undo = "Ongedaan maken";
+filter_selection = "Filter op selectie";
+higher = "Hoger";
+high = "Hoog";
+normal = "Normaal";
+low = "Laag";
+lower = "Lager";
+entries = "Invoeringen";
+prog_overwrite = "Het programma #p staat al op de lijst.\\nDe invoer overschrijven met de  nieuwe waardes?";
+games = "Spellen";
+voip = "Spraak-via-IP";
+remote_control = "Beheer op afstand";
+prog_hint_text = "Prioriteiten werken alleen goed indien er zo weinig mogelijk data de hoge prioriteit heeft. Geef programma's die veel data uitzenden een lage prioriteit.<br />";
+save_priorities = "Prioriteiten opslaan";
+delete = "Verwijder";
+aux_lines = "Externe lijnen";
+higher_prog_help = "Spraak-over-IP, misschien spellen";
+high_prog_help = "Spellen, Gespoelde Media, Telnet en andere interactive programma's";
+low_prog_help = "Server data, FTP data";
+lower_prog_help = "Continue verkeer op de achtergrond, zoals bij bestanden delen. (p2p)";
+delete_help = "Van lijst verwijderen (voorbeeld , pakketten normaal afhandelen).";
+prog_help = "Verkeer met de laag(ste) prioriteit van pakketten word alleen afgeremd indien er data met hogere prioriteit tegelijkertijd wordt aangeboden. Anders wordt de laag(ste) prioriteit pakketten , zoals logisch is , met de maximum snelheid verzonden.";
+filename = "Bestandsnaam";
+description = "Omschrijving";
+new_program = "Nieuw programma";
+add = "Toevoegen";
+l7_prot_detection = "Laag-7 Protocol Opmerken";
+l7_prot_detection_help = "Protocollen detecteren door de data te analizeren. Gebruik de dialoog 'Prioriteiten geven aan protocollen' om de verschillende protocollen in te stellen. Indien je deze optie uitschakeld worden protocollen opgemerkt door de poort die ze gebruiken.";
+favor_ping = "Ping Tijden voortrekken";
+favor_ping_help = "<b>Aan</b>: %p zal, indien nodig, ping tijden minimalizeren ten koste van een minimale bandbreedte verlies.<br /><b>Uit</b>: %p zal, indien nodig, de bandbreedte maximalizeren ten koste van minimaal hogere ping tijden.";
+activate_firewall = "Activeer Vuurmuur (Firewall)";
+activate_firewall_help = "Beveiliging tegen netwerk inbraken door het filteren van gevaarlijke pakketten , status inspectie en onzichtbaar modus.";
+mtu_opt = "Automatische MSS (MTU) optimalizatie.";
+mtu_opt_help = "Stel MSS/MTU in voor maximale overdrachts snelheid. Normaliter waardes net onder 1500/1492 geven je meer snelheid.";
+strict_rtp = "Beperk RTP controles";
+strict_rtp_help = "Indien geactiveerd zal %p alleen de pakketten als RTP aanmerken  die een geldig RTCP bron ID hebben. Advies is om deze optie uit te schakelen voor Spraak-over-ip programma's (zoals VoIPBuster) die geen RTCP pakketten zenden.";
+ts_config = "%p Verkeers regeling configuratie";
+dialup_connection = "Inbel verbinding";
+dialup_connections = "Inbel verbindigen";
+traffic_shaping = "Verkeers Regeling";
+ras_con_help = "<b>Ja</b>: activeer, <b>Nee</b>: deactiveer, <b>Vraag</b>: vraag een keer en sla dan de instellingen op";
+router_connections = "Router Verbindingen";
+net_components = "Netwerk Componenten";
+auto = "Automatisch";
+router_help = "<b>Ja</b>: activeer, <b>Nee</b>: deactiveer, <b>auto</b>: Activeer Verkeers regeling indie er een router gevonden word op dit netwerk component";
+network_adapter = "Netwerk Adapter";
+router = "Router";
+and_save_settings = "en sla de instellingen op";
+border = "Grens";
+budget = "Budget";
+budget_settings = "Budget instellingen";
+budget_title = "%p Online Budgetten";
+budgets = "Online Budgetten";
+graph_title = "Verbruik grafiek";
+hard_limit = "Harde<br>Limieten";
+hard_limit_help_not_set = "Een opgebruikt budget zal alleen in het status dialoog worden weergegeven.";
+hard_limit_help_set = "Pakketten vallen weg indien het budget opgebruikt is.";
+last_3_months = "Laaste 3 maanden";
+last_month = "Afgelopen maand";
+last_12_months = "Laatste 12 maanden";
+please_select = "Kies nu";
+reset_day = "Dag terugstellen";
+reset_day_unit = "Dag van de maand";
+rxtx_button = "RX/TX keuze";
+save_budgets = "Budgetten opslaan";
+show_for = "Laat zien voor";
+this_month = "deze maand";
+time = "Tiid";
+time_limit = "Tijd Limiet";
+time_units = "uur:min";
+volume = "Volume";
+volume_limit = "Volume limiet";
+spdbudget_help = "Om een budget in te stellen ga naar 'de Verbindingen' dialoog en wijs het aan een bepaalde verbinding toe.";
+password_bad = "Fout wachtwoord";
+favor_bandwidth = "Bandbreedte voortrekken";
+sum_button = "cumultatief";
+calibrate = "Lijn calibreren";
+variable_bandwidth = "Variabele Bandbreedte";
+def_bandwidth_help = "Standaard voor <b>nieuwe</b> verbidingen";
+ok = "OK";
+connection_medium = "Gemiddeld";
+connection_type = "Verkeers Modellerings modus";
+driver_not_loaded = "Stuurprogramma niet geladen!";
+many_cons_error = "%p verkeers Modellering van versturen is tot het maximum opgedreven, doordat er te veel verbidingen zijn. Het zal waarschijnlijk beter presteren met minder verbindingen. Klik hier voor hulp.";
+limit_bandwidth = "Beperk bandbreedte voor huidige verbinding";
+rx_limit = "Ontvangst Limiet";
+tx_limit = "Verstuur Limiet";
+max = "Maximum";
+apply_limits = "Limieten toepassen";
+limit_help = "Waarde in kbyte/s, inclusief de protocol overloop, 0 = geen limiet.";
+enable_speed_shaping = "Verkeersregeling inschakelen";
+disable_speed_shaping = "Verkeersregeling uitschakelen";
+yes = "Ja";
+no = "Nee";
+help = "Hulp";
+bgraph_totals = "Totaal";
+blocklist = "IP-Blokkeerder";
+blocklist_help = "Lijst met IP adressen waarvoor al het verkeer geblokkeerd is.";
+apply_blocklist = "Gebruik filterlijst";
+search = "Zoek";
+budget_connection = "Configureer welk budget voor welke verbinding gebruikt wordt";
+reset = "Reset";
+autohide_on_fullscreen = "Automatisch verbergen bij volledig scherm";
+slot_selected = "Geselecteerde protocolen / programma's";
+show = "Laten zien";
+hide = "Verbergen";
+slot_explain = "Als een datapakket een bekend protocol heeft en dat protocol is "
+               "toegewezen aan een 'slot' dan wordt het verkeer van dat pakket tot die 'slot' gerekend. "
+               "Indien het pakket behoort tot een verbinding van een programmanaam "
+               "die toegewezen is tot een 'slot', dan wordt het verkeer gerekend voor dat "
+               "'slot'.  Als dat ook niet het geval is, dan wordt het verkeer gerekend tot de "
+               "'slot' waar al het andere verkeer toe gerekend is, als dit zo ingesteld is.";
+traffic_analysis_title = "Real-Time verkeersanalyse";
+other_traffic = "Al het andere verkeer";
+traffic_analysis = "Verkeersanalyse";
+slot = "Slot";
+slots = "Slots";
+slots_title = "Slot configuratie";
+can_select_multiple = "Tip: U kan meerdere opties selecteren door het vasthouden van de Shift- of Ctrlknop terwijl u een optie selecteert";
+name_for = "Naam voor ";
+set_name = "Bepaal naam";
+rx_only = "Aleen RX";
+tx_only = "Alleen TX";
+max_of_rx_tx = "Maximale van RX & TX";
+total_rx_only = "Totale RX snelheid";
+total_tx_only = "Totale TX snelheid";
+total_max_of_rx_tx = "Max. van totale RX & TX";
+check_if_other_also = "Vink aan, als u al het andere verkeer tot dit 'slot' gerkend wilt hebben";
+performance_help = "Om maximale computerkracht te besparen, raden we aan om de verbinding die u gebruikt voor internettoegang op 'Ja' te zetten en alle andere op 'Nee'.";
+loading = "Laden...";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+regid = "Niet samenwerkend";
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+
+
+
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p, sneller internettoegang door Verkeers Modellering";
+
+/ URLs
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+
+/ wizard
+install_wizard_name = "%? Installatie Helper";
+uninstall_wizard_name = "%? Deïnstallatie helper";
+brandkey_wizard_name = "%? Registratie helper";
+config_wizard_name = "%p Configuratie Wizard";
+continue_line = "Klik op volgende om verder te gaan.";
+start_inst = "Om de installatie nu te starten, klik op volgende.";
+wizard_lang_line = "Deze helper is in het";
+
+/ welcome page
+welcome_line = "Welkom bij %? v%?!";
+welcome_info = "Deze helper begeleidt je door de installatie van %? v%?.";
+welcome_found = "Een bestaande installatie van %? v%? is gevonden op je systeem.";
+welcome_found_dir = "Een bestaande installatie van %1 v%2 is gevonden op je systeem, in de map %3.";
+welcome_found_unknown = "Een bestaande installatie van %? is gevonden op je systeem.";
+welcome_found_modified = "Een aangepaste of onvolledige installatie van %1 v%2 is gevonden op je computer, in de map %3.";
+welcome_update = "Om de huidige versie te vervangen klik op volgende.";
+welcome_admin = "Je hebt geen beheerders rechten. Om deze helper uit te voeren moet je ingelogd zijn als een gebruiker met beheerders rechten.";
+welcome_lang_syslink = "<a href=\"%?\">Verdere talen</a>";
+welcome_oem_info = "%1 is een OEM versie van %p voor %2. Om deze rede bevat %p alle functies van %1 en meer.";
+
+/ uninstall welcome page
+ui_welcome_line = "Deïnstalleer %? v%?.";
+ui_welcome_info = "Indien je %1 v%2 werkelijk wilt deïnstalleren van map %3 , en alle componenten ervan wilt verwijderen, klik dan op volgende.";
+
+/ brand key welcome page
+bk_welcome_line = "%? registratie.";
+bk_welcome_info = "Deze helper zal je door de registratie van %? leiden.";
+bk_welcome_found = "Een bestaand sleutelbestand is gevonden in de doel map %?.";
+bk_welcome_update = "Klik op volgende om het bestaande sleutelbestand te vervangen.";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+
+/ restore point dialog
+rp_header = "Systemherstelpunt";
+rp_subheader = "Systeemherstelpunt zorgt dat je je systeem naar een vorige staat kan herstellen.";
+rp_info = "Een systeemherstelpunt stelt je in staat je Windows te herstellen naar een staat waarin hij was toen het systeemherstelpunt werd gemaakt. Het is aanbevolen een systeemherstelpunt in te stellen wanneer een stuurprogramma geinstalleerd word.";
+rp_check = "Stel systeemherstelpunt in.";
+/ %1 = product name
+rp_uninst_info = "Het systeemherstelpunt is niet bedoeld voor latere deïnstallatie van %1. Het is meer een extra voorzorg die ervoor zorgt dat je je systeem terug kan krijgen in zijn originele staat indien er stuurprogramma's conflicteren. Een normale deïnstallatie van %1 kan uitgevoerd worden in het Start menu in de map %1 of in het configuratiescherm bij software.";
+
+/ password dialog
+pwd_header = "Wachtwoord.";
+pwd_subheader = "Elke sleutel vereist een uniek wachtwoord.";
+pwd_reg_to = "%p wordt geregistreerd op naam van :";
+pwd_password_info = "Voer het wachtwoord voor je sleutel in, in het formaat: xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "Wachtwoord:";
+pwd_invalid_password = "Ongeldig wachtwoord. Controleer je invoer en probeer het opnieuw.";
+pwd_activate_info = "Je moet verbonden zijn met het internet om je sleutel te activeren op onze server.";
+pwd_activate_failed = "Activatie van sleutel mislukt!";
+pwd_activate_failed_code = "Sleutel activatie mislukt: fout %?.";
+
+/ re-enter password dialog
+repwd_header = "%? wachtwoord.";
+repwd_subheader = "Het registratie wachtwoord moet opnieuw ingevoerd worden.";
+repwd_reg_to = "Omdat er veranderingen in je systeeminstellingen zijn doorgevoerd, dien je het wachtwoord voor de volgende %p registratie opnieuw in te voeren :";
+
+/ installation directory dialog
+instdir_header = "Installatiemap";
+instdir_subheader = "De installatiemap geeft aan waar de bestanden naar toe gekopieerd worden op je harde schijf.";
+instdir_info = "Kies een installatiemap.";
+instdir_change = "Verander";
+instdir_src_dst = "Bron- en doelmap mogen niet identiek aan mekaar zijn!";
+instdir_space = "Deze installatie vereist %u bytes vrije ruimte op de schijf. Er is maar %u bytes beschikbaar in de gekozen map.";
+instdir_drivetype = "De gekozen schijf is niet geldig. %? kan alleen op lokale vaste schijven geïnstalleerd worden.";
+instdir_system = "De installatiemap moet op schijf '%?' staan.";
+
+/ tcp settings dialog
+tcp_header = "TCP Ontvangen window waarde aanpassen.";
+tcp_subheader = "De TCP (Transmission Control Protocol) ontvanger window waarde zou aangepast moeten worden voor optimale doorvoer van gegevens.";
+tcp_info = "De TCP Ontvangen window waarde regelt de doorvoer van inkomende gegevens. Het is opgeslagen in het windows register en de huidige waarde is niet optimaal.\n\nHet wordt aanbevolen de helper de waarde te laten aanpassen voor hogere doorvoer van gegevens. (Aanpassing vinden plaats na een herstart van het systeem)";
+tcp_check = "TCP Ontvanger window waarde optimalizeren (Aanbevolen)";
+
+/ hang up online connection dialog
+hangup_header = "Online verbinding";
+hangup_subheader = "De online verbinding moet verbroken worden.";
+hangup_online = "Je bent online met de volgende verbinding:";
+hangup_offline = "De verbinding is verbroken.";
+hangup_info = "Om verder te gaan met deze helper, dient de online verbinding verborken te worden.\n\nOm de verbinding nu te verbreken, klik op verbreek verbinding.";
+hangup_disco = "Verbreek verbinding";
+
+/ progress dialog
+progress_inst_header = "Installatie";
+progress_inst_subheader = "De installatie is bezig.";
+progress_inst_wait = "Wacht totdat de instalaltie voltooid is.";
+progress_uninst_header = "Deïnstalleer";
+progress_uninst_subheader = "De Deïnstallatie is bezig.";
+progress_uninst_wait = "Wacht totdat het installatie proces voltooid is.";
+progress_driver_wait = "Wacht totdat het besturingssysteem het stuurprogramma (de-)installeerd. Dit kan enkele minuten duren.";
+
+/ confirm delete dialog
+conf_del_header = "Bestanden met instellingen wissen";
+conf_del_subheader = "Je moet het verwijderen van de bestanden met instellingen of persoonlijke gegevens bevestigen.";
+conf_del_column = "Bestandsnaam";
+conf_del_query = "Indien je deze bestanden ook wilt verwijderen, kun je ze apart controleren. Klik na de selectie op volgende.";
+
+/ finish page
+finish_head_ok = "Installatie geslaagd";
+finish_info_ok = "%? is met succes geïnstalleerd op je computer.";
+finish_head_fail = "Installatie mislukt.";
+finish_info_fail = "De installatie is mislukt om de volgende reden :";
+finish_reboot = "Het systeem moet opnieuw worden opgestart. Klik op klaar om te herstarten of op annuleren om later opnieuw te starten.";
+finish_link_ok = "<a href=\"%?\">%? kenmerken!</a>";
+finish_file_fail = "Bekijk het log bestand %s voor meer informatie.";
+finish_file_link_fail = "Bekijk het <a href=\"file://%s\">log bestand</a> voor meer informatie.";
+finish_cfosts_disabled = "Verkeersregeling is uitgeschakeld in je lopende cFos , omdat het verkeers regelen al door %p word uitgevoerd. (Je kan de cFos verkeers regeling weer aanschakelen in het instellingen menu van cFos).";
+finish_cfosts_enabled = "Verkeersregeling is ingeschakeld op je lopende cFos.";
+
+/ uninstall finish page
+ui_finish_head_ok = "Deïnstallatie gelukt.";
+ui_finish_info_ok = "%? is met succes verwijderd van je computer.";
+ui_finish_head_fail = "Deïnstallatie mislukt.";
+ui_finish_info_fail = "%? kan niet verwijderd worden van je computer door de volgende reden :";
+ui_finish_not_removed = "De volgende bestanden kunnen alleen na een herstart van je systeem verwijderd worden: ";
+
+/ brandkey finish page
+bk_finish_head_ok = "Registratie Voltooid.";
+bk_finish_info_ok = "%? is geregistreerd door:";
+bk_finish_head_fail = "Registratie mislukt.";
+bk_finish_info_fail = "De registratie is mislukt om de volgende reden:";
+
+/ progress tasks
+task_register_email = "E-mail adres registeren...";
+task_restore_point = "Systeemherstelpunt zetten...";
+task_copy = "Bestanden kopieren...";
+task_desktop_link = "Bureaubladkoppeling maken...";
+task_program_group = "Programma groep aanmaken...";
+task_registry = "Register invoegingen toepassen...";
+task_driver = "Stuurprogramma installeren...";
+task_daemon = "Starten van %?...";
+task_uninstall_old = "Bestaande versie deïnstalleren...";
+task_stop_daemon = "Stoppen van %?...";
+task_uninstall_driver = "Stuurprogramma deïnstalleren...";
+task_delete_files = "Bestanden verwijderen...";
+task_hangup = "Actieve online verbindingen verbreken...";
+task_flush_registry = "Register op schijf opslaan...";
+task_cancel = "Bewerking onderbreken...";
+task_canceled = "Bewerking afgebroken!";
+
+/ program group
+speed_pg_name = "%p Verkeersregeling";
+pg_uninstall = "Deïnstalleren %?";
+pg_console = "%p console";
+pg_menu = "%? menu";
+pg_add_connection = "Verbinding toevoegen";
+
+/ desktop symbol
+dt_advertise = "%? Kenmerken";
+dt_advertise_desc = "Bekijk alle %? kenmerken.";
+
+/ message boxes
+query_reboot = "Je moet het systeem herstarten om de veranderingen door te voeren.\n\nHerstart het systeem nu ?";
+query_drv_inst_cancel = "Deïnstallatie van het stuurprogramma wordt door het besturingssyteem uitgevoerd.\nDe Windows installatie interface kan er tot 15 minuten over doen om een stuurprogramma te registeren en/of te verwijderen!\n\nHet wordt ten hoogst aanbevolen om dit process niet te onderbreken, behalve\n wanneer je al te lang wacht.\n\nWeet je zeker dat je wilt afbreken?";
+query_driver_err_abort = "Er is een fout opgetreden bij het installeren van het stuurprogramma!\ndaarom wordt aanbevolen de installatie nu af te breken.\n\nHet is mogelijk om de installatie toch door te laten gaan,\nwat handig kan zijn voor het testen. Hou er echter\n rekening mee dat %p niet goed werkt.\n\nInstallatie afbreken? (Aanbevolen)";
+
+/ error messages
+err_driver_inst = "Installatie van stuurprogamma mislukt.";
+err_daemon_start = "Kan %? niet starten.";
+err_uninst_old = "De bestaande versie kon niet ge-deïnstalleerd worden. Log uit het besturingssyteem en probeer het opnieuw.";
+err_os = "Je besturingsysteem is %?.\n\n%? vereist Windows 2000/XP of honger om te werken.";
+err_os_minxp = "Je besturingsysteem is %?.\n\n%? vereist Windows XP of honger om te werken.";
+err_uninst_driver = "Het stuurprogramma kon niet ge-deïnstalleerd worden.";
+err_create_process = "Fout met bellen van %s: %s";
+err_write_lock = "%? zijn in gebruik door een ander proces. Sluit alle andere applicaties of herstart je computer en probeer het opnieuw.";
+err_file_auth = "Sommige bestanden van deze distributie zijn beschadigd of zijn er niet.\nProbeer een authentieke distributie van %p te krijgen\n(bijvoorbeeld van www.cfos.de).";
+err_cancel = "Het uitvoeren is geannuleerd.";
+err_no32 = "Kan geen 32-bit stuurprogramma installeren op een 64-bit systeem.\n\nOS: %?\nProdukt: %?";
+err_bad_keyfile = "Het sleutelbestand lijkt beschadigd of is niet geldig. "
+                  "Neem contact met ons op voor een geldig sleutel bestand.";
+err_bad_setup = "%p is niet goed geïnstalleerd, of sommige bestanden"
+                "zijn aangepast. Probeer een schone versie te installeren "
+                "van %p en probeer het nogmaals.";
+err_bad_signature = "Het lijkt erop dat het wachtwoord verkeerd is of voor een "
+                    "ander sleutel bestand. Voer het bijbehorend "
+                    "wachtwoord in voor dit sleutel bestand.";
+err_gdiplus =
+  "De GDI+ bibliotheek is niet gevonden!\n\n"
+  "Deze installatie kan alleen doorgaan indien de GDI+ bibliotheek geïnstaleerd is.\n"
+  "De GDI+ Bibliotheek kan je downloaden van Microsoft als onderdeel van het Platform SDK\n"
+  "Redistributable. Start de gedownloade installatie en pak de bestanden\n"
+  "uit in een <doel map> naar keuze. Kopiëer dan alle gdiplus.* bestanden\n"
+  "uit de map <doel map>\\asms\\10\\msft\\windows\\gdiplus naar de \n"
+  "map Windows\\system32.\n\n"
+  "Klik op 'OK' om de btreffende downloadpagina van Microsoft te openen.\n"
+  "Klik op 'Annuleren' om de installatie af te breken.";
+err_winhttp =
+  "De WinHTTP library is niet gevonden!\n\n"
+  "Deze installatie kan alleen voortgezet worden als de WinHTTP library geïnstalleerd is.\n"
+  "De WinHTTP library zou een deel moeten zijn van uw besturingssysteem, maar hij\n"
+  "kan niet worden geladen.";
+bad_manufacturer = "Installatie kan niet doorgaan, omdat dit product alleen voor geselecteerde hardware is geschikt!";
+cannot_install = "Kan niet installeren";
+err_uninst_daemon =
+   "De daemon kan niet worden gedeïnstalleerd. "
+   "Als er nog steeds %p vensters geopend zijn moet u deze eerst sluiten. "
+   "Anders moet u de computer opnieuw opstarten.";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "Fout bij het kopieren van bestand %1 naar %2 (%3).";
+
+/ warning messages
+wrn_oem_update = "Er is al een %p met geldige licentie geïnstalleerd.\n\n"
+  "Je staat op het punt een normale Shareware versie te installeren. Indien je doorgaat\n"
+  "met deze installatie zal je licentie niet werken.\n"
+  "Een bijgewerkte licentie van %p kan verkregen worden op dezelfde plaats\n"
+  "waar je het in eerste instantie gekocht hebt.\n\n"
+  "Wil je toch doorgaan met installeren?";
+
+/ traffic shaping algorithm
+tsa_header = "Verkeersmodellerings modus (Meerdere gebruikers versie)";
+tsa_subheader = "Standaard gedrag van het Verkeersmodellerings algoritme.";
+tsa_info = "Kies een standaard gedrag van het Verkeersmodellerings algoritme "
+           "afhankelijk van je Internet verbinding. (Deze selectie kan later per "
+           "verbiding gemaakt worden.)";
+
+/ vista warning
+vista_header = "Installatie Opmerking";
+vista_subheader = "Opmerking over stuurprogramma op Windows Vista.";
+vista_warn_info = "%p is digitaal ondertekend door een certificaat van GlobalSign, een bedrijf "
+ " dat gelicenceerd is door Microsoft. Maar, cFos Software GmbH doet niet mee met Microsoft's toegevoegde, "
+ "dure WHQL certificatie. Hierdoor komt er een venster naar boven tijdens de installatie van het stuurprogramma "
+ "op Windows Vista met een bericht dat de uitgever van het stuurprogramma niet gecontroleerd kan worden.\n\n"
+ "Indien dit venster verschijnt, klik dan op \"Dit stuurprogramma toch installeren\".";
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+dun_wizard_name = "%p Verbidings helper";
+connections = "Verbindingen";
+dun_subheader = "Een verbinding installeren.";
+dun_with_bc = " met cFos Broadband Connect";
+dun_reenter_password = "Voer het wachtwoord opnieuw in";
+dun_list_tonline = "nieuwe T-Online verbinding";
+dun_new_connection = "Nieuwe verbinding instellen";
+dun_err_no_device = "Geen %p apparaat gevonden. (Het apparaat zal beschikbaar komen zodra je computer herstart is.)";
+
+/ e-mail registration dialog
+eml_header = "E-mail Registratie";
+eml_subheader = "Registreer je e-mail adres bij cFos.";
+eml_info = "Registreer je e-mail adres bij cFos, zo kunnen we je op de hoogte houden van ontwikkelingen en wanneer er een nieuwe versie van %p beschikbaar is.";
+eml_info_optional = "Indien je je e-mail adres registreerd bij cFos zal je op de hoogte gehouden worden van de ontwikkelingen en zal je automatisch een bericht ontvangen wanneer er een nieuwe versie van %p beschikbaar is. Laat het veld leeg indien je geen berichten wilt ontvangen.";
+eml_email = "Je e-mail adres:";
+eml_invalid_email = "Het e-mail adres dat je hebt ingevoerd is ongeldig.";
+eml_invalid_optional_email = "Voer een geldig e-mail adres is of voer geen adres in.";
+eml_reg_failed = "E-mail adres registratie mislukt.";
+eml_checking_domain = "Controleren van E-mail domein...";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
+cfos_orderurl = "https://www.cfos.de/nl/order/cfos-professional-n.htm";
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+order_oem = "Koop de professionele versie nu!";
+cfos_endsoon = "Je probeerperiode gaat binnekort verlopen.\nKoop %p Professional nu!\nStart de %p bestel pagina op\n\nhttps://www.cfos.de/nl/order/order.htm\n";
+cfos_expired = "Deze %p versie is verlopen.\nKoop %p/Professional nu!\nStart de %p bestel pagina op\n\nhttps://www.cfos.de/nl/order/order.htm\n\ntelefoon: +49-228-7669826\nFax: +49-228-7669827.";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+group_order_inet = "Koop Geavenceerde %p";
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+

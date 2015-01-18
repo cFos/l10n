@@ -1,0 +1,264 @@
+#language 2057
+#fallback 1033
+#charset 0
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "British English";
+language_local = "British English";
+htm_lang_prefix = "en-gb";
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+setup_connections = "Set up connections";
+
+/ connection entry dialog
+
+/ pnet configuration dialog
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+
+badkey = "There is a problem with the licence key.\nPlease re-install the key by double-clicking on the\noriginal file, which you received by e-mail or on diskette.";
+sygate_hint = "%p has detected the Sygate Firewall, which mistakes the\n%p calibration pulse for a Denial of Service attack with\n“Ping-of-Death” packets.\nTherefore you should do a download and then an upload with full\nspeed for some 30 seconds, respectively. This should calibrate\n%p like the calibration pulse.\n\nHint: The Firewall-Function “Anti IP Manipulation” should be\ndeactivated.";
+translator_msg = "A British English localisation";
+/ %3=product name, %1=number, %2="day"/"days"
+
+lic_expired = "Your test period has expired. %1 is now deactivated. Buy %1 today!";
+/ %1=number, %2="day/days"
+
+/ %1=number, %2="day/days", %3=product name
+
+license = "Licence";
+prio_protocols = "Prioritising protocols";
+prio_programs = "Prioritising programs";
+hint_text = "Prioritisation will work properly only if as little data as possible is given high priority. Give programs sending out large amounts of data low priority. Protocol prioritisation is done before program prioritisation.";
+prog_hint_text = "Prioritisation will work properly only if as little data as possible is given high priority. Give programs sending out large amounts of data low priority.<br />";
+prio_doc_link = "How the prioritisation scheme works";
+l7_prot_detection_help = "Detect protocols by analysing the data. Use the dialog ‘Prioritise protocols’ to change the priority of the various protocols. If you deactivate this option, protocols are detected according to the port number used.";
+favor_ping = "Favour Ping Time";
+favor_bandwidth = "Favour Bandwidth";
+favor_ping_help = "<b>On</b>: %p will minimise ping times at the expense of slightly reduced bandwidth (if necessary).<br /><b>Off</b>: %p will maximise bandwidth at the expense of slightly higher ping times (if necessary).";
+mtu_opt = "Automatic MSS (MTU) optimisation";
+strict_rtp_help = "If activated, %p will recognise only those packets as RTP that come with a valid RTCP source ID. You should deactivate this option for Voice-over-IP programs (like VoIPBuster) that send no RTCP packets.";
+dialup_connection = "Dial-up Connection";
+dialup_connections = "Dial-up Connections";
+no_ports_open_help = "Currently, there is no connection open that is handled by %p. To change the default settings for new connections, click on the “Default for new connections” tab, to change settings for other connections, click on “Traffic Shaping” on the left side.";
+limit_help = "Values in kbytes/s, including all protocol overhead, 0 = no limit.";
+can_select_multiple = "Hint: You can select multiple options by holding down the ‘Shift’ or ‘Ctrl’ keys while selecting an option";
+performance_help = "To save maximum computational power, we recommend to set the connection you use for Internet access to ‘Yes’ and all others to ‘No’.";
+console_help = "You can prioritise an individual connection by clicking on it in the table below.<br/>Connections marked with (*) are prioritised temporarily.";
+console_prio = "Prioritise this connection";
+console_prio_off = "Turn off prioritisation";
+console_prio_this = "Temporarily prioritise this connection only";
+console_prio_this_off = "Turn off prioritisation for this connection";
+console_prio_prot = "Temporarily prioritise protocol";
+console_prio_prot_off = "Turn off temporary protocol prioritisation";
+console_prio_prog = "Temporarily prioritise program";
+console_prio_prog_off = "Turn off temporary program prioritisation";
+console_prio_prog_prot = "Temporarily prioritise program & protocol";
+console_prio_prot_perm = "Permanently prioritise protocol";
+console_prio_prog_perm = "Permanently prioritise program";
+console_prio_advanced = "Advanced prioritisation";
+misc_high = "Miscellaneous high prioritised traffic";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+
+ask_key_banned_info = "There has been a problem with your licence key.\nWould you like further information?";
+
+wlan_no_service = "Service not available. Please install or start Wireless Zero-Configuration service for Windows (WZC).";
+
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+
+/ URLs
+
+/ wizard
+
+/ welcome page
+welcome_admin = "You don't have administrator privileges. To run this wizard you need to log on as a user who has administrator privileges.";
+
+/ uninstall welcome page
+
+/ brand key welcome page
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "Licence Agreement";
+lic_subheader = "You have to accept the licence agreement to continue.";
+lic_info = "If you accept the licence agreement, check the ‘I agree’ field and click Next, otherwise, click Cancel.";
+
+/ restore point dialog
+/ %1 = product name
+rp_uninst_info = "The system restore point is not meant for a later normal uninstallation of %1. It's rather an additional precaution that enables you to put your system back into its original state in case of a driver conflict. A normal uninstallation of %1 can be selected either in the Start Menu in the folder %1 or in the Control Panel under Software.";
+
+/ password dialog
+
+/ re-enter password dialog
+
+/ installation directory dialog
+instdir_system = "The installation directory must be on the system drive ‘%?’.";
+instdir_system_recommended = "It is highly recommended to select an installation directory on the system drive ‘%?’. (Click Next to continue anyway.)";
+
+/ tcp settings dialog
+tcp_check = "Optimise TCP receiver window size. (Recommended)";
+
+/ hang up online connection dialog
+
+/ progress dialog
+
+/ confirm delete dialog
+conf_del_subheader = "You must confirm the deletion of files with configuration settings or other personal information.";
+
+/ finish page
+
+/ uninstall finish page
+
+/ brandkey finish page
+
+/ progress tasks
+task_register_email = "Registering email address...";
+task_cancel = "Cancelling operation...";
+task_canceled = "Operation cancelled!";
+
+/ program group
+
+/ desktop symbol
+
+/ message boxes
+query_drv_inst_cancel = "Driver un/installation is performed by the operating system.\nThe Windows set-up interface can require up to 15 minutes to\nregister or unregister a driver!\n\nIt is strongly recommended not to cancel this process unless\nyou have already waited that long.\n\nDo you really want to cancel?";
+query_driver_err_abort = "There has been an error during driver installation!\nTherefore it is recommended to abort the installation\nnow.\n\nHowever, it is possible to continue the installation,\nwhich might be useful for test purposes. Please keep\nin mind that %p will most likely not run\nproperly.\n\nAbort installation? (recommended)";
+
+/ error messages
+err_cancel = "The operation was cancelled.";
+err_no32 = "Can't install 32-bit drivers on 64-bit systems.\n\nOS: %?\nProduct: %?";
+err_bad_setup = "%p seems to be installed improperly or some files have been modified. Please reinstall a fresh copy of %p and try again.";
+err_gdiplus = "The GDI+ library has not been found!\n\nThis installation can only continue if the GDI+ library is installed.\nYou can download the GDI+ library from Microsoft as part of the Platform SDK\nRedistributable. Please start the downloaded installation file and unpack the\ncontained files into a <target directory> of your choice. Then copy all gdiplus.* files\nfrom the directory <target directory>\\asms\\10\\msft\\windows\\gdiplus to the\ndirectory Windows\\system32.\n\nClick ‘OK’ to open the corresponding download page at Microsoft.\nClick ‘Cancel’ to cancel the installation.";
+err_activate_10045 = "HTTP error 10045 has occurred during the activation.\nA possible reason is that your Winsock is corrupted.\nTo reset your Winsock please open the command shell\nand enter ‘netsh winsock reset’.\nAfter that reboot your computer and try the activation\nagain.";
+err_activate_12002 = "HTTP error 12002 (request time-out) has occurred during\nthe registration. A possible reason could be that the\nfor the registration necessary connection to our server\nis being blocked by a firewall, an anti-virus program or\nany other kind of security software.\nIf you have any of those programs installed, please\ndeactivate them temporarily and then retry the\nregistration.";
+/ %1 = source, %2 = destination, %3 = explanation
+
+/ warning messages
+wrn_oem_update = "You already have a licensed %p installed.\n\nYou are about to install a regular shareware version. If you\ncontinue with this installation, your old licence will no longer work.\nAn update of your old licensed %p can be obtained\nat the same place where you got it originally.\n\nDo you want to continue the installation anyway?";
+
+/ traffic shaping algorithm
+
+/ vista warning
+vista_warn_info = "%p has been digitally signed with a certificate by GlobalSign, a company licensed by Microsoft. However, cFos Software GmbH does not participate in Microsoft's additional, expensive WHQL certification. For this reason a window will pop up during the driver installation under Windows Vista with the message that the publisher of the driver software cannot be verified.\n\nIf this window appears, please click within it on “Install this driver software anyway”.";
+
+/ dial entry dialog
+dun_reenter_password = "Please reenter password";
+dun_new_connection = "Set up new connection";
+
+/ e-mail registration dialog
+eml_invalid_email = "The e-mail address you've entered is invalid.";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+

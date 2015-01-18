@@ -1,0 +1,662 @@
+﻿#language 1025
+#fallback 1033
+#charset 178
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Arabic";
+language_local = "العربية";
+htm_lang_prefix = "ar";
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
+bc_orderurl = "https://www.cfos.de/ar/order/broadband-connect-n.htm";
+bc_langurl = "";
+bc_pg_name = "%p";
+bc_desc = "%p ، برنامج التشغيل الهاتفي العالي-الأداء";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/ar/order/cfos-ipv6-link-n.htm";
+sixlink_pg_name = "%?";
+sixlink_desc = "%p ,  العالي السرعة IPv6 برنامج التشغيل الهاتفي من";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/ar/order/cfos-personal-net-n.htm";
+renew_params = "تجديد المعايير";
+dlg_dun_auto = "إتصال-تلقائي";
+dlg_dun_default = "الإتصال الإفتراضي";
+dlg_dun_cons = "وضعيات الإتصال";
+dlg_dun_name = "إسم الإتصال:";
+dlg_dun_uname = "إسم المستخدم:";
+dlg_dun_pwd = "كلمة المرور:";
+dun_connect_to = "الإتصال بـ %?";
+dun_err_already_exists = "إسم إدخال الإتصال موجود مسبقا";
+disconnect = "قطع الإتصال";
+
+/ connection entry dialog
+con_err_save = "تعذر حفظ بيانات الإتصال";
+con_ipv4 = "IPv4";
+con_ipv6 = "IPv6";
+con_private_address = "العنوان الخاص :";
+con_prefix = "البادئة";
+con_dns1 = "DNS1:";
+con_dns2 = "DNS2:";
+con_enabled = "ممكن";
+
+/ pnet configuration dialog
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
+speed_orderurl = "https://www.cfos.de/ar/order/cfosspeed-n.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+mainurl_name = "www.cfos.de";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/ar/traffic-shaping/traffic-shaping.htm";
+
+component_mismatch = "يوجد هناك تعارض في النسخة بين مكونات هذا البرنامج . الرجاء إعادة تثبيت آخر نسخة";
+trayicon_tip = "www.cfos.de , إنترنت أسرع مع تشكيل حركة المرور";
+speed_endsoon = "أن فترة التجريب خاصتك ستنتهي قريباﱟ! رجاءﱟ بادر بشراء     %1 اليوم!";
+order_info = " بادر بالشراء الآن عبر موقعنا على الإنترنت www.cfos.de أو عبر رقم الهاتف +49-228-7669826";
+badkey = "هناك مشكلة بمفتاح الرخصة\nالرجاء إعادة تثبيت المفتاح عن طريق النقر مرتين على\nالملف الأصلي الذي أستلمته بالبريد الإلكتروني أو الموجود على القرص";
+no_setup = " (setup.exe) تعذر بدء الإعداد";
+ask_disconnect_ras = "أنت على وشك إعادة تكوين إتصال شبكة نشيط حاليا\nيستحسن قطع الإتصال قبل المتابعة\nهل تقطع إتصال الشبكة الحالي ؟";
+sygate_hint = "sygate برنامج الجدار الناري من %p إكتشف\nالذي يسبب خطأ في نبض المعايرة من الحظر من هجوم الخدمة . لذا يجب عليك أن تعمل\nأي تحميل و بعد ذلك تعمل أي إرسال مع سرعة كاملة حوالي 30 ثانية على التوالي حيث\nإن ذلك يساعد على معايرة النبض\nمعلومة : وظيفة برنامج الجدار الناري ضد التلاعب بـ (أي-بي) يجب أن تكون غير نشطة";
+select_language = "تحديد اللغة";
+translator = "دائما معكم";
+translator_name = "ترجمة الأستاذ : الأستاذ عوض الغامدي";
+translator_msg = "awadh_al_ghaamdi@hotmail.com";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "لقد أنتهت رخصة الـ %3 في %1 %2";
+
+service_desc = "%p يقوم بتنفيذ مقياس كامن و عمليات مميزة لـ";
+no_pings_error = "لا يبدو أنها %p حزم التشغيل المرسلة من قبل\n%p  وصلت و بدونها لا يستطيع تشكيل حركة مرور";
+other_languages = "لغات أخرى";
+install_dir = "مجلد البرنامج";
+allow_traffic_shaping = "السماح بتشكيل حركة المرور لهذا الإتصال ";
+none = "بدون";
+lic_expired = "أن فترة التجريب خاصتك قد انتهت فعلاﱟ. لذا فأن %1 أصبح الآن في حاجةلإعادة التفعيل. بادر بشراء %1 اليوم!";
+settings = "إعدادات";
+winsettings = "إعدادات النافذة";
+openwindow = "فتح نافذة";
+openwindows = "فتح نوافذ";
+closewindow = "إغلاق النافذة";
+closewindows = "إغلاق النوافذ";
+autoopen = "فتح تلقائي/إخفاء تلقائي";
+taskbaricon = "أيقونة شريط المهام";
+autoarrange = "ترتيب النوافذ تلقائيا";
+effects = "تأثيرات";
+blend_effect = "تلاشي النافذة";
+slide_effect = "تمرير النوافذ";
+win_behaviour = "إستخدام سلوك النظام";
+selectskin = "تحديد الغلاف";
+topmost = "دائما بالمقدمة";
+defpos = "الموقع الإفتراضي";
+disco_ras = "تسجيل خروج";
+config = "خيارات";
+order = "أشتري الآن!";
+dayl_singular = "يوم";
+dayl_plural = "يوم/أيام";
+days_singular = "يوم";
+days_plural = "يوم/أيام";
+/ %1=number, %2="day/days"
+short_try = "تجربة لمدة %1 %2";
+short_dexpire = "انتهى %1 %2";
+
+short_exp = "منتهي";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "أن الفترة التجريبية خاصتك بالنسبة ﻟ %1 %2 قد انتهت فعلاﱟ. لذا بادربشراء %3     اليوم!";
+lic_try = "لمدة %1 %2 بالرغم من ذلك قبل الشراء %3 يمكنك تجربة";
+
+enable_win = "تمكين نافذة الحالة ؟\n\nتظهر نافذة الحالة حالة إتصالك النشطة";
+license = "الرخصة";
+licensed_to = "%? مرخص باسم";
+upgrade = "إحصل على نسخة جديدة من البرنامج";
+connect_to = "الإتصال إلى";
+make_own_skin = "صمم الغلاف الخاص بك";
+click_through = "نقر ضمني";
+ask = "سؤال";
+off = "إغلاق";
+on = "فتح";
+note = "ملاحظة";
+deactivated = "غير منشط";
+ole_error = "لكي تستعمل لائحة التكوين هذه\\nمثبتا و شغال على كمبيوترك %p يجب أن يكون\\n\\nالرجاء التحقق من هذا و إعادة التثبيت عند الضرورة";
+ts_settings = "إعدادات تشكيل حركة المرور  ـــــــــــــــــــــــــــــ  (ترجمة الأستاذ عوض الغامدي) ـ";
+preferences = "تفضيلات";
+prio_protocols = "عمل أولويات للبروتوكولات";
+protocol = "(بروتوكول(ات";
+protocols = "(بروتوكول(ات";
+prio_programs = "عمل أولويات للبرامج";
+program = "برنامج/برامج";
+programs = "برنامج/برامج";
+current_connections = "الإتصالات الحالية";
+ts_prios = "خصائص تشكيل حركة مرور";
+client_protocols = "بروتوكولات التابع";
+server_protocols = "بروتوكولات الملقم";
+media_streaming = "تدفق الوسائط";
+file_sharing = "مشاركة الملفات";
+special = "خاص";
+other = "غير ذلك";
+hint = "معلومة";
+hint_text = "قد يعمل ترتيب الأفضليات فقط إذا تم إعطاء أولوية عالية لبيانات صغيرة بقدر الإمكان . و إعطاء الأولوية المنخفضة للبرامج التي تبعث الكثير من البيانات . علما أن ترتيب الأفضليات للبروتوكول تتم قبل ترتيب الأفضليات للبرنامج";
+save_protocols = "حفظ البروتوكولات";
+undo = "تراجع";
+filter_selection = "تحديد المرشح";
+higher = "أعلى";
+high = "عالية";
+normal = "عادية";
+low = "منخفضة";
+lower = "أشد إنخفاضا";
+entries = "المدخلات";
+prog_overwrite = "موجود مسبقا في القائمة #p برنامج\\nهل تريد الكتابة على المدخلة بالقيم الجديدة";
+games = "الألعاب";
+voip = "Voice-over-IP";
+remote_control = "التحكم عن بعد";
+prog_hint_text = "قد يعمل ترتيب الأفضليات فقط إذا تم إعطاء أولوية عالية لبيانات صغيرة بقدر الإمكان . و إعطاء الأولوية المنخفضة للبرامج التي تبعث الكثير من البيانات<br/>";
+save_priorities = "حفظ الأولويات";
+delete = "حذف";
+aux_lines = "خطوط مساعدة";
+higher_prog_help = " مكالمات تلفونية على الإنترنت و ربما ألعاب";
+high_prog_help = "و البرامج التفاعلية الأخرى Telnet الألعاب و الوسائط المتدفقة و";
+low_prog_help = " بيانات الملقم , FTP بيانات";
+lower_prog_help = "حركة مرور خلفية دائمة ، مثل مشاركة الملفات";
+delete_help = "إزالة من القائمة ( و بمعنى آخر : معاملة الحزم بشكل طبيعي) ـ";
+prog_help = "عملية النقل للحزم ذات الأولوية المنخفضة أو الأشد إنخفاضا يتم تبطيئها فقط عند معالجة بيانات ذات أولوية أعلى في نفس الوقت . و ما عدا ذلك فإن البيانات ذات الأولوية المنخفضة أو الأشد إنخفاضا يتم إرسالها بسرعة قصوى";
+filename = "إسم الملف";
+description = "الوصف";
+new_program = "برنامج جديد";
+add = "إضافة";
+l7_prot_detection = " Layer-7 إكتشاف بروتوكول";
+l7_prot_detection_help = "أكتشف البروتوكولات من خلال تحليل البيانات . أستخدم لائحة 'عمل الأولوية للبروتوكولات' لتغيير أولوية مختلف البروتوكولات . إذا قمت بتعطيل هذا الخيار فإن البروتوكولات يتم إكتشافها حسب رقم المنفذ المستخدم";
+favor_ping = "وقت التشغيل المفضل";
+favor_ping_help = "<b>فتح</b> : سيقلل البرنامج من زمن فحص الإتصال على حساب تخفيض بسيط لنطاق العرض (عند الضرورة) ـ<br/><b>إغلاق</b> : سيزيد البرنامج من نطاق العرض على حساب زيادة بسيطة لزمن فحص الإتصال (عند ضرورة) ـ";
+activate_firewall = " تنشيط الجدار الناري";
+activate_firewall_help = "الحماية ضد تدخلات الشبكة بواسطة ترشيح الحزم الخطرة ، تقصى الحالة و نمط التسلل";
+mtu_opt = " MSS (MTU) ضبط آلي لـ";
+mtu_opt_help = "لأقصى حد . حيث إن القيم MSS/MTU أضبط سرعة عملية النقل لـ\nالمثالية التي عادة تكون أقل من 1500/1492 تعطي سرعة أكبر";
+strict_rtp = " لا غير RTP عمليات تدقيق";
+strict_rtp_help = "إذا كان منشط فإن البرنامج سيتعرف فقط على تلك الحزم التي هي بهيئة (آر-تي-بي) و التي تأتي مع هوية مصدر (آر-تي-سي-بي) صالحة . يجب عليك تعطيل هذا الخيار لبرامج المكالمات الهاتفية مثل (فويب باستر) التي لا ترسل حزم (آر-تي-سي-بي) ـ";
+ts_config = "%p تكوين تشكيل حركة مرور";
+dialup_connection = "الإتصال الهاتفي";
+dialup_connections = "الإتصالات الهاتفية";
+traffic_shaping = "تشكيل حركة المرور";
+ras_con_help = "<b>نعم</b> : تنشيط , <b>لا</b> : عدم تنشيط ، <b>السؤال</b> : السؤال مرة واحدة فقط و من ثم حفظ الإعداد";
+router_connections = "إتصالات جهاز التوجيه";
+net_components = "إتصالات الشبكة";
+auto = "تلقائي";
+router_help = "<b>نعم</b> : تنشيط , <b>لا</b> : عدم تنشيط ، <b>تلقائي</b> : تمكين تشكيل حركة المرور إذا تم العثور على جهاز توجيه على مكون الشبكة هذا";
+network_adapter = "محول الشبكة";
+router = "جهاز التوجيه";
+and_save_settings = " و حفظ الإعدادات ";
+border = "الحافة";
+budget = "الميزانية";
+budget_settings = "إعدادات الميزانية";
+budget_title = "المباشرة %p ميزانيات";
+budgets = "الميزانيات المباشرة";
+graph_title = "مخطط الإستهلاك";
+hard_limit = "حدود<br>صعبة";
+hard_limit_help_not_set = "سيتم عرض الميزانية المنتهية في نافذة الحالة فقط";
+hard_limit_help_set = "سيتم إسقاط الحزم إذا أنتهت الميزانية";
+last_3_months = " آخر 3 أشهر";
+last_month = " آخر شهر";
+last_12_months = " آخر 12 شهر";
+please_select = "الرجاء التحديد";
+reset_day = "إستعادة اليوم";
+reset_day_unit = "يوم من شهر";
+rxtx_button = " RX/TX تحديد";
+save_budgets = "حفظ الميزانيات";
+show_for = "إظهار من أجل";
+this_month = "هذا الشهر";
+time = "الوقت";
+time_limit = "وقت محدود";
+time_min = "دقيقة";
+time_units = "h:min";
+volume = "الصوت";
+volume_limit = "حدود الصوت";
+spdbudget_help = "لإستعمال أي ميزانية ، أنتقل إلى لائحة الإتصالات ثم عينها على إتصال معين";
+password_bad = "كلمة مرور سيئة";
+favor_bandwidth = "نطاق العرض المفضل";
+sum_button = "تراكمي";
+calibrate = "خط مساعد";
+variable_bandwidth = "عرض النطاق الترددي المتغير";
+def_bandwidth_help = "إفتراضي للإتصالات <b>الجديدة</b>";
+ok = "حسنا";
+connection_medium = "متوسط";
+connection_type = "نمط تشكيل حركة المرور";
+driver_not_loaded = "لم يتم تحميل برنامج التشغيل";
+many_cons_error = "للحدود القصوى بسبب الكثير من %p rx تم دفع تشكيل حركة مرور\nالإتصالات. قد يكون الأداء أفضل مع الإتصالات الأقل . أنقر هنا للتعليمات";
+limit_bandwidth = "حدود نطاق العرض للإتصال الحالي";
+rx_limit = "RX حد";
+tx_limit = "TX حد";
+max = "أقصى";
+apply_limits = "تطبيق الحدود";
+limit_help = "القيم بـ (كب/ث) ، تتضمن كافة البروتوكولات و ما فوق ، 0 = بدون حدود";
+enable_speed_shaping = "تمكين تشكيل حركة المرور";
+disable_speed_shaping = "تعطيل تشكيل حركة المرور";
+yes = "نعم";
+no = "لا";
+help = "تعليمات";
+bgraph_totals = "الإجمالي";
+blocklist = "IP-حاجب";
+blocklist_help = "التي حجبت حركة المرور منها IP قائمة عناوين";
+apply_blocklist = "إستخدام قائمة المرشح";
+search = "بحث";
+budget_connection = "قم بتكوين الميزانية المراد إستخدامها للإتصال المطلوب";
+reset = "إستعادة";
+autohide_on_fullscreen = "إخفاء تلقائي مع كامل الشاشة";
+slot_selected = "البروتوكولات المحددة / البرامج";
+show = "إظهار";
+hide = "إخفاء";
+slot_explain = "إذا كانت حزم البيانات فيها بروتوكول ما معروف و تم تعيين هذا البروتوكول إلى تجويف ما يتم تعداد حركة مرور الحزم في ذلك التجويف أو الفتحة . و العكس أيضا ، إذا كانت الحزمة تنتمي إلى إتصال لبرنامج ما تم تعيينه التجويف ما ، يتم تعداد حركة المرور من أجل ذلك التجويف أو الفتحة . أما إذا لم يكن الأمر كذلك ، فإن حركة المرور يتم تعدادها في التجويف أو الفتحة التي يتم تعداد حركة المرور الأخرى فيها ، إذا تم إعداد هذا";
+traffic_analysis_title = "تحليل حركة مرور الوقت الفعلي";
+other_traffic = "كل حركات المرور الأخرى";
+traffic_analysis = "تحليل حركة المرور";
+slot = "فتحة";
+slots = "فتحات";
+slots_title = "إعداد الفتحة";
+can_select_multiple = "معلومة : يمكنك تحديد خيارات متعددة عن طريق الإستمرار بالضغط على مفتاح شيفت أو كنترول أثناء تحديد أحد الخيارات";
+name_for = "الإسم من أجل ";
+set_name = "وع الإسم";
+rx_only = "RX فقط";
+tx_only = "TX فقط";
+max_of_rx_tx = "Maximum of RX & TX";
+total_rx_only = "RX مجموع سرعة";
+total_tx_only = "TX مجموع سرعة";
+total_max_of_rx_tx = "RX و TX أقصى مجموعة";
+check_if_other_also = "تأكد إذا كنت تريد تعداد كافة حركات المرور الأخرى في هذه الفتحة";
+performance_help = "لحفظ أقصى طاقة حاسوبية ، ننصحك بوضع الإتصال الذي تستخدمه للوصول إلى شبكة الإنترنت على 'نعم' و غير ذلك على 'لا' ـ";
+loading = "...جاري التحميل";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+regid = "غير- تعاوني";
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+
+
+
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p, الإتصال بالإنترنت أسرع مع تشكيل حركة المرور";
+
+/ URLs
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+
+/ wizard
+install_wizard_name = "%? معالج تثبيت";
+uninstall_wizard_name = "%? معالج إلغاء تثبيت";
+brandkey_wizard_name = "%? معالج تسجيل";
+continue_line = "للمتابعة , أنقر التالي";
+start_inst = "لبدء التثبيت الآن ، أنقر التالي";
+wizard_lang_line = " هذا المعالج باللغة التالية";
+
+/ welcome page
+welcome_line = " %? v%? مرحبا مع";
+welcome_info = "%? v%? سيوجهك هذا المعالج خلال تثبيت";
+welcome_found = "%? v%? تم إكتشاف تثبيت حالي على نظامك لـ";
+welcome_found_dir = "%1 v%2 تم إكتشاف تثبيت حالي لـ\n%3 على كمبيوترك في المجلد";
+welcome_found_unknown = "%? تم إكتشاف تثبيت حالي على نظامك لـ";
+welcome_found_modified = "%1 v%2 تم إكتشاف تثبيت معدل أو غير مكتمل لـ\n%3 على كمبيوترك في المجلد";
+welcome_update = "لإستبدال النسخة الحالية أنقر على التالي";
+welcome_admin = "أنت ما عندك إمتيازات المدير . لتشغيل هذا المعالج تحتاج لتسجيل الدخول كمستخدم عنده إمتيازات إدارية";
+welcome_lang_syslink = "<a href= \"%?\">لغات إضافية</a>";
+
+/ uninstall welcome page
+ui_welcome_line = " %? v%? إلغاء تثبيت";
+ui_welcome_info = "%3 من المجلد %1 v%2 إذا تريد إلغاء تثبيت\nو إزالة جميع مكوناته فانقر على زر التالي";
+
+/ brand key welcome page
+bk_welcome_line = "%? تسجيل";
+bk_welcome_info = "%? سوف يوجهك هذا المعالج خلال تسجيل";
+bk_welcome_found = "%? ؟ تم العثور على ملف مفتاح سابق في المجلد الوجهة";
+bk_welcome_update = "لإستبدال ملف المفتاح السابق أنقر التالي";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "License Agreement";
+lic_subheader = "You have to accept the license agreement to continue.";
+lic_info = "If you accept the license agreement, check the 'I agree' field and click Next, otherwise, click Cancel.";
+lic_agree = "I agree.";
+
+/ restore point dialog
+rp_header = "نقطة إستعادة النظام";
+rp_subheader = "تمكنك نقطة إستعادة النظام من إستعادة نظام الويندوز إلى حالته السابقة";
+rp_info = "تمكنك نقطة إستعادة النظام من إستعادة نظام الويندوز إلى حالته السابقة . و يستحسن عمل نقطة إستعادة للنظام عند تثبيت برنامج تشغيل (تعريف) جديد";
+rp_check = "وضع نقطة إستعادة النظام";
+/ %1 = product name
+rp_uninst_info = "%1 نقطة إستعادة النظام ليس المقصود منها هو إلغاء تثبيت\nفيما بعد . إنما هي مجرد إحتراز إضافي لإعادة نظامك إلى حالته الأصلية في حالة\n%1 وجود تعارض مع أي برنامج تشغيل . إن إلغاء تثبيت\n%1 الطبيعي متاح من خلال قائمة ابدأ أو من خلال مجلد\nأو من لوحة التحكم";
+
+/ password dialog
+pwd_header = "كلمة المرور";
+pwd_subheader = "كل مفتاح يتطلب كلمة مرور مختلفة";
+pwd_reg_to = "باسم %p سيتم تسجيل :";
+pwd_password_info = "××××-××××-××××-×××× الرجاء إدخال كلمة المرور لمفتاحك بالشكل التالي";
+pwd_password = "كلمة المرور :";
+pwd_invalid_password = "كلمة المرور غير صالحة , فضلا تأكد منها ثم حاول ثانية";
+pwd_activate_info = "يجب عليك أن تكون متصلا بالأنترنت كى تنشط المفتاح على موقع السيرفر.";
+pwd_activate_failed = "مفتاح التنشيط لايعمل ! ";
+pwd_activate_failed_code = "فشل تنشيط المفتاح : الخطأ %?.";
+
+/ re-enter password dialog
+repwd_header = "كلمة مرور %?";
+repwd_subheader = "مطلوب إعادة إدخال كلمة المرور";
+repwd_reg_to = "التالي %p نظرا للتغيير في تكوين نظامك يجب إعادة إدخال كلمة المرور لتسجيل :";
+
+/ installation directory dialog
+instdir_header = "مجلد التثبيت";
+instdir_subheader = "يحتوي مجلد التثبيت على الملفات التي سيتم نسخها على قرصك الصلب";
+instdir_info = "تعيين مجلد التثبيت";
+instdir_change = "تغيير";
+instdir_src_dst = "المجلد الوجهة و المجلد المصدر لا يجب أن يكونا متماثلين";
+instdir_space = "يتطلب هذا التثبيت %u بايت من مساحة القرص المتوفرة . المتوفر فقط %u بايت في المجلد المحدد";
+instdir_drivetype = "محرك القرص المحدد غير صالح\nفقط على قرص ثابت محلي %? يمكن تثبيت";
+
+/ tcp settings dialog
+tcp_header = "TCP ضبط حجم نافذة مستلم";
+tcp_subheader = "من أجل سعة أفضل للبيانات TCP يجب ضبط حجم نافذة مستلم";
+tcp_info = "يتحكم بالسعة عند وصول البيانات . حيث يتم تخزين الحجم TCP إن حجم نافذة مستلم\nفي ريجستري الويندوز علما أنه حاليا ليس بالقيمة المثالية و يستحسن ترك هذا المعالج\nيقوم بضبط تلك القيمة بسعة أكبر للبيانات . (حيث يجب بعد ذلك إعادة تشغيل النظام) ـ";
+tcp_check = "(مستحسن) TCP ضبط حجم نافذة مستلم";
+
+/ hang up online connection dialog
+hangup_header = "إتصال مباشر";
+hangup_subheader = "يجب قطع الإتصال بالإنترنت";
+hangup_online = "أنت الآن علة الإنترنت بالإتصال التالي :";
+hangup_offline = "تم قطع الإتصال";
+hangup_info = "للإستمرار مع هذا المعالج يجب قطع الإتصال بالإنترنت\n\nلقطع الإتصال الآن ، أنقر قطع الإتصال";
+hangup_disco = "قطع الإتصال";
+
+/ progress dialog
+progress_inst_header = "التثبيت";
+progress_inst_subheader = "التثبيت مستمر";
+progress_inst_wait = "الرجاء الإنتظار حتى يكتمل التثبيت";
+progress_uninst_header = "إلغاء التثبيت";
+progress_uninst_subheader = "إلغاء التثبيت مستمر";
+progress_uninst_wait = "الرجاء الإنتظار حتى يكتمل إلغاء التثبيت";
+progress_driver_wait = "الرجاء الإنتظار ريثما يتم تثبيت/(إلغاء) تثبيت برنامج التشغيل من قبل النظام . قد يستغرق ذلك عدة دقائق";
+
+/ confirm delete dialog
+conf_del_header = "حذف ملفات التكوين";
+conf_del_subheader = "يجب تأكيد حذف الملفات بواسطة إعدادات التكوين أو بالمعلومات الشخصية";
+conf_del_column = "إسم الملف";
+conf_del_query = "إذا كنت تريد حذف هذه الملفات ، أيضا فيمكنك تأشيرها بشكل منفرد . بعد التحديد أنقر على التالي";
+
+/ finish page
+finish_head_ok = "نجح التثبيت";
+finish_info_ok = "بنجاح على كمبيوترك %? تم تثبيت";
+finish_head_fail = "فشل التثبيت";
+finish_info_fail = "فشل التثبيت نتيجة للأسباب التالية :";
+finish_reboot = "يجب إعادة تشغيل النظام ! أنقر إنهاء لإعادة التشغيل الآن أو إلغاء الأمر لإعادة التشغيل لاحقا";
+finish_link_ok = "<a href=\"%?\">%? مميزات</a>";
+finish_file_fail = "للمزيد من المعلومات %s شاهد ملف السجل";
+finish_file_link_fail = "شاهد <a href= \"file://%s\">ملف السجل</a> للمزيد من المعلومات";
+finish_cfosts_disabled = "%p تم تعطيل تشكيل حركة المرور لأن\nقام مسبقا بالتشكيل . (يمكنك إعادة تمكين تشكيل المرور من قائمة تكوين";
+finish_cfosts_enabled = "الشغال cFos تم تمكين تشكيل حركة المرور في";
+
+/ uninstall finish page
+ui_finish_head_ok = "نجاح إلغاء التثبيت";
+ui_finish_info_ok = "من كمبيوترك بنجاح %? تم إزالة";
+ui_finish_head_fail = "فشل إلغاء التثبيت";
+ui_finish_info_fail = "من كمبيوترك نتيجة للسبب التالي %? تعذر إزالة :";
+ui_finish_not_removed = "الملفات التالية يمكن إزالتها بعد إعادة تشغيل النظام فقط :";
+
+/ brandkey finish page
+bk_finish_head_ok = "أكتمل التسجيل";
+bk_finish_info_ok = "باسم %? تم تسجيل :";
+bk_finish_head_fail = "فشل التسجيل";
+bk_finish_info_fail = "فشل التسجيل نتيجة للأسباب التالية :";
+
+/ progress tasks
+task_register_email = "تسجيل عنوان البريد الإلكتروني...";
+task_restore_point = "...جاري وضع نقطة إستعادة النظام";
+task_copy = "...جاري نسخ الملفات";
+task_desktop_link = "...جاري إنشاء رابط على سطح المكتب";
+task_program_group = "...جاري إنشاء مجموعة البرنامج";
+task_registry = "...جاري عمل مدخلات الريجستري";
+task_driver = "...جاري تثبيت برنامج التشغيل";
+task_daemon = " ... %? جاري تشغيل";
+task_uninstall_old = "...جاري إلغاء تثبيت النسخة الموجودة";
+task_stop_daemon = "... %? جاري إيقاف";
+task_uninstall_driver = "...جاري إلغاء تثبيت برنامج التشغيل";
+task_delete_files = "...جاري حذف الملفات";
+task_hangup = "...جاري قطع الإتصالات النشطة";
+task_flush_registry = "...جاري إرسال الريجستري إلى القرص";
+task_cancel = "...جاري إلغاء العملية";
+task_canceled = "ثم إلغاء العملية";
+
+/ program group
+speed_pg_name = "%? تشكيل حركة المرور";
+pg_uninstall = "إلغاء تثبيت %?";
+pg_www = "www.cfos.de";
+pg_console = "وحدة تحكم %p الطرفية";
+pg_menu = "قائمة %?";
+pg_add_connection = "إضافة إتصال";
+
+/ desktop symbol
+dt_advertise = "%? ميزة";
+dt_advertise_desc = "في قائمة %? وضع كافة مميزات";
+
+/ message boxes
+query_reboot = "يجب أن تعيد تشغيل نظامك لتفعيل التغييرات\n\nهل تعيد تشغيل النظام الآن ؟";
+query_drv_inst_cancel = "يتم إلغاء تثبيت برنامج التشغيل عن طريق نظام التشغيل\nيتطلب الويندوز حوالي 15 دقيقة من أجل تسجيل أو إلغاء تسجيل برنامج التشغيل\nيستحسن عدم إلغاء هذه العملية\n\nهل تريد فعلا إلغاء الأمر ؟";
+query_driver_err_abort = "لقد كان هناك خطأ أثناء تثبيت برنامج التشغيل\nيستحسن إنهاء التثبيت\nالآن\n\nبالرغم من ذلك ممكن مواصلة التثبيت\nبغرض التجربة\n%p غالبا لن يعمل بشكل صحيح\n\nهل تنهي التثبيت ؟ (مستحسن) ـ";
+
+/ error messages
+err_driver_inst = "فشل تثبيت برنامج التشغيل";
+err_daemon_start = "%? تعذر بدء";
+err_uninst_old = "تعذر إلغاء تثبيت النسخة الحالية . الرجاء تسجيل الخروج من نظام التشغيل ثم تسجيل الدخول ثانية و إعادة المحاولة";
+err_os = "نظام تشغيلك هو %?\n\nWindows 2000/XP %? يتطلب\nأو أعلى للتشغيل";
+err_os_minxp = "نظام تشغيلك هو %?\n\nWindows XP %? يتطلب\nأو أعلى للتشغيل";
+err_uninst_driver = "تعذر إلغاء تثبيت برنامج تشغيل الجهاز";
+err_create_process = "خطأ في الإستدعاء %s: %s";
+err_write_lock = "قيد الإستعمال من عملية أخرى %? مكونات شبكة\nالرجاء إغلاق كافة التطبيقات الأخرى أو إعادة تشغيل الكمبيوتر ثم المحاولة ثانية";
+err_file_auth = "بعض ملفات هذا التوزيع تالفة أو مفقود\nمرخص %p الرجاء إحصل على توزيع\n(www.cfos.de مثلا من)";
+err_cancel = "تم إلغاء العملية";
+err_no32 = "لا يمكن تثبيت برامج تشغيل 32-بت على أنظمة 64-بت\n\nالنظام : %?\nالمنتج : %?";
+err_bad_keyfile = "ملف المفتاح يبدو أنه تالف أو غير صالح . الرجاء الإتصال بنا للحصول على ملف مفتاح شغال";
+err_bad_setup = "مثبت بشكل غير صحيح %p يبدو أن\nأو بعض الملفات معدل الرجاء إعادة\nجديدة و حاول ثانية %p  تثبيت نسخة";
+err_bad_signature = "كلمة المرور غير صحيحة أو أنها لملف مفتاح مختلف . الرجاء إدخال كلمة المرور المطابقة لملف المفتاح هذا";
+err_gdiplus = "لم يتم العثور على الواجهة البينية + المكتبة\n\nهذا التثبيت يمكن فقط أن يستمر إذا تم تثبيت الواجهة البينية + المكتبة\nيمكنك تحميل الواجهة البينية + المكتبة من\nالقابلة لإعادة التوزيع SDK موقع ميكروسوفت كجزء من\n\nأنقر على 'حسنا' لفتح صفحة التحميل المتعلقة في ميكروسوفت\nأنقر على 'إلغاء الأمر' لإلغاء التثبيت";
+bad_manufacturer = "لا يمكن بدء التثبيت ، لأن المنتج مرخص فقط للجهاز المحدد";
+cannot_install = "لا يمكن التثبيت";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "%2 (%3) إلى %1خطأ في نسخ الملف";
+
+/ warning messages
+wrn_oem_update = "مثبتة مسبقة %p لديك رخصة\n\nأنت على وشك تثبيت نسخة تجريبية عادية\nعند الإستمرار بهذا التثبيت فإن رخصتك سوف لن تعمل\n%p يمكنك الحصول على تحديث لرخصة\nمن حيث إشتريت المنتج\n\nهل تريد الإستمرار بالتثبيت ؟";
+
+/ traffic shaping algorithm
+tsa_header = "(نمط تشكيل حركة المرور (نسخة مستخدم متعدد";
+tsa_subheader = "السلوك الإفتراضي لخوارزمية تشكيل حركة المرور";
+tsa_info = "الرجاء تحديد السلوك الإفتراضي لخوارزمية تشكيل حركة المرور حسب إتصالك بالإنترنت . (يمكنك عمل هذا التحديد لاحقا بشكل منفرد لكل إتصال) ـ";
+
+/ vista warning
+vista_header = "ملاحظة التثبيت";
+vista_subheader = "Windows Vista ملاحظة حول تثبيت برنامج التشغيل مع";
+vista_warn_info = "GlobalSign إلكترونيا مع شهادة من قبل %p تم توقيع\ncFos Software GmbH و هي شركة مرخصة من ميكروسوفت . و مع ذلك فإن\nلا تشارك في شهادة";
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+dun_wizard_name = "%p معالج إتصال";
+connections = "الإتصالات";
+dun_subheader = "إعداد إتصال";
+dun_with_bc = " cFos Broadband Connect مع";
+dun_reenter_password = "الرجاء إعادة كتابة كلمة المرور";
+dun_list_tonline = "جديد T-Online إتصال";
+dun_new_connection = "إعداد إتصال جديد";
+dun_err_no_device = "لم يتم العثور على جهاز %p . (الجهاز يجب أن يكون متوفرا بعد إعادة تشغيل كمبيوترك) ـ";
+
+/ e-mail registration dialog
+eml_header = "تسجيل البريد الإلكتروني";
+eml_subheader = "cFos سجل عنوان بريدك الإلكتروني في";
+eml_info = "الرجاء تسجيل عنوان بريدك الإلكتروني بحيث يمكننا وضعك في قائمة مراسلاتنا لإشعارك عند توفر نسخ جديدة من %p";
+eml_info_optional = "عند تسجيل عنوان بريدك الإلكتروني لدينا سنقوم بوضعك في قائمة مراسلاتنا لإشعارك عند توفر نسخ جديدة من %p";
+eml_email = "عنوان بريدك الإلكتروني:";
+eml_invalid_email = "عنوان البريد الإلكتروني المدخل غير صالح";
+eml_invalid_optional_email = "الرجاء إدخال عنوان بريد إلكتروني صالح أو لا تدخل أي عنوان إطلاقا";
+eml_reg_failed = "فشل تسجيل عنوان البريد إلكتروني";
+eml_checking_domain = "تدقيق نطاق البريد الالكتروني...";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
+cfos_orderurl = "https://www.cfos.de/ar/order/cfos-professional-n.htm";
+budget_file = "budget_e.cfhta";
+report_tpl = "report_e.tpl";
+invkey = "invkey_e.htm";
+aoltec = "techinfo\\aoltec_e.htm";
+cfos_htm = "techinfo\\cfos_e.htm";
+techinfo_htm = "techinfo\\techinfo_e.htm";
+dsldevice_help = "techinfo\\dsldev_e.htm";
+features_htm = "techinfo\\features_e.htm";
+
+lastcallers = "آخر المتصلين";
+clearlist = "مسح القائمة";
+ras_error = "خطأ في تقارير شبكة الإتصال الهاتفي";
+pwd_error = "خطأ بكلمة المرور";
+check_dialup = "الرجاء تأكد من إتصالك الهاتفي";
+/ %1 = number of seconds, %2 = "late"/"early"
+sync = "نحن %1 ثانية %2 : ISDN مزامنة وقت";
+isync = "الساعة كانت %1 أكثر %2";
+
+late = "متأخر";
+early = "مبكر";
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+max_drift = "(أقصى إختلاف للوقت تجاوز %1 دقيقة/دقائق (%2 دقيقة";
+
+nosync = "بدون : ISDN مزامنة وقت";
+nosyncreg = "النسخة الكاملة فقط : ISDN مزامنة وقت";
+inetsync = "مزامنة الوقت مع الإنترنت";
+noinetsync = "وقت المزامنة : النسخة الكاملة فقط";
+conrep = "تقرير الإتصال";
+startserv = "%1 تشغيل خدمة";
+stopserv = "%1 إيقاف خدمة";
+quit = "إنهاء نافذة الحالة";
+order_oem = "بادر بشراء النسخة الاحترافية النظامية الآن!";
+morefeatures = "مميزات أخرى";
+closemsg = "مع الأسف ، هذه النافذة ستبقى مفتوحة لمعلوماتك ، بحيث\n%p تعرف دائما متى تنتهي الفترة التجريبية لـ\n\nيتم إغلاق هذه النافذة تلقائيا %p في النسخة الكاملة من\n%p و تفتح فقط عند الحاجة . مع النقرة باليمين على نافذة\n%p Professional  أو أيقونة الجوار لـ\n%p يمكنك الآن فتح صفحة طلب";
+cfos_endsoon = " أن فترة التجريب خاصتك ستنتهي قريباﱟ. رجاءﱟ بادر بشراء %p Professional الآن! أدخل على صفحة طلب و شراء %p ";
+cfos_expired = " هذا الإصدار من %p  قد انتهت مدته التجريبية. رجاءﱟ بادر بشراء%p/Professional  الآن! أدخل على صفحة طلب و شراء %p أو أتصل بنا على رقم الهاتف: +49-228-7669826 أو الفاكس رقم +49-228-7669827 .";
+actionwait = "سيتم تنفيذ إجرائك المحدد حالما تتصل بالإنترنت";
+discask = "هل تريد فعلا إنهاء هذا الإتصال ؟";
+dial_warn = "الإتصال الهاتفي لـ %1 مسموح به ؟";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+badvsn = "لـ %1 %p هذا هو\nملف المفتاح الذي تستعمله ، يعمل فقط\nلـ %2\nيمكنك الحصول على الترقية من هنا :\nhttps://www.cfos.de/ar/order/order.htm\n\nمؤخرا و لم تكن هذه %p إذا طلبت\nفالرجاء الإتصال بنا %p النسخة الصحيحة من :\n%url/contact/contact.htm";
+
+setup = "إعداد برنامج التشغيل";
+no_write = "%p لا ييسمح بالكتابة إلى ملف بيانات\n%1\n\nالرجاء أطلب من مديرك السماح بالكتابة و التعديل الملفين\nGLOBAL.INI و CFOS.INI على";
+oem_for = "%1 لـ OEM نسخة";
+report_title = "%p تقرير إتصال";
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+group_order_inet = "بادر بشراء%p المتقدم";
+group_wwwcfos = "www.cfos.de";
+group_hypertrm = "Internet Hyperterminal";
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+

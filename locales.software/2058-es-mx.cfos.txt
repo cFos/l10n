@@ -1,0 +1,668 @@
+#language 2058
+#fallback 1034
+#fallback1 1033
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Spanish (Mexico)";
+htm_lang_prefix = "es-mx";
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
+/ ----------------------------------------------------------------------
+/
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+ignore_ssl_cert_chk = "Ignorar errores del certificado SSL (inseguro)";
+ignore_ssl_cert_desc = "Si se permite a cFos Outlook DAV ignorar errores de certificado SSL, puede conectarse a servidores con certificados SSL inseguros, por ejemplo, certificados auto-firmados. Habilitar esta opción no se recomienda generalmente, debido a que hace vulnerable la conexión SSL a ataques de hombre-en-medio.";
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+bc_desc = "%p, Controlador de marcación de alto rendimiento";
+sixlink_desc = "%p, Controlador de marcación IPv6 de alta velocidad";
+pnet_desc = "%p, su servidor web personal";
+renew_params = "Renovar parámetros";
+dlg_dun_auto = "Auto-conectar";
+dlg_dun_default = "Conexión por omisión";
+dlg_dun_cons = "Perfiles de conexión";
+dlg_dun_name = "Nombre de la conexión:";
+dlg_dun_uname = "Nombre de usuario:";
+dlg_dun_pwd = "Contraseña:";
+dlg_dun_use_ipv4 = "Usar IPv4";
+dlg_dun_use_ipv6 = "Usar IPv6";
+dun_connect_to = "¿Conectar a %?";
+dun_err_already_exists = "El nombre de marcación ya existe.";
+disconnect = "Desconectar ";
+setup_connections = "Configurar conexiones";
+ask_inst_ipv6 = "El protocolo IPv6 no ha sido instalado ene ste sistema.\n\n"
+                "¿Le gustaría instalar el protocolo IPv6 ahora?";
+err_inst_ipv6 = "Error %? al instalar el protocolo IPv6.";
+
+/ connection entry dialog
+con_err_save = "¡No pueden guardarse los datos de conexión!";
+con_private_address = "Dirección privada:";
+con_prefix = "Prefijo:";
+con_enabled = "habilitado";
+
+/ pnet configuration dialog
+pnet_header = "Opciones Comunes";
+pnet_subheader = "Ajustar opciones comunes.";
+pnet_conn_header = "Conexión";
+pnet_conn_subheader = "Opciones de configuración de la conexión.";
+pnet_conn_local_ip = "Dirección IP local %?";
+pnet_conn_public_ip = "Dirección IP pública %?";
+pnet_pubdir_header = "Directorio Público";
+pnet_pubdir_subheader = "Directorio que contiene los archivos descargables.";
+pnet_pubdir_info = "Especifique por favor la ubicación de la carpeta donde se localizan los archivos que quiere estén disponibles para descarga.";
+smtp_header = "Servidor SMTP";
+smtp_subheader = "Configure los servidores SMTP.";
+dynip_header = "Servidor de IP dinámica";
+dynip_subheader = "Configure el servidor de IP dinámica";
+dlg_start_now_as_current_user = "Iniciar %p ahora como usuario actual";
+dlg_autostart = "Iniciar %p cuando arranque Windows";
+dlg_autostart_service = "Instalar %p como servicio del sistema e iniciar cuando Windows arranque";
+dlg_context_menu = "Añadir una entrada al menú contextual del Explorador de Windows";
+dlg_create_admin_account = "Crear cuenta administrativa";
+dlg_admin_pwd = "Contraseña para usuario \"admin\":";
+dlg_admin_pwd_needed = "La contraseña para el usuario \"admin\" debe ser fijado para crear la cuenta de administrador.";
+dlg_register_shell_extension = "Registrar la extensión para el Shell";
+dlg_server_port = "Puerto del Servidor:";
+dlg_server_name = "Nombre del Servidor:";
+dlg_server = "Servidor:";
+dlg_https_port = "Puerto HTTPS:";
+dlg_renew_interval = "Intervalo de renovación (ms):";
+dlg_redirect_delay = "Retardo de redirección (ms):";
+dlg_monitor_ports = "Asignación de puerto del Monitor";
+dlg_enable_upnp = "Habilitar el Servidor Multimedios (UPnP/DLNA)";
+dlg_upnp_info = "Coloque los archivos de medios en el subdirectorio 'media' de su directorio público.";
+use_https_port = "Use el puerto HTTPS";
+
+/ pnet start type dialog
+pnet_start_header = "Tipo de Inicio";
+pnet_start_subheader = "¿Cómo debe iniciar el programa?";
+pnet_start_mode = "Iniciar %p:";
+pnet_start_login = "al iniciar (recomendado)";
+pnet_start_system = "como servicio del sistema";
+pnet_start_manual = "manualmente";
+pnet_start_info = "Se recomienda iniciar %p automáticamente si inicia sesión. "
+                  "Si %p debe también iniciar si no se inicia sesión, debe iniciarlo como un servicios del sistema. "
+                  "Sin embargo, en ese caso no habrá icono en la barra de tareas ni menú contextual. "
+                  "Si desea hacer sus datos públicos sólo ocasionalmente, inicie %p manualmente.";
+
+/ pnet context menu entry
+publish_with_product = "Publicar con %p";
+
+/ pnet backup info
+dlg_backup_info = "Un archivo de respaldo (.bak) se ha creado para cada uno de los siguientes archivos antes de haber sido reemplazados:";
+
+/ pnet
+end_program = "Terminar Programa";
+file_copy_failed = "Operación de copia de archivos fallida.";
+ipv4_bind_problem = "El servidor no puede escuchar en el puerto especificado con IPv4, debido a que es usado por otra aplicación (Skype por ejemplo).";
+ipv6_bind_problem = "El servidor no puede escuchar en el puerto especificado con IPv6, debido a que es usado por otra aplicación (Skype por ejemplo).";
+closing_server = "El servidor se está cerrando.";
+start_product = "Iniciar %p";
+info_port_in_use = "El puerto %? que necesita %p se encuentra en uso por otro programa.\n\nPrograma: %?\nTrayectoria: %?\n\n"
+                   "Para usar %p, debe terminar el otro programa o elegir otro puerto en la configuración de %p.";
+monitor_port_desc = "Esta tarea monitorea periódicamente los puertos necesitados por %p y alerta al usuario en caso de que uno de los puertos sea usado por otro programa.";
+logon_start_desc = "Esta tarea inicia %p si inicia sesión el usuario mostrado a continuación.";
+show_home_dir = "Mostrar Directorio Inicial";
+publish_file = "Publicar Archivo";
+user_administration = "Administración de Usuarios";
+
+/ pnet connectivity test
+connectivity_test = "Prueba de Conectividad";
+con_test_subheader = "Por favor espere a que la prueba de conectividad haya finalizado.";
+con_test = "Prueba de Conectividad de %p";
+con_test_not_running = "No puede realizarse la prueba de conectividad, dado que %p no se está ejecutando. Por favor inicie %p e intente nuevamente realizar la prueba de conectividad.";
+con_test_public_fail = "No puede determinarse su dirección IP pública. Por favor asegúrese que está conectado a Internet y después repita la prueba.";
+con_test_execute = "Ejecutar la prueba de conectividad";
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+
+auth_failed = "La verificación de consistencia ha detectado que uno o más componenetes han sido modificados.\n"
+   "Por favor instale una versión no modificada desde nuestro sitio web:\n";
+
+component_mismatch = "Existe un conflicto de versiones entre componentes "
+                     "de este programa. Por favor, reinstale la versión más reciente.";
+trayicon_tip = "Internet más veloz con Perfilado de Tráfico, www.cfos.de";
+speed_endsoon = "¡Su periodo de prueba está a punto de finalizar! ¡Por favor compre %1 hoy mismo!";
+order_info = "Compre ahora:\n"
+             "Internet: www.cfos.de\n"
+             "Por teléfono: +49-228-7669826";
+badkey = "Hay un problema con la clave de licencia.\n"
+         "Por favor reinstale la clave haciendo doble clic en el\n"
+         "archivo original, el cual recibió por correo electrónico o en un diskette.";
+no_setup = "Incapaz de iniciar la instalación (setup.exe).";
+no_cmd = "Incapaz de abrir el Símbolo del Sistema (cmd.exe)!";
+ask_disconnect_ras = "Una conexión de red actualmente activa está a punto de ser reconfigurada.\n"
+                     "Se recomienda que se desconecte antes de continuar.\n"
+                     "¿Desconectar la conexión de red actual?";
+sygate_hint = "%p ha detectado la ejecución de Sygate Firewall, que confunde el\n"
+              "pulso de calibración de %p por un ataque de Denegación de Servicio con\n"
+              "paquetes de \"Ping-de-la-Muerte\".\n"
+              "Por tanto, debería realizar una descarga y después una carga a toda\n"
+              "velocidad por unos 30 segundos, respectivamente. Esto debería calibrar\n"
+              "a %p como el pulso de calibración.\n\n"
+              "Tip: La función del firewall \"Anti manipulación de IP\" debería estar\n"
+              "desactivada.";
+select_language = "Elija el Idioma";
+translator = "Traductor";
+translator_name = "Dayán Pedro Huerta Cadena";
+translator_msg = "Espero mi traducción sea comprensible. Saludos.";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "Su licencia %3 caducará en %1 %2.";
+
+service_desc = "Realiza una medición de la latencia y operaciones privilegiadas para %p";
+no_pings_error = "Los paquetes de ping enviados por %p parecen no estar logrando llegar. "
+                 "Sin estos paquetes,el Traffic Shapping %p no puede funcionar adecuadamente. "
+                 "Haga clic aquí para ayuda";
+other_languages = "Otros idiomas";
+install_dir = "Directório de instalación: ";
+ask_clear_tsdata = "¿Limpiar los datos del Traffic Shaping y comenzar una nueva calibración de la línea?";
+allow_traffic_shaping = "Permitir el Traffic Shaping para esta conexión";
+none = "ninguno";
+lic_expired = "Su periodo de prueba ha terminado. El %1 ha sido desactivado. ¡Adquiera el %1 hoy!";
+settings = "Configuraciones";
+winsettings = "Configuraciones de las ventanas";
+openwindow = "Mostrar ventana";
+openwindows = "Mostrar ventanas";
+closewindow = "Esconder ventana";
+closewindows = "Esconder ventanas";
+autoopen = "Mostrar/esconder automáticamente";
+taskbaricon = "Icono en la bandeja de sistema";
+autoarrange = "Auto-organizar las ventanas";
+effects = "Efectos";
+blend_effect = "Desvanacer las ventanas";
+slide_effect = "Deslizar las ventanas";
+win_behaviour = "Usar el comportamiento predeterminado del sistema";
+selectskin = "Elegir piel";
+topmost = "Siempre en cima";
+defpos = "Posición predeterminada";
+disco_ras = "Terminar la sessión ";
+config = "Opciones";
+order = "¡Adquiera ahora!";
+dayl_singular = "día";
+dayl_plural = "días";
+days_singular = "día";
+days_plural = "días";
+/ %1=number, %2="day/days"
+short_try = "Pruebe durante %1 %2";
+short_dexpire = "Expirado %1 %2";
+
+short_exp = "¡Expirado!";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "Su periodo de evaluación ha caducado para el %1 %2. ¡Adquiera %3 hoy!";
+lic_try = "Puede probar al %3 durante %1 %2 antes de tener que comprarlo.";
+
+enable_win = "¿Habilitar el estado de la ventana?\n\n"
+   "La ventana de estado muestra el estado de su conexión activa.";
+license = "Licencia";
+licensed_to = "Registrado a nombre de %?";
+upgrade = "Obtenga la última versión";
+connect_to = "Conecte a";
+make_own_skin = "Diseñe su propia piél";
+click_through = "Haga clic a través";
+ask = "Preguntar";
+off = "Apagado";
+on = "Encendido";
+note = "Nota";
+deactivated = "desactivado";
+browser_warning = "¡El Internet Explorer versión 8 o mas reciente es la recomendada para este cuadro de diálogo!";
+ole_error = "Para poder usar este dialogo de configuración,\\n%p deberá estar instalado y ejecutándose en su computadora.\\n Por favor verifique esto y vuelva a instalar, de ser necesario.";
+ts_settings = "Configuraciones del Traffic Shaping";
+preferences = "Preferencias";
+prio_protocols = "Priorizando protocolos";
+protocol = "Protocolo";
+protocols = "Protocolos";
+prio_programs = "Priorizando progromas";
+program = "Programa";
+programs = "Programas";
+current_connections = "Conexiones actuales";
+current_connections_advanced = "Conexiones actuales (Avanzado)";
+current_connections_standard = "Conexiones actuales (Normal)";
+ts_prios = "Prioridades del Traffic Shaping";
+client_protocols = "Protocolos de cliente";
+server_protocols = "Protocolos de servidor";
+client_server_protocols = "Protocolos de cliente y servidor";
+media_streaming = "Media Streaming";
+file_sharing = "Compartir archivos";
+special = "Especial";
+other = "Otros";
+misc_high_short = "Varios alto";
+misc_high = "Tráfico variado con alta prioridad";
+hint = "Consejo";
+hint_text = "La priorización funcionará debidamente solamente si se le asignara una cantidad pequeña y controlada de datos. A los programas que envien grandes cantidades de datos se les debe asignar una prioridad baja. La priorización de los protocolos es realizada antes que la priorización de los programas.";
+prio_doc_link = "¿Cómo funciona el esquema de priorización?";
+save_protocols = "Guardar los protocolos";
+undo = "Deshacer";
+filter_selection = "Filtrar selección";
+higher = "Mas alto";
+high = "Alto";
+normal = "Normal";
+default = "Predeterminado";
+low = "Bajo";
+lower = "El más bajo";
+entries = "Entradas";
+prog_overwrite = "El programa #p ya se encuentra en la lista.\\n ¿desea sobreescribir la entrada con los nuevos valores?";
+games = "Juegos";
+voip = "Voz-sobre-IP";
+remote_control = "Control Remoto";
+prog_hint_text = "La priorización funcionará debidamente solamente si se le asignara una cantidad pequeña y controlada de datos. A los programas que envien grandes cantidades de datos se les debe asignar una prioridad baja. La priorización de los protocolos es realizada antes que la priorización de los programas.<br />";
+save_priorities = "Guardar prioridades";
+delete = "Borrar";
+aux_lines = "Líneas auxiliares";
+higher_prog_help = "Voice-over-IP, quizás juegos en línea";
+high_prog_help = "Juegos, Streamed Media, Telnet y otros programas interactivos";
+low_prog_help = "Datos de servidor, datos FTP";
+lower_prog_help = "Tráfico permanente en segundo plano, como el compartir archivos";
+delete_help = "Remover de la lista (ej., tratar los paquetes como normal).";
+prog_help = "La transferencia de los paquetes marcados ocmo de baja (o la más baja) prioridad será ralentizada solamente si hubieran datos etiquetados ocn mayor prioridad y siendo procesados en ese momento en particular. En caso contrario, los datos marcados como de baja proridad osn transmitidos a maxima velocidad.";
+filename = "Nombre de archivo";
+description = "Descripción";
+new_program = "Añadir programa";
+restore_defaults = "Restablecer valores predeterminados";
+add = "Añadir";
+suggest_program = "Sugiera este programa al equipo de cFos";
+l7_prot_detection = "Detección del protocolo de capa-7";
+l7_prot_detection_help = "Detecta protocolos al analizar los datos. Use el dialogo 'Priorizar protocolos' para cambiar la prioridad de losvarios protocolos. si usted desactiva esta opción, los protocolos serán detectados según el numero de puerto usado.";
+favor_ping = "Favorecer el tiempo de Ping";
+favor_ping_help = "<b>Encendido</b>: %p minimizará los tiempos de ping al costo de un ligera baja en el ancho de banda (de ser necesario).<br /><b>apagado</b>: %p maximizará el ancho de banda al pequeño costo de aumentar un poco los tiempos de ping (de ser necesario).";
+favor_bandwidth = "Favorecer el ancho de banda";
+avoid_loss = "Evitar la perdida de paquetes";
+avoid_loss_help = "%p cierra las ventanas de recepción del TCP para el stream de entrada si se llega a detectar demasiadas perdidas de paquetes. Esto solo suele suceder cuando sus conexiones están recibiendo a velocidad máxima. (Recomendado para un Traffic Shaping mejorado de las descargas)";
+activate_firewall = "Activar el Firewall";
+activate_firewall_help = "Protección contra las intrusiones en la red mediante el filtrado de los paquetes peligrosos,inspección del estado y del modo escondido o stealth.";
+mtu_opt = "Optimización automática MSS (MTU)";
+mtu_opt_help = "Ajusta el MSS/MTU para la velocidad máxima de transferencia. Por lo general, los valores variando entre el rango de 1500/1492 producen las velocidades mayores.";
+strict_rtp = "chequeos estríctos RTP";
+strict_rtp_help = "De estar activados, %p reconocerá solamente a aquellos paquetes como siendo RTP simepre y cuando contengan un ID valido de la fuente RTCP. Usted debiera desactivar esta opción para los programas que usen los protocolos Voice-over-IP (como el VoIPBuster) que no envían paquetes RTCP. Solamente active esta opción si el tráfico está siendo erroneamente clasificado como RTP.";
+ts_config = "%p configuración del Traffic Shaping";
+dialup_connection = "Conexión de discado";
+dialup_connections = "Conexiones de discado";
+traffic_shaping = "Traffic Shaping";
+ras_con_help = "<b>Si</b>: activar, <b>no</b>: desactivar, <b>preguntar</b>: pregunta una vez y luego guarda la configuración";
+router_connections = "conexiones del enrutador";
+net_components = "componentes de Red";
+router_help = "<b>Si</b>: activar, <b>no</b>: desactivar, <b>auto</b>: habilita el Traffic Shaping, si el router es encontrado dentro de este componente de red";
+network_adapter = "Tarjeta de red";
+router = "Enrutador";
+and_save_settings = "y guarda las configuraciones";
+border = "Borde";
+budget = "Cuota";
+budget_settings = "configuraciones de Cuota";
+budget_title = "%p Cuotas en línea";
+budgets = "Cuotas en línea";
+graph_title = "Gráfico del uso";
+hard_limit = "Límites<br>en bruto";
+hard_limit_help_not_set = "Una cuota sobrepasada será indicada solamente en la ventana de estado";
+hard_limit_help_set = "Los paquetes serán dejados caer si es que la cuota es sobrepasada";
+last_3_months = "Ultimos 3 meses";
+last_month = "Ultimo mes";
+last_12_months = "Ultimos 12 meses";
+please_select = "Por favor elija";
+reset_day = "Resetear el día";
+reset_day_unit = "día del mes";
+rxtx_button = "Selección RX/TX";
+save_budgets = "Guardar las cuotas";
+show_for = "Mostrar para";
+this_month = "este mes";
+time = "Tiempo";
+time_limit = "Límite de tiempo";
+volume = "Volumen";
+volume_limit = "Límite del Volumen";
+spdbudget_help = "Para usar una cuota, sírvase ir al diálogo de las preferencias y asígnelo a alguna conexión en particular";
+password_bad = "Contraseña mala";
+sum_button = "cumulativo";
+calibrate = "Calibrar línea";
+test_pings = "Enviar pings de prueba";
+open_console = "Abrir la consola de %p";
+variable_bandwidth = "Ancho de banda variable";
+def_bandwidth_help = "Predeterminado para las <b>nuevas</b> conexiones";
+cur_bandwidth_help = "Configuraciones para la conexión actual";
+no_ports_open = "No se pudo establecer una conexión.";
+no_ports_open_help = "En el presente, no hay conexión establecida que esté siendo manejada por %p. "
+   "Para cambiar las configuraciones predeterminadas para las nuevas conexiones, haga click en la pestaña \"Predeterminado para conexiones nuevas\", "
+   "para cambiar las ocnfiguraciones para otras conexiones, haga click en \"Traffic Shaping\" en el lado izquierdo.";
+ok = "OK";
+connection_medium = "Medio de conexión de banda Ancha ";
+connection_type = "Modo del Traffic Shaping";
+driver_not_loaded = "¡El Driver no se ha podido cargar!";
+demon_driver_not_loaded = "¡El Driver no se ha podido cargar!\n"
+   "Quizas la instalación esté dañada.\n"
+   "Por favor, vuelva a instalar %p.\n";
+asus_demon_driver_not_loaded = "Vuelva a instalar %p luego de hacer la actualización a un nuevo sistema operativo.\nsírvase visitar la pagina web de ASUS en la dirección %w para obtener la última versión de %p.";
+many_cons_error = "El traffic shapping de RX de %p está siendo usada a su límite debido a que hay demasiadas conexiones. Con menos conexiones el programa rendirá mejor. Haga click aquí para obtener más ayuda.";
+limit_bandwidth = "Límite de ancho de banda para la conexión actual";
+rx_limit = "Límite RX";
+tx_limit = "Límite TX";
+apply_limits = "Aplicar Límites";
+limit_help = "Valores en kbyte/s, incluyendo a todas las cabeceras de los protocolos, 0 = sin límites.";
+enable_speed_shaping = "Habilitar Perfilado de Tráfico";
+disable_speed_shaping = "Deshabilitar Perfilado de Tráfico";
+yes = "Sí";
+no = "No";
+help = "Ayuda";
+blocklist = "Bloqueo de IP";
+blocklist_help = "Listado de direcciones IP para las cuales se ha bloqueado todo el tráfico.";
+apply_blocklist = "Usar listado de filtro";
+search = "Buscar";
+budget_connection = "Configurar el presupuesto que usará cada conexión";
+reset = "Reiniciar";
+autohide_on_fullscreen = "Auto-ocultar en pantalla completa";
+slot_selected = "Protocolos / Programas seleccionados";
+show = "Mostrar";
+hide = "Ocultar";
+slot_explain = "Si un paquete de datos tiene un protocolo conocido y el protocolo ha sido "
+               "asignado a una ranura, el tráfico de ese paquete es contado en la ranura. "
+               "De otro modo, si el paquete pertenece a una conexión o a un nombre de programa "
+               "que ha sido asignado a una ranura, el tráfico será contado para esa "
+               "ranura.  Si tampoco es el caso, el tráfico es contado en la"
+               "ranura donde se cuenta todo el otro tráfico, si está activa.";
+traffic_analysis_title = "Análisis de Tráfico en Tiempo Real";
+other_traffic = "Todo el otro tráfico";
+traffic_analysis = "Análisis de Tráfico";
+slot = "Ranura";
+slots = "Ranuras";
+slots_title = "Configuración de Ranura";
+can_select_multiple = "Tip: Puede elegir múltiples opciones manteniendo presionada la tecla Shift o Ctrl mientras elige una opción";
+name_for = "Nombre para ";
+set_name = "Fijar nombre";
+rx_only = "Sólo RX";
+tx_only = "Sólo TX";
+max_of_rx_tx = "Máximo de RX y TX";
+total_rx_only = "Velocidad RX Total";
+total_tx_only = "Velocidad TX Total";
+nettalk_rx = "Velocidad de RX Net Talk";
+nettalk_tx = "Velocidad de TX Net Talk";
+nettalk_max_of_rx_tx = "Máximo de Net Talk RX y TX";
+total_max_of_rx_tx = "Máximo de Total RX y TX";
+check_if_other_also = "Active si desea que todo el otro tráfico se cuente en esta ranura";
+performance_help = "Para ahorrar el máximo poder de cómputo, recomendamos ajustar la conexión que usa para Internet a 'Sí' y todas las demás a 'No'.";
+loading = "Cargando...";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
+regid = "No cooperativo";
+regid_help = "Se detectó un dispositivo win Perfilado de Tráfico de cFos en la red";
+regid_help_long = "Emplea su conexión de manera simultánea con otros dispositivos y al menos uno de ellos no cuenta con el Perfilado de Tráfico de cFos.";
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+net_talk = "Net Talk";
+net_talk_help = "Difundir estadísticas de tráfico en su LAN";
+net_talk_help_long = "Para mejorar la precisión, enviar estadísticas de Perfilado de Tráfico a otras computadoras en su red local. No se envían datos a la Internet.";
+net_talk_subheader = "Por favor elija si debería usarse la característica Net_Talk.";
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+vari_fixed = "Compensar por Variación de Ping (Ping Jitter)";
+vari_fixed_help = "Usar Perfilado de Tráfico avanzado para compensar tiempos de ping variantes";
+vari_fixed_help_long = "Colectar estadísticas de ping para compensar la variación en los tiempos de ping; especialmente útil para conexiones móviles/inalámbricas. Recomendamos mantener habilitada esta opción también para todos los otros tipos de conexión.";
+
+set = "Fijar";
+tx_limit_help = "Introduzca la velocidad en bytes/seg o porcentaje que este programa o protocolo tiene permitido enviar.";
+download_more_skins = "Descargar más pieles";
+documentation = "Documentación";
+exit_demon = "Salir";
+speed_test = "Prueba de Velocidad de cFos";
+ask_key_banned_info = "Se ha encontrado un problema con su clave de licencia.\n¿Le gustaría mayor información?";
+
+adapter_info = "Información del Adaptador";
+channel_recommend = "Canales con uso menos frecuente (mejor a peor)";
+channel_explain = "Puede emplear el uso de canales para configurar su estación inalámbrica, pero sea consciente que el uso de frecuencias actual depende de la utilización particular de otras redes inalámbricas. Algunas pueden estar en reposo, algunas otras pueden ser fuertemente usadas.";
+no_adapters = "No hay disponible información del adaptador.";
+wlan_no_service = "Servicio no disponible. Por favor instale o inicie la API para redes inalámbricas para Windows (WZC).";
+wlan_no_station = "No se encontraron suficientes Puntos de Acceso.";
+kaspersky_hint = "Kaspersky Internet Security 2010 puede causar problemas con %p. Por favor actualice a la última versión de Kaspersky Internet Security.";
+
+console_cancel = "Cancelar";
+console_freeze = "Congelar";
+console_continue = "Continuar";
+console_help = "Puede priorizar una conexión individual haciendo clic en sobre ésta en la tabla inferior.<br/>Las conexiones marcadas con (*) están priorizadas temporalmente.";
+console_prio = "Priorizar esta conexión";
+console_prio_off = "Apagar la priorización";
+console_prio_this = "Sólo priorizar temporalmente esta conexión";
+console_prio_this_off = "Apagar priorización para esta conexión";
+console_prio_prot = "Priorizar temporalmente el protocolo";
+console_prio_prot_off = "Apagar temporalmente la priorización del protocolo";
+console_prio_prog = "Temporalmente priorizar el programa";
+console_prio_prog_off = "Apagar temporalmente la priorización del programa";
+console_prio_prog_prot = "Priorizar temporalmente programa y protocolo";
+console_prio_prog_prot_off = "Apagar temporalmente la priorización del programa y protocolo";
+console_prio_prot_perm = "Priorizar permanentemente el protocolo";
+console_prio_prog_perm = "Priorizar permanentemente el programa";
+console_prio_advanced = "Priorización avanzada";
+
+new_version_available = "Hay una nueva versión disponible";
+update_beta = "También verificar nuevas versiones beta";
+update_skip_version = "No más notificaciones para esta versión:";
+check_new_version_now = "Buscar ahora una nueva versión";
+program_updates = "Actualizaciones del programa";
+no_new_version_available = "No hay una versión nueva disponible";
+use_logitech = "Emplear la pantalla de Logitech G15/G19/G510";
+detect_logitech = "Detección de pantalla de Logitech";
+logitech_help = "Ayuda de pantalla Logitech";
+logitech_keyboards = "Teclado de juegos Logitech";
+keyboard_leds = "LEDs del teclado";
+keyboard_led_help = "Ayuda de LED del teclado";
+only_on_fullscreen = "Sólo en pantalla completa";
+speed_guide = "Guía de Velocidad";
+lock_position = "Fijar posición de la ventana";
+check_for_news = "Buscar noticias";
+rwin_expansion = "Expansión RWIN automática";
+rwin_expansion_help = "Expandir automáticamente la Ventana de Recepción de TCP para incrementar la velocidad de descarga si la RWIN elegida por Windows es demasiado baja.";
+query_auto_open = "¿Deshabilitar la apertura y cierre de la ventana de estado?\nPuede habilitarla posteriormente en el menú contextual.";
+preview_skins = "Visualizar pieles";
+enable_smartphone_skins = "Pieles para Teléfono";
+http_access_enabled = "Se ha establecido la contraseña, se permite el acceso remoto a HTTP.";
+http_access_disabled = "No se ha establecido una contraseña, el acceso remoto a HTTP está prohibido.";
+set_server_pwd = "Establecer Contraseña del Servidor";
+auto_arrange_top = "Arriba";
+auto_arrange_bottom = "Abajo";
+show_on_metro_apps = "Mostrar en las aplicaciones Metro";
+traffic_shaping_info = "Información de Perfilado de Tráfico";
+wlan_access_point = "Punto de acceso Wi-Fi";
+prioritize_foreground_process = "Priorizar proceso en la ventana en primer plano";
+prioritize_foreground_help = "Automáticamente establecer la prioridad del proceso en la ventana oculta a Alta.";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+
+/ URLs
+
+/ wizard
+
+/ welcome page
+
+/ uninstall welcome page
+
+/ brand key welcome page
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+
+/ restore point dialog
+/ %1 = product name
+
+/ password dialog
+
+/ serial number dialog
+/ the %? will be replaced by the error number:
+
+/ new 16 digit serial number dialog
+
+/ re-enter password dialog
+
+/ installation directory dialog
+
+/ tcp settings dialog
+
+/ hang up online connection dialog
+
+/ usage statistics
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+
+/ crash handler messages
+
+/start installation dialog
+
+/ progress dialog
+
+/ confirm delete dialog
+
+/ finish page
+
+/ uninstall finish page
+
+/ brandkey finish page
+
+/ progress tasks
+
+/ connectivity test progress tasks
+
+/ program group
+
+/ desktop symbol
+
+/ message boxes
+
+/ error messages
+/ %1 = source, %2 = destination, %3 = explanation
+
+/ warning messages
+
+/ traffic shaping algorithm
+
+/ vista warning
+
+/ dial entry dialog
+
+/ e-mail registration dialog
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+

@@ -1,0 +1,1247 @@
+#language 1028
+#fallback 2052
+#fallback1 1033
+#charset 136
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Traditional Chinese";
+language_local = "正體中文";
+htm_lang_prefix = "zh-tw";
+
+/ ----------------------------------------------------------------------
+/
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+ignore_ssl_cert_chk = "忽略 SSL 憑證錯誤（不安全）";
+ignore_ssl_cert_desc = "若允許 cFos Outlook DAV 忽略 SSL 憑證錯誤，就可以連線至使用不安全 SSL 憑證的伺服器（例如自簽憑證伺服器）。通常不建議您開啟此選項，因為這樣會造成 SSL 連線可能受到中間人攻擊的威脅。";
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
+bc_orderurl = "https://www.cfos.de/zh-tw/order/broadband-connect-n.htm";
+bc_langurl = "";
+bc_pg_name = "%p";
+bc_desc = "%p，高效能撥接驅動程式";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/zh-tw/order/cfos-ipv6-link-n.htm";
+sixlink_pg_name = "%p";
+sixlink_desc = "%p，高速 IPv6 撥接驅動程式";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/zh-tw/order/cfos-personal-net-n.htm";
+cfospnet_langurl = "";
+pnet_pg_name = "%p";
+pnet_desc = "%p，您的個人網頁伺服器";
+renew_params = "更新參數";
+dlg_dun_auto = "自動連線";
+dlg_dun_default = "預設連線";
+dlg_dun_cons = "連線設定檔";
+dlg_dun_name = "連線名稱：";
+dlg_dun_uname = "用戶名：";
+dlg_dun_pwd = "密碼：";
+dlg_dun_use_ipv4 = "使用 IPv4";
+dlg_dun_use_ipv6 = "使用 IPv6";
+dun_connect_to = "連線至 %?";
+dun_err_already_exists = "您所輸入的連線名稱已存在。";
+disconnect = "中斷 ";
+setup_connections = "設定連線";
+ask_inst_ipv6 = "此系統尚未安裝 IPv6 協定。\n\n"
+                "要現在安裝 IPv6 協定嗎？";
+err_inst_ipv6 = "安裝 IPv6 協定時發生錯誤 %?。";
+
+/ connection entry dialog
+con_err_save = "無法儲存連線資料！";
+con_ipv4 = "IPv4";
+con_ipv6 = "IPv6";
+con_private_address = "私人位址：";
+con_prefix = "前置碼：";
+con_dns1 = "DNS1：";
+con_dns2 = "DNS2：";
+con_enabled = "已啟用";
+
+/ pnet configuration dialog
+pnet_header = "一般設定";
+pnet_subheader = "調整一般設定。";
+pnet_conn_header = "連線";
+pnet_conn_subheader = "連線選項設定";
+pnet_conn_local_ip = "本機 IP 位址 %?";
+pnet_conn_public_ip = "實體 IP 位址 %?";
+pnet_pubdir_header = "公用目錄";
+pnet_pubdir_subheader = "包含可下載檔案的目錄。";
+pnet_pubdir_info = "請指定可下載檔案的目錄。";
+smtp_header = "SMTP 伺服器";
+smtp_subheader = "設定 SMTP 伺服器";
+dynip_header = "動態 IP 伺服器";
+dynip_subheader = "設定動態 IP 伺服器";
+dlg_start_now_as_current_user = "以目前的使用者啟動 %p";
+dlg_autostart = "伴隨 Windows 啟動 %p";
+dlg_autostart_service = "以服務的型態安裝 %p，並在 Windows 啟動時也啟動這個服務";
+dlg_context_menu = "在 Windows 檔案總管右鍵選單裏加上項目";
+dlg_create_admin_account = "建立管理員帳號";
+dlg_admin_pwd = "使用者「admin」的密碼：";
+dlg_admin_pwd_needed = "必須輸入使用者「admin」的密碼才能建立管理員帳號。";
+dlg_register_shell_extension = "新增滑鼠右鍵選單";
+dlg_server_port = "伺服器連接埠：";
+dlg_server_name = "伺服器名稱：";
+dlg_server = "伺服器：";
+dlg_https_port = "HTTPS 埠：";
+dlg_renew_interval = "更新間隔（千分之一秒）：";
+dlg_redirect_delay = "重新導向延遲（千分之一秒）：";
+dlg_monitor_ports = "監控連接埠分配";
+dlg_enable_upnp = "啟用多媒體伺服器（UPnP/DLNA）";
+dlg_upnp_info = "多媒體檔案放在公開目錄下的「media」子目錄中";
+use_https_port = "使用 HTTPS 埠";
+
+/ pnet start type dialog
+pnet_start_header = "啟動類型";
+pnet_start_subheader = "程式應該如何啟動？";
+pnet_start_mode = "啟動 %p：";
+pnet_start_login = "登入時（建議使用）";
+pnet_start_system = "系統服務";
+pnet_start_manual = "手動";
+pnet_start_info = "我們建議在使用者登入的時候就啟動 %p，如果 %p 在沒有使用者登入的情況下也要執行，您應該選擇以「系統服務」方式啟動，但這樣就不會在工作列上出現圖示及右鍵選單。如果只是偶爾要公開您的資料，建議手動啟動 %p。";
+
+/ pnet context menu entry
+publish_with_product = "和 %p 一起發佈";
+
+/ pnet backup info
+dlg_backup_info = "已為下列被取代的檔案建立備份檔（.bak）：";
+
+/ pnet
+end_program = "結束程式";
+file_copy_failed = "檔案複製失敗。";
+ipv4_bind_problem = "伺服器無法在 IPv4 的特定連接埠上連立連線，因為該連接埠已被其它程式（例如：Skype）使用。";
+ipv6_bind_problem = "伺服器無法在 IPv6 的特定連接埠上連立連線，因為該連接埠已被其它程式（例如：Skype）使用。";
+closing_server = "伺服器已關閉。";
+start_product = "啟動 %p";
+info_port_in_use = "%p 要使用的連接埠 %? 正被其它程式使用。\n\n程式：%?\n路徑：%?\n\n要使用 %p，您必須結束該程式或是設定 %p 使用其它連接埠。";
+monitor_port_desc = "本程式持續監控 % 要使用的連接埠，若連接埠被其它程式使用，便會警告使用者。";
+logon_start_desc = "以下的使用者登入時，本任務就會啟動 %p。";
+show_home_dir = "顯示使用者家目錄";
+publish_file = "發佈檔案";
+user_administration = "使用者管理";
+
+/ pnet connectivity test
+connectivity_test = "連線測試";
+con_test_subheader = "請稍候連線測試完成。";
+con_test = "%p 連線測試";
+con_test_not_running = "因為尚未執行 %p，無法進行連線測試。請先啟動 %p 再進行連線測試。";
+con_test_public_fail = "無法確認您的實體 IP 位址，請確定已連線至網際網路再進行測試。";
+con_test_execute = "進行連線測試";
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+ga_service_desc = "cFos Game Analyzer - 取得效能資料";
+ga_speed_installed = "看來 cFosSpeed 已安裝於您的電腦。\n\ncFosSpeed 已包含了 cFos Game Analyzer 所需的功能。\n\n若需要 cFos Game Analyzer 的最新功能，請直接到 www.cfos.de 下載安裝最新版的 cFosSpeed。";
+local_ip_addresses = "本機 IP 地址:";
+ga_password_subheader = "cFos Game Analyzer 的外部存取密碼。";
+ga_password_info = "使用者名稱: cfosspeed";
+ga_call_info = "在您的電腦上開啟\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n以存取 cFos Game Analyzer。\n\n若需從外部裝置存取 cFos Game Analyzer，請使用上述密碼登入，並使用下列任一個 IP 地址取代「localhost」進行連線:\n";
+ga_detected_by_speed = "偵測到您的電腦中安裝了 cFos Game Analyzer。cFosSpeed 已包含了 cFos Game Analyzer 的全部功能。\n\n若繼續，將會先移除 cFos Game Analyzer 再安裝 cFosSpeed。\n\n您要繼續嗎？";
+ga_use_password_by_speed = "cFosSpeed 是否應該繼續使用 cFos Game Analyzer 的密碼，讓您能自其他裝置存取 cFosSpeed？";
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
+speed_orderurl = "https://www.cfos.de/zh-tw/order/cfosspeed-n.htm";
+speed_langurl = "%url/cfosspeed/documentation/lang.htm";
+make_own_skin_url = "%url/skin/skin.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+many_cons_help = "%url/cfosspeed/documentation/bittorrent.htm";
+mainurl_name = "www.cfos.de";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+documentation_url = "%url/cfosspeed/documentation/index.htm";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+speed_test_url = "http://www.cfosspeed.de/speed-test/speed-test_zh-tw.htm";
+beta_url = "%url/beta/index.htm";
+keyboard_led_help_url = "%url/cfosspeed/documentation/keyboard-leds.htm";
+logitech_help_url = "%url/cfosspeed/documentation/logitech-keyboard.htm";
+speed_guide_url = "%url/traffic-shaping/speed-guide.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
+traffic_shaping_htm = "https://www.cfos.de/zh-tw/traffic-shaping/traffic-shaping.htm";
+
+auth_failed = "完整性檢查發現某些元件已被修改，\n請由我們的網頁下載並安裝未被修改的版本：\n";
+
+component_mismatch = "程式中不同元件發生版本衝突，請重新安裝最新版本。";
+trayicon_tip = "使用流量塑型加快網際網路速度，www.cfos.de";
+speed_endsoon = "您的試用期即將結束！請您儘快訂購 %1！";
+order_info = "立即訂購：\n網址：www.cfos.de\n電話：+49-228-7669826";
+badkey = "您的授權碼有問題。\n請雙擊您透過電子郵件取得或存於磁碟上的原始檔案，\n來重新安裝您的授權碼。";
+no_setup = "無法啟動安裝程式（setup.exe）。";
+no_cmd = "無法執行命令提示字元（cmd.exe）！";
+ask_disconnect_ras = "需要重新設定使用中的網路連線。\n我們建議您先中斷此連線，\n您要中斷目前的網路連線嗎？";
+sygate_hint = "%p 偵測到 Sygate 防火牆，此防火牆會將 %p 的線路校正誤認為\n阻絕服務攻擊（DoS）的「Ping-of-Death」封包。\n因此請您做 30 秒鐘的全速下載後再進行 30 秒鐘的全速上傳，\n這樣會如同使用線路校正來校正 %p。\n\n提示：您應該停用防火牆的「Anti IP Manipulation」功能。";
+select_language = "選擇語系";
+translator = "翻譯者";
+translator_name = "Peter Chen";
+translator_msg = "若有任何翻譯問題，請寄信到 translation@cfos.de";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "您的 %3 授權將於 %1 %2 後到期。";
+
+service_desc = "測量 %p 的延遲時間及執行特權操作";
+no_pings_error = "沒有看到由 %p 送出的反應封包。沒有這些反應封包，%p 流量塑型無法正常運作，點擊這裡取得說明。";
+other_languages = "其他語言";
+install_dir = "安裝目錄：";
+ask_clear_tsdata = "要清除流量塑型資料並開始新的線路校正嗎？";
+allow_traffic_shaping = "是否允許此連線使用流量塑型功能";
+none = "無";
+lic_expired = "您的試用期已結束，已停用 %1。請立即訂購 %1！";
+settings = "設定";
+winsettings = "視窗設定";
+openwindow = "顯示視窗";
+openwindows = "顯示視窗";
+closewindow = "關閉視窗";
+closewindows = "關閉視窗";
+autoopen = "自動顯示/自動隱藏";
+taskbaricon = "系統列圖示";
+autoarrange = "自動排列視窗";
+effects = "效果";
+blend_effect = "淡入視窗";
+slide_effect = "滑動視窗";
+win_behaviour = "使用系統設定值";
+selectskin = "選擇面板";
+topmost = "最上層顯示";
+defpos = "預設位置";
+disco_ras = "登出 ";
+config = "選項";
+order = "立即訂購！";
+dayl_singular = "天";
+dayl_plural = "天";
+days_singular = "天";
+days_plural = "天";
+/ %1=number, %2="day/days"
+short_try = "試用 %1 %2";
+short_dexpire = "已過期 %1 %2";
+
+short_exp = "已過期！";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "您的試用期已結束 %1 %2。請立即訂購 %3！";
+lic_try = "您還可以試用 %3 %1 %2，之後就需訂購。";
+
+enable_win = "是否要啟用狀態視窗？\n\n狀態視窗顯示您目前連線的狀態。";
+license = "授權";
+licensed_to = "授權給 %?";
+upgrade = "取得最新版本";
+connect_to = "連線到";
+make_own_skin = "設計您自己的面板";
+click_through = "滑鼠點擊可穿透視窗";
+ask = "詢問";
+off = "關閉";
+on = "開啟";
+note = "註";
+deactivated = "已停用";
+browser_warning = "建議使用 Internet Explorer 8 或更新的版本瀏覽！";
+ole_error = "為了使用本設定視窗，\\n您必須在電腦安裝並執行 %p。\\n請檢查是否已安裝。如果需要的話，請重新安裝該程式。";
+ts_settings = "流量塑型設定";
+preferences = "偏好設定";
+prio_protocols = "通訊協定優先順序";
+protocol = "通訊協定";
+protocols = "通訊協定";
+prio_programs = "程式優先順序";
+program = "程式";
+programs = "程式";
+current_connections = "目前連線";
+current_connections_advanced = "目前連線（進階）";
+current_connections_standard = "目前連線（標準）";
+ts_prios = "流量塑型優先順序";
+client_protocols = "客戶端通訊協定";
+server_protocols = "伺服器通訊協定";
+client_server_protocols = "客戶端及伺服器端通訊協定";
+media_streaming = "多媒體串流";
+file_sharing = "檔案分享";
+special = "特殊的";
+other = "其他的";
+misc_high_short = "其它高優先順序";
+misc_high = "其它高優先順序流量";
+hint = "提示";
+hint_text = "優先順序只在傳輸少量資料設定為高優先順序時能正常運作，請指定較低優先順序給「送出大量資料的程式」，「通訊協定協定優先順序」處理完後才會處理「程式優先順序」。";
+prio_doc_link = "優先順序機制如何運作";
+save_protocols = "儲存通訊協定";
+undo = "復原";
+filter_selection = "選擇過濾器";
+higher = "最高";
+high = "高";
+normal = "一般";
+default = "預設";
+low = "低";
+lower = "最低";
+entries = "項目";
+prog_overwrite = "程式 #p 已經在清單內。\\n您要覆蓋原有設定嗎？";
+games = "遊戲";
+voip = "VoIP 網路電話";
+remote_control = "遠端控制";
+prog_hint_text = "要讓「優先順序」能正常運作，請指定高優先順序給「傳輸少量資料的程式」、並指定低優先順序給「傳輸大量資料的程式」。<br />";
+save_priorities = "儲存優先順序";
+delete = "刪除";
+aux_lines = "輔助線";
+higher_prog_help = "網路電話、或是遊戲";
+high_prog_help = "遊戲、串流多媒體、Telnet 及其他的互動程式";
+low_prog_help = "伺服器資料, FTP 資料";
+lower_prog_help = "常駐的背景流量，例如：檔案分享";
+delete_help = "從清單移除（視為一般封包）。";
+prog_help = "同時傳輸低及高優先順序的封包時，低優先順序封包傳輸比較慢，若無高優先順序封包時，低優先順序的資料會以最大速度傳輸。";
+filename = "檔案名稱";
+description = "描述";
+new_program = "新增程式";
+restore_defaults = "還原至預設值";
+add = "新增";
+suggest_program = "將此程式建議給 cFos 團隊";
+l7_prot_detection = "第七層通訊協定偵測";
+l7_prot_detection_help = "經由分析資料來偵測協定，使用「通訊協定優先順序」視窗來改變各種通訊協定的優先順序，假如您不啟用這個選項，將會依據使用的連接埠來偵測通訊協定。";
+favor_ping = "偏好反應時間";
+favor_ping_help = "<b>開啟</b>：%p 將會稍微減少可用頻寬（若有需要），來降低反應時間。<br /><b>關閉</b>：%p 將會稍微增加反應時間（若有需要），來增加頻寬。";
+favor_bandwidth = "偏好頻寬";
+avoid_loss = "避免封包遺失";
+avoid_loss_help = "如果偵測到太多的封包遺失，%p 會關閉接收串流的 TCP 接收緩衝區。這只會發生在正在全速接收資料的連線。（建議在改善下載的流量塑型時開啟）";
+activate_firewall = "啟用防火牆";
+activate_firewall_help = "使用「過濾危險封包」、「狀態檢查」和「隱藏模式」的方式來保護網路防止入侵。";
+mtu_opt = "自動 MSS（MTU）最佳化";
+mtu_opt_help = "調整 MSS/MTU 來最大化傳輸速度，一般來說，數值範圍稍微低於 1500/1492 可得到較快的速度。";
+strict_rtp = "嚴謹地檢查 RTP";
+strict_rtp_help = "啟用後 %p 只會識別出從有效 RTCP 來源 ID 發出的封包，如果使用不會發出 RTCP 封包的網路電話程式（像是 VoIPBuster），您應該停用這個選項，請只有在封包被誤歸類為 RTP 時啟用這個選項。";
+ts_config = "%p 流量塑型設定";
+dialup_connection = "撥號連線";
+dialup_connections = "撥號連線";
+traffic_shaping = "流量塑型";
+ras_con_help = "<b>是</b>：啟用，<b>否</b>：停用，<b>詢問</b>：只詢問一次並儲存設定";
+router_connections = "路由器連線";
+net_components = "網路元件";
+auto = "自動";
+router_help = "<b>是</b>：啟用，<b>否</b>：停用，<b>自動</b>：如果在這個網路元件上發現路由器，就啟用流量塑型";
+network_adapter = "網路卡";
+router = "路由器";
+and_save_settings = "並儲存設定";
+border = "邊界";
+budget = "預算";
+budget_settings = "預算設定";
+budget_title = "%p 線上預算";
+budgets = "線上預算";
+graph_title = "流量圖";
+hard_limit = "嚴格<br>限制";
+hard_limit_help_not_set = "預算耗盡時只在狀態視窗顯示通知";
+hard_limit_help_set = "預算耗盡時會捨棄封包";
+last_3_months = "最近 3 個月";
+last_month = "上個月";
+last_12_months = "最近 12 個月";
+please_select = "請選擇";
+reset_day = "重置日期";
+reset_day_unit = "日";
+rxtx_button = "接收/傳送選擇";
+save_budgets = "儲存預算";
+show_for = "顯示";
+this_month = "這個月";
+time = "時間";
+time_limit = "時間限制";
+time_min = "分";
+time_units = "時:分";
+volume = "流量";
+volume_limit = "流量限制";
+spdbudget_help = "若要使用預算，請前往連線設定視窗並指定到特定的連線";
+password_bad = "密碼不正確";
+sum_button = "累積的";
+calibrate = "線路校正";
+test_pings = "傳送測試反應封包";
+open_console = "開啟 %p 控制台";
+variable_bandwidth = "會變動的頻寬";
+def_bandwidth_help = "<b>新</b>連線預設值";
+cur_bandwidth_help = "目前連線的設定";
+no_ports_open = "無任何開啟的連線。";
+no_ports_open_help = "%p 目前沒有處理任何開啟的連線，要改變新連線的預設設定，請點擊「新連線預設值」頁面，要改變其它連線的設定，請點擊左邊的「流量塑型」。";
+ok = "確定";
+connection_medium = "寬頻介面";
+connection_type = "流量塑型模式";
+driver_not_loaded = "未載入驅動程式！";
+demon_driver_not_loaded = "未載入驅動程序！\n可能是安裝已損壞。\n請重新安裝 %p。\n";
+asus_demon_driver_not_loaded = "更新至新版作業系統後請重新安裝 %p。請到華碩網站 %w 下載最新版本的 %p。";
+many_cons_error = "%p 的接收流量塑型已因太多連線而達到限制，如果降低連線數應該可以運作的比較好，點擊這裡來取得說明。";
+limit_bandwidth = "限制目前連線的頻寬";
+rx_limit = "接收限制";
+tx_limit = "傳送限制";
+max = "最大";
+apply_limits = "套用限制";
+limit_help = "單位 KBytes/s，包含所有協定的額外消耗，0 表示不限制。";
+enable_speed_shaping = "啟用流量塑型";
+disable_speed_shaping = "關閉流量塑型";
+yes = "是";
+no = "否";
+help = "說明";
+bgraph_totals = "總計";
+blocklist = "IP 封鎖器";
+blocklist_help = "被封鎖的 IP 地址清單。";
+apply_blocklist = "使用封鎖清單";
+search = "搜尋";
+budget_connection = "設定連線使用那一個預算";
+reset = "重設";
+autohide_on_fullscreen = "全螢幕時自動隱藏";
+slot_selected = "選擇的通訊協定/程式";
+show = "顯示";
+hide = "隱藏";
+slot_explain = "若封包屬於指定槽位的已知協定，流量會計算到該槽位；否則，若封包屬於指定槽位的程式，此流量會計算到該槽位；若不是上述兩種情況，此流量會被計算到所有其它流量的槽位裏（如果有勾選該選項）。";
+traffic_analysis_title = "即時流量分析";
+other_traffic = "所有其它流量";
+traffic_analysis = "流量分析";
+slot = "槽位";
+slots = "槽位";
+slots_title = "槽位設定";
+can_select_multiple = "提示：您可以在選擇項目時，按住 Shift 或 Ctrl 鍵來選擇多個項目";
+name_for = "命名 ";
+set_name = "設定名稱";
+rx_only = "只有接收";
+tx_only = "只有傳送";
+max_of_rx_tx = "接收及傳送的最大值";
+total_rx_only = "接收速度總計";
+total_tx_only = "傳送速度總計";
+nettalk_rx = "網路交談「接收速度」";
+nettalk_tx = "網路交談「傳送速度」";
+nettalk_max_of_rx_tx = "網路交談「傳送」及「接收」最大值";
+total_max_of_rx_tx = "接收及傳送總計的最大值";
+check_if_other_also = "如果您想要將所有其它流量均計算到此槽位，請勾選此選項";
+performance_help = "為了節省電腦資源消耗，我們建議將存取網際網路的連線設定為「是」，其它連線設定為「否」。";
+loading = "載入中…";
+connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
+regid = "非合作模式";
+regid_help = "在您的區域網路上有一台裝置沒有 cFos 流量塑型功能";
+regid_help_long = "您的網路上有多台裝置同時上網，而且至少有一台裝置是並未使用 cFos 流量塑型功能。";
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+net_talk = "網路交談";
+net_talk_help = "在您的區域網路上廣播流量統計資料";
+net_talk_help_long = "為了加強準確度，傳送流量塑型統計資料給您的區域網路上其它電腦。（不會送出任何資料到網際網路）";
+net_talk_subheader = "請選擇是否使用「網路交談」功能。";
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+vari_fixed = "適應反應變動";
+vari_fixed_help = "透過進階的流量塑型來適應多變的反應時間";
+vari_fixed_help_long = "蒐集反應的統計資料來適應多變的反應時間，在行動/無線網路上特別有用，我們建議在其它網路上也啟用這個選項。";
+
+set = "設定";
+tx_limit_help = "以 Bytes/s 或百分比的格式輸入這個程式或是協定允許傳送的速度。";
+download_more_skins = "下載更多面板";
+documentation = "說明文件";
+exit_demon = "離開";
+speed_test = "連線速度測試";
+ask_key_banned_info = "您的授權碼有問題。\n要獲得更多資訊嗎？";
+
+adapter_info = "網路連線資訊";
+channel_recommend = "使用率最少的頻道（最佳到最差）";
+channel_explain = "您可以根據每個頻道的使用情況來設定您的無線網路基地台，但請留意真正的使用頻率和其它的無線網路有關，有些可能在閒置，有些可能在大量使用。";
+no_adapters = "沒有可用的網路連線資訊";
+wlan_no_service = "沒有可用的服務，請安裝或啟動 Windows 的 Wireless 區域網路 API (WZC)。";
+wlan_no_station = "找不到足夠的無線網路基地台。";
+kaspersky_hint = "Kaspersky Internet Security 2010 可能會造成 %p 使用上出現問題，請更新至最新版本的 Kaspersky Internet Security。";
+
+console_cancel = "取消";
+console_freeze = "凍結";
+console_continue = "繼續";
+console_help = "您可以在底下的列表點擊個別的連線來調整優先順序。<br/>以星號（*）標示的連線表示暫時性的調整優先順序。";
+console_prio = "對此連線調整優先順序";
+console_prio_off = "關閉優先順序";
+console_prio_this = "對此連線暫時調整優先順序";
+console_prio_this_off = "對此連線關閉優先順序";
+console_prio_prot = "暫時的協定優先順序";
+console_prio_prot_off = "關閉暫時的協定優先順序";
+console_prio_prog = "暫時的程式優先順序";
+console_prio_prog_off = "關閉暫時的程式優先順序";
+console_prio_prog_prot = "暫時的程式及協定優先順序";
+console_prio_prog_prot_off = "暫時關閉程式及協定優先順序";
+console_prio_prot_perm = "永久協定優先順序";
+console_prio_prog_perm = "永久程式優先順序";
+console_prio_advanced = "進階優先順序";
+
+new_version_available = "有新的版本";
+update_beta = "同時檢查是否有新的測試版本";
+update_skip_version = "此版本沒有其它通知：";
+check_new_version_now = "立即檢查是否有新的版本";
+program_updates = "程式更新";
+no_new_version_available = "沒有新的版本";
+use_logitech = "使用羅技 G15/G19/G510 鍵盤螢幕";
+detect_logitech = "偵測羅技鍵盤螢幕";
+logitech_help = "羅技顯示器輔助說明";
+logitech_keyboards = "羅技遊戲鍵盤";
+keyboard_leds = "鍵盤 LED";
+keyboard_led_help = "鍵盤 LED 輔助說明";
+only_on_fullscreen = "只在全螢幕時";
+speed_guide = "速度指南";
+lock_position = "鎖定視窗位置";
+check_for_news = "檢查是否有新消息";
+rwin_expansion = "自動加大 RWIN 接收緩衝區";
+rwin_expansion_help = "如果 Windows 預設的 TCP RWIN 接收緩衝區太小，就自動加大來增加下載速度。";
+query_auto_open = "關閉自動開啟和關閉視窗功能？\n您可以稍後在右鍵選單裏啟用此功能。";
+preview_skins = "預覽面板";
+enable_smartphone_skins = "手機面板";
+http_access_enabled = "已設定密碼，已允許遠端 HTTP 存取。";
+http_access_disabled = "未設定密碼，已禁止遠端 HTTP 存取。";
+set_server_pwd = "設定伺服器密碼";
+auto_arrange_top = "頂端";
+auto_arrange_bottom = "底端";
+show_on_metro_apps = "於 Metro 程式清單中顯示應用程式";
+traffic_shaping_info = "流量塑型資訊";
+wlan_access_point = "Wi-Fi 熱點";
+prioritize_foreground_process = "調高前景程序優先權";
+prioritize_foreground_help = "自動將前景程序的優先權設為高。";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p，使用流量塑型加快網際網路的速度";
+
+/ URLs
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+cfospnet_activation_failed_url = "%url/cfos-personal-net/activation-failed.htm";
+virtual_wifi_doc_url = "%url/cfosspeed/documentation/wlan-access-point.htm";
+
+/ wizard
+install_wizard_name = "%? 安裝精靈";
+uninstall_wizard_name = "%? 移除精靈";
+brandkey_wizard_name = "%? 註冊精靈";
+config_wizard_name = "%p 設定精靈";
+continue_line = "點擊「下一步」來繼續。";
+start_inst = "點擊「下一步」開始安裝。";
+click_next_further_info = "點擊「下一步」來獲得更多資訊。";
+wizard_lang_line = "本精靈的語言是";
+
+/ welcome page
+welcome_line = "歡迎使用 %? v%?！";
+welcome_info = "本精靈可以帶您安裝 %? v%? 程式。";
+welcome_found = "在您的電腦找到找到已安裝的 %? v%? 版本。";
+welcome_found_dir = "在您的電腦的 %3 資料夾中找到已安裝的 %1 v%2 版本。";
+welcome_found_unknown = "在您的電腦上找到已安裝的 %? 版本。";
+welcome_found_modified = "在您的電腦的 %3 資料夾中找到一個被修改或不完整的 %1 v%2 版本！";
+welcome_update = "點擊「下一步」取代已安裝的版本。";
+welcome_admin = "您沒有電腦管理員的權限，本精靈只能由擁有電腦管理員權限的使用者執行。";
+welcome_lang_syslink = "<a href=\"%?\">其他語言</a>";
+welcome_oem_info = "%1 是給 %2 的 %p OEM 版本，因此 %p 包含了 %1 的所有功能並有更多的功能。";
+
+/ uninstall welcome page
+ui_welcome_line = "移除 %? v%?。";
+ui_welcome_info = "如果您確定要從 %3 資料夾移除 %1 v%2 並刪除所有相關檔案，請點擊「下一步」。";
+
+/ brand key welcome page
+bk_welcome_line = "%? 註冊。";
+bk_welcome_info = "本精靈將帶您註冊 %?。";
+bk_welcome_found = "在目的資料夾 %? 中已經有一個授權檔案。";
+bk_welcome_update = "請點擊「下一步」取代已存在的授權檔案。";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "授權協議";
+lic_subheader = "您必需接受授權協議才能繼續。";
+lic_info = "如果您接受授權協議，勾選「我同意」並點擊「下一步」，否則請點擊「取消」。";
+lic_agree = "我同意。";
+
+/ restore point dialog
+rp_header = "系統還原點";
+rp_subheader = "使用系統還原點，您能夠讓系統返回到先前的狀態。";
+rp_info = "使用系統還原點，您能夠讓 Windows 作業系統返回到建立系統還原點時的狀態。在安裝一個新的驅動程式之前，我們建議您建立一個系統還原點。";
+rp_check = "建立系統還原點。";
+/ %1 = product name
+rp_uninst_info = "系統還原點並不是正常移除 %1 的程序，而是驅動程式發生衝突時，能讓系統回到原始狀態的額外預防措施。正常移除 %1 方式可在開始選單的 %1 資料夾或是控制台中選取。";
+
+/ password dialog
+pwd_header = "密碼。";
+pwd_subheader = "每個授權碼需要一個獨一無二的密碼。";
+pwd_reg_to = "%p 將註冊給：";
+pwd_password_info = "請以 xxxx-xxxx-xxxx-xxxx 的格式輸入註冊密碼。";
+pwd_password = "密碼：";
+pwd_invalid_password = "密碼無效，請檢查您的輸入後重試。";
+pwd_activate_info = "您必需連線至網際網路才能在我們的伺服器上啟動授權碼。";
+pwd_activate_failed = "啟動授權碼失敗！";
+pwd_activate_failed_code = "啟動授權碼失敗：錯誤 %?。";
+
+/ serial number dialog
+sn_header = "序號。";
+sn_subheader = "輸入序號並啟動授權碼。";
+sn_info = "如果您擁有 xxxx-xxxx-xxxx-xxxx 格式共 16 字元的密碼，請關閉此對話視窗，雙擊您的授權檔案後會出現一個視窗可以輸入您的密碼。\n\n如果您擁有 xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx 格式共 30 字元的序號，請輸入序號並啟動授權碼。\n\n";
+sn_serial_number = "序號：";
+sn_invalid_serial_number = "序號無效，請檢查您的輸入後重試。";
+/ the %? will be replaced by the error number:
+sn_download_err = "從伺服器下載授權檔案時發生錯誤 %?。";
+sn_save_err = "授權檔案無法儲存至磁碟 %?。";
+sn_keyfile_err = "授權檔案損毀。";
+
+/ new 16 digit serial number dialog
+sn16_info = "請輸入您的 16 位數序號以取回您的註冊金鑰，您必須連線至網際網路才能成功取回金鑰。";
+sn16_failed = "金鑰取回失敗！";
+
+/ re-enter password dialog
+repwd_header = "%? 密碼。";
+repwd_subheader = "請重新輸入註冊的密碼。";
+repwd_reg_to = "由於您的系統設定有變動，您必需重新輸入下列 %p 的註冊密碼：";
+
+/ installation directory dialog
+instdir_header = "安裝資料夾";
+instdir_subheader = "安裝資料夾指的是檔案複製到您的電腦硬碟裏的資料夾。";
+instdir_info = "指定安裝資料夾。";
+instdir_change = "修改";
+instdir_src_dst = "來源和目的資料夾不能相同！";
+instdir_space = "安裝需要 %u 位元組的硬碟空間，您所選的資料夾僅剩 %u 位元組的可用空間。";
+instdir_drivetype = "您所選的磁碟機無效。%? 只能安裝在本機硬碟。";
+instdir_system = "安裝資料夾必需在系統磁碟機「%?」上。";
+instdir_system_recommended = "強烈建議在系統磁碟機 '%?' 上選擇一個安裝資料夾。（點擊「下一步」繼續）";
+
+/ tcp settings dialog
+tcp_header = "改變 TCP 接收緩衝區的大小。";
+tcp_subheader = "為了最佳的資料流量，應改變 TCP（傳輸控制協定）接收緩衝區的大小。";
+tcp_info = "TCP 接收緩衝區的大小直接影響到輸入資料時的流量，目前在 Windows 登錄當中的數值並不是最佳值。\n\n我們建議您使用本精靈更改該值來提高資料流量。（此變動在重新啟動電腦之後才會生效）";
+tcp_check = "最佳化 TCP 接收緩衝區的大小。（建議）";
+
+/ hang up online connection dialog
+hangup_header = "撥號網路";
+hangup_subheader = "必需中斷撥號網路。";
+hangup_online = "您透過以下連線上網：";
+hangup_offline = "網路連線已經被中斷。";
+hangup_info = "為了繼續使用本精靈，必需中斷撥號網路。\n\n點擊「中斷連線」來立即中斷網路連線。";
+hangup_disco = "中斷連線";
+
+/ usage statistics
+usage_stats = "使用統計";
+usage_stats_subheader = "選擇 %p 應該如何處理使用統計資料。";
+usage_stats_chk = "自動將使用統計資料送回 cFos 來增進產品的效能。";
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "如果可以就使用自動連接埠轉送功能。";
+port_forwarding_failed = "您的路由器 %? 似乎不支援自動連接埠轉送功能，您也許可以在路由器的設定裏啟用這個功能。";
+port_forwarding_config = "您可以在 %? 設定您的路由器。";
+port_forwarding_fritz = "您已允許透過 UPnP 修改 FRITZ!Box 當中的 Home Network / Network / Programs 的安全設定，來啟用連接埠轉送功能。";
+
+/ crash handler messages
+crash_msg_crash = "在 %p 發生了無法處理的例外。";
+crash_msg_crash_installer = "在 %p 安裝程式中發生了無法處理的例外。";
+crash_msg_virus = "下列模組已新增到本程式中，有可能是造成當機的原因：";
+crash_msg_virus_clean = "這個模組可能是病毒，因此我們強烈建議您進行病毒掃描。";
+crash_msg_hook = "找到新增到本程式中的其它程式模組，為了確定這些模組並不是造成當機的原因，請在停用或移除下列程式後，再執行本程式：";
+crash_msg_terminate = "程式已被中止。";
+crash_msg_query_upload = "您要將錯誤報告寄給 cFos 以協助分析此錯誤嗎？";
+
+/start installation dialog
+start_header = "安裝";
+start_subheader = "開始安裝。";
+start_installation = "立即開始安裝。";
+
+/ progress dialog
+progress_inst_header = "安裝";
+progress_inst_subheader = "安裝正在進行。";
+progress_inst_wait = "請您等待安裝完成。";
+progress_uninst_header = "移除";
+progress_uninst_subheader = "移除正在進行。";
+progress_uninst_wait = "請您等待移除完成。";
+progress_driver_wait = "請稍候…作業系統正在移除/安裝驅動程式，這可能會花幾分鐘的時間。";
+
+/ confirm delete dialog
+conf_del_header = "刪除設定檔案";
+conf_del_subheader = "需要您的確認才能刪除設定檔案或其他個人資料檔案。";
+conf_del_info = "下列設定檔案和資料夾是由 %p 建立且尚未被刪除：";
+conf_del_column = "檔案名稱";
+conf_del_query = "如果您想要刪除這些檔案和資料夾，您可以個別選取，選完之後點擊「下一步」。";
+
+/ finish page
+finish_head_ok = "安裝成功。";
+finish_info_ok = "已經成功地安裝 %? 到您的電腦。";
+finish_head_fail = "安裝失敗。";
+finish_info_fail = "由於下列原因安裝失敗：";
+finish_reboot = "必需重新啟動系統！點擊「完成」立即重新啟動，或「取消」稍候重新啟動。";
+finish_uninst_driver_reboot = "必需重新啟動系統來移除目前的驅動程式，請重新啟動系統後執行安裝程式。";
+finish_link_ok = "<a href=\"%?\">%? 功能！</a>";
+finish_file_fail = "檢視記錄檔案 %s 來獲得更多的資訊。";
+finish_file_link_fail = "檢視 <a href=\"file://%s\">記錄檔案</a> 來獲得更多的資訊。";
+finish_cfosts_disabled = "因為 %p 的流量塑型運作中，已停用 cFos 流量塑型。（您可以在 cFos 設定選單中重新啟用 cFos 流量塑型）";
+finish_cfosts_enabled = "cFos 流量塑型已經啟用。";
+finish_link_checkbox = "顯示 %p 的最新功能";
+
+/ uninstall finish page
+ui_finish_head_ok = "移除成功。";
+ui_finish_info_ok = "您已成功自電腦中移除 %?。";
+ui_finish_head_fail = "移除失敗。";
+ui_finish_info_fail = "由於以下原因，%? 無法從您的電腦中移除：";
+ui_finish_not_removed = "系統重新啟動之後，以下檔案才可被刪除：";
+
+/ brandkey finish page
+bk_finish_head_ok = "註冊完成。";
+bk_finish_info_ok = "%? 已經註冊給：";
+bk_finish_head_fail = "註冊失敗。";
+bk_finish_info_fail = "由於下列原因造成註冊失敗：";
+
+/ progress tasks
+task_register_email = "註冊電子郵件位址…";
+task_restore_point = "設定系統還原點…";
+task_copy = "複製檔案…";
+task_desktop_link = "建立桌面捷徑…";
+task_program_group = "建立程式群組…";
+task_registry = "建立登錄項目中…";
+task_driver = "安裝驅動程式…";
+task_service = "安裝系統服務…";
+task_daemon = "啟動 %?…";
+task_uninstall_old = "移除現存版本…";
+task_stop_daemon = "停止 %?…";
+task_uninstall_driver = "移除驅動程式…";
+task_uninstall_service = "移除系統服務…";
+task_uninstall_ga = "移除 cFos Game Analyzer…";
+task_delete_files = "刪除檔案…";
+task_cleanup_caches = "清除快取…";
+task_hangup = "中斷使用中的網路連線…";
+task_flush_registry = "更新登錄檔…";
+task_cancel = "取消操作中…";
+task_canceled = "操作已經取消！";
+
+/ connectivity test progress tasks
+task_start_program = "啟動 %p…";
+task_test_localhost = "測試 localhost…";
+task_test_local_ip = "測試本機 IP 位址…";
+task_test_public_ip = "測試實體 IP 位址…";
+task_test_finished = "測試完成。";
+
+/ program group
+speed_pg_name = "%p 流量塑型";
+pg_uninstall = "移除 %?";
+pg_www = "www.cfos.de";
+pg_console = "%p 控制台";
+pg_start = "啟動 %p 狀態視窗";
+pg_menu = "%? 選單";
+pg_add_connection = "新增連線";
+pg_enter_serial_number = "輸入序號";
+pg_configure = "設定 %p";
+
+/ desktop symbol
+dt_advertise = "%? 功能";
+dt_advertise_desc = "列出所有 %? 的功能。";
+
+/ message boxes
+query_reboot = "您必需重新啟動您的電腦來讓變更生效。\n\n您要現在重新啟動嗎？";
+query_drv_inst_cancel = "作業系統正在進行驅動程式的安裝或移除，\nWindows 安裝程式最多可能需要 15 分鐘的時間\n來安裝或移除驅動程式！\n\n我們強烈建議在等待這麼久之前，\n不要取消這個動作。\n\n您真的要取消嗎？";
+query_driver_err_abort = "在安裝驅動程式過程中發生一個錯誤！\n我們建議立即中斷這個安裝。\n\n但是您還是可以繼續安裝，\n若只是測試安裝過程，這還是有幫助的，\n但請注意，%p 可能無法正常運作。\n\n要中斷安裝嗎？（建議）";
+query_further_info = "您需要更多資訊嗎？";
+
+/ error messages
+err_driver_inst = "驅動程式安裝失敗。";
+err_service_inst = "服務安裝失敗。";
+err_service_uninst = "服務移除失敗。";
+err_daemon_start = "無法啟動 %?。";
+err_uninst_old = "無法移除現有的版本，請重新開機後重試。";
+err_os = "您的作業系統是 %?。\n\n%? 需要 Windows 2000/XP 或更新版本的作業系統。";
+err_os_minxp = "您的作業系統是 %?。\n\n%? 需要 Windows XP 或更新版本的作業系統。";
+err_os_sup = "%p 官方只支援 %? 或更新的版本。\n\n%p 有可能（但我們未測試）可以在您的作業系統 %? 上執行，\n\n您要繼續進行安裝嗎？";
+err_uninst_driver = "無法移除裝置驅動程式。";
+err_create_process = "啟動 %s 時發生錯誤：%s";
+err_write_lock = "網路元件 %? 正被其它程式使用，請關閉其它程式或重新開機後重試。";
+err_file_auth = "某些檔案損毀或遺失。\n請取得可靠的 %p 安裝檔案。\n（例如從 www.cfos.de 下載）";
+err_cancel = "操作已被取消。";
+err_no32 = "無法在 64 位元的作業系統安裝 32 位元的驅動程式。\n\n作業系統：%?\n產品：%?";
+err_bad_keyfile = "授權檔案似乎已損毀或是無效，請聯絡我們以取得有效的授權檔案。";
+err_bad_setup = "%p 似乎不正確的安裝或是某些檔案被修改，請重新安裝 %p 後重試。";
+err_bad_signature = "密碼似乎不正確，或是另一個授權檔案使用的密碼。請輸入符合這個授權檔案的正確密碼。";
+err_gdiplus = "找不到 GDI+ 函式庫！\n\n若要繼續安裝，必需先安裝 GDI+ 函式庫，\n您可以下載微軟的平台軟體開發工具組取得 GDI+ 函式庫，\n請下載安裝檔案並解壓縮所有檔案至任一目錄，\n然後將解開目錄下 \\asms\\10\\msft\\windows\\gdiplus\n裏的所有 gdiplus.* 檔案，\n複製到 Windows\\system32 目錄裏。\n\n點擊「確定」打開微軟的相關下載頁面。\n點擊「取消」中止目前的安裝。";
+err_winhttp = "找不到 WinHTTP 函式庫！\n\n若要繼續安裝，必需先安裝 WinHTTP 函式庫，\nWinHTTP 函式庫應該內建於您作業系統中，\n但是目前無法載入。";
+bad_manufacturer = "無法啟動安裝，因為這個產品只授權給特定的硬體！";
+cannot_install = "無法安裝";
+err_uninst_daemon = "無法移除服務。如果還有開啟 %p 的對話視窗，請先關閉這些視窗，否則請重新開機。";
+err_activate_10045 = "啟動授權碼時發生 HTTP 錯誤 10045，可能是您的 Winsock\n已損毀。要重置您的 Winsock，請開啟「命令提示字元」\n視窗，輸入「netsh winsock reset」，\n然後重新啟動您的系統，再試著啟動授權碼。";
+err_activate_12002 = "註冊時發生 HTTP 錯誤 12002（要求逾時），\n可能是防火牆、防毒軟體或是其它網路安全軟體封鎖了\n註冊時所需的網路連線。\n如果您有安裝上述軟體，請暫時停用這些軟體，\n然後再試著註冊。";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "%1 檔案複製到 %2 時發生錯誤（%3）。";
+err_port_in_use = "伺服器通訊埠 %? 正被其他程式佔用。\n\n 程式：%?\n 路徑：%?";
+
+/ warning messages
+wrn_oem_update = "您已安裝了已授權的 %p，\n\n您現在要安裝一個共享軟體版本，\n如果您繼續安裝這個版本，您的授權碼將無法正常運作，\n您可以在原本購買的地方，\n取得已授權的 %p 更新。\n\n您要繼續安裝嗎？";
+wrn_close_application = "在繼續之前，建議先關閉以下的應用程式：";
+
+/ traffic shaping algorithm
+tsa_header = "流量塑型模式（多使用者版本）";
+tsa_subheader = "流量塑型演算法的預設行為。";
+tsa_info = "請依據您的網際網路連線，選擇流量塑型演算法的預設行為。（這可以在稍後針對每個連線個別選擇）";
+
+/ vista warning
+vista_header = "安裝說明";
+vista_subheader = "Windows Vista 中的驅動程式安裝說明。";
+vista_warn_info = "%p 已經由 GlobalSign（經 Microsoft 授權的公司）簽署數位憑證，然而 cFos Software GmbH 並沒有參加 Microsoft 額外且昂貴的 WHQL 認證，因此在安裝驅動程式時，將會跳出一個視窗提醒您此驅動程式未經過認證。\n\n如果出現這個視窗，請點選「繼續安裝」。";
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+dun_wizard_name = "%p 連線精靈";
+connections = "連線到";
+dun_subheader = "設定連線。";
+dun_with_bc = " 搭配 cFos Broadband Connect";
+dun_reenter_password = "請重新輸入密碼";
+dun_list_tonline = "新 T-Online 連線";
+dun_new_connection = "設定新連線";
+dun_err_no_device = "找不到 %p 裝置。（此裝置應該在重新開機後可以使用）";
+
+/ e-mail registration dialog
+eml_header = "註冊電子郵件";
+eml_subheader = "在 cFos 註冊您的電子郵件位址。";
+eml_info = "請註冊您的電子郵件位址，我們可以將您加入我們的郵件通知清單中，並在 %p 有新版本時通知您。";
+eml_info_optional = "如果您註冊電子郵件位址，您會被加入我們的郵件通知清單中，並在 %p 有新版本時自動通知您，如果您不希望收到這些通知，請在此欄位保留空白。";
+eml_email = "您的電子郵件位址：";
+eml_invalid_email = "您輸入的電子郵件位址不正確。";
+eml_invalid_optional_email = "請輸入正確的電子郵件位址或保留空白。";
+eml_reg_failed = "註冊電子郵件失敗。";
+eml_checking_domain = "檢查電子郵件網域…";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p 虛擬 Wi-Fi 啟動精靈";
+virtual_wifi_header = "啟動虛擬 Wi-Fi";
+virtual_wifi_subheader = "建立一組軟體無線熱點，並開啟網際網路連線共用。";
+virtual_wifi_info = "選擇要分享來供無線熱點使用的網際網路連線，並設定密碼。";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "SSID 不能為空白，並且不能超過 32 字元。";
+virtual_wifi_invalid_password_length = "密碼長度必須在 8 到 64 字元之間。";
+virtual_wifi_ics_not_available = "本電腦無法使用網際網路連線共用。";
+virtual_wifi_error_get_cons = "取得網路連線時發生錯誤。";
+virtual_wifi_ics_warning = "已為下列連線啟用網際網路連線共用:\n%?\n\n您是否想改用此網路:\n%?";
+virtual_wifi_error_enable_ics = "啟用網際網路連線共用時發生錯誤。";
+virtual_wifi_error_start = "啟動虛擬 Wi-Fi 時發生錯誤。";
+virtual_wifi_ok = "已成功啟用虛擬 Wi-Fi 與網際網路連線共用。\n\n註：若客戶端無法正常連線至虛擬 Wi-Fi，請停止並重新開啟虛擬 Wi-Fi。\n\n若客戶端可以連線至虛擬 Wi-Fi 但無法連線至網際網路，請移除並重新安裝 %p。";
+virtual_wifi_query_stop = "要停止虛擬 Wi-Fi？";
+virtual_wifi_error_stop = "停止虛擬 Wi-Fi 時發生錯誤：";
+virtual_wifi_stopped = "已成功停止虛擬 Wi-Fi。";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+cfos_mainurl = "%url/index.htm";
+cfos_updateurl = "%url/download/download.htm";
+cfos_orderurl = "https://www.cfos.de/zh-tw/order/cfos-professional-n.htm";
+budget_file = "budget_tw.cfhta";
+report_tpl = "report_tw.tpl";
+invkey = "invkey_e.htm";
+aoltec = "techinfo\\aoltec_e.htm";
+cfos_htm = "techinfo\\cfos_e.htm";
+techinfo_htm = "techinfo\\techinfo_e.htm";
+dsldevice_help = "techinfo\\dsldev_e.htm";
+features_htm = "techinfo\\features_e.htm";
+cfos_feat = "%url/cfos-professional/features.htm";
+after_cfos_calibration = "%url/traffic-shaping/calibration-message.htm";
+
+testskin = "測試視窗";
+lastcallers = "最近來電";
+clearlist = "清除清單";
+ras_error = "撥號網路回報了錯誤";
+pwd_error = "密碼錯誤";
+check_dialup = "請檢查您的撥號網路連線。'";
+/ %1 = number of seconds, %2 = "late"/"early"
+sync = "ISDN 時間同步: 您的時間 %2 了 %1 秒";
+isync = "您的時間 %2 %1 秒";
+
+late = "慢";
+early = "快";
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+max_drift = "您已超出了 %1 分鐘的最大允許時間偏差（目前時間偏差為 %2 分鐘）";
+
+nosync = "ISDN 時間同步: 一切都設置完畢";
+nosyncreg = "ISDN 時間同步：僅適用於完整版本";
+inetsync = "根據網際網路調整時鐘";
+noinetsync = "根據網際網路調整時鐘: 僅僅適用於完整版本";
+conrep = "連接報告";
+startserv = "開始 %1 服務";
+stopserv = "停止 %1 服務";
+quit = "關閉狀態視窗";
+order_oem = "立刻訂購專業版本！";
+morefeatures = "更多的功能!";
+upgrade_easy = "下載新的 %p 驅動程式!";
+ipmtu = "已調整撥號網路設定以最佳化您的網路連線。\n調整將在在下次重開機之後生效。";
+closemsg = "很抱歉，為了提供您到期日資訊，將一直顯示此視窗。\n這樣您就能夠即時得知您的試用版使用使用期將於何時結束。\n\n在 %p/Professional 的完整版本中，將不會顯示此視窗，\n僅在您需要的時候才會顯示。只要對視窗點擊滑鼠右鍵\n點擊 %p 視窗或者工具列中的 %p 圖示即可開啟 %p 的訂購網頁！";
+cfos_endsoon = "%p 的試用期即將結束。\n立即訂購 %p 專業版！\n您可以透過以下的網址購買 %p。\n\nhttps://www.cfos.de/zh-tw/order/order.htm";
+cfos_expired = "此 %p 版本已過期。\n立即訂購 %p/Professional！\n您可透過以下方式購買 %p：\n\nhttps://www.cfos.de/zh-tw/order/order.htm\n\n電話: +49-228-7669826\n傳真: +49-228-7669827。";
+actionwait = "連上網路之後，將執行您指定的行為。";
+discask = "確定要中斷此連線？";
+dial_warn = "允許撥打 %1 嗎?";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+badvsn = "您使用的 %p 程式適用於 %1，\n但您的金鑰只能在 %2 使用。\n您可在以下網址訂購升級版：\nhttps://www.cfos.de/zh-tw/order/order.htm\n\n如果您剛購買了 %p 卻發現版本錯誤，請與我們聯繫：\n%url/contact/contact.htm";
+
+active = "使用中";
+inactive = "未使用";
+disabled = "已停用";
+setup = "設定";
+no_write = "沒有 %p 檔案的寫入權限\n%1。\n\n請洽詢的電腦管理員，讓您獲得 CFOS.INI 與 GLOBAL.INI 檔案的寫入和修改權限。\n";
+oem_for = "%1 的 OEM 版本";
+second = "秒";
+seconds = "秒";
+capi1 = "L1 錯誤";
+capi2 = "L2 錯誤";
+capi3 = "L3 錯誤";
+capi4 = "非特定";
+capi5 = "非特定";
+capi6 = "未指定";
+capi7 = "非特定";
+capi8 = "忙線中";
+capi9 = "無回應";
+capi10 = "無回應";
+capi11 = "拒絕";
+capi12 = "號碼以變更";
+capi13 = "號碼無效";
+capi14 = "非特定";
+capi15 = "業者占線";
+capi16 = "業者斷線";
+capi17 = "暫時錯誤";
+capi18 = "網路堵塞";
+capi19 = "業者占線";
+capi20 = "業者占線";
+capi21 = "無 Bearer Cap";
+capi22 = "無此服務";
+
+report_title = "%p 連線報告";
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
+
+/ dialog elements
+dlg_btn_back = "返回 (&B)";
+dlg_btn_cancel = "取消 (&C)";
+dlg_btn_ok = "確定 (&O)";
+dlg_btn_change = "更改 (&C)";
+dlg_btn_next = "下一步 (&N)";
+dlg_btn_end = "結束 (&E)";
+dlg_btn_accept = "接受 (&A)";
+dlg_btn_decline = "拒絕 (&D)";
+dlg_inst_subheader = "即將安裝 %p 到您的電腦。";
+dlg_start_header = "準備安裝";
+dlg_end_dsl = "建立 DSL 撥號連線";
+dlg_end_isdn = "建立 ISDN 撥號連線";
+dlg_end_block = "設置禁撥電話號碼鎖";
+dlg_oem_header = "%p Professional";
+adv_osna = "這是一個特殊的 DSL 版本，僅適用於您的網路業者。此外，您也可以安裝 cFos Professional 的 30 天試用版。此版本將於下個對話窗中展示更強大的功能。";
+dlg_oem_quest = "您想安裝 30 天試用版嗎？";
+
+/ begin dialog
+dlg_title = "%p DSL/ISDN 驅動程式安裝";
+dlg_bgn_header = "%p 安裝";
+dlg_bgn_dir_txt = "安裝目標資料夾：";
+dlg_bgn_dir_sel_title = "選擇 %p 安裝目標資料夾";
+dlg_bgn_dir_type_desc = "%p 安裝目標資料夾";
+dlg_bgn_inst = "安裝 (&I)";
+dlg_bgn_update = "更新 (&U)";
+
+/ medium dialog
+dlg_med_header = "%p 媒介選擇";
+dlg_med_subheader = "%p 為您整合了 DSL 和 ISDN（和 ATM）。既然 %p 具有多項功能，何必還要安裝多個驅動程式呢？";
+dlg_med_isdn_box = "ISDN (CAPI 2.0)";
+dlg_med_dsl_box = "DSL （PPPoE 撥號連線）";
+dlg_med_areacode_txt = "區號：";
+dlg_med_msn_txt = "MSN （您的 ISDN 電話號碼）：";
+dlg_med_netbt_txt = "調整 TCP/IP 設定以便獲得最大效能，並取消 NetBIOS over TCP/IP（推薦）";
+
+/ com port dialog
+dlg_com_header = "%p COM 埠選擇";
+dlg_com_subheader = "支持多重 COM 通訊埠：將 ISDN 和多重鏈路 PPP 頻道合併。";
+dlg_com_txt = "請選擇要使用的 COM 埠。";
+dlg_com_prefix = "COM";
+
+/ feature dialog
+dlg_fea_header = "%p 功能設定";
+dlg_fea_subheader = "進階功能能：有超過 50 項數據機指令與超過 100 項可微調的暫存器。";
+dlg_fea_param = "附加的參數（可保留不變）：";
+dlg_fea_spdts = "偵測到您的電腦上安裝了 %p。\n\n如果要同時使用 %p 的話，\n建議您停用 %p 上的流量塑型功能。\n\n您還是要開啟 %p 的流量塑型功能嗎？";
+fs_chktimesync = "時間同步";
+fs_doctimesync = "（自動透過網際網路或 ISDN 調整時鐘）";
+fs_chkfirewall = "防火牆";
+fs_docfirewall = "（為您的電腦提供基本保護，使其不受普遍的弱點攻擊影響）";
+fs_chktrafficshp = "流量塑型";
+fs_doctrafficshp = "（使用 %p 流量塑型來讓上網變得更快）";
+fs_chkcallmon = "ISDN 來電監控器";
+fs_doccallmon = "（顯示來電者的電話號碼；詳情請見 CFOSINI.HTM）";
+fs_chkdyncapi = "載入動態 CAPI";
+fs_docdyncapi = "（我們推薦筆記型電腦使用者使用此功能。使用網路 CAPI 時必須使用）";
+
+/ uninstall dialog
+dlg_deinst_ok = "移除";
+dlg_deinst_header = "移除 %p";
+dlg_deinst_subheader = "正在移除 %p。";
+
+/ configuration dialog
+dlg_cnf_header = "設定 %p";
+dlg_cnf_subheader = "安裝 %p DSL/ISDN 驅動程式\nhttp://www.cfos.de";
+dlg_cnf_dslisdn = "DSL && ISDN 設定 (&s)";
+dlg_cnf_comports = "選擇 &COM 通訊埠";
+dlg_cnf_features = "功能設定 (&F)";
+dlg_cnf_dundsl = "建立 &DSL 撥號連線";
+dlg_cnf_dunisdn = "建立 &ISDN 撥號連線";
+dlg_cnf_block = "設定禁撥電話號碼鎖 (&b)";
+dlg_cnf_startmode = "變更啟動模式 (&m)";
+dlg_cnf_icon = "開啟工具列圖示 (&T)";
+
+/ startmode dialog
+dlg_smd_header = "選擇 %p 啟動模式";
+dlg_smd_subheader = "安裝 %p DSL/ISDN 驅動程式\nhttp://www.cfos.de";
+dlg_smd_automatic = "自動（系統啟動時）(&A)";
+dlg_smd_manual = "手動（透過狀態視窗）(&M)";
+
+/ dial-up network dialog
+dlg_dun_header = "撥號連線";
+dlg_dun_header_dsl = "DSL 連線";
+dlg_dun_header_isdn = "ISDN 連線";
+dlg_dun_subheader = "請確定您已輸入完整及正確的資料，尤其是您的帳號與密碼。";
+dlg_dun_phone = "撥號號碼：";
+dlg_dun_line = "包括外線前綴號碼（例如用公司電話在撥打外線需先撥 0）（若需要）";
+dlg_dun_showall = "顯示所有國家";
+
+/ user connection dialog
+dun_usercon = "使用者自訂連線";
+dun_with_cfos = "使用 %p";
+dun_fmt = "新增 <%s> 連線";
+
+/ dial-up network
+dun_err_modem = "找不到可用來建立撥號連線的\n%p 數據機。\n";
+dun_err_invalid_name = "撥號項目名稱無效。";
+dun_err_invalid_parameter = "您輸入的參數至少有一個無效。";
+dun_err_state_machine = "建立撥號網路連線時\n出現了錯誤 695（機器未啟動錯誤狀態）。\n可能是您的電腦尚未安裝 DUN 撥號網路。\n這種情況下，請安裝 DUN 撥號網路程式\n（1.3 或更新版）。";
+dun_err_ras = "建立撥號網路連線項目時出現未知錯誤。\n";
+dun_legal_info = "我們在此向您說明建立撥號連線僅是我們\n的安裝程式所提供的服務。透過這個撥號連線撥號上網\n之後可能需要支付上網費用。\n若需網路業者所提供的服務費率表，或是不同的連線參數\n（例如連線號碼），請參見各網路業者（ISP）的網站。\n\n\n%p 所建立的連線行為會與使用 Windows 建立的不同。\n請您在撥號網路設定中檢查。\n";
+country_0 = "現有的撥號連線";
+country_49 = "德國";
+
+/ phone number blocking dialog
+dlg_blk_header = "禁撥電話號碼鎖";
+dlg_blk_subheader = "避免您撥打高額的撥號服務。";
+dlg_blk_off = "停用 (&D)";
+dlg_blk_internet = "只針對網際網路連線 (&I)";
+dlg_blk_all = "針對所有 %p 數據機 (&a)";
+dlg_blk_block = "需要封鎖的號碼";
+dlg_blk_warn = "需要警告的號碼";
+dlg_blk_add = "新增";
+dlg_blk_del = "移除";
+dlg_blk_prefix = "前綴號碼";
+dlg_blk_ask_pref = "";
+dlg_blk_ras = "所有的撥號連線";
+dlg_blk_doublechk = "雙重檢測";
+dlg_blk_doublechk_help = "如果您想檢查包含與不含前綴號碼\n的部分，請勾選「雙重檢測」。\n通常只在與您的電腦連結的部分裝置需要，而另一部分\n又不需要撥號前綴時，才需要勾選此選項。\n";
+dlg_blk_legalinfo = "cFosWatch 與 %p 無法保護的情況：\n如果您同時安裝了 ISDN 卡與傳統類比數據機，\n這些裝置就還是可能撥打到需要被封鎖的昂貴電話號碼。\n如果這發生在沒有 %p 或撥號連線（例：有第三方程式\n透過自訂的方式建立語音或數據連線），就無法被\n%p 或 cFosWatch 偵測到。這種情況下，您必須\n直接拔掉數據機的插頭或關閉電源。目前也沒有辦法保護\n由未安裝　%p 或 cFosWatch 的電腦和傳統電話所撥出的\n連線。若您想要得到完整的保護，請直接向電信業者申請\n封鎖某些電話號碼，但這種服務可能也不是免費的。此外，\n我們無法為 %p 和/或 cFosWatch 的功能失效，或是作業系統\n與第三方軟體功能負責。若其他第三方軟體刻意停用或規避\n%p 和/或 cFosWatch 的功能時，恕本公司亦不承擔任何責任。\n\n本文也保存到 %p 資料夾的 0190.TXT 文件中。\n";
+
+/ password dialog
+dlg_pwd_header = "輸入密碼";
+dlg_pwd_subheader = "您的授權密碼包含您的個人資料，不得轉給第三者使用。";
+dlg_pwd_password = "密碼：";
+dlg_pwd_info = "這是您的 %p 授權的詳細資訊:\n\n序號:\t%s\n姓名:\t%s\n地址:\t%s\n城市:\t%s\nE-mail:\t%s\n\n請在下欄輸入密碼。您可在帳單或授權電子郵件中找到密碼。";
+dlg_pwd_bad = "密碼不正確。請重新輸入。\n\n最好的方式是直接以複製貼上的方式，將密碼自電子郵件中輸入本欄位。";
+
+/ progress dialog
+pr_wait = "請稍候…";
+pr_go = "開始！";
+pr_chk_sw = "正在檢查軟體…";
+pr_unreg_old_drv = "正在移除舊的驅動程式…";
+pr_inst_new_drv = "正在安裝新的驅動程式…";
+pr_unreg_drv = "正在移除驅動程式…";
+pr_reg_drv = "正在註冊驅動程式…";
+pr_rm_group = "正在移除程式群組…";
+pr_cr_group = "正在建立程式群組…";
+pr_rm_inf = "正在移除 INF 檔案…";
+pr_rm_prod = "正在移除產品檔案…";
+pr_del_files = "正在刪除舊檔案…";
+pr_cpy_files = "正在複製檔案…";
+pr_rm_ports = "正在移除通訊埠…";
+pr_rm_obs_ports = "正在刪除舊的通訊埠 - 請稍候…";
+pr_rm_modems = "正在移除數據機…";
+pr_rm_obs_modems = "正在刪除舊的數據機 - 請稍候…";
+pr_add_pm = "正在新增通訊埠與數據機…";
+pr_add_ports = "正在新增通訊埠 - 請稍候…";
+pr_add_modems = "正在新增數據機 - 請稍候…";
+pr_clean_up = "正在整理…";
+pr_start_drv = "正在啟動驅動程式…";
+pr_dun_modems = "正在檢查撥號連線中的數據機名稱…";
+pr_inst_ras = "正在安裝 Windows RAS（遠端存取服務）…";
+pr_inst_dun = "正在安裝 Windows 撥號連線…";
+pr_restart_point = "正在建立還原點…";
+
+/ ISDN late install
+late_ask = "AOL 在您的電腦偵測到 ISDN 設備，您是否想安裝\nAOL 的 ISDN 支援程式 (%p OEM)？\n\n若您想立即安裝 ISDN 支援程式，請點擊「是」。\n\n若您想稍候再安裝 ISDN 支援程式，請點擊「否」。\n\n若您不想安裝 ISDN 支援程式，也不想再被詢問，請點擊「取消」。";
+late_instnever_confirm = "注意：您選擇了「取消」，將不會安裝 AOL 的支援程式。\n您有可能無法透過 ISDN 上網。\n如果您想透過 ISDN 連線至 AOL，我們則建議您安裝 ISDN 支援程式。\n\n您要安裝 ISDN 支援程式嗎？";
+
+/ DSL late install
+late_dsl_ask = "AOL 在您的電腦偵測到 DSL 設備，您是否想安裝\nAOL 的 DSL 支援程式 (%p OEM)？\n\n若您想立即安裝 DSL 支援程式，請點擊「是」。\n\n若您想稍候再安裝 DSL 支援程式，請點擊「否」。\n\n若您不想安裝 DSL 支援程式，也不想再被詢問，請點擊「取消」。";
+late_dsl_instnever_confirm = "注意：您選擇了「取消」，將不會安裝 AOL 的支援程式。\n您有可能無法透過 DSL 上網。\n如果您想透過 DSL 連線至 AOL，我們則建議您安裝 DSL 支援程式。\n\n您要安裝 DSL 支援程式嗎？";
+
+/ modem registration
+regmdm_error = "註冊數據機時出現錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+regmdm_unregerror = "移除數據機時出現錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+regmdm_raserror = "將您的數據機註冊為 RAS（遠端存取服務）裝置時出現錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+regmdm_unraserror = "將您的數據機自 RAS（遠端存取服務）移除時出現錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+lastrasdevice_error = "無法移除數據機，因為這是唯一已註冊的 RAS（遠端存取服務）裝置。\n\nWindows NT 需要至少有一台已註冊的 RAS 裝置。詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+getmdmlist_error = "建立可用數據機清單時發生錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+regport_error = "註冊通訊埠時發生錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+regport_unregerror = "移除通訊埠時發生錯誤。\n\n詳細資訊請參見您 Windows 資料夾中的記錄檔 CFSETUP.TXT。";
+
+/ tip of the day
+totd_title = "%p - 每日小秘訣";
+totd_show = "不再顯示這個視窗。 (&D)";
+totd_didyouknow = "您知道嗎？";
+totd_nexttip = "下個秘訣 (&N)";
+
+/ OEM versions tips (additional to the regular tips)
+totd_oem = "如果您想使用您的 DSL 和 ISDN 連線的完整功能您可以將您現有的 %p 升級為完整版本。詳細資訊請參見 www.cfos.de 網站。";
+
+/ regular tips
+totd1 = "%p 流量塑型可加速您的上下載！此功能能夠讓您的網路更順暢，就算是同時有多個傳輸的情況下也能有更好的回應速度。";
+totd2 = "%p 的防火牆可以簡單地保護您的電腦，使您不受來自網路的一般性襲擊 以及一般性的弱點所導致的危害！請您使用 %p 防火牆作為您的電腦基礎防護。它雖然不能代替一個完整的防火牆，但已可滿足初步使用的要求。此外，%p 防火牆可以和其它的防火牆同時使用。";
+totd3 = "授權版本的 %p 可更新至所有未來的版本。您可以到 www.cfos.de 網站下載更新版，並直接安裝即可覆蓋升級原有版本。舊版當中的設定將完全保留。";
+totd4 = "%p 當中有一組超快的連線程式，可讓網路的撥號速度比起 Windows 內建的驅動程式快上三倍！";
+totd5 = "對 %p 視窗按下滑鼠右鍵即可開啟選單，您可在此找到說明檔案或調整設定。雙擊 %p 圖示即可顯示/隱藏視窗。";
+totd6 = "在功能設定中，您可以讓 %p 保持您的電腦時間與網際網路或 ISDN 時間同步。有需要時，每天會進行一次同步與修正。在狀態視窗中點擊「設定 %p」，然後點選「功能設定」並勾選「時間同步」。";
+totd7 = "許多網路業者提供每月的免費上網時數。使用 %p 的預算管理功能，您就可得知您還有多少免費時數可使用。%p 也支援流量預算功能。";
+totd8 = "想知道是誰來電嗎？您可以直接開啟 %p 功能設定中的來電監控器。狀態視窗將會顯示來電號碼。所有號碼將記錄於LOGFILE.TXT 檔案中，您甚至可以在不同來電者來電時 播放不同的 WAV 音樂檔。請參考 CFOSINI.HTM 以取得更多資訊。";
+totd9 = "%p 有一套特別的閒置計時功能。使用 ATS86=… 參數即可指定在幾分鐘沒有流量後，讓 %p 自動斷線。 您可以在%p 數據機的設定當中（設定 > 連線 > 進階 > 輸入更多設定 ATS86=n，n 就是要在幾分鐘沒有流量後自動斷線的門檻。）";
+totd10 = "%p 支援面板功能，讓您可以調整狀態視窗的外觀。若有關建立面板的更多功能，請參考 SKIN.HTM 檔案。";
+totd11 = "如果您的 DSL 數據機上沒有開關，請您將其電源插入有開關的插座。一般來說 DSL 數據機非常耗電，可能會花費您很多電費，也不節能省碳。";
+totd12 = "在 %p 狀態視窗中，您隨時可以看到目前的傳輸速度。%p 圖示顯示您是否正在傳送或接收資料。";
+totd13 = "%p 當中有超過一百個可以對數據機進行微調的設定。MODEM.TXT 當中列出了所有可用的數據機設定與相關指令。您只需要點擊 %p 選單中「說明」當中的「MODEM.TXT」擊可閱讀該文件。";
+totd14 = "%p 提供輔助說明的郵件群組，讓您可使用電子郵件訂閱。詳情請參見 %url/cfos-professional/update.htm。此外，您也可以加入我們的公告群組，這樣每當有新版的 %p 釋出時，您都會收到一封來自我們的電子郵件。";
+totd15 = "您可以在 WHATSNEW.TXT 檔案中找到所有目前版本新增了什麼功能與修正了什麼地方。請點擊 %p 選單中的「說明」，然後點選「WHATSNEW.TXT」。";
+totd16 = "%p 支援 Lotus Notes。請參見數據機檔案 LOTUS_CF.MDM 以取得更多資訊。";
+totd17 = "若您遇到任何問題，我們的技術支援團隊樂於協助您：%url/contact/contact.htm";
+totd18 = "嘲諷者說 C.F.O.S. 這個名字來自於 「Creatures from Outer Space」（外太空生物），但是這種說法是錯誤的！C.F.O.S.這個名字的來源其實是「CAPI-FOSSIL」，其中 CAPI 是一種 ISDN 標準，FOSSIL 是 DOS 當中的一個序列埠介面。:-)";
+
+/ directory creation
+dir_badname = "資料夾名稱與現有檔案發生衝突。";
+dir_create = "資料夾 %s 不存在。\n是否要建立此資料夾？";
+dir_create_error = "資料夾 %s 建立失敗。\n錯誤：%s";
+dir_cd_error = "切換到 %s 資料夾失敗 (r=%d)。";
+dir_nooverwrite = "無法覆蓋所選資料夾中的某些檔案。\n請您選擇另一個資料夾進行安裝。\n";
+dir_notnuffree = "%s 中沒有足夠的磁碟空間。\n需要的磁碟空間：%lu kBytes\n可用磁碟空間：%lu kBytes\n\n請您選擇另一個磁碟機進行安裝。";
+dir_baddir = "無法存取該資料夾。\n請輸入有效資料夾。";
+
+/ com port messages
+com_need1 = "您必須至少選擇一個 COM 通訊埠。";
+com_teles = "您選擇的 COM 通訊埠目前正被 TELES.VCOMM 占用。\n\n為了讓能夠 %p 使用這些通訊埠，請您按照以下指示設置 TELES.VCOMM：\n點擊：開始 - 設定 - 控制台 - TELES ISDN。\n然後，點選數據機，並釋放需要的 COM 通訊埠，\n為了使設定生效，您可能必須重開機。";
+com_rvscomnt = "您選擇的 COM 通訊埠可能正被 RVS-COM 占用。\n如果您已經進行了以下的改動，請您直接點擊「確定」。\n\n為了能夠讓 %p 使用這些通訊埠，請您按照以下指示停止 RVS COM 驅動程式：\n點擊： 開始 - 設定 - 控制台 - 裝置。\n尋找「RVS Virtual COM Port」裝置，並點擊「停止」。\n接下來，點選「啟動」選單，選擇「手動」。然後點擊「確定」-「關閉」。\n為了使設定生效，您可能必須重開機。";
+com_rvscom95 = "您選擇的 COM 通訊埠目前正被 RVS-COM 占用。\n\n為了能夠讓 %p 使用這些通訊埠，您必須移除或停用\nVRVSPORT。您可以在硬體管理員中進行。\n";
+
+/ installation
+install_ask = "安裝資料夾：\n   %s%s%s%s\n\nCOM 通訊埠：%s\n\n參數：\n   %s\n\n開始安裝？";
+inst_dsl_on = "\n\nDSL 支援：\n   可用";
+inst_msn = "\n\nMSN:\n   ";
+inst_ok = "安裝成功。\n\n";
+inst_hypertrm = "在您的電腦上找到舊版的 Hyperterminal（超級終端機）。目前已知這個版本與 %p 的新式序列埠驅動程式的同時執行時，會出現問題。您可以從 http://www.hilgraeve.com 網站下載 名為「Hyperterminal Personal Edition」的修訂版本。安裝程式已為您在 %p 程式群組當中建立此網站的連結。\n\n";
+inst_norights = "您沒有權限安裝或移除 %p！\n您必須擁有管理員權限才能安裝或移除 %p。\n請登出後，以包含管理員權限的帳號登入，再重新執行安裝程式。";
+inst_scm_noopen = "無法開啟服務管理員！\n您可能沒有權限？\n請登出後，以包含管理員權限的帳號登入，再重新執行安裝程式。\n\n詳細資訊請參見 %s。";
+inst_mtuchanged = "撥號連線中設定已被調整，以提供最佳化的速度。變更將再重新開機後生效。\n\n";
+inst_rmmodem = "某些 %p 數據機已自您的 COM 埠移除，因為新版的 %p當中有新的設定，請在數據機管理員當中調整設定，並重新安裝缺少的數據機。\n\n";
+inst_reboot = "必須重新啟動 Windows 才能繼續安裝。";
+inst_runonce = "安裝過程將在您的電腦重新啟動之後繼續。";
+inst_winpoet1 = "您同時安裝了 %p for DSL 與 WinPoET。\n您必須停止 WinPoET，否則將無法使用 %p 連線至網路，因為 WinPoET 會中斷您的網路連線。";
+inst_winpoet95 = "要停止 WinPoET，請對工具列中的 WinPoET 圖示按下滑鼠右鍵，並選擇關閉。\n\n";
+inst_winpoetnt = "要停止 WinPoET，請點擊開始 > 設定 > 控制台 > 服務，並停止「WinPPPoverEthernet」服務。\n\n";
+inst_winpoetall = "要停止 WinPoET ，請開啟服務管理員，並停止「WinPPPoverEthernet」服務。\n\n";
+inst_closeports = "SETUP 無法繼續，因為某些 %p COM 通訊埠\n仍被佔用中。請關閉這些通訊埠，並/或點擊…\n是:\t 以再試一次，\n否:\t 忽略該問題，繼續安裝（將需要重新開機），\n取消:\t 以取消。";
+inst_mdmrename_list = "下列 %p 數據機已被更名。請調整您的撥號網路連線以及所有其他需要使用這些數據機的程式:\n";
+inst_mdmrename_entry = "「%s」已更名為「%s」於通訊埠 %s。\n";
+inst_mdmremove_list = "必須移除以下的 %p 數據機。每個 %p 數據機可手動透過數據機管理員安裝。請在撥號連線設定與其他使用到這些數據機的程式設定中進行調整：\n";
+inst_mdmremove_entry = "「%s」於通訊埠 %s。\n";
+
+/ foo messages
+foo_openerror = "無法開啟 %s：%s";
+foo_testbad = "封存內容測試失敗。\n無法繼續安裝。";
+foo_badarc = "解壓封存內容失敗。\n無法繼續安裝。";
+foo_test = "正在測試封存內容，請稍候…";
+foo_extract = "正在解開檔案，請稍候…";
+foo_nodriver = "找不到驅動程式檔案 %s，\n錯誤 %s!";
+
+/ uninstallation
+deinst_nocfos = "找不到可移除的 %p。";
+deinst_notthis = "無法移除這個版本的 %p。";
+deinst_ask = "\n\n開始移除？";
+deinst_ok = "移除成功。\n";
+deinst_askfiles = "找到下列 %p 資料檔案:\n\n";
+deinst_askfiles2 = "\n您要刪除這些文件與資料夾嗎？";
+deinst_askfiles3 = "自 %s 資料夾移除時，\n安裝程式 找到下列無法識別的檔案:\n\n";
+
+/ configuration messages
+conf_nocfos = "找不到可設定的 %p。";
+conf_discard = "尚未儲存設定。\n立刻儲存變更？";
+conf_ok_noboot = "已變更設定，並已生效。\n%p 已被重新啟動，不須重開機。";
+conf_ok_boot = "已變更設定。\n為了使變更的設定，您必須重新開機。";
+conf_no_capi16 = "找不到 CAPI.DLL、CAPI20.DLL 或 VxD-CAPI 2.0。\n\n%p/Win 需要 CAPI 驅動程式才能執行。\n請先安裝 CAPI 驅動程式，\n再重新執行 %p 安裝程式。";
+conf_no_capi32 = "找不到正在執行的 CAPI 2.0 驅動程式。\n請安裝並啟動您的 CAPI 驅動程式。";
+conf_no_comport = "找不到未被占用的 COM 通訊埠。";
+conf_wrong_os = "DLL 回報了錯誤的作業系統。";
+conf_syserror = "系統或內部錯誤。\n請參見 %s 以取得更多詳細資訊。";
+conf_some_error = "DLL 錯誤 #%d";
+conf_wait = "正在變更設定…";
+
+/ program group
+group_order_inet = "訂購 %p 進階版。";
+group_order_oem = "下載進階版 %p 驅動程式。";
+group_conf = "設定 %p";
+group_deinstall = "移除 %p";
+group_doc = "%p 說明文件";
+group_wwwcfos = "www.cfos.de";
+group_hypertrm = "網際網路超級終端機";
+group_dun_dsl = "設定 DSL 連線";
+group_dun_isdn = "設定 ISDN 連線";
+group_num_block = "設置禁撥電話號碼鎖";
+
+/ registration
+tkey_notfound = "找不到傳輸檔案 %s。\n請將檔案複製到 %p 安裝程式所在的資料夾，\n並重新啟動 %p 安裝程式。\n";
+tkey_bad = "安裝 %p 金鑰時遇到問題。\n若需詳細資訊請參見 %s。\n";
+tkey_ok_reboot = "已成功安裝 %p。\n\n本程式已註冊給: %s\n序號： %s。\n\n您需要重新啟動 %p 或您的電腦，\n才能使註冊生效。";
+tkey_ok = "已成功安裝 %p。\n\n本程式已註冊給: %s\n序號： %s。\n\n歡迎使用 %p！";
+tkey_filebad = "傳輸檔案已毀損。\n請聯絡我們取得新的檔案：\n%url/contact/contact.htm";
+tkey_inst = "您需要先安裝 %p 才能安裝註冊金鑰。\n要立刻安裝 %p 嗎？（若選擇「否」將離開安裝程式。）";
+tkey_abort = "授權未被接受，註冊已中止。";
+
+/ miscellaneous
+bugs = "請注意：這是 %p 的全新 BETA 版本。\n\n這個版本中可能還有一些臭蟲。安裝之前，\n請您為所有重要的文件做好備份。\n執行此版本時必須有人看管。\n若您尚未建立備份，請先點擊\n取消，並進行備份；否則請點擊確定，以便繼續安裝。\n";
+type_choice = "請選擇您想安裝的 %p";
+button_ok = "確定 (&O)";
+ask_reboot = "為了使安裝生效，必須重新啟動 Windows。\n立刻重新啟動？\n";
+lic_bad = "無法解壓縮授權協議。\n無法繼續安裝。";
+inst_eventvwr = "事件檢視器正在執行中，請先關閉。\n安裝程式無法在其執行的同時進行安裝。\n";
+inst_already = "您已經在「%s」通訊埠安裝了 %p。";
+inst_toinstall = "準備安裝：";
+inst_aol_over_cfi = "您正準備安裝 AOL %p 版本，但您已經\n安裝了其他的 OEM %p。\n若您繼續安裝這套 AOL 的 %p，與 OEM 間的連線可能會被封鎖。\n\n我們建議您到\n   %url/oem/oem.htm\n\n下載 %p 試用版。此版本可使您連線至所有 OEM 裝置，\n並可能比您現在已安裝的版本還新。";
+inst_cfi_over_aol = "您正準備安裝 OEM %p 版本，但您已經\n安裝了一個 AOL %p。\n若您繼續安裝這套 %p，與 AOL 間的連線可能會被封鎖。\n\n我們建議您到：\n   %url/oem/oem.htm\n下載最新的 %p 版本。此版本可以讓您連線至所有 OEM 裝置，\n並可能比您現在已安裝的版本還新。";
+inst_raspppoe = "您可能安裝了 RASPPPoE。RASPPPoE 目前的設置為，將每個 %p 封包都記錄下來。要停止這個行為，請前往 RASPPPoE 通訊協定，選擇屬性、進階、並取消勾選「Log Warnings」。這不會影響 RASPPPoE 的功能，只是使事件記錄大小縮小，並提高執行效能。";
+dll_found = "找到下列已安裝的驅動程式：\n\n";
+dll_founddir = "在資料夾";
+dll_replace = "\n若要繼續，此驅動程式將被取代。";
+features_bad = "解壓 FEATURES.HTM/FEAT_E.HTM 檔案失敗。";
+general_error = "安裝過程中出現錯誤。\n\n詳細資訊請參見 %s 檔案。";
+
+/ Don't translate!
+/ END SECTION: don't translate
+

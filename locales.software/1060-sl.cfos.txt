@@ -1,0 +1,861 @@
+#language 1060
+#fallback 1033
+#charset 0
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+language = "Slovenian";
+language_local = "Slovenski";
+htm_lang_prefix = "sl";
+
+/ ----------------------------------------------------------------------
+/
+/  6link / broadband connect / pnet
+/
+/ ----------------------------------------------------------------------
+
+bc_mainurl = "%url/index.htm";
+bc_updateurl = "%url/download/download.htm";
+bc_orderurl = "https://www.cfos.de/sl/order/broadband-connect-n.htm";
+bc_desc = "%p, visoko zmogljivi gonilnik na klic";
+sixlink_mainurl = "%url/index.htm";
+sixlink_updateurl = "%url/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/sl/order/cfos-ipv6-link-n.htm";
+sixlink_desc = "%p, hitri IPv6 gonilnik";
+cfospnet_mainurl = "%url/index.htm";
+cfospnet_updateurl = "%url/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/sl/order/cfos-personal-net-n.htm";
+pnet_desc = "%p, vaš osebni web strežnik";
+renew_params = "Posodobi parametre";
+dlg_dun_auto = "Avtomatsko poveži";
+dlg_dun_default = "Privzeta povezava";
+dlg_dun_cons = "Profili povezave";
+dlg_dun_name = "Ime povezave:";
+dlg_dun_uname = "Ime uporabnika:";
+dlg_dun_pwd = "Geslo:";
+dlg_dun_use_ipv4 = "Uporabi IPv4";
+dlg_dun_use_ipv6 = "Uporabi IPv6";
+dun_connect_to = "Poveži z %?";
+dun_err_already_exists = "Ime povezave že obstaja.";
+disconnect = "Prekini ";
+setup_connections = "Nastavi povezave";
+ask_inst_ipv6 = "IPv6 protokol še ni naložen na tem sistemu.\n\n"
+                "Želiš naložiti IPv6 protokol?";
+err_inst_ipv6 = "Napaka %? med inštalacijo IPv6 protokola.";
+
+/ connection entry dialog
+con_err_save = "Ne morem shraniti podatke povezave!";
+con_ipv4 = "IPv4";
+con_ipv6 = "IPv6";
+con_private_address = "Privatni naslov:";
+con_prefix = "Prefiks:";
+con_dns1 = "DNS1:";
+con_dns2 = "DNS2:";
+con_enabled = "omogočeno";
+
+/ pnet configuration dialog
+pnet_header = "Skupne nastavitve";
+pnet_subheader = "Prilagodi skupne nastavitve.";
+pnet_pubdir_header = "Javna mapa";
+pnet_pubdir_subheader = "Mapa, ki vsebuje prenešene datoteke.";
+pnet_pubdir_info = "Prosim določi lokacijo mape kjer so datoteke, ki jih želiš objaviti za prenos.";
+smtp_header = "SMTP Strežnik";
+smtp_subheader = "Konfiguriraj SMTP strežnike.";
+dynip_header = "Dinamični IP Strežnik";
+dynip_subheader = "Konfiguriraj dinamični IP strežnik";
+dlg_start_now_as_current_user = "Zaženi %p sedaj kot trenutni uporabnik";
+dlg_autostart = "Zaženi %p ob zagonu sistema Windows";
+dlg_autostart_service = "Naloži %p kot sistemski servis in ga zaženi ob zagonu sistema Windows";
+dlg_context_menu = "Dodaj povezan meni v Windows raziskovalec";
+dlg_create_admin_account = "Kreiraj administratorski račun";
+dlg_admin_pwd = "Geslo za uporabnika \"admin\":";
+dlg_admin_pwd_needed = "Geslo za uporabnika \"admin\" mora biti vnešeno za kreiranju administratorskega računa.";
+dlg_register_shell_extension = "Registriraj končnico v lupini";
+dlg_server_port = "Port strežnika:";
+dlg_server_name = "Ime strežnika:";
+dlg_server = "Strežnik:";
+dlg_renew_interval = "Interval posodobitve (ms):";
+dlg_redirect_delay = "Zakasnitev preusmeritve (ms):";
+
+/ pnet context menu entry
+publish_with_product = "Objavi z %p";
+
+/ pnet backup info
+dlg_backup_info = "Arhivska datoteka (.bak) je bila kreirana za vsako datoteko preden je bila zamenjana:";
+
+/ pnet
+end_program = "Končaj program";
+file_copy_failed = "Operacija kopiranja datotek je spodletela.";
+ipv4_bind_problem = "Strežnik ne more poslušati na specifiranem portu IPv4, ker je že v uporabi druge aplikacije (npr. Skype).";
+ipv6_bind_problem = "Strežnik ne more poslušati na specifiranem portu IPv6, ker je že v uporabi druge aplikacije (npr. Skype).";
+closing_server = "Strežnik se ugaša.";
+start_product = "Zaženi %p";
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
+speed_mainurl = "%url/index.htm";
+speed_updateurl = "%url/download/download.htm";
+speed_orderurl = "https://www.cfos.de/sl/order/cfosspeed-n.htm";
+no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
+after_calibration = "%url/traffic-shaping/calibration.htm";
+download_more_skins_url = "%url/download/download.htm#skins";
+documentation_url = "%url/cfosspeed/documentation/index.htm";
+expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
+beta_url = "%url/beta/index.htm";
+keyboard_led_help_url = "%url/cfosspeed/documentation/keyboard-leds.htm";
+logitech_help_url = "%url/cfosspeed/documentation/logitech-keyboard.htm";
+speed_guide_url = "%url/traffic-shaping/speed-guide.htm";
+after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "%url/cfosspeed/documentation/status.htm";
+
+auth_failed = "Preverjanje konsistence je detektiralo, da je ena ali več komponent bilo spremenjeno.\n"
+   "Prosim inštaliraj nespremenjeno verzijo z naše web strani:\n";
+
+component_mismatch = "Obstaja konflikt v verziji med komponentami "
+                     "tega programa. Prosim ponovno inštaliraj najnovejšo verzijo.";
+trayicon_tip = "Hitrejši internet s preoblikovanjem prometa, www.cfos.de";
+speed_endsoon = "Vaše testno obdobje bo kmalu končano! Prosim kupite %1 še danes!";
+order_info = "Kupi sedaj:\n"
+             "Internet: www.cfos.de\n"
+             "Preko telefona: +49-228-7669826";
+badkey = "Problem z licenčnim ključem.\n"
+         "Prosim ponovno inštaliraj ključ z dvoklikom na\n"
+         "datoteko, ki ste jo dobili preko e-maila ali diskete.";
+no_setup = "Ne morem zagnati inštalacije (setup.exe).";
+ask_disconnect_ras = "Trenutno aktiva omrežna povezava se bo preuredila.\n"
+                     "Priporočljivo je da se povezava izključi pred nadaljevanjem.\n"
+                     "Izključim trenutno omrežno povezavo?";
+sygate_hint = "%p je zaznal Sygate Firewall, ki dela napako\n"
+              "%p kalibracijskega pulza za napada Denial of Service s\n"
+              "\"Ping-of-Death\" paketi.\n"
+              "Zato morate prenesti k sebi (download) in nato še od sebe (upload) s polno\n"
+              "hitrostjo za približno 30 sekund za vsako operacijo. To bi naj kalibriralo\n"
+              "%p kot kalibracijski pulz.\n\n"
+              "Namig: Funkcija požarnega zidu \"Anti IP Manipulation\" mora biti\n"
+              "deaktivirana.";
+select_language = "Izberi jezik";
+translator = "Prevajalec";
+translator_name = "Andrej S.";
+translator_msg = "";
+/ %3=product name, %1=number, %2="day"/"days"
+lic_reg_exp_warn = "Vaša %3 licenca poteče čez %1 %2.";
+
+service_desc = "Izvede meritev latence in priviligirane operacije za %p";
+no_pings_error = "Ping paketi poslal od %p izgleda niso prišli skozi. "
+                 "Brez teh paketov, %p preoblikovanje pometa ne more delovati pravilno. "
+                 "Klikni tu za pomoč.";
+other_languages = "Drugi jeziki";
+install_dir = "Inštalacijska mapa: ";
+ask_clear_tsdata = "Počistim podatke za preoblikovanje pormeta in zaženem novo kalibracijo linije?";
+allow_traffic_shaping = "Dovolim preoblikovanje prometa za to povezavo";
+none = "nič";
+lic_expired = "Vaše testno obdobje je poteklo. %1 je sedaj deaktiviran. Kupite %1 še danes!";
+settings = "Nastavitve";
+winsettings = "Nastavitve Okna";
+openwindow = "Odpri Okno";
+openwindows = "Odpri okna";
+closewindow = "Zapri okno";
+closewindows = "Zapri okna";
+autoopen = "Avtomatsko odpri/Avtomatsko skrij";
+taskbaricon = "Ikona opravilne vrstice";
+autoarrange = "Avtomatsko uredi okna";
+effects = "Efekti";
+blend_effect = "Zatemni okna";
+slide_effect = "Drsna okna";
+win_behaviour = "Uporabi sistemsko obnašanje";
+selectskin = "Izberi preobleko";
+topmost = "Vedno na vrhu";
+defpos = "Privzeta pozicija";
+disco_ras = "Odlogiraj ";
+config = "Opcije";
+order = "Kupi sedaj!";
+dayl_singular = "dan";
+dayl_plural = "dnevi";
+days_singular = "dan";
+days_plural = "dnevi";
+/ %1=number, %2="day/days"
+short_try = "Preizkusi %1 %2";
+short_dexpire = "Preteklo %1 %2";
+
+short_exp = "Preteklo!";
+/ %1=number, %2="day/days", %3=product name
+lic_dexpire = "Vaše obdobje preizkušanja je poteklo %1 %2. Kupi %3 še danes!";
+lic_try = "Lahko preizkušaš %3 za %1 %2 pred naročilom.";
+
+enable_win = "Omogočim statusno okno?\n\n"
+   "Statusno okno prikazuje status vaše aktivne povezave.";
+license = "Licenca";
+licensed_to = "Registrirano na %?";
+upgrade = "Pridobi novo verzijo programa";
+connect_to = "Poveži na";
+make_own_skin = "Izdelaj lastno preobleko";
+click_through = "Klik-skozi";
+ask = "Vprašaj";
+off = "Izklop";
+on = "Vklop";
+note = "Opomba";
+deactivated = "deaktivirano";
+ole_error = "Da bi uporabili ta konfiguracijski dialo,\\n%p mora biti naložen in zahnan na vašem računalniku.\\nProsim preverite in ponovno naložite, če je potrebno.";
+ts_settings = "Nastavitve preoblikovanja prometa";
+preferences = "Nastavitve";
+prio_protocols = "Prioriteriziranje protokolov";
+protocol = "Protokol";
+protocols = "Protokoli";
+prio_programs = "Prioriteriziranje programov";
+program = "Program";
+programs = "Programi";
+current_connections = "Trenutne povezave";
+ts_prios = "Prioritete preoblikovanja prometa";
+client_protocols = "Klientski protokoli";
+server_protocols = "Strežniški protokoli";
+media_streaming = "Medijski pretok";
+file_sharing = "Izmenjava datotek";
+special = "Posebno";
+other = "Drugo";
+hint = "Namig";
+hint_text = "Prioriteriziranje bo delovalo pravilno, če je malo podatkom dana visoka prioriteta. Programom, ki pošiljajo od vas veliko podatkov, dajte nizko prioriteto. Prioriteriziranje protokolov je narejeneo pred prioriteriziranjem programov.";
+prio_doc_link = "Kako deluje shema prioriteriziranja";
+save_protocols = "Shrani protokole";
+undo = "Povrni";
+filter_selection = "Filtriraj izbiro";
+higher = "Višja";
+high = "Visoka";
+normal = "Normalna";
+default = "Privzeta";
+low = "Nizka";
+lower = "Najnižja";
+entries = "Vnosi";
+prog_overwrite = "Program #p je že v seznamu.\\nŽeliš prepisati vnos z novimi vrednostmi?";
+games = "Igre";
+voip = "Govor preko IP (VOIP)";
+remote_control = "Odaljena kontrola";
+prog_hint_text = "Pririterizacija bo delovala pravilno le, če bo malo podatkom dana visoka prioriteta. Dajte programom, ki oddajajo veliko količino podatkov nizko prioriteto.<br />";
+save_priorities = "Shrani prioritete";
+delete = "Zbriši";
+aux_lines = "Pomožne linije";
+higher_prog_help = "Govor preko IP, morda igre";
+high_prog_help = "Igre, medijski pretok, telnet in drugi interaktivni programi";
+low_prog_help = "Strežniški podatki, FTP podatki";
+lower_prog_help = "Stalni promet v ozadju, kot npr. izmenjava datotek";
+delete_help = "Odstrani s seznama (tretiraj pakete kot normalni).";
+prog_help = "Prenos paketov z nižjo ali najnižjo prioriteto je upočasnejno le zaradi podatkov z višjo prioriteto obdelanih v istem času. Drugače so paketi z nižjo ali najnižjo prioriteto poslani z maksimalno hitrostjo.";
+filename = "Ime datoteke";
+description = "Opis";
+new_program = "Nov program";
+restore_defaults = "Obnovi privzete";
+add = "Dodaj";
+suggest_program = "Predlagaj ta program cFos ekipi";
+l7_prot_detection = "Detekcija 7 plati protokola";
+l7_prot_detection_help = "Detektiraj protokol z analizo podatkov. Uporabi dialog 'Prioriteriziranje protokolov' za spremembo prioritete različnim protokolom. Če deaktivirate to opcijo, so protokoli detektirani glede na uporabljeno številko porta.";
+favor_ping = "Prednost Ping času";
+favor_ping_help = "<b>Vklopljeno</b>: %p bo minimiziral ping čase na račun rahlega zmanjšanja prenosa (če bo to potrebno).<br /><b>Izklopljeno</b>: %p bo maksimiziral hitrost na račun malenkost višlim časom pinga (če bo to potrebno).";
+avoid_loss = "Izogibanje izgubi paketov";
+avoid_loss_help = "%p zapira TCP sprejemajoča okna za sprejemajoče pretoke če je detektirano prevelika izguba paketov. To se zgodi le, ko povezava sprejema s polno hitrostjo.";
+activate_firewall = "Aktiviraj požarni zid";
+activate_firewall_help = "Zaščita omrežja pred vdori s filtriranjem nevarnih paketov, preverjanjem stanja in nevidnim načinom.";
+mtu_opt = "Avtomatska MSS (MTU) optimizacija";
+mtu_opt_help = "Prilagodi MSS/MTU za maksimalno hitrost prenosa. Tipično, vrednosti pod 1500/1492 rezultirajo hitrejše povezave.";
+strict_rtp = "Striktna kontrola RTP";
+strict_rtp_help = "Če je aktivirano, bo %p razpoznal kot RTP samo tiste pakete ki bodo vsebovali veljaven RTCP ID vira. To opcijo morate deaktivirati za VOIP programe (npr. VoIPBuster) ki ne pošiljajo RTCP paketov.";
+ts_config = "%p konfiguracija preoblikovanja prometa";
+dialup_connection = "Dial-Up povezava";
+dialup_connections = "Dial-Up povezave";
+traffic_shaping = "Preoblikovanje prometa";
+ras_con_help = "<b>Da</b>: aktiviraj, <b>ne</b>: deaktiviraj, <b>vprašaj</b>: vprašaj samo enkrat in nato shrani nastavitev";
+router_connections = "Povezave usmerjevalnika";
+net_components = "Omrežne povezave";
+auto = "Avto";
+router_help = "<b>Da</b>: aktiviraj, <b>ne</b>: deaktiviraj, <b>avto</b>: omogoči preoblikovanje pormeta, če je najden usmerjevalnik v tem omrežju";
+network_adapter = "Mrežni adapter";
+router = "Usmerjevalnik";
+and_save_settings = "in shrani nastavitve";
+border = "Meja";
+budget = "Proračun";
+budget_settings = "Nastavitve proračuna";
+budget_title = "%p Online proračuni";
+budgets = "Online proračuni";
+graph_title = "Graf uporabe";
+hard_limit = "Trde<br>meje";
+hard_limit_help_not_set = "Presežen proračun bo označen samo v statusnem oknu";
+hard_limit_help_set = "Paketi bodo zavrnjeni, če bo proračun presežen";
+last_3_months = "zadnje 3 mesece";
+last_month = "zadnji mesec";
+last_12_months = "zadnjih 12 mesecev";
+please_select = "Prosim izberi";
+reset_day = "Resetiraj dan";
+reset_day_unit = "dan v mesecu";
+rxtx_button = "RX/TX izbira";
+save_budgets = "Shrani proračune";
+show_for = "Prikaži za";
+this_month = "ta mesec";
+time = "Čas";
+time_limit = "Časovni limit";
+volume = "Volumen";
+volume_limit = "Limit volumna";
+spdbudget_help = "Za uporabo proračuna, pojdi v dialog povezav in ga dodeli k izbrani povezavi";
+password_bad = "Slabo geslo";
+favor_bandwidth = "V korist pasovne širine";
+sum_button = "Kumulativa";
+calibrate = "Kalibriraj linijo";
+test_pings = "Pošlji testne pinge";
+variable_bandwidth = "Variabilna pasovna širina";
+def_bandwidth_help = "Privzeto za <b>novo</b> povezavo";
+cur_bandwidth_help = "Nastavitev za trenutno povezavo";
+no_ports_open = "Ni odprtih povezav.";
+no_ports_open_help = "Trenutno ni odprtih povezav, ki so obdelovane z %p. "
+   "Za premembo privzetih nastavitev za novo povezavo kliki na zavihek \"Privzeto za nove povezave\", "
+   "za spremembo nastavitev ostalih povezav, klikni \"Preoblikovanje Prometa\" na levi strani.";
+ok = "OK";
+connection_medium = "Srednje";
+connection_type = "Način Preoblikovanja prometa";
+driver_not_loaded = "Gonilnik ni naložen!";
+many_cons_error = "%p rx-preoblikovanje pormeta je potisnjen na mejo, ker je preveč povezav. Z manj povezavami, bo deloval bolje. Klikni tukaj za pomoč.";
+limit_bandwidth = "Omeji pasovno širino za trenutno povezavo";
+rx_limit = "RX Omejitev";
+tx_limit = "TX Omejitev";
+apply_limits = "Uveljavi omejitve";
+limit_help = "Vrednosti v kbyte/s, vključno z vsemi overheadi protokolov, 0 = ni omejitev.";
+enable_speed_shaping = "Omogoči preoblikovanje prometa";
+disable_speed_shaping = "Onemogoči preoblikovanje pormeta";
+yes = "Da";
+no = "Ne";
+help = "Pomoč";
+bgraph_totals = "Skupaj";
+blocklist = "IP-Bloker";
+blocklist_help = "Seznam IP naslovov za katere je blokiran ves promet.";
+apply_blocklist = "Uporabi filtrirni seznam";
+search = "Išči";
+budget_connection = "Konfiguriraj kateri proračun bo uporabljen pri posamezni povezavi";
+reset = "Reset";
+autohide_on_fullscreen = "Avtomatsko-skrij ob prikazu na celem zaslonu";
+slot_selected = "Izbrani protokoli / programi";
+show = "Prikaži";
+hide = "Skrij";
+slot_explain = "Če ima podatkovni paket poznan protokol in je ta protokol "
+               "dodeljen reži, je promet paketa štet tej reži. "
+               "Drugače, če paket pripada povezavi programa "
+               "ki je bil dodeljen reži, se promet šteje tej "
+               "reži.  Če pa tudi to ni izpolnjeno, se promet šteje k "
+               "reži, kjer se šteje ves ostali promet, če je to postavljeno.";
+traffic_analysis_title = "Analiza prometa v realnem času";
+other_traffic = "Ves ostal promet";
+traffic_analysis = "Analiza prometa";
+slot = "Reža";
+slots = "Reže";
+slots_title = "Nastavitev reže";
+can_select_multiple = "Namig: Lahko izberete več opcij s pritiskom Shift ali Ctrl tipke med izbiranjem opcije";
+name_for = "Ime za ";
+set_name = "Nastavi ime";
+rx_only = "samo RX";
+tx_only = "samo TX";
+max_of_rx_tx = "Maksimum od RX & TX";
+total_rx_only = "Skupna RX hitrost";
+total_tx_only = "Skupna TX hitrost";
+total_max_of_rx_tx = "Maksimum od skupne RX & TX";
+check_if_other_also = "Izberi, če želiš da se ves ostal promet štej k tej reži";
+performance_help = "Za prihranitev maksimalne računalniške moči, predlagamo da se postavi povezave ki se uporabljajo za intenet na 'Da' vse ostale pa na 'Ne'.";
+loading = "Nalagam...";
+connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
+
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+regid = "Brez sodelovanja";
+regid_help = "V vašem omrežju je računalnik brez cFos TS";
+regid_help_long = "Uporabljate omrežno povezavo z drugimi napravami hkrati in vsaj ena nima cFos preoblikovanja prometa.";
+
+/ "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+net_talk = "Mrežni pogovor";
+net_talk_help = "Razpošlji statistiko prometa v vašem omrežju";
+net_talk_help_long = "Za izboljšavo točnosti, pošlji statistiko prometa ostalim računalnikom v vašem (domačem) omrežju. Nobenega podatka ni poslano v internet.";
+net_talk_subheader = "Prosim izberite, če naj bo funkcija Net_Talk (mrežni pogovor) uporabljena.";
+
+/ Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+vari_fixed = "Prilagodirev za Ping Jitter";
+vari_fixed_help = "Uporabi napredno preoblikovanje prometa za prilagoditev variabilnih ping časov";
+vari_fixed_help_long = "Zberi pingstatistiko za prilagoditev jitterja v ping časih; še posebej priemrno za mobilne/brezžične povezave. Priporočamo da je opcija omogočena tudi za vse druge povezave.";
+
+set = "Nastavi";
+tx_limit_help = "Vnesite hitrost v bytes/sec ali procent katere je ta program ali protokol dovoljen poslati.";
+download_more_skins = "Prenesi več preoblek";
+documentation = "Dokumentacija";
+speed_test = "cFos test hitrosti";
+ask_key_banned_info = "Problem z licenčnim kjučem.\nŽelite nadaljne informacije?";
+
+adapter_info = "Informacija o adapterju";
+channel_recommend = "Kanali z minimalno frekvenčno uporabo (najboljši k najslabšim)";
+channel_explain = "Lahko uporabite porabo kanalov za konfiguracijo vaše WLAN postaje, toda zavedajte se da dejanska frekvenča poraba zavisi od uporabe drugih WLAN omrežij. Nekatera so lahko v mirovanju, druga pa v veliki uporabi.";
+no_adapters = "Informacija o adapterju ni na voljo.";
+wlan_no_service = "Servis ni na voljo. Prosim naložite ali zaženite Wireless LAN API za Windows (WZC).";
+wlan_no_station = "Ni najdeno dovolj dostopovnih točk.";
+kaspersky_hint = "Kaspersky Internet Security 2010 lahko povzroča probleme z %p. Prosim nadgradite na Kaspersky Internet Security 2011.";
+
+console_cancel = "Prekliči";
+console_freeze = "Zamrzni";
+console_continue = "Nadaljuj";
+console_help = "Lahko prioriteriziraš posamezno povezavo s klikom nanjo v tabeli spodaj.<br/>Povezave označene z (*) so prioriterizirane začasno.";
+console_prio = "Prioretiziraj za to povezavo";
+console_prio_off = "Izključi prioriteziranje";
+console_prio_this = "Začasno prioretiziranje za to povezavo";
+console_prio_this_off = "Izključi začasno prioretiziranje za to povezavo";
+console_prio_prot = "Začasno prioretiziraj protokol";
+console_prio_prot_off = "Izključi začasno prioretiziranje protokola";
+console_prio_prog = "Začasno prioretiziraj program";
+console_prio_prog_off = "Izključi začasno prioretiziranje programa";
+console_prio_prot_perm = "Stalno prioretiziraj protokol";
+console_prio_prog_perm = "Stalno prioretiziraj program";
+console_prio_advanced = "Napredna prioritetizacija";
+
+new_version_available = "Nova verzija na voljo";
+update_beta = "PReveri tudi za novo beta verzijo";
+update_skip_version = "Nič veš opozarjanj za to verzijo:";
+check_new_version_now = "Preveri za novo verzijo sedaj";
+program_updates = "Nadgradnje programa";
+no_new_version_available = "Ni nove verzije na voljo";
+use_logitech = "Uporabi Logitech G15/G19/G510 ekran";
+detect_logitech = "Logitech detekcija ekrana";
+logitech_help = "Logitech prikaz pomoči";
+logitech_keyboards = "Logitech igralna tipkovnica";
+keyboard_leds = "Lučke tipkovnice";
+keyboard_led_help = "Pomoč o lučkah tipkovnice";
+only_on_fullscreen = "Samo za celozaslonski način";
+speed_guide = "Vodič hitrosti";
+lock_position = "Zakleni pozicijo okna";
+check_for_news = "Preveri za novice";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed Setup
+/
+/ ----------------------------------------------------------------------
+
+speed_desc = "%p, hitrejši internet s preoblikovanjem prometa";
+
+/ URLs
+bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
+cfospnet_activation_failed_url = "%url/cfos-personal-net/activation-failed.htm";
+
+/ wizard
+install_wizard_name = "%? Instalacijski Čarovnik";
+uninstall_wizard_name = "%? Deinstalacijski Čarovnik";
+brandkey_wizard_name = "%? Registracijski Čarovnik";
+config_wizard_name = "%p Konfiguracijski Čarovnik";
+continue_line = "Za nadaljevanje, klikni Naprej.";
+start_inst = "Za pričetek instalacije, klikni Naprej.";
+click_next_further_info = "Klikni Naprej za nadaljne informacije.";
+wizard_lang_line = "Ta čarovnik je v";
+
+/ welcome page
+welcome_line = "Dobrodošli v %? v%?!";
+welcome_info = "Ta čarovnik vas bo vodil skozi instalacijo %? v%?.";
+welcome_found = "Obstoječa instalacija %? v%? je bila detektirana na vašem sistemu.";
+welcome_found_dir = "Obstoječa instalacija of %1 v%2 je bila detektirana na vašem računalniku v mapi %3.";
+welcome_found_unknown = "Obstoječa instalacija %? je bila detektirana na vašem sistemu.";
+welcome_found_modified = "Spremenjena ali nepopolna instalacija %1 v%2 e bila detektirana na vašem računalniku v mapi %3.";
+welcome_update = "Za zamenjavo obstoječe verzije klikni Naprej.";
+welcome_admin = "Nimate administatorskih pravic. "
+                "Za zagon čarovnika se morate prijaviti z uporabniškim imenom, ki ima administatorske pravice.";
+welcome_lang_syslink = "<a href=\"%?\">Dodatni jeziki</a>";
+welcome_oem_info = "%1 je OEM verzija od %p za %2. Zato, %p vsebuje vse funkcije %1 in več.";
+
+/ uninstall welcome page
+ui_welcome_line = "Odstrani %? v%?.";
+ui_welcome_info = "Če želite resnično odstraniti %1 v%2 z mape %3 "
+                  "in odstraniti vse njegove komponente, potem klikni Naprej.";
+
+/ brand key welcome page
+bk_welcome_line = "%? Registracija.";
+bk_welcome_info = "Ta čarovnik vas bo vodil skozi postopek registracije %?.";
+bk_welcome_found = "Obstoječ ključ je najden v ciljni mapi %?.";
+bk_welcome_update = "Za zamenjavo obstoječega ključa klikni Naprej.";
+
+/ license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
+lic_header = "Licenčna pogodba";
+lic_subheader = "Sprejeti morate licenčno pogodbo za nadaljevanje.";
+lic_info = "Če sprejmete licenčno pogodbo, izberite 'Sprejmem' polje and kliknite Naprej, drugače pa kliknite Prekliči.";
+lic_agree = "Sprejmem.";
+
+/ restore point dialog
+rp_header = "Sistemska točka obnovitve";
+rp_subheader = "Sistemska točka obnovitve vam omogoča obnovitev sistema v prejšnje stanje.";
+rp_info = "Sistemskas točka obnovitve vam omogoča obnovitev sistema v stanje ki je bilo v času "
+          "ko je bila postavljena točka obnovitve. Priporočljivo je da se postavi toška obnovitve preden je nov gonilnik "
+          "naložen.";
+rp_check = "Postavi sistemsko točko obnovitve.";
+/ %1 = product name
+rp_uninst_info = "Sistemska točka obnovitve ni mišljena kot kasnejša deinstalacija %1. To je "
+                 "dodatna zaščita ki vam omogoča vrnitev sistema v originalno stanje v primeru "
+                 "konflikta gonilnikov. Deinstalacija %1 se lahko izbere preko Start Menija v "
+                 "mapi %1 ali pa preko Kontrolne plošče.";
+
+/ password dialog
+pwd_header = "Geslo.";
+pwd_subheader = "Vsak ključ zahteva unikatno geslo.";
+pwd_reg_to = "%p bo registriran na:";
+pwd_password_info = "Prosim vnesite geslo za vaš ključ v formatu xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "Geslo:";
+pwd_invalid_password = "Napačno geslo. Prosim preverite vnos in poskusite ponovno.";
+pwd_activate_info = "Povezani morate biti na internet za aktivacijo ključa na našem strežniku.";
+pwd_activate_failed = "Aktivacija ključa spodletela!";
+pwd_activate_failed_code = "Aktivacija ključa spodletela: napaka %?.";
+
+/ serial number dialog
+sn_header = "Serijska številka.";
+sn_subheader = "Vnesite serijsko številko in aktivirajte ključ.";
+sn_info = "Če imate 16 mestno geslo v formatu xxxx-xxxx-xxxx-xxxx, prosim "
+   "zaključite dialog in dvokliknite licenčni ključ. "
+   "Prikazal se bo okno kjer boste lahko vnesli vaše geslo.\n\n"
+   "Če imate 30 mestno serijsko številko v formatu xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, prosim "
+   "vnesite jo za naložitev in aktiviranje licenčnega ključa.\n\n";
+sn_serial_number = "Serijska številka:";
+sn_invalid_serial_number = "Napačna serijska številka. Prosim preverite vnos in poskusite znova.";
+sn_download_err = "Napaka %? pri prenosu ključa z našega strežnika.";
+sn_save_err = "Ključ ne more biti shranjen na disk v %?.";
+sn_keyfile_err = "Ključ je okvarjen.";
+
+/ re-enter password dialog
+repwd_header = "%? geslo.";
+repwd_subheader = "Registracijsko geslo je potrebno vnesti ponovno.";
+repwd_reg_to = "Zaradi sprememb v konfiguraciji vašega sistema morate ponovno vnesti "
+               "geslo za naslednjo %p registracijo: ";
+
+/ installation directory dialog
+instdir_header = "Instalacijska mapa";
+instdir_subheader = "Instalacisjka mapa specificira kam bodo datoteke kopirane na vašem disku.";
+instdir_info = "Določi instalacijsko mapo.";
+instdir_change = "Spremeni";
+instdir_src_dst = "Izvirna in ciljna mapa ne moreta biti enaki!";
+instdir_space = "Ta instalacija zahteva %u bytes prostega prostora na disku. "
+                "Samo %u bytes je na voljo v izbrani mapi.";
+instdir_drivetype = "Izbran pogon je napačen. %? je lahko naložen le na lokalnem disku.";
+instdir_system = "Instalacisjka mapa mora biti na sistemskem disku '%?'.";
+instdir_system_recommended = "Priporoča se izbrati instalacijsko mapo na sistemskem disku '%?'. (Klikni Naprej če želite vseeno nadaljevati.)";
+
+/ tcp settings dialog
+tcp_header = "Prilagodi velikost sprejemnega TCP okna.";
+tcp_subheader = "Velikost sprejemnega TCP (Transmission Control Protocol) okna mora biti prilagojena za optimalen pretok podatkov.";
+tcp_info = "Velikost sprejemnega TCP okna kontrolira propustnost prihajajočih podatkov. "
+           "Shranjeno je v Windows registru in trenutno ni optimalne vrednosti.\n\n"
+           "Priporočljivo je da čarovnik prilagodi to vrednost za večjo prepustnost podatkov. "
+           "(Prilagoditev bo upoštevana po ponovnme zagonu sistema.)";
+tcp_check = "Optimiziraj velikost sprejemnega TCP okna. (Priporočljivo)";
+
+/ hang up online connection dialog
+hangup_header = "Online povezava";
+hangup_subheader = "Online povezava mora biti izključena.";
+hangup_online = "Povezani ste z naslednjo povezavo:";
+hangup_offline = "Povezava je bila izključena.";
+hangup_info = "Za nadaljevanje čarovnika, mora biti online povezava izključena.\n\n"
+              "Za izključitev povezave, klinki na Izključi.";
+hangup_disco = "Izključi";
+
+/ progress dialog
+progress_inst_header = "Instalacija";
+progress_inst_subheader = "Instalacija se izvaja.";
+progress_inst_wait = "Prosim počakajte da se instalacija zaključi.";
+progress_uninst_header = "Deinstalacija";
+progress_uninst_subheader = "Deinstalacija se izvaja.";
+progress_uninst_wait = "Prosim počakajte da se deinstalacija zaključi.";
+progress_driver_wait = "Prosim počakajte da operacijski sistem naloži ozirona odstrani gonilnik. To lahko traja nekaj minut.";
+
+/ confirm delete dialog
+conf_del_header = "Zbriši konfiguracijske datoteke";
+conf_del_subheader = "Potrditi morate brisanje datotek s konfiguracijskimi podatki ali drugih osebnih informacij.";
+conf_del_info = "Naslednje konfiguracijske datoteke in mape so bile kreirane od %p in še niso bile zbrisane:";
+conf_del_column = "Ime datoteke";
+conf_del_query = "Če hočeš zbrisati datoteke in mape, jih izberi posamezno. "
+                 "Po izbiri, klikni Naprej.";
+
+/ finish page
+finish_head_ok = "Instalacija uspešna.";
+finish_info_ok = "%? je bil uspešno naložen na vaš računalnik.";
+finish_head_fail = "Instalacija spodletela.";
+finish_info_fail = "Instalacija spodletela zaradi naslednjih razlogov:";
+finish_reboot = "Sistem mora biti ponovno zagnan! Klikni Končaj za ponovni zagon takoj ali Prekliči za kasnejši zagon.";
+finish_link_ok = "<a href=\"%?\">%? funkcije!</a>";
+finish_file_fail = "Glej log datoteko %s za več informacij.";
+finish_file_link_fail = "Glej <a href=\"file://%s\">log datoteko</a> za več informacij.";
+finish_cfosts_disabled = "Preoblikovanje prometa je bilo izključeno v zagnanem cFos, "
+                         "ker %p že dela preoblikovanje prometa. (Lahko "
+                         "ponovno omogočite cFos preoblikovanje prometa v cFos konfiguracijskem meniju.)";
+finish_cfosts_enabled = "Preoblikovanje prometa je bilo omogočeno v zagnanem cFos.";
+finish_link_checkbox = "Prikaži zadnjo %p funkcijo";
+
+/ uninstall finish page
+ui_finish_head_ok = "Deinstalacija uspešna.";
+ui_finish_info_ok = "%? je bil uspešno odstranjen z vašega računalnika.";
+ui_finish_head_fail = "Deinstalacija spodletela.";
+ui_finish_info_fail = "%? ne more biti odstranjen z vašega računalnika zaradi naslednjega razloga:";
+ui_finish_not_removed = "Naslednje datoteke so lahko odstranjene le po ponovnem zagonu sistema: ";
+
+/ brandkey finish page
+bk_finish_head_ok = "Registarcija končana.";
+bk_finish_info_ok = "%? je registriran na:";
+bk_finish_head_fail = "Registracija spodletela.";
+bk_finish_info_fail = "Registraciaj je spodletela zaradi:";
+
+/ progress tasks
+task_register_email = "Registriranje e-mail naslova...";
+task_restore_point = "Postavljanje sistemske točke za obnovitev...";
+task_copy = "Kopiranje datotek...";
+task_desktop_link = "Kreiranje povezave na namizju...";
+task_program_group = "Kreiranje skupine programov...";
+task_registry = "Izdelava vnosov registra...";
+task_driver = "Instalacija goilnika...";
+task_daemon = "Zaganjanje %?...";
+task_uninstall_old = "Deinstalacija obstoječe verzije...";
+task_stop_daemon = "Ustavljanje %?...";
+task_uninstall_driver = "Deinstalacija gonilnika...";
+task_delete_files = "Brisanje datotek...";
+task_cleanup_caches = "Čiščenje keša...";
+task_hangup = "Izkljuževanje aktivnih online povezav...";
+task_flush_registry = "Pisanje registra na disk...";
+task_cancel = "Preklicevanje operacije...";
+task_canceled = "Operacija preklicana!";
+
+/ program group
+speed_pg_name = "%p preoblikovanje prometa";
+pg_uninstall = "Odstranitev %?";
+pg_www = "www.cfos.de";
+pg_console = "%p konzola";
+pg_menu = "%? meni";
+pg_add_connection = "Dodaj povezavo";
+pg_enter_serial_number = "Vnesi serijsko številko";
+
+/ desktop symbol
+dt_advertise = "%? Funkcije";
+dt_advertise_desc = "Prikaži vse %? funkcije.";
+
+/ message boxes
+query_reboot = "Ponovno morate zagnati sistem, da se spremembe upoštevajo.\n\n"
+   "Zaženem sistem sedaj?";
+query_drv_inst_cancel = "Inštalacija in deinštalacija gonilnika je izvedeno s strani operacijskega sitema.\n"
+                        "Windows zagonski vmesnik lahko potrebuje do 15 minut za\n"
+                        "registracijo ali odregistracijo gonilnika!\n\n"
+                        "Priporoča se, da se ta proces ne prekine, razen\n"
+                        "če čakate res dolgo.\n\n"
+                        "Res želite preklicati?";
+query_driver_err_abort = "Prišlo je do napake pri instalaciji gonilnika!\n"
+                         "Priporočljivo je prekiniti instalacijo\n"
+                         "sedaj.\n\n"
+                         "Vendar je mogoče nadaljevanje z instalacijo,\n"
+                         "ki jo je mogoče uporabiti v testne namene. Imejte \n"
+                         "v vednosti da %p najverjetneje ne bo mož zagnati\n"
+                         "pravilno.\n\n"
+                         "Prekini instalacijo? (priporočljivo)";
+query_further_info = "Želite nadaljne informacije?";
+
+/ error messages
+err_driver_inst = "Instalacija gonilnika spodletela.";
+err_daemon_start = "Ne morem zagnati %?.";
+err_uninst_old = "Obstoječa verzija ne more biti odstranjena. "
+                 "Prosim odlogirajte se in nato logirajte ponovno ter spokusite znova.";
+err_os = "Vaš operacijski sitem je %?.\n\n"
+         "%? zahteva Windows 2000/XP ali višje za delovanje.";
+err_os_minxp = "Vaš operacijski sitem je %?.\n\n"
+         "%? zahteva Windows XP ali višje za delovanje.";
+err_uninst_driver = "Gonilnik naprave ni mogoče odstraniti.";
+err_create_process = "Napaka klicanja %s: %s";
+err_write_lock = "%? omrežne komponente so v uporabi v drugem procesu. "
+                 "Prosim zaprite vse ostale aplikacije in ponovno zaženite računalnik ter poskusite znova.";
+err_file_auth = "Nekatere datoteke te distribucije so okvarjene ali manjkajo.\n"
+                "Prosim priodbite avtentično %p distribucijo\n"
+                "(npr. z www.cfos.de).";
+err_cancel = "Operacija je bila preklicana.";
+err_no32 = "Ne morem naložiti 32-biti gonilnik na 64-bitni sistem.\n\nOS: %?\nProdukt: %?";
+err_bad_keyfile = "Ključ zgleda okvarjen ali je napačen. "
+                  "Prosim kontaktirajte nas da dobite delujočo datoteko s ključem.";
+err_bad_setup = "%p je očitno naložen napačno ali pa so nekatere datoteke "
+                "spremenjene. Prosim naložite ponovno svežo kopijo "
+                "%p in poskusite znova.";
+err_bad_signature = "Geslo je napačno ali pa je "
+                    "za drug ključ. Prosim vnesite pripadajoče "
+                    "geslo za ta ključ.";
+err_gdiplus =
+  "GDI+ knjižnica ni bila najdena!\n\n"
+  "Instalacija se lahko nadaljuje le če je GDI+ knjižnica naložena.\n"
+  "GDI+ knjižnico lahko prenesete z Microsoft strani kot del Platform SDK\n"
+  "Redistributable. Prosim zaženite z instalacijo prenešene datoteke in nato razpakirajte\n"
+  "vsebovane datoteke v poljubno <ciljno mapo> po vaši izbiri. NAto kopirajte vse gdiplus.* datoteke\n"
+  "z mape <ciljna mapa>\\asms\\10\\msft\\windows\\gdiplus v\n"
+  "mapo Windows\\system32.\n\n"
+  "Kliknite 'OK' da odprete ustrezno stran za prenos z Microsoftove strani.\n"
+  "Kliknite 'Prekliči' da prekinete instalacijo.";
+err_winhttp =
+  "WinHTTP knjižnica ni bila najdena!\n\n"
+  "Instalacija se lahko nadaljuje le če je WinHTTP knjižnica naložena.\n"
+  "WinHTTP knjižnica bi morala biti del operacisjkega sistema, toda ona\n"
+  "ne more biti naložena.";
+bad_manufacturer = "Instalacija se ne more pričeti, ker je ta produkt licencirana za izbran hardware!";
+cannot_install = "Ne morem naložiti";
+err_uninst_daemon =
+   "Demon ne more biti odstranjen. "
+   "Če so še vedno odprta %p dialog okna, jih najprej zaprite. "
+   "Drugače pa ponovno zaženite sistem.";
+err_activate_10045 =
+   "HTTP napaka 10045 se je zgodila med aktivacijo.\n"
+   "Mogoč razlog je da je okvarjen Winsock.\n"
+   "Za ponovni zagon Winsock odprite ukazno vrstico\n"
+   "in vnesite 'netsh winsock reset'.\n"
+   "Po tem ponovno zaženite sistem in poskusite z\n"
+   "aktivacijo ponovno.";
+err_activate_12002 =
+   "HTTP napaka 12002 (request time-out) se je zgodila med \n"
+   "registracijo. Mogoč razlog je da\n"
+   "za registracijo potrebna povezava na naš strežnik\n"
+   "blokirana s požarnim zidom, antivirusnim programom ali\n"
+   "drugo vrsto saščitnega programa.\n"
+   "Če imate katerega od teh programov naloženega, ga prosim\n"
+   "začasno deaktivirajte in nato ponovno poskusite z\n"
+   "registracijo.";
+/ %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "Napaka kopiranja datoteke %1 na %2 (%3).";
+err_port_in_use = "Strežniški port %? je že v uporabi s strani drugega programa.\n\nProgram: %?\nPot: %?";
+
+/ warning messages
+wrn_oem_update = "Že imate licenčni %p naložen.\n\n"
+  "Nameravate naložiti preizkusno verzijo. Če\n"
+  "nadaljujete z instalacijo, vaša stara licenca ne bo več delovala.\n"
+  "Nadgradnja vašega starega %p se lahko pridobi\n"
+  "na istem mestu, kjer ste ga dobili prvotno.\n\n"
+  "Želite vseeno nadaljevati z instalacijo?";
+
+/ traffic shaping algorithm
+tsa_header = "Način preoblikovanaj prometa (več-uporabniška verzija)";
+tsa_subheader = "Privzeto obnašanje algoritma preoblikovanja prometa.";
+tsa_info = "Prosim izberite privzet algoritem obnašanja preoblikovanja prometa "
+           "v odvisnosti od tipa internetne povezave. (Ta izbira je lahko kasneje "
+           "izbrana posamezno za vsako povezavo.)";
+
+/ vista warning
+vista_header = "Opomba instalacije";
+vista_subheader = "Opomba za instalacijo gonilnika v Windows Vista.";
+vista_warn_info = "%p je digitalno podpisan s certifikatom GlobalSign, podjetjem "
+ "licenciranim s strani Microsoft. Toda, cFos Software GmbH ne sodeluje v Microsoftovem dodatnem, "
+ "dragem WHQL certificiranju. Zaradi tega razloga se bo prikazalo popup okno med instalacijo gnilnika "
+ "v Windows Vista s sporočilom, da se izdajatelj gonilnika ne more preveriti.\n\n"
+ "Če se to okno pojavi, prosim kliknite znotraj njega na \"Install this driver software anyway\".";
+vista_warn_image = "vista_en.bmp";
+
+/ dial entry dialog
+dun_wizard_name = "%p Čarovnik Povezav";
+connections = "Povezave";
+dun_subheader = "Nastavi povezavo.";
+dun_with_bc = " z cFos Broadband Connect";
+dun_reenter_password = "Prosim ponovno vnesite geslo";
+dun_list_tonline = "nova T-Online povezava";
+dun_new_connection = "Nastavi novo povezavo";
+dun_err_no_device = "Nobene %p naprave najdene. (Naprava mora biti na voljo po ponovnem zagonu sistema.)";
+
+/ e-mail registration dialog
+eml_header = "E-mail registracija";
+eml_subheader = "Registrirajte pri cFos vaš e-mail naslov.";
+eml_info = "Prosim registrirajte pri cFos vaš e-mail naslov, da vas lahko dodamo v listo prejemnikov za obvestila in javljanje ko je na voljo nova verzija %p.";
+eml_info_optional = "Če registrirate pri cFos vaš e-mail naslov boste vključeni v našo listo obvestil in avtomatskega obveščanja o novi verziji %p. Če ne želite biti obveščeni o posodobitvah, pustite polje prazno.";
+eml_email = "Vaš e-mail naslov:";
+eml_invalid_email = "Vnešen e-mail naslov je neveljaven.";
+eml_invalid_optional_email = "Prosim vnesite veljaven e-mail naslov ali pa sploh ničesar.";
+eml_reg_failed = "Registarcija e-mail naslova spodletela.";
+eml_checking_domain = "Preverjanje e-mail domene...";
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+
+/ %1 = number of seconds, %2 = "late"/"early"
+
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+
+
+
+/ Don't translate!
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+
+/ dialog elements
+
+/ begin dialog
+
+/ medium dialog
+
+/ com port dialog
+
+/ feature dialog
+
+/ uninstall dialog
+
+/ configuration dialog
+
+/ startmode dialog
+
+/ dial-up network dialog
+
+/ user connection dialog
+
+/ dial-up network
+
+/ phone number blocking dialog
+
+/ password dialog
+
+/ progress dialog
+
+/ ISDN late install
+
+/ DSL late install
+
+/ modem registration
+
+/ tip of the day
+
+/ OEM versions tips (additional to the regular tips)
+
+/ regular tips
+
+/ directory creation
+
+/ com port messages
+
+/ installation
+
+/ foo messages
+
+/ uninstallation
+
+/ configuration messages
+
+/ program group
+
+/ registration
+
+/ miscellaneous
+
+/ Don't translate!
+/ END SECTION: don't translate
+
