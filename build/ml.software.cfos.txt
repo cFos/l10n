@@ -671,6 +671,7 @@ group_hypertrm = "Internet Hyperterminal";
 
 language = "Bulgarian";
 language_local = "Български";
+htm_lang_prefix = "bg";
 
 / ----------------------------------------------------------------------
 /
@@ -17337,6 +17338,7 @@ group_order_inet = "Koop Geavenceerde %p";
 
 language = "Norwegian";
 language_local = "Norsk";
+htm_lang_prefix = "no";
 
 / ----------------------------------------------------------------------
 /
@@ -24652,6 +24654,7 @@ cfos_orderurl = "https://www.cfos.de/id/order/cfos-professional-n.htm";
 
 language = "Ukrainian";
 language_local = "Українська";
+htm_lang_prefix = "uk";
 
 / ----------------------------------------------------------------------
 /
@@ -27856,7 +27859,7 @@ group_order_inet = "Купи напредно %p";
 
 language = "Farsi";
 language_local = "Farsi";
-htm_lang_prefix = "ar";
+htm_lang_prefix = "fa";
 
 / ----------------------------------------------------------------------
 /
@@ -29990,6 +29993,7 @@ general_error = "安装过程中出现错误。\n\n"
 
 language = "British English";
 language_local = "British English";
+htm_lang_prefix = "en-gb";
 
 / ----------------------------------------------------------------------
 /
@@ -30242,6 +30246,8 @@ eml_invalid_email = "The e-mail address you've entered is invalid.";
 / END SECTION: don't translate
 
 #language 2058
+#fallback 1034
+#fallback1 1033
 
 / **********************************************************************
 /
@@ -30249,7 +30255,8 @@ eml_invalid_email = "The e-mail address you've entered is invalid.";
 /
 / **********************************************************************
 
-
+language = "Spanish (Mexico)";
+htm_lang_prefix = "es-mx";
 
 / ----------------------------------------------------------------------
 /
