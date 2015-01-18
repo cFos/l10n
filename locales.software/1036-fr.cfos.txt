@@ -73,6 +73,8 @@ setup_connections = "Configuration des connections";
 ask_inst_ipv6 = "Le protocole IPv6 n'a pas encore été installé sur ce système.\n\n"
                 "Voulez vous installer le protocole IPv6 maintenant?";
 err_inst_ipv6 = "Erreur %? pendant l'installation du protocole IPv6.";
+pause_server = "Mettre le serveur en pause";
+resume_server = "Reprendre l'activité sur le serveur";
 
 / connection entry dialog
 con_err_save = "Impossible de sauvegarder les données de connexion !";
@@ -370,6 +372,10 @@ show_for = "Afficher pour";
 this_month = "ce mois";
 time = "Temps";
 time_limit = "Limite de Temps";
+/. Used as table header
+/. Short version of "minutes"
+/. Used as table header
+/. Short version of "hours:minutes"
 volume = "Volume";
 volume_limit = "Limite du Volume";
 spdbudget_help = "Pour activer un forfait de consommation merci d’aller sur la page des connexions et de l’attribuer à une connexion.";
@@ -431,7 +437,9 @@ slots_title = "Configuration du port";
 can_select_multiple = "Astuce: Vous pouvez sélectionner plusieurs options en maintenant appuyé la touche shift ou Ctrl pendant que vous choisissez une option";
 name_for = "Nom pour ";
 set_name = "Définir le nom";
+/. RX stands for `receive` (incoming/download)
 rx_only = "Seulement réception (RX)";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "Seulement émission (TX)";
 max_of_rx_tx = "Maximum de réception (RX) et d'émission (TX)";
 total_rx_only = "Total de la vitesse de réception (RX)";
@@ -786,6 +794,7 @@ err_os_sup = "%p ne supporte officiellement que %? ou ultérieur.\n\n"
 err_uninst_driver = "Le pilote de périphérique n’a pas pu être désinstallé.";
 err_create_process = "Le programme %s n’a pas pu être appelé : %s";
 err_write_lock = "Les composants réseau de %? sont utilisés par un autre processus. Réessayez après avoir fermé tous les autres applications en cours ou après un redémarrage de votre système.";
+err_write_lock_process = "%? Les composants du réseau sont actuellement en utilisation par le processus suivant : %?. Merci de fermer ce processus ou de redémarrer votre ordinateur et d'essayer à nouveau.";
 err_file_auth = "Certains fichiers de cette distribution manquent ou sont endommagés.\nVeuillez vous procurer une copie de %p originale\n(par ex. sur le site http:////www.cfos.de).";
 err_cancel = "Le processus a été interrompu.";
 err_no32 = "Il est impossible d'installer les pilotes 32 bits sur un système 64 bits.\n\nOS: %?\nProduit : %?";
@@ -894,6 +903,14 @@ virtual_wifi_query_stop = "Arrêter le Wi-Fi virtuel ?";
 virtual_wifi_error_stop = "Une erreur est survenue lors de l'arrêt du Wi-Fi Virtuel :";
 virtual_wifi_stopped = "Le Wi-Fi Virtuel s'est arrêté avec succès.";
 virtual_wifi_dialup_ics = "Pour une connexion par modem/ligne commutée vous devez activer manuellement le partage de connection Internet en modifiant les propriétés de cette connection.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------

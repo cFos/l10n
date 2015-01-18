@@ -13,12 +13,29 @@ language = "Simplified Chinese";
 language_local = "简体中文";
 htm_lang_prefix = "zh-cn";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
 /
 / ----------------------------------------------------------------------
 
+ignore_ssl_cert_chk = "忽略SSL证书错误（不安全）";
+ignore_ssl_cert_desc = "如果允许cFos Outlook DAV忽略SSL证书错误，它将可以连接至具有不安全SSL证书（例如自签名证书）的服务器。通常不建议启用此选项，因为这使得SSL连接易受中间人攻击。";
 
 / ----------------------------------------------------------------------
 /
@@ -57,6 +74,8 @@ setup_connections = "设置连接";
 ask_inst_ipv6 = "此系统尚未安装IPv6协议。\n\n"
                 "现在安装吗？";
 err_inst_ipv6 = "安装IPv6协议时发生错误 %?。";
+pause_server = "暂停服务器";
+resume_server = "恢复服务器";
 
 / connection entry dialog
 con_err_save = "无法保存连接数据！";
@@ -144,6 +163,21 @@ con_test_execute = "执行连通性测试";
 
 / ----------------------------------------------------------------------
 /
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+ga_service_desc = "cFos Game Analyzer - 重获性能";
+ga_speed_installed = "cFosSpeed似乎已在你的电脑中安装。\n\ncFosSpeed已包含了cFos Game Analyzer的功能。\n\n为了使用cFos Game Analyzer的最新功能，请从www.cfos.de下载最新版本的cFosSpeed。";
+local_ip_addresses = "本地IP地址：";
+ga_password_subheader = "外部访问cFos Game Analyzer的密码。";
+ga_password_info = "用户名：cfosspeed";
+ga_call_info = "使用下列地址从本地计算机访问cFos Game Analyzer\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\n使用上述密码及下列IP地址（而不是localhost）从外部设备访问cFos Game Analyzer：\n";
+ga_detected_by_speed = "检测到cFos Game Analyzer。cFosSpeed已包含了cFos Game Analyzer的所有功能。\n\n若继续，cFos Game Analyzer将被卸载以安装cFosSpeed。\n\n你想继续吗？";
+ga_use_password_by_speed = "是否让cFosSpeed使用cFos Game Analyzer的密码，这样你可以从其他设备访问cFosSpeed ？";
+
+/ ----------------------------------------------------------------------
+/
 /  cFosSpeed
 /
 / ----------------------------------------------------------------------
@@ -173,6 +207,7 @@ speed_endsoon = "您的试用期即将结束！请今天就购买 %1 ！";
 order_info = "立即购买：\n网址：www.cfos.de\n电话：+49-228-7669826";
 badkey = "您的授权文件有问题.\n请您双击您通过电子邮件取得的\n或存于软盘上的原始文件来重新安装授权文件.";
 no_setup = "不能启动安装程序(setup.exe)";
+no_cmd = "无法打开命令行(cmd.exe)!";
 ask_disconnect_ras = "当前活动的网络连接即将进行重新配置。\n我们建议您断开连接，然后再继续。\n断开当前的网络连接吗？";
 sygate_hint = "%p 检测到 Sygate Firewall，此防火墙将 %p 校准脉冲\n误认为是拒绝服务攻击(Denial of Service)的“Ping of Death”封包。\n因此您应该分别进行一次\n约30秒钟的全速下载及全速上传。\n这将像校准脉冲一样校准 %p。\n\n提示：防火墙的“反IP控制”功能应该被关闭";
 select_language = "选择语言";
@@ -336,7 +371,11 @@ show_for = "显示";
 this_month = "这个月";
 time = "时间";
 time_limit = "时间限制";
+/. Used as table header
+/. Short version of "minutes"
 time_min = "分";
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "时：分";
 volume = "流量";
 volume_limit = "流量限制";
@@ -345,6 +384,7 @@ password_bad = "错误的密码";
 sum_button = "累积";
 calibrate = "线路校准";
 test_pings = "发送测试 ping";
+open_console = "打开%p控制台";
 variable_bandwidth = "可变带宽";
 def_bandwidth_help = "<b>新建</b>连接的默认项";
 cur_bandwidth_help = "当前连接的设置";
@@ -397,7 +437,9 @@ slots_title = "槽位设置";
 can_select_multiple = "提示：你可以通过使用Ctrl或Shift键同时选择多个槽位。";
 name_for = "命名";
 set_name = "设置名称";
+/. RX stands for `receive` (incoming/download)
 rx_only = "只记录接收数据";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "只记录发送数据";
 max_of_rx_tx = "接收发送数据的最大值";
 total_rx_only = "总接收数据速度";
@@ -479,6 +521,18 @@ check_for_news = "检查新消息";
 rwin_expansion = "自动 RWIN 扩张";
 rwin_expansion_help = "若 Windows 默认 RWIN 值过小，自动扩大TCP RWIN的值以提高下载速度。";
 query_auto_open = "禁止自动打开或关闭状态窗口吗？\n您可以在上下文菜单中再次打开此功能。";
+preview_skins = "预览皮肤";
+enable_smartphone_skins = "手机皮肤";
+http_access_enabled = "密码已设置，允许远端HTTP访问。";
+http_access_disabled = "密码未设置，禁止远端HTTP访问。";
+set_server_pwd = "设置服务器密码";
+auto_arrange_top = "顶端";
+auto_arrange_bottom = "底端";
+show_on_metro_apps = "在Metro应用中打开";
+traffic_shaping_info = "Traffic Shaping信息";
+wlan_access_point = "Wi-Fi接入点";
+prioritize_foreground_process = "前置窗口进程优先级。";
+prioritize_foreground_help = "自动将前置窗口进程的优先级设为高。";
 
 
 / ----------------------------------------------------------------------
@@ -566,6 +620,8 @@ sn_save_err = "无法在 %? 保存授权文件。";
 sn_keyfile_err = "授权文件格式不正确。";
 
 / new 16 digit serial number dialog
+sn16_info = "请输入16位序列号来获得许可。你必须连接至互联网才能成功获得许可。";
+sn16_failed = "无法获得许可！";
 
 / re-enter password dialog
 repwd_header = "%? 密码。";
@@ -612,6 +668,13 @@ port_forwarding_fritz = "您可以更改 Home Network / Network / Programs 下�
                         " 激活 FRITZ!Box 路由的端口转发功能。";
 
 / crash handler messages
+crash_msg_crash = "未知错误发生于%p.";
+crash_msg_crash_installer = "未知错误发生于%p安装程序。";
+crash_msg_virus = "下列模块注入了此程序，这可能导致程序崩溃：";
+crash_msg_virus_clean = "此模块可能是病毒。强烈建议扫描你的系统。";
+crash_msg_hook = "检测到其他程序的模块注入此程序。为确定这些模块不是导致程序崩溃的原因，请在禁用或卸载下列程序后再运行此程序：";
+crash_msg_terminate = "程序终止。";
+crash_msg_query_upload = "你想要发送崩溃转储给cFos吗？这可以帮助我们分析错误。";
 
 /start installation dialog
 start_header = "安装";
@@ -670,10 +733,13 @@ task_desktop_link = "创建桌面快捷方式...";
 task_program_group = "创建程序组...";
 task_registry = "正在生成注册表条目...";
 task_driver = "正在安装驱动...";
+task_service = "安装服务……";
 task_daemon = "正在开始 %?...";
 task_uninstall_old = "正在卸载已有版本...";
 task_stop_daemon = "正在停止 %?...";
 task_uninstall_driver = "正在卸载驱动...";
+task_uninstall_service = "卸载服务……";
+task_uninstall_ga = "卸载cFos Game Analyzer……";
 task_delete_files = "正在删除文件...";
 task_cleanup_caches = "清除缓存...";
 task_hangup = "正在断开使用中的网络连接...";
@@ -711,13 +777,19 @@ query_further_info = "您需要更多信息吗？";
 
 / error messages
 err_driver_inst = "驱动程序安装失败。";
+err_service_inst = "服务安装失败。";
+err_service_uninst = "服务卸载失败。";
 err_daemon_start = "不能开始 %?。";
 err_uninst_old = "无法卸载已安装的版本。请从您的操作系统注销，重新登录并重试。";
 err_os = "您的操作系统是 %?。\n\n运行 %? 需要 Windows 2000/XP 或更新版本的操作系统。";
 err_os_minxp = "您的操作系统是 %?。\n\n运行 %? 需要 Windows XP 或更新版本的操作系统。";
+err_os_sup = "%p官方只支持%?或更高。\n\n"
+             "%p可能可以在你的系统%?上运行，但这未经过我们测试。 \n\n"
+             "你想继续安装吗？";
 err_uninst_driver = "无法卸载设备驱动。";
 err_create_process = "调用 %s：%s时发生错误";
 err_write_lock = "%? 的网络组件正在被其它进程使用。请关闭所有其它程序或重新启动计算机并重试。";
+err_write_lock_process = "%?网络组件正在被下列进程使用：%?。请在结束此进程或重启计算机后重试。";
 err_file_auth = "此发行版本的一些文件已损坏或遗失。\n请您取得可靠的 %p 发行版本。\n(例如：从 www.cfos.de 下载)。";
 err_cancel = "这个操作已经被取消。";
 err_no32 = "无法在64位系统安装32位的驱动程序。\n\n操作系统：%?\n产品：%?";
@@ -797,6 +869,34 @@ eml_invalid_email = "您输入的电子邮件地址无效。";
 eml_invalid_optional_email = "请输入完整有效的E-mail地址，或完全留空E-mail栏。";
 eml_reg_failed = "电子邮件地址注册失败。";
 eml_checking_domain = "正在检查电子邮件域...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p虚拟Wi-Fi启动助手";
+virtual_wifi_header = "启动虚拟Wi-Fi";
+virtual_wifi_subheader = "设置一个基于软件的无线访问点并启用互联网共享。";
+virtual_wifi_info = "选择一个网络连接并选择无线接入点的密码。";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "SSID不能为空且不能超过32个字符。";
+virtual_wifi_invalid_password_length = "密码需包含8至64个字符。";
+virtual_wifi_ics_not_available = "网络共享在此计算机上不可用。";
+virtual_wifi_error_get_cons = "网络连接中发生错误。";
+virtual_wifi_ics_warning = "网络共享已在下列网络上启动：\n%?\n\n你想要改为使用下列网络吗：\n%?";
+virtual_wifi_error_enable_ics = "启动网络共享时发生错误。";
+virtual_wifi_error_start = "启动虚拟Wi-Fi时发生错误。";
+virtual_wifi_ok = "虚拟Wi-Fi及网络共享成功启动。\n\n注意：如果某个客户端无法连接至虚拟Wi-Fi，请停止并重启虚拟Wi-Fi。\n\n如果某个客户端可以连接至虚拟Wi-Fi但是无法接入网络，请卸载并重装%p。";
+virtual_wifi_query_stop = "停止虚拟Wi-Fi?";
+virtual_wifi_error_stop = "停止虚拟Wi-Fi时遇到错误：";
+virtual_wifi_stopped = "虚拟Wi-Fi成功停止。";
+virtual_wifi_dialup_ics = "对于拨号连接，你必须手动修改此连接的属性才能启用网络共享。";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
