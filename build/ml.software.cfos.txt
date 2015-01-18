@@ -6003,6 +6003,30 @@ language = "Greek";
 language_local = "Ελληνικα";
 htm_lang_prefix = "el";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
+/ ----------------------------------------------------------------------
+/
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+ignore_ssl_cert_chk = "Αγνόησε τα λάθη πιστοποιητικών SSL (Μη ασφαλές)";
+ignore_ssl_cert_desc = "Αν επιτρέψετε στο cFos Outlook DAV να αγνοεί τα λάθη πιστοποιητικών SSL, θα μπορεί να συνδεθεί με διακομιστές που παρέχουν μη-ασφαλή πιστοποιητικά SSL, όπως για παράδειγμα κάποιο πιστοποιητικό που έχει χειροποίητη υπογραφή. Ενεργοποίηση αυτής της επιλογής δεν συνίσταται, επειδή καθιστά μία σύνδεση SSL ευάλωτη σε επιθέσεις από μεσολαβητές.";
+
 / ----------------------------------------------------------------------
 /
 /  6link / broadband connect / pnet
@@ -6026,6 +6050,7 @@ cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/el/order/cfos-personal-net-n.htm";
 cfospnet_langurl = "";
 pnet_pg_name = "%p";
+pnet_desc = "%p, ο προσωπικός σας διακομιστής δικτύου";
 renew_params = "Ανανέωση παραμέτρων";
 dlg_dun_auto = "Αυτόματη σύνδεση";
 dlg_dun_default = "Προκαθορισμένη σύνδεση";
@@ -6042,6 +6067,8 @@ setup_connections = "Ρύθμιση συνδέσεων";
 ask_inst_ipv6 = "Το πρωτόκολλο IPv6 δεν έχει εγκατασταθεί ακόμα σε αυτό το σύστημα.\n\n"
                 "Θέλετε να εγκαταστήσε το πρωτόκολλο IPv6 τώρα;";
 err_inst_ipv6 = "Σφάλμα %? κατά την εγκατάσταση του πρωτοκόλλου IPv6.";
+pause_server = "Παύση χρήσης διακομιστή";
+resume_server = "Συνέχεια χρήσης διακομιστή";
 
 / connection entry dialog
 con_err_save = "Τα δεδομένα της σύνδεσης δεν μπόρεσαν να αποθηκευθούν!";
@@ -6056,6 +6083,10 @@ con_enabled = "ενεργοποιημένο";
 / pnet configuration dialog
 pnet_header = "Κοινές Ρυθμίσεις";
 pnet_subheader = "Ρύθμιση κοινών ρυθμίσεων.";
+pnet_conn_header = "Σύνδεση";
+pnet_conn_subheader = "Επιλογές σύνδεσης.";
+pnet_conn_local_ip = "Τοπική διεύθυνση IP %?";
+pnet_conn_public_ip = "Δημόσια διεύθυνση IP %?";
 pnet_pubdir_header = "Δημόσιος κατάλογος";
 pnet_pubdir_subheader = "Κατάλογος που περιλαμβάνει μεταφορτώσιμα αρχεία.";
 pnet_pubdir_info = "Παρακαλώ ορίστε την τοποθεσία του φακέλου που βρίσκονται τα αρχεία που θέλετε να δώσετε προς μεταφόρτωση.";
@@ -6074,8 +6105,25 @@ dlg_register_shell_extension = "Καταγραφή του Shell Extension";
 dlg_server_port = "Θύρα διακομιστή:";
 dlg_server_name = "Όνομα διακομιστή:";
 dlg_server = "Διακομιστής:";
+dlg_https_port = "Θύρα HTTPS:";
 dlg_renew_interval = "Διάστημα ανανέωσης (ms):";
 dlg_redirect_delay = "Καθυστέρηση αναδρομολόγησης (ms):";
+dlg_monitor_ports = "Διαχείριση καταχωρημένων θυρών";
+dlg_enable_upnp = "Ενεργοποίηση διακομιστή πολυμέσων (UPnP/DLNA)";
+dlg_upnp_info = "Τοποθέτηση των αρχείων πολυμέσων στον υποφάκελο 'media' του δημόσιου φακέλου σας.";
+use_https_port = "Χρήση θύρας HTTPS";
+
+/ pnet start type dialog
+pnet_start_header = "Τύπος εκκίνησης";
+pnet_start_subheader = "Πώς να ξεκινάει το πρόγραμμα;";
+pnet_start_mode = "Εκκίνηση %p:";
+pnet_start_login = "στη σύνδεση Χρήστη (προτείνεται)";
+pnet_start_system = "ως υπηρεσία συστήματος";
+pnet_start_manual = "χειροκίνητα";
+pnet_start_info = "Προτείνεται να ξεκινάει το %p αυτόματα όταν συνδεθείτε. "
+                  "Αν θέλετε το %p να ξεκινάει ακόμα και όταν κανένας χρήστης δεν είναι συνδεδεμένος, τότε θα πρέπει να ξεκινάει ως υπηρεσία συστήματος. "
+                  "Παρ'όλα αυτά, δεν θα υπάρχει εικονίδιο στην μπάρα συστήματος και μενού επιλογών. "
+                  "Αν επιθυμείτε να δημοσιοποιείτε τα δεδομένα σας περιστασιακά, τότε επιλέξτε να ξεκινάτε το %p χειροκίνητα.";
 
 / pnet context menu entry
 publish_with_product = "Δημοσίευση με %p";
@@ -6089,6 +6137,37 @@ file_copy_failed = "Αποτυχία αντιγραφής αρχείου.";
 ipv4_bind_problem = "Ο Διακομιστής δεν μπορεί να παρακολουθήσει την θύρα με IPv4, επειδή χρησιμοποιείται από άλλη εφαρμογή (π.χ. Skype).";
 ipv6_bind_problem = "Ο Διακομιστής δεν μπορεί να παρακολουθήσει την θύρα με IPv6, επειδή χρησιμοποιείται από άλλη εφαρμογή (π.χ. Skype).";
 closing_server = "Ο Διακομιστής τερματίζεται.";
+start_product = "Εκκίνηση %p";
+info_port_in_use = "Η θύρα %? που χρείαζεται το %p είναι σε χρήση από άλλο πρόγραμμα.\n\nProgram: %?\nPath: %?\n\n"
+                   "Για να χρησιμοποιήσετε την θύρα %p, θα πρέπει να τερματίσετε το άλλο πρόγραμμα ή να διαλέξετε μία άλλη θύρα στην διαχείριση του %p .";
+monitor_port_desc = "Η λειτουργία αυτή ελέγχει παροδικά τις θύρες που χρειάζονται από το %p και ειδοποιεί τον χρήστη αν κάποια από τις θύρες χρησιμοποιείται από άλλο πρόγραμμα.";
+logon_start_desc = "Η λειτουργία αυτή ξεκινά το %p αν ο χρήστης, που φαίνεται παρακάτω, συνδεθεί.";
+show_home_dir = "Προβολή κεντρικού καταλόγου";
+publish_file = "Δημοσιοποίηση Αρχείου";
+user_administration = "Διαχείριση Χρηστών";
+
+/ pnet connectivity test
+connectivity_test = "Έλεγχος Συνδεσιμότητας";
+con_test_subheader = "Παρακαλούμε περιμένετε έως ότου ολοκληρωθεί ο έλεγχος συνδεσιμότητας.";
+con_test = "Έλεγχος συνδεσιμότητας %p ";
+con_test_not_running = "Ο έλεγχος συνδεσιμότητας δεν μπορεί να ολοκληρωθεί διότι το %p δεν εκτελείται αυτή τη στιγμή. Παρακαλούμε ξεκινήστε το %p και μετά εκτελέστε τον έλεγχο συνδεσιμότητας ξανά.";
+con_test_public_fail = "Η δημόσια διεύθυνση IP σας δεν μπορεί να εξακριβωθεί. Σιγουρευτείτε ότι έίστε συνδεδεμένοι στο Internet και μετά επαναλάβετε τον έλεγχο.";
+con_test_execute = "Εκτέλεση Ελέγχου Συνδεσιμότητας";
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+ga_service_desc = "Ανάλυτης Παιχνιδιών cFos - Ανάκτηση Δεδομένων Απόδοσης";
+ga_speed_installed = "Το cFosSpeed φαίνεται να είναι εγκατεστημένο στον υπολογιστή σας.Το \n\ncFosSpeed περιέχει ήδη την δυνατότητα ανάλυσης παιχνιδιών από το cFos.\n\n Για να χρησιμοποιήσετε τα πιο πρόσφατα χαρακτηριστικά του Αναλυτή Παιχνιδιών, παρακαλούμε επισκεφτείτε τη σελίδα μας στο www.cfos.de και κατεβάστε την πιο πρόσφατη έκδοση.";
+local_ip_addresses = "Τοπικές διευθύνσεις IP:";
+ga_password_subheader = "Κωδικός για εξωτερική πρόσβαση του Αναλυτή Παιχνιδιών cFos.";
+ga_password_info = "Όνομα Χρήστη: cfosspeed";
+ga_call_info = "Δίνει πρόσβαση στον Αναλυτή Παιχνιδιών cFos από τον τοπικό σας υπολογιστή μέσω του \nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\n Να επιτρέπεται η πρόσβαση στον Αναλυτή Παιχνιδιών cFos από μία άλλη συσκευή με τον παραπάνω κωδικό και με χρήση μιας διεύθυνσης IP αντί για 'localhost':\n";
+ga_detected_by_speed = "Ανιχνεύθηκε προηγούμενη  εγκατάσταση του Αναλυτή Παιχνιδιών cFos. Το cFosSpeed περιέχει ήδη όλες τις λειτουργίες και χαρακτηριστικά του Αναλυτή Παιχνιδιών cFos.\n\n Αν συνεχίσετε, ο Αναλυτής Παιχνιδιών cFos θα απεγκατασταθεί πριν την εγκατάσταση του cFosSpeed.\n\n Θέλετε να συνεχίσετε;";
+ga_use_password_by_speed = "Θέλετε το cFosSpeed να χρησιμοποιήσει τον κωδικό του Αναλυτή Παιχνιδιών cFos, ώστε να έχετε πρόσβαση στο cFosSpeed από άλλες συσκευές;";
 
 / ----------------------------------------------------------------------
 /
@@ -6124,6 +6203,7 @@ badkey = "Υπάρχει πρόβλημα με το κλειδί σας.\n"
          "Παρακαλούμε επανεγκαταστήστε το κάνοντας διπλό κλικ στο\n"
          "αυθεντικό αρχείο που λάβατε με email ή με δισκέτα.";
 no_setup = "Αδύνατη η εκκίνηση της εγκατάστασης (setup.exe).";
+no_cmd = "Αδυναμία εκκίνησης γραμμής εντολών (cmd.exe)!";
 ask_disconnect_ras = "Μία υπάρχουσα σύνδεση θα επαναρυθμιστεί.\n"
                      "Συνίσταται να τη διακόψετε πριν προχωρήσετε.\n"
                      "Διακοπή της τρέχουσας δικτυακής σύνδεσης;";
@@ -6197,6 +6277,7 @@ off = "Όχι";
 on = "Ναι";
 note = "Σημείωση";
 deactivated = "απενεργοποιήθηκε";
+browser_warning = "Συνίσταται χρήση Internet Explorer έκδοσης 8 ή νεότερης για αυτό το παράθυρο διαλόγου!";
 ole_error = "Για να χρησιμοποιήσετε αυτές τις επιλογές,\\nτο %p πρέπει να είναι εγκατεστημένο και να τρέχει.\\nΕπιβεβαιώστε και εγκαταστήστε το ξανά αν χρειάζεται.";
 ts_settings = "Ρυθμίσεις Traffic Shaping";
 preferences = "Προτιμήσεις";
@@ -6207,21 +6288,28 @@ prio_programs = "Προτεραιότητα προγραμμάτων";
 program = "Πρόγραμμα";
 programs = "Προγράμματα";
 current_connections = "Τρέχουσες συνδέσεις";
+current_connections_advanced = "Τωρινές Συνδέσεις (Για προχωρημένους)";
+current_connections_standard = "Τωρινές Συνδέσεις (Τυπική Χρήση)";
 ts_prios = "Προτεραιότητες Traffic Shaping";
 client_protocols = "Πρωτόκολλα Πελατών";
 server_protocols = "Πρωτόκολλα Διακομιστών";
+client_server_protocols = "Πρωτόκολλα πελάτη και διακομιστή";
 media_streaming = "Ροή Πολυμέσων";
 file_sharing = "Ανταλλαγή αρχείων";
 special = "Ειδικά";
 other = "Άλλα";
+misc_high_short = "Διάφορα - Υψηλή";
+misc_high = "Διάφορα - Υψηλή προτεραιότητα κίνησης δεδομένων";
 hint = "Βοήθεια";
 hint_text = "Η προτεραιότητα θα λειτουργεί κανονικά μόνο όταν δίνεται υψηλή προτεραιότητα σε όσο το δυνατόν λιγότερα δεδομένα. Τα προγράμματα που στέλνουν πολλά δεδομένα πρέπει να έχουν χαμηλή προτεραιότητα. Η προτεραιότητα πρωτοκόλλου ρυθμίζεται πριν από την προτεραιότητα προγραμμάτων.";
+prio_doc_link = "Πως λειτουργεί το σχέδιο προτεραιοτήτων;";
 save_protocols = "Σώσιμο πρωτοκόλλων";
 undo = "Αναίρεση";
 filter_selection = "Επιλογή φίλτρου";
 higher = "Υψηλότερη";
 high = "Υψηλή";
 normal = "Κανονική";
+default = "Προεπιλογή";
 low = "Χαμηλή";
 lower = "Χαμηλότερη";
 entries = "Εγγραφές";
@@ -6249,6 +6337,7 @@ l7_prot_detection = "Ανίχνευση Πρωτοκόλλου Layer-7";
 l7_prot_detection_help = "Ανίχνευση πρωτοκόλλων με ανάλυση δεδομένων. Χρησιμοποήστε το διάλογο 'Προτεραιότητα πρωτοκόλλων' για να αλλάξετε την προτεραιότητά τους. Αν απενεργοποιήσετε την επλογή αυτή τα πρωτόκολλα ανιχνεύονται βάση της θύρας που χρησιμοποιείται.";
 favor_ping = "Προτίμηση Ping (απόκρισης)";
 favor_ping_help = "<b>Ναι</b>: Το %p θα ελαχιστοποιήσει τους χρόνους απόκρισης εις βάρος, ελαφρώς, της ταχύτητας (αν χρειαστεί).<br /><b>Όχι</b>: Το %p θα μεγιστοποιήσει την ταχύτητα εις βάρος, ελαφρώς, των χρόνων απόκρισης (αν χρειαστεί).";
+favor_bandwidth = "Προτίμηση ταχύτητας";
 avoid_loss = "Αποφυγή απώλειας πακέτων";
 avoid_loss_help = "%p κλείνει τα παράθυρα λήψης TCP εάν διαπιστωθεί μεγάλη απώλεια πακέτων. Αυτό συμβαίνει μόνο όταν η σύνδεση σας λαμβάνει με πλήρη ταχύτητα.";
 activate_firewall = "Ενεργοποίηση Firewall";
@@ -6290,16 +6379,20 @@ show_for = "Προβολή για";
 this_month = "Αυτό το μήνα";
 time = "Χρόνος";
 time_limit = "Χρονικό όριο";
+/. Used as table header
+/. Short version of "minutes"
 time_min = "Λεπτά";
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "Ω:λ";
 volume = "Ένταση";
 volume_limit = "Όριο Έντασης";
 spdbudget_help = "Για να χρησιμοποιήσετε έναν προϋπολογισμό, πηγαίνετε στο διάλογο συνδέσεων και αναθέστε έναν προϋπολογισμό σε μια συγκεκριμένη σύνδεση";
 password_bad = "Λάθος κωδικός";
-favor_bandwidth = "Προτίμηση ταχύτητας";
 sum_button = "συνολικά";
 calibrate = "Ρύθμιση γραμμής";
 test_pings = "Αποστολή δοκιμαστικών pings";
+open_console = "Άνοιγμα της κονσόλας %p ";
 variable_bandwidth = "Μεταβλητό εύρος δεδομένων";
 def_bandwidth_help = "Προεπιλογές για <b>νέες</b> συνδέσεις";
 cur_bandwidth_help = "Ρύθμιση για την τρέχουσα σύνδεση";
@@ -6311,6 +6404,10 @@ ok = "Εντάξει";
 connection_medium = "Μεσαίο";
 connection_type = "Μέθοδος Traffic Shaping";
 driver_not_loaded = "Ο driver δεν έχει φορτωθεί!";
+demon_driver_not_loaded = "Δεν φορτώθηκε το πρόγραμμα οδήγησης!\n"
+   "Ίσως η εγκατάσταση να είναι ελαττωματική.\n"
+   "Παρακαλούμε να εγκαταστησετε ξανά το %p.\n";
+asus_demon_driver_not_loaded = "Θα πρέπει να εγκαταστήσετε το %p ξανά μετά από αναβάθμιση σε καινούριο λειτουργικό σύστημα.\n Επισκευθείτε την σελίδα της ASUS στο %w για την τελευταία έκδοση του %p .";
 many_cons_error = "Το %p rx-Traffic Shaping ωθείται στα όρια του, εξαιτίας υπερβολικά πολλών συνδέσεων. Με λιγότερες συνδέσεις ενδεχομένως να μπορεί να αποδόσει καλύτερα. Κάνετε κλικ εδώ για βοήθεια.";
 limit_bandwidth = "Περιορισμός Εύρους δεδομένων για την Τρέχουσα Σύνδεση";
 rx_limit = "Όριο RX";
@@ -6349,17 +6446,22 @@ slots_title = "Καθορισμός Θυρών";
 can_select_multiple = "Βοήθεια: Μπορείτε να διαλέξετε πολλαπλές επιλογές κρατώντας πατημένο το πλήκτρο Ctrl ή Shift ενώ διαλέγετε μία επιλογή";
 name_for = "Όνομα για ";
 set_name = "Καθορισμός ονόματος ";
+/. RX stands for `receive` (incoming/download)
 rx_only = "Μόνο RX";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "Μόνο TX";
 max_of_rx_tx = "Μέγιστο του RX & TX";
 total_rx_only = "Σύνολο ταχύτητας RX";
 total_tx_only = "Σύνολο ταχύτητας TX";
+nettalk_rx = "Ταχύτητα λήψης δεδομένων";
+nettalk_tx = "Ταχύτητα αποστολής δεδομένων";
+nettalk_max_of_rx_tx = "Ανώτατο όριο αποστολής δεδομένων (λήψη & αποστολή)";
 total_max_of_rx_tx = "Μέγιστο του συνόλου RX & TX";
 check_if_other_also = "Επιλέξτε, αν θέλετε όλη η υπόλοιπη κίνηση να προσμετράται σε αυτή τη θύρα";
 performance_help = "Προκειμένου να μεγιστοποιηθή η εξοικονόμηση υπολογιστικής ισχύος, συνιστούμε να ορίσετε την σύνδεση που χρησιμοποιείτε σε 'Ναι', και όλες τις άλλες σε 'Όχι'.";
 loading = "Φόρτωση...";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "χωρίς συνεργασία";
 regid_help = "Υπάρχει ένα μηχάνημα χωρίς cFos TS στο δίκτυο σας LAN";
 regid_help_long = "Κάνετε χρήση της σύνδεσης σας με αρκετά μηχανήματα ταυτόχρονα κι ένα τουλάχιστον δεν έχει cFos Traffic Shaping.";
@@ -6379,6 +6481,7 @@ set = "Ορισμός";
 tx_limit_help = "Δώστε την ταχύτητα σε bytes/δευτερόλεπτο ή ποσοστό που το πρόγραμμα ή το πρωτόκολο μπορεί να κάνει αποστολή.";
 download_more_skins = "Μεταφόρτωση περισσότερων θεμάτων";
 documentation = "Θεματολογία";
+exit_demon = "Έξοδος";
 speed_test = "Δοκιμή ταχύτητας cFos";
 ask_key_banned_info = "Υπήρξε ένα πρόβλημα με το κλειδί αδείας σας.\nΘέλετε περισσότερες πληροφορίες?";
 
@@ -6390,13 +6493,20 @@ wlan_no_service = "Υπηρεσία μη διαθέσιμη. Παρακαλώ ε
 wlan_no_station = "Δεν βρέθηκαν αρκετά σημεία πρόσβασης.";
 kaspersky_hint = "Το Kaspersky Internet Security 2010 μπορεί να προκαλέσει προβλήματα με το %p. Παρακαλώ αναβαθμίστε σε Kaspersky Internet Security 2011.";
 
+console_cancel = "Ακύρωση";
 console_freeze = "Πάγωμα";
 console_continue = "Συνέχεια";
 console_help = "Δώστε προτεραιότητα σε ανεξάρτητη σύνδεση κάνοντας κλικ σε αυτή στον πίνακα παρακάτω.<br/>Συνδέσεις που μαρκάρονται με (*) έχουν προσωρινή προτεραιότητα.";
 console_prio = "Δώστε προτεραιότητα σε αυτή τη σύνδεση";
+console_prio_off = "Απενεργοποίηση προτεραιοτήτων δικτύου.";
 console_prio_this = "Προσωρινή προτεραιότητα μόνο σε αυτή τη σύνδεση";
+console_prio_this_off = "Απενεργοποίηση προτεραιοτήτων για αυτή την σύνδεση";
 console_prio_prot = "Προσωρινή προτεραιότητα στο πρωτόκολο";
+console_prio_prot_off = "Προσωρινή απενεργοποίηση του πρωτοκόλλου προτεραιοτήτων";
 console_prio_prog = "Προσωρινή προτεραιότητα στο πρόγραμμα";
+console_prio_prog_off = "Προσωρινή απενεργοποίηση των προτεραιοτήτων για προγράμματα";
+console_prio_prog_prot = "Προσωρινή ενεργοποίηση του πρωτοκόλλου προτεραιοτήτων και προτεραιοτήτων προγραμμάτων";
+console_prio_prog_prot_off = "Προσωρινή απενεργοποίηση του πρωτοκόλλου προτεραιοτήτων και προτεραιοτήτων προγραμμάτω";
 console_prio_prot_perm = "Μόνιμη προτεραιότητα στο πρωτόκολο";
 console_prio_prog_perm = "Μόνιμη προτεραιότητα στο πρόγραμμα";
 console_prio_advanced = "Προχωρημένη προτεραιότητα";
@@ -6416,6 +6526,22 @@ keyboard_led_help = "Βοήθεια LED πληκτρολογίου";
 only_on_fullscreen = "Μόνο σε πλήρη οθόνη";
 speed_guide = "Οδηγός ταχύτητας";
 lock_position = "Κλείδωμα θέσης παραθύρου";
+check_for_news = "Έλεγχος για νέα";
+rwin_expansion = "Αυτόματη επέκταση RWIN";
+rwin_expansion_help = "Αυτόματη επέκταση του παραθύρου λήψης TCP για να αυξηθεί η ταχύτητα λήψεων, εφόσον το επιλεγμένο RWIN από τα Windows είναι πολύ χαμηλό.";
+query_auto_open = "Απενεργοποίηση του αυτόματου ανοίγματος/κλεισίματος του παραθύρου κατάστασης; \n Μπορείτε να το ενεργοποιήσετε ξανά αργότερα στο μενού επιλογών.";
+preview_skins = "Προεσκόπιση Θεμάτων";
+enable_smartphone_skins = "Θέματα Τηλεφώνου";
+http_access_enabled = "Ορίστηκε κωδικός, η εξωτερική πρόσβαση μέσω HTTP επιτρέπεται.";
+http_access_disabled = "Δεν έχει οριστεί κωδικός, η εξωτερική πρόσβαση μέσω HTTP δεν είναι δυνατή.";
+set_server_pwd = "Ορισμός Κωδικού Πρόσβασης Διακομιστή";
+auto_arrange_top = "Πάνω";
+auto_arrange_bottom = "Κάτω";
+show_on_metro_apps = "Εμφάνιση στις εφαρμογές Metro";
+traffic_shaping_info = "Πληροφορίες για Διαδικτυακή Κίνηση";
+wlan_access_point = "Σημείο Πρόσβασης Wi-Fi (Ασύρματα) ";
+prioritize_foreground_process = "Παροχή προτεραιότητας στη διεργασία του παραθύρου που είναι στο προσκήνιο";
+prioritize_foreground_help = "Αυτόματη παροχή προτεραιότητας στη διεργασία του παραθύρου που είναι στο προσκήνιο σε υψηλή.";
 
 
 / ----------------------------------------------------------------------
@@ -6505,9 +6631,14 @@ sn_info = "Εάν έχετε έναν κωδικό 16 ψηφίων της μορ
    "δώστε τον τώρα για φόρτωση κι ενεργοποίηση του κλειδιού αδείας.\n\n";
 sn_serial_number = "Σειριακός Αριθμός:";
 sn_invalid_serial_number = "Ακυρος Σειριακός Αριθμός. Παρακαλώ ελέγξτε τον και προσπαθήστε πάλι.";
+/ the %? will be replaced by the error number:
 sn_download_err = "Σφάλμα %? μεταφόρτωση αρχείου κλειδιού από τον διακομιστή μας.";
 sn_save_err = "Το κλειδί δεν μπορεί να αποθηκευθεί στον δίσκο σε %?.";
 sn_keyfile_err = "Το αρχείο κλειδιού είναι κατεστραμμμένο.";
+
+/ new 16 digit serial number dialog
+sn16_info = "Παρακαλούμε εισάγετε τον 16-ψήφιο σειριακό αριθμό για να παραλάβετε την άδεια χρήσης. Πρέπει να είστε συνδεδεμένοι στο διαδίκτυο για να λάβετε επιτυχώς την άδεια χρήσης.";
+sn16_failed = "Η λήψη της άδεις χρήσης απέτυχε!";
 
 / re-enter password dialog
 repwd_header = "%? κωδικος.";
@@ -6545,6 +6676,33 @@ hangup_info = "Για να συνεχίσετε με αυτόν το βοηθό,
              "Για να την τερματίσετε, κάντε κλικ στο Αποσύνδεση.";
 hangup_disco = "Αποσύνδεση";
 
+/ usage statistics
+usage_stats = "Στατιστικά Στοιχεία Χρήσης";
+usage_stats_subheader = "Επιλέξτε πως το %p θα πρέπει να διαχειρίζεται τα στατιστικά στοιχεία χρήσης.";
+usage_stats_chk = "Ανώνυμη αποστολή των στατιστικών στοιχείων χρήσης στο cFos για βελτίωση του προϊόντος.";
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "Αυτόματο άνοιγμα θυρών, εφόσον διατίθεται";
+port_forwarding_failed = "Το ρούτερ (δρομολογητής) σας %? δεν φαίνεται να υποστηρίζει το αυτόματο άνοιγμα θυρών. "
+                         "Ίσως να μπορείτε να ενεργοποιήσετε αυτό το χαρακτηριστικό στη σελίδα διαμόρφωσης του ρούτερ σας.";
+port_forwarding_config = "Μπορείτε να ρυθμίσετε το ρούτερ σας στο %?.";
+port_forwarding_fritz = "Ενεργοποιείτε το αυτόματο άνοιγμα θυρών στο FRITZ!Box σας, επιλέγοντας το 'allow changes of security settings via UPnP' "
+                        "που θα το βρείτε στο Home Network / Network / Programs";
+
+/ crash handler messages
+crash_msg_crash = "Παρουσιάστηκε ενα ανεπίλυτο λάθος στο %p.";
+crash_msg_crash_installer = "Παρουσιάστηκε ενα ανεπίλυτο λάθος πρόγραμμα εγκατάστασης %p .";
+crash_msg_virus = "Το ακόλουθο χαρακτηριστικό εισήχθε από μόνο του στο πρόγραμμα και ίσως να είναι ο λόγος που το πρόγραμμα κόλλησε:";
+crash_msg_virus_clean = "Αυτό το χαρακτηριστικό μπορεί να είναι ιός. Συνίσταται εντόνως να κάνετε έναν έλεγχο για ιούς στο σύστημα σας.";
+crash_msg_hook = "Εντοπίστηκαν χαρακτηριστικά από άλλα προγράμματα που εισήχθησαν αυτοβούλως σε αυτό το πρόγραμμα. Για να σιγουρευτείτε ΄ότι δεν είναι ο λόγος που το πρόγραμμα κόλλησε, παρακαλούμε εκτελέστε το πρόγραμμα αφού απενεργοποιήσετε ή απεγκαταστήσετε το/α εξής προγράμμα(τα):";
+crash_msg_terminate = "Το πρόγραμμα θα κλείσει τώρα.";
+crash_msg_query_upload = "Θέλετε να στείλετε στοιχεία για το σφάλμα στο cFos, με σκοπό να μας βοηθήσετε να αναλύσουμε το σφάλμα;";
+
+/start installation dialog
+start_header = "Εγκατάσταση";
+start_subheader = "Αρχή εγκατάστασης.";
+start_installation = "Εκκίνηση εγκατάστασης τώρα.";
+
 / progress dialog
 progress_inst_header = "Εγκατάσταση";
 progress_inst_subheader = "Σε διαδικασία εγκατάστασης.";
@@ -6568,6 +6726,8 @@ finish_info_ok = "Το %? εγκαταστάθηκε επιτυχώς στον �
 finish_head_fail = "Η εγκατάσταση απέτυχε.";
 finish_info_fail = "Η εγκατάσταση απέτυχε για τον ακόλουθο λόγο:";
 finish_reboot = "Πρέπει να γινει επανεκκίνηση του συστήματος! Κάντε κλικ στο Τελος για άμεση επανεκκίνηση η στο Άκυρο για να επανεκκινήσετε αργότερα.";
+finish_uninst_driver_reboot = "Η απεγκατάσταση του προυπάρχων προγράμματος οδήγησης μπορεί να ολοκληρωθεί μετά από μία επανεκκίνηση του συστήματος. "
+                             "Επανεκκινήστε τον υπολογιστή σας και μετά εκτελέστε το πρόγραμμα εγκατάστασης ξανά.";
 finish_link_ok = "<a href=\"%?\">Χαρακτηριστικά του %? !</a>";
 finish_file_fail = "Δείτε το αρχείο καταγραφής του %s για πληροφορίες.";
 finish_file_link_fail = "Δείτε το <a href=\"file://%s\">αρχείο καταγραφής</a> για περισσότερες πληροφορίες.";
@@ -6575,6 +6735,7 @@ finish_cfosts_disabled = "Το Traffic shaping εχει απενεργοποιη
                          "γιατί το %p κάνει ήδη. (Μπορείτε να"
                          "επανενεργοποίησετε το traffic shaping του cFos  στο μενού επιλογών του cFos.)";
 finish_cfosts_enabled = "Το Traffic shaping εχει ενεργοποιηθεί για το cFos.";
+finish_link_checkbox = "Παρουσίαση των τελευταίων χαρακτηριστικών του %p ";
 
 / uninstall finish page
 ui_finish_head_ok = "Απεγκατάσταση επιτυχής.";
@@ -6597,10 +6758,13 @@ task_desktop_link = "Δημιουργία συντόμευσης στην επι
 task_program_group = "Δημιουργία ομάδας προγραμμάτων...";
 task_registry = "Δημιουργία εγγραφών μητρώου...";
 task_driver = "Εγκατάσταση οδηγών...";
+task_service = "Εγκατάσταση υπηρεσίας...";
 task_daemon = "Εκκίνηση %?...";
 task_uninstall_old = "Απεγκατάσταση υπάρχουσας έκδοσης...";
 task_stop_daemon = "Σταμάτημα του  %?...";
 task_uninstall_driver = "Απεγκατάσταση οδηγού...";
+task_uninstall_service = "Απεγκατάσταση υπηρεσίας...";
+task_uninstall_ga = "Απεγκατάσταση Αναλυτή Παιχνιδιών cFos...";
 task_delete_files = "Διαγραφή αρχείων...";
 task_cleanup_caches = "Εκκαθάριση μνήμης...";
 task_hangup = "Τερματισμός ενεργών συνδέσεων...";
@@ -6608,14 +6772,23 @@ task_flush_registry = "Αντίγραφο του μητρώου στο δίσκ�
 task_cancel = "Ακύρωση διαδικασίας...";
 task_canceled = "Η διαδικασία ακυρώθηκε!";
 
+/ connectivity test progress tasks
+task_start_program = "Εκκίνηση %p...";
+task_test_localhost = "Δοκιμή localhost...";
+task_test_local_ip = "Δοκιμή τοπικής διεύθυνσης IP...";
+task_test_public_ip = "Δοκιμή δημόσιας διεύθυνσης IP...";
+task_test_finished = "Η δοκιμή ολοκληρώθηκε.";
+
 / program group
 speed_pg_name = "%p Traffic Shaping";
 pg_uninstall = "Απεγκατάσταση του %?";
 pg_www = "www.cfos.de";
 pg_console = "Κονσόλα %p";
+pg_start = "Εκκίνηση παραθύρου κατάστασης του %p ";
 pg_menu = "Μενού %?";
 pg_add_connection = "Πρόσθεση σύνδεσης";
 pg_enter_serial_number = "Δώστε σειριακό αριθμό";
+pg_configure = "Ρύθμιση του %p";
 
 / desktop symbol
 dt_advertise = "Χαρακτηριστικά του %?";
@@ -6642,6 +6815,8 @@ query_further_info = "Θέλετε περισσότερες πληροφορίε
 
 / error messages
 err_driver_inst = "Η εγκατάσταση του οδηγού απέτυχε.";
+err_service_inst = "Η εγκατάσταση της υπηρεσίας απέτυχε.";
+err_service_uninst = "Η απεγκατάσταση της υπηρεσίας απέτυχε.";
 err_daemon_start = "Η εκκίνηση του %? ειναι αδύνατη.";
 err_uninst_old = "Η υπάρχουσα έκδοση δεν μπορεί να απεγκατασταθεί. "
                  "Παρακαλούμε επανεκκινήστε τον υπολογιστή και ξαναπροσπαθήστε.";
@@ -6649,10 +6824,14 @@ err_os = "Το λειτουργικό σας σύστημα ειναι  %?.\n\n"
          "Το %? απαιτεί Windows 2000/XP η νεώτερη έκδοση για να τρέξει.";
 err_os_minxp = "Το λειτουργικό σας σύστημα ειναι  %?.\n\n"
          "Το %? απαιτεί Windows XP η νεώτερη έκδοση για να τρέξει.";
+err_os_sup = "Το %p υποστηρίζει επίσημα μονο %? ή νεότερα.\n\n"
+             "Είναι πιθανό το %p να μπορεί να λειτουργήσει στο λειτουργικό σας σύστημα %?.\n\n αλλά χωρίς να υπάρχει επίσημος έλεγχος."
+             "Θέλετε να συνεχίσετε με την εγκατάσταση;";
 err_uninst_driver = "Ο οδηγός δεν απεγκαταστάθηκε.";
 err_create_process = "Κλήση λάθους %s: %s";
 err_write_lock = "Τα στοιχεία δικτύου του %? χρησιμοποιούνται από άλλη διεργασία. "
                  "Παρακαλούμε κλείστε όλες τις άλλες εφαρμογές ή επανεκκινήστε τον υπολογιστή σας και ξαναδοκιμάστε.";
+err_write_lock_process = "Τα χαρακτηριστικά %? του δικτύου είναι σε χρήση από την ακόλουθη διαδικασία: %?. Παρακαλούμε να τερματίσετε την διαδικασία ή να επανεκκινήσετε τον υπολογιστή σας και να προσπαθήσετε ξανά.";
 err_file_auth = "Μερικά από τα αρχεία είναι αλλοιωμένα ή λείπουν.\n"
                 "Παρακαλούμε κατεβάστε μία αυθεντική έκδοση του %p \n"
                 "(π.χ. από το www.cfos.de).";
@@ -6705,6 +6884,7 @@ err_activate_12002 =
    "την εγγραφή.";
 / %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "Λάθος κατά την αντιγραφή απο το %1 στο %2 (%3).";
+err_port_in_use = "Η θύρα του διακομιστή %? χρησιμοποιείται ήδη από ένα άλλο πρόγραμμα.\n\nProgram: %?\nPath: %?";
 
 / warning messages
 wrn_oem_update = "Έχετε ήδη εγκατεστημένο ένα αδειοδοτημένο %p.\n\n"
@@ -6713,6 +6893,7 @@ wrn_oem_update = "Έχετε ήδη εγκατεστημένο ένα αδειο
   "Μια αναβαθμισμένη έκδοση του αδειοδοτημένου σας %p μπορεί να αποκτηθεί στο ίδιο μέρος\n"
   "όπου το αγοράσατε αρχικά.\n\n"
   "Θέλετε να συνεχίσετε με την εγκατάσταση παρ' όλα αυτά?";
+wrn_close_application = "Συνίσταται να κλείσετε τις ακόλουθες εφαρμογές πριν συνεχίσετε:";
 
 / traffic shaping algorithm
 tsa_header = "Λειτουργία Traffic Shaping (Έκδοση Πολλαπλών χρηστών)";
@@ -6751,6 +6932,34 @@ eml_invalid_email = "Η διεύθυνση e-mail που έχετε εισάγε
 eml_invalid_optional_email = "Παρακαλούμε εισάγετε μία έγκυρη διεύθυνση e-mail ή μην εισάγετε καμία.";
 eml_reg_failed = "Η εγγραφή της διεύθυνσης E-mail απέτυχε.";
 eml_checking_domain = "Ελεγχος του E-mail domain...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "Οδηγός εκκίνησης Εικονικού Wi-Fi %p";
+virtual_wifi_header = "Εκκίνηση Εικονικού Wi-Fi";
+virtual_wifi_subheader = "Εγκατάσταση ενός ασύρματου σημείου πρόσβασης με χρήση λογισμικού και ενεργοποιήση κοινής χρήσης του Internet (Connection Sharing).";
+virtual_wifi_info = "Επιλέξτε την σύνδεση δικτύου που δρομολογεί την κυκλοφορία δεδομένων στο Internet και επιλέξτε έναν κωδικό για το ασύρματο σημείο πρόσβασης.";
+virtual_wifi_ssid = "SSID (Όνομα Δικτύου):";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "Το πεδίο ονόματος δικτύου (SSID) δεν πρέπει να είναι κενό ή να έχει παραπάνω από 32 χαρακτήρες.";
+virtual_wifi_invalid_password_length = "Ο κωδικός πρέπει να έχει μήκος από 8 μέχρι 64 χαρακτήρες.";
+virtual_wifi_ics_not_available = "Η κοινή χρήση Internet (Connection Sharing) δεν είναι διαθέσιμη σε αυτόν τον υπολογιστή.";
+virtual_wifi_error_get_cons = "Σφάλμα κατά τον εντοπισμό σύνδεσης δικτύου.";
+virtual_wifi_ics_warning = "Η κοινή χρήση Internet (Connection Sharing) είναι ήδη ενεργοποιημένη στο δίκτυο:\n%?\n\n Θέλετε να αλλάξετε σε αυτό το δίκτυο:\n%?";
+virtual_wifi_error_enable_ics = "Σφάλμα κατά την ενεργοποιήση κοινής χρήσης Internet (Connection Sharing).";
+virtual_wifi_error_start = "Σφάλμα κατά την εκκίνηση του Εικονικού Wi-Fi.";
+virtual_wifi_ok = "Το Εικονικό Wi-Fi και η κοινή χρήση Internet (Connection Sharing) ενεργοποιήθηκαν επιτυχώς.\n\n Σημείωση: Αν μία συσκευή/πελάτης δεν μπορεί να συνδεθεί στο εικονικό Wi-Fi, σταματήστε το εικονικό Wi-Fi και επανεκκινήστε το.\n\n Αν μία συσκευή/πελάτης μπορεί να συνδεθεί στο εικονικό Wi-Fi αλλά δεν έχει πρόσβαση στο Internet, παρακαλούμε να απεγκαταστήσετε και να εγκαταστήσετε ξανά το %p.";
+virtual_wifi_query_stop = "Παύση Εικονικού Wi-Fi?";
+virtual_wifi_error_stop = "Σφάλμα κατά την παύση του Εικονικού Wi-Fi:";
+virtual_wifi_stopped = "Το Εικονικό Wi-Fi σταμάτησε επιτυχώς.";
+virtual_wifi_dialup_ics = "Για μία σύνδεση dial-up (μέσω χρήσης τηλεφώνου) θα πρέπει να ενεργοποιήσετε την Κοινή Χρήση Internet (Connection Sharing) χειροκίνητα, αλλάζοντας τις ιδιότητες αυτής της σύνδεσης.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
@@ -6847,9 +7056,6 @@ group_order_inet = "Αγορά προχωρημένου %p";
 / Don't translate!
 / END SECTION: don't translate
 
-
-
-/ eee (please leave this)
 #language 1033
 #fallback 1031
 #charset 0
@@ -10147,6 +10353,8 @@ setup_connections = "Configuration des connections";
 ask_inst_ipv6 = "Le protocole IPv6 n'a pas encore été installé sur ce système.\n\n"
                 "Voulez vous installer le protocole IPv6 maintenant?";
 err_inst_ipv6 = "Erreur %? pendant l'installation du protocole IPv6.";
+pause_server = "Mettre le serveur en pause";
+resume_server = "Reprendre l'activité sur le serveur";
 
 / connection entry dialog
 con_err_save = "Impossible de sauvegarder les données de connexion !";
@@ -10444,6 +10652,10 @@ show_for = "Afficher pour";
 this_month = "ce mois";
 time = "Temps";
 time_limit = "Limite de Temps";
+/. Used as table header
+/. Short version of "minutes"
+/. Used as table header
+/. Short version of "hours:minutes"
 volume = "Volume";
 volume_limit = "Limite du Volume";
 spdbudget_help = "Pour activer un forfait de consommation merci d’aller sur la page des connexions et de l’attribuer à une connexion.";
@@ -10505,7 +10717,9 @@ slots_title = "Configuration du port";
 can_select_multiple = "Astuce: Vous pouvez sélectionner plusieurs options en maintenant appuyé la touche shift ou Ctrl pendant que vous choisissez une option";
 name_for = "Nom pour ";
 set_name = "Définir le nom";
+/. RX stands for `receive` (incoming/download)
 rx_only = "Seulement réception (RX)";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "Seulement émission (TX)";
 max_of_rx_tx = "Maximum de réception (RX) et d'émission (TX)";
 total_rx_only = "Total de la vitesse de réception (RX)";
@@ -10860,6 +11074,7 @@ err_os_sup = "%p ne supporte officiellement que %? ou ultérieur.\n\n"
 err_uninst_driver = "Le pilote de périphérique n’a pas pu être désinstallé.";
 err_create_process = "Le programme %s n’a pas pu être appelé : %s";
 err_write_lock = "Les composants réseau de %? sont utilisés par un autre processus. Réessayez après avoir fermé tous les autres applications en cours ou après un redémarrage de votre système.";
+err_write_lock_process = "%? Les composants du réseau sont actuellement en utilisation par le processus suivant : %?. Merci de fermer ce processus ou de redémarrer votre ordinateur et d'essayer à nouveau.";
 err_file_auth = "Certains fichiers de cette distribution manquent ou sont endommagés.\nVeuillez vous procurer une copie de %p originale\n(par ex. sur le site http:////www.cfos.de).";
 err_cancel = "Le processus a été interrompu.";
 err_no32 = "Il est impossible d'installer les pilotes 32 bits sur un système 64 bits.\n\nOS: %?\nProduit : %?";
@@ -10968,6 +11183,14 @@ virtual_wifi_query_stop = "Arrêter le Wi-Fi virtuel ?";
 virtual_wifi_error_stop = "Une erreur est survenue lors de l'arrêt du Wi-Fi Virtuel :";
 virtual_wifi_stopped = "Le Wi-Fi Virtuel s'est arrêté avec succès.";
 virtual_wifi_dialup_ics = "Pour une connexion par modem/ligne commutée vous devez activer manuellement le partage de connection Internet en modifiant les propriétés de cette connection.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
@@ -28471,12 +28694,29 @@ language = "Simplified Chinese";
 language_local = "简体中文";
 htm_lang_prefix = "zh-cn";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
 /
 / ----------------------------------------------------------------------
 
+ignore_ssl_cert_chk = "忽略SSL证书错误（不安全）";
+ignore_ssl_cert_desc = "如果允许cFos Outlook DAV忽略SSL证书错误，它将可以连接至具有不安全SSL证书（例如自签名证书）的服务器。通常不建议启用此选项，因为这使得SSL连接易受中间人攻击。";
 
 / ----------------------------------------------------------------------
 /
@@ -28515,6 +28755,8 @@ setup_connections = "设置连接";
 ask_inst_ipv6 = "此系统尚未安装IPv6协议。\n\n"
                 "现在安装吗？";
 err_inst_ipv6 = "安装IPv6协议时发生错误 %?。";
+pause_server = "暂停服务器";
+resume_server = "恢复服务器";
 
 / connection entry dialog
 con_err_save = "无法保存连接数据！";
@@ -28602,6 +28844,21 @@ con_test_execute = "执行连通性测试";
 
 / ----------------------------------------------------------------------
 /
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+ga_service_desc = "cFos Game Analyzer - 重获性能";
+ga_speed_installed = "cFosSpeed似乎已在你的电脑中安装。\n\ncFosSpeed已包含了cFos Game Analyzer的功能。\n\n为了使用cFos Game Analyzer的最新功能，请从www.cfos.de下载最新版本的cFosSpeed。";
+local_ip_addresses = "本地IP地址：";
+ga_password_subheader = "外部访问cFos Game Analyzer的密码。";
+ga_password_info = "用户名：cfosspeed";
+ga_call_info = "使用下列地址从本地计算机访问cFos Game Analyzer\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\n使用上述密码及下列IP地址（而不是localhost）从外部设备访问cFos Game Analyzer：\n";
+ga_detected_by_speed = "检测到cFos Game Analyzer。cFosSpeed已包含了cFos Game Analyzer的所有功能。\n\n若继续，cFos Game Analyzer将被卸载以安装cFosSpeed。\n\n你想继续吗？";
+ga_use_password_by_speed = "是否让cFosSpeed使用cFos Game Analyzer的密码，这样你可以从其他设备访问cFosSpeed ？";
+
+/ ----------------------------------------------------------------------
+/
 /  cFosSpeed
 /
 / ----------------------------------------------------------------------
@@ -28631,6 +28888,7 @@ speed_endsoon = "您的试用期即将结束！请今天就购买 %1 ！";
 order_info = "立即购买：\n网址：www.cfos.de\n电话：+49-228-7669826";
 badkey = "您的授权文件有问题.\n请您双击您通过电子邮件取得的\n或存于软盘上的原始文件来重新安装授权文件.";
 no_setup = "不能启动安装程序(setup.exe)";
+no_cmd = "无法打开命令行(cmd.exe)!";
 ask_disconnect_ras = "当前活动的网络连接即将进行重新配置。\n我们建议您断开连接，然后再继续。\n断开当前的网络连接吗？";
 sygate_hint = "%p 检测到 Sygate Firewall，此防火墙将 %p 校准脉冲\n误认为是拒绝服务攻击(Denial of Service)的“Ping of Death”封包。\n因此您应该分别进行一次\n约30秒钟的全速下载及全速上传。\n这将像校准脉冲一样校准 %p。\n\n提示：防火墙的“反IP控制”功能应该被关闭";
 select_language = "选择语言";
@@ -28794,7 +29052,11 @@ show_for = "显示";
 this_month = "这个月";
 time = "时间";
 time_limit = "时间限制";
+/. Used as table header
+/. Short version of "minutes"
 time_min = "分";
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "时：分";
 volume = "流量";
 volume_limit = "流量限制";
@@ -28803,6 +29065,7 @@ password_bad = "错误的密码";
 sum_button = "累积";
 calibrate = "线路校准";
 test_pings = "发送测试 ping";
+open_console = "打开%p控制台";
 variable_bandwidth = "可变带宽";
 def_bandwidth_help = "<b>新建</b>连接的默认项";
 cur_bandwidth_help = "当前连接的设置";
@@ -28855,7 +29118,9 @@ slots_title = "槽位设置";
 can_select_multiple = "提示：你可以通过使用Ctrl或Shift键同时选择多个槽位。";
 name_for = "命名";
 set_name = "设置名称";
+/. RX stands for `receive` (incoming/download)
 rx_only = "只记录接收数据";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "只记录发送数据";
 max_of_rx_tx = "接收发送数据的最大值";
 total_rx_only = "总接收数据速度";
@@ -28937,6 +29202,18 @@ check_for_news = "检查新消息";
 rwin_expansion = "自动 RWIN 扩张";
 rwin_expansion_help = "若 Windows 默认 RWIN 值过小，自动扩大TCP RWIN的值以提高下载速度。";
 query_auto_open = "禁止自动打开或关闭状态窗口吗？\n您可以在上下文菜单中再次打开此功能。";
+preview_skins = "预览皮肤";
+enable_smartphone_skins = "手机皮肤";
+http_access_enabled = "密码已设置，允许远端HTTP访问。";
+http_access_disabled = "密码未设置，禁止远端HTTP访问。";
+set_server_pwd = "设置服务器密码";
+auto_arrange_top = "顶端";
+auto_arrange_bottom = "底端";
+show_on_metro_apps = "在Metro应用中打开";
+traffic_shaping_info = "Traffic Shaping信息";
+wlan_access_point = "Wi-Fi接入点";
+prioritize_foreground_process = "前置窗口进程优先级。";
+prioritize_foreground_help = "自动将前置窗口进程的优先级设为高。";
 
 
 / ----------------------------------------------------------------------
@@ -29024,6 +29301,8 @@ sn_save_err = "无法在 %? 保存授权文件。";
 sn_keyfile_err = "授权文件格式不正确。";
 
 / new 16 digit serial number dialog
+sn16_info = "请输入16位序列号来获得许可。你必须连接至互联网才能成功获得许可。";
+sn16_failed = "无法获得许可！";
 
 / re-enter password dialog
 repwd_header = "%? 密码。";
@@ -29070,6 +29349,13 @@ port_forwarding_fritz = "您可以更改 Home Network / Network / Programs 下�
                         " 激活 FRITZ!Box 路由的端口转发功能。";
 
 / crash handler messages
+crash_msg_crash = "未知错误发生于%p.";
+crash_msg_crash_installer = "未知错误发生于%p安装程序。";
+crash_msg_virus = "下列模块注入了此程序，这可能导致程序崩溃：";
+crash_msg_virus_clean = "此模块可能是病毒。强烈建议扫描你的系统。";
+crash_msg_hook = "检测到其他程序的模块注入此程序。为确定这些模块不是导致程序崩溃的原因，请在禁用或卸载下列程序后再运行此程序：";
+crash_msg_terminate = "程序终止。";
+crash_msg_query_upload = "你想要发送崩溃转储给cFos吗？这可以帮助我们分析错误。";
 
 /start installation dialog
 start_header = "安装";
@@ -29128,10 +29414,13 @@ task_desktop_link = "创建桌面快捷方式...";
 task_program_group = "创建程序组...";
 task_registry = "正在生成注册表条目...";
 task_driver = "正在安装驱动...";
+task_service = "安装服务……";
 task_daemon = "正在开始 %?...";
 task_uninstall_old = "正在卸载已有版本...";
 task_stop_daemon = "正在停止 %?...";
 task_uninstall_driver = "正在卸载驱动...";
+task_uninstall_service = "卸载服务……";
+task_uninstall_ga = "卸载cFos Game Analyzer……";
 task_delete_files = "正在删除文件...";
 task_cleanup_caches = "清除缓存...";
 task_hangup = "正在断开使用中的网络连接...";
@@ -29169,13 +29458,19 @@ query_further_info = "您需要更多信息吗？";
 
 / error messages
 err_driver_inst = "驱动程序安装失败。";
+err_service_inst = "服务安装失败。";
+err_service_uninst = "服务卸载失败。";
 err_daemon_start = "不能开始 %?。";
 err_uninst_old = "无法卸载已安装的版本。请从您的操作系统注销，重新登录并重试。";
 err_os = "您的操作系统是 %?。\n\n运行 %? 需要 Windows 2000/XP 或更新版本的操作系统。";
 err_os_minxp = "您的操作系统是 %?。\n\n运行 %? 需要 Windows XP 或更新版本的操作系统。";
+err_os_sup = "%p官方只支持%?或更高。\n\n"
+             "%p可能可以在你的系统%?上运行，但这未经过我们测试。 \n\n"
+             "你想继续安装吗？";
 err_uninst_driver = "无法卸载设备驱动。";
 err_create_process = "调用 %s：%s时发生错误";
 err_write_lock = "%? 的网络组件正在被其它进程使用。请关闭所有其它程序或重新启动计算机并重试。";
+err_write_lock_process = "%?网络组件正在被下列进程使用：%?。请在结束此进程或重启计算机后重试。";
 err_file_auth = "此发行版本的一些文件已损坏或遗失。\n请您取得可靠的 %p 发行版本。\n(例如：从 www.cfos.de 下载)。";
 err_cancel = "这个操作已经被取消。";
 err_no32 = "无法在64位系统安装32位的驱动程序。\n\n操作系统：%?\n产品：%?";
@@ -29255,6 +29550,34 @@ eml_invalid_email = "您输入的电子邮件地址无效。";
 eml_invalid_optional_email = "请输入完整有效的E-mail地址，或完全留空E-mail栏。";
 eml_reg_failed = "电子邮件地址注册失败。";
 eml_checking_domain = "正在检查电子邮件域...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p虚拟Wi-Fi启动助手";
+virtual_wifi_header = "启动虚拟Wi-Fi";
+virtual_wifi_subheader = "设置一个基于软件的无线访问点并启用互联网共享。";
+virtual_wifi_info = "选择一个网络连接并选择无线接入点的密码。";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "SSID不能为空且不能超过32个字符。";
+virtual_wifi_invalid_password_length = "密码需包含8至64个字符。";
+virtual_wifi_ics_not_available = "网络共享在此计算机上不可用。";
+virtual_wifi_error_get_cons = "网络连接中发生错误。";
+virtual_wifi_ics_warning = "网络共享已在下列网络上启动：\n%?\n\n你想要改为使用下列网络吗：\n%?";
+virtual_wifi_error_enable_ics = "启动网络共享时发生错误。";
+virtual_wifi_error_start = "启动虚拟Wi-Fi时发生错误。";
+virtual_wifi_ok = "虚拟Wi-Fi及网络共享成功启动。\n\n注意：如果某个客户端无法连接至虚拟Wi-Fi，请停止并重启虚拟Wi-Fi。\n\n如果某个客户端可以连接至虚拟Wi-Fi但是无法接入网络，请卸载并重装%p。";
+virtual_wifi_query_stop = "停止虚拟Wi-Fi?";
+virtual_wifi_error_stop = "停止虚拟Wi-Fi时遇到错误：";
+virtual_wifi_stopped = "虚拟Wi-Fi成功停止。";
+virtual_wifi_dialup_ics = "对于拨号连接，你必须手动修改此连接的属性才能启用网络共享。";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
