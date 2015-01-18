@@ -1,0 +1,231 @@
+#language 1061
+#fallback 1033
+#charset 0
+
+language = "Estonian";
+lang_key = "_ee";
+input_lang = "et";
+
+
+/ navigation
+link_text_contact = "Kontakt";
+link_text_download = "Lae alla";
+link_text_forum = "Foorum";
+link_text_oem_version = "OEM versioon";
+link_text_order = "Telli";
+link_text_press_releases = "Pressiteated";
+link_text_sitemap = "Lehe kaart";
+link_text_support = "Tugi";
+
+/ index2
+bc_linktext = "cFos Broadband Connect kiire interneti juurdepääsu jaoks";
+cfos_linktext = "cFos/Professional ISDN jaoks";
+desc_6link = "IPv6 ühenduvus XP, Vista ja Windows 7 jaoks";
+desc_dialup = "Internet Dial-Up";
+desc_shaping = "Internet kiirendus Traffic Shaping´u kaudu";
+freeware_text1 = "Uus cFosSpeed versioon on saadaval:";
+freeware_text2 = "Täiustatud Traffic Shaping: Maksimaalne läbilaskevõime, minimaalne ping! Lae kohe alla: ";
+slogan = "Kasutage oma tõelist läbilaskevõimet:<br /> suur kiirus, madal ping.";
+special_offer_xmas = "Jõulude pakkumine! <span class=\"red\">Erihinnad</span> ainult kuni 22 detsembrini!";
+translation_text1 = "See lehekülg ei ole piisavalt tõlgitud!";
+translation_text2 = "Saa tasuta litsensi (cFos, cFosSpeed või cFosBC) aidates meid.";
+translation_text3 = "Lisainformatsioon";
+word_new = "Uus";
+word_newversion = "Uus versioon";
+countdown1 = "Ainult <span class='number'>X</span> päev on järele jäämnud!";
+countdown2 = "Ainult <span class='number'>X</span> päeva on järele jäämnud!";
+countdown3 = "Ainult <span class='number'>X</span> päeva on järele jäämnud!";
+countdown5 = "Ainult <span class='number'>X</span> päeva on järele jäämnud!";
+
+/ download
+additional_downloads = "täiendavad lisad";
+add_lang_text = "Täiendav keeled cFosSpeed jaoks";
+alt_cfosbc_image = "cFosBC pilt";
+alt_cfos_image = "cFos pilt";
+alt_speed_image = "cFosSpeed pilt";
+black = "must";
+cfnotify_text = "Utiliiti näitab ikoone tegumiribal. Kasutada näiteks cFos helistaja jälgijaga";
+cfosbc_text = "Dial-Up driver suure andmeedastusmahuga interneti pääsemiseks.";
+cfosconnect_text = "Pääse mööda t-online poolt põhjustatud sõlmede ülekoormuste probleemidest ja teiste Interneti-teenuse osutajade probleemidest";
+cfos_other_text = "ISDN ja ATM Dial-in driver koos Traffic Shaping´uga - ka modemi tarkvarale";
+cfos_text = "ISDN Dial-in driver - ka modemi tarkvarale";
+disclaimer = "Tingimused";
+disclaimer_text = "Teenusena teile, oleme teinud järgmise cFos/cFosSpeed lokalisatsioone saab tasuta alla laadida. Kuna need tasuta laiendused on loodud klientide poolt klientide jaoks, cFos Software GmbH ei vastuta ega pakkuda tehnilist tuge nendele.<br />Mis tahes küsimusi konkreetsete lokaliseerimise kohta, palun kontakteeruge selle autoriga. Sellegipoolest, kui sa peaksid leidma olulist tõlkeviga, tegevusetust või muud rikkumist (tahtlik või teisiti), palun andke meile teada sellest lühidalt, et saaksime kontrollida seda.";
+download_for = "<b>Allalaadimised</b>";
+downloads = "Allalaadimised";
+download_x86x64_for = "<b>Lae</b> alla x86 + x64 versioon";
+for = "jaoks";
+freeware_programs = "Vabavara programmid";
+gadget = "cFosSpeed vidin Vista jaoks";
+gadget_text = "cFosSpeed vidin WIndows Vista/7 jaoks<br /><span class=\"smalltext\" style=\"line-height: 12px\"><br /><b class=\"red\">NB!</b>: Kui te saate &quot;<b>Can't create automation object</b>&quot; veateade pärast vidina paigaldamist, palun tehke järgmist:<br /><b>1</b>. Kontrollige cFosSpeed versiooni numbrit<br />&nbsp;&nbsp;&nbsp;&nbsp;(4.24 või kõrgem on kohustuslik)<br /><b>2</b>. Taaskäivita oma arvuti</span>";
+grey = "hall";
+gadget_title = "cFosSpeed vidin";
+hacks_cracks = "Meie arvamuse <br /> Häkkide &amp; Kräkide kohta";
+hint = "Näpunäide";
+hrping_text = "Ülitäpse ping utiliit koos arenenud funktsionaalsusega ja täiustatud statistikaga";
+just_cfos = " ainult cFos jaoks";
+just_speed = " ainult cFosSpeed jaoks";
+mugstore_header = "cFos kruusid mugstore.de´st";
+mugstore_text = "Igal aastal, need kruusid on disainitud üksnes cFos Software GmbH jaoks ja antakse ära firma sõpradele jõulukinkidena. They pay homage to well-known pieces of art or popular movies, all united under the topic &quot;cFos&quot;.<br /><br />Previously only printed in a limited number, they are now available online for everyone at<br />";
+other_languages = "Teised keeled";
+other_systems = "teiste operatsioonisüsteemide jaoks";
+rnahelp_text = "Batch-utiliit Windowsi interneti ühenduse jaoks";
+sk_c64_text = "C64-styled 'cFos kujundus' (tegi Markus Welz)";
+sk_classic = "cFos klassikaline kujundus";
+sk_classic_text = "Klassikaline cFos kujundus";
+sk_froghut = "Froghut tiitliriba kujundus";
+sk_froghut_text = "Froghut tiitliriba kujundus(tegi Björn v. d. Osten)";
+sk_grant = "Grant's kujundus";
+sk_grant_text = "Ikooni kujundus (tegi Grant Brunton)";
+skins = "Kujundused";
+sk_history = "LC ajalugu";
+sk_history_text = "Liquid Crystal kujundus koos ajaloo ribadega";
+sk_modern = "cFos moderne kujundus";
+sk_mon_txt = "cFos Monitor Text kujundus";
+sk_mon_txt_525 = "cFos Monitor Text kujundus 5.25";
+sk_mon_txt_525_text = "cFos Monitor-Text-Skin (cFos versioonide jaoks >= 5.25)";
+sk_mon_txt_text = "cFos Monitor-Text-Skin (tegi Maik Reiss / Hoeft ja Wessel)";
+sk_mtin = "MTiN's kujundus";
+sk_mtin_text = "Minimaalne kujundus (tegi MTiN)";
+sk_netmedic = "rx/tx kujundus (+ Ikoon)";
+sk_netmedic_text = "Saada/Võta vastu kujundus ja ikooni kujundus (tegi Ilya Dedinsky)";
+sk_offchu_text = "Slim horizontal Liquid Crystal kujundus (tegi offchu)";
+sk_offchu_history = "Slim LC ajalugu";
+sk_offchu_history_text = "Slim horizontal Liquid Crystal ajaloo kujundus (tegi offchu)";
+sk_shinnher = "Shinnher'i kujundus";
+sk_shinnher_text = "Liquid Crystal kujundus muutis Shinnher";
+sk_shinnher_text_black = "Shinnher's kujundus koos musta taustaga muutis Scott";
+sk_shinnher_text_grey = "Shinnher's kujundus koos halli taustaga muutis Scott";
+sk_shinnher_text_trans = "Shinnher's kujundus koos läbipaistva taustaga muutis Scott";
+sk_txt = "cFos teksti kujundus";
+sk_txt_text = "cFos teksti kujundus, neile, kes igatsevad vana cFos akent.<br />(Näpunäide: installi 'modernsesse'- kausta ainult)";
+speed_text = "kiiremini internetti koos Traffic Shaping";
+submit = "Saada";
+transparent = "läbipaistev";
+updates = "Uuendused";
+updates_text = "Jah, tahan teatada, kui uus cFos või cFosSpeed versioon tuleb välja.";
+version = "Versioon";
+watch_text = "Käitumist jälgiv helistaja blokeerija ja viiruse kaitse";
+whats_new = "Mis on uut selles versioonis";
+zip_tip = "Võite ekstraktida ZIP-failid selles nimekirjas eespool näiteks programmiga <a class=\"inline\" href=\"http://www.pkware.com\">PKZIP</a>, <a class=\"inline\" href=\"http://www.winzip.de\">WinZIP</a> or <a class=\"inline\" href=\"http://www.info-zip.org/\">Info-ZIP</a>";
+cfos6link_text = "IPv6 ühenduvus XP, Vista ja Windows 7 jaoks";
+
+/ order
+atm_price = "ATM versiooni taotlus";
+bank_de_account = "2000 850 040";
+bank_de_bic = "BIC (SWIFT-code): GENO DE D1 BRS";
+bank_de_blz = "380 601 86";
+bank_de_iban = "IBAN: DE 17 380 601 86 2000 850 040";
+bank_de_iban_hint = "EU standard euroülekannete puhul kehtib umbes sama hind kui siseriiklike ülekannete puhul";
+by_phone = "Tugi, telli telefoni teel";
+buy_now = "Osta kohe";
+conf_cc = "Krediitkaardiga maksmine";
+conf_check_order = "Kontrolli oma tellimust";
+conf_deliverer = "Sinu aadress";
+conf_delivery_condition = "Toimeta pärast ülekande kinnitust";
+conf_doctitle = "Tellimuse kinnitus";
+conf_email_express = "Express kättetoimetamine eespool olevale e-posti aadressile";
+conf_email_ok = "Kas teie e-posti aadress on õigesti kirjutatud?";
+conf_formerror_cc = "Puuduvad nõutavad väljad!  Viga kaardi numbris: See peab sisaldama vähemalt 13 numbrit. Sageli on 4 numbrit hologrammiga alal! Samuti ärge sisestage EC-Cheque kaardi numbreid, kuid ainult õigeid krediitkaartide numbreid!";
+conf_formerror_email = "Puudub või vale e-posti aadress!";
+conf_formerror_email_express = "Express kättetoimetamine e-posti teel ja C.O.D. omavahel eksklusiivsed. Palun kasutage oma brauseri Tagasi'-nuppu ja valige mõne muu makseviis";
+conf_formerror_hint_kk = "Olete sisestanud krediitkaardi andmeid, kuid olete valinud teise maksmis viisi";
+conf_formerror_hint_ls = "Olete sisestanud panga maksekorralduse, kuid olete valinud teise maksmis viisi.";
+conf_formerror_lastschrift = "Palun kontrolli oma panga konto andmeid.";
+conf_formerror_missing_entry = "Puuduvad nõutavad sisestused!";
+conf_formerror_not_complete = "Teie tellimus on puudulik! Palun kasutage oma brauseri Tagasi'-nuppu ja täitke puuduvad sissekanded.";
+conf_fromerror_license = "Palun kasutage oma brauseri Tagasi'-nuppu ja kontrolli, et olete lugenud ja heaks kiitnud cFos litsentsi tingimused!";
+confident = "Konfidentsiaalsus: Andmed, mida sisestate siin kasutatakse ainult selle tellimuse jaoks ja ei anta teistele.";
+conf_lastschrift_at = "-";
+conf_moneybookers_trans = "Moneybookers üleandmine";
+conf_moneybookers_text = "Palun sisesta &quot;<strong>[%$1_name%]</strong>&quot; makse põhjuseks Moneybookers välja &quot;<strong>eMail-Betreff</strong>&quot;";
+conf_nn = "C.O.D. maksmine (4,- &#8364; postikulu eest)";
+conf_payment = "Maksmine";
+conf_paypal_text = "Palun sisesta &quot;<strong>[%$1_name%]</strong>&quot; makse põhjuseks PayPal välja &quot;<strong>eMail-Betreff</strong>&quot;";
+conf_paypal_trans = "PayPal üleandmine";
+conf_please_click_on = "Palun kliki";
+conf_proforma = "Saadame Teile esialgse-arve. Makse kättesaamisel me saadame Teie cFos litsentsi";
+conf_so_we_can_process = ", et saaksime täita tellimuse!";
+conf_submit_order = "Kinnitage tellimus";
+conf_sum = "Sum";
+conf_trans_account = "Pangakonto";
+conf_trans_blz = " Panga kood";
+conf_trans_fee_hint = "Palun kata kõik kulud ning pankade teenustasud, raha üleande jaoks.";
+conf_trans_int = "Ülekanne välismaalt";
+conf_trans_reason = "Makse põhjus";
+conf_trans_reason_hint = "Teadaanne Teie nimi makse põhjuseks on vajalik, et tellimust jätkata.";
+conf_trans_to = "Kellele";
+conf_trans_within_de = "Ülekdandmien Saksamaa piires";
+conf_webmoney_trans = "WebMoney üleandmine";
+conf_webmoney_text = "Meie Tellimus meeskond vaatab läbi tellimuse ja saadab sulle emaili koos lisainfoga (tellimuse number, WMID ja WM-Purse). Palun, ärge kantke mingit raha enne kui olete saanud selle teise emaili. Täname!";
+f_announce = "Jah, ma tahan teada, kui uue versioon meie programmidest välja tuleb.";
+f_cc = "Krediitkaart";
+f_cc_date = "Aegumiskuupäev";
+f_cc_holder = "Kaardi omanik";
+f_cc_number = "Kaardi number";
+f_cc_vercode = "Kaardi turvakood";
+f_cc_vc_where = "Kust leida kaardi Turvakood?";
+f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>:<br />3-kohaline kaardi turva kood asub kaardi tagaküljel - kas viimased 3 numbrit, allkirja lahtris või paremal ülevalpool sellest paneelist.<br/><b>American Express</b>:<br />4-kohaline kaardi turva kood asub ülevalt parempoolses kaardi nurga ees.";
+f_checkbox_license_text_bconnect = "Olen lugenud <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos Broadband Connect litsentsilepingut</a> ja nõustun tingimustega..";
+f_checkbox_license_text_cfos = "Olen lugenud <a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos litsentsilepingut</a> ja nõustun tingimustega.";
+f_checkbox_license_text_ipv6 = "Olen lugenud <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\"  target=\"_blank\">cFos IPv6 Link litsentsilepingut</a> ja nõustun tingimustega.";
+f_checkbox_license_text_speed = "Olen lugenud <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed litsentsilepingut</a> ja nõustun tingimustega.";
+f_city_postcode = "Zip/Postiindeks, Linn";
+f_deliverto_list_01 = "kasutaja@host.net, mitte <span style=\"text-decoration: line-through\">www.host.net</span>";
+f_deliverto_list_02 = "Kas kõik on kirjutatud õieti?";
+f_deliverto_list_03 = "Erilised märgid nagu <span style=\"background-color: #ffffe0; font-weight: bold\">&nbsp;. - _&nbsp;</span> on sisestatud õigesti?";
+f_deliverto_list_04 = "Palun ärge ajage segadusse gmx.de gmx.net´iga!";
+f_express = "Express";
+f_express_text = "Kätte toimetatakse emailiga; Ülaltoodud emaili aadress peab olema kehtiv Interneti aadress";
+find_serial = "Näpunäide: Leiad seerianumberi tehes parema kliki cFos ülesande sümbolile. Lihtsalt vaata ülevalt teises reas kontekst menüüst.  (i.e. cF1234)";
+firmenkunden = "Ärikliendid";
+firmenkunden_text_bconnect = "Äri kasutajad on need kes saavad maha arvata kulusid cFos Broadband Connect maksudest. Mittetulundusühingud loetakse erakasutajateks. Kui soovite tellida cFos Broadband Connecti´i eraisikuna, siis palun kasutage <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">Tellimis vorm erakasutajale</a></b>.";
+firmenkunden_text_cfos = "Äri kasutajad on need kes saavad maha arvata kulusid cFos maksudest. Mittetulundusühingud loetakse erakasutajateks.  Kui soovite tellida cFos´i eraisikuna, siis palun kasutage <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">Tellimis vorm erakasutajale</a></b>.";
+firmenkunden_text_ipv6 = "Äri kasutajad on need kes saavad maha arvata kulusid <em>cFos IPv6 Link</em> maksudest. Mittetulundusühingud loetakse erakasutajateks. Kui soovite tellida cFos IPv6 Link´i eraisikuna, siis palun kasutage <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">Tellimis vorm erakasutajale</a></b>.";
+f_trans_mail = "Teile saadetakse meie pangakonto andmed tellimuse kinnitamise e-mailiga";
+
+/ Order and Announcelist Confirmation Email
+
+/ cFosSpeed
+
+/ cFos IPv6 Link
+
+/ cFos BC
+
+/ cFos
+
+/ FAQ
+
+/ support
+
+/ traffic shaping
+
+/ cFosSpeed additional pages
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+
+/ oem
+
+/ asus
+
+/ special price
+
+/ contact
+
+/ link_programm
+
+/ press
+
+/ speed test
+
+/ countrynames
+
+/ no translation
+currency_4217 = "EEK";
+currency_prefix = "";
+currency_suffix = "kr";
+selected_value = "Estonia";
+
+

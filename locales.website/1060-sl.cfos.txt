@@ -1,0 +1,792 @@
+#language 1060
+#fallback 1033
+#charset 0
+
+language = "Slovenian ";
+lang_key = "_si";
+input_lang = "sl";
+
+/ test purposes, don't translate!
+
+/ navigation
+link_text_contact = "Kontakt";
+link_text_download = "Prenos";
+link_text_forum = "Forum";
+link_text_oem_version = "OEM verzija";
+link_text_order = "Naročilo";
+link_text_press_releases = "Sporočila medijem";
+link_text_sitemap = "Zemljevid strani";
+link_text_support = "Podpora";
+
+/ index2
+bc_linktext = "cFos širokopasovna povezava za visoko-hitrostni dostop";
+cfos_linktext = "cFos/Professional za ISDN";
+desc_6link = "ipv6 Povezljivost za XP, Vista in Windows 7";
+desc_dialup = "Internetna povezava na klic";
+desc_shaping = "Internetna pospešitev z oblikovanjem prometa";
+freeware_text1 = "Na voljo je nova verzija cFosSpeed:";
+freeware_text2 = "Izboljšanje oblikovanje prometa: Maksimalna pasovna širina, minimalni ping! Prenesite zdaj: ";
+slogan = "Uporabite vašo resnično pasovno širino:<br /> visoka hitrost, nizek ping.";
+special_offer_xmas = "Božična ponudba! <span class=\"red\">Special prices</span> samo do 22 Decembra!";
+worldcup_sale = "Posebne cene med Svetovnim prvenstvom!"; / FIFA Soccer World Cup
+translation_text1 = "Ta stran ni zadostno prevedena!";
+translation_text2 = "Dobite brezplačno licenco (cFos, cFosSpeed or cFosBC) za vašo pomoč.";
+translation_text3 = "Več informacij";
+word_new = "Novo";
+word_newversion = "Nova različica";
+countdown1 = "Preostalo <span class='number'>X</span> dni!";
+countdown2 = "Preostalo <span class='number'>X</span> dni!";
+countdown3 = "Preostalo <span class='number'>X</span> dni!";
+countdown5 = "Preostalo <span class='number'>X</span> dni!";
+
+/ download
+additional_downloads = "dodatni prenosi";
+add_lang_text = "Dodatni jeziki za cFosSpeed";
+alt_cfosbc_image = "cFosBC slika";
+alt_cfos_image = "cFos slika";
+alt_speed_image = "cFosSpeed slika";
+black = "črna";
+cfnotify_text = "Orodje za prikaz ikon v vaši orodni vrstici. Za uporabo z naprimer cFos monitor klicateljem";
+cfosbc_text = "Gonilnik povezave za internetni dostop na klic za visoko-pasovno širino.";
+cfosconnect_text = "Preusmeritev preobremenjenih problemov ki jih povzoča t-online točka in drugi internetni ponudniki";
+cfos_other_text = "ISDN in ATM Dial-in gonilniki z Oblikovanjem prometa - tudi za modemsko programsko opremo";
+cfos_text = "ISDN Dial-in - tudi za modemsko programsko opremo";
+disclaimer = "Demanti";
+disclaimer_text = "Kot storitev za vas, smo naredili sledeče cFos/cFosSpeed lokalizacije, ki so na voljo za prenos. Ker so te brezplačne razširitve bili narejene od strank za stranke, cFos Software GmbH ne prevzema nobene odgovornosti in ne ponuja nobene tehnične podpore za njih.<br />Za katerakoli vprašanja glede specifične lokalizacije, prosimo da kontaktirate direktno avtorja. Če pa naletite na katerokoli pomembno napako pri prevajanju ali druge nepravilnosti (namenske ali nenamenske) nas prosimo obvestite, da lahko preverimo.";
+download_for = "<b>Prenesi</b> za";
+downloads = "Prenosi";
+download_x64_for = "<b>Prenesi</b> verzijo x64 za";
+download_x86x64_for = "<b>Prenesi</b> verzijo x86 + x64 za";
+email = "Epošta";
+for = "za";
+freeware_programs = "Brezplačni programi";
+gadget = "cFosSpeed gadget za Visto";
+gadget_text = "cFosSpeed sidebar gadget za Windows Vista/7<br /><span class=\"smalltext\" style=\"line-height: 12px\"><br /><b class=\"red\">Opomba</b>: Će dobite &quot;<b>Can't reate automation object</b>&quot; napako po namestitvigadgeta, prosimo naredite sledeče:<br /><b>1</b>. Preverite številko verzije cFosSpeed<br />&nbsp;&nbsp;&nbsp;&nbsp;(4.24 ali višja je potrebna)<br /><b>2</b>. Ponovno zaženite sistem</span>";
+grey = "siva";
+hacks_cracks = "Naše mnenje o <br /> Hacks &amp; Cracks";
+hint = "Nasvet";
+hrping_text = "Visoko-natančno ping orodje z napredno funkcionalnostjo in izboljšano statistiko";
+just_cfos = " le za cFos";
+just_speed = " le za cFosSpeed";
+mugstore_header = "cFos vrčki v mugstore.de";
+mugstore_text = "Vsako leto so vrčki narejeni eksluzivno za cFos Software GmbH in razdeljeni prijateljem podjetja kot božično darilo. Poklonijo se znanim kosom umetnosti ali popularnim filmom, vsi združeni pod temo &quot;cFos&quot;.<br /><br />Pred tem so se natisnile le omejena števila izdelkov, od sedaj pa so na voljo preko spleta za vse na<br />";
+other_languages = "Drugi jeziki";
+other_systems = "za drug Operacijski Sistem";
+rnahelp_text = "Batch-orodje za Windows Internetne povezave";
+sk_c64_text = "C64-styled 'cFos skin' (od Markus Welz)";
+sk_classic = "cFos klasična preobleka";
+sk_classic_text = "Klasična cFos preobleka";
+sk_froghut = "Froghut Title Bar Preobleka";
+sk_froghut_text = "Froghut Title Bar Preobleka (by Björn v. d. Osten)";
+sk_grant = "Grant's preobleka";
+sk_grant_text = "Preobleka ikone (od Grant Brunton)";
+skins = "Preobleke";
+sk_history = "LC zgodovina";
+sk_history_text = "Liquid Crystal Preobleka z zgodovino";
+sk_modern = "cFos Moderna preobleka";
+sk_mon_txt = "cFos preobleka Monitor Teksta";
+sk_mon_txt_525 = "cFos preobleka Monitor Teksta 5.25";
+sk_mon_txt_525_text = "cFos Monitor Teksta (za cFos verzije >= 5.25)";
+sk_mon_txt_text = "cFos Monitor Teksta (od Maik Reiss / Hoeft in Wessel)";
+sk_mtin = "MTiN's preobleka";
+sk_mtin_text = "Minimalna preobleka (od MTiN)";
+sk_netmedic = "rx/tx preobleka (+ Ikona)";
+sk_netmedic_text = "Send/Receive preobleka in preobleka ikone (od Ilya Dedinsky)";
+sk_offchu_text = "Slim horizontal Liquid Crystal Preobleka (od offchu)";
+sk_offchu_history = "Slim LC Zgodovina";
+sk_offchu_history_text = "Slim horizontal Liquid Crystal Zgodovina Preobleke (od offchu)";
+sk_shinnher = "Shinnher's preobleka";
+sk_shinnher_text = "Liquid Crystal preobleka spremenjena od Shinnher";
+sk_shinnher_text_black = "Shinnher's preobleka s črnim ozadjem spremenjena od Scott";
+sk_shinnher_text_grey = "Shinnher's preobleka s sivim ozadjem spremenjena od Scott";
+sk_shinnher_text_trans = "Shinnher's preobleka s prozornim ozadjem spremenjena od Scott";
+sk_txt = "cFos Tekst preobleka";
+sk_txt_text = "cFos tekst preobleka, za tiste ki pogrešajo stara cFos okna.<br />(Nasvet: namestitev le na 'moderne'-direktorije)";
+speed_text = "hitrejši internetni dostop z Oblikovanjem prometa";
+submit = "Pošlji";
+transparent = "transparentno";
+updates = "Posodobitve";
+updates_text = "Da, želim biti obveščen, ko je izdana nova verzija cFos ali cFosSpeed.";
+version = "Verzija";
+watch_text = "Blokiranje klicalcev in varnost proti virusom z blokirarnjem obnašanja";
+whats_new = "Kaj je novega v tej verziji";
+zip_tip = "Lahko razširite ZIP-datoteke na zgornjem seznamu npr. z <a class=\"inline\" href=\"http://www.pkware.com\">PKZIP</a>, <a class=\"inline\" href=\"http://www.winzip.de\">WinZIP</a> ali <a class=\"inline\" href=\"http://www.info-zip.org/\">Info-ZIP</a>";
+cfos6link_text = "ipv6 povezava za XP, Vista in Windows 7";
+
+/ order
+atm_price = "ATM verzija na zahtevo";
+bank_de_account = "2000 850 040";
+bank_de_bic = "BIC (SWIFT-code): GENO DE D1 BRS";
+bank_de_blz = "380 601 86";
+bank_de_iban = "IBAN: DE 17 380 601 86 2000 850 040";
+bank_de_iban_hint = "EU standardni prenosi v eurih stanejo približno enake kot domači prenosi";
+by_phone = "Podpora, naročilo po telefonu";
+buy_now = "Kupi sedaj!";
+conf_cc = "Plačilo s kreditno kartico";
+conf_cc_nr = "Št.";
+conf_check_order = "Preverite svoje naročilo";
+conf_deliverer = "Vaš naslov";
+conf_delivery_condition = "Dostava po potrditvi prenosa";
+conf_doctitle = "Potrditev naročila";
+conf_email_express = "Takojšnja dostava preko ePošte na zgornji naslov";
+conf_email_ok = "Je vaš ePoštni naslov črkovan pravilno?";
+conf_formerror_cc = "Manjkajoč zahtevan vnos! Napaka v številki kartice: Mora imeti najmanj 13 cifer. Pogosto so 4 cifre v hologramskem območju! Prav tako ne vnesite EC-čekovske številke kartice, ampak le realne številke kreditne kartice!";
+conf_formerror_email = "Manjkajoč ali neveljaven poštni naslov!";
+conf_formerror_email_express = "Hitre dostave preko e-maila in C.O.D. so obojestransko ekskluzivne (kar pomeni, če se odločite za eno možnost, ne morete izbrati druge).  Prosimo uporabite brskalnikov gumb `Nazaj´in izberite drugi način plačila.";
+conf_formerror_hint_kk = "Določili ste podatke kreditne kartice, ampak ste izbrali drugo vrsto plačila.";
+conf_formerror_hint_ls = "Določili ste podatke banke, ampak ste izbrali drugo vrsto plačila.";
+conf_formerror_lastschrift = "Prosimo preverite vaše informacije bančnega računa.";
+conf_formerror_missing_entry = "Manjkajoč zahtevan vnos!";
+conf_formerror_not_complete = "Vaše naročilo ni zaključeno! Prosimo uporabite brskalnikov gumb Nazaj in zapolnite manjkajoča vnosna polja.";
+conf_fromerror_license = "Prosimo uporabite brskalnikom gumb za 'Nazaj' and označite da ste prebrali in sprejeli cFos licenčne postavke!";
+confident = "Zaupnost: Podatki ki jih boste oddali se bodo uporabili le za to naročilo in ne bodo bili dani drugim.";
+conf_lastschrift_at = "na";
+conf_moneybookers_trans = "Moneybookers prenos";
+conf_moneybookers_text = "Prosim vnesite &quot;<strong>[%$1_name%]</strong>&quot; kot razlog za plačilov polje moneybookers &quot;<strong>eMail-Betreff</strong>&quot;";
+conf_nn = "C.O.D. plačilo (4,- &#8364; poštni fevd)";
+conf_payment = "Plačilo";
+conf_paypal_text = "Prosimo vnesite &quot;<strong>[%$1_name%]</strong>&quot; kot razlog za plačilo v PayPal polje &quot;<strong>eMail-Betreff</strong>&quot;";
+conf_paypal_trans = "PayPal prenos";
+conf_please_click_on = "Prosimo kliknite";
+conf_proforma = "Poslali vam bomo predračun. Po prejetju vašega plačila vam bomo poslali vašo cFos licenco.";
+conf_so_we_can_process = ", tako da lahko procesiramo naročilo!";
+conf_submit_order = "Potrdi naročilo";
+conf_sum = "Seštevek";
+conf_trans_account = "Bančni račun";
+conf_trans_blz = " Koda banke";
+conf_trans_fee_hint = "Prosimo pokrijte vse račune in bančne fevde za prenos denarja.";
+conf_trans_int = "Prenos od drugod";
+conf_trans_reason = "Razlog za plačilo";
+conf_trans_reason_hint = "Določitev vašega imena kot razlog plačila je nujno za procesiranje naročila";
+conf_trans_to = "za";
+conf_trans_within_de = "Prenos znotaj Nemčije";
+conf_webmoney_trans = "WebMoney nakazilo";
+conf_webmoney_text = "Naš Naročitveni Tim bo pregledal vaše naročilo in Vam poslal še eno e-pošto z dodatnimi informacijami (št. naročila, WMID in WM-Prodaja). Prosimo, ne nakazujte denarja, dokler ne dobite drugo e-pošto. Hvala!";
+f_agent_text = "Kupi od zastopništva znotraj Slovenije";
+f_announce = "Da, želim biti obveščen ko bo izšla nova verzija programa.";
+f_cc = "Kreditna kartica";
+f_cc_date = "Datum poteka";
+f_cc_holder = "Lastnik kartice";
+f_cc_number = "Številka kartice";
+f_cc_vercode = "Varnostna koda kartice";
+f_cc_vc_where = "Kje najti Varnostno kodo kartice?";
+f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>:<br /> 3-mestna Varnostna koda kartice se nahaja na hrbtni strani kartice - ali kot zadnja 3 števila na ploščici, kjer je podpis ali na desni strani nad to ploščico.<br/><b>American express</b>:<br />4-mestna Varnostna koda kartice je locirana na sprednji strani zgoraj.";
+f_checkbox_license_text_bconnect = "Prebral sem <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos Broadband Connect licenčno soglasje</a> in sprejemam postavke in zahteve..";
+f_checkbox_license_text_cfos = "Prebral sem <a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos licenčno soglasje</a> in sprejemam postavke in zahteve..";
+f_checkbox_license_text_ipv6 = "Prebral sem <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\">cFos ipv6 Link licenčni sporazum</a> in sprejmem njena pravila in pogoje..";
+f_checkbox_license_text_speed = "Prebral sem <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed licenčno soglasje</a> in sprejemam postavke in zahteve..";
+f_city_postcode = "Poštna številka, mesto";
+f_deliverto_list_01 = "uporabnik@gostitelj.net, in ne <span style=\"text-decoration: line-through\">www.gostitelj.net</span>";
+f_deliverto_list_02 = "Je vse pravilno črkovano?";
+f_deliverto_list_03 = "Je kaj posebnih znakov kot <span style=\"background-color: #ffffe0; font-weight: bold\">&nbsp;. - _&nbsp;</span> vneseno pravilno?";
+f_deliverto_list_04 = "Prosimo ne zamešajte gmx.de z gmx.net!";
+f_email = "ePošta";
+f_express = "Hitro";
+f_express_text = "Dostava preko ePošte; Zgornji ePoštni naslov morabiti veljaven internetni naslov.";
+find_serial = "NASVET: Vašo serijsko številko lahko najdete s klikom na cFos simbol opravila. Poglejte si drugo vrstico od zgoraj v kontekstnem meniju. (i.e. cF1234)";
+firmenkunden = "Poslovni uporabniki";
+firmenkunden_text_bconnect = "Poslovni uporabniki so tisti kateri odbijejo ceno za cFos ipv6 Link od svojih davkov. Neprofitne organizacije so smatrane kot zasebni uporabniki. Če želite naročiti cFos ipv6 Link kot zasebni uporabnik, prosimo uporabite <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">Naročilni obrazec za zasebnega uporabnika</a></b>.";
+firmenkunden_text_cfos = "Poslovni uporabniki so tisti kateri odbijejo ceno za cFos od svojih davkov. Neprofitne organizacije so smatrane kot zasebni uporabniki. Če želite naročiti cFos kot zasebni uporabnik, prosimo uporabite <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">Naročilni obrazec za zasebnega uporabnika</a></b>.";
+firmenkunden_text_ipv6 = "Poslovni uporabniki so tisti, ki lahko odbijejo stroške uporabnikov<em>cFos ipv6 Link</em> od njihovih davkov. Ne-profitne organizacije se obravnavajo kot zasebni uporabniki. Če želite naročiti cFos ipv6 Link kot zasebni uporabnik, prosimo uporabite <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">naročilo za zasebne uporabnike</a></b>.";
+firmenkunden_text_speed = "Poslovni uporabniki so tisti kateri odbijejo ceno za cFosSpeed od svojih davkov. Neprofitne organizacije so smatrane kot zasebni uporabniki. Če želite naročiti cFosSpeed kot zasebni uporabnik, prosimo uporabite <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\">Naročilni obrazec za zasebnega uporabnika</a></b>.";
+f_land = "Država";
+f_license = "Licenca";
+f_moneybookers_text = "Prosim pošjite plačilo na naslednji Moneybookers račun:";
+f_nachname_text = "le znotraj Nemčije, +4 &#8364; za poštnino";
+f_name = "Naziv";
+f_optional = "opcijsko";
+f_webmoney_text = "Pošto z načini plačila za Webmoney Vam bomo poslali ko pregledamo Vaše naročilo!";
+for_business_users = "za poslovne uporabnike";
+for_dos_w311_os2  = "za DOS | OS/2 | Windows 3.x";
+for_existing_users = "za obstoječe stranke";
+form_subtitel_contact = "Kontaktne informacije";
+form_subtitel_order = "Vaše naročilo";
+form_subtitel_payment = "Plačilo";
+form_title_c = "Naročilni obrazec za poslovne uporabnike";
+form_title_n = "Naročilni obrazec za zasebne uporabnike";
+for_osnt = "za Windows 8/7/Vista/XP/2000 + Server 2003 &amp; 2008 + x86/x64 Edition";
+for_osxp = "za Windows 8/7/Vista/XP + Server 2003 &amp; 2008 + x86/x64 Edition";
+for_private_users = "za zasebne uporabnike";
+for_win = "za Windows 95/98/ME";
+f_paypal_text = "Prosimo oddajte plačilo sledečemu PayPal računu:";
+f_phone = "Telefon";
+f_poll = "Kateri operacijski sistem uporabljate?";
+f_proform_national = "Predračun";
+f_proform_text = "Poslali vam bomo predračun. Ob prejetju vašega plačila, vam bomo poslali cFosSpeed. Alternativa za C.O.D. Prosimo, da vključite vsa bančna plačila za prenose tujega denarja.";
+f_street_adress = "Cestni naslov";
+f_trans_ger = "Prenos";
+f_trans_mail = "Podatke o našem bančnem računu boste prejeli v potrditvenem e-mailu";
+f_trans_text1 = "Dostava le po potrditvi prenosa.";
+f_trans_text2 = "Prosimo da vključite vsa bančna plačila za prenose tujega denarja.";
+f_trans_text3 = "<b>Euro države</b>: Računi bank znotraj Euro cone so kot <b>low</b> kot tisti za domače prenose! To velja specifično za Avstrijo, Belgium, Ciper, Estonija, Finland, Francijo, Greece, Irsko, Italijo, Luxembourg, Malta, Netherlands, Portugal in Spain.";
+f_trans_text4 = "Denar lahko nakažete na naš bančni račun v vaši državi.";
+f_vat_number = "DDV Reg. št.";
+f_vat_number_text = "Naročila drugih držav, ampak znotraj EU, lahko računamo brez DDV, če določite vašo DDV Reg. št. tu. Drugače je zaračunana nemška DDV.";
+f_word_poll = "Poll";
+f_your_number = "Vaša številka naročila";
+incl_vat_ship = "Cena vključuje namški DDV in vse ostale poštnine.";
+incl_vat_ship_cfos_omni = "Omni-Platform - vključuje prodajno takso / DDV. Brezplačna oddaja in ostalo. <br />Vključuje cFos/DOS, cFos/Win, cFos/2 in cFos NT/2000/XP/2003 Server/Vista/7 + x86/x64 Edition.";
+lifetime_updates = "Doživljenske posodobtitve";
+lifetime_updates_text = "Prenesete lahko novo verzijo za vaš operacijski sistem ga namestite lahko kar čez staro verzijo.";
+multi_buy = "Kupi";
+office_time = "od ponedeljka do torka od 9.00 do večera (CET)";
+only = "le";
+only_here = "(Samo pri nas!)";
+order_form = "Obrazec za naročanje";
+order_page_title = "Strani za naročanje";
+paypal_form_item_name = "cFos Software GmbH - licenca izdelka";
+paypal_form_pay_now = "Plačaj sedaj s PayPal";
+private_users = "Zasebni uporabniki";
+private_users_text = "Smatrani ste kot zasebni uporabnik če <b>ne morete</b> odšteti tega izdelka iz vaših davkov.";
+spbc_text = "1 cFosSpeed licenca + 1 cFos Broadband Connect licenca za posebno ceno";
+spbc_title = "Posebna ponudba";
+special_conditions = "Posebni pogoji";
+special_conditions_text_bconnect = "Če nameravate naročiti <em>cFos Broadband Connect</em> v večjih kvotah in/ali želite postati preprodajalec, prosim kontaktirajte našo <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Ekipo za naročila</a>. Takoj vam bomo poslali ponudbo.";
+special_conditions_text_cfos = "Če nameravate naročiti <em>cFos</em> v večjih kvotah in/ali želite postati preprodajalec, prosim kontaktirajte našo <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Ekipo za naročila</a>. Takoj vam bomo poslali ponudbo.";
+special_conditions_text_ipv6 = "Če nameravate naročiti <em>cFos ipv6 Link</em> v večjih kvotah in/ali želite postati preprodajalec, prosim kontaktirajte našo <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Ekipo za naročila</a>. Takoj vam bomo poslali ponudbo.";
+special_conditions_text_speed = "Če nameravate naročiti <em>cFosSpeed</em> v večjih kvotah in/ali želite postati preprodajalec, prosim kontaktirajte našo <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Ekipo za naročila</a>. Takoj vam bomo poslali ponudbo.";
+special_offer = "Posebna ponudba";
+special_price_for = "Posebna cena za vaše državljane.";
+th_order_date = "Datum naročila";
+th_paypal_text = "Poslali vam bomo povezavo PayPal na <strong>naslednji delovni dan</strong>. Vsebovala bo vse potrebne informacije za plačilo. Če želite pospešiti plačilo, lahko plačate tudi sedaj. Pojdite na PayPal spletno stran (povezava je spodaj) in vnesete vse potrebne podatke ročno. Prosimo vnesite vaše ime v polje \"email subject\". Dostava po potrditvi plačila.";
+th_text = "Poslano je bilo naši ekipi za naročila in bo procesirano tam <strong>isti ali naslednji delovni dan</strong>.<br />Prav tako boste prejeli potrditev po e-pošti takoj ko bo ekipa vnesla naročilo v naš sistem.";
+th_thanks = "Hvala vam!";
+th_thanks_order = "Hvala vam za vaše naročilo!";
+validation_lifetime = "vključuje neomejene prihodje posodobitve";
+webmoney_id = "Naš WebMoney ID je 414417381154 .";
+webmoney_purses = "Prodaja za Ruske Rublje (RUB) je R186904373715.";
+word_conditions = "Pogoji";
+word_hint = "Opomba";
+word_important = "Pomembno";
+word_invoice_number = "Račun Št.";
+word_license = "Licenca";
+word_lifetime_license = "Doživljenska licenca";
+word_lifetime_update_pack = "Doživljenski posodobitveni paketi";
+word_month = "mesec";
+word_serial_number = "serijska številka";
+word_service = "Storitev";
+word_submit_order = "Oddaj naročilo";
+word_year = "leto";
+
+/ Order and Announcelist Confirmation Email
+em_thank_you = "Hvala za naročilo ";
+em_transfer = "Prosim prenesi zdaj";
+em_account = " k bančnemu računu";
+em_paypal = "k PayPal računu";
+em_moneybookers = "k Moneybookers računu";
+em_text = "Vaše naročilo bomo obdelali takoj ko bo mogoče.";
+em_webmoney = "na naš WebMoney račun.";
+
+/ cFosSpeed
+a_games = "Kako lahko pospešim online igrice?";
+a_p2p = "Traffic Shaping za izmenjavo datotek (P2P)";
+a_surf = "Kako lahko pregledujem internet strani hitreje?";
+a_voip = "Dobra Glas-preko-IP (VoIP) kvaliteta govora";
+dupe_a_voip = "Dobra Glas-preko-IP (VoIP) kvaliteta govora (nemško)";
+budgets = "Online Proračun";
+desc_cfosbc = "<b>cFosBC</b>, visoko zmogljiva dial-up povezave za širokopasovni internet";
+firewall = "Požarni zid";
+header_features = "Funkcije";
+highlights = "Poudarki";
+highlight1 = "cFosSpeed preprečuje eni aplikaciji (npr. pošiljanje pošte) dušenje vseh ostalih npr. telefonskim klicem, pogovoru itd.";
+highlight2 = "cFosSpeed drži ping čase nizko, da lahko igrate vašo spletno igro in prenašate datoteke istočasno.";
+highlight3 = "Vsi pomembni podatkovni paketi imajo avtomatsko prioriteto pred nepomembnimi. S cFosSpeed programom in prioritetizacijo protokola lahko nastavite aplikacijo idealno in/ali dodate nove programe.";
+highlight4 = "Sprotna analiza vaših podatkov: Z novim statusnim oknom lahko enostavno razpoznate kateri podatkovni toki so trenutno v prenašanju.";
+highlight5 = "cFosSpeed teče z DSL, Kabelskim, WLAN, CDMA2000, UMTS, WCDMA, Modemom, ISDN, mobilnim hitrim dostopom (2G / 3G).";
+highlight6 = "Podrobna razlaga cFosSpeed's Traffic Shaping se najde <img src=\"sp_link_bottom_right.png\" width=\"6\" height=\"11\" alt=\"\" /><a href=\"/en/traffic-shaping/traffic-shaping.htm\" target=\"_blank\"><b>tukaj</b></a>.";
+speed_html_h1 = "Traffic Shaping je najboljši za";
+increase_throughput = "cFosSpeed poveča prepustnost in zmanjša vaš Ping.";
+info_text_decision = "cFosSpeed, cFos ali cFos Broadband Connect - kateri produkt izbrati?";
+info_text_mugstore = "cFos skodelice leta 1997-2009 so sedaj na voljo na mugstore.de.";
+info_text_multi = "Sedaj lahko uporabljate cFosSpeed na več računalnikih ...";
+internet_accelerator = "cFosSpeed - Spletni pospeševalec";
+link_text_ct_pdf = "Testirano kot najhitrejši DSL gonilnik";
+link_text_decision = "Kateri produkt?";
+link_text_speed_features = "cFosSpeed seznam funkcij";
+link_text_gratis = "Brezplačen kjuč za produkt";
+link_text_gratis_link = "Poveži se z našo internetno stranjo in se kvalificiraj za brezplačen ključ.";
+link_text_mugstore = "cFos skodelice!";
+link_text_multi = "Večuporabniška beta verzija";
+link_text_speed_priolist = "Prioriteta programov s cFosSpeed";
+link_text_speed_priolist2 = "Lista programov";
+link_text_reviews = "cFos v medijih";
+link_text_speedlist = "cFosSpeed - v mednarodni uporabi (&#187; država in hardware lista)";
+link_text_techinfo = "<b>cFos</b>, DSL in ISDN dial-in gonilnik z veliko funkcijami";
+link_text_traffic_shaping = "Kaj je Traffic Shaping?";
+link_text_watch = "cFosWatch 2.00 Verzija";
+link_text_what_is_speed = "Kaj je cFosSpeed?";
+li_text_behavioural = "Virus zaščita z blokiranjem nezaželjenega obnašanja";
+li_text_blocker = "0190/0900 Blokiranje sedaj brezplačno!";
+li_text_broadband = "Širokopasovni: DSL, kabel";
+li_text_gamer = "Igre";
+li_text_low_ping = "Nizek Ping";
+li_text_mobile = "Mobilni";
+li_text_narrowband = "Ozkopasovni: modem, ISDN";
+li_text_p2p = "Izmenjava datotek (P2P)";
+li_text_streaming = "Meidjski tok, VoIP";
+li_text_feat1 = "Izboljšati vaš Ping za online igre";
+li_text_feat2 = "Drži hiter internet med obsežnim prenosom od in proti spletu";
+li_text_feat3 = "<b>NOVO</b>: Izboljšati mobilni splet";
+li_text_feat4 = "Zmanjšati probleme pri avdio/video pretoku";
+li_text_feat5 = "Izboljšati kvaliteto VoIP govora";
+more_features = "Več funkcij";
+news_info = "Novice / Informacije";
+optimize_traffic = "Kadarkoli dostopate do spleta z več kot enim podatkovnim pretokom vam cFosSpeed lahko optimizira promet.";
+prio_programs = "Prioriteta programov";
+prio_protocols = "Prioriteta protokolov";
+related_product = "Sorodni produkti";
+special_offer_launch = "Posebna ponudba:<br />cFosBC + cFosSpeed skupaj po ";
+special_price = "posebni ceni";
+word_more = "več";
+
+/cFos Personal Net
+
+/ cFos Outlook DAV
+
+
+/ cFos IPv6 Link
+cfos6link_page_title = "ipv6 Connectivity za Windows XP, Windows 7 in Vista";
+header_features_overview = "Pregled funkcij";
+in_action = "v akciji";
+link_text_what_is_ipv6link = "Kaj je cFos ipv6 Link?";
+li_text_automatic = "Automatsko usmerjanje in konfiguracija naslavljanja";
+li_text_dhcpv6 = "DHCPv6 Stateful/Stateless Prefix Delegation";
+li_text_faster = "Visoka hitrost, 10x hitrejši kot Windows Vista gonilnik";
+li_text_ipv6_dialup  = "ipv6 dial-up gonilnik za Windows";
+li_text_mapping = "IPv4 &lt;-&gt; ipv6 DNS mapiranje";
+li_text_config_dhcp = "Nastavljiv DHCP DUID";
+li_text_vlan = "VLAN podpora";
+provider_list = "ipv6 lista ponudnikov";
+dupe_word_documentation = "dokumentacija";
+word_documentation = "Dokumentacija";
+
+/ cFos BC
+bc_page_title = "visoko zmogljivi Dial-Up gonilnik za dostop do interneta visoke propustnosti.";
+link_text_cfosspeed = "<b>cFosSpeed</b>, za usmerjevalnike, kabelske modeme in USB DSL modeme";
+link_text_what_is_bconnect = "Kaj je cFos Broadband Connect?";
+li_text_calls = "Dohodni klici";
+li_text_filter = "Filtriranje s 'Service-Name' in 'AC-Name'";
+li_text_highspeed = "Visoka hitrost, 10x hitrejši kot Windows gonilnik";
+li_text_lowcpu = "nizka poraba CPU";
+li_text_ndis6 = "NDIS 5.1 / NDIS 6 (v Visti/7)";
+li_text_pppoe_auto = "PPPoE autodetekcija, vsi PPPoE parametri nastavljivi";
+li_text_ppppoe_dial = "PPPoE Dial-Up gonilnik za Windows";
+li_text_sessions = "Več sej, brezmejno število povezav";
+
+/ cFos
+cfos_html_h1 = "DSL in ISDN dial-in gonilnik s Traffic Shaping";
+link_text_0190 = "0190er Bloker";
+link_text_budget = "Online števec";
+link_text_cfos_features = "cFos seznam fukcij";
+link_text_cfos_priolist = "Prioriteta programov s cFos (&#187; lista programov)";
+link_text_feature_list = "Funkcije za DSL in ISDN";
+link_text_firewall = "Požarni zid";
+link_text_what_is_cfos = "Kaj je cFos/Professional?";
+
+/hrping
+
+/notifier
+
+/FAQ
+which_product = "Kateri cFos produkt naj uporabljam?";
+
+/ support
+abgelaufen = "Verzija, ki jo uporabljate, je že pretekla.";
+choice1 = " Internet preko ISDN, program za ISDN preko COM Porta,<br />spremljanje ISDN klicev?";
+choice2 = "Uporabljate router za dostop do interneta?";
+choice3 = "Internetna povezava uporablja PPPoE (npr. DSL)?";
+choice4 = "Uporabljate DSL Modem priključen v USB?";
+choice5 = "Gonilnik za omrežje na klic?";
+choice7 = "Oboje?";
+decision = "Kateri produkt?";
+decision_help = "Pot odločitve";
+dialup_dsl_cable = "Dial-up omrežje z DSL ali kabelksim modemom (PPPoE)";
+faq_long = "Pogosto zastavljena vprašanja";
+h1_alternatives = "cFosSpeed, cFos ali cFos Broadband Connect";
+highspeed = "Visoko hitrostna povezava >= 16Mbit/s";
+howto_dump_li01 = "V 'START/Nadzorna plošča/Sistem' pod 'napredno' odpri 'zagon in obnovitev - nastavitve'";
+howto_dump_li02 = "V 'zapisovanje podatkov o iskanju napak' izberi: 'izvoz pomnilnika jedra'";
+howto_dump_li03 = "Z klikom 'OK' potrdi spremembe in zapri okno 'Napredno'";
+howto_dump_li04 = "Z klikom 'OK' potrdi spremembe in zapri okno 'Sistem' in nato še okno 'Nadzorna plošča'";
+howto_dump_li05 = "Če uporabljaš XP ponovno zaženi računalnik (ni potrebno če uporabljate Visto!)";
+howto_dump_p01 = "V primeru modrega ekrana, medtem ko uporabljate našo programsko opremo, zahtevamo windowsov izvoz pomnilnika jedra, da se lahko poglobimo v problem.";
+howto_dump_p02 = "Za ustvaritev izvoza pomnilnika jedra, prosimo sledite naslednjim navodilom:";
+howto_dump_p03 = "Da ustvarimo izvoz pomnilnika jedra se strogo držite naslednjih nastavitev funkcije 'izvoza pomnilnika jedra'";
+howto_dump_p04 = "Izvoz pomnilnika jedra bo ustvarjen takoj ko se prikaže moder ekran in shranjen kot MEMORY.DMP razen, če ne navedemo drugače";
+howto_dump_p05 = "Prosimo arhivirajte datoteko kot zip (we recommend <a class=\"inline\" href=\"http://www.rarlab.com/\">RAR</a> or <a  class=\"inline\" href=\"http://www.7-zip.org/\">7-zip</a>) in jo pošljite k nam.";
+howto_dump_p06 = "Kontaktirajte nas, če Vas zanima kako predložiti večje datoteke.";
+howto_dump_p07 = "Izvoz pomnilnika lahko preneste tudi preko brezplačnega fileserver servisa (e.g. <a class=\"inline\" href=\"http://www.rapidshare.de/\">www.rapidshare.de/</a>).";
+howto_dump_title = "Kako ustvarim izvoz pomnilnika jedra v Windowsih";
+incoming_pppoe = "Dohodni klici";
+isdn_call = "spremljanje ISDN klicev";
+low_cpu = "Ekstremno nizka poraba CPU";
+multiple_pc = "Več računalnikov z eno internetno povezavo";
+multi_pppoe = "Več PPPoE povezav hkrati";
+no = "Ne";
+other_media = "Ostali meidji, npr.  PPPoA, IP čez AAL5, PPTP, RFC1483/2684 bridged";
+pppoe_filter = "Filtriranje PPPoE Servisa / AC imena";
+recommend = "Za Traffic Shaping priporočamo vedno cFosSpeed. Toda, če imate DSL (z DSL modemom) in ISDN povezavo, priporočamo cFos Professional.<br /><br />Če ima vaša povezava vsaj 16 MBit/s, priporočamo cFos Broadband Connect. Za Traffic Shaping uporabi tudi cFosSpeed.";
+router_dialup = "Router in dial-up povezava";
+speed_limit = "Omejitev hitrosti za posamezni računalnik";
+text_damage = "Nihče nam ne naredi toliko ekonomske škode, kot tisti, ki svoj <b>licenčni ključ</b> dajo na internet v javno uporabo.";
+text_order = "Če še nimate svojega licenčnega ključa za cFos, cFosSpeed, ali cFosBC, nam omogočite izboljšavo programov in si naročite svojo licenco zdaj:";
+text_thanks = "<b>Hvala vsem</b> ki so že kupili licenco za cFos, cFosSpeed, in/ali cFosBC.  Vi podpirate naš nadaljni razvoj programov!";
+text_version = "<b>Samo uradna licenca zagotavlja maksimalen pretok podatkov z niskim pingom!</b><br /><br /> Samo neporpavljena originalna verzija zagotavlja poln spekter funkcionalnosti in funkcij, ki so del vseh naših cFos produktov. Imejte v mislih, da stalno prenašamo ilegalne hacke naših programov z interneta. Ti 'hacki' so samo kup prenagljeno kopiranih datotek sumljive kvalitete. <br /><br /> Tako, <b>ne bi vas radi strašili toda, <span class=\"red\">prej ali slej bodo nelegalne verzije prenehale delovati</span>.</b>";
+text_which_one = "Kateri program izbrati?";
+var_bandwidth = "Spremenjljiva pasovna širina";
+word_gratislizenz = "Brezplačna licenca";
+word_order_questions = "Vprašanja o naročilu";
+word_search = "Išči";
+word_technical_questions = "Tehnična vprašanja";
+yes = "Da";
+
+/ traffic shaping
+alt_load_print = "Naloži natisnjeno verzijo slike";
+alt_transfer_rates = "Hitrost prenosa";
+ts_c_t1 = "Pomembna opomba za cFos Traffic Shaping";
+ts_c_p1 = "cFos Traffic Shaping je sedaj v <b>kalibracijski</b> fazi in fazi <b>učenja</b>. To je potrebno da se določi natančna hitrost povezave in delovanje in da zagotovimo <b>optimalen download</b> in <b>upload</b> ,ki bo dosežen, medtem ko <b>ping ostane nizek</b>.";
+ts_c_p2 = "Glede na to, koliko uporabljate svojo povezavo, ta faza lahko traja <b>nekaj dni</b>. Vendar ta proces lahko pohitrite tako, da si pošljete veliko datoteko prek e-pošte, s čimer učinkovito zaposlite upload za več minut pri polni pasovni širini.";
+ts_c_p3 = "Ping časi bi se morali začeti pri nizki vrednosti od začetka, medtem ko bo upload najprej moral biti pravilno usklajen z največjo specifikacijo povezave. Lahko menjate med numeričnim ali grafičnim prikazom trenutnega časa Pinga na statusnem oknu.";
+ts_c_t2 = "Pozornost posvetite naslednjemu";
+ts_c_p4 = "Prepričajte se da na pinge ne vpliva <strong>Požarni zid</strong> ali <strong>Router</strong>.";
+ts_c_p5 = "Onemogočite ostale izdelke, ki poskušajo omejiti hitrost povezave, npr.Traffic Shaping <strong>Fritz!Box</strong>. Te dve rešitvi motijo ena drugo.";
+ts_c_p6 = "V glavnem menuju, izberi pravilen <strong>medium</strong> za svojo povezavo pod <strong>Možnosti, Povezave</strong>.";
+ts_c_p7 = "Če pogosto uporabljate telefon priključen v router za <strong>Voice-over-IP (VoIP)</strong> klice, prosimo izberite \"<strong>spremnljiva pasovna širina</strong>\" za svojo povezavo.";
+ts_exp_title = "Traffic Shaping Calibration";
+ts_exp_t1 = "Kako optimalno kalibriram cFos / cFosSpeed?";
+ts_exp_p1 = "Počisti traffic shaping podatke z klikom na &quot;počisti kalibracijske podatke data&quot;";
+ts_exp_p2 = "Naredi kratek download s polno hitrostjo. (5-10 sekund)";
+ts_exp_p3 = "Naredi daljši upload s polno hitrostjo (30 sek - 1 min).<br/>Pomebno je, da je upload hiter kot se le da, to pomeni, da je strežnik kateremu pošiljate blizu in da je močan (kot Vaš strežnik za pošto ali kakšen drug hitri FTP strežnik). Poleg tega, je pomebno, da nimate začetih nobenih prenosov, medtem ko začnete s tem uploadom. Z upstreamom 256 kbit/s morate drugi strani poslati 2 mb.";
+ts_exp_p4 = "To je to.  Povezava je dobro kalibrirana, če imaš poln upload in še vedno majhne ping čase (oboje lahko opazujete na statusnem oknu).";
+ts_exp_p5 = "Traffic Shaping prioritizira prenos podatkov na Internetni povezavi na takšen način, da resnično lahko uporabite vašo <b>maksimalno pasovno širino</b> v <b>obeh</b> smereh. Poleg tega, cFos in cFosSpeed kontrolirata prenos podatkov, da zagotovita ping časom, da vedno ostanejo <b>minimalni</b>. Za več informacij se prosimo obrnite na <a class=\"inline\" href=\"/en/traffic-shaping/traffic-shaping.htm\">Razlaga Traffic Shapinga</a>";
+ts_exp_t2 = "Kako lahko sam določim prednosti cFos Traffic Shapinga?";
+ts_exp_p6 = "Opazili boste naslednje učinke:";
+ts_exp_l1 = "Gladko brskanje / nalaganje strani";
+ts_exp_l2 = "Maksimalen prenos, medtem ko nalagate";
+ts_exp_l3 = "Majhne ping čase med nalaganjem, prenosom in med izmenjavo datotek";
+ts_exp_l4 = "Gaming povezave ostanejo odzivne celo med večimi prenosi podatkov hkrati";
+ts_exp_l5 = "Kvalitetnejša linija za Voice-over-IP (VoIP)";
+ts_exp_p7 = "Ni Vam treba verjeti, vendar to lahko izmerite sami:";
+ts_exp_a1 = "Ročno";
+ts_o_t1 = "Za vsako povezavo, lahko ponastavite naslednje nastavitve:";
+ts_o_l1 = "Medium/Protokol";
+ts_o_l2 = "Uporaba";
+ts_o_l3 = "Traffic Shaping Mode (Multi-User verzija - več uporabnikov hkrati)";
+ts_o_p1 = "V dialognem oknu pod <samp>možnosti/povezava</samp> lahko odprete <samp>medium dialog</samp> z klikom <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> in izberete medium za vsako povezavo posebaj. Lahko izberete v naslednji listi:";
+ts_o_a1 = "Zajem zaslona";
+ts_o_l4 = "<b>Prilagodljivo:</b> cFos/cFosSpeed se bo prilagodil vaši povezavi automatsko. Tole nastavitev uporabite, samo če ne veste kakšen tip povezave imate. Drugače uporabite nastavitev, ki se navaja na vašo povezavo. Bolje kot ustreza izbrana nastavitev vaši povezavi, manjši bodo ping časi.";
+ts_o_l5 = "<b>DSL (PPPoE):</b> Najbolj razširjen DSL protokol (največ uporabljen v ZDA, Nemčiji, Severni Evropi in ostalih večjih tržiščih). ";
+ts_o_l5_a = "PPPoE razlaga @ wikipedia.org";
+ts_o_l6 = "<b>DSL (PPPoA/Vcmux):</b> Pogost standard v Veliki Britaniji. ";
+ts_o_l6_a = "PPPoA razlaga @ wikipedia.org";
+ts_o_l7 = "<b>DSL (PPPoA/LLC):</b> Občasno uporabljen v Veliki Britaniji ";
+ts_o_l8 = "<b>DSL (PPTP)</b> Starejši DSL standard, še vedno v uporabi v nekaterih delih Francije. ";
+ts_o_l8_a = "PPTP razlaga @ wikipedia.org";
+ts_o_l9 = "<b>Cable:</b> Internet preko TV kabla z Pasovno širino, ki je spremenljiva(varira) glede na uporabo in časom dneva. ";
+ts_o_l9_a = "Cable technique @ wikipedia.org";
+ts_o_l10 = "<b>ISDN:</b> 8 ali 16 kbajtov, dvosmerna, PPP v HDLC okvirju ";
+ts_o_l10_a = "ISDN razlaga @ wikipedia.org";
+ts_o_l11 = "<b>IP over AAL5:</b> IP prenos podatkov preko ATM ";
+ts_o_l12 = "<b>RFC 1483/2684:</b> DSL over ATM bridging";
+ts_o_l13 = "<b>Frame Count:</b> Hitrost prenosov, ki je spremenljiva(varira) od števila podatkovovnih paketkov prenešenih v časovnem intervalu. Včasih uporabljena v Grčiji.";
+ts_o_l14 = "<b>Mixed Raw IP/Frame Count:</b> Downstream promet je obdelan kot v \"Frame Count\", upstream promet kot v \"Cable\". Uporabljajo ga nekateri Kabelski ponudniki kot je <em>ish</em>.";
+ts_o_p2 = "Nastavi pravilen medium / protokol, če natančno veš kateri prenosni medium/protocol je uporabljen. Če si v dvomih, uporabi <samp>Prilagodljivo</samp>.";
+ts_o_p3 = "Traffic Shaping za spremenljivo pasovno širino je izdelan, da optimizira ping čase, tudi med več oddajanji in prenosi hkrati z več računalnikov. Cilj je obdržati Internetno odzivnost za interaktivne aplikacije. Računalniki z trajnim prometom izmenjavanja datotek(filesharing - P2P) bi morali imeti minimalen vpliv na celotno odzivnost. Najboljši ping časi so doseženi z \"fixed\" nastavitvijo; druga najboljša je \"variable, cooperative.\" Prosimo obrnite se tudi na naša priporočila za kalibriranje cFos Traffic Shaping.";
+ts_o_p4 = "cFosSpeed multi-user oblika omogoča cFosSpeed Traffic Shapingu v omrežju vsebovati več klientov. Ko npr. router uporabimo, da nam ponudi internetni dostop za več računalnikov je lahko cFosSpeed nameščen na enega - celo bolje - na vse računalnike. Z izbiro ustreznega Traffic Shaping načina lahko dosežemo optimalno porabo celotne pasovne širine, ki je na voljo.";
+ts_ts_better = "= boljše";
+ts_ts_title = "Uporabite vašo resnično pasovno širino";
+ts_ts_t1 = "Kako deluje Traffic Shaping?";
+ts_ts_ani1_alt = "Normalen prenos podatkov";
+ts_ts_ani1_text = "Sprejem podatkov mora biti potrjen (ACKnowledgment paketki) preden so novi podatki lahko poslani.";
+ts_ts_ani2_alt = "Brez Traffic Shapinga";
+ts_ts_ani2_text = "ACK paketki so v zastoju in imajo zamudo s sočasnim uploadanjem. Kot rezultat so upočasnjeni tudi prenosi.";
+ts_ts_ani3_text = "ACK paketki so prioritizirani v upstreamu in dovoljujejo prenosom nadaljevati pri maksimalni hitrosti.";
+ts_ts_p1 = "<b>cFos Traffic Shaping zmanjša zamude med prenosom podatkov in Vam dovoljuje brskati po Internetu do trikrat hitreje kot običajno. Zato lahko uporabite polno pasovno širino Vaše povezave!</b>";
+ts_ts_p2 = "Med TCP/IP prenosi, mora biti določena količina podatkov potrjena pred sprejemom, preden je lahko poslano več podatkov. Zavlačevanje potrjevanja podatkov rezultira v zamikih in upočasnitvah stopnje prenosa, torej prisili pošiljatelja k čakanju. Posebaj za DSL in Kabelsko povezavo je možno upočasniti prenose z dušenjem upstream kanala (ki ima že tako manjšo pasovno širino) z uploadanjem. Zgodi se zato, ker v takem scenariju ne ostane dovolj upstream pasovne širine za potrditev podatkov.";
+ts_ts_p3 = "Standardna rešitev do sedaj je bilo to poskušati in nadomestiti z povečavo velikosti TCP okna, z pomočjo tega se dovoli poslati podatke brez takojšnje potrditve. Glavni problem tukaj je, da to vodi k višjim ping časom (latency) in značajnim zamudam med nalaganjem internetne strani. Latency do dveh sekund ni neobičajna za TCP okna z velikostjo 512k. Na kratko, ogromna velikost okna, ne bo pustila doseči polne hitrosti prenosov.";
+ts_ts_p4 = "Nasprotno, cFos Traffic Shaping prioritizira promet v taki obliki, da pomembni paketki švignejo mimo običajnih paketkov. Na takšen način, prejemki vedno prispejo takrat ko morajo, in uploadi ne bodo nikoli več dušili tvoje širokopasovne povezave!";
+ts_ts_p5 = "<em>cFos</em> Traffic-Shaping tehnologija prepozna število pomebnih tipov paketov in jih ne prioritizira samo da Internetni promet teče gladko, temveč tudi da zagotovi nizke ping čase. To ne pospeši znatno samo brskanje in hitrosti prenosov, ampak tudi odločilno prednost za online igranje.";
+ts_ts_p6 = "Z cFos Traffic Shapingom, boste opazili merljive izboljšave in ugodnosti kot:";
+ts_ts_l1 = "Polno hitrost prenosov med uploadanjem";
+ts_ts_l2 = "Dosledno hitre odzivne čase, medtem ko brskate po internetu ali zaganjate ostale aplikacije";
+ts_ts_l3 = "Izboljšana kvaliteta VoIP govora";
+ts_ts_a1 = "Kako lahko sam izmerim prednosti";
+ts_ts_a2 = "Kaj drugega lahko Traffic Shaping naredi?";
+ts_ts_a3 = "Traffic Shaping možnosti / Multi-User verzija";
+ts_ts_a4 = "cFosSpeed značilnosti";
+ts_ts_t2 = "Velika hitrost, majhen ping";
+ts_ts_p7 = "Ping časi med večimi pren&#173;osi &amp; uploadi";
+ts_ts_p8 = "1-4 nalaganj: Medtem ko ping časi vedno ostanejo nizki z <em>cFosom</em>, XP gonilnik \"upočasni sistem.\"";
+ts_ts_p9 = "Brez Traffic Shapinga, ping časi lahko z lahkoto dosežejo grozne 2 sekunde, kar bo naredilo sodelovanje v Telnet ali SSH sejah popolnoma nemogoče. Toda z <em>cFos</em> Traffic Shapingom, latency ostane normalen.";
+ts_ts_p10 = "Že samo to, bi moralo povzročiti čisto novo izkušnjo pri brskanju!";
+ts_ts_p11 = "To tudi pomeni, da boste med brskanjem po internetu, zelo težko opazili, da prenosi podatkov sploh tečejo v ozadju. Spet, tako drastično zmanjšan latency bo zlasti priročen pri online igranju.";
+ts_ts_p12 = "Najprej, <em>cFos</em> Traffic Shaping meri upstream in downstream razmerje, kakor tudi ping zamude za vsako Internetno povezavo posebaj. Nato uporabi te informacije za nadzor urnika vseh Internetnih podatkovnih prenosov. Dodatno, Traffic Shaping dinamično dodeli razpoložljivo pasovno širino vsaki posamezni povezavi po potrebi.";
+ts_ts_p13 = "<em>cFos</em> Traffic Shaping ne prioritizra samo ACK paketke, vendar tudi ostale pomembne paketke, kot tiste uporabljene za Telnet and SSH. Torej, z <em>cFos</em> Traffic Shapingom bodo programi za izmenjavo datotek ali uploadi pošte, ki dušijo povezavo končno stvar preteklosti!";
+ts_ts_p14 = "Toda ne verjamite nam na besedo; prepričajte se sami.";
+ts_ts_p15 = "Uporabi svojo pasovno širino z cFos Traffic Shapingom!";
+ts_ts_t3 = "Kaj drugega še Traffic Shaping naredi?";
+ts_ts_p16 = "Poleg prioritiziranja ACK paketov, Traffic Shaping opravlja ali pusti opravljati naslednje:";
+ts_ts_l4 = "<strong>RX Shaping</strong><br />zagotavlja, da ping časi ostanejo nizki celo med prenosom podatkov, medtem ko ne dovoli enemu prenosu zadušiti ostale sočasne prenose.";
+ts_ts_l5 = "<strong>ACK-Filter</strong><br />optimizira TCP/IP odobritve, torej naredi, da je na voljo več pasovne širine v upstream kanalu.";
+ts_ts_l6 = "<strong>Prioritizira posamezne programe</strong><br /> kot igre, medtem ko dodeljuje nižje prioritizacije ostalim, to je posebaj uporabno, ko poskušamo rezervirati nekaj dodatne pasovne širine za pomebne aplikacije.";
+ts_ts_l7 = "<strong>Voice over IP (VoiP) kvaliteta govora</strong><br />je izboljšana z prepoznavo in prioritizacijo RTP paketkov.";
+ts_ts_l8 = "<strong>Prioritiziranje drugih protokolov preko layer-7 analize,</strong><br />kot HTTP, FTP, POP3, SMTP, IcmP, SSH, Telnet in DNS je lahko storjena z uporabo vgrajenih programskih filtriranih pravil.";
+ts_ts_t4 = "Testiraj sam!";
+ts_ts_p17 = "Primerjava časov nalaganja";
+ts_ts_sum1 = "Časi nalaganja";
+ts_ts_p18 = "Ko zaženemo en upload in dva prenosa hkrati, cFos omogoča brskati <b>trikrat hitreje</b> kot XP-jev gonilnik!";
+ts_ts_p19 = "Datum: 09/2004 - DSL 768/128 povezava";
+ts_ts_p20 = "Najprej si zapomnite, da test z samo enim uploadom ali downloadom na Vaši povezavi lahko meri samo vašo maksimalno up ali downstream razmerje prenosa. Zato boste morali ustvariti vsaj dva podatkovna streama hkrati da izmerite efektivnost<em>cFos</em> Traffic Shapinga:";
+ts_ts_p21 = "Oba <em>cFos</em> in <em>cFosSpeed</em> bosta kalibrirala obzirno glede na povezavo. To pomeni, da so najboljši rezultati običajno doseženi po nekajdnevni uporabi teh programov, med katerimi moraš zagnati kolikor uploadov in prenosov je mogoče pri polni hitrosti.";
+ts_ts_p22 = "Sedaj si pošlji e-pošto z priponko vsaj 5-ih MB. Na standardni povezavi bi Vam to moralo dati vsaj 5 minut, ki jih uporabite za meritev. Za vsak test morate sprazniti brskalnikov predpomnilnik in slediti časom nalaganja svojih internetnih strani. Vsi testi morajo biti ponovljeni nekajkrat za maksimalno točnost.";
+ts_ts_p23 = "Kombinirani download &amp; upload";
+ts_ts_p24 = "Primer, med enim uploadom in enim downloadom, bi \"typical\" DSL povezava z 768 kbit/s morala doseči 87 kbajtov/s hitrosti prenosa in v grobem 16 kbajtov/s oddajne hitrosti. 11.5 kbajtov/s slednjega je na voljo za nalaganje, medtem ko je preostalih 4.5 kbajtov/s uporabljenih za obdelavo potrditve podatkov za download sejo.";
+ts_ts_p25 = "En lahek in natančen način da sledimo ping časom je, da uporabite naš <a href=\"/en/ping/ping.htm\"><b>hrPing brezplačen program</b></a>.";
+ts_ts_a5 = "Kakšne alternativne Internet tuning metode obstajajo?";
+ts_ts_p26 = "Vse slike in teksti na tej strani se lahko svobodno predajo naprej.<br />Klikni na slike za večjo resolucijo slik.";
+
+/ cFosSpeed additional pages
+adjust_speed_shaping = " - vklopi ali izklopi funkcijo";
+autoarrange = "Auto-uredi okna";
+auto_mtu = "Auto-MTU optimizacija";
+autoopen = "Auto-odpri/Auto-skrij";
+bit_ver = "32-Bit in 64-Bitna verzija";
+blend_effect = "Prosojnost okna";
+bodytitel_1 = "Pregled cFosSpeed menija (povezan meni)";
+broadband = "Širokopasovni: Kabel in DSL";
+budget_settings = "Nastavitve proračuna";
+budget_settings_desc = "Tukaj lahko nastaviš konfiguracijo za nastavitve proračuna.";
+cable = "Kabel";
+clear_tsdata = "Počisti kalibracijske podatke";
+clear_tsdata_desc = "Z brisanjem datoteke DATA.INI v cFosSpeed inštalacijski mapi, so pobrisani vsi podatki povezave. <br /> Traffic Shaping mora biti ponovno kalibriran.";
+click_through = "Klikni-skozi";
+close_or_open = "Odpri ali zapri";
+closewindow = "Zapri Okno";
+closewindows = "Zapri Okna";
+config = "Opcije";
+connection_name = "Ime povezave";
+connections = "Povezave";
+dupe_connections = "Povezan na";
+connect_to = "Poveži na %?";
+connect_to_desc = "Tukaj lahko štartaš ali zapreš vse naložene širokopasovne Windows in povezave omrežja na klic.";
+conn_report = "Pregled povezav";
+days_plural = "dni";
+defpos = "Privzeta Lokacija";
+disable_speed_shaping = "Onemogoči Traffic Shaping";
+disco_ras = "Odlogiraj ";
+dsl_ppoa = "DSL, PPPoA (Vcmux in LLC)";
+ebay_at_our_page = "at our <b><a href=\"http://members.ebay.de/aboutme/cfos_de/\">Ebay <img src=\"http://pics.ebaystatic.com/aw/pics/aboutme-small.gif\" alt=\"about me\" align=\"absmiddle\" border=\"0\" /> Site</a></b>";
+ebay_bidding = "Licitirajte na";
+ebay_delivery = "Po uspešnem plačilu bo licenca dostavljena na e-mail naslov, ki ga je podala stranka.";
+ebay_download_link = "Naloži si <b>brezplačno 30-dnevno poskusno verzijo</b>";
+ebay_download_link2 = "Na našem <b>nemškem <a href=\"http://members.ebay.de/aboutme/cfos_de/\">Ebayu <img src=\"http://pics.ebaystatic.com/aw/pics/aboutme-small.gif\" alt=\"about me\" align=\"absmiddle\" border=\"0\" /> Site</a></b>, si lahko naložite tudi <b>brezplačno 30-dnevno preizkusno verzijo</b> (30 dnevna preizkusna verzija).";
+ebay_fees = "Vsa plačila na ebayu so pokrita z strani cFos Software GmbH.";
+ebay_license = "Prosim pomnite, da s tem ko licitirate, sprejemate tudi naš  <a href=\"#license\"><b>cFosSpeed licenčni sporazum</b></a> (glej spodaj) in se strinjate s pogoji, ki so tam zapisani.";
+effects = "Efekti";
+enable_speed_shaping = "Omogoči Traffic Shaping";
+extras = "Dodatno";
+features_title = "cFosSpeed lista funkcij";
+filter = "Posamezna pravila z jezikovnim filtrom";
+graph_title = "Graf Porabe";
+graph_title_desc = "Prikaži graf porabe za cFos Speed online proračun.";
+ip_aal = "IP čez AAL";
+l7_prot = "Analiza Protokola L7";
+license = "Licenca";
+license_desc = "Tukaj lahko vidiš preostali testni čas ali pa številko licence, če je verzija že registrirana.";
+link_status_text = "Statusno Okno";
+logging = "Logiranje podatkov in paketov";
+low_latency = "Način nizke latence";
+media = "Medij:";
+mobile = "Mobilni (LTA, UMTS, WiMAX, HSDPA, W-CDMA, WCDMA, CDMA, CDMA2000, 3G Mobile, HSCSD)";
+multi_conn = "Več povezav hkrati";
+multi_ip = "Več IP naslovov na adapter";
+multi_lang = "32+ jezikov";
+multi_user = "Večuporabniška verzija";
+connections_desc = "Tukaj lahko nastaviš za vse ali posamezno dial-up povezave in povezave usmernikov, ali naj bo shaping aktiven ali ne. Za dial-up povezave lahko določiš tip povezave.";
+no_ping = "problemi z pingom";
+no_ping_notes = "Opombe glede specifičnih požarnih zidov ali usmerjevalnikov";
+no_ping_p0 = "<p>Po aktivaciji bo cFosSpeed pošiljal ping pakete na internet, da izmeri, koliko&quot;zastojev&quot; je v povezavi. Brez teh paketov cFosSpeed Traffic Shaping ne bo deloval.</p><p> cFosSpeed bo pošiljal ping samo če boste nalagali (gor ali dol) z določeno minimalno hitrostjo. Zato je najlažji način, da začnete nalagati, nekaj, kar bo trajalo vsaj 30 sekund (npr., da pošljete sami sebi ogromno e-mail sporočilo). Potem preverite, če se spodaj pojavi balonček s sporočilom (glej spodaj).</p><p>Če dalj časa ne bo nobenega odziva na te pinge, bo cFosSpeed to prikazal z balončkom. V tem primeru ukrepajte tako:</p>";
+no_ping_p1_hint = "<div class=\"hinweis\"><b>Hint:</b><br />Če se problem s pingom pojavlja, tudi ko je<br /> požarni zid izklopljen,<br />prosimo izbrišite vaš požarni zid in poskusite ponovno.</div>";
+no_ping_p1_h = "Ali imate požarni zid?";
+no_ping_p1 = "<p>Preverite, ali na vašem sistemu teče požarni zid. Če je temu tako, se prepričajte, da ima program SPD.EXE (cFosSpeed service) dovoljenje za pošiljanje in prejemanje IcmP podatkov. Pomnite tudi, da se CFOSSPEED.EXE ne povezuje na internet.</p><p><b>Pomenbno!</b><br />Če se nastavitve vašega požarnega zidu za IcmP podatke izogibajo odgovoru ali so cFosSpeed-ovi merilni pingi dovoljeni, potem cFos Traffic Shaping ne bo deloval. To lahko preverite z preprostim tracert ukazom.</p>";
+no_ping_p2_h = "1. Vnesite tracert ukaz";
+no_ping_p2a = "<p>Kliknite Start -> Programi -> cFosSpeed -> Odprite konzolo, in vpišite &quot;tracert www.cfos.de&quot;. Če se vse preveri, bi moralo zgledati tako:</p><pre class=\"code\">Sledenje poti na www.cfos.de [194.95.249.23] čez maksimalno 30 preskokov:<br /><br />1    56 ms    56 ms    55 ms  217.0.116.148<br />2    55 ms    54 ms    54 ms  217.0.74.50<br />3    54 ms    53 ms    55 ms  k-ea1.K.DE.net.DTAG.DE [62.154.55.154]<br />4    61 ms    62 ms    61 ms  h-eb1.H.DE.net.DTAG.DE [62.154.49.166]<br /><br />etc.<br /></pre>";
+no_ping_p2b = "<b>Tu je bistveno, da so časovne enote (in ne zvezdice) prikazane v stolpcih 2 skozi 4.</b><p>Če je temu tako, preskočite na<a class=\"inline\" href=\"#p4\">korak 3</a>spodaj.</p><p>Pingi so blokirani, če je prikazano kot sledi:</p><pre class=\"code\">Sledenje poti na www.cfos.de [194.95.249.23] čez maksimalno 30 preskokov:<br /><br />1     *        *        *     Iztekel se je čas zahtevka.<br />2     *        *        *     Iztekel se je čas zahtevka.<br />3     *        *        *     Iztekel se je čas zahtevka.<br />4     *        *        *     Iztekel se je čas zahtevka.<br /><br />etc.</pre><p>V tem primeru nadaljujte s <a href=\"#p3\">korakom 2</a></p>";
+no_ping_p3_h = "2. Tracert ne deluje";
+no_ping_p3 = "<p>Izgleda, da Tracert na vašem sistemu ne deluje. Če nimate požarnega zidu, oziroma vaš požarni zid dovoli prenos podatkov za SPD.EXE, so pingi in odgovori ki prihajajo verjetno blokirani s strani katere druge komponente.</p><p>Če uporabljate usmerjevalnik (router), morate tudi na njem nasaviti, da dovoli pingom skozi. Na usmerjevalniku nastavite, da sme cFosSpeed pošiljati pinge (IcmP echo requests - type 8) in prejemati odgovore nanje (IcmP echo reply - type 0) ter možnost obvestila, da se je čas iztekel (ali IcmP TTL/time exceeded - type 11). Morda boste morali ugasniti in ponovno prižgati usmerjevalnik, da bodo te spremembe začele delovati.</p><p>Ponovite <a href=\"#p2\"> korak 2</a> zgoraj z uporabo &quot;tracert www.cfos.de&quot; ukaza. Če pingi še vedno ne pridejo skozi, je možno, da vaš ponudnik iterneta te podatke filtrira. V tem primeru kontaktiraje vašega ponudnika interneta.</p><p>Zadnja možnost: Izklopite požarni zid in poskusite ponovno. Če ne pomaga, odstranite požarni zid in poskusite ponovno.</p>";
+no_ping_p4_h = "3. Tracert deluje";
+no_ping_p4 = "<p>Tracert deluje, ampak balonček z obvestilom se še vedno prikazuje: Prosim preverite če vaš požarni zid ne blokira pingov aplikacije SPD.EXE.</p><p>Če med nalaganjem gor z polno hitrostjo (ali blizu nje), cFosSpeed kadarkoli prikazuje čase za pinge v oknu z stanjem, potem pingi niso filtrirani v vašem sistemu, ampak so izgubljeni nekje na internetu. Zanesljivost ping podatkov je lahko zelo različna pri različnih ponudnikih interneta. Lahko je prizadeta tudi z strani drugih stvari, kot so druga omrežna nalaganja, nad katerimi cFosSpeed seveda nima kontrole.</p><p>Če Tracert deluje, ampak se časi pingov nikoli ne prikažejo v oknu s statusom, nam prosim pošljite e-mail in priložite kopijo datotek TRACE.TXT in TRACE_OLD.TXT iz vaše cFosSpeed mape. Prosim pošljite nam te dve datoteki kmalu zatem, ko se je pojavil problem, zato da bosta še vedno vsebovali vse potrebne podatke, ki jih potrebujemo za analizo problema.</p>";
+no_ping_avm = "<h4>AVM Fritzbox:</h4><p>AVM FritzBox za številne verzije vključuje PPPoE filter. Ta filter mora biti izklopljen, ker blokira IcmP in zato cFosSpeed kalibracijski pingi ne morejo biti posredovani: <a class=\"inline\" href=\"/images/fritzbox.jpg\">PPPoE slika filtra</a></p>";
+no_ping_sygate = "<h4>Sygate Personal Firewall:</h4><p>Pod &quot;options,&quot; pojdite na &quot;security&quot; zavihek in deaktivirajte &quot;DoS detection.&quot; To je nujno, saj bo v nasprotnem primeru požarni zid cFosSpeed kalibracijski postopek napačno uvrstil kot DoS napad.</p><p>Uporabniki so sporočili tudi, da mora biti &quot;Anti-IP Manipulation&quot; izklopljen, da lahko cFosSpeed deluje brezhibno.</p>";
+no_ping_agnitum = "<h4>Agnitum Outpost Firewall:</h4><p>Za ta požarni zid so uporabniki sporočili, da mora biti v IcmP nastavitvah obkljukana &quot;Echo reply - outgoing&quot; nastavitev, da požarni zid ne blokira odhajajočih odgovorov.</p>";
+no_ping_eset = "<h4>Eset Smart Security:</h4><p><a class=\"inline\" href=\"/images/noping_eset.png\">IcmP nastavitve</a> za <i>Eset Smart Security</i> da dovoli cFosSpeed-u pošiljati pinge.</p>";
+no_ping_orange = "<h4>Orange Livebox:</h4><p><a class=\"inline\" href=\"/images/livebox_setting_allow_pings.jpg\">Nastavitve</a> za Orange livebox z vgrajenim Inventel usmerjevalnikom da dovoli cFosSpeed-u pošiljati pinge.</p>";
+no_ping_kaspersky = "<h4>Kaspersky Anti-Hacker:</h4><p>Za vsako aplikacijo lahko postavite posebna pravila. V tem primeru za SPD.EXE (cFosSpeed service). To dovoljuje cFos-u komunikacijo. Nadaljno lahko izklopite Anti Hacker zaznavanje &quot;DoS&quot; napadov, da se izognete lažnim proti-hekerskim ukrepom.</p><p>Aktivirajte tudi možnost &quot;Allow outgoing IcmP pakets with IcmP-Code: Echo Reply&quot;.</p><p> IcmP nastavitve bi morale biti take:<ul><li>IcmP Type 0 (Echo Reply) incoming : allow</li><li>IcmP Type 8 (Echo) outgoing : allow</li><li>IcmP Type 11 (Time Exceeded) incoming :  allow</li><li>Other IcmP Types incoming and outgoing : allow</li></ul></p>";
+no_ping_draytek = "<h4>Draytek Router:</h4><p>Uporabniki so sporočili, da mora biti možnost &quot;Ip Filter/Firewall Setup - DoS defense&quot; izkplopljena, ker usmerjevalnik v nasprotnem primeru filtrira cFosSpeed ping pakete.</p>";
+no_ping_linksys = "<h4>Linksys wag54g router:</h4><p>Nekateri uporabniki so sporočili, da mora biti možnost &quot;Block Anonymous Internet Requests&quot; izklopljena, ker v nasprotnem primeru usmerjevalnik blokira IcmP odgovore.</p>";
+no_ping_tplink = "<h4>TP-Link Router:</h4><p>TP-Link ponuja novo različico, ki zdaj omogoča pinge. Prosim pojdite na TP-Link spletno stran in si prenesite najnovejšo različico.</p>";
+no_ping_pccillin = "<h4>PC cillin 2007:</h4><p>Da omogočite Windows tracert ukaze za PC Cillin 2007 sledite temu postopku:</p><ol><li>Odprite PC Cillin glavno konzolo->nadzor omrežja in požarnega zidu->osebni požarni zid->nastavitve->izberi račun->uredi->nadzor omrežja->dodaj</li><li>Zdaj lahko <samp>dodate</samp> 2 nova protokola. </li><li>za odhodne povezave:<br /><samp>(default) allow for outgoing connections<br />(protocol) icmp<br />(port) all ports<br />(ip-settings) all ip-settings<br /></samp></li><li>Za dohodne povezave ponovite korak 3 za dohodne povezave</li></ol>";
+no_ping_statistics = "Pridobivanje in tolmačenje cFosSpeed-ovih ping statistik";
+no_ping_statistics_p1 = "<p>Odprite cFosSpeed konzolo in vpišite &quot;spd pingstat&quot;</p><p>To bi moralo obroditi nekaj takega:</p><pre class=\"code\"><br />Ping statistike:<br /><br />Skupno ping zahtevkov      107,686<br />  opravljeno                   107,686     <b>(1)</b><br />  ...in samo            107,686<br /><br />Skupno poslanih pingov         106,949<br />  močni                 106,778<br />  ...in novi             106,778     <b>(2)</b><br /><br />Skupno pingov              106,804<br />  najdeno                  106,566<br />  ...in moči          106,519<br />  ...in močen odziv    106,519     <b>(3)</b><br />  ...in uporabljeni            106,519     <b>(4)</b><br /><br />Ping outage statistike:<br />  1 ping na vrstico 33 krat<br />  5 pingov na vrstico enkrat<br /><br />Ping src/dst: 192.168.0.100 to 194.95.249.23, ttl 3<br />Ethernet src/dst: 00:0e:a6:57:9b:0b to 00:11:95:78:27:a4<br /></pre>";
+no_ping_statistics_p2 = "<p>Tri vrednosti podane za &quot;skupno ping zahtevkov&quot; morajo biti identične. V primeru da je med njimi veliko razhajanje, nam to prosim sporočite.</p><p>Vednost označena z <b>(1)</b> mora biti približno taka, kot vrednost pri<b> (2)</b>. Če temu ni tako, je to ponavadi trden dokat, da požarni zid blokira prenos podatkov. Kakorkoli že, majhna razlika za par procentov ni dramatična.</p><p>Vrednosti za<b> (3) </b>in<b> (4) </b>tudi morajo biti skoraj enake. Če niso, nam pošljite e-mail.</p>";
+no_ping_statistics_p3 = "<p>Pri istem znaku, morajo biti vrednosti<b> (2) </b>in<b> (3) </b>skoraj identične. Če niso, to ponavadi pomeni, da so se pingi in njihovi odgovori izgubili nekje &quot;na internetu&quot; (kar se pogosto zgodi). Na žalost ne moremo glede tega ničesar ukreniti.</p><p>Ko nam pišete e-mail, se nanašajte na<a class=\"inline\" href=\"#p4\"> korak 3 </a>glede datotek, ki jih morate pripeti k e-mailu.</p>";
+open_menu = "Kako odpreti cFosSpeed Menu:";
+open_menu_desc1 = "Klikni desno v cFosSpeed statusnem oknu";
+open_menu_desc2 = "Uporabi vnos prograkse skupine v:<br />START/Programs/cFosSpeed Traffic Shaping/cFosSpeed Menu";
+openwindow = "Odpri okno";
+openwindows = "Odpri okna";
+options = "Opcije";
+prio_prog = "Prioritete Programov";
+product_desc = "Trenutna številka verzije. S klikom tukaj dobiš popolno številko verzije (vključena številka builda), informacijo o licenci in trenutna cFosSpeed inštalacijska mapa.";
+pr_queues = "5 prioriteno ugibanje ";
+router_mode = "Router in Bridge-Mode";
+rtp_voip = "RTP/VoIP Detekcija";
+select_language = "Izberi jezik";
+selectskin = "Izberi preobleko";
+send_burst = "Pošlji kalibracijski pulz";
+send_burst_desc = "Pošlji impulze ";
+send_burst_desc_link = "kalibriranj povezavo";
+set_routes = "Nastavljive rute";
+settings = "Nastavitve";
+settings_desc = "cFosSpeed dialog konfiguracije";
+slide_effect = "Drsna okna";
+smallband = "Ozkopasovni: Modem in ISDN";
+speed_doc_page_title = "cFosSpeed Dokumentacija";
+sp_doc_games_p1 = "Traffic Shaping tehnologija vzdržuje nizke čase pingov in dokaj visoko stopnjo prenosov istočasno.";
+sp_doc_games_p2 = "Da dosežete optimalne čase pingov, dajte priorite vašim igram kar se da visoko. Videli boste, da smo nekaj zdaj najbolj popularnih iger že našteli pod nastavitvami programa. Če vaših iger ni na sezamu, jih lahko preprosto dodate.";
+sp_doc_games_p3 = "Lahko nas tudi <a href=\"/en/contact/priopost.htm\">obvestite</a> katere spletne igre bi radi imeli na seznamu, da jih vključimo pri naslednji posodobitvi.";
+sp_doc_games_p4 = "Prosimo bodite pazljivi in ne dajte prednosti preveč programom. Če boste dali visoko prednost vsemu, je enako kot če nebi sploh ničesar prioritizirali.";
+sp_doc_games_p5 = "Če ime programa samo po sebi ni jasno, lahko prioritizirate tudi vrata (porte), ki jih vaše spletne igre uporabljajo. Če so TCP/UDP destinacijska vrata (port) aplikacije neznana, lahko prioritizirate njen prenos podatkov, kot sledi (tako da uredite [filter] sekcijo settings.ini datoteke):";
+sp_doc_games_p6 = "Za TCP vrata:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high";
+sp_doc_games_p7 = "Za UDP vrata:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high";
+sp_doc_games_p8 = "Ko naredite te spremembe in jih shranite, je potrebno naložiti te nove nastavitve. To naredite tako, da odprete konzolo (pod Start, Programi, cFosSpeed) in vpišete \"spd reload\". Vaše nastavitve bodo začele delovati ob naslednjem zagonu sistema.";
+sp_doc_games_a1 = "cFosSpeed-Filter priročnik (angleški)";
+sp_doc_games_t1 = "Optimizacija nastavitev povezave:";
+sp_doc_games_p9 = "Pod 'Nastavitve povezave' lahko natančno določite kateri mediji za prenos se smejo uporabljati. Več informacij o povezavi kot ima cFos ali cFosSpeed, boljši boo časi pingov. Privzeto je \"Prilagodljivo\". Če uporabljate na primer DSL povezavo, izberite primeren DSL standard ali protokol za vaš medij.";
+sp_doc_games_t2 = "Uslužen Ping:";
+sp_doc_games_p10 = "Nadaljno lahko uporabite tudi nastavitve v meniju z kontekstom ali v statusnem oknu da aktivirate \"Uslužen Ping.\" V statusnem oknu se bo nato prikazala zelena piščica. Ta nastavitev bo pripravila cFos ali cFosSpeed do tega, da naredi vse, da so ping časi najnižji kar se da, ampak na račun hitrosti prenosov, ki se lahko znatno upočasnijo.";
+sp_doc_games_t3 = "Igranje med prenašanjem:";
+sp_doc_games_p11 = "Če igrate spleto igro brez Traffic Shaping-a in istočasno prenašate (dol ali gor), bo ping do serverja igre, ki jo igrate, narasel. Manjši prenos podatkov pomeni boljši (t.j. nižji) ping.  Posebno z izmenjavo datotek in drugimi aplikacijami ki pošiljajo ogromno podatkov, pingi pogosto poletijo do visokih številk, rezultat pa so lagi. To tudi občutno zmanjša vaš reakcijski čas v igri.";
+sp_doc_games_p12 = "Traffic Shaping blaži ta problem tako, da dovoli izmenjavo datotek in nalaganje v ozadju med igranjem iger. To lahko še vedno minimalno vpliva na ping. Zato vam priporočamo, da v takih primerih vključite \"Uslužen Ping\" . Po privzetih nastavitvah so programi za izmenjavo datotek nastavljeni na nizko prioriteto. To ne pomeni, da so umetno upočasnjeni ali celo zastali. Pomeni le, da bodo te podatki za malo časa zamujali, ko morajo biti prenešeni bolj pomenbni podatki, kot so spletne igre. Le ta način razdelitve prioritet omogoča, da lahko programi za izmenjavo datotek prenašajo z največjo hitrostjo, medtem ko istočasno uporabljamo tudi druge aplikacije.";
+sp_doc_p2p_t1 = "Traffic Shaping in Filesharing (P2P)";
+sp_doc_p2p_p1 = "Zahvaljujoč cFosSpeed Traffic Shapingu, končno lahko uporabite celotno oddajno pasovno širino (z eMule, Kazaa ali Bittorrent programi itd.)in jo naredite dostopno ostalim filenet uporabnikom - brez, da bi prizadeli ostale Internetne aplikacije.";
+sp_doc_p2p_t2 = "Težave s programi za izmenjavo datotek";
+sp_doc_p2p_p2 = "Delovanje filesharing programov (kot so eMule, Kazaa ali Bittorrent) ponavadi zavzame večino ,če ne celega upstream širokopasovnega kanala, kar pripomore, da je povezava nagnjena k visokim ping časom. To ne pomeni samo, da bo filesharing komunikacija tekla počasi (zahtevki lahko trajajo polnih 1 do 2 sekundi, namesto samo nekaj milisekund), ampak da bo dušila tudi ostale Internetne aplikacije. Istočasno se lahko download hitrosti znižajo, medtem ko TCP ACK niso pravočasno poslani. Brskalnik bo tudi postal opazno manj odziven, med brskanjem po internetu.";
+sp_doc_p2p_p3 = "Popularna rešitev, ki jo ponujajo mnogi filesharing programi je postaviti omejitev na oddajno hitrost.";
+sp_doc_p2p_p4 = "Vendar, če istočasno uploadamo pošto in izmenjavamo datoteke, bosta oba procesa tekmovala za dostopno upstream pasovno širino. Koliko pasovne širine bosta vsak od teh procesov navsezadnje dobila je odvisno od okoliščin. V nekaterih primerih, to lahko pripelje tudi do prekinitve vseh TCP povezav (Stradanje TCP povezave).";
+sp_doc_p2p_t3 = "Rešitev: Traffic Shaping";
+sp_doc_p2p_p5 = "Prioritetna shema integrirana v cFos in cFosSpeed (pre)uredi podatkovne paketke na način, ki zagotavlja maksimalne hitrosti downloada za filesharing programe. Dodatno, cFos in cFosSpeed prioritizirata izmenjavo podatkov navzdol. To ne smete razumeti, da je tak promet upočasnjen ali celo blokiran, temveč, da so takšni podatki na kratko zadržani, medtem ko se prenašajo bolj pomembni podatki. Samo takšna prioritetna shema omogoča, da programi za izmenjavo datotek(filesharing programi) delujejo pri maksimalni hitrosti, medtem ko še zmeraj uporabljajo enako povezavo za ostale aplikacije istočasno.";
+sp_doc_p2p_p6 = "Na primer, če vam v ozadju deluje program za izmenjavo datotek in brskate po internetu, bo samo kratka, minimalna upočasnitev v P2P prometu, medtem ko se nalaga nova stran. Prav tako, ko pošiljate daljšo e-pošto, P2P upload hitrost lahko med prenosom na kratko nekoliko pade. Ko je pošta poslana, bodo vsi uploadi ponovno nadaljevali pri polni hitrosti. Edina alternativa bi bila preložiti prenos pošte \"vedno\" ali nekako omejiti pasovno širino za filesharing. Vendar bi to pomenilo tudi izgubo pasovne širine, tudi ko nobena aplikacija ne bi uporabljala te povezave.";
+sp_doc_p2p_p7 = "cFosSpeed je tako optimiziran za uporabo s programsko opremo za izmenjavo datotek(p2p) in dopušča uporabnikom imeti takšen program delujoče v ozadju, brez da bi opazili njihovo redno Internetno aktivnost.";
+sp_doc_p2p_p8 = "Zato, predlagamo nastavitev Kazaa itd. na \"neomejeno oddajanje\" in deaktiviramo \"speed sense\" opcijo, ker bo cFosSpeed optimiziral Internetni promet.";
+sp_doc_p2p_t4 = "Preobleka ikone";
+sp_doc_p2p_p9 = "Ker večina uporabnikov uporablja programe za izmenjavo datotek 24 ur na dan, ima cFosSpeed za to svojo preobleko ikone, kar omogoča evidencijo povezave, brez potrebe po vedno odprtih večih status oknih.";
+sp_doc_p2p_t5 = "Prioritizcija:";
+sp_doc_p2p_p10 = "Kar nekaj uporabnikov ima še en računalnik samo za filesharing in P2P (primer: prek Internet Connection Sharinga) preko glavnega računalnika direktno priklopljen na Internet. V tem primeru, Layer-7 Protocol Detection vgrajen v cFos in cFosSpeed dovoljuje prioritizacijo večine pomembnih P2P omrežij kot BitTorrent, eDonkey 2000 (eMule, itd.), Kazaa, Gnutella(2), Kademlia, in Direct Connect.";
+sp_doc_p2p_t6 = "Prioriteta Programov:";
+sp_doc_p2p_p11 = "cFos in cFosSpeed dovoljujeta tudi prioriteto programov po imenu. Veliko najpomebnejših programov je že zajetih v naši listi nastavitev programov. Takšen način prioritete je posebaj uporabno, ko Layer-7 detekcija ne more prepoznati in dodeliti podatke pravilno (kot bi bil primer s šifriranim P2P prometom).";
+sp_doc_surf_p1 = "HTTP detekcija integrirana v cFos in cFosSpeed služi k hitrejšemu odpiranju internetnih strani, posebno med sočasnimi uploadi. Primerjava časov nalaganja za www.greenpeace.org in www.amazon.com je na razpolago pri <a href=\"/en/traffic-shaping/traffic-shaping.htm\">http://www.cfos.de/en/traffic-shaping/traffic-shaping.htm</a>. Več je posameznih elementov naloženih na posamezni strani, večja je pridobitev hitrosti.";
+sp_doc_surf_p2 = "Če brskate po veliko straneh (brez večjih prejemanj), lahko uporabite nastavitve v kontekstnem menuju ali statusnem oknu, da aktivirate \"Favour Ping.\" Nato se pokaže zelena puščica statusnem oknu. Z to nastavitvijo cFos ali cFosSpeed naredita vse, da obdržita ping čase na minimumu, toda z izdatkom prenosne hitrosti, ki se lahko občutno zmanjša.  Vendar, odvisno od aplikacije, ki jo uporabljate, to lahko še izdatno pospeši odpiranje strani.";
+sp_doc_surf_t1 = "Ostale Interaktivne Aplikacije:";
+sp_doc_surf_p3 = "Oba cFos in cFosSpeed sta opremljena z integrirano detekcijo za glavne interaktivne aplikacije kot SSL, SSH, Telnet, IRC, in veliko drugih. To zagotavlja majhne odzivne čase tudi med daljšimi prenosi ali oddajanji.";
+sp_doc_surf_p4 = "Če standardna prioritetna shema pod Protokol Nastavitvami ni dovolj za vaše namene, lahko vedno prioritizirate katerokoli aplikacijo bodisi po imenu pod \"Program Settings\" ali dodate port ročno k pravilom filtriranja. To je zlasti priporočljivo ko imamo zagnan strežnik.";
+sp_doc_surf_p5 = "Če so porti znani, lahko prioritizirate njihove prenose podatkov na sledeči način (z urejanjem [filter] rubrike settings.ini datoteke):";
+sp_doc_surf_p6 = "Za TCP porte:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high<br />; source port=5678<br />filter=-tcp-sport 5678 -c high";
+sp_doc_surf_t2 = "Brskanje in Filesharing (P2P):";
+sp_doc_surf_p8 = "Privzeto so programi za izmenjavo datotek nastavljeni na zelo nizko prioriteto. To se ne sme razumeti, da so umetno upočasnjeni ali popolnoma blokirani. To pomeni da bodo takšni podatki na kratko zadržani, medtem ko se prenašajo bolj pomembni podatki. Samo takšna prioritetna shema omogoča, da programi za izmenjavo datotek delujejo pri maksimalni hitrosti, medtem ko še zmeraj uporabljajo enako povezavo za ostale aplikacije istočasno.";
+sp_doc_voip_p1 = "Ne samo, da je minimalna latenca(latency) bistveno pomembna za Voice-over-IP, je edini najpomebnejši faktor v izboljšanju govorne kakovosti.";
+sp_doc_voip_p2 = "RTP detekcija integrirana v cFos in cFosSpeed dopušča prioritiziranje VoIP in ostalih live streamov (npr konferenčni klicni kanali).";
+sp_doc_voip_p3 = "Njegova prioritizacija se lahko prilagodi pod Protocol ali Program nastavitvami. Če posamezni live stream ni prepoznan, ga lahko prioritizirate pod dotičnim programom po imenu.";
+sp_doc_voip_p4 = "Prosimo zapomnite si , da nekateri programi (kot VoIPBuster, IxChariot) uporabljajo samo RTP ne pa  <i>tudi</i> ustrezno RTCP povezavo. Za te programe deaktivirajte strict RTP verification v nastavitvah.";
+sp_doc_voip_t1 = "Padci med prejemanjem:";
+sp_doc_voip_p5 = "VoIP povezave ponavadi trpijo od padcev med istočasnim prejemanjem pri polni hitrosti. Zahavljujoč integriranem RX shapingu, cFos in cFosSpeed pomagata izogniti se temu problemu, tako, da drži ping čase konstantno nizke.";
+sp_doc_voip_p6 = "Skype zaposluje lasten šifrirani protokol, ki ne more biti zaznan z strani Layer-7 analize brez precejšnjega truda. Da bi dovolili uporabnikom prioritizirati Skype, smo ga morali vpisati v našo listo programov.";
+sp_doc_voip_t3 = "VoIP skozi Prioritizacijo Usmerjevalnika (Router):";
+sp_doc_voip_p7 = "Nekateri usmerjevalniki (kot je Fritz!Box) pošiljajo z telefonskimi priključki nameščenimi na napravi. Če je uporabljen priključek bodo vsi VoIP podatki prenešeni direktno na Omrežje in bodo popolnoma obšli cFos in cFosSpeed. Največja slabost tukaj je, izogniti se padcem, takšni usmerjevalniki drastično omejijo pasovno širino, ki je na voljo, kadarkoli je poslan ali sprejet VoIP klic. To lahko negativno vpliva na performans Traffic Shapinga, ker to pomeni tudi, da je povezava vedno znova podvržena močnim odstopanjem v hitrosti. Zato priporočamo, da vse VoIP klice opravljate z samega računalnika, da dovolite cFos in/ali cFosSpeedu, da jih zazna in prioritizira. Če vseeno želite klicati preko usmerjevalnika, potem premaknite na \"spremenljivo (cooperative)\" preko <samp>Možnosti/Povezave</samp> z uporabo gumba Orodja.";
+sp_doc_voip_t4 = "VoIP programska oprema v uporabi z cFosSpeed";
+sp_doc_voip_t5 = "Meritve z IxChariot";
+sp_doc_voip_p8 = "Testirali smo našo programsko opremo z uporabo IxChariot (Orodje za teste Omrežnega performansa priskrbljen od Ixia) da ocenimo koristi cFosSpeed Traffic Shapinga. Za ta namen smo spremljali VoIP parametre z IxChariot-om medtem, ko smo izvajali več uploadov hkrati.";
+sp_doc_voip_p9 = "Zlahka se opazi da brez cFosSpeed-a normalna VoIP komunikacija ni mogoča med uploadanjem, toda nadaljuje skoraj brez odstopanj z uporabo cFosSpeed-a.";
+sp_doc_voip_a1 = "MOS vrednost";
+sp_doc_voip_p10 = " MOS vrednost, zlasti lahko vidite (<a href=\"http://en.wikipedia.org/wiki/Mean_opinion_score\">http://en.wikipedia.org/wiki/Mean_opinion_score</a>)  hitro padati proti 1, po zagonu uploada. To pomeni, da je povezava postala neuporabna za voice(glasovne) prenose. Ko uporabimo cFosSpeed vrednost ne pade - govorni prenos ohrani svojo visoko kvaliteto.";
+sp_doc_voip_a2 = "Časovni zamik";
+sp_doc_voip_p11 = "<em>Časovni zamik</em> je ključni del MOS vrednosti. Uporaba cFosSpeed-a obdrži porast teh zamikov znotraj meja, kjer se poveča do 700 millisekund, ko ne uporabimo cFosSpeed-a (rdeči graf).";
+system_requirements = "Sistemske zahteve";
+system_requirements_speed01 = "Windows XP / Windows Vista / Windows 7, toda tudi 2000";
+system_requirements_speed03 = "obstoječo Internetno povezavo";
+taskbaricon = "Taskbar Ikona";
+upgrade = "Dobi novo verzijo";
+url_desc = "Domača stran podjetja.";
+usage = "cFosSpeed lahko uporabite z Internetno povezavo, ki jo uporabljate izključno vi ali pa če jo uporabljate z večimi računalniki.";
+usage_graph = "Graf porabe";
+what_is = "Kaj cFosSpeed?";
+what_is_goals = "cFosSpeed ima dva cilja";
+what_is_goals01 = "Obdrži omrežne zamude (ping časi) majhne, da bi obdržal Internetne aplikacije odzivne kolikor je mogoče.";
+what_is_goals02 = "Izboljša prepustnost podatkov, da se izogne omrežnim zastojem.";
+what_is_p01 = "cFosSpeed je omrežni gonilnik, ki se pritdi na obstoječe Internetne povezave, ki nato optimizira prenos podatkov z sredstvi Traffic Shaping-a.";
+what_is_p02 = "Traffic Shaping je način za optimiziranje Internetnega prometa. Dopušča maksimalno hitrost, medtem ko zagotavlja minimalen Ping.";
+what_is_p03 = "cFosSpeed lahko uporabite z preusmerjevalnikom (router) in/ali DSL-modemom ali kabelskim-modemom. cFosSpeed lahko tudi uporabite z drugimi načini Internetnega dostopa, npr. kadarkoli že imate obstoječo Internetno povezavo.";
+what_is_p04 = "cFosSpeed podpira široko paleto povezav, kot DSL, cable, ISDN, UMTS, WiMAX, itd.";
+win_behaviour = "Uporabi sistemske nastavitve";
+winsettings = "Nastavitve Oken";
+wlan = "LAN in WLAN";
+word_auctiondetails = "Detajli licitacije";
+word_updates = "Posodobitve";
+word_prices = "Cene";
+word_delivery = "Dostava";
+
+/ PNet additional pages
+
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+
+/ oem
+
+/ asus
+
+/ asrock
+
+/ special price
+back = "nazaj";
+explain1 = "Trenutno nudimo cFos in cFosSpeed po posebno ugodni ceni, z namenom razširanja in rapoznavnosti naše Traffic Shaping tehnologije.";
+explain2 = "Dobiš licenco za 32-bitno in 64-bitno verzijo.";
+explain4 = "Bodoče verzije cFosSpeed vsebujejo tudi verzijo za Visto.";
+explain5 = "Dobiš licenco po posebno ugodni ceni ter doživljenske popravke.";
+explain6 = "Cena 9 Eurov vsenuje naslednje porpavke v enem letu. Za dodatnih 6 Eurov lahko dobis doživljenske popravke.";
+explain7 = "<strong>Popravki</strong>: Preprosto inštaliraj preko stare verzije!";
+explain8 = "<strong>Obstoječi kupci</strong>: Vse licence kupljene pred 1. Februarjem 2007 vključujejo doživljenske popravke.";
+special_price_end = "<span class='red'>Opomba</span>: Posebna ponudba bo kmalu končana!";
+special_price_h1 = "Zakaj sta cFos in cFosSpeed trenutno dotopna po tako nizki ceni?";
+special_price_h2 = "Do 31. Januarja:";
+special_price_h3 = "Pred 1. Februarjem:";
+special_price_h4 = "Za vse licence:";
+
+/ contact
+
+/ link_programm
+
+/ press
+
+/ speed guide
+
+/ speed test
+
+/upload
+
+/videos
+
+/meta descriptions
+
+/mailing lists
+
+/ countrynames
+
+/ no translation  -  currency info for order form exchange rates only - do not modify!
+currency_4217 = "EUR";
+currency_prefix = "";
+currency_suffix = "&#8364;";
+selected_value = "Slovenia";
+
+

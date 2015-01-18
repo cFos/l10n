@@ -1,0 +1,64 @@
+#language 2057
+#fallback 1033
+#charset 0
+
+language = "British";
+lang_key = "_uk";
+input_lang = "en-gb";
+
+
+/ navigation
+
+/ index2
+
+/ download
+
+/ order
+currency_abbr = "£";
+currency_sign = "£";
+
+/ Order and Announcelist Confirmation Email
+
+/ cFosSpeed
+
+/ cFos IPv6 Link
+
+/ cFos BC
+
+/ cFos
+
+/ FAQ
+
+/ support
+
+/ traffic shaping
+
+/ cFosSpeed additional pages
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+
+/ oem
+
+/ asus
+
+/ special price
+
+/ contact
+
+/ link_programm
+
+/ press
+
+/ speed test
+
+/ countrynames
+
+/ no translation
+currency_4217 = "GBP";
+currency_prefix = "£";
+currency_suffix = "";
+selected_value = "United Kingdom";
+
+

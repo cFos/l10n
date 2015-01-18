@@ -1,0 +1,781 @@
+#language 1041
+#fallback 1033
+#charset 128
+
+language = "Japanese";
+lang_key = "_jp";
+input_lang = "ja";
+
+/ test purposes, don't translate!
+
+/ navigation
+link_text_contact = "コンタクト";
+link_text_download = "ダウンロード";
+link_text_forum = "Forum";
+link_text_oem_version = "OEM バージョン";
+link_text_order = "注文 ";
+link_text_press_releases = "プレス";
+link_text_products = "製品";
+link_text_sitemap = "サイトマップ";
+link_text_support = "サポート";
+
+/ index2
+asrock_info = "<b>ASRock XFast LAN</b>ユーザー向け情報";
+bc_linktext = "cFos Broadband Connect - 高速アクセス回線向け";
+cfos_linktext = "cFos/Professional for ISDN - ISDN向け";
+close = "閉じる";
+desc_6link = " XP、Vista、Windows 7対応 ipv6接続性 ";
+desc_dialup = "インターネット・ダイヤルアップ接続";
+desc_shaping = "インターネット最速化 よって トラフック　シャーピング";
+desc_freeware = "無料ツールおよび無料サービス";
+desc_notifier = "ツイッターの新着ツイートを通知";
+desc_speedtest = "インターネット接続速度をテスト";
+freeware_text1 = "cFosSpeedの新しいバージョンがあります:";
+freeware_text2 = "Improved Traffic Shaping: バンド幅を最高に、ピングを最低に！ 今すぐダウンロードを！ ";
+product_overview = "製品概要";
+slogan = "本当のバンド幅を利用しよう！<br /> 高速でピングが少なめに！";
+special_offer_xmas = "メリークリスマス！ 12月22日までに<span class=\"red\">特別な価格</span>";
+special_offer_xmas_2 = "(休日のために2011年1月2日まで延長します)";
+special_offer_spring = "2010年2月9日まで、春の特別キャンペーン中！";
+special_offer_winter = "2012年1月31日までウィンターセール特別価格で提供";
+worldcup_sale = "ワールドカップ開催期間中は特別価格!"; / FIFA Soccer World Cup
+winter_sale_ext = "1月28日まで延長 - 皆様からの大きな反響に感謝!";
+word_new = "新しい";
+word_newversion = "新バージョン";
+watch_video_newfeatures = "新機能紹介動画を見る";
+countdown1 = "<span class='number'>X</span>日が残っています。";
+countdown2 = "<span class='number'>X</span>日が残っています";
+countdown3 = "<span class='number'>X</span>日が残っています";
+countdown5 = "<span class='number'>X</span>日が残っています";
+quick_poll_h = "cFosSpeedに追加をご希望の機能は ?";
+quick_poll_p = "機能を選んでください";
+current_version = "現在のバージョン";
+rwin_video_award = "cFosSpeed RWIN-拡張アワード2012を今すぐ申請する";
+rwin_video_award2 = "賞品はcFosSpeedの終身ライセンス計<b>100</b>本!";
+social_networks = "当社のSNSプレゼンス拡大にご協力願います。<br/>Facebookで「いいね!」、Twitterでフォローをお願いいたします。";
+word_follow = "フォロー";
+
+/ download
+additional_downloads = "追加ダウンロード";
+add_lang_text = "cFosSpeedの追加言語";
+alt_cfos6link_image = "cFos IPv6 Link画像";
+alt_cfosbc_image = "cFosBC画像";
+alt_cfos_image = "cFos画像";
+alt_speed_image = "cFosSpeed画像";
+bark_text = "WatchDogサービス。プロセスを監視して動作が停止した場合には再起動します。";
+beta_versions = "cFosベータバージョン";
+beta_thanks = "迅速なエラーレポートやトレースファイル、クラッシュダンプの提供にご協力いただいたベータテスターの皆様に<b>大変感謝いたしております</b>。皆様のご支援があってこそ達成できた高品質です。";
+beta_warning = "ベータ版はテストが<span class=\"red\">未完</span>の状態の製品です。<br/><span class=\"red\">自己責任でのご利用をお願いいたします</span>。";
+black = "黒";
+cfnotify_text = "タスクバーにアイコンを表示するソフトです。cFos caller monitorと利用することもできます。";
+cfosbc_text = "ダイヤルアップ接続専用ドライバー";
+cfosconnect_text = "T-onlineノード他のインターネットプロバイダーが原因で発生する過負荷を回避";
+cfos_other_text = "Traffic Shapingを含むISDNとATMダイルイン専用ドライバー　：　モデムソフト対応";
+cfos_text = "ISDN用ダイヤルインドライバ - 最新ソフトウェアにも対応";
+disclaimer = "否認";
+disclaimer_text = "次の地方別ダウンロードを無料で提供されています。cFos Software GmbHではなく、cFos Software GmbHのコミュニティー・メンバーが翻訳したものでありますので、翻訳の間違えがあればお知らせ下さい。";
+download_current_beta = "最新ベータ版をダウンロード";
+download_for = "<b>ダウンロード</b> (対象環境): ";
+download_page = "ダウンロードページ";
+downloads = "ダウンロード";
+download_x64_for = "<b>ダウンロード</b> (x64版): ";
+download_x86x64_for = "<b>ダウンロード</b> (x86版 + x64版): ";
+for = "(対象環境): ";
+freeware_programs = "フリーウエア";
+gadget = "Ｖｉｓｔａ対応cFosSpeedガジェット";
+gadget_text = "Ｖｉｓｔａ対応cFosSpeedサイドバー・ガジェット<br /><span class=\"smalltext\" style=\"line-height: 12px\"><br /><b class=\"red\">メモ</b>: &quot;<b>Can't create automation object</b>&quot; エラーが出てきたら次の通りしてみて下さい：<br /><b>1</b>. cFosSpeedのバージョンを確認してみて下さい。<br />&nbsp;&nbsp;&nbsp;&nbsp;(4.24以上が必要になります)<br /><b>2</b>. 再起動</span>";
+grey = "グレー";
+gadget_title = "cFosSpeed ガジェット";
+hacks_cracks = "Hacks &amp; Cracksについてのご意見";
+hint = "ヒント";
+hrping_text = "正確が高いピング・ユーティリティー";
+just_cfos = "cFos専用";
+just_speed = "cFosSpeed専用";
+mugstore_header = "mugstore.de でcFosマグ・カップを！";
+mugstore_text = "毎年、これらのマグ・カップがcFos Software GmbHだけのために作られています。現在販売中ですので次のサイトで購入してみて下さい。<br />";
+other_languages = "他の言語";
+other_systems = "そのほかのOS";
+product_page = "製品ページ";
+rnahelp_text = "Windowsインターネット接続専用バッチユーティリティー";
+sk_c64_text = "C64-styled 'cFos skin' (Markus Welz作)";
+sk_classic_text = "クラシックスタイルのcFosスキン";
+sk_froghut_text = "Froghut Title Bar Skin (Björn v. d. Osten作)";
+sk_grant_text = "Icon Skin (Grant Brunton作)";
+skins = "スキン";
+sk_history_text = "Liquid Crystalスキン (履歴バー付き)";
+sk_lc_blue = "Liquid Crystalブルー";
+sk_lc_blue_text = "Liquid Crystalスキン、ブルーディスプレイ版 (by Toxic)";
+sk_mon_txt_525_text = "cFos Monitorテキストスキン (対象: cFosバージョン5.25以上)";
+sk_mon_txt_text = "cFos Monitor-Text-Skin (Maik ReissとHoeft und Wessel作)";
+sk_msinanucler_text = "Traffic Analysisスキンの改良版。背景付き。(by Msinanucler)";
+sk_mtin_text = "Minimal Skin (MTiN作)";
+sk_netmedic_text = "Send/Receive Skin and Icon Skin (Ilya Dedinsky作)";
+sk_offchu_text = "Slim horizontal Liquid Crystal Skin (offchu作)";
+sk_offchu_history_text = "Slim horizontal Liquid Crystal History Skin (offchu作)";
+sk_safak_text = "Shinnherスキン改良版 (by Safak Falakaoglu)";
+sk_shinnher_text = "Liquid Crystal Skin （Shinnher作）";
+sk_shinnher_text_black = "黒のBGがあるShinnher's Skin　（Scott作）";
+sk_shinnher_text_grey = "グレーのBGがあるShinnher's Skin　（Scott作）";
+sk_shinnher_text_trans = "透明のBGがあるShinnher's Skin （Scott作）";
+sk_txt_text = "cFos Text Skin　（古いcfosのスキンを利用したい人のためです）<br />(ヒント：　installation to 'modern'-directory only)";
+sk_tutorial = "スキンチュートリアル";
+sk_tutorial_text = "cFos(Speed)スキンを自作したい方向け";
+sk_tga_text = "TGAファイル入りcFos(Speed)スキンアーカイブ - 旧バージョン向け";
+speed_text = "Traffic Shapingを使ってインタネット接続をより早くに！";
+submit = "送信";
+transparent = "透明";
+updates = "アップデート";
+updates_text = "はい。私は最新情報を受け取りたいです。";
+version = "バージョン";
+watch_text = "Behavioural Blockingが送る「Dialer blocker ＆　ウイルスチェッカー」";
+whats_new = "このバージョンで新しくなったこと";
+zip_tip = ".zipファイルを使うために次のソフトを利用することができます： <a class=\"inline\" href=\"http://www.pkware.com\">PKZIP</a>, <a class=\"inline\" href=\"http://www.winzip.de\">WinZIP</a> or <a class=\"inline\" href=\"http://www.info-zip.org/\">Info-ZIP</a>";
+cfos6link_text = "XP, Vista &amp; Windows 7 対応ipv6 Connectivity";
+twitter_follow = "cFosのTwitterをホローしよう";
+twitter_follow_short = "cFos Softwareをフォロー";
+language_files = "言語ファイル";
+word_translation = "翻訳";
+
+/ order
+alt_logo = "cFos Software GmbH ロゴ";
+atm_price = "リクエスト別のATMの価格";
+bank_de_iban_hint = "EU 内の標準為替はユーロでほぼ国内為替と同じコストで出来ます";
+bank_de_name = "Volksbank Bonn　銀行名";
+by_phone = "サポートと注文は電話で";
+buy_at = "ご購入 @";
+buy_now = "今すぐ購入!!";
+conf_cc = "クレジットカードでのお支払";
+conf_cc_nr = "番号";
+conf_check_cc = "クレジットカード情報を確認してください";
+conf_check_order = "注文の確認";
+conf_deliverer = "住所";
+conf_delivery_condition = "配達は確認後発送されます";
+conf_doctitle = "御注文の確認";
+conf_email_express = "e-Mailでの快速配達はアドレスを記入ください";
+conf_email_ok = "あなたのe-Mailアドレスに間違いありませんか？";
+conf_formerror_cc = "入力に間違いがあります!　カード番号の間違い：13桁以上必要です。通常ホログラムの下に4桁あります。勿論EC現金カード番号を記入しないでください。クレジットカードの番号でなければいけません";
+conf_formerror_email = "e-Mailアドレスが見つからないか間違っています。";
+conf_formerror_email_express = "e-Mailでの快速配達と代金引き換え払いは相互に排他的です。ブラウザの「戻る」ボタンで戻り、正しい支払い方法を選択してください。";
+conf_formerror_hint_kk = "クレジットカードデータを正確に提供してください、さもなければ別の支払い方法を選んでください。";
+conf_formerror_hint_ls = "銀行の各データを正確に提供してください、さもなければ別の支払い方法を選んでください。";
+conf_formerror_lastschrift = "銀行口座の情報をチェックしてください。";
+conf_formerror_missing_entry = "要求の内容が空です。";
+conf_formerror_not_complete = "あなたの要求は完全ではありません。ブラウザの「戻る」ボタンで戻り、未記入部分を埋めてください。";
+conf_fromerror_license = "ブラウザの「戻る」ボタンで戻りcFosのライセンス条項をお読みになり、承認ください";
+confident = "機密性：このデータは貴方がこの注文で使用するためのものであり、他人に漏らしてはいけません。";
+conf_lastschrift_at = "により";
+conf_moneybookers_trans = "マネーブッカーズでの支払い";
+conf_moneybookers_text = "&quot;<strong>[%$1_name%]</strong>&quot; マネーブッカーズでの支払いの目的を&quot;<strong>eMailの件名</strong>&quot;に記入ください";
+conf_name = "お名前を入力してください";
+conf_nn = "代金引き換え払い(4,- &#8364; 送料無料)";
+conf_alipay_text = "支払理由には &quot;<strong id=\"alipay_name\"></strong>&quot; と入力してください。";
+conf_alipay_text2 = "お使いのAliPayアカウントの登録メールアドレスが <span id=\"alipay_mail\"></span> とは異なるアドレスの場合は、メールアドレスを弊社にお知らせください。お支払い手続きの確認を速やかに処理いたします。";
+conf_alipay_mailtext = "支払理由には [%$1_name%] と入力してください。";
+conf_alipay_mailtext2 = "お使いのAliPayアカウントの登録メールアドレスが <span id=\"alipay_mail\"></span> とは異なるアドレスの場合は、メールアドレスを弊社にお知らせください。お支払い手続きの確認を速やかに処理いたします。";
+conf_alipay_trans = "AliPay送金";
+conf_alipay_link = "<a class=\"inline\" href=\"http://www.cfos.de/zhifubao_process.pdf\" target=\"_blank\">Alipayによる支払の詳細</a>";
+conf_payment = "支払";
+conf_paypal_sendinfo = "(もしPayPalのリンクが開かない時は、cFosのPayPalアカウントを記録し送信してください。)";
+conf_paypal_text = "&quot;<strong>[%$1_name%]</strong>&quot; PayPalでの支払いの目的を &quot;<strong>eMailの件名</strong>&quot;に記入ください";
+conf_paypal_trans = "PayPal での支払";
+conf_please_click_on = "クリックしてください";
+conf_proforma = "見積請求書を送付いたします。お支払が確認されましたら貴方のcFosライセンスを送付いたします。";
+conf_so_we_can_process = ",これが貴方のご注文に対するプロセスです。";
+conf_submit_order = "ご注文の確認";
+conf_sum = "合計";
+conf_trans_account = "銀行口座";
+conf_trans_blz = " 銀行のコード";
+conf_trans_fee_hint = "支払総額と振り込み費用の合計以上でなければなりません。";
+conf_trans_int = "国際送金";
+conf_trans_reason = "支払目的";
+conf_trans_reason_hint = "貴方の氏名と支払う目的が処理に必要になります。";
+conf_trans_to = "宛先";
+conf_trans_within_de = "ドイツ国内送金";
+conf_webmoney_trans = "WebMoney での送金";
+conf_webmoney_text = "我々の受付チームは貴方に注文に対し別のメール(order-number, WMID and WM-Purse)を送付します。このメールを受ける前に送金しないでください。ありがとうございます ";
+currency_code_paypal = "ユーロ";
+download_software = "ソフトウェアの最新バージョンは<a class=\"inline\" href=\"/en/download/download.htm\">こちら</a>からダウンロードできます。";
+f_agent_text = "内に担当者から購入";
+f_announce = "はい、我々のプログラムの新しいバージョンがリリースされる際に通知されます";
+f_cc = "クレジットカード";
+f_cc_date = "有効期限";
+f_cc_holder = "カード名義人";
+f_cc_number = "カード番号";
+f_cc_vercode = "カードセキュリティ番号";
+f_cc_vc_where = "カードセキュリティ番号はどこにあるのでしょう？";
+f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>:<br />は3桁のセキュリティ番号がカードの裏面のサインをする部分の上にあり、その最後の3桁です、またはこの面の右上に有ります。<br/><b>American express</b>:<br />は4桁のセキュリティ番号カードの右上にあります。";
+f_checkbox_license_text_bconnect = "私はすでに <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos ブロードバンド接続のライセンス契約</a>とその条項と条件を読みそれに同意します";
+f_checkbox_license_text_cfos = "私はすでに <a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos ライセンス契約</a> とその条項と条件を読みそれに同意します";
+f_checkbox_license_text_ipv6 = "私はすでに <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\">cFos ipv6 Link ライセンス契約</a> とその条項と条件を読みそれに同意します";
+f_checkbox_license_text_speed = "私はすでに <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed ライセンス契約</a> とその条項と条件を読みそれに同意します";
+f_checkbox_license_text_pnet = "私は<a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net使用許諾書</a>を読みました。同許諾書に記載の使用条件に同意いたします。";
+f_checkbox_license_text_pnetbnd = "私は<a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net</a>および<a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed</a>の使用許諾書を読みました。同許諾書に記載の使用条件に同意いたします。";
+f_city_postcode = "郵便番号、都市名";
+f_deliverto_list_01 = "user@host.net, または <span style=\"text-decoration: line-through\">www.host.net</span>";
+f_deliverto_list_02 = "すべてのスペルに間違いはありませんか？";
+f_deliverto_list_03 = "特別の文字、例えば <span style=\"background-color: #ffffe0; font-weight: bold\">&nbsp;. - _&nbsp;</span> 挿入は正しいですか?";
+f_deliverto_list_04 = "例えば gmx.de を gmx.netのように取り違えていませんか!";
+f_email = "Email";
+f_express = "速達";
+f_express_text = "eMailでのお届け; 上記の eMailアドレスは有効なインタネットアドレスでなければなりません";
+find_serial = "ヒントT:貴方はcFos のシンボルを右クリックすることでメニューの第二行にシリアル番号を見つけることが出来ます、  (例. cF1234)";
+firmenkunden = "ビジネスユーザー";
+firmenkunden_text_bconnect = "ビジネスユーザーはcFos Broadband Connectのコストが税控除の対象になります 。 非営利団体は個人のユーザーと見なされます。 cFos Broadband Connect を個人のユーザーとして発注の際 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">個人ユーザーの注文フォーム</a></b>から申し込みください。";
+firmenkunden_text_cfos = "ビジネスユーザーはcFosのコストが税控除の対象になります。 非営利団体は個人のユーザーと見なされます。 cFos を個人のユーザーとして発注の際 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">個人ユーザーの注文フォーム</a></b>から申し込みください。";
+firmenkunden_text_ipv6 = "ビジネスユーザーは <em>cFos ipv6 Link</em>のコストが税控除の対象になります。 非営利団体は個人のユーザーと見なされます。 cFos ipv6 Link を個人のユーザーとして発注の際 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">個人ユーザーの注文フォーム</a></b>から申し込みください。";
+firmenkunden_text_speed = "ビジネスユーザーはcFosSpeed のコストが税控除の対象になります。 非営利団体は個人のユーザーと見なされます。 cFosSpeed を個人のユーザーとして発注の際 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\">個人ユーザーの注文フォーム</a></b>から申し込みください。";
+firmenkunden_text_pnet = "cFos Personal Netの調達価格を経費として税控除を受けられるユーザー様はビジネスユーザーをお選びください。非営利組織は個人ユーザーとみなされます。個人ユーザーとしてcFos Personal Netの購入をご希望の場合は<b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-personal-net-n.htm\">個人ユーザー様用注文フォーム</a></b>をお使いください。";
+firmenkunden_text_pnetbnd = "cFos Personal Net / cFosSpeedバンドルの調達価格を経費として税控除を受けられるユーザー様はビジネスユーザーをお選びください。非営利組織は個人ユーザーとみなされます。個人ユーザーとして本バンドル製品の購入をご希望の場合は<b><a class=\"inline\" href=\"https://www.cfos.de/en/order/pnet-speed-bundle-n.htm\">個人ユーザー様用注文フォーム</a></b>をお使いください。";
+f_use_form_n = "個人ユーザーとしてのご購入は";
+f_use_form_c = "ビジネスユーザーとしてのご購入は";
+f_land = "国";
+f_license = "ライセンス";
+f_moneybookers_text = "以下のマネーブッカーズ口座からお支払額を指定してください。";
+f_nachname = "代金引き換え払い";
+f_nachname_text = "ドイツ国内のみ, +4 &#8364; 郵送料無料";
+f_name = "氏名";
+f_alipay_text = "次のAliPayアカウント宛にお支払をお願いいたします:";
+f_optional = "オプション";
+f_refer = "cFosについて何か聞いたことがありますか?";
+f_webmoney_text = "ご注文の処理によるWebmoneyの支払明細をメールで送付いたします。";
+for_business_users = "ビジネスユーザー向け";
+for_dos_w311_os2  = "for DOS | OS/2 | Windows 3.x";
+for_existing_users = "既存の顧客向け";
+form_subtitel_contact = "連絡先情報";
+form_subtitel_order = "貴方のご注文";
+form_subtitel_payment = "お支払";
+form_title_c = "ビジネスユーザーの注文フォーム";
+form_title_n = "個人ユーザーの注文フォーム";
+for_osnt = "Windows 8/7/Vista/XP/2000 + Server 2003 &amp; 2008 + x86/x64 Edition　向け";
+for_osxp = "Windows 8/7/Vista/XP + Server 2003 &amp; 2008 + x86/x64 Edition　向け";
+for_private_users = "個人ユーザー向け";
+for_win = "Windows 95/98/ME　向け";
+f_paypal_text = "以下の口座からお支払額を指定してください。";
+f_phone = "電話番号";
+f_poll = "どのオペレーティングシステムを使用しますか？";
+f_proform_national = "見積請求書";
+f_proform_text = "見積請求書を送付いたします。貴方のお支払が到着いたしましたらcFosSpeedを発送いたします。代わりとなる代金引き換え払い払いの際国外貨幣の銀行両替手数料が含まれます。";
+f_select_payment = "お支払方法を選択してください";
+f_street_adress = "区街、町以下の住所";
+f_trans_ger = "支払・為替";
+f_trans_mail = "弊社の銀行口座詳細が書かれたご注文確認メールを発送します。";
+f_trans_text1 = "発送は支払の確認後がすんでから行います。";
+f_trans_text2 = "お支払は、外国貨幣の銀行費用を入れてください。";
+f_trans_text3 = "<b>ユーロ諸国</b>: ユーロ圏内の銀行手数料および送金費用は国内送金のように <b>安いです</b> これは具体的にはオーストリア、ベルギー、フィンランド、フランス、ドイツ、ギリシャ、アイルランド、イタリア、ルクセンブルグ、マルタ、オランダ、ポルトガル、スロバキア、スロベニア、スペイン、キプロスに適用されます。";
+f_trans_text4 = "貴方の国にある弊社の銀行口座に振り込むことが出来ます";
+f_trans_within_country = "国内送金 (銀行振込)";
+f_vat_number = "付加価値税VAT登録番号。";
+f_vat_number_text = "EU内での異なる国からのお客様の受注はVAT登録番号を指定する場合、付加価値税なしで処理することができます。番号はここに記入してください。それ以外の場合ドイツのVATが課税されます";
+f_word_poll = "投票";
+f_your_number = "貴方の注文番号";
+incl_vat_ship = "価格にはドイツのVAT課税と輸送費、取り扱い費が含まれます。";
+incl_vat_ship_cfos_omni = "Omni-Platform -販売/VAT税を含みます。無料の送付と取り扱い費用。 <br />cFos/DOS, cFos/Win, cFos/2 and cFos NT/2000/XP/2003 Server/Vista/7 + x86/x64 Editionを含みます。";
+lifetime_updates = "生涯アップデート";
+lifetime_updates_text = "貴方は今のOSの古いバージョンのソフトに上に、ダウンロードした新しいバージョンをインストールできます。";
+moneybookers = "マネーブッカーズ";
+multi_buy = "購入";
+office_time = "月曜から金曜の9時から正午まで（CET)";
+only = "唯一の";
+only_here = "(私たちだけで利用可能!)";
+order_form = "注文フォーム";
+order_page_title = "注文ページ";
+paypal_form_item_name = "cFos Software GmbH - プロダクトのライセンス番号";
+paypal_form_pay_now = "現在 PayPalでの支払い";
+pay_with = "支払方法";
+private_users = "個人ユーザー";
+private_users_text = "個人ユーザーはここで注文を! もし製品価格からの税金を差し引きたい場合、進んでください: ";
+server_unavailable = "一時的にサーバーが利用不可能となっています。少し時間を置いてから、もう一度お試しください。";
+shopping_cart = "ショッピングカート";
+spbc_text = "1 cFosSpeed ライセンス + 1 cFos Broadband Connect ライセンスを特別価格で";
+spbc_title = "スペシャルオファー";
+speed_pnet_until = "10月9日まで";
+speed_pnet_bundle = "お得なcFosSpeed + cFos Personal Netバンドル";
+speed_pnet_only = "cFos Personal Net価格";
+special_conditions = "スペシャル 条件";
+special_conditions_text_bconnect = "<em>cFos Broadband Connect</em> を大数量を注文したい場合または代理店になりたい場合、我々 <a class=\"オンライン\" href=\"/en/contact/msgpost.htm\">でcFos 注文グループまで連絡をしてください。</a>. 直ちにオファーを送付いたします。";
+special_conditions_text_cfos = " <em>cFos</em> を大数量を注文したい場合または代理店になりたい場合、我々 <a class=\"オンライン\" href=\"/en/contact/msgpost.htm\">でcFos 注文グループまで連絡をしてください。</a>. 直ちにオファーを送付いたします。";
+special_conditions_text_ipv6 = "<em>cFos ipv6 Link</em> を大数量を注文したい場合または代理店になりたい場合、我々 <a class=\"オンライン\" href=\"/en/contact/msgpost.htm\">でcFos 注文グループまで連絡をしてください。</a>. 直ちにオファーを送付いたします。";
+special_conditions_text_speed = "<em>cFosSpeed</em>を大数量を注文したい場合または代理店になりたい場合、我々 <a class=\"オンライン\" href=\"/en/contact/msgpost.htm\">でcFos 注文グループまで連絡をしてください。</a>. 直ちにオファーを送付いたします。";
+special_conditions_text_pnet = "<em>cFos Personal Net</em>の大量購入または再販をご希望の場合は<a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos注文窓口チーム</a>までお問い合わせください。すぐにお見積もりをお送りいたします。";
+special_conditions_text_pnetbnd = "<em>cFos Personal Net / cFosSpeedバンドル</em>の大量購入または再販をご希望の場合は<a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos注文窓口チーム</a>までお問い合わせください。すぐにお見積もりをお送りいたします。";
+special_offer = "スペシャルオファー";
+special_price_for = "貴方の国の市民に特別価格です。";
+th_abort_paypal = "トランザクションが正常に完了しませんでした。";
+th_order_date = "注文日";
+th_paypal_text = "我々はPayPalのリンクを <strong>次の営業日に</strong>送付いたします。 それには支払に必要なすべての情報が含まれます。あなたが注文を迅速にしたい場合、ここですぐに支払うことができます。PayPalのWEBサイト（リンクはこの下）に行き必要なすべての項目をご自分で記入してください。 \"email 件名\"に貴方の氏名を入れてください。配送は支払の確認後実施されます。";
+th_paypal_text_redirect = "PayPalにリダイレクト中...";
+th_text = "それは速やかに当社の注文グループに渡されて、 <strong>当営業日、または翌営業日の処理になります。</strong><br />また、注文グループから電子メールでのシステムに注文が入力されたことの確認メールが送信されます。";
+th_text_paypal = "トランザクションが完了しました。確認メールがお客様宛に送信されます。トランザクションの詳細は<a class=\"inline\" href=\"http://www.paypal.com\">PayPalアカウント</a>にログインして確認することもできます。";
+th_text_paypal_abort = "手続きを完了できませんでした。もう一度お試しください。";
+th_thanks = "Tありがとうございます!";
+th_thanks_order = "ご注文ありがとうございました!";
+th_thanks_paypal = "お支払い手続きを行っていただき、ありがとうございました。";
+validation_lifetime = "将来の無制限のアップデートが含まれます";
+webmoney_id = "我々の WebMoney ID は 414417381154 .";
+webmoney_purses = "我々のロシアルーブル(RUB)　IDは R186904373715.";
+word_conditions = "条件";
+word_hint = "備考";
+word_important = "重要";
+word_invoice_number = "インボイス番号";
+word_license = "ライセンス";
+word_lifetime_license = "生涯ライセンス";
+word_lifetime_update_pack = "生涯のアップデートパック";
+word_month = "月";
+word_serial_number = "シリアル番号";
+word_service = "サービス";
+word_submit_order = "注文を送信";
+word_year = "年";
+
+/ Order and Announcelist Confirmation Email
+em_hello = "今日は";
+em_thank_you = "のオーダーのためにあなたに感謝してください  ";
+em_transfer = "どうか今移ってください ";
+em_account = "銀行預金口座に ";
+em_link = "リンク:";
+em_paypal = "ペイパルアカウントに ";
+em_moneybookers = "Moneybookers アカウントに ";
+em_noreply = "これは送信専用からの自動送信メールです。これに返信しないでください。 もし、1-2営業日内に我々から連絡がない場合いかのリンクをクリックしてください。:  http://www.cfos.de/ja/contact/msgpost.htm ";
+em_text = "我々は、可能であるならすぐに、あなたのオーダーを処理するでしょう。 ";
+em_webmoney = "我々の WebMoney アカウントに。 ";
+
+/ cFosSpeed
+a_bt = "cFosSpeedをtorrentsと使用する場合";
+a_games = "私はどのように私のオンラインゲームを速めることができますか？";
+alt_ct_logo = "ｃ 't のロゴ";
+a_p2p = "Traffic Shaping のために Filesharing（P2P)";
+a_surf = "私はどのようにより速く Web をサーフすることができますか？ ";
+a_voip = "大きいナレーション IP （VoIP）スピーチ品質 ";
+cfosspeed_title = "インターネットアクセラレータ + Pingの最適化";
+dupe_a_voip = "ナレーション IP （VoIP）（german）を持っている良い音声の質 ";
+budgets = "オンライン予算 ";
+desc_cfosbc = "<b>cFosBC</b>, 高いバンド幅インターネット・アクセスのための効率が良いダイアルアップ ";
+firewall = "ファイアウォール ";
+header_features = "特徴";
+highlights = "ハイライト";
+highlight1 = "cFosSpeedは、電話のように、他のすべてを窒息させるから（電子メールを送信するなど）つのアプリケーションを防止するなど、チャット";
+highlight2 = "cFosSpeedは、pingの時間が低いので、同時にオンラインゲーム、ダウンロードファイルを再生することができます続けている。";
+highlight3 = "すべての重要なデータパケットが自動的に重要なものよりも優先されます。 cFosSpeedプログラムとプロトコルの優先順位を使用すると、/、理想的には、アプリケーションを構成したり、新しいプログラムを追加します。";
+highlight4 = "データのリアルタイム分析：あなたは容易にあなたが現在転送しているストリームがデータを認識することができます新しいステータスウィンドウでは。";
+highlight5 = "DSL、ケーブル、無線LAN、CDMA2000、UMTSの、WCDMAの、モデム、ISDN、とcFosSpeed実行は、（第2世代/第3世代）携帯電話ブロードバンド。";
+highlight6 = "cFosSpeedのトラフィックシェーピングの詳細な説明を見つけることができます <img src=\"sp_link_bottom_right.png\" width=\"6\" height=\"11\" alt=\"\" /><a href=\"/en/traffic-shaping/traffic-shaping.htm\" target=\"_blank\"><b>ここで</b></a>.";
+speed_html_h1 = "シフォス　スピード,トラフィック　シャーピングでさらに速くインターネット";
+increase_throughput = "cFosSpeed増加は、スループットが、あなたのPingを低減します。";
+info_text_decision = "cFosSpeed, cFos または cFos Broadband Connect - どのプロダクトを選ぶべきか？ ";
+info_text_mugstore = "年間1997-2009のcFosマグカップ現在mugstore.deでご利用いただけます。";
+info_text_multi = "今、いくつかのPC上でcFosSpeedを使用することができます...";
+internet_accelerator = "cFosSpeed - インターネットアクセラレータ";
+latest_news = "最新のニュース";
+link_text_ct_pdf = "ドイツのコンピュータ雑誌“テスト”における最速のDSLドライバー";
+link_text_decision = "これは、製品？";
+link_text_speed_features = "cFosSpeed機能一覧";
+link_text_gratis = "アシスタントを募集しています";
+link_text_gratis_link = "弊社のWebページへのリンクや資格の無料のキーです。";
+link_text_mugstore = "cFosマグカップ！";
+link_text_multi = "マルチユーザのベータ版";
+link_text_speed_priolist = "シフォス　スピードで優先順位を決める";
+link_text_speed_priolist2 = "プログラムリスト";
+link_text_suggest_program = "お勧めの新しいプログラム";
+link_text_reviews = "プレスでのシフォス　スピード ";
+link_text_speedlist = "シフォス　スピードは世界中で使用されています。 (» 国とハードウエアのリスト) ";
+link_text_techinfo = "他にもたくさんの機能をもつシフォス、DSL，ISDN入力ドライバー ";
+link_text_traffic_shaping = "どのようなトラフィックシェーピングですか？";
+link_text_watch = "cFosWatch 2.00版";
+link_text_what_is_speed = "何cFosSpeedですか？";
+li_text_behavioural = "行動のブロックでのウイルス保護対策";
+li_text_blocker = "0190/0900をブロックするフリーウェア！";
+li_text_broadband = "ブロードバンド：DSL、ケーブル";
+li_text_gamer = "オンラインでゲームを楽しんでいる人には最適!";
+li_text_low_ping = "低平";
+li_text_mobile = "モバイル";
+li_text_narrowband = "狭帯域：モデム、ISDN、";
+li_text_p2p = "イミュールやカザー、ビットレントなどの互換クライアントにおける迅速な反応";
+li_text_streaming = "ストリーミングメディアは、VoIP";
+li_text_feat1 = "オンラインゲームのためにPingを向上させる";
+li_text_feat2 = "アップロード/ダウンロード重い時にインターネットを高速してください";
+li_text_feat3 = "<b>新</b>： 改善モバイルインターネット";
+li_text_feat4 = "削減オーディオ/ビデオストリーミングの問題";
+li_text_feat5 = "改善のVoIP音声品質";
+more_features = "その他の機能";
+news_info = "ニュース/ インフォメーション";
+optimize_traffic = "することができますトラフィックを最適化するcFosSpeed複数のデータストリームにインターネットにアクセスするたびに。";
+prio_ports = "優先ポートの設定";
+prio_programs = "を優先プログラム";
+prio_protocols = "プロトコルを優先";
+related_product = "追加プログラ�";
+special_offer_launch = "特別な起動を提供する：<br />cFosBC + cFosSpeed 合計金額のための ";
+special_price = "特別価格";
+word_more = "よりたくさんの";
+
+/cFos Personal Net
+
+/ cFos Outlook DAV
+
+
+/ cFos IPv6 Link
+cfos6link_page_title = "IPv6接続XPでは、VistaとWindows 7";
+header_features_overview = "の特徴を一目で";
+in_action = "アクション";
+ipv6_exhaust = "未割り当てのIPv4アドレスは <a class=\"inline\" href=\"http://en.wikipedia.org/wiki/IPv4_address_exhaustion\" target=\"_blank\">2010年または2011年にアドレスが枯渇すると予想される</a> <br />この時点では誰も新しいIPv6インターネットに切り替えることを余儀なくされます。<br /><br /><a href=\"http://www.inetcore.com/project/ipv4ec/index_en.html\" target=\"_blank\">未割り当てのPv4アドレスの対抗馬として</a>";
+ipv6_test = "今日このIPv6アドレスを試してください。rc-tecによる無料でのプロモーションアカウントか、IPv4と組み合わせるいずれかを選べます。";
+link_text_what_is_ipv6link = "何cFos IPv6のリンクですか？";
+li_text_automatic = "自動ルーティングおよびアドレスの設定";
+li_text_dhcpv6 = "DHCPv6のステートフル、ステートレス、Prefix Delegationの";
+li_text_faster = "高速の10倍、Windows Vistaのドライバよりも速く";
+li_text_ipv6_dialup  = "IPv6のダイヤルは、Windows用のドライバを";
+li_text_mapping = "IPv4 &lt;-&gt; IPv6 DNS マッピング";
+li_text_config_dhcp = "設定可能なDHCPのDUIDを";
+li_text_vlan = "VLANサポート";
+li_text_nat46 = "NAT46 は　IPv4だけのアプリケーションです";
+provider_list = "IPv6のプロバイダ一覧";
+dupe_word_documentation = "ドキュメント";
+word_documentation = "ドキュメント";
+
+/ cFos BC
+bc_page_title = "高性能ダイヤルの高帯域幅を持つインターネットアクセス用のドライバを開設する。";
+link_text_cfosspeed = "<b>cFosSpeed</b>,  シフォス　スピードはルータやUSB DSL　モデムを使用している人のために";
+link_text_what_is_bconnect = "何cFosブロードバンド接続ですか？";
+li_text_calls = "着信コール";
+li_text_filter = "'とフィルタリングサービスの名前'と'のACネーム'";
+li_text_highspeed = "高速の10倍、Windowsのドライバよりも速く";
+li_text_lowcpu = "低CPU使用率";
+li_text_ndis6 = "は、NDIS 5.1 / NDISは6ビスタ（下/ Windowsの7）";
+li_text_pppoe_auto = "PPPoEを自動的に、すべてのPPPoEのパラメータ設定を検出する";
+li_text_ppppoe_dial = "PPPoEのダイヤルアップは、Windows用のドライバを開設する";
+li_text_sessions = "複数のセッションは、接続数の制限はありません";
+
+/ cFos
+cfos_html_h1 = "ISDNとDSLを最速化するダイヤルアップドライバー";
+link_text_0190 = "ダイアラーからの怪しい電話をブロック";
+link_text_budget = "容量、時間測定器";
+link_text_cfos_features = "cFos - シフォス　DSL とISDN専用の人気機能";
+link_text_cfos_priolist = "cFosと優先順位付けプログラム (&#187; プログラムリスト)";
+link_text_feature_list = "機能、DSLやISDNのための";
+link_text_firewall = "ファイアーウオール";
+link_text_what_is_cfos = "何cFosは/ Professionalの？";
+
+/hrping
+
+/notifier
+
+/FAQ
+which_product = "これを使えばいいの製品cFos？";
+
+/ support
+activation_buyonce2 = "一度購入すると、無料ですべての将来のバージョンを取得できます。";
+agents_china = "中国";
+agents_desc = "これらは我々 cFos のドイツ国外における代理店です。";
+agents_hongkong = "香港/中国";
+agents_greece = "ギリシャ";
+agents_india = "インド";
+agents_malaysia = "マレーシア";
+agents_russia = "ロシア";
+agents_taiwan = "台湾";
+agents_thailand = "タイ";
+agents_vietnam = "ベトナム";
+abgelaufen = "長い有効期限が切れている使用しているバージョンです。";
+choice1 = " インターネットISDN回線、ソフトウェアを介してISDN回線用のCOMポートは<BR /> ISDNの発信者の監視では？";
+choice2 = "場合は、インターネットへのアクセスルータを使用する？";
+choice3 = "あなたのインターネット接続）のPPPoE（例：DSLモデムを使用して？";
+choice4 = "あなたはDSLモデムをUSBに接続して使用する？";
+choice5 = "ダイヤルアップ用のドライバネットワークですか？";
+choice6 = "トラフィックシェーピング？";
+choice7 = "両方？";
+decision = "これは、製品？";
+decision_help = "決定パス";
+dialup_dsl_cable = "ダイヤルアップ、DSLまたはケーブルモデム接続（PPPoE）でネット";
+faq_long = "よくある質問";
+gsm_etc = "はGSM、UMTS、WiMAX, Wi-Fi使用";
+h1_alternatives = ",cFosSpeed cFosまたはcFosブロードバンド接続";
+highspeed = "高速接続= 16Mビット/秒";
+hof_agent = "cFosエージェント";
+hof_desc = "これが私たちの先頭の要因です。彼らは本当に私たちのソフトウェアやWebサイトを向上させることができました。本当にありがとうございます！";
+hof_friends = "cFos の友人たち";
+hof_skindesigner = "スキンデザイナー";
+hof_title = "殿堂入り";
+hof_titleadd = "...私達のトップ投稿者";
+hof_translator = "翻訳";
+hof_bugfixhero = "バグ英雄";
+howto_dump_li01 = "スタート/コントロールパネル'で/システム''''の起動と回復を開く先進の下で - 設定'";
+howto_dump_li02 = "'でデバッグを書くの情報]を選択します：'カーネルメモリダンプ'";
+howto_dump_li03 = "でクリックして'OK]を、変更を確認して、ウィンドウの先進閉じる'";
+howto_dump_li04 = "]をクリックする'[OK]を、変更を確定し、ウィンドウを'システム'をクリックし、ウィンドウの[コントロールパネル]を閉じる'";
+howto_dump_li05 = "場合、XPをお使いのコンピュータを再起動する使用している（ときにVista/7を使用する必要はありません！）";
+howto_dump_p01 = "一方我々は、Windowsのカーネルメモリダンプを必要とする当社のソフトウェアを使用してブルースクリーンの場合では、問題に検索できるようにする。";
+howto_dump_p02 = "カーネルメモリの手順に従ってくださいダンプを生成するには：";
+howto_dump_p03 = "カーネルメモリの関数'カーネルメモリダンプ'は、次の設定に従っているダンプを作成するには";
+howto_dump_p04 = "今では、カーネルメモリダンプとすぐにブルースクリーンのように生成される場合を除きMemory.dmpとして保存されたと表示されます。";
+howto_dump_p05 = "郵便番号は以下のアーカイブには、このファイル (お勧め <a class=\"inline\" href=\"http://www.rarlab.com/\">RAR</a> または <a  class=\"inline\" href=\"http://www.7-zip.org/\">7-zip</a>) と私たちに送ってください。";
+howto_dump_p06 = "お問い合わせ大容量のファイルの提出についてお問い合わせをされる場合があります。";
+howto_dump_p07 = "また、私たちに無料のファイルサーバのサービスを介してダンプを転送することができます (でも、受け手 <a class=\"inline\" href=\"http://www.rapidshare.de/\">www.rapidshare.de/</a>).";
+howto_dump_title = "どうすれば、Windowsのカーネルメモリダンプを生成する";
+incoming_pppoe = "着信コール";
+isdn = "ISDN回線";
+isdn_call = "ISDNの発信者を監視する";
+low_cpu = "極端な低CPU使用率";
+multiple_pc = "いくつかのPCの1つのインターネット接続で使用する";
+multi_pppoe = "複数のPPPoE接続を同時に";
+ndis6 = "NDISは6";
+no = "「いいえ」";
+other_media = "他のメディア。例えば、 PPPoAのは、IPのAAL5は、PPTP、RFC1483/2684ブリッジ上";
+pppoe_filter = "フィルタリングのPPPoEサービス/のAC名";
+recommend = "トラフィックを常にお勧めしますcFosSpeedシェーピングしてください。ただし、場合には、DSL、ISDN接続は、DSLモデム（）とは、我々プロフェッショナルcFosことをお勧めしている。<br /><br />お使いの接続は、少なくとも16メガビット/ sという、私たちブロードバンド接続cFosお勧めします。トラフィックシェーピングは、あまりにもcFosSpeedを使用します。";
+router = "ルータ";
+router_dialup = "ルータやダイヤルアップ接続";
+speed_limit = "個々のPCの速度制限";
+text_damage = "ちなみに、誰も人のポストよりもより経済的な被害を私たちが自分の個人 <b>ライセンスキー</b> ダウンロード用に公開。";
+text_order = "だから、あなたはすでに、許可してくださいcFos、cFosSpeed、またはcFosBCの公式ライセンスを所有してはならない、自分たちプログラムのパフォーマンスの向上と今ではあなたのライセンスを注文：";
+text_thanks = "<b>すべてに感謝</b> すでに、および/またはcFosBC cFos、cFosSpeedのライセンスを購入している。あなたは私たちのソフトウェアのさらなる発展を支援しています！";
+text_version = "<b>唯一の公式ライセンスping時間が最低で最大のデータスループットを保証します！</b><br /><br /> のみを変更せず、元のバージョンの機能とは、すべてのcFos製品の一部である関数のフルレンジを提供します。覚えておいて、我々は定期的にネットから我々のソフトウェアの違法なハッキングをダウンロードします。これらの'ハッキング'だけ品質に疑問があわててコピーしたファイルの束です。 <br /><br /> それ故に、 <b>ながら、それがすぐに明らかにすることができない <span class=\"red\">遅かれ早かれ、ハッキングされたコピーが正常に動作を停止します</span>.</b>";
+text_which_one = "これは、製品を選択する？";
+var_bandwidth = "可変帯域幅";
+word_gratislizenz = "フリーライセンス";
+word_order_questions = "オンラインでの質問";
+word_search = "探す";
+word_technical_questions = "技術的な質問";
+yes = "「はい」";
+
+/ traffic shaping
+alt_load_print = "印刷イメージ";
+alt_transfer_rates = "転送レート";
+ts_c_t1 = "cFos トラフィックシェーピングの重要な記事";
+ts_c_p1 = "cFos トラフィックシェーピングは <b>キャリブレーション</b> と <b>学習</b>フェーズです. <b>pingを低いままで</b>達成される<b>最適なダウンロード</b>および<b>アップロード速度</b>を確保するための正確な接続速度と性能を決定する必要があります。";
+ts_c_p2 = "あなたの接続の程度に応じて、このフェーズでは、 <b>最新の数日</b>です。しかしながら, あなたはEメールで大きいファイルを送付することにより、速度を上げることができます。 これにより効果的に数分間フル帯域幅でのアップロードを実行します.";
+ts_c_p3 = "Ping時間は取得開始の時間からアップロード速度により、正しく接続の最大の能力で実行される. あなたはステータスウインドウで現在のPing時間の表示を数字教示と、図表表示を切り替えることができます。";
+ts_c_t2 = "以下の内容に注意が払われるべきです";
+ts_c_t2a = "あなたが行うことができるその他のもの";
+ts_c_p4 = "pingは<strong>ファイアウォール</strong>または<strong>ルータ</strong>の影響を受け無いこと確認すること。";
+ts_c_p5 = "接続速度を制限しようとする他の製品、例えば、通信帯域制限のある[<strong>Fritz!Box（ADSL-Modem)</strong>で無効なります。これら2つの効能は、互いに干渉されます。";
+ts_c_p6 = "コンテキストメニューにおいて<strong>Optionsオプション/Settings設定/Traffic Shaping通信帯域制限</strong>の中から正しく<strong>中</strong>の通信帯域制限を選択します。";
+ts_c_p7 = "あなたが頻繁に<strong>Voice-over-IP (VoIP)</strong>電話を使用する場合、ルータは \"<strong>variable bandwidth帯域幅可変</strong>\"を選択してください";
+ts_c_a1 = "更にcFosの帯域制限について学習する場合<a class=\"inline\" href=\"/en/asus/asus.htm\">ここを参照してください</a>.";
+ts_c_a1a = "更にcFosの帯域制限について学習する場合<a class=\"inline\" href=\"/en/asrock/index.htm\">ここを参照してください</a>.";
+ts_exp_title = "通信帯域制限の校正";
+ts_exp_t1 = "どうやって cFos / cFosSpeedのオプションの校正をするのですか?";
+ts_exp_p1 = "通信帯域制限データ消去は &quot;clear calibration data校正データの消去&quot;をクリックします。";
+ts_exp_p2 = "短時間の最高速度ダウンロードを実施. (5-10 秒)";
+ts_exp_p3 = "長めの最高速度ダウンロードを実施. (30秒 - 1分).<br />これは重要です。このアップロードはより早くなります, 例えば,サーバーの場合送出が近くかつパワフルとなります。 (メールサーバーや高速FTPサーバーのように）。 また、それが重要なのは、このアップロードを行う間、あなたがダウンロードを実行しているということです。 256kbit/sのアップロードであなたは反対側対し2 mbyteを送信する必要があります。";
+ts_exp_p4 = "それだけです。あなたは、フルブラストアップロードしている場合も、低いpingの時間が（両方ともステータスウィンドウで監視できる）校正されます。";
+ts_exp_p5 = "通信帯域制限のデータはインターネット接続を通してあなたの実際的な<b>maximum bandwidth最高帯域</b>と<b>both双方向</b>の伝送されます。加えてcFos と cFosSpeedの制御データは測定のためのping時間を常に<b>minimal最小限</b>とします。詳細については、<a class=\"inline\" href=\"/en/traffic-shaping/traffic-shaping.htm\">通信帯域制限の例題を参照してください</a>";
+ts_exp_t2 = "どのようにして自分自身でcFosのトラフィックが通信を改善しているか確認できますか？";
+ts_exp_t2a = "顕著な利点";
+ts_exp_p6 = "以下の効果を確認できます:";
+ts_exp_l1 = "スムーズなサーフィン/ Web内容の読み込み";
+ts_exp_l2 = "アップロード中の最大ダウンロード速度するアップロード中に速度";
+ts_exp_l3 = "アップロード、ダウンロード中やファイル共有中の低いpingの時間";
+ts_exp_l4 = "ゲームの接続ではが応答速度、即ちデータの転送に現れる";
+ts_exp_l5 = "IP電話(VoIP)接続においては線路クオリティ ";
+ts_exp_p7 = "これらを信じられないなら、自分で測定することができます:";
+ts_exp_a1 = "操作方法";
+ts_o_t1 = "それぞれの接続において、以下の方法で調整することができます。:";
+ts_o_l1 = "Medium中/Protocolプロトコル";
+ts_o_l2 = "Usesユーザー";
+ts_o_l3 = "Traffic Shaping Mode通信シェーピングモード (Multi-User versionマルチユーザー版)";
+ts_o_p1 = "ダイアログの中の <samp>optionsオプション/connections接続</samp>で <samp>medium dialog中ダイアログ</samp> をクリックによって開くことが出来る。 <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> そしてすべての接続に「medium中」を選択。引き続き以下の選択ができます。";
+ts_o_a1 = "Screenshotスクリーンショット";
+ts_o_l4 = "<b>Adaptiveアダプティヴ:</b> cFos/cFosSpeed はあなたの接続と自動で適応させます. どのような接続でもこの設定のみです。 それ以外の場合は、接続に適用される設定を選択します。接続形式を適切にすることにより、PINGの時間が少なくなります。";
+ts_o_l5 = "<b>DSL (PPPoE):</b> Most widespread DSL protocol (米国、ドイツ、東欧と一般の国での接続). ";
+ts_o_l5_a = "PPPoE の説明は wikipediaで";
+ts_o_l6 = "<b>DSL (PPPoA/Vcmux):</b>イギリスでの標準接続. ";
+ts_o_l6_a = "PPPoA の説明は wikipediaで";
+ts_o_l7 = "<b>DSL (PPPoA/LLC):</b>ときどきイギリスで使用される ";
+ts_o_l8 = "<b>DSL (PPTP):</b>古いDSL規格でフランスの一部で使用";
+ts_o_l8_a = "PPTP の説明は wikipediaで";
+ts_o_l9 = "<b>Cable有線TV:</b> テレビケーブルを通してのインターネット接続で、帯域幅わずか使用量が一日の時間に応じて変化 ";
+ts_o_l9_a = "Cable technique の説明は wikipediaで";
+ts_o_l10 = "<b>ISDN:</b> 8 か 16 kbytes,双方向のHDLCのフレーム内のPPP";
+ts_o_l10_a = "ISDN explanation の説明は wikipediaで";
+ts_o_l11 = "<b>IP over AAL5:</b> ATMによるIPデータ転送 ";
+ts_o_l11_a = "ATM Adaptation Layerの説明は wikipediaで";
+ts_o_l12 = "<b>RFC 1483/2684:</b> DSLでATM上でのブリッジング";
+ts_o_l13 = "<b>Frame Count:</b> 転送速度はデータパケットの時間当たりの間隔を送信の数によって異なります。時にはギリシャで使用される";
+ts_o_l14 = "<b>Mixed Raw IP/Frame Count:</b>ダウンストリームトラフィックのように「Frame Count」、アップストリームトラフィックは「Cable」のように処理される。くつかのケーブルプロバイダー<em>ish</em>のように使用します。";
+ts_o_p2 = "あなたが正確に伝達媒体/プロトコル知っていれば正しい中/プロトコルを設定します。よくわからない場合<samp>Adaptiveアダプティヴ</samp>を使ってください。";
+ts_o_p3 = "トラフィックシェーピングは、帯域幅可変で同時アップロードとダウンロードや複数のパソコンから中であってもpingの時間を最適化するように設計されます。目標は、インターネットのインタラクティブなアプリケーションの応答を維持することです。恒久的なファイル共有のトラフィック（P2P）の搭載したPCでは全体的な応答の影響を最小限とする事が必要です。最適なping時間は「fixed固定」の設定で、第二番目は「variable, cooperative可変の組合せ」となります。調整にはcFos Traffic Shapingを更に参照してください。";
+ts_o_p4 = "cFosSpeedマルチユーザ機能は、ネットワーク、複数のクライアントを含むトラフィックシェーピングをすることができます。例えばルータが複数のコンピュータがインターネットへのアクセスを提供するために、1つまたは より良いそれらのすべてのためにcFosSpeedをインストールすることができます。適切なトラフィックモードを形成選択することにより、全体の利用可能な帯域の最適な利用を実現することができます。";
+ts_ts_better = "= better良";
+ts_ts_title = "Use your real bandwidth実際の帯域幅を使用";
+ts_ts_t1 = "How does Traffic Shaping work?トラフィックシェーピングをどうします？";
+ts_ts_ani1_alt = "Normal data transfer通常データ転送";
+ts_ts_ani1_text = "Data reception needs to be confirmed (ACKnowledgment packets) before new data can be sent.データの受信（受信確認パケット）は、新しいデータが送信される前に確認する必要があります";
+ts_ts_ani2_alt = "No Traffic Shapingトラフィックシェーピングなし";
+ts_ts_ani2_text = "ACK packets are stalled and delayed by a simultaneous upload. As a result, the download is slowed down as well.ACKパケットが詰まると、同時アップロードも遅れている。その結果ダウンロードも遅くなる。";
+ts_ts_ani3_alt = "cFos Traffic Shapingトラフィックシェーピング";
+ts_ts_ani3_text = "ACK packets are prioritized in the upstream, allowing the download to continue at maximum speed.ACKパケットは上流側に、ダウンロードは最大速度で継続するよう優先されます。";
+ts_ts_p1 = "<b>cFos トラフィックシェーピングは、データ転送中に遅延を削減し、サーフィンに最大3倍高速インターネットをすることができます。つまり、あなたの接続の全帯域を使用できます！</b>";
+ts_ts_p2 = "TCP / IPの転送中は、一定量のデータは、受信時に詳細を送信する前に確認する必要があります。遅延や転送レートの低下でスタリングデータの確認の結果、このように強制的に送信者を待つ。特にDSLやケーブル、それが可能な息をとめダウンロードを遅らせるために這う様に上流チャネルへアップロードする（これはとにかく小さい帯域幅を持って）。これはこのようなシナリオのために十分な上流帯域幅はデータの確認のため残っていないです。";
+ts_ts_p3 = "標準的なソリューションは、これまでしようとするこのため、TCPウィンドウサイズを増やすことにより多くのデータを即座に確認なしで送信することによって補償されている。主な問題はここには、これはまた、高pingの時間（遅延につながる）とWebページのレンダリング中に大幅な遅延です。待ち時間は最大2秒の512kのサイズのTCPウィンドウの珍しいではない。要するに、巨大なウィンドウのサイズはちょうどあなたが完全なダウンロード速度を実現させません。";
+ts_ts_p4 = "対照的に、このような方法でcFosトラフィックシェーピングの優先順位は、、重要なパケットはを先に過通常のパケットを後回しにしています。この方法では、受信は常に時間通り到着し、アップロードは二度とあなたのブロードバンド接続を締め付けません！";
+ts_ts_p5 = "<em>cFos</em> トラフィックシェーピング技術は重要なパケットタイプの数を認識するだけでなく、インターネットのトラフィックはスムーズには実行も特に低いpingの時間の確保するため保つためにそれらを優先されます。これは、サーフィンとダウンロードを加速するだけでは無く、それはまたオンラインゲームに対しても決定的な利点があります。";
+ts_ts_p6 = "With cFos のトラフィックシェーピングを使えば、可能な改善と利益の測定ができます";
+ts_ts_l1 = "アップロード中の最大速度ダウンロード";
+ts_ts_l2 = "Webサーフィン中や他のアプリケーションを実行中の一貫して迅速な応答時間";
+ts_ts_l3 = "VoIP音声品質の改善";
+ts_ts_a1 = "私は如何にしてそれの利点を測定することができますか";
+ts_ts_a2 = "何かトラフィックシェーピングを行う他にありますか？";
+ts_ts_a3 = "ラフィックシェーピング / マルチユーザーバージョン";
+ts_ts_a4 = "cFosSpeed の特徴";
+ts_ts_t2 = "高速度, 低ping";
+ts_ts_p7 = "マルチダンロード、アップロード中のPing時間";
+ts_ts_p8 = "1-4 アップロード: Ping時間は<em>cFos</em>により一貫して低い, XPの ドライバでは \"システムの速度低下\"";
+ts_ts_p9 = "トラフィックシェーピングがなければ、TelnetまたはSSHセッションにおいてpingの時間が簡単に2秒に達する、場合によっては完全に参加不可能になります。しかし、<em>cFos</em>トラフィックシェーピングでの待ち時間は通常のままです。";
+ts_ts_p10 = "これだけで新しいサーフィンを感じることができます！";
+ts_ts_p11 = "また、Webをサーフィン中に、あなたは任意のデータ転送はバックグラウンドで実行しているハード処理のようである様に感じるでしょう。繰り返しますが、このような大幅な削減遅延は、特にオンラインゲームのための便利になるだろう。";
+ts_ts_p12 = "まず、の<em>cFos</em>トラフィックシェーピング測定は上流と下流のレートとping遅延をすべてのインターネット接続に適用します。その後、すべてのインターネットのデータ転送のスケジューリングを制御するため、この情報を使用します。また、トラフィックシェーピングは、必要に応じて個々の接続可能な帯域幅を動的に割り当てることをします。";
+ts_ts_p13 = "ACKを優先は<em>cFos</em>トラフィックシェーピングだけでなく、これらのTelnetやSSHを使用のような他の重要なパケットにも適用されます。したがって<em>cFos</em>トラフィックシェーピング、ファイル共有プログラムやメールのアップロードの接続等阻害する物を最終的に過去のものとします。";
+ts_ts_p14 = "しかし我々は言葉をとりません。自分だけで参照してください。";
+ts_ts_p15 = "cFosトラフィックシェーピングであなたの本当の帯域幅をお使いください!";
+ts_ts_t3 = "トラフィックシェーピングを行う他に何か？";
+ts_ts_p16 = "ACKパケットを優先に加えて、トラフィックシェーピングを実行するか、また次を実行することができます。";
+ts_ts_l4 = "<strong>RX シェーピング</strong><br />例えばダウンロード中の通信を阻害するその他のダウンロード中からpingの時間を保証するように残す。";
+ts_ts_l5 = "<strong>ACK-Filter</strong><br />TCP / IPのACKの最適化ために上流チャネルの帯域幅を利用できるようにする。";
+ts_ts_l6 = "<strong>個々のプログラムの優先順位付け</strong><br />ゲームのように他のものより低い優先順位を割り当てるが特に重要なアプリケーションのいくつかの余分な帯域幅を予約しようとして便利です。";
+ts_ts_l7 = "<strong>ボイスオーバーIP（VoIP）の音声品質</strong><br />を認識し、RTPパケットの優先順位によって改善される。";
+ts_ts_l8 = "<strong>レイヤ7解析</strong><br />HTTPやFTP、POP3、SMTP、ICMP、SSH、Telnetなどを介して他のプロトコルの優先順位付け、およびDNSは内蔵のプログラマブルフィルタリングルールを使用して行うことができます。";
+ts_ts_t4 = "自分でテストして!";
+ts_ts_p17 = "読み回数を比較しています";
+ts_ts_sum1 = "読み回数";
+ts_ts_p18 = "同時に1つのアップロードと2つのダウンロードを実行して、cFosはあなたはネットサーフィンをXPのドライバよりも<b>3倍速く</b>することができます!";
+ts_ts_p19 = "Date: 09/2004 - DSL 768/128 接続";
+ts_ts_p20 = "まず、心の中でその接続で最高の伝達速度になるように1つだけアップロードまたはダウンロードを使用し測定したテストをします。<em>cFos</em> トラフィックシェーピングの効果のため、あなたは、少なくとも2つの同時データを生成する必要があります。";
+ts_ts_p21 = "<em>cFos</em> と <em>cFosSpeed</em>のどちらでも 接続に対して自分自身を調整します。これが最良の結果は、これらのプログラムを使用して、通常その後数日間、多くのアップロードとダウンロード可能な限り完全な速度で実行するされるということです。";
+ts_ts_p22 = "今少なくとも5 MBの添付ファイル付きの電子メールを自分宛に送信します。標準的な接続では、これはあなたが測定に使用できる約5分間である必要があります。各テストの場合は、ブラウザのキャッシュをフラッシュし、Webサイトの読み込み時間が追跡する。すべてのテストの最大精度を複数回繰り返す必要があります。";
+ts_ts_p23 = "複合ダウンロード &amp; アップロード";
+ts_ts_p24 = "例として、1つのアップロード中の1つのダウンロード,  \"一般的\" な768 kbit/sDSL 接続でダウンロードレートは約 87 kbytes/sに達します、そしてアップストリームは大ざぱに言えば16 kbytes/sです. 11.5 kbytes/s の数字が可能なアップロードとなります、ここで残っている 4.5 kbytes/s がダウンロードセッションのためのハンドルデータとなります。";
+ts_ts_p25 = "ping時間の追跡するため1つの簡単正確な方法は<a href=\"/en/ping/ping.htm\"> <b>hrPing freeware utility</b>を使用すること</a>";
+ts_ts_a5 = "どのようなインターネットのチューニングの代替方法がありますか？";
+ts_ts_p26 = "すべての画像とテキストこのページで自由に渡すことができます。<br />をクリックすれば高解像度の画像。";
+youtube_speedwin7 = "WWindows7でのcFosSpeed インストールを見る";
+
+/ cFosSpeed additional pages
+adjust_speed_shaping = " - この機能のオンとオフ";
+autoarrange = "ウィンドウを自動設置する";
+auto_mtu = "自動MTUの最適化";
+autoopen = "自動的に開ける/閉める";
+bit_ver = "32ビットおよび64ビット版";
+blend_effect = "ウィンドウを挿入する";
+bodytitel_1 = "概要cFosSpeedメニュー（コンテキストメニュー）";
+broadband = "ブロードバンド：ケーブルやDSL";
+budget_settings = "予算設定";
+budget_settings_desc = "ここでは、予算設定の設定を行います。";
+cable = "ケーブル";
+clear_tsdata = "ケーブルデータを消去";
+clear_tsdata_desc = "cFosSpeedインストールディレクトリのファイルDATA.INIを削除すると<br />トラフィックシェーピングは、再校正する必要があります。";
+click_through = "クリックスルー";
+close_or_open = "- 開くか閉じて";
+closewindow = "ウィンドウを閉じる。";
+closewindows = "ウィンドウを閉じる。";
+config = "設定";
+connection_name = "接続の名前";
+connections = "接続";
+dupe_connections = "接続先";
+connect_to = "%?と接続";
+connect_to_desc = "ここではインストールされたすべてのWindowsブロードバンドとDUN接続を起動したり停止することができます。";
+conn_report = "接続の概要";
+days_plural = "テスト期間";
+defpos = "スタンダードな位置";
+disable_speed_shaping = "トラフック・シャーピングを無効にする";
+disco_ras = "切断";
+dsl_ppoa = "DSL, PPPoA (Vcmux と LLC)";
+ebay_at_our_page = "我々の <b><a href=\"http://members.ebay.de/aboutme/cfos_de/\">Ebayにおける <img src=\"http://pics.ebaystatic.com/aw/pics/aboutme-small.gif\" alt=\"about me\" align=\"absmiddle\" border=\"0\" /> サイト</a></b>";
+ebay_bidding = "あなたは入札する";
+ebay_delivery = "支払いプロセスの完了後、ライセンスは電子メールよって提供され、お客様アドレスに配信されます。";
+ebay_download_link = "ダウンロード <b>30日間無料試用版</b>";
+ebay_download_link2 = "我々の <b>ドイツの <a href=\"http://members.ebay.de/aboutme/cfos_de/\">Ebayにおける <img src=\"http://pics.ebaystatic.com/aw/pics/aboutme-small.gif\" alt=\"about me\" align=\"absmiddle\" border=\"0\" /> サイト</a></b>で、 <b>30日間無料試用版</b> (30 Tage Testversion)がダウンロード できます.";
+ebay_fees = "すべての ebay 費用はthe cFos Software GmbHが負担します";
+effects = "効果";
+enable_speed_shaping = "トラフック・シャーピングを有効にする";
+extras = "特記事項";
+features_title = "cFosSpeed 機能の一覧";
+filter = "フィルタ言語での個々のルール";
+graph_title = "グラフ使用";
+graph_title_desc = "the cFos Speedオンライン予算のためにグラフ表示";
+ip_aal = "IP オーバー AAL";
+l7_prot = "L7 プロトコル解析";
+license = "ライセンス認証";
+license_desc = "ここに残りの時間か既に登録されている場合にはライセンス番号を見ることができます";
+openwindow = "ウィンドウを開く。";
+openwindows = "ウィンドウを開く。";
+product = "シフォス・スピード";
+select_language = "言語選択";
+selectskin = "スキンを選ぶ";
+send_burst = "校正シグナルを送信";
+settings = "設定";
+slide_effect = "ウィンドウの向きを変える";
+taskbaricon = "タスクバーアイコン";
+upgrade = "新しいプログラムをダウンロードする。";
+win_behaviour = "システム設定を利用する";
+winsettings = "ウィンドウを設定する。";
+
+/ PNet additional pages
+
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+bc_doc_p1 = "ブロードバンド接続cFos高性能ダイヤルされ、高帯域幅を持つインターネットアクセス用のドライバを開設する。一方、ドライバはWindowsのみで4.5メガバイトまで転送することができます出荷/秒（= 36 Mbit /秒）、ブロードバンド接続cFos 50バイトの送信/秒（= 400 Mbit /秒）です<br /> <i>ギガビットでテスト済み無線LANは、ペンティアム4（3GHzの）。</i>";
+bc_doc_p2 = "ブロードバンド接続cFos、最小限のCPU負荷の下での最大スループットのために設計されます。これは、実際のインターネットアプリケーションには、CPUの消費電力の葉、メディアプレーヤー、などなどフルスピードでブロードバンド接続cFosはわずか3％のCPU時間が必要です。";
+bc_doc_p3 = "ブロードバンド接続cFosすべての重要なPPPoEのパラメータをサポートしています。これらを簡単に電話番号の接続は、ダイヤルアップを使用して構成できます。自動で検出ブロードバンド接続cFos、すべてのインターネットへのアクセスをシステムに接続点を求める。";
+bc_doc_p4 = "ブロードバンド接続は、着信コールを受け入れることができますcFos。それをセットアップできる独自のPPPoEサーバー。これは、ギガビットイーサネットカードを使用して独自のスピードテストができます。";
+bc_doc_p5 = "ブロードバンド接続、複数のPPPoEセッションを同時に可能にcFos。着信および発信のセッションの任意の番号を使用することができます。特定のサービスやアクセスポイントへの接続を制限することができるサービスの名前'と'とのAC名'パラメータを示します。";
+bc_doc_p6 = "ブロードバンド接続Vista/7の下で、それはさらに、ネットワークのパフォーマンスを提供するNDISの6をサポートcFos。";
+bc_doc_p7 = "ブロードバンド接続して、cFosSpeed cFos：完璧なチーム。高性能なデータ転送を加え、トラフィックシェーピング、すなわち。最大帯域幅を最小限にpingします。";
+bc_doc_t1 = "パラメータの cfosBC.ini, セクション [param]:";
+bc_faq1 = "場合、私は使用する必要があり <em>ブロードバンド接続cFos</em>?";
+bc_faq2 = "ここで私の質問について尋ねることができます <em>ブロードバンド接続cFos</em>?";
+
+/ oem
+
+/ asus
+asus_p1 = "場合は、右を使用して、特定のマザーボードとしての顧客としてASUS ROG GameFirst I&amp;II / Turbo LANの恩恵を受ける！これは、フル機能、無制限のトラフィックシェーピングソリューションcFosSpeedによって供給されます。私たちはあなたを可能ASUS ROG GameFirst I&amp;II / Turbo LANのバージョンを使用して速度をお楽しみください！";
+asus_p2 = "さらに微調整オプションも、最も最近の専門cFosSpeedバージョンが利用可能です。";
+asus_a1 = "することができます <a class=\"inline\" href=\"/en/download/download.htm\">ダウンロードはここcFosSpeed</a>.";
+asus_a2 = "ここでは <a class=\"inline\" href=\"features.htm\">追加機能の一覧</a>.";
+asus_af_title = "のその他の機能cFosSpeed";
+asus_af_l1 = "<b>マルチユーザー版</b>、1つのルータ上で協調的な形でインターネット接続を使用して複数のPCをサポートします。";
+asus_af_l2 = "<b>改善された検出し、トラフィックの分類</b> とレイヤ7プロトコルの優先順位は、HTTPは、SSL、SSHの一括検出、送受信の優先順位。改善されたボイスオーバーIP（VoIP）をサポートします。";
+asus_af_l3 = "<b>新しいピンガー</b> 回線の混雑や帯域幅をより確実に検出します。";
+asus_af_l4 = "<b>リアルタイムでトラフィックを分析</b> ステータスウィンドウです。";
+asus_af_l5 = "<b>細かいチューニングオプション</b>: 接続中の選択、送受信＆テキサス制限速度は、DSCP / VLANタギング/フィルタリング。";
+asus_af_l6 = "<b>追加機能</b>: オートファイアウォール、ボリュームをフルスクリーン（ゲームモード）、上の非表示 &amp; オンラインの時間のカウンタは、IPフィルタリスト/ブロックを示します。";
+
+/ asrock
+asrock_p1 = "場合は、右を使用して、特定のマザーボードとしての顧客としてASRock XFast LANの恩恵を受ける！これは、フル機能、無制限のトラフィックシェーピングソリューションcFosSpeedによって供給されます。私たちはあなたを可能ASRock XFast LANのバージョンを使用して速度をお楽しみください！";
+
+/ special price
+
+/ contact
+
+/ link_programm
+
+/ press
+web_site = "ホームページ";
+press_artwork = "に記事のために無料で使えるアートワーク、スクリーンショット、ボックスショットがあります";
+press_download = "cFosSpeedは30日間の体験版(<a href=\"/en/download/download.htm\">http://www.cfos.de/download</a>にて無料ダウンロード)あるいはバージョン4.09完全版のいずれかが入手可能";
+press_os = "推薦動作環境: ウィンドウズ7、Vista、XPおよびServer 2003/2008 (x86とx64版)";
+press_web_reference = "英語およびドイツ語と個々のセクションでほかに26の言語";
+press_boilerplate = "配給記事";
+press_boilerplate_text = "cFosソフトウェア有限会社、ボン(ドイツ)は、1993年以より異なるオペレーティング・システムのためのファインチューニング・コミュニケーションドライバを開発しています。当社の主な製品はブロード バンドのための高性能トラフィックシェーピングドライバー「cFosSpeed」IPv6ダイヤルアップドライバー/ソフトウェアルータ「cFos IPv6 Link」および「cFos」と高機能DSL / ISDNダイヤルアップドライバー「cFosブロードバンドコネクト」です。";
+legal_note = "このサイトのご利用について";
+legal_note_text = "当社は、cFos、cFosブロードバンドコネクト、cFos IPv6 Link、およびcFosSpeedの最も最近リリースされたシェアウェアバージョンを雑誌の付録CDに収めることを許可するものとします。 その他のライセンシングに関しては、当社のライセンステキストファイル( <a href=\"/en/cfosspeed/license.htm\">LICENCE.TXT</a> )を参照してください。 当社ホームページ上のテキストおよびアートワークは評価目的として雑誌等に利用可能です。";
+
+/ speed guide
+
+/ speed test
+
+/upload
+
+/videos
+
+/meta descriptions
+
+/mailing lists
+
+/ countrynames
+
+/ no translation  -  currency info for order form exchange rates only - do not modify!
+currency_4217 = "JPY";
+currency_prefix = "¥";
+currency_suffix = "";
+selected_value = "Japan";
+
+

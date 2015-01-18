@@ -1,0 +1,73 @@
+#language 1081
+#fallback 1033
+#charset 0
+
+language = "Hindi";
+lang_key = "_in";
+input_lang = "hi";
+
+
+/ navigation
+
+/ index2
+
+/ download
+
+/ order
+bank_de_account = "227010100016339";
+bank_de_account_owner = "Yashpal Shah";
+bank_de_bic = "";
+bank_de_blz = "";
+bank_de_iban = "";
+bank_de_iban_hint = "";
+bank_de_name = "Axis Bank | IFSC Code: UTIB0000227";
+currency_abbr = "Rs.";
+currency_sign = "Rs.";
+f_trans_text2 = "Transfer to our official local Agent for cFos India.";
+special_price_for = "Special price for citizens of India.";
+
+/ Order and Announcelist Confirmation Email
+
+/ cFosSpeed
+
+/ cFos IPv6 Link
+
+/ cFos BC
+
+/ cFos
+
+/ FAQ
+
+/ support
+
+/ traffic shaping
+
+/ cFosSpeed additional pages
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+
+/ oem
+
+/ asus
+
+/ special price
+
+/ contact
+
+/ link_programm
+
+/ press
+
+/ speed test
+
+/ countrynames
+
+/ no translation
+currency_4217 = "INR";
+currency_prefix = "Rs.";
+currency_suffix = "";
+selected_value = "India";
+
+

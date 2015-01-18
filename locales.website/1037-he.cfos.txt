@@ -1,0 +1,415 @@
+#language 1037
+#fallback 1033
+#charset 0
+
+language = "Hebrew";
+lang_key = "_il";
+input_lang = "he";
+
+/ test purposes, don't translate!
+
+/ navigation
+link_text_contact = "צור קשר";
+link_text_download = "הורדה";
+link_text_forum = "פורום";
+link_text_oem_version = "OEM גירסת";
+link_text_order = "הזמנה";
+link_text_press_releases = "קטעי עיתונות";
+link_text_sitemap = "מפת אתר";
+link_text_support = "תמיכה";
+
+/ index2
+desc_6link = "קישוריות ipv6 עבור חלונות XP, VISTA וחלונות 7";
+desc_dialup = "חייגן אינטרנט";
+desc_shaping = "האצת האינטרנט ע'י עיצוב התעבורה";
+freeware_text1 = "גירסה חדשה של cFosSpeed זמינה:";
+freeware_text2 = "עיצוב תעבורה משופר: רוחב-פס מקסימלי, פינג מינימלי! הורד עכשיו: ";
+slogan = "השתמש ברוחב-הפס האמיתי שלך:<br /> מהירות גבוהה, פינג נמוך.";
+special_offer_xmas = "הצעת חג המולד! <span class=\"red\">מחירים מיוחדים</span> עד ה-22 לדצמבר!";
+special_offer_xmas_2 = "(due to weekend prolonged until January 2nd, 2011)";
+worldcup_sale = "מחירים מיוחדים במשך אליפות העולם!"; / FIFA Soccer World Cup
+translation_text1 = "עמוד זה לא תורגם באופן מלא!";
+translation_text2 = "קבל רשיון חופשי (cFos, cFosSpeed or cFosBC) בעבור עזרה עבורנו.";
+translation_text3 = "מידע נוסף";
+word_new = "חדש";
+word_newversion = "גירסה חדשה";
+countdown1 = "רק <span class='number'>X</span> יום נותר!";
+countdown2 = "רק <span class='number'>X</span> ימים נותרו!";
+countdown3 = "רק <span class='number'>X</span> ימים נותרו!";
+countdown5 = "רק <span class='number'>X</span> ימים נותרו!";
+
+/ download
+additional_downloads = "הורדות נוספות";
+add_lang_text = "שפות נוספות עבור cFosSpeed";
+alt_cfosbc_image = "cFosBC תמונה";
+alt_cfos_image = "cFos תמונה";
+alt_speed_image = "cFosSpeed תמונה";
+black = "שחור";
+cfnotify_text = "תוכנת-עזר להצגת צלמיות בשורת המשימות שלך. בשימוש לדוגמא בעזרת  cFos caller monitor";
+cfosbc_text = "חייגן עבור אינטרנט מהיר.";
+cfosconnect_text = "מעקף של בעיות שנגרמות עי t-online וספקי אינטרנט אחרים";
+cfos_other_text = "חייגן מתאם ISDN ו ATM עם Traffic Shaping- גם עבור מודם";
+cfos_text = "חייגן מתאם ISDN - גם עבור מודם";
+disclaimer = "כתב-ויתור";
+disclaimer_text = "כשרות עבורך, הכנו את הגרסא המקומית של cFos/cFosSpeed זמינה להורדה חופשית. מאחר והתוספות החינמיות הללו נוצרו עי משתמשים עבור משתמשים, cFos Software GmbH לא לוקחת אחריות משפטית או מספקת תמיכה טכנית עבור אף אחת מהן.<br />בכל שאלה שנוגעת לגרסא המקומית, יש לפנות למחבר ישירות. למרות זאת, במידה ונתקלת בבעיות תרגום משמעותיות, השמטת קטעים או אי סדירויות (מכוונות או טעויות) אנא פנה אלינו על מנת שנוכל לבדוק את הנושא.";
+download_for = "הורד עבור";
+downloads = "הורדות";
+download_x64_for = "הורדה עבור גרסאות x64";
+download_x86x64_for = "הורדה עבור גרסאות x86 + x64";
+email = "דואל";
+for = "עבור";
+freeware_programs = "תוכנות חופשיות";
+gadget = "תוסף cFosSpeed עבור Vista";
+gadget_text = "תוסף cFosSpeed עבור Vista/7<br /><span class=\"smalltext\" style=\"line-height: 12px\"><br /><b class=\"red\">Note</b>: אם אתה מקבל הודעת שגיאה מסוג &quot;<b>Can't create automation object</b>&quot; לאחר התקנת התוסף, אנא בצע את הדברים הבאים:<br /><b>1</b>. בדוק את גרסאת התוכנה cFosSpeed<br />&nbsp;&nbsp;&nbsp;&nbsp;(4.24 או גבוה יותר חובה)<br /><b>2</b>. אתחל את המחשב שלך</span>";
+grey = "אפור";
+gadget_title = "תוסף cFosSpeed";
+hacks_cracks = "דעתנו על <br /> פריצות &amp; פיצוח";
+hint = "רמז";
+hrping_text = "אפליקציית ping מדוייקת מאד עם תכונות מתקדמות ואפשרויות סטטיסטיקה משופרות";
+just_cfos = " עבור cFos בלבד";
+just_speed = " עבור cFosSpeed בלבד";
+mugstore_header = "כוסות מאג של cFos ב mugstore.de";
+mugstore_text = "בכל שנה, כוסות המאג האילו מעוצבות באופן אקסקלוסיבי עבור cFos Software GmbH וניתנות לידידי החברה בתור מתנת חג המולד. הן מכבדות יצירות אומנות ידועות או סרטים פופולארים, כולן מאוגדות תחת הנושא &quot;cFos&quot;.<br /><br /> הוכנו בעבר במספר מצומצם, זמינות כיום עבור כל אחד ב <br />";
+other_languages = "שפות נוספות";
+other_systems = "עבוד מערכות הפעלה נוספות";
+rnahelp_text = "תוסף אוטומטי עבור חיבורי אינטרנט";
+sk_classic = "מעטפת cFos קלאסית";
+sk_classic_text = "The classic cFos Skin";
+sk_froghut = "מעטפת Froghut Title Bar";
+sk_froghut_text = "מעטפת Froghut Title Bar (by Björn v. d. Osten)";
+sk_grant = "מעטפת Grant's";
+sk_grant_text = "מעטפת Icon (by Grant Brunton)";
+skins = "מעטפות";
+sk_history_text = "מעטפת Liquid Crystal עם סרגל היסטוריה";
+sk_modern = "מעטפת cFos מודרנית";
+sk_mon_txt = "מעטפת cFos Monitor Text";
+sk_mon_txt_525 = "מעטפת cFos Monitor Text Skin 5.25";
+sk_mtin = "מעטפת MTiN's";
+sk_mtin_text = "מעטפת Minimal (by MTiN)";
+sk_netmedic = "מעטפת rx/tx (+ Icon)";
+sk_netmedic_text = "מעטפת Send/Receive and מעטפת Icon (by Ilya Dedinsky)";
+sk_offchu_text = "מעטפת Slim horizontal Liquid Crystal (by offchu)";
+sk_offchu_history_text = "מעטפת Slim horizontal Liquid Crystal History (by offchu)";
+sk_shinnher = "מעטפת Shinnher's";
+sk_shinnher_text = "מעטפת Liquid Crystal שונתה עי Shinnher";
+sk_shinnher_text_black = "מעטפת Shinnher's עם רקע שחור שונה עי Scott";
+sk_shinnher_text_grey = "מעטפת Shinnher's עם רקע אפור שונה עי Scott";
+sk_shinnher_text_trans = "מעטפת Shinnher's עם רקע שקוף שונה עי Scott";
+sk_txt = "מעטפת cFos Text";
+sk_txt_text = "מעטפת cFos Text, עבור כל אילו שמתגעגעים למעטפת הישנה והטובה.<br />(רמז: התקנה לתוך תיקיית  'modern'- בלבד)";
+speed_text = "קישור אינטרנט מהיר יותר עם Traffic Shaping";
+submit = "שלח";
+transparent = "שקוף";
+updates = "עדכונים";
+updates_text = "כן, אני רוצה להתעדכן כאשר ישנה גרסא חדשה של cFos או cFosSpeed.";
+version = "גרסא";
+watch_text = "חוסם חיוגים והגנה בפני וירוסים עי חסימה התנהגותית";
+whats_new = "מה חדש בגרסא זו";
+zip_tip = "ניתן לפרוס את קבצי ה ZIP בעזרת תוכנות לדוגמא אילו <a class=\"inline\" href=\"http://www.pkware.com\">PKZIP</a>, <a class=\"inline\" href=\"http://www.winzip.de\">WinZIP</a> or <a class=\"inline\" href=\"http://www.info-zip.org/\">Info-ZIP</a>";
+cfos6link_text = "קישוריות IPV6 עבור חלונות XP, VISTA וחלונות 7";
+
+/ order
+by_phone = "תמיכה, הזמנה דרך הטלפון";
+buy_now = "קנה עכשיו";
+conf_cc = "תשלום בכרטיס אשראי";
+conf_check_order = "בדוק את הזמנתך";
+conf_deliverer = "הזמנתך";
+conf_delivery_condition = "משלוח לאחר אישור ההעברה";
+conf_doctitle = "אישור הזמנה";
+conf_email_express = "משלוח מהיר דרך הדואל לכתובת המצויינת לעיל";
+conf_email_ok = "האם איית את כתובת הדואל בצורה נכונה?";
+conf_formerror_cc = "שדה החרכי חסר! שגיאה במספר הכרטיס: המספר צריך להיות בעל 13 ספרות לפחות. לעיתים קרובות ישנן 4 ספרות באיזור ההולוגרמה! כמו כן, נא לא להשתמש במספר מכרטיס אי-שיק, אלא רק בכרטיסי אשראי אמיתיים";
+conf_formerror_email = "כתובת דואל חסרה או שגוייה";
+conf_formerror_email_express = "משלוח מהיר ואפשרות COD הם באישור מיוחד. אנא לחץ על כפתור 'אחורה' בדפדפן ובחר אפשרות תשלום אחרת.";
+conf_formerror_hint_kk = "סיפקת פרטי כרטיס אשראי, אבל בחרת צורת תשלום אחרת.";
+conf_formerror_hint_ls = "סיפקת פרטי בנק, אבל בחרת צורת תשלום אחרת.";
+conf_formerror_lastschrift = "אנא בדוק את פרטי חשבון הבנק שלך.";
+conf_formerror_missing_entry = "שדה הכרחי חסר!";
+conf_formerror_not_complete = "ההזמנה שלך לא הושלמה. אנא השתמש בכפתור 'חזור' בדפדפן שלך ומלא את הפרטים ההחסרים.";
+conf_fromerror_license = "אנא השתמש בכפתור 'חזור' של הדפדפן ואשר שקראת והסכמת לתנאי השירות של cFos!";
+confident = "חשאיות: המידע שסיפקת כאן יהיה בשימוש בהזמנה זו בלבד ולא יועבר לגורמים אחרים.";
+conf_moneybookers_trans = "העברת כספים Moneybookers";
+conf_moneybookers_text = "אנא הכנס &quot;<strong>[%$1_name%]</strong>&quot; את סיבת התשלום לתוך שדה ה moneybookers &quot;<strong>eMail-Betreff</strong>&quot;";
+conf_nn = "C.O.D. תשלום (4,- &#8364; postage fee)";
+conf_payment = "תשלום";
+conf_paypal_sendinfo = "(במידה וקישור ה PAYPAL לא עובד אנא שלח את התשלום לחשבון ה PAYPAL שלנו.)";
+conf_paypal_text = "אנא הכנס &quot;<strong>[%$1_name%]</strong>&quot; בתור סיבת התשלום לתוך שדה  PayPal &quot;<strong>eMail-Betreff</strong>&quot;";
+conf_paypal_trans = "תשלום דרך PayPal";
+conf_please_click_on = "אנא לחץ";
+conf_proforma = "אנו נשלח לך אישור הזמנה. לאחר הסדרת התשלום אנו נשלח לך את רשיון תוכנת ה cFos.";
+conf_so_we_can_process = ", על מנת שנוכל לעבד את הזמנתך";
+conf_submit_order = "אשר הזמנה";
+conf_sum = "סכום";
+conf_trans_account = "חשבון בנק";
+conf_trans_blz = " מספר הבנק";
+conf_trans_fee_hint = "אנא כסה את כל החיובים ועמלות הבנק לטובת העברת הכסף.";
+conf_trans_int = "העברה מחו'ל";
+conf_trans_reason = "סיבת התשלום";
+conf_trans_reason_hint = "הכנסת השם שלך בתור סיבת התשלום היא הכרחית לעיבוד ההזמנה.";
+conf_trans_to = "אל";
+conf_trans_within_de = "העברה בתוך גרמניה";
+conf_webmoney_trans = "העברת Webmoney";
+conf_webmoney_text = "צוות ההזמנות שלנו יעבד את הזמנתך וישלח לך דואל חדש עם מידע נוסף (order-number, WMID and WM-Purse). אנא אל תעביר כסף לפני שאתה מקבל את הדואל הנ'ל. תודה רבה!";
+f_agent_text = "רכוש מנציגות שלנו בישראל";
+f_announce = "כן, אני רוצה לקבל אתרעות כאשר יוצאות גרסאות חדשות של התוכנות.";
+f_cc = "כרטיס אשראי";
+f_cc_date = "תאריך תפוגה";
+f_cc_holder = "בעל הכרטיס";
+f_cc_number = "מספר הכרטיס";
+f_cc_vercode = "מספר ביטחון";
+f_cc_vc_where = "איך למצוא את מספר הבטחון?";
+f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>:<br />מספר הבטחון בן 3 הספרות ממוקם בגב כרטיס האשראי - או 3 הספרות באיזור החתימה או בצד ימין מעל איזור החתימה.<br/><b>American express</b>:<br />קוד הבטחון בעל 4 ספרות ממוקם בחזית הכרטיס בפינה הימנית העליונה.";
+f_checkbox_license_text_bconnect = "קראתי את  <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos Broadband Connect תנאי ההסכם</a> ואני מבקל את התנאים וההגבלות..";
+f_checkbox_license_text_cfos = "קראתי את <a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos תנאי ההסכם</a> ואני מבקל את התנאים וההגבלות..";
+f_checkbox_license_text_ipv6 = "קראתי את <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\">cFos ipv6 Link תנאי ההסכם</a> ואני מבקל את התנאים וההגבלות..";
+f_checkbox_license_text_speed = "קראתי את <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed תנאי ההסכם</a> ואני מבקל את התנאים וההגבלות..";
+f_city_postcode = "מיקוד, עיר";
+f_deliverto_list_02 = "האם הכל מאויית תקין?";
+f_deliverto_list_03 = "האם תווים מיוחדים <span style=\"background-color: #ffffe0; font-weight: bold\">&nbsp;. - _&nbsp;</span> הוקשו נכון?";
+f_email = "דואל";
+f_express = "מהיר";
+f_express_text = "משלוח דרך דואל. כתובת הדואל לעיל חייבת להיות כתובת תקנית.";
+find_serial = "רמז: אתה יכול למצוא את המספר הסידורי שלך ע'י לחיצה על סמל cFos בשורת המשימות. חפש את השורה השניה מלמעלה בתוך הטקסט..  (לדוגמא cF1234)";
+firmenkunden_text_bconnect = "לקוחות עסקיים הם משתמשים אשר יכולים לקזז את cFos Broadband Connect מהמיסים שלהם. ארגונים ללא מטרת רווח מיוחסים כלקוחות פרטיים. אם ברצונך להזמין את cFos Broadband Connect כלקוח פרטי, אנא השתמש ב <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">טופס הזמנה ללקוחות פרטיים</a></b>.";
+firmenkunden_text_cfos = "לקוחות עסקיים הם משתמשים אשר יכולים לקזז את cFos מהמיסים שלהם. ארגונים ללא מטרת רווח מיוחסים כלקוחות פרטיים. אם ברצונך להזמין את cFos כלקוח פרטי, אנא השתמש ב <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">טופס הזמנה ללקוחות פרטיים</a></b>.";
+firmenkunden_text_ipv6 = "לקוחות עסקיים הם משתמשים אשר יכולים לקזז את <em>cFos ipv6 Link</em> מהמיסים שלהם. ארגונים ללא מטרת רווח מיוחסים כלקוחות פרטיים. אם ברצונך להזמין את cFos ipv6 Link כלקוח פרטי, אנא השתמש ב <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">טופס הזמנה ללקוחות פרטיים</a></b>.";
+firmenkunden_text_speed = "לקוחות עסקיים הם משתמשים אשר יכולים לקזז את cFosSpeed מהמיסים שלהם. ארגונים ללא מטרת רווח מיוחסים כלקוחות פרטיים. אם ברצונך להזמין את cFosSpeed כלקוח פרטי, אנא השתמש ב <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\">טופס הזמנה ללקוחות פרטיים</a></b>.";
+f_land = "מדינה";
+f_license = "רשיון";
+f_moneybookers_text = "אנא שלח את התשלום לחשבון ה Moneybookers הבא:";
+f_nachname_text = "בתוך גרמניה בלבד, +4 &#8364; עמלת דואר";
+f_name = "שם";
+f_optional = "אופציונלי";
+f_webmoney_text = "אנו נשלח לך דואל עם פרטי תשלום דרך Webmoney לאחר שנעבד את הזמנתך";
+for_business_users = "ללקוחות עסקיים";
+for_dos_w311_os2  = "עבור DOS | OS/2 | Windows 3.x";
+for_existing_users = "ללקוחות קיימים";
+form_subtitel_contact = "פרטי התקשרות";
+form_subtitel_order = "הזמנתך";
+form_subtitel_payment = "תשלום";
+form_title_c = "טופס הזמנה ללקוחות עסקיים";
+form_title_n = "טופס הזמנה ללקוחות פרטיים";
+for_osnt = "עבור Windows 8/7/Vista/XP/2000 + Server 2003 &amp; 2008 + x86/x64 Edition";
+for_osxp = "עבור Windows 8/7/Vista/XP + Server 2003 &amp; 2008 + x86/x64 Edition";
+for_private_users = "עבור לקוחות פרטיים";
+for_win = "עבור Windows 95/98/ME";
+f_paypal_text = "אנא שלח את התשלום לתוך חשבון PayPal הבא:";
+f_phone = "טלפון";
+f_poll = "באיזו מערכת הפעלה אתה משתמש?";
+f_proform_national = "אישור הזמנה";
+f_proform_text = "אנו נשלח לך אישור הזמנה. לאחר קבלת התשלום אנו נשלח לך את cFosSpeed. האלטרנטיבה ל C.O.D. אנא כלול את כל העמלות הקשורות להעברת מטבע זר ולבנקים.";
+f_street_adress = "שם הרחוב";
+f_trans_ger = "העברה";
+f_trans_text1 = "משלוח רק לאחר אישור התשלום.";
+f_trans_text2 = "אנא כלול את כל העמלות הקשורות להעברת מטבע זר ולבנקים.";
+f_trans_text3 = "<b>מדינות האיחוד הארופאי</b>: עמלות וחיובים עבור העברות בנקאיות או העברות כספים בתוך אירופה הן <b>נמוכות</b> כמו אילו עבור פעולות מקומיות! הנושא מוחל על על המדינות הבאות: אוסטריה, בלגיה, פינלנד, צרפת, גרמניה, יוון, אירלנד, איטליה, לוקסמבורג, מלטה, הולנד, פורטוגל, סלובקיה, סלובניה, ספרד וקפריסין.";
+f_trans_text4 = "אתה יכול להעביר כסף לתןך חשבון הבנק שלנו במדינתך.";
+f_vat_number_text = "הזמנות ממדינות אחרות אך בתוך אירופה, יכולות להתנהל ללא מס, אם ציינת את המס שצריך לשלם. לא. באן. בכל מקרה אחר מס גרמניה יוחל.";
+f_word_poll = "סקר";
+f_your_number = "מספר ההזמנה שלך";
+incl_vat_ship = "המחיר כולל מס גרמניה ואת המשלוח.";
+lifetime_updates = "עדכונים לכל החיים";
+lifetime_updates_text = "אתה יכול להוריד את הגרסאות החדשות למערכת ההפעלה שלך ולהתקין על גרסאות קיימות.";
+office_time = "בימי שני עד שישי בין השעות 9:00 לצהריים (CET)";
+only = "רק";
+only_here = "(קיים בלעדית אצלנו!)";
+order_form = "טופס הזמנה";
+order_page_title = "דפי הזמנה";
+paypal_form_item_name = "cFos Software GmbH - רשיון";
+paypal_form_pay_now = "שלם כעת עם PayPal";
+private_users = "לקוחות פרטיים";
+private_users_text = "לקוחות פרטיים מזמינים כאן! אם אתה יכול לנכות את המוצרים שלנו מהמיסים שלך, אנא עבור אל: ";
+spbc_text = "רשיון 1 cFosSpeed license + 1 cFos Broadband Connect במחיר מיוחד";
+spbc_title = "הצעה מיוחדת להשקה";
+special_conditions = "תנאים מיוחדים";
+special_conditions_text_bconnect = "אם אתה מתכוון להזמין את <em>cFos Broadband Connect</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a>. אנו נשלח לך הצעה מיידית.";
+special_conditions_text_cfos = "אם אתה מתכוון להזמין את <em>cFos</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a>. אנו נשלח לך הצעה מיידית.";
+special_conditions_text_ipv6 = "אם אתה מתכוון להזמין את <em>cFos ipv6 Link</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a>. אנו נשלח לך הצעה מיידית.";
+special_conditions_text_speed = "אם אתה מתכוון להזמין את <em>cFosSpeed</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a>. אנו נשלח לך הצעה מיידית.";
+special_offer = "הצעה מיוחדת";
+special_price_for = "מחירים מיוחדים לאזרחי המדינה שלך.";
+th_order_date = "תאריך ההזמנה";
+th_paypal_text = "אנו נשלח לך לינק ל PayPal <strong>ביום העסקים הבא</strong>. הוא יכלול את כל המידע הנדרש להשלמת התשלום. אם ברצונך לזרז את ההזמנה אתה יכול לשלם כעת. עבור לאתר  PayPal  (מצ'ב לינק) והכנס את כל הפרטים באופן ידני. אנא הכנס את שמך בשדה  \"email subject\". המשלוח יתבצע לאחר אישור התשלום.";
+th_text = "הבקשה הועברה לצוות ההזמנות שלנו והיא תטופל <strong>היום או למחרת</strong>.<br /> אתה תקבל דואל אישור לאחר שצוות ההזמנות שלנו יכניס את ההזמנה למערכת.";
+th_thanks = "תודה רבה!";
+th_thanks_order = "תודה לך על הזמנתך!";
+validation_lifetime = "כולל עדכונים עתידיים";
+word_conditions = "תנאים";
+word_hint = "פתק";
+word_important = "חשוב";
+word_invoice_number = "מס' הזמנה";
+word_license = "רשיון";
+word_lifetime_license = "רשיון לכל החיים";
+word_lifetime_update_pack = "עדכונים לכל החיים";
+word_month = "חודש";
+word_serial_number = "מספר סידורי";
+word_service = "שירות";
+word_submit_order = "שלח הזמנה";
+word_year = "שנה";
+
+/ Order and Announcelist Confirmation Email
+em_noreply = "זהו דואל אוטומטי. אנא אל תשיב. אם אתה לא שומע מאיתנו במשך 1-2 ימי עסקים, אנא לחץ כאן:  http://www.cfos.de/he/contact/msgpost.htm ";
+
+/ cFosSpeed
+a_games = "כיצד אני יכול להאיץ את משחקי הרשת שלי?";
+a_p2p = "Traffic Shaping עבור שיתוף קבצים (P2P)";
+a_surf = "כיצד אני יכול לגלוש ברשת מהר יותר?";
+a_voip = "איכות דיבור מעולה בשירותי VIOP";
+dupe_a_voip = "איכות דיבור טובה עם (VoIP) (german)";
+budgets = "תקצוב אונליין";
+desc_cfosbc = "<b>cFosBC</b>, חייגן באיכות עבודה גבוהה עבור חיבורי רשת מהירים";
+firewall = "חומת אש";
+header_features = "פיצ'רים";
+highlights = "תכונות בולטות";
+highlight1 = "התוכנה מונעת מתוכנה אחת (לדוגמא שליחת דואר) לחנוק את הגישה לאינטרנט מתוכנות אחרות כגון שיחות טלפון, צ'אטים וכדומה.";
+highlight2 = "התוכנה שומרת על זמן פינג נמוך, כך שתוכל לשחק משחקי רשת ולהוריד קבצים בעת ובעונה אחת.";
+highlight3 = "כל חבילות המידע החשובות מתועדפות באופן אוטומטי על פני אלו בעלות חשיבות נמוכה. על ידי שימוש בתעדוף תוכנות ופרוטוקולים, ביכולתך להגדיר, לשנות ולהוסיף תוכנות חדשות.";
+highlight4 = "ניתוח נתונים בזמן אמת: באמצעות חלון הסטטוס החדש ניתן לזהות בקלות אילו זרמי נתונים אתה שולח ומקבל.";
+highlight5 = "התוכנה עובדת עם DSL, כבלים, WLAN, CDMA2000, UMTS, WCDMA, Modem, ISDN, broadband mobile (2G / 3G).";
+highlight6 = "הסבר מפורט של עיתוב התעבורה של התוכנה ניתן לקרא <img src=\"sp_link_bottom_right.png\" width=\"6\" height=\"11\" alt=\"\" /><a href=\"/en/traffic-shaping/traffic-shaping.htm\" target=\"_blank\"><b>כאן</b></a>.";
+speed_html_h1 = "Traffic Shaping עבור";
+increase_throughput = "התוכנה מגדילה לך את ניצולת הקו ומקטינה את זמן הפינג (תגובה).";
+info_text_decision = "cFosSpeed, cFos או cFos Broadband Connect - איזה מוצר לבחור?";
+info_text_mugstore = "כוסות מאג cFos מהשנים 1997-2009 זמינות כעת ב mugstore.de.";
+info_text_multi = "אתה יכול להתשמש כעת ב cFosSpeed על כמה מחשבים שונים ...";
+internet_accelerator = "cFosSpeed - מאיץ האינטרנט";
+link_text_ct_pdf = "נבדק ונמצא כחייגן ה DSL המהיר ביותר";
+link_text_decision = "איזה מוצר?";
+link_text_speed_features = "רשימת תכונות של cFosSpeed";
+link_text_gratis = "מפתח מוצר חינם";
+link_text_gratis_link = "קשר לאתר שלנו על מנת לעמוד בתנאים למפתח מוצר חינם.";
+link_text_mugstore = "כוסות מאגcFos!";
+link_text_multi = "גרסת בטא מרובת משתמשים";
+link_text_speed_priolist = "תיעדוף תוכנות עם cFosSpeed";
+link_text_speed_priolist2 = "רשינת תוכנות";
+link_text_suggest_program = "הצע תוכנה חדשה";
+link_text_reviews = "cFos בחדשות";
+link_text_techinfo = "<b>cFos</b>,חייגן DSL ו ISDN עם המון תכונות";
+link_text_traffic_shaping = "מה זה Traffic Shaping?";
+link_text_what_is_speed = "מה זה cFosSpeed?";
+li_text_behavioural = "הגנת ווירוסים עי חסימה התנהגותית";
+li_text_blocker = "חסימת 0190/0900 כעת בחינם!";
+li_text_broadband = "פס רחב: DSL, Cable";
+li_text_gamer = "משחקים";
+li_text_low_ping = "פינג נמוך";
+li_text_mobile = "נייד";
+li_text_narrowband = "פס צר: modem, ISDN";
+li_text_p2p = "שיתוף קבצים (P2P)";
+li_text_streaming = "הזרמת מדיה, VoIP";
+li_text_feat1 = "משפר את זמן הפינג למשחקי רשת";
+li_text_feat2 = "שומר על אינטרנט מהיר גם בזמן העלאה והורדה מסיבים";
+li_text_feat3 = "<b>חדש</b>: שיפור באינרטנט סלולארי/נייד";
+li_text_feat4 = "מפחית בעיות הזרמת מדיה קול/שמע";
+li_text_feat5 = "משפר איכות שמע בשיחות טלפון (כגון סקייפ)";
+more_features = "תכונות נוספות";
+news_info = "חדשות / מידע";
+optimize_traffic = "בכל פעם שאתה מתחבר לאיטרנט עם יותר מקו מידע אחד, התוכנה יכולה לייעל את את התנועה.";
+prio_programs = "תיעדוף אפליקציות";
+prio_protocols = "תיעדוף פרוטוקולים";
+related_product = "מוצר קשור";
+special_offer_launch = "מחיר השקה מיוחד:<br />cFosBC + cFosSpeed עבור ";
+special_price = "מחיר מיוחד";
+word_more = "עוד";
+
+/cFos Personal Net
+
+/ cFos Outlook DAV
+
+
+/ cFos IPv6 Link
+cfos6link_page_title = "קישוריות IPv6 עבור חלונות XP, VISTA וחלונות 7";
+header_features_overview = "תכונות במבט מהיר";
+in_action = "בפעולה";
+ipv6_exhaust = "כתובות IPv4 לא מוקצות <a class=\"inline\" href=\"http://en.wikipedia.org/wiki/IPv4_address_exhaustion\" target=\"_blank\">שאמורות להפלט מהמערכת</a> בשנת 2010 או 2011.<br />בשלב זה כולם יצטרכו לעבור לגלוש ברשת ה IPv6.<br /><br /><a href=\"http://www.inetcore.com/project/ipv4ec/index_en.html\" target=\"_blank\">כמות כתובות IPv4 לא מוקצות</a>";
+ipv6_test = "נסה את IPv6 היום. או בעזרת חשבון קידום שניתן עי rc-tec או כקומבינציה עם חשבון ה IPv4 שלך.";
+link_text_what_is_ipv6link = "מה זה cFos IPv6 Link?";
+li_text_automatic = "ניתוב אוטומטי והגדרות כתובת";
+li_text_dhcpv6 = "DHCPv6 Stateful, Stateless, Prefix Delegation";
+li_text_faster = "מהירות גבוהה, פי 10 יותר מהיר מהדרייבר של חלונות";
+li_text_ipv6_dialup  = "חייגן IPv6 עבור חלונות";
+li_text_mapping = "IPv4 &lt;-&gt; IPv6 DNS mapping";
+li_text_vlan = "תמיכה ב VLAN";
+dupe_word_documentation = "דוקומנטציה";
+word_documentation = "דוקומנטציה";
+
+/ cFos BC
+bc_page_title = "חייגן אינטרנט בעל ביצועים גבוהיים עבור גישה לאינטרנט בפס רחב.";
+link_text_cfosspeed = "<b>cFosSpeed</b>, עבור נתבים, מודם כבלים ומודם USB DSL";
+link_text_what_is_bconnect = "מה זה cFos Broadband Connect?";
+li_text_calls = "שיחות נכנסות";
+li_text_filter = "סינון לפי 'Service-Name' ו 'AC-Name'";
+li_text_highspeed = "מהירות גבוהה, פי 10 יותר מהיר מהדרייבר של חלונות";
+li_text_lowcpu = "צריכת מעבד נמוכה";
+li_text_ndis6 = "NDIS 5.1 / NDIS 6 (תחת Vista / Windows 7)";
+li_text_pppoe_auto = "זיהוי אוטומטי של PPPoE , כל פרמטרים של PPPoE ניתנים לעריכה";
+li_text_ppppoe_dial = "חייגן PPPoE עבור חלונות";
+li_text_sessions = "ריבוי פעילויות, ללא הגבלה על מספר הקישורים";
+
+/ cFos
+cfos_html_h1 = "חייגן DSL ו ISDN עם Traffic Shaping";
+link_text_cfos_features = "רשימת תכונות cFos";
+link_text_cfos_priolist = "תיעדוף תוכנות עם cFos (&#187; רשימת תוכנות)";
+link_text_feature_list = "תכונות עבוד ISDN ו ADSL";
+link_text_firewall = "חומת אש";
+link_text_what_is_cfos = "מה זה cFos מקצועי?";
+
+/hrping
+
+/notifier
+
+/FAQ
+which_product = "באיזה מוצר cFos כדאי לי להשתמש?";
+
+/ support
+
+/ traffic shaping
+ts_ts_title = "השתמש ברוחב-הפס האמיתי שלך";
+net_talk = "דיבור רשת";
+net_talk_help_long = "לשיפור בדיוק, שלח סטטיסטיקות עיצוב תעבורה למחשבים האחרים ברשת שלך.";
+vari_fixed_help = "אפשר גמישות לזמני פינג";
+vari_fixed_help_long = "אסוף סטטיסטיקות פינג להגדרת גמישות בזמני פינג; שימושי במיוחד לחיבור נייד/אלחוטי.";
+
+/ cFosSpeed additional pages
+
+/ PNet additional pages
+
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+
+/ oem
+
+/ asus
+
+/ asrock
+
+/ special price
+
+/ contact
+
+/ link_programm
+
+/ press
+
+/ speed guide
+
+/ speed test
+
+/upload
+
+/videos
+
+/meta descriptions
+
+/mailing lists
+
+/ countrynames
+
+/ no translation  -  currency info for order form exchange rates only - do not modify!
+currency_4217 = "ILS";
+currency_prefix = "";
+currency_suffix = "₪";
+selected_value = "Israel";
+
+

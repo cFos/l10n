@@ -1,0 +1,64 @@
+#language 1044
+#fallback 1033
+#charset 0
+
+language = "Norwegian";
+lang_key = "_no";
+input_lang = "no";
+
+
+/ navigation
+
+/ index2
+
+/ download
+
+/ order
+f_agent_text = "Kjøp fra en representant i";
+f_trans_within_country = "OverfÃ¸r innen ditt land";
+
+/ Order and Announcelist Confirmation Email
+
+/ cFosSpeed
+
+/ cFos IPv6 Link
+
+/ cFos BC
+
+/ cFos
+
+/ FAQ
+
+/ support
+
+/ traffic shaping
+
+/ cFosSpeed additional pages
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+
+/ oem
+
+/ asus
+
+/ special price
+
+/ contact
+
+/ link_programm
+
+/ press
+
+/ speed test
+
+/ countrynames
+
+/ no translation
+currency_4217 = "NOK";
+currency_prefix = "";
+currency_suffix = "kr";
+selected_value = "Norway";
+
+

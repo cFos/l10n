@@ -1,0 +1,63 @@
+#language 49161
+#fallback 1033
+#charset 0
+
+language = "American English";
+lang_key = "_us";
+input_lang = "en-us";
+
+
+/ navigation
+
+/ index2
+
+/ download
+
+/ order
+currency_abbr = "$";
+currency_code_paypal = "USD";
+currency_sign = "$";
+
+/ Order and Announcelist Confirmation Email
+
+/ cFosSpeed
+
+/ cFos IPv6 Link
+
+/ cFos BC
+
+/ cFos
+
+/ FAQ
+
+/ support
+
+/ traffic shaping
+
+/ cFosSpeed additional pages
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+
+/ oem
+
+/ asus
+
+/ special price
+
+/ contact
+
+/ link_programm
+
+/ press
+
+/ speed test
+
+/ countrynames
+
+/ no translation
+currency_4217 = "USD";
+currency_prefix = "$";
+currency_suffix = "";
+selected_value = "USA";

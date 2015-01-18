@@ -1,0 +1,62 @@
+#language 4105
+#fallback  1033
+#charset 0
+
+language = "English (Canada)";
+lang_key = "_ca";
+input_lang = "en-ca";
+
+
+/ navigation
+
+/ index2
+
+/ download
+
+/ order
+
+/ Order and Announcelist Confirmation Email
+
+/ cFosSpeed
+
+/ cFos IPv6 Link
+
+/ cFos BC
+
+/ cFos
+
+/ FAQ
+
+/ support
+
+/ traffic shaping
+
+/ cFosSpeed additional pages
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+
+/ oem
+
+/ asus
+
+/ special price
+
+/ contact
+
+/ link_programm
+
+/ press
+
+/ speed test
+
+/ countrynames
+
+/ no translation
+currency_4217 = "CAD";
+currency_prefix = "C$";
+currency_suffix = "";
+selected_value = "Canada";
+
+

@@ -1,0 +1,674 @@
+#language 1059
+#fallback 1049
+#fallback1 1033
+#charset 0
+
+language = "Belarusian";
+lang_key = "_by";
+input_lang = "be";
+
+/ test purposes, don't translate!
+
+/ navigation
+link_text_contact = "Кантакт";
+link_text_download = "Запампаваць";
+link_text_forum = "Форум";
+link_text_oem_version = "OEM версія";
+link_text_order = "Заказаць";
+link_text_press_releases = "Прэс-рэлізы";
+link_text_sitemap = "Карта сайта";
+link_text_support = "Падтрымка";
+
+/ index2
+bc_linktext = "cFos Падлучэнне да шырокапалоснага высокахуткаснага доступу";
+cfos6link_linktext = "cFos ipv6 спасылка";
+cfos_linktext = "cFos / Professional для ISDN";
+desc_6link = "ipv6 Сувязь для XP, Vista і Windows 7";
+desc_dialup = "Інтэрнэт Dial-Up";
+desc_shaping = "Паскарэнне Інтэрнэт з Traffic Shaping";
+freeware_text1 = "Даступна новая версія cFosSpeed:";
+freeware_text2 = "Палепшаны Traffic Shaping: Максімальная прапускная здольнасць Інтэрнэт, мінімальны пінг! Запампаваць зараз:";
+slogan = "Выкарыстайце ўсю хуткасць Інтэрнэт: <br /> высокая хуткасць, нізкі пінг";
+special_offer_xmas = "Калядная прапанова! <span class=\"red\"> Адмысловыя кошты </span> толькі да 22 снежня!";
+special_offer_xmas_2 = "(да ўікэнда, падоўжанага да 3-га студзеня 2010)";
+special_offer_spring = "Адмысловая прапанова для вясновага фэсту! да 28-га Лютага, 2010";
+worldcup_sale = "Адмысловыя кошты падчас Чэмпіянату свету па футболе!"; / FIFA Soccer World Cup
+translation_text1 = "Гэтая старонка не дастаткова перакладзена!";
+translation_text2 = "Атрымаць бясплатную ліцэнзію (cFos, cFosSpeed або cFosBC) за дапамогу Нам.";
+translation_text3 = "Дадатковая інфармацыя";
+word_new = "Новы";
+word_newversion = "Новая версія";
+countdown1 = "Толькі <span class='number'> X </span> дзень застаўся!";
+countdown2 = "Толькі <span class='number'> X </span> дзён засталося!";
+countdown3 = "Толькі <span class='number'> X </span> дзён засталося!";
+countdown5 = "Толькі <span class='number'> X </span> дзён засталося!";
+
+/ download
+additional_downloads = "Дадатковыя файлы для загрузкі";
+add_lang_text = "Дадатковыя мовы для cFosSpeed";
+alt_cfosbc_image = "cFosBC малюнак";
+alt_cfos_image = "cFos малюнак";
+alt_speed_image = "cFosSpeed малюнак";
+black = "чорны";
+cfnotify_text = "Утыліта для паказвання значкоў на панэлі задач. Магчыма выкарыстоўваць, напрыклад для выклікання манітора cFos";
+cfosbc_text = "Dial-Up драйвер высокай прапускной здольнасцю для доступу ў Інтэрнэт";
+cfosconnect_text = "Абыход праблемы перагрузкі, выкліканая вузламіТ-анлайн у сеткі і іншымі Інтэрнэт-правайдэрамі";
+cfos_other_text = "ISDN і АТМ  Dial-in Драйвер з Traffic Shaping - таксама для мадэмнага праграмнага забеспячэння";
+cfos_text = "ISDN Dial-in Драйвер - таксама для мадэмнага праграмнага забеспячэння";
+disclaimer = "Адказ";
+disclaimer_text = "У якасці паслугі для Вас, мы зрабілі наступныя cFos / cFosSpeed лакалізацыі даступная для вольнай запампоўкі. Гэтыя вольныя переклады былі створаныя кліентамі для кліентаў, cFos Software GmbH не бярэ адказнасці за пераклады і не аказвае тэхнічную падтрымку для любога з іх . <br /> На любыя пытанні, датычныя пэўнага пераклада, просім Вас звязвацца з аўтарам. Аднак, калі вы сапхнецеся з якой-небудзь значнай  ў перакладзе памылкай, недаглядам або іншым значным парушэнні (наўмысныя або не), калі ласка, паведаміце нам аб гэтым сцісла, каб мы маглі праверыць гэта. ";
+download_for = "<b>Запампаваць</b>";
+downloads = "Запампоўкі";
+download_x64_for = "<b>Запампаваць</b> для x64 Архітэктуры";
+download_x86x64_for = "<b>Запампаваць</b> для x86 + x64 Архітэктуры";
+email = "Электронная пошта";
+for = "за";
+freeware_programs = "Бясплатныя праграмы";
+gadget = "cFosSpeed гаджэт для Vista";
+gadget_text = "cFosSpeed гаджэт для бакавой панэлі Windows Vista/7 <br /> <span class=\"smalltext\" style=\"line-height: 12px\"> <br /> <b class=\"red\"> Нататка </b>: Калі вы атрымаеце &quot;<b> Can't reate automation object</b> паведамленне аб памылцы пасля ўсталёўкі гаджэту, выканайце наступныя дзеянні: <br /> <b> 1 </b>. Праверце нумар версіі cFosSpeed <br /> (4.24 або вышэй у абавязковым парадку) <br /> <b> 2 </b>. Перазагрузіце вашу сістэму </span> ";
+grey = "шэры";
+gadget_title = "cFosSpeed гаджэт";
+hacks_cracks = "Наша меркаванне аб <br /> Хаках &amp; Краках";
+hint = "Нататка";
+hrping_text = "Высока-дакладны Пинг утыліта з перадавой функцыянальнасцю і паляпшэннем статыстыкі";
+just_cfos = "для cFos толькі";
+just_speed = "для cFosSpeed толькі";
+mugstore_header = "cFos кружкі на mugstore.de";
+mugstore_text = "Кожны год гэтыя кружкі прызначаныя выключна для cFos Software GmbH і даюцца сябрам кампаніі ў якасці каляднага падарунку. Яны аддаюць даніну вядомым творам мастацтва або папулярным фільмам, аб'яднаных у рамках тэмы &quot;cFos&quot; . <br /> <br /> Раней толькі выпушчаныя ў абмежаванай колькасці, яны зараз даступныя для ўсіх на <br /> ";
+other_languages = "Іншыя мовы";
+other_systems = "для іншых аперацыйных сістэм";
+rnahelp_text = "Batch-утыліта для Windows Інтэрнэт Злучэнняў";
+sk_c64_text = "C64-стылізаваная 'cFos скура' (ад Markus Welz)";
+sk_classic = "cFos Класічная скура";
+sk_classic_text = "Класіка для cFos";
+sk_froghut = "Froghut Title Bar Скурка";
+sk_froghut_text = "Froghut Title Bar Скурка (ад Björn v. d. Osten)";
+sk_grant = "Grant's скура";
+sk_grant_text = "Скура іконкі (ад Grant Brunton)";
+skins = "Скуры";
+sk_history = "LC гісторыя";
+sk_history_text = "Вадкакрысталічная скура з гісторыяй шкалы";
+sk_modern = "cFos Сучасная скура";
+sk_mon_txt = "cFos Манітор тэкставая скура";
+sk_mon_txt_525 = "cFos Манітор тэкставая скура 5.25";
+sk_mon_txt_525_text = "cFos Манітор-тэкставая-скура (для cFos версіі &gt;= 5.25)";
+sk_mon_txt_text = "cFos Манітор-тэкставая-скура (ад Maik Reiss / Hoeft und Wessel)";
+sk_mtin = "Скуры ад MTiN";
+sk_mtin_text = "Мінімалістычная скура (ад MTiN)";
+sk_netmedic = "Rx/Tx скура (+ абразок)";
+sk_netmedic_text = "Адправіць / атрымаць скуру і абразок скуры (ад Ilya Dedinsky)";
+sk_offchu = "Слім LC ";
+sk_offchu_text = "Слім гарызантальны з вадкакрысталічнай скурай (ад offchu)";
+sk_offchu_history = "Слім LC гісторыя";
+sk_offchu_history_text = "Слім гарызантальны з вадкакрысталічнай скурай гісторыі (ад offchu)";
+sk_shinnher = "Скуры ад Shinnher";
+sk_shinnher_text = "Вадкакрысталічнай скура мадыфікаваная Shinnher";
+sk_shinnher_text_black = "Shinnher скура з чорным фонам змененая Scott";
+sk_shinnher_text_grey = "Shinnher скура з шэрым фонам змененая Scott";
+sk_shinnher_text_trans = "Shinnher скура з празрыстым фонам змененая Scott";
+sk_txt = "cFos Тэкст скуры";
+sk_txt_text = "cFos Тэкставая скура, для тых, хто нудзіцца па старых cFos вокнам. <br /> (Падказка: усталёўка толькі ў 'modern'-каталог)";
+speed_text = "хуткі доступ у Інтэрнэт з Traffic Shaping";
+submit = "Адправіць";
+transparent = "празрыстасць";
+updates = "Абнаўленні";
+updates_text = "Так, я жадаю атрымоўваць апавяшчэнні, калі новая версія cFos або cFosSpeed даступна";
+version = "Версія";
+watch_text = "Блакавальнік дазвоншчыкаў і вірусаў з Behavioural Blocking";
+whats_new = "Што новага ў гэтай версіі";
+zip_tip = "Вы можаце распакаваць ZIP-файлы, пералічаныя вышэй, напрыклад, з дапамогай <a class=\"inline\" href=\"http://www.pkware.com\"> PKZIP </a>, <a class=\"inline\" href=\"http://www.winzip.de\">WinZIP</a> or <a class=\"inline\" href=\"http://www.info-zip.org/\">Info-ZIP</a>";
+cfos6link_text = "ipv6 Сувязь для XP, Vista і Windows 7";
+twitter_follow = "Знайсці cFos на Twitter";
+
+/ order
+alt_logo = "cFos Software GmbH лагатып";
+atm_price = "АТМ версія па запыту";
+bank_de_account = "2000 850 040";
+bank_de_bic = "BIC (SWIFT-код): GENO DE D1 BRS";
+bank_de_blz = "380 601 86";
+bank_de_iban = "IBAN: DE 17 380 601 86 2000 850 040";
+bank_de_iban_hint = "ЕС стандартныя пераводы у еўра рабіць толькі па тым жа кошце, як і унутраныя по краіне";
+by_phone = "Падтрымка, замова па тэлефоне";
+buy_now = "Купіць зараз";
+conf_cc = "Крэдытнай картай аплаты";
+conf_cc_nr = "Нумар";
+conf_check_order = "Праверыць Вашу замову";
+conf_deliverer = "Ваш адрас";
+conf_delivery_condition = "Дастаўка пасля пацверджання пераводу";
+conf_doctitle = "Пацверджанне";
+conf_email_express = "Экспрэс-дастаўка па электроннай пошце на паказаны вышэй адрас";
+conf_email_ok = "Ці з'яўляецца Ваш адрас электроннай пошты напісаныя правільна?";
+conf_formerror_cc = "Страчаны запыт на уваход! Памылка ў нумары карты: ён павінен мець па меншай меры 13 лічб. Часта ёсць 4 лічбы ў раёне галаграмы! Таксама, калі ласка, не ўводзіце EC-Cheque нумары карт, але толькі рэальныя нумары крэдытных карт!";
+conf_formerror_email = "Адсутнічае або несапраўдны паштовы адрас!";
+conf_formerror_email_express = "Экспрэс-дастаўка па электроннай пошце і C.O.D. з'яўляюцца ўзаемавыключальнымі. Калі ласка, выкарыстоўвайце кнопку Назад браўзара і абярыце іншы спосаб аплаты.";
+conf_formerror_hint_kk = "Вы азначылі дадзеныя сваёй крэдытная карты, але разам з тым вылучылі іншы спосаб аплаты.";
+conf_formerror_hint_ls = "Вы азначылі банкаўскія дадзеныя, але разам з тым вылучылі іншы спосаб аплаты.";
+conf_formerror_lastschrift = "Калі ласка, праверце ваш банкаўскі рахунак";
+conf_formerror_missing_entry = "Страчаны запыт на уваход!";
+conf_formerror_not_complete = "Ваша замова з'яўляецца няпоўнай! Калі ласка, вярніцеся ў браўзэры назад і запоўніце адсутныя пазіцыі";
+conf_fromerror_license = "Калі ласка, вярніцеся ў браўзэры назад  і пакажыце, што Вы прачыталі і пагадзіліся з умовамі cFos !";
+confident = "Прыватна: Гэтыя дадзеныя якія Вы тут азначылі будуць выкарыстоўвацца толькі для замовы, і не будуць пераданы нікому іншаму.";
+conf_lastschrift_at = "на";
+conf_moneybookers_trans = "Перавод Moneybookers";
+conf_moneybookers_text = "Калі ласка, увядзіце &quot;<strong>[%$1_name%]</strong>&quot; у якасці падставы для аплаты ў Moneybookers &quot;<strong>eMail-Betreff</strong>&quot;";
+conf_nn = "C.O.D. выплат (4, - &#8364; паштовая плата)";
+conf_payment = "Плацеж";
+conf_paypal_sendinfo = "(У выпадку, калі PayPal-спасылка не працуе, калі ласка шліце грошы на наш PayPal акаўнт.)";
+conf_paypal_text = "Калі ласка, увядзіце &quot;<strong>[%$1_name%]</strong>&quot; у якасці падставы для аплаты ў PayPal &quot;<strong>eMail-Betreff</strong>&quot;";
+conf_paypal_trans = "PayPal перавод";
+conf_please_click_on = "Калі ласка, націсніце кнопку";
+conf_proforma = "Мы адправім вам рахунак-фактуру. Пасля атрымання Вашая аплаты, мы адправім ліцэнзію cFos";
+conf_so_we_can_process = ", з тым каб мы маглі апрацаваць Вашу замову!";
+conf_submit_order = "Пацвердзіць замову";
+conf_sum = "Сума";
+conf_trans_account = "Банкаўскі рахунак";
+conf_trans_blz = "Код банка";
+conf_trans_fee_hint = "Калі ласка, бярыце на сябе ўсе банкаўскія зборы за перавод грошай";
+conf_trans_int = "Трансфер з-за мяжы";
+conf_trans_reason = "Падстава плацяжу";
+conf_trans_reason_hint = "Заява ад свайго імя ў якасці падставы для плацяжу, неабходнага для апрацоўкі замоў";
+conf_trans_to = "Для";
+conf_trans_within_de = "Трансфер з Нямеччыны";
+conf_webmoney_trans = "WebMoney Трансфер";
+conf_webmoney_text = "Наша каманда  апрацуе Вашу замову і адправіць Вам яшчэ адно паведамленне з дадатковай інфармацыяй (нумар замовы, WMID і WM-кашалёк). Калі ласка, не перадавайце ніякія грошы, перш чым вы атрымаеце друг ліст ад Нас. Дзякуй!";
+f_announce = "Так, я жадаю атрымоўваць апавяшчэнні, калі будуць выходзіць новыя версіі нашых праграм.";
+f_cc = "Крэдытная карта";
+f_cc_date = "Тэрмін дзеяння";
+f_cc_holder = "Уладальнік карткі";
+f_cc_number = "Кумар карткі";
+f_cc_vercode = "Код Карты";
+f_cc_vc_where = "Дзе знайсці Код Карты?";
+f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>:<br />Трохзнакавы Код Карты знаходзіцца з задняга боку карты, ці дадзеныя тры лічбы могуць знаходзіцца на панэлі подпісу ці з правага боку вышэй дадзенай панэлі.<br/><b>American Express</b>:<br />Чатырохзнакавы Код Карты знаходзіцца ў верхнім правым куце карты з пярэдняга боку.";
+f_checkbox_license_text_bconnect = "Я прачытаў <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\"> cFos Broadband Connect ліцэнзійную дамову </a>, і прымаю гэтыя ўмовы.. ";
+f_checkbox_license_text_cfos = "Я прачытаў <a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\"> cFos ліцэнзійную дамову </a> і прымаю гэтыя ўмовы.. ";
+f_checkbox_license_text_ipv6 = "Я прачытаў <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\"> cFos ipv6 Link ліцэнзійную дамову </a>, і прымаю гэтыя ўмовы.. ";
+f_checkbox_license_text_speed = "Я прачытаў <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\"> cFosSpeed ліцэнзійную дамову </a> і прымаю гэтыя ўмовы.. ";
+f_city_postcode = "Zip / Паштовы індэкс, горад";
+f_deliverto_list_02 = "Усё напісана правільна?";
+f_deliverto_list_03 = "Любыя спецыяльные сімвалы як <span style=\"background-color: #ffffe0; font-weight: bold\">&nbsp;. - _&nbsp;</span> устаўлены правільна?";
+f_deliverto_list_04 = "Калі ласка, не блытайце gmx.de з gmx.net!";
+f_email = "Электронная пошта";
+f_express = "Экспрэс";
+f_express_text = "Дастаўка па электроннай пошце; Над адрасам электроннай пошты павінен быць сапраўдны адрас у Інтэрнэце";
+find_serial = "Падказка: Вы можаце знайсці серыйны нумар, націснуўшы правай кнопкай на абразок cFos. Проста паглядзіце на другі радок зверху ў кантэкстным меню. (т.е. cF1234)";
+firmenkunden = "Бізнэс-карыстачы";
+firmenkunden_text_bconnect = "Бізнэс-карыстачы, якія могуць адняць кошт cFos Broadband Connect са сваіх падаткаў. Некамерцыйныя арганізацыі разглядаюцца ў якасці простых карыстачоў. Калі Вы жадаеце замовіць cFos Broadband Connect як прыватны карыстач, калі ласка, выкарыстайце <b> <a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\"> Бланк замовы для простых карыстачоў </a> </b>. ";
+firmenkunden_text_cfos = "Бізнэс-карыстачы, якія могуць адняць кошт cFos Broadband Connect са сваіх падаткаў. Некамерцыйныя арганізацыі разглядаюцца ў якасці простых карыстачоў. Калі Вы жадаеце замовіць cFos Broadband Connect як прыватны карыстач, калі ласка, выкарыстайце <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\"> Бланк замовы для дзеляў карыстачоў</a></b>.";
+firmenkunden_text_ipv6 = "Бізнэс-карыстачы і тыя, хто можа адняць кошт <em>cFos IPv6 Link</em> са сваіх падаткаў. Некамерцыйныя арганізацыі разглядаюцца ў якасці простых карыстачоў. Калі Вы жадаеце замовіць cFos IPv6 Link як прыватны карыстач, калі ласка, выкарыстайце <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">Бланк замовы для простых карыстачоў</a></b>.";
+firmenkunden_text_speed = "Бізнэс-карыстачы, якія могуць адняць кошт cFosSpeed са сваіх падаткаў. Некамерцыйныя арганізацыі разглядаюцца ў якасці простых карыстачоў. Калі Вы жадаеце замовіць cFosSpeed як прыватны карыстач, калі ласка, <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\">Бланк замовы для простых карыстачоў</a></b>.";
+f_land = "Краіна";
+f_license = "Ліцэнзія";
+f_moneybookers_text = "Калі ласка, адпраўце плацёж на наступныя Moneybookers рахункі:";
+f_nachname_text = "у Нямеччыне толькі 4 &#8364; паштовая плата";
+f_name = "Імя";
+f_optional = "факультатыўна";
+f_refer = "Адкуль я пазнаў пра cFos?";
+f_webmoney_text = "Мы адправім вам Емейл з дэталямі плацяжу за Webmoney, калі апрацуем Вашу замову!";
+for_business_users = "для бізнэсу-карыстачоў";
+for_dos_w311_os2  = "для DOS | OS / 2 | Windows 3.x";
+for_existing_users = "для наяўных кліентаў";
+form_subtitel_contact = "Кантактная інфармацыя";
+form_subtitel_order = "Ваша замова";
+form_subtitel_payment = "Плацяжы";
+form_title_c = "Бланк замовы для бізнэсу-карыстачоў";
+form_title_n = "Бланк замовы для простых карыстачоў";
+for_osnt = "для Windows 8/7/Vista/XP/2000 + Server 2003 &amp; 2008 + x86/x64 Edition";
+for_osxp = "для Windows Vista / XP + Server 2003 &amp; 2008 + x86/x64 Edition";
+for_private_users = "для простых карыстачоў";
+for_win = "для Windows 95/98/ME";
+f_paypal_text = "Калі ласка, адпраўце плацёж на наступны рахунак PayPal:";
+f_phone = "Тэлефон";
+f_poll = "Якую аперацыйную сістэму Вы выкарыстаеце?";
+f_proform_national = "Рахунак-фактура";
+f_proform_text = "Мы адправім вам рахунак-фактуру. А калі прымем аплату, то адправім Вам cFosSpeed. Альтэрнатыва для C.O.D. Калі ласка, уключыце ўсе банкаўскія зборы за замежныя грашовыя пераводы";
+f_street_adress = "Вуліца";
+f_trans_ger = "Перавод";
+f_trans_mail = "Вы атрымаеце нашы банкаўскія рэквізіты рахунку ў пацверджанне замовы па электроннай пошце";
+f_trans_text1 = "Дастаўка толькі пасля пацверджання пераводу.";
+f_trans_text2 = "Калі ласка, уключыце ўсе банкаўскія зборы за замежныя грашовыя пераводы";
+f_trans_text3 = "<b> Еўра краіны</b>: зборы і плату за банкаўскі або грашовы перавод у еўра-зоне як <b>нізкі</b>, як для ўнутраных пераводаў! Гэта магычыма толькі ў Аўстрыі, Бельгіі, Эстонія, Фінляндыі, Францыі, Нямеччыне, Грэцыі, Ірландыі, Іспаніі, Італіі, Люксембурзе, Нідэрландах, Партугаліі, Славакіі, Славеніі і Іспаніі. ";
+f_trans_text4 = "Вы можаце паревесці грошы на наш банкаўскі рахунак у вашай краіне";
+f_vat_number = "VAT Рэг. №";
+f_vat_number_text = "Замова ад замежных краін, але і ў ЕС, могуць быць апрацаваныя без VAT, калі Вы пакажыце VAT Рэг. № тут. У любым выпадку нямецкі VAT платіцца";
+f_word_poll = "Апытанне";
+f_your_number = "Ваш нумар замовы";
+incl_vat_ship = "Кошт уключае ў сябе нямецкі VAT і дастаўку/апрацоўку плацяжоў.";
+incl_vat_ship_cfos_omni = "Omni-платформа - уключае і падатак з продажаў / VAT. Бясплатная дастаўка і пагрузна-разгрузныя аперацыі. <br />Includes cFos/DOS, cFos/Win, cFos/2 and cFos NT/2000/XP/2003 Server/Vista/7 + x86/x64 Edition.";
+lifetime_updates = "Пажыццёвыя абнаўленні";
+lifetime_updates_text = "Вы можаце запампаваць новую версію для вашай аперацыйнай сістэмы і ўсталяваць іх па-над старых версій";
+multi_buy = "Купіць";
+office_time = "з панядзелку па пятніцы з 9 раніцы да поўдня (CET)";
+only = "толькі";
+only_here = "(даступна толькі ў нас!)";
+order_form = "Форма замовы";
+order_page_title = "Старонкі замовы";
+paypal_form_item_name = "cFos Software GmbH - ліцэнзія прадукта";
+paypal_form_pay_now = "Аплаціць з PayPal";
+private_users = "Простыя Карыстачы";
+private_users_text = "Для простых карыстачоў тут! Калі Вы можаце адняць кошт cFos Broadband Connect са сваіх падаткаў, калі ласка, перайдзіце па:";
+spbc_text = "1 cFosSpeed ліцэнзія + 1 cFos Broadband Connect ліцэнзія па адмысловаму кошту";
+spbc_title = "Пачатковая адмысловая прапанова";
+special_conditions = "Адмысловыя ўмовы";
+special_conditions_text_bconnect = "Калі вы жадаеце замовіць <em>cFos Broadband Connect</em> вялікае мноства і жадаеце стаць дылерам, калі ласка, звяжыцеся з нашай <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Камандай </a>. Мы неадкладна вышлем вам прапанову";
+special_conditions_text_cfos = "Калі вы жадаеце замовіць <em>cFos</em> вялікае мноства і жадаеце стаць дылерам, калі ласка, звяжыцеся з нашай <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Камандай </a>. Мы неадкладна вышлем вам прапанову";
+special_conditions_text_ipv6 = "Калі вы жадаеце замовіць <em>cFos ipv6 Link</em> вялікае мноства і жадаеце стаць дылерам, калі ласка, звяжыцеся з нашай <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Камандай </a>. Мы неадкладна вышлем вам прапанову";
+special_conditions_text_speed = "Калі вы жадаеце замовіць <em>cFosSpeed</em> вялікае мноства і жадаеце стаць дылерам, калі ласка, звяжыцеся з нашай <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Камандай </a>. Мы неадкладна вышлем вам прапанову";
+special_offer = "Адмысловая прапанова";
+special_price_for = "Адмысловы кошт для грамадзян Вашай краіны";
+th_order_date = "Дата замовы";
+th_paypal_text = "Мы адправім вам спасылку на PayPal <strong> на наступны працоўны дзень </strong>. Яна будзе змяшчаць усю інфармацыю, неабходную для аплаты. Калі вы жадаеце паскорыць вашу замову, вы можаце заплаціць зараз. Перайсці старонку PayPal (спасылка ніжэй) і ўвесці ўсе неабходныя дадзеныя ўручную. Калі ласка, увядзіце сваё імя ў поле \"Email subject \". Дастаўка пасля пацверджання аплаты.";
+th_text = "Была аператыўна перададзена нашай камандзе, і будзе апрацавана <strong> тут жа або на наступны працоўны дзень </strong>. <br /> Вы таксама атрымаеце пацверджанне па электроннай пошце, як толькі паступіўшы загад наша камандзе ўвядзе ў сістэму ";
+th_thanks = "Дзякуй!";
+th_thanks_order = "Дзякуй за Вашу замову!";
+validation_lifetime = "уключаючы неабмежаваныя будучыя абнаўленні";
+webmoney_id = "Наша WebMoney ідэнтыфікатар 414417381154.";
+webmoney_purses = "Наш кашалёк для расійскіх рублях (RUB) R186904373715";
+word_conditions = "Умовы";
+word_hint = "Нататка";
+word_important = "Важна";
+word_invoice_number = "Нумар рахунку";
+word_license = "Ліцэнзія";
+word_lifetime_license = "Пажыццёвая ліцэнзія";
+word_lifetime_update_pack = "Пажыццёвае Абнаўленне Пакета";
+word_month = "месяц";
+word_serial_number = "серыйны нумар";
+word_service = "Служба";
+word_submit_order = "Адправіць замову";
+word_year = "год";
+
+/ Order and Announcelist Confirmation Email
+em_hello = "Прывітанне";
+em_thank_you = "Дзякуй за замову";
+em_transfer = "Калі ласка, зрабіце зараз перавод";
+em_account = "на банкаўскі рахунак";
+em_link = "Спасылка:";
+em_paypal = "на PayPal рахунак";
+em_moneybookers = "на Moneybookers рахунак";
+em_noreply = "Гэта аўтаматычная электронная пошта. Калі ласка, не адказвайце. Калі ад нас няма адказу ў плыні 1-2 працоўных дзён, калі ласка націсніце тут:  http://www.cfos.de/be/contact/msgpost.htm ";
+em_text = "Мы апрацуем вашу замову як мага хутчэй";
+em_webmoney = "на наш рахунак WebMoney";
+
+/ cFosSpeed
+a_games = "Як я магу паскорыць мае анлайн гульні??";
+alt_ct_logo = "c't Лого";
+a_p2p = "Traffic Shaping для Торэнтаў (P2P)";
+a_surf = "Як я магу паскорыць серфінг па Сусветнай Сетцы??";
+a_voip = "Выдатная якасць гаворкі праз Voice-over-IP (VoIP)";
+dupe_a_voip = "Добрая якасць гаворкі праз Voice-over-IP (VoIP) (german)";
+budgets = "Анлайн Бюджэты";
+desc_cfosbc = "<b>cFosBC</b>, высокахуткасны дыал-ап для шырокапалоснага інтэрнэт доступу";
+firewall = "Файрвол";
+header_features = "Асаблівасці";
+highlights = "Вылучэнні";
+highlight1 = "cFosSpeed прадухіляе перакрыванне адным прыкладаннем (напрыклад, адпраўка пошты) усіх астатніх, такіх як тэлефонныя званкі, чаты і інш.";
+highlight2 = "cFosSpeed падтрымлівае нізкі пінг, такім чынам Вы можаце гуляць у анлайн-гульні і спампоўваць файлы адначасова.";
+highlight3 = "Усе найважныя пакеты дадзеных аўтаматычна пераважаюць над іншымі пакетамі дадзеных. З cFosSpeed Вы можаце ідэальна прыярытэзаваць праграмы і пратаколы дадзеных і (ці) дадаваць Новыя Праграмы для гэтых мэт.";
+highlight4 = "Аналіз дадзеных у рэжыме рэальнага часу: З новым статутным акном Вы можаце лёгка распазнаць які струмень дадзеных на дадзены момант выкарыстоўваецца.";
+highlight5 = "cFosSpeed сумяшчальны з DSL, Cable, WLAN, CDMA2000, UMTS, WCDMA, Modem, ISDN, мабільным інтэрнэтам (2G / 3G).";
+highlight6 = "Дэталёвае апісанне cFosSpeed's Traffic Shaping можа быць знойдзена <img src=\"sp_link_bottom_right.png\" width=\"6\" height=\"11\" alt=\"\" /><a href=\"/en/traffic-shaping/traffic-shaping.htm\" target=\"_blank\"><b>here</b></a>.";
+speed_html_h1 = "Traffic Shaping лепш для";
+increase_throughput = "cFosSpeed павялічвае прадукцыйнасць і памяншае Ваш пінг.";
+info_text_decision = "cFosSpeed, cFos ці cFos Broadband Connect - якую праграму абраць?";
+info_text_mugstore = "Кружкі 1997-2009 гадоў зараз даступныя ў mugstore.de";
+info_text_multi = "Цяпер вы можаце выкарыстоўваць cFosSpeed на некалькіх ПК...";
+internet_accelerator = "cFosSpeed - Паскаральнік інтэрнэту";
+latest_news = "Апошнія навіны";
+link_text_ct_pdf = "Пратэставаны як самы хуткі драйвер DSL";
+link_text_decision = "Якая праграма?";
+link_text_speed_features = "Спіс асаблівасцяў cFosSpeed";
+link_text_gratis = "Бясплатны ключ для праграмы";
+link_text_gratis_link = "Размесці спасылку на нашу старонку і атрымай бясплатны ключ.";
+link_text_mugstore = "Кружкі cFos!";
+link_text_multi = "Мультыкарыстальніцкая бэта версія";
+link_text_speed_priolist = "Прыярытызаваць праграмы з cFosSpeed";
+link_text_speed_priolist2 = "Спіс праграм";
+link_text_suggest_program = "Прапанаваць новую праграму";
+link_text_reviews = "cFos у прэсе";
+link_text_speedlist = "cFosSpeed - у дзеянні ва ўсім свеце (&#187; спіс краін і абсталявання)";
+link_text_techinfo = "<b>cFos</b>, DSL і ISDN дыал-ін са мноствам функцый";
+link_text_traffic_shaping = "Што такое Traffic Shaping?";
+link_text_watch = "cFosWatch 2.00 Версія";
+link_text_what_is_speed = "Што такое cFosSpeed?";
+li_text_behavioural = "Абарона ад вірусаў з дапамогай Паводніцкага Блакавання";
+li_text_blocker = "0190/0900 Блакаванне зараз Бясплатна!";
+li_text_broadband = "Шырокапалосны: DSL, Cable";
+li_text_gamer = "Гульні";
+li_text_low_ping = "Нізкі Пінг";
+li_text_mobile = "Мабільны";
+li_text_narrowband = "Узкапалосны: мадэм, ISDN";
+li_text_p2p = "Торэнты (P2P)";
+li_text_streaming = "Струменевае Медыя, VoIP";
+li_text_feat1 = "Аптымізуе пінг для анлайн-гульняў";
+li_text_feat2 = "Захоўваецца Ваш інтэрнэт хуткім падчас цяжкіх спамповак/запамповак";
+li_text_feat3 = "<b>NEW</b>: Аптымізуе мабільны інтэрнэт";
+li_text_feat4 = "Памяншае кол-сць праблем са струменевым аўдыё/відэа";
+li_text_feat5 = "Аптымізуе якасць гаворкі VoIP";
+more_features = "Больш характарыстак";
+news_info = "Навіны / Інфа";
+optimize_traffic = "Заўсёды калі Вы выкарыстоўваеце інтэрнэт у больш за 1 струмень дадзеных cFosSpeed можа аптымізаваць Ваш трафік.";
+prio_programs = "Прыярытызаванне праграм";
+prio_protocols = "Прыярытызаванне пратаколаў";
+related_product = "Злучаны прадукт";
+special_offer_launch = "Адмысловая пачатковая прапанова:<br />cFosBC + cFosSpeed за агульны кошт ";
+special_price = "Адмысловы кошт";
+word_more = "больш";
+
+/cFos Personal Net
+
+/ cFos Outlook DAV
+
+
+/ cFos IPv6 Link
+cfos6link_page_title = "IPv6 Забяспячэнне сувязі для XP, Vista і Windows 7";
+header_features_overview = "Асаблівасці";
+in_action = "у дзеянні";
+ipv6_exhaust = "Вольныя адрасы IPv4 <a class=\"inline\" href=\"http://en.wikipedia.org/wiki/IPv4_address_exhaustion\" target=\"_blank\">чакаецца, што яны будуць вычарпаны</a> да 2010 ці 2011.<br />З гэтай пазіцыі кожны будзе перакладзены на новы IPv6 Інтэрнэт.<br /><br /><img src=\"/images/link_bottom_right.png\" width=\"9\" height=\"11\" border=\"0\" alt=\"\" /><a href=\"http://www.inetcore.com/project/ipv4ec/index_en.html\" target=\"_blank\">Лік незамацаваных IPv4 адрасоў</a>";
+ipv6_test = "Паспрабуйце IPv6 сёння. Або з бясплатным прома-акаўнтам забяспечваным rc-tec, або з сумешчаным з Вашым IPv4.";
+link_text_what_is_ipv6link = "Што такое cFos IPv6 Link?";
+li_text_automatic = "Аўтаматычны роўтынг і канфігурацыя адрасу";
+li_text_dhcpv6 = "DHCPv6 Зменлівы, Нязменны, Першапачатковы Прэфікс";
+li_text_faster = "Высакахуткасны, 10х хутчэй чым Windows Vista драйвер";
+li_text_ipv6_dialup  = "IPv6 дыал-ап драйвер для Windows";
+li_text_mapping = "IPv4 &lt;-&gt; IPv6 DNS мапінг";
+li_text_config_dhcp = "Канфігуруемы DHCP DUID";
+li_text_vlan = "Падтрымка VLAN";
+li_text_nat46 = "NAT46 толькі для IPv4 прыкладанняў";
+provider_list = "IPv6 Спіс Правайдараў";
+dupe_word_documentation = "дакументацыя";
+word_documentation = "Дакументацыя";
+
+/ cFos BC
+bc_page_title = "Высокахуткасны Дыал-Ап драйвер для доступу ў інтэрнэт з высокай прапускной здольнасцю.";
+link_text_cfosspeed = "<b>cFosSpeed</b>, для роўтараў, кабельных мадэмаў і USB DSL мадэмаў";
+link_text_what_is_bconnect = "Что такое cFos Broadband Connect?";
+li_text_calls = "Уваходныя званкі";
+li_text_filter = "Фільтраванне з 'Service-Name' і 'AC-Name'";
+li_text_highspeed = "Высокахуткасны, 10x хутчэйшы чым Windows драйвер";
+li_text_lowcpu = "нізкае выкарыстанне CPU";
+li_text_ndis6 = "NDIS 5.1 / NDIS 6 (пад Vista / Windows 7)";
+li_text_pppoe_auto = "PPPoE аўтадэтэктаванне, усе PPPoE параметры наладжвальныя";
+li_text_ppppoe_dial = "PPPoE Дыал-Ап драйвер для Windows";
+li_text_sessions = "Мультысесіі, няма абмежаванняў колькасці злучэнняў";
+
+/ cFos
+cfos_html_h1 = "DSL і ISDN дыал-ін драйвер з Traffic Shaping";
+link_text_0190 = "0190er Блакавальнік";
+link_text_budget = "Анлайн лічыльнік";
+link_text_cfos_features = "cFos спіс асаблівасцяў";
+link_text_cfos_priolist = "Прыярытызаваць праграмы з cFos (&#187; спіс праграм)";
+link_text_feature_list = "Асаблівасці для DSL і ISDN";
+link_text_firewall = "Файрвол";
+link_text_what_is_cfos = "Што такое cFos/Professional?";
+
+/hrping
+
+/notifier
+
+/FAQ
+which_product = "Якую праграму я павінен выкарыстоўваць?";
+
+/ support
+agents_china = "Кітай";
+agents_desc = "Гэта нашы агенты cFos за межамі Нямеччыны";
+agents_hongkong = "Гон-Конг / Кітай";
+agents_greece = "Грэцыя";
+agents_india = "Індыя";
+agents_malaysia = "Малайзія";
+agents_russia = "Расія";
+agents_taiwan = "Тайвань";
+agents_thailand = "Тайланд";
+agents_vietnam = "В'етнам";
+abgelaufen = "Версія, якую вы выкарыстоўваеце, мінула.";
+choice1 = "Інтэрнет праз ISDN, праграма для ISDN на COM Port,<br />ISDN манітор выкліку?";
+choice2 = "Вы выкарыстоўваеце роўтар для доступу ў інтэрнэт?";
+choice3 = "Вы выкарыстоўваеце інтэрнэт злучэнне выкарыстоўваючы PPPoE (н-д DSL)?";
+choice4 = "Вы выкарыстоўваеце DSL Мадэм падлучаны да USB?";
+choice5 = "Драйвер для Дыал-Ап Сеткі?";
+choice7 = "Абодва?";
+decision = "Які прадукт?";
+decision_help = "Дапамога ў прыняцці рашэння";
+dialup_dsl_cable = "Дыал-ап Сетка з DSL ці кабельным мадэмам (PPPoE)";
+faq_long = "Часта задаваныя пытанні";
+h1_alternatives = "cFosSpeed, cFos ці cFos Broadband злучэнне";
+highspeed = "Высокахуткаснае злучэнне >= 16Mbit/s";
+hof_agent = "cFos Агенты";
+hof_desc = "Гэта для лепшых распаўсюджвальнікаў. Яны сапраўды дапамагаюць прасоўваць нашы праграмы і вэбсайт. Вялікае дзякуй!";
+hof_friends = "Сябры cFos";
+hof_skindesigner = "Дызайнеры скінаў";
+hof_title = "Зала славы";
+hof_titleadd = "...налі лепшыя распаўсюджвальнікі";
+hof_translator = "Перакладчыкі";
+hof_bugfixhero = "Героі Багфіксаў";
+howto_dump_li01 = "У 'START/Control Panel/System' пад 'advanced' адкрыць 'startup and recovery - settings'";
+howto_dump_li02 = "У 'write debugging information' абярыце: 'kernel memory dump'";
+howto_dump_li03 = "Клікніце 'OK' каб пацвердзіць змены і зачыніць акно 'advanced'";
+howto_dump_li04 = "Клікніце 'OK' каб пацвердзіць змены і зачыніць акно 'System' і затым акно 'Control Panel'";
+howto_dump_li05 = "Калі вы выкарыстоўваеце XP перазагрузіце кампутар (не патрабуецца калі ў вас Vista/7!)";
+howto_dump_p01 = "У выпадку з'яўлення Сіняга Экрана падчас выкарыстанні нашых праграм нам патрабуецца дамп памяці ядра вашага кампутара для таго каб мы знайшлі праблему.";
+howto_dump_p02 = "Для генерацыі дампа памяці ядра калі ласка, вынікайце наступным крокам інструкцыі:";
+howto_dump_p03 = "Для стварэння дампа ядра памяці вы павінны прытрымвацца паказаных налад функцыі 'kernel memory dump'";
+howto_dump_p04 = "Зараз дамп ядра памяці будзе згенераваны як толькі з'явіцца Сіні Экран і ў любым выпадку, будзе захаваны як MEMORY.DMP.";
+howto_dump_p05 = "Калі ласка, заархівуйце гэты файл у 'zip' (мы рэкамендуем <a class=\"inline\" href=\"http://www.rarlab.com/\">RAR</a> ці <a  class=\"inline\" href=\"http://www.7-zip.org/\">7-zip</a>) і пашліце яго нам.";
+howto_dump_p06 = "Звяжыцеся з намі, калі вам трэба адправіць нам вялікія па аб'ёме файлы.";
+howto_dump_p07 = "Вы можаце таксама накіраваць нам дамп памяці пасродкам бясплатных файлавых сервераў (н-д <a class=\"inline\" href=\"http://www.rapidshare.de/\">www.rapidshare.de/</a>).";
+howto_dump_title = "Как мне генерировать дамп ядра памяти Windows.";
+incoming_pppoe = "Уваходныя званкі";
+isdn_call = "ISDN манітор выклікаў";
+low_cpu = "экстрэмальна нізкае выкарыстанне CPU";
+multiple_pc = "Некалькі ПК выкарыстоўваюць адно Інтэрнэт злучэнне.";
+multi_pppoe = "Некалькі PPPoE падлучэнняў адначасова";
+no = "Не";
+other_media = "Іншае медыа, н-д  PPPoA, IP over AAL5, PPTP, RFC1483/2684 брыдж";
+pppoe_filter = "Фільтраванне PPPoE сэрвісу / AC імя";
+recommend = "Для Traffic Shaping мы заўсёды рэкамендуем cFosSpeed. Аднак, калі ў вас DSL (з DSL мадэмам) і ISDN злучэнне, мы рэкамендуем cFos Professional.<br /><br />Калі ваша злучэнне роўна хоць бы 16 MBit/s, мы рэкамендуем cFos Broadband Connect. Для Traffic Shaping таксама выкарыстоўвайце cFosSpeed.";
+router = "Роўтар";
+router_dialup = "Роўтар і дыал-ап злучэнні";
+speed_limit = "Абмежаванне хуткасці для асобных ПК.";
+text_damage = "Дарэчы, ніхто не прычыняе нам большай эканамічнай шкоды чым тыя, хто публікуе свае персанальныя <b>ліцэнзійныя ключы</b> для агульнай спампоўкі.";
+text_order = "Так, не валодаючы цяпер афіцыйнай ліцэнзіяй для cFos, cFosSpeed, ці cFosBC, калі ласка дазвольце нашым праграмам ўдасканальвацца, замовіўшы сваю ліцэнзію цяпер:";
+text_thanks = "<b>Дзякуй усім</b>, хто ўжо купіў ліцэнзію для cFos, cFosSpeed, і/ці cFosBC. Вы падтрымліваеце далейшае развіццё нашых праграм!";
+text_version = "<b>Толькі афіцыйная ліцэнзія гарантуе максімум прапускной здольнасці і найнізкі пінг!</b><br /><br /> Толькі немадыфікаваныя арыгінальныя версіі прапануюць поўны спектр асаблівасцяў і функцый, якія з'яўляюцца часткай усіх праграм cFos. Майце на ўвазе, што мы рэгулярна запампоўваем нелегальныя хакі нашых праграм з Інтэрнэту. Гэтыя хакі - толькі звязкі паспешліва скапіяваных файлаў сумніўнай якасці. <br /><br /> Тым часам, <b>пакуль гэта можа быць не гэтак відавочна, <span class=\"red\">але рана ці позна зламаныя копіі будуць працаваць няправільна</span>.</b>";
+text_which_one = "Якую праграму абраць?";
+var_bandwidth = "Гнуткая прапускная здольнасць.";
+word_gratislizenz = "Бясплатная ліцэнзія";
+word_order_questions = "Пытанні па Замове";
+word_search = "Пошук";
+word_technical_questions = "Тэхнічныя пытанні";
+yes = "Так";
+
+/ traffic shaping
+alt_load_print = "Загрузка малюнка для друку";
+alt_transfer_rates = "Хуткасці трансферу";
+ts_c_t1 = "Важная нататка да cFos Traffic Shaping";
+ts_c_p1 = "cFos Traffic Shaping цяпер у <b>калібравальнай</b> і <b>навучэнкі</b> фазе. Гэта неабходна для дакладнага вызначэння хуткасці злучэння і хуткадзейнасці з мэтай вызначэння <b>аптымальнай хуткасці спампоўкі</b> і <b>запампоўванні</b>, дасягненне <b>мінімальнага памеру пінгу</b>.";
+ts_c_p2 = "У залежнасці ад чашчыні выкарыстання свайго злучэння, гэта фаза можа доўжыцца <b>некалькі дзён</b>. Аднак, вы можаце паскорыць гэта працэс шляхам самастойнай пасылкі вялікага файла па e-mail, таксама эфектыўна запускаць запампоўку на поўную шырыню канала на некалькі хвілін.";
+ts_c_p3 = "Час пінгу павінны пачынацца з павольнага да найхуткага, датуль пакуль хуткасць запампоўкі будзе дакладна ўсталявана і ўжыта ў адпаведнасці з максімальнымі спецыфікацыямі злучэнняў. Вы можаце пераключыць рэжым адлюстравання пінгу з лічбавага на графічны ў акне статуту.";
+ts_c_t2 = "У наступнай уваге павінна быць нададзена";
+ts_c_t2a = "Дадатковыя рэчы якія вы можаце зрабіць";
+ts_c_p4 = "Пераканаецеся, што пінг не скажаецца <strong>брандмаўарам</strong> ці <strong>роўтарам</strong>.";
+ts_c_p5 = "Адключыце іншыя прадукты, якія могуць абмяжоўваць хуткасць злучэння, напрыклад Traffic Shaping <strong>Fritz!Box</strong>. Гэтыя два рашэнні будуць уплываць адзін на аднаго.";
+ts_c_p6 = "У кантэкстным меню, абярыце <strong>сярэдні</strong> для вашага злучэння ў <strong>Опцыі/Налады/Traffic Shaping</strong>.";
+ts_c_p7 = "Калі вы часта выкарыстоўваеце тэлефоны, падлучаныя да роўтара для здзяйснення <strong>Voice-over-IP (VoIP)</strong> званкоў, калі ласка абярыце \"<strong>якая вар'іруе шырыню</strong>\" для вашага злучэння.";
+ts_c_a1 = "Пазнайце больш о cFos Traffic Shaping <a class=\"inline\" href=\"/en/asus/asus.htm\"><img src=\"/images/link_bottom_right.png\" width=\"9\" height=\"11\" border=\"0\" alt=\"\" />here</a>.";
+ts_c_a1a = "Пазнайце больш о cFos Traffic Shaping <a class=\"inline\" href=\"/en/asrock/index.htm\"><img src=\"/images/link_bottom_right.png\" width=\"9\" height=\"11\" border=\"0\" alt=\"\" />here</a>.";
+ts_exp_title = "Traffic Shaping Каліброўка";
+ts_exp_t1 = "Як я магу аптымальна адкалібраваць cFos / cFosSpeed?";
+ts_exp_p1 = "Ачыстка дадзеных traffic shaping націскам на &quot;ачыстка калібравальных дадзеных&quot;";
+ts_exp_p2 = "Зрабіце кароткую паўнахуткасную спампоўку. (5-10 секунд)";
+ts_exp_p3 = "Зрабіце працяглае паўнахуткаснае запампоўванне (30 сек - 1 мін).<br />Важна каб запампоўка адбывалася так хутка як гэта магчыма, напрыклад, сервер, куды вы пасылаеце файл, знаходзіцца побач і досыць магутны  (напрыклад ваш паштовы сервер ці FTP сервер), больш таго, важна не мець паралельных спамповак калі вы робіце гэтую запампоўку. З выходнай хуткасцю 256 kbit/s вы павінны пераслаць любыя 2 мб у месца прызначэння.";
+ts_exp_p4 = "Вось і ўсё.  Злучэнне добра адкалібравана калі ў вас паўнахуткасная запампоўка і нізкі пінг (абое значэнні могуць быць прагледжаны ў акне статуту).";
+ts_exp_p5 = "Traffic Shaping прыярытэзуе перадачу інфармацыі на Інтэрнэт злучэннях такім шляхам, што вы можаце выкарыстоўваць <b>максімальную шырыню канала</b> у <b>абодвух</b> кірунках. У дадатак, cFos і cFosSpeed кантралюе хуткасць перадачы дадзеных для ўпэўнена <b>нізкага пінгу</b>. Для дадатковай інфармацыі, калі ласка звяртайцеся да <a class=\"inline\" href=\"/en/traffic-shaping/traffic-shaping.htm\">тлумачэнне Traffic Shaping</a>";
+ts_exp_t2 = "Як я магу вызначыць перавагі cFos Traffic Shaping самастойна?";
+ts_exp_t2a = "Значныя перавагі";
+ts_exp_p6 = "Вы павінны памятаць наступныя эфекты:";
+ts_exp_l1 = "Плыўны серфінг / Загрузка вэб-сайтаў";
+ts_exp_l2 = "Максімальная хуткасць спампоўкі падчас запампоўвання";
+ts_exp_l3 = "Нізкі пінг падчас запампоўкі, пампоўкі і торэнта";
+ts_exp_l4 = "Гульнявыя злучэнні застаюцца адчувальнымі нават падчас адначасовай перадачы дадзеных у абодва бакі";
+ts_exp_l5 = "Лепшая якасць лініі для Voice-over-IP (VoIP)";
+ts_exp_p7 = "Вы можаце не верыць у гэта, але вы можаце самастойна размяркоўваць квоты:";
+ts_exp_a1 = "Ручное";
+ts_o_t1 = "Для кожнага злучэння вы можаце вызначыць наступныя налады:";
+ts_o_l1 = "Асяроддзе/Пратакол";
+ts_o_l2 = "Выкарыстоўвае";
+ts_o_l3 = "Traffic Shaping Рэжым (Шматкарыстальніцкая версія)";
+ts_o_p1 = "У дыялогавым акне ў <samp>опцыях/злучэнні</samp> вы можаце адкрыць <samp>дыялог асяроддзя</samp> клікам на <img src=\"/images/settings.png\" alt=\"Налады\" title=\"Налады\" border=\"0\" height=\"20\" width=\"21\" /> і абраць  choose a наладу для кожнага злучэння. Вы можаце абраць з наступнага спісу:";
+ts_o_a1 = "Скрыншот";
+ts_o_a2 = "опцыі асяроддзя";
+ts_o_l4 = "<b>Адаптаваны:</b> cFos/cFosSpeed будзе адаптоўвацца пад ваша злучэнні аўтаматычна. Выкарыстоўвайце гэту наладу калі вы не ўпэўнены які ў вас тып злучэння. Найлепшы выбар налад забяспечвае найменшыя пінгі.";
+ts_o_l5 = "<b>DSL (PPPoE):</b> Найболей шырокараспаўсюджваны DSL пратакол (звычайна выкарыстоўваны ў ЗША, Нямеччыны, Усходняй Еўропе і іншых галоўных прасторах). ";
+ts_o_l5_a = "PPPoE тлумачэнне @ wikipedia.org";
+ts_o_l6 = "<b>DSL (PPPoA/Vcmux):</b> Агульны стандарт у Вялікабрытаніі. ";
+ts_o_l6_a = "PPPoA тлумачэнне @ wikipedia.org";
+ts_o_l7 = "<b>DSL (PPPoA/LLC):</b> Часам выкарыстоўваны ў Вялікабрытаніі. ";
+ts_o_l8 = "<b>DSL (PPTP):</b> Найстары стандарт DSL усё яшчэ выкарыстоўваны ў некаторых месцах Францыі. ";
+ts_o_l8_a = "PPTP тлумачэнне @ wikipedia.org";
+ts_o_l9 = "<b>Кабель:</b> Інтэрнэт праз тэлевізійны кабель з прапускной здольнасцю, моцна якая залежыць ад нагрузкі і чакай дня. ";
+ts_o_l9_a = "Cable спецыфікацыі @ wikipedia.org";
+ts_o_l10 = "<b>ISDN:</b> 8 ці 16 kbytes, двухнакіраваная, PPP у HDLC фрэймах ";
+ts_o_l10_a = "ISDN тлумачэнне @ wikipedia.org";
+ts_o_l11 = "<b>IP праз AAL5:</b> IP перадача дадзеных праз ATM ";
+ts_o_l11_a = "ATM Адаптыўны пласт @ wikipedia.org";
+ts_o_l12 = "<b>RFC 1483/2684:</b> DSL праз ATM бріджынг";
+ts_o_l13 = "<b>Лік Фрэйма:</b> Хуткасць перадачы вар'іруецца ў залежнасці ад ліку пакетаў дадзеных, перададзеных у прамежак часу. Часам выкарыстоўваецца ў Грэцыі.";
+ts_o_l14 = "<b>Змяшанае Raw IP/Лікі Фрэйма:</b> Пампаваны трафік адбываецца як у \"Лік Фрэйма\", які запампоўваецца як \"Кабель\". Выкарыстоўваецца некаторымі кабельнымі правайдарамі <em>ish</em>.";
+ts_o_p2 = "Усталёўка правільнага асяроддзя/пратаколу калі вы ведаеце ў дакладнасці якія менавіта асяроддзі/пратаколы выкарыстоўваюцца. Калі сумняваецеся, выкарыстоўвайце <samp>Адаптаваны</samp>.";
+ts_o_p3 = "Traffic Shaping для вар'іруемых прапускных здольнасцяў задуманы аптымізаваць час пінгу нават пры ўваходным/выходным струменях інфармацыі з некалькіх ПК. Мэта - гэта захаваць адчувальнасць Інтэрнэту да інтэрактыўных прыкладанняў. ПК са сталым файлаабменным трафікам P2P) павінен мінімальна ўплываць на агульную адчувальнасць. Лепшы час пінгу дасягаецца з \"фіксаванай\" наладай; ці з \"вар'іруемай, сумеснай.\" Калі ласка таксама вынікайце нашым рэкамендацыям па каліброўцы cFos Traffic Shaping.";
+ts_o_p4 = "cFosSpeed шматкарыстальніцкая функцыя актывуе cFosSpeed Traffic Shaping у сетках, якія змяшчаюць некалькі кліентаў. Напрыклад, калі роўтар выкарыстоўваецца для забеспячэння інтэрнэтам некалькіх кампутараў, cFosSpeed можа быць усталяваны на адным, ці лепш - на кожным з іх. Абраўшы наладжаны Traffic Shaping мод, можна дасягнуць аптымальнага выкарыстання даступнай прапускной здольнасці канала.";
+ts_ts_better = "= лепш";
+ts_ts_title = "Выкарыстайце ўсю хуткасць Інтэрнэт";
+ts_ts_t1 = "Як Traffic Shaping працуе?";
+ts_ts_ani1_alt = "Звычайная перадача дадзеных";
+ts_ts_ani1_text = "Атрыманне дадзеных мае патрэбу ў пацверджанні (пакетаў пацверджання) перад тым як новая інфармацыя будзе выслана.";
+ts_ts_ani2_alt = "Без Traffic Shaping";
+ts_ts_ani2_text = "Пакеты пацверджання спынены і адкладзены a адначасовай запампоўкай. Як вынік, пампоўка запаволена.";
+ts_ts_ani3_text = "Пакеты пацверджання прыярытэзаваны ў запампоўцы, што дазваляе працягваць пампоўка на максімальнай хуткасці.";
+ts_ts_p1 = "<b>cFos Traffic Shaping памяншае затрымкі падчас перадачы дадзеных і дазваляе падарожнічаць па Інтэрнэце больш за ў тры разу хутчэй. Такім чынам, вы можаце выкарыстоўваць усю даступную шырыню канала свайго злучэння!</b>";
+ts_ts_p2 = "Падчас перадачы па TCP/IP, a вызначаная колькасць дадзеных мае патрэбу ў пацверджанні пра атрыманне перад тым як паслаць яшчэ большы аб'ём дадзеных. Прыпыненне якая пацвярджае інфармацыі ўплывае на затрымкі і падзенні хуткасці злучэння, змушаючы адпраўніка чакаць. Асабліва магчыма падзенне хуткасці пампоўкі для DSL and cable, што прыводзіць да запаволення ўзыходнага канала (які ў любым выпадку мае меншую прапускную здольнасць) на запампоўку. Вось чаму ў такім разе недастаткова ўзыходнай прапускной здольнасці для пацверджання дадзеных.";
+ts_ts_p3 = "Стандартная налада будзе спрабаваць кампенсаваць які павялічваецца памер TCP вокан, шляхам павелічэння колькасці пасыланай інфармацыі без неадкладнага пацверджання. Галоўная праблема - гэта, як следства, павялічаны пінг. Галоўнай праблемай з'яўляецца павелічэнне часу пінгу (час чакання) і значныя затрымкі ў рэндэрынгу Інтэрнэт-старонак. Час чакання больш 2 секунд неўласціва для TCP вокнаў памерам 64k. Коратка кажучы, вялікія памеры вокнаў не дазваляюць дасягнуць поўную хуткасць спампоўкі.";
+ts_ts_p4 = "У процівагу, cFos Traffic Shaping прыярытэзуе струмень дадзеных такім чынам, што найважныя пакеты дадзеных атрымліваюць пацверджанне разам з папярэднімі пакетамі дадзеных. Такім чынам, пацверджанні прыходзяць своечасова і хуткасць запампоўкі ніколі не затрымоўваецца зноў!";
+ts_ts_p5 = "<em>cFos</em> Traffic-Shaping тэхналогія распазнае колькасць найважных тыпаў пакетаў дадзеных і прыярытэзуе іх не толькі для захавання хуткасці Інтэрнэт трафіку, але і для памяншэння часу пінгу. Гэта не толькі павялічвае хуткасць пампоўкі і вандраванні па інтэрнэце, але і дае некатарую перавагу для анлайн гульняў.";
+ts_ts_p6 = "З cFos Traffic Shaping, вы атрымаеце адчувальныя перавагі і выгады такія як:";
+ts_ts_l1 = "Поўная хуткасць канала падчас пампоўкі";
+ts_ts_l2 = "Паслядоўны і хуткі час водгуку падчас Інтэрнэт серфінгу і іншых запушчаных прыкладанняў";
+ts_ts_l3 = "Павялічаная якасць VoIP";
+ts_ts_a1 = "Як Я магу вызначыць гэтыя перавагі самастойна";
+ts_ts_a2 = "Што яшчэ робіць Traffic Shaping?";
+ts_ts_a3 = "Traffic Shaping опцыі / Шматкарыстальніцкая версія";
+ts_ts_a4 = "cFosSpeed асаблівасці";
+ts_ts_t2 = "Высокая хуткасць, нізкі пінг";
+ts_ts_p7 = "Час пінгу падчас шматлікіх памповак; запамповак";
+ts_ts_p8 = "1-4 запампоўкі: Пакуль час пінгу застаецца перманентна нізкім з <em>cFos</em>, драйвер XP \"запавольвае сістэму.\"";
+ts_ts_p9 = "Без Traffic Shaping, час пінгу можа лёгка дасягнуць жахлівых 2 секунд, што можа ўздзейнічаць на Telnet ці SSH сесіі &#8211; калі аутрайт немагчымы. Але з <em>cFos</em> Traffic Shaping, час чакання застаецца ў норме.";
+ts_ts_p10 = "Толькі адно гэта дае зусім новае адчуванне Інтэрнэт серфінгу!";
+ts_ts_p11 = "Гэта таксама азначае што падчас Інтэрнэт серфінгу вы нават не будзеце заўважаць фонавыя перадачы дадзеных. І зноў жа, такі рэзка паменшаны час водгуку будзе асабліва зручна для анлайн гульняў.";
+ts_ts_p12 = "Першае, <em>cFos</em> Traffic Shaping вымярае хуткасці пампоўкі і запампоўкі таксама як і затрымкі пінгу для кожнага з Інтэрнэт злучэнняў. Затым гэта інфармацыя выкарыстоўваецца для парадкавання ўсіх Інтэрнэт злучэнняў. У дадатак, Traffic Shaping размяркоўвае ўсю магчымую прапускную здольнасць дынамічна для кожнага злучэння.";
+ts_ts_p13 = "<em>cFos</em> Traffic Shaping не толькі прыярытэзуе ACKs, але таксама і іншыя пакеты, якія выкарыстоўваюцца для Telnet і SSH. Такім чынам, c <em>cFos</em> Traffic Shaping, выпадкі калі торэнты ці пампоўка паштовых укладанняў тармазілі ваша інтэрнэт злучэнне, нарэшце, у мінулым!";
+ts_ts_p14 = "Але не верце нам на слова; проста пераканайцеся самі.";
+ts_ts_p15 = "Выкарыстоўвайце сваю рэальную прапускную здольнасць cFos Traffic Shaping!";
+ts_ts_t3 = "Што яшчэ робіць Traffic Shaping?";
+ts_ts_p16 = "Акрамя таго, прыярытэзацыя ACK пакетаў, Traffic Shaping забяспечвае і дазваляе наступнае:";
+ts_ts_l4 = "<strong>RX Shaping</strong><br />гарантуе мінімальны пінг нават падчас запамповак і прадухіляе перабіўка адной адначасовай запампоўкі іншай.";
+ts_ts_l5 = "<strong>ACK-Filter</strong><br />аптымізуе справаздачы пра атрыманне пакетаў TCP/IP, такім чынам, павялічваецца эфектыўнасць выходнага канала.";
+ts_ts_l6 = "<strong>Прыярытэзацыя індывідуальных параметраў</strong><br /> да прыкладу, гульням, падчас паніжэння прыярытэту іншым прыкладанням, і асабліва важна пры вылучэнні дадатковай хуткасці злучэння для найважных прыкладанняў.";
+ts_ts_l7 = "<strong>IP-тэлефанія (VoiP) якасць гаворкі</strong><br /> будзе значна  палепшана па вызначэнні і прыярытэзацыі RTP пакетаў.";
+ts_ts_l8 = "<strong>Прыярытэзацыя іншых пратаколаў праз аналіз layer-7,</strong><br />такіх як HTTP, FTP, POP3, SMTP, IcmP, SSH, Telnet, і DNS можа быць зроблена, выкарыстоўваючы ўбудаваныя, праграмуемыя правілы фільтраў.";
+ts_ts_t4 = "Пратэстуйце самі!";
+ts_ts_p17 = "Параўнанне часу загрузкі";
+ts_ts_sum1 = "Час загрузкі";
+ts_ts_p18 = "Калі выкарыстоўваеце запампоўку і два пампоўкі адначасова, cFos дазваляе вам падарожнічаць па інтэрнэце больш за ў  <b>тры разу хутчэй</b> чым звычайны XP драйвер!";
+ts_ts_p19 = "Дата: 09/2004 - DSL 768/128 злучэнне";
+ts_ts_p20 = "Першае, майце на ўвазе, што гэтыя тэсты толькі з адным пампоўкам ці запампоўкай можа толькі паказаць максімальную хуткасць запампоўкі. Вось чаму Вам трэба стварыць хоць бы два адначасовых струменя запампоўкі для атрымання эфекту ад <em>cFos</em> Traffic Shaping:";
+ts_ts_p21 = "<em>cFos</em> і <em>cFosSpeed</em> будуць калібраваць інтэрнэт-злучэнне. Гэта азначае, што лепшыя вынікі звычайна атрымліваюцца пасля выкарыстання праграмы ў плыні некалькіх дзён, падчас якіх варта запускаць так шмат запамповак і памповак, наколькі гэта магчыма.";
+ts_ts_p22 = "Пашліце сабе на электронную пошту файл памерам не меней 5 мб. Пры стандартным злучэнні, гэта павінна заняць каля пяці хвілін, якія вы можаце ўзяць за аснову. Для кожнага тэста, вы павінны чысціць кэш браўзэра і адсочваць час загрузкі для вашых Вэб-сайтаў. Усе тэсты павінны быць неаднаразова здзейснены для максімальнай дакладнасці.";
+ts_ts_p23 = "Камбінаваная запампоўка &amp; пампоўка";
+ts_ts_p24 = "Напрыклад, падчас адной запампоўкі ці пампоўкі, \"тыповае\" DSL злучэнне ў 768 kbit/s павінна дасягнуць хуткасць пампоўкі каля 87 kbytes/s і запампоўкі каля 16 kbytes/s. 11.5 kbytes/s у рэштцы даступна для пампоўкі, у той час, як пакінутыя 4.5 kbytes/s выкарыстоўваюцца для аперавання дадзенымі пацверджанні сеансу запампоўкі.";
+ts_ts_p25 = "Адзін проста і дакладны шлях сачыць за часам водгуку - гэта выкарыстанне нашай <a href=\"/en/ping/ping.htm\"><b>hrБясплатнай утыліты для вымярэння пінгу</b></a>.";
+ts_ts_a5 = "Якія існуюць альтэрнатыўныя метады Інтэрнэт цюнінгу?";
+ts_ts_p26 = "Па ўсіх малюначках і тэксту на гэтай старонцы можна прайсці бясплатна.<br />Націсніце на малюначку для паказу паўнафарматнага малюнкі.";
+youtube_speedwin7 = "Паглядзець усталёўку cFosSpeed на Win7";
+
+/ cFosSpeed additional pages
+adjust_speed_shaping = " - уключыць ці выключыць гэту функцыю";
+autoarrange = "Аўта-размяшчэнне вокнаў";
+auto_mtu = "Аўта-MTU аптымізацыя";
+autoopen = "Аўта-адкрыццё/Аўта-ўтойванне";
+bit_ver = "32-бітная ці 64-бітная версія";
+blend_effect = "Зацьменне вокнаў";
+bodytitel_1 = "Агляд меню меню cFosSpeed (кантэкстнае меню)";
+broadband = "Шырокапалосны: Кабельны ці DSL";
+budget_settings = "Налады бюджэту";
+budget_settings_desc = "Тут вы можаце наладзіць канфігурацыю налад бюджэту.";
+cable = "Кабельны";
+clear_tsdata = "Ачысціць дадзеныя каліброўкі";
+clear_tsdata_desc = "Выдаленнем файла DATA.INI у тэчцы cFosSpeed будуць вычышчаны дадзеныя пра злучэнне. <br /> Traffic Shaping павінна быць перакалібрована.";
+click_through = "Націснуць-праз";
+close_or_open = "- Адкрыць ці зачыніць";
+closewindow = "Зачыніць акно";
+closewindows = "Зачыніць вокны";
+config = "Опцыі";
+connection_name = "Імя злучэння";
+connections = "Злучэнні";
+dupe_connections = "Злучыць з";
+connect_to = "Злучыць з %?";
+connect_to_desc = "Тут вы можаце адкрыць ці зачыніць усе ўсталяваныя ў Windows broadband і DUN злучэнні.";
+conn_report = "Агляд злучэнняў";
+days_plural = "дні";
+defpos = "Пазіцыя па змаўчанні";
+disable_speed_shaping = "Адключыць Traffic Shaping";
+disco_ras = "Выйсці ";
+ebay_at_our_page = "на нашай старонцы <b><a href=\"http://members.ebay.de/aboutme/cfos_de/\">Ebay <img src=\"http://pics.ebaystatic.com/aw/pics/aboutme-small.gif\" alt=\"about me\" align=\"absmiddle\" border=\"0\" /> Site</a></b>";
+ebay_bidding = "Вы ставіце на";
+
+/ PNet additional pages
+
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+bc_doc_p1 = "cFos Broadband Connect гэта высакахуткасны Дыал-Ап драйвер для Інтэрнэт Доступу з высокай прапускной здольнасцю. У той час як пастаўляны з Windows драйвер можа перадаваць да 4.5 Mbyte/s (= 36 Mbit/s), cFos Broadband Connect перадае 50 Mbyte/s (= 400 Mbit/s).<br /><i>Тэставалася з Gigabit LAN, Pentium 4 (3GHz).</i>";
+bc_doc_p2 = "cFos Broadband Connect ствараўся для максімальнай прапускной здольнасці з мінімальнай нагрузкай на CPU. Гэта дазваляе накіроўваць магутнасць працэсара актуальным інтэрнэт-прыкладанням, напрыклад медыя плэерам і г.д. На поўнай хуткасці cFos Broadband Connect патрабуецца толькі 3% CPU.";
+bc_doc_p3 = "cFos Broadband Connect выкарыстоўвае ўсе найважныя PPPoE параметры. Гэта можна лёгка наладзіць пасродкам тэлефоннага нумара Дыал-Ап злучэння. З Аўтаналадкай cFos Broadband Connect знаходзіць усё Інтэрнэт злучэнні наладжаныя ў вашай сістэме.";
+bc_doc_p4 = "cFos Broadband Connect можа таксама прымаць уваходныя званкі. Тым не менш, вы можаце наладзіць свой уласны PPPoE сервер. Гэта таксама дазваляе правесці свае ўласныя тэсты хуткасці з картамі Gigabit ethernet.";
+bc_doc_p5 = "cFos Broadband Connect дазваляе некалькі PPPoE сесій адначасова. Вы можаце выкарыстоўваць любая колькасць уваходных і выходных сесій. Разам з  Service-Name' і 'AC-Name' параметрамі вы можаце абмежаваць злучэнні да вызначаных сэрвісаў ці кропкам доступу.";
+bc_doc_p6 = "cFos Broadband Connect падтрымлівае NDIS 6 пад Vista/7, і забяспечвае больш хуткасную перадачу дадзеных па сетцы.";
+bc_doc_p7 = "cFos Broadband Connect і cFosSpeed: Найцудоўная каманда. Высакахуткасная перадача дадзеных плюс Traffic Shaping, т.ч. максімум прапускной здольнасці і мінімальны пінг.";
+bc_doc_t1 = "Налады cfosBC.ini, секцыя [param]:";
+bc_faq1 = "У якім выпадку я павінен выкарыстоўваць <em>cFos Broadband Connect</em>?";
+bc_faq2 = "Дзе я магу задаць пытанні, якія тычацца <em>cFos Broadband Connect</em>?";
+
+/ oem
+
+/ asus
+
+/ asrock
+
+/ special price
+
+/ contact
+
+/ link_programm
+
+/ press
+
+/ speed guide
+
+/ speed test
+
+/upload
+
+/videos
+
+/meta descriptions
+
+/mailing lists
+
+/ countrynames
+
+/ no translation  -  currency info for order form exchange rates only - do not modify!
+currency_4217 = "BYR";
+currency_prefix = "";
+currency_suffix = "Br";
+selected_value = "Belarus";
+
+

@@ -1,0 +1,63 @@
+#language 3098
+#fallback 1033
+#charset 0
+
+language = "Serbian (Cyril)";
+lang_key = "_rs";
+input_lang = "sr-cyrl-cs";
+
+
+/ navigation
+
+/ index2
+
+/ download
+
+/ order
+
+/ Order and Announcelist Confirmation Email
+
+/ cFosSpeed
+
+/ cFos IPv6 Link
+
+/ cFos BC
+
+/ cFos
+
+/ FAQ
+
+/ support
+
+/ traffic shaping
+
+/ cFosSpeed additional pages
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+
+/ oem
+
+/ asus
+
+/ special price
+
+/ contact
+
+/ link_programm
+
+/ press
+
+/ speed test
+
+/ countrynames
+
+/ no translation
+currency_4217 = "RSD";
+currency_prefix = "";
+currency_suffix = "din";
+selected_value = "Serbia";
+
+
+

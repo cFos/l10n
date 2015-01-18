@@ -1,0 +1,82 @@
+#language 3076
+#fallback 1028
+#fallback1 2052
+#fallback2  1033
+#charset 0
+
+language = "Chinese (Hong Kong)";
+lang_key = "_hk";
+input_lang = "zh-hk";
+
+/ test purposes, don't translate!
+
+/ navigation
+
+/ index2
+
+/ download
+
+/ order
+bank_de_account = "552 4 014619"; / nummer
+bank_de_account_owner = "Leung C. H.";
+bank_de_name = "HSBC (The Hongkong and Shanghai Banking Corporation Ltd.) Bank Code: 004";
+f_trans_text1 = "确认转帐后才发货。";
+f_trans_text2 = "对于国外汇款请包括所有的银行费用。";
+
+
+
+/ Order and Announcelist Confirmation Email
+
+/ cFosSpeed
+
+/ cFos IPv6 Link
+
+/ cFos BC
+
+/ cFos
+
+/hrping
+
+/ FAQ
+
+/ support
+
+/ traffic shaping
+
+/ cFosSpeed additional pages
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+
+/ oem
+
+/ asus
+
+/ asrock
+
+/ special price
+
+/ contact
+
+/ link_programm
+
+/ press
+
+/ speed guide
+/ speed test
+
+/meta descriptions
+
+/mailing lists
+
+/ countrynames
+
+/ no translation
+currency_4217 = "HKD";
+currency_prefix = "HK$";
+currency_suffix = "";
+selected_value = "Hong Kong";
+
+
+

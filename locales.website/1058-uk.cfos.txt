@@ -1,0 +1,89 @@
+#language 1058
+#fallback 1049
+#fallback1 1033
+#charset 0
+
+language = "Ukrainian";
+lang_key = "_ua";
+input_lang = "uk";
+
+/ test purposes, don't translate!
+
+/ navigation
+
+/ index2
+worldcup_sale = "Знижки на честь Чемпіонату світу по футболу!"; / FIFA Soccer World Cup
+
+/ download
+
+/ order
+
+/ Order and Announcelist Confirmation Email
+
+/ cFosSpeed
+
+/cFos Personal Net
+
+/ cFos Outlook DAV
+
+
+/ cFos IPv6 Link
+
+/ cFos BC
+
+/ cFos
+
+/hrping
+
+/notifier
+
+/FAQ
+
+/ support
+
+/ traffic shaping
+
+/ cFosSpeed additional pages
+
+/ PNet additional pages
+
+
+/ IPv6 Link additional pages
+
+/ cFos BC additional pages
+
+/ oem
+
+/ asus
+
+/ asrock
+
+/ special price
+
+/ contact
+
+/ link_programm
+
+/ press
+
+/ speed guide
+
+/ speed test
+
+/upload
+
+/videos
+
+/meta descriptions
+
+/mailing lists
+
+/ countrynames
+
+/ no translation  -  currency info for order form exchange rates only - do not modify!
+currency_4217 = "UAH";
+currency_prefix = "";
+currency_suffix = "грн";
+selected_value = "Ukraine";
+
+
