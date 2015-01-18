@@ -1,3 +1,4 @@
 #language 9999
 
 language = "Dummy";
+input_lang = "dummy";
