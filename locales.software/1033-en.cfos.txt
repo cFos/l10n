@@ -724,6 +724,8 @@ crash_msg_virus_clean = "This module might be a virus. Therefore it is highly re
 crash_msg_hook = "Modules of other programs have been found, that have injected themselves into this program. To make sure that these modules are not the cause of the crash, please run this program again after deactivating or uninstalling the following programs:";
 crash_msg_terminate = "The program terminates now.";
 crash_msg_query_upload = "Do you wish to send a crash dump to cFos, which helps us to analyze the error?";
+crash_msg_new_release = "A new version of %p is available. Please download and install the latest version of %p from www.cfos.de.";
+crash_msg_new_beta = "A new beta version of %p is available. Please download and install the latest beta version of %p from www.cfos.de/beta.";
 
 /start installation dialog
 start_header = "Installation";

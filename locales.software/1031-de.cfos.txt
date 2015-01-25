@@ -703,6 +703,8 @@ crash_msg_virus_clean = "Dieses Modul könnte eine Virus sein. Es wird daher dri
 crash_msg_hook = "Es wurden Module anderer Programme gefunden, die sich in den Adressraum dieses Programms geladen haben. Um sicherzustellen, dass diese Module nicht die Ursache des Programmabsturzes sind, starten Sie dieses Programm bitte neu, nachdem Sie die folgende Programme deaktiviert oder deinstalliert haben:";
 crash_msg_terminate = "Das Programm wird jetzt beendet.";
 crash_msg_query_upload = "Soll ein Crash Dump an cFos geschickt werden, damit der Fehler dort analysiert werden kann?";
+crash_msg_new_release = "Eine neue Version von %p ist verfügbar. Bitte laden Sie die neuste Version von %p auf www.cfos.de herunter und installieren Sie diese.";
+crash_msg_new_beta = "Eine neue Beta-Version von %p ist verfügbar. Bitte laden Sie die neuste Beta-Version von %p auf www.cfos.de/beta herunter und installieren Sie diese.";
 
 /start installation dialog
 start_header = "Installation";
