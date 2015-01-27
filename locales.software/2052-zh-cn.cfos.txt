@@ -762,7 +762,7 @@ pg_console = "%p 控制台";
 pg_start = "启动 %p 窗口";
 pg_menu = "%? 菜单";
 pg_add_connection = "添加连接";
-pg_enter_serial_number = "输入序列号";
+pg_enter_serial_number = "输入序列号 %p";
 pg_configure = "配置 %p";
 
 / desktop symbol

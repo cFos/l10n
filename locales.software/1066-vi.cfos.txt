@@ -748,7 +748,7 @@ pg_console = "Lệnh cmd %p";
 pg_start = "Khởi động cửa sổ trạng thái %p";
 pg_menu = "%? Menu";
 pg_add_connection = "Thêm kết nối";
-pg_enter_serial_number = "Nhập số serial";
+pg_enter_serial_number = "Nhập số serial %p";
 pg_configure = "Cấu hình %p";
 
 / desktop symbol

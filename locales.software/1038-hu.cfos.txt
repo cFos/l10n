@@ -706,7 +706,7 @@ pg_console = "%p konzol";
 pg_start = "%p állapot ablak indítása";
 pg_menu = "%?-menü";
 pg_add_connection = "Kapcsolat hozzáadása";
-pg_enter_serial_number = "Sorozatszám megadása";
+pg_enter_serial_number = "%p sorozatszám megadása";
 pg_configure = "%p beállítása";
 
 / desktop symbol

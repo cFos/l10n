@@ -633,7 +633,7 @@ pg_www = "www.cfos.de";
 pg_console = "%p konzola";
 pg_menu = "%? meni";
 pg_add_connection = "Dodaj povezavo";
-pg_enter_serial_number = "Vnesi serijsko številko";
+pg_enter_serial_number = "Vnesi serijsko številko %p";
 
 / desktop symbol
 dt_advertise = "%? Funkcije";

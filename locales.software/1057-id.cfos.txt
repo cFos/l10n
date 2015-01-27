@@ -742,7 +742,7 @@ pg_console = "Konsol %p";
 pg_start = "Mulai jendela %p";
 pg_menu = "Menu %?";
 pg_add_connection = "Tambah sambungan";
-pg_enter_serial_number = "Masukkan nomor seri";
+pg_enter_serial_number = "Masukkan nomor seri %p";
 pg_configure = "Konfigurasikan %p";
 
 / desktop symbol

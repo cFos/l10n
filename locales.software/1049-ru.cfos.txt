@@ -754,7 +754,7 @@ pg_console = "Консоль %p";
 pg_start = "Запустить окно состояния %p";
 pg_menu = "Меню %?";
 pg_add_connection = "Добавить подключение";
-pg_enter_serial_number = "Ввести серийный номер";
+pg_enter_serial_number = "Ввести серийный номер %p";
 pg_configure = "Настройки %p";
 
 / desktop symbol

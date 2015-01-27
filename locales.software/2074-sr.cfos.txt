@@ -589,7 +589,7 @@ pg_console = "%p konzola";
 pg_start = "Pokreni %p prozor";
 pg_menu = "%? meni";
 pg_add_connection = "Dodaj vezu";
-pg_enter_serial_number = "Unesite serijski broj";
+pg_enter_serial_number = "Unesite serijski broj %p";
 
 / desktop symbol
 dt_advertise = "%? moguænosti";

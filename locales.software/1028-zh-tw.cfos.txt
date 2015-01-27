@@ -733,7 +733,7 @@ pg_console = "%p 控制台";
 pg_start = "啟動 %p 狀態視窗";
 pg_menu = "%? 選單";
 pg_add_connection = "新增連線";
-pg_enter_serial_number = "輸入序號";
+pg_enter_serial_number = "輸入序號 %p";
 pg_configure = "設定 %p";
 
 / desktop symbol

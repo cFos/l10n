@@ -705,7 +705,7 @@ pg_console = "%p konsola";
 pg_start = "Otevřít %p stavové okno";
 pg_menu = "%? menu";
 pg_add_connection = "Přidat spojení";
-pg_enter_serial_number = "Zadat seriové číslo";
+pg_enter_serial_number = "Zadat seriové číslo %p";
 pg_configure = "Konfigurovat %p";
 
 / desktop symbol

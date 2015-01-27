@@ -796,7 +796,7 @@ pg_console = "Κονσόλα %p";
 pg_start = "Εκκίνηση παραθύρου κατάστασης του %p ";
 pg_menu = "Μενού %?";
 pg_add_connection = "Πρόσθεση σύνδεσης";
-pg_enter_serial_number = "Δώστε σειριακό αριθμό";
+pg_enter_serial_number = "Δώστε σειριακό αριθμό %p";
 pg_configure = "Ρύθμιση του %p";
 
 / desktop symbol

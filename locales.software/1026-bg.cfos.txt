@@ -712,7 +712,7 @@ pg_www = "www.cFos.de";
 pg_console = "%p конзола";
 pg_menu = "%? меню";
 pg_add_connection = "Добавете връзка";
-pg_enter_serial_number = "Въведи сериен номерr";
+pg_enter_serial_number = "Въведи сериен номерr %p";
 
 / desktop symbol
 dt_advertise = "%? Възможности";

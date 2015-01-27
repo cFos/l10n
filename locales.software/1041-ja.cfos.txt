@@ -746,7 +746,7 @@ pg_console = "%p コンソール";
 pg_start = "%p ステータスウィンドウの起動";
 pg_menu = "%? メニュー";
 pg_add_connection = "接続を追加する";
-pg_enter_serial_number = "シリアルナンバーを入力";
+pg_enter_serial_number = "%p シリアルナンバーを入力";
 pg_configure = "%p を構成";
 
 / desktop symbol

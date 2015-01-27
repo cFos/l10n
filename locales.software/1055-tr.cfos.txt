@@ -660,7 +660,7 @@ pg_console = "%p konsolu";
 pg_start = "%p penceresini aç";
 pg_menu = "%? menü";
 pg_add_connection = "Bağlantı ekle";
-pg_enter_serial_number = "Seri numarasını girin";
+pg_enter_serial_number = "%p seri numarasını girin";
 pg_configure = "%p'yi ayarla";
 
 / desktop symbol
