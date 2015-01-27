@@ -70,6 +70,7 @@ rwin_video_award2 = "Gewinnen Sie eine von <b>100</b> cFosSpeed Lifetime-Lizenze
 social_networks = "Bitte unterstützen sie uns in Sozialen Netzwerken.<br/>Klicken sie \"Gefällt mir\" bei Facebook, folgen Sie uns auf Twitter.";
 powered_by = "Powered by <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net Webserver</a>";
 learn_more = "Mehr erfahren";
+cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> unterstützt jetzt auch <b>Windows 10</b>.";
 word_follow = "Folgen";
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> ist der offizielle Internet Beschleuniger für<br/>ASUS, GIGABYTE, ASRock und MSI Gaming Produkte";
 
@@ -1640,6 +1641,8 @@ sp_news_p2 = "Wir werden pro Jahr nur einige wenige Meldungen veröffentlichen."
 sp_news_h0 = "cFosSpeed Neuigkeiten";
 sp_news_h1 = "cFosSpeed<br/>News-Richtlinien";
 sp_news_p3 = "Da es mittlerweile schwierig geworden ist viele Personen über e-Mail zu erreichen und die Verbreitung der sozialen Netzwerke zunimmt, haben wir uns entschieden, Twitter zur Verbreitung unserer Kurzmitteilungen einzusetzen. Bei Neuigkeiten, z.B. Erscheinen einer neuen cFosSpeed Betaversion, werden wir diese zukünftig auf Twitter posten. Dies wird maximal einige Male pro Woche geschehen. Sollten sie also noch keinen Twitter-Account haben, möchten wir sie bitten einen einzurichten und dort <a class=\"inline\" target=\"_blank\" href=\"https://twitter.com/cFosSoftware\"><b>@cFosSoftware</b></a> zu folgen um die letzten Neuigkeiten zu erfahren. Dann können sie den <a href=\"/en/cfos-notifier/cfos-notifier.htm\"><b>cFos Notifier</b></a> benutzen, um unter anderem auch unsere Mitteilungen auf Twitter zu verfolgen.<br/><br/>Darüber hinaus haben wir eine Benachrichtigungsfunktion in cFosSpeed eingebaut. Wenn wichtige Neuigkeiten verfügbar sind (nur wenige Male pro Jahr), wie z.B. neue cFosSpeed Release-Versionen, werden wir die cFosSpeed News-Seite aktualisieren. Ab Version 7.01, build 1921 wird in diesem Fall im cFosSpeed-Statusfenster ein neues Symbol erscheinen, das nach Anklicken die cFosSpeed News-Seite öffnet.";
+sp_news_20150126 = "26. Januar 2015";
+sp_news_20150126_text = "Ping Zeiten mit und ohne Traffic Shaping auf einer 50MBit VDSL Verbindung bei 4 Up- und 2 Downloads.<br/>";
 sp_news_20150112 = "12. Januar 2015";
 sp_news_20150112_text = "cFosSpeed ist Softpedias \"top pick\". <a class=\"inline\" href=\"http://www.softpedia.com/get/Network-Tools/Bandwidth-Tools/cFosSpeed.shtml\"><b>Gute Beurteilung</b></a> der Features von cFosSpeed.";
 sp_news_20140429 = "29. April 2014";

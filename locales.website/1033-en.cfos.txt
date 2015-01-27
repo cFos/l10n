@@ -81,6 +81,7 @@ rwin_video_award2 = "Win one of <b>100</b> free cFosSpeed lifetime licenses!";
 social_networks = "Please support our social network presence.<br/>Like us on Facebook, follow us on Twitter.";
 powered_by = "Powered by <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net Web Server</a>";
 word_follow = "Follow";
+cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> is now available for <b>Windows 10</b>.";
 learn_more = "Learn more"; // Meaning "learn more about the product"
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> is the official Internet Accelerator for<br/>ASUS, GIGABYTE, ASRock and MSI gaming products"; // Line feed at approx middle of the key, preferred directly before the brand names
 
@@ -1744,8 +1745,8 @@ sp_news_p2 = "We will post news only a few times per year.";
 sp_news_h0 = "cFosSpeed news";
 sp_news_h1 = "cFosSpeed news policy";
 sp_news_p3 = "Because reaching people via mail becomes more and more difficult and the social networks become more and more widespread, we decided to use Twitter as our short time news service. If there is something new, for example a new cFosSpeed beta version, we will post that on Twitter. At the most we will post only a few times per week. Therefore if you don't already have a Twitter account, please create one and follow <a class=\"inline\" target=\"_blank\" href=\"https://twitter.com/cFosSoftware\"><b>@cFosSoftware</b></a> to get the latest news. You can then conveniently let the <a href=\"/en/cfos-notifier/cfos-notifier.htm\"><b>cFos Notifier</b></a> check for our news on Twitter.<br/><br/>We also implemented a news notification in cFosSpeed. When there are very important news available (only a few times per year), like new cFosSpeed release versions, we will update the cFosSpeed news page. As of cFosSpeed v7.01 build 1921, the status windows will display a new symbol and open the cFosSpeed news page, when you click it.";
-sp_news_20150112 = "January 12th, 2015";
-sp_news_20150112_text = "cFosSpeed is Softpedia's \"top pick\". <a class=\"inline\" href=\"http://www.softpedia.com/get/Network-Tools/Bandwidth-Tools/cFosSpeed.shtml\"><b>Good review</b></a>of what cFosSpeed does and what it does not.";
+sp_news_20150126 = "January 26th, 2015";
+sp_news_20150126_text = "Ping times with and without Traffic Shaping on a 50MBit VDSL connection with 4 uploads and 2 downloads.";
 sp_news_20140429 = "April 29th, 2014";
 sp_news_20140429_text = "The new cFosSpeed release v9.60 now comes with full IPv6 support and Phone-Skins for your phone or tablet. Watch the status of your connection on your phone or tablet while running game and other fullscreen apps on your PC. Also start the current connections dialogs on your phone or tablet to monitor and prioritize your connections in real-time.";
 sp_news_20140210 = "February 10th, 2014";
