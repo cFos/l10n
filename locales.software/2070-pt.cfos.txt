@@ -14,6 +14,21 @@ language = "Portuguese";
 language_local = "Português (pt-PT)";
 htm_lang_prefix = "pt";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
@@ -48,6 +63,8 @@ setup_connections = "Configurar as ligações";
 ask_inst_ipv6 = "O protocolo IPv6 ainda não foi instalado neste sistema.\n\n"
                 "Deseja instalar o protocolo IPv6 agora?";
 err_inst_ipv6 = "Erro %? Ao instalar o protocolo IPv6.";
+pause_server = "Pausar servidor";
+resume_server = "Continuar servidor";
 
 / connection entry dialog
 con_err_save = "Não foi possível guardar os dados da ligação!";
@@ -343,7 +360,11 @@ show_for = "Mostrar para";
 this_month = "este mês";
 time = "Tempo";
 time_limit = "Limite de tempo";
+/. Used as table header
+/. Short version of "minutes"
 time_min = "Minutos";
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "H:Min";
 volume = "Volume";
 volume_limit = "Limitar Volume";
@@ -378,6 +399,7 @@ disable_speed_shaping = "Desativar Traffic Shaping";
 yes = "Sim";
 no = "Não";
 help = "Ajuda";
+bgraph_totals = "Total";
 blocklist = "Bloqueio de IPs";
 blocklist_help = "Lista de endereços IP para que todo o tráfego é bloqueado";
 apply_blocklist = "Aplicar a lista";
@@ -398,7 +420,9 @@ slots_title = "Configuração de Espaços";
 can_select_multiple = "Conselho: Você pode seleccionar varias opções ao manter pressionado o botão Shift ou Ctrl enquanto escolhe uma opção.";
 name_for = "Nome para";
 set_name = "Definir nome";
+/. RX stands for `receive` (incoming/download)
 rx_only = "Somente Receção";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "Somente Transmissão";
 max_of_rx_tx = "Maximo para Receção e Transmissão";
 total_rx_only = "Velocidade máxima de Receção";
@@ -488,6 +512,10 @@ set_server_pwd = "Definir Palavra Passe do Servidor";
 auto_arrange_top = "No Topo";
 auto_arrange_bottom = "No Fundo";
 show_on_metro_apps = "Mostrar nas aplicações Metro";
+traffic_shaping_info = "Informação de Traffic Shaping";
+wlan_access_point = "Ponto de acesso Wi-Fi";
+prioritize_foreground_process = "Priorizar processo na janela em primeiro plano";
+prioritize_foreground_help = "Define automaticamente a prioridade do processo da janela em primeiro plano para alta.";
 
 
 / ----------------------------------------------------------------------
@@ -744,6 +772,7 @@ err_os_sup = "%p apenas suporta oficialmente %? ou superior.\n\n"
 err_uninst_driver = "O controlador do dispositivo não pôde ser removido.";
 err_create_process = "Erro ao invocar o programa %s: %s";
 err_write_lock = "Os componentes de rede do %? estão a ser usados por outro processo. Por favor feche todas as aplicações ou reinicie o computador e tente novamente.";
+err_write_lock_process = "Os componentes de rede %? estão a ser utilizado pelo seguinte processo: %?. Por favor, encerre este processo ou reinicie o seu computador e tente novamente.";
 err_file_auth = "Alguns ficheiros desta distribuição estão corruptos ou em falta.\nPor favor obtenha uma distribuição genuína do %p \n(ex. em www.cfos.de).";
 err_cancel = "A operação foi cancelada.";
 err_no32 = "Não é possível instalar controladores de 32Bits em sistemas operativos de 64Bits.\n\nSO: %?\nProduto: %?";
@@ -817,6 +846,32 @@ eml_reg_failed = "O registo do correio eletrônico falhou.";
 eml_checking_domain = "A verificar o domínio do e-mail...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "Assistente de Início do Wi-Fi Virtual %p";
+virtual_wifi_header = "Iniciar Wi-Fi Virtual";
+virtual_wifi_subheader = "Configure um ponto de acesso baseado em software e ative a Partilha de Ligação à Internet (Internet Connection Sharing, ou ICS).";
+virtual_wifi_info = "Selecione a ligação de rede que encaminha o tráfego de Internet e escolha uma password para o ponto de acesso.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "Wi-Fi cFos";
+virtual_wifi_invalid_ssid_length = "O SSID não pode ser vazio nem conter mais de 32 caracteres.";
+virtual_wifi_invalid_password_length = "A password deve conter entre 8 e 64 caracteres.";
+virtual_wifi_ics_not_available = "A Partilha de Ligação à Internet (Internet Connection Sharing, ou ICS) não está disponível neste computador.";
+virtual_wifi_error_get_cons = "Erro ao obter as ligações de rede.";
+virtual_wifi_ics_warning = "A Partilha de Ligação à Internet (Internet Connection Sharing, ou ICS) já se encontra ativada na seguinte rede:\n%?\n\nPretende usar esta rede:\n%?";
+virtual_wifi_error_enable_ics = "Erro ao ativar a Partilha de Ligação à Internet (Internet Connection Sharing, ou ICS).";
+virtual_wifi_error_start = "Erro ao iniciar o Wi-Fi Virtual.";
+virtual_wifi_ok = "Wi-Fi Virtual e Partilha de Ligação à Internet (Internet Connection Sharing, ou ICS) ativados com sucesso.\n\nNota: Se um cliente não conseguir ligar-se ao Wi-Fi Virtual, por favor páre e reinicie o Wi-Fi Virtual.\n\nSe um cliente consegue ligar-se ao Wi-Fi Virtual mas não consegue aceder à Internet, por favor desinstale e volte a instalar o %p.";
+virtual_wifi_query_stop = "Parar Wi-Fi Virtual?";
+virtual_wifi_error_stop = "Erro ao parar Wi-Fi Virtual:";
+virtual_wifi_stopped = "Wi-Fi Virtual parado com sucesso.";
+virtual_wifi_dialup_ics = "Para uma ligação dial-up, tem de ativar a Ligação à Internet (Internet Connection Sharing, ou ICS) manualmente alterando as propriedades desta ligação.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
