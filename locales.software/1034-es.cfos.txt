@@ -697,7 +697,7 @@ pg_console = "Consola de %p";
 pg_start = "Iniciar %p ventana";
 pg_menu = "Menú de %? ";
 pg_add_connection = "Agregar conexión";
-pg_enter_serial_number = "Ingrese número de serie";
+pg_enter_serial_number = "Ingrese número de serie %p";
 pg_configure = "Configurar %p";
 
 / desktop symbol

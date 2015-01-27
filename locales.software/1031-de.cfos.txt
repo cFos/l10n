@@ -799,7 +799,7 @@ pg_console = "%p Konsole";
 pg_start = "Starte %p Statusfenster";
 pg_menu = "%?-Menü";
 pg_add_connection = "Verbindung hinzufügen";
-pg_enter_serial_number = "Seriennummer eingeben";
+pg_enter_serial_number = "%p Seriennummer eingeben";
 pg_configure = "%p konfigurieren";
 
 / desktop symbol

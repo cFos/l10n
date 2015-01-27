@@ -816,7 +816,7 @@ pg_console = "%p console";
 pg_start = "Start %p status window";
 pg_menu = "%? menu";
 pg_add_connection = "Add connection";
-pg_enter_serial_number = "Enter serial number";
+pg_enter_serial_number = "Enter %p serial number";
 pg_configure = "Configure %p";
 
 / desktop symbol

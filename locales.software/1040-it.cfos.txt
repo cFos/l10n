@@ -742,7 +742,7 @@ pg_console = "Riga di comando %p";
 pg_start = "Avvia la finestra di stato di %p";
 pg_menu = "% menù";
 pg_add_connection = "Aggiungere collegamento ";
-pg_enter_serial_number = "Immetti il numero di serie";
+pg_enter_serial_number = "Immetti il numero di serie %p";
 pg_configure = "Configura %p";
 
 / desktop symbol

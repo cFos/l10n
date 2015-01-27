@@ -700,7 +700,7 @@ pg_console = "Terminal do %?";
 pg_start = "Iniciar %p janela";
 pg_menu = "Menu do %?";
 pg_add_connection = "Adicionar conexÃ£o";
-pg_enter_serial_number = "Insira o número de série";
+pg_enter_serial_number = "Insira o número de série %p";
 pg_configure = "Configurar %p";
 
 / desktop symbol
