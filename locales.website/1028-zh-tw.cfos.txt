@@ -996,7 +996,7 @@ contact_form_p1 = "初步診斷資訊，您可以參考我們的 <a class=\"inli
 contact_form_l1 = "我們的授權條款允許雜誌在附贈的免費光碟中包含 30 天試用版。";
 contact_form_l2 = "您可以在我們的 <a class=\"inline\" href=\"//zh-tw/press/samples.htm\">美術設計網頁</a>中找到免費的高解析度、印刷品質的免費圖檔與設計稿";
 contact_form_l3 = "我們最新的 <a class=\"inline\" href=\"//zh-tw/press/press.htm\">新聞稿</a>";
-contact_form_l4 = "我們的產品的 a class=\"inline\" href=\"//zh-tw/press/reviews.htm\">新聞評論</a>";
+contact_form_l4 = "我們的產品的 <a class=\"inline\" href=\"//zh-tw/press/reviews.htm\">新聞評論</a>";
 contact_form_p2 = "請檢查您的垃圾信件匣。您的授權金鑰郵件可能被當作垃圾郵件了。<br/><br/>請允許我們在 2 個工作日內處理您的訂單。若您沒有在 2 個工作日內收到授權金鑰，可能是我們沒有找到您的付款紀錄。人們有時候會用不同的電子信箱帳號分別進行訂購與支付。請詳細填寫下面的表單，這將有助於我們盡快發送您的授權金鑰。<br/><br/><a class=\"inline\" href=\"//zh-tw/contact/msgpost.htm\">我的金鑰在哪裡？</a>";
 contact_form_a1 = "找回遺失的授權金鑰";
 contact_form_p3 = "對於如何以 cFosSpeed 提高您的上網速度的秘訣，請參閱 <a class=\"inline\" href=\"//zh-tw/traffic-shaping/speed-guide.htm\">cFos 速度指南</a>。";
@@ -1565,7 +1565,7 @@ sp_doc_prio_title = "程式優先權調整";
 sp_doc_prio_p1 = "<b>提示</b>：<br />優先權處理功能僅在少數資料被給予高優先權的時候才能夠有效地運作；對於高資料量流出的程式，請把它的優先權給調低。";
 sp_doc_prio_p2 = "cFosSpeed 首先會嘗試偵測每一項連線的第七層協定；如果無法偵測到（也就是通訊協定類型為 UNKNOWN），或是該被偵測到的協定優先權為「正常」，就會用偵測程式的方式來決定優先權。";
 sp_doc_prio_p3 = "HTTP 串流的偵測是個特別的情況；如果偵測到 HTTP 通訊協定，cFosSpeed 會嘗試判斷它是否為影音串流。方式如下：";
-sp_doc_prio_p4 = "若使用者代理字串是知名播放程式，或是包含 "player" 等關鍵字，cFosSpeed 會將此連線分類定為 HTTP_STREAM_C 或 HTTP_STREAM_S。否則，如果內容類型為影音，就會被分類為 BSTREAM_C 或 BSTREAM_S。而 BSTREAM_C/S 類型的連線，優先權會被設為「正常」，將交由程式本身來決定優先權。<br />這樣可在無法確定的某些情況，依照程式用途來決定封包優先權。";
+sp_doc_prio_p4 = "若使用者代理字串是知名播放程式，或是包含 \"player\" 等關鍵字，cFosSpeed 會將此連線分類定為 HTTP_STREAM_C 或 HTTP_STREAM_S。否則，如果內容類型為影音，就會被分類為 BSTREAM_C 或 BSTREAM_S。而 BSTREAM_C/S 類型的連線，優先權會被設為「正常」，將交由程式本身來決定優先權。<br />這樣可在無法確定的某些情況，依照程式用途來決定封包優先權。";
 sp_doc_prio_a1 = "已經被設定過優先權的程式";
 sp_doc_prio_a2 = "cFosSpeed 7.0 - 暫時調整連線優先權";
 sp_doc_dec_prio = "降低優先權";
