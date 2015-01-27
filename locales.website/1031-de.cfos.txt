@@ -41,7 +41,6 @@ special_offer_xmas = "Weihnachtsaktion! <span class=\"red\">Sonderpreise</span> 
 special_offer_xmas_2 = "(wegen des Wochenendes verlängert bis zum 02. Januar 2011)";
 special_offer_spring = "Sonderpreise anläßlich des Frühlingsfestes! Gültig bis 9. Februar 2011";
 special_offer_winter = "Sonderpreise im Winter-Sale bis zum 31. Januar 2012";
-twitter_notifier_linktext_v2 = "cFos Notifier für E-Mail, Twitter &amp; RSS";
 worldcup_sale = "Sonderpreise zur Fußball-WM";
 winter_sale = "Sonderpreise im Winter-Sale!";
 winter_sale_ext = "Verlängert bis 28. Januar - Danke für Ihre großartige Unterstützung!";
@@ -52,6 +51,7 @@ translation_settings = "Übersetzungs-Einstellungen";
 translation_text1 = "Diese Seite ist nicht hinreichend übersetzt!";
 translation_text2 = "Erhalten Sie eine Gratislizenz (cFos, cFosSpeed oder cFosBC), wenn Sie uns helfen.";
 translation_text3 = "Mehr Informationen";
+twitter_notifier_linktext_v2 = "cFos Notifier für E-Mail, Twitter &amp; RSS";
 view_translations = "Übersetzungen anzeigen";
 view_all = "Alle <span class=\"smalltext\">(neueste Änderungen von anderen Übersetzern)</span>";
 view_approved = "Nur bestätigte";
@@ -69,9 +69,9 @@ rwin_video_award = "Jetzt anmelden zum cFosSpeed RWIN-Expansion Award 2012!";
 rwin_video_award2 = "Gewinnen Sie eine von <b>100</b> cFosSpeed Lifetime-Lizenzen!";
 social_networks = "Bitte unterstützen sie uns in Sozialen Netzwerken.<br/>Klicken sie \"Gefällt mir\" bei Facebook, folgen Sie uns auf Twitter.";
 powered_by = "Powered by <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net Webserver</a>";
-learn_more = "Mehr erfahren";
-cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> unterstützt jetzt auch <b>Windows 10</b>.";
 word_follow = "Folgen";
+cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> unterstützt jetzt auch <b>Windows 10</b>.";
+learn_more = "Mehr erfahren";
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> ist der offizielle Internet Beschleuniger für<br/>ASUS, GIGABYTE, ASRock und MSI Gaming Produkte";
 
 / download
@@ -95,8 +95,10 @@ disclaimer_text = "Als Service für Sie, haben wir die folgenden cFos/cFosSpeed 
 download_current_beta = "Aktuelle Beta herunterladen";
 download_for = "<b>Download</b> für";
 download_page = "Download-Seite";
+downloads = "Downloads";
 download_x64_for = "<b>Download</b> x64 Edition für";
 download_x86x64_for = "<b>Download</b> x86 + x64 Edition für";
+email = "Email";
 for = "für";
 freeware_programs = "Freeware-Programme";
 gadget = "cFosSpeed Gadget für Vista";
@@ -115,32 +117,52 @@ other_systems = "für andere Betriebssysteme";
 product_page = "Produktseite";
 rnahelp_text = "Batch-Utility für Windows-Internet-Verbindungen";
 sk_c64_text = "Skin im Commodore 64-Look (von Markus Welz)";
+sk_classic = "cFos Skin Classic";
 sk_classic_text = "Das klassische cFos Skin";
+sk_froghut = "Froghut Title Bar Skin";
 sk_froghut_text = "Froghut Title Bar Skin (von Björn v. d. Osten)";
+sk_grant = "Grant's Skin";
 sk_grant_text = "Icon-Skin (von Grant Brunton)";
+skins = "Skins";
+sk_history = "LC History";
 sk_history_text = "Liquid Crystal Skin mit history bars";
+sk_lc_blue = "Liquid Crystal blue";
 sk_lc_blue_text = "Liquid Crystal Skin, blaue Anzeigen (von Toxic)";
 sk_luna = "Skin für Windows XP Luna";
+sk_modern = "cFos Modern Skin";
+sk_mon_txt = "cFos Monitor Text Skin";
+sk_mon_txt_525 = "cFos Monitor Text Skin 5.25";
 sk_mon_txt_525_text = "cFos Monitor-Text-Skin (für cFos ab Version 5.25)";
 sk_mon_txt_text = "cFos Monitor-Text-Skin (von Maik Reiss / Hoeft und Wessel)";
 sk_msinanucler = "Msinanuclers Skin";
 sk_msinanucler_text = "Modifiziertes Traffic Analysis Skin mit Hintergrundgrafik";
+sk_mtin = "MTiN's Skin";
 sk_mtin_text = "Spartanisches Skin (von MTiN)";
+sk_netmedic = "Rx/Tx Skin (+ Icon)";
 sk_netmedic_text = "Send/Receive Skin und Icon-Skin (von Ilya Dedinsky)";
+sk_offchu = "Slim LC";
 sk_offchu_text = "Slim horizontal Liquid Crystal Skin (von offchu)";
+sk_offchu_history = "Slim LC History";
 sk_offchu_history_text = "Slim horizontal Liquid Crystal History Skin (von offchu)";
+sk_safak = "Safak's Skin";
 sk_safak_text = "Shinnher's Skin modifiziert von Safak Falakaoglu";
+sk_shinnher = "Shinnher's Skin";
 sk_shinnher_text = "Liquid Crystal Skin modifiziert von Shinnher";
 sk_shinnher_text_black = "Shinnher's Skin mit schwarzem Hintergrund modifiziert von Scott";
 sk_shinnher_text_grey = "Shinnher's Skin mit grauem Hintergrund modifiziert von Scott";
 sk_shinnher_text_trans = "Shinnher's Skin mit transparentem Hintergrund modifiziert von Scott";
+sk_txt = "cFos Text Skin";
 sk_txt_text = "cFos Text Skin - für alle, die das alte cFos-Fenster vermissen.<br />(Hinweis: Nur in das 'modern'-Verzeichnis installieren)";
+sk_tutorial = "Skin Tutorial";
 sk_tutorial_text = "So erstelle ich meinen eigenen cFos(Speed)-Skin";
 sk_tga = "TGA-Skins";
 sk_tga_text = "cFos(Speed) Skin-Archiv mit TGA-Grafiken - für ältere Programmversionen";
 speed_text = "Schnelleres Internet mit Traffic Shaping";
 submit = "Abschicken";
+transparent = "transparent";
+updates = "Updates";
 updates_text = "Ich möchte informiert werden, wenn neue cFos oder cFosSpeed-Versionen erscheinen!";
+version = "Version";
 watch_text = "Dialer-Blocker und Viren-Schutz durch Behavioural Blocking";
 whats_new = "Neuerungen in dieser Version";
 zip_tip = "Die oben gelisteten ZIP-Dateien können Sie z.B. mit <a class=\"inline\" href=\"http://www.pkware.com\">PKZIP</a>, <a class=\"inline\" href=\"http://www.winzip.de\">WinZIP</a> oder <a class=\"inline\" href=\"http://www.cdrom.com/pub/infozip\"></a>Info-ZIP entpacken.";
@@ -161,6 +183,9 @@ by_phone = "Support, telefonische Bestellung";
 buy_at = "Kaufen bei";
 buy_now = "Jetzt kaufen";
 conf_cc = "Zahlung per Kreditkarte";
+/. Used before Credit Card number, like
+/= "Nr. 2661-4345-2456-1345"
+/. It should be replaced with preferred in your region format
 conf_check_cc = "Bitte überprüfen Sie Ihre Kreditkartendaten";
 conf_check_order = "Bestellung überprüfen";
 conf_deliverer = "Besteller / Lieferanschrift";
@@ -245,6 +270,8 @@ f_land = "Land";
 f_license = "Lizenzbestimmungen";
 f_mercado = "Mercado Pago";
 f_moneybookers_text = "Senden Sie den Betrag bitte an das Moneybookers Konto:";
+/. Paymenth method — "Cash on Delivery"
+/. See http://en.wikipedia.org/wiki/Cash_on_delivery
 f_nachname = "Nachname";
 f_nachname_text = "nur innerhalb Deutschlands, Zuschlag 4,- &#8364;";
 f_name = "Name";
@@ -417,8 +444,10 @@ li_text_blocker = "0190/0900 Blocking jetzt Freeware!";
 li_text_broadband = "Breitband: DSL, Cable";
 li_text_gamer = "Spiele";
 li_text_low_ping = "Low Ping";
+li_text_mobile = "Mobilfunk";
 li_text_narrowband = "Schmalband: Modem, ISDN";
 li_text_p2p = "Tauschbörsen (P2P)";
+li_text_streaming = "Streaming Media, VoIP";
 li_text_feat1 = "Verbessert Ihren Ping für Online-Spiele";
 li_text_feat2 = "Schnelles Internet während starker Uploads/Downloads";
 li_text_feat3 = "<b class=\"red\">NEU</b>: Verbessert mobiles Internet";
@@ -432,7 +461,11 @@ prio_ports = "Ports priorisieren";
 prio_programs = "Programme priorisieren";
 prio_protocols = "Protokolle priorisieren";
 related_product = "Verwandtes Produkt";
+/. Used in follwoing string:
+/= "Reviewed 4.5 / 5 stars by softpedia.com"
 review1 = "Beurteilt mit";
+/. Used in follwoing string:
+/= "Reviewed 4.5 / 5 stars by softpedia.com"
 review2 = "Sternen durch";
 rwin_expansion = "RWIN Expansion";
 rwin_now = "jetzt mit RWIN-Expansion!";
@@ -463,6 +496,7 @@ pnet_li_text_feat8b = "und mit MS Outlook: <a class=\"inline\" href=\"/en/cfos-o
 pnet_li_text_feat9 = "WebDAV-Unterstützung (RFC 4918)";
 pnet_li_text_feat9a = "WebDAV, CalDAV und CardDAV support";
 pnet_li_text_feat10 = "Sidebar Gadget für Windows Vista/7";
+pnet_li_text_feat11 = "UPnP Media Server";
 pnet_serv_dav = "cFos Personal Net unterstützt CalDAV (RFC 4791). Dies erlaubt Ihnen Kalender Daten zu speichern und zu synchronisieren.<br />cFos Personal Net unterstützt CardDAV (RFC 6352). Dies erlaubt Ihnen Ihre Adressbuch-Kontakte mit cFos Personal Net zu synchronisieren.";
 pnet_highlight1 = "Es ist kein Remote-Server nötig, bei dem Dritte Zugang zu Ihren Daten haben";
 pnet_highlight2 = "Volle Multi-Thread und Mehrkern Unterstützung. Die Serverleistung skaliert mit der Anzahl der Prozessorkerne";
@@ -490,11 +524,19 @@ pnet_doc_a11 = "UPnP Media-Server";
 pnet_wmi_title = "cFos WMI Monitor, ein cFos Personal Net Add-on-Paket";
 pnet_wmi_p1 = "Überwachen Sie wichtige WMI Werte auf Ihrem PC oder Smartphone.<br/>Gratis Zusatzpaket für <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net</a>.";
 pnet_wmi_p2 = "Der cFos WMI Monitor erlaubt die Darstellung nahezu aller WMI Werte Ihres Systems, z.B. <b>CPU Auslastung</b>, <b>GPU Auslastung</b>, <b>Netzwerk-Nutzung</b>, <b>Ping-Zeit</b>, etc.<br/>Zugriff auf diese Informationen von <b>überall</b> her.";
+pnet_wmi_h1 = "Installation";
 pnet_wmi_p3 = "Laden und installieren Sie das <a class=\"inline\" href=\"/en/download/download.htm\"><b>cFos WMI Monitor Zusatzpaket</b></a>. Es enthält Skripte und HTML für den cFos WMI Monitor. Ausserdem enhält es eine cFos Personal Net version. Falls Ihre Version älter ist als die im cFos WMI Monitor Zusatzpaket wird Ihre Version automatisch aktualisiert.";
 pnet_wmi_p4 = "Um zu verhindern, dass andere auf Ihre WMI Daten zugreifen können, benötigt der cFos WMI Monitor einen gültigen Benutzer bei der HTTP Authentisierung. Sie sollten also einen cFos PNet Benutzer einrichten, z.B. <b>admin</b>. Hierzu können Sie z.B. das  Setup erneut ausführen. Oder Sie können einen neuen Benutzer hinzufügen, z.B. <b>wmi</b>, indem Sie die Seite <em>/users/index.htm</em> als admin starten.";
 pnet_wmi_p5 = "Um maximalen Nutzen aus dem cFos WMI Monitor zu ziehen, empfehlen wir Ihnen auch folgendes zu installieren:";
 pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, unseren Internet Beschleuniger. Der eingebaute  WMI provider stellt folgende WMI Werte zur Verfügung:";
+/. RX stands for `receive` (incoming/download)
+pnet_wmi_l1a = "Gesamt RX-Speed";
+/. TX stands for `transmit` (outgoing/upload)
+pnet_wmi_l1b = "Gesamt TX-Speed";
+pnet_wmi_l1c = "Pingzeit";
 pnet_wmi_l1d = "TCP/UPD connection count";
+/. Means `RX (`receive`/incoming/download) characters per second`
+/. Means `TX (`transmit`/outgoing/upload) characters per second sent`
 pnet_wmi_l1g = "Diese Werte beziehen sich auf Ihre aktuelle Internet-Verbindung.<br/>Windows-eigene WMI Werte beziehen sich auf den Netzwerk-Adapter, egal ob es sich um Internet oder LAN traffic handelt. Sie können alle Werte, die im cFosSpeed Status Fenster angezeigt werden können, auch im WMI Monitor anzeigen.";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Open Hardware Monitor</b></a>. Dieser hat ebenfalls einen eingebauten WMI provider, der sehr nützliche Werte über Ihre Hardware zur Verfügung stellt, wie";
 pnet_wmi_l2a = "CPU Auslastung und Temperatur";
@@ -686,6 +728,8 @@ cfout_p3d = "In unserem Forum finden Sie eine <a class=\"inline\" href=\"http://
 cfout_p3e = "<b class=\"green\">Aufgaben Synchronisation</b> mit dem Google Kalender: Der Google Kalender unterstützt kein CalDAV für Aufgaben und ausserdem haben Aufgaben (mit dem Google Calendar API) bei Google nur eine kleine Untermenge an Funktionen im Vergleich zu Outlook. Daher ist die Synchronisation von Outlook Aufgaben mit Google Aufgaben nicht zu empfehlen. Am nächsten kommen bei Google Termine. Daher speichert cFos Outlook DAV die Outlook Aufgaben als Termine, wenn sie mit einem Google Server synchronisiert werden. Das bedeutet, Sie müssen einen weiteren Google Kalender einrichten, der ausschliesslich für Outlook Aufgaben verwendet wird. Die Einrichtung ist dann die gleiche wie bei Terminen";
 cfout_p3f = "<b class=\"green\">Kontakt Synchronisation</b> mit Google: Für Google Kontakte ist die URL <b>https://www.googleapis.com/carddav/v1/principals/ihr_google_benutzername/lists/default/</b>.";
 cfout_p4_v2 = "Für einen <b class=\"green\">DAViCal Kalender</b> ist die URL http://<b>ihr_davical_server</b>/caldav.php/<b>ihr_davical_account</b>/calendar, für <b class=\"green\">DAViCal Kontakte</b><b>http://ihr_davical_server/caldav.php/ihr_davical_account/addresses</b>, wobei <b>ihr_davical_server</b> die Domain oder die IP-Addresse Ihres DAViCal Servers ist. <b>ihr_davical_account</b> ist der Benutzername für diesen DAViCal Server und als Passwort geben Sie das diesem Benutzernamen zugeordnete Passwort an.";
+/. Used as title
+/. Litrelly means "How cFos Outlook DAV works"
 cfout_h3 = "cFos Outlook DAV Funktionsweise";
 cfout_p5a_v2 = "Wenn Sie Outlook starten, versucht cFos Outlook DAV die Daten Ihrer Outlook Ordner mit dem CalDAV/CardDAV Server zu synchronisieren. Falls sich auf dem Server seit Ihrem letzten Log-in etwas geändert hat, wird dies in Ihren Outlook Ordnern nachgehalten.";
 cfout_p5b_v2 = "Daten, die auf dem Server hinzugefügt oder geändert wurden, werden in Ihren Outlook Ordnern hinzugefügt oder geändert. Daten, die auf dem Server gelöscht wurden, werden auch in Ihren lokalen Outlook Ordnern gelöscht. Diese Synchronisation wird alle <b>n</b> Minuten, so wie Sie es im Ordner Setup eingestellt haben, wiederholt.";
@@ -753,6 +797,7 @@ hrping_l6 = "Verbesserte Statistiken";
 hrping_l7 = "Size sweep: Senden mit wachsenden Paketgrößen";
 hrping_l8 = "Kann auch nur Zusammenfassung der Ergebnisse anzeigen";
 hrping_l9 = "Ist auch Traceroute und Pathping";
+
 
 /notifier
 notifier_title = "cFos Notifier";
@@ -869,12 +914,17 @@ activation_p10 = "Ihr cFos Team";
 activation_p11 = "P.S. Viel Spass beim Internet-Tuning!";
 agents_header = "cFos Wiederverkäufer";
 agents_brazil = "Brasilien";
+agents_china = "China";
 agents_desc = "Kaufen Sie die ofizielle, legitimierte, originale, cFos Software bei diesen authorisierten Händlern:";
+agents_hongkong = "Hong Kong / China";
 agents_greece = "Griechenland";
 agents_india = "Indien";
 agents_malaysia = "Malaysien";
 agents_russia = "Russland";
+agents_taiwan = "Taiwan";
+agents_thailand = "Thailand";
 agents_uk = "Vereinigtes Königreich";
+agents_vietnam = "Vietnam";
 abgelaufen = "Ihre Version ist seit längerem abgelaufen.";
 choice1 = "Internet via ISDN, Software f. ISDN an COM Port,<br />ISDN Anrufmonitor?";
 choice2 = "Nutzen Sie einen Router für Ihren Internet-Zugang?";
@@ -887,6 +937,12 @@ contact_form_p0 = "Kontaktieren Sie uns wegen <b>technischer Probleme</b>, Frage
 contact_form_p0_a1 = "<b>Geschwindigkeit zu niedrig?</b><br/>Vielleicht kann der <a class=\"inline\" href=\"/en/traffic-shaping/speed-guide.htm\">cFos Speed-Guide</a> weiterhelfen";
 contact_form_p0_a2 = "<b>Wo ist mein Lizenzschlüssel?</b><br/><a class=\"inline\" href=\"/en/contact/msgpost.htm\">Kontaktieren Sie uns, wenn Ihre Bestellung zu lange dauert</a>";
 contact_form_p0_a3 = "<b>Statusfenster ausschalten?</b><br/><a class=\"inline\" href=\"/en/cfosspeed/documentation/status.htm\">Automatisches Öffnen des Statusfensters abschalten</a>";
+/. Used in our contact form on website, as possible choices, like:
+/= Please, select:
+/= — ...
+/= — Business Partners, Licensing, Bundling
+/= — Press, Artwork, Covermount
+/= — ...
 contact_form_o1 = "Business Partner, Lizensierung, Bundling";
 contact_form_o2 = "Presse, Artwork, Heft-CD/DVD";
 contact_form_o3 = "Bestellung: Wo ist mein Lizenzschlüssel?";
@@ -1083,6 +1139,7 @@ ts_o_l1 = "Medium";
 ts_o_l2 = "Anwendungsmöglichkeiten";
 ts_o_l3 = "Traffic Shaping Modus (Multi-User Version)";
 ts_o_p1 = "Im Dialogfenster unter <samp>Einstellungen/Verbindungen</samp> können Sie durch klicken auf <img src=\"/images/settings.png\" alt=\"Einstellungen\" title=\"Einstellungen\" border=\"0\" height=\"20\" width=\"21\" /> eine Mediumauswahl für die einzelnen Verbindungen vornehmen. Dabei haben sie die Auswahl aus der folgenden Liste:";
+ts_o_a1 = "Screenshot";
 ts_o_a2 = "Verbindungseinstellungen";
 ts_o_l4 = "<b>Adaptive</b>, cFos/cFosSpeed versucht sich selbsttätig auf Ihren Anschluß anzupassen. Wählen Sie diese Option nur, falls Sie nicht wissen, welche Übertragungstechnik Ihr Anschluß verwendet. Ansonsten wählen Sie die auf Ihren Anschluß am besten passende Option. Je besser die Einstellung, desto geringer die Ping-Zeiten.";
 ts_o_l5 = "<b>DSL (PPPoE):</b> Meist verbreitete DSL Übertragung, z.B. in Deutschland, Osteuropa, USA, ... ";
@@ -1223,6 +1280,7 @@ bodytitel_1 = "Das cFosSpeed-Menü (Kontextmenü) im Überblick";
 broadband = "Breitband: Kabel und DSL";
 budget_settings = "Budget-Einstellungen";
 budget_settings_desc = "Hier können Einstellungen zu den Online-Zeit- und Volumenbudgets vorgenommen werden.";
+cable = "Cable";
 clear_tsdata = "Leitungs-Daten löschen";
 clear_tsdata_desc = "Durch löschen der Datei DATA.INI im cFosSpeed-Installationsverzeichnis werden die Leitungsdaten gelöscht.<br /> Traffic Shaping muss nun neu kalibriert werden.";
 click_through = "Klick-transparent";
@@ -1256,15 +1314,19 @@ feature_highlights_title = "cFosSpeed Feature-Highlights";
 filter = "individuelle Regeln mittels Filtersprache";
 graph_title = "Verbrauchsgrafik";
 graph_title_desc = "Hier wird die Verbrauchsgraphik der Online Zeit- und Volumenbudgets angezeigt.";
+ip_aal = "IP over AAL";
 l7_prot = "L7-Protokoll-Analyse";
 license = "Lizenz";
 license_desc = "Hier wird die verbleibende Testzeit oder bei einer registrierten Version Ihre Lizenznummer angezeigt.";
 link_status_text = "Statusfenster";
 logging = "Data und Packet Logging";
+low_latency = "Low-Latency Modus";
 media = "Medien:";
+mobile = "Mobilfunk (LTA, UMTS, WiMAX, HSDPA, W-CDMA, WCDMA, CDMA, CDMA2000, 3G Mobile, HSCSD)";
 multi_conn = "Mehrere Verbindungen gleichzeitig";
 multi_ip = "mehrere IP-Adressen pro Adapter";
 multi_lang = "32+ Sprachen";
+multi_user = "Multi-User Version";
 connections_desc = "Hier kann man für Wähl- und Routerverbindungen individuell einstellen, ob Traffic Shaping angewandt werden soll. Bei den Wählverbindungen kann zusätzlich die Anschlussart ausgewählt werden.";
 no_ping = "Ping Probleme";
 no_ping_notes = "Hinweise zu einigen Firewalls/Routern";
@@ -1291,6 +1353,7 @@ no_ping_tplink = "<h4>TP-Link Router:</h4><p>TP-Link bietet eine neue Firmware a
 no_ping_tplink2 = "<p><b class=\"red\">Achtung</b>: Dies scheint nach Userberichten zumindest für die Modelle TL-R460, TL-R860 und TL-R402M nicht zuzutreffen.</p>";
 no_ping_pccillin = "<h4>PC cillin 2007:</h4><p>Um für PC Cillin 2007 den Windows tracert-Befehl, und damit Antworten aus dem Netz auf pings zu erlauben, sind folgende Schritte zu beachten:</p><ol><li>PC Cillin hauptkonsole öffnen->netzwerk- und firewall-kontrolle->personal firewall->einstellungen->account aussuchen und auf bearbeiten gehen->netzwerksteuerung->hinzufügen</li><li>Jetzt über <samp>hinzufügen</samp> 2 neue Protokolle hinzufügen. </li><li>für ausgehende Verbindungen:<br /><samp>(allgemein) bei verbindung ausgehend-zulassen<br />(protokoll) icmp<br />(port) alle ports<br />(ip-einstellungen) alle ip-einstellungen<br /></samp></li><li>Für eingehende den 3. Schritt wiederholen, aber statt <samp>ausgehend-zulassen</samp> natürlich eingehend-zulassen wählen.</li></ol>";
 no_ping_statistics = "Abrufen und Auswerten der cFosSpeed Ping-Statistik";
+/. Console's output shouldn't be translated
 no_ping_statistics_p1 = "<p>Geben Sie auf der cFosSpeed Konsole ein: &quot;spd pingstat&quot;.</p><p>Die Ausgabe sieht etwa so aus:</p><pre class=\"code\"><br />Ping statistics:<br /><br />Total ping requests      107,686<br />  done                   107,686     <b>(1)</b><br />  ...and only            107,686<br /><br />Total pings sent         106,949<br />  strong                 106,778<br />  ...and new             106,778     <b>(2)</b><br /><br />Total pongs              106,804<br />  found                  106,566<br />  ...and strong          106,519<br />  ...and strong reply    106,519     <b>(3)</b><br />  ...and used            106,519     <b>(4)</b><br /><br />Ping outage statistics:<br />  1 ping in a row 33 times<br />  5 pings in a row 1 time<br /><br />Ping src/dst: 192.168.0.100 to 194.95.249.23, ttl 3<br />Ethernet src/dst: 00:0e:a6:57:9b:0b to 00:11:95:78:27:a4<br /></pre>";
 no_ping_statistics_p2 = "<p>Die drei Zahlen unter &quot;Total ping requests&quot; sollten gleich sein. Wenn sie große Unterschiede zeigen, melden Sie sich bitte bei uns.</p><p>Die Zahl bei <b>(1)</b> sollte gleich der Zahl bei <b>(2)</b> sein. Wenn nicht, ist das ein starkes Indiz dafür, dass eine Firewall das Senden von Daten verhindert. Auch hier ist eine Abweichung um ein paar Prozent nicht schlimm.</p><p>Die Zahlen <b>(3)</b> und <b>(4)</b> sollten wieder etwa gleich groß sein. Wenn nicht -> Mail an uns.</p>";
 no_ping_statistics_p3 = "<p>Die Zahl <b>(2)</b> sollte etwa gleich der Zahl bei <b>(3)</b> sein. Wenn nicht, spricht das sehr dafür, dass &quot;das Netz&quot; Pings oder deren Antworten verliert (was leider teilweise stark passiert!) Dann können wir leider nichts daran machen.</p><p>Wenn Sie eine Mail an uns schreiben, schauen Sie bitte unter <a href=\"#p4\">Punkt 3</a>, welche Dateien Sie anhängen sollten.</p>";
@@ -1311,31 +1374,12 @@ registration_help_hints = "Hinweise für besondere Probleme";
 registration_help_howto = "Eine cFosSpeed-Lizenz, die Sie über www.cfos.de gekauft haben, kann jederzeit dazu verwendet werden um cFosSpeed zu aktivieren.<br /><br />Eine Erklärung wie das geht finden Sie unter:";
 registration_help_outlook_express = "Wie kann ich die Einstellungen meines Outlook Expresses ändern um die Lizenzschlüsseldateien key.cfosspeed oder key.cfos empfangen zu können?";
 registration_help_a1 = "So registrieren Sie cFosSpeed mit Ihrer persönlichen Lizenzschlüsseldatei 'key.cfosspeed'";
-registration_help_p1 = "Im Outlook Express unter <samp>Extras - Optionen</samp> auf den Reiter <samp>Sicherheit</samp>gehen";
-registration_help_p2 = "Internetzone (zweckmäßiger, aber weniger sicher) mit einem Punkt markieren.";
-registration_help_p3 = "Bei 'Warnung anzeigen': Häkchen entfernen.";
-registration_help_p4 = "Bei 'Speichern oder Öffnen von Anlagen die möglicherweise einen Virus enthalten können nicht zulassen': Häkchen  entfernen.";
-registration_help_p5 = "Danach kann man die  gesendete Anlage doppelt anklicken und auch auf die Festplatte speichen.";
-registration_help_p6 = "Die Sicherheitszonen können bei Bedarf wieder aktiviert werden.";
 registration_help_text_file = "Beim Öffnen verhält sich der Lizenzschlüssel wie eine Textdatei";
 registration_help_p7 = "Den Lizenzschlüssel auf Ihre Festplatte speichern, z.B. unter Eigene Dateien oder Eigene Dokumente";
 registration_help_p8 = "Die Datei per Rechtsklick und Öffnen mit öffnen. Dabei im Fenster Öffnen mit über den Button Durchsuchen das cFosSpeed-Installationsprogramm setup.exe aus dem cFosSpeed-Installationsverzeichnis wählen, z.B. C: -> Programme -> cFosSpeed -> setup.exe";
 registration_help_p9 = "Bitte nutzen Sie unser";
 registration_help_p10 = "Formular zum Anfordern einer Lizenzschlüssel-Datei";
-registration_help_error_12175 = "Die Lizenzschlüsselaktivierung schlägt durch den Fehler 12175 fehl";
-registration_help_p11 = "Wir brauchen detaillierte Informationen um dieses Problem untersuchen zu können.";
-registration_help_p12 = "Bitte installieren Sie die neuste Beta von";
-registration_help_p13 = "folgen Sie dann diesen Schritten:";
-registration_help_p14 = "Vorbereitung: 1. Klicken Sie mit der Rechten Maustaste auf: START/Programme/Zubehör/Eingabeaufforderung und gehen Sie dann auf den Kontextmenu Punkt \"Als Administrator öffnen\".<br />";
-registration_help_p15 = "2. Wechseln Sie in das cFosSpeed Installations-Verzeichnis durch Eingabe von \"cd c:\\Program Files\\cFosSpeed\\\".<br /><br /> 3. Öffnen Sie die cFosSpeed-Konsole und geben folgenden Befehl ein:";
-registration_help_p15_a = "Die Ausgabe des Befehls müsste ungefähr so aussehen:<br /><br />dump_wshark 1; gset max_dump_size 1g<br />dump_tcp_data = 1<br />dump_udp_data = 1<br />dump_wshark = 1<br />max_dump_size = 1073741824 (1 G)";
-registration_help_p16 = "4. Starten Sie den cFosSpeed dump<br/> Starten Sie den dump mit dem Befehl";
-registration_help_p16_a = "Die Ausgabe des Befehls müsste ungefähr so aussehen:<br /><br />dump ign (48)<br />dump data: incoming before accept_check, outgoing before accept_check.<br /><br />5. Die dump Datei wird in das Verzeichnis: C:\\ProgramData\\cFos\\cFosSpeed geschrieben.";
-registration_help_p17 = "6. Wiederholen Sie die Schritte die zur Fehlermeldung führten<br/> (Versuchen Sie die Lizenz erneut zu aktivieren)";
-registration_help_p18 = "7. Stoppen Sie den cFosSpeed dump<br/> Stoppen Sie den cFosSpeed dump mit dem Befehl:";
-registration_help_p19 = "8. Bitte schicken Sie uns alle";
-registration_help_p20 = "Dateien aus dem Verzeichnis C:\\ProgramData\\cFos\\cFosSpeed zu und die Datei";
-registration_help_p21 = "(siehe Windowsverzeichnis)";
+rfc_bridged = "RFC1483/2684 bridged";
 router_mode = "Router u. Bridge-Mode";
 routing = "Routing";
 rtp_voip = "RTP/VoIP Erkennung";
@@ -1487,16 +1531,17 @@ sp_doc_settings_backup = "Wie kann ich alle cFosSpeed-Einstellungen wiederherste
 sp_doc_settings_files = "Sie können eine Sicherung von allen fünf Dateien erstellen.<br /><br />Wenn sie zusätzlich die Online-Budget-Log-Dateien behalten wollen, machen Sie ein Back-Up der Logs im Unterverzeichnis: <i>C:\\ProgramData\\cFos\\cFosSpeed\\logs</i>.<br /><br />Um die Einstellungen wiederherzustellen, müssen Sie nur die global.ini, user.ini und data.ini wiederherstellen. Settings.ini wird von neuen Installationen überschrieben. Deshalb müssen Sie, wenn Sie auch Änderungen in der settings.ini gemacht haben, diese in der neuen settings.ini erneut anwenden. Ansonsten nutzen Sie bitte die settings.ini der zuletzt installierten Version.";
 sp_doc_settings_store = "cFosSpeed speichert Einstellungen in den folgenden Dateien:";
 sp_doc_settings_hint = "Hinweis: Wenn Sie die letzte beta Version nutzen, befinden sich die Daten in: C: - ProgramData - cFos - cFosSpeed wobei C Ihre Systempartition ist";
+sp_doc_speedlist = "Speedlist: ";
 sp_doc_speedlist_content = "Länder- und Hardwareliste";
 sp_doc_speedlist_p1 = "Die nachfolgende Liste enthält auch ungeprüfte Informationen unserer Nutzer. Daher können aus diesen Angaben keine Rechtsansprüche, insbesondere keine Lauffähigkeits-Zusagen oder Garantien, etc. hergeleitet werden.";
 sp_doc_speedlist_h1 = "Mit <em>cFosSpeed</em> getestete Provider";
 sp_doc_speedlist_h2 = "Mit <em>cFosSpeed</em> getestete Hardware";
 sp_doc_speedlist_a1 = "zur DSL Modem-Liste";
 sp_doc_speedlist_h3 = "DSL- &amp; Kabel-Modems";
+sp_doc_status_disable = "Abschalten des cFosSpeed-Statusfensters";
 sp_doc_status_h1 = "Was Sie über die cFosSpeed Status Fenster und Skins wissen sollten";
 sp_doc_status_p1 = "Die cFosSpeed Status Fenster stellen wichtige Statistiken über Ihre aktuelle Internet-Verbindung dar. Sie sollten das Skin auswählen, das für Sie am nützlichsten ist, z.B. das Icon Skin, das sich in die Taskbar integriert oder das Traffic Analysis Skin mit Echtzeit Statistiken über Ihre aktuellen Stream Typen.";
 sp_doc_status_p2 = "Bitte bewerten Sie auch unsere verschiedenen Skins. Dies hilft uns beim Design des nächsten Status-Fensters.";
-sp_doc_status_disable = "Abschalten des cFosSpeed-Statusfensters";
 sp_doc_status = "cFosSpeed Statusfenster (Skins)";
 sp_doc_status_aquarium = "Aquarium Skin";
 sp_doc_status_aquarium_numeric = "Aquarium Skin (Numerisch)";
@@ -1562,6 +1607,7 @@ sp_doc_status_prioritized = "Ping-Zeit bei angeschalteter Überholpaket-Anzeige 
 sp_doc_status_rate = "Upload-CPS Rate";
 sp_doc_status_rate_skin = "Skin bewerten";
 sp_doc_status_rename = "Die Einstellungen für die Slots 1-10 erreicht man (als Teil der cFosSpeed-Konfiguration) entweder durch Klicken auf den Button \"Öffne Dialog zur Slot-Konfiguration\" (siehe oben) oder über den Menüpunkt \"Einstellungen/Einstellungen\" des Systray-Icons. Jeder Slot kann individuell konfiguriert und umbenannt werden.";
+sp_doc_status_shape = "Shape level";
 sp_doc_status_shinnher = "Dieses kompkate Skin wurde von einem cFosSpeed-Nutzer designt, der einfach das Liquid Crystal modifiziert hat.<br /> Sie können es von unserer Internetseite herunterladen";
 sp_doc_status_show = "Zeige Graphen für alle Slots";
 sp_doc_status_skin = "Traffic Analysis Skin";
@@ -1572,6 +1618,7 @@ sp_doc_status_states = "Durch Umschalten kann man zwischen den 3 Zuständen des 
 sp_doc_status_switch = "Umschalten zwischen normaler und großer Skin-Version";
 sp_doc_status_switch2 = "Umschalten: Großes Skin > Normales Skin > Icon-Skin";
 sp_doc_status_switching = "Zwischen der graphischen und numerischen Anzeige des Standard-Skins umschalten:";
+sp_doc_status_systray = "Traffic Analysis Icon Skin im Windows Systray";
 sp_doc_status_thumb_down = "Daumen runter";
 sp_doc_status_thumb_up = "Daumen hoch";
 sp_doc_status_times = "Ping Zeiten werden in der grafischen Skinanzeige in Wellenform dargestellt. Es können grüne, gelbe und rote Wellen erscheinen. Die absoluten Pingzeiten hängen wesentlich von der Anzahl der Up-/Downloads ab. Steigt diese Anzahl, verlängern sich die Zeiten.";
@@ -1643,8 +1690,6 @@ sp_news_h1 = "cFosSpeed<br/>News-Richtlinien";
 sp_news_p3 = "Da es mittlerweile schwierig geworden ist viele Personen über e-Mail zu erreichen und die Verbreitung der sozialen Netzwerke zunimmt, haben wir uns entschieden, Twitter zur Verbreitung unserer Kurzmitteilungen einzusetzen. Bei Neuigkeiten, z.B. Erscheinen einer neuen cFosSpeed Betaversion, werden wir diese zukünftig auf Twitter posten. Dies wird maximal einige Male pro Woche geschehen. Sollten sie also noch keinen Twitter-Account haben, möchten wir sie bitten einen einzurichten und dort <a class=\"inline\" target=\"_blank\" href=\"https://twitter.com/cFosSoftware\"><b>@cFosSoftware</b></a> zu folgen um die letzten Neuigkeiten zu erfahren. Dann können sie den <a href=\"/en/cfos-notifier/cfos-notifier.htm\"><b>cFos Notifier</b></a> benutzen, um unter anderem auch unsere Mitteilungen auf Twitter zu verfolgen.<br/><br/>Darüber hinaus haben wir eine Benachrichtigungsfunktion in cFosSpeed eingebaut. Wenn wichtige Neuigkeiten verfügbar sind (nur wenige Male pro Jahr), wie z.B. neue cFosSpeed Release-Versionen, werden wir die cFosSpeed News-Seite aktualisieren. Ab Version 7.01, build 1921 wird in diesem Fall im cFosSpeed-Statusfenster ein neues Symbol erscheinen, das nach Anklicken die cFosSpeed News-Seite öffnet.";
 sp_news_20150126 = "26. Januar 2015";
 sp_news_20150126_text = "Ping Zeiten mit und ohne Traffic Shaping auf einer 50MBit VDSL Verbindung bei 4 Up- und 2 Downloads.<br/>";
-sp_news_20150112 = "12. Januar 2015";
-sp_news_20150112_text = "cFosSpeed ist Softpedias \"top pick\". <a class=\"inline\" href=\"http://www.softpedia.com/get/Network-Tools/Bandwidth-Tools/cFosSpeed.shtml\"><b>Gute Beurteilung</b></a> der Features von cFosSpeed.";
 sp_news_20140429 = "29. April 2014";
 sp_news_20140429_text = "Die neue cFosSpeed Version 9.60 hat nun vollen IPv6 support und Phone-Skins für Ihr Phone bzw. Tablet. Während Sie Fullscreen Anwendungen auf Ihrem PC laufen lassen, können Sie den Status Ihrer Verbindung auf Ihrem Phone oder Tablet ansehen. Außerdem können Sie von hieraus die Verbindungsdialoge starten und in Echtzeit Ihre aktuellen Verbindungen anzeigen und priorisieren.";
 sp_news_20140210 = "10. Februar 2014";
@@ -1730,9 +1775,11 @@ six_doc_t4 = "Vorteile unter XP:";
 six_doc_l5 = "DNS Mapping aller Anfragen auf verfügbare DNS-Server";
 six_doc_l6 = "PPP/PPPoE Einwahl";
 six_doc_l7 = "Automatische Routing Konfiguration, IPv6-Prefix, Default-Route";
+six_doc_l8 = "IPv6 Prefix Delegation";
 six_doc_t5 = "Vorteile unter Vista:";
 six_doc_l9 = "Automatische Konfiguration von IPv6 DNS Adressen";
 six_doc_l10 = "Automatische Routing Konfiguration, IPv6-Prefix, Default-Route";
+six_doc_l11 = "IPv6 Prefix Delegation";
 six_doc_t6 = "Vorteile von cFos IPv6 Link";
 six_doc_table1 = "Virtueller<br />Router";
 six_doc_table2 = "IPv6 DNS Anfragen";
@@ -1787,6 +1834,9 @@ six_doc_134 = "Möglicherweise ist ein Neustart erforderlich, damit die Änderun
 six_doc_135 = "NAT46 mapping:";
 six_doc_136 = "NAT46 Mapping erlaubt es alte IPv4 Anwendungen mit IPv6 zu verwenden oder IPv4 Server von IPv6 aus erreichabr zu machen. cfos6link kann nun traffic von auf IPv4 beschränkten Anwendungen auf IPv6 mappen. Hierzu weist cFos IPv6 link temporäre IPv4 Adressen zu, die dann netzseitig in IPv6-Adressen gemapped werden. Sie können das IPv4-Adressen-Kontingent spezifizieren, indem Sie nat46_addr=x und nat46_subnet_mask=m in der [param] section von cfos6link.ini setzen. Wenn eine IPv4-Anwendung einen Namen über DNS anfordert (das heißt einen A record) ändert cfos6link die Anfrage in eine AAAA-record-Anfrage. Nachdem es die entsprechende IPv6-Adresse erhält, legt es eine temporäre IPv4 Adresse für diese IPv6 an und sendet diese an die IPv4-Anwendung zurück. Wann immer die IPv4-Anwendung diese temporäre Adresse nutzt, wird diese auf die IPv6-Adresse abgebildet und für das IPv6-Ziel verwendet. Sie können zum Beispiel den folgenden pool von IPv4-Adressen für das NAT46 mapping auswählen:";
 six_doc_138 = "Für eingehende Verbindungen können sie zusätzlich ein port mapping angeben, indem Sie die section [nat46_ports] in der cfos6link.ini mit Werten wie diesen bestücken:";
+/. That string means that user have to place program's name instead of `some program` like `5000=skype`
+/. `some_program` part may be translated
+/: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
 six_doc_140 = "Dann wird der eingehende IPv6-traffic auf IPv4 abgebildet wann immer der Zielport einem der abgebildeten Ports entspricht.";
 six_doc_141 = "Darüberhinaus können Sie statische IPv4 &lt;-&gt; IPv6 Mappings für Anwendungen, die fest eingestellte IPv4-Adressen verwenden, nutzen. Diese Mappings können sie festlegen, indem sie die section [nat46_static] mit Werten der Form ipv4_x=ipv6_y, z.B. 192.168.2.1=2001:DB8::1, füllen";
 
@@ -1825,15 +1875,19 @@ oem_t3 = "Maximale Bandbreite bei minimalem Ping durch Traffic Shaping";
 oem_l4 = "NDIS Treiber für Windows 7, Windows Vista, XP und 2000, x86 und x64";
 oem_l5 = "Traffic Shaping für alle gängigen Breitband- und Schmalband-Internetzugänge";
 oem_l6 = "Traffic Shaping mit Router und/oder DSL/Kable-Modems";
+/. Means "customizable status window with skins"
+/. or "brandable status window skin"
 oem_l7 = "Konfigurierbares Status Fenster mit Skins";
 oem_l8 = "Traffic Limits, Speed Limits";
 oem_t4 = "Einwahltreiber für ISDN und DSL, inkl. Traffic Shaping";
 oem_l9 = "COM Port Treiber für Windows 7, Vista, XP, 2000, x86 und x64, sowie für ältere Systeme, wie Windows 9x, ME";
 oem_l10 = "ISDN mit CAPI 2.0 (CAPI2032.DLL oder Kernel Mode CAPI)";
+/. Channel bundling allows to use 2 ISDN channels as one for better bandwidth
 oem_l11 = "Kanalbündelung";
 oem_l12 = "On-the-Fly PPPoE Erkennung, ohne Netzwerktreiber-Installation";
 oem_l13 = "Für Window Vista, XP und 2000, x86 und x64, ältere Systeme auf Anfrage";
 oem_l14 = "Leicht in bestehende Installer integrierbar";
+/. fees = licensing costs
 oem_t5 = "Lizenzgebühren und Bedingungen";
 oem_l15 = "Preise richten sich nach der Anzahl der benötigten Lizenzen";
 oem_l16 = "Mindestabnahme: 1000 Stück";
@@ -1932,10 +1986,14 @@ cont_gr_wikipedia = "Es gibt einen Artikel über cFos bei <a href=\"http://en.wi
 january = "Januar";
 february = "Februar";
 march = "März";
+april = "April";
 may = "Mai";
 june = "Juni";
 july = "Juli";
+august = "August";
+september = "September";
 october = "Oktober";
+november = "November";
 december = "Dezember";
 winners = "Gewinner";
 cont_cont_p0 = "Für Supportanfragen und zur Kontaktaufnahme benutzen Sie bitte unser <a class=\"blink hand\" onclick=\"cfos.show_contact_form();\">Kontaktformular</a>.";
@@ -1983,6 +2041,8 @@ cont_op_h2 = "Erforderliche Daten";
 cont_op_h3 = "Mitteilung";
 cont_osr_h1 = "Ihre Bestelldaten";
 cont_osr_p1 = "(an die wir die Antwort schicken sollen)";
+cont_osr_purse_id = "Purse ID";
+cont_osr_wm_id = "Webmoney ID";
 cont_osr_p2 = "(die bei der Bestellung angegeben wurde)";
 cont_osr_p3 = "cFos-Auftragsnummer<br /><span class=\"smalltext\">(falls bekannt)</span>";
 cont_osr_p4 = "Bestellungen werden in der Regel nach Zahlungseingang innerhalb von 1-2 Werktagen bearbeitet.<br />Verzögerungen bei der Bearbeitung Ihrer Bestellung liegen in fast allen Fällen daran, dass wir Ihre Zahlung nicht Ihrer Bestellung zuordnen können.";
@@ -2008,6 +2068,7 @@ cont_pr_td1 = "Name des Programms";
 cont_pr_td2 = "<b>exe-Datei / Anwendungsdatei</b><br />z.B. kazaa.exe";
 cont_pr_td3 = "Genre";
 cont_pr_l5 = "Internet-Telefonie";
+cont_pr_l6 = "Multimedia";
 cont_pr_l7 = "Andere";
 cont_pr_td4 = "Dateiname aus Liste <samp>Aktuelle Verbindungen</samp>";
 cont_pr_td5 = "Ja, ich möchte das oben genannte Programm vorschlagen.";
@@ -2020,6 +2081,9 @@ cont_select_l1 = "Loggen Sie sich bei Outlook ein.";
 cont_select_l2 = "Klicken Sie auf \"Optionen\"";
 cont_select_l3 = "Klicken Sie nun auf \"Email\" und dann auf \"Junk-Mail-Schutz\"";
 cont_select_l4 = "Gehen Sie auf \"Liste sicherer Absender\" und fügen Sie dort unsere Email-Adressse hinzu.";
+cont_select_l2_v2 = "Aufs Zahnrad klicken, dann auf \"Optionen\"";
+cont_select_l3_v2 = "Nun auf \"Sichere und blockierte Sender\" unter \"Junk Mail blockieren\"";
+cont_select_l4_v2 = "Gehen Sie zu \"Sichere Sender\" und fügen Ihre e-mail Adresse hinzu.";
 cont_select_h2 = "Benutzte Zahlungsart:";
 cont_select_a1 = "Andere Zahlungsart";
 cont_select_h3 = "Sie haben ihren Lizenzschlüssel oder das Passwort verloren";
@@ -2212,8 +2276,8 @@ sptest_bot_p1 = "Die cFosSpeed MSS (MTU) Optimierung kann die MSS/MTU von 1492 a
 
 /upload
 upload_title = "cFos Upload Seite";
-upload_thanks = "Vielen Dank, dass Sie uns helfen Fehler in unseren Produkten zu beseitigen!";
 upload_h1 = "Datei hochladen";
+upload_thanks = "Vielen Dank, dass Sie uns helfen Fehler in unseren Produkten zu beseitigen!";
 upload_p1 = "Bitte benutzen Sie die aktuelle <a class=\"inline\" href=\"/en/download/download.htm\">Release</a> oder <a class=\"inline\" href=\"/en/beta/index.htm\">Beta</a> Version. Wir können nur Crashes in den jeweils neuesten Versionen fixen.<br/><b>Bitte keine Crashdumps von alten Version hochladen!</b>";
 upload_p2 = "Bitte beachten Sie, dass wir nicht auf jeden Upload einzeln anworten können, aber jeder Upload wird von uns geprüft und wir kontaktieren Sie, falls wir mehr Infos brauchen.";
 description = "Beschreibung";
@@ -2221,6 +2285,22 @@ description = "Beschreibung";
 /videos
 videos_h1 = "YouTube-Videos";
 videos_text1 = "So stellen Sie das Medium/Protokoll für Ihre Internet-Verbindung ein";
+videos_text2 = "cFos WMI Monitor, ein cFos PNet Add-on";
+videos_text3 = "cFos Personal Net Web Server | Installation und einfaches publishing";
+videos_text4 = "cFosSpeed Automatic RWIN expansion hält Ihre CYGWIN SCP downloads schnell";
+videos_text5 = "cFosSpeed Automatic RWIN expansion hält Ihre Firefox downloads schnell";
+videos_text6 = "cFosSpeed Automatic RWIN expansion hält Ihre Internet Explorer downloads schnell";
+videos_text7 = "cFosSpeed 7.0 - Temporäre Priorisierung der Verbindungen";
+videos_text8 = "cFosSpeed - Temporäre Priorisierung der Verbindungen";
+videos_text9 = "cFosSpeed 6.60 - Wie Sie Ihre Internet Verbindung kalibrieren";
+videos_text10 = "cFosSpeed 6.60 - Hält Ihr Internet schnell während upload/download - So geht es:";
+videos_text11 = "cFosSpeed 6.60 - Der Internet Beschleuniger ... schnellerer Internet Zugriff mit Traffic Shaping";
+videos_text12 = "cFosSpeed 6.60 - Wie Sie cFosSpeed mit Ihrem persönlichen Lizenzschlüssel 'key.cfosspeed' registrieren";
+videos_text13 = "cFosSpeed 6.60 - Wie Sie Net Talk mit der cFosSpeed console nutzen";
+videos_text14 = "cFosSpeed mit Logitech gaming keyboard G15";
+videos_text15 = "cFosSpeed mit Logitech gaming keyboard G19";
+videos_text16 = "cFosSpeed 6.50 Installation unter Windows7 32bit";
+videos_text17 = "cFosSpeed Version 5.00 - Installation unter Windows 7";
 
 /meta descriptions
 missing_meta_desc = "missing meta description";
