@@ -773,7 +773,6 @@ cfout_p4_v2 = "For a <b class=\"green\">DAViCal calendar</b> the URL is http://<
 /. Used as title
 /. Litrelly means "How cFos Outlook DAV works"
 cfout_h3 = "cFos Outlook DAV operation";
-cfout_h3 = "cFos Outlook DAV operation";
 cfout_p5a_v2 = "When you start Outlook, cFos Outlook DAV tries to synchronize all data of your Outlook folders with the CalDAV/CardDAV server. If something on the server has changed, the changes are reflected in your Outlook folders.";
 cfout_p5b_v2 = "So data added or modified on the server will be added or modified in your local folder. Data deleted on the server will be deleted in your local folder. This synchronisation is done every <b>n</b> minutes depending on the sync interval you specified in the folder setup.";
 cfout_p6_v3 = "Whenever you add, change or delete an event in your local folders you can update the server data by using the \"Sync All\" button in the ribbon. You should consider doing the same before closing Outlook.";
