@@ -151,7 +151,7 @@ sk_msinanucler = "Traffic Analysis Icon W7";
 sk_msinanucler_text = "Modified Traffic Analysis Skin with background image by Msinanucler";
 sk_mtin = "MTiN's Skin";
 sk_mtin_text = "Minimal Skin (by MTiN)";
-sk_netmedic = "rx/tx Skin (+ Icon)";
+sk_netmedic = "Rx/Tx Skin (+ Icon)";
 sk_netmedic_text = "Send/Receive Skin and Icon Skin (by Ilya Dedinsky)";
 sk_offchu = "Slim LC";
 sk_offchu_text = "Slim horizontal Liquid Crystal Skin (by offchu)";
@@ -2345,7 +2345,7 @@ description = "Description";
 /videos
 videos_h1 = "YouTube videos";
 videos_text1 = "How to adjust the Medium/Protocol for your Internet connection";
-videos_text2 = "cFos WMI Monitor, a cFos PNet add-on package";
+videos_text2 = "cFos WMI Monitor, a cFos PNet add-on";
 videos_text3 = "cFos Personal Net Web Server | Installation and simple publishing";
 videos_text4 = "cFosSpeed Automatic RWIN expansion feature keeps your CYGWIN SCP downloads fast";
 videos_text5 = "cFosSpeed Automatic RWIN expansion feature keeps your Mozilla Firefox downloads fast";
