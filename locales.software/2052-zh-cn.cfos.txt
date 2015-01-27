@@ -889,6 +889,7 @@ virtual_wifi_query_stop = "停止虚拟Wi-Fi?";
 virtual_wifi_error_stop = "停止虚拟Wi-Fi时遇到错误：";
 virtual_wifi_stopped = "虚拟Wi-Fi成功停止。";
 virtual_wifi_dialup_ics = "对于拨号连接，你必须手动修改此连接的属性才能启用网络共享。";
+virtual_wifi_error_not_present = "未发现Wi-Fi界面。\n\n为了设定一个虚拟Wi-Fi，必须有一个可用的Wi-Fi界面。";
 
 
 / !!! DO NOT TRANSLATE !!!
