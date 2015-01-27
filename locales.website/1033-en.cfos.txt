@@ -1891,10 +1891,9 @@ six_doc_135 = "NAT46 mapping:";
 six_doc_136 = "NAT46 mapping allows you to run IPv4-only applications with IPv6 destinations or to make IPv4-only services accessible from IPv6. cfos6link can now map traffic from IPv4 only applications to IPv6. To do so, it temporary associates at IPv6 address with a temporary IPv4 address. You can specify the IPv4 address pool by setting nat46_addr=x and nat46_subnet_mask=m in the [param] section of cfos6link.ini. If an IPv4 applications requests a name via DNS (i.e. an A record) cfos6link changes the request into an AAAA record request. After it receives the corresponding IPv6 address it allocates a temporary IPv4 for that IPv6 and returns it to the IPv4 application. Whenever the IPv4 application uses that temporary address it will be mapped to the IPv6 address for use with an IPv6 destination. For example you can assign the following pool of IPv4 addresses for mapping:";
 six_doc_137 = "[param]<br />nat46_addr=10.0.0.0<br />nat46_subnet_mask=255.0.0.0<br />";
 six_doc_138 = "For incoming connections you can also specify a port mapping, by filling the section [nat46_ports] in cfos6link.ini with values, like this:";
-/. `some_program` part may/should be translated in similar manner
-/. Menas that user have to place program's name instead there
-/. like `5000=eset`
-/: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm?__ntrack_pv=1
+/. That string means that user have to place program's name instead of `some program` like `5000=skype`
+/. `some_program` part may be translated
+/: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
 six_doc_139 = "5000=some_program";
 six_doc_140 = "Then incoming IPv6 traffic is mapped to IPv4 whenever the destination port is one of the mapped ports.";
 six_doc_141 = "In addition you can add static IPv4 &lt;-&gt; IPv6 mappings for applications which use hard-coded IPv4 addresses. You can specify these mappings by filling the section [nat46_static] with value like &lt;ipv4_addr&gt;=&lt;ipv6_addr&gt;, for example 192.168.2.1=2001:DB8::1";
