@@ -41,7 +41,7 @@ Software translation status
 | `G` | vi - 1066         | 3         |                                                       |       |
 | `l` | mk - 1071         |           |                                                       |       |
 | `G` | fa - 1256         | all       |                                                       |       |
-|     | zh-cn - 2052      | 80        |                                                       |       |
+|     | zh-cn - 2052      | 0         |                                                       |       |
 | `G` | es-mx - 2058      | 600       |                                                       |       |
 | `G` | pt - 2070         | 22        | done (2014-04-21) by Adriano Maia                     |       |
 | `G` | sr-cs-latn - 2074 |           |                                                       |       |
