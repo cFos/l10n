@@ -64,6 +64,7 @@ ask_inst_ipv6 = "Das IPv6-Protokoll ist auf diesem System noch nicht installiert
 err_inst_ipv6 = "Fehler %? bei der Installation des IPv6-Protokolls.";
 pause_server = "Server pausieren";
 resume_server = "Server fortsetzen";
+file_link_failed = "Dateiverknüpfung fehlgeschlagen.";
 
 / connection entry dialog
 con_err_save = "Verbindungsdaten konnten nicht gespeichert werden!";
@@ -810,6 +811,7 @@ dt_advertise_desc = "Listet alle %? Features.";
 query_reboot = "Sie müssen ihr System Herunterfahren und Neustarten,\n"
                "damit die Änderungen wirksam werden.\n\n"
                "Soll der Neustart jetzt durchgeführt werden?";
+query_inst_reboot = "Ihr Betriebssystem muss neu gestartet werden, bevor die Installation fortfahren kann.\n\nBitte starten Sie nach dem Neustart auch das Installationsprogramm erneut.\n\nSoll der Neustart des Betriebssystems jetzt durchgeführt werden?";
 query_drv_inst_cancel = "Die Treiber De-/Installation wird vom Betriebssystem vorgenommen.\n"
                         "Das Windows Setup Interface benötigt zur Installation oder\n"
                         "Deinstallation eines Treibers bis zu 15 Minuten!\n\n"
@@ -948,6 +950,7 @@ eml_checking_domain = "Überprüfung der E-Mail-Domain...";
 virtual_wifi_wizard_name = "%p Virtuelles WLAN Start-Assistent";
 virtual_wifi_header = "Starte Virtuelles WLAN";
 virtual_wifi_subheader = "Einrichten eines softwarebasierten WLAN-Einwahlknotens und Aktivierung der Internet-Verbindungsfreigabe.";
+virtual_wifi_stop_header = "Stoppe Virtuelles WLAN";
 virtual_wifi_info = "Wählen Sie die Netzwerkverbindung, über die der Internetverkehr läuft, und vergeben Sie ein Passwort für den WLAN-Einwahlknoten.";
 virtual_wifi_ssid = "SSID:";
 virtual_wifi_default_ssid = "cFos WLAN";
@@ -964,6 +967,7 @@ virtual_wifi_error_stop = "Fehler beim Stoppen des virtuellen WLANs:";
 virtual_wifi_stopped = "Das virtuelle WLAN wurde erfolgreich angehalten.";
 virtual_wifi_dialup_ics = "Für eine DFÜ-Netz- bzw. Wählverbindung müssen Sie die Internet-Verbindungsfreigabe manuell über die Eigenschaften dieser Verbindung aktivieren.";
 virtual_wifi_error_not_present = "Kein (einsatzbereites) WLAN-Interface gefunden.\n\nZur Einrichtung eines virtuellen WLANs muss ein WLAN-Interface vorhanden und einsatzbereit sein.";
+virtual_wifi_autostart = "Automatisch bei jedem Systemstart starten.";
 
 
 / ----------------------------------------------------------------------

@@ -81,6 +81,7 @@ ask_inst_ipv6 = "The IPv6 protocol has not yet been installed on this system.\n\
 err_inst_ipv6 = "Error %? while installing the IPv6 protocol.";
 pause_server = "Pause server";
 resume_server = "Resume server";
+file_link_failed = "File link creation failed.";
 
 / connection entry dialog
 con_err_save = "Cannot save connection data!";
@@ -826,6 +827,7 @@ dt_advertise_desc = "Lists all %? features.";
 / message boxes
 query_reboot = "You must reboot your system for the changes to take effect.\n\n"
    "Reboot system now?";
+query_inst_reboot = "You must reboot your operating system before the installation can continue.\n\nPlease restart the setup program after the reboot.\n\nDo you want to reboot your operating system now?";
 query_drv_inst_cancel = "Driver un-/installation is performed by the operating system.\n"
                         "The Windows setup interface can require up to 15 minutes to\n"
                         "register or unregister a driver!\n\n"
@@ -963,6 +965,7 @@ eml_checking_domain = "Checking e-mail domain...";
 virtual_wifi_wizard_name = "%p Virtual Wi-Fi Start Wizard";
 virtual_wifi_header = "Start Virtual Wi-Fi";
 virtual_wifi_subheader = "Setup a software-based wireless access point and enable Internet Connection Sharing.";
+virtual_wifi_stop_header = "Stop Virtual Wi-Fi";
 virtual_wifi_info = "Select the network connection that routes the Internet traffic and choose a password for the wireless access point.";
 virtual_wifi_ssid = "SSID:";
 virtual_wifi_default_ssid = "cFos Wi-Fi";
@@ -979,6 +982,7 @@ virtual_wifi_error_stop = "Error stopping Virutal Wi-Fi:";
 virtual_wifi_stopped = "Virtual Wi-Fi successfully stopped.";
 virtual_wifi_dialup_ics = "For a dial-up connection you have to enable Internet Connection Sharing manually by changing the properties of this connection.";
 virtual_wifi_error_not_present = "No (ready) Wi-Fi interface found.\n\nTo set up a Virtual Wi-Fi a Wi-Fi interface must be present and ready.";
+virtual_wifi_autostart = "Start automatically at system start.";
 
 
 / !!! DO NOT TRANSLATE !!!
