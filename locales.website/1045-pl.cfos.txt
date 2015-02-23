@@ -1908,7 +1908,6 @@ speed_guide_l26g = "Priorytetowanie portów";
 / speed test
 speed_test = "Test prędkości cFos";
 under_construction = "Test prędkości jest w fazie budowy i będzie dostępny pod koniec października 2010.<br /><br />W międzyczasie polecamy:<br />";
-sptest_info_h1 = "Test prędkości cFos";
 sptest_info_p1 = "Z naszym nowym testerem prędkości, możesz szybko sprawdzić prędkość swojego połączenia internetowego. Możesz przeprowadzić test wysyłania i pobierania, na przykład by sprawdzić, czy twoje połączenie osiąga obiecane wartości. Test prędkości zaprojektowano by mierzył dostępne pasmo jak najszybciej. Nie przejmuj się, jeżeli zmierzona prędkość nie pasuje do wartości podanych przez twojego dostawcę internetu. Na przykład dla łącza 16 Mbit/s, 1% dokładności to już 160,000 bitów/s, co wygląda imponująco, ale nie sprawia dużej różnicy.";
 sptest_info_p1_sm = "Z naszym nowym testerem prędkości, możesz szybko sprawdzić prędkość swojego połączenia internetowego. Możesz przeprowadzić test wysyłania i pobierania, na przykład by sprawdzić, czy twoje połączenie osiąga obiecane wartości.";
 sptest_info_p2 = "W chwili obecnej, test prędkości mierzy dwa parametry: prędkość wysyłania i prędkość pobierania. By sprawdzić połączenie internetowe, test określa też czas odpowiedzi serwera. To pozwala ci ocenić wiarygodność wyników. Następna wersja naszego testu będzie także sprawdzać jak różne jednoczesne przesyłania wpływają na opóźnienia na łączu.";

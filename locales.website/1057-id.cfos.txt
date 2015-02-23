@@ -1979,7 +1979,6 @@ speed_guide_l26g = "Memprioritaskan ports";
 / speed test
 speed_test = "Pengukur Kecepatan cFos";
 under_construction = "Pengukur kecepatan sedang dalam pembangunan dan akan tersedia pada akhir oktober 2010.<br /><br />Sementara itu kami menyarankan:<br />";
-sptest_info_h1 = "Uju kecepatan cFos";
 sptest_info_p1 = "Dengan Pengecek kecapatan baru kamu, anda dapar dengan cepat menguji kecepatan koneksi internet anda. Anda dapat melakukan tes kecepatan upload dan download, contohnya untuk memeriksa, apakah kecepatan internet anda sesuai yang dijanjikan. Uji kecepatan ini di desain untuk mengukur bandwith anda yang tersedia secepat mungkin. Jangan khawatir jika pengukur kecepatan tidak sesuai dengan angka yang diberikan ISP kepada anda. Contohnya jika anda memiliki kecepatan boardband 16Mbit/s, 1% toleransi sudah 160.000 bit/sec. kelihatan mengesankan tapi tidak membuat banyak perbedaan.";
 sptest_info_p1_sm = "Dengan Pengecek kecapatan baru kamu, anda dapar dengan cepat menguji kecepatan koneksi internet anda. Anda dapat melakukan tes kecepatan upload dan download, contohnya untuk memeriksa, apakah kecepatan internet anda sesuai yang dijanjikan.";
 sptest_info_p2 = "Saat ini, penguji kecepatan mengukur dua nilai : kecepatan upload dan download. Untuk menguji koneksi internet, penguji kecepatan juga menentukan waktu respon dari server. Ini memberikan anda gambaran bagaimana diandalkannya hasil uji coba. Versi selanjutknya dari penguji kecepatan kamu juga akan mengukur berapa perbedaan stream simultan mempengaruhi respon waktu sambungan.";

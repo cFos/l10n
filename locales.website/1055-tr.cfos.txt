@@ -1883,7 +1883,6 @@ speed_guide_l26g = "Portlara öncelik vermek";
 / speed test
 speed_test = "cFos Hız testi";
 under_construction = "Hız testi yapım aşamasında ve Ekim 2010 sonunda hazır olacak.<br /><br />Bu sırada size önerimiz:<br />";
-sptest_info_h1 = "cFos Hız testi";
 sptest_info_p1 = "Bizim yeni hız denetleyicimizle, internet hızınızı kolayca test edebilirsiniz. İndirme ve gönderme hız testleri yapabilirsiniz, pekiştirmek için örnek verecek olursak, Eğer internet hızınız vaat edilen hızlarda ise, Hız testi sizin kullanılabilir bant genişliğinizi mümkün olan en hızlı şekilde ölçmek için tasarlanmıştır. Hız denetiminin gösterdiği hızlar servis sağlayıcınızın size verdiği hızlarla aynı değilse hemen paniklemeyin. Örneğin 16Mbit/s bant genişliğiniz var, 1% müsamaha zaten 160.000 bit/sn ediyor, etkileyici bir rakam gibi görünüyor olsada pek bir fark yaratmıyor.";
 sptest_info_p1_sm = "Bizim yeni hız denetleyicimizle, internet hızınızı kolayca test edebilirsiniz. İndirme ve gönderme hız testleri yapabilirsiniz, pekiştirmek için örnek verecek olursak, Eğer internet hızınız vaat edilen hızlarda ise.";
 sptest_info_p2 = "Şimdilik, Hız testi iki değeri ölçüyor: İndirme ve gönderme hızı. İnternet bağlantısınız test etmek için, hız testi aynı zamanda sunucudan gelen cevap sürelerini de saptıyor. Bu size test sonuçlarının ne kadar güvenilir olup olmadığı konusunda bir fikir verebilir.Hız testinin sonraki versiyonu bunlara ek olarak, aynı zamanda olan veri akımının internet bağlantınızın cevap verme süresini ne kadar etkilediğini de ölçecek.";

@@ -2200,7 +2200,6 @@ speed_guide_l26g = "Ưu tiên cho các cổng";
 / speed test
 speed_test = "Thử nghiệm tốc độ internet của cFos";
 under_construction = "Trình kiểm tra tốc độ đang được xây dựng và sẽ có mặt vào cuối tháng 9 năm 2010.<br /><br />Trong khi đó, chúng tôi khuyên bạn nên:<br />";
-sptest_info_h1 = "Thử nghiệm tốc độ cFos";
 sptest_info_p1 = "Với tính năng kiểm tra tốc độ mạng của chúng tối, bạn có thể nhanh chóng kiểm tra kết nối Internet của bạn. Bạn có thể thực hiện kiểm tra tốc độ khi download/upload, ví dụ để xác minh nếu tốc độ internet của bạn phụ hợp với giá trị nhà cùng cấp. Speed Test được thiết kế để đo băng thông của bạn càng nhanh càng tốt. Đừng lo lắng khi kết quả tốc độ không phù hợp với giá trị của nhà cung cấp dịch vụ. Ví dụ nếu bạn có băng thông với tốc độ 16Mbit/s, 1% tiêu hao là 160.000 bit/sec, điều này trông có vẻ ấn tượng nhưng không có sự khác biệt lớn.";
 sptest_info_p1_sm = "Với tính năng kiểm tra tốc độ mạng của chúng tối, bạn có thể nhanh chóng kiểm tra kết nối Internet của bạn. Bạn có thể thực hiện kiểm tra tốc độ khi download/upload, ví dụ để xác minh nếu tốc độ internet của bạn phụ hợp với giá trị nhà cùng cấp.";
 sptest_info_p2 = "Bây giờ, Speed Test sẽ đo hai giá trị: tốc độ upload và download. Để kiểm tra kết nối Internet của bạn, Speed Test cũng xác định thời gian đáp ứng của máy chủ. Điều này sẽ cung cấp cho bạn một thông tin đáng tin cậy cho kết quả thử nghiệm. Trong phiên bản tiếp theo, Speed Test cũng sẽ đo những streams đồng thời ảnh hưởng đến thời gian phản hồi.";

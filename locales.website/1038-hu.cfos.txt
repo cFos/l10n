@@ -2087,7 +2087,6 @@ speed_guide_l26g = "Portok priorizálása";
 / speed test
 speed_test = "cFos sebesség-teszt";
 under_construction = "A sebességteszt készítése folyamatban van és valószínűleg október végén indul.<br /><br />Az átmeneti időre javasoljuk:<br />";
-sptest_info_h1 = "cFos Speed-teszt";
 sptest_info_p1 = "Az új sebesség-ellenőrzővel könnyen megmérheti internet-kapcsolatának sebességét. Végezhet feltöltés- és letöltés sebességmérést, annak érdekében, hogy megállapítsa, azok a szolgáltató által ígért értéket mutatják-e. Ne legyen nyugtalan, ha a teszt nem az exakt értékeknek felel meg. Például az 1%-os tűrés 16Mbit/s csatlakozásnál már 160.000bit/s. Ez a szám ugyan hatásosnak tűnik, de valójában csak nagyon kicsi különbség.";
 sptest_info_p1_sm = "Az új sebesség-ellenőrzővel könnyen megmérheti internet-kapcsolatának sebességét. Végezhet feltöltés- és letöltés sebességmérést, annak érdekében, hogy megállapítsa, azok a szolgáltató által ígért értéket mutatják-e.";
 sptest_info_p2 = "Először az online teszt két értéket mér: A feltöltés és a letöltés sebességét. Az internet-kapcsolat tesztjéhez megállapítja a speed test a szerver válaszidejét is. Ez arról ad felvilágosítást, hogy mennyire megbízhatóak a speed test eredmények. Sebességmérőnk követező verziója járulékosan azt is meg fogja állapítani, hogyan változtatják meg a különböző adatáramlások a kapcsolat ping-idejét.";
