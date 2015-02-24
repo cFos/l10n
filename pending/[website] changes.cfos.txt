@@ -4,3 +4,9 @@
 
 // #2014-12-10
 // no changes
+
+#2015-02-23
+
+speed_guide_l15a = "Deinstall cFosSpeed or disable Traffic Shaping";
+
+	`Deinstall` -> `Uninstall`
