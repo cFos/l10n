@@ -21,6 +21,7 @@ htm_lang_prefix = "de";
 outlook_caldav_desc = "%p";
 ignore_ssl_cert_chk = "SSL-Zertifikatfehler ignorieren (unsicher)";
 ignore_ssl_cert_desc = "Wird cFos Outlook DAV gestattet, SSL-Zertifikatfehler zu ignorieren, so kann das Programm SSL-Verbindungen zu Servern mit unischeren Zertifikaten aufnehmen, z.B. selbstsignierte Zertifikate. Die Aktivierung dieser Option wird normalerweise nicht empfohlen, da die SSL-Verbindung damit anfällig für Man-in-the-Middle-Angriffe ist.";
+od_key_registered = "Registrierung der Lizenzdatei abgeschlossen. Bitte starten Sie Outlook neu, damit die Registrierung wirksam werden kann.";
 
 / ----------------------------------------------------------------------
 /
@@ -543,6 +544,8 @@ traffic_shaping_info = "Traffic Shaping Info";
 wlan_access_point = "WLAN access point";
 prioritize_foreground_process = "Prozess im Vordergrund-Fenster priorisieren";
 prioritize_foreground_help = "Die Priorität des Prozesses im Vordergrund-Fenster auf high setzen.";
+upnp_router_info = "UPnP Router Statistik nutzen";
+upnp_router_info_help = "Statistik Ihres UPnP Router nutzen um die Leitungsgeschwindigkeit und Traffic Shaping Medium zu ermitteln. Sie müssen ggf. UPnP in Ihrem Router aktivieren.";
 
 
 / ----------------------------------------------------------------------

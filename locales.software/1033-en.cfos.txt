@@ -38,6 +38,7 @@ cfosspeed_feature_highlights_htm = "%url/cfosspeed/cfosspeed-feature-highlights.
 outlook_caldav_desc = "%p";
 ignore_ssl_cert_chk = "Ignore SSL certificate errors (unsafe)";
 ignore_ssl_cert_desc = "If cFos Outlook DAV is allowed to ignore SSL certificate errors, it can connect to servers with unsafe SSL certificates, for example self-signed certificates. Enabling this option is normally not recommended, because it makes an SSL connection vulnerable to man-in-the-middle attacks.";
+od_key_registered = "The key has been registered. Please restart Outlook for the registration to take effect.";
 
 / ----------------------------------------------------------------------
 /
@@ -568,6 +569,8 @@ traffic_shaping_info = "Traffic Shaping Info";
 wlan_access_point = "Wi-Fi access point";
 prioritize_foreground_process = "Prioritize process in foreground window";
 prioritize_foreground_help = "Automatically set the priority of the process in foreground window to high.";
+upnp_router_info = "Use UPnP Router Statistics";
+upnp_router_info_help = "Use statistics from your UPnP router to determine line speed and traffic shaping medium, if possible. You may need to activate UPnP in your router.";
 
 
 / ----------------------------------------------------------------------
