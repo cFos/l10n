@@ -73,7 +73,9 @@ rwin_video_award2 = "贏取 <b>100</b> 個免費 cFosSpeed 終身授權的其中
 social_networks = "請在社群網路上支援我們。<br/>請在 Facebook 上按讚、在 Twitter 上關注我們。";
 powered_by = "由 <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net Web Server</a> 提供";
 word_follow = "關注";
-learn_more = "了解更多資訊"; // Meaning "learn more about the product"
+oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> 是<br/>ASUS、GIGABYTE、ASRock、MSI 電競主機板的官方網路加速器";
+cfosspeed_for_windows_10 = "支援 <b>Windows 10</b> 的 <b>cFosSpeed 10</b> 已經推出。";
+learn_more = "了解產品的更多資訊"; // Meaning "learn more about the product"
 
 / download
 additional_downloads = "其它的下載";
@@ -141,7 +143,7 @@ sk_msinanucler = "Traffic Analysis Icon W7";
 sk_msinanucler_text = "流量分析面板（背景圖片由 Msinanucler 修改）";
 sk_mtin = "MTiN 的面板";
 sk_mtin_text = "輕量級面板（MTiN 製作）";
-sk_netmedic = "rx/tx 面板（含圖示)";
+sk_netmedic = "Rx/Tx 面板（含圖示)";
 sk_netmedic_text = "傳送/接收面板以及圖示面板（Ilya Dedinsky 製作）";
 sk_offchu = "Slim LC";
 sk_offchu_text = "水平細長條的 Liquid Crystal 面板（offchu 製作）";
@@ -1733,6 +1735,10 @@ sp_news_p2 = "我們每年僅會發布幾次新消息";
 sp_news_h0 = "cFosSpeed 消息";
 sp_news_h1 = "cFosSpeed 消息政策";
 sp_news_p3 = "因為透過郵件來通知人們變得越來越難，社交網路也越來越普遍，我們決定使用 Twitter 來作為我們的快速消息發布管道。如果有新的東西，例如 cFosSpeed 新 beta 版本推出，我們將在Twitter發布。我們每週將只發布幾次消息。因此，若您沒有 Twitter 帳號，請註冊一個，並關注 <a class=\"inline\" target=\"_blank\" href=\"https://twitter.com/cFosSoftware\"><b>@cFosSoftware</b></a> 以得到最新消息。然後，您也可以使用 <a href=\"/en/cfos-notifier/cfos-notifier.htm\"><b>cFos Notifier</b></a>來方便地檢查我們在 Twitter 上發布的訊息。<br/><br/>我們也在 cFosSpeed 當中設計了通知功能。當有非常重要的消息時（每年僅幾次），例如有新 cFosSpeed 版本推出時，我們將更新 cFosSpeed 的新聞頁面。從 cFosSpeed v7.01 build 1921 開始，狀態視窗會顯示一個新的符號，點擊時會開啟 cFosSpeed 的新聞頁面。";
+sp_news_20150126 = "2015 年 1 月 26 日";
+sp_news_20150126_text = "在有 4 個上傳與 2 個下載連線的 50MBit VDSL 線路中，開啟和關閉流量塑型時的 Ping 值表現。";
+sp_news_20150112 = "2015 年 1 月 12 日";
+sp_news_20150112_text = "cFosSpeed 榮獲 Softpedia 的編輯精選。<a class=\"inline\" href=\"http://www.softpedia.com/get/Network-Tools/Bandwidth-Tools/cFosSpeed.shtml\">一篇關於 cFosSpeed 能做什麼與不能做什麼的 <b>優良評論</b></a>。";
 sp_news_20140429 = "2014 年 4 月 29 日";
 sp_news_20140429_text = "全新的 cFosSpeed v9.60 版包含了完整的 IPv6 支援與手機面板。您可以在使用電腦玩遊戲或使用全螢幕程式時，透過手機或平板來監控連線狀態，或是即時監控並調整優先權。";
 sp_news_20140210 = "2014 年 2 月 10 日";
@@ -1878,11 +1884,10 @@ six_doc_135 = "NAT46 映射:";
 six_doc_136 = " NAT46 映射讓您可在執行僅支援 IPv4 的程式時使用 IPv6 地址，或使用 IPv6 存取僅支援 IPv4 的服務。cfos6link 可以將流量從僅支援 IPv4 的程式映射到 IPv6。它的做法是將一個暫用的 IPv4 地址關連到一個暫用的 IPv6 地址。您可以在 cfos6link.ini 的 [param] 一節中設定 nat46_addr=x 及nat46_subnet_mask=m 來指定 IPv4 地址池。若 IPv4 程式透過 DNS 請求名稱（例如解析一筆 A 記錄），cfos6link 會將該記錄改成解析 AAAA 記錄。收到相應的 IPv6 位址解析回覆，它會為該 IPv6 地址分配一個臨時的 IPv4 地址並回傳給 IPv4 程式。在 IPv4 程式使用這個臨時位址的任何時候，都會映射到 IPv6 位址。您可以使用下列 IPv4 地址池來進行映射：";
 six_doc_137 = "[param]<br />nat46_addr=10.0.0.0<br />nat46_subnet_mask=255.0.0.0<br />";
 six_doc_138 = "對於連入連線，您也可以透過在 cfos6link.ini 檔案中的 [nat46_ports] 一節設定通訊埠映射，例如:";
-/. `some_program` part may/should be translated in similar manner
-/. Menas that user have to place program's name instead there
-/. like `5000=eset`
-/: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm?__ntrack_pv=1
-six_doc_139 = "5000=eset";
+/. That string means that user have to place program's name instead of `some program` like `5000=skype`
+/. `some_program` part may be translated
+/: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
+six_doc_139 = "5000=軟體名稱";
 six_doc_140 = "則當目的地通訊埠是對應埠時，連入的 IPv6 流量就會自動映射到 IPv4 地址。";
 six_doc_141 = "另外，您也可以為寫死使用 IPv4 的軟體新增靜態的 IPv4 &lt;-&gt; IPv6 映射。您可以在 [nat46_static] 一節中加入值 &lt;ipv4_addr&gt;=&lt;ipv6_addr&gt;，例如 192.168.2.1=2001:DB8::1 來指定這類映射。";
 
@@ -2329,7 +2334,7 @@ description = "敘述";
 /videos
 videos_h1 = "YouTube 影片";
 videos_text1 = "如何調整您網際網路連線的媒體/通訊協定種類";
-videos_text2 = "cFos WMI Monitor，cFos PNet 的一套附加套件";
+videos_text2 = "cFos WMI Monitor，cFos PNet 的一套附加元件";
 videos_text3 = "cFos Personal Net Web Server | 安裝並簡易發布檔案";
 videos_text4 = "cFosSpeed 的自動 RWIN 放大功能可加速您的 CYGWIN 下載";
 videos_text5 = "cFosSpeed 的自動 RWIN 放大功能可加速您的 Mozilla Firefox 下載";
