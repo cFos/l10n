@@ -12,6 +12,21 @@ language = "Farsi";
 language_local = "Farsi";
 htm_lang_prefix = "fa";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
@@ -60,6 +75,13 @@ con_enabled = "مقدور";
 
 / ----------------------------------------------------------------------
 /
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  cFosSpeed
 /
 / ----------------------------------------------------------------------
@@ -78,7 +100,7 @@ sygate_hint = "%p اسپاي گيت فاير وال پيدا کرده ، که ا
 select_language = "انتخاب زبان";
 translator = "مترجم";
 translator_name = "Mohammad Salmani";
-translator_msg = "Salmani.mohammad@gmail.com";
+translator_msg = "Salmani.Mohammad@gmail.com";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "جواز %3 شما تمام شده در %1 %2.";
 
@@ -223,7 +245,11 @@ show_for = "نمايش براي";
 this_month = "اين ماه";
 time = "زمان";
 time_limit = "محدوديت زمان";
+/. Used as table header
+/. Short version of "minutes"
 time_min = "دقيقه";
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "ساعت:دقيقه";
 volume = "حجم";
 volume_limit = "محدوديت حجم";
@@ -253,6 +279,8 @@ bgraph_totals = "کل";
 blocklist = "IP-Blocker";
 blocklist_help = "لیست آدرس های آی پی برای ترافیک مسدود شده";
 apply_blocklist = "استفاده از لیست فیلتر";
+/. RX stands for `receive` (incoming/download)
+/. TX stands for `transmit` (outgoing/upload)
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "تعاوني نيست";
@@ -516,6 +544,16 @@ eml_invalid_email = ".ایملی که وارد کردید اشتباه است";
 eml_invalid_optional_email = ".لطفا یک ایمیل موجود را وارد کنید یا هیچ آدرسی وارد نکنید";
 eml_reg_failed = ".ثبت آدرس ایمیل از دست رفت";
 eml_checking_domain = "...چک کردن آدرس ایمیل";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
