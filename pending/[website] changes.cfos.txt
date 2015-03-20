@@ -7,12 +7,5 @@
 
 #2015-02-23
 
-speed_guide_l15a = "Deinstall cFosSpeed or disable Traffic Shaping";
-
-	`Deinstall` -> `Uninstall`
-
-/. `BitTorrent` — name of the protocol, not program
-`utorrent` -> `BitTorrent`
-
 sp_doc_voip_p7 = "Alguns routers (como o Fritz!Box) encontram-se equipados com tomadas de telefone instaladas no dispositivo. Se uma tomada for utilizada, todos os dados VoIP serão transmitidos diretamente para a Internet sem passarem pelo cFos ou pelo cFosSpeed. A maior desvantagem desta configuração é que, para evitar quedas, tais routers restringem drasticamente a largura de banda disponível sempre que uma chamada VoIP for realizada ou recebida. Isto pode ter um impacto negativo na performace de Traffic Shaping, uma vez que significa que a ligação é repetidamente sujeita a grandes variações de velocidade. Por isso, recomendamos que faça todas as chamadas VoIP pelo seu computador, para permitir que o cFos e/ou o cFosSpeed as detetem e priorizem. Se no entanto quiser telefonar através do seu router, então mude para \"variable (cooperative)\" através de <samp>Options/Connections</samp> usando o botão de ferramenta.";
 // should be updated in PT-PT after oginal string will be fixed
