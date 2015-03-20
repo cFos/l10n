@@ -11,49 +11,377 @@ input_lang = "fa";
 / test purposes, don't translate!
 
 / navigation
+link_text_contact = "تماس";
+link_text_download = "دانلود";
+link_text_forum = "انجمن";
+link_text_oem_version = "OEM نسخه";
+link_text_order = "خرید";
+link_text_press_releases = "خبرها";
+link_text_products = "محصولات";
+link_text_sitemap = "نقشه سایت";
+link_text_support = "پشتیبانی";
 
 / index2
+asrock_info = "اطلاعاتی برای کاربران <b>ASRock XFast LAN</b> ";
+bc_linktext = "اتصال پهن-باند cFos برای دسترسی سرعت بالا";
+cfos_linktext = "cFos برای ISDN";
+close = "بستن";
+desc_6link = "اتصال IPv6 برای  XP, Vista و Windows 7";
+desc_dialup = "اینترنت Dial-Up";
+desc_shaping = "افزایش سرعت اینترنت از طریق ترسیم ترافیک";
+desc_freeware = "خدمات و ابزار رایگان";
+desc_notifier = " اطلاع از توییت های جدید در حساب توییتر خود";
+desc_notifier_v2 = "اطلاع از ایمیل های جدید٬ توییت ها و فیدهای RSS";
+desc_speedtest = "تست سرعت اتصال اینترنت";
+freeware_text1 = "نسخه جدید cFosSpeed:";
+freeware_text2 = "بهبود شکل دهی ترافیک: پهنای باند حداکثری, ping کمتر! الان دریافت کنید: ";
+product_overview = "مرور کلی محصول";
+slogan = "استفاده از پهنای باند واقعی خودتان:<br /> سرعت بیشتر, ping پایین.";
+special_offer_spring = "تخفیف ویژه برای جشنواره بهاری...";
+special_offer_winter = "تخفیف ویژه برای جشنواره زمستانی...";
 worldcup_sale = "قیمت های ویژه در طول جام جهانی!"; / FIFA Soccer World Cup
+style_light = "سبک";
+style_strong = "قوی";
+translation_settings = "تنظیمات ترجمه";
+translation_text3 = "اطلاعات بیشتر";
+twitter_notifier_linktext = "اطلاع دهنده cFos";
+twitter_notifier_linktext_v2 = "اعلان دهنده cFos برای رایانامه، تویتر و خبرخوان RSS";
+view_translations = "مشاهده ترجمه ها";
+view_approved = " تایید شده";
+word_new = "جدید";
+word_newversion = "نسخه جدید";
+watch_video_newfeatures = "تماشای ویدیو با ویژگی های جدید";
+quick_poll_h = "آیا ویژگی دیگری وجود دارد که ما باید به cFosSpeed اضافه کنیم ؟";
+quick_poll_p = "کدام ویژگی؟";
+current_version = "نسخه اخیر";
+rwin_video_award = "درخواست برای cFosSpeed RWIN-Expansion Award 2012 now!";
+social_networks = "لطفا ما را در شبکه های اجتماعی حمایت کنید.<br/>صفحه ما را در Facebook و Twitter دنبال کنید.";
+word_follow = "دنبال کنید";
+learn_more = "بیشتر بیاموزید"; // Meaning "learn more about the product"
 
 / download
+additional_downloads = "دانلود های اضافی";
+add_lang_text = "زبان های اضافی برای cFosSpeed";
+alt_cfosbc_image = "cFosBC تصویر";
+alt_cfos_image = "cFos تصویر";
+alt_speed_image = "cFosSpeed تصویر";
+bark_text = "سرویس WatchDog. پردازش های (اتصال) را نظارت می کند و در صورت توقف آنها را مجدد اجرا می کند.";
+beta_versions = "cFos نسخه های بتا";
+beta_thanks = "<b>با سپاس فراوان</b> از تمام تست کننده های بتا برای گزارش سریع خطاها و ارسال به ما trace files and crashdumps. بدون کمک شما محصولات ما نمی توانستند این کیفیت بالا را داشته باشند!";
+beta_warning = "این نسخه های بتا کاملا تست<span class=\"red\">نشده اند</span> fully tested.<br/><span class=\"red\">Use at your own risk</span>.";
+black = "سیاه";
+cfnotify_text = "مفید برای نمایش آیکن ها در نوار کار شما. به عنوان مثال قابل استفاده برای cFos caller monitor";
+cfosbc_text = "Dial-Up driver برای دسترسی به اینترنت با پهنای باند بالا .";
+disclaimer = "سلب مسئولیت";
+disclaimer_text = "به عنوان یک سرویس به شما, ما cFos/cFosSpeed localizations برای دانلود رایگان فراهم کرده ایم. از آنجایی که این  ارائه رایگان بوسیله مشتریان برای مشتریان ایجاد شده است cFos Software GmbH نه مسئولیتی در قبال آنها می پذیرد و نه حمایت فنی از آنها می کند .<br />برای هرگونه سوالی در رابطه با specific localization, لطفا مستقیما با موسس تماس بگیرید. اگرچه, should you come across any significant translation errors, omissions or other irregularities (intentional or otherwise), لطفا مختصرا به ما اطلاع دهید تا آن را چک کنیم.";
+download_current_beta = "دانلود بتا فعلی";
+download_for = "<b>دانلود</b> for";
+download_page = "صفحه دانلود";
+downloads = "دانلودها";
+download_x64_for = "<b>دانلود</b> x64 برای ویرایش";
+download_x86x64_for = "<b>دانلود</b> x86 + x64 برای ویرایش";
+email = "ایمیل";
+for = "برای";
+freeware_programs = "برنامه های رایگان";
+gadget = "cFosSpeed گجت برای Vista";
+gadget_text = "cFosSpeed گجت نوارکناری برای Windows Vista/7<br /><span class=\"smalltext\" style=\"line-height: 12px\"><br /><b class=\"red\">توجه کنید</b>: If you get a &quot;<b>Can't create automation object</b>&quot; پیام خطا پس از نصب گجت, لطفا موارد زیر را دنبال کنید:<br /><b>۱</b>. شماره نسخه cFosSpeed را بررسی کنید <br />&nbsp;&nbsp;&nbsp;&nbsp;(4.24 یا بالاتر الزامیست)<br /><b>۲</b>. سیستم خود را ریبوت کنید</span>";
+grey = "طوسی";
+gadget_title = "cFosSpeed گجت";
+hacks_cracks = "عقیده ما در مورد  <br /> Hacks &amp; Cracks";
+hint = "تذکر";
+hrping_text = "ابزار پینگ با دقت بالا با قابلیت های پیشرفته و بهبود آمار";
+just_cfos = "  cFos فقط برای ";
+just_speed = " cFosSpeed فقط برای";
+other_languages = "زبان های دیگر";
+other_systems = "برای سیستم عامل های دیگر";
+product_page = "صفحه محصول";
+rnahelp_text = "مجموعه ابزار برای اتصالات اینترنت در ویندوز";
+sk_classic_text = "پوسته کلاسیک cFos";
+sk_grant = "پوسته Grant's";
+skins = "پوسته ها";
+sk_mtin = "پوسته MTiN's";
+sk_safak = "پوسته Safak's";
+sk_txt = "متن پوسته cFos";
+sk_tutorial = "راهنما پوسته ها";
+sk_tga = "پوسته TGA";
+speed_text = "دسترسی به اینترنت سریع تر با شکل دهی ترافیک";
+submit = "ارسال";
+transparent = "شفافیت";
+updates = "بروز رسانی ها";
+updates_text = "بله، مایل هستم هر زمان که یک نسخه جدید از cFos یا cFosSpeed منتشر شد مطلع شوم.";
+version = "نسخه";
+watch_text = "مسدود کننده شماره گیر و حفاظت از ویروس توسط مسدود کردن الگوی رفتاری";
+whats_new = "موارد جدید در این نسخه";
+language_files = "فایل های زبان ها";
+word_translation = "ترجمه";
 
 / order
+alt_logo = "cFos Software GmbH لوگوی";
+bank_de_name = "بن Volksbank";
+by_phone = "پشتیبانی تلفنی";
+buy_now = "اکنون خرید کنید";
+conf_cc = "پرداخت با کارت اعتباری";
+/. Used before Credit Card number, like
+/= "Nr. 2661-4345-2456-1345"
+/. It should be replaced with preferred in your region format
+conf_cc_nr = "شماره";
+conf_check_cc = "لطفا اطلاعات کارت اعتباری خود را بررسی کنید";
+conf_check_order = "سفارش خود را بررسی کنید";
+conf_deliverer = "نشانی شما";
+conf_delivery_condition = "تحویل بعد از تایید انتقال وجه";
+conf_doctitle = "تایید سفارش";
+conf_email_express = "تحویل سریع از طریق رایانامه (Email) به نشانی بالا";
+conf_email_ok = "آیا از درستی نشانی رایانامه وارده خود مطمئن هستید؟";
+conf_formerror_email = "نشانی پستی نامعتبر یا اشتباه!";
+conf_formerror_hint_kk = "شما پرداخت با کارت اعتباری را انتخاب کرده اید، اما شیوه دیگری از پرداخت انتخاب شده است.";
+conf_formerror_hint_ls = "شما پرداخت با حواله بانکی را انتخاب کرده اید، اما شیوه دیگری از پرداخت انتخاب شده است.";
+conf_formerror_lastschrift = "لطفا اطلاعات حساب بانکی خود را بررسی کنید.";
+conf_formerror_missing_entry = "ورودی اجباری خالی است!";
+conf_formerror_not_complete = "سفارش شما ناتمام است! لطفا از دکمه بازگشت مرورگر خود برای بازگشت به صفحه قبلی استفاده کرده و اطلاعات ناقص را تکمیل کنید.";
+conf_fromerror_license = "لطفا از دکمه بازگشت مرورگر خود برای بازگشت به صفحه قبلی استفاده کنید و شرایط استفاده از نرم افزار و لایسنس آن را بپذیرید!";
+confident = "محرمانه: اطلاعات فراهم شده توسط شما در اینجا فقط برای این منظور استفاده می شود و به دیگری داده نمی شود.";
+conf_lastschrift_at = "در";
+conf_name = "لطفا نام خود را وارد کنید";
+conf_payment = "پرداخت";
+conf_paypal_trans = "انتقال PayPal";
+conf_please_click_on = "لطفا کلیک کنید";
+conf_proforma = "برای شما یک پیش فاکتور ارسال می شود. پس از دریافت و تایید پرداخت شما، لایسنس cFos برایتان ارسال خواهد شد.";
+conf_so_we_can_process = ", بنابراین می توانیم سفارش شما را انجام بدهیم!";
+conf_submit_order = "تایید سفارش";
+conf_sum = "جمع";
+conf_trans_account = "شماره حساب بانک";
+conf_trans_blz = "کد بانک";
+conf_trans_fee_hint = "لطفا همه هزینه های بانکی و انتقال وجه را در نظر بگیرید.";
+conf_trans_int = "انتقال از خارج از کشور";
+conf_trans_reason = "دلیل پرداخت";
+conf_trans_reason_hint = "بیان نام خود به عنوان یکی از ملزومات پرداخت برای فرایند سفارش ضروری است";
+conf_trans_to = "به";
+conf_trans_within_de = "انتقال بانکی به آلمان";
+conf_webmoney_trans = "انتقال با WebMoney";
+conf_webmoney_text = "تیم فروش ما سفارش شما را آماده و در قالب یک رایانامه دیگر به انضمام اطلاعات تکمیلی (شماره سفارش، WMID و WM-Purse) برایتان ارسال خواهد شد. لطفا، قبل از دریافت ایمیل دوم هیچی انتقال وجهی را انجام ندهید. متشکریم!";
+download_software = "شما می توانید آخرین نسخه نرم افزار خود را از <a class=\"inline\" href=\"/en/download/download.htm\">اینجا</a> دانلود کنید.";
+f_agent_text = "خرید از یک نماینده در کشور خودتان";
+f_announce = "بلی، تمایل دارم از آخرین نسخه برنامه خودم همیشه مطلع باشم.";
+f_cc = "کارت اعتباری";
+f_cc_date = "تاریخ انقضا";
+f_cc_holder = "دارنده کارت";
+f_cc_number = "شماره کارت";
+f_cc_vercode = "کد امنیتی کارت";
+f_cc_vc_where = "کد امنیتی کارت کجاست؟";
+f_city_postcode = "کد پستی، شهر";
+f_email = "پست الکترونیک";
+f_express = "سریع";
+firmenkunden = "کاربران تجاری";
+f_land = "کشور";
+f_license = "مجوز";
+/. Paymenth method — "Cash on Delivery"
+/. See http://en.wikipedia.org/wiki/Cash_on_delivery
+f_name = "نام";
+f_optional = "اختیاری";
+form_subtitel_contact = "اطلاعات تماس";
+form_subtitel_order = "سفارش شما";
+form_subtitel_payment = "پرداخت";
+for_private_users = "برای کاربران اتخصاصی";
+f_phone = "تلفن";
+f_proform_national = "پروفرم، فاکتور";
+f_street_adress = "آدرس خیابان";
+f_trans_ger = "انتقال بانکی";
+f_word_poll = "نظرسنجی ها";
+lifetime_updates = "به روز رسانی مادام العمر";
+multi_buy = "خرید چندتایی";
+only = "فقط";
+order_form = "فرم سفارش";
+order_page_title = "صفحه سفارش";
+pay_with = "پرداخت با";
+private_users = "کاربران اختصاصی";
+shopping_cart = "سبد خرید";
+special_conditions = "شرایط ویژه";
+special_offer = "پیشنهاد ویژه";
+th_abort_paypal = "تراکنش نا موفق!";
+th_order_date = "تاریخ سفارش";
+th_thanks = "با تشکر از شما!";
+word_conditions = "شرایط";
+word_hint = "توجه";
+word_important = "مهم";
+word_invoice_number = "شماره فاکتور";
+word_license = "لایسنس";
+word_lifetime_license = "لایسنس مادام العمر";
+word_month = "ماه";
+word_serial_number = "شماره سریال";
+word_service = "خدمات";
+word_submit_order = "ثبت سفارش";
+word_year = "سال";
 
 / Order and Announcelist Confirmation Email
+ann_salut = "کاربر گرامی cFos";
+em_hello = "سلام";
+em_link = "لینک:";
 
 / cFosSpeed
+awards = "جوایز";
+cfosspeed_more = "اطلاعات بیشتر";
+budgets = "بودجه آنلاین";
+firewall = "دیوار آتش";
+header_features = "ویژگی ها";
+highlights = "نکات برجسته";
+latest_news = "آخرین اخبار";
+link_text_decision = "کدام محصول؟";
+link_text_mugstore = "لیوان cFos!";
+link_text_speed_priolist2 = "لیست برنامه";
+li_text_gamer = "بازی";
+li_text_low_ping = "پایین Ping";
+li_text_mobile = "تلفن همراه";
+more_features = "ویژگی های بیشتر";
+news_info = "اخبار / اطلاعات";
+/. Used in follwoing string:
+/= "Reviewed 4.5 / 5 stars by softpedia.com"
+review1 = "مرور";
+/. Used in follwoing string:
+/= "Reviewed 4.5 / 5 stars by softpedia.com"
+review2 = "ستاره توسط";
+special_price = "قیمت ویژه";
 
 /cFos Personal Net
+pnet_doc_a1 = "خلاصه";
+pnet_doc_a2 = "راه اندازی عمومی";
+pnet_doc_a5 = "نکات امنیتی";
+pnet_wmi_h1 = "نصب";
+/. RX stands for `receive` (incoming/download)
+pnet_wmi_l1a = "کل سرعت RX";
+/. TX stands for `transmit` (outgoing/upload)
+pnet_wmi_l1b = "کل سرعت TX";
+pnet_wmi_l1c = "زمان ping";
+/. Means `RX (`receive`/incoming/download) characters per second`
+/. Means `TX (`transmit`/outgoing/upload) characters per second sent`
+pnet_doc_ov_h4 = "پشتیبانی WebDAV";
+pnet_doc_ov_h5 = "پشتیبانی CalDAV";
+pnet_doc_setup_h1 = "راه اندازی عمومی";
+pnet_doc_setup_h3 = "راه اندازی کاربر";
+pnet_doc_access_h3 = "موتور بازنویسی";
+pnet_doc_script_h3 = "تست اسکریپت";
 
 / cFos Outlook DAV
+/. Used as title
+/. Litrelly means "How cFos Outlook DAV works"
 
 
 / cFos IPv6 Link
+in_action = "در عمل";
+li_text_vlan = "پشتیبانی VLAN";
+dupe_word_documentation = "مستندات";
+word_documentation = "مستندات";
 
 / cFos BC
+li_text_calls = "تماس های دریافتی";
+li_text_lowcpu = "استفاده کم از CPU";
 
 / cFos
+link_text_budget = "شماره آنلاین";
+link_text_firewall = "دیوار آتش";
 
 /hrping
 
+
 /notifier
+notifier_title = "هشداردهنده cFos";
+notifier_l9 = "نامه";
+notifier_l10 = "توییتر";
+notifier_h2_v2 = "اخبار cFos";
+notifier_h3 = "لیست توییتر";
 
 /FAQ
 
 / support
+activation_salut_cfos = "کاربر گرامی cFos";
+activation_p3 = "به ما کمک کنید:";
+activation_p9_cfos = "همین الان cFos را بخرید!";
+agents_header = "نماینده فروش cFos";
+agents_brazil = "برزیل";
+agents_china = "چین";
+agents_greece = "یونان";
+agents_india = "هند";
+agents_malaysia = "مالزی";
+agents_russia = "روسیه";
+agents_taiwan = "تایوان";
+agents_thailand = "تایلند";
+agents_uk = "بریتانیا";
+agents_vietnam = "ویتنام";
+choice7 = "هر دو؟";
+/. Used in our contact form on website, as possible choices, like:
+/= Please, select:
+/= — ...
+/= — Business Partners, Licensing, Bundling
+/= — Press, Artwork, Covermount
+/= — ...
+decision = "کدام محصول؟";
+decision_help = "راه تصمیم گیری";
+hof_agent = "نمایندگان cFos";
+hof_friends = "دوستان cFos";
+hof_skindesigner = "طراحان از پوسته";
+hof_title = "تالار مشاهیر";
+hof_translator = "مترجمان";
+hof_bugfixhero = "قهرمانان Bugfix";
+incoming_pppoe = "تماس های دریافتی";
+no = "بدون";
+router = "مسیر یاب";
+uninst_select = "لطفاً انتخاب کنید";
+uninst_dontlike = "من دوست ندارم";
+word_gratislizenz = "مجوز رایگان";
+word_search = "جستجو";
+yes = "بله";
+search_web = "جستجو در وب";
 
 / traffic shaping
+alt_transfer_rates = "نرخ انتقال";
+ts_exp_a1 = "دستی";
+ts_o_l2 = "موارد استفاده";
+ts_o_a1 = "عکس صفحه";
+ts_ts_sum1 = "زمان ها در حال بارگذاری";
+ts_tsn_t3 = "مزایای";
 
 / cFosSpeed additional pages
+blend_effect = "محو شدن پنجره";
+cable = "کابل";
+click_through = "کلیک کنید از طریق";
+closewindow = "بستن پنجره";
+closewindows = "بستن پنجره";
+config = "تنظیمات";
+connections = "اتصالات";
+dupe_connections = "اتصال به";
+connect_to = "اتصال به٪؟";
+days_plural = "روز";
+disco_ras = "خروج";
+effects = "آثار";
+extras = "افزودنی های";
+graph_title = "نمودار مصرف";
+license = "مجوز";
+link_status_text = "وضعیت پنجره";
+media = "رسانه ها:";
+multi_lang = "32+ زبان";
+/. Console's output shouldn't be translated
+openwindow = "باز کردن پنجره";
+openwindows = "باز کردن پنجره ها";
+options = "تنظیمات";
+registration_help_general = "نکات عمومی";
+registration_help_p9 = "لطفا از ما";
+routing = "مسیریابی";
+selectskin = "انتخاب پوسته";
 
 / PNet additional pages
 
 
 / IPv6 Link additional pages
+/. That string means that user have to place program's name instead of `some program` like `5000=skype`
+/. `some_program` part may be translated
+/: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
 
 / cFos BC additional pages
 
 / oem
+/. Means "customizable status window with skins"
+/. or "brandable status window skin"
+/. Channel bundling allows to use 2 ISDN channels as one for better bandwidth
+/. fees = licensing costs
 
 / asus
 
