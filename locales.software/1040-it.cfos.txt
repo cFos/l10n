@@ -211,9 +211,9 @@ no_cmd = "Impossibile aprire il prompt dei comandi (cmd.exe)!";
 ask_disconnect_ras = "Deve essere riconfigurata una connessione di rete attiva.\nSi consiglia di disattivare la connessione.\nDisconnettere ora la connessione attiva?";
 sygate_hint = "%p ha rilevato Sygate Firewall, che considera erroneamente gli impulsi\ndi calibrazione di %p come attacchi Denial of Service\nattraverso pacchetti \"Ping of Death\".\nSi consiglia quindi di eseguire sia un download che un upload con %p \nper almeno 30 secondi a piena velocità.\n%p dovrebbe potersi calibrare come la calibrazione a impulsi.\n\nSuggerimento: La funzione del Firewall \"Anti IP Manipulation\" dovrebbe essere\ndisattivata.";
 select_language = "Selezione della lingua";
-translator = "Traduttore";
-translator_name = "Massimo Castiglia";
-translator_msg = "Translator: Massimo Castiglia (massimocastiglia@alice.it)";
+translator = "Traduttori";
+translator_name = "Umberto Grimaldi, Massimo Castiglia";
+translator_msg = "Translators:\n\nUmberto Grimaldi (umberto_grimaldi@alice.it)\nMassimo Castiglia (massimocastiglia@alice.it)";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "La tua licenza di %3 vale ancora per %1 %2.";
 
