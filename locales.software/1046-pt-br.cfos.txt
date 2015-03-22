@@ -14,6 +14,21 @@ language = "Português do Brasil";
 language_local = "Português do Brasil";
 htm_lang_prefix = "pt-br";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
@@ -57,6 +72,9 @@ setup_connections = "Configurar as conexÃµes";
 ask_inst_ipv6 = "O protocolo IPv6 ainda não foi instalado neste sistema.\n\n"
                 "Gostaria de instalar o protocolo IPv6 agora?";
 err_inst_ipv6 = "Erro %? durante a instalação do protocolo IPv6.";
+pause_server = "Parar servidor";
+resume_server = "Retomar servidor";
+file_link_failed = "Ligação com o arquivo falhou.";
 
 / connection entry dialog
 con_err_save = "NÃ£o foi possÃ­vel guardar os dados da conexÃ£o!";
@@ -126,6 +144,10 @@ ipv4_bind_problem = "O Servidor não pode ouvir a porta especificada com IPv4, p
 ipv6_bind_problem = "O Servidor não pode ouvir a porta especificada com IPv6, porque ela é usada por outro aplicativo (por exemplo, Skype).";
 closing_server = "O Servidor está fechando.";
 start_product = "Iniciar %p";
+info_port_in_use = "A porta %? usada pelo %p está em uso por outro programa.\n\nPrograma: %?\nLocal: %?\n\n"
+                   "Para usar o %p, você precisa finalizar o outro programa ou escolher outra porta nas configurações do %p.";
+monitor_port_desc = "Essa opção monitora periodicamente as portas usadas pelo %p e alerta o usuário, se alguma dessas portas estão em uso por outro programa.";
+logon_start_desc = "Essa opção inicia o %p se o usuário estiver logado.";
 show_home_dir = "Mostrar Diretório Pessoal";
 publish_file = "Publicar Arquivo";
 user_administration = "Administração de Usuários";
@@ -146,6 +168,12 @@ con_test_execute = "Executar teste de conexão";
 
 ga_service_desc = "cFos Game Analyzer - Resgatar Informações de Desempenho";
 ga_speed_installed = "cFosSpeed já está instalado em seu computador.\n\nO cFosSpeed possui as funcionalidades do cFos Game Analyzer.\n\nPara usar os recursos mais recentes do cFos Game Analyzer, baixe e instale a última versão do cFosSpeed em www.cfos.de";
+local_ip_addresses = "Endereço IP local:";
+ga_password_subheader = "Senha para acesso remoto do cFos Game Analyzer.";
+ga_password_info = "Usuário: cfosspeed";
+ga_call_info = "Acesse o cFos Game Analyzer usando seu dispositivo conectado a rede local pelo endereço\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nAcesse o cFos Game Analyzer usando seu dispositivo conectado a rede externa com a senha acima e usando seu endereços IP em vez de 'localhost':\n";
+ga_detected_by_speed = "Foi detectado a existência de uma versão do cFos Game Analyzer instalada. O cFosSpeed já possui todas as opções do cFos Game Analyzer.\n\nSe você continuar, o cFos Game Analyzer vai ser desinstalado antes da instalação do cFosSpeed.\n\nVocê deseja continuar?";
+ga_use_password_by_speed = "O cFosSpeed deve usar a senha do cFos Game Analyzer, para que você consiga acessar cFosSpeed de outros dispositivos também?";
 
 / ----------------------------------------------------------------------
 /
@@ -342,6 +370,12 @@ show_for = "Mostrar por";
 this_month = "este mês";
 time = "Tempo";
 time_limit = "Limite de Tempo";
+/. Used as table header
+/. Short version of "minutes"
+time_min = "Min";
+/. Used as table header
+/. Short version of "hours:minutes"
+time_units = "hh:min";
 volume = "Volume";
 volume_limit = "Limite de Volume";
 spdbudget_help = "Para usar uma cota, vá para o diálogo de conexões e defina-a para uma conexão específica";
@@ -367,6 +401,7 @@ many_cons_error = "A Modelagem de Tráfego rx do %p está sendo usada ao extremo
 limit_bandwidth = "Limitar Largura de Banda para a Conexão Atual";
 rx_limit = "Limite RX";
 tx_limit = "Limite TX";
+max = "Max";
 apply_limits = "Aplicar Limites";
 limit_help = "Valor em kbaite/s, incluindo todos os excessos dos protocolos, 0 = sem limite.";
 enable_speed_shaping = "Habilitar Modelagem de Tráfego";
@@ -374,6 +409,7 @@ disable_speed_shaping = "Desabilitar Modelagem de Tráfego";
 yes = "Sim";
 no = "Não";
 help = "Ajuda";
+bgraph_totals = "Total";
 blocklist = "Bloqueador-de-IP";
 blocklist_help = "Lista de endereços IP para os quais todo o tráfego está bloqueado.";
 apply_blocklist = "Usar lista de filtros";
@@ -394,7 +430,9 @@ slots_title = "Configuração de Segmento";
 can_select_multiple = "Dica: Você pode selecionar múltiplas opções segurando o botão \"Shift\" ou \"Ctrl\" enquanto seleciona uma opção";
 name_for = "Nome do ";
 set_name = "Definir nome";
+/. RX stands for `receive` (incoming/download)
 rx_only = "Apenas RX";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "Apenas TX";
 max_of_rx_tx = "Máximo do RX & TX";
 total_rx_only = "Velocidade de RX total";
@@ -483,6 +521,11 @@ http_access_disabled = "Acesso HTTP remoto está desabilitado.";
 set_server_pwd = "Definir Senha do Servidor";
 auto_arrange_top = "Topo";
 auto_arrange_bottom = "Base";
+show_on_metro_apps = "Mostrar na interface Metro";
+traffic_shaping_info = "Informação de Modelagem de Tráfego";
+wlan_access_point = "Ponto de acesso Wi-Fi";
+prioritize_foreground_process = "Priorizar processo em primeiro plano";
+prioritize_foreground_help = "Define automaticamente a prioridade do processo em primeiro plano para Alta.";
 
 
 / ----------------------------------------------------------------------
@@ -610,10 +653,19 @@ port_forwarding_chk = "Usar Port Forwarding automático, se disponível.";
 port_forwarding_failed = "Seu roteador (%?) parece não suportar Port Forwarding automático. "
                          "Talvez você possa habilitar essa função nas configurações de seu roteador.";
 port_forwarding_config = "Você pode configurar seu roteador em %?";
+port_forwarding_fritz = "Você pode ativar o redirecionamento de porta em seu FRITZ!Box permitindo editar configurações de segurança via UPnP "
+                        "sob Rede doméstica / Rede / Programas";
 
 / crash handler messages
+crash_msg_crash = "Um erro não tratado ocorreu em %p.";
+crash_msg_crash_installer = "Um erro não tratado ocorreu na instalação do programa %p.";
+crash_msg_virus = "Os seguintes arquivos estão se injetando nesse programa e podem ser a causa do travamento:";
+crash_msg_virus_clean = "Esse arquivo podem ser vírus. É altamente recomendado fazer uma verificação de vírus em seu sistema.";
+crash_msg_hook = "Arquivos de outros programas foram detectados, eles estão se injetando nesse programa. Para ter certeza que esses arquivos não estão provocando o travamento, por favor execute esse programa somente depois de desativar ou desistalar os seguintes programas:";
 crash_msg_terminate = "O programa terminou inesperadamente.";
 crash_msg_query_upload = "Gostaria de enviar um relatório de erro, para nos ajudar a solucionar o problema?";
+crash_msg_new_release = "Uma nova versão do %p está disponível. Por favor baixe e instale a ultima versão do %p pelo site www.cfos.de.";
+crash_msg_new_beta = "Uma nova versão do %p está disponível. Por favor baixe e instale a ultima versão beta do %p pelo site www.cfos.de/beta.";
 
 /start installation dialog
 start_header = "Instalação";
@@ -678,6 +730,7 @@ task_uninstall_old = "Desinstalando a versÃ£o actual...";
 task_stop_daemon = "Concluindo %?...";
 task_uninstall_driver = "Desinstalando o Controlador...";
 task_uninstall_service = "Desinstalando serviço...";
+task_uninstall_ga = "Desinstalando cFos Game Analyzer...";
 task_delete_files = "Apagando ficheiros...";
 task_cleanup_caches = "Limpando os caches...";
 task_hangup = "Desligando ligaÃ§Ãµes activas ...";
@@ -709,6 +762,7 @@ dt_advertise_desc = "Mostrar todos os recursos do %?.";
 
 / message boxes
 query_reboot = "O sistema deverá ser reiniciado para que as mudanças entrem em vigor.\n\nReiniciar o sistema agora?";
+query_inst_reboot = "Antes você deve reiniciar seu sistema operacional para que a instalação continue.\n\nPor favor execute o instalador do programa depois de reiniciar.\n\nVocê quer reiniciar seu sistema operacional agora?";
 query_drv_inst_cancel = "A desinstalaÃ§Ã£o do controlador estÃ¡ sendo efectuada pelo sistema operativo.\nA interface do setup do Windows pode levar atÃ© 15 minutos para\ninstalar ou remover o controlador!\n\nÃ‰ extremamente recomendÃ¡vel nÃ£o suspender ou anular este processo, a nÃ£o ser que\njÃ¡ tenha passado esse perÃ­odo de tempo.\n\nQuer realmente Cancelar?";
 query_driver_err_abort = "Ocorreu um erro durante a instalação do controlador!\nAssim sendo é melhor cancelar a instalação agora.\n\nNo entanto, é possível continuar a instalação,\no que pode ser útil para fazer algum teste. Por favor,\nlembre-se que o %p não deverá funcionar corretamente.\n\nCancelar a instalação? (Recomendado)";
 query_further_info = "Gostaria de mais informações?";
@@ -727,6 +781,7 @@ err_os_sup = "%p suporta apenas %? ou superior.\n\n"
 err_uninst_driver = "O controlador do dispositivo não pôde ser desinstalado.";
 err_create_process = "Erro ao executar o programa %s: %s";
 err_write_lock = "Os componentes de rede do %? estÃ£o sendo usados por outro processo. Por favor feche todas as aplicaÃ§Ãµes ou reinicie o computador e tente de novo.";
+err_write_lock_process = "%? componentes de rede estão em uso pelo(s) seguinte(s) processo(s): %?. Por favor finalize esse(s) processo(s) ou reinicie seu computador e tente novamente.";
 err_file_auth = "Alguns ficheiros desta distribuiÃ§Ã£o estÃ£o corruptos ou faltando.\nPor favor obtenha uma distribuiÃ§Ã£o autÃªntica do %p \n(ex. em www.cfos.de).";
 err_cancel = "A operação foi cancelada.";
 err_no32 = "Não se pode instalar os controladores de 32-bit em um sistema de 64-bit.\n\nSO: %?\nProduto: %?";
@@ -786,6 +841,35 @@ eml_reg_failed = "O registro do correio eletrÃ´nico falhou.";
 eml_checking_domain = "Revisando o domÃ­nio do e-mail...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p Assistente Intuitivo Virtual Wi-Fi";
+virtual_wifi_header = "Iniciando o Virtual Wi-Fi";
+virtual_wifi_subheader = "Configurando a base do seu adaptador Wi-Fi e habilitando o compartilhamento de Conexão com a Internet.";
+virtual_wifi_stop_header = "Parar o Virtual Wi-Fi";
+virtual_wifi_info = "Selecione a conexão de rede que encaminha o tráfico e crie uma senha para esse ponto de acesso sem fio.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "O SSID não deve ser vazio e precisa conter mais que 32 caracteres.";
+virtual_wifi_invalid_password_length = "A senha deve ter entre 8 a 64 caracteres.";
+virtual_wifi_ics_not_available = "O compartilhamento de Conexão com a Internet não está disponivel nesse dispositivo.";
+virtual_wifi_error_get_cons = "Erro ao obter conexões de rede.";
+virtual_wifi_ics_warning = "O compartilhamento de Conexão com a Internet já está habilitado nesses seguintes adaptadores:\n%?\n\nVocê deseja usar outro em vez desse adaptador:\n%?";
+virtual_wifi_error_enable_ics = "Erro, habilite o compartilhamento de Conexão com a Internet.";
+virtual_wifi_error_start = "Erro ao iniciar o Virtual Wi-Fi.";
+virtual_wifi_ok = "O Virtual Wi-Fi e o compartilhamento de Conexão com a Internet foram ativados com sucesso.\n\nNota: Se um cliente não conseguir conectar ao Virtual Wi-Fi, por favor pare e reinicie o Virtual Wi-Fi.\n\nSe um cliente consegue conectar ao Virtual Wi-Fi mas não consegue acessar a Internet, por favor desinstale e reinstale o %p.";
+virtual_wifi_query_stop = "Parar o Virtual Wi-Fi?";
+virtual_wifi_error_stop = "Erro ao parar o Virtual Wi-Fi:";
+virtual_wifi_stopped = "O Virtual Wi-Fi foi parado com sucesso.";
+virtual_wifi_dialup_ics = "Para conexão dial-up você precisa habilitar o compartilhamento de Conexão com a Internet manualmente alterando nas propriedades dessa conexão.";
+virtual_wifi_error_not_present = "Não foi encontrada uma interface Wi-Fi.\n\nPara definir uma Virtual Wi-Fi um adaptador Wi-Fi é necessária e precisa estar habilitado.";
+virtual_wifi_autostart = "Iniciar automaticamente junto com o sistema.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
