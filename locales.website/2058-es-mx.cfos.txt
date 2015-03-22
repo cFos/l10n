@@ -20,6 +20,7 @@ link_text_sitemap = "Mapa del Sitio";
 link_text_support = "Soporte";
 
 / index2
+about = "Acerca del software de cFos";
 asrock_info = "Información para los <b>ASRock XFast LAN</b> usuários";
 bc_linktext = "cFos Broadband Connect para un acceso de alta velocidad";
 cfos_linktext = "cFos/Professional para ISDN";
@@ -70,6 +71,7 @@ social_networks = "Por favor, apoye nuestra presencia en redes sociales.<br/>Dig
 powered_by = "Corriendo en <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">servidor web cFos Personal Net</a>";
 word_follow = "Seguir";
 learn_more = "Conozca más"; // Meaning "learn more about the product"
+oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> es el acelerador de Internet oficial de <br/>ASUS, GIGABYTE, ASRock y productos MSI gaming"; // Line feed at approx middle of the key, preferred directly before the brand names
 
 / download
 additional_downloads = "más Descargas";
@@ -181,6 +183,9 @@ by_phone = "Pedir por teléfono";
 buy_at = "adquiera @";
 buy_now = "Compre ahora";
 conf_cc = "Pago por tarjeta de crédito";
+/. Used before Credit Card number, like
+/= "Nr. 2661-4345-2456-1345"
+/. It should be replaced with preferred in your region format
 conf_cc_nr = "N°";
 conf_check_cc = "Por favor confiera su información de la tarjeta de crédito";
 conf_check_order = "Comprobar pedido";
@@ -205,6 +210,7 @@ conf_moneybookers_text = "Por favor ingrese &quot;<strong>[%$1_name%]</strong>&q
 conf_name = "Por favor ingrese su nombre";
 conf_nn = "Pago C.O.D. (4,- &#8364;  tarifa postal)";
 conf_alipay_text = "Por favor escriba &quot;<strong id=\"alipay_name\"></strong>&quot; como el motivo del pago.";
+conf_alipay_text_v2a = "Para usar  Alipay, por favor sírvase utilizar estas instrucciones:"; /chinese payments only - do not translate!
 conf_alipay_text2 = "Si su cuenta de AliPay estuviera registrado con algún otro correo electrónico distinto a <span id=\"alipay_mail\"></span>, por favor nos informe sobre esto, de modo que podamos asignar su pago más rapidamente.";
 conf_alipay_mailtext = "Por favor, introduzca [%$1_name%] como razón del pago.";
 conf_alipay_mailtext2 = "Si su cuenta de AliPay está registrada con una dirección de correo diferente a [%$a_email%], por favor infórmenos de manera que podamos asignar su pago más rápidamente.";
@@ -265,6 +271,8 @@ f_use_form_c = "Como usuario empresarial, por favor sírvase usar";
 f_land = "País";
 f_license = "Licencia";
 f_moneybookers_text = "Por favor envíe su pago a la siguiente cuenta de Moneybookers:";
+/. Paymenth method — "Cash on Delivery"
+/. See http://en.wikipedia.org/wiki/Cash_on_delivery
 f_nachname_text = "dentro de Alemania solamente, +4 &#8364; tarifa postal";
 f_name = "Nombre";
 f_alipay_text = " Por favor envíe su pago a la siguiente cuenta de AliPay：";
@@ -305,6 +313,7 @@ incl_vat_ship = "El precio incluye IVA y los costes de entrega.";
 incl_vat_ship_cfos_omni = "Multi-Plataforma - incluye impuestos de venta / VAT. Envío y Manejo Gratuito.  <br />Incluye cFos/DOS, cFos/Win, cFos/2 and cFos NT/2000/XP/2003 Server/Vista/7 + Edición x64.";
 lifetime_updates = "Actualizaciones de por vida";
 lifetime_updates_text = "El precio incluye todos las Actualizaciones futuras (quiere decir todas las versiones nuevas para vuestro sistema operario, Windows Vista/7 incl.). Puede cargar las versiones simplemente del Internet e instalarlas sobre la versión existente.";
+mercado_pay_now = "Pague ahora con MercadoPago";
 multi_buy = "Adquiera";
 office_time = "9 a 12 horas de la mañana (horario alemán)";
 only = "solo";
@@ -450,15 +459,23 @@ li_text_feat5 = "Mejore la calidad de voz en llamadas VoIP";
 more_features = "Más características";
 news_info = "Novedades / Info";
 optimize_traffic = "Cada vez que usted accese a Internet con más de un flujo (stream) de datos cFosSpeed puede optimizar el tráfico.";
+phone_skins = "Ventana de Estado en su teléfono/tablet";
 prio_ports = "Otorgar prioridad a los puertos";
 prio_programs = "Dar prioridad a los programas";
 prio_protocols = "Priorizando los  protocolos";
 related_product = "Producto relacionado";
+/. Used in follwoing string:
+/= "Reviewed 4.5 / 5 stars by softpedia.com"
 review1 = "Revisado";
+/. Used in follwoing string:
+/= "Reviewed 4.5 / 5 stars by softpedia.com"
 review2 = "estrellas por";
+rwin_expansion = "Expansión RWIN";
 rwin_now = "¡Ahora con la expansión RWIN!";
 rwin_results = "¡Vea el listado de resultados impresionantes!";
 share_cfosspeed = "Comparta cFosSpeed";
+slider_prio = "Ud. Puede ajustar la prioridad de la mayoría de los protocolos de red, de modo a que todos los programas dentro de ella tendrán automáticamente la prioridad correcta. Adicionalmente se puede configurar la prioridad individual de los programas. Esto implica, por ejemplo, en bajadas de archivos que no se entorpecerán al estar jugando en línea o estar viendo videos.";
+slider_conn = "De una mirada usted podrá apreciar cuales programas utilizan su ancho de banda. cFosSpeed le permite cambiar temporalmente la prioridad de la velocidad de las transferencias o de reducir la latencia en las aplicaciones criticamente sensibles a los tiempos.";
 special_offer_launch = "Oferta especial de lanzamiento:<br />cFosBC + cFosSpeed por un total de ";
 special_price = "Precio especial";
 word_more = "Más";
@@ -514,11 +531,15 @@ pnet_wmi_p3 = "Descargue e instale el <a class=\"inline\" href=\"/en/download/do
 pnet_wmi_p4 = "Para prevenir a otros el acceso a sus datos WMI, WMI cFos Monitor requiere de un usuario válido a través de la autenticación HTTP. Así que debería configurar un usuario, por ejemplo <b>admin</b> en el  cFos PNet. Puede hacer esto volviendo a ejecutar la instalación. O bien, puede añadir un nuevo usuario, por ejemplo, el usuario wmi, al abrir <em>/users/index.htm</em> como admin.";
 pnet_wmi_p5 = "Para obtener lo máximo de WMI cFos Monitor le recomendamos instalar";
 pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, nuestro acelerador de Internet. Su proveedor WMI integrado hace disponibles los siguientes valores WMI:";
+/. RX stands for `receive` (incoming/download)
 pnet_wmi_l1a = "velocidad total RX";
+/. TX stands for `transmit` (outgoing/upload)
 pnet_wmi_l1b = "velocidad total TX";
 pnet_wmi_l1c = "tiempo de ping";
 pnet_wmi_l1d = "cuenta de conexiones TCP/UPD";
+/. Means `RX (`receive`/incoming/download) characters per second`
 pnet_wmi_l1e = "velocidad RX cps";
+/. Means `TX (`transmit`/outgoing/upload) characters per second sent`
 pnet_wmi_l1f = "velocidad TX cps";
 pnet_wmi_l1g = "Estos valores corresponden a su conexión actual de internet.<br/>Los valores WMI de Windows corresponden al adaptador de red actual sin importar si el tráfico corresponde a la red o a Internet. Puede mostrar todos los valores que se muestran en la ventana de estado de cFosSpeed.";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Open Hardware Monitor</b></a>. También posee un proveedor WMI integrado que puede mostrar valores de hardware muy útiles, tales como";
@@ -693,6 +714,8 @@ cfout_p1a = "cFos Outlook DAV es un complemento de Outlook para conectar a las c
 cfout_p1a2 = "Para soluciones alojadas en casa podría querer poner a prueba los servicios CalDAV/CardDAV de <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\"><b>cFos Personal Net</b></a>.";
 cfout_p1b = "La actual versión de muestra <b>gratuita</b> se ejecuta hasta el <b>31 de diciembre de 2013</b>.";
 cfout_p1b_v2 = "La actual versión pre-liberada y <b>gratuita</b> se ejecuta hasta el <b>1 de Juny de 2014</b>.";
+cfout_p1b_v3 = "La versión preliminar actual <b>gratis</b>correrá hasta el<b> 01 de junio de 2014</b>.";
+cfout_p1b_v4 = "La versión actual <b>gratis</b> correrá hasta el <b> 01 de junio del 2015</b>.";
 cfout_p1c = "La actual versión de muestra no soporta la inclusión de archivos para eventos del calendario.";
 cfout_p1d = "La versión final estará disponible por cerca de 10 Euros.";
 cfout_a1 = "Descargue cFos Outlook DAV";
@@ -709,6 +732,8 @@ cfout_p3d = "Para mayor información podría considerar darle un vistazo a nuest
 cfout_p3e = "<b class=\"green\">Sincronización de tareas</b> con Google Calendar: El Calendario de Google no soporta CalDAV para tareas y más aún (empleando la API de Google Calendar) las tareas de Google sólo soportan un pequeño subconjunto de características comparadas con las tareas de Outlook. Por lo que sincronizar tareas de Google con tareas de Outlook no es recomendado. Lo más cercano a las tareas de Outlook o elementos CalDAV de VTODO son las citas. Por lo que cFos Outlook DAV almacena tareas de Outlook como citas cuando se emplean con un servidor Google. Esto sifnifica que debe crear otro Calendario de Google, que será empleado exclusivamente para tareas de Outlook. La configuración es ahora la misma que para las citas.";
 cfout_p3f = "<b class=\"green\">Sincronización de contactos</b> con Google: Para los contactos de Google el URL es <b>https://www.googleapis.com/carddav/v1/principals/su_usuario_de_google/lists/default/</b>.";
 cfout_p4_v2 = "Para un <b class=\"green\">calendario DAViCal</b> el URL es http://<b>su_servidor_davical</b>/caldav.php/<b>su_cuenta_davical</b>/calendar, para <b class=\"green\">contactos DAViCal</b> el URL es <b>http://su_servidor_davical/caldav.php/su_cuenta_davical/addresses</b>, donde <b>su_servidor_davical</b> es el dominio o dirección IP de su servidor DAViCal. <b>su_cuenta_davical</b> es el nombre de usuario para el servidor y la contraseña es la asignada a este usuario.";
+/. Used as title
+/. Litrelly means "How cFos Outlook DAV works"
 cfout_h3 = "Operación de cFos Outlook DAV";
 cfout_p5a_v2 = "Cuando inicia Outlook, cFos Outlook DAV intenta sincronizar todos los datos de sus carpetas de Outlook con el servidor CalDAV/CardDAV. Si algo ha cambiado en el servidor, los cambios se verán reflejados en sus carpetas de Outlook.";
 cfout_p5b_v2 = "Los datos añadidos o modificados en el servidor serán añadidos o modificados en su carpeta local. Los datos eliminados en el servidor será eliminado en su carpeta local. Esta sincronización se realiza cada <b>n</b> minutos dependiendo del intervalo de sincronización especificado en la configuración de la carpeta.";
@@ -766,6 +791,7 @@ link_text_firewall = "Cortafuegos";
 link_text_what_is_cfos = "¿Qué es cFos/Professional?";
 
 /hrping
+hrping_title = "hrPing - Utilidad de Ping de alta precisión";
 hrping_p1 = "Puede hacer mucho más con hrPing que con el comando ping de Windows.";
 hrping_l1 = "Muestra gráficamente los resultados del ping";
 hrping_l2 = "Usa temporizadores de alta resolución, de modo que los tiempos de ping son precisos al microsegundo";
@@ -780,6 +806,7 @@ hrping_l9 = "Es también un Traceroute y un Pathping";
 
 /notifier
 notifier_title_h0 = "cFos Notifier - esté informado";
+notifier_p1 = "El cFos Notifier es un programa que se ejecuta en segundo plano y periodicamente chequea, si existen nuevos estados publicados en Twitter. De haber algo nuevo, él muestra un icono de notificación en la barra de tareas y en un mensaje deslizante. Al hacer clic en la barra de tareas o mensaje, se despliega el explorador en twitter.com de modo a poder leerse los nuevos estados.";
 notifier_p1_v2 = "cFos Notifier revisa periódicamente nuevas fuentes y le notifica tan pronto como aparezca algo nuevo. Muestra una notificación en la barra de tareas de Windows.<br/>cFos Notifier soporta actualmente las siguientes fuentes:";
 notifier_l9 = "Correo";
 notifier_l10 = "Twitter";
@@ -788,21 +815,148 @@ notifier_p1b = "Gracias a cFos Notifier no necesita desordenar su escritorio con
 notifier_p8a = "cFos Notifier soporta POP3 e IMAP. Introduzca su servidor de correo, nombre de usuario y contraseña para configurar su cuenta. cFos Notifier intenta detectar la configuración de su cuenta de manera automática.";
 notifier_p8b = "Use <b>servidor:puerto</b> si emplea un puerto no estándar. cFos Notifier prefiere conexiones cifradas sobre las no cifradas, IMAP sobre POP3 debido a la más rápida revisión de correo de IMAP.";
 notifier_p8c = "Puede forzar conexiones cifradas y también permitir certificados auto-firmados. Sin embargo, tenga en mente que un certificado auto-firmado puede ser falsificado fácilmente por un atacante que que podrá conocer su tráfico.";
+notifier_p2 = "El cFos Notifier utiliza OAuth. En su primera ejecución, Ud. deberá autorizar al cFos Notifier para acceder a su cuenta de Twitter. No se necesita darle al cFos Notifier su nombre de usuario o contrasena. Al ejecutarse por primera vez, Twitter le preguntará si desea que el cFos Notifier obtenga acceso a su cuenta y le entrega un PIN. De ahi que Ud. deberá ingresar este numero PIN en el cuadro de entrada de texto de cFos Notifier. El cFos Notifier entonces accederá a esta autorizazión, la cual podrá revocar en cualquier momento.";
+notifier_a1 = "Descargue el cFos Notifier";
+notifier_h1 = "¿Porqué otro programa de notificaciones de Twitter?";
+notifier_p4a = "El cFos Notifier está pensadoen aquellos usuários con tráfico bajo a mediano en Twitter. Los usuárioas avanzados quizás prefieran usar algún programa más extensode gestión para Twitter.";
+notifier_p4b = "El cFos Notifier se mantiene intencionalmente muy sencillo. En vez de periodicamente interferir en su trabajo habitual y de abrir una página de Twitter para leer los nuevos mensajes, Usted podrá instalar al cFos Notifier.";
+notifier_p4c = "El le entrega un breve resumen de los tweets e imagenes incrustadas sin la necesidad de abrir una pagina web o aplicación. Ud también podrá temporalmente deshabilitar las notificaciones mediante la opción \"Silence\".";
+notifier_p4d = "Los mensajes de Twitter no le molestarán, hasta que tenga tiempo para ellos.";
+notifier_p4e = "Entonces, de haber algo nuevo, Usted podrá hacer clic en la barra de tareas del cFos Notifier para encender a Twitter.";
 notifier_h5 = "Operación general";
 notifier_p4a_v2 = "Para cada fuente puede configurar el sonido de notificación, si se muestra un globo de notificación y una capa opcional en el icono de la barra de tareas. Si emplea muchas fuentes le recomendamos que apague el sonido y el globo de notificación para las fuentes, exceptuando aquellas que considere importantes.";
 notifier_p4b_v2 = "Cuando abre el menú contextual para obtener un vistazo de las noticias, cFos Notifier marcará las nuevas fuentes en negrita. Tan pronto como abra el submenú correspondiente, todas las entradas en éste serán marcadas como leídas. Para mantenerlas como no leídas puede abrir el submenú mientras mantiene presionada la tecla CTRL.";
 notifier_p4c_v2 = "Cuando haga clic en una entrada de un canal RSS, abrirá la página web para esa entrada RSS. Cuando haga clic en un Tweet, abrirá la página con los detalles del Tweet donde podrá interactuar con éste, es decir, hacer un retweet, añadirlo a Favoritos, etc. Haciendo clic en el título del submenú puede iniciar Tweeter, su cliente de correo o la página de resumen del canal RSS.";
 notifier_p8 = "cFos Notifier soporta actualmente canales RSS 2.0. Muchos sitios de noticias y foros ofrecen su contenido como canales RSS. Sólo introduzca el URL del canal RSS 2.0 para añadir un canal nuevo. Por favor, déjenos saber si existe un canal popular que cFos Notifier parece no entender (deje un mensaje empleando nuestro <a class=\"inline\" onclick=\"cfos.show_contact_form(); return false;\" href=\"/en/index.htm\">formulario de contacto</a> en línea).";
+notifier_h2 = "Las noticias cFosSpeed";
 notifier_h2_v2 = "Noticias de cFos";
+notifier_p5 = "Podrá usar al cFos Notifier para las noticias de cFosSpeed. Sírvase leer más acerca de nuestra <a class=\"inline\" href=\"/en/cfosspeed/product-news.htm#policy\"><b>política de noticias de cFosSpeed </b></a>.";
 notifier_p5_v2 = "También empleamos Twitter como una forma de informar a nuestros seguidores sobre noticias, como nuevas versiones de nuestros productos, nuevos productos, ventas, etc. Emplear cFos Notifier para seguirnos en Twitter es una manera óptima de estar en contacto con nosotros.";
+notifier_h3 = "Listas de Twitter";
+notifier_p6 = "El cFos Notifier soporta Listas. En Twitter Ud. puede establecer las listas de las personas a las que sdesea seguir. De haber configurado tales listas el cFos Notifier las podrá mostrar en su menú contextual. Ud. podrá seleccionar cuales listas el cFos Notifier debiera checar. Esto le permite usar al cFos Notifier solamente para ver un grupo específico de Tweets entrantes.";
+notifier_h4 = "Funciones del cFos Notifier";
 notifier_h4_v2 = "Características de Twitter";
+notifier_p7 = "Una versión completamente retrabajada de cFos Notifier. Las nuevas funciones son:";
+notifier_l1 = "Soporte para el Twitter API 1.1 y HTTPS";
+notifier_l2 = "Maneja simultáneas cuentas de Twitter";
+notifier_l3 = "Los Tweets ahora incluyen a las fotos de perfil";
+notifier_l4 = "Vista Previa de las imagenes incrustadas";
+notifier_l5 = "Monitorea sus listas además de su línea de tiempo";
+notifier_l6 = "Apaga las notificaciones temporalmente";
+notifier_l7 = "Sonido seleccionable de notificación";
+notifier_l8 = "Las cuentas pueden ser anadidas y removidas";
 
 /FAQ
+which_product = "Cuál producto de cFos debiera usar?";
+word_support_faq = "FAQ de soporte de cFos";
 
 / support
+activation_title = "Activación ha fallado";
+activation_salut = "Estimado usuario cFosSpeed ";
+activation_salut_cfos = "Estimado usuario cFos";
+activation_salut_cfosbc = "Estimado usuario cFos Broadband Connect";
+activation_salut_cfos6link = "Estimado usuario cFos IPv6 Link";
+activation_salut_cfospnet = "Estimado usuario cFos Personal Net";
+activation_thanks = "Gracias por probar a cFosSpeed!";
+activation_thanks_cfos = "Gracias por probar a cFos!";
+activation_thanks_cfosbc = "Gracias por probar al cFos Broadband Connect!";
+activation_thanks_cfos6link = "Gracias por probar el cFos IPv6 Link!";
+activation_thanks_cfospnet = "Gracias por probar el cFos Personal Net!";
+activation_failed = "Desgraciadamente la activación de esta licencia ha fallado, porque llave de licencia ha sido <span class=\"red\">Bloqueada.</span>";
+activiation_save_time = "Ahorre tiempo en continuamente buscar por otras versiones de cFosSpeed.";
+activiation_save_time_cfos = "Ahorre tiempo en continuamente buscar por otras versiones de cFos.";
+activiation_save_time_cfosbc = "Ahorre tiempo en continuamente buscar por otras versiones del cFos Broadband Connect.";
+activiation_save_time_cfos6link = "Ahorre tiempo en continuamente buscar por otras versiones de cFos IPv6 Link.";
+activiation_save_time_cfospnet = "Ahorre tiempo en continuamente buscar por otras versiones de cFos Personal Net.";
+activation_original_version = "Con nuestra versión original no modificadasu conexión a Internet es la más rápida!<br /> Las versiones modificadas pueden además contener virus, troianos y backdoors.";
+activation_buyonce = "Adquiera una vez y asegure su derecho a actualizaciones de por vida.";
+activation_buyonce2 = "Se compra solo una vez y todas las versiones futuras serán gratis.";
+activation_buytoday = "Al comprar al cFosSpeed hoy, usted recibirá una <b>licencia perpétua de por vida</b>: Todas las actualizaciones ya están incluídas en el precio. Sencillamente descargue la versión nueva e instale al por sobre la antigua. Eso es todo!";
+activation_buytoday_cfos = "Al comprar al cFos hoy, usted recibirá una <b>licencia perpétua de por vida</b>: Todas las actualizaciones ya están incluídas en el precio. Sencillamente descargue la versión nueva e instale al por sobre la antigua. Eso es todo!";
+activation_buytoday_cfosbc = "Al comprar cFos Broadband Connect hoy, usted recibirá una <b>licencia perpétua de por vida</b>: Todas las actualizaciones ya están incluídas en el precio. Sencillamente descargue la versión nueva e instale al por sobre la antigua. Eso es todo!";
+activation_buytoday_cfos6link = "Al comprar cFos IPv6 Link hoy, usted recibirá una <b>licencia perpetua de por vida</b>: Todas las actualizaciones ya están incluídas en el precio. Sencillamente descargue la versión nueva e instale al por sobre la antigua. Eso es todo!";
+activation_buytoday_cfospnet = "Al comprar cFos Personal Net hoy, usted recibirá una <b>licencia perpetua de por vida</b>: Todas las actualizaciones ya están incluidas en el precio. Sencillamente descargue la versión nueva e instale al por sobre la antigua. ¡Eso es todo!";
+activation_buytoday2 = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">Por lo tanto aproveche y adquiera cFosSpeed ahora</b>.</a>";
+activation_buytoday2_cfos = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\"><b class=\"red\"> Por lo tanto aproveche y adquiera cFos ahora</b>.</a>";
+activation_buytoday2_cfosbc = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\"><b class=\"red\"> Por lo tanto aproveche y adquiera cFos ahora</b>.</a>";
+activation_buytoday2_cfos6link = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\"><b class=\"red\">Por lo tanto aproveche y adquiera IPv6 Link ahora</b>.</a>";
+activation_buytoday2_cfospnet = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-personal-net-n.htm\"><b class=\"red\">Por lo tanto aproveche y adquiera IPv6 Link ahora</b>.</a>";
+activation_p1 = "Nosotros dependemos de su soporte. Sin su aporte económico nosotros no podemos continuar a desarrollar a cFosSpeed más allá.";
+activation_p1_cfos = "Nosotros dependemos de su soporte. Sin su aporte económico nosotros no podemos continuar a desarrollar a cFosSpeed más allá.";
+activation_p1_cfosbc = "Nosotros dependemos de su soporte. Sin su aporte económico nosotros no podemos continuar a desarrollar a cFos Broadband Connect más allá.";
+activation_p1_cfos6link = "Nosotros dependemos de su soporte. Sin su aporte económico nosotros no podemos continuar a desarrollar a cFos IPv6 Link más allá.";
+activation_p1_cfospnet = "Nosotros dependemos de su soporte. Sin su aporte económico nosotros no podemos continuar a desarrollar a cFos Personal Net más allá.";
+activation_p2 = "<b>Gane dinero</b> con cFosSpeed? Conviértase en partner de cFos y venda licencias de cFosSpeed en su sitio Web. Para cada venta Usted se gana un porcentaje de la ganancia.<br/><br /><a class=\"inline\" style=\"font-size: 14px\" href=\"/en/contact/affiliatepost.htm\" target=\"_blank\"><b class=\"red\">Mayores informaciones acá</b></a>";
+activation_p2_cfos = "<b>Gane dinero</b> con cFos? Conviértase en partner de cFos y venda licencias de cFos en su sitio Web. Para cada venta Usted se gana un porcentaje de la ganancia.<br/><br /><a class=\"inline\" style=\"font-size: 14px\" href=\"/en/contact/affiliatepost.htm\" target=\"_blank\"><b class=\"red\">Mayores informaciones acá</b></a>";
+activation_p2_cfosbc = "<b>Gane dinero</b> con cFos Broadband Connect? Conviértase en partner de cFos y venda licencias de cFos Broadband Connect en su sitio Web. Para cada venta Usted se gana un porcentaje de la ganancia.<br/><br /><a class=\"inline\" style=\"font-size: 14px\" href=\"/en/contact/affiliatepost.htm\" target=\"_blank\"><b class=\"red\">Mayores informaciones acá</b></a>";
+activation_p2_cfos6link = "<b>Gane dinero</b> cFos IPv6 Link? Conviértase en partner de cFos y venda licencias de cFos IPv6 Link en su sitio Web. Para cada venta Usted se gana un porcentaje de la ganancia.<br/><br /><a class=\"inline\" style=\"font-size: 14px\" href=\"/en/contact/affiliatepost.htm\" target=\"_blank\"><b class=\"red\">Mayores informaciones acá</b></a>";
+activation_p2_cfospnet = "<b>Gane dinero</b> cFos Personal Net? Conviértase en partner de cFos y venda licencias de cFos Personal Net en su sitio Web. Para cada venta Usted se gana un porcentaje de la ganancia.<br/><br /><a class=\"inline\" style=\"font-size: 14px\" href=\"/en/contact/affiliatepost.htm\" target=\"_blank\"><b class=\"red\">Mayores informaciones acá</b></a>";
+activation_p3 = "Ayudenos:";
+activation_p4 = "Remueva links de descarga para los cracks de cFosSpeed.";
+activation_p4_cfos = "Remueva links de descarga para los cracks de cFosSpeed.";
+activation_p4_cfosbc = "Remueva links de descarga para los cracks de cFos Broadband Connect.";
+activation_p4_cfos6link = "Remueva links de descarga para los cracks de cFos IPv6 Link.";
+activation_p4_cfospnet = "Remueva links de descarga para los cracks de cFos cFos Personal Net.";
+activation_p5 = "Remueva los cracks de cFosSpeed desde su programa de intercambio de archivos.";
+activation_p5_cfos = "Remueva los cracks de cFos desde su programa de intercambio de archivos.";
+activation_p5_cfosbc = "Remueva los cracks de cFos Broadband Connect desde su programa de intercambio de archivos.";
+activation_p5_cfos6link = "Remueva los cracks de cFos IPv6 Link desde su programa de intercambio de archivos.";
+activation_p5_cfospnet = "Remueva los cracks cFos Personal Net desde su programa de intercambio de archivos.";
+activation_p6 = "Cargue su versión de prueba de 30 días en los sitios de software más populares en su país.";
+activation_p7 = "Vote por el cFosSpeed en los sitios de software.";
+activation_p7_cfos = "Vote por el cFos en los sitios de software.";
+activation_p7_cfosbc = "Vote por el cFos Broadband Connect en los sitios de software.";
+activation_p7_cfos6link = "Vote por el cFos IPv6 Link en los sitios de software.";
+activation_p7_cfospnet = "Vote por el cFos Personal Net en los sitios de software.";
+activation_p8 = "Postee un link hacia nuestra pagina web.";
+activation_p9 = "Adquiera cFosSpeed ahora!";
+activation_p9_cfos = "Adquiera al cFos ahora!";
+activation_p9_cfosbc = "Compre el cFos Broadband Connect ahora!";
+activation_p9_cfos6link = "Adquiera al cFos IPv6 Link ahora!";
+activation_p9_cfospnet = "Adquiera al cFos Personal Net ahora!";
+activation_p10 = "Su equipo cFos.";
+activation_p11 = "P.S. Diviértase con el tuning de su Internet!";
+agents_header = "Revendedores de cFos ";
+agents_brazil = "Brasil";
+agents_china = "China";
+agents_desc = "Ud. Puede adquirir el oficial, original y legítimo software de cFosen estos revendedores autorizados:";
+agents_hongkong = "Hong Kong / China";
+agents_greece = "Grecia";
+agents_india = "India";
+agents_malaysia = "Malasia";
+agents_russia = "Rusia";
+agents_taiwan = "Taiwan";
+agents_thailand = "Tailandia";
+agents_uk = "Reino Unido";
+agents_vietnam = "Vietnam";
+abgelaufen = "La versión que está usando ha expirado hace mucho.";
+choice1 = " Internet via ISDN, Software para ISDN mediante el puerto COM,<br /> ISDN caller monitor?";
+choice2 = "Utiliza un router para acceder al Internet?";
+choice3 = "Su conección a Internet usa PPPoE (e.j. DSL)?";
+choice4 = "Utiliza un Modem DSL conectado a USB?";
+choice5 = "Driver para una red de discado?";
+choice6 = "Traffic Shaping?";
+choice7 = "Ambos?";
+contact_form_h1 = "Su contacto con el equipo cFos";
+contact_form_p0 = "Entre en contacto con nosotros acerca de <b>problemas técnicos</b>, preguntas referentes a <b>su pedido</b>, <b>propuestas de negocios</b> o <b>información de prensa</b>.";
 contact_form_p0_a1 = "<b>Velocidad Lenta?</b><br/>Tal vez <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Guia</a> pueda ayudar";
 contact_form_p0_a2 = "<b>Donde esta mi licencia?</b><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Contactanos, puede ser que su orden tarde</a>";
 contact_form_p0_a3 = "<b>Apagar la barra de estado?</b><br/><a class=\"inline\" href=\"//en/cfosspeed/documentation/status.htm\">como apagar el inicio automatico de la barra de estado</a>";
+/. Used in our contact form on website, as possible choices, like:
+/= Please, select:
+/= — ...
+/= — Business Partners, Licensing, Bundling
+/= — Press, Artwork, Covermount
+/= — ...
+contact_form_o1 = "Partners de negocio, Licenciamiento, Muestreo";
+contact_form_o2 = "Prensa, Trabajos de arte, Covermount";
+contact_form_o3 = "Orden: Dónde está mi llave de licencia?";
+contact_form_o4 = "Orden: He perdido a mi llave de licencia";
+contact_form_o5 = "Sugerencias / Otras perguntas";
+contact_form_o6 = "No puedo calibrar el cFosSpeed a un 100%";
+contact_form_o7 = "La velocidad de Internet es demasiado baja";
+contact_form_o8 = "El Ping demasiado elevado";
+contact_form_o9 = "Problema con mi llave de licencia";
 contact_form_o10 = "No puedo instalarlo";
 contact_form_o11 = "Como quitar la barra de estado";
 contact_form_o12 = "Reporte Bluescreen/BSOD";
@@ -812,6 +966,7 @@ contact_form_p1 = "Para informacion tal vez deba consultar nuestra pagina <a cla
 contact_form_l1 = "Nuestros terminos de licencia permiten incluir una version de prueba de 30 dias en su portada de revista gratis.";
 contact_form_l2 = "Diseño gratis en alta definicion en calidad de impresion puede encontrarse en nuestra <a class=\"inline\" href=\"//en/press/samples.htm\">artwork pagina</a>";
 contact_form_l3 = "Nuestro Ultimo <a class=\"inline\" href=\"//en/press/press.htm\">press releases</a>";
+contact_form_l4 = "<a class=\"inline\" href=\"//en/press/reviews.htm\">Resenas de prensa</a> de nuestros productos";
 contact_form_p2 = "Porfavor cheque la bandeja de spam. Su clave de licencia en el correo adjunta tal vez fue clasificada como spam.<br/><br/>Porfavor permita dos dias laborales para procesar su orden. si usted no recibe su clave en estos dos dias laborales, tal vez no sea posible encontrar su pago. aveces la gente ordena con una direccion y con otra diferente paga. Porfavor relle esta forma lo mas detallada que se pueda. Esto nos va a ayudar a mandar su clave lo mas rapido posible.<br/><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Donde esta mi Clave de Licencia?</a>";
 contact_form_a1 = "Reclame su codigo de licencia perdida";
 contact_form_p3 = "Consejos de como mejorar el internet junto con cFosSpeed, vea el <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Guide</a>.";
@@ -821,6 +976,7 @@ contact_form_p6 = "Porfavor refierase a nuestra <a class=\"inline\" href=\"//en/
 contact_form_p7 = "Usted puede encontrar <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation.htm\">Ayuda de como instalar su clave?</a>.<br/><br/>Aca estan consejos adicionales de como <a class=\"inline\" href=\"//en/cfosspeed/documentation/registration-help.htm\">encuentre e instale su clae de licencia</a>.";
 contact_form_p8 = "Aveces son otros componentes, e.g. controladores de red, programas anti-virus o anti-espias, en la instalacion de red de cFosSpeed.<br/><br/>Aca es <a class=\"inline\" href=\"//en/cfosspeed/documentation/driver-not-loaded.htm\">Ayuda en los problemas mas comunes</a> y <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation-help.htm\">que puedo hacer si cFosSpeed no se instala</a>.";
 contact_form_p9 = "Usted puede desactivar la ventana de estado dando click derecho en el icono y seleccionando las siguientes opciones del menu: <b>opciones de ventana</b> -> <b>&lt;su adaptador de red&gt;</b>. este desactivado \"auto-abrir/auto-cerrar\".";
+contact_form_p9_v2 = "Ud. puede desactivar la ventana de estado de cFosSpeed haciendo un clic derecho sobre el y seleccionando \"Esconder la ventana\".";
 contact_form_a2 = "Esconder la ventana de estado";
 contact_form_p10 = "Si tienes un Bluescreen/BSOD por cFosSpeed, vamos a necesitar tu ayuda para repararlo lo mas rapido posible.<br/><br/> Porfavor <a class=\"inline\" href=\"//en/support/howto-dump.htm\">crear un volcado del kernel</a>.";
 contact_form_p11 = "Porfavor vea nuestro importante <a class=\"inline\" href=\"//en/cfos-professional/capi-support.htm\">ISDN CAPI / consejos de Network CAPI</a>.";
@@ -880,6 +1036,7 @@ isdn_call = "ISDN monitor de llamadas";
 low_cpu = "Uso de CPU bajo";
 multiple_pc = "Varias computadoras usan una sola coneccion";
 multi_pppoe = "Varias conecciones PPPoE simultaneas";
+no = "No";
 other_media = "Otros medios, e.g.  PPPoA, IP over AAL5, PPTP, RFC1483/2684 en puente";
 pppoe_filter = "Filtrado del PPPoE Service / AC name";
 recommend = "Para el Traffic Shaping es siempre recomendado cFosSpeed. mientras, si tienes una connexion DSL (un modem DSL) o una connexion IDSN, se recomienda cFos Professional.<br /><br />Si tu conexion tiene almenos 16 MBit/s, se recomienda cFos Broadband Connect. Para Traffic Shaping use cFosSpeed, pronto.";
@@ -982,6 +1139,7 @@ ts_exp_l3 = "Bajos tiempos de ping durante la carga, descarga y al compartir arc
 ts_exp_l4 = "Las conexiones de juego, permanecen responsivas aún durante transferencias de datos simultáneas";
 ts_exp_l5 = "Mejor calidad en la línea para Voz-sobre-IP (VoIP)";
 ts_exp_p7 = "No tiene que creerlo, pero puede medirlo por sí mismo:";
+ts_exp_a1 = "Manual";
 ts_o_t1 = "Para cada conexión, puede realizar los siguientes ajustes:";
 ts_o_l1 = "Medio/Protocolo";
 ts_o_l2 = "Usos";
@@ -1106,6 +1264,7 @@ ts_tsn_hov6 = "Esquema de prioridad / priorización \"al vuelo\" / reglas de fil
 ts_tsn_hov7 = "Clasifica protocolos no estándar, como tráfico de juegos, etc.";
 ts_tsn_hov8 = "Detecta los protocolos más comunes, como HTTP, correo, VoIP, compartir archivos, etc.";
 ts_tsn_a2 = "Nuestras antiguas páginas de Perfilado de Tráfico";
+ts_tsn_a4 = "Traffic Shaping de cFos para smartphones, tablets y otros dispositivos móviles.";
 ts_3work_together = "Cómo los tres ajustes trabajan en conjunto";
 youtube_speedwin7 = "Vea la instalación de cFosSpeed en Win7";
 net_talk_help = "Difunda las estadísticas de tráfico en su red local (LAN)";
@@ -1128,6 +1287,7 @@ bodytitel_1 = "Resumen del menú de cFosSpeed (menú contextual)";
 broadband = "Banda ancha: Cable y DSL";
 budget_settings = "Opciones de presupuesto";
 budget_settings_desc = "Aquí ajusta la configuración de las opciones de presupuesto.";
+cable = "Cable";
 clear_tsdata = "Limpiar datos de calibración";
 clear_tsdata_desc = "Al eliminar el archivo DATA.INI en el directorio de isntalación de cFosSpeed se eliminan los datos de conexión. <br /> El Perfilado de Tráfico debe ser re-calibrado.";
 click_through = "Transparencia de Clic";
@@ -1155,7 +1315,9 @@ ebay_fees = "Todas las tarifas de ebay son cubiertas por cFos Software GmbH.";
 ebay_license = "Por favor, considere que al enviar su postura, también acepta nuestro <a href=\"#license\"><b>acuerdo de licencia de cFosSpeed</b></a> (vea abajo) y está de acuerdo con los términos contenidos en ella.";
 effects = "Efectos";
 enable_speed_shaping = "Habilitar el Perfilado de Tráfico";
+extras = "Extras";
 features_title = "Listado de características de cFosSpeed";
+feature_highlights_title = "Funciones destacadas de cFosSpeed";
 filter = "Reglas individuales con filtro de idioma";
 graph_title = "Gráfica de Uso";
 graph_title_desc = "Mostrar las gráficas de uso para los presupuestos en línea de cFos Speed.";
@@ -1198,6 +1360,7 @@ no_ping_tplink = "<h4>TP-Link Router:</h4><p>TP-Link ofrece un nuevo firmware qu
 no_ping_tplink2 = "<p><b class=\"red\">Atención</b>: Los siguientes reportes de usuarios dicen que almenos esto no aplica para los siguientes modelos TL-R460, TL-R860 y TL-R402M.</p>";
 no_ping_pccillin = "<h4>PC cillin 2007:</h4><p>Para permitir el comando tracert de Windows para PC Cillin 2007, siga los siguientes pasos:</p><ol><li>Abra la consola principal de PC Cillin-> red -> firewall -> control -> firewall personal -> configuración -> seleccionar cuenta -> editar -> control de red -> agregar</li><li>Ahora podrá <samp>agregar</samp> 2 nuevos protocolos. </li><li>para conexiones salientes:<br /><samp>(omision) permitir para conexiones salientes<br />(protocolo) icmp<br />(puerto) todos los puertos<br />(ajustes-ip) todos los ajustes-ip<br /></samp></li><li>Para conexiones entrantes solo repita el paso 3</li></ol>";
 no_ping_statistics = "Obteniendo e interpretando estadisticas de cFosSpeed ping";
+/. Console's output shouldn't be translated
 no_ping_statistics_p1 = "<p>Abra la consola de cFosSpeed y escriba &quot;spd pingstat&quot;</p><p>Esto debera regresar una salida similar a la siguiente:</p><pre class=\"code\"><br />Ping statistics:<br /><br />Total ping requests      107,686<br />  done                   107,686     <b>(1)</b><br />  ...and only            107,686<br /><br />Total pings sent         106,949<br />  strong                 106,778<br />  ...and new             106,778     <b>(2)</b><br /><br />Total pongs              106,804<br />  found                  106,566<br />  ...and strong          106,519<br />  ...and strong reply    106,519     <b>(3)</b><br />  ...and used            106,519     <b>(4)</b><br /><br />Ping outage statistics:<br />  1 ping in a row 33 times<br />  5 pings in a row 1 time<br /><br />Ping src/dst: 192.168.0.100 to 194.95.249.23, ttl 3<br />Ethernet src/dst: 00:0e:a6:57:9b:0b to 00:11:95:78:27:a4<br /></pre>";
 no_ping_statistics_p2 = "<p>Los tres valores dados para &quot;total de peticiones ping&quot; debera ser identico. En caso de que haya alguna incongruencia con éstos, favor de reportarlo con nosotros.</p><p>El valor marcado<b>(1)</b> deberá ser aproximadamente el mismo que el que este proximo al <b> (2)</b>. Si no fuese el caso, esto tipicamente indica que un firewall esta bloqueando la transmision de datos. Como en el caso anterior, una pequeña incongruencia de varios porcientos no es tan importante en este caso.</p><p>Valores para <b> (3) </b>y<b> (4) </b>deberan ser exactamente iguales. De no ser asi, favor de mandarnos un correo con la descripcion.</p>";
 no_ping_statistics_p3 = "<p>Por el mismo valor<b> (2) </b>y<b> (3) </b>deberan ser apenas identicos. Si este no fuese el caso, esto usualmente indica que los pings y sus respuestas estan siendo perdidos en algun lugar &quot;de la red&quot; (que es bastante común). Desafortunadamente, no hay nada que podamos hacer al respecto.</p><p>Cuando se comunique con nosotros mediante e-mail, por favor refierase a<a class=\"inline\" href=\"#p4\"> Paso 3 </a>con respecto a que archivos adjuntar a su mensaje.</p>";
@@ -1222,7 +1385,11 @@ registration_help_p7 = "Guarde la llave de licencia a su disco duro";
 registration_help_p8 = "Abra el archivo dando click derecho en él y seleccionando 'Abrir con' y busque a continuación el directorio donde se instalo cFosSpeed y seleccione setup.exe ej. C: -> Programs -> cFosSpeed -> setup.exe.";
 registration_help_p9 = "Por favor use nuestro";
 registration_help_p10 = "Reenviar formato de llave de licencia";
+rfc_bridged = "RFC1483/2684 bridged";
+router_mode = "Router y modo Bridge";
+routing = "Routing";
 rtp_voip = "Deteccion RTP/VoIP";
+rx_tx = "moldeamiento del TX y RX";
 select_language = "Selecccione el lenguaje";
 selectskin = "Seleccione un Skin";
 send_burst = "Enviar pulso de calibracion";
@@ -1363,6 +1530,8 @@ sp_doc_prio_p3 = "La detección de flujo HTTP es un caso especial. Si se detecta
 sp_doc_prio_p4 = "Si el agente de usuario es uno de los reproductores bien conocidos o contiene la palabra \"player\", cFosSpeed categoriza la conexión como HTTP_STREAM_C o HTTP_STREAM_S. De otra forma si el tipo de contenido es audio o video categoriza la conexión como BSTREAM_C o BSTREAM_S. Las conexiones BSTREAM_C/S son priorizadas como \"normal\" de manera que la prioridad en efecto se determina por la priorización de programas.<br /> Esto le permite, por ejemplo, en casos determinados priorizar de acuerdo al uso del programa.";
 sp_doc_prio_a1 = "Programas ya priorizados";
 sp_doc_prio_a2 = "cFosSpeed 7.0 - Priorización Temporal de Conexiones";
+sp_doc_dec_prio = "Disminuir prioridad";
+sp_doc_inc_prio = "Aumentar prioridad";
 sp_doc_settings = "Guardar opciones";
 sp_doc_settings_backup = "¿Cómo respaldar/restaurar las opciones de cFosSpeed?";
 sp_doc_settings_files = "Puede respaldar los cinco archivos.<br /><br />Además, si desea mantener los archivos de bitácora de presupuesto debería respaldar la carpeta de bitácora: <i>C:\\ProgramData\\cFos\\cFosSpeed\\logs</i>.<br /><br />Para restaurar las opciones sólo restaure global.ini, user.ini, data.ini. Settings.ini se sobrescribe con las nuevas instalaciones. Por lo que si realizó cambios a este archivo, necesita aplicarlos nuevamente en el nuevo settings.ini. De otra manera use el archivo settings.ini de la instalación más reciente.";
@@ -1413,6 +1582,7 @@ sp_doc_status_ht = "Historial de tasa de transferencia (total) de envío en %";
 sp_doc_status_ht_lc = "Tasa de transferencia de envío (total) en %";
 sp_doc_status_icon = "Piel Icono Análisis de Tráfico";
 sp_doc_status_insight = "Piel Análisis Agudo de Tráfico";
+sp_doc_status_ipv = "Distribución de conexiones - IPv4 (.) / IPv6 (:)";
 sp_doc_status_line = "línea";
 sp_doc_status_liquid = "Piel Cristal Líquido";
 sp_doc_status_local = "Historial de la tasa de transferencia de descarga (local) en %";
@@ -1505,12 +1675,26 @@ sp_doc_voip_a4 = "Priorización de programa de Skype";
 sp_doc_voip_p11 = "El <em>retraso</em> es una parte crucial del valor MOS. Al emplear cFosSpeed se mantiene el incremento de este retraso en los límites, siendo que se incrementa hasta 700 milisegundos cuando no se emplea cFosSpeed (gráfico rojo).";
 sp_doc_whatsnew_word = "Qué hay de nuevo";
 sp_doc_whatsnew = "Resumen de nuevas características, mejoras, modificaciones y solución de fallas";
+sp_doc_wlan_title = "Punto de aceso Wi-Fi";
+sp_doc_wlan_p1 = "Habilitar el <a class=\"inline\" href=\"/en/traffic-shaping/traffic-shaping.htm\">Traffic Shaping de cFos</a> para smartphones, tablets y otros dispositivos móviles.";
+sp_doc_wlan_p1_nolink = "Habilitar el Traffic Shaping de cFos para smartphones, tablets y otros dispositivos móviles."; // same as above, but without included link
+sp_doc_wlan_p2 = "Windows 7, 8 y 8.1 permiten usar su adaptador Wi-Fi como un punto de aceso Wi-Fi . Así que otros dispositivos pueden conectarse a su PC (en vez de conectarse directamente al router wi-fi) de modo que también se podrán beneficiar del Traffic Shaping.";
+sp_doc_wlan_p3 = "El cFosSpeed ahora posee una opción de menú contextual para encender y configurar (o detener) el punto de acesso wi-fi fácilmente.";
+sp_doc_wlan_a1 = "Configuración del punto de acesso wi-fi de cFosSpeed";
+sp_doc_wlan_p4 = "Si su PC está conectado a un router mediante Wi-Fi, usted puede compartir el mismo adaptador para el punto de acceso ad hoc Wi-Fi. O puede utilizar el adaptador Wi-Fi exclusivamente si su pc estuviera conectado al router mediante cable de red. En este caso el ancho de banda disponible será completamente disponibilizado a sus aparatos móviles como telefonos inteligentes o tablet.";
+sp_doc_wlan_p5 = "Al tener el cFosSpeed instalado en este PC, los datos del Wi-Fi serán ruteados mediante el cFosSpeed y, gracias a su detección del protocolo de la capa 7, el cFosSpeed podrá dar prioridad al trafico. Si Ud. frecuentemente usa smartphones y tablets para VoIP o tráfico de streaming como música o películas, nosotros le recomendamos adicionar un adaptador a Wi-Fi a su PC y rutear el tráfico de sus aparatos móviles mediante el PC y cFosSpeed.";
+sp_doc_wlan_h1 = "Resolviendo problemas usando una asignación más rápida de la dirección IP";
+sp_doc_wlan_p6a = "Al usar un PC como punto de acesso Wi-Fi, este tambien se sirve de los servicios de la conexión compartida a Internet y normalmente asigna las direcciones IP mediante DHCP a su dispositivo móvil. Durante la negociación de la dirección DHCP, las posibles direcicones IP son chequeadas por duplicados mediante el uso de consultas ARP.";
+sp_doc_wlan_p6b = "Esta verificación de la dirección puede llegar a tomar varios segundos, lo que podria llegar a ser  demasiado para algunos dispositivos, de modo a que ellos sencillamente mostrarían un timeout o no obtendrían una dirección IP. En base a eso hemos anadido una solución para lidiar con eso. Para activarla deberá usar el siguiente comando en la consola:";
+sp_doc_wlan_p6c = "Esto hace con que el cFosSpeed interfiera con la negociación DHCP de modo que la asignación de la dirección IP ocurre más rápido.";
 sp_news_t = "Últimas noticias sobre cFosSpeed";
 sp_news_p1 = "cFosSpeed verifica cada dos días si existen noticias del programa. Si existen, muestra el símbolo de correo en la ventana de estado y abre la página web cuando se hace clic en éste. Esta característica está encendida por omisión. Si no está interesado en las noticias del programa, puede apagarlas en el menú contextual en \"Opciones\".";
 sp_news_p2 = "Publicaremos noticias sólo unas pocas veces al año.";
 sp_news_h0 = "Noticias de cFosSpeed";
 sp_news_h1 = "Política de noticias de cFosSpeed";
 sp_news_p3 = "Debido a que comunicarse con la gente a través de correo electrónico se vuelve cada vez más difícil y las redes sociales se han vuelto más populares, decidimos emplear Twitter como nuestro servicio de noticias instantáneas. Si se presenta algo nuevo, por ejemplo una nueva versión beta de cFosSpeed, lo publicaremos en Twitter. Cuando mucho publicaremos sólo unas pocas veces por semana. Por lo tanto, si aún no cuenta con una cuenta de Twitter, por favor creé una y siga a <a class=\"inline\" target=\"_blank\" href=\"https://twitter.com/cFosSoftware\"><b>@cFosSoftware</b></a> para obtener las últimas noticias. Puede de manera conveniente permitir a <a href=\"/en/cfos-notifier/cfos-notifier.htm\"><b>Notificador de Twitter de cFos (cFos Notifier)</b></a> verificar si hay noticias de nosotros en Twitter.<br/><br/>También implementamos una notificación de noticias en cFosSpeed. Cuando hay noticias muy importantes disponibles (sólo unas cuantas veces al año), como la liberación de nuevas versiones de cFosSpeed, actualizaremos la página de noticias de cFosSpeed. A partir de la versión v7.01 build 1921 de cFosSpeed, la ventana de estado mostrará un símbolo nuevo y abrirá la página cuando haga clic en éste.";
+sp_news_20140429 = "29 de Abril del 2014";
+sp_news_20140429_text = "El nuevo cFosSpeed versión v9.60 ahora viene con soporte completo para IPv6 y temas de telefono para su uso en los telefonos o tablets. Vea el status de su conexión en su telefono o tablet mientras corre algun juego o otras aplicaciones en pantalla completa en su PC. Abra el dialogo de conexiones actuales en su telefono o tablet para monitorear y dar prioridad a sus conexiones en tiempo real.";
 sp_news_20140210 = "10 de Febrero de 2014";
 sp_news_20140210_text = "La versión v9.05 beta build 2090 de cFosSpeed y superiores ahora pueden mostrar la ventana de estado <a class=\"inline\" href=\"/en/cfosspeed/documentation/phone-skins.htm\">en su teléfono o tableta</a>.";
 sp_news_20130129 = "29 de Enero de 2013";
@@ -1637,6 +1821,7 @@ six_doc_121a = "     optionN hex,hex,hex,...  , valores hexadecimales para la op
 six_doc_122 = "Los valores para éstas opciones son enviados en peticiones DHCP con o sin estado. Esto permite enviar opciones DCHPv6 adicionales (personalizadas) al proveedor de servicios de Internet.";
 six_doc_123 = "De este modo, puede obtener OPTION_DASP (y otras opciones) del servidor DHCPv6.";
 six_doc_124 = "2. Habilitando el ajuste a la tabla de políticas. Debido a que el valor actual para el identificador de OPTION_DASP no está estandarizado actualmente por IANA, puede configurarlo in cfos6link.ini, sección [param] con";
+six_doc_125 = "      option_dasp=value (decimal)";
 six_doc_126 = "Si esta clave es configurada, cFos IPv6 Link consulta el valor de opciones DHCP con estado y sin estado desde las respuestas DHCPv6 y las evalúa de acuerdo al borrador DASP. Entonces adjusta la tabla de políticas de Windows en base a lo siguiente:";
 six_doc_127 = "Si el par prefijo/longitud ya existe en la configuración del sistema es modificado por los nuevos valores para etiqueta y precedencia, pero nunca borrado. Si el par prefijo/longitud no existe, será agregado.";
 six_doc_128 = "Esto permite al ISP configurar las opciones DHCPv6 DASP para ambientes de prefijo múltiple y asegurar una selección correcta de direcció fuente &amp; destino.";
@@ -1646,6 +1831,9 @@ six_doc_134 = "Para que los cambios sean efectivos, un reinicio podría ser nece
 six_doc_135 = "Mapeo NAT46:";
 six_doc_136 = "El mapeo NAT46 le permite ejecutar aplicaciones sólo IPV4 con destinos IPV6 o hacer servicios sólo IPV4 accesibles a IPV6. cfos6link puede mapear el tráfico desde aplicaciones sólo IPV4 a IPv6. Para conseguirlo, asocia temporalmente la dirección IPV4 con la dirección IPV6. Puede especificar un conjunto de direcciones IPV4 ajustando nat46_addr=x y nat46_subnet_mask=m en la sección [param] de cfos6link.ini. Si una aplicación IPv4 solicita un nombre a través de DNS (por ejemplo un registro A) cfos6link cambia la solicitud a una petición de registro AAAA. Después de que recibe la dirección IPV6 correspondiente asigna una dirección IPV4 temporal para esa IPV6 y la regresa a la aplicación IPV4. Siempre que la aplicación IPV4 emplea la dirección temporal ésta será mapeada a la dirección IPV6 para el uso con el destino IPV6. Por ejemplo, puede asignar el siguiente conjunto de direcciones para realizar el mapeo:";
 six_doc_138 = "Para conexiones entrantes también puede especificar un mapeo de puerto, llenando la sección [nat46_ports] en cfos6link.ini con valores como estos:";
+/. That string means that user have to place program's name instead of `some program` like `5000=skype`
+/. `some_program` part may be translated
+/: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
 six_doc_139 = "5000=algún_programa";
 six_doc_140 = "Luego el tráfico IPV6 entrante es mapeado a IPv4 siempre que el puerto destino es uno de los puertos configurados.";
 six_doc_141 = "Además de añadir mapeos IPv4 &lt;-&gt; IPv6 estáticos para aplicaciones que emplean direcciones IPV4 definidas. Puede especificar estos mapeos rellenando la sección [nat46_static] con valores como &lt;ipv4_addr&gt;=&lt;ipv6_addr&gt;, por ejemplo 192.168.2.1=2001:DB8::1";
@@ -1685,15 +1873,19 @@ oem_t3 = "Máximio ancho de banda con tiempo de ping mínimo a través del Perfi
 oem_l4 = "Controlador NDIS para Windows 7, Windows Vista, XP y 2000, x86 y x64";
 oem_l5 = "Perfilado de Tráfico para conexiones existentes, banda ancha y de baja velocidad";
 oem_l6 = "Perfilado de Tráfico para enrutadores y/o módems DSL/cable";
+/. Means "customizable status window with skins"
+/. or "brandable status window skin"
 oem_l7 = "Ventana de estado configurable con pieles";
 oem_l8 = "Límites de tráfico, límites de velocidad";
 oem_t4 = "Controlador de marcado para ISDN y DSL, incluyendo Perfilado de Tráfico";
 oem_l9 = "Controlador para puerto COM para Windows 7, Vista, XP, 2000, x86 y x64, y sistemas operativos anteriores, como Windows 9x, ME";
 oem_l10 = "ISDN con CAPI 2.0 (CAPI2032.DLL o CAPI en modo kernel)";
+/. Channel bundling allows to use 2 ISDN channels as one for better bandwidth
 oem_l11 = "Agrupación de canales";
 oem_l12 = "Detección de PPPoE \"al vuelo\", no se requiere instalación de controlador de red";
 oem_l13 = "Para Window Vista, XP and 2000, x86 and x64, sistemas operativos anteriores sobre demanda";
 oem_l14 = "Fácil de integrar con instaladores existentes";
+/. fees = licensing costs
 oem_t5 = "Condiciones de la licencia y tarifas";
 oem_l15 = "Las tarifas se basan en el número de licencias ordenadas";
 oem_l16 = "Embarque mínimo: 1,000 licencias";
@@ -1808,11 +2000,15 @@ cont_cont_p1 = "Información relativa a TDG (Ley de Tele Servicios Alemana): ";
 cont_cont_p2 = "El proveedor de servicio responsable de www.cfos.de y www.cfosspeed.de es cFos Software GmbH, representada por propietarios-administradores Christoph Lüders y Martin Winkler, Nordstr. 65a, 53111 Bonn, Teléfono: +49 2287669826, entrada de marca registrada: Bonn, HRB 9150; UStID / Vat-No.: DE813105998, correo electrónico: <img src=\"/images/support-link.png\" style=\"position: relative; top: 3px\" alt=\"\" />.";
 cont_cont_t3 = "Plantilla";
 cont_cont_p4 = "cFos Software GmbH, Bonn (Alemania) está desarrollando y afinando controladores de comunicación para diferentes sistemas operativos desde 1993.  Sus productos incluyen cFosSpeed, un controlador avanzado de Perfilado de Tráfico para Internet de banda ancha y el controlador de marcación IPv6 / software enrutador cfos IPV6 Link, además de cFos y cFos Broadband Connect, controladores de alto rendimiento de marcación ISDN y DSL.";
+cont_cont_p4_v2 = "La cFos Software GmbH, Bonn (Alemania)desarolla software de comunicación para Windows desde 1993. Nuestros productos incluyen al cFosSpeed, el avanzado programa de Traffic Shaping para conexiones de banda ancha, el cFos Personal Net, un servidor personal Web y de Cloud, el cFos IPv6 Link, el driver de discado IPv6 &amp; software router y el cFos / cFos Broadband Connect, los drivers de alto rendimiento DSL y ISDN de discado.";
 cont_cont_p5 = "De acuerdo al artículo §28 de la ley federal de protección de datos (BDSG) queremos señalar que los datos necesarios para las transacciones son procesados y almacenados en un dispositivo de cómputo que cumple con el artículo §33 (BDSG), con adherencia estricta a las directivas relevantes de la ley federal de protección de datos (BDSG) y a la ley de protección de datos de teleservicio (TDDSG).";
 cont_cont_t4 = "Confidencialidad";
 cont_cont_p6 = "Los datos provistos por usted en www.cfos.de sólo serán usados respecto de su propósito y no se otorgarán a otros.";
+cont_cont_t5 = "Cookies";
 cont_cont_p6_cookies = "Terceras personas pueden colocar y leer \"cookies\" en su navegador y pueden emplear rastreadores web, para recabar datos, lo que está disponible a través de anuncios en nuestra página web. Si no desea esas cookies puede desactivarlas en su navegador para nuestro sitio web.";
+cont_cont_p6_google1 = "Para trazar el uso de nuestro sitio web, nosotros empleamos nuestras cookies y también empleamos a Google Analytics.";
 cont_cont_p6_google2 = "Las direcciones IP serán anonimizadas por Google. Puede desactivar completamente Google Analytics instalando en su navegador un conector para desactivar Google Analytics ofrecido por Google. Puede encontrar mayor información <a class=\"inline\" href=\"http://tools.google.com/dlpage/gaoptout?hl=de\">aquí</a>.";
+cont_cont_p6_owncookies = "Para evitar que nosotros le creemos una cookie, Usted puede deshabilitar las cookien en su explorador para nuestro sitio web.";
 cont_cont_p7 = "Revelaciones:";
 cont_cont_p8 = "Tiene derecho a la libre revelación, corrección, bloqueo y eliminación de sus datos almacenados, en cualquier momento. Por favor diríjanos su demanda (a <b>cFos Software GmbH, Nordstr. 65a, 53111 Bonn</b>) o <img src=\"/images/support-link.png\" style=\"position: relative; top: 3px\" alt=\"\" />.";
 cont_cont_p9 = "Propagación a terceras personas:";
@@ -1883,6 +2079,9 @@ cont_select_l1 = "Inicie sesión en su cuenta de Outlook.";
 cont_select_l2 = "Haga clic en \"Opciones\"";
 cont_select_l3 = "Ahora en \"Correo\" y en \"Protección de software masivo\"";
 cont_select_l4 = "Vaya a la \"Lista de remitentes seguros\" y añada nuestra dirección de correo electrónico.";
+cont_select_l2_v2 = "Haga clic sobre la rueda y luego en \"Opciones\"";
+cont_select_l3_v2 = "Ahora prosiga con \"Emisores permitidos y bloqueados\" bajo \"Previniendo correo basura\"";
+cont_select_l4_v2 = "Vaya a \"Emisores permitidos\" y anada nuestra dirección de e-mail.";
 cont_select_h2 = "Método de pago empleado:";
 cont_select_a1 = "Otro método de pago";
 cont_select_h3 = "Ha perdido su clave de licencia o contraseña";
@@ -1900,6 +2099,7 @@ word_black = "negro";
 word_white = "blanco";
 word_transparent = "transparente";
 word_dark = "oscuro";
+word_logo = "logo";
 word_background = "fondo";
 text_it_works = "¡Funciona!";
 
@@ -2018,6 +2218,7 @@ speed_guide_l21c = "Examine las estadísticas recién generadas";
 speed_guide_p21b = "El tráfico en todas las clases por encima de \"Predeterminado\" no debiera superar el 20%-40%.";
 speed_guide_q21 = "¿Es mayor al 20%-40%?";
 speed_guide_p22a = "Vea qué conexiones consumen ancho de banda. Transfiera datos durante algún tiempo y vea las conexiones actuales";
+speed_guide_p22b_v2 = "El protocolo o programa que usted desea dar prioridad está en \"Alto \" o \"Más Alto\" y todo lo demás está en \"normal\" o más bajo?";
 speed_guide_p22c = "De no ser así, abra el protocolo o cuadro de diálogo del programa ( bajo \"Opciones > Configuraciones\") y ajuste el parámetro. Usted puede añadir un programa, en caso de que ya no lo estuviera allá.";
 speed_guide_h23 = "Problemas de conexión";
 speed_guide_p23a = "Por favor revise si la opción \"Optimización automática MSS (MTU) \" está activada:";
@@ -2049,13 +2250,11 @@ speed_guide_l26g = "Priorizando puertos";
 
 / speed test
 speed_test = "Prueba de cFos Speed";
-under_construction = "La prueba de velocidad está en construcción y estará disponible al finalizar octubre de 2010.<br /><br />Mientras tanto recomendamos:<br />";
 sptest_info_p1 = "Con el nuevo verificador de velocidad, podrá probar rápidamente la velocidad de su conexión de Internet. Puede realizar pruebas de velocidad de carga y descarga, para verificar por ejemplo, si su velocidad de Internet corresponde con los valores que le ofrecieron. La Prueba de Velocidad está diseñada para medir el ancho de banda disponible tan rápido como sea posible. No se alarme si la verificación de velocidad no concuerda con los valores exactos que le dió su proveedor. Por ejemplo, si tiene una velocidad de ancho de banda de 16Mbit/s, una tolerancia del 1% equivale a 160.000 bit/s, que se ve impresionante pero no hace una gran diferencia.";
 sptest_info_p1_sm = "Con el nuevo verificador de velocidad, podrá probar rápidamente la velocidad de su conexión de Internet. Puede realizar pruebas de velocidad de carga y descarga, para verificar por ejemplo, si su velocidad de Internet corresponde con los valores que le ofrecieron.";
 sptest_info_p2 = "Por ahora, la Prueba de Velocidad mide dos valores: las velocidades de carga y descarga. Para probar la conexión a Internet, la prueba de velocidad determina también el tiempo de respuesta del servidor. Esto puede dare una idea de lo confiable que es el resultado de la prueba. La siguiente versión de nuestra prueba de velocidad también medirá cómo los flujos simultáneos pueden influenciar el tiempo de respuesta de su conexión.";
 sptest_info_p3 = "Para una velocidad de Internet de 500kbit/s e inferiores el resultado puede no ser muy preciso. Trataremos de mejorar la prueba de velocidad en ese sentido.";
 sptest_debug = "¡consola de depuración preparada!";
-sptest_h1 = "Prueba de cFos Speed V1.0";
 sptest_browser = "Esta prueba no funciona con Opera versión &lt; 10.<br />¡Por favor actualice su navegador!";
 sptest_panel_info_h = "El significado de los resultados de la prueba de velocidad";
 sptest_panel_info_p = "La prueba de velocidad indica la velocidad de la carga útil en TCP/IP. cFosSpeed indica la velocidad IP cruda en la ventana de estado. La diferencia es cercana al 5%. El 'Tiempo de respuesta' es el tiempo para una petición HTTP completa. cFosSpeed indica el tiempo de ping del Internet más cercano.";
@@ -2122,6 +2321,7 @@ cfos_ipv6_link_uninstall_desc = "Cómo desinstalar cFos IPv6 Link.";
 cfos_ipv6_link_whats_new_desc = "Conozca lo nuevo en cFos IPv6 Link. Listado de las nuevas características, mejoras y soluciones de fallas.";
 cfos_ipv6_link_documentation_nat64_desc = "Cómo configurar y usar NAT64 de cFos IPv6 Link.";
 cfos_outlook_dav_desc = "Resumen del producto cFos Outlook DAV.";
+cfos_outlook_dav_whats_new_desc = "Descubra lo que hay de nuevo en cFos Outlook DAV. La Lista de todas las nuevas caracteristicas. mejorías y correciones.";
 cfospnet_activation_failed_desc = "Qué hacer si falla la activación de cFospnet.";
 cfospnet_cfospnet_desc = "Resumen del producto cFospnet, servidor web para usuarios domésticos y profesionales";
 cfospnet_features_desc = "Listado de las características más importantes de cFospnet.";
@@ -2174,6 +2374,7 @@ traffic_shaping_speed_guide_desc = "Consejos para la solución de problemas con 
 traffic_shaping_traffic_shaping_desc = "Qué es el Perfilado de Tráfico de cFos y cómo puede reducir su tiempo de ping e incrementar la velocidad de Internet.";
 traffic_shaping_traffic_shaping_options_desc = "Ajuste fino: cómo controlar las opciones de Perfilado de Tráfico para rendimiento óptimo.";
 cfosspeed_features_desc = "Cómo puede beneficiarlo cFosSpeed. Listado de las características más importantes del producto.";
+cfosspeed_feature_hightlights_desc = "Lista de las funciones resaltadas de cFosSpeed y links para ulterior informaciones.";
 cfosspeed_cfosspeed_desc = "Resumen de producto de cFosSpeed, aceleración de Internet con Perfilado de Tráfico, descargas e información técnica.";
 cfosspeed_product_news_desc = "Esta página contiene noticias sobre cFosSpeed";
 cfosspeed_license_desc = "licencia de cFosSpeed.";
@@ -2209,6 +2410,7 @@ cfosspeed_documentation_prog_prio_desc = "Cómo funciona el esquema de priorizac
 cfosspeed_documentation_keyboard_leds_desc = "Cómo emplear los LED del teclado para indicar el estado de su computadora en modo de pantalla completa.";
 cfosspeed_documentation_p2p_desc = "Cómo configurar cFosSpeed para el rendimiento óptimo de sus redes para compartir P2P, como Bittorrent, E2K, etc.";
 cfosspeed_documentation_logitech_keyboard_desc = "Cómo usar los teclados para jugador Logitech para obtener información de estado. Modelos G19, G15, G13, G510 y compatibles.";
+cfosspeed_documentation_wlan_access_point_desc = "Cómo usar su cFosSpeed para convertir su PCen un punto de acesso WLAN para telefonos inteligentes, tablets y otros dispositivos.";
 beta_index_desc = "Descargue las versiones beta más recientes de cFosSpeed, cFos IPv6 Link, cFos Broadband Connect y cFos Professional.";
 beta_cfos_ipv6_link_whats_new_desc = "Listado de las nuevas características de cFos Ipv6 Link, mejoras y soluciones de fallas de la versión beta.";
 beta_cfos_broadband_connect_whats_new_desc = "Listado de las nuevas características de cFos Broadband Connect, mejoras y soluciones de fallas de la versión beta.";
@@ -2226,8 +2428,11 @@ cfosspeed_features_title = "Listado de las características más importantes de 
 announce_list = "Lista de Anuncios de cFos";
 
 / countrynames
+countryname_bg = "Bulgaria";
 countryname_br = "Brasil";
 countryname_by = "Bierorrusia";
+countryname_cl = "Chile";
+countryname_cn = "China";
 countryname_cz = "República Checa";
 countryname_de = "Alemania";
 countryname_en_gb = "Reino Unido";
@@ -2235,6 +2440,9 @@ countryname_es = "España";
 countryname_fr = "Francia";
 countryname_gr = "Grecia";
 countryname_hu = "Hungría";
+countryname_id = "Indonesia";
+countryname_il = "Israel";
+countryname_in = "India";
 countryname_it = "Italia";
 countryname_jp = "Japón";
 countryname_kr = "Corea";
@@ -2244,12 +2452,16 @@ countryname_ne = "Países Bajos";
 countryname_no = "Noruega";
 countryname_per = "Irán";
 countryname_pl = "Polonia";
+countryname_pt = "Portugal";
 countryname_ru = "Rusia";
 countryname_se = "Suecia";
 countryname_si = "Eslovenia";
 countryname_th = "Tailandia";
 countryname_tr = "Turquía";
+countryname_tw = "Taiwan";
 countryname_uk = "Ucrania";
+countryname_vn = "Vietnam";
+countryname_zh_hk = "Hong Kong";
 languagename_per = "Persa";
 
 / no translation  -  currency info for order form exchange rates only - do not modify!
