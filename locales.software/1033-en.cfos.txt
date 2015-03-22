@@ -636,9 +636,9 @@ rp_info = "A system restore point enables you to restore your Windows system to 
           "is installed.";
 rp_check = "Set system restore point.";
 / %1 = product name
-rp_uninst_info = "The system restore point is not meant for a later normal deinstallation of %1. It's rather an "
+rp_uninst_info = "The system restore point is not meant for a later normal uninstallation of %1. It's rather an "
                  "additional precaution that enables you to put your system back into its original state in case "
-                 "of a driver conflict. A normal deinstallation of %1 can be selected either in the Start Menu in the "
+                 "of a driver conflict. A normal uninstallation of %1 can be selected either in the Start Menu in the "
                  "folder %1 or in the Control Panel under Software.";
 
 / password dialog
@@ -1204,9 +1204,9 @@ fs_chkdyncapi = "Dynamic CAPI loading";
 fs_docdyncapi = "(recommended for laptops, necessary with network CAPIs)";
 
 / uninstall dialog
-dlg_deinst_ok = "Deinstall";
-dlg_deinst_header = "Deinstall %p";
-dlg_deinst_subheader = "%p is being deinstalled.";
+dlg_deinst_ok = "Uninstall";
+dlg_deinst_header = "Uninstall %p";
+dlg_deinst_subheader = "%p is being uninstalled.";
 
 / configuration dialog
 dlg_cnf_header = "Configure %p";
@@ -1522,7 +1522,7 @@ com_rvscomnt = "You have selected COM ports that may be used by RVS-COM.\n"
         "Now, click on 'Startup' and there on 'Manual'. 'Ok' - 'Close'.\n"
         "You may need to reboot in order for the settings to take effect.";
 com_rvscom95 = "You have selected COM ports that are currently used by RVS-COM.\n\n"
-        "To use these ports with %p, you have to deinstall or disable\n"
+        "To use these ports with %p, you have to uninstall or disable\n"
         "VRVSPORT.  Try doing this in the hardware manager.\n";
 
 / installation
@@ -1556,7 +1556,7 @@ inst_scm_noopen = "Unable to open Service Manager!\n"
         "See %s for details.";
 inst_mtuchanged = "Settings in Dial-Up Networking were changed for optimum speed.  "
         "Changes will be active upon the next reboot.\n\n";
-inst_rmmodem = "Some %p-modems were deinstalled from your COM-Ports, because "
+inst_rmmodem = "Some %p-modems were uninstalled from your COM-Ports, because "
         "the new %p version has new modem settings.  Please review the modem "
         "settings in the modem manager and reinstall missing modems manually.\n\n";
 inst_reboot = "Windows must be rebooted to continue the installation.";
@@ -1594,13 +1594,13 @@ foo_extract = "Extracting files, please wait..";
 foo_nodriver = "Driver-file %s not found,\n error %s!";
 
 / uninstallation
-deinst_nocfos = "No %p found to deinstall.";
-deinst_notthis = "Cannot deinstall this version of %p.";
-deinst_ask = "\n\nStart Deinstallation?";
-deinst_ok = "Deinstallation successful.\n";
+deinst_nocfos = "No %p found to uninstall.";
+deinst_notthis = "Cannot uninstall this version of %p.";
+deinst_ask = "\n\nStart uninstallation?";
+deinst_ok = "Uninstallation successful.\n";
 deinst_askfiles = "Found the following %p data files:\n\n";
 deinst_askfiles2 = "\nDelete these files as well and remove the directory?";
-deinst_askfiles3 = "While deinstalling from directory %s,\n"
+deinst_askfiles3 = "While uninstalling from directory %s,\n"
         "SETUP found the following unrecognized files:\n\n";
 
 / configuration messages
@@ -1627,7 +1627,7 @@ conf_wait = "Changing configuration...";
 group_order_inet = "Buy advanced %p";
 group_order_oem = "Get advanced %p driver";
 group_conf = "Configure %p";
-group_deinstall = "Deinstall %p";
+group_deinstall = "Uninstall %p";
 group_doc = "%p documentation";
 group_wwwcfos = "www.cfos.de";
 group_hypertrm = "Internet Hyperterminal";
