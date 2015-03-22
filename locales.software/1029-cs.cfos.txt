@@ -12,12 +12,29 @@ language = "Czech";
 language_local = "Čeština";
 htm_lang_prefix = "cs";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
 /
 / ----------------------------------------------------------------------
 
+ignore_ssl_cert_chk = "Ignorovat chyby v SSL certifikátech (nebezpečné)";
+ignore_ssl_cert_desc = "Pokud je v Outlook DAV povoleno ignorování chyb SSL certifikátů, může se připojit k serverům s nezabezpečeným SSL certifikátem, například certifikát podepsaný sám sebou. Nedoporučujeme povolení této možnosti, protože dělá SSL připojení náchylné k man-in-the-middle útokům.";
 
 / ----------------------------------------------------------------------
 /
@@ -59,6 +76,9 @@ setup_connections = "Nastavit připojení";
 ask_inst_ipv6 = "Protokol IPv6 nebyl dosud na tomto systému nainstalován.\n\n"
                 "Chcete nainstalovat protokol IPv6 nyní?";
 err_inst_ipv6 = "Chyba %? při instalaci protokolu IPv6.";
+pause_server = "Pozastavit server";
+resume_server = "Obnovit server";
+file_link_failed = "Vytvoření odkazu souboru se nezdařilo.";
 
 / connection entry dialog
 con_err_save = "Nelze uložit informace o připojení!";
@@ -141,6 +161,21 @@ con_test = "%p Test připojení";
 con_test_not_running = "Test připojení nemůže být proveden, pokud %p není spuštěn. Prosím spusťte %p a proveďte test připojení znovu.";
 con_test_public_fail = "Vaše veřejná IP adresa nebyla zjištěna. Prosím, ujistěte se, že jste připojeni k internetu a zopakujte test.";
 con_test_execute = "Proveďte test připojení";
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+ga_service_desc = "cFos Game Analyzer - Načtení dat výkonu";
+ga_speed_installed = "cFosSpeed je již nainstalován na vašem počítači.\n\ncFosSpeed již obsahuje cFos Game Analyzer.\n\nPro použití nejnovějších funkcí cFos Game Analyzeru si prosím stáhněte nejnovější verzi cFosSpeed ze stránek www.cfos.de.";
+local_ip_addresses = "Lokální IP adresy:";
+ga_password_subheader = "Heslo k externímu přístupu k cFos Game Analyzer.";
+ga_password_info = "Uživatelské jméno: cfosspeed";
+ga_call_info = "Přistupte k cFos Game Analyzeru ze svého lokálního PC přes\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nPřistupte k cFos Game Analyzeru z externího zařízení s výše uvedeným heslem a použijte jednu z následujících IP adres namísto 'localhost':\n";
+ga_detected_by_speed = "Již nainstalovaná verze cFos Game Analyzeru byla detekována. cFosSpeed již obsahuje všechny funkce cFos Game Analyzeru.\n\nPokud budete pokračovat, cFos Game Analyzer bude odinstalován před instalací cFosSpeed.\n\nPřejete si pokračovat?";
+ga_use_password_by_speed = "Má cFosSpeed použít stejné heslo jako cFos Game Analyzer, aby bylo možné přistupovat k cFosSpeed i z ostatních zařízení?";
 
 / ----------------------------------------------------------------------
 /
@@ -336,6 +371,10 @@ show_for = "Zoprazit pro";
 this_month = "tento měsíc";
 time = "Čas";
 time_limit = "Časový limit";
+/. Used as table header
+/. Short version of "minutes"
+/. Used as table header
+/. Short version of "hours:minutes"
 volume = "Objem";
 volume_limit = "Omezení objemu dat";
 spdbudget_help = "Pro použití hlídání objemu dat jděte do dialogu připojení a přiřaďte je k nějakému připojení";
@@ -394,7 +433,9 @@ slots_title = "Nastavení pozic";
 can_select_multiple = "Upozornění: Můžete vybrat více možností tak, že při jejich volbě držíte stisknutou klávesu Shift nebo Ctrl";
 name_for = "Jméno pro ";
 set_name = "Udejte jméno";
+/. RX stands for `receive` (incoming/download)
 rx_only = "Pouze RX";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "Pouze TX";
 max_of_rx_tx = "Maximum RX a TX";
 total_rx_only = "Celková rychlost RX";
@@ -426,6 +467,7 @@ set = "Nastavit";
 tx_limit_help = "Zadejte rychlost v bytech za sekundu nebo procento, s nimiž tento program nebo protokol smí vysílat.";
 download_more_skins = "Stáhnout další skiny";
 documentation = "Dokumentace";
+exit_demon = "Ukončit";
 speed_test = "Test cFos Speed";
 ask_key_banned_info = "Vyskytl se problém s vaším licenčním klíčem.\nPřejete si další informace?";
 
@@ -479,6 +521,12 @@ enable_smartphone_skins = "Skiny smartphonů";
 http_access_enabled = "Vzdálený přístup HTTP povolen.";
 http_access_disabled = "Vzdálený přístup HTTP zakázán.";
 set_server_pwd = "Nastavit heslo serveru";
+auto_arrange_top = "Nahoře";
+auto_arrange_bottom = "Dole";
+show_on_metro_apps = "Zobrazit v Metro apps";
+wlan_access_point = "Přístupový bod Wi-Fi";
+prioritize_foreground_process = "Prioritizovat proces v popředí";
+prioritize_foreground_help = "Automaticky nastavit prioritu procesu v popředí na vysokou.";
 
 
 / ----------------------------------------------------------------------
@@ -621,6 +669,8 @@ crash_msg_virus_clean = "Tento kód může být virus. Důrazně doporučujeme p
 crash_msg_hook = "Byly nalezeny kódy jiných programů, které se spojily s tímto programem. Ke zjištění, zda tyto kódy nejsou příčinou havárie, prosím spusťte tento program znovu poté, co deaktivujete nebo odinstalujete následující programy:";
 crash_msg_terminate = "Program bude nyní ukončen.";
 crash_msg_query_upload = "Chcete poslat cFos popis havárie? To nám pomůže analyzovat chybu.";
+crash_msg_new_release = "Je dostupná nová verze %p. Stáhněte a nainstalujte si, prosím, nejnovější verzi %p z webu www.cfos.de.";
+crash_msg_new_beta = "Je dostupná nová beta verze %p. Stáhněte a nainstalujte si, prosím, nejnovější beta verzi %p z webu www.cfos.de/beta.";
 
 /start installation dialog
 start_header = "Instalace";
@@ -679,10 +729,13 @@ task_desktop_link = "Vytvářím odkazu na ploše...";
 task_program_group = "Vytvářím programovou skupinu...";
 task_registry = "Zapisuji do registrů...";
 task_driver = "Instaluji ovladač...";
+task_service = "Instaluji službu...";
 task_daemon = "Spouštím %?...";
 task_uninstall_old = "Odinstalovávám existující verzi...";
 task_stop_daemon = "Zastavuji %?...";
 task_uninstall_driver = "Odinstalovávám ovladač...";
+task_uninstall_service = "Odinstalovávám službu...";
+task_uninstall_ga = "Odinstalovávám cFos Game Analyzer...";
 task_delete_files = "Mažu soubory...";
 task_cleanup_caches = "Mazání vyrovnávací paměti...";
 task_hangup = "Odpojuji aktivní spojení...";
@@ -714,12 +767,15 @@ dt_advertise_desc = "Seznam všech možností pro %?.";
 
 / message boxes
 query_reboot = "Pro provedení změn je nezbytné restartovat počítač.\n\nRestartovat systém nyní?";
+query_inst_reboot = "Je potřeba restartovat operační systém předtím, než bude možné pokračovat v instalaci.\n\nRestartujte, prosím, instalační program po restartu.\n\nPřejete si restartovat počítač nyní?";
 query_drv_inst_cancel = "Instalace/odinstalace ovladače je prováděna operačním systémem.\nWindows setup může vyžadovat až 15 minut pro \nregistraci nebo odregistraci ovladače!\n\nJe silně doporučeno nepřerušovat tento proces dokud\nnečekáte opravdu velmi dlouho.\n\nOpravdu přerušit instalaci ?";
 query_driver_err_abort = "Došlo k chybě při instalaci ovladače!\nDoporučujeme instalaci ukončit.\n\nV instalaci je přesto možné pokračovat.\nJe třeba si uvědomit, \nže %p nemusí po nekorektní instalaci běžet správně.\n\nUkončit instalaci ? (doporučeno)";
 query_further_info = "Chcete další informace?";
 
 / error messages
 err_driver_inst = "Nepodařilo se nainstalovat ovladač.";
+err_service_inst = "Instalace služby selhala.";
+err_service_uninst = "Odinstalace služby selhala.";
 err_daemon_start = "Nelze spustit %?.";
 err_uninst_old = "Existující verze nebyla odinstalována. Odhlaste se, přihlaste a zkuste to znovu.";
 err_os = "Váš operační systém je %?.\n\n%? vyžaduje Windows 2000/XP nebo vyšší.";
@@ -730,6 +786,7 @@ err_os_sup = "%p posporuje oficiálně jen %? nebo vyšší.\n\n"
 err_uninst_driver = "Ovladač nemohl být nainstalován.";
 err_create_process = "Chyba při volání %s: %s";
 err_write_lock = "%? síťové komponenty jsou použity dalším procesem. Zavřete všechny ostatní aplikace nebo restartujte počítač a zkuste to znovu.";
+err_write_lock_process = "%? síťové komponenty jsou právě využívané následujícím procesem: %?. Zavřete prosím tento proces nebo restartuje počítač a zkuste to znovu.";
 err_file_auth = "Některé soubory z distribuce chybí nebo jsou poškozeny.\nOriginální distribuci %p \nzískáte např. na www.cfos.de.";
 err_cancel = "Operace byla přerušena.";
 err_no32 = "Nelze instalovat 32-bitové ovladače na 64-bitový systém.\n\nOS: %?\nProdukt: %?";
@@ -823,6 +880,37 @@ eml_invalid_email = "zadaná e-mailová adresa není platná.";
 eml_invalid_optional_email = "Vložte prosím platnou e-mailovou adresu nebo nechte pole prázdné.";
 eml_reg_failed = "Registrace e-mailové adresy nebyla úspěšná.";
 eml_checking_domain = "Kontroluji doménu e-mailu...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p Průvodce zapnutím virtuální Wi-Fi";
+virtual_wifi_header = "Zapnout virtuální Wi-Fi";
+virtual_wifi_subheader = "Nastavit bezdrátový přístupový bod a zapnout sdílení internetového připojení.";
+virtual_wifi_stop_header = "Zastavit virtuální Wi-Fi";
+virtual_wifi_info = "Vyberte připojení, které směruje internetový provoz a zvolte si heslo k bezdrátovému přístupovému bodu.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "SSID nesmí být prázdné a nesmí mít více než 32 znaků.";
+virtual_wifi_invalid_password_length = "Délka hesla musí být mezi 8 a 64 znaky.";
+virtual_wifi_ics_not_available = "Sdílení internetového připojení není dostupné na tomto počítači.";
+virtual_wifi_error_get_cons = "Chyba při získávání internetových připojení.";
+virtual_wifi_ics_warning = "Sdílení internetového připojení je již povoleno v následující síti:\n%?\n\nChcete raději použít tuto síť?:\n%?";
+virtual_wifi_error_enable_ics = "Chyba při zapínání sdílení internetového připojení.";
+virtual_wifi_error_start = "Chyba při zapnutí virtuální Wi-Fi.";
+virtual_wifi_ok = "Virtuální Wi-Fi a sdílení internetového připojení bylo úspěšně aktivováno.\n\nPoznámka: Pokud se klient nemůže úspěšně připojit k virtuální Wi-Fi, vypněte a restartujte virtuální Wi-Fi.\n\nPokud se klient může připojit k virtuální Wi-Fi, ale nemůže se připojit k internetu, odinstalujte a poté znovu nainstalujte %p.";
+virtual_wifi_query_stop = "Vypnout virtuální Wifi?";
+virtual_wifi_error_stop = "Chyba při vypnutí virtuální Wi-Fi:";
+virtual_wifi_stopped = "Virtuální Wi-Fi byla úspěšně zastavena.";
+virtual_wifi_dialup_ics = "Pro vytáčené připojení musíte manuálně povolit sdílení internetového připojení změnou vlastností tohoto připojení.";
+virtual_wifi_error_not_present = "Žádné (připravené) rozhraní Wi-Fi nebylo nalezeno.\n\nK nastavení virtuální Wi-Fi je potřeba existující a připravené Wi-Fi rozhraní.";
+virtual_wifi_autostart = "Spouštět automaticky při startu počítače.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
