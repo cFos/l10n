@@ -12,6 +12,21 @@ language = "Romanian";
 language_local = "Română";
 htm_lang_prefix = "ro";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
@@ -81,12 +96,21 @@ dlg_redirect_delay = "Întârzierea redirecţionării (ms):";
 
 / ----------------------------------------------------------------------
 /
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  cFosSpeed
 /
 / ----------------------------------------------------------------------
 
 preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
+auth_failed = "În urma verificări a fost detectată o modificare a unei sau mai multor componente.\n"
+   "Reinstalați o versiune nemodificată de pe pagina noastră:\n";
 
 component_mismatch = "Este un conflict între componentele hardware şi program. Va rugăm reinstalaţi folosind versiunea curentă.";
 trayicon_tip = "Internetul functionează la putere maximă, www.cfos.de";
@@ -94,6 +118,7 @@ speed_endsoon = "Perioada de test expiră curând! Vă rugăm cumpăraţi %1 ast
 order_info = "Cumpăraţi acum:\nInternet: www.cfos.de\nVia telefon: +49-228-7669826";
 badkey = "Este o problemă cu codul licenţei.\nvă rugăm reinstalaţi \nfişierul original primit prin e-mail sau pe dischetă.";
 no_setup = "Programul de setare nu s-a putut executa (setup.exe).";
+no_cmd = "Nu a fost posibilă deschiderea ferestrei de comandă (cmd.exe)!";
 ask_disconnect_ras = "O conexiune activă este pe cale de a fi reconfigurată.\nEste recomandat să deconectaţi conexiunea înainte de a continua.\nDeconectez conexiunea?";
 sygate_hint = "%p a detectat Sygate Firewall, care greşeşte\nimpulsul de calibrare %p pentru un atac de tip\n\"Ping-of-Death\" .\nEste recomandat un download şi upload cu %p la viteză maximă \npentru aproximativ 30 de secunde. Asta ar trebui să recalibreze\n %p fără un impuls de calibrare.\n\nIndiciu: Funcţia Firewall-ului \"Anti IP Manipulation\" trebuie \ndeactivată.";
 select_language = "Selectează limba";
@@ -155,6 +180,7 @@ off = "Oprit";
 on = "Pornit";
 note = "Notă";
 deactivated = "Dezactivat";
+browser_warning = "Internet Explorer în versiunea 8 sau mai mare este necesar pt acest dialog!";
 ole_error = "Pentru a folosi acest dialog,\\n%p trebuie să fie instalat şi executat pe  PC-ul dumneavoastră.\\nVă rugam înstalaţi programele lipsă şi încercaţi din nou.";
 ts_settings = "Setările Traffic Shaping-ului";
 preferences = "Preferinţe";
@@ -165,21 +191,28 @@ prio_programs = "Prioritizarea programelor";
 program = "Program";
 programs = "Programe";
 current_connections = "Conexiunile curente";
+current_connections_advanced = "Conexiuni curente (Avansat)";
+current_connections_standard = "Conexiuni curente (Standard)";
 ts_prios = "Prioritaţile Traffic Shaping-ului";
 client_protocols = "Protocoale client";
 server_protocols = "Protocoale server";
+client_server_protocols = "Protocoale pt client sau server";
 media_streaming = "Streaming media";
 file_sharing = "FileSharing";
 special = "Special";
 other = "Altele";
+misc_high_short = "Div. ridicat";
+misc_high = "Divers trafic cu prioritate ridicată";
 hint = "Indiciu";
 hint_text = "Prioritizarea va lucra doar dacă programele cu trafic mic vor avea prioritate Mare. Acordă prioritate mică programelor cu trafic mare. Prioritizarea protocoalelor se face înaintea prioritizării programelor.";
+prio_doc_link = "Cum funcționează schema de piroritizare.";
 save_protocols = "Salvează protocoalele";
 undo = "Undo";
 filter_selection = "Filtrează selecţia";
 higher = "Mai Mare";
 high = "Mare";
 normal = "Normală";
+default = "Implicit";
 low = "Mică";
 lower = "Mai mică";
 entries = "Intrări";
@@ -200,12 +233,16 @@ prog_help = "Datele cu prioritate mică sunt încetinite dacă se transmit odat�
 filename = "Numele fişierului";
 description = "Descriere";
 new_program = "Program nou";
+restore_defaults = "Revino la setările implicite";
 add = "Adaugă";
+suggest_program = "Recomandă acest program echipei cFos";
 l7_prot_detection = "Detectarea protocolului Layer-7 ";
 l7_prot_detection_help = "Detectarea protocoalelor prin analizarea datelor. Foloseşte opţiunea \"Prioritizează protocoalele\" pentru a schimba prioritatea mai multor protocoale. Dacă dezactivaţi această opţiune protocoalele vor fi identificate după portul folosit.";
 favor_ping = "Favorizează timpii de răspuns";
 favor_ping_help = "<b>Pornit</b>: %p favorizează timpii de răspuns prin micşorarea lăţimii de bandă pentru a obţine timpi mai buni(dacă este necesar) .<br /><b>Oprit</b>: %p va maximiza banda în defavoarea timpilor de răspuns (dacă este necesar).";
 favor_bandwidth = "Favorizează lăţimea de bandă";
+avoid_loss = "Evitarea pierderilor de pachete";
+avoid_loss_help = "%p dezactivează recepția de date TCP dacă se detectează un număr ridicat de pachete pierdute. Asta se întâmplă numai când conexiunea dvs. recepționează date la viteză maximă. (Recomandat pt. Traffic Shaping al downloadurilor)";
 activate_firewall = "Activează firewall-ul";
 activate_firewall_help = "Protecţie împotriva pachetelor de date periculoase.";
 mtu_opt = "Optimizare MSS (MTU) automată";
@@ -219,6 +256,7 @@ traffic_shaping = "Traffic Shaping";
 ras_con_help = "<b>Da</b>: Activează, <b>Nu</b>: Dezactivează, <b>întreabă</b>: Întreabă o singură dată şi apoi salvează setările";
 router_connections = "Conexiunile routerului ";
 net_components = "Componente de reţea";
+auto = "Auto";
 router_help = "<b>Da</b>: Activează, <b>nu</b>: Dezactivează, <b>auto</b>: Activează Traffic Shaping-ul, dacă s-a detectat un router la componenta acesta de reţea";
 network_adapter = "Placa de reţea";
 router = "Router";
@@ -244,22 +282,40 @@ show_for = "Arată pentru";
 this_month = "luna aceasta";
 time = "timp";
 time_limit = "Limită de timp";
+/. Used as table header
+/. Short version of "minutes"
+time_min = "Min";
+/. Used as table header
+/. Short version of "hours:minutes"
+time_units = "h:min";
 volume = "Volum";
 volume_limit = "Limită de Volum";
 spdbudget_help = "Pentru a folosi un budget, mergeţi în meniul conexiuni şi atribuiţi-l unei conexiuni particulare";
 password_bad = "Parolă invalidă";
 sum_button = "cumulativ";
 calibrate = "Linia de calibrare";
+test_pings = "Trimite ping de test";
+open_console = "Deschide %p consola";
 variable_bandwidth = "Lăţime de bandă variabila";
 def_bandwidth_help = "Setări implicite pentru conexiuni <b>noi</b>";
+cur_bandwidth_help = "Setări pt conexiunea curentă";
+no_ports_open = "O conexiune nu a putut fi efectuată.";
+no_ports_open_help = "Momentan nu exista nici o conexiune ocupată de %p. "
+   "Pt a modifica setările implicite, apăsați tabul \"Implicit pt conexiuni noi\", "
+   "pt a schimba setările altor conexiuni, apăsați \"Traffic Shaping\" în partea stângă.";
 ok = "OK";
 connection_medium = "Mediu";
 connection_type = "Modul Traffic Shaping";
 driver_not_loaded = "Driverele nu au fost instalate!";
+demon_driver_not_loaded = "Driverul nu a fost încărcat!\n"
+   "Fișierul de instalare este deteriorat.\n"
+   "Vă rugăm să reinstalați %p.\n";
+asus_demon_driver_not_loaded = "Reinstalați %p după upgrade la un sistem de operare nou.\nVizitați pagina ASUS %w pt versiunea cea mai recenta a %p.";
 many_cons_error = "%p rx-Traffic Shaping funcţionează la limita capacităţii, pentru că există prea multe conexiuni simultane. Cu mai puţine conexiuni simultane va funcţiona mai bine. Apăsaţi aici pentru ajutor.";
 limit_bandwidth = "Limitează lăţimea de bandă a conexiunii actuale";
 rx_limit = "Limită RX";
 tx_limit = "Limită TX";
+max = "Max";
 apply_limits = "Preia limitele";
 limit_help = "valori în kbyte/s, inclusiv preambulul protocolului, 0 = nelimitat";
 enable_speed_shaping = "Porneşte Traffic Shaping-ul";
@@ -267,6 +323,7 @@ disable_speed_shaping = "Dezactivează Traffic Shaping-ul";
 yes = "Da";
 no = "Nu";
 help = "Ajutor";
+bgraph_totals = "Total";
 blocklist = "Blocarea IPurilor";
 blocklist_help = "Listă cu adrese IP către care e blocat traficul.";
 apply_blocklist = "Foloseşte lista de filtre";
@@ -292,11 +349,16 @@ slots_title = "Setările slotului";
 can_select_multiple = "Indicu: Puteţi selecta mai multe opţiuni, prin apasarea tastei Ctrl sau Shift, în timp ce selectaţi opţiunea.";
 name_for = "Nume pentru ";
 set_name = "Setează numele";
+/. RX stands for `receive` (incoming/download)
 rx_only = "Numai RX";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "Numai TX";
 max_of_rx_tx = "Maximul RX & TX";
 total_rx_only = "Viteză RX totală";
 total_tx_only = "Viteză TX totală";
+nettalk_rx = "Viteza netă de recepție";
+nettalk_tx = "Viteza netă de trimitere";
+nettalk_max_of_rx_tx = "Valoarea maximă recepție și trimitere";
 total_max_of_rx_tx = "Max. din totalul RX & TX";
 check_if_other_also = "Activ: Orice trafic adiţional va fi alocat acestui slot";
 performance_help = "Pentru a limita utilizarea procesorului, vă recomandăm să setati 'Da' doar în cazul conexiunii folosite şi 'Nu' în cazul celorlaltor.";
@@ -304,14 +366,85 @@ loading = "Încarc...";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Necooperativ";
+regid_help = "Au fost detectați clienți fără cFos Traffic Shaping în rețeaua LAN";
+regid_help_long = "Mai mulți clienți utilizează simultan conexiunea dvs. și unul dintre ei nu are cFos Traffic Shaping.";
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
+net_talk = "Net Talk";
+net_talk_help = "Difuzarea statisticilor de trafic în rețeaua LAN";
+net_talk_help_long = "Pt a îmbunătăți acuratețea, statistici legate de Traffic Shaping sunt trimise altor clienți aflați în rețea. Aceste informații nu sunt trimise pe Internet.";
+net_talk_subheader = "Selectați dacă doriți ca opțiunea Net_Talk să fie folosită.";
 
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
+vari_fixed = "Permite bruiajul pachetelor de ping";
+vari_fixed_help = "Folosește Traffic Shaping  avansat pt a permite durate de ping variabile.";
+vari_fixed_help_long = "Acumulează statistici legate de pachetele de ping, pt a permite bruiajul acestora; foarte util în cazul rețelelor mobile/wireless. Vă recomandăm să activați această opțiune și în cazul altor rețele.";
 
+set = "Setați";
+tx_limit_help = "Introduceți viteza în bytes/sec sau procent cu care acestui program sau protocol îi este permis sa trimită date .";
+download_more_skins = "Descarcă mai multe skinuri";
+documentation = "Documentație";
+exit_demon = "Ieșire";
+speed_test = "Test de viteză cFos";
+ask_key_banned_info = "A apărut o problemă cu licența dvs.\nDoriți informații suplimentare?";
 
+adapter_info = "Informații despre adaptor";
+channel_recommend = "Gradul de utilizare a canalelor (de cel mai puțin la cel mai mult)";
+channel_explain = "Puteți configura stația WLAN în baza gradului de utilizare a canalelor. Utilizarea efectivă a canalelor depinde de traficul efectuat în fiecare rețea. Unele ar putea fi inactive, în timp ce altele ar putea avea trafic intens de date.";
+no_adapters = "Nu sunt disponibile informații despre adaptor.";
+wlan_no_service = "Serviciul nu este disponibil. Reinstalați Wireless LAN API pt. Windows (WZC).";
+wlan_no_station = "Nu am descoperit puncte de acces.";
+kaspersky_hint = "Kaspersky Internet Security 2010 poate cauza probleme cu %p. Actualizați cea mai recentă versiune a Kaspersky Internet Security.";
 
+console_cancel = "Anulează";
+console_freeze = "Îngheață";
+console_continue = "Continuă";
+console_help = "O conexiune individuală poate fi prioritizată în această lista.<br/>Conexiunile marcate cu (*) sunt temporar prioritizate.";
+console_prio = "Acordă prioritate acestei conexiuni";
+console_prio_off = "Deactivează prioritizarea";
+console_prio_this = "Prioritizează temporar această conexiune";
+console_prio_this_off = "Deactivează prioritizarea acestei conexiuni";
+console_prio_prot = "Prioritizează temporar acest protocol";
+console_prio_prot_off = "Deactivează prioritizarea acestui protocol";
+console_prio_prog = "Prioritizează temporar acest program";
+console_prio_prog_off = "Deactivează prioritizarea acestui program";
+console_prio_prog_prot = "Prioritizează temporar acest program și protocol";
+console_prio_prog_prot_off = "Deactivează prioritizarea acestui program și acestui protocol";
+console_prio_prot_perm = "Prioritizează acest protocol permanent";
+console_prio_prog_perm = "Prioritizează acest program permanent";
+console_prio_advanced = "Prioritizare avansată";
 
+new_version_available = "O nouă versiune este disponibilă";
+update_beta = "Verifică pentru versiuni de test noi";
+update_skip_version = "Dezactivează notificările pt aceste programe:";
+check_new_version_now = "Verifică pt versiuni noi acum";
+program_updates = "Actualizări ale programului";
+no_new_version_available = "Nu există nici o versiune nouă";
+use_logitech = "Folosește afișajul Logitech G15/G19/G510";
+detect_logitech = "Detectarea afișajului Logitech";
+logitech_help = "Ajutor pt. afișajul Logitech";
+logitech_keyboards = "Tastatură pt jocuri Logitech";
+keyboard_leds = "LEDuri pe tastatură";
+keyboard_led_help = "Ajutor pt. LEDurile pe tastatură";
+only_on_fullscreen = "Doar pe întreg ecranul";
+speed_guide = "Ghid de viteză";
+lock_position = "Blochează poziția pe ecran";
+check_for_news = "Verifică informații noi";
+rwin_expansion = "Expansiune RWIN automată";
+rwin_expansion_help = "Mărește automat fereastra de recepție a datelor TCP pt. a mări viteza de descărcare, dacă fereastra RWIN selectată de Windows este prea mică.";
+query_auto_open = "Dezactivează deschiderea și închiderea automată a ferestrei de status?\nAceastă setare poate fi reactivată ulterior în meniu.";
+preview_skins = "Previzionare a skinurilor";
+enable_smartphone_skins = "Skinuri pt. telefon";
+http_access_enabled = "Parola a fost configurată, accesul la distanță via HTTP este permis.";
+http_access_disabled = "Nu a fost configurată parola, accesul la distanță via HTTP nu este permis.";
+set_server_pwd = "Setează parola serverului";
+auto_arrange_top = "Sus";
+auto_arrange_bottom = "Jos";
+show_on_metro_apps = "Afișează în applicațile Metro";
+traffic_shaping_info = "Informații despre Traffic Shaping";
+wlan_access_point = "Punct de acces Wi-Fi";
+prioritize_foreground_process = "Prioritizează procesul aflat în prim-plan";
+prioritize_foreground_help = "Alocă automat o prioritate ridicată procesului aflat în prim-plan.";
 
 
 / ----------------------------------------------------------------------
@@ -331,6 +464,7 @@ brandkey_wizard_name = "%? Asistent de înregistrare";
 config_wizard_name = "%p Asistentul de configurare";
 continue_line = "Pentru a continua apăsaţi \"Continuă\".";
 start_inst = "Pentru a începe instalarea click pe \"Continuă\".";
+click_next_further_info = "Apasă Continuă pt. informații suplimentare.";
 wizard_lang_line = "Limba acestui asistent este ";
 
 / welcome page
@@ -386,9 +520,23 @@ pwd_activate_failed = "Activarea cheii a eşuat!";
 pwd_activate_failed_code = "Activarea cheii a eşuat: codul erorii %?.";
 
 / serial number dialog
+sn_header = "Număr de serie.";
+sn_subheader = "Introduceți numărul de serie și activați cheia.";
+sn_info = "Dacă aveți o cheie cu 16 cifre de forma xxxx-xxxx-xxxx-xxxx, "
+   "închideți această fereastră și faceți click pe fișierul cheie"
+   "O fereastră va apărea unde puteți introduce codul.\n\n"
+   "Dacă aveți o cheie cu 30 de cifre de forma xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, "
+   "introduceți-o acum pt a activa cheia.\n\n";
+sn_serial_number = "Număr de serie:";
+sn_invalid_serial_number = "Număr de serie invalid. Verificați datele introduse și încercați din nou.";
 / the %? will be replaced by the error number:
+sn_download_err = "Eroare %? la descărcarea fișierului cheie de pe serverul nostru.";
+sn_save_err = "Cheia nu poate fi salvată pe disc la adresa %?.";
+sn_keyfile_err = "Cheia este coruptă.";
 
 / new 16 digit serial number dialog
+sn16_info = "Introduceți codul de 16 cifre pt a primi cheia de licență. Trebuie sa fiți conectat la internet pt asta.";
+sn16_failed = "Obținerea noii chei de licență a eșuat!";
 
 / re-enter password dialog
 repwd_header = "Parola pt %?.";
@@ -404,6 +552,7 @@ instdir_src_dst = "Directorul selectat nu există!";
 instdir_space = "Instalarea necesită %u bytes de spaţiu liber pe partiţie .Există %u bytes liberi pe partiţia selectată.";
 instdir_drivetype = "Partiţia selectată este invalidă. %? se poate instala doar pe partiţii fixe şi locale.";
 instdir_system = "Directorul de instalare trebuie să se afle pe discul fix '%?'.";
+instdir_system_recommended = "Este recomandată instalarea pe discul de sistem: '%?'. (Apăsați Continuă pt a menține setările curente)";
 
 / tcp settings dialog
 tcp_header = "Ajustarea protocolului TCP.";
@@ -420,12 +569,31 @@ hangup_info = "Pentru a continua cu acest asistent, conexiunea trebuie terminat�
 hangup_disco = "Deconectează";
 
 / usage statistics
+usage_stats = "Statistici de utilizare";
+usage_stats_subheader = "Alegeți cum %p să manipuleze statisticile de utilizare.";
+usage_stats_chk = "Trimite statistici de utilizare anonime către echipa cFos pt a îmbunătăți performanța produsului.";
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "Utilizează înaintarea porturilor, dacă este disponibilă.";
+port_forwarding_failed = "Routerul%? dvs nu suportă înaintarea porturilor. "
+                         "Puteți activa această opţiune în configurația routerului.";
+port_forwarding_config = "Puteți configura routerul la %?.";
+port_forwarding_fritz = "Puteți activa înaintarea porturilor în FRITZ!Box permițând modificări ale setărilor de securitate via UPnP "
+                        "în meniul Home Network / Network / Programs";
 
 / crash handler messages
+crash_msg_crash = "O eroare a apărut în %p.";
+crash_msg_crash_installer = "O eroare a apărut în programul de instalare a %p.";
+crash_msg_virus = "Următorul modul s-a injectat în acest program și poate fi cauza prăbușirii:";
+crash_msg_virus_clean = "Acest modul poate fi un virus. Din această cauză este recomandată scanarea sistemului pt viruși.";
+crash_msg_hook = "Modulele altor programe au fost detectate, care s-au injectat în acest program. Pt a exclude probabilitatea că aceste programe au cauzat prăbușirea, rulați programul din nou după dezinstalarea următoarelor programe:";
+crash_msg_terminate = "Programul se va închide acum.";
+crash_msg_query_upload = "Doriți să trimiteți jurnalul de accident către echipa cFos, care ne va ajuta în analiza acestei probleme?";
 
 /start installation dialog
+start_header = "Instalare";
+start_subheader = "Startul instalării.";
+start_installation = "Pornește instalarea acum.";
 
 / progress dialog
 progress_inst_header = "Instalează";
@@ -439,6 +607,7 @@ progress_driver_wait = "Vă rog aşteptaţi. Se (dez)instalează driverul. Poate
 / confirm delete dialog
 conf_del_header = "Îndepărtează fişierele de configuraţie.";
 conf_del_subheader = "Confirmaţi ştergerea fişierelor de configuraţie precum şi a celor care conţin datele dumneavoastră personale.";
+conf_del_info = "Următoarele fișiere și directoare de configurare au fost create de către %p și nu au fost șterse încă:";
 conf_del_column = "Numele fişierului";
 conf_del_query = "Dacă doriţi să ştergeţi următoarele fişiere, le puteţi selecta individual. Apoi apăsaţi pe \"Continuă\".";
 
@@ -448,11 +617,14 @@ finish_info_ok = "%? s-a instalat cu succes pe calculatorul dumneavoastră.";
 finish_head_fail = "Instalarea a eşuat.";
 finish_info_fail = "Instalarea a eşuat pentru că:";
 finish_reboot = "Sistemul trebuie repornit! Clic \"Continuă\" pentru repornire sau \"Anulează\" pentru a reporni mai târziu";
+finish_uninst_driver_reboot = "Dezinstalarea driverului existent nu poate fi efectuată numai după repornirea sistemului. "
+                             "Reporniți sistemul dvs. și porniți instalarea din nou.";
 finish_link_ok = "<a href=\"%?\"> Avantajele %?</a>";
 finish_file_fail = "Alte detalii puteţi găsi în fişierul de protocol %s";
 finish_file_link_fail = "Alte detalii puteţi găsi în  <a href=\"file://%s\">fişierul de protocol</a>.";
 finish_cfosts_disabled = "Trafic Shaping-ul a fost dezactivat, pentru că %p îl efectueză deja. (Acesta poate fi reactivat din meniul de configuraţie cFos)";
 finish_cfosts_enabled = "Traffic shaping-ul a fost activat.";
+finish_link_checkbox = "Afișează ultimele caracteristici ale %p";
 
 / uninstall finish page
 ui_finish_head_ok = "Dezinstalarea s-a efectuat cu succes.";
@@ -475,25 +647,37 @@ task_desktop_link = "Se creează o scurtătură către suprafaţa de lucru...";
 task_program_group = "Se creează grupul de programe...";
 task_registry = "Se efectuează înregistrarea...";
 task_driver = "Instalarea driverului...";
+task_service = "Instalarea serviciului...";
 task_daemon = "Iniţializaţi %?...";
 task_uninstall_old = "Dezinstalarea versiunii existente...";
 task_stop_daemon = "Oprire %?...";
 task_uninstall_driver = "Dezinstalarea driverului...";
+task_uninstall_service = "Dezinstalarea serviciului...";
+task_uninstall_ga = "Dezinstalare cFos Game Analyzer...";
 task_delete_files = "Ştergerea fişierelor...";
+task_cleanup_caches = "Curățarea cacheului...";
 task_hangup = "Deconectează toate conexiunile active...";
 task_flush_registry = "Se memorează regiştrii sistemului de calcul...";
 task_cancel = "Opriţi efectuarea acţiunii...";
 task_canceled = "Operaţiunea opcrită!";
 
 / connectivity test progress tasks
+task_start_program = "Pornire %p...";
+task_test_localhost = "Testare localhost...";
+task_test_local_ip = "Testarea adreselor IP locale...";
+task_test_public_ip = "Testarea adreselor IP publice...";
+task_test_finished = "Test finalizat.";
 
 / program group
 speed_pg_name = "%p Traffic Shaping";
 pg_uninstall = "Dezinstalează %?";
 pg_www = "www.cfos.de";
 pg_console = "consolă %?";
+pg_start = "Fereastră de status pt pornirea %p";
 pg_menu = "%? meniu";
 pg_add_connection = "Adaugă conexiune";
+pg_enter_serial_number = "Introduceți numărul serial";
+pg_configure = "Configurează %p";
 
 / desktop symbol
 dt_advertise = "Caracteristicile %?";
@@ -511,16 +695,23 @@ query_driver_err_abort = "A avut loc o eroare pe parcursul instalării driverulu
 			"Este posibil să continuaţi instalarea, pentru evaluarea programului.\n"
 			"Vă rugăm luaţi la cunoştiinţă că %p cel mai probabil nu va rula normal.\n\n"
 			"Opriţi instalarea? (recomandat)";
+query_further_info = "Doriți informații suplimentare?";
 
 / error messages
 err_driver_inst = "Driverul nu a putut fi instalat.";
+err_service_inst = "Instalarea serviciului a eșuat.";
+err_service_uninst = "Dezinstalarea serviciului a eșuat.";
 err_daemon_start = "% nu a putut fi pornit.";
 err_uninst_old = "Versiunea actuală nu a putut fi dezinstalată. Vă rugăm reporniţi sistemul de operare.";
 err_os = "Sistemul de operare este %?.\n\n%? Necesită unul sistemele de operare Windows 2000/XP sau mai nou pentru a funcţiona.";
 err_os_minxp = "Sistemul de operare este %?.\n\n%? Necesită unul sistemele de operare Windows XP sau mai nou pentru a funcţiona.";
+err_os_sup = "%p suportă oficial doar %? sau mai mare.\n\n"
+             "Este posibil, dar nu a fost testat de noi, ca %p să ruleze pe sistemul %?.\n\n"
+             "Doriți să continuați instalarea?";
 err_uninst_driver = "Driverul nu a putut fi dezinstalat.";
 err_create_process = "Eroare la creearea procesului %s: %s	";
 err_write_lock = "Componentele de reţea necesare programului  %? nu au putut fi instalate din cauza unui alt process care le utilizează. Vă rugăm să închideţi toate celelalte aplicaţii sau reporniţi calculatorul şi Încercaţi din nou!";
+err_write_lock_process = "%? componentele de rețea sunt utilizate de următoarea aplicație: %?. Închideți acest proces sau reporniți calculatorul și încercați din nou.";
 err_file_auth = "Unele fişiere din acest kit sunt invalide sau lipsesc.\nVă rugăm să vă procuraţi o copie validă a %p\n(de la www.cfos.de).";
 err_cancel = "Operaţiunea a fost anulată.";
 err_no32 = "Nu se pot instala drivere pe bază de 32 de biţi pe un sistem pe bază de 64 de biţi.\n\nSO: %?\nProdus: %?";
@@ -549,8 +740,22 @@ cannot_install = "Instalarea nu este posibilă";
 err_uninst_daemon =
    "Daemonul nu poate fi dezinstalat. "
    "Închideţi toate ferestrele %p sau reporniţi sistemul de operare.";
+err_activate_10045 =
+   "Eroarea HTTP 10045 a apărut în momentul activări.\n"
+   "O posibile cauză este coruperea modulului Winsock.\n"
+   "Pt a reseta modului Winsock deschideți linia de comandă\n"
+   "și introduceți 'netsh winsock reset'.\n"
+   "Apoi reporniți calculatorul și încercați activarea\n"
+   "din nou.";
+err_activate_12002 =
+   "Eroarea HTTP 12002 (request time-out) a apărut în\n"
+   "momentul activări. O posibilă cauză este blocarea conexiunii\n"
+   "necesare pt înregistrare de către un firewall, un antivirus\n"
+   "sau alt program de securitate. Dacă aveți asemenea programe\n"
+   "instalate, dezactivați-le temporar, și apoi reîncercați înregistrarea.";
 / %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "A apărut o eroare la copierea fişierului %1 la %2 (%3).";
+err_port_in_use = "Portul %? al serverului este utilizat deja de alt program.\n\nProgram: %?\nCale: %?";
 
 / warning messages
 wrn_oem_update = "Aţi instalat deja o versiune licenţiată a %p.\n\n"
@@ -559,6 +764,7 @@ wrn_oem_update = "Aţi instalat deja o versiune licenţiată a %p.\n\n"
   "O versiune actuală a licenţei pentru %p poate fi obţinută\n"
   "de unde aţi obţinut licenţa iniţială\n"
   "Doriţi sa continuaţi instalarea?";
+wrn_close_application = "Este recomandat să închideți următoarele aplicații înainte de a continua:";
 
 / traffic shaping algorithm
 tsa_header = "Modul Traffic Shaping (Versiune Multi-User)";
@@ -596,6 +802,34 @@ eml_invalid_email = "Adresa de E-Mail introdusă nu este validă.";
 eml_invalid_optional_email = "Vă rugăm să introduceţi o adresă validă sau să lăsaţi câmpul gol.";
 eml_reg_failed = "Înregistrarea adresei de E-Mail a eşuat.";
 eml_checking_domain = "Verificarea domeniului de E-Mail...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p configurarea rapidă a rețelei Wi-Fi virtuală";
+virtual_wifi_header = "Pornește rețeaua Wi-Fi virtuală";
+virtual_wifi_subheader = "Configurează un punct de acces virtual și activează partajarea conexiunii la Internet.";
+virtual_wifi_info = "Selectează conexiunea de rețea care are acces la Internet și selectează o parolă pt punctul de acces Wi-Fi.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "Codul SSID nu poate fi lăsat gol și nu poate avea mai mult de 32 de caractere.";
+virtual_wifi_invalid_password_length = "Lungimea parolei trebuie să fie între 8 și 64 de caractere.";
+virtual_wifi_ics_not_available = "Partajarea conexiunii la Internet nu este posibilă oe acest calculator.";
+virtual_wifi_error_get_cons = "Eroare în momentul obținerii informaților legate de conexiunile de rețea.";
+virtual_wifi_ics_warning = "Partajarea conexiunii la Internet este activată deja pt următoarea rețea:\n%?\n\nDoriți să folosiți aceasta rețea:\n%?";
+virtual_wifi_error_enable_ics = "Eroare în momentul activării partajării conexiunii la Internet.";
+virtual_wifi_error_start = "Eroare în momentul pornirii rețelei Wi-Fi virtuale.";
+virtual_wifi_ok = "Rețeaua Wi-Fi și partajarea conexiunii la Internet au fost activate cu succes.\n\nNotă: Dacă un client nu se poate conecta la rețeaua Wi-Fi virtuală, opriți și reporniți rețeaua Wi-Fi virtuală.\n\nDacă un client se poate conecta, dar nu are acces la Internet, dezinstalați și apoi reinstalați %p.";
+virtual_wifi_query_stop = "Oprește rețeaua virtuala Wi-Fi?";
+virtual_wifi_error_stop = "A apărut o eroare în momentul opririi rețelei Wi-Fi virtuale:";
+virtual_wifi_stopped = "Rețeaua Wi-Fi virtuală a fost oprită cu succes.";
+virtual_wifi_dialup_ics = "Pt o conexiune dial-up trebuie să activați partajarea conexiunii la Internet manual, modificând proprietățile acestei conexiuni.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
