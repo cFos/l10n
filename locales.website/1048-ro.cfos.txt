@@ -750,7 +750,7 @@ speed_guide_p11e = "Pentru o viteză de download mai mare:";
 speed_guide_q11 = "Asta a ajutat?";
 speed_guide_p12a = "Sunt cazuri (rare) când cFosSpeed RX shaping reduce viteza de download.<br/> Încearcă următoarele din <b class=\"speed_console\">cFosSpeed Console</b>:";
 speed_guide_p12b = "Sunt cazuri (rare) pierderea pachetelor conexiuni confuzează cFosSpeed Traffic Shaping.<br/> Încearcă următoarele din <b class=\"speed_console\">cFosSpeed Console</b>:";
-speed_guide_p13a = "Uneori măsurătorile vitezei derivă în timp pentru că întotdeauna există întotdeauna o cantitate enormă de conexiuni și de trafic UDP. Asta se poate întâmpla în unele cazuri utorrent . Calibrarea funcționează bine, dar după un timp conexiunile devin lente și mai lente.";
+speed_guide_p13a = "Uneori măsurătorile vitezei derivă în timp pentru că întotdeauna există întotdeauna o cantitate enormă de conexiuni și de trafic UDP. Asta se poate întâmpla în unele cazuri BitTorrent . Calibrarea funcționează bine, dar după un timp conexiunile devin lente și mai lente.";
 speed_guide_p13b = "Numai în asemenea cazuri poți seta repararea vitezei:";
 speed_guide_l13a = "Obține valorile curente folosind <b class=\"speed_console\">cFosSpeed Console</b>:";
 speed_guide_l13b = "Acum alege o valoare între aceste două numere și ia 90% până la %98 din ea (<span class=\"txspeed_new\">510715</span> in this example).<br />Seteaz-o";

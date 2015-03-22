@@ -2186,7 +2186,7 @@ speed_guide_p11e = "Für eine höhere Download Speed:";
 speed_guide_q11 = "Hat dies geholfen??";
 speed_guide_p12a = "Es gibt (seltene) Fälle in denen cFosSpeed RX shaping die Download Speed reduziert.<br/>Um dieses Problem zu lösen, versuchen Sie folgendes in der <b class=\"speed_console\">cFosSpeed Konsole</b>:";
 speed_guide_p12b = "Es gibt außerdem (seltene) Fälle in denen Paketverlust Ihrer Verbindung cFosSpeed's Traffic Shaping durcheinander bringt.<br/>Um dies zu lösen, versuchen Sie folgendes in der <b class=\"speed_console\">cFosSpeed Konsole</b>:";
-speed_guide_p13a = "Manchmal weicht die Geschwindigkeitsmessung etwas ab über die Zeit, wenn dauerhaft extrem viele Verbindungen und viel UDP Traffic vorhanden sind. Dieser Fall kann in manchen Situationen mit uTorrent auftreten. Die Kalibrierung arbeitet korrekt, aber nach einer Weile wird die Verbindung immer langsamer.";
+speed_guide_p13a = "Manchmal weicht die Geschwindigkeitsmessung etwas ab über die Zeit, wenn dauerhaft extrem viele Verbindungen und viel UDP Traffic vorhanden sind. Dieser Fall kann in manchen Situationen mit BitTorrent auftreten. Die Kalibrierung arbeitet korrekt, aber nach einer Weile wird die Verbindung immer langsamer.";
 speed_guide_p13b = "Nur in diesem Szenario können Sie die Geschwindigkeit fixieren:";
 speed_guide_l13a = "Lesen Sie die aktuellen Werte aus indem Sie die <b class=\"speed_console\">cFosSpeed Konsole</b> benutzen:";
 speed_guide_l13b = "Wählen Sie einen Wert zwischen diesen beiden Zahlen und nehmen Sie 90% bis 98% davon (<span class=\"txspeed_new\">510715</span> in diesem Beispiel).<br />Setzen Sie es mit";

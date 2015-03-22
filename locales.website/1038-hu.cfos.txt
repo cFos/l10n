@@ -2019,7 +2019,7 @@ speed_guide_p11e = "A nagyobb letöltési sebességhez:";
 speed_guide_q11 = "Segített ez??";
 speed_guide_p12a = "Előfordul (ritkább) esetenként, amikor a cFosSpeed RX shaping csökkenti a letöltési sebességet.<br/>E probléma megoldása érdekében, próbálja meg a következőt a <b class=\"speed_console\">cFosSpeed konzolon</b>:";
 speed_guide_p12b = "Előfordul ezen kívül (ritka) esetben, amikor a kapcsolat csomagvesztését a cFosSpeed Traffic Shaping elrontja.<br/>E probléma megoldása érdekében, próbálja meg a következőt a <b class=\"speed_console\">cFosSpeed konzolon</b>:";
-speed_guide_p13a = "Néha kissé eltér a sebességmérés az idő alatt, amikor tartósan sok kapcsolat és nagy UDP forgalom van. Ez történhet néha az uTorrent-tel. A kalibrálás korrekt, a kapcsolat azonban egy idő után egyre lassúbb lesz.";
+speed_guide_p13a = "Néha kissé eltér a sebességmérés az idő alatt, amikor tartósan sok kapcsolat és nagy UDP forgalom van. Ez történhet néha az BitTorrent-tel. A kalibrálás korrekt, a kapcsolat azonban egy idő után egyre lassúbb lesz.";
 speed_guide_p13b = "Csak ebben a szcenárióban rögzítheti a sebességet:";
 speed_guide_l13a = "Olvassa ki a jelenlegi értékeket, miközben a <b class=\"speed_console\">cFosSpeed konzolt</b> használja:";
 speed_guide_l13b = "Válasszon egy értéket a két szám közül és vegye ennek 90%-98%-át (<span class=\"txspeed_new\">510715</span> e példában).<br />Ezzel cserélje ki";
