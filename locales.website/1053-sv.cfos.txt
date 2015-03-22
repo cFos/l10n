@@ -484,7 +484,7 @@ activation_buyonce2 = "Köp en gång och få alla framtida versioner gratis.";
 activation_buytoday = "Om du köper cFosSpeed idag, får du en <b>livstids licens</b>: Alla uppdateringar är redan inkluderade i priset. Helt enkelt ladda ner en ny version, installera den över den äldre versionen - färdigt!";
 activation_buytoday_cfos = "Om Du köper cFos Idag, får Du <b>Livslång licens</b>: Alla uppdateringar är redan inkluderade i priset. Bara ladda ner en ny version, installera över den gamla versionen - Klart!";
 activation_buytoday_cfosbc = "Om Du köper cFos Bredband Anslutning idag, får Du <b>Livslång licens</b>: Alla uppdateringar är redan inkluderade i priset. Bara ladda ner en ny version, installera över den gamla versionen - Klart!";
-activation_buytoday_cfos6link = "Om Du köper cFos IPv6 Länk idag, får Du <b>life-time license</b>: Alla uppdateringar är redan inkluderade i priset. Bara ladda ner en ny version, installera över den gamla versionen - Klart!";
+activation_buytoday_cfos6link = "Om Du köper cFos IPv6 Länk idag, får Du <b>lifetime license</b>: Alla uppdateringar är redan inkluderade i priset. Bara ladda ner en ny version, installera över den gamla versionen - Klart!";
 activation_buytoday2 = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">Köp därför cFosSpeed nu</b>.</a>";
 activation_buytoday2_cfos = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\"><b class=\"red\">Därför köpa cFos nu</b>.</a>";
 activation_buytoday2_cfosbc = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\"><b class=\"red\">Därför köpa cFos Broadband Connect nu</b>.</a>";
@@ -614,7 +614,7 @@ uninst_assess_speed = "Hur bedömer du följande komponenter i cFosSpeed<span cl
 uninst_dontlike = "Jag gillar inte";
 uninst_likemuch = "Jag tycker mycket om";
 uninst_asrock = "Jag använder ASRock XFAST LAN";
-uninst_asrock_order = "Du kan även erhålla en <a onclick=\"cfos.set_event('speed_feedback', 'asrock_order'); return true;\" href=\"/en/order/cfosspeed-n.htm\"><b>cFosSpeed life-time license</b>.</a> Innehavare av cFosSpeed livstidslicens har alltid omedelbar access till de senaste cFosSpeed finesserna, hastighetsförbättringarna och Beta/för-utgåvor.";
+uninst_asrock_order = "Du kan även erhålla en <a onclick=\"cfos.set_event('speed_feedback', 'asrock_order'); return true;\" href=\"/en/order/cfosspeed-n.htm\"><b>cFosSpeed lifetime license</b>.</a> Innehavare av cFosSpeed livstidslicens har alltid omedelbar access till de senaste cFosSpeed finesserna, hastighetsförbättringarna och Beta/för-utgåvor.";
 uninst_asrock_order_start = "Besök cFosSpeed ordersida";
 uninst_dump_help_start = "Vad gör du i händelse av 'Blåskärm' (BSOD)?";
 uninst_install_help_start1 = "Installationssvårigheter med cFosSpeed<span class=\"asus\"> / ROG GameFirst II / Turbo LAN</span>";

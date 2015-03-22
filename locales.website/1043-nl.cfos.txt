@@ -518,24 +518,24 @@ choice7 = "Beide?";
 decision = "Welk product?";
 decision_help = "Besluit pad";
 dialup_dsl_cable = "Inbelverbinding met DSL of cable modem (PPPoE)";
-expiration_buy = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">Koop uw persoonlijke cFosSpeed life-time licensie nu!</b></a>";
+expiration_buy = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">Koop uw persoonlijke cFosSpeed lifetime licensie nu!</b></a>";
 expiration_div1_h1 = "Dank u voor het proberen van cFosSpeed!";
 expiration_div1_p1 = "cFos Traffic Shaping is nu gecalibreerd voor uw internet connectie.<br /> Nu maximaliseert het uw throughput en minimaliseert het uw ping time.<br /> Onze klanten worden het snel gewoon, vele kunnen hun leven niet meer zonder voorstellen.";
 expiration_div1_p2 = "Vermijd trage downloads tijdens een gelijktijdige upload.<br /> vermijd hoge pings of slechte VoIP kwaliteit door andere data transfers.";
-expiration_div1_p3 = "Gebruik deze kans en <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">koop de cFosSpeed life-time licensie nu.</b></a>";
+expiration_div1_p3 = "Gebruik deze kans en <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">koop de cFosSpeed lifetime licensie nu.</b></a>";
 expiration_div2_h1 = "Voor u het beseft is cFosSpeed 30 dagen test periode voorbij.";
 expiration_div2_p1 = "U zal zeker voordeel hebben bij het nu kopen van cFos Traffic";
 expiration_div2_p2 = "maximale bandwidth en minimale ping.";
 expiration_div2_p3 = "cFos Traffic Shaping zijn werking zal tot uiting komen eens u meerdere data streams naar het internet gebruikt, beginnend met email en web surfing.";
-expiration_div2_p4 = "Om te genieten van geoptimaliseerde internet connecties in de toekomst, <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">koop u cFosSpeed life-time licensie nu!</b></a>";
+expiration_div2_p4 = "Om te genieten van geoptimaliseerde internet connecties in de toekomst, <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">koop u cFosSpeed lifetime licensie nu!</b></a>";
 expiration_div2_p5 = "Koop éénmalig en heb recht op levenslange updates:<br /><b>alle verdere versies zijn al in de prijs inbegrepen</b>.";
 expiration_div3_p1 = "<h1>De waarde van een originele is niet tegen te spreken.</h1>In het vak van internet optimalisatie is cFosSpeed origineel. Jaren lang hebben wij cFos Traffic Shaping geoptimaliseerd zodanig dat u het maximale haalt uit uw internet connectie.";
 expiration_div3_p2 = "cFos Traffic Shaping maximaliseert niet enkel <b>uw bandwidth</b> tijdens het behouden van <b>minimale ping</b>, maar geeft u ook de optie om individuele applicatie te selecteren, zoals Games, Media-Streaming, etc. boven andere aplicaties. Met cFosSpeed beslist <b>u</b> hoe je uw connectie gebruikt.";
-expiration_div3_p3 = "U hoeft niet constant te zoeken naar nieuwe versies, want met uw life-time licensie zijn deze inbegrepen. Simply download gewoon de nieuwe versie van onze website, installeer over de oude - klaar!";
-expiration_div3_p4 = "Heeft cFos Traffic Shaping u overtuigd?<br />Dan <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">koop - éénmalig - de cFosSpeed life-time licensie nu!</b></a>";
+expiration_div3_p3 = "U hoeft niet constant te zoeken naar nieuwe versies, want met uw lifetime licensie zijn deze inbegrepen. Simply download gewoon de nieuwe versie van onze website, installeer over de oude - klaar!";
+expiration_div3_p4 = "Heeft cFos Traffic Shaping u overtuigd?<br />Dan <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">koop - éénmalig - de cFosSpeed lifetime licensie nu!</b></a>";
 expiration_div4_p1 = "Uw test periode loopt af in een paar dagen!";
 expiration_div4_p2 = "Wacht niet tot cFos Traffic Shaping gedeactiveerd is. Blijf genieten van maximale bandwidth en minimale ping.";
-expiration_div4_p3 = "cFosSpeed is betaalbaar.<br />Koop éénmalig en heb recht op levenslange updates.<br />gebruik de gelegenheid nu <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">koop uw cFosSpeed life-time licensie nu!</b></a>";
+expiration_div4_p3 = "cFosSpeed is betaalbaar.<br />Koop éénmalig en heb recht op levenslange updates.<br />gebruik de gelegenheid nu <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">koop uw cFosSpeed lifetime licensie nu!</b></a>";
 expiration_div4_p4 = "Nu u de <b>voordelen ziet van cFosSpeed Traffic Shaping</b>, zullen wij <b>geen andere popups</b>. activeren:";
 faq_long = "Veelgevraagde vragen";
 h1_alternatives = "cFosSpeed, cFos or cFos Breedband verbinding";
@@ -593,7 +593,7 @@ uninst_assess_speed = "Hoe beoordeelt u de volgende aspecten van cFosSpeed<span 
 uninst_dontlike = "Ik ben niet tevreden";
 uninst_likemuch = "Ik ben erg tevreden";
 uninst_asrock = "Ik gebruik ASRock XFAST LAN";
-uninst_asrock_order = "U kunt ook een <a onclick=\"cfos.set_event('speed_feedback', 'asrock_order'); return true;\" href=\"/en/order/cfosspeed-n.htm\"><b>cFosSpeed life-time licentie halen</b>.</a> Eigenaren van een cFosSpeed life-time licentie hebben altijd onmiddelijke toegang tot de nieuwste cFosSpeed functies, snelheid verbeteringen en Beta / Pre-Release versies.";
+uninst_asrock_order = "U kunt ook een <a onclick=\"cfos.set_event('speed_feedback', 'asrock_order'); return true;\" href=\"/en/order/cfosspeed-n.htm\"><b>cFosSpeed lifetime licentie halen</b>.</a> Eigenaren van een cFosSpeed lifetime licentie hebben altijd onmiddelijke toegang tot de nieuwste cFosSpeed functies, snelheid verbeteringen en Beta / Pre-Release versies.";
 uninst_asrock_order_start = "Bezoek cFosSpeed bestel pagina";
 uninst_dump_help_start = "Wat te doen in het geval van een Blauw Scherm (BSOD)?";
 uninst_install_help_start1 = "Moeilijkheden met het installeren van cFosSpeed<span class=\"asus\"> / ROG GameFirst II / Turbo LAN</span>";
@@ -1237,7 +1237,7 @@ asus_af_l6 = "<b>Additionele functionaliteit</b>: Automatisch verbergen bij voll
 / asrock
 asrock_p1 = "Door het aanschaffen van een ASRock moederbord heeft U het recht en voordeel gebruik te kunnen maken van ASRock XFast LAN. Dit is een onbeperkte en volledige versie van de Traffic Shaping oplossing aangeboeden door cFosSpeed. We hopen dat U geniet van de snelheidswinst die mogelijk is met deze versie van ASRock XFast LAN.";
 asrock_p2 = "Voor de nieuwste functies is er ook de meest recente professionele cFosSpeed versie beschikbaar.";
-asrock_p3 = "Als u de cFosSpeed versie installeerd heeft u een trial periode van 30 dagen. Dan kunt u ofwel een cFosSpeed life-time licentie kopen of cFosSpeed de-installeren en ASRock XFAST/LAN weer installeren. Eigenaren van een cFosSpeed life-time licentie hebben altijd onmiddelijke toegang tot de nieuwste cFosSpeed functies en Beta / Pre-Release versies.";
+asrock_p3 = "Als u de cFosSpeed versie installeerd heeft u een trial periode van 30 dagen. Dan kunt u ofwel een cFosSpeed lifetime licentie kopen of cFosSpeed de-installeren en ASRock XFAST/LAN weer installeren. Eigenaren van een cFosSpeed lifetime licentie hebben altijd onmiddelijke toegang tot de nieuwste cFosSpeed functies en Beta / Pre-Release versies.";
 
 / special price
 back = "terug";

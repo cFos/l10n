@@ -1669,17 +1669,17 @@ asus_af_l6 = "<b>Fungsi tambahan</b>: Auto-hide pada fullscreen (Game Mode), Fir
 / asrock
 asrock_p1 = "Sebagai pelanggan dari motherboard ASRock anda mempunyai hak untuk menggunakan dan memanfaatkan ASRock XFast LAN. Ini adalah fitur penuh, solusi unlimited Traffic Shaping yang didukung oleh cFosSpeed. Kami berharap anda menikmati peningkatan kecepatan yang mungkin didapatkan dengan versi dari ASRock XFast LAN.";
 asrock_p2 = "Untuk fitur terbaru disana juga merupakan versi cFosSpeed professional terkini yang tersedia.";
-asrock_p3 = "Jika anda instal versi cFosSpeed, anda mempunyai periode trial selama 30 hari. Lalu anda dapat membeli lisensi cFosSpeed life-time atau uninstall cFosSpeed dan instal ASRock XFAST/LAN lagi. Pemilik dari lisensi cFosSpeed life-time selalu mempunyai akses langsung ke berita fitur cFosSpeed dan versi Beta / Pre-Release.";
+asrock_p3 = "Jika anda instal versi cFosSpeed, anda mempunyai periode trial selama 30 hari. Lalu anda dapat membeli lisensi cFosSpeed lifetime atau uninstall cFosSpeed dan instal ASRock XFAST/LAN lagi. Pemilik dari lisensi cFosSpeed lifetime selalu mempunyai akses langsung ke berita fitur cFosSpeed dan versi Beta / Pre-Release.";
 
 / special price
 back = "kembali";
 explain1 = "Kini kami menawarkan cFos dan cFosSpeed dengan harga diskon sangat special dalam upaya untuk meningkatkan sosialisasi dan kesadaran terhadap teknologi Traffic Shaping.";
 explain2 = "Anda akan menerima lisensi untuk versi 32-bit dan versi 64-bit.";
 explain4 = "Untuk cFosSpeed, versi mendatang untuk Vista/7 juga termasuk.";
-explain5 = "Anda mendapatkan lisensi dengan harga discount special ditambah update life-time.";
-explain6 = "Harga sebesar 9 Euro berisi update mendatang untuk satu tahun. Untuk tambahan, dengan harga 6 Euro anda mendapatkan update life-time.";
+explain5 = "Anda mendapatkan lisensi dengan harga discount special ditambah update lifetime.";
+explain6 = "Harga sebesar 9 Euro berisi update mendatang untuk satu tahun. Untuk tambahan, dengan harga 6 Euro anda mendapatkan update lifetime.";
 explain7 = "<strong>Updates</strong>: Hanya dengan instal versi terbaru diatas versi yang lama!";
-explain8 = "<strong>Pelanggan lama</strong>: Seluruh lisensi yang dibeli sebelum 1 Februari 2007, mendapat update life-time.";
+explain8 = "<strong>Pelanggan lama</strong>: Seluruh lisensi yang dibeli sebelum 1 Februari 2007, mendapat update lifetime.";
 special_price_end = "<span class='red'>Note</span>: Penawaran spesial ini akan berakhir segera!";
 special_price_h1 = "Kapan cFos dan cFosSpeed masih tersedia dengan harga yang rendah?";
 special_price_h2 = "Hingga 31 Januari:";

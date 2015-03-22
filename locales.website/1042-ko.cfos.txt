@@ -531,7 +531,7 @@ choice7 = "둘 모두?";
 decision = "어떤 제품으로 결정하시겠습니까?";
 decision_help = "경로 설정";
 dialup_dsl_cable = "DSL이나 케이블 모뎀 (PPPoE)을 통한 다이얼 업 인터넷";
-expiration_buy = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">평생동안 지속되는 라이센스 버전의 cFosSpeed life-time를 구매하세요!</b></a>";
+expiration_buy = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">평생동안 지속되는 라이센스 버전의 cFosSpeed lifetime를 구매하세요!</b></a>";
 expiration_div1_h1 = "cFosSpeed!를 사용해주셔서 감사합니다!";
 expiration_div1_p1 = "cFos Traffic Shaping 는 여러분의 인터넷 접속을 조정합니다.<br /> 이제 여러분은 핑 타음은 최소화하고 처리량은 최대화합니다<br /> 우리 프로그램의 구매자분들은 이것이 없는 삶은 상상할 수 없을 정도로 빠른 인터넷을 체험하고 계십니다.";
 expiration_div1_p2 = "동시에 다운로드, 업로드 할 때 느려지지 않습니다.<br /> 다른 데이터 전송때문에 VoIP 통화질이 저하되고 핑 수치가 높아지는 것을 막습니다.";
