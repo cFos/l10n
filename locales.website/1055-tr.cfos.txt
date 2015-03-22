@@ -1563,7 +1563,6 @@ asus_af_l6 = "<b>Ek işlevler</b>: Tam ekranda otomatik gizleme (Oyun Modu), Gü
 / asrock
 asrock_p1 = "ASRock anakartlarının müşterisi olarak ASRock XFast LAN tarafından kullanma ve yararlanma hakkınız var. Tam özellikli, sınırsız Traffic Shaping çözümü cFosSpeed tarafından sunulmaktadır. ASRock XFast Lan sürümüyle hız arttırabilirsiniz. Dileriz, beğenirsiniz.";
 asrock_p2 = "Yeni özellikler için profesyonel cFosSpeed sürümü mevcut.";
-asrock_p3 = "cFosSpeed sürümünü yüklerseniz, 30 günlük deneme süreniz olacaktır. Sonra ömür boyu cFosSpeed lisansı alabilirsiniz ya da cFosSpeed'i silebilir ve tekrar ASRock XFAST/LAN yükleyebilirsiniz. Owners of a cFosSpeed life-time license always have immediate access to the newest cFosSpeed features and Beta / Pre-Release versions.";
 
 / special price
 back = "geri";

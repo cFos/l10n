@@ -787,7 +787,6 @@ expiration_div2_p1 = "Na pewno do tego czasu już odnosisz korzyści z korzystan
 expiration_div2_p2 = "maksymalizacji przepustowości oraz minimalizacji czasów ping.";
 expiration_div2_p3 = "Używanie cFos Traffic Shaping nabiera sensu jak tylko zaczynasz korzystać z więcej niż jednego strumienia danych, zaczynając od wysyłania emaili i odwiedzania stron WWW.";
 expiration_div2_p4 = "Żeby cieszyć się z zoptymalizowanego połaczenia internetowego <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">kup swoją dożywotnią licencje cFosSpeed!</b></a>";
-expiration_div2_p5 = "Buy once and secure your right to life-time updates:<br /><b>Wszystkie przyszłe wersje są już wliczone w cenę</b>.";
 expiration_div3_p1 = "<h1>Wartość oryginału jest niezaprzeczalna.</h1>Na polu optymalizacji połaczeń internetowych cFosSpeed jest wyjątkowy. Przez lata doskonaliliśmy cFos Traffic Shaping byś mógł wycisnąć maksimum ze swojego połączenia internetowego.";
 expiration_div3_p2 = "cFos Traffic Shaping nie tylko <b>zwiększa przepustowość</b> przy zachowaniu <b>minimalnych czasów ping</b>, ale także daje możliwość ustalania priorytetów dla poszczególnych aplikacji, takich jak gry, MediaStreaming itp. wyższych niż dla innych aplikacji. Z cFosSpeed to <b>Ty</b> ​decydujesz, w jaki sposób korzystasz z połączenia.";
 expiration_div3_p3 = "Nie musisz ciągle szukać nowych wersji ponieważ z naszą dożywotnią licencją są one już wliczone w cenę. Po prostu sciagnij nowszą wersję z naszej strony, zainstaluj na poprzednią wersję - i to wszystko!";

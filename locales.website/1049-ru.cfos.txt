@@ -882,12 +882,6 @@ uninst_reason_long = "Пожалуйста, выберете наиболее в
 uninst_assess_speed = "Как вы оцениваете следующие компоненты cFosSpeed<span class=\"asus\"> / ROG GameFirst II / Turbo LAN</span>?";
 uninst_dontlike = "Они мне не нравятся";
 uninst_likemuch = "Они мне очень нравятся";
-uninst_asrock = "I use ASRock XFAST LAN";
-uninst_asrock_order = "You can also get a <a onclick=\"cfos.set_event('speed_feedback', 'asrock_order'); return true;\" href=\"/en/order/cfosspeed-n.htm\"><b>cFosSpeed life-time license</b>.</a> Owners of a cFosSpeed life-time license always have immediate access to the newest cFosSpeed features, speed improvements and Beta / Pre-Release versions.";
-uninst_asrock_order_start = "Visit cFosSpeed order page";
-uninst_dump_help_start = "What to do in case of a Blue Screen (BSOD)?";
-uninst_install_help_start1 = "Difficulties installing cFosSpeed<span class=\"asus\"> / ROG GameFirst II / Turbo LAN</span>";
-uninst_install_help_start2 = "Problem: 'driver not loaded'. What can I do?";
 uninst_installation = "Проблемы с установкой";
 uninst_no_sale = "Тяжело купить в моей стране";
 uninst_pingtime = "Недостаточное уменьшение времени пинга";

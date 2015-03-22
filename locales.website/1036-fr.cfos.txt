@@ -1024,7 +1024,6 @@ uninst_assess_speed = "Comment jugez-vous les composants de cFosSpeed<span class
 uninst_dontlike = "Je n'aime pas";
 uninst_likemuch = "J'aime bien";
 uninst_asrock = "J'utilise ASRock XFAST LAN";
-uninst_asrock_order = "Vous pouvez aussi obtenir <a onclick=\"cfos.set_event('speed_feedback', 'asrock_order'); return true;\" href=\"/en/order/cfosspeed-n.htm\"><b>cFosSpeed life-time license</b>.</a> Owners of a cFosSpeed life-time license always have immediate access to the newest cFosSpeed features, speed improvements and Beta / Pre-Release versions.";
 uninst_asrock_order_start = "Visitez la page d'achat de cFosSpeed";
 uninst_dump_help_start = "Que faire en cas d'un écran bleu ?";
 uninst_install_help_start1 = "Difficultés pour installer cFosSpeed<span class=\"asus\"> / ROG GameFirst II / Turbo LAN</span>";
