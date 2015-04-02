@@ -971,6 +971,7 @@ virtual_wifi_stopped = "Das virtuelle WLAN wurde erfolgreich angehalten.";
 virtual_wifi_dialup_ics = "Für eine DFÜ-Netz- bzw. Wählverbindung müssen Sie die Internet-Verbindungsfreigabe manuell über die Eigenschaften dieser Verbindung aktivieren.";
 virtual_wifi_error_not_present = "Kein (einsatzbereites) WLAN-Interface gefunden.\n\nZur Einrichtung eines virtuellen WLANs muss ein WLAN-Interface vorhanden und einsatzbereit sein.";
 virtual_wifi_autostart = "Automatisch bei jedem Systemstart starten.";
+virtual_wifi_deactivate_autostart = "Automatischen Start bei jedem Systemstart ebenfalls deaktivieren.";
 
 
 / ----------------------------------------------------------------------
