@@ -452,8 +452,8 @@ regid_help_long = "Você usa sua conexão com várias outras máquinas simultân
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
 net_talk = "Net Talk";
-net_talk_help = "EstatÃ­sticas de trÃ¡fego Broadcast em sua LAN";
-net_talk_help_long = "Para melhorar a precisÃ£o, envie as estatÃ­ticas do Traffic Shaping para outros computadores em sua rede local";
+net_talk_help = "Estatísticas de tráfego Broadcast em sua LAN";
+net_talk_help_long = "Para melhorar a precisão, envie as estatíticas do Traffic Shaping para outros computadores em sua rede local";
 net_talk_subheader = "Por favor, decida se o recurso Net Talk deve ser utilizado.";
 
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
@@ -471,7 +471,7 @@ ask_key_banned_info = "Houve um problema com a sua chave de licença.\nGostaria 
 
 adapter_info = "Informações do Adaptador";
 channel_recommend = "Canais com a menor frequência de uso (do melhor para o pior)";
-channel_explain = "VocÃª pode usar o uso do canal para configurar a sua estaÃ§Ã£o de WLAN, mas cuidado que o uso da frequÃªncia actual pois depende do uso particular das redes WLAN de outros. Alguns podem estar ociosos, alguns podem ser muito utilizadas.";
+channel_explain = "Você pode usar o uso do canal para configurar a sua estação de WLAN, mas cuidado que o uso da frequência actual pois depende do uso particular das redes WLAN de outros. Alguns podem estar ociosos, alguns podem ser muito utilizadas.";
 no_adapters = "Não há informações sobre o adaptador.";
 wlan_no_service = "Serviço indisponível. Por favor, instale ou inicie a API de rede sem-fio para Windows (WZC).";
 wlan_no_station = "Não há pontos de acesso suficientes.";
@@ -559,7 +559,7 @@ welcome_found_dir = "Uma instalação já existente do %1 v%2 foi detectada no s
 welcome_found_unknown = "Uma instalação existente do %? foi detectada no seu sistema.";
 welcome_found_modified = "Uma instalação incompleta ou modificada do %1 v%2 foi detectada no seu computador no diretório %3.";
 welcome_update = "Para substituir a versão existente, clique em Avançar.";
-welcome_admin = "VocÃª nÃ£o tem privilÃ©gios de administrador. Para executar este assistente, precisarÃ¡ de ter privilÃ©gios de administrador.";
+welcome_admin = "Você não tem privilégios de administrador. Para executar este assistente, precisará de ter privilégios de administrador.";
 welcome_lang_syslink = "<a href=\"%?\">Outras Línguas</a>";
 welcome_oem_info = "%1 é uma versão OEM do %p para %2. Assim sendo, %p contém todos os recursos do %1 e outros a mais.";
 
@@ -569,7 +569,7 @@ ui_welcome_info = "Se realmente deseja desinstalar %1 v%2 do diretório %3 e rem
 
 / brand key welcome page
 bk_welcome_line = "%? Registro.";
-bk_welcome_info = "Este assistente lhe acompanharÃ¡ ao longo do processo de registo do %?.";
+bk_welcome_info = "Este assistente lhe acompanhará ao longo do processo de registo do %?.";
 bk_welcome_found = "Foi detectado um arquivo de licença já existente no diretório de destino %?.";
 bk_welcome_update = "Para substituir o arquivo de licença existente, clique em Avançar.";
 
@@ -594,8 +594,8 @@ pwd_reg_to = "O %p será registrado em nome de:";
 pwd_password_info = "Por favor, insira a senha da sua chave de licença no formato xxxx-xxxx-xxxx-xxxx.";
 pwd_password = "Contra-senha:";
 pwd_invalid_password = "Senha inválida. Por favor, verifique o que digitou e tente novamente.";
-pwd_activate_info = "VocÃª precisa de estar ligado Ã  Internet para poder activar a sua licenÃ§a nos nossos servidores.";
-pwd_activate_failed = "ActivaÃ§Ã£o da licenÃ§a fracassou!";
+pwd_activate_info = "Você precisa de estar ligado à Internet para poder activar a sua licença nos nossos servidores.";
+pwd_activate_failed = "Activação da licença fracassou!";
 pwd_activate_failed_code = "A ativação da chave falhou: erro %?.";
 
 / serial number dialog
@@ -616,7 +616,7 @@ sn16_failed = "Falha ao obter chave de licença!";
 / re-enter password dialog
 repwd_header = "Contra-senha %?.";
 repwd_subheader = "A senha de registro precisa de ser reinserida.";
-repwd_reg_to = "Devido as alteraÃ§Ãµes na configuraÃ§Ã£o do seu sistema, terÃ¡ que reinserir a senha para o seguinte registo do %p:";
+repwd_reg_to = "Devido as alterações na configuração do seu sistema, terá que reinserir a senha para o seguinte registo do %p:";
 
 / installation directory dialog
 instdir_header = "Diretório de Instalação";
@@ -636,8 +636,8 @@ tcp_info = "O tamanho de janela do receptor TCP controla o tráfego de entrada d
 tcp_check = "Otimizar tamanho de janela do receptor TCP. (Recomendado)";
 
 / hang up online connection dialog
-hangup_header = "LigaÃ§Ã£o em linha";
-hangup_subheader = "A ligaÃ§Ã£o em linha deverÃ¡ ser desligada.";
+hangup_header = "Ligação em linha";
+hangup_subheader = "A ligação em linha deverá ser desligada.";
 hangup_online = "Você está em Rede com a seguinte conexão:";
 hangup_offline = "A conexão foi desconectada.";
 hangup_info = "Para continuar com este assistente, a conexão em Rede tem que ser desconectada.\n\nPara desconectar agora, clique em Desconectar.";
@@ -699,7 +699,7 @@ finish_uninst_driver_reboot = "A desinstalação do driver atual será completad
 finish_link_ok = "Recursos do <a href=\"%?\">%? !</a>";
 finish_file_fail = "Veja o arquivo de Registro de Atividades %s para mais informações.";
 finish_file_link_fail = "Veja o arquivo de Registro de Atividades<a href=\"file://%s\"></a> para mais informações.";
-finish_cfosts_disabled = "O Traffic shaping foi desactivado no seu cFos, porque o %p jÃ¡ estÃ¡ efectuando o traffic shaping. (Pode reactivar o traffic shaping do cFos no seu menu de configuraÃ§Ãµes.)";
+finish_cfosts_disabled = "O Traffic shaping foi desactivado no seu cFos, porque o %p já está efectuando o traffic shaping. (Pode reactivar o traffic shaping do cFos no seu menu de configurações.)";
 finish_cfosts_enabled = "A Modelagem de Tráfego foi habilitada pelo cFos.";
 finish_link_checkbox = "Mostrar os últimos %p recursos";
 
@@ -726,14 +726,14 @@ task_registry = "Escrevendo as entradas no Registry do Windows...";
 task_driver = "Instalando o Controlador...";
 task_service = "Instalando serviço...";
 task_daemon = "Iniciando %?...";
-task_uninstall_old = "Desinstalando a versÃ£o actual...";
+task_uninstall_old = "Desinstalando a versão actual...";
 task_stop_daemon = "Concluindo %?...";
 task_uninstall_driver = "Desinstalando o Controlador...";
 task_uninstall_service = "Desinstalando serviço...";
 task_uninstall_ga = "Desinstalando cFos Game Analyzer...";
 task_delete_files = "Apagando ficheiros...";
 task_cleanup_caches = "Limpando os caches...";
-task_hangup = "Desligando ligaÃ§Ãµes activas ...";
+task_hangup = "Desligando ligações activas ...";
 task_flush_registry = "Descarregando o registo no disco...";
 task_cancel = "Cancelando operação...";
 task_canceled = "Operação cancelada!";
@@ -752,7 +752,7 @@ pg_www = "www.cfos.de";
 pg_console = "Terminal do %?";
 pg_start = "Iniciar %p janela";
 pg_menu = "Menu do %?";
-pg_add_connection = "Adicionar conexÃ£o";
+pg_add_connection = "Adicionar conexão";
 pg_enter_serial_number = "Insira o número de série %p";
 pg_configure = "Configurar %p";
 
@@ -763,7 +763,7 @@ dt_advertise_desc = "Mostrar todos os recursos do %?.";
 / message boxes
 query_reboot = "O sistema deverá ser reiniciado para que as mudanças entrem em vigor.\n\nReiniciar o sistema agora?";
 query_inst_reboot = "Antes você deve reiniciar seu sistema operacional para que a instalação continue.\n\nPor favor execute o instalador do programa depois de reiniciar.\n\nVocê quer reiniciar seu sistema operacional agora?";
-query_drv_inst_cancel = "A desinstalaÃ§Ã£o do controlador estÃ¡ sendo efectuada pelo sistema operativo.\nA interface do setup do Windows pode levar atÃ© 15 minutos para\ninstalar ou remover o controlador!\n\nÃ‰ extremamente recomendÃ¡vel nÃ£o suspender ou anular este processo, a nÃ£o ser que\njÃ¡ tenha passado esse perÃ­odo de tempo.\n\nQuer realmente Cancelar?";
+query_drv_inst_cancel = "A desinstalação do controlador está sendo efectuada pelo sistema operativo.\nA interface do setup do Windows pode levar até 15 minutos para\ninstalar ou remover o controlador!\n\nÉ extremamente recomendável não suspender ou anular este processo, a não ser que\njá tenha passado esse período de tempo.\n\nQuer realmente Cancelar?";
 query_driver_err_abort = "Ocorreu um erro durante a instalação do controlador!\nAssim sendo é melhor cancelar a instalação agora.\n\nNo entanto, é possível continuar a instalação,\no que pode ser útil para fazer algum teste. Por favor,\nlembre-se que o %p não deverá funcionar corretamente.\n\nCancelar a instalação? (Recomendado)";
 query_further_info = "Gostaria de mais informações?";
 
@@ -780,12 +780,12 @@ err_os_sup = "%p suporta apenas %? ou superior.\n\n"
              "Gostaria de continuar com a instalação?";
 err_uninst_driver = "O controlador do dispositivo não pôde ser desinstalado.";
 err_create_process = "Erro ao executar o programa %s: %s";
-err_write_lock = "Os componentes de rede do %? estÃ£o sendo usados por outro processo. Por favor feche todas as aplicaÃ§Ãµes ou reinicie o computador e tente de novo.";
+err_write_lock = "Os componentes de rede do %? estão sendo usados por outro processo. Por favor feche todas as aplicações ou reinicie o computador e tente de novo.";
 err_write_lock_process = "%? componentes de rede estão em uso pelo(s) seguinte(s) processo(s): %?. Por favor finalize esse(s) processo(s) ou reinicie seu computador e tente novamente.";
-err_file_auth = "Alguns ficheiros desta distribuiÃ§Ã£o estÃ£o corruptos ou faltando.\nPor favor obtenha uma distribuiÃ§Ã£o autÃªntica do %p \n(ex. em www.cfos.de).";
+err_file_auth = "Alguns ficheiros desta distribuição estão corruptos ou faltando.\nPor favor obtenha uma distribuição autêntica do %p \n(ex. em www.cfos.de).";
 err_cancel = "A operação foi cancelada.";
 err_no32 = "Não se pode instalar os controladores de 32-bit em um sistema de 64-bit.\n\nSO: %?\nProduto: %?";
-err_bad_keyfile = "Sua licenÃ§a parece estar corrupta ou invÃ¡lida. Por favor, entre em contacto connosco para que lhe possamos entregar uma nova licenÃ§a que funcione.";
+err_bad_keyfile = "Sua licença parece estar corrupta ou inválida. Por favor, entre em contacto connosco para que lhe possamos entregar uma nova licença que funcione.";
 err_bad_setup = "%p parece ter sido instalado incorretamente ou alguns arquivos foram modificados. Por favor, reinstale uma nova cópia de %p e tente de novo.";
 err_bad_signature = "A senha parece estar errada ou ser de uma arquivo de licença diferente. Por favor, insira a senha certa para este arquivo de licença.;";
 err_gdiplus = "A biblioteca GDI+ não foi encontrada!\n\nEsta instalação só pode continuar se a biblioteca GDI+ estiver instalada.\nVocê pode baixar a biblioteca GDI+ da Microsoft como parte da Plataforma SDK\nRedistribuível. Por favor, inicie o arquivo de instalação baixado e descompacte os\narquivos em um <diretório> de sua escolha. Então copie todos os arquivos gdiplus.*\ndo diretório <diretório>\\asms\\10\\msft\\windows\\gdiplus para o\ndiretório Windows\\system32.\n\nClique em 'OK' para abrir a página correspondente na Microsoft para baixar o arquivo.\nClique em 'Cancel' para cancelar a instalação.";
@@ -820,9 +820,9 @@ vista_warn_info = "%p foi digitalmente certificado por GlobalSign, uma companhia
 vista_warn_image = "vista_en.bmp";
 
 / dial entry dialog
-dun_wizard_name = "%p Assistente para conexÃµes";
-connections = "ConexÃµes";
-dun_subheader = "Configurar uma conexÃ£o.";
+dun_wizard_name = "%p Assistente para conexões";
+connections = "Conexões";
+dun_subheader = "Configurar uma conexão.";
 dun_with_bc = " com cFos Broadband Connect";
 dun_reenter_password = "Por favor, volte a inserir sua senha";
 dun_list_tonline = "nova conexão T-Online";
@@ -833,12 +833,12 @@ dun_err_no_device = "Nenhum %p dispositivo encontrado. (O dispositivo deve estar
 eml_header = "Registro do e-mail";
 eml_subheader = "Registre seu endereço de e-mail em cFos.";
 eml_info = "Por favor, registre seu endereço de e-mail em cFos, pois assim incluiremos você em nossa lista de correio sobre novidades e informaremos quando novas versões de %p estiverem disponíveis.";
-eml_info_optional = "Se vocÃª registrar o seu e-mail na cFos, serÃ¡ incluÃ­do em nossa lista de anÃºncios, e receberÃ¡ automaticamente as notificaÃ§Ãµes das novas versÃµes do %p. Se nÃ£o quiser receber nossas noticias, por favor, deixe este campo vazio.";
+eml_info_optional = "Se você registrar o seu e-mail na cFos, será incluído em nossa lista de anúncios, e receberá automaticamente as notificações das novas versões do %p. Se não quiser receber nossas noticias, por favor, deixe este campo vazio.";
 eml_email = "Seu e-mail:";
 eml_invalid_email = "O endereço de e-mail que você inseriu é inválido.";
 eml_invalid_optional_email = "Por favor, insira um endereço de e-mail válido ou deixe em branco este campo.";
-eml_reg_failed = "O registro do correio eletrÃ´nico falhou.";
-eml_checking_domain = "Revisando o domÃ­nio do e-mail...";
+eml_reg_failed = "O registro do correio eletrônico falhou.";
+eml_checking_domain = "Revisando o domínio do e-mail...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
 virtual_wifi_wizard_name = "%p Assistente Intuitivo Virtual Wi-Fi";
