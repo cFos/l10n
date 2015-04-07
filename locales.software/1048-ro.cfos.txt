@@ -33,6 +33,8 @@ htm_lang_prefix = "ro";
 /
 / ----------------------------------------------------------------------
 
+ignore_ssl_cert_chk = "Ignoră erori legate de certificate SSL (nesigur)";
+ignore_ssl_cert_desc = "Dacă cFos Outlook DAV este permis să ignore erori legate de certificate SSL, se poate conecta cu servere folosind certificate SSL nesigure, de exemplu certificate auto-semnate. Activarea acestei opțiuni nu este recomandată, deoarece face conexiunea SSL vulnerabilă pentru atacuri de tip man-in-the-middle.";
 
 / ----------------------------------------------------------------------
 /
@@ -42,6 +44,7 @@ htm_lang_prefix = "ro";
 
 bc_desc = "%p, Drivere pentru conectare cu performanţă sporită";
 sixlink_desc = "%p, Drivere IPv6 pentru conectare cu performanţă sporită";
+pnet_desc = "%p, serverul dvs. web personal";
 renew_params = "Reîmprospătează setările";
 dlg_dun_auto = "Conectare automată";
 dlg_dun_default = "Conexiunea standard";
@@ -58,6 +61,9 @@ setup_connections = "Configurează conexiunile";
 ask_inst_ipv6 = "Protocolul IPv6 nu este instalat pe acest sistem.\n\n"
                 "Iniţializez instalarea protocolului?";
 err_inst_ipv6 = "Eroare %? la instalarea protocolului IPv6.";
+pause_server = "Întrerupe serverul";
+resume_server = "Rezumă serverul";
+file_link_failed = "Crearea linkului a eșuat.";
 
 / connection entry dialog
 con_err_save = "Datele necesare conexiunii nu au putut fi salvate!";
@@ -72,27 +78,75 @@ con_enabled = "activ";
 / pnet configuration dialog
 pnet_header = "Configuraţie";
 pnet_subheader = "Setări generale ale conexiunilor.";
+pnet_conn_header = "Conexiune";
+pnet_conn_subheader = "Setările conexiunilor.";
+pnet_conn_local_ip = "Adresă IP locală %?";
+pnet_conn_public_ip = "Adresă IP publică %?";
+pnet_pubdir_header = "Director Public";
+pnet_pubdir_subheader = "Director care conține fișierele care pot fi descărcate.";
+pnet_pubdir_info = "Specificați locația directorului unde se află fișierele care doriți să fie disponibile pentru descărcare.";
 smtp_header = "Server SMTP";
 smtp_subheader = "Configurarea serverului SMTP";
 dynip_header = "Server pentru IP dinamic";
 dynip_subheader = "Configurarea serverului pentru IP dinamic";
+dlg_start_now_as_current_user = "Pornește %p acum, ca utilizator nou";
 dlg_autostart = "Porneşte %p odată cu pornirea Windowsului";
+dlg_autostart_service = "Instalează %p ca serviciu de sistem, să pornească odata cu Windows";
+dlg_context_menu = "Adaugă în meniul Windows Explorer";
+dlg_create_admin_account = "Crează un nou cont de administrator";
+dlg_admin_pwd = "Parola pentru utilizatorul \"admin\":";
+dlg_admin_pwd_needed = "Parola pentru utilizatorul \"admin\" trebuie configurată pentru un cont de tip administrator.";
 dlg_register_shell_extension = "Înregistrează extensia în shell";
 dlg_server_port = "Portul serverului:";
 dlg_server_name = "Numele serverului:";
 dlg_server = "Server:";
+dlg_https_port = "Portul HTTPS";
 dlg_renew_interval = "Interval pentru reîmprospătare (ms):";
 dlg_redirect_delay = "Întârzierea redirecţionării (ms):";
+dlg_monitor_ports = "Monitorizează asocierea porturilor";
+dlg_enable_upnp = "Activează Serverul Multimedia (UPnP/DLNA)";
+dlg_upnp_info = "Pune fișierele media în subdirectorul 'media' în directorul public.";
+use_https_port = "Utilizează portul HTTPS";
 
 / pnet start type dialog
+pnet_start_header = "Mod de pornire";
+pnet_start_subheader = "Când să pornească programul?";
+pnet_start_login = "după logare (recomandat)";
+pnet_start_system = "ca serviciu de sistem";
+pnet_start_manual = "manual";
+pnet_start_info = "Este recomandat să porniți %p automat după logare. "
+                  "Dacă %p trebuie să ruleze când nici un user nu este logat, trebuie să îl porniți ca și serviciu de sistem. "
+                  "În acel caz nu va fi vizibilă icoana în bara de activități și în meniul de context. "
+                  "Dacă doriți să publicați datele ocazional, atunci porniți %p manual.";
 
 / pnet context menu entry
+publish_with_product = "Publicați cu %p";
 
 / pnet backup info
+dlg_backup_info = "Un fișier de rezervă (.bak) a fost creat pentru fiecare din fișierele următoare înainte de a fi înlocuite:";
 
 / pnet
+end_program = "Închide programul";
+file_copy_failed = "Operațiunea de copiere a fișierelor a eșuat.";
+ipv4_bind_problem = "Serverul nu poate recepționa date pe portul specificat utilizând IPv4, deoarece este utilizat de o altă aplicație (ex. Skype).";
+ipv6_bind_problem = "Serverul nu poate recepționa date pe portul specificat utilizând IPv6, deoarece este utilizat de o altă aplicație (ex. Skype).";
+closing_server = "Serverul se închide.";
+start_product = "Pornește %p";
+info_port_in_use = "Portul %? necesar pentru %p este utilizat de o alta aplicație .\n\nAplicația: %?\nPath: %?\n\n"
+                   "Pentru a utiliza %p, trebuie sa închideți cealalta aplicație sau sa selectați alt port în configurarea %p.";
+monitor_port_desc = "Aceasta sarcină monitorizează periodic porturile necesare pentru %p și îl alertează pe utilizator, dacă unul sau mai multe porturi sunt utilizate de alte aplicații.";
+logon_start_desc = "Aceasta sarcină pornește %p dacă utilizatorul afișat mai jos se loghează.";
+show_home_dir = "Afişează directorul Acasă";
+publish_file = "Publică fișierul";
+user_administration = "Administrarea utilizatorilor";
 
 / pnet connectivity test
+connectivity_test = "Testul conexiuni";
+con_test_subheader = "Vă rugăm să așteptați până testul conexiuni a încheiat.";
+con_test = "Testul conexiuni %p";
+con_test_not_running = "Testul conexiuni nu a putut fi executat, deoarece %p nu rulează. Porniți %p și rulați testul din nou.";
+con_test_public_fail = "Adresa dvs. publică nu a putut fi determinată. Verificați conexiunea la internet și rulați testul din nou.";
+con_test_execute = "Execută testul conexiuni.";
 
 / ----------------------------------------------------------------------
 /
@@ -100,6 +154,14 @@ dlg_redirect_delay = "Întârzierea redirecţionării (ms):";
 /
 / ----------------------------------------------------------------------
 
+ga_service_desc = "cFos Game Analyzer - Recuperarea datelor legate de performanță";
+ga_speed_installed = "cFosSpeed pare să fie instalat pe calculatorul dvs.\n\ncFosSpeed deja conține funcționalitatea oferită de cFos Game Analyzer.\n\nPentru a utiliza cele mai noi caracteristici oferite de cFos Game Analyzer, descărcați și instalați ultima versiune a cFosSpeed de pe siteul www.cfos.de.";
+local_ip_addresses = "Adrese IP locale:";
+ga_password_subheader = "Parolă pentru acces extern la cFos Game Analyzer.";
+ga_password_info = "Utilizator: cfosspeed";
+ga_call_info = "Accesează cFos Game Analyzer de pe calculatorul tău local cu\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nAccesează cFos Game Analyzer de pe un client extern cu parola configurată mai sus, utilizând una din adresele IP de mai sus, în locul 'localhost':\n";
+ga_detected_by_speed = "O versiune cFos Game Analyzer a fost detectată. cFosSpeed deja conține funcționalitatea oferită de cFos Game Analyzer.\n\nDacă continuați,cFos Game Analyzer va fi dezinstalat înaintea instalării cFosSpeed.\n\nDoriți să continuați?";
+ga_use_password_by_speed = "Să folosească cFosSpeed aceeași parolă ca și cFos Game Analyzer? Asta vă permite să accesați cFosSpeed de pe alte dispozitive.";
 
 / ----------------------------------------------------------------------
 /
@@ -589,6 +651,8 @@ crash_msg_virus_clean = "Acest modul poate fi un virus. Din această cauză este
 crash_msg_hook = "Modulele altor programe au fost detectate, care s-au injectat în acest program. Pt a exclude probabilitatea că aceste programe au cauzat prăbușirea, rulați programul din nou după dezinstalarea următoarelor programe:";
 crash_msg_terminate = "Programul se va închide acum.";
 crash_msg_query_upload = "Doriți să trimiteți jurnalul de accident către echipa cFos, care ne va ajuta în analiza acestei probleme?";
+crash_msg_new_release = "O versiune nouă %p este disponibilă. Descărcați și instalați versiunea nouă %p de pe siteul www.cfos.de.";
+crash_msg_new_beta = "O versiune beta nouă %p este disponibilă. Descărcați și instalați versiunea beta nouă %p de pe siteul www.cfos.de/beta.";
 
 /start installation dialog
 start_header = "Instalare";
@@ -685,6 +749,7 @@ dt_advertise_desc = "Afişează toate caracteristicile lui %?.";
 
 / message boxes
 query_reboot = "Pentru a termina instalarea trebuie să reporniţi calculatorul .\n\n Reporniţi acum?";
+query_inst_reboot = "Trebuie să reporniți sistemul de operare înainte ca instalarea să poată continua.\n\nReporniți programul de instalare după ce sistemul a pornit din nou.\n\nDoriți să reporniți sistemul acum?";
 query_drv_inst_cancel = "(Dez)instalarea driverului se efectuează de către sistemul de operare.\n"
 			"Interfaţa necesită în jur de 15 minute pentru instalarea sau \n"
 			"dezinstalarea unui driver.\n"
@@ -807,6 +872,7 @@ eml_checking_domain = "Verificarea domeniului de E-Mail...";
 virtual_wifi_wizard_name = "%p configurarea rapidă a rețelei Wi-Fi virtuală";
 virtual_wifi_header = "Pornește rețeaua Wi-Fi virtuală";
 virtual_wifi_subheader = "Configurează un punct de acces virtual și activează partajarea conexiunii la Internet.";
+virtual_wifi_stop_header = "Oprește Wi-Fi Virtual";
 virtual_wifi_info = "Selectează conexiunea de rețea care are acces la Internet și selectează o parolă pt punctul de acces Wi-Fi.";
 virtual_wifi_ssid = "SSID:";
 virtual_wifi_default_ssid = "cFos Wi-Fi";
@@ -822,6 +888,8 @@ virtual_wifi_query_stop = "Oprește rețeaua virtuala Wi-Fi?";
 virtual_wifi_error_stop = "A apărut o eroare în momentul opririi rețelei Wi-Fi virtuale:";
 virtual_wifi_stopped = "Rețeaua Wi-Fi virtuală a fost oprită cu succes.";
 virtual_wifi_dialup_ics = "Pt o conexiune dial-up trebuie să activați partajarea conexiunii la Internet manual, modificând proprietățile acestei conexiuni.";
+virtual_wifi_error_not_present = "Nu a fost detectată nici o interfață Wi-Fi.\n\nPentru a configura o retea Wi-Fi virtuală, o interfață Wi-Fi trebuie să fie disponibilă";
+virtual_wifi_autostart = "Pornește automat la startul sistemului.";
 
 
 / !!! DO NOT TRANSLATE !!!
