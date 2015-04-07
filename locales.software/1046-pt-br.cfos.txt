@@ -860,7 +860,7 @@ virtual_wifi_query_stop = "Parar o Virtual Wi-Fi?";
 virtual_wifi_error_stop = "Erro ao parar o Virtual Wi-Fi:";
 virtual_wifi_stopped = "O Virtual Wi-Fi foi parado com sucesso.";
 virtual_wifi_dialup_ics = "Para conexão dial-up você precisa habilitar o compartilhamento de Conexão com a Internet manualmente alterando nas propriedades dessa conexão.";
-virtual_wifi_error_not_present = "Não foi encontrada uma interface Wi-Fi.\n\nPara definir uma Virtual Wi-Fi um adaptador Wi-Fi é necessária e precisa estar habilitado.";
+virtual_wifi_error_not_present = "A interface Wi-Fi não foi encontrada.\n\nPara configurar o Virtual Wi-Fi um adaptador Wi-Fi é necessária e precisa estar ativo.";
 virtual_wifi_autostart = "Iniciar automaticamente junto com o sistema.";
 
 
