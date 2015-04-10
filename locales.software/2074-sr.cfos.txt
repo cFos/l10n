@@ -87,6 +87,7 @@ dlg_redirect_delay = "Kašnjenje pri redirekciji (ms):";
 / ----------------------------------------------------------------------
 
 mainurl_name = "www.cfos.com";
+prio_doc_link_url = "http://%w/sr-cyrl-cs/cfosspeed/documentation/program-prioritization.htm";
 
 auth_failed = "Provjera doslijednosti je otkrila da je jedna ili više komponenti izmjenjeno.\nInstalirajte nemodifikovanu verziju sa naše stranice:\n";
 

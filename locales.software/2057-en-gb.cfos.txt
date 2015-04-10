@@ -30,6 +30,7 @@ setup_connections = "Set up connections";
 /
 / ----------------------------------------------------------------------
 
+prio_doc_link_url = "http://%w/en/cfosspeed/documentation/program-prioritization.htm";
 
 badkey = "There is a problem with the licence key.\nPlease re-install the key by double-clicking on the\noriginal file, which you received by e-mail or on diskette.";
 sygate_hint = "%p has detected the Sygate Firewall, which mistakes the\n%p calibration pulse for a Denial of Service attack with\n“Ping-of-Death” packets.\nTherefore you should do a download and then an upload with full\nspeed for some 30 seconds, respectively. This should calibrate\n%p like the calibration pulse.\n\nHint: The Firewall-Function “Anti IP Manipulation” should be\ndeactivated.";

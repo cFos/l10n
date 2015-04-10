@@ -29,6 +29,7 @@ htm_lang_prefix = "no";
 /
 / ----------------------------------------------------------------------
 
+prio_doc_link_url = "http://%w/da/cfosspeed/documentation/program-prioritization.htm";
 
 component_mismatch = "Det er en komponent konflikter i programmet. Vennligst reinnstaller den siste versjonen.";
 trayicon_tip = "Raskere internett med trafikkfordeling, www.cfos.de";
