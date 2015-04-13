@@ -576,7 +576,7 @@ rp_subheader = "使用系統還原點，您能夠讓系統返回到先前的狀�
 rp_info = "使用系統還原點，您能夠讓 Windows 作業系統返回到建立系統還原點時的狀態。在安裝一個新的驅動程式之前，我們建議您建立一個系統還原點。";
 rp_check = "建立系統還原點。";
 / %1 = product name
-rp_uninst_info = "系統還原點並不是正常移除 %1 的程序，而是驅動程式發生衝突時，能讓系統回到原始狀態的額外預防措施。正常移除 %1 方式可在開始選單的 %1 資料夾或是控制台中選取。";
+rp_uninst_info = "系統還原點無法正確移除 %1，而是當驅動程式發生衝突時，能讓系統回到原始狀態的額外預防措施。正常移除 %1 方式可在開始選單的 %1 資料夾或控制台中選取。";
 
 / password dialog
 pwd_header = "密碼。";
@@ -842,6 +842,7 @@ virtual_wifi_stopped = "已成功停止虛擬 Wi-Fi。";
 virtual_wifi_dialup_ics = "您必須為此連線手動調整設定，開啟撥號網路連線的網際網路連線共用。";
 virtual_wifi_error_not_present = "找不到（已可使用的）Wi-Fi 網路卡。\n\n必須先有已存在並就緒的 Wi-Fi 網路卡才能建立虛擬 Wi-Fi。";
 virtual_wifi_autostart = "在系統啟動時自動啟動。";
+virtual_wifi_deactivate_autostart = "也停用在系統啟動時自動啟動。";
 
 
 / ----------------------------------------------------------------------
@@ -1006,7 +1007,7 @@ fs_docdyncapi = "（我們推薦筆記型電腦使用者使用此功能。使用
 / uninstall dialog
 dlg_deinst_ok = "移除";
 dlg_deinst_header = "移除 %p";
-dlg_deinst_subheader = "正在移除 %p。";
+dlg_deinst_subheader = "即將移除 %p。";
 
 / configuration dialog
 dlg_cnf_header = "設定 %p";
@@ -1169,11 +1170,11 @@ install_ask = "安裝資料夾：\n   %s%s%s%s\n\nCOM 通訊埠：%s\n\n參數�
 inst_dsl_on = "\n\nDSL 支援：\n   可用";
 inst_msn = "\n\nMSN:\n   ";
 inst_ok = "安裝成功。\n\n";
-inst_hypertrm = "在您的電腦上找到舊版的 Hyperterminal（超級終端機）。目前已知這個版本與 %p 的新式序列埠驅動程式的同時執行時，會出現問題。您可以從 http://www.hilgraeve.com 網站下載 名為「Hyperterminal Personal Edition」的修訂版本。安裝程式已為您在 %p 程式群組當中建立此網站的連結。\n\n";
+inst_hypertrm = "在您的電腦上找到舊版的 Hyperterminal（超級終端機）。目前已知這個版本與 %p 的新式序列埠驅動程式的同時執行時，會出現問題。您可以從 http://www.hilgraeve.com 網站下載名為「Hyperterminal Personal Edition」的修訂版本。安裝程式已為您在 %p 程式群組當中建立此網站的連結。\n\n";
 inst_norights = "您沒有權限安裝或移除 %p！\n您必須擁有管理員權限才能安裝或移除 %p。\n請登出後，以包含管理員權限的帳號登入，再重新執行安裝程式。";
 inst_scm_noopen = "無法開啟服務管理員！\n您可能沒有權限？\n請登出後，以包含管理員權限的帳號登入，再重新執行安裝程式。\n\n詳細資訊請參見 %s。";
 inst_mtuchanged = "撥號連線中設定已被調整，以提供最佳化的速度。變更將再重新開機後生效。\n\n";
-inst_rmmodem = "某些 %p 數據機已自您的 COM 埠移除，因為新版的 %p當中有新的設定，請在數據機管理員當中調整設定，並重新安裝缺少的數據機。\n\n";
+inst_rmmodem = "某些 %p 數據機已自您的 COM 埠移除，因為新版的 %p 當中有新的設定，請在數據機管理員當中調整設定，並重新安裝缺少的數據機。\n\n";
 inst_reboot = "必須重新啟動 Windows 才能繼續安裝。";
 inst_runonce = "安裝過程將在您的電腦重新啟動之後繼續。";
 inst_winpoet1 = "您同時安裝了 %p for DSL 與 WinPoET。\n您必須停止 WinPoET，否則將無法使用 %p 連線至網路，因為 WinPoET 會中斷您的網路連線。";

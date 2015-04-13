@@ -534,8 +534,8 @@ pnet_highlight1 = "不需要第三方的遠端伺服器就能存取您的資料"
 pnet_highlight2 = "完整支援多執行序和多核心處理器。伺服器效能與處理器核心數量成正比";
 pnet_highlight3 = "使用者只需要網頁瀏覽器就能存取伺服器，無需額外軟體";
 pnet_what_is = "cFos Personal Net 是什麼？";
-pnet_pre_purchase = "預先購買終身授權，只需";
-pnet_percent = "50% 折扣，直到推出 1.0 版";
+pnet_pre_purchase = "1.0 版正式發行前預購終身授權，可享";
+pnet_percent = " 50% 折扣。";
 pnet_release = "1.0 版發行";
 pnet_until = "在那之前購買終身授權，只需 ";
 pnet_after = "8 月 7 日後將調整為 ";
@@ -2301,13 +2301,11 @@ speed_guide_l26g = "調整通訊埠優先權";
 
 / speed test
 speed_test = "cFos Speed Test";
-under_construction = "cFos Speed Test 速度測試頁面正在開發中，將可在 2010 年 10 月底完成。<br /><br />在此期間，我們推薦您：<br />";
 sptest_info_p1 = "透過我們全新的 Speed Test 網頁，您可以快速測試網際網路連線速度，您可以進行上傳和下載的速度測試，來驗證您的網際網路連線速度是否與電信業者宣稱的速度相同。速度測試功能是設計來測量您的頻寬的最高可用速度，如果測試結果與您網路業者提供的速度不是完全相同請別緊張，例如：假設您的可用頻寬為 16Mbit/s，1% 的容忍值即為 160,000 bit/sec，看起來差很多但實際上不會有太大感覺。";
 sptest_info_p1_sm = "透過我們全新的速度測試工具，您可以快速測試網際網路連線速度。您可以進行上傳和下載的速度測試，來驗證您的網際網路連線速度是否與電信業者宣稱的速度相同。";
 sptest_info_p2 = "目前速度測試會測量兩個值：上傳速度和下載速度。測試網際網路連線之外，此功能也會判斷伺服器的回應時間，這能夠告訴您此測試結果的可靠度有多高。下一版的速度測試將能夠測量同時有多個連線時會怎樣影響您的連線的回應時間。";
 sptest_info_p3 = "在速度低於或等於 500kbit/s 的網路，這個結果可能不會相當準確。我們會盡量改善慢速寬頻時的測試結果。";
 sptest_debug = "除錯主控台準備好了！";
-sptest_h1 = "cFos Speed Test V1.0";
 sptest_browser = "無法在 Opera 版本 &lt; 10 下進行此測試。<br />請更新您的瀏覽器！";
 sptest_panel_info_h = "速度測試結果的意義";
 sptest_panel_info_p = "速度測試結果表現了 TCP/IP 的負載資料的速度。cFosSpeed 會在狀態視窗中顯示 IP 的原生速度。中間大約有 5% 差距。「回應時間」是完成整個 HTTP 請求的時間。 cFosSpeed 則表示您附近的 ping 回覆時間。";
