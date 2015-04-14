@@ -986,7 +986,7 @@ virtual_wifi_stopped = "Virtual Wi-Fi successfully stopped.";
 virtual_wifi_dialup_ics = "For a dial-up connection you have to enable Internet Connection Sharing manually by changing the properties of this connection.";
 virtual_wifi_error_not_present = "No (ready) Wi-Fi interface found.\n\nTo set up a Virtual Wi-Fi a Wi-Fi interface must be present and ready.";
 virtual_wifi_autostart = "Start automatically at system start.";
-virtual_wifi_deactivate_autostart = "Decativate automatic start at system start as well.";
+virtual_wifi_deactivate_autostart = "Disable automatic start at system startup as well.";
 
 
 / !!! DO NOT TRANSLATE !!!
