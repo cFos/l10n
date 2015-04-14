@@ -12,6 +12,21 @@ language = "Magyar";
 language_local = "Magyar";
 htm_lang_prefix = "hu";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
@@ -139,6 +154,13 @@ con_test = "%p csatlakozási teszt";
 con_test_not_running = "A csatlakozási teszt nem hajtható végre, amíg a %p nem fut. Kérjük, indítsa el a %p programot majd futtassa ismét a csatlakozási tesztet.";
 con_test_public_fail = "A nyilvános IP címe nem meghatározható. Bizonyososdjon meg róla, hogy kapcsolódik az internethez, majd ismételje meg a tesztet.";
 con_test_execute = "Csatlakozási teszt futtatása";
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
 
 / ----------------------------------------------------------------------
 /
@@ -294,7 +316,7 @@ suggest_program = "Javasold ezt a programot a cFos csapatának";
 l7_prot_detection = "Layer-7 Protokol Detektálás";
 l7_prot_detection_help = " Protokolok detektálása adatok analizása alapján. Használja a 'Protokolok priorizálása' opciót a protokolok priorizálásához. Amennyiben ezt az opciót kikapcsolja, a protokolok a port alapján lesznek detektálva.";
 favor_ping = "Ping javítása";
-favor_ping_help = "<b>Be</b>: a %p a lehető legjobb ping időt próbálja elérni, viszont a sávszélesség enyhe rovására mehet.<br /> <b>Ki</b>: a %p a lehető legnagyobb sávszélességet próbálja elérni, viszont a pings enyhe rovására mehet.";
+favor_ping_help = "<b>Be</b>: a %p a lehető legjobb ping időt próbálja elérni, viszont a sávszélesség enyhe rovására mehet.<br /> <b>Ki</b>: a %p a lehető legnagyobb sávszélességet próbálja elérni, viszont a ping enyhe rovására mehet.";
 favor_bandwidth = "Átviteli sebesség elonyben részesítése";
 avoid_loss = "Csomagvesztés elkerülése";
 avoid_loss_help = "%p lekicsinyíti a TCP-fogadó ablakot, ha a fogadott TCP kapcsolatoknál túl nagy csomagvesztést állapít meg. Ez csak akkor történik meg, ha a kapcsolat teljes sebességgel adatokat fogad.";
@@ -337,7 +359,11 @@ show_for = "Megjelenítés";
 this_month = "jelenlegi hónap";
 time = "Idő";
 time_limit = "Időkorlát";
+/. Used as table header
+/. Short version of "minutes"
 time_min = "Perc";
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "h:min";
 volume = "Adatmennyiség";
 volume_limit = "Adatkorlát";
@@ -401,7 +427,9 @@ slots_title = "Slot beállítások";
 can_select_multiple = "Útmutatás: Ön több opciót kiválaszthat, mialatt a Shift- vagy CTRL-gombot lenyomva tartja, mialatt egy opciót kiválaszt.";
 name_for = "Név ehhez: ";
 set_name = "Név megadása";
+/. RX stands for `receive` (incoming/download)
 rx_only = "Csak RX";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "Csak TX";
 max_of_rx_tx = "RX & TX maximuma";
 total_rx_only = "Összes RX sebesség";
@@ -484,6 +512,11 @@ rwin_expansion = "Automatikus RWIN kiegészítő";
 rwin_expansion_help = "Automatikus TCP letöltési ablak növelése a letöltési sebesség növeléséért, ha a Windows által kiválasztott RWIN túl alacsony.";
 query_auto_open = "Letiltja a státusz ablak automatikus megnyitását és bezárását?\nÚjra engedélyezheti később a helyi menüben.";
 preview_skins = "Felület előnézete";
+enable_smartphone_skins = "Telefon felületek";
+http_access_disabled = "Nincs jelszó beállítva, külső HTTP hozzáférés letiltva.";
+set_server_pwd = "Szerver jelszó beállítása";
+prioritize_foreground_process = "Adjon prioritást a legfelül levő ablak folyamatainak";
+prioritize_foreground_help = "Automatikusan állítsa az előtérben levő ablak folyamatainak a prioritását magasra.";
 
 
 / ----------------------------------------------------------------------
@@ -570,6 +603,8 @@ sn_invalid_serial_number = "Érvénytelen sorozatszám. Ellenőrizze a beírt ad
 sn_download_err = "Hiba %?, a kulcsfájl letöltése közben a szerverünkről.";
 sn_save_err = "A kulcsfájl nem sikerült menteni a háttértárra %?.";
 sn_keyfile_err = "A kulcsfájl sérült.";
+
+/ new 16 digit serial number dialog
 
 / re-enter password dialog
 repwd_header = "%? Jelszó.";
@@ -794,6 +829,16 @@ eml_invalid_email = "A megadott e-mail cím érvénytelen.";
 eml_invalid_optional_email = "Vagy érvényes e-mail címet adjon meg, vagy hagyja üresen a mezőt.";
 eml_reg_failed = "Az e-mail-regisztrálás sikertelen.";
 eml_checking_domain = "Az e-mail Domain ellenőrzése...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
