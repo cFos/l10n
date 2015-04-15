@@ -574,7 +574,7 @@ pnet_wmi_l1a = "total RX speed";
 /. TX stands for `transmit` (outgoing/upload)
 pnet_wmi_l1b = "total TX speed";
 pnet_wmi_l1c = "ping time";
-pnet_wmi_l1d = "TCP/UPD connection count";
+pnet_wmi_l1d = "TCP/UDP connection count";
 /. Means `RX (`receive`/incoming/download) characters per second`
 pnet_wmi_l1e = "RX cps";
 /. Means `TX (`transmit`/outgoing/upload) characters per second sent`

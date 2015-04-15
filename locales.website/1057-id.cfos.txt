@@ -467,7 +467,7 @@ pnet_wmi_p5 = "Untuk menikmati fitur cFos WMI Monitor kami merekomendasikan untu
 pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, Internet accelerator kami. Ini menyediakan built-in WMI yang membuat nilai WMI tersebut tersedia:";
 pnet_wmi_l1a = "total kecepatan RX";
 pnet_wmi_l1b = "total kecepatan TX";
-pnet_wmi_l1d = "menghitung koneksi TCP/UPD";
+pnet_wmi_l1d = "menghitung koneksi TCP/UDP";
 pnet_wmi_l1e = "RX cps";
 pnet_wmi_l1f = "TX cps";
 pnet_wmi_l1g = "Nilai tersebut terhubung dengan koneksi Internet yang anda gunakan.<br/>Nilai Windows WMI terhubung ke network adapter yang anda gunakan, terlepas dari arus LAN atau Internet. Anda dapat menampilkan seluruh nilai dimana telah tertampilkan di dalam jendela status cFosSpeed.";

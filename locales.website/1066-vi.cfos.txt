@@ -521,7 +521,7 @@ pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, Tă
 pnet_wmi_l1a = "Tổng Tốc độ RX;";
 pnet_wmi_l1b = "Tổng tốc độ TX";
 pnet_wmi_l1c = "thời gian ping";
-pnet_wmi_l1d = "Số lượng kết nối TCP/UPD";
+pnet_wmi_l1d = "Số lượng kết nối TCP/UDP";
 pnet_wmi_l1g = "Những giá trị tương ứng với tình trạng kết nối internet hiện tại của bạn.<br/>Gía trị Window WMI tương ứng với các bộ phận chuyển đổi mạng gần đây, bất kể lưu lượng truy cập mạng LAN hay Internet. Bạn có thể hiển thị tất cả các giá trị được hiển thị trong cửa sổ trạng thái cFosSpeed​​..";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Hiển thị giá trị phần cứng</b></a>. Nó cũng được tích hợp sẵn trong WMI để có thể hiển thị giá trị của phần cứng, như";
 pnet_wmi_l2a = "Tải CPU và nhiệt độ";

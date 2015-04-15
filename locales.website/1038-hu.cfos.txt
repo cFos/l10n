@@ -524,7 +524,7 @@ pnet_wmi_l1a = "teljes RX sebesség";
 /. TX stands for `transmit` (outgoing/upload)
 pnet_wmi_l1b = "teljes TX sebesség";
 pnet_wmi_l1c = "ping idő";
-pnet_wmi_l1d = "TCP/UPD kapcsolat érték";
+pnet_wmi_l1d = "TCP/UDP kapcsolat érték";
 /. Means `RX (`receive`/incoming/download) characters per second`
 /. Means `TX (`transmit`/outgoing/upload) characters per second sent`
 pnet_wmi_l1g = "Ezek az értékek a jelenlegi valós Internet kapcsolatáról tájékoztatnak.<br/>Windows WMI értékek a jelenlegi valós hálózati kártyájáról tájékoztatnak, beleértve a helyi és Internet hálózatot. Ön be tudja állítani melyik értékeket mutassa a cFosSpeed kijelzőjén.";

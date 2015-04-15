@@ -495,7 +495,7 @@ pnet_wmi_p5 = "Aby w pełni wykorzystać w pełni cFos WMI Monitor zalecamy zain
 pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, naszego akceleratora internetu. Jego zbudowany dostawca WMI sprawia, że bieżące wartości WMI są dostępne:";
 pnet_wmi_l1a = "całkowita prędkość RX";
 pnet_wmi_l1b = "całkowita prędkość TX";
-pnet_wmi_l1d = "ilość połączeń TCP/UPD";
+pnet_wmi_l1d = "ilość połączeń TCP/UDP";
 pnet_wmi_l1g = "Wartości te odpowiadają twojemu bieżącemu połączeniu internetowemu.<br/>Wartości WMI Windowsa odpowiadają bieżącemu adapterow internetowemu, bez względu na LAN lub ruch internetowy. Możesz wyświetlać wszystkie te wartości które są wyświetlane w oknie statusu cFosSpeed.";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Open Hardware Monitor</b></a>. Także zawiera wbudowanego dostawcę WMI który może wyświetlać bardzo pomocne wartości hardware, takie jak";
 pnet_wmi_l2a = "obciążenie CPU i temperaturę";

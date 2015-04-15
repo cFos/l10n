@@ -492,7 +492,7 @@ pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, İn
 pnet_wmi_l1a = "toplam RX hızı";
 pnet_wmi_l1b = "toplam TX hızı";
 pnet_wmi_l1c = "ping süresi";
-pnet_wmi_l1d = "TCP/UPD bağlantı sayımı";
+pnet_wmi_l1d = "TCP/UDP bağlantı sayımı";
 pnet_wmi_l1g = "Bu değerler mevcut internet bağlantınıza uyar.<br/>Windows WMI değerleri de mevcut ağ adaptörünüze uyar, LAN’ı ya da İnternet trafiğini dikkate almaz. cFosSpeed durum penceresinde görünen tüm değerleri görüntüleyebilirsiniz.";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Açık Donanım Gözlemi</b></a>. Bu aynı zamanda şunlar gibi kullanışlı donanım değerlerini görüntüleyebilen tümleşik bir WMI sağlayıcısıdır:";
 pnet_wmi_l2a = "CPU yükü ve sıcaklığı";

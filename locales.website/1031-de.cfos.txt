@@ -534,7 +534,7 @@ pnet_wmi_l1a = "Gesamt RX-Speed";
 /. TX stands for `transmit` (outgoing/upload)
 pnet_wmi_l1b = "Gesamt TX-Speed";
 pnet_wmi_l1c = "Pingzeit";
-pnet_wmi_l1d = "TCP/UPD connection count";
+pnet_wmi_l1d = "TCP/UDP connection count";
 /. Means `RX (`receive`/incoming/download) characters per second`
 /. Means `TX (`transmit`/outgoing/upload) characters per second sent`
 pnet_wmi_l1g = "Diese Werte beziehen sich auf Ihre aktuelle Internet-Verbindung.<br/>Windows-eigene WMI Werte beziehen sich auf den Netzwerk-Adapter, egal ob es sich um Internet oder LAN traffic handelt. Sie können alle Werte, die im cFosSpeed Status Fenster angezeigt werden können, auch im WMI Monitor anzeigen.";

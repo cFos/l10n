@@ -522,7 +522,7 @@ pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>，�
 pnet_wmi_l1a = "总 RX 速率";
 pnet_wmi_l1b = "总 TX 速率";
 pnet_wmi_l1c = "网络延时";
-pnet_wmi_l1d = "TCP/UPD 连接总数";
+pnet_wmi_l1d = "TCP/UDP 连接总数";
 pnet_wmi_l1e = "RX 计数";
 pnet_wmi_l1f = "TX 计数";
 pnet_wmi_l1g = "这些值对应您当前的网络连接。<br/>Windows WMI 值对应您当前的网络适配器，而不是当前的 LAN 或因特网流量。您可以设置显示所有显示于 cFosSpeed 状态窗口中的值。";

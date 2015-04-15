@@ -516,7 +516,7 @@ pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, for
 pnet_wmi_l1a = "total da velocidade RX";
 pnet_wmi_l1b = "total da velocidade TX";
 pnet_wmi_l1c = "tempo de ping";
-pnet_wmi_l1d = "contador de conexão TCP/UPD";
+pnet_wmi_l1d = "contador de conexão TCP/UDP";
 pnet_wmi_l1g = "Estes valores correspondem à sua conexão com a Internet atual.<br/>valores do Windows WMI correspondem ao adaptador de rede atual, independentemente da rede LAN ou tráfego da Internet. Você pode exibir todos os valores que são exibidos na cFosSpeed status window (janela de status).";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Open Hardware Monitor</b></a>. Ela também tem um provedor embutido WMI que pode exibir valores de hardware que é muito úteis, como";
 pnet_wmi_l2a = "carregamento e temperatura da CPU";

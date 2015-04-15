@@ -519,7 +519,7 @@ pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, è 
 pnet_wmi_l1a = "velocità totale RX";
 pnet_wmi_l1b = "velocità totale TX ";
 pnet_wmi_l1c = "tempo Ping";
-pnet_wmi_l1d = "TCP/UPD conteggio connessione";
+pnet_wmi_l1d = "TCP/UDP conteggio connessione";
 pnet_wmi_l1e = "RX cps";
 pnet_wmi_l1f = "TX cps";
 pnet_wmi_l1g = "Questi valori corrispondono alla tua connessione Internet corrente.<br/>I valori di Windows WMI corrispondono ai valori della scheda di rete attuale, indipendentemente dal traffico LAN od Internet. È possibile visualizzare tutti i valori che vengono visualizzati nella finestra di stato di cFosSpeed.";
