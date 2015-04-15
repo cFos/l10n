@@ -57,18 +57,18 @@ cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/pt-br/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, seu servidor web pessoal";
 renew_params = "Renovar parâmetros";
-dlg_dun_auto = "Auto-conectar";
-dlg_dun_default = "ConexÃ£o PadrÃ£o";
-dlg_dun_cons = "Perfil da ConexÃ£o";
-dlg_dun_name = "Nome da ConexÃ£o:";
-dlg_dun_uname = "Nome do UsuÃ¡rio:";
-dlg_dun_pwd = "Contra-senha:";
+dlg_dun_auto = "Auto conectar";
+dlg_dun_default = "Conexão Padrão";
+dlg_dun_cons = "Perfil da Conexão";
+dlg_dun_name = "Nome da Conexão:";
+dlg_dun_uname = "Usuário:";
+dlg_dun_pwd = "Senha:";
 dlg_dun_use_ipv4 = "Utilizar IPv4";
 dlg_dun_use_ipv6 = "Utilizar IPv6";
 dun_connect_to = "Conectar a %?";
-dun_err_already_exists = "O nome desta conexÃ£o de discagem jÃ¡ existe";
+dun_err_already_exists = "Já existe uma conexão com esse nome";
 disconnect = "Desconectar";
-setup_connections = "Configurar as conexÃµes";
+setup_connections = "Configurar as conexões";
 ask_inst_ipv6 = "O protocolo IPv6 ainda não foi instalado neste sistema.\n\n"
                 "Gostaria de instalar o protocolo IPv6 agora?";
 err_inst_ipv6 = "Erro %? durante a instalação do protocolo IPv6.";
@@ -77,7 +77,7 @@ resume_server = "Retomar servidor";
 file_link_failed = "Ligação com o arquivo falhou.";
 
 / connection entry dialog
-con_err_save = "NÃ£o foi possÃ­vel guardar os dados da conexÃ£o!";
+con_err_save = "Não foi póssivel guardar os dados da conexão!";
 con_ipv4 = "IPv4";
 con_ipv6 = "IPv6";
 con_private_address = "Endereço Privado:";
@@ -116,7 +116,7 @@ dlg_renew_interval = "Intervalo de renovação (ms):";
 dlg_redirect_delay = "Redirecionamento de atraso (ms):";
 dlg_monitor_ports = "Monitorar atribuições de porta";
 dlg_enable_upnp = "Habilitar Servidor de Mídia (UPnP/DLNA)";
-dlg_upnp_info = "Coloque os ficheiros de mÃ­dia na subdiretoria 'media' do seu diretÃ³rio pÃºblico.";
+dlg_upnp_info = "Coloque os ficheiros de mídia na subdiretoria 'media' do seu diretório público.";
 use_https_port = "Utilize a porta HTTPS";
 
 / pnet start type dialog
@@ -198,13 +198,13 @@ prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/pt-br/traffic-shaping/traffic-shaping.htm";
 
-auth_failed = "A verificação de consistência detectou que um ou mais componentes foram modificados.\nPor favor, instale uma versão não modificada de nosso sítio na Internet:\n";
+auth_failed = "Ao verificar os arquivos foi detectado que um ou mais componentes foram modificados.\nPor favor, baixe e instale uma versão oficial do nosso site:\n";
 
-component_mismatch = "Há um conflito de versões entre componentes deste programa. Por favor, reinstale a versão mais recente.";
+component_mismatch = "Há um conflito de versões entre componentes.\nPor favor, reinstale a versão mais recente.";
 trayicon_tip = "Internet mais rápida com Modelagem de Tráfego, www.cfos.de";
 speed_endsoon = " O seu período de teste acabará em breve! Por favor compre o %1 hoje!";
 order_info = " Peça agora:\n Internet: www.cfos.de\n Pelo telefone: +49-228-7669826";
-badkey = "Existe um problema com a chave de licença.\nPor favor, reinsira a chave com um duplo clique no\narquivo original, que recebeu por e-mail ou disquete.";
+badkey = "Existe um problema com sua licença.\nPor favor, reinsira a licença com um duplo clique no\narquivo original, que recebeu por e-mail ou disquete.";
 no_setup = "Não pôde iniciar o pacote de instalação (setup.exe).";
 no_cmd = "Não foi possível abrir o Prompt de Comando (cmd.exe)!";
 ask_disconnect_ras = "Uma conexão de rede atualmente ativa está prestes a ser reconfigurada.\nÉ recomendado desconectá-la antes de continuar.\nDesconectar a atual conexão de rede?";
@@ -232,13 +232,13 @@ closewindow = "Fechar Janela";
 closewindows = "Fechar Janelas";
 autoopen = "Abrir/Ocultar automaticamente";
 taskbaricon = "Ícone da Barra de Tarefas";
-autoarrange = "Auto-organizar as janelas";
+autoarrange = "Posicionamento automático";
 effects = "Efeitos";
 blend_effect = "Esmaecer as janelas";
 slide_effect = "Deslizar janelas";
 win_behaviour = "Usar configurações do sistema";
 selectskin = "Escolher Skin";
-topmost = "Sempre no Topo";
+topmost = "Sempre visível";
 defpos = "Posição Padrão";
 disco_ras = "Desconectar ";
 config = "Opções";
@@ -259,17 +259,17 @@ lic_try = "Você ainda pode experimentar o %3 por %1 %2 antes de o adquirir.";
 enable_win = "Habilitar janela de estado?\n\nA janela de estado mostra o estado da sua conexão ativa.";
 license = "Licença ";
 licensed_to = "Licenciado para %?";
-upgrade = "Obter nova versão do programa";
+upgrade = "Versão mais recente";
 connect_to = "Conectar a";
 make_own_skin = "Crie a sua própria Skin";
-click_through = "Continuar clicando";
+click_through = "Clicar através";
 ask = "Perguntar";
 off = "Desativado";
 on = "Ativado";
 note = "Aviso";
 deactivated = "desativado";
 browser_warning = "Internet Explorer versão 8 ou superior é recomendado para este diálogo!";
-ole_error = "Para poder usar este dialogo de configuraÃ§Ã£o,\\n%p deverÃ¡ estar instalado e correndo no seu computador. \\nPor favor verifique isto e reinstale o programa, se necessÃ¡rio.";
+ole_error = "Para poder usar este dialogo de configuração,\\no %p dever estar instalado e sendo executado.\\nPor favor verifique isso e reinstale o programa, se necessário.";
 ts_settings = "Configurações da Modelagem de Tráfego";
 preferences = "Preferências";
 prio_protocols = "Dando prioridade aos protocolos";
@@ -292,7 +292,7 @@ other = "Outros";
 misc_high_short = "Misc. Alta";
 misc_high = "Tráfego Misc. de Alta prioridade";
 hint = "Dica";
-hint_text = "A priorização só irá funcionar corretamente se apenas alguns dados possuirem prioridade alta. Dê aos programas que transferem muitos dados prioridade baixa. A priorização de protocolo é feita antes da priorização de programas.";
+hint_text = "A priorização só irá funcionar corretamente se apenas alguns dados possuírem prioridade alta. Dê aos programas que transferem muitos dados prioridade baixa. A priorização de protocolo é feita antes da priorização de programas.";
 prio_doc_link = "Como o esquema de priorização funciona";
 save_protocols = "Salvar protocolos";
 undo = "Desfazer";
@@ -304,28 +304,28 @@ default = "Padrão";
 low = "Baixa";
 lower = "Muito Baixa";
 entries = "Entradas";
-prog_overwrite = "O programa #p jÃ¡ estÃ¡ na lista.\\nVocÃª gostaria de voltar a escrever esta entrada com novos valores?";
+prog_overwrite = "O programa #p já está na lista.\\nVocê gostaria de voltar a escrever esta entrada com novos valores?";
 games = "Jogos";
-voip = "Voz-sobre-IP";
+voip = "Voz sobre IP";
 remote_control = "Controle Remoto";
 prog_hint_text = "A priorização só irá funcionar corretamente se apenas alguns dados possuirem prioridade alta. Dê aos programas que transferem muitos dados prioridade baixa.<br />";
 save_priorities = "Salvar prioridades";
 delete = "Apagar";
 aux_lines = "Linhas auxiliares";
-higher_prog_help = "Voz-sobre-IP, talvez jogos";
+higher_prog_help = "Voz sobre IP, talvez jogos";
 high_prog_help = "Jogos, Mídia em Transmissão Contínua, Telnet e outros programas interativos";
 low_prog_help = "Dados de Servidor, dados de FTP";
 lower_prog_help = "tráfego em segundo plano permanente, igual ao compartilhamento de arquivos";
 delete_help = "Remover da lista (isto é, tratar pacotes de dados como normais).";
-prog_help = "A transferÃªncia dos pacotes com a menor prioridade serÃ¡ posta de lado, somente se dados com maior prioridade estivessem sendo processados no mesmo momento. Em caso contrÃ¡rio, a transmissÃ£o destes pacotes de baixa prioridade serÃ¡ sempre Ã  velocidade mÃ¡xima.";
+prog_help = "A transferência dos pacotes com a menor prioridade será posta de lado, somente se dados com maior prioridade estivessem sendo processados no mesmo momento. Em caso contrário, a transmissão destes pacotes de baixa prioridade será sempre á velocidade máxima.";
 filename = "Nome do arquivo";
 description = "Descrição";
 new_program = "Novo programa";
 restore_defaults = "Restaurar padrões";
 add = "Adicionar";
-suggest_program = "Sugira este programa ao time do cFos";
+suggest_program = "Sugira esse programa ao time do cFos";
 l7_prot_detection = "Detecção de Protocolo Layer-7";
-l7_prot_detection_help = "Detecta protocolos através da análise dos dados. Use o diálogo 'Priorizar protocolos' para mudar a prioridade de vários protocolos. Se esta opção for desativada os protocolos serão detectados pelo número da porta que estão usando.";
+l7_prot_detection_help = "Detecta protocolos através da análise dos dados. Use o diálogo 'Priorizar protocolos' para mudar a prioridade de vários protocolos. Se essa opção for desativada os protocolos serão detectados pelo número da porta que estão usando.";
 favor_ping = "Favorecer Tempo de Ping";
 favor_ping_help = "<b>Ativado</b>: O %p irá minimizar os tempos de ping às custas de uma pequena redução na largura de banda (se necessário).<br /><b>Desativado</b>: O %p irá maximizar a largura de banda às custas de tempos de ping um pouco mais altos (se necessário).";
 favor_bandwidth = "Favorecer Largura de Banda";
@@ -336,7 +336,7 @@ activate_firewall_help = "Proteção contra intrusões de Rede através da filtr
 mtu_opt = "Otimização automática de MSS (MTU)";
 mtu_opt_help = "Ajustar MSS/MTU para velocidade de transferência máxima. Normalmente valores um pouco abaixo de 1500/1492 produzem velocidades maiores.";
 strict_rtp = "Checagem Rígida de RTP";
-strict_rtp_help = "Se ativada, o %p irá reconhecer como RTP apenas os pacotes de dados que possuírem uma ID de fonte RTCP válida. Deve-se desativar esta opção para programas Voz-sobre-IP (como o VoIPBuster) que não enviam pacotes de dados RTCP.";
+strict_rtp_help = "Se ativada, o %p irá reconhecer como RTP apenas os pacotes de dados que possuírem uma ID de fonte RTCP válida. Deve-se desativar esta opção para programas Voz sobre IP (como o VoIPBuster) que não enviam pacotes de dados RTCP.";
 ts_config = "Configuração do Modelador de Tráfego %p";
 dialup_connection = "Conexão de Acesso Discado";
 dialup_connections = "Conexões de Acesso Discado";
@@ -345,7 +345,7 @@ ras_con_help = "<b>Sim</b>: ativar, <b>não</b>: desativar, <b>perguntar</b>: pe
 router_connections = "Conexões do Roteador";
 net_components = "Dispositivos de Rede";
 auto = "Automático";
-router_help = "<b>Sim</b>: ativar, <b>não</b>: desativar, <b>automático</b>: habilitar Modelagem de Tráfego, se um roteador for encontrado neste dispositivo de rede";
+router_help = "<b>Sim</b>: ativar, <b>não</b>: desativar, <b>automático</b>: habilitar Modelagem de Tráfego, se um roteador for encontrado nesse dispositivo de rede";
 network_adapter = "Adaptador de Rede";
 router = "Roteador";
 and_save_settings = "e salvar configurações";
@@ -362,10 +362,10 @@ last_3_months = "últimos 3 meses";
 last_month = "último mês";
 last_12_months = "últimos 12 meses";
 please_select = "Por favor, escolha";
-reset_day = "Restaurar o dia";
+reset_day = "Restaurar no dia";
 reset_day_unit = "dia do mês";
 rxtx_button = "Seleção de RX/TX";
-save_budgets = "Salvar Cotas";
+save_budgets = "Salvar";
 show_for = "Mostrar por";
 this_month = "este mês";
 time = "Tempo";
@@ -389,7 +389,7 @@ def_bandwidth_help = "Padrão para <b>novas</b> conexões";
 cur_bandwidth_help = "Configuração da conexão atual";
 no_ports_open = "Nenhuma conexão aberta.";
 no_ports_open_help = "Atualmente, não há nenhuma conexão aberta controlada pelo %p. Para mudar a configuração padrão para novas conexões, clique na aba \"Padrão para novas conexões\", para mudar as configurações para outras conexões, clique em \"Modelagem de Tráfego\" no lado esquerdo.";
-ok = "OK";
+ok = "Confirmar";
 connection_medium = "Tipo";
 connection_type = "Modo de Modelagem de Tráfego";
 driver_not_loaded = "Controlador não carregado!";
@@ -398,29 +398,29 @@ demon_driver_not_loaded = "Driver não carregado!\n"
    "Por favor, reinstale %p.\n";
 asus_demon_driver_not_loaded = "Reinstalar %p após a atualização para um novo sistema operacional.\nVisite o site da ASUS em %w para a mais recente %p versão.";
 many_cons_error = "A Modelagem de Tráfego rx do %p está sendo usada ao extremo, devido ao excesso de conexões. Com menos conexões ela provavelmente irá funcionar melhor. Clique aqui para obter ajuda.";
-limit_bandwidth = "Limitar Largura de Banda para a Conexão Atual";
+limit_bandwidth = "Limitar velocidade da Conexão Atual";
 rx_limit = "Limite RX";
 tx_limit = "Limite TX";
 max = "Max";
 apply_limits = "Aplicar Limites";
-limit_help = "Valor em kbaite/s, incluindo todos os excessos dos protocolos, 0 = sem limite.";
+limit_help = "Valor em kbps, incluindo todos os excessos dos protocolos, 0 = sem limite.";
 enable_speed_shaping = "Habilitar Modelagem de Tráfego";
 disable_speed_shaping = "Desabilitar Modelagem de Tráfego";
 yes = "Sim";
 no = "Não";
 help = "Ajuda";
 bgraph_totals = "Total";
-blocklist = "Bloqueador-de-IP";
+blocklist = "Bloqueador de IP";
 blocklist_help = "Lista de endereços IP para os quais todo o tráfego está bloqueado.";
 apply_blocklist = "Usar lista de filtros";
 search = "Procurar";
 budget_connection = "Configure qual cota é usada para qual conexão";
 reset = "Reiniciar";
-autohide_on_fullscreen = "Se auto-esconde em caso de janela completa";
+autohide_on_fullscreen = "Ocultar automaticamente em tela cheia";
 slot_selected = "Protocolos / programas selecionados";
 show = "Mostrar";
 hide = "Esconder";
-slot_explain = "Se um pacote de dados possuir um protocolo conhecido e este protocolo tiver sido designado para um segmento, o tráfego do pacote será contado neste segmento. Caso contrário, se o pacote pertencer a uma conexão de um programa que tenha sido designada para outro segmento, seu tráfego será contado neste outro segmento. Se nada disto acontecer, o tráfego será contado no segmento onde todos os outros tráfegos tiverem sido designados, caso isto tenha sido feito.";
+slot_explain = "Se um pacote de dados possuir um protocolo conhecido e este protocolo tiver sido designado para um segmento, o tráfego do pacote será contado neste segmento. Caso contrário, se o pacote pertencer a uma conexão de um programa que tenha sido designada para outro segmento, seu tráfego será contado neste outro segmento. Se nada disto acontecer, o tráfego será contado no segmento onde todos os outros tráfegos tiverem sido designados, caso isso tenha sido feito.";
 traffic_analysis_title = "Análise de Tráfego em Tempo Real";
 other_traffic = "Todos os outros tráfegos";
 traffic_analysis = "Análise de Tráfego";
@@ -441,39 +441,39 @@ nettalk_rx = "Net Talk - Velocidade RX";
 nettalk_tx = "Net Talk - Velocidade TX";
 nettalk_max_of_rx_tx = "Net Talk máxima - RX e TX";
 total_max_of_rx_tx = "Max. do RX & TX total";
-check_if_other_also = "Marque, se você quiser que todos os outros tráfegos sejam contados neste segmento";
+check_if_other_also = "Marque, se você quiser que todos os outros tráfegos sejam contados nesse segmento";
 performance_help = "Para economizar o máximo de esforço computacional, recomendamos ajustar a conexão que você usa para acessar a internet para \"Sim\" e todas as outras para \"Não\".";
 loading = "Carregando...";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Não cooperativa";
 regid_help = "Há uma máquina sem cFos TS na sua rede";
-regid_help_long = "Você usa sua conexão com várias outras máquinas simultâneamente e pelo menos uma delas não possui Modelagem de Tráfego cFos.";
+regid_help_long = "Você usa sua conexão com várias outras máquinas simultaneamente e pelo menos uma delas não possui Modelagem de Tráfego cFos.";
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
 net_talk = "Net Talk";
-net_talk_help = "Estatísticas de tráfego Broadcast em sua LAN";
-net_talk_help_long = "Para melhorar a precisão, envie as estatíticas do Traffic Shaping para outros computadores em sua rede local";
+net_talk_help = "Transmite as estatísticas de tráfego em sua LAN";
+net_talk_help_long = "Para melhorar a precisão, envie as estatísticas da Modelagem de Tráfego para outros computadores em sua rede local";
 net_talk_subheader = "Por favor, decida se o recurso Net Talk deve ser utilizado.";
 
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
 vari_fixed = "Variação de Ping";
 vari_fixed_help = "Usa Modelagem de Tráfego avançada para adaptar-se a variações de tempos de ping";
-vari_fixed_help_long = "Coleta estatísticas de ping para adaptar-se a variações de tempos de ping; especialmente útil para conexões sem-fio/móveis.";
+vari_fixed_help_long = "Coleta estatísticas de ping para adaptar-se a variações de tempos de ping; especialmente útil para conexões sem fio/móveis.";
 
 set = "Definir";
-tx_limit_help = "Por favor, introduza a velocidade, em bytes/seg ou porcentagem, a que esta aplicação ou protocolo pode transmitir.";
+tx_limit_help = "Por favor, introduza a velocidade, em kbps ou porcentagem, a que esta aplicação ou protocolo pode transmitir.";
 download_more_skins = "Baixar mais Temas";
 documentation = "Documentação";
 exit_demon = "Sair";
 speed_test = "Testar Velocidade";
-ask_key_banned_info = "Houve um problema com a sua chave de licença.\nGostaria de mais informações?";
+ask_key_banned_info = "Houve um problema com sua licença.\nGostaria de mais informações?";
 
 adapter_info = "Informações do Adaptador";
 channel_recommend = "Canais com a menor frequência de uso (do melhor para o pior)";
-channel_explain = "Você pode usar o uso do canal para configurar a sua estação de WLAN, mas cuidado que o uso da frequência actual pois depende do uso particular das redes WLAN de outros. Alguns podem estar ociosos, alguns podem ser muito utilizadas.";
+channel_explain = "Você pode usar o uso do canal para configurar a sua estação de WLAN, mas cuidado que o uso da frequência atual pois depende do uso particular das redes WLAN de outros. Alguns podem estar ociosos, alguns podem ser muito utilizadas.";
 no_adapters = "Não há informações sobre o adaptador.";
-wlan_no_service = "Serviço indisponível. Por favor, instale ou inicie a API de rede sem-fio para Windows (WZC).";
+wlan_no_service = "Serviço indisponível. Por favor, instale ou inicie a API de rede sem fio para Windows (WZC).";
 wlan_no_station = "Não há pontos de acesso suficientes.";
 kaspersky_hint = "O Kaspersky Internet Security 2010 pode causar problemas com o %p. Por favor, atualize para o Kaspersky Internet Security 2011.";
 
@@ -497,7 +497,7 @@ console_prio_advanced = "Priorização avançada";
 
 new_version_available = "Uma nova versão está disponível";
 update_beta = "Verificar também se há versões beta";
-update_skip_version = "Não há mais notificações para esta versão:";
+update_skip_version = "Não me notificar sobre essa versão:";
 check_new_version_now = "Verificar se há uma nova versão agora";
 program_updates = "Atualização do programa";
 no_new_version_available = "Não há uma nova versão disponível";
@@ -509,7 +509,7 @@ keyboard_leds = "LEDs do Teclado";
 keyboard_led_help = "Ajuda de LEDs do Teclado";
 only_on_fullscreen = "Apenas em tela inteira";
 speed_guide = "Tutorial sobre Velocidade";
-lock_position = "Travar a posição da janela";
+lock_position = "Travar posição";
 check_for_news = "Verificar novidades";
 rwin_expansion = "Expansão automática do RWIN";
 rwin_expansion_help = "Expandir automaticamente o TCP RWIN para aumentar a velocidade de download se o RWIN selecionado pelo Windows é muito baixo.";
@@ -588,33 +588,33 @@ rp_check = "Criar ponto de restauração do sistema.";
 rp_uninst_info = "O Ponto de Restauração do Sistema não é feito para uma desinstalação normal do %1. É apenas uma precaução adicional que permite retornar seu sistema ao estado original em caso de um conflito de controlador. Uma desinstalação normal do %1 pode ser feita tanto pelo menu Iniciar na pasta %1 quanto pelo Painel de Controle em Adicionar ou Remover Programas";
 
 / password dialog
-pwd_header = "Contra-senha.";
-pwd_subheader = "Cada chave de licença requer uma senha única.";
+pwd_header = "Senha.";
+pwd_subheader = "Cada licença requer uma senha única.";
 pwd_reg_to = "O %p será registrado em nome de:";
-pwd_password_info = "Por favor, insira a senha da sua chave de licença no formato xxxx-xxxx-xxxx-xxxx.";
-pwd_password = "Contra-senha:";
+pwd_password_info = "Por favor, insira a senha da sua licença no formato xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "Senha:";
 pwd_invalid_password = "Senha inválida. Por favor, verifique o que digitou e tente novamente.";
-pwd_activate_info = "Você precisa de estar ligado à Internet para poder activar a sua licença nos nossos servidores.";
-pwd_activate_failed = "Activação da licença fracassou!";
-pwd_activate_failed_code = "A ativação da chave falhou: erro %?.";
+pwd_activate_info = "Você precisa de estar conectado à Internet para poder ativar sua licença nos nossos servidores.";
+pwd_activate_failed = "Ativação da licença fracassou!";
+pwd_activate_failed_code = "A ativação da licença falhou: erro %?.";
 
 / serial number dialog
 sn_header = "Número de série.";
-sn_subheader = "Insira o número de série e ative sua chave de licença.";
-sn_info = "Caso possua uma senha de 16 dígitos no formato xxxx-xxxx-xxxx-xxxx, por favor, saia deste diálogo e dê um duplo-clique na sua chave de licença. Uma tela irá a parecer onde será possível inserir sua senha.\n\nCaso possua um número de série de 30 dígitos no formato xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, por favor, insira-o agora para carregar e ativar sua chave de licença.\n\n";
+sn_subheader = "Insira o número de série e ative sua licença.";
+sn_info = "Caso possua uma senha de 16 dígitos no formato xxxx-xxxx-xxxx-xxxx, por favor, saia deste diálogo e dê um duplo-clique na sua licença. Uma tela irá a parecer onde será possível inserir sua senha.\n\nCaso possua um número de série de 30 dígitos no formato xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, por favor, insira-o agora para carregar e ativar sua licença.\n\n";
 sn_serial_number = "Número de série:";
 sn_invalid_serial_number = "Número de série inválido. Por favor, verifique-o e tente outra vez.";
 / the %? will be replaced by the error number:
-sn_download_err = "Erro %? ao baixar o arquivo da chave de nosso servidor.";
-sn_save_err = "O arquivo de chave não pôde ser salvo no disco em %?.";
-sn_keyfile_err = "O arquivo de chave está corrompido.";
+sn_download_err = "Erro %? ao baixar o arquivo da licença de nosso servidor.";
+sn_save_err = "O arquivo licença não pôde ser salvo no disco em %?.";
+sn_keyfile_err = "O arquivo licença está corrompido.";
 
 / new 16 digit serial number dialog
-sn16_info = "Digite seu Serial Number de 16 dígitos, para receber a sua chave de licença. Você precisa estar conectado à Internet.";
-sn16_failed = "Falha ao obter chave de licença!";
+sn16_info = "Digite seu código de 16 dígitos, para receber a sua licença. Você precisa estar conectado à Internet.";
+sn16_failed = "Falha ao obter licença!";
 
 / re-enter password dialog
-repwd_header = "Contra-senha %?.";
+repwd_header = "Senha %?.";
 repwd_subheader = "A senha de registro precisa de ser reinserida.";
 repwd_reg_to = "Devido as alterações na configuração do seu sistema, terá que reinserir a senha para o seguinte registo do %p:";
 
@@ -624,7 +624,7 @@ instdir_subheader = "O diretório de instalação especifica o local onde os arq
 instdir_info = "Escolha um diretório de instalação.";
 instdir_change = "Alterar";
 instdir_src_dst = "O diretório de origem e de destino não podem ser iguais!";
-instdir_space = "Esta instalação necessita %u baites de espaço livre no disco. Só existem %u baites disponíveis no diretório selecionado.";
+instdir_space = "Esta instalação necessita %u Kb de espaço livre no disco. Só existem %u Kb disponíveis no diretório selecionado.";
 instdir_drivetype = "O disco selecionado é inválido. %? só pode ser instalado em discos locais e fixos.";
 instdir_system = "O diretório de instalação deve estar no disco do sistema operacional '%?'.";
 instdir_system_recommended = "É altamente recomendável selecionar um diretório de instalação no disco rígido do sistema '%?'. (Clique em \"Próximo\" para continuar mesmo assim.)";
@@ -649,11 +649,11 @@ usage_stats_subheader = "Escolha como %p deve lidar com as estatísticas de uso.
 usage_stats_chk = "Enviar automaticamente estatísticas de uso ao cFos para melhorar o desempenho do produto.";
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
-port_forwarding_chk = "Usar Port Forwarding automático, se disponível.";
-port_forwarding_failed = "Seu roteador (%?) parece não suportar Port Forwarding automático. "
+port_forwarding_chk = "Usar redirecionamento de Portas automático, se disponível.";
+port_forwarding_failed = "Seu roteador (%?) parece não suportar o redirecionamento de Portas automático. "
                          "Talvez você possa habilitar essa função nas configurações de seu roteador.";
 port_forwarding_config = "Você pode configurar seu roteador em %?";
-port_forwarding_fritz = "Você pode ativar o redirecionamento de porta em seu FRITZ!Box permitindo editar configurações de segurança via UPnP "
+port_forwarding_fritz = "Você pode ativar o redirecionamento de Portas em seu FRITZ!Box permitindo editar configurações de segurança via UPnP "
                         "sob Rede doméstica / Rede / Programas";
 
 / crash handler messages
@@ -661,7 +661,7 @@ crash_msg_crash = "Um erro não tratado ocorreu em %p.";
 crash_msg_crash_installer = "Um erro não tratado ocorreu na instalação do programa %p.";
 crash_msg_virus = "Os seguintes arquivos estão se injetando nesse programa e podem ser a causa do travamento:";
 crash_msg_virus_clean = "Esse arquivo podem ser vírus. É altamente recomendado fazer uma verificação de vírus em seu sistema.";
-crash_msg_hook = "Arquivos de outros programas foram detectados, eles estão se injetando nesse programa. Para ter certeza que esses arquivos não estão provocando o travamento, por favor execute esse programa somente depois de desativar ou desistalar os seguintes programas:";
+crash_msg_hook = "Arquivos de outros programas foram detectados, eles estão se injetando nesse programa. Para ter certeza que esses arquivos não estão provocando o travamento, por favor execute esse programa somente depois de desativar ou desinstalar os seguintes programas:";
 crash_msg_terminate = "O programa terminou inesperadamente.";
 crash_msg_query_upload = "Gostaria de enviar um relatório de erro, para nos ajudar a solucionar o problema?";
 crash_msg_new_release = "Uma nova versão do %p está disponível. Por favor baixe e instale a ultima versão do %p pelo site www.cfos.de.";
@@ -675,16 +675,16 @@ start_installation = "Iniciar Instalação.";
 / progress dialog
 progress_inst_header = "Instalação";
 progress_inst_subheader = "A instalação está em andamento.";
-progress_inst_wait = "Por favor, aguarde até a instalação estar concluída.";
+progress_inst_wait = "Por favor, aguarde até que a instalação esteja concluída.";
 progress_uninst_header = "Desinstalar";
 progress_uninst_subheader = "A desinstalação está em andamento.";
-progress_uninst_wait = "Por favor, aguarde até a instalação ser concluída.";
-progress_driver_wait = "Por favor, aguarde enquanto o Sistema Operacional (des-)instala o controlador. Isto poderá levar alguns minutos.";
+progress_uninst_wait = "Por favor, aguarde até que a desinstalação esteja concluída.";
+progress_driver_wait = "Por favor, aguarde enquanto o Sistema Operacional (des)instala o controlador. Isso poderá levar alguns minutos.";
 
 / confirm delete dialog
 conf_del_header = "Apagar Arquivos de Configuração";
 conf_del_subheader = "Deve-se confirmar a eliminação de arquivos com parâmetros de configuração ou informações pessoais.";
-conf_del_info = "Os seguintes ficheiros de configuração e diretó foram criados por %p e ainda não foram removidos:";
+conf_del_info = "Os seguintes ficheiros de configuração e diretório foram criados por %p e ainda não foram removidos:";
 conf_del_column = "Nome do arquivo";
 conf_del_query = "Se também quiser apagar estes arquivos selecione-os individualmente. Após selecioná-los clique em Avançar.";
 
@@ -699,14 +699,14 @@ finish_uninst_driver_reboot = "A desinstalação do driver atual será completad
 finish_link_ok = "Recursos do <a href=\"%?\">%? !</a>";
 finish_file_fail = "Veja o arquivo de Registro de Atividades %s para mais informações.";
 finish_file_link_fail = "Veja o arquivo de Registro de Atividades<a href=\"file://%s\"></a> para mais informações.";
-finish_cfosts_disabled = "O Traffic shaping foi desactivado no seu cFos, porque o %p já está efectuando o traffic shaping. (Pode reactivar o traffic shaping do cFos no seu menu de configurações.)";
+finish_cfosts_disabled = "A Modelagem de Tráfego foi desativada no cFos, porque o %p já está efetuando a Modelagem de Tráfego. (Pode reativar a Modelagem de Tráfego do cFos no seu menu de configurações.)";
 finish_cfosts_enabled = "A Modelagem de Tráfego foi habilitada pelo cFos.";
 finish_link_checkbox = "Mostrar os últimos %p recursos";
 
 / uninstall finish page
-ui_finish_head_ok = "Desinstalação bem-sucedida.";
-ui_finish_info_ok = "%? foi removido do seu computador com êxito.";
-ui_finish_head_fail = "Desinstalação falhou.";
+ui_finish_head_ok = "Desinstalação bem sucedida.";
+ui_finish_info_ok = "%? foi removido do seu computador com sucesso.";
+ui_finish_head_fail = "A desinstalação falhou.";
 ui_finish_info_fail = "%? não pôde ser removido do seu computador devido à seguinte razão:";
 ui_finish_not_removed = "Os seguintes arquivos só podem ser removidos após reiniciar o sistema: ";
 
@@ -717,24 +717,24 @@ bk_finish_head_fail = "Falha no registro.";
 bk_finish_info_fail = "O registro falhou devido ao seguinte motivo:";
 
 / progress tasks
-task_register_email = "Registando o seu e-mail...";
+task_register_email = "Registrando o seu e-mail...";
 task_restore_point = "Criando um ponto de Restauro do Sistema...";
-task_copy = "Copiando ficheiros...";
-task_desktop_link = "Criando um atalho no Ambiente de Trabalho...";
+task_copy = "Copiando arquivos...";
+task_desktop_link = "Criando um atalho na Área de Trabalho...";
 task_program_group = "Criando o grupo de programas...";
 task_registry = "Escrevendo as entradas no Registry do Windows...";
 task_driver = "Instalando o Controlador...";
 task_service = "Instalando serviço...";
 task_daemon = "Iniciando %?...";
-task_uninstall_old = "Desinstalando a versão actual...";
+task_uninstall_old = "Desinstalando versão existente...";
 task_stop_daemon = "Concluindo %?...";
 task_uninstall_driver = "Desinstalando o Controlador...";
 task_uninstall_service = "Desinstalando serviço...";
 task_uninstall_ga = "Desinstalando cFos Game Analyzer...";
-task_delete_files = "Apagando ficheiros...";
+task_delete_files = "Apagando arquivos...";
 task_cleanup_caches = "Limpando os caches...";
-task_hangup = "Desligando ligações activas ...";
-task_flush_registry = "Descarregando o registo no disco...";
+task_hangup = "Desligando ligações ativas...";
+task_flush_registry = "Descarregando o registro no disco...";
 task_cancel = "Cancelando operação...";
 task_canceled = "Operação cancelada!";
 
@@ -753,7 +753,7 @@ pg_console = "Terminal do %?";
 pg_start = "Iniciar %p janela";
 pg_menu = "Menu do %?";
 pg_add_connection = "Adicionar conexão";
-pg_enter_serial_number = "Insira o número de série %p";
+pg_enter_serial_number = "Ativar licença %p";
 pg_configure = "Configurar %p";
 
 / desktop symbol
@@ -763,7 +763,7 @@ dt_advertise_desc = "Mostrar todos os recursos do %?.";
 / message boxes
 query_reboot = "O sistema deverá ser reiniciado para que as mudanças entrem em vigor.\n\nReiniciar o sistema agora?";
 query_inst_reboot = "Antes você deve reiniciar seu sistema operacional para que a instalação continue.\n\nPor favor execute o instalador do programa depois de reiniciar.\n\nVocê quer reiniciar seu sistema operacional agora?";
-query_drv_inst_cancel = "A desinstalação do controlador está sendo efectuada pelo sistema operativo.\nA interface do setup do Windows pode levar até 15 minutos para\ninstalar ou remover o controlador!\n\nÉ extremamente recomendável não suspender ou anular este processo, a não ser que\njá tenha passado esse período de tempo.\n\nQuer realmente Cancelar?";
+query_drv_inst_cancel = "A desinstalação do controlador está sendo feita pelo sistema operacional.\nO assistente do Windows pode levar até 15 minutos para\ninstalar ou remover o controlador!\n\nÉ extremamente recomendável não suspender ou anular este processo, a não ser que\njá tenha passado esse período de tempo.\n\nQuer realmente Cancelar?";
 query_driver_err_abort = "Ocorreu um erro durante a instalação do controlador!\nAssim sendo é melhor cancelar a instalação agora.\n\nNo entanto, é possível continuar a instalação,\no que pode ser útil para fazer algum teste. Por favor,\nlembre-se que o %p não deverá funcionar corretamente.\n\nCancelar a instalação? (Recomendado)";
 query_further_info = "Gostaria de mais informações?";
 
@@ -782,10 +782,10 @@ err_uninst_driver = "O controlador do dispositivo não pôde ser desinstalado.";
 err_create_process = "Erro ao executar o programa %s: %s";
 err_write_lock = "Os componentes de rede do %? estão sendo usados por outro processo. Por favor feche todas as aplicações ou reinicie o computador e tente de novo.";
 err_write_lock_process = "%? componentes de rede estão em uso pelo(s) seguinte(s) processo(s): %?. Por favor finalize esse(s) processo(s) ou reinicie seu computador e tente novamente.";
-err_file_auth = "Alguns ficheiros desta distribuição estão corruptos ou faltando.\nPor favor obtenha uma distribuição autêntica do %p \n(ex. em www.cfos.de).";
+err_file_auth = "Alguns ficheiros desta distribuição estão corrompidos ou faltando.\nPor favor baixe uma versão oficial do %p \n(ex. em www.cfos.de).";
 err_cancel = "A operação foi cancelada.";
 err_no32 = "Não se pode instalar os controladores de 32-bit em um sistema de 64-bit.\n\nSO: %?\nProduto: %?";
-err_bad_keyfile = "Sua licença parece estar corrupta ou inválida. Por favor, entre em contacto connosco para que lhe possamos entregar uma nova licença que funcione.";
+err_bad_keyfile = "Sua licença parece estar corrompida ou inválida. Por favor, entre em contato com nosso suporte para que lhe possamos entregar uma nova licença que funcione.";
 err_bad_setup = "%p parece ter sido instalado incorretamente ou alguns arquivos foram modificados. Por favor, reinstale uma nova cópia de %p e tente de novo.";
 err_bad_signature = "A senha parece estar errada ou ser de uma arquivo de licença diferente. Por favor, insira a senha certa para este arquivo de licença.;";
 err_gdiplus = "A biblioteca GDI+ não foi encontrada!\n\nEsta instalação só pode continuar se a biblioteca GDI+ estiver instalada.\nVocê pode baixar a biblioteca GDI+ da Microsoft como parte da Plataforma SDK\nRedistribuível. Por favor, inicie o arquivo de instalação baixado e descompacte os\narquivos em um <diretório> de sua escolha. Então copie todos os arquivos gdiplus.*\ndo diretório <diretório>\\asms\\10\\msft\\windows\\gdiplus para o\ndiretório Windows\\system32.\n\nClique em 'OK' para abrir a página correspondente na Microsoft para baixar o arquivo.\nClique em 'Cancel' para cancelar a instalação.";
@@ -797,9 +797,9 @@ err_activate_10045 = "O erro HTTP 10045 ocorreu durante a ativação.\nUma poss�
 err_activate_12002 =
    "Ocorreu o erro HTTP 12002 (tempo limite de pedido) durante\n"
    "o registro. Uma causa possível pode ser que a ligação ao nosso servidor\n"
-   "necessária à ligação esteja a ser bloqueada por uma firewall, um antivirus\n"
+   "necessária à ligação esteja a ser bloqueado por um firewall, um antivírus\n"
    "ou qualquer outro tipo de aplicação de segurança. Se tem qualquer uma dessas\n"
-   "aplicações instaladas, por favor desative-as temporariamente e tente o registro novamente.";
+   "aplicações instaladas, por favor, desative-as temporariamente e tente o registro novamente.";
 / %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "Erro ao copiar o arquivo %1 para %2 (%3).";
 err_port_in_use = "A porta %? do servidor já está em uso por outro programa.\n\nPrograma: %?\nCaminho: %?";
