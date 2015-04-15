@@ -228,7 +228,7 @@ conf_name = "Please enter your name";
 conf_nn = "C.O.D. payment (4,- &#8364; postage fee)";
 conf_alipay_text = "Please enter &quot;<strong id=\"alipay_name\"></strong>&quot; as reason for payment."; /chinese payments only - do not translate!
 conf_alipay_text_v2a = "To use Alipay, please follow these steps:"; /chinese payments only - do not translate!
-conf_alipay_text_v2b = "1. Transfer to our PayPal account:"; /chinese payments only - do not translate!
+conf_alipay_text_v2b = "1. Transfer to our Alipay account:"; /chinese payments only - do not translate!
 conf_alipay_text_v2c = "2. When Alipay requests a phone number, please choose one of the following two:"; /chinese payments only - do not translate!
 conf_alipay_text_v2d = "a) Use our phone number:"; /chinese payments only - do not translate!
 conf_alipay_text_v2e = "or"; /chinese payments only - do not translate!
