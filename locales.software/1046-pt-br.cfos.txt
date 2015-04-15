@@ -526,6 +526,8 @@ traffic_shaping_info = "Informação de Modelagem de Tráfego";
 wlan_access_point = "Ponto de acesso Wi-Fi";
 prioritize_foreground_process = "Priorizar processo em primeiro plano";
 prioritize_foreground_help = "Define automaticamente a prioridade do processo em primeiro plano para Alta.";
+upnp_router_info = "Usar as estatísticas UPnP do roteador";
+upnp_router_info_help = "Permite o uso das estatísticas UPnP do seu roteador para determinar a média da sua velocidade e modelagem de tráfego, se possível. Talvez você precise ativar o UPnP em seu roteador.";
 
 
 / ----------------------------------------------------------------------
