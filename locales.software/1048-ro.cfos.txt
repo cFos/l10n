@@ -35,6 +35,7 @@ htm_lang_prefix = "ro";
 
 ignore_ssl_cert_chk = "Ignoră erori legate de certificate SSL (nesigur)";
 ignore_ssl_cert_desc = "Dacă cFos Outlook DAV este permis să ignore erori legate de certificate SSL, se poate conecta cu servere folosind certificate SSL nesigure, de exemplu certificate auto-semnate. Activarea acestei opțiuni nu este recomandată, deoarece face conexiunea SSL vulnerabilă pentru atacuri de tip man-in-the-middle.";
+od_key_registered = "Cheia a fost înregistrată. Reporniți Outlook pentru a aplica modificările.";
 
 / ----------------------------------------------------------------------
 /
@@ -507,6 +508,8 @@ traffic_shaping_info = "Informații despre Traffic Shaping";
 wlan_access_point = "Punct de acces Wi-Fi";
 prioritize_foreground_process = "Prioritizează procesul aflat în prim-plan";
 prioritize_foreground_help = "Alocă automat o prioritate ridicată procesului aflat în prim-plan.";
+upnp_router_info = "Folosește statisticile UPnP ale routerului";
+upnp_router_info_help = "Folosește statisici de la routerul UPnP pentru a determina viteza liniei și mediul al cărui trafic trebuie modelat, dacă e posibil. S-ar putea să fie necesară activarea opțiunii UPnP în routerul dvs.";
 
 
 / ----------------------------------------------------------------------
@@ -890,6 +893,7 @@ virtual_wifi_stopped = "Rețeaua Wi-Fi virtuală a fost oprită cu succes.";
 virtual_wifi_dialup_ics = "Pt o conexiune dial-up trebuie să activați partajarea conexiunii la Internet manual, modificând proprietățile acestei conexiuni.";
 virtual_wifi_error_not_present = "Nu a fost detectată nici o interfață Wi-Fi.\n\nPentru a configura o retea Wi-Fi virtuală, o interfață Wi-Fi trebuie să fie disponibilă";
 virtual_wifi_autostart = "Pornește automat la startul sistemului.";
+virtual_wifi_deactivate_autostart = "Deactivează startul automat la pornirea sistemului.";
 
 
 / !!! DO NOT TRANSLATE !!!
