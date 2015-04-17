@@ -460,7 +460,7 @@ adapter_info = "網路連線資訊";
 channel_recommend = "使用率最少的頻道（最佳到最差）";
 channel_explain = "您可以根據每個頻道的使用情況來設定您的無線網路基地台，但請留意真正的使用頻率和其它的無線網路有關，有些可能在閒置，有些可能在大量使用。";
 no_adapters = "沒有可用的網路連線資訊";
-wlan_no_service = "沒有可用的服務，請安裝或啟動 Windows 的 Wireless 區域網路 API (WZC)。";
+wlan_no_service = "沒有可用的服務，請安裝或啟動 Windows 的無線區域網路 API (WZC)。";
 wlan_no_station = "找不到足夠的無線網路基地台。";
 kaspersky_hint = "Kaspersky Internet Security 2010 可能會造成 %p 使用上出現問題，請更新至最新版本的 Kaspersky Internet Security。";
 
@@ -842,7 +842,7 @@ virtual_wifi_stopped = "已成功停止虛擬 Wi-Fi。";
 virtual_wifi_dialup_ics = "您必須為此連線手動調整設定，開啟撥號網路連線的網際網路連線共用。";
 virtual_wifi_error_not_present = "找不到（已可使用的）Wi-Fi 網路卡。\n\n必須先有已存在並就緒的 Wi-Fi 網路卡才能建立虛擬 Wi-Fi。";
 virtual_wifi_autostart = "在系統啟動時自動啟動。";
-virtual_wifi_deactivate_autostart = "也停用在系統啟動時自動啟動。";
+virtual_wifi_deactivate_autostart = "不在系統啟動時自動啟動。";
 
 
 / ----------------------------------------------------------------------
@@ -872,28 +872,28 @@ ras_error = "撥號網路回報了錯誤";
 pwd_error = "密碼錯誤";
 check_dialup = "請檢查您的撥號網路連線。'";
 / %1 = number of seconds, %2 = "late"/"early"
-sync = "ISDN 時間同步: 您的時間 %2 了 %1 秒";
+sync = "ISDN 時間同步: 您的時間 %2 %1 秒";
 isync = "您的時間 %2 %1 秒";
 
-late = "慢";
-early = "快";
+late = "慢了";
+early = "快了";
 / %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
-max_drift = "您已超出了 %1 分鐘的最大允許時間偏差（目前時間偏差為 %2 分鐘）";
+max_drift = "您已超過了時間誤差門檻（門檻為 %1 分鐘，目前誤差為 %2 分鐘）";
 
-nosync = "ISDN 時間同步: 一切都設置完畢";
-nosyncreg = "ISDN 時間同步：僅適用於完整版本";
-inetsync = "根據網際網路調整時鐘";
-noinetsync = "根據網際網路調整時鐘: 僅僅適用於完整版本";
-conrep = "連接報告";
-startserv = "開始 %1 服務";
+nosync = "ISDN 時間同步: 設定完畢";
+nosyncreg = "ISDN 時間同步: 僅適用於完整版本";
+inetsync = "透過網際網路調整時鐘";
+noinetsync = "透過網際網路調整時鐘: 僅適用於完整版本";
+conrep = "連線報告";
+startserv = "啟動 %1 服務";
 stopserv = "停止 %1 服務";
 quit = "關閉狀態視窗";
 order_oem = "立刻訂購專業版本！";
-morefeatures = "更多的功能!";
-upgrade_easy = "下載新的 %p 驅動程式!";
-ipmtu = "已調整撥號網路設定以最佳化您的網路連線。\n調整將在在下次重開機之後生效。";
-closemsg = "很抱歉，為了提供您到期日資訊，將一直顯示此視窗。\n這樣您就能夠即時得知您的試用版使用使用期將於何時結束。\n\n在 %p/Professional 的完整版本中，將不會顯示此視窗，\n僅在您需要的時候才會顯示。只要對視窗點擊滑鼠右鍵\n點擊 %p 視窗或者工具列中的 %p 圖示即可開啟 %p 的訂購網頁！";
-cfos_endsoon = "%p 的試用期即將結束。\n立即訂購 %p 專業版！\n您可以透過以下的網址購買 %p。\n\nhttps://www.cfos.de/zh-tw/order/order.htm";
+morefeatures = "更多功能！";
+upgrade_easy = "下載新的 %p 驅動程式！";
+ipmtu = "已調整撥號網路設定以最佳化您的網路連線。\n調整將在下次重開機之後生效。";
+closemsg = "很抱歉，為了提供您試用期限資訊，此視窗將不會被隱藏。\n這樣您就能夠即時得知您的試用期將於何時結束。\n\n在 %p/Professional 的完整版本中，將不會顯示此視窗，\n僅在您需要的時候才會顯示。只要對視窗點擊滑鼠右鍵\n點擊 %p 視窗或者工具列中的 %p 圖示即可開啟 %p 的訂購網頁！";
+cfos_endsoon = "%p 的試用期即將結束。\n立即訂購 %p 專業版！\n您可透過以下方式購買 %p：\n\nhttps://www.cfos.de/zh-tw/order/order.htm";
 cfos_expired = "此 %p 版本已過期。\n立即訂購 %p/Professional！\n您可透過以下方式購買 %p：\n\nhttps://www.cfos.de/zh-tw/order/order.htm\n\n電話: +49-228-7669826\n傳真: +49-228-7669827。";
 actionwait = "連上網路之後，將執行您指定的行為。";
 discask = "確定要中斷此連線？";
@@ -904,8 +904,8 @@ badvsn = "您使用的 %p 程式適用於 %1，\n但您的金鑰只能在 %2 使
 active = "使用中";
 inactive = "未使用";
 disabled = "已停用";
-setup = "設定";
-no_write = "沒有 %p 檔案的寫入權限\n%1。\n\n請洽詢的電腦管理員，讓您獲得 CFOS.INI 與 GLOBAL.INI 檔案的寫入和修改權限。\n";
+setup = "驅動程式安裝";
+no_write = "沒有 %p 檔案的寫入權限\n%1。\n\n請洽詢您的電腦管理員，讓您獲得 CFOS.INI 與 GLOBAL.INI 檔案的寫入和修改權限。\n";
 oem_for = "%1 的 OEM 版本";
 second = "秒";
 seconds = "秒";
@@ -919,14 +919,14 @@ capi7 = "非特定";
 capi8 = "忙線中";
 capi9 = "無回應";
 capi10 = "無回應";
-capi11 = "拒絕";
-capi12 = "號碼以變更";
+capi11 = "被掛斷";
+capi12 = "號碼已變更";
 capi13 = "號碼無效";
 capi14 = "非特定";
 capi15 = "業者占線";
 capi16 = "業者斷線";
 capi17 = "暫時錯誤";
-capi18 = "網路堵塞";
+capi18 = "忙線中";
 capi19 = "業者占線";
 capi20 = "業者占線";
 capi21 = "無 Bearer Cap";
@@ -977,9 +977,9 @@ dlg_bgn_update = "更新 (&U)";
 dlg_med_header = "%p 媒介選擇";
 dlg_med_subheader = "%p 為您整合了 DSL 和 ISDN（和 ATM）。既然 %p 具有多項功能，何必還要安裝多個驅動程式呢？";
 dlg_med_isdn_box = "ISDN (CAPI 2.0)";
-dlg_med_dsl_box = "DSL （PPPoE 撥號連線）";
+dlg_med_dsl_box = "DSL（PPPoE 撥號連線）";
 dlg_med_areacode_txt = "區號：";
-dlg_med_msn_txt = "MSN （您的 ISDN 電話號碼）：";
+dlg_med_msn_txt = "MSN（您的 ISDN 電話號碼）：";
 dlg_med_netbt_txt = "調整 TCP/IP 設定以便獲得最大效能，並取消 NetBIOS over TCP/IP（推薦）";
 
 / com port dialog
@@ -990,7 +990,7 @@ dlg_com_prefix = "COM";
 
 / feature dialog
 dlg_fea_header = "%p 功能設定";
-dlg_fea_subheader = "進階功能能：有超過 50 項數據機指令與超過 100 項可微調的暫存器。";
+dlg_fea_subheader = "進階功能：有超過 50 項數據機指令與超過 100 項可微調的暫存器。";
 dlg_fea_param = "附加的參數（可保留不變）：";
 dlg_fea_spdts = "偵測到您的電腦上安裝了 %p。\n\n如果要同時使用 %p 的話，\n建議您停用 %p 上的流量塑型功能。\n\n您還是要開啟 %p 的流量塑型功能嗎？";
 fs_chktimesync = "時間同步";
@@ -1148,7 +1148,7 @@ totd14 = "%p 提供輔助說明的郵件群組，讓您可使用電子郵件訂�
 totd15 = "您可以在 WHATSNEW.TXT 檔案中找到所有目前版本新增了什麼功能與修正了什麼地方。請點擊 %p 選單中的「說明」，然後點選「WHATSNEW.TXT」。";
 totd16 = "%p 支援 Lotus Notes。請參見數據機檔案 LOTUS_CF.MDM 以取得更多資訊。";
 totd17 = "若您遇到任何問題，我們的技術支援團隊樂於協助您：%url/contact/contact.htm";
-totd18 = "嘲諷者說 C.F.O.S. 這個名字來自於 「Creatures from Outer Space」（外太空生物），但是這種說法是錯誤的！C.F.O.S.這個名字的來源其實是「CAPI-FOSSIL」，其中 CAPI 是一種 ISDN 標準，FOSSIL 是 DOS 當中的一個序列埠介面。:-)";
+totd18 = "嘲諷者說 C.F.O.S. 這個名字是「Creatures from Outer Space」（外太空生物）的縮寫，但是這種說法是錯誤的！C.F.O.S.這個名字的來源其實是「CAPI-FOSSIL」，其中 CAPI 是一種 ISDN 標準，FOSSIL 是 DOS 的一個序列埠介面。:-)";
 
 / directory creation
 dir_badname = "資料夾名稱與現有檔案發生衝突。";
