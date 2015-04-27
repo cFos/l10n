@@ -247,6 +247,12 @@ translator_name = "";
 translator_msg = "";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Your %3 license expires in %1 %2.";
+version_mismatch = "Version mismatch between driver and daemon window.\n"
+   "\n"
+   "Daemon=%1\n"
+   "Driver=%2\n"
+   "\n"
+   "Please reboot and if that doesn't help reinstall %p!\n";
 
 service_desc = "Performs latency measurement and privileged operations for %p";
 no_pings_error = "The ping packets sent by %p do not seem to have come through. "
@@ -571,6 +577,7 @@ prioritize_foreground_process = "Prioritize process in foreground window";
 prioritize_foreground_help = "Automatically set the priority of the process in foreground window to high.";
 upnp_router_info = "Use UPnP Router Statistics";
 upnp_router_info_help = "Use statistics from your UPnP router to determine line speed and traffic shaping medium, if possible. You may need to activate UPnP in your router.";
+ping_stats = "Ping Statistics";
 
 
 / ----------------------------------------------------------------------

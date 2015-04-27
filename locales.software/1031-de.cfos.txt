@@ -231,6 +231,12 @@ translator_name = "";
 translator_msg = "";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Ihre %3 Lizenz ist noch %1 %2 gültig.";
+version_mismatch = "Verschiedene Versionen von Treiber und Status Fenster gefunden!\n"
+   "\n"
+   "Status Fenster=%1\n"
+   "Treiber=%2\n"
+   "\n"
+   "Bitte neu starten oder, falls das nicht hilft, %p neu installieren!\n";
 
 service_desc = "Misst Latenzzeiten und führt privilegierte Operationen aus";
 no_pings_error = "Die Ping Pakete von %p scheinen nicht verschickt zu werden. "
@@ -546,6 +552,7 @@ prioritize_foreground_process = "Prozess im Vordergrund-Fenster priorisieren";
 prioritize_foreground_help = "Die Priorität des Prozesses im Vordergrund-Fenster auf high setzen.";
 upnp_router_info = "UPnP Router Statistik nutzen";
 upnp_router_info_help = "Statistik Ihres UPnP Router nutzen um die Leitungsgeschwindigkeit und Traffic Shaping Medium zu ermitteln. Sie müssen ggf. UPnP in Ihrem Router aktivieren.";
+ping_stats = "Ping Statistik";
 
 
 / ----------------------------------------------------------------------
