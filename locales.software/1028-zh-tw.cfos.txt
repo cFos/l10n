@@ -209,6 +209,7 @@ translator_name = "Peter Chen";
 translator_msg = "若有任何翻譯問題，請寄信到 translation@cfos.de";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "您的 %3 授權將於 %1 %2 後到期。";
+version_mismatch = "驅動程式與程式視窗版本不符。\n\n程式視窗=%1\n驅動程式=%2\n\n請先重新開機，若重新開機後仍有此問題請重新安裝 %p！\n";
 
 service_desc = "測量 %p 的延遲時間及執行特權操作";
 no_pings_error = "沒有看到由 %p 送出的反應封包。沒有這些反應封包，%p 流量塑型無法正常運作，點擊這裡取得說明。";
@@ -515,6 +516,7 @@ prioritize_foreground_process = "調高前景程序優先權";
 prioritize_foreground_help = "自動將前景程序的優先權設為高。";
 upnp_router_info = "使用 UPnP 路由器統計";
 upnp_router_info_help = "若可行，使用來自您 UPnP 路由器的統計資料來判斷線路速度與流量塑型媒體類型。您可能需要到路由器設定中開啟 UPnP。";
+ping_stats = "Ping 統計";
 
 
 / ----------------------------------------------------------------------
