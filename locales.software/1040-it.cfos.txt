@@ -35,6 +35,7 @@ htm_lang_prefix = "it";
 
 ignore_ssl_cert_chk = "Ignora errori certificato SSL (rischioso)";
 ignore_ssl_cert_desc = "Se viene consentito a cFos Outlook DAV d'ignorare gli errori del certificato SSL, esso può connettersi a servers con certificati SSL non sicuri, per esempio certificati auto-firmati. L'attivazione di questa opzione è normalmente sconsigliata, perché rende una qualsiasi connessione SSL vulnerabile ad attacchi di tipo man-in-the-middle.";
+od_key_registered = "La chiave è stata registrata. Si prega di riavviare Outlook per rendere effettiva la registrazione.";
 
 / ----------------------------------------------------------------------
 /
@@ -73,6 +74,7 @@ setup_connections = "Configura le connessioni";
 ask_inst_ipv6 = "Il protocollo IPv6 non è stato ancora installato su questo sistema.\n\n"
                 "Vuoi installare il protocollo IPv6 adesso?";
 err_inst_ipv6 = "Errore %? durante l'installazione del protocollo IPv6.";
+file_link_failed = "Creazione del link del file fallita.";
 
 / connection entry dialog
 con_err_save = "Non è stato possibile salvare le informazioni sul collegamento. !";
@@ -216,6 +218,12 @@ translator_name = "Umberto Grimaldi, Massimo Castiglia";
 translator_msg = "Translators:\n\nUmberto Grimaldi (umberto_grimaldi@alice.it)\nMassimo Castiglia (massimocastiglia@alice.it)";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "La tua licenza di %3 vale ancora per %1 %2.";
+version_mismatch = "Versione non corrispondente fra driver e finestra del demone.\n"
+   "\n"
+   "Daemon=%1\n"
+   "Driver=%2\n"
+   "\n"
+   "Si prega di riavviare, e se questo non risolve reinstalla %p!\n";
 
 service_desc = "Misura i tempi di latenza ed esegue le operazioni preferenziali";
 no_pings_error = "I pacchetti di ping inviati da %p sembra non riescano ad uscire. Senza di essi, %p Traffic Shaping non può funzionare correttamente. Clicca qui per ottenere aiuto";
@@ -528,6 +536,7 @@ prioritize_foreground_process = "Assegna priorità del processo della finestra i
 prioritize_foreground_help = "Imposta automaticamente la priorità alta del processo della finestra in primo piano";
 upnp_router_info = "Utilizza statistiche da UPnP del router";
 upnp_router_info_help = "Utilizza statistiche da UPnP del tuo router per ricavare la velocità della linea e il media per il traffic shaping, se possibile. Potrebbe essere necessario attivare UPnP nel tuo router";
+ping_stats = "Statistiche Ping";
 
 
 / ----------------------------------------------------------------------
@@ -666,6 +675,8 @@ crash_msg_virus_clean = "Questo modulo potrebbe essere un virus. A tal proposito
 crash_msg_hook = "Sono stati trovati moduli appartenenti ad altri programmi, autonomamente inseritisi in questo programma. Per assicurarti che non siano detti moduli la causa dell'arresto anomalo, per favore riavvialo, disattivando o disinstallando i seguenti programmi:";
 crash_msg_terminate = "Il programma verrà chiuso immediatamente";
 crash_msg_query_upload = "Vuoi inviare i dettagli dell'arresto anomalo a cFOs per aiutarci ad analizzare l'errore?";
+crash_msg_new_release = "Una nuova versione di %p è disponibile. Si prega di scaricare e installare l'ultima versione di %p da www.cfos.de.";
+crash_msg_new_beta = "Una nuova versione beta di %p è disponibile. Si prega di scaricare e installare l'ultima versione beta di %p da www.cfos.de/beta.";
 
 /start installation dialog
 start_header = "Installazione";
@@ -761,6 +772,7 @@ dt_advertise_desc = "Lista delle caratteristiche di %?";
 
 / message boxes
 query_reboot = "E' necessario riavviare il sistema,\naffinché le modifiche siano effettive.\n\nRiavviare adesso il computer?";
+query_inst_reboot = "Riavviare il sistema operativo per continuare l'installazione.\n\nSi prega di riavviare il setup del programma dopo il riavvio.\n\nVuoi riavviare il sistema operativo ora?";
 query_drv_inst_cancel = "Il sistema operativo eseguirà la dis-/installazione del driver.\nL'operazione potrebbe richiedere fino a 15 minuti per l'installazione o \ndisinstallazione di un driver!\n\nSe questo periodo di tempo non è ancora trascorso, si prega di non \ninterrompere il processo.\n\nSei sicuro di voler interrompere il processo?";
 query_driver_err_abort = "E'avvenuto un errore durante l'installazione del driver!\nAdesso si raccomanda di annullare l'installazione.\nE'comunque possibile continuare l'installazione,\nche potrebbe essere utile a solo scopo di prova. Si prega di considerare che %p potrebbe non funzionare correttamente.\nAnnullare l'installazione? (Raccomandato)";
 query_further_info = "Desiderate ulteriori informazioni?";
@@ -845,6 +857,7 @@ eml_checking_domain = "Sto verificando il dominio della casella di posta....";
 virtual_wifi_wizard_name = "%p Start Wizard di Virtual Wi-Fi";
 virtual_wifi_header = "Avvia Virtual Wi-Fi";
 virtual_wifi_subheader = "Allestisci un access point wireless tramite software e abilita la condivisione della connessione ad Internet";
+virtual_wifi_stop_header = "Ferma Virtual Wi-Fi";
 virtual_wifi_info = "Seleziona la connessione alla rete che instrada il traffico Internet e scegli una password per l'access point wireless.";
 virtual_wifi_ssid = "SSID:";
 virtual_wifi_default_ssid = "cFos Wi-Fi";
@@ -859,6 +872,9 @@ virtual_wifi_ok = "Il Virtual Wi-Fi e la condivisione della rete Internet sono s
 virtual_wifi_query_stop = "Fermare il Virtual Wi-Fi?";
 virtual_wifi_error_stop = "Si è verificato un errore nel fermare Virtual Wi-Fi:";
 virtual_wifi_stopped = "Virtual Wi-Fi fermato con successo.";
+virtual_wifi_error_not_present = "Nessuna (o non pronta) interfaccia Wi-Fi trovata.\n\nPer configurare il Virtual Wi-Fi deve essere presente e pronta una interfaccia Wi-Fi.";
+virtual_wifi_autostart = "Avvia automaticamente all'avvio del sistema.";
+virtual_wifi_deactivate_autostart = "Disabilita l'avvio automatico all'avvio del sistema.";
 
 
 / !!! DO NOT TRANSLATE !!!
