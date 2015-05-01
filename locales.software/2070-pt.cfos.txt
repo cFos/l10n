@@ -65,6 +65,7 @@ ask_inst_ipv6 = "O protocolo IPv6 ainda não foi instalado neste sistema.\n\n"
 err_inst_ipv6 = "Erro %? Ao instalar o protocolo IPv6.";
 pause_server = "Pausar servidor";
 resume_server = "Continuar servidor";
+file_link_failed = "Falha na criação da ligação ao ficheiro.";
 
 / connection entry dialog
 con_err_save = "Não foi possível guardar os dados da ligação!";
@@ -658,6 +659,8 @@ crash_msg_virus_clean = "Este módulo pode ser um virus. Por isso, é altamente 
 crash_msg_hook = "Foram encontrados módulos de outros programas que se injetaram nesta aplicação. Para garantir que estes módulos não são a causa do bloqueio, por favor volte a correr esta aplicação após desativar ou desistalar as seguintes aplicações:";
 crash_msg_terminate = "A aplicação irá terminar.";
 crash_msg_query_upload = "Pretende enviar informação da falha à cFos, que permite analisar o erro?";
+crash_msg_new_release = "Está disponível uma nova versão do %p. Por favor, descarregue e installe a versão mais recente do %p do site www.cfos.de.";
+crash_msg_new_beta = "Está disponível uma nova versão beta do %p is available. Por favor, descarregue e installe a versão mais recente do %p do site www.cfos.de/beta.";
 
 /start installation dialog
 start_header = "Instalação";
@@ -754,6 +757,7 @@ dt_advertise_desc = "Descreve todas as características do %?.";
 
 / message boxes
 query_reboot = "Deverá reiniciar o seu computador para que as mudanças produzam efeito.\n\nReiniciar agora?";
+query_inst_reboot = "Tem de reiniciar o sistema operativo para que a instalação possa continuar.\n\nPor favor, reinicie o programa de instalação após o reinício.\n\nPretende reiniciar o sistema operativo agora?";
 query_drv_inst_cancel = "A desinstalação do controlador está a ser efectuada pelo sistema operativo.\nA interface do setup do Windows pode levar até 15 minutos para\ninstalar ou remover o controlador!\n\nÉ extremamente recomendável não suspender ou anular este processo, a não ser que\njá tenha passado esse período de tempo.\n\nQuer realmente cancelar?";
 query_driver_err_abort = "Houve um erro durante a instalação do controlador!\nPortanto é recomendável cancelar a instalação agora.\nEm qualquer caso, ainda é possível prosseguir com a instalação,\no que pode ser útil em casos de testes.\nTenha em consideração que %p provavelmente não funcionará bem.\n\nCancelar instalação? (recomendado)";
 query_further_info = "Gostaria de mais informações?";
@@ -849,6 +853,7 @@ eml_checking_domain = "A verificar o domínio do e-mail...";
 virtual_wifi_wizard_name = "Assistente de Início do Wi-Fi Virtual %p";
 virtual_wifi_header = "Iniciar Wi-Fi Virtual";
 virtual_wifi_subheader = "Configure um ponto de acesso baseado em software e ative a Partilha de Ligação à Internet (Internet Connection Sharing, ou ICS).";
+virtual_wifi_stop_header = "Parar Wi-Fi Virtual";
 virtual_wifi_info = "Selecione a ligação de rede que encaminha o tráfego de Internet e escolha uma password para o ponto de acesso.";
 virtual_wifi_ssid = "SSID:";
 virtual_wifi_default_ssid = "Wi-Fi cFos";
@@ -864,6 +869,8 @@ virtual_wifi_query_stop = "Parar Wi-Fi Virtual?";
 virtual_wifi_error_stop = "Erro ao parar Wi-Fi Virtual:";
 virtual_wifi_stopped = "Wi-Fi Virtual parado com sucesso.";
 virtual_wifi_dialup_ics = "Para uma ligação dial-up, tem de ativar a Ligação à Internet (Internet Connection Sharing, ou ICS) manualmente alterando as propriedades desta ligação.";
+virtual_wifi_error_not_present = "Não foi encontrado qualquer interface Wi-Fi disponível.\n\nPara configurar um Wi-Fi Virtual, um interface Wi-Fi tem de estar presente e disponível.";
+virtual_wifi_autostart = "Iniciar automaticamente com o sistema.";
 
 
 / !!! DO NOT TRANSLATE !!!
