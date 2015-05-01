@@ -160,6 +160,10 @@ logon_start_desc = "This tasks starts %p if the user shown below logs in.";
 show_home_dir = "Show Home Directory";
 publish_file = "Publish File";
 user_administration = "User Administration";
+disable_uploads = "Disable uploads";
+enable_uploads = "Enable uploads";
+publish_file_for_download = "Publish file for download";
+upload_url_to_clipboard = "Upload URL to clipboard";
 
 / pnet connectivity test
 connectivity_test = "Connectivity Test";

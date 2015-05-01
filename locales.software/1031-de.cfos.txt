@@ -143,6 +143,10 @@ logon_start_desc = "Diese Task startet %p, wenn sich der unten angezeigte Benutz
 show_home_dir = "Start-Verzeichnis anzeigen";
 publish_file = "Datei veröffentlichen";
 user_administration = "Benutzerverwaltung";
+disable_uploads = "Uploads deaktivieren";
+enable_uploads = "Uploads aktivieren";
+publish_file_for_download = "Datei zum Download veröffentlichen";
+upload_url_to_clipboard = "Upload URL in die Zwischenablage";
 
 / pnet connectivity test
 connectivity_test = "Verbindungstest";
