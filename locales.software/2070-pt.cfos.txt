@@ -37,6 +37,7 @@ htm_lang_prefix = "pt";
 
 ignore_ssl_cert_chk = "Ignorar erros de certificado SSL (inseguro)";
 ignore_ssl_cert_desc = "Se o cFos Outlook DAV ignorar erros de certificado SSL, poderá ligar-se a servidores com certificados SSL inseguros, como por exemplo certificados SSL auto assinados. Ativar esta opção não é recomendável por regra, porque torna uma ligação SSL vulnerável a ataques man-in-the-middle attacks.";
+od_key_registered = "Chave registada. Por favor, reinicie o Outlook para o registo surtir efeito.";
 
 / ----------------------------------------------------------------------
 /
@@ -142,6 +143,10 @@ logon_start_desc = "Esta tarfa inicia o %p se o utilizador abaixo indicado inici
 show_home_dir = "Mostrar Diretório Inicial";
 publish_file = "Publicar Arquivo";
 user_administration = "Administração de Utilizadores";
+disable_uploads = "Desativar uploads";
+enable_uploads = "Ativar uploads";
+publish_file_for_download = "Publicar ficheiro para download";
+upload_url_to_clipboard = "Copiar URL para Área de Transferência";
 
 / pnet connectivity test
 connectivity_test = "Teste de Conectividade";
@@ -206,6 +211,12 @@ translator_name = "Jorge Joel e Adriano Maia";
 translator_msg = "Para a comunidade portuguesa do %p.\nErros e sujestões de tradução, envie e-mail para:\n\njorgefrjoel@gmail.com ou maia.adriano@gmail.com\n\nJorge Joel e Adriano Maia - Tradutores Oficiais %p para Portugal\n\nNão use estes e-mails para fins de SPAM. Obrigado";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "A sua licença do %3 expira em %1 %2.";
+version_mismatch = "Desfasamento de versões entre o driver e a janela do serviço.\n"
+   "\n"
+   "Serviço=%1\n"
+   "Driver=%2\n"
+   "\n"
+   "Por favor, reinicie o computador; caso isso não ajude, reinstalle o %p!\n";
 
 service_desc = "Mede os tempos de latência e executa as operações prioritárias";
 no_pings_error = "Os pacotes de pings transmitidos pelo %p não estão a conseguir passar. Sem isso, o Traffic Shaping do %p não poderá funcionar correctamente. Talvez um firewall esteja a bloquear o Serviço '%p Service' (spd.exe) Este serviço deve ter a autorização para aceder à Internet.";
@@ -517,6 +528,9 @@ traffic_shaping_info = "Informação de Traffic Shaping";
 wlan_access_point = "Ponto de acesso Wi-Fi";
 prioritize_foreground_process = "Priorizar processo na janela em primeiro plano";
 prioritize_foreground_help = "Define automaticamente a prioridade do processo da janela em primeiro plano para alta.";
+upnp_router_info = "Utilizar Estatísticas do Router";
+upnp_router_info_help = "Utiliza as estatísticas do seu router UPnP para determinar a velocidade da linha e o modo de traffic shaping, se possível. Pode ter de ativar o UPnP no seu router.";
+ping_stats = "Estatísticas de Ping";
 
 
 / ----------------------------------------------------------------------
@@ -871,6 +885,7 @@ virtual_wifi_stopped = "Wi-Fi Virtual parado com sucesso.";
 virtual_wifi_dialup_ics = "Para uma ligação dial-up, tem de ativar a Ligação à Internet (Internet Connection Sharing, ou ICS) manualmente alterando as propriedades desta ligação.";
 virtual_wifi_error_not_present = "Não foi encontrado qualquer interface Wi-Fi disponível.\n\nPara configurar um Wi-Fi Virtual, um interface Wi-Fi tem de estar presente e disponível.";
 virtual_wifi_autostart = "Iniciar automaticamente com o sistema.";
+virtual_wifi_deactivate_autostart = "Desativar também o início automático com o sistema.";
 
 
 / !!! DO NOT TRANSLATE !!!
