@@ -43,7 +43,7 @@ Software translation status
 | `G` | fa - 1256         | all       |                                                       |       |
 |     | zh-cn - 2052      | 0         |                                                       |       |
 | `G` | es-mx - 2058      | 600       |                                                       |       |
-| `G` | pt - 2070         | 22        | done (2014-04-21) by Adriano Maia                     |       |
+| `G` | pt - 2070         | 0         | done (2014-04-21) by Adriano Maia                     |       |
 | `G` | sr-cs-latn - 2074 |           |                                                       |       |
 | `x` | sr-cyrl-cs - 3098 |           |                                                       |       |
 | `x` | it-ch - 2064      | `x`       |                                                       |       |
