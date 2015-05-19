@@ -173,7 +173,7 @@ ga_password_subheader = "Senha para acesso remoto do cFos Game Analyzer.";
 ga_password_info = "Usuário: cfosspeed";
 ga_call_info = "Acesse o cFos Game Analyzer usando seu dispositivo conectado a rede local pelo endereço\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nAcesse o cFos Game Analyzer usando seu dispositivo conectado a rede externa com a senha acima e usando seu endereços IP em vez de 'localhost':\n";
 ga_detected_by_speed = "Foi detectado a existência de uma versão do cFos Game Analyzer instalada. O cFosSpeed já possui todas as opções do cFos Game Analyzer.\n\nSe você continuar, o cFos Game Analyzer vai ser desinstalado antes da instalação do cFosSpeed.\n\nVocê deseja continuar?";
-ga_use_password_by_speed = "O cFosSpeed deve usar a senha do cFos Game Analyzer, para que você consiga acessar cFosSpeed de outros dispositivos também?";
+ga_use_password_by_speed = "O cFosSpeed deve usar a senha do cFos Game Analyzer, para que você também consiga acessar o cFosSpeed de outros dispositivos?";
 
 / ----------------------------------------------------------------------
 /
@@ -208,7 +208,7 @@ badkey = "Existe um problema com sua licença.\nPor favor, reinsira a licença c
 no_setup = "Não pôde iniciar o pacote de instalação (setup.exe).";
 no_cmd = "Não foi possível abrir o Prompt de Comando (cmd.exe)!";
 ask_disconnect_ras = "Uma conexão de rede atualmente ativa está prestes a ser reconfigurada.\nÉ recomendado desconectá-la antes de continuar.\nDesconectar a atual conexão de rede?";
-sygate_hint = "O %p detectou o Firewall Sygate, que confunde o sinal\nde calibragem do %p com um Ataque de Negação de\nServiço (DoS attack) com pacotes de dados \"Ping-of-Death\".\nAssim sendo, deve-se baixar e depois carregar um\narquivo com velocidade máxima durante 30 segundos, respectivamente.\nIsto deve calibrar o %p tal qual o sinal de\ncalibragem.\n\nDica: O recurso do Firewall \"Anti IP Manipulation\" deve ser desativado.";
+sygate_hint = "O %p detectou o Firewall Sygate, que confunde o sinal\nde calibragem do %p com um Ataque de Negação de\nServiço (DoS attack) com pacotes de dados \"Ping da Morte\".\nAssim sendo, deve-se baixar e depois carregar um\narquivo com velocidade máxima durante 30 segundos, respectivamente.\nIsto deve calibrar o %p tal qual o sinal de\ncalibragem.\n\nDica: O recurso do Firewall \"Anti IP Manipulation\" deve ser desativado.";
 select_language = "Escolher Idioma";
 translator = "Tradutor";
 translator_name = "Bruno Eduardo da C. M. Pinto";
@@ -230,19 +230,19 @@ openwindow = "Abrir Janela";
 openwindows = "Abrir Janelas";
 closewindow = "Fechar Janela";
 closewindows = "Fechar Janelas";
-autoopen = "Abrir/Ocultar automaticamente";
-taskbaricon = "Ícone da Barra de Tarefas";
-autoarrange = "Posicionamento automático";
+autoopen = "Mostrar/Ocultar Automaticamente";
+taskbaricon = "Ícone na Barra de Tarefas";
+autoarrange = "Posicionar Automaticamente";
 effects = "Efeitos";
-blend_effect = "Esmaecer as janelas";
-slide_effect = "Deslizar janelas";
-win_behaviour = "Usar configurações do sistema";
+blend_effect = "Esmaecer as Janelas";
+slide_effect = "Deslizar Janelas";
+win_behaviour = "Usar Configurações do Sistema";
 selectskin = "Escolher Skin";
-topmost = "Sempre visível";
+topmost = "Sempre Visível";
 defpos = "Posição Padrão";
 disco_ras = "Desconectar ";
 config = "Opções";
-order = "Compre agora!";
+order = "Compre Agora!";
 dayl_singular = "dia";
 dayl_plural = "dias";
 days_singular = "dia";
@@ -259,10 +259,10 @@ lic_try = "Você ainda pode experimentar o %3 por %1 %2 antes de o adquirir.";
 enable_win = "Habilitar janela de estado?\n\nA janela de estado mostra o estado da sua conexão ativa.";
 license = "Licença ";
 licensed_to = "Licenciado para %?";
-upgrade = "Versão mais recente";
+upgrade = "Versão mais Recente";
 connect_to = "Conectar a";
-make_own_skin = "Crie a sua própria Skin";
-click_through = "Clicar através";
+make_own_skin = "Crie a sua Própria Skin";
+click_through = "Clicar Através";
 ask = "Perguntar";
 off = "Desativado";
 on = "Ativado";
@@ -323,7 +323,7 @@ description = "Descrição";
 new_program = "Novo programa";
 restore_defaults = "Restaurar padrões";
 add = "Adicionar";
-suggest_program = "Sugira esse programa ao time do cFos";
+suggest_program = "Sugerir esse programa ao time do cFos";
 l7_prot_detection = "Detecção de Protocolo Layer-7";
 l7_prot_detection_help = "Detecta protocolos através da análise dos dados. Use o diálogo 'Priorizar protocolos' para mudar a prioridade de vários protocolos. Se essa opção for desativada os protocolos serão detectados pelo número da porta que estão usando.";
 favor_ping = "Favorecer Tempo de Ping";
@@ -381,9 +381,9 @@ volume_limit = "Limite de Volume";
 spdbudget_help = "Para usar uma cota, vá para o diálogo de conexões e defina-a para uma conexão específica";
 password_bad = "Senha ruim";
 sum_button = "cumulativo";
-calibrate = "Calibrar linha";
+calibrate = "Calibrar Linha";
 test_pings = "Enviar Pings para Teste";
-open_console = "Abrir console do %p";
+open_console = "Abrir Console %p";
 variable_bandwidth = "Largura de Banda Variável";
 def_bandwidth_help = "Padrão para <b>novas</b> conexões";
 cur_bandwidth_help = "Configuração da conexão atual";
@@ -459,14 +459,14 @@ net_talk_subheader = "Por favor, decida se o recurso Net Talk deve ser utilizado
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
 vari_fixed = "Variação de Ping";
 vari_fixed_help = "Usa Modelagem de Tráfego avançada para adaptar-se a variações de tempos de ping";
-vari_fixed_help_long = "Coleta estatísticas de ping para adaptar-se a variações de tempos de ping; especialmente útil para conexões sem fio/móveis.";
+vari_fixed_help_long = "Coleta estatísticas de ping para adaptar-se a variações de tempos de ping; especialmente útil para conexões sem fio/móvel.";
 
 set = "Definir";
 tx_limit_help = "Por favor, introduza a velocidade, em kbps ou porcentagem, a que esta aplicação ou protocolo pode transmitir.";
 download_more_skins = "Baixar mais Temas";
 documentation = "Documentação";
 exit_demon = "Sair";
-speed_test = "Testar Velocidade";
+speed_test = "Teste sua Velocidade";
 ask_key_banned_info = "Houve um problema com sua licença.\nGostaria de mais informações?";
 
 adapter_info = "Informações do Adaptador";
@@ -496,22 +496,22 @@ console_prio_prog_perm = "Priorizar este programa permanentemente";
 console_prio_advanced = "Priorização avançada";
 
 new_version_available = "Uma nova versão está disponível";
-update_beta = "Verificar também se há versões beta";
+update_beta = "Verificar também por versões beta";
 update_skip_version = "Não me notificar sobre essa versão:";
 check_new_version_now = "Verificar se há uma nova versão agora";
-program_updates = "Atualização do programa";
+program_updates = "Atualização do Programa";
 no_new_version_available = "Não há uma nova versão disponível";
-use_logitech = "Usar a tela do teclado Logitech G15/G19/G510";
-detect_logitech = "Detectar a tela da Logitech";
-logitech_help = "Ajuda da tela da Logitech";
-logitech_keyboards = "Teclado para jogos da Logitech";
+use_logitech = "Usar a Tela do Teclado Logitech G15/G19/G510";
+detect_logitech = "Detectar o Display da Logitech";
+logitech_help = "Ajuda com o Display da Logitech";
+logitech_keyboards = "Teclado para Jogos da Logitech";
 keyboard_leds = "LEDs do Teclado";
 keyboard_led_help = "Ajuda de LEDs do Teclado";
-only_on_fullscreen = "Apenas em tela inteira";
+only_on_fullscreen = "Apenas em Tela Inteira";
 speed_guide = "Tutorial sobre Velocidade";
-lock_position = "Travar posição";
-check_for_news = "Verificar novidades";
-rwin_expansion = "Expansão automática do RWIN";
+lock_position = "Travar Posição";
+check_for_news = "Verificar Novidades";
+rwin_expansion = "Expansão Automática do RWIN";
 rwin_expansion_help = "Expandir automaticamente o TCP RWIN para aumentar a velocidade de download se o RWIN selecionado pelo Windows é muito baixo.";
 query_auto_open = "Desabilitar abertura e fechamento automático da janela de status?\nVocê pode reativá-la novamente no menu de contexto.";
 preview_skins = "Visualizar Skins";
@@ -522,12 +522,13 @@ set_server_pwd = "Definir Senha do Servidor";
 auto_arrange_top = "Topo";
 auto_arrange_bottom = "Base";
 show_on_metro_apps = "Mostrar na interface Metro";
-traffic_shaping_info = "Informação de Modelagem de Tráfego";
-wlan_access_point = "Ponto de acesso Wi-Fi";
+traffic_shaping_info = "Informação de modelagem de tráfego";
+wlan_access_point = "Ponto de Acesso Wi-Fi";
 prioritize_foreground_process = "Priorizar processo em primeiro plano";
 prioritize_foreground_help = "Define automaticamente a prioridade do processo em primeiro plano para Alta.";
 upnp_router_info = "Usar as estatísticas UPnP do roteador";
 upnp_router_info_help = "Permite o uso das estatísticas UPnP do seu roteador para determinar a média da sua velocidade e modelagem de tráfego, se possível. Talvez você precise ativar o UPnP em seu roteador.";
+ping_stats = "Estatísticas do Ping";
 
 
 / ----------------------------------------------------------------------
@@ -556,10 +557,10 @@ wizard_lang_line = "Este assistente está em ";
 / welcome page
 welcome_line = "Bem-vindo ao %? v%?!";
 welcome_info = "Este assistente irá guiá-lo durante a instalação do %? v%?.";
-welcome_found = "Uma instalação já existente do %? v%? foi detectada no seu sistema.";
-welcome_found_dir = "Uma instalação já existente do %1 v%2 foi detectada no seu computador no diretório %3.";
-welcome_found_unknown = "Uma instalação existente do %? foi detectada no seu sistema.";
-welcome_found_modified = "Uma instalação incompleta ou modificada do %1 v%2 foi detectada no seu computador no diretório %3.";
+welcome_found = "Foi detectado que existe uma instalação do %? v%? no seu sistema.";
+welcome_found_dir = "Foi detectado que existe uma instalação do %1 v%2 no seu computador no diretório: %3.";
+welcome_found_unknown = "Foi detectado que existe uma instalação do %? no seu sistema.";
+welcome_found_modified = "Foi detectado que existe uma instalação incompleta ou modificada do %1 v%2 no seu computador no diretório: %3.";
 welcome_update = "Para substituir a versão existente, clique em Avançar.";
 welcome_admin = "Você não tem privilégios de administrador. Para executar este assistente, precisará de ter privilégios de administrador.";
 welcome_lang_syslink = "<a href=\"%?\">Outras Línguas</a>";
@@ -571,7 +572,7 @@ ui_welcome_info = "Se realmente deseja desinstalar %1 v%2 do diretório %3 e rem
 
 / brand key welcome page
 bk_welcome_line = "%? Registro.";
-bk_welcome_info = "Este assistente lhe acompanhará ao longo do processo de registo do %?.";
+bk_welcome_info = "Este assistente irá guiá-lo durante o processo de registo do %?.";
 bk_welcome_found = "Foi detectado um arquivo de licença já existente no diretório de destino %?.";
 bk_welcome_update = "Para substituir o arquivo de licença existente, clique em Avançar.";
 
@@ -583,47 +584,47 @@ lic_agree = "I agree.";
 
 / restore point dialog
 rp_header = "Ponto de Restauração do Sistema";
-rp_subheader = "Um Ponto de Restauração do Sistema permite-lhe restaurar o seu Windows para um estado anterior.";
-rp_info = "Um Ponto de Restauração do Sistema permite-lhe restaurar o sistema do seu Windows para o estado em que estava quando o Ponto de Restauração do Sistema foi criado. Recomenda-se a criação de um Ponto de Restauração do Sistema sempre que um novo controlador é instalado.";
+rp_subheader = "Um Ponto de Restauração do Sistema permite restaurar seu Windows para um ponto anterior.";
+rp_info = "Um Ponto de Restauração do Sistema vai permitir restaurar seu Windows para o estado em que estava quando o Ponto de Restauração do Sistema foi criado. Recomenda-se a criação de um Ponto de Restauração do Sistema sempre que um novo controlador é instalado.";
 rp_check = "Criar ponto de restauração do sistema.";
 / %1 = product name
 rp_uninst_info = "O Ponto de Restauração do Sistema não é feito para uma desinstalação normal do %1. É apenas uma precaução adicional que permite retornar seu sistema ao estado original em caso de um conflito de controlador. Uma desinstalação normal do %1 pode ser feita tanto pelo menu Iniciar na pasta %1 quanto pelo Painel de Controle em Adicionar ou Remover Programas";
 
 / password dialog
-pwd_header = "Senha.";
-pwd_subheader = "Cada licença requer uma senha única.";
+pwd_header = "Código de ativação.";
+pwd_subheader = "Cada licença requer um código de ativação único.";
 pwd_reg_to = "O %p será registrado em nome de:";
-pwd_password_info = "Por favor, insira a senha da sua licença no formato xxxx-xxxx-xxxx-xxxx.";
-pwd_password = "Senha:";
-pwd_invalid_password = "Senha inválida. Por favor, verifique o que digitou e tente novamente.";
+pwd_password_info = "Por favor, insira o código de ativação da sua licença no formato xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "Código:";
+pwd_invalid_password = "Código de ativação inválido. Por favor, verifique o que digitou e tente novamente.";
 pwd_activate_info = "Você precisa de estar conectado à Internet para poder ativar sua licença nos nossos servidores.";
 pwd_activate_failed = "Ativação da licença fracassou!";
 pwd_activate_failed_code = "A ativação da licença falhou: erro %?.";
 
 / serial number dialog
-sn_header = "Número de série.";
-sn_subheader = "Insira o número de série e ative sua licença.";
-sn_info = "Caso possua uma senha de 16 dígitos no formato xxxx-xxxx-xxxx-xxxx, por favor, saia deste diálogo e dê um duplo-clique na sua licença. Uma tela irá a parecer onde será possível inserir sua senha.\n\nCaso possua um número de série de 30 dígitos no formato xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, por favor, insira-o agora para carregar e ativar sua licença.\n\n";
-sn_serial_number = "Número de série:";
-sn_invalid_serial_number = "Número de série inválido. Por favor, verifique-o e tente outra vez.";
+sn_header = "Código de ativação.";
+sn_subheader = "Insira seu código e ative sua licença.";
+sn_info = "Caso possua uma código de ativação de 16 dígitos no formato xxxx-xxxx-xxxx-xxxx, por favor, saia deste diálogo e dê um duplo-clique na sua licença. Uma tela irá a parecer onde será possível inserir seu código de ativação.\n\nCaso possua um código de ativação de 30 dígitos no formato xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, por favor, insira-o agora para carregar e ativar sua licença.\n\n";
+sn_serial_number = "Código de ativação:";
+sn_invalid_serial_number = "Código de ativação inválido. Por favor, verifique-o e tente novamente.";
 / the %? will be replaced by the error number:
-sn_download_err = "Erro %? ao baixar o arquivo da licença de nosso servidor.";
+sn_download_err = "Erro %? ao baixar o arquivo licença de nosso servidor.";
 sn_save_err = "O arquivo licença não pôde ser salvo no disco em %?.";
 sn_keyfile_err = "O arquivo licença está corrompido.";
 
 / new 16 digit serial number dialog
-sn16_info = "Digite seu código de 16 dígitos, para receber a sua licença. Você precisa estar conectado à Internet.";
-sn16_failed = "Falha ao obter licença!";
+sn16_info = "Digite seu código de ativação de 16 dígitos, para receber a sua licença. Você precisa estar conectado à Internet.";
+sn16_failed = "Falha ao receber licença!";
 
 / re-enter password dialog
-repwd_header = "Senha %?.";
-repwd_subheader = "A senha de registro precisa de ser reinserida.";
-repwd_reg_to = "Devido as alterações na configuração do seu sistema, terá que reinserir a senha para o seguinte registo do %p:";
+repwd_header = "Código de ativação %?.";
+repwd_subheader = "O código de ativação precisa de ser reinserido.";
+repwd_reg_to = "Devido as alterações na configuração do seu sistema, terá que reinserir seu código de ativação para o registo do %p:";
 
 / installation directory dialog
 instdir_header = "Diretório de Instalação";
 instdir_subheader = "O diretório de instalação especifica o local onde os arquivos serão copiados no seu disco rígido.";
-instdir_info = "Escolha um diretório de instalação.";
+instdir_info = "Diretório de instalação.";
 instdir_change = "Alterar";
 instdir_src_dst = "O diretório de origem e de destino não podem ser iguais!";
 instdir_space = "Esta instalação necessita %u bytes de espaço livre no disco. Só existem %u bytes disponíveis no diretório selecionado.";
@@ -691,7 +692,7 @@ conf_del_column = "Nome do arquivo";
 conf_del_query = "Se também quiser apagar estes arquivos selecione-os individualmente. Após selecioná-los clique em Avançar.";
 
 / finish page
-finish_head_ok = "Instalação bem-sucedida.";
+finish_head_ok = "Instalação concluída com sucesso.";
 finish_info_ok = "%? foi instalado com sucesso no seu computador.";
 finish_head_fail = "Falha na Instalação.";
 finish_info_fail = "A instalação falhou devido à seguinte razão:";
@@ -703,7 +704,7 @@ finish_file_fail = "Veja o arquivo de Registro de Atividades %s para mais inform
 finish_file_link_fail = "Veja o arquivo de Registro de Atividades<a href=\"file://%s\"></a> para mais informações.";
 finish_cfosts_disabled = "A Modelagem de Tráfego foi desativada no cFos, porque o %p já está efetuando a Modelagem de Tráfego. (Pode reativar a Modelagem de Tráfego do cFos no seu menu de configurações.)";
 finish_cfosts_enabled = "A Modelagem de Tráfego foi habilitada pelo cFos.";
-finish_link_checkbox = "Mostrar os últimos %p recursos";
+finish_link_checkbox = "Mostrar os últimos recursos do %p";
 
 / uninstall finish page
 ui_finish_head_ok = "Desinstalação bem sucedida.";
@@ -755,7 +756,7 @@ pg_console = "Terminal do %?";
 pg_start = "Iniciar %p janela";
 pg_menu = "Menu do %?";
 pg_add_connection = "Adicionar conexão";
-pg_enter_serial_number = "Ativar licença %p";
+pg_enter_serial_number = "Ativar Licença %p";
 pg_configure = "Configurar %p";
 
 / desktop symbol
@@ -789,7 +790,7 @@ err_cancel = "A operação foi cancelada.";
 err_no32 = "Não se pode instalar os controladores de 32-bit em um sistema de 64-bit.\n\nSO: %?\nProduto: %?";
 err_bad_keyfile = "Sua licença parece estar corrompida ou inválida. Por favor, entre em contato com nosso suporte para que lhe possamos entregar uma nova licença que funcione.";
 err_bad_setup = "%p parece ter sido instalado incorretamente ou alguns arquivos foram modificados. Por favor, reinstale uma nova cópia de %p e tente de novo.";
-err_bad_signature = "A senha parece estar errada ou ser de uma arquivo de licença diferente. Por favor, insira a senha certa para este arquivo de licença.;";
+err_bad_signature = "Seu código de ativação parece estar errado ou ser de uma licença diferente. Por favor, insira o código de ativação correto para este arquivo de licença.;";
 err_gdiplus = "A biblioteca GDI+ não foi encontrada!\n\nEsta instalação só pode continuar se a biblioteca GDI+ estiver instalada.\nVocê pode baixar a biblioteca GDI+ da Microsoft como parte da Plataforma SDK\nRedistribuível. Por favor, inicie o arquivo de instalação baixado e descompacte os\narquivos em um <diretório> de sua escolha. Então copie todos os arquivos gdiplus.*\ndo diretório <diretório>\\asms\\10\\msft\\windows\\gdiplus para o\ndiretório Windows\\system32.\n\nClique em 'OK' para abrir a página correspondente na Microsoft para baixar o arquivo.\nClique em 'Cancel' para cancelar a instalação.";
 err_winhttp = "A biblioteca WinHTTP não foi encontrada!\n\nEsta instalação só pode continuar se a biblioteca WinHTTP estiver instalada.\nA biblioteca WinHTTP deveria fazer parte do seu sistema operacional, mas ela\nnão pôde ser carregada.";
 bad_manufacturer = "A instalação não pôde iniciar, pois este produto está licenciado apenas para um \"hardware\" específico!";
@@ -798,10 +799,10 @@ err_uninst_daemon = "O daemon não pôde ser desinstalado. Caso haja janelas de 
 err_activate_10045 = "O erro HTTP 10045 ocorreu durante a ativação.\nUma possível causa é o seu Winsock estar corrompido.\nPara restaurar seu Winsock, por favor, abra um Prompt de Comando\ne insira 'netsh winsock reset'.\nApós isto reinicie seu computador e tente ativar\noutra vez.";
 err_activate_12002 =
    "Ocorreu o erro HTTP 12002 (tempo limite de pedido) durante\n"
-   "o registro. Uma causa possível pode ser que a ligação ao nosso servidor\n"
-   "necessária à ligação esteja a ser bloqueado por um firewall, um antivírus\n"
-   "ou qualquer outro tipo de aplicação de segurança. Se tem qualquer uma dessas\n"
-   "aplicações instaladas, por favor, desative-as temporariamente e tente o registro novamente.";
+   "o registro. Uma causa possível é de que a ligação necessária ao nosso\n"
+   "servidor esteja sendo bloqueada por um firewall, antivírus\n"
+   "ou qualquer outro tipo de aplicativo de segurança. Se tem qualquer um desses\n"
+   "aplicativos instalado, por favor, desative-os temporariamente e tente o registro novamente.";
 / %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "Erro ao copiar o arquivo %1 para %2 (%3).";
 err_port_in_use = "A porta %? do servidor já está em uso por outro programa.\n\nPrograma: %?\nCaminho: %?";
@@ -861,8 +862,8 @@ virtual_wifi_ok = "O Virtual Wi-Fi e o compartilhamento de Conexão com a Intern
 virtual_wifi_query_stop = "Parar o Virtual Wi-Fi?";
 virtual_wifi_error_stop = "Erro ao parar o Virtual Wi-Fi:";
 virtual_wifi_stopped = "O Virtual Wi-Fi foi parado com sucesso.";
-virtual_wifi_dialup_ics = "Para conexão dial-up você precisa habilitar o compartilhamento de Conexão com a Internet manualmente alterando nas propriedades dessa conexão.";
-virtual_wifi_error_not_present = "A interface Wi-Fi não foi encontrada.\n\nPara configurar o Virtual Wi-Fi um adaptador Wi-Fi é necessária e precisa estar ativo.";
+virtual_wifi_dialup_ics = "Para conexão dial-up (discada) você precisa habilitar o compartilhamento de Conexão com a Internet manualmente alterando nas propriedades dessa conexão.";
+virtual_wifi_error_not_present = "A interface Wi-Fi não foi encontrada.\n\nPara configurar um Virtual Wi-Fi é necessário um adaptador Wi-Fi e precisa estar ativado.";
 virtual_wifi_autostart = "Iniciar automaticamente junto com o sistema.";
 
 
