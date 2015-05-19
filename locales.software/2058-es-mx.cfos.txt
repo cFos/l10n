@@ -9,7 +9,9 @@
 / **********************************************************************
 
 language = "Spanish (Mexico)";
+language_local = "Español mexicano";
 htm_lang_prefix = "es-mx";
+
 
 / ----------------------------------------------------------------------
 /
@@ -59,6 +61,9 @@ setup_connections = "Configurar conexiones";
 ask_inst_ipv6 = "El protocolo IPv6 no ha sido instalado ene ste sistema.\n\n"
                 "¿Le gustaría instalar el protocolo IPv6 ahora?";
 err_inst_ipv6 = "Error %? al instalar el protocolo IPv6.";
+pause_server = "Pausar el servidor ";
+resume_server = "Reactivar el servidor";
+file_link_failed = "La creación del enlace del archivo ha fallado.";
 
 / connection entry dialog
 con_err_save = "¡No pueden guardarse los datos de conexión!";
@@ -146,6 +151,14 @@ con_test_execute = "Ejecutar la prueba de conectividad";
 /
 / ----------------------------------------------------------------------
 
+ga_service_desc = "cFos Game Analyzer - Recuperación de los datos de rendimiento";
+ga_speed_installed = "El cFosSpeed parece estar instalado en esta computadora .\n\ncFosSpeed Ya contiene la funcionalidad del cFos Game Analyzer.\n\nPara usar las últimas funciones del cFos Game Analyzer, Por favor descargue e instale la última versión del cFosSpeed desde www.cfos.de.";
+local_ip_addresses = "Direcciones IP locales:";
+ga_password_subheader = "Contraseña para el acceso remoto al cFos Game Analyzer.";
+ga_password_info = "Nombre de usuario: cfosspeed";
+ga_call_info = "Acceda al cFos Game Analyzer desde su computadora local con\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nAcceda al cFos Game Analyzer Desde un dispositivo remoto con la contraseña arriba y utilice una de las siguientes direcciones IP en vez de 'localhost':\n";
+ga_detected_by_speed = "Se ha detectado una versión de cFos Game Analyzer ya instalada. El cFosSpeed Ya contiene tolas las funciones del cFos Game Analyzer.\n\nSi Usted continua, el cFos Game Analyzer será desinstalado antes de la instalación del cFosSpeed.\n\n¿Desea continuar?";
+ga_use_password_by_speed = "¿Desea queel cFosSpeed Use la contraseña del cFos Game Analyzer, de modo que usted pueda acceder al cFosSpeed desde otros dispositivos también?";
 
 / ----------------------------------------------------------------------
 /
@@ -318,6 +331,7 @@ traffic_shaping = "Traffic Shaping";
 ras_con_help = "<b>Si</b>: activar, <b>no</b>: desactivar, <b>preguntar</b>: pregunta una vez y luego guarda la configuración";
 router_connections = "conexiones del enrutador";
 net_components = "componentes de Red";
+auto = "Auto";
 router_help = "<b>Si</b>: activar, <b>no</b>: desactivar, <b>auto</b>: habilita el Traffic Shaping, si el router es encontrado dentro de este componente de red";
 network_adapter = "Tarjeta de red";
 router = "Enrutador";
@@ -343,6 +357,12 @@ show_for = "Mostrar para";
 this_month = "este mes";
 time = "Tiempo";
 time_limit = "Límite de tiempo";
+/. Used as table header
+/. Short version of "minutes"
+time_min = "Min";
+/. Used as table header
+/. Short version of "hours:minutes"
+time_units = "h:min";
 volume = "Volumen";
 volume_limit = "Límite del Volumen";
 spdbudget_help = "Para usar una cuota, sírvase ir al diálogo de las preferencias y asígnelo a alguna conexión en particular";
@@ -370,6 +390,7 @@ many_cons_error = "El traffic shapping de RX de %p está siendo usada a su lími
 limit_bandwidth = "Límite de ancho de banda para la conexión actual";
 rx_limit = "Límite RX";
 tx_limit = "Límite TX";
+max = "Max";
 apply_limits = "Aplicar Límites";
 limit_help = "Valores en kbyte/s, incluyendo a todas las cabeceras de los protocolos, 0 = sin límites.";
 enable_speed_shaping = "Habilitar Perfilado de Tráfico";
@@ -377,6 +398,7 @@ disable_speed_shaping = "Deshabilitar Perfilado de Tráfico";
 yes = "Sí";
 no = "No";
 help = "Ayuda";
+bgraph_totals = "Total";
 blocklist = "Bloqueo de IP";
 blocklist_help = "Listado de direcciones IP para las cuales se ha bloqueado todo el tráfico.";
 apply_blocklist = "Usar listado de filtro";
@@ -402,7 +424,9 @@ slots_title = "Configuración de Ranura";
 can_select_multiple = "Tip: Puede elegir múltiples opciones manteniendo presionada la tecla Shift o Ctrl mientras elige una opción";
 name_for = "Nombre para ";
 set_name = "Fijar nombre";
+/. RX stands for `receive` (incoming/download)
 rx_only = "Sólo RX";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "Sólo TX";
 max_of_rx_tx = "Máximo de RX y TX";
 total_rx_only = "Velocidad RX Total";
@@ -504,48 +528,166 @@ prioritize_foreground_help = "Automáticamente establecer la prioridad del proce
 /
 / ----------------------------------------------------------------------
 
+speed_desc = "%p, Acceso a internet más rápido con el Traffic Shaping";
 
 / URLs
 
 / wizard
+install_wizard_name = "%? Asistente de instalación ";
+uninstall_wizard_name = "%? Asistente de desinstalación";
+brandkey_wizard_name = "%? Asistente para registro";
+config_wizard_name = "%p Asistente de configuración";
+continue_line = "Para continuar, haga clic en Siguiente.";
+start_inst = "Para comenzar la instalación ahora, haga clic en Siguiente.";
+click_next_further_info = "Haga clic en Siguiente para mayores informaciones.";
+wizard_lang_line = "Este asistente se encuentra disponible en los idiomas";
 
 / welcome page
+welcome_line = "Bienvenido a %? v%?!";
+welcome_info = "Este asistente le guiará durante el proceso de instalación de %? v%?.";
+welcome_found = "Se ha detectado una instalación existente de %? v%? en su sistema.";
+welcome_found_dir = "Se ha detectado una instalación existente de %1 v%2 en el directorio %3 de su computadora.";
+welcome_found_unknown = "Se ha detectado una instalación existente def %? en su sistema.";
+welcome_found_modified = "Se ha detectado una instalación incompleta o modificada de %1 v%2 en su computadora en el directório %3.";
+welcome_update = "Para remplazar la versión existente haga clic en siguiente.";
+welcome_admin = "Usted no dispone de privilegios de administrador. "
+                "Para ejecutar este asistente usted deberá iniciar sesión con un usuario que disponga de privilegios administrativos.";
+welcome_lang_syslink = "<a href=\"%?\">Idiomas adicionales</a>";
+welcome_oem_info = "%1 es una versión OEM de %p para %2. Por lo tanto , %p contiene todas las funciones de %1 y más.";
 
 / uninstall welcome page
+ui_welcome_line = "¿Desea desinstalar %? v%?.";
+ui_welcome_info = "Si realmente está seguro de querer desinstalar %1 v%2 desde el directorio %3 "
+                  "y remover todos sus componentes, entonces haga clic en Siguiente.";
 
 / brand key welcome page
+bk_welcome_line = "%? Registro.";
+bk_welcome_info = "Este asistente le guiará durante el registro de %?.";
+bk_welcome_found = "Se ha encontrado un archivo de registro en el directorio de destino %?.";
+bk_welcome_update = "Para remplazar el archivo de registro existente haga clic en Siguiente.";
 
 / license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
 
 / restore point dialog
+rp_header = "Punto de restauración del sistema";
+rp_subheader = "Los puntos de restauración del sistema le permiten restablecer su sistema a un estado previo.";
+rp_info = "Un punto de restauración del sistema le permite restablecer su sistema de Windows al estado en que se encontraba al crear el punto de restauración. Se recomienda siempre crear un punto de restauración antes de instalar un nuevo controlador.";
+rp_check = "Establecer un punto de restauración .";
 / %1 = product name
+rp_uninst_info = "El punto de restauración del sistema no está pensado para en un momento posterior ser usado para desinstalar al %1. Este es más bien "
+                 "una precaución adicional que le permite restablecer a su sistema a su estado original en el caso "
+                 "en que exista un conflicto en los controladores. Una desinstalación normal de %1 Puede ser seleccionada sea desde el menú de inicio en la carpeta "
+                 " %1 O desde el panel de control bajo Programas y características.";
 
 / password dialog
+pwd_header = "Contraseña.";
+pwd_subheader = "Cada llave requiere de una contraseña única.";
+pwd_reg_to = "%p Será registrado a nombre de :";
+pwd_password_info = "Por favor ingrese la contraseña para su llave en el formato xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "Contraseña:";
+pwd_invalid_password = "Contraseña invalida. Por favor revise la escritura y vuelva a intentar.";
+pwd_activate_info = "Usted debe estar conectado al internet para activar su llave en nuestro servidor.";
+pwd_activate_failed = "¡La activación de la llave ha fallado!";
+pwd_activate_failed_code = "La activación de la llave ha fallado: error %?.";
 
 / serial number dialog
+sn_header = "Número de serie.";
+sn_subheader = "Ingrese su número de serie y active la llave.";
+sn_info = "Si dispone de una contraseña de 16 dígitos en el formato xxxx-xxxx-xxxx-xxxx, por favor "
+   "Salga de este cuadro de dialogo y haga doble clic en su llave de licencia. "
+   "Aparecerá un cuadro de dialogo en dónde usted podrá ingresar su contraseña.\n\n"
+   "Si dispone de una contraseña de 30 dígitos en el formato xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, por favor "
+   "Ingrésela ahora para cargar y activar su licencia.\n\n";
+sn_serial_number = "Número de serie:";
+sn_invalid_serial_number = "Número de serie invalido. Por favor revise su escritura y vuelva a intentarlo.";
 / the %? will be replaced by the error number:
+sn_download_err = "Error %? al descargar el archivo de activación de la licencia desde nuestros servidores.";
+sn_save_err = "El archivo de licencia no pudo ser guardado en el disco duro en %?.";
+sn_keyfile_err = "El archivo de licencia está corrompido.";
 
 / new 16 digit serial number dialog
+sn16_info = "Por favor entre su nuero de serie de 16 dígitos para recibir su clave de licencia. Usted deberá estar conectado al internet para recibir el archivo correctamente.";
+sn16_failed = "¡No se pudo recuperar el archivo de licencia!";
 
 / re-enter password dialog
+repwd_header = "%? Contraseña.";
+repwd_subheader = "La Contraseña de registro necesita ser ingresada nuevamente.";
+repwd_reg_to = "Debido a los cambios en su configuración del sistema, usted debe volver a ingresar la contraseña para el registro de %p: ";
 
 / installation directory dialog
+instdir_header = "Directorio de registro";
+instdir_subheader = "El Directorio de registro indica donde los archivos serán copiados a su disco duro.";
+instdir_info = "Especifica un directorio de instalación.";
+instdir_change = "Cambiar";
+instdir_src_dst = "¡Los directorios de origen y destino no pueden ser los mismos!";
+instdir_space = "Esta instalación requiere de %u bytes de espacio libre en el disco duro. "
+                "Solamente hay %u bytes disponibles en el directorio seleccionado.";
+instdir_drivetype = "El drive seleccionado no es válido. %? Solamente puede ser instalado en discos duros locales fijos.";
+instdir_system = "El directorio de instalación debe estar en el drive '%?'.";
+instdir_system_recommended = "Es altamente recomendable seleccionar un directorio de instalación en el drive de sistema '%?'. (Haga clic en Siguiente para continuar de todos modos.)";
 
 / tcp settings dialog
+tcp_header = "Ajuste del tamaño de la ventana de recepción TCP.";
+tcp_subheader = "El tamaño de la ventana de recepción TCP (Transmission Control Protocol) debe ser ajustado para un flujo optimo de datos.";
+tcp_info = "El tamaño de la ventana de recepción TCP controla el flujo de datos entrantes. "
+           "Esta es guardada en el Registro de Windows y en estos momentos esta no se encuentra dentro de su rango de valores óptimos.\n\n"
+           "Es recomendable dejar al asistente ajustar los valores de modo que el tráfico de datos sea mejorado. "
+           "(El ajuste tendrá efecto tras el reinicio del sistema.)";
+tcp_check = "Optimizar el tamaño de la ventana de recepción del TCP (Recomendado)";
 
 / hang up online connection dialog
+hangup_header = "Conexión de discado ";
+hangup_subheader = "La Conexión de discado debe estar apagada.";
+hangup_online = "Usted se encuentra en línea con la siguiente conexión:";
+hangup_offline = "La conexión ha sido desconectada.";
+hangup_info = "Para continuar con este asistente, la conexión discada debe ser desconectada.\n\n"
+              "Para desconectar la conexión ahora, haca clic en Desconectar .";
+hangup_disco = "Desconectar";
 
 / usage statistics
+usage_stats = "Estadísticas de uso";
+usage_stats_subheader = "Elija como el %p deba manejar las estadísticas de uso.";
+usage_stats_chk = "Enviar estadísticas de uso anónimas a cFos para que se pueda mejorar el rendimiento del producto.";
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+port_forwarding_chk = "Usar la redirección automática de puertos, de estar disponible.";
+port_forwarding_failed = " Su router%? parece no ofrecer soporte para la redirección automática de puertos. "
+                         "Usted puede activar esta funcionalidad desde la página de configuración del enrutador.";
+port_forwarding_config = "Puede configurar su router desde %?.";
+port_forwarding_fritz = "Usted puede activar la redirección de puertos en su FRITZ!Box al permitir los cambios en las configuraciones de seguridad mediante UPnP bajo Red Doméstica / Red / Programas";
 
 / crash handler messages
+crash_msg_crash = "Una excepción no manejable ha ocurrido en %p.";
+crash_msg_crash_installer = "Una excepción no manejable ha ocurrido en el programa de instalación de %p.";
+crash_msg_virus = "El siguiente modulo se ha inyectado en este programa y puede ser la causa para la caída:";
+crash_msg_virus_clean = "Este módulo puede ser un virus. Es por lo tanto altamente recomendable que se haga correr un scanner de virus en su sistema.";
+crash_msg_hook = "Se han encontrado módulos de otros programas que han sido inyectados en este programa. Para asegurarse de que esos módulos no sean la causa de las caídas, por favor vuelva a ejecutar este programa tras desactivar o desinstalar los siguientes programas.";
+crash_msg_terminate = "El programa se va a terminar ahora.";
+crash_msg_query_upload = "¿Desea enviar un informe de errores a cFos, Para ayudarnos a analizar el error?";
+crash_msg_new_release = "Está disponible una nueva versión de %p. Por favor descargue e instale la ultima version de %p desde www.cfos.de.";
+crash_msg_new_beta = "Está disponible una nueva versión Beta de %p. Por favor descargue e instale la ultima version Beta de %p desde www.cfos.de/beta.";
 
 /start installation dialog
+start_header = "Instalación";
+start_subheader = "Comenzar Instalación.";
+start_installation = "Comenzar instalación ahora.";
 
 / progress dialog
+progress_inst_header = "Instalación";
+progress_inst_subheader = "La instalación está en progreso.";
+progress_inst_wait = "Por favor espere hasta que la instalación esté completa.";
+progress_uninst_header = "Desinstalar";
+progress_uninst_subheader = "La desinstalación está en llevándose a cabo.";
+progress_uninst_wait = "Por favor espere hasta que la desinstalación se haya completado.";
+progress_driver_wait = "Por favor espere hasta que el sistema operativo haya instalado o desinstalado el controlador. Esto puede llevar varios minutos.";
 
 / confirm delete dialog
+conf_del_header = "Borrar los archivos de configuración";
+conf_del_subheader = "Usted debe confirmar la eliminación de los archivos con las configuraciones e informaciones personales.";
+conf_del_info = "Los siguientes archivos de configuración y directorios han sido creados por %p y no han sido borrados:";
+conf_del_column = "nombre del Archivo";
+conf_del_query = "Si desea eliminar estos archivos y directorios también, podrá chequearlos individualmente. "
+                 "Después de la selección, haga clic en Siguiente.";
 
 / finish page
 
@@ -577,6 +719,14 @@ prioritize_foreground_help = "Automáticamente establecer la prioridad del proce
 / e-mail registration dialog
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
