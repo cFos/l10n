@@ -35,6 +35,7 @@ htm_lang_prefix = "fr";
 
 ignore_ssl_cert_chk = "Ignorer les erreurs de certificat SSL (non sûr)";
 ignore_ssl_cert_desc = "Si cFos Outlook DAV est autorisé à ignorer les erreurs de certificat SSL, il peut se connecter à des serveurs dont les certificats SSL ne sont pas sûr, comme par exemple des certificats auto-signés. Activer cette option n'est pas recommandée, car elle rend une connexion SSL vulnérable aux attaques de type man-in-the-middle.";
+od_key_registered = "La clée a été enregistrée. Merci de redémarrer Outlook pour que l'enregistrement prenne effet.";
 
 / ----------------------------------------------------------------------
 /
@@ -75,6 +76,7 @@ ask_inst_ipv6 = "Le protocole IPv6 n'a pas encore été installé sur ce systèm
 err_inst_ipv6 = "Erreur %? pendant l'installation du protocole IPv6.";
 pause_server = "Mettre le serveur en pause";
 resume_server = "Reprendre l'activité sur le serveur";
+file_link_failed = "La création du lien de fichier a échoué.";
 
 / connection entry dialog
 con_err_save = "Impossible de sauvegarder les données de connexion !";
@@ -374,8 +376,10 @@ time = "Temps";
 time_limit = "Limite de Temps";
 /. Used as table header
 /. Short version of "minutes"
+time_min = "min";
 /. Used as table header
 /. Short version of "hours:minutes"
+time_units = "h:min";
 volume = "Volume";
 volume_limit = "Limite du Volume";
 spdbudget_help = "Pour activer un forfait de consommation merci d’aller sur la page des connexions et de l’attribuer à une connexion.";
@@ -411,6 +415,7 @@ disable_speed_shaping = "Désactiver la Régulation dynamique de flux réseau (T
 yes = "Oui";
 no = "Non";
 help = "Aide";
+bgraph_totals = "Total";
 blocklist = "Bloqueur d'Ip";
 blocklist_help = "Liste des adresses Ip pour lesquelles tout traffic est bloqué.";
 apply_blocklist = "Utiliser le filtre de listes";
@@ -533,6 +538,8 @@ traffic_shaping_info = "Informations sur la Régulation dynamique de flux résea
 wlan_access_point = "Point d'accès Wi-Fi";
 prioritize_foreground_process = "Prioriser les processus des fenêtres en premier plan";
 prioritize_foreground_help = "Mettre automatiquement les processus des fenêtres en premier plan en priorité haute.";
+upnp_router_info = "Utilise les statistiques du routeur UPnP";
+upnp_router_info_help = "Utilise les statistiques du routeur UPnP pour déterminer si possible la vitesse et la Régulation dynamique de flux réseau (Traffic Shaping) de la ligne. Vous devrez certainement activer l'UPnP de votre routeur.";
 
 
 / ----------------------------------------------------------------------
@@ -680,6 +687,8 @@ crash_msg_virus_clean = "Ce module pourrait être un virus. C'est pourquoi il es
 crash_msg_hook = "Des modules d'autres programmes ont été trouvés comme s'étant injectés dans ce programme. Pour être sûr que ces modules ne sont pas responsables du crash, merci de faire fonctionner à nouveau ce programme après avoir désactivé ou désinstallé les programmes suivants :";
 crash_msg_terminate = "Le programme va se terminer immédiatement.";
 crash_msg_query_upload = "Voulez vous envoyer un rapport de crash à cFos, nous permettant ainsi d'analyser l'erreur ?";
+crash_msg_new_release = "Une nouvelle version de %p est disponible. Veuillez télécharger et installer la dernière version de %p depuis www.cfos.de.";
+crash_msg_new_beta = "Une nouvelle version bêta de %p est disponible. Veuillez télécharger et installer la dernière version bêta de %p depuis www.cfos.de/beta.";
 
 /start installation dialog
 start_header = "Installation";
@@ -776,6 +785,7 @@ dt_advertise_desc = "Liste toutes les fonctionnalités de %?.";
 
 / message boxes
 query_reboot = "Merci de terminer votre session et d’effectuer un redémarrage\nafin que les modifications prennent effet.\n\nRedémarrer maintenant ?";
+query_inst_reboot = "Vous devez redémarrer votre système avant la poursuite de l'installation.\n\nVeuillez redémarrer le programme d'installation après le redémarrage.\n\nVoulez-vous redémarrer votre système immédiatement ?";
 query_drv_inst_cancel = "L’installation/désinstallation du pilote est effectuée\npar le système d’exploitation. Merci de patienter (parfois jusqu’à 15 minutes sont\nnécessaires au système d’exploitation pour installer\nou désinstaller un pilote !\n\nSi ce temps n’est pas encore écoulé il est fortement recommandé\nde ne pas interrompre le processus.\n\nSouhaitez-vous vraiment continuer ? (non recommandé)";
 query_driver_err_abort = "Il y a eu une erreur lors de l'installation du pilote!\nIl est fortement recommandé d'annuler l'installation maintenant.\n\nIl est néanmoins possible de forcer la fin de l'installation\n(utile pour les cas de résolution de conflits).\nVoulez-vous annuler l'installation? (recommandé)";
 query_further_info = "Voulez-vous plus d'informations ?";
@@ -888,6 +898,7 @@ eml_checking_domain = "Vérification de domaine de l'adresse e-mail...";
 virtual_wifi_wizard_name = "Aide au démarrage du Wi-Fi Virtuel de %p";
 virtual_wifi_header = "Démarrer le Wi-Fi Virtuel";
 virtual_wifi_subheader = "Configurer un logiciel basé sur un point d'accès sans fil et activer le partage de connexion Internet.";
+virtual_wifi_stop_header = "Arrêter le Wi-Fi Virtuel";
 virtual_wifi_info = "Sélectionner la connection réseau qui gère le traffic Internet et choisir un mot de passe pour le point d'accès sans fil.";
 virtual_wifi_ssid = "SSID:";
 virtual_wifi_default_ssid = "Wi-Fi cFos";
@@ -903,6 +914,8 @@ virtual_wifi_query_stop = "Arrêter le Wi-Fi virtuel ?";
 virtual_wifi_error_stop = "Une erreur est survenue lors de l'arrêt du Wi-Fi Virtuel :";
 virtual_wifi_stopped = "Le Wi-Fi Virtuel s'est arrêté avec succès.";
 virtual_wifi_dialup_ics = "Pour une connexion par modem/ligne commutée vous devez activer manuellement le partage de connection Internet en modifiant les propriétés de cette connection.";
+virtual_wifi_error_not_present = "Aucune interface Wi-Fi (prête) trouvée.\n\nPour configurer un Wi-Fi Virtuel, une interface Wi-Fi doit être présente et prête à fonctionner.";
+virtual_wifi_autostart = "Démarrer automatiquement au démarrage système.";
 
 
 / !!! DO NOT TRANSLATE !!!
