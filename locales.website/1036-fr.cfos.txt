@@ -70,6 +70,7 @@ rwin_video_award2 = "Gagnez une des <b>100</b> licences cFosSpeed gratuites et �
 social_networks = "S'il vous plait soutenez notre présence sur les réseaux sociaux.<br/>Aimez nous sur Facebook, Suivez nous sur Twitter.";
 powered_by = "Basé et propulsé par <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net Web Server</a>";
 word_follow = "Suivre";
+cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> est disponible pour <b>Windows 10</b>.";
 learn_more = "En apprendre plus"; // Meaning "learn more about the product"
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> est l'accélérateur Internet pour<br/> les produits de gaming ASUS, GIGABYTE, ASRock et MSI"; // Line feed at approx middle of the key, preferred directly before the brand names
 
@@ -717,6 +718,7 @@ cfout_p1b = "L'actuelle pre-release <b>gratuite</b> fonctionnera jusqu'au <b>31 
 cfout_p1b_v2 = "L'actuelle pre-release <b>gratuite</b> fonctionnera jusqu'au <b>28 Février 2014</b>.";
 cfout_p1b_v3 = "L'actuelle pre-release <b>gratuite</b> fonctionnera jusqu'au <b>1er Juin 2014</b>.";
 cfout_p1b_v4 = "L'actuelle version <b>gratuite</b> est active jusqu'au <b>1er juin 2015</b>.";
+cfout_p1c = "L'actuelle pre-release ne prend pas en charge les pièces jointes pour les évènements du calendrier.";
 cfout_p1c = "L'actuelle pre-release ne prend pas en charge les pièces jointes pour les évènements du calendrier.";
 cfout_p1d = "La release finale sera disponible pour environ 10 Euros.";
 cfout_a1 = "Télécharger cFos Outlook DAV";
@@ -1696,6 +1698,10 @@ sp_news_p2 = "Nous posterons des nouveautés que quelques fois par an.";
 sp_news_h0 = "Nouveautés cFosSpeed";
 sp_news_h1 = "Politiques de nouveautés cFosSpeed";
 sp_news_p3 = "Parce que atteindre les personnes via mail devient de plus en plus difficile et que les réseaux sociaux deviennent de plus en plus diffusés, nous avons décidé d'utiliser Twitter comme service de petites news. S'il y a quelque chose de nouveau, par exemple une nouvelle version béta de cFosSpeed, nous l'annoncerons sur Twitter. Au maximum nous posterons seulement quelques fois par semaine. Cependant si vous n'avez pas encore de compte Twitter, créez en en s'il vous plaît et suivez <a class=\"inline\" target=\"_blank\" href=\"https://twitter.com/cFosSoftware\"><b>@cFosSoftware</b></a> pour obtenir les dernières nouveautés. Vous pouvez ensuite de façon convenable <a href=\"/en/cfos-notifier/cfos-notifier.htm\"><img src=\"sp_link_bottom_right.png\" width=\"6\" height=\"11\" border=\"0\" alt=\"\" /><b>utiliser le cFos Notifier</b></a> pour obtenir des news sur Twitter.<br/><br/>Nous avons aussi implémenté un système de notification dans cFosSpeed. Quand il y a des news importantes disponibles (Seulement quelques fois par an), comme de nouvelles versions de cFosSpeed, nous mettrons à jour la page de news cFosSpeed. Dans cFosSpeed v7.01 build 1921, la fenêtre d'état va afficher un nouveau symbole et ouvrir la page de news cFosSpeed, quand vous cliquez dessus.";
+sp_news_20150126 = "26 Janvier 2015";
+sp_news_20150126_text = "Temps de réponse Ping, avec ou sans la Régulation dynamique de flux réseau (Traffic Shaping), sur une connexion VDSL de 50MBit avec 4 uploads et 2 téléchargements.";
+sp_news_20150112 = "12 Janvier 2015";
+sp_news_20150112_text = "cFosSpeed fait parti des meilleurs choix de Softpedia. <a class=\"inline\" href=\"http://www.softpedia.com/get/Network-Tools/Bandwidth-Tools/cFosSpeed.shtml\"><b>Bonne analyse</b></a> de ce que cFosSpeed fait ou pas.";
 sp_news_20140429 = "29 avril 2014";
 sp_news_20140429_text = "La nouvelle version de cFosSpeed v9.60 supporte pleinement l'IPv6 et les Phone-skins pour smartphones et tablettes. Visualiser le statut de votre connection sur smartphones et tablettes tout en faisant tourner des jeux ou autres applications en plein écran sur votre PC. Vous pouvez aussi démarrer une fenêtre de dialogue pour votre connection sur votre smartphones ou tablettes, afin de surveiller et prioriser en temps réel vos connections.";
 sp_news_20140210 = "10 février 2014";
