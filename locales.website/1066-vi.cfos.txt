@@ -1,4 +1,4 @@
-#language 1066
+﻿#language 1066
 #fallback 1033
 #charset 0
 
@@ -2410,7 +2410,7 @@ countryname_th = "Thái Lan";
 countryname_tr = "Thổ Nhĩ Kỳ";
 countryname_tw = "Đài Loan";
 countryname_uk = "U-crai-na";
-countryname_vn = "Viêt nam";
+countryname_vn = "Việt Nam";
 countryname_zh_hk = "Hồng Kông";
 languagename_per = "Ba Tư";
 
