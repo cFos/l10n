@@ -191,6 +191,7 @@ f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>:<br />Den tresiffriga k
 f_checkbox_license_text_bconnect = "Jag har läst <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos Broadband Connect licensavtal</a> och godkänner villkoren..";
 f_checkbox_license_text_cfos = "Jag har läst <a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos licensavtal</a> och godkänner villkoren..";
 f_checkbox_license_text_ipv6 = "Jag har läst <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\">cFos IPv6 Link license agreement</a> och accepterar dem.";
+f_checkbox_license_text_odav = "Jag har läst <a class=\"inline\" href=\"/en/cfos-outlook-dav/license.htm\" target=\"_blank\">cFos Outlook DAV license agreement</a> och accepterar dem.";
 f_checkbox_license_text_speed = "I have read the <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed licensavtal</a> och godkänner villkoren..";
 f_checkbox_license_text_pnet = "Jag har läst <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net license agreement</a> och accepterar villkoren.";
 f_checkbox_license_text_pnetbnd = "Jag har läst licensvillkoren för <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net</a> och <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed </a> och accepterar villkoren.";
@@ -207,6 +208,7 @@ firmenkunden = "Företagsanvändare";
 firmenkunden_text_bconnect = "Företagsanvändare är de som kan dra av på momsen för sitt inköp av cFos Broadband Connect. Ideella föreningar räknas som hemanvändare. Om ni skulle vilja beställa cFos Broadband Connect som hemanvändare, var god använd <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">orderformuläret för hemanvändare.</a></b>.";
 firmenkunden_text_cfos = "Företagsanvändare är de som kan dra av på momsen för sitt inköp av cFos. Ideella föreningar räknas som hemanvändare. Om ni skulle vilja beställa cFos som hemanvändare, var god använd <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">orderformuläret för hemanvändare.</a></b>.";
 firmenkunden_text_ipv6 = "Företagsanvändare är de som kan dra av på momsen för sitt inköp av <em>cFos IPv6 Link</em>. Ideella föreningar räknas som hemanvändare. Om ni skulle vilja beställa cFos IPv6 Link som hemanvändare, var god använd <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">orderformuläret för hemanvändare.</a></b>.";
+firmenkunden_text_odav = "Företagsanvändare är de som kan dra av på momsen för sitt inköp av <em>cFos Outlook DAV</em>. Ideella föreningar räknas som hemanvändare. Om ni skulle vilja beställa cFos Outlook DAV som hemanvändare, var god använd <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\">orderformuläret för hemanvändare.</a></b>.";
 firmenkunden_text_speed = "Företagsanvändare är de som kan dra av på momsen för sitt inköp av cFosSpeed. Ideella föreningar räknas som hemanvändare. Om ni skulle vilja beställa cFosSpeed som hemanvändare, var god använd <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\">orderformuläret för hemanvändare.</a></b>.";
 f_use_form_n = "Privatperson, använd";
 f_use_form_c = "Företag, använd";
@@ -269,10 +271,11 @@ shopping_cart = "Kund vagn";
 spbc_text = "1 cFosSpeed-licens + 1 cFos Broadband Connect-licens till specialpris";
 spbc_title = "Specialerbjudande";
 special_conditions = "Övrigt";
-special_conditions_text_bconnect = "Om ni önskar beställa en större kvantitet av programvaran <em>cFos Broadband Connect</em> eller bli återförsäljare är du välkommen att kontakta vårt <a class=\"inline\" href=\"/en/contact/msgpost.htm\">säljteam</a> för ett kostnadsförslag.";
-special_conditions_text_cfos = "Om ni önskar beställa en större kvantitet av programvaran <em>cFos</em> eller bli återförsäljare är du välkommen att kontakta vårt <a class=\"inline\" href=\"/en/contact/msgpost.htm\">säljteam</a> för ett kostnadsförslag.";
-special_conditions_text_ipv6 = "Om du beställer <em>cFos IPv6 Link</em> i större antal eller vill bli återförsäljare, kontakta vårt <a class=\"inline\" href=\"/en/contact/msgpost.htm\">order team</a>. Vi skickar gärna en offert.";
-special_conditions_text_speed = "Om ni önskar beställa en större kvantitet av programvaran <em>cFosSpeed</em> eller bli återförsäljare är du välkommen att kontakta vårt <a class=\"inline\" href=\"/en/contact/msgpost.htm\">säljteam</a> för ett kostnadsförslag.";
+special_conditions_text_bconnect = "Om ni önskar beställa en större kvantitet av programvaran <em>cFos Broadband Connect</em> eller bli återförsäljare är du välkommen att kontakta vårt <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>säljteam</b></a> för ett kostnadsförslag.";
+special_conditions_text_cfos = "Om ni önskar beställa en större kvantitet av programvaran <em>cFos</em> eller bli återförsäljare är du välkommen att kontakta vårt <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>säljteam</b></a> för ett kostnadsförslag.";
+special_conditions_text_ipv6 = "Om du beställer <em>cFos IPv6 Link</em> i större antal eller vill bli återförsäljare, kontakta vårt <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>order team</b></a>. Vi skickar gärna en offert.";
+special_conditions_text_odav = "Om ni önskar beställa en större kvantitet av programvaran <em>cFos Outlook DAV</em> eller bli återförsäljare är du välkommen att kontakta vårt <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>säljteam</b></a> för ett kostnadsförslag.";
+special_conditions_text_speed = "Om ni önskar beställa en större kvantitet av programvaran <em>cFosSpeed</em> eller bli återförsäljare är du välkommen att kontakta vårt <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>säljteam</b></a> för ett kostnadsförslag.";
 special_offer = "Specialerbjudande";
 special_price_for = "Specialpris för ditt land.";
 th_order_date = "Orderdatum";
@@ -446,7 +449,7 @@ link_text_firewall = "Brandvägg";
 link_text_what_is_cfos = "Vad är cFos/Professional?";
 
 /hrping
-hrping_title = "hrPing - Hög-precision ping verktyg";
+hrping_title = "<span class=\"product\">hrPing</span> - Hög-precision ping verktyg";
 
 /notifier
 notifier_p1 = "cFos Notifier är ett program som körs i bakgrunden och kontrollerar om ny Twitter Status är tillgänglig. Om något nytt finns, visas en meddelandeikon i windows taskbar och en ballong. Om du klickar på ballongen eller taskbar ikonen, startar twitter.com så att du kan läsa den nya statusen.";

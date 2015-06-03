@@ -162,6 +162,7 @@ f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>:<br />מספר הבטח
 f_checkbox_license_text_bconnect = "קראתי את  <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos Broadband Connect תנאי ההסכם</a> ואני מבקל את התנאים וההגבלות..";
 f_checkbox_license_text_cfos = "קראתי את <a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos תנאי ההסכם</a> ואני מבקל את התנאים וההגבלות..";
 f_checkbox_license_text_ipv6 = "קראתי את <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\">cFos ipv6 Link תנאי ההסכם</a> ואני מבקל את התנאים וההגבלות..";
+f_checkbox_license_text_odav = "קראתי את <a class=\"inline\" href=\"/en/cfos-outlook-dav/license.htm\" target=\"_blank\">cFos Outlook DAV תנאי ההסכם</a> ואני מבקל את התנאים וההגבלות..";
 f_checkbox_license_text_speed = "קראתי את <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed תנאי ההסכם</a> ואני מבקל את התנאים וההגבלות..";
 f_city_postcode = "מיקוד, עיר";
 f_deliverto_list_02 = "האם הכל מאויית תקין?";
@@ -173,6 +174,7 @@ find_serial = "רמז: אתה יכול למצוא את המספר הסידורי
 firmenkunden_text_bconnect = "לקוחות עסקיים הם משתמשים אשר יכולים לקזז את cFos Broadband Connect מהמיסים שלהם. ארגונים ללא מטרת רווח מיוחסים כלקוחות פרטיים. אם ברצונך להזמין את cFos Broadband Connect כלקוח פרטי, אנא השתמש ב <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">טופס הזמנה ללקוחות פרטיים</a></b>.";
 firmenkunden_text_cfos = "לקוחות עסקיים הם משתמשים אשר יכולים לקזז את cFos מהמיסים שלהם. ארגונים ללא מטרת רווח מיוחסים כלקוחות פרטיים. אם ברצונך להזמין את cFos כלקוח פרטי, אנא השתמש ב <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">טופס הזמנה ללקוחות פרטיים</a></b>.";
 firmenkunden_text_ipv6 = "לקוחות עסקיים הם משתמשים אשר יכולים לקזז את <em>cFos ipv6 Link</em> מהמיסים שלהם. ארגונים ללא מטרת רווח מיוחסים כלקוחות פרטיים. אם ברצונך להזמין את cFos ipv6 Link כלקוח פרטי, אנא השתמש ב <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">טופס הזמנה ללקוחות פרטיים</a></b>.";
+firmenkunden_text_odav = "לקוחות עסקיים הם משתמשים אשר יכולים לקזז את <em>cFos Outlook DAV</em> מהמיסים שלהם. ארגונים ללא מטרת רווח מיוחסים כלקוחות פרטיים. אם ברצונך להזמין את cFos Outlook DAV כלקוח פרטי, אנא השתמש ב <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\">טופס הזמנה ללקוחות פרטיים</a></b>.";
 firmenkunden_text_speed = "לקוחות עסקיים הם משתמשים אשר יכולים לקזז את cFosSpeed מהמיסים שלהם. ארגונים ללא מטרת רווח מיוחסים כלקוחות פרטיים. אם ברצונך להזמין את cFosSpeed כלקוח פרטי, אנא השתמש ב <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\">טופס הזמנה ללקוחות פרטיים</a></b>.";
 f_land = "מדינה";
 f_license = "רשיון";
@@ -222,10 +224,11 @@ private_users_text = "לקוחות פרטיים מזמינים כאן! אם את
 spbc_text = "רשיון 1 cFosSpeed license + 1 cFos Broadband Connect במחיר מיוחד";
 spbc_title = "הצעה מיוחדת להשקה";
 special_conditions = "תנאים מיוחדים";
-special_conditions_text_bconnect = "אם אתה מתכוון להזמין את <em>cFos Broadband Connect</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a>. אנו נשלח לך הצעה מיידית.";
-special_conditions_text_cfos = "אם אתה מתכוון להזמין את <em>cFos</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a>. אנו נשלח לך הצעה מיידית.";
-special_conditions_text_ipv6 = "אם אתה מתכוון להזמין את <em>cFos ipv6 Link</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a>. אנו נשלח לך הצעה מיידית.";
-special_conditions_text_speed = "אם אתה מתכוון להזמין את <em>cFosSpeed</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a>. אנו נשלח לך הצעה מיידית.";
+special_conditions_text_bconnect = "אם אתה מתכוון להזמין את <em>cFos Broadband Connect</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a>. אנו נשלח לך הצעה מיידית.";
+special_conditions_text_cfos = "אם אתה מתכוון להזמין את <em>cFos</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a>. אנו נשלח לך הצעה מיידית.";
+special_conditions_text_ipv6 = "אם אתה מתכוון להזמין את <em>cFos IPv6 Link</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a>. אנו נשלח לך הצעה מיידית.";
+special_conditions_text_odav = "אם אתה מתכוון להזמין את <em>cFos Outlook DAV</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a>. אנו נשלח לך הצעה מיידית.";
+special_conditions_text_speed = "אם אתה מתכוון להזמין את <em>cFosSpeed</em> בכומיות גדולות ו/או מעוניין להפוך לספק משנה, אנא פנה אל <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a>. אנו נשלח לך הצעה מיידית.";
 special_offer = "הצעה מיוחדת";
 special_price_for = "מחירים מיוחדים לאזרחי המדינה שלך.";
 th_order_date = "תאריך ההזמנה";

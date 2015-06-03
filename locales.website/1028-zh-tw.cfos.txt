@@ -267,6 +267,7 @@ f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>：<br />卡片背面的
 f_checkbox_license_text_bconnect = "我已閱讀 <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos Broadband Connect 授權同意書</a> 並接受當中的內容及條件。";
 f_checkbox_license_text_cfos = "我已閱讀 <a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos 授權同意書</a> 並接受當中的內容及條件。";
 f_checkbox_license_text_ipv6 = "我已閱讀 <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\">cFos IPv6 Link 授權同意書</a> 並接受當中的內容及條件。";
+f_checkbox_license_text_odav = "我已閱讀 <a class=\"inline\" href=\"/en/cfos-outlook-dav/license.htm\" target=\"_blank\">cFos Outlook DAV 授權同意書</a> 並接受當中的內容及條件。";
 f_checkbox_license_text_speed = "我已閱讀 <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed 授權同意書</a> 並接受當中的內容及條件。";
 f_checkbox_license_text_pnet = "我已閱讀 <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net 授權同意書</a>  並接受當中的內容及條件。";
 f_checkbox_license_text_pnetbnd = "我已閱讀 <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net 授權同意書</a> 及 <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed 授權同意書</a> 並接受當中的內容及條件。";
@@ -283,6 +284,7 @@ firmenkunden = "商業使用者";
 firmenkunden_text_bconnect = "商業使用者是指可將購買 cFos IPv6 Link 的費用用來抵稅的人。非營利組織視同個人使用者。若您想要以個人使用者身分購買 cFos Broadband Connect，請填寫<b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">個人使用者訂購表格</a></b>。";
 firmenkunden_text_cfos = "商業使用者是指可以從他們的稅負中扣除 cFos 費用的人。非營利組織視同個人使用者。若您想要以個人使用者身分購買 cFos，請填寫<b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">個人使用者訂購表格</a></b>。";
 firmenkunden_text_ipv6 = "商業使用者是指可將購買 cFos IPv6 Link 的費用用來抵稅的人，非營利組織視同個人使用者。若您想要以個人使用者身分購買 cFos IPv6 Link，請填寫<b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">個人使用者訂購表格</a></b>。";
+firmenkunden_text_odav = "商業使用者是指可將購買 cFos Outlook DAV 的費用用來抵稅的人，非營利組織視同個人使用者。若您想要以個人使用者身分購買 cFos Outlook DAV，請填寫<b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\">個人使用者訂購表格</a></b>。";
 firmenkunden_text_speed = "商業使用者是指可將購買 cFosSpeed 的費用用來抵稅的人。非營利組織視同個人使用者。若您想要以個人使用者身分購買 cFosSpeed，請填寫<b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\">個人使用者訂購表格</a></b>。";
 firmenkunden_text_pnet = "商業使用者是指可將購買 cFos Personal Net 的費用用來抵稅的人。非營利組織視同個人使用者。若您想要以個人使用者身分購買 cFos，請填寫<b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-personal-net-n.htm\">個人使用者訂購表格</a></b>。";
 firmenkunden_text_pnetbnd = "商業使用者是指可將購買 cFos Personal Net / cFosSpeed 套裝組的費用用來抵稅的人。非營利組織視同個人使用者。若您想要以個人使用者身分購買，請填寫<b><a class=\"inline\" href=\"https://www.cfos.de/en/order/pnet-speed-bundle-n.htm\">個人使用者訂購表格</a></b>。";
@@ -358,12 +360,13 @@ speed_pnet_until = "直到 10 月 9 號";
 speed_pnet_bundle = "購買 cFosSpeed 及 cFos Personal Net 搭售方案只需";
 speed_pnet_only = "購買 cFos Personal Net 只需";
 special_conditions = "特別條件";
-special_conditions_text_bconnect = "若您想大量訂購 <em>cFos Broadband Connect</em> 或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\"><b>訂購小組</b></a> 聯絡。我們會馬上將方案寄給您。";
-special_conditions_text_cfos = "若您想大量訂購 <em>cFos</em> 或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\"><b>訂購小組</b></a> 聯絡，我們將儘速為您服務。";
-special_conditions_text_ipv6 = "若您想大量訂購 <em>cFos IPv6 Link</em> 或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\">訂購小組</a> 聯絡，我們將儘速為您服務。";
-special_conditions_text_speed = "若您想大量訂購 <em>cFosSpeed</em> 或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\"><b>訂購小組</b></a> 聯絡，我們將儘速為您服務。";
-special_conditions_text_pnet = "若您想大量訂購 <em>cFos Personal Net</em> 或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\">訂購小組</a> 聯絡，我們將儘速為您服務。";
-special_conditions_text_pnetbnd = "若您想大量訂購 <em>cFos Personal Net / cFosSpeed 合裝組</em>或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\">訂購小組</a> 聯絡，我們將儘速為您服務。";
+special_conditions_text_bconnect = "若您想大量訂購 <em>cFos Broadband Connect</em> 或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b><b>訂購小組</b></b></a> 聯絡。我們會馬上將方案寄給您。";
+special_conditions_text_cfos = "若您想大量訂購 <em>cFos</em> 或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b><b>訂購小組</b></b></a> 聯絡，我們將儘速為您服務。";
+special_conditions_text_ipv6 = "若您想大量訂購 <em>cFos IPv6 Link</em> 或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>訂購小組</b></a> 聯絡，我們將儘速為您服務。";
+special_conditions_text_odav = "若您想大量訂購 <em>cFos Outlook DAV</em> 或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>訂購小組</b></a> 聯絡，我們將儘速為您服務。";
+special_conditions_text_speed = "若您想大量訂購 <em>cFosSpeed</em> 或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b><b>訂購小組</b></b></a> 聯絡，我們將儘速為您服務。";
+special_conditions_text_pnet = "若您想大量訂購 <em>cFos Personal Net</em> 或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>訂購小組</b></a> 聯絡，我們將儘速為您服務。";
+special_conditions_text_pnetbnd = "若您想大量訂購 <em>cFos Personal Net / cFosSpeed 合裝組</em>或成為經銷商，請與我們的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>訂購小組</b></a> 聯絡，我們將儘速為您服務。";
 special_offer = "特惠專案";
 special_offer_text = "";
 special_price_for = "給予臺灣人的特別價格。";
@@ -822,7 +825,7 @@ link_text_firewall = "防火牆";
 link_text_what_is_cfos = "cFos/Professional 是什麼？";
 
 /hrping
-hrping_title = "hrPing - 高精確度的 ping 工具";
+hrping_title = "<span class=\"product\">hrPing</span> - 高精確度的 ping 工具";
 hrping_p1 = "您可以用 hrPing 比 Windows Ping 做更多事。";
 hrping_l1 = "圖形化顯示 ping 結果";
 hrping_l2 = "使用高精準度的計時器，所以每個 ping 的時間可以精準到微秒（百萬分之一秒）";
@@ -837,7 +840,7 @@ hrping_l9 = "也可以拿來當作 Traceroute 與 Pathping 使用";
 
 /notifier
 notifier_title = "cFos Notifier";
-notifier_title_h0 = "cFos Notifier - 保持聯繫";
+notifier_title_h0 = "<span class=\"product\">cFos Notifier</span> - 保持聯繫";
 notifier_p1 = "cFos Notifier 是一個在背景執行的程式，定期檢查是否有新的 Twitter 狀態。如果有新東西，它會在 Windows 工具列中顯示通知與氣球提示。如果您點擊氣球或工具列圖示，就會自動打開 twitter.com 連結，你就可以看到新的狀態。";
 notifier_p1_v2 = "cFos Notifier 會定期檢查新東西，並在有新東西出現時通知您。然後會在 Windows 工具列顯示通知。<br/>目前 cFos Notifier 支援下列來源:";
 notifier_l9 = "Mail";
@@ -2429,6 +2432,7 @@ cfosspeed_feature_hightlights_desc = "cFosSpeed 重要功能以及其他資訊�
 cfosspeed_cfosspeed_desc = "cFosSpeed 產品概覽。使用流量塑型加速網際網路、下載和技術資訊。";
 cfosspeed_product_news_desc = "這個網頁包含了 cFosSpeed 的資訊";
 cfosspeed_license_desc = "cFosSpeed 授權。";
+cfos_outlook_dav_license_desc = "cFos Outlook DAV 授權。";
 cfosspeed_rwin_desc = "開啟「自動放大 RWIN」的好處";
 cfosspeed_whats_new_desc = "看看 cFosSpeed 有什麼新消息。所有的新功能，改進和 bug 修正清單。";
 cfosspeed_what_is_cfosspeed_desc = "cFosSpeed 是什麼？在這裡，您可以找到產品描述。";

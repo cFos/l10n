@@ -169,6 +169,7 @@ f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>:<br />3-kohaline kaardi
 f_checkbox_license_text_bconnect = "Olen lugenud <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos Broadband Connect litsentsilepingut</a> ja nõustun tingimustega..";
 f_checkbox_license_text_cfos = "Olen lugenud <a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos litsentsilepingut</a> ja nõustun tingimustega.";
 f_checkbox_license_text_ipv6 = "Olen lugenud <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\"  target=\"_blank\">cFos IPv6 Link litsentsilepingut</a> ja nõustun tingimustega.";
+f_checkbox_license_text_odav = "Olen lugenud <a class=\"inline\" href=\"/en/cfos-outlook-dav/license.htm\"  target=\"_blank\">cFos Outlook DAV litsentsilepingut</a> ja nõustun tingimustega.";
 f_checkbox_license_text_speed = "Olen lugenud <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed litsentsilepingut</a> ja nõustun tingimustega.";
 f_city_postcode = "Zip/Postiindeks, Linn";
 f_deliverto_list_01 = "kasutaja@host.net, mitte <span style=\"text-decoration: line-through\">www.host.net</span>";
@@ -182,6 +183,7 @@ firmenkunden = "Ärikliendid";
 firmenkunden_text_bconnect = "Äri kasutajad on need kes saavad maha arvata kulusid cFos Broadband Connect maksudest. Mittetulundusühingud loetakse erakasutajateks. Kui soovite tellida cFos Broadband Connecti´i eraisikuna, siis palun kasutage <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">Tellimis vorm erakasutajale</a></b>.";
 firmenkunden_text_cfos = "Äri kasutajad on need kes saavad maha arvata kulusid cFos maksudest. Mittetulundusühingud loetakse erakasutajateks.  Kui soovite tellida cFos´i eraisikuna, siis palun kasutage <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">Tellimis vorm erakasutajale</a></b>.";
 firmenkunden_text_ipv6 = "Äri kasutajad on need kes saavad maha arvata kulusid <em>cFos IPv6 Link</em> maksudest. Mittetulundusühingud loetakse erakasutajateks. Kui soovite tellida cFos IPv6 Link´i eraisikuna, siis palun kasutage <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">Tellimis vorm erakasutajale</a></b>.";
+firmenkunden_text_odav = "Äri kasutajad on need kes saavad maha arvata kulusid <em>cFos Outlook DAV</em> maksudest. Mittetulundusühingud loetakse erakasutajateks. Kui soovite tellida cFos Outlook DAV´i eraisikuna, siis palun kasutage <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\">Tellimis vorm erakasutajale</a></b>.";
 f_trans_mail = "Teile saadetakse meie pangakonto andmed tellimuse kinnitamise e-mailiga";
 
 / Order and Announcelist Confirmation Email

@@ -191,6 +191,7 @@ f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>:<br />De 3 cijferige ka
 f_checkbox_license_text_bconnect = "Ik heb gelezen de <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos Broadband Connect licentie overeenkomst</a> en accepteer de voorwaarden en condities..";
 f_checkbox_license_text_cfos = "Ik heb gelezen de <a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos licentie overeenkomst</a> en accepteer de voorwaarden en condities..";
 f_checkbox_license_text_ipv6 = "Ik heb de <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\">cFos IPv6 Link licence agreement</a> gelezen en ik ga ermee akkoord.";
+f_checkbox_license_text_odav = "Ik heb de <a class=\"inline\" href=\"/en/cfos-outlook-dav/license.htm\" target=\"_blank\">cFos Outlook DAV licence agreement</a> gelezen en ik ga ermee akkoord.";
 f_checkbox_license_text_speed = "Ik heb gelezen de <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed licentie overeenkomst</a> en accepteer de voorwaarden en condities..";
 f_city_postcode = "Postcode, Plaats";
 f_deliverto_list_01 = "user@host.net, niet <span style=\"text-decoration: line-through\">www.host.net</span>";
@@ -203,6 +204,7 @@ firmenkunden = "Zakelijke gebruikers";
 firmenkunden_text_bconnect = "Zakelijke gebruikers zijn diegene die de kosten kunnen aftrekken van 'cFos Broadband Connect' van de belasting. Non-profit organisaties worden beschouwd als particuliere gebruikers. Indien u 'cFos Broadband' particulier wilt bestellen, log dan alstublieft in als particuliere gebruiker, gebruik dan alstublieft het<b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">Order Formulier voor particuliere gebruikers</a></b>.";
 firmenkunden_text_cfos = "Zakelijke gebruikers zijn diegene die de kosten kunnen aftrekken van 'cFos' van de belasting. Non-profit organisaties worden beschouwd als particuliere gebruikers. Non-profit organisaties worden beschouwd als particuliere gebruikers. Indien u 'cFos' particulier wilt bestellen, log dan alstublieft in als particuliere gebruiker, gebruik dan alstublieft het <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">Order Formulier voor particuliere gebruikers</a></b>.";
 firmenkunden_text_ipv6 = "Zakelijke gebruikers zijn diegene die de kosten kunnen aftrekken van <em>'cFos' IPv6 Link</em> van de belasting. Non-profit organisaties worden beschouwd als particuliere gebruikers. Indien u 'cFos IPv6' Link particulier wilt bestellen, log dan alstublieft in als particuliere gebruiker, gebruik dan alstublieft het <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">Order Formulier voor particuliere gebruikers</a></b>.";
+firmenkunden_text_odav = "Zakelijke gebruikers zijn diegene die de kosten kunnen aftrekken van <em>cFos Outlook DAV</em> van de belasting. Non-profit organisaties worden beschouwd als particuliere gebruikers. Indien u cFos Outlook DAV particulier wilt bestellen, log dan alstublieft in als particuliere gebruiker, gebruik dan alstublieft het <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\">Order Formulier voor particuliere gebruikers</a></b>.";
 firmenkunden_text_speed = "Zakelijke gebruikers zijn diegene die de kosten kunnen aftrekken van 'cFosSpeed' van de belasting. Non-profit organisaties worden beschouwd als particuliere gebruikers. Indien u 'cFosSpeed' particulier wilt bestellen, log dan alstublieft in als particuliere gebruiker, gebruik dan alstublieft het <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\">Order Formulier voor particuliere gebruikers</a></b>.";
 f_use_form_n = "Om cFosSpeed te bestellen als prive gebruiker, gebruik de";
 f_use_form_c = "Om cFosSpeed te bestellen als zakelijke gebruiker, gebruik de ";
@@ -266,10 +268,11 @@ shopping_cart = "Winkelwagen";
 spbc_text = "1 cFosSpeed licentie + 1 cFos Breedband Connect licentie voor een speciale prijs";
 spbc_title = "Speciaal gelanceerde Actie";
 special_conditions = "Speciale Voorwaarden";
-special_conditions_text_bconnect = "Als u van plan bent <em>cFos Breedband Connect</em> in grote hoeveelheden te bestellen en/of graag een verkoper wilt worden, neem alstublieft contact op met ons <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Bestel Team</a>. We sturen u onmiddelijk een aanbod.";
-special_conditions_text_cfos = "Als u van plan bent <em>cFos</em> in grote hoeveelheden te bestellen en/of graag een verkoper wilt worden, neem alstublieft contact op met ons <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Bestel Team</a>. We sturen u onmiddelijk een aanbod.";
-special_conditions_text_ipv6 = "Als u <em>cFos IPv6 Link</em> besteld in grotere hoeveelheden of als u het wilt verkopen, contacteer onze <a class=\"inline\" href=\"/en/contact/msgpost.htm\">order team</a>. We zullen dan meteen een overeenkomstig bod sturen.";
-special_conditions_text_speed = "Als u van plan bent <em>cFosSpeed</em> in grote hoeveelheden te bestellen en/of graag een verkoper wilt worden, neem alstublieft contact op met ons <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Bestel Team</a>. We sturen u onmiddelijk een aanbod.";
+special_conditions_text_bconnect = "Als u van plan bent <em>cFos Breedband Connect</em> in grote hoeveelheden te bestellen en/of graag een verkoper wilt worden, neem alstublieft contact op met ons <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Bestel Team</b></a>. We sturen u onmiddelijk een aanbod.";
+special_conditions_text_cfos = "Als u van plan bent <em>cFos</em> in grote hoeveelheden te bestellen en/of graag een verkoper wilt worden, neem alstublieft contact op met ons <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Bestel Team</b></a>. We sturen u onmiddelijk een aanbod.";
+special_conditions_text_ipv6 = "Als u <em>cFos IPv6 Link</em> besteld in grotere hoeveelheden of als u het wilt verkopen, contacteer onze <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>order team</b></a>. We zullen dan meteen een overeenkomstig bod sturen.";
+special_conditions_text_odav = "Als u van plan bent <em>cFos Outlook DAV</em> in grote hoeveelheden te bestellen en/of graag een verkoper wilt worden, neem alstublieft contact op met ons <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Bestel Team</b></a>. We sturen u onmiddelijk een aanbod.";
+special_conditions_text_speed = "Als u van plan bent <em>cFosSpeed</em> in grote hoeveelheden te bestellen en/of graag een verkoper wilt worden, neem alstublieft contact op met ons <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Bestel Team</b></a>. We sturen u onmiddelijk een aanbod.";
 special_offer = "Speciaal aanbod";
 special_price_for = "Speciale prijs voor de inwoners van uw land";
 th_order_date = "Bestel datum";
@@ -432,7 +435,7 @@ link_text_feature_list = "functies voor DSL en ISDN";
 link_text_what_is_cfos = "Wat is cFos/Professional?";
 
 /hrping
-hrping_title = "hrPing - Nauwkeurige ping tool";
+hrping_title = "<span class=\"product\">hrPing</span> - Nauwkeurige ping tool";
 
 /notifier
 notifier_p1 = "cFos Notifier is een programma dat in de achtergrond draait en zo nu en dan zoekt of er een nieuwe Twitter Status beschikbaar is. Als er iets nieuws is, zal het een notificatie icoontje weergeven in de windows taakbalk en een ballon tip. Als u de ballon of het taakbalk icoontje aanklikt zal twitter.com starten zodat u uw status kunt lezen.";

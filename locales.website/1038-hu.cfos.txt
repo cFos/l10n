@@ -241,6 +241,7 @@ f_cc_vc_explain = "Eurocard/Mastercard/Visa: A 3 jegyű biztonsági kód a kárt
 f_checkbox_license_text_bconnect = "A <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos Broadband Connect licensz-szerződését</a> elolvastam és elfogadom..";
 f_checkbox_license_text_cfos = "Elolvastam a <a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos licencszerződést</a> és az abban foglaltakat elfogadom.";
 f_checkbox_license_text_ipv6 = "Elolvastam a <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\">cFos IPv6 Link szerződési feltételeket</a> és azokat elfogadom.";
+f_checkbox_license_text_odav = "Elolvastam a <a class=\"inline\" href=\"/en/cfos-outlook-dav/license.htm\" target=\"_blank\">cFos Outlook DAV szerződési feltételeket</a> és azokat elfogadom.";
 f_checkbox_license_text_speed = "Elolvastam a <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed licencszerződést</a> és az abban foglaltakat elfogadom.";
 f_checkbox_license_text_pnet = "Elolvastam a <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net szerződési feltételeit</a> és elfogadom a benne leírtakat.";
 f_checkbox_license_text_pnetbnd = "Elolvastam a <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net</a> és a <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed </a> szerződési feltételeket és elfogadom a benne leírtakat.";
@@ -256,6 +257,7 @@ firmenkunden = "Céges felhasználók";
 firmenkunden_text_bconnect = "Üzleti felhasználók azok, akik vissza tudják igényelni ÁFÁ-jukat a cFos Broadband Connect megvásárlásának árából. Jelen esetben a non-profit szervezetek magánfelhasználónak számítanak. Amennyiben magánfelhasználóként szeretné megrendelni a cFos Broadband Connect-et, használja ezt a <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">rendelőlapot</a></b>.";
 firmenkunden_text_cfos = "Céges felhasználónak számít minden vásárló, aki az ÁFA-t vissza tudja igényelni. A non-profit szervezeteket magánszemélyként kezeljük.";
 firmenkunden_text_ipv6 = "Üzleti felhasználók azok, akik vissza tudják igényelni ÁFÁ-jukat a cFos IPv6 Link megvásárlásának árából. Jelen esetben a non-profit szervezetek magánfelhasználónak számítanak. Amennyiben magánfelhasználóként szeretné megrendelni a cFos IPv6 Link-et, használja ezt a <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">rendelőlapot</a></b>.";
+firmenkunden_text_odav = "Üzleti felhasználók azok, akik vissza tudják igényelni ÁFÁ-jukat a cFos Outlook DAV megvásárlásának árából. Jelen esetben a non-profit szervezetek magánfelhasználónak számítanak. Amennyiben magánfelhasználóként szeretné megrendelni a cFos Outlook DAV-et, használja ezt a <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\">rendelőlapot</a></b>.";
 firmenkunden_text_speed = "Céges felhasználónak számít minden vásárló, aki az ÁFA-t vissza tudja igényelni. A non-profit szervezeteket magánszemélyként kezeljük.";
 firmenkunden_text_pnet = "Üzleti felhasználók azok, akik le tudják vonni a cFos Personal Net utáni költségeket az adójukból. Non-profit cégek egyéni felhasználóknak számítanak. Ha Ön szeretne rendelni cFos Personal Net-t, mint egyéni felhasználó, kérjük használja a <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-personal-net-n.htm\">Vásárlás, mint egyéni felhasználó</a></b>.";
 firmenkunden_text_pnetbnd = "Üzleti felhasználók azok, akik le tudják vonni a cFos Personal Net / cFosSpeed csomag utáni költségeket az adójukból. Non-profit cégek egyéni felhasználóknak számítanak. Ha Ön szeretne rendelni ilyen csomagot, mint egyéni felhasználó, kérjük használja a<b><a class=\"inline\" href=\"https://www.cfos.de/en/order/pnet-speed-bundle-n.htm\">Vásárlás, mint egyéni felhasználó</a></b>.";
@@ -326,12 +328,13 @@ speed_pnet_until = "Október 9ig";
 speed_pnet_bundle = "Vegye meg a cFosSpeed-t és cFos Personal Net-t együtt csak";
 speed_pnet_only = "Vegye meg a cFos Personal Net-t csak";
 special_conditions = "Kedvezményes feltételek";
-special_conditions_text_bconnect = "Amennyiben nagyobb mennyiségben óhajt <em>cFos Broadband Connectet</em>  rendelni, vagy szeretne viszonteladó lenni, kérjük forduljon <a class=\"inline\" href=\"/en/contact/msgpost.htm\">hozzánk bátran</a>. Amint lehetséges megküldjük ajánlatunkat.";
+special_conditions_text_bconnect = "Amennyiben nagyobb mennyiségben óhajt <em>cFos Broadband Connectet</em>  rendelni, vagy szeretne viszonteladó lenni, kérjük forduljon <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>hozzánk bátran</b></a>. Amint lehetséges megküldjük ajánlatunkat.";
 special_conditions_text_cfos = "Amennyiben nagyobb mennyiségben szeretné megvásárolni a cFos-et vagy szeretne viszonteladó lenni, kérem lépjen kapcsolatba a cFos Eladási Csoporttal. Azonnal küldünk árajánlatot.";
-special_conditions_text_ipv6 = "Ha nagyobb tételben rendel <em>cFos IPv6 Link</em> licenceket vagy viszonteladó szeretne lenni, kérjük vegye fel a kapcsolatot a<a class=\"inline\" href=\"/en/contact/msgpost.htm\">viszonteladó csapat</a>tal. Azonnal küldeni fogunk egy megfelelő ajánlatot.";
+special_conditions_text_ipv6 = "Ha nagyobb tételben rendel <em>cFos IPv6 Link</em> licenceket vagy viszonteladó szeretne lenni, kérjük vegye fel a kapcsolatot a<a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>viszonteladó csapat</b></a>tal. Azonnal küldeni fogunk egy megfelelő ajánlatot.";
+special_conditions_text_odav = "Ha ön több mennyiségben <em>cFos Outlook DAV</em> vásárolna és/vagy viszonteladó lenne, kérjük írjon a <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos csapatunknak</b></a>. Mi azonnal küldünk egy ajánlatot önnek.";
 special_conditions_text_speed = "Amennyiben nagyobb mennyiségben szeretné megvásárolni a cFosSpeed-et vagy szeretne viszonteladó lenni, kérem lépjen a cFos Eladási Csoporttal  kapcsolatba. Azonnal küldünk árajánlatot.";
-special_conditions_text_pnet = "Ha ön több mennyiségben <em>cFos Personal Net-t</em> vásárolna és/vagy viszonteladó lenne, kérjük írjon a<a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos csapatunknak</a>. Mi azonnal küldünk egy ajánlatot önnek.";
-special_conditions_text_pnetbnd = "Ha ön több mennyiségben <em>cFos Personal Net / cFosSpeed csomagot</em> vásárolna és/vagy viszonteladó lenne, kérjük írjon a <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos csapatunknak</a>. Mi azonnal küldünk egy ajánlatot önnek.";
+special_conditions_text_pnet = "Ha ön több mennyiségben <em>cFos Personal Net-t</em> vásárolna és/vagy viszonteladó lenne, kérjük írjon a<a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos csapatunknak</b></a>. Mi azonnal küldünk egy ajánlatot önnek.";
+special_conditions_text_pnetbnd = "Ha ön több mennyiségben <em>cFos Personal Net / cFosSpeed csomagot</em> vásárolna és/vagy viszonteladó lenne, kérjük írjon a <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos csapatunknak</b></a>. Mi azonnal küldünk egy ajánlatot önnek.";
 special_offer = "Különleges ajánlat!";
 special_offer_text = "Az ajánlat minden magyar állampolgárra érvényes.<br /> Banki átutalással lehet fizetni a Volksbank Hungary fiókjaiban. (az ár tartalmazza a szállítást és ÁFÁ-t)";
 special_price_for = "Különleges ár magyar állampolgároknak.";
@@ -699,7 +702,7 @@ link_text_firewall = "Tűzfal";
 link_text_what_is_cfos = "Mi a cFos/Professional?";
 
 /hrping
-hrping_title = "hrPing - Magas precizitású ping segédprogram";
+hrping_title = "<span class=\"product\">hrPing</span> - Magas precizitású ping segédprogram";
 
 
 /notifier
@@ -2207,6 +2210,7 @@ cfosspeed_features_desc = "Mit adhat Önnek a cFosSpeed?. A legfontosabb tulajdo
 cfosspeed_cfosspeed_desc = "cFosSpeed termékáttekintés, Internet-gyorsítás a Traffic Shaping-gal, letöltés és technikai információk.";
 cfosspeed_product_news_desc = "Ez az oldal cFosSpeed-újdonságokat tartalmaz.";
 cfosspeed_license_desc = "cFosSpeed licenc.";
+cfos_outlook_dav_license_desc = "cFos Outlook DAV licenc.";
 cfosspeed_rwin_desc = "Az „Automatikus RWIN-növelés” bekapcsolásának előnyei";
 cfosspeed_whats_new_desc = "Milyen újdonságok vannak a cFosSpeed-ben? Valamennyi funkció, javítás és hibajavítás listája.";
 cfosspeed_what_is_cfosspeed_desc = "Mi a cFosSpeed? itt találja a termékleírást.";

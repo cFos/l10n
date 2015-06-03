@@ -248,6 +248,7 @@ f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>:<br />Vous trouverez le
 f_checkbox_license_text_bconnect = "J'ai lu l'<a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">accord de licence de cFos Broadband Connect </a> et j'en accepte les termes et les conditions.";
 f_checkbox_license_text_cfos = "J'ai lu l'<a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">accord de licence cFos</a> et j'en accepte les termes et les conditions.";
 f_checkbox_license_text_ipv6 = "J'ai lu les clauses de la licence cFos IPv6 Link <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\"> </a> et les accepte.";
+f_checkbox_license_text_odav = "J'ai lu les clauses de la licence cFos Outlook DAV <a class=\"inline\" href=\"/en/cfos-outlook-dav/license.htm\" target=\"_blank\"> </a> et les accepte.";
 f_checkbox_license_text_speed = "J'ai lu l'<a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">accord de licence cFosSpeed</a> et j'en accepte les termes et les conditions.";
 f_checkbox_license_text_pnet = "Je reconnais avoir lu le <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">contrat de licence cFos Personal Net</a> et en accepte les termes et conditions.";
 f_checkbox_license_text_pnetbnd = "Je reconnais avoir lu le contrat de licence pour <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net</a> and <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed </a> et en accepte les termes et conditions.";
@@ -264,6 +265,7 @@ firmenkunden = "Utilisateurs professionnels";
 firmenkunden_text_bconnect = "Vous êtes considéré comme utilisateur professionnel si vous pouvez déduire le coût de <em>cFos Broadband Connect</em> de vos taxes. Les organisations à but non lucratif sont considérées comme des utilisateurs privés. Si vous désirez commander cFos Broadband Connect en tant qu'utilisateur privé, veuillez utiliser le <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">formulaire de commande pour les utilisateurs privés</a></b>.";
 firmenkunden_text_cfos = "Vous êtes considéré comme utilisateur professionnel si vous pouvez déduire le coût de cFos de vos taxes. Les organisations à but non lucratif sont considérées comme des utilisateurs privés. Si vous désirez commander cFos en tant qu'utilisateur privé veuillez utiliser le <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">formulaire de commande pour les utilisateurs privés</a></b>.";
 firmenkunden_text_ipv6 = "Vous êtes considéré comme utilisateur professionnel si vous pouvez déduire le coût de <em>cFos ipv6 Link</em> de vos taxes. Les organisations à but non lucratif sont considérées comme des utilisateurs privés. Si vous désirez commander cFos ipv6 Link en tant qu'utilisateur privé veuillez utiliser le <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">formulaire de commande pour les utilisateurs privés</a></b>.";
+firmenkunden_text_odav = "Vous êtes considéré comme utilisateur professionnel si vous pouvez déduire le coût de <em>cFos Outlook DAV</em> de vos taxes. Les organisations à but non lucratif sont considérées comme des utilisateurs privés. Si vous désirez commander cFos Outlook DAV en tant qu'utilisateur privé veuillez utiliser le <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\">formulaire de commande pour les utilisateurs privés</a></b>.";
 firmenkunden_text_speed = "Vous êtes considéré comme utilisateur professionnel si vous pouvez déduire le coût de <em>cFosSpeed</em> de vos taxes. Les organisations à but non lucratif sont considérées comme des utilisateurs privés. Si vous désirez commander cFosSpeed en tant qu'utilisateur privé veuillez utiliser le <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\">formulaire de commande pour les utilisateurs privés</a></b>.";
 firmenkunden_text_pnet = "Les utilisateurs professionnels sont ceux qui peuvent déduire le coût de cFos Personal Net de leurs charges. Les organisations à but non lucratif sont considérées comme des utilisateurs privés. Si vous souhaitez commander cFos Personal Net en tant qu'utilisateur privé, merci d'utiliser le <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-personal-net-n.htm\">Formulaire de commande pour utilisateur privé</a></b>.";
 firmenkunden_text_pnetbnd = "Les utilisateurs professionnels sont ceux qui peuvent déduire le coût de the cFos Personal Net / cFosSpeed bundle de leurs charges. Les organisations à but non lucratif sont considérées comme des utilisateurs privés. Si vous souhaitez commander cFos Personal Net en tant qu'utilisateur privé, merci d'utiliser le <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/pnet-speed-bundle-n.htm\">Formulaire de commande pour utilisateur privé</a></b>.";
@@ -336,12 +338,13 @@ speed_pnet_until = "Jusqu'au 7 Août";
 speed_pnet_bundle = "Achetez simultanément cFosSpeed et cFos Personal Net pour seulement";
 speed_pnet_only = "Achetez cFos Personal Net pour seulement";
 special_conditions = "Conditions spéciales";
-special_conditions_text_bconnect = "Si vous envisagez de commander <em>cFos Broadband Connect</em> en plus grande quantité et/ou de devenir revendeur, nous vous invitons à contacter notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\">service commercial cFos</a>. Nous vous ferons parvenir une offre dans les plus brefs délais.";
-special_conditions_text_cfos = "Si vous envisagez de commander <em>cFos</em> en plus grande quantité et/ou de devenir revendeur, nous vous invitons à contacter notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\">service commercial cFos</a>. Nous vous ferons parvenir une offre dans les plus brefs délais.";
-special_conditions_text_ipv6 = "Si vous commandez <em>cFos IPv6 Link</em> en grande quantité et/ou vous souhaitez devenir revendeur, veuillez vous adresser à notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\">Order Team</a>. Nous vous enverrons immédiatement une offre adéquate.";
-special_conditions_text_speed = "Si vous envisagez de commander <em>cFosSpeed</em> en plus grande quantité et/ou de devenir revendeur, nous vous invitons à contacter notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\">service commercial cFos</a>. Nous vous ferons parvenir une offre dans les plus brefs délais.";
-special_conditions_text_pnet = "Si vous souhaitez commander <em>cFos Personal Net</em> en grand nombre et/ou souhaitez devenir un revendeur, merci de contacter notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\">Equipe commerciale cFos</a>. Nous vous ferons parvenir une offre commerciale immédiatement.";
-special_conditions_text_pnetbnd = "Si vous souhaitez commander <em>cFos Personal Net / cFosSpeed bundle</em> en grand nombre et/ou souhaitez devenir un revendeur, merci de contacter notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\">Equipe commerciale cFos</a>. WNous vous ferons parvenir une offre commerciale immédiatement.";
+special_conditions_text_bconnect = "Si vous envisagez de commander <em>cFos Broadband Connect</em> en plus grande quantité et/ou de devenir revendeur, nous vous invitons à contacter notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>service commercial cFos</b></a>. Nous vous ferons parvenir une offre dans les plus brefs délais.";
+special_conditions_text_cfos = "Si vous envisagez de commander <em>cFos</em> en plus grande quantité et/ou de devenir revendeur, nous vous invitons à contacter notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>service commercial cFos</b></a>. Nous vous ferons parvenir une offre dans les plus brefs délais.";
+special_conditions_text_ipv6 = "Si vous commandez <em>cFos IPv6 Link</em> en grande quantité et/ou vous souhaitez devenir revendeur, veuillez vous adresser à notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>Order Team</b></a>. Nous vous enverrons immédiatement une offre adéquate.";
+special_conditions_text_odav = "Si vous souhaitez commander <em>cFos Outlook DAV</em> en grand nombre et/ou souhaitez devenir un revendeur, merci de contacter notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>Equipe commerciale cFos</b></a>. Nous vous ferons parvenir une offre commerciale immédiatement.";
+special_conditions_text_speed = "Si vous envisagez de commander <em>cFosSpeed</em> en plus grande quantité et/ou de devenir revendeur, nous vous invitons à contacter notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>service commercial cFos</b></a>. Nous vous ferons parvenir une offre dans les plus brefs délais.";
+special_conditions_text_pnet = "Si vous souhaitez commander <em>cFos Personal Net</em> en grand nombre et/ou souhaitez devenir un revendeur, merci de contacter notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>Equipe commerciale cFos</b></a>. Nous vous ferons parvenir une offre commerciale immédiatement.";
+special_conditions_text_pnetbnd = "Si vous souhaitez commander <em>cFos Personal Net / cFosSpeed bundle</em> en grand nombre et/ou souhaitez devenir un revendeur, merci de contacter notre <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>Equipe commerciale cFos</b></a>. Nous vous ferons parvenir une offre commerciale immédiatement.";
 special_offer = "Offre spéciale";
 special_price_for = "Prix spécial pour les clients de ce pays.";
 th_abort_paypal = "La transaction à échoué!";
@@ -795,7 +798,7 @@ link_text_firewall = "Pare-feu";
 link_text_what_is_cfos = "Qu'est-ce que cFos/Professionnel?";
 
 /hrping
-hrping_title = "hrPing - Utilitaire ping de haute précision";
+hrping_title = "<span class=\"product\">hrPing</span> - Utilitaire ping de haute précision";
 hrping_p1 = "Vous pouvez faire d'avantage avec hrPing qu'avec le Ping Windows.";
 hrping_l1 = "Affichage graphique de vos résultats de ping";
 hrping_l2 = "Utilisez une résolution temporelle haute, afin que les ping soient précis pour une résolution à la microseconde";
@@ -810,7 +813,7 @@ hrping_l9 = "Est aussi un utilitaire Traceroute et Pathping";
 
 /notifier
 notifier_title = "Notificateur cFos";
-notifier_title_h0 = "cFos Notifier - Restez en contact";
+notifier_title_h0 = "<span class=\"product\">cFos Notifier</span> - Restez en contact";
 notifier_p1 = "Le Notificateur cFos est un programme en tache de fond et qui vérifie périodiquement, si un nouveau statut Twitter est disponible. S’il y en a un nouveau, il affiche une notification dans la barre des tâches. En cliquant sur l'icône, vous accédez à twitter.com pour lire le ou les nouveaux statuts.";
 notifier_p1_v2 = "cFos Notifier vérifie périodiquement les nouvelles sources et vous notifie dès que quelque chose de nouveau arrive. Une notification est alors affichée dans la barre des taches de Windows.<br/>cFos Notifier supporte actuellement les sources suivantes :";
 notifier_l9 = "Mail";
@@ -2388,6 +2391,7 @@ cfosspeed_feature_hightlights_desc = "Liste résumée des fonctionnalités de cF
 cfosspeed_cfosspeed_desc = "Apperзu du produit cFosSpeed, accйlйrer Internet avec Traffic Shaping, tйlйchargement et informations techniques.";
 cfosspeed_product_news_desc = "Cette page rapporte les nouvelles concernant cFosSpeed";
 cfosspeed_license_desc = "Licence cFosSpeed.";
+cfos_outlook_dav_license_desc = "Licence cFos Outlook DAV.";
 cfosspeed_rwin_desc = "Bйnйfices de l'activation de 'Extension RWIN automatique'";
 cfosspeed_whats_new_desc = "Dйcouvrez les nouveautйs de cFosSpeed. Liste de toutes les nouvelles fonctionnalitйs, amйliorations et corrections de bugs.";
 cfosspeed_what_is_cfosspeed_desc = "Qu'est-ce que cFosSpeed? Vous trouverez ici la description du produit.";

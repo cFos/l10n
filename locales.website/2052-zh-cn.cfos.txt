@@ -249,7 +249,8 @@ f_cc_vc_where = "信用卡安全码在哪?";
 f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>:<br />3位数信用卡安全码位于信用卡背面——在签名栏处或位于签名栏上方右侧的后3位数<br/><b>美国运通</b>:<br />4位数信用卡安全码位于信用卡正面右上角。";
 f_checkbox_license_text_bconnect = "我已阅读 <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos Broadband Connect 授权许可协议</a> 并接受其全部条款..";
 f_checkbox_license_text_cfos = "我已经阅读了<a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos 授权许可协议</a>并接受其全部条款..";
-f_checkbox_license_text_IPv6 = "我已经阅读了 <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\">cFos IPv6 Link 授权许可协议</a> 并且接受其全部条款..";
+f_checkbox_license_text_ipv6 = "我已经阅读了 <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\">cFos IPv6 Link 授权许可协议</a> 并且接受其全部条款..";
+f_checkbox_license_text_odav = "我已经阅读了 <a class=\"inline\" href=\"/en/cfos-outlook-dav/license.htm\" target=\"_blank\">cFos Outlook DAV 授权许可协议</a> 并且接受其全部条款..";
 f_checkbox_license_text_speed = "我已经阅读了<a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed 授权许可协议</a>并且接受其全部条款..";
 f_checkbox_license_text_pnet = "我已阅读 <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net 授权许可协议</a> 并且接受其全部条款..";
 f_checkbox_license_text_pnetbnd = "我已阅读 <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net 授权许可协议</a> 及 <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed  授权许可协议</a>并且接受其全部条款..";
@@ -266,6 +267,7 @@ firmenkunden = "商业用户";
 firmenkunden_text_bconnect = "商业用户是那些可以从税收中扣除购买 cFos IPv6 Link 费用的客户. 非赢利组织被同样视为个人用户. 如果你想以个人用户身份订购 cFos IPv6 Link, 请使用 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">个人用户订购单</a></b>.";
 firmenkunden_text_cfos = "商业用户是那些可以从税收中扣除购买 cFos 费用的客户。 非盈利的团体被视为个人用户。 如果您想作为个人用户订购cFos， 请使用 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">个人用户订购表单</a></b>.";
 firmenkunden_text_IPv6 = "商业用户是可以从纳税中扣除本软件<em>cFos IPv6 Link</em>成本的那些使用者。非赢利组织被同样视为个人用户。如果您希望作为个人用户订购cFos IPv6 Link，请使用这个 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">个人用户订购表单</a></b>.";
+firmenkunden_text_odav = "商业用户是可以从纳税中扣除本软件<em>cFos Outlook DAV</em>成本的那些使用者。非赢利组织被同样视为个人用户。如果您希望作为个人用户订购cFos Outlook DAV，请使用这个 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\">个人用户订购表单</a></b>.";
 firmenkunden_text_speed = "商业用户是那些可以从税收中扣除购买 cFosSpeed 费用的客户。 非盈利的团体被视为个人用户。 如果您想作为个人用户订购cFosSpeed， 请使用 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\">个人用户订购表单</a></b>.";
 firmenkunden_text_pnet = "商业用户是那些能够从他们的税里扣除cFos Personal Net的费用的机构. 非盈利性组织被视为个人用户. 如果你想以个人用户身份订购 cFos Personal Net, 请使用 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-personal-net-n.htm\">个人用户订购表格</a></b>.";
 firmenkunden_text_pnetbnd = "商业用户是那些能够从他们的税里扣除 cFos Personal Net / cFosSpeed 套装版费用的机构. 非盈利性组织被视为私人用户. 如果你想以私人用户身份订购一批 cFos Personal Net / cFosSpeed , 请使用 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/pnet-speed-bundle-n.htm\">私人用户订购表格</a></b>.";
@@ -333,12 +335,13 @@ speed_pnet_until = "截至 10 月 9 日";
 speed_pnet_bundle = "订购cFosSpeed 和 cFos Personal Net 套餐";
 speed_pnet_only = "订购 cFos Personal Net";
 special_conditions = "特别条件";
-special_conditions_text_bconnect = "如果您希望大宗订购 <em>cFos Broadband Connect</em> 或者成为本软件的经销商, 请联系我们的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos 销售部门</a>. 我们会立即给您发送优惠报价。";
-special_conditions_text_cfos = "如果您希望大宗订购<em>cFos</em>或成为本软件的经销商，请联系我们的<a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos 销售部门</a>. 我们会立即给您发送优惠报价。";
-special_conditions_text_IPv6 = "如果您希望大宗订购<em>cFos IPv6 Link</em>或者成为本软件零售商，请联系我们<a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos 销售部门</a>. 我们会立即给您发送优惠报价。";
-special_conditions_text_speed = "如果您希望大量定购<em>cFosSpeed</em>成为/或者想成为转售商，请联系我们的<a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos 销售部门</a>. 我们会立即给您发送报价。";
-special_conditions_text_pnet = "如果您打算订购数量较多的 <em>cFos Personal Net</em> 或者想要成为一名我们的经销商, 请联系我们 <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos 销售部门</a>. 我们会立即给您发送优惠报价。";
-special_conditions_text_pnetbnd = "果您打算订购数量较多的 <em>cFos Personal Net / cFosSpeed 套装版</em>  或者想要成为一名我们的经销商, 请联系我们 <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos 销售部门</a>. 我们会立即给您发送优惠报价。";
+special_conditions_text_bconnect = "如果您希望大宗订购 <em>cFos Broadband Connect</em> 或者成为本软件的经销商, 请联系我们的 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos 销售部门</b></a>. 我们会立即给您发送优惠报价。";
+special_conditions_text_cfos = "如果您希望大宗订购<em>cFos</em>或成为本软件的经销商，请联系我们的<a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos 销售部门</b></a>. 我们会立即给您发送优惠报价。";
+special_conditions_text_ipv6 = "如果您希望大宗订购<em>cFos IPv6 Link</em>或者成为本软件零售商，请联系我们<a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos 销售部门</b></a>. 我们会立即给您发送优惠报价。";
+special_conditions_text_odav = "果您打算订购数量较多的 <em>cFos Outlook DAV</em>  或者想要成为一名我们的经销商, 请联系我们 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos 销售部门</b></a>. 我们会立即给您发送优惠报价。";
+special_conditions_text_speed = "如果您希望大量定购<em>cFosSpeed</em>成为/或者想成为转售商，请联系我们的<a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos 销售部门</b></a>. 我们会立即给您发送报价。";
+special_conditions_text_pnet = "如果您打算订购数量较多的 <em>cFos Personal Net</em> 或者想要成为一名我们的经销商, 请联系我们 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos 销售部门</b></a>. 我们会立即给您发送优惠报价。";
+special_conditions_text_pnetbnd = "果您打算订购数量较多的 <em>cFos Personal Net / cFosSpeed 套装版</em>  或者想要成为一名我们的经销商, 请联系我们 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos 销售部门</b></a>. 我们会立即给您发送优惠报价。";
 special_offer = "特别产品";
 special_offer_text = "迎新年限时特卖，<b class=\"red\"><big>2007年12月31日前</big></b>，购买cFosSpeed仅需<b class=\"red\"> 39 元</b>！<br /> 现在可以您可使用招商银行北京市分行的帐户进行支付";
 special_price_for = "针对中国大陆地区用户的特别优惠";
@@ -758,7 +761,7 @@ link_text_firewall = "防火墙";
 link_text_what_is_cfos = "什么是 cFos/Professional?";
 
 /hrping
-hrping_title = "hrPing - 高精确度的 Ping 工具";
+hrping_title = "<span class=\"product\">hrPing</span> - 高精确度的 Ping 工具";
 
 /notifier
 notifier_p1 = "cFos Notifier 是一种用来周期性监测 cFos 是否有更新的后台程序。如果有更新，它就会在 Windows 任务栏显示通知图标并跳出提示。如果您点击提示或通知图标，您便可在 twitter.com 阅读新资讯。";
@@ -2233,6 +2236,7 @@ cfosspeed_features_desc = "您可以通过 cFosSpeed 获得的益处。产品的
 cfosspeed_cfosspeed_desc = "cFosSpeed 产品概览，带有 Traffic Shaping 的网络加速器，下载和技术支持信息。";
 cfosspeed_product_news_desc = "本页面包含 cFosSpeed 的最新信息。";
 cfosspeed_license_desc = "cFosSpeed 使用许可";
+cfos_outlook_dav_license_desc = "cFos Outlook DAV 使用许可";
 cfosspeed_rwin_desc = "激活 'Automatic RWIN expansion' 选项带来的好处";
 cfosspeed_whats_new_desc = "查找关于 cFosSpeed 的最新消息。包含新的功能、改进和错误修正列表。";
 cfosspeed_what_is_cfosspeed_desc = "cFosSpeed是什么？您可以在这里找到产品信息。";

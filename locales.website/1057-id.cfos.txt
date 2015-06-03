@@ -209,6 +209,7 @@ f_cc_vc_explain = "<br /><b>Eurocard/Mastercard/Visa</b>:<br />The 3-digit kode 
 f_checkbox_license_text_bconnect = "Saya telah membaca <a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos Broadband Connect license agreement</a> and accept its terms and conditions..";
 f_checkbox_license_text_cfos = "Saya telah membaca <a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos license agreement</a> and accept its terms and conditions..";
 f_checkbox_license_text_ipv6 = "Saya telah membaca <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\">cFos IPv6 Link license agreement</a> and accept its terms and conditions..";
+f_checkbox_license_text_odav = "Saya telah membaca <a class=\"inline\" href=\"/en/cfos-outlook-dav/license.htm\" target=\"_blank\">cFos Outlook DAV license agreement</a> and accept its terms and conditions..";
 f_checkbox_license_text_speed = "Saya telah membaca <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed license agreement</a> and accept its terms and conditions..";
 f_checkbox_license_text_pnet = "Saya telah membaca <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">perjanjian lisensi cFos Personal Net</a> dan menerima syarat dan kondisinya.";
 f_checkbox_license_text_pnetbnd = "Saya telah membaca perjanjian lisensi untuk <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net</a> dan <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed</a> serta menerima syarat dan kondisinya.";
@@ -223,6 +224,7 @@ firmenkunden = "Pengguna Bisnis";
 firmenkunden_text_bconnect = "Pengguna Bisnis adalah dia yang dapat mengurangi biaya dari cFos Broadband Connect dari pajak mereka. organisasi Non-profit dianggap sebagai pengguna pribadi. Jika anda ingin memesan cFos Broadband Connect sebagai pengguna pribadi, mohon gunakan <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">formulir pemesanan untuk pengguna pribadi</a></b>.";
 firmenkunden_text_cfos = "Pengguna Bisnis adalah dia yang dapat mengurangi biaya dari cFos dari pajak mereka. organisasi Non-profit dianggap sebagai pengguna pribadi. Jika anda ingin memesan cFos sebagai pengguna pribadi, Mohon gunakan <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">Formulir pemesanan pengguna pribadi</a></b>.";
 firmenkunden_text_ipv6 = "Pengguna Bisnis adalah dia yang dapat mengurangi biaya dari <em>cFos IPv6 Link</em> dari pajak mereka. organisasi Non-profit dianggap sebagai pengguna pribadi. Jika anda ingin memesan cFos IPv6 Link sebagai pengguna pribadi, mohon gunakan <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">Formulir pemesanan untuk pngguna pribadi</a></b>.";
+firmenkunden_text_odav = "Pengguna Bisnis adalah dia yang dapat mengurangi biaya dari <em>cFos Outlook DAV</em> dari pajak mereka. organisasi Non-profit dianggap sebagai pengguna pribadi. Jika anda ingin memesan cFos Outlook DAV sebagai pengguna pribadi, mohon gunakan <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\">Formulir pemesanan untuk pngguna pribadi</a></b>.";
 firmenkunden_text_speed = "Pengguna bisnis adalah mereka yang dapat memotong biaya cFosSpeed dari pajak mereka. Organisasi nirlaba dianggap sebagai pengguna pribadi. Jika anda ingin memesan cFosSpeed sebagai pengguna pribadi, silahkan gunakan <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\">Formulir Pemesanan untuk Pengguna Pribadi</a></b>.";
 firmenkunden_text_pnet = "Pengguna bisnis adalah mereka yang dapat mengurangi harga cFosPersonal Net dari pajak mereka. Organisasi Non-profit dianggap sebagai pengguna pribadi. Bila anda ingi memesan cFos Personal Net sebagai pengguna pribadi, mohon gunakan <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-personal-net-n.htm\">Formulir Pemesanan untuk Pengguna Pribadi</a></b>.";
 firmenkunden_text_pnetbnd = "Pengguna bisnis adalah mereka yang dapat mengurangi harga cFos Personal Net / paket cFosSpeed dari pajak mereka. Organisasi Non-profit dianggap sebagai pengguna pribadi. Bila anda ingi memesan paket tersebut sebagai pengguna pribadi, mohon gunakan <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/pnet-speed-bundle-n.htm\">Formulir Pemesanan untuk Pengguna Pribadi</a></b>.";
@@ -290,12 +292,13 @@ speed_pnet_until = "Sampai tanggal 7 Agustus";
 speed_pnet_bundle = "Beli cFosSpeed dan cFos Personal Net bundle dengan hanya";
 speed_pnet_only = "Beli cFos Personal Net dengan hanya";
 special_conditions = "Kondisi Khusus";
-special_conditions_text_bconnect = "Jika anda bermaksud untuk memesan <em>cFos Broadband Connect</em> dalam jumlah besar dan/atau ingin menjadi reseller, silahkan hubungi<a class=\"inline\" href=\"/en/contact/msgpost.htm\">Tim Pemesanan cFos</a> kami. Kami akan kirim anda penawaran secepatnya.";
-special_conditions_text_cfos = "Jika anda bermaksud untuk memesan <em>cFos</em> dalam jumlah besar dan/atau ingin menjadi reseller, silahkan hubungi<a class=\"inline\" href=\"/en/contact/msgpost.htm\">Tim Pemesanan cFos</a> kami. Kami akan kirim anda penawaran secepatnya.";
-special_conditions_text_ipv6 = "Jika anda bermaksud untuk memesan <em>cFos IPv6 Link</em> dalam jumlah besar dan/atau ingin menjadi reseller, silahkan hubungi<a class=\"inline\" href=\"/en/contact/msgpost.htm\">Tim Pemesanan cFos</a> kami. Kami akan kirim anda penawaran secepatnya.";
-special_conditions_text_speed = "Jika anda bermaksud untuk memesan <em>cFosSpeed</em> dalam jumlah besar dan/atau ingin menjadi reseller, silahkan hubungi<a class=\"inline\" href=\"/en/contact/msgpost.htm\">Tim Pemesanan cFos</a> kami. Kami akan kirim anda penawaran secepatnya.";
-special_conditions_text_pnet = "Bila anda bermaksud untuk memesan <em>cFos Personal Net</em> dalam jumlah besar dan/atau ingin menjadi reseller, mohon hubungi <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a> kami. Kami akan mengirimkan penawaran kepada anda segera.";
-special_conditions_text_pnetbnd = "Bila anda bermaksud untuk memesan <em>cFos Personal Net / cFosSpeed bundle</em> dalam jumlah besar dan/atau ingin menjadi reseller, mohon hubungi <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a> kami. Kami akan mengirimkan penawaran kepada anda segera.";
+special_conditions_text_bconnect = "Jika anda bermaksud untuk memesan <em>cFos Broadband Connect</em> dalam jumlah besar dan/atau ingin menjadi reseller, silahkan hubungi<a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>Tim Pemesanan cFos</b></a> kami. Kami akan kirim anda penawaran secepatnya.";
+special_conditions_text_cfos = "Jika anda bermaksud untuk memesan <em>cFos</em> dalam jumlah besar dan/atau ingin menjadi reseller, silahkan hubungi<a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>Tim Pemesanan cFos</b></a> kami. Kami akan kirim anda penawaran secepatnya.";
+special_conditions_text_ipv6 = "Jika anda bermaksud untuk memesan <em>cFos IPv6 Link</em> dalam jumlah besar dan/atau ingin menjadi reseller, silahkan hubungi<a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>Tim Pemesanan cFos</b></a> kami. Kami akan kirim anda penawaran secepatnya.";
+special_conditions_text_odav = "Bila anda bermaksud untuk memesan <em>cFos Outlook DAV</em> dalam jumlah besar dan/atau ingin menjadi reseller, mohon hubungi <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a> kami. Kami akan mengirimkan penawaran kepada anda segera.";
+special_conditions_text_speed = "Jika anda bermaksud untuk memesan <em>cFosSpeed</em> dalam jumlah besar dan/atau ingin menjadi reseller, silahkan hubungi<a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>Tim Pemesanan cFos</b></a> kami. Kami akan kirim anda penawaran secepatnya.";
+special_conditions_text_pnet = "Bila anda bermaksud untuk memesan <em>cFos Personal Net</em> dalam jumlah besar dan/atau ingin menjadi reseller, mohon hubungi <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a> kami. Kami akan mengirimkan penawaran kepada anda segera.";
+special_conditions_text_pnetbnd = "Bila anda bermaksud untuk memesan <em>cFos Personal Net / cFosSpeed bundle</em> dalam jumlah besar dan/atau ingin menjadi reseller, mohon hubungi <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a> kami. Kami akan mengirimkan penawaran kepada anda segera.";
 special_offer = "Penawaran khusus";
 special_price_for = "Harga khusus untuk penduduk di negara anda.";
 th_order_date = "Tanggal Pemesanan";
@@ -692,7 +695,7 @@ link_text_feature_list = "Fitur untuk DSL dan ISDN";
 link_text_what_is_cfos = "Apakah cFos/Professional?";
 
 /hrping
-hrping_title = "hrPing - ping utility presisi tinggi";
+hrping_title = "<span class=\"product\">hrPing</span> - ping utility presisi tinggi";
 
 
 /notifier
@@ -2079,6 +2082,7 @@ cfosspeed_features_desc = "Bagaimana cFosSpeed dapat menguntungkan anda. Daftar 
 cfosspeed_cfosspeed_desc = "Gambaran Produk cFosSpeed, Akselerasi percepatan internet dengan Traffic Shaping, download dan informasi teknis.";
 cfosspeed_product_news_desc = "Halaman ini berisi berita tentang cFosSpeed";
 cfosspeed_license_desc = "Lisensi cFosSpeed.";
+cfos_outlook_dav_license_desc = "Lisensi cFos Outlook DAV.";
 cfosspeed_rwin_desc = "Manfaat dari mengaktivasi 'Automatic RWIN expansion'";
 cfosspeed_whats_new_desc = "Lihat apa yang baru di cFosSpeed. Daftar dari semua fitur baru, peningkatan dan perbaikan bug.";
 cfosspeed_what_is_cfosspeed_desc = "Apakah cFosSpeed itu? Disini anda akan mendapatkan diskripsi dari produk.";

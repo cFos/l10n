@@ -209,6 +209,7 @@ f_cc_vc_explain = "<br /><b>유로카드/마스터카드/비자</b>:<br />세 �
 f_checkbox_license_text_bconnect = "<a class=\"inline\" href=\"/en/broadband-connect/license.htm\" target=\"_blank\">cFos Broadband Connect 라이센스 약관</a>을 읽었으며 이에 동의합니다..";
 f_checkbox_license_text_cfos = "<a class=\"inline\" href=\"/en/cfos-professional/license.htm\" target=\"_blank\">cFos 라이센스 약관</a>을 읽었으며 이에 동의합니다..";
 f_checkbox_license_text_ipv6 = "나는 <a class=\"inline\" href=\"/en/cfos-ipv6-link/license.htm\" target=\"_blank\">cFos IPv6 Link 라이선스 계약서</a> 를 읽었고 동의합니다.";
+f_checkbox_license_text_odav = "나는 <a class=\"inline\" href=\"/en/cfos-outlook-dav/license.htm\" target=\"_blank\">cFos Outlook DAV 라이선스 계약서</a> 를 읽었고 동의합니다.";
 f_checkbox_license_text_speed = "<a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed 라이센스 약관</a>을 읽었으며 이에 동의합니다..";
 f_city_postcode = "우편 번호, 도시";
 f_deliverto_list_01 = "user@host.net, <span style=\"text-decoration: line-through\">www.host.net</span> 아님";
@@ -223,6 +224,7 @@ firmenkunden = "비지니스 사용자";
 firmenkunden_text_bconnect = "비지니스 사용자들은 세금에서 cFos Broadband Connect의 금액을 공제할 수 있습니다. 비영리 조직의 경우 개인 사용자로 간주됩니다. 만약 귀하께서 cFos Broadband Connect를 개인 사용자로서 주문하기 원하신다면 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/broadband-connect-n.htm\">개인 사용자용 주문 양식</a></b>을 사용하실 수 있습니다.";
 firmenkunden_text_cfos = "비지니스 사용자들은 세금에서 cFos의 금액을 공제할 수 있습니다. 비영리 조직의 경우 개인 사용자로 간주됩니다.  만약 귀하께서 cFos를 개인 사용자로서 주문하기 원하신다면 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-professional-n.htm\">개인 사용자용 주문 양식</a></b>을 사용하실 수 있습니다.";
 firmenkunden_text_ipv6 = "비지니스 사용자들은 세금에서 <em>cFos ipv6 Link</em>에 대한 세금 공제가 가능합니다. 비-영리 단체들은 개인 사용자들로 간주됩니다. 개인 사용자로써 cFos ipv6 Link를 주문하기 원하신다면, <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-ipv6-link-n.htm\">개인 사용자용 주문 양식</a></b>을 사용해 주세요.";
+firmenkunden_text_odav = "비지니스 사용자들은 세금에서 <em>cFos Outlook DAV</em>에 대한 세금 공제가 가능합니다. 비-영리 단체들은 개인 사용자들로 간주됩니다. 개인 사용자로써 cFos Outlook DAV를 주문하기 원하신다면, <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\">개인 사용자용 주문 양식</a></b>을 사용해 주세요.";
 firmenkunden_text_speed = "비지니스 사용자들은 세금에서 cFosSpeed의 금액을 공제할 수 있습니다. 비영리 조직의 경우 개인 사용자로 간주됩니다. 만약 귀하께서 cFosSpeed를 개인 사용자로서 주문하기 원하신다면 <b><a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\">개인 사용자용 주문 양식</a></b>을 사용하실 수 있습니다.";
 f_land = "국가";
 f_license = "라이센스";
@@ -282,10 +284,11 @@ shopping_cart = "쇼핑카트";
 spbc_text = "1 cFosSpeed 라이센스 + 1 cFos Broadband Connect 라이센스를 특별가로 제공합니다";
 spbc_title = "특별 주문";
 special_conditions = "특별 약관";
-special_conditions_text_bconnect = "만약 귀하께서 많은 수량의 <em>cFos Broadband Connect</em>를 주문하거나 총판이 되고자 하신다면, 저희 <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a>으로 연락해주시기 바랍니다. 즉시 제공하여 드리겠습니다.";
-special_conditions_text_cfos = "만약 귀하께서 많은 수량의 <em>cFos</em>를 주문하거나 총판이 되고자 하신다면, 저희 <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a>으로 연락해주시기 바랍니다. 즉시 제공하여 드리겠습니다.";
-special_conditions_text_ipv6 = "<em>cFos IPv6 Link</em>를 대량구매하거나 전매하고 싶으시다면 <a class=\"inline\" href=\"/en/contact/msgpost.htm\">order team</a> 로 연락하세요. 걸맞는 제안을 신속하게 보내드리겠습니다.";
-special_conditions_text_speed = "만약 귀하께서 많은 수량의 <em>cFosSpeed</em>를 주문하거나 총판이 되고자 하신다면, 저희 <a class=\"inline\" href=\"/en/contact/msgpost.htm\">cFos Order Team</a>으로 연락해주시기 바랍니다. 즉시 제공하여 드리겠습니다.";
+special_conditions_text_bconnect = "만약 귀하께서 많은 수량의 <em>cFos Broadband Connect</em>를 주문하거나 총판이 되고자 하신다면, 저희 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a>으로 연락해주시기 바랍니다. 즉시 제공하여 드리겠습니다.";
+special_conditions_text_cfos = "만약 귀하께서 많은 수량의 <em>cFos</em>를 주문하거나 총판이 되고자 하신다면, 저희 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a>으로 연락해주시기 바랍니다. 즉시 제공하여 드리겠습니다.";
+special_conditions_text_ipv6 = "<em>cFos IPv6 Link</em>를 대량구매하거나 전매하고 싶으시다면 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>order team</b></a> 로 연락하세요. 걸맞는 제안을 신속하게 보내드리겠습니다.";
+special_conditions_text_odav = "<em>cFos Outlook DAV</em>를 대량구매하거나 전매하고 싶으시다면 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>order team</b></a> 로 연락하세요. 걸맞는 제안을 신속하게 보내드리겠습니다.";
+special_conditions_text_speed = "만약 귀하께서 많은 수량의 <em>cFosSpeed</em>를 주문하거나 총판이 되고자 하신다면, 저희 <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a>으로 연락해주시기 바랍니다. 즉시 제공하여 드리겠습니다.";
 special_offer = "특별 제공";
 special_price_for = "귀하의 국가의 국민들을 위한 특별가.";
 th_order_date = "주문 날짜";
@@ -447,7 +450,7 @@ link_text_firewall = "방화벽";
 link_text_what_is_cfos = "cFos/Professional가 무엇인가요?";
 
 /hrping
-hrping_title = "hrPing - 고정밀 핑 유틸리티";
+hrping_title = "<span class=\"product\">hrPing</span> - 고정밀 핑 유틸리티";
 
 /notifier
 
