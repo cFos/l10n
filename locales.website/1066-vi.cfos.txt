@@ -1,4 +1,4 @@
-﻿#language 1066
+#language 1066
 #fallback 1033
 #charset 0
 
