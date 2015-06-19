@@ -37,6 +37,7 @@ htm_lang_prefix = "pt-br";
 
 ignore_ssl_cert_chk = "Ignorar erros de certificados SSL (não seguro)";
 ignore_ssl_cert_desc = "Se o cFos Outlook DAV ignorar erros de certificados SSL, ele poderá se conectar à servidores que usam certificados não seguros, por exemplo, certificados auto-assinados. Não é recomendável habilitar esta opção, pois torna uma conexão SSL vulnerável a ataques man-in-the-middle.";
+od_key_registered = "Registrado com sucesso. Por favor, reinicie o Outlook para que o registro tenha efeito.";
 
 / ----------------------------------------------------------------------
 /
@@ -151,6 +152,10 @@ logon_start_desc = "Essa opção inicia o %p se o usuário estiver logado.";
 show_home_dir = "Mostrar Diretório Pessoal";
 publish_file = "Publicar Arquivo";
 user_administration = "Administração de Usuários";
+disable_uploads = "Desativar uploads";
+enable_uploads = "Ativar uploads";
+publish_file_for_download = "Publicar arquivo para download";
+upload_url_to_clipboard = "Copiar URL do upload";
 
 / pnet connectivity test
 connectivity_test = "Teste de Conexão";
@@ -215,6 +220,12 @@ translator_name = "Bruno Eduardo da C. M. Pinto";
 translator_msg = "Para todos que desejam uma Internet mais rápida e eficiente; usem %p!";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "A sua licença do %3 expira em %1 %2.";
+version_mismatch = "Incompatibilidade de versões entre o programa e o driver.\n"
+   "\n"
+   "Programa=%1\n"
+   "Driver=%2\n"
+   "\n"
+   "Por favor, reinicie e se isso não ajudar reinstale o %p!\n";
 
 service_desc = "Executa uma medição de latência e de operações privilegiadas para o %p";
 no_pings_error = "Os pacotes de dados de ping enviados pelo %p parecem não estar retornando. Sem eles o Modelador de Tráfego do %p não pode funcionar corretamente. Clique aqui para obter ajuda.";
@@ -329,6 +340,8 @@ l7_prot_detection_help = "Detecta protocolos através da análise dos dados. Use
 favor_ping = "Favorecer Tempo de Ping";
 favor_ping_help = "<b>Ativado</b>: O %p irá minimizar os tempos de ping às custas de uma pequena redução na largura de banda (se necessário).<br /><b>Desativado</b>: O %p irá maximizar a largura de banda às custas de tempos de ping um pouco mais altos (se necessário).";
 favor_bandwidth = "Favorecer Largura de Banda";
+store_dns_names = "Atualizar os nomes de DNS";
+store_dns_names_help = "Para otimizar as consultas de DNS, são mantidos os nomes de DNS mais usados por 2 dias";
 avoid_loss = "Evitar Perda de Pacotes";
 avoid_loss_help = "%p fecha as janelas de recebimento de dados TCP caso uma grande perda de pacotes seja detectada. Isto ocorre apenas quando sua conexão está recebendo dados em velocidade máxima.";
 activate_firewall = "Ativar Firewall";
@@ -865,6 +878,7 @@ virtual_wifi_stopped = "O Virtual Wi-Fi foi parado com sucesso.";
 virtual_wifi_dialup_ics = "Para conexão dial-up (discada) você precisa habilitar o compartilhamento de Conexão com a Internet manualmente alterando nas propriedades dessa conexão.";
 virtual_wifi_error_not_present = "A interface Wi-Fi não foi encontrada.\n\nPara configurar um Virtual Wi-Fi é necessário um adaptador Wi-Fi e precisa estar ativado.";
 virtual_wifi_autostart = "Iniciar automaticamente junto com o sistema.";
+virtual_wifi_deactivate_autostart = "Desativar também a inicialização automática junto com o sistema.";
 
 
 / !!! DO NOT TRANSLATE !!!
