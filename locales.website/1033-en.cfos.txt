@@ -788,7 +788,8 @@ cfout_p7c = "In <em>C:\\ProgramData\\cFos\\outlook_dav</em> you can also find a 
 cfout_p7c_v2 = "In <em>C:\\Users\\YOUR_USERNAME\\AppData\\Local\\cFos\\outlook_dav</em> you can also find a file <em>trace.txt</em> with a log of the last recent sync operations.";
 cfout_p8 = "cFos Outlook DAV uses the Internet Explorer's proxy settings. You can change them in the <b>Control Panel</b> -> <b>Network and Internet</b> -> <b>Browser Settings</b>.";
 cfout_disclaimer = "Synchronisation of Outlook data with CalDAV/CardDAV servers can cause unexpected interoperability problems and loss of data. You therefore order only under the condition, that you have completely and successfully tested cFos Outlook DAV with your particular use-cases.";
-
+cfout_conf_title = "How to configure cFos Outlook DAV";
+cfout_server = "CalDAV/CardDAV server";
 
 / cFos IPv6 Link
 cfos6link_page_title = "IPv6 Connectivity for XP, Vista and Windows 7";
@@ -1203,18 +1204,18 @@ ts_o_a1 = "Screenshot";
 ts_o_a2 = "connection settings";
 ts_o_l4 = "<b>Adaptive:</b> cFos/cFosSpeed will adapt to your connection automatically. Use this setting only if you are not sure what your connection type is. Otherwise, select the setting that applies to your connection. The better the chosen setting fits your connection type, the lower ping times should be.";
 ts_o_l5 = "<b>DSL (PPPoE):</b> Most widespread DSL protocol (commonly used in the USA, Germany, Eastern Europe, and other major markets). ";
-ts_o_l5_a = "PPPoE explanation @ wikipedia.org";
+ts_o_l5_a = "<a class=\"inline\" href=\"http://en.wikipedia.org/wiki/PPPoE\">PPPoE explanation @ wikipedia.org</a>";
 ts_o_l6 = "<b>DSL (PPPoA/Vcmux):</b> Common standard in Great Britain. ";
-ts_o_l6_a = "PPPoA explanation @ wikipedia.org";
+ts_o_l6_a = "<a class=\"inline\" href=\"http://en.wikipedia.org/wiki/PPPoA\">PPPoA explanation @ wikipedia.org</a>";
 ts_o_l7 = "<b>DSL (PPPoA/LLC):</b> Occasionally used in Great Britain ";
 ts_o_l8 = "<b>DSL (PPTP):</b> Older DSL standard still in use in some parts of France. ";
-ts_o_l8_a = "PPTP explanation @ wikipedia.org";
+ts_o_l8_a = "<a class=\"inline\" href=\"http://en.wikipedia.org/wiki/Point-to-Point_Tunneling_Protocol\">PPTP explanation @ wikipedia.org</a>";
 ts_o_l9 = "<b>Cable:</b> Internet via TV cable with bandwidth varying slightly according to usage and time of day. ";
-ts_o_l9_a = "Cable technique @ wikipedia.org";
+ts_o_l9_a = "<a class=\"inline\" href=\"http://en.wikipedia.org/wiki/Cable_modem\">Cable technique @ wikipedia.org</a>";
 ts_o_l10 = "<b>ISDN:</b> 8 or 16 kbytes, bidirectional, PPP in HDLC frames ";
-ts_o_l10_a = "ISDN explanation @ wikipedia.org";
+ts_o_l10_a = "<a class=\"inline\" href=\"http://en.wikipedia.org/wiki/Integrated_Services_Digital_Network\">ISDN explanation @ wikipedia.org</a>";
 ts_o_l11 = "<b>IP over AAL5:</b> IP data transfer via ATM ";
-ts_o_l11_a = "ATM Adaptation Layer @ wikipedia.org";
+ts_o_l11_a = "<a class=\"inline\" href=\"http://en.wikipedia.org/wiki/ATM_Adaptation_Layers\">ATM Adaptation Layer @ wikipedia.org</a>";
 ts_o_l12 = "<b>RFC 1483/2684:</b> DSL over ATM bridging";
 ts_o_l13 = "<b>Frame Count:</b> Transfer speed varies with the number of data packets transmitted per time interval. Sometimes used in Greece.";
 ts_o_l14 = "<b>Mixed Raw IP/Frame Count:</b> Downstream traffic is handled as in \"Frame Count\", upstream traffic as in \"Cable\". Used by some cable providers like <em>ish</em>.";
@@ -1920,7 +1921,7 @@ bc_doc_p6 = "cFos Broadband Connect supports NDIS 6 under Vista / Windows 7, the
 bc_doc_p7 = "cFos Broadband Connect and cFosSpeed: A perfect team. High-performance data transfer plus Traffic Shaping, i.e. maximum bandwidth and minimal Ping.";
 bc_doc_t1 = "Parameters of cfosBC.ini, section [param]:";
 bc_faq1 = "In which case should I use <em>cFos Broadband Connect</em>?";
-bc_faq1_answer = "<em>cFos Broadband Connect</em> can only be used, if your computer uses a dial-up PPPoE connection to connect to the Internet. (NOT, if you use a router that realizes this connection (!!) In this case you should use cFosSpeed). As High-Performance dial-up the usage is especially reasonable with bandwidths above 4,5 Mbyte/s (= 36 Mbit/s). Compared to cFos/Professional, <em>cFos Broadband connect</em> has the advantage off using less CPU.\n\nYou can find a decision support page <a class=\"inline\" href=\"/en/support/decision.htm\">here</a>.";
+bc_faq1_answer = "<em>cFos Broadband Connect</em> can only be used, if your computer uses a dial-up PPPoE connection to connect to the Internet. (NOT, if you use a router that realizes this connection (!!) In this case you should use cFosSpeed). As High-Performance dial-up the usage is especially reasonable with bandwidths above 4,5 Mbyte/s (= 36 Mbit/s). Compared to cFos/Professional, <em>cFos Broadband connect</em> has the advantage off using less CPU.<br/><br/>You can find a decision support page <a class=\"inline\" href=\"/en/support/decision.htm\">here</a>.";
 bc_faq2 = "Where can I ask questions concerning <em>cFos Broadband Connect</em>?";
 bc_faq2_answer = "Please use our online support form for cFos Broadband Connect: <a class=\"inline\" href=\"/en/broadband-connect/technical-question.htm\">Online support form</a> ";
 bc_faq3 = "Which cFos product should I use?";
@@ -2451,6 +2452,7 @@ cfosspeed_cfosspeed_desc = "cFosSpeed product overview, Internet acceleration wi
 cfosspeed_product_news_desc = "This page contains news about cFosSpeed";
 cfosspeed_license_desc = "cFosSpeed license.";
 cfos_outlook_dav_license_desc = "cFos Outlook DAV license.";
+cfos_outlook_dav_configuration_desc = "How to configure cFos Outlook DAV to work with miscellaneous CalDAV/CardDAV servers.";
 cfosspeed_rwin_desc = "Benefits of activating 'Automatic RWIN expansion'";
 cfosspeed_whats_new_desc = "Find out what's new in cFosSpeed. List of all new features, improvements and bug fixes.";
 cfosspeed_what_is_cfosspeed_desc = "What is cFosSpeed? Here you find the product description.";
@@ -2542,11 +2544,5 @@ currency_4217 = "USD";
 currency_prefix = "$";
 currency_suffix = "";
 selected_value = "Select your country";
-wiki_link1 = "http://en.wikipedia.org/wiki/PPPoE";
-wiki_link2 = "http://en.wikipedia.org/wiki/PPPoA";
-wiki_link3 = "http://en.wikipedia.org/wiki/Point-to-Point_Tunneling_Protocol";
-wiki_link4 = "http://en.wikipedia.org/wiki/Cable_modem";
-wiki_link5 = "http://en.wikipedia.org/wiki/Integrated_Services_Digital_Network";
-wiki_link6 = "http://en.wikipedia.org/wiki/ATM_Adaptation_Layers";
 
 

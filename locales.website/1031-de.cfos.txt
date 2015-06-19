@@ -746,6 +746,8 @@ cfout_p7c = "In <em>C:\\ProgramData\\cFos\\outlook_dav</em> findet sich auch ein
 cfout_p7c_v2 = "In <em>C:\\Users\\IHR_BENUTZERNAME\\AppData\\Local\\cFos\\outlook_dav</em> findet sich auch eine Datei <em>trace.txt</em> mit einem Log der letzten Sync-Operationen.";
 cfout_p8 = "cFos Outlook DAV nutzt die Proxy Einstellungen des Internet Explorer. Diese können Sie unter Systemsteuerung, Internet Optionen einstellen.";
 cfout_disclaimer = "Bei der Synchronisation von Outlook Daten mit CalDAV/CardDAV Servern können unerwartete Interoperabilitäts-Probleme und Datenverluste auftreten. Die Bestellung erfolgt unter der Voraussetzung, dass Sie cFos Outlook DAV erfolgreich für Ihr Einsatzgebiet vollständig getestet haben.";
+cfout_conf_title = "Konfiguration von cFos Outlook DAV";
+cfout_server = "CalDAV/CardDAV Server";
 
 / cFos IPv6 Link
 cfos6link_page_title = "IPv6-Verbindung mit XP, Vista und Windows 7";
@@ -1152,18 +1154,18 @@ ts_o_a1 = "Screenshot";
 ts_o_a2 = "Verbindungseinstellungen";
 ts_o_l4 = "<b>Adaptive</b>, cFos/cFosSpeed versucht sich selbsttätig auf Ihren Anschluß anzupassen. Wählen Sie diese Option nur, falls Sie nicht wissen, welche Übertragungstechnik Ihr Anschluß verwendet. Ansonsten wählen Sie die auf Ihren Anschluß am besten passende Option. Je besser die Einstellung, desto geringer die Ping-Zeiten.";
 ts_o_l5 = "<b>DSL (PPPoE):</b> Meist verbreitete DSL Übertragung, z.B. in Deutschland, Osteuropa, USA, ... ";
-ts_o_l5_a = "PPPoE Erklärung @ wikipedia.de";
+ts_o_l5_a = "<a class=\"inline\" href=\"http://de.wikipedia.org/wiki/PPPoE\">PPPoE Erklärung @ wikipedia.de</a>";
 ts_o_l6 = "<b>DSL (PPPoA/Vcmux):</b> Teilweise in Großbritanien verwendete DSL-Technik ";
-ts_o_l6_a = "PPPoA Erklärung @ wikipedia.de";
+ts_o_l6_a = "<a class=\"inline\" href=\"http://de.wikipedia.org/wiki/PPPoA\">PPPoA Erklärung @ wikipedia.de</a>";
 ts_o_l7 = "<b>DSL (PPPoA/LLC):</b> Teilweise in Großbritanien verwendete DSL-Technik ";
 ts_o_l8 = "<b>DSL (PPTP):</b> Älterer DSL-Standard, teilweise in Frankreich verwendet ";
-ts_o_l8_a = "PPTP Erklärung @ wikipedia.de";
+ts_o_l8_a = "<a class=\"inline\" href=\"http://de.wikipedia.org/wiki/Point-to-Point_Tunneling_Protocol\">PPTP Erklärung @ wikipedia.de</a>";
 ts_o_l9 = "<b>Kabel:</b> Datenübertragung im Fernsehkabel mit je nach Tageszeit \"leicht\" schwankenden Bandbreiten ";
-ts_o_l9_a = "Kabeltechnik @ wikipedia.de";
+ts_o_l9_a = "<a class=\"inline\" href=\"http://de.wikipedia.org/wiki/Kabelmodem\">Kabeltechnik @ wikipedia.de</a>";
 ts_o_l10 = "<b>ISDN:</b> 8 bzw. 16 kBytes/s, bidirektional, PPP in HDLC Frames ";
-ts_o_l10_a = "ISDN @ wikipedia.de";
+ts_o_l10_a = "<a class=\"inline\" href=\"http://de.wikipedia.org/wiki/Integrated_Services_Digital_Network\">ISDN @ wikipedia.de</a>";
 ts_o_l11 = "<b>IP over AAL5: </b> IP Datenübertragung mittels ATM ";
-ts_o_l11_a = "ATM Adaptation Layer @ wikipedia.de";
+ts_o_l11_a = "<a class=\"inline\" href=\"http://de.wikipedia.org/wiki/ATM_Adaptation_Layers\">ATM Adaptation Layer @ wikipedia.de</a>";
 ts_o_l12 = "<b>RFC 1483/2684</b>, DSL over ATM bridging";
 ts_o_l13 = "<b>Frame Count</b>, Die Geschwindigkeit richtet sich nach der Anzahl der Datenpakete, die pro Zeiteinheit verschickt werden. Teilweise in Griechenland verwendete Technik.";
 ts_o_l14 = "<b>Mixed Raw IP/Frame Count</b>, In Downstream-Richtung wird wie bei \"Frame Count\" gerechnet, in der Upstream-Richtung wie bei \"Cable\". Teilweise beim Kabelanbieter ish benutzt.";
@@ -1861,7 +1863,7 @@ bc_doc_p6 = "cFos Broadband Connect unterstützt NDIS 6 unter Vista. Dies erlaub
 bc_doc_p7 = "cFos Broadband Connect und cFosSpeed: Ein perfektes Team. High-Performance Datenübertragung und Traffic Shaping, d.h. maximale Bandbreite bei minimalem Ping.";
 bc_doc_t1 = "Parameter von cfosBC.ini, section [param]:";
 bc_faq1 = "Wann kann ich <em>cFos Broadband Connect</em> einsetzen?";
-bc_faq1_answer = "<em>cFos Broadband Connect</em> kann nur dann eingesetzt werden, wenn sich Ihr PC direkt per PPPoE ins Internet einwählt. (also nicht, wenn Sie einen Router verweden, der dies übernimmt (!!) In diesem Fall verwenden Sie cFosSpeed). Als High-Performance Einwahl-Treiber ist der Einsatz vor allem dann sinnvoll, wenn Bandbreiten oberhalb 4,5 Mbyte/s (= 36 Mbit/s) zum Einsatz kommen. Gegenüber cFos/Professional, hat cFos Broadband connect den wesentlichen Vorteil, dass die CPU weniger belastet wird.\n\nEine Entscheidungshilfe finden Sie <a class=\"inline\" href=\"/en/support/decision.htm\">hier</a>.";
+bc_faq1_answer = "<em>cFos Broadband Connect</em> kann nur dann eingesetzt werden, wenn sich Ihr PC direkt per PPPoE ins Internet einwählt. (also nicht, wenn Sie einen Router verwenden, der dies übernimmt (!!) In diesem Fall verwenden Sie cFosSpeed). Als High-Performance Einwahl-Treiber ist der Einsatz vor allem dann sinnvoll, wenn Bandbreiten oberhalb 4,5 Mbyte/s (= 36 Mbit/s) zum Einsatz kommen. Gegenüber cFos/Professional, hat cFos Broadband Connect den wesentlichen Vorteil, dass die CPU weniger belastet wird.<br/><br/>Eine Entscheidungshilfe finden Sie <a class=\"inline\" href=\"/en/support/decision.htm\">hier</a>.";
 bc_faq2 = "Wo kann ich weitere Fragen zu <em>cFos Broadband Connect</em> stellen?";
 bc_faq2_answer = "Nutzen Sie unser Online Support Formular für cFos Broadband Connect: <a class=\"inline\" href=\"/en/broadband-connect/technical-question.htm\">Online Support Formular</a> ";
 bc_faq3 = "Welches cFos Produkt soll ich benutzen?";
@@ -2393,6 +2395,7 @@ cfosspeed_cfosspeed_desc = "cFosSpeed Produkt Übersicht, Internet Beschleunigun
 cfosspeed_product_news_desc = "Diese Seite enthält Neuigkeiten rund um cFosSpeed";
 cfosspeed_license_desc = "cFosSpeed Nutzungslizenz.";
 cfos_outlook_dav_license_desc = "cFos Outlook DAV Nutzungslizenz.";
+cfos_outlook_dav_configuration_desc = "Konfiguration von cFos Outlook DAV für verschiedene CalDAV/CardDAV Server.";
 cfosspeed_rwin_desc = "Vorteile durch das Aktivieren von 'Automatische RWIN-Erhöhung'";
 cfosspeed_whats_new_desc = "Welche Neuerungen gibt es in cFosSpeed? Liste aller neuen Funktionen, Verbesserungen und Bugfixes.";
 cfosspeed_what_is_cfosspeed_desc = "Was ist cFosSpeed? Hier finden Sie eine Produkt-Beschreibung.";
@@ -2484,11 +2487,5 @@ currency_4217 = "EUR";
 currency_prefix = "";
 currency_suffix = "&#8364;";
 selected_value = "Deutschland";
-wiki_link1 = "http://de.wikipedia.org/wiki/PPPoE";
-wiki_link2 = "http://de.wikipedia.org/wiki/PPPoA";
-wiki_link3 = "http://de.wikipedia.org/wiki/Point-to-Point_Tunneling_Protocol";
-wiki_link4 = "http://de.wikipedia.org/wiki/Kabelmodem";
-wiki_link5 = "http://de.wikipedia.org/wiki/ISDN";
-wiki_link6 = "http://de.wikipedia.org/wiki/ATM_Adaptation_Layer";
 
 
