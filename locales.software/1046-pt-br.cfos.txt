@@ -604,35 +604,35 @@ rp_check = "Criar ponto de restauração do sistema.";
 rp_uninst_info = "O Ponto de Restauração do Sistema não é feito para uma desinstalação normal do %1. É apenas uma precaução adicional que permite retornar seu sistema ao estado original em caso de um conflito de controlador. Uma desinstalação normal do %1 pode ser feita tanto pelo menu Iniciar na pasta %1 quanto pelo Painel de Controle em Adicionar ou Remover Programas";
 
 / password dialog
-pwd_header = "Código de ativação.";
-pwd_subheader = "Cada licença requer um código de ativação único.";
+pwd_header = "Senha.";
+pwd_subheader = "Cada licença requer uma senha única.";
 pwd_reg_to = "O %p será registrado em nome de:";
-pwd_password_info = "Por favor, insira o código de ativação da sua licença no formato xxxx-xxxx-xxxx-xxxx.";
-pwd_password = "Código:";
-pwd_invalid_password = "Código de ativação inválido. Por favor, verifique o que digitou e tente novamente.";
+pwd_password_info = "Por favor, insira a senha da sua licença no formato xxxx-xxxx-xxxx-xxxx.";
+pwd_password = "Senha:";
+pwd_invalid_password = "Senha inválida. Por favor, verifique o que digitou e tente novamente.";
 pwd_activate_info = "Você precisa de estar conectado à Internet para poder ativar sua licença nos nossos servidores.";
 pwd_activate_failed = "Ativação da licença fracassou!";
 pwd_activate_failed_code = "A ativação da licença falhou: erro %?.";
 
 / serial number dialog
-sn_header = "Código de ativação.";
-sn_subheader = "Insira seu código e ative sua licença.";
-sn_info = "Caso possua uma código de ativação de 16 dígitos no formato xxxx-xxxx-xxxx-xxxx, por favor, saia deste diálogo e dê um duplo-clique na sua licença. Uma tela irá a parecer onde será possível inserir seu código de ativação.\n\nCaso possua um código de ativação de 30 dígitos no formato xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, por favor, insira-o agora para carregar e ativar sua licença.\n\n";
-sn_serial_number = "Código de ativação:";
-sn_invalid_serial_number = "Código de ativação inválido. Por favor, verifique-o e tente novamente.";
+sn_header = "Número de série";
+sn_subheader = "Insira seu número de série e ative sua licença.";
+sn_info = "Caso possua um número de série de 16 dígitos no formato xxxx-xxxx-xxxx-xxxx, por favor, saia deste diálogo e dê um duplo-clique na sua licença. Uma tela irá a parecer onde será possível inserir seu número de série.\n\nCaso possua um número de série de 30 dígitos no formato xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx, por favor, insira-o agora para carregar e ativar sua licença.\n\n";
+sn_serial_number = "Número de série:";
+sn_invalid_serial_number = "Número de série inválido. Por favor, verifique o que digitou e tente novamente.";
 / the %? will be replaced by the error number:
 sn_download_err = "Erro %? ao baixar o arquivo licença de nosso servidor.";
 sn_save_err = "O arquivo licença não pôde ser salvo no disco em %?.";
 sn_keyfile_err = "O arquivo licença está corrompido.";
 
 / new 16 digit serial number dialog
-sn16_info = "Digite seu código de ativação de 16 dígitos, para receber a sua licença. Você precisa estar conectado à Internet.";
+sn16_info = "Digite seu número de série de 16 dígitos, para receber a sua licença. Você precisa estar conectado à Internet.";
 sn16_failed = "Falha ao receber licença!";
 
 / re-enter password dialog
-repwd_header = "Código de ativação %?.";
-repwd_subheader = "O código de ativação precisa de ser reinserido.";
-repwd_reg_to = "Devido as alterações na configuração do seu sistema, terá que reinserir seu código de ativação para o registo do %p:";
+repwd_header = "Senha %?.";
+repwd_subheader = "A senha precisa de ser reinserida.";
+repwd_reg_to = "Devido as alterações na configuração do seu sistema, terá que reinserir a senha para o registo do %p:";
 
 / installation directory dialog
 instdir_header = "Diretório de Instalação";
@@ -803,7 +803,7 @@ err_cancel = "A operação foi cancelada.";
 err_no32 = "Não se pode instalar os controladores de 32-bit em um sistema de 64-bit.\n\nSO: %?\nProduto: %?";
 err_bad_keyfile = "Sua licença parece estar corrompida ou inválida. Por favor, entre em contato com nosso suporte para que lhe possamos entregar uma nova licença que funcione.";
 err_bad_setup = "%p parece ter sido instalado incorretamente ou alguns arquivos foram modificados. Por favor, reinstale uma nova cópia de %p e tente de novo.";
-err_bad_signature = "Seu código de ativação parece estar errado ou ser de uma licença diferente. Por favor, insira o código de ativação correto para este arquivo de licença.;";
+err_bad_signature = "Sua senha parece estar errada ou ser de uma licença diferente. Por favor, insira a senha correta para este arquivo de licença.";
 err_gdiplus = "A biblioteca GDI+ não foi encontrada!\n\nEsta instalação só pode continuar se a biblioteca GDI+ estiver instalada.\nVocê pode baixar a biblioteca GDI+ da Microsoft como parte da Plataforma SDK\nRedistribuível. Por favor, inicie o arquivo de instalação baixado e descompacte os\narquivos em um <diretório> de sua escolha. Então copie todos os arquivos gdiplus.*\ndo diretório <diretório>\\asms\\10\\msft\\windows\\gdiplus para o\ndiretório Windows\\system32.\n\nClique em 'OK' para abrir a página correspondente na Microsoft para baixar o arquivo.\nClique em 'Cancel' para cancelar a instalação.";
 err_winhttp = "A biblioteca WinHTTP não foi encontrada!\n\nEsta instalação só pode continuar se a biblioteca WinHTTP estiver instalada.\nA biblioteca WinHTTP deveria fazer parte do seu sistema operacional, mas ela\nnão pôde ser carregada.";
 bad_manufacturer = "A instalação não pôde iniciar, pois este produto está licenciado apenas para um \"hardware\" específico!";
