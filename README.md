@@ -93,10 +93,10 @@ Instructions
 
 The main point of interest for you is **ml-files**. As already was mentioned, they contain all translations from cFos website and cFos software.
 
-For easier experience, they are split into two files:
+For easier experience, they are split into locales in two directories:
 
-* `[website] all_ml.cfos.txt` — contains all website translations
-* `[software] all_ml.cfos.txt` — contains all software translation (like cFosSpeed, cFos Personal Net, cFos Professional and other)
+* [locales.website](https://github.com/cFos/l10n/tree/master/locales.website) — contains all website translations
+* [locales.software](https://github.com/cFos/l10n/tree/master/locales.software) — contains all software translation (like cFosSpeed, cFos Personal Net, cFos Professional and other)
 
 Other interesting files for you can be found in [Translation references](https://github.com/ArmorDarks/cfos-translation/tree/master/translation%20references) folder. It contains general recommendations for translation on certain languages.
 
