@@ -71,6 +71,7 @@ rwin_video_award2 = "Ganha uma das <b>100</b> licenças vitalícias do cFosSpeed
 social_networks = "Por favor, apoie a nossa presença em redes sociais.<br/>Goste de nós no Facebook, siga-nos no Twitter.";
 powered_by = "Powered by <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net Web Server</a>";
 word_follow = "Seguir";
+cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> já está disponível para <b>Windows 10</b>.";
 learn_more = "Saiba mais"; // Meaning "learn more about the product"
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> é o Acelerador de Internet oficial dos<br/>produtos de gaming da ASUS, GIGABYTE, ASRock e MSI"; // Line feed at approx middle of the key, preferred directly before the brand names
 
@@ -643,7 +644,6 @@ pnet_doc_stages_server = "Comando HTTP GET bem sucedido, mas ligado a outro serv
 /. Used as title
 /. Litrelly means "How cFos Outlook DAV works"
 
-
 / cFos IPv6 Link
 cfos6link_page_title = "Conectividade IPv6 para Windows XP e Vista e Windows 7";
 cfos_ipv6_link_title = "Conectividade IPv6 para XP, Vista e Windows 7";
@@ -681,10 +681,12 @@ li_text_sessions = "Múltiplas sessões, sem limite para o números de conexões
 
 / cFos
 cfos_html_h1 = "Dial-in driver de DSL e ISDN com Traffic Shaping";
+cfos_professional_title = "cFos, Acesso Telefónico &amp; Aceleração para DSL &amp; RDIS";
 link_text_budget = "Balcão online";
 link_text_cfos_features = "Lista de funcionalidades do cFos";
 link_text_cfos_priolist = "Atribua prioridades a programas com o cFos (&#187; program list)";
 link_text_feature_list = "Funcionalidades para DSL e ISDN";
+link_text_firewall = "Firewall";
 link_text_what_is_cfos = "O que é o cFos/Professional?";
 
 /hrping
@@ -1005,6 +1007,7 @@ ts_o_l1 = "Meio/Protocolo";
 ts_o_l2 = "Usos";
 ts_o_l3 = "Modo Traffic Shaping (Versão Multi-User)";
 ts_o_p1 = "Na janela de diálogo <samp>opções/ligações</samp> pode abrir o <samp>diálogo do meio</samp> ao clicar em <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> e escolher um meio para cada ligação. Pode escolher um dos seguintes:";
+ts_o_a1 = "Screenshot";
 ts_o_a2 = "configurações de ligação";
 ts_o_l4 = "<b>Adaptive:</b> cFos/cFosSpeed vai adaptar a sua ligação automaticamente. Use esta opção apenas se não tiver a certeza qual é o seu tipo de ligação. Caso contrário, seleccione a opção que se aplica à sua ligação. Quanto melhor esta opção se adequar à sua ligação, menores serão os pings.";
 ts_o_l5 = "<b>DSL (PPPoE):</b> Protocolo DSL mais conhecido (muito usado nos EUA, Alemanha, Europa do leste e outros grandes mercados). ";
@@ -1019,6 +1022,7 @@ ts_o_l9_a = "<a class=\"inline\" href=\"http://en.wikipedia.org/wiki/Cable_modem
 ts_o_l10 = "<b>ISDN:</b> 8 ou 16 kbytes, bidireccional, PPP em frames HDLC";
 ts_o_l10_a = "<a class=\"inline\" href=\"http://en.wikipedia.org/wiki/Integrated_Services_Digital_Network\">Explicação ISDN @ wikipedia.org</a>";
 ts_o_l11 = "<b>IP over AAL5:</b> Transferência de dados IP via ATM";
+ts_o_l11_a = "<a class=\"inline\" href=\"http://en.wikipedia.org/wiki/ATM_Adaptation_Layers\">Camada de Adaptação ATM @ wikipedia.org</a>";
 ts_o_l12 = "<b>RFC 1483/2684:</b> DSL over ATM bridging";
 ts_o_l13 = "<b>Frame Count:</b> A velocidade de transferência varia com número de pacotes de dados transmitidos por intervalo de tempo. Usados por vezes na Grécia.";
 ts_o_l14 = "<b>Mixed Raw IP/Frame Count:</b> Tráfego downstream é tratado como no \"Frame Count\", tráfego upstream como \"Cable\". Usado por alguns provedores de cabo como o <em>ish</em>.";
@@ -1038,6 +1042,7 @@ ts_ts_ani1_alt = "Transferência de dados normal";
 ts_ts_ani1_text = "A recepção de dados tem de ser confirmada (ACKnowledgment packets) antes de poderem ser enviados novos dados.";
 ts_ts_ani2_alt = "Sem Traffic Shaping";
 ts_ts_ani2_text = "Pacotes ACK são parados e atrasados por um upload simultâneo. Como resultado, o download desacelera também.";
+ts_ts_ani3_alt = "cFos Traffic Shaping";
 ts_ts_ani3_text = "Pacotes ACK têm prioridade no upstream, permitindo que o download continue à velocidade máxima.";
 ts_ts_p1 = "<b>cFos Traffic Shaping reduz os atrasos durante a transferência de dados e permite que navegue a Internet até três vezes mais rápido. Assim pode usar a largura de banda total da sua ligação!</b>";
 ts_ts_p2 = "Durante transferências TCP/IP, uma certa quantidade de dados precisa de ser confirmada na recepção antes de mais dados poderem ser enviados. O atraso na confirmação de resultados dos dados em taxas de transferência decrescentes, assim forçando o emissor a esperar. Especialmente para DSL e cabo, é possível desacelerar muito um download enchendo o canal de upstream (que tem a menor largura de banda) com um upload. Isto acontece porque em tal cenário porque não sobra largura de banda de upstream que chegue para confirmação de dados.";
@@ -1095,6 +1100,7 @@ ts_tsn_t1 = "Otimização de Internet / Traffic Shaping";
 ts_tsn_l1 = "Se os ACKs não forem enviados suficientemente rápido, os downloads podem ser lentos durante uploads (Traffic Shaping clássico).";
 ts_tsn_l2 = "O Ajuste Automático de TCP do Windows pode resultar em downloads muito lentos. A expansão RWIN do cFosSpeed pode <b>aumentar a velocidade</b>.<br/>O cFosSpeed também pode acelerar downloads para certas aplicações (veja os <a class=\"inline\" href=\"/en/contact/videopost.htm\">resultados dos testes</a>).";
 ts_tsn_l3 = "O cFosSpeed <b>mantém o ping geral baixo</b>, mesmo durante uploads e downloads pesados.";
+ts_tsn_a3 = "Aumento de Velocidade com cFosSpeed RWIN expansion";
 ts_tsn_t2 = "Priorização - Os seus fluxos importantes primeiro";
 ts_tsn_l4 = "Com o esquema de priorização do cFosSpeed, pode sempre fornecer <b>largura de banda plena</b> a todos os programas, pois o cFosSpeed decide quais fluxos devem ser priorizados.";
 ts_tsn_l5 = "Por exemplo: <b>tráfego de jogos</b>, <b>VoIP</b> ou conteúdo de <b>Áudio/Vídeo</b> terá prioridade maior que uploads / downloads.";
@@ -1120,6 +1126,7 @@ ts_tsn_hov6 = "Esquema de prioridades / priorização em tempo real / regras de 
 ts_tsn_hov7 = "Classifica protocolos não padrão, como tráfego de jogos, etc.";
 ts_tsn_hov8 = "Detecta os protocolos mais comuns, como HTTP, Mail, VoIP, compartilhamento de arquivos, etc.";
 ts_tsn_a2 = "Páginas antigas de Traffic Shaping";
+ts_tsn_a4 = "Traffic Shaping cFos para smartphones, tablets e outros dispositivos móveis.";
 ts_3work_together = "Como todas as três configurações trabalham em conjunto";
 youtube_speedwin7 = "Assista à instalação do cFosSpeed no Win7";
 net_talk_help = "Divulga estatísticas de tráfego na LAN";
@@ -1284,6 +1291,98 @@ sp_doc_cdm_p6 = "Priorizar um protocolo permanentemente";
 sp_doc_cdm_p7 = "Priorizar um programa permanentemente";
 sp_doc_cdm_title = "Gestão de Delonga de Classes";
 sp_doc_commands = "Comandos";
+sp_doc_experts = "Referências técnicas para especialistas (apenas em Inglês)";
+sp_doc_gamers = "Sugestões para gamers";
+sp_doc_games_p1 = "A tecnologia de Traffic Shaping mantém os tempos de ping baixos e as taxas de transferência consistentemente altas em simultâneo.";
+sp_doc_games_p2 = "Ainda assim, para garantir tempos de ping ideais, deverá priorizar o(s) seu(s) jogo(s) o mais alto possível. Irá aperceber-se que já incluímos alguns dos jogos mais populares atuais em Definições de Programa. Caso o seu jogo não se encontre na lista, pode simplesmente adicioná-lo.";
+sp_doc_games_p3 = "Também poderá <a href=\"/en/contact/priopost.htm\">informar-nos</a> sobre que jogos online gostaria de ver incluídos na lista em futuras atualizações.";
+sp_doc_games_p4 = "Por favor, dê prioridade alta ao menor número possível de programas e dados. Isto porque caso dê prioridade alta a tudo, ficará na mesma situação de não dar prioridade alta a nada.";
+sp_doc_games_p5 = "Em alternativa, caso o nome do programa não seja claro, também pode priorizar as portas utilizadas pelo jogo online. Se conhecer as portas de destino TCP/UDP da aplicação, pode priorizar a sua transferência de dados da seguinte forma (editando a seção [filter] do ficheiro settings.ini):";
+sp_doc_games_p6 = "Para portas TCP:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high";
+sp_doc_games_p7 = "Para portas UDP:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high";
+sp_doc_games_p8 = "Após fazer e guardar as alterações, as novas definições terão de ser carregadas. Para tal, abra a console (em Iniciar, Programas, cFosSpeed) e introduzindo \"spd reload\". As alterações entrarão (e permanecerão) em vigor após o próximo reinício do sistema.";
+sp_doc_games_a1 = "cFosSpeed-Manual de Filtros (Inglês)";
+sp_doc_games_a2 = "Definições de ligação DSL";
+sp_doc_games_a3 = "Exibir auxiliar de ping";
+sp_doc_games_a4 = "Caixa de Diálogo para priorização de programas";
+sp_doc_games_t1 = "Otimizar Definições de Ligação:";
+sp_doc_games_p9 = "Pode especificar exatamente qual o meio de transmissão que utiliza em Definições de Ligação. Quanta mais informação sobre a ligação estiver disponível para o cFos ou cFosSpeed, melhores serão os tempos de ping. A predefinição é \"Adaptive\". Mas se por exemplo estiver a usar uma ligação DSL, deverá selecionar o standard ou protocolo DSL apropriado como o seu meio.";
+sp_doc_games_t2 = "Favorecer Ping:";
+sp_doc_games_p10 = "Mais ainda, também pode usar as definições do menu de contexto ou a janela de estado para ativar \"Favorecer Ping\". Uma seta verde irá então surgir na janela de estado. Esta definição fará com que o cFos ou cFosSpeed façam todos os possíveis para manter os tempos de ping o mais baixo possível mas à custa de velocidade de transferência, que poderá diminuir consideravelmente.";
+sp_doc_games_t3 = "Jogar Durante Transferências:";
+sp_doc_games_p11 = "Se jogar um jogo online sem Traffic Shaping e iniciar um upload ou um download ao mesmo tempo, os tempos de ping para o servidor do jogo irão aumentar. Menos tráfego de dados significa ping melhor (i.e., mais baixo).  Em especial com programas de partilha de ficheiros e outras aplicações que enviam muitos dados, os tempos de ping não raramente disparam, o que provoca muito lag. Isto irá também aumentar imenso o seu tempo de reação no jogo.";
+sp_doc_games_p12 = "O Traffic Shaping alivia este problema ao permitir que os programas de partilha de ficheiros e downloads corram em segundo plano enquanto joga. No entanto, isto também poderá aumentar um pouco os tempos de ping. Por isso, recomendamos que mantenha \"Favor Ping\" ativo durante estes períodos. Os programas de partilha de ficheiros são predefinidos para uma prioridade muito baixa. No entanto, tal não significa que  sejam artificialmente abrandados ou mesmo parados. Significa, sim, que que tais dados serão temporariamente atrasados quando dados mais importantes, como tráfego de jogos online, precisam de ser transmitidos. Apenas este esquema de prioridade torna possível ter programas de partilha de ficheiros a correr com velocidades de transferência máximas enquanto se utiliza a mesma ligação para outras aplicações.";
+sp_doc_index = "Manuseamento do Programa";
+sp_doc_installation = "Instalação / Registo";
+sp_doc_install_title = "Instalação / Registo / Desinstalação";
+sp_doc_install_h1 = "Instalação";
+sp_doc_install_p1 = "A instalação do cFosSpeed é fácil e conveniente, necessitando de apenas alguns passos:";
+sp_doc_install_l1 = "<a href=\"/en/download/download.htm\">Descarregue</a> o ficheiro <em>cfosspeed-vXXX.exe</em> mais recente e guarde-o no seu disco rígido.";
+sp_doc_install_l2 = "Execute o ficheiro (<em>cfosspeed-vXXX.exe</em>) fazendo duplo clique sobre ele.";
+sp_doc_install_l3 = "O assistente de instalação irá em seguida guiá-lo através do resto do processo de instalação.";
+sp_doc_install_l4 = "O cFosSpeed pode ser utilizado imediatamente após uma instalação bem sucedida.";
+sp_doc_install_a1 = "Dificuldades ao instalar o cFosSpeed?";
+sp_doc_install_h2 = "Registo";
+sp_doc_install_a2 = "Assista ao video <b>\"Como registar o cFosSpeed com o seu ficheiro de licença pessoal <em>key.cfosspeed</em>\"</b>.";
+sp_doc_install_p2 = "Quando encomendar o cFosSpeed, iremos enviar-lhe um e-mail com a chave de licença (um ficheiro chamado '<em>key.cfosspeed</em>') e a sua password:";
+sp_doc_install_l5 = "Guarde este ficheiro no seu disco rígido (p.e., em <em>Os Meus Documentos</em>).";
+sp_doc_install_l6 = "Execute o ficheiro <em>key.cfosspeed</em> fazendo duplo clique sobre ele.";
+sp_doc_install_l7 = "O assistente de instalação irá em seguida guiá-lo através do resto do processo de registo.";
+sp_doc_install_l8 = "Após aceitar os termos e condições da sua licença, deverá introduzir a sua password novamente e fechar a caixa de diálogo.";
+sp_doc_install_l9 = "A sua cópia do cFosSpeed está agora registada para si pessoalmente.";
+sp_doc_install_a3 = "Dificuldades ao instalar a chave de licença do cFosSpeed?";
+sp_doc_install_h3 = "Desinstalação";
+sp_doc_install_l10 = "Para desinstalar o cFosSpeed basta usar o método de desinstalação comum do Windows.";
+sp_doc_led_title = "LEDs de Teclado";
+sp_doc_led_h = "Utilize os LEDs do teclado para exibir informação de Traffic Shaping";
+sp_doc_led_p1 = "O cFosSpeed pode usar os LEDs de Num Lock e Scroll Lock para exibir informação sobre o tráfego de Internet atual. Isto é particularmente útil para gamers e utilizadores de aplicações de ecrã inteiro que não conseguem ver a janela de estado do cFosSpeed. As estatísticas de tráfego mais importantes são exibidas usando os LEDs do teclado:";
+sp_doc_led_dd1 = "desligado, bom = piscar lento, mau = piscar rápido<br/>avisa-o se o tempo de ping for demasiado alto";
+sp_doc_led_dd2 = "piscar rápido à medida que os pacotes são contados<br/>informa-o sobre qualquer tráfego de/para a Internet";
+sp_doc_led_dd3 = "piscar rápido quando um pacote TX é priorizado<br/>uma das formas de indicar os efeitos do Traffic Shaping";
+sp_doc_led_dd4 = "máximos de total_rx_speed e total_tx_speed, 0-32%: desligado, 33-65%: piscar lento, 66-98%: piscar rápido 99-100%: ligado<br/>informa-o quando você ou outro utilizador/aplicação utiliza muita (demasiada) largura de banda";
+sp_doc_led_dd5 = "piscar rápido quando a soma das ligações TCP e UDP muda<br/>fica informado se forem iniciadas novas ligações";
+sp_doc_led_dd6 = "0-15ms: desligado, 16-127ms: piscar lento, 128-511ms: piscar rápido, 512ms ou mais: ligado<br/>informa-o se as condições da linha (p.e. ligações de dados móveis) causam grande variação de ping";
+sp_doc_led_p2 = "Pode selecionar qualquer dos LEDs das teclas Num Lock e Scroll Lock para exibir qualquer dos valores referidos acima.";
+sp_doc_led_p3 = "O script para controlar os LEDS de teclado é um javascript, de nome led.js. Caso queira exibir outras variáveis ou utilizar um esquema de piscas completamente diferente, poderá alterá-lo para as suas necessidades.";
+sp_doc_logi_title = "Suporte para teclado Logitech";
+sp_doc_logi_p1 = "O cFosSpeed suporta os teclados gamer G19, G15, G13, G510 da Logitech, e modelos compatíveis. Para utilizar o monitor de um desses teclados gaming, o <b>Logitech Gaming Software V7.00 ou mais recente</b> terá de se encontrar em execução. Em seguida poderá navegar para o menu de definições de janela do cFosSpeed e ativar o suporte de monitor Logitech. Assim, a janela de estado do cFosSpeed é exibida no monitor do teclado, em vez de no ambiente de trabalho do Windows.";
+sp_doc_logi_p2 = "Sugerimos que utilize as seguintes skins, ou que <a href=\"/en/skin/skin.htm\">desenhe a sua própria skin</a>.";
+sp_doc_logi_g15 = "Skin Logitech G13/G15/G510";
+sp_doc_logi_g19 = "Skin Logitech G19";
+sp_doc_logi_h1 = "Skins Logitech no YouTube";
+sp_doc_logi_h2 = "Deteção de teclado Logitech";
+sp_doc_logi_p3 = "Que o cfosspeed.exe quer o Logitech Gaming Software iniciam automaticamente quando o Windows arranca. Se o cFosSpeed iniciar antes do Logitech Gaming Software, o teclado pode não ser detetado. Caso tal aconteça, pode ou utilizar a opção \"detect\" no menu do cFosSpeed para teclados Logitech ou modificar o ficheiro <em>c:\\ProgramData\\cFos\\cfosspeed\\global.ini</em>, secção [All] e inserir <b>startup_delay=x</b>, em que x é o número de segundos que o cFosSpeed deverá aguardar antes de iniciar a janela de estado.";
+sp_doc_p2p_t1 = "Traffic Shaping para Partilha de Ficheiros (P2P)";
+sp_doc_p2p_p1 = "Graças ao Traffic Shaping do cFosSpeed, poderá finalmente utilizar toda a largura de banda de upstream (com o eMule, Kazaa ou Bittorrent etc.) e disponibilizá-la para outros utilizadores da rede de partilha de ficheiros - sem afetar negativamente outras aplicações que utilizem a Internet.";
+sp_doc_p2p_t2 = "Os problemas do software de partilha de ficheiros";
+sp_doc_p2p_p2 = "Correr programas de partilha de ficheiros (como o eMule, Kazaa ou Bittorrent) por norma utilizará quase, se não mesmo toda, a largura de banda do canal de upstream, o que poderá causar tempos de ping elevado na ligação. Isto implica que não só a comunicação de partilha de ficheiros seja lenta (pedidos de fontes podem demorar 1 a 2 segundos, ao invés de apenas alguns milisegundos), como também que outras aplicações que utilizem a Internet abrandem. Do mesmo modo, as velocidades de download podem cair a pique, porque os pacotesTCP ACK não são enviados atempadamente. O browser também ficará visivelmente menos responsivo ao navegar na Net.";
+sp_doc_p2p_p3 = "Uma solução alternativa oferecida por muitos programas de partilha de ficheiros é colocar um limite artificial na taxa de upload. ";
+sp_doc_p2p_p4 = "Contudo, se estiver a fazer um pequeno upload de e-mail além do upload da partilha de ficheiros, ambos irão competir pela largura de banda de upload disponível. Quanta largura de banda cada um destes uploads receberá ficará a cargo do acaso. Em alguns casos, poderá mesmo levar a que todas as ligações TCP sejam desligadas (TCP connection starving).";
+sp_doc_p2p_t3 = "A solução: Traffic Shaping";
+sp_doc_p2p_p5 = "O esquema de prioridades integrado no cFos e cFosSpeed (re)organiza os pacotes de dados de modo a garantir velocidades de download máximas para programas de partilha de ficheiros. Mais ainda, o cFos e o cFosSpeed despriorizam a transferência de dados de partilha de ficheiros. No entanto, tal não significa que  sejam artificialmente abrandados ou mesmo parados. Significa, sim, que que tais dados serão temporariamente atrasados quando dados mais importantes, como tráfego de jogos online, precisam de ser transmitidos. Apenas este esquema de prioridade torna possível ter programas de partilha de ficheiros a correr com velocidades de transferência máximas enquanto se utiliza a mesma ligação para outras aplicações.";
+sp_doc_p2p_p6 = "Por exemplo, se tiver um programa de partilha de ficheiros a correr em segundo plano enquanto surfa na Net, haverá apenas um abrandamento ligeiro e breve no tráfego P2P enquanto uma nova página é carregada. Do mesmo modo, ao enviar e-mails mais longos, a velocidade de upload P2P poderá diminuir ligeiramente enquanto o e-mail estiver a ser enviado. Assim que o e-mail for enviado, todos os uploads continuarão novamente a toda a velocidade. As únicas alternativas seriam adiar a transmissão do e-mail \"para sempre\" ou limitar de artificialmente de alguma forma a largura de banda para partilha de ficheiros. Mas isso também significaria uma perda de largura de banda quando nenhuma outra aplicação utilizasse a mesma ligação.";
+sp_doc_p2p_p7 = "O cFosSpeed é, assim, otimizado para uso com software de partilha de ficheiros (p2p), permitindo aos utilizadores ter um programa desse tipo a correr em segundo plano sem o notarem durante a atividade normal na Internet.";
+sp_doc_p2p_p8 = "Assim, sugerimos configurar o Kazaa etc. para \"upload ilimitado\" e desativar a opção \"speed sense\", uma vez que o cFosSpeed já otimizará o tráfego da Internet.";
+sp_doc_p2p_t4 = "Skin de ícone";
+sp_doc_p2p_p9 = "Uma vez que a maior parte dos utilizadores corre os seus programas de partilha de ficheiros 24 horas por dia, o cFosSpeed inclui a sua própria skin de ícone, tornando possível acompanhar a ligação sem necessidade de ter uma janela de estado aberta constantemente.";
+sp_doc_p2p_t5 = "Priorização:";
+sp_doc_p2p_p10 = "Muitos utilizadores têm um PC dedicado especialmente para partilha de ficheiros e encaminham o tráfego P2P (p.e., via Internet Connection Sharing) através de um computador principal ligado diretamente à Internet. Neste caso, o Layer-7 Protocol Detection integrado no cFos e no cFosSpeed permite a priorização das redes P2P mais importantes, como BitTorrent, eDonkey 2000 (eMule, etc.), Kazaa, Gnutella(2), Kademlia e Direct Connect.";
+sp_doc_p2p_t6 = "Priorizar Programas:";
+sp_doc_p2p_p11 = "O cFos e o cFosSpeed também permitem priorizar programas pelo nome. Muitos dos programas mais importantes já foram incluídos na nossa lista de definições de programas. Esta forma de priorização é especialmente útil quando a deteção Layer-7 não consegue reconhecer e atribuir os dados corretamente (como é o caso, por exemplo, de tráfego P2P encriptado).";
+sp_doc_performance = "Performance";
+sp_doc_phone_skins_title = "Skins cFosSpeed no seu telefone ou tablet";
+sp_doc_phone_skins_h1 = "Estatísticas de traffic shaping no seu telefone";
+sp_doc_phone_skins_p1 = "A partir da versão v9.05 build 2090, o cFosSpeed tem um servidor web integrado server, pelo que pode exibir a janela de estado no seu telefone ou tablet em dez de o fazer no seu desktop. Isto é especialmente útil para aplicações de ecrã completo como jogos ou vídeos. Eis como configurar:";
+sp_doc_phone_skins_l1 = "Vá a \"Opções/Definições\" no menu de contexto do cFosSpeed e defina uma password de servidor na janela de diálogo \"Preferências/Permitir Skins de Telefone\". O servidor web necessitará de autorização se lhe aceder a partir de outra máquina, e não a partir do computador local.";
+sp_doc_phone_skins_l2 = "Abra o menu de contexto e selecione a primeira opção (<b>cFosSpeed vX.XX...</b>) para exibir os seus <b>endereços IP</b> locais.";
+sp_doc_phone_skins_l3 = "Abra o browser no seu telefone ou tablet e introduza o seguinte endereço: <b>http://[O seu endereço IP]:1487/cfosspeed/skin.htm</b>. <b>[O seu endereço IP]</b> geralmente é o primeiro endereço mostrado no passo 2, mas pode tentar todos os outros se o primeiro não funcionar.";
+sp_doc_phone_skins_l4 = "Em seguida preencha o diálogo de autorização com \"<b>cfosspeed</b>\" como nome de utilizador e a password de servidor que configurou em \"Preferências/Permitir Skins de Telefone\" como password.";
+sp_doc_phone_skins_a1 = "O seu endereço de IP no menu de contexto do cFosSpeed";
+sp_doc_phone_skins_a2 = "Definir password para Skins de Telefone";
+sp_doc_phone_skins_a3 = "cFosSpeed Phone Skins live shot";
+sp_doc_phone_skins_a4 = "Skin de Telefone do cFosSpeed num <a class=\"inline\" href=\"http://www.fairphone.com\"><b>Fairphone</b></a>";
+sp_doc_phone_skins_p2 = "<b>Nota</b>: Precisa do 7 ou superior para utilizar o servidor web integrado.";
+sp_doc_phone_skins_p3 = "<b>Nota</b>: Também pode priorizar as ligações correntes a partir do seu telefone ou tablet. Basta abrir http://<b>[O seu endereço IP]</b>:1487/cfosspeed/console.htm no seu browser. Este ecrã de diálogo funciona como se tivesse sido iniciado a partir da janela de estado ou do menu de contexto do cFosSpeed.";
 sp_doc_prioliste = "Lista de prioridades: ";
 sp_doc_priorliste_content = "Lista de aplicações priorizáveis";
 sp_doc_prio_title = "Priorização de programas";
@@ -1456,6 +1555,10 @@ sp_news_p2 = "Apenas publicaremos notícias algumas vezes por ano.";
 sp_news_h0 = "Notícias cFosSpeed";
 sp_news_h1 = "Políticas de notícias cFosSpeed";
 sp_news_p3 = "Porque chegar às pessoas via e-mail é mais e mais difícil, e as redes sociais se tornaram mais e mais generalizadas, decidimos usar o Twitter como o nosso serviço de notícias curtas. Caso exista algo novo, por exemplo uma versão beta do cFosSpeed, publicaremos isso no Twitter. Publicaremos no máximo algumas vezes por semana. Por isso, caso ainda não tenha uma conta no Twitter, por favor crie uma e siga <a class=\"inline\" target=\"_blank\" href=\"https://twitter.com/cFosSoftware\"><b>@cFosSoftware</b></a> para receber as notícias mais recentes. Poderá então convenientemente deixar o <a href=\"/en/cfos-notifier/cfos-notifier.htm\"><b>cFos Notifier</b></a> verificar novas notícias nossas no Twitter.<br/><br/>Também implementámos uma notificação de notícias no cFosSpeed. Quanto existem notícias muito importantes disponíveis (apenas algumas vezes por ano), como por exemplo novas versões finais do cFosSpeed, atualizaremos a página de notícias do cFosSpeed. Na versão do cFosSpeed v7.01, build 1921, a janela de estado exibirá um novo símbolo e abrirá a página de notícias do cFosSpeed, quando clicar nele.";
+sp_news_20150126 = "26 de Janeiro de 2015";
+sp_news_20150126_text = "Tempos de ping com e sem Traffic Shaping numa ligação VDSL de 50MBit com 4 uploads e 2 downloads.";
+sp_news_20150112 = "12 de Janeiro de 2015";
+sp_news_20150112_text = "O cFosSpeed é a primeira escolha da Softpedia. <a class=\"inline\" href=\"http://www.softpedia.com/get/Network-Tools/Bandwidth-Tools/cFosSpeed.shtml\"><b>Boa review</b></a> do que o cFosSpeed faz e não faz.";
 sp_news_20140429 = "29 de Abril de 2014";
 sp_news_20140429_text = "A nova versão v9.60 do cFosSpeed tem suporte integral para IPv6 e Skins-Telefone para o seu telefone ou tablet. Veja o estado da sua ligação no seu telefone ou tablet enquanto corre jogos ou outras aplicações de ecrã inteiro no seu PC. Também pode iniciar a janela de diálogo de ligações correntes no seu telefone ou tablet para monitorizar e priorizar as suas ligações em tempo real.";
 sp_news_20140210 = "10 de Fevereiro de 2014";
@@ -1511,6 +1614,7 @@ word_prices = "Preços";
 word_delivery = "Entrega";
 
 / PNet additional pages
+cfospnet_doc_page_title = "Documentação do cFos Personal Net";
 
 
 / IPv6 Link additional pages
