@@ -51,7 +51,7 @@ dlg_dun_auto = "自動連線";
 dlg_dun_default = "預設連線";
 dlg_dun_cons = "連線設定檔";
 dlg_dun_name = "連線名稱：";
-dlg_dun_uname = "用戶名：";
+dlg_dun_uname = "帳號：";
 dlg_dun_pwd = "密碼：";
 dlg_dun_use_ipv4 = "使用 IPv4";
 dlg_dun_use_ipv6 = "使用 IPv6";
@@ -64,7 +64,7 @@ ask_inst_ipv6 = "此系統尚未安裝 IPv6 協定。\n\n"
 err_inst_ipv6 = "安裝 IPv6 協定時發生錯誤 %?。";
 pause_server = "暫停伺服器";
 resume_server = "恢復伺服器";
-file_link_failed = "檔案鏈結建立失敗。";
+file_link_failed = "檔案連結建立失敗。";
 
 / connection entry dialog
 con_err_save = "無法儲存連線資料！";
@@ -309,7 +309,7 @@ delete = "刪除";
 aux_lines = "輔助線";
 higher_prog_help = "網路電話、或是遊戲";
 high_prog_help = "遊戲、串流多媒體、Telnet 及其他的互動程式";
-low_prog_help = "伺服器資料, FTP 資料";
+low_prog_help = "伺服器資料、FTP 資料";
 lower_prog_help = "常駐的背景流量，例如：檔案分享";
 delete_help = "從清單移除（視為一般封包）。";
 prog_help = "同時傳輸低及高優先順序的封包時，低優先順序封包傳輸比較慢，若無高優先順序封包時，低優先順序的資料會以最大速度傳輸。";
@@ -707,7 +707,7 @@ bk_finish_head_fail = "註冊失敗。";
 bk_finish_info_fail = "由於下列原因造成註冊失敗：";
 
 / progress tasks
-task_register_email = "註冊電子郵件位址…";
+task_register_email = "註冊電子郵件地址…";
 task_restore_point = "設定系統還原點…";
 task_copy = "複製檔案…";
 task_desktop_link = "建立桌面捷徑…";
@@ -813,12 +813,12 @@ dun_err_no_device = "找不到 %p 裝置。（此裝置應該在重新開機後�
 
 / e-mail registration dialog
 eml_header = "註冊電子郵件";
-eml_subheader = "在 cFos 註冊您的電子郵件位址。";
-eml_info = "請註冊您的電子郵件位址，我們可以將您加入我們的郵件通知清單中，並在 %p 有新版本時通知您。";
-eml_info_optional = "如果您註冊電子郵件位址，您會被加入我們的郵件通知清單中，並在 %p 有新版本時自動通知您，如果您不希望收到這些通知，請在此欄位保留空白。";
-eml_email = "您的電子郵件位址：";
-eml_invalid_email = "您輸入的電子郵件位址不正確。";
-eml_invalid_optional_email = "請輸入正確的電子郵件位址或保留空白。";
+eml_subheader = "在 cFos 註冊您的電子郵件地址。";
+eml_info = "請註冊您的電子郵件地址，我們可以將您加入我們的郵件通知清單中，並在 %p 有新版本時通知您。";
+eml_info_optional = "如果您註冊電子郵件地址，您會被加入我們的郵件通知清單中，並在 %p 有新版本時自動通知您，如果您不希望收到這些通知，請在此欄位保留空白。";
+eml_email = "您的電子郵件地址：";
+eml_invalid_email = "您輸入的電子郵件地址不正確。";
+eml_invalid_optional_email = "請輸入正確的電子郵件地址或保留空白。";
 eml_reg_failed = "註冊電子郵件失敗。";
 eml_checking_domain = "檢查電子郵件網域…";
 
@@ -961,7 +961,7 @@ dlg_inst_subheader = "即將安裝 %p 到您的電腦。";
 dlg_start_header = "準備安裝";
 dlg_end_dsl = "建立 DSL 撥號連線";
 dlg_end_isdn = "建立 ISDN 撥號連線";
-dlg_end_block = "設置禁撥電話號碼鎖";
+dlg_end_block = "設定禁撥電話號碼鎖";
 dlg_oem_header = "%p Professional";
 adv_osna = "這是一個特殊的 DSL 版本，僅適用於您的網路業者。此外，您也可以安裝 cFos Professional 的 30 天試用版。此版本將於下個對話窗中展示更強大的功能。";
 dlg_oem_quest = "您想安裝 30 天試用版嗎？";
@@ -986,7 +986,7 @@ dlg_med_netbt_txt = "調整 TCP/IP 設定以便獲得最大效能，並取消 Ne
 
 / com port dialog
 dlg_com_header = "%p COM 埠選擇";
-dlg_com_subheader = "支持多重 COM 通訊埠：將 ISDN 和多重鏈路 PPP 頻道合併。";
+dlg_com_subheader = "支援多重 COM 通訊埠：將 ISDN 和多重鏈路 PPP 頻道合併。";
 dlg_com_txt = "請選擇要使用的 COM 埠。";
 dlg_com_prefix = "COM";
 
@@ -1068,7 +1068,7 @@ dlg_blk_ask_pref = "";
 dlg_blk_ras = "所有的撥號連線";
 dlg_blk_doublechk = "雙重檢測";
 dlg_blk_doublechk_help = "如果您想檢查包含與不含前綴號碼\n的部分，請勾選「雙重檢測」。\n通常只在與您的電腦連結的部分裝置需要，而另一部分\n又不需要撥號前綴時，才需要勾選此選項。\n";
-dlg_blk_legalinfo = "cFosWatch 與 %p 無法保護的情況：\n如果您同時安裝了 ISDN 卡與傳統類比數據機，\n這些裝置就還是可能撥打到需要被封鎖的昂貴電話號碼。\n如果這發生在沒有 %p 或撥號連線（例：有第三方程式\n透過自訂的方式建立語音或數據連線），就無法被\n%p 或 cFosWatch 偵測到。這種情況下，您必須\n直接拔掉數據機的插頭或關閉電源。目前也沒有辦法保護\n由未安裝　%p 或 cFosWatch 的電腦和傳統電話所撥出的\n連線。若您想要得到完整的保護，請直接向電信業者申請\n封鎖某些電話號碼，但這種服務可能也不是免費的。此外，\n我們無法為 %p 和/或 cFosWatch 的功能失效，或是作業系統\n與第三方軟體功能負責。若其他第三方軟體刻意停用或規避\n%p 和/或 cFosWatch 的功能時，恕本公司亦不承擔任何責任。\n\n本文也保存到 %p 資料夾的 0190.TXT 文件中。\n";
+dlg_blk_legalinfo = "cFosWatch 與 %p 無法保護的情況：\n如果您同時安裝了 ISDN 卡與傳統類比數據機，\n這些裝置就還是可能撥打到需要被封鎖的昂貴電話號碼。\n如果這發生在沒有 %p 或撥號連線（例：有第三方程式\n透過自訂的方式建立語音或數據連線），就無法被\n%p 或 cFosWatch 偵測到。這種情況下，您必須\n直接拔掉數據機的插頭或關閉電源。目前也沒有辦法保護\n由未安裝　%p 或 cFosWatch 的電腦和傳統電話所撥出的\n連線。若您想要得到完整的保護，請直接向電信業者申請\n封鎖某些電話號碼，但這種服務可能也不是免費的。此外，\n我們無法為 %p 和/或 cFosWatch 的功能失效，或是作業系統\n與第三方軟體功能負責。若其他第三方軟體刻意停用或規避\n%p 和/或 cFosWatch 的功能時，恕本公司亦不承擔任何責任。\n\n本文也儲存在 %p 資料夾的 0190.TXT 文件中。\n";
 
 / password dialog
 dlg_pwd_header = "輸入密碼";
@@ -1163,7 +1163,7 @@ dir_baddir = "無法存取該資料夾。\n請輸入有效資料夾。";
 
 / com port messages
 com_need1 = "您必須至少選擇一個 COM 通訊埠。";
-com_teles = "您選擇的 COM 通訊埠目前正被 TELES.VCOMM 占用。\n\n為了讓能夠 %p 使用這些通訊埠，請您按照以下指示設置 TELES.VCOMM：\n點擊：開始 - 設定 - 控制台 - TELES ISDN。\n然後，點選數據機，並釋放需要的 COM 通訊埠，\n為了使設定生效，您可能必須重開機。";
+com_teles = "您選擇的 COM 通訊埠目前正被 TELES.VCOMM 占用。\n\n為了讓能夠 %p 使用這些通訊埠，請您按照以下指示設定 TELES.VCOMM：\n點擊：開始 - 設定 - 控制台 - TELES ISDN。\n然後，點選數據機，並釋放需要的 COM 通訊埠，\n為了使設定生效，您可能必須重開機。";
 com_rvscomnt = "您選擇的 COM 通訊埠可能正被 RVS-COM 占用。\n如果您已經進行了以下的改動，請您直接點擊「確定」。\n\n為了能夠讓 %p 使用這些通訊埠，請您按照以下指示停止 RVS COM 驅動程式：\n點擊： 開始 - 設定 - 控制台 - 裝置。\n尋找「RVS Virtual COM Port」裝置，並點擊「停止」。\n接下來，點選「啟動」選單，選擇「手動」。然後點擊「確定」-「關閉」。\n為了使設定生效，您可能必須重開機。";
 com_rvscom95 = "您選擇的 COM 通訊埠目前正被 RVS-COM 占用。\n\n為了能夠讓 %p 使用這些通訊埠，您必須移除或停用\nVRVSPORT。您可以在硬體管理員中進行。\n";
 
@@ -1229,7 +1229,7 @@ group_wwwcfos = "www.cfos.de";
 group_hypertrm = "網際網路超級終端機";
 group_dun_dsl = "設定 DSL 連線";
 group_dun_isdn = "設定 ISDN 連線";
-group_num_block = "設置禁撥電話號碼鎖";
+group_num_block = "設定禁撥電話號碼鎖";
 
 / registration
 tkey_notfound = "找不到傳輸檔案 %s。\n請將檔案複製到 %p 安裝程式所在的資料夾，\n並重新啟動 %p 安裝程式。\n";
@@ -1251,7 +1251,7 @@ inst_already = "您已經在「%s」通訊埠安裝了 %p。";
 inst_toinstall = "準備安裝：";
 inst_aol_over_cfi = "您正準備安裝 AOL %p 版本，但您已經\n安裝了其他的 OEM %p。\n若您繼續安裝這套 AOL 的 %p，與 OEM 間的連線可能會被封鎖。\n\n我們建議您到\n   %url/oem/oem.htm\n\n下載 %p 試用版。此版本可使您連線至所有 OEM 裝置，\n並可能比您現在已安裝的版本還新。";
 inst_cfi_over_aol = "您正準備安裝 OEM %p 版本，但您已經\n安裝了一個 AOL %p。\n若您繼續安裝這套 %p，與 AOL 間的連線可能會被封鎖。\n\n我們建議您到：\n   %url/oem/oem.htm\n下載最新的 %p 版本。此版本可以讓您連線至所有 OEM 裝置，\n並可能比您現在已安裝的版本還新。";
-inst_raspppoe = "您可能安裝了 RASPPPoE。RASPPPoE 目前的設置為，將每個 %p 封包都記錄下來。要停止這個行為，請前往 RASPPPoE 通訊協定，選擇屬性、進階、並取消勾選「Log Warnings」。這不會影響 RASPPPoE 的功能，只是使事件記錄大小縮小，並提高執行效能。";
+inst_raspppoe = "您可能安裝了 RASPPPoE。RASPPPoE 目前的設定為將每個 %p 封包都記錄下來。要停止這個行為，請前往 RASPPPoE 通訊協定，選擇內容、進階、並取消勾選「Log Warnings」。這不會影響 RASPPPoE 的功能，只是使事件記錄大小縮小，並提高執行效能。";
 dll_found = "找到下列已安裝的驅動程式：\n\n";
 dll_founddir = "在資料夾";
 dll_replace = "\n若要繼續，此驅動程式將被取代。";
