@@ -751,6 +751,7 @@ cfout_p1b_v3 = "目前 <b>免費版本</b> 預覽發行至 <b>2014 年 06 月 01
 cfout_p1b_v4 = "目前 <b>免費版本</b> 發行至 <b>2015 年 06 月 01 日</b>。";
 cfout_p1c = "目前的預覽發行版本不支援在日曆的事件中附加文件。";
 cfout_p1d = "最終版本將以大約 10 歐元價格販售。";
+cfout_p1e = "您也可以 <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>在此購買無此限制的授權</b></a>。";
 cfout_a1 = "下載 cFos Outlook DAV";
 cfout_h2 = "如何設定 cFos Outlook DAV";
 cfout_l1 = "執行 cFos Outlook DAV 安裝程序來添加 cFos Outlook DAV 於 Outlook 的擴充。目前使用 Outlook 2013 為進行測試，但應該可以正常工作於 Outlook 2010。";
@@ -1472,7 +1473,7 @@ sp_doc_cdm_p6 = "永久調整通訊協定優先權";
 sp_doc_cdm_p7 = "永久調整程式優先權";
 sp_doc_cdm_title = "延遲等級管理";
 sp_doc_commands = "指令";
-sp_doc_experts = "給專家的技術參考資料 (英文)";
+sp_doc_experts = "給專家的技術參考資料（英文）";
 sp_doc_gamers = "給遊戲玩家的建議";
 sp_doc_games_p1 = "流量塑型技術可以同時保持低 ping 值與高傳輸速率。";
 sp_doc_games_p2 = "此外，為了得到最低的 ping 值，您應該盡可能調高遊戲的優先權。您可以在程式設定中的清單中找到時下最流行遊戲的名稱；就算您的遊戲沒有列在裡面，您也可以自行把它加入名單裡。";
