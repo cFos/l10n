@@ -93,7 +93,7 @@ dynip_subheader = "設定動態 IP 伺服器";
 dlg_start_now_as_current_user = "以目前的使用者啟動 %p";
 dlg_autostart = "伴隨 Windows 啟動 %p";
 dlg_autostart_service = "以服務的型態安裝 %p，並在 Windows 啟動時也啟動這個服務";
-dlg_context_menu = "在 Windows 檔案總管右鍵選單裏加上項目";
+dlg_context_menu = "在 Windows 檔案總管右鍵選單裡加上項目";
 dlg_create_admin_account = "建立管理員帳號";
 dlg_admin_pwd = "使用者「admin」的密碼：";
 dlg_admin_pwd_needed = "必須輸入使用者「admin」的密碼才能建立管理員帳號。";
@@ -409,7 +409,7 @@ autohide_on_fullscreen = "全螢幕時自動隱藏";
 slot_selected = "選擇的通訊協定/程式";
 show = "顯示";
 hide = "隱藏";
-slot_explain = "若封包屬於指定槽位的已知協定，流量會計算到該槽位；否則，若封包屬於指定槽位的程式，此流量會計算到該槽位；若不是上述兩種情況，此流量會被計算到所有其它流量的槽位裏（如果有勾選該選項）。";
+slot_explain = "若封包屬於指定槽位的已知協定，流量會計算到該槽位；否則，若封包屬於指定槽位的程式，此流量會計算到該槽位；若不是上述兩種情況，此流量會被計算到所有其它流量的槽位裡（如果有勾選該選項）。";
 traffic_analysis_title = "即時流量分析";
 other_traffic = "所有其它流量";
 traffic_analysis = "流量分析";
@@ -501,7 +501,7 @@ lock_position = "鎖定視窗位置";
 check_for_news = "檢查是否有新消息";
 rwin_expansion = "自動加大 RWIN 接收緩衝區";
 rwin_expansion_help = "如果 Windows 預設的 TCP RWIN 接收緩衝區太小，就自動加大來增加下載速度。";
-query_auto_open = "關閉自動開啟和關閉視窗功能？\n您可以稍後在右鍵選單裏啟用此功能。";
+query_auto_open = "關閉自動開啟和關閉視窗功能？\n您可以稍後在右鍵選單裡啟用此功能。";
 preview_skins = "預覽面板";
 enable_smartphone_skins = "手機面板";
 http_access_enabled = "已設定密碼，已允許遠端 HTTP 存取。";
@@ -613,7 +613,7 @@ repwd_reg_to = "由於您的系統設定有變動，您必需重新輸入下列 
 
 / installation directory dialog
 instdir_header = "安裝資料夾";
-instdir_subheader = "安裝資料夾指的是檔案複製到您的電腦硬碟裏的資料夾。";
+instdir_subheader = "安裝資料夾指的是檔案複製到您的電腦硬碟裡的資料夾。";
 instdir_info = "指定安裝資料夾。";
 instdir_change = "修改";
 instdir_src_dst = "來源和目的資料夾不能相同！";
@@ -643,7 +643,7 @@ usage_stats_chk = "自動將使用統計資料送回 cFos 來增進產品的效�
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
 port_forwarding_chk = "如果可以就使用自動連接埠轉送功能。";
-port_forwarding_failed = "您的路由器 %? 似乎不支援自動連接埠轉送功能，您也許可以在路由器的設定裏啟用這個功能。";
+port_forwarding_failed = "您的路由器 %? 似乎不支援自動連接埠轉送功能，您也許可以在路由器的設定裡啟用這個功能。";
 port_forwarding_config = "您可以在 %? 設定您的路由器。";
 port_forwarding_fritz = "您已允許透過 UPnP 修改 FRITZ!Box 當中的 Home Network / Network / Programs 的安全設定，來啟用連接埠轉送功能。";
 
@@ -775,7 +775,7 @@ err_no32 = "無法在 64 位元的作業系統安裝 32 位元的驅動程式。
 err_bad_keyfile = "授權檔案似乎已損毀或是無效，請聯絡我們以取得有效的授權檔案。";
 err_bad_setup = "%p 似乎不正確的安裝或是某些檔案被修改，請重新安裝 %p 後重試。";
 err_bad_signature = "密碼似乎不正確，或是另一個授權檔案使用的密碼。請輸入符合這個授權檔案的正確密碼。";
-err_gdiplus = "找不到 GDI+ 函式庫！\n\n若要繼續安裝，必需先安裝 GDI+ 函式庫，\n您可以下載微軟的平台軟體開發工具組取得 GDI+ 函式庫，\n請下載安裝檔案並解壓縮所有檔案至任一目錄，\n然後將解開目錄下 \\asms\\10\\msft\\windows\\gdiplus\n裏的所有 gdiplus.* 檔案，\n複製到 Windows\\system32 目錄裏。\n\n點擊「確定」打開微軟的相關下載頁面。\n點擊「取消」中止目前的安裝。";
+err_gdiplus = "找不到 GDI+ 函式庫！\n\n若要繼續安裝，必需先安裝 GDI+ 函式庫，\n您可以下載微軟的平台軟體開發工具組取得 GDI+ 函式庫，\n請下載安裝檔案並解壓縮所有檔案至任一目錄，\n然後將解開目錄下 \\asms\\10\\msft\\windows\\gdiplus\n裡的所有 gdiplus.* 檔案，\n複製到 Windows\\system32 目錄裡。\n\n點擊「確定」打開微軟的相關下載頁面。\n點擊「取消」中止目前的安裝。";
 err_winhttp = "找不到 WinHTTP 函式庫！\n\n若要繼續安裝，必需先安裝 WinHTTP 函式庫，\nWinHTTP 函式庫應該內建於您作業系統中，\n但是目前無法載入。";
 bad_manufacturer = "無法啟動安裝，因為這個產品只授權給特定的硬體！";
 cannot_install = "無法安裝";
