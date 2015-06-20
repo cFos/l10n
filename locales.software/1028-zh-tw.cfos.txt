@@ -137,6 +137,10 @@ logon_start_desc = "以下的使用者登入時，本任務就會啟動 %p。";
 show_home_dir = "顯示使用者家目錄";
 publish_file = "發佈檔案";
 user_administration = "使用者管理";
+disable_uploads = "停用上傳";
+enable_uploads = "啟用上傳";
+publish_file_for_download = "發佈檔案以供下載";
+upload_url_to_clipboard = "上傳網址至剪貼簿";
 
 / pnet connectivity test
 connectivity_test = "連線測試";
@@ -324,6 +328,8 @@ l7_prot_detection_help = "經由分析資料來偵測協定，使用「通訊協
 favor_ping = "偏好反應時間";
 favor_ping_help = "<b>開啟</b>：%p 將會稍微減少可用頻寬（若有需要），來降低反應時間。<br /><b>關閉</b>：%p 將會稍微增加反應時間（若有需要），來增加頻寬。";
 favor_bandwidth = "偏好頻寬";
+store_dns_names = "重新整理 DNS 名稱";
+store_dns_names_help = "為了加速 DNS 查詢速度，保留常用的 DNS 解析紀錄每兩天更新";
 avoid_loss = "避免封包遺失";
 avoid_loss_help = "如果偵測到太多的封包遺失，%p 會關閉接收串流的 TCP 接收緩衝區。這只會發生在正在全速接收資料的連線。（建議在改善下載的流量塑型時開啟）";
 activate_firewall = "啟用防火牆";
