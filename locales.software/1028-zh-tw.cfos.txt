@@ -140,7 +140,7 @@ user_administration = "使用者管理";
 disable_uploads = "停用上傳";
 enable_uploads = "啟用上傳";
 publish_file_for_download = "發佈檔案以供下載";
-upload_url_to_clipboard = "上傳網址至剪貼簿";
+upload_url_to_clipboard = "複製上傳網址至剪貼簿";
 
 / pnet connectivity test
 connectivity_test = "連線測試";
