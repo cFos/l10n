@@ -724,13 +724,14 @@ cfout_a1 = "cFos Outlook DAV herunterladen";
 cfout_h2 = "cFos Outlook DAV einrichten";
 cfout_l1 = "Starten Sie den cFos Outlook DAV Installer, um cFos Outlook DAV als Outlook Add-in zu installieren. Es wurde mit Outlook 2013 getestet, sollte aber auch mit Outlook 2010 laufen.";
 cfout_l2_v2 = "Starten Sie Outlook und erstellen einen Kalender Ordner. Wählen sie dann nach Rechtsklick auf den Ordner die Option \"Sync with CalDAV\". Danach können Sie den Ordner nach erneutem Rechtsklick mittels \"Config CalDAV Sync\" konfigurieren.";
+cfout_l2a = "In unserem Forum finden Sie eine <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>ausführliche illustrierte Anleitung</b></a> zu diesem Thema.";
 cfout_l3 = "Sobald der Ordner erzeugt ist, starten Sie Outlook neu. Jetzt sollte ein kleiner Setup-Dialog erscheinen. Selektieren Sie die zu Ihrem Ordner gehörige Konfigurationsdatei und geben Sie die URL Ihres CalDAV Kalender-Servers sowie Benutzername und Passwort ein. Sie können ebenfalls ein Zeitintervall für die Synchronisation angeben. Danach starten Sie Outlook noch einmal neu.";
 cfout_l4_v2 = "Aufgaben und Kontakte Synchronisation funktioniert genauso wie bei Outlook Terminen, d.h. Rechtsklick auf den Aufgaben/Kontakte Ordner und Konfiguration, wie bei Terminen. Sie können die selbe URL, Benutzernamen, Passwort verwenden, wie für Ihre Termine. Leider funktioniert das für Aufgaben so nicht mit Google (siehe unten).";
 cfout_p2 = "Für <b class=\"green\">cFos Personal Net</b> ist die CalDAV/CardDAV URL <b>http://<b>ihre_pnet_domain</b>/private/<b>ihr_name</b>/caldav_personal</b>, wobei <b>ihre_pnet_domain</b> die Domain oder die IP-Addresse Ihres cFos Personal Net Servers oder <b>localhost</b> oder die lokale IP-Adresse in Ihrem LAN ist. <b>ihr_name</b> ist der Benutzername des Eigentümers des Kalenders, z.b. <b>admin</b>.";
 cfout_p3a = "Für <b class=\"green\">Google Kalender</b> ist die URL <b>https://www.google.com/calendar/dav/ihre_google_kalender_id/events</b> (achten Sie darauf, in Ihrer URL \"https\" zu verwenden, da \"http\"-Adressen nicht funktionieren). <b>ihre_google_kalender_id</b> für Ihren primären Kalender ist Ihre Google E-Mail-Adresse. Für alle anderen Kalender liegt die Kalender-ID jedoch in der Form <b>[lange_zeichenfolge]@group.calendar.google.com</b> vor.";
 cfout_p3b = "Die Kalender-ID können Sie abrufen, indem Sie unter calendar.google.com auf den Abwärts-Pfeil neben Ihrem Kalender klicken und \"Kalender-Einstellungen\" auswählen.";
 cfout_p3c = "Als Benutzername und Password verwenden Sie die Angaben, die Sie auch für andere Google Dienste nutzen.";
-cfout_p3d = "In unserem Forum finden Sie eine <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1371464394/0#0\">ausführliche illustrierte Anleitung</a> zu diesem Thema.";
+cfout_p3d = "In unserem Forum finden Sie eine <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1371464394/0#0\"><b>ausführliche illustrierte Anleitung</b></a> zu diesem Thema.";
 cfout_p3e = "<b class=\"green\">Aufgaben Synchronisation</b> mit dem Google Kalender: Der Google Kalender unterstützt kein CalDAV für Aufgaben und ausserdem haben Aufgaben (mit dem Google Calendar API) bei Google nur eine kleine Untermenge an Funktionen im Vergleich zu Outlook. Daher ist die Synchronisation von Outlook Aufgaben mit Google Aufgaben nicht zu empfehlen. Am nächsten kommen bei Google Termine. Daher speichert cFos Outlook DAV die Outlook Aufgaben als Termine, wenn sie mit einem Google Server synchronisiert werden. Das bedeutet, Sie müssen einen weiteren Google Kalender einrichten, der ausschliesslich für Outlook Aufgaben verwendet wird. Die Einrichtung ist dann die gleiche wie bei Terminen";
 cfout_p3f = "<b class=\"green\">Kontakt Synchronisation</b> mit Google: Für Google Kontakte ist die URL <b>https://www.googleapis.com/carddav/v1/principals/ihr_google_benutzername/lists/default/</b>.";
 cfout_p4_v2 = "Für einen <b class=\"green\">DAViCal Kalender</b> ist die URL http://<b>ihr_davical_server</b>/caldav.php/<b>ihr_davical_account</b>/calendar, für <b class=\"green\">DAViCal Kontakte</b><b>http://ihr_davical_server/caldav.php/ihr_davical_account/addresses</b>, wobei <b>ihr_davical_server</b> die Domain oder die IP-Addresse Ihres DAViCal Servers ist. <b>ihr_davical_account</b> ist der Benutzername für diesen DAViCal Server und als Passwort geben Sie das diesem Benutzernamen zugeordnete Passwort an.";
@@ -748,6 +749,28 @@ cfout_p8 = "cFos Outlook DAV nutzt die Proxy Einstellungen des Internet Explorer
 cfout_disclaimer = "Bei der Synchronisation von Outlook Daten mit CalDAV/CardDAV Servern können unerwartete Interoperabilitäts-Probleme und Datenverluste auftreten. Die Bestellung erfolgt unter der Voraussetzung, dass Sie cFos Outlook DAV erfolgreich für Ihr Einsatzgebiet vollständig getestet haben.";
 cfout_conf_title = "Konfiguration von cFos Outlook DAV";
 cfout_server = "CalDAV/CardDAV Server";
+cfout_google_cal1 = "https://www.google.com/calendar/dav/<b>ihre_google_kalender_id</b>/events";
+cfout_google_cal1a = "<b>ihre_google_kalender_id</b> für Ihren primären Kalender ist Ihre Google E-Mail-Adresse. Für alle anderen Kalender liegt die Kalender-ID jedoch in der Form <b>[lange_zeichenfolge]@group.calendar.google.com</b> vor.";
+cfout_google_cal2 = "Ihre Google Benutzername";
+cfout_google_cal3 = "Ihr Google Passwort";
+cfout_google_card1 = "https://www.googleapis.com/carddav/v1/principals/<b>ihr_google_benutzername</b>/lists/default/";
+cfout_owncloud_cal1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/caldav/calendars/<b>ihr_owncloud_benutzername</b>/<b>kalender_name</b>";
+cfout_owncloud_cal2 = "Ihr ownCloud Benutzername";
+cfout_owncloud_cal3 = "Ihr ownCloud Passwort";
+cfout_owncloud_card1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/carddav/addressbooks/<b>ihr_owncloud_benutzername</b>/contacts";
+cfout__cal1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/caldav/calendars/<b>ihr_owncloud_benutzername</b>/<b>kalender_name</b>";
+cfout__cal2 = "Ihr ownCloud Benutzername";
+cfout__cal3 = "Ihr ownCloud Passwort";
+cfout__card1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/carddav/addressbooks/<b>ihr_owncloud_benutzername</b>/contacts";
+
+
+
+
+cfout__cal1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/caldav/calendars/<b>ihr_owncloud_benutzername</b>/<b>kalender_name</b>";
+cfout__cal2 = "Ihr ownCloud Benutzername";
+cfout__cal3 = "Ihr ownCloud Passwort";
+cfout__card1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/carddav/addressbooks/<b>ihr_owncloud_benutzername</b>/contacts";
+
 
 / cFos IPv6 Link
 cfos6link_page_title = "IPv6-Verbindung mit XP, Vista und Windows 7";

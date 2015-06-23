@@ -700,19 +700,21 @@ cfout_a1 = "下载 cFos Outlook DAV";
 cfout_h2 = "如何设置 cFos Outlook DAV";
 cfout_l1 = "运行 cFos Outlook DAV 安装程序，为 Outlook 安装加载项。程序在 Outlook 2013 下测试通过，在 Outlook 2010 中应该也可以正常工作";
 cfout_l2_v2 = "启动 Outlook 并创建一个新的日历文件夹。 右键单击该文件夹并选择 \"Sync with CalDAV\"。 随后可以通过右键单击该文件夹并选择 \"Config CalDAV Sync\"来再次配置文件夹。";
+cfout_l2a = "关于更详细的信息，您可以查看我们的网站 <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>更加详细的说明</b></a>.";
 cfout_l3 = "建立文件夹后请重启 Outlook 。此时，应该出现一个设置对话框。选择与你刚创建的 Outlook 文件夹相对应的配置文件，随后输入你的 CalDAV 日历服务器地址、用户名和密码。你还可以同时设置同部件和。随后，请再次重启 Outlook。";
 cfout_p2 = "对于 <b class=\"green\">cFos Personal Net</b> CalDAV/CardDAV 地址是 http://<b>your_pnet_domain</b>/private/<b>your_user_name</b>/caldav_personal, 其中 <b>your_pnet_domain</b> 是 cFos Personal Net 服务器、本机、局域网内服务器的域名或者 IP 地址。<b>your_user_name</b> 是日历所有者的用户名，如 <b>admin</b>.";
 cfout_p3a = "对于 <b class=\"green\"> Google Calendar</b> ，地址是 https://www.google.com/calendar/dav/<b>your_google_calendar_id</b>/events（注意，地址开头是 \"https\" ，因为 \"http\" 地址无法工作） <b>you_google_calendar_id</b> 一般是你的Google mail地址。然而，对于其它的日历，ID的格式是 <b>[long_string]@group.calendar.google.com</b>.";
 cfout_p3b = "您可以在 calendar.google.com 获得日立的ID，方法是单击日历旁边的 \"下（down）\" 箭头并选择 \"日历设置（Calendar settings）\"。";
 cfout_p3c = "用户名和密码与其它的Google服务一样。";
-cfout_p3d = "关于更详细的信息，您可以查看我们的网站 <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1371473212/0#0\">更加详细的说明</a>.";
+cfout_p3d = "关于更详细的信息，您可以查看我们的网站 <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1371473212/0#0\"><b>更加详细的说明</b></a>.";
 cfout_p3e = "<b class=\"green\">任务同步</b>至Google日历：Google日历不支持通过 CalDAV 同步任务，同时在使用Google日历API的情况下，Google支持的功能只是Outlook支持的功能的一小部分。因此不建议将Outlook任务同步到Google任务。与Outlook任务/ VTODO CalDAV 最相近的是约会，因此当与Google日历同步时，cFos Outlook DAV 将Outlook任务存储为约会。也就是说你需要新建一个Google日历，并保证该日历仅用于同步Outlook任务。设置过程与计划的设置是一样的。";
 cfout_h3 = "cFos Outlook DAV 操作";
 cfout_p7b = "密码是提前就保存了的\"!\" 而且Outlook使用它们时会进行加密操作。";
 cfout_p7c = "在<em>C:\\ProgramData\\cFos\\outlook_dav</em> 中你可以找到文件 <em>trace.txt</em> ，文件中包含了最近的同步操作记录。";
 cfout_p7c_v2 = "在<em>C:\\Users\\USERNAME\\AppData\\Local\\cFos\\outlook_dav</em> 中你可以找到文件 <em>trace.txt</em> ，文件中包含了最近的同步操作记录。";
 cfout_p8 = "cFos Outlook DAV 使用 Internet Explorer的代理服务器设置。您可以在控制面板-Internet选项中更改。";
-
+cfout_google_cal1 = "https://www.google.com/calendar/dav/<b>your_google_calendar_id</b>/events";
+cfout_google_cal1a = "<b>you_google_calendar_id</b> 一般是你的Google mail地址。然而，对于其它的日历，ID的格式是 <b>[long_string]@group.calendar.google.com</b>.";
 
 / cFos IPv6 Link
 cfos6link_page_title = "适用于 Windows XP，Vista 和 Windows 7 的 IPv6 连接";

@@ -766,13 +766,14 @@ cfout_a1 = "Download cFos Outlook DAV";
 cfout_h2 = "How to setup cFos Outlook DAV";
 cfout_l1 = "Run the cFos Outlook DAV installer to add cFos Outlook DAV as Outlook Add-in. It is tested with Outlook 2013, but should also work with Outlook 2010.";
 cfout_l2_v2 = "Start Outlook and create a new calendar folder. Now right-click on this folder and choose \"Sync with CalDAV\". You can now configure the folder by right-clicking it again and selecting \"Config CalDAV Sync\".";
+cfout_l2a = "For further information you might consider having a look at our <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>detailed illustrated instructions</b></a>.";
 cfout_l3 = "As soon as the folder is created, please restart Outlook. Now a little setup dialog should pop up. Select the config file corresponding to your newly created Outlook folder and enter the URL of your CalDAV calendar server, your username and password. You can also specify the sync-interval. Then restart Outlook one more time.";
 cfout_l4_v2 = "Task and contacts synchronisation work exactly like appointment synchronisation. Right-click on the task folder and configure the URL and user name/password as with appointments. You can use the same URL, user name, password as with your appointments. However, for tasks this does not work with Google (see below).";
 cfout_p2 = "For <b class=\"green\">cFos Personal Net</b> the CalDAV/CardDAV URL is http://<b>your_pnet_domain</b>/private/<b>your_user_name</b>/caldav_personal, where <b>your_pnet_domain</b> is the domain or IP address of your cFos Personal Net server or localhost or a local IP address in your LAN. <b>your_user_name</b> is the name of owner of the calendar, e.g. <b>admin</b>.";
 cfout_p3a = "For <b class=\"green\">Google Calendar</b> the URL is https://www.google.com/calendar/dav/<b>your_google_calendar_id</b>/events (make sure that your URL is of the \"https\" protocol, because \"http\" addresses will not work). <b>your_google_calendar_id</b> for your primary calendar is your Google email address. However, for all other calendars, the calendar ID has the format <b>[long_string]@group.calendar.google.com</b>.";
 cfout_p3b = "You can retrieve the calendar ID at calendar.google.com by clicking on the \"down\" arrow next to your calendar and selecting \"Calendar settings\".";
 cfout_p3c = "As user name and password use the same information as for other Google services.";
-cfout_p3d = "For further information you might consider having a look at our <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1371473212/0#0\">detailed illustrated instructions</a>.";
+cfout_p3d = "For further information you might consider having a look at our <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1371473212/0#0\"><b>detailed illustrated instructions</b></a>.";
 cfout_p3e = "<b class=\"green\">Task synchronization</b> with Google Calendar: The Google Calendar doesn't support CalDAV for tasks and furthermore (using Google Calendar API) Google tasks only have a very small subset of features compared to the features of Outlook tasks. So synchronizing Google tasks with Outlook tasks is not recommended. The closest thing to Outlook tasks / VTODO CalDAV elements are appointments. Therefore cFos Outlook DAV stores Outlook tasks as appointments when used with a Google server. This means you have to set up another Google Calendar, which is then exclusively used for Outlook tasks only. Configuration is then the same as with appointments.";
 cfout_p3f = "<b class=\"green\">Contacts synchronization</b> with Google: For Google Contacts the URL is <b>https://www.googleapis.com/carddav/v1/principals/your_google_username/lists/default/</b>.";
 cfout_p4_v2 = "For a <b class=\"green\">DAViCal calendar</b> the URL is http://<b>your_davical_server</b>/caldav.php/<b>your_davical_account</b>/calendar, for <b class=\"green\">DAViCal contacts</b> the URL is <b>http://your_davical_server/caldav.php/your_davical_account/addresses</b>, where <b>your_davical_server</b> is the domain or IP address of your DAViCal server. <b>your_davical_account</b> is the username for this server and the password is the one assigned to this user.";
@@ -790,6 +791,15 @@ cfout_p8 = "cFos Outlook DAV uses the Internet Explorer's proxy settings. You ca
 cfout_disclaimer = "Synchronisation of Outlook data with CalDAV/CardDAV servers can cause unexpected interoperability problems and loss of data. You therefore order only under the condition, that you have completely and successfully tested cFos Outlook DAV with your particular use-cases.";
 cfout_conf_title = "How to configure cFos Outlook DAV";
 cfout_server = "CalDAV/CardDAV server";
+cfout_google_cal1 = "https://www.google.com/calendar/dav/<b>your_google_calendar_id</b>/events";
+cfout_google_cal1a = "<b>your_google_calendar_id</b> for your primary calendar is your Google email address. However, for all other calendars, the calendar ID has the format <b>[long_string]@group.calendar.google.com</b>.";
+cfout_google_cal2 = "Your Google username";
+cfout_google_cal3 = "Your Google password";
+cfout_google_card1 = "https://www.googleapis.com/carddav/v1/principals/<b>your_google_username</b>/lists/default/";
+cfout_owncloud_cal1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/caldav/calendars/<b>owncloud_user</b>/<b>calendar_name</b>";
+cfout_owncloud_cal2 = "Your ownCloud username";
+cfout_owncloud_cal3 = "Your ownCloud password";
+cfout_owncloud_card1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/carddav/addressbooks/<b>owncloud_user</b>/contacts";
 
 / cFos IPv6 Link
 cfos6link_page_title = "IPv6 Connectivity for XP, Vista and Windows 7";

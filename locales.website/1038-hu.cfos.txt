@@ -638,12 +638,13 @@ cfout_a1 = "cFos Outlook DAV letöltése";
 cfout_h2 = "Hogyan kell beállítani a cFos Outlook DAV-ot";
 cfout_l1 = "Futtassa a cFos Outlook DAV telepítőt, hogy hozzáadhassa, mint Outlook kiegészítő. Le lett tesztelve az Outlook 2013-al, de működnie kell az Outlook 2010-el is.";
 cfout_l2_v2 = "Indítsa el az Outlook-ot, majd hozzon létre egy új naptár mappát. Ezután kattintson jobb egérgombbal ezen a mappán, és válassza a \"Sync with CalDAV\"-ot. Most már beállíthatja a mappát, ha rajta jobb egérkattintás után kiválasztja a \"Config CalDAV Sync\"-et.";
+cfout_l2a = "További információkért, érdemes egy pillantást vetnie a honlapunkon található <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>részletesen illusztrált bemutatónkra</b></a>.";
 cfout_l3 = "Miután létrehozta a mappát, kérjük indítsa újra az Outlook-ot. Most egy kis beállító párbeszédablak fog felugrani. Ezután, válassza azt a beállítást, amely megfelelő önnek az újonnan létrehozott Outlook mappához, majd adja meg az ön CalDAV calendar szerver URL címét, felhasználónevét és jelszavát. A szinkronizálás gyakoriságát is megadhatja itt. A beállítások után, indítsa újra még egyszer az Outlook-ot a változások érvényesítéséhez!";
 cfout_p2 = "A <b class=\"green\">cFos Personal Net</b>-hez a CalDAV/CardDAV URL a következő: \"http://<b>hálózati_tartománya</b>/private/<b>felhasználói_neve</b>/caldav_personal\", ahol a <b>hálózati_tartománya</b> az a tartományi név, vagy az IP címe a cFos Personal Net server-nek, ahol a szerver található. <b>felhasználói_neve</b> az a név, akié a naptár. Pl.: <b>admin</b>.";
 cfout_p3a = "A <b class=\"green\">Google Calendar</b>-hoz az URL a következő: \"https://www.google.com/calendar/dav/<b>google_calendar_azonosítója</b>/events\" (bizonyosodjon meg róla, hogy az URL a \"https\" címet használja, mert a \"http\" cím nem támogatott). A <b>google_calendar_azonosítója</b> az elsődleges naptárjához tartozó Google e-mail címe. Előfordulhat, hogy az összes többi naptárnak az azonosítója a következőképpen néz ki: <b>[hosszú_karaktersorozat]@group.calendar.google.com</b>.";
 cfout_p3b = "Megtekintheti a naptári azonosítóját a calendar.google.com oldalon, ha rákattint a \"lefelé\" nyílra a naptára mellett, és kiválasztja a \"Naptár beállítások\"-at (\"Calendar settings\").";
 cfout_p3c = "Ahogyan a felhasználó nevét és jelszavát használja a hasonló információknál, a többi Google szolgáltatásoknál.";
-cfout_p3d = "További információkért, érdemes egy pillantást vetnie a honlapunkon található <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1371473212/0#0\">részletesen illusztrált bemutatónkra</a>.";
+cfout_p3d = "További információkért, érdemes egy pillantást vetnie a honlapunkon található <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1371473212/0#0\"><b>részletesen illusztrált bemutatónkra</b></a>.";
 cfout_p3e = "<b class=\"green\">Szinkronizáció feladatok</b> a Google naptárral: A Google naptár nem támogatja a CalDAV-feladatokat és ezen kívül a feladatoknak (az API Google naptárral) a Google-nál csak kevés funkció van az Outlook-hoz képest. Ezért az Outook szinkronizáció-feladatok nem ajánlható Google feladatokkal. A következők a Google időpontoknál jönnek. Ezért menti a cFos Outlook DAV az Outlook feladatokat időpontokként, ha ezeket Google szerverrel szinkronizáljuk. Ez azt jelenti, hogy Önnek egy további Google-naptárt kell beállítania, melyet kizárólag Outlook feladatokhoz fog használni. A beállítás akkor ugyanaz lesz, mint az időpontoknál";
 /. Used as title
 /. Litrelly means "How cFos Outlook DAV works"
@@ -653,7 +654,8 @@ cfout_p7b = "A jelszó egy megelőző \"!\" jellel van tárolva, és \"on-the-fl
 cfout_p7c = "A <em>C:\\ProgramData\\cFos\\outlook_dav</em> könyvtárban megtalálható a <em>trace.txt</em> fájl, az utolsó szinkronizáció eseményeivel.";
 cfout_p7c_v2 = "A <em>C:\\Users\\USERNAME\\AppData\\Local\\cFos\\outlook_dav</em> könyvtárban megtalálható a <em>trace.txt</em> fájl, az utolsó szinkronizáció eseményeivel.";
 cfout_p8 = "A cFos Outlook DAV az Internet Explorer proxy beállításait használja. Megváltoztathatja a Vezérlőpultban, az Internet beállításoknál.";
-
+cfout_google_cal1 = "https://www.google.com/calendar/dav/<b>google_calendar_azonosítója</b>/events";
+cfout_google_cal1a = "A <b>google_calendar_azonosítója</b> az elsődleges naptárjához tartozó Google e-mail címe. Előfordulhat, hogy az összes többi naptárnak az azonosítója a következőképpen néz ki: <b>[hosszú_karaktersorozat]@group.calendar.google.com</b>.";
 
 / cFos IPv6 Link
 cfos6link_page_title = "IPv6 csatlakozás XP, Vista és Windows 7 alatt";
