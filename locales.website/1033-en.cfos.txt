@@ -758,10 +758,10 @@ cfout_p1b_v2 = "The current <b>free</b> pre-release runs until <b>February 28th 
 cfout_p1b_v3 = "The current <b>free</b> pre-release runs until <b>June 1st 2014</b>.";
 cfout_p1b_v4 = "The current <b>free</b> release runs until <b>June 1st 2015</b>.";
 cfout_p1b_v5 = "The current <b>free</b> release runs until <b>December 31st 2015</b>.";
-cfout_p1c = "Not time-limited version for commercial users on request:";
 cfout_p1c = "The current pre-release does not support attachment files for calendar events.";
 cfout_p1d = "The final release will be available for about 10 Euro.";
 cfout_p1e = "Or you can <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>buy an unlimited license here</b></a>.";
+cfout_p1f = "Not time-limited version for commercial users on request:";
 cfout_a1 = "Download cFos Outlook DAV";
 cfout_h2 = "How to setup cFos Outlook DAV";
 cfout_l1 = "Run the cFos Outlook DAV installer to add cFos Outlook DAV as Outlook Add-in. It is tested with Outlook 2013, but should also work with Outlook 2010.";

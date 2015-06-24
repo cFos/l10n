@@ -722,7 +722,6 @@ cfout_p1b_v2 = "L'actuelle pre-release <b>gratuite</b> fonctionnera jusqu'au <b>
 cfout_p1b_v3 = "L'actuelle pre-release <b>gratuite</b> fonctionnera jusqu'au <b>1er Juin 2014</b>.";
 cfout_p1b_v4 = "L'actuelle version <b>gratuite</b> est active jusqu'au <b>1er juin 2015</b>.";
 cfout_p1c = "L'actuelle pre-release ne prend pas en charge les pièces jointes pour les évènements du calendrier.";
-cfout_p1c = "L'actuelle pre-release ne prend pas en charge les pièces jointes pour les évènements du calendrier.";
 cfout_p1d = "La release finale sera disponible pour environ 10 Euros.";
 cfout_a1 = "Télécharger cFos Outlook DAV";
 cfout_h2 = "Comment configurer cFos Outlook DAV";
