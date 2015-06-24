@@ -747,9 +747,16 @@ cfout_p7c = "In <em>C:\\ProgramData\\cFos\\outlook_dav</em> findet sich auch ein
 cfout_p7c_v2 = "In <em>C:\\Users\\IHR_BENUTZERNAME\\AppData\\Local\\cFos\\outlook_dav</em> findet sich auch eine Datei <em>trace.txt</em> mit einem Log der letzten Sync-Operationen.";
 cfout_p8 = "cFos Outlook DAV nutzt die Proxy Einstellungen des Internet Explorer. Diese können Sie unter Systemsteuerung, Internet Optionen einstellen.";
 cfout_disclaimer = "Bei der Synchronisation von Outlook Daten mit CalDAV/CardDAV Servern können unerwartete Interoperabilitäts-Probleme und Datenverluste auftreten. Die Bestellung erfolgt unter der Voraussetzung, dass Sie cFos Outlook DAV erfolgreich für Ihr Einsatzgebiet vollständig getestet haben.";
-cfout_conf_title = "Konfiguration von cFos Outlook DAV";
+cfout_conf_title = "Synchronisieren sie einen CalDAV Kalender oder ein CardDAV Adressbuch mit Outlook in 5 Schritten";
+cfout_goto_help = "Lesen Sie unsere <b>detaillierte illustrierte Anleitung</b>.";
 cfout_server = "CalDAV/CardDAV Servertyp auswählen";
-cfout_configuration_link = "Konfiguration anzeigen";
+cfout_new_server = "Falls Sie cFos Outlook DAV erfolgreich mit einem Kalender- oder Address-Server genutzt haben, der <b>nicht in unserer Liste enthalten</b> ist, teilen Sie uns dies bitte über unser <a class=\"inline\" onclick=\"cfos.show_contact_form(); return false;\" href=\"/en/index.htm\"><b>Kontaktformular</b></a> mit.";
+cfout_show_all = "Alle anzeigen";
+cfout_conf_step1 = "<b>1.</b> In der <b>Kalenderansicht</b> auf den Kalender rechtsklicken und \"<span class=\"green\">Enable CalDAV Sync</span>\" bzw. \"<span class=\"green\">Config CalDAV Sync</span>\" anklicken oder<br/>in der <b>Kontaktansicht</b> auf den Kontaktordner rechtsklicken und \"<span class=\"green\">Enable CardDAV Sync</span>\" bzw. \"<span class=\"green\">Config CardDAV Sync</span>\" anklicken";
+cfout_conf_step2 = "<b>2.</b> CalDAV URL, Benutzername und Passwort des Kalenderservers eintragen oder<br/>CardDAV URL, Benutzername und Passwort des Adressbuchservers eintragen";
+cfout_conf_step3 = "<b>3.</b> <span class=\"green\">Zeitintervall der Synchronisierung</span> wählen";
+cfout_conf_step4 = "<b>4.</b> Einstellungen <span class=\"green\">speichern</span>";
+cfout_conf_step5 = "<b>5.</b> <span class=\"green\">Sync</span> manuell starten";
 cfout_google_cal1 = "https://www.google.com/calendar/dav/<b>ihre_google_kalender_id</b>/events<br/>(z.B. https://www.google.com/calendar/dav/benutzer1234@gmail.com/events)";
 cfout_google_cal1a = "<b>ihre_google_kalender_id</b> für Ihren primären Kalender ist Ihre Google E-Mail-Adresse. Für alle anderen Kalender liegt die Kalender-ID jedoch in der Form <b>[lange_zeichenfolge]@group.calendar.google.com</b> vor.";
 cfout_google_cal2 = "Ihre Google Benutzername";
