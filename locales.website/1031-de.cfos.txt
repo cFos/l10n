@@ -748,29 +748,47 @@ cfout_p7c_v2 = "In <em>C:\\Users\\IHR_BENUTZERNAME\\AppData\\Local\\cFos\\outloo
 cfout_p8 = "cFos Outlook DAV nutzt die Proxy Einstellungen des Internet Explorer. Diese können Sie unter Systemsteuerung, Internet Optionen einstellen.";
 cfout_disclaimer = "Bei der Synchronisation von Outlook Daten mit CalDAV/CardDAV Servern können unerwartete Interoperabilitäts-Probleme und Datenverluste auftreten. Die Bestellung erfolgt unter der Voraussetzung, dass Sie cFos Outlook DAV erfolgreich für Ihr Einsatzgebiet vollständig getestet haben.";
 cfout_conf_title = "Konfiguration von cFos Outlook DAV";
-cfout_server = "CalDAV/CardDAV Server";
-cfout_google_cal1 = "https://www.google.com/calendar/dav/<b>ihre_google_kalender_id</b>/events";
+cfout_server = "CalDAV/CardDAV Servertyp auswählen";
+cfout_configuration_link = "Konfiguration anzeigen";
+cfout_google_cal1 = "https://www.google.com/calendar/dav/<b>ihre_google_kalender_id</b>/events<br/>(z.B. https://www.google.com/calendar/dav/benutzer1234@gmail.com/events)";
 cfout_google_cal1a = "<b>ihre_google_kalender_id</b> für Ihren primären Kalender ist Ihre Google E-Mail-Adresse. Für alle anderen Kalender liegt die Kalender-ID jedoch in der Form <b>[lange_zeichenfolge]@group.calendar.google.com</b> vor.";
 cfout_google_cal2 = "Ihre Google Benutzername";
 cfout_google_cal3 = "Ihr Google Passwort";
-cfout_google_card1 = "https://www.googleapis.com/carddav/v1/principals/<b>ihr_google_benutzername</b>/lists/default/";
-cfout_owncloud_cal1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/caldav/calendars/<b>ihr_owncloud_benutzername</b>/<b>kalender_name</b>";
+cfout_google_card1 = "https://www.googleapis.com/carddav/v1/principals/<b>ihr_google_benutzername</b>/lists/default/<br/>(z.B. https://www.googleapis.com/carddav/v1/principals/benutzer1234@gmail.com/lists/default/)";
+cfout_owncloud_cal1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/caldav/calendars/<b>ihr_owncloud_benutzername</b>/<b>kalender_name</b><br/>(z.B. http://meinedomain.com/owncloud/remote.php/caldav/calendars/benutzer1234/meinkalender)";
 cfout_owncloud_cal2 = "Ihr ownCloud Benutzername";
 cfout_owncloud_cal3 = "Ihr ownCloud Passwort";
-cfout_owncloud_card1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/carddav/addressbooks/<b>ihr_owncloud_benutzername</b>/contacts";
-cfout__cal1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/caldav/calendars/<b>ihr_owncloud_benutzername</b>/<b>kalender_name</b>";
-cfout__cal2 = "Ihr ownCloud Benutzername";
-cfout__cal3 = "Ihr ownCloud Passwort";
-cfout__card1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/carddav/addressbooks/<b>ihr_owncloud_benutzername</b>/contacts";
-
-
-
-
-cfout__cal1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/caldav/calendars/<b>ihr_owncloud_benutzername</b>/<b>kalender_name</b>";
-cfout__cal2 = "Ihr ownCloud Benutzername";
-cfout__cal3 = "Ihr ownCloud Passwort";
-cfout__card1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/carddav/addressbooks/<b>ihr_owncloud_benutzername</b>/contacts";
-
+cfout_owncloud_card1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/carddav/addressbooks/<b>ihr_owncloud_benutzername</b>/contacts<br/>(z.B. http://meinedomain.com/owncloud/remote.php/carddav/addressbooks/benutzer1234/contacts)";
+cfout_gmx_cal1 = "https://caldav.gmx.net/<b>ihr_gmx_benutzername</b><br/>(z.B. https://caldav.gmx.net/benutzer1234@gmx.de)";
+cfout_gmx_cal2 = "Ihr GMX Benutzername";
+cfout_gmx_cal3 = "Ihr GMX Passwort";
+cfout_gmx_card1 = "https://carddav.gmx.net/<b>user_principal_uri</b>";
+cfout_webde_cal1 = "https://caldav.web.de/<b>ihr_web.de_benutzername</b><br/>(z.B. https://caldav.webde.net/benutzer1234@webde.de)";
+cfout_webde_cal2 = "Ihr web.de Benutzername";
+cfout_webde_cal3 = "Ihr web.de Passwort";
+cfout_webde_card1 = "https://carddav.web.de/<b>user_principal_uri</b>";
+cfout_egroupware_cal1 = "http://<b>egroupware_server_domain</b>/<b>installationspfad</b>/groupdav.php/<b>ihr_egroupware_benutzername</b>/calendar/<br/>(z.B. http://meinedomain.com/egw/groupdav.php/benutzer1234/calendar/)";
+cfout_egroupware_cal2 = "Ihr EGroupware Benutzername";
+cfout_egroupware_cal3 = "Ihr EGroupware Passwort";
+cfout_egroupware_card1 = "http://<b>egroupware_server_domain</b>/<b>installationspfad</b>/groupdav.php/addressbook/<br/>(z.B. http://mydomain.com/egw/groupdav.php/addressbook/)";
+cfout_posteo_cal1 = "https://posteo.de:8443/calendars/<b>ihr_posteo_benutzername</b>/default<br/>(z.B. https://posteo.de:8443/calendars/benutzer1234/default)";
+cfout_posteo_cal2 = "Ihr Posteo Benutzername";
+cfout_posteo_cal3 = "Ihr Posteo Passwort";
+cfout_sarenet_cal1 = "https://ramattacknet.organizer.sarenet.es/caldav.php/<b>ihre_benutzer_email</b>/<br/>(z.B. https://ramattacknet.organizer.sarenet.es/caldav.php/benutzer1234@ramattack.net/)";
+cfout_sarenet_cal2 = "Ihr Sarenet Benutzername";
+cfout_sarenet_cal3 = "Ihr Sarenet Passwort";
+cfout_sarenet_card1 = "https://ramattacknet.organizer.sarenet.es/caldav.php/<b>ihre_benutzer_email</b>/<br/>(z.B. https://ramattacknet.organizer.sarenet.es/caldav.php/benutzer1234@ramattack.net/)";
+cfout_vpop3_cal1 = "https://<b>vpop3_server_domain</b>/calendar/<b>ihr_vpop3_benutzername</b>/<b>kalender_name</b>/<br/>(e.g. https://meinedomain.com/calendar/benutzer1234/meinkalender/)";
+cfout_vpop3_cal2 = "Ihr VPOP3 Benutzername";
+cfout_vpop3_cal3 = "Ihr VPOP3 Passwort";
+cfout_pnet_cal1 = "http://<b>pnet_server_domain</b>/private/<b>ihr_pnet_benutzername</b>/caldav_personal<br/>(e.g. http://meinedomain.com/private/benutzer1234/caldav_personal)";
+cfout_pnet_cal2 = "Ihr cFos Personal Net Benutzername";
+cfout_pnet_cal3 = "Ihr cFos Personal Net Passwort";
+cfout_pnet_card1 = "http://<b>pnet_server_domain</b>/private/<b>ihr_pnet_benutzername</b>/carddav_personal<br/>(e.g. http://meinedomain.com/private/benutzer1234/carddav_personal)";
+cfout_davical_cal1 = "http://<b>davical_server_domain</b>/caldav.php/<b>ihr_davical_benutzername</b>/calendar<br/>(z.B. http://meinedomain.com</b>/caldav.php/benutzer1234/calendar)";
+cfout_davical_cal2 = "Ihr DAViCal Benutzername";
+cfout_davical_cal3 = "Ihr DAViCal Passwort";
+cfout_davical_card1 = "http://<b>davical_server_domain</b>/caldav.php/<b>ihr_davical_benutzername</b>/addresses<br/>(z.B. http://meinedomain.com</b>/caldav.php/benutzer1234/addresses)";
 
 / cFos IPv6 Link
 cfos6link_page_title = "IPv6-Verbindung mit XP, Vista und Windows 7";
