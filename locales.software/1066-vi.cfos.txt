@@ -73,6 +73,8 @@ setup_connections = "Thiết lập các kết nối";
 ask_inst_ipv6 = "Giao thức IPv6 chưa được cài đặt trong hệ thống này.\n\n"
                 "Bạn có muốn cài đặt giao thức IPv6 ngay bây giờ không?";
 err_inst_ipv6 = "Có lỗi %? xảy ra khi đang cài đặt giao thức IPv6.";
+pause_server = "Tạm ngừng máy chủ";
+resume_server = "Khôi phục lại máy chủ";
 
 / connection entry dialog
 con_err_save = "Không lưu được dữ liệu của kết nối!";
@@ -775,6 +777,7 @@ err_os_sup = "%p hỗ trợ chính thức duy nhất %? hoặc cao hơn.\n\n"
 err_uninst_driver = "Không thể gỡ bỏ trình điều khiển thiết bị.";
 err_create_process = "Lỗi bắt đầu %s: %s";
 err_write_lock = "%? các thành phần mạng đang được dùng bởi các tiến trình khác. Vui lòng thoát các ứng dụng đang chạy hoặc khởi động lại hệ thống và thử lại.";
+err_write_lock_process = "%? các thành phần mạng đang được sử dụng bởi tiến trình: %?. Vui lòng tắt tiến trình này hoặc khởi động lại máy tính và thử lại.";
 err_file_auth = "Một vài tập tin bị lỗi hoặc mất.\nVui lòng lấy một xác thực cấp phép %p\n(Ví dụ từ www.cfos.de).";
 err_cancel = "Tác vụ đã bị hủy bỏ.";
 err_no32 = "Không thể cài đặt trình điều khiển 32-bit trên hệ thống 64-bit.\n\nHệ điều hành: %?\nSản phẩm: %?";
