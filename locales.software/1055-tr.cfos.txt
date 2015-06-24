@@ -12,12 +12,30 @@ language = "Turkish";
 language_local = "Türkçe";
 htm_lang_prefix = "tr";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
 /
 / ----------------------------------------------------------------------
 
+ignore_ssl_cert_chk = "SSL sertifika hatalarını yoksay (güvenli değil)";
+ignore_ssl_cert_desc = "Eğer cFos Outlook DAV ayarlarından SSL sertifika hatalarını yoksay seçeneğine izin verdiyseniz, güvenli olmayan SSL sertifikalarına bağlanabilir, mesela kendiliğinden imzalı (self-signed) sertifikalar. Normalde bu ayarı etkinleştirmeniz önerilmez, çünkü SSL bağlantısını saldırılara karşı savunmasız hale getirir (man-in-the-middle attacks).";
+od_key_registered = "Ürün anahtarı kaydedildi. Değişikliğin etkili olabilmesi için Outlook yeniden başlatılmalı.";
 
 / ----------------------------------------------------------------------
 /
@@ -56,12 +74,16 @@ setup_connections = "Bağlantıları kur";
 ask_inst_ipv6 = "IPv6 protokolü bu sisteme henüz kurulmadı.\n\n"
                 "IPv6 protokolünü şimdi kurmak ister misiniz?";
 err_inst_ipv6 = "IPv6 protokolü kurulurken %? hatası gerçekleşti.";
+pause_server = "Sunucuyu duraklat";
+resume_server = "Sunucuyu devam ettir";
+file_link_failed = "Dosya bağlantısı oluşturulamadı.";
 
 / connection entry dialog
 con_err_save = "Bağlantı verisini kaydedemiyor!";
 con_ipv4 = "IPv4";
 con_ipv6 = "IPv6";
 con_private_address = "Özel Adres:";
+con_prefix = "Prefix:";
 con_dns1 = "DNS1:";
 con_dns2 = "DNS2:";
 con_enabled = "etkin";
@@ -69,6 +91,10 @@ con_enabled = "etkin";
 / pnet configuration dialog
 pnet_header = "Ortak Ayarlar";
 pnet_subheader = "Ortak ayarları düzenle.";
+pnet_conn_header = "Bağlantı";
+pnet_conn_subheader = "Bağlantı seçeneği ayarları.";
+pnet_conn_local_ip = "Yerel IP adresi %?";
+pnet_conn_public_ip = "Public IP adresi %?";
 pnet_pubdir_header = "Herkese Açık Dizin";
 pnet_pubdir_subheader = "İndirilebilir dosyaları içeren dizin.";
 pnet_pubdir_info = "Lütfen indirilmesini mümkün kıldığınız dosyaların bulunduğu dosya konumunu özelleştirin.";
@@ -87,10 +113,25 @@ dlg_register_shell_extension = "Shell Uzantısını Kaydet";
 dlg_server_port = "Sunucu Portu:";
 dlg_server_name = "Sunucu Adı:";
 dlg_server = "Sunucu:";
+dlg_https_port = "HTTPS Portu:";
 dlg_renew_interval = "Yenileme aralığı (ms):";
 dlg_redirect_delay = "Yeniden yönlendirme gecikmesi (ms):";
+dlg_monitor_ports = "Port atamasını izle";
+dlg_enable_upnp = "Multimedia Sunucusunu etkinleştir (UPnP/DLNA)";
+dlg_upnp_info = "Media dosyalarını public dizinindeki 'media' alt dizinine koy.";
+use_https_port = "HTTPS portunu kullan";
 
 / pnet start type dialog
+pnet_start_header = "Başlangıç Tipi";
+pnet_start_subheader = "Program nasıl başlasın?";
+pnet_start_mode = "Başlat %p:";
+pnet_start_login = "oturum açıldığında (önerilen)";
+pnet_start_system = "sistem servisi olarak";
+pnet_start_manual = "elle (manuel)";
+pnet_start_info = "Oturumu açtığınızda  %p otomatik başlatılması önerilir. "
+                  "Eğer %p hiçbir kullanıcı oturum açmadığı halde kullanılsın istiyorsanız, sistem servisi olarak başlatmanız gerekiyor. "
+                  "Ancak bu durumda görev çubuğu simgesi ve içerik menüsü olmayacaktır. "
+                  "Eğer verilerinizi sadece ara sıra public yapmak istiyorsanız, o zaman %p ürününüzü elle başlatın.";
 
 / pnet context menu entry
 publish_with_product = "%p ile yayınla";
@@ -105,8 +146,35 @@ ipv4_bind_problem = "Sunucu IPv4'lü özelleşmiş portu dinleyemiyor, çünkü 
 ipv6_bind_problem = "Sunucu IPv6'lı özelleşmiş portu dinleyemiyor, çünkü başka bir uygulama tarafından kullanılıyor (örn. Skype).";
 closing_server = "Sunucu kapatılıyor.";
 start_product = "Başlat %p";
+info_port_in_use = "%? portuna %p tarafından ihtiyaç duyuluyor ancak portu şu anda başka bir program kullanıyor.\n\nProgram: %?\nPath: %?\n\n"
+                   "%p ancak diğer program kapatılırsa kullanılabilir. Ya da %p yapılandırmasından başka bir port seçebilirsiniz.";
+monitor_port_desc = "Bu görev %p tarafından ihtiyaç duyulan portları periyodik olarak izler ve eğer portlardan biri başka program tarafından kullanılıyorsa kullanıcıya uyarı mesajı verir.";
+logon_start_desc = "Aşağıda gösterilen kullanıcı oturum açtığında, bu görev tarafından %p başlatılır.";
+show_home_dir = "Ev Dizinini Göster";
+publish_file = "Dosyayı Yayınla";
+user_administration = "Kullanıcı Yönetimi";
 
 / pnet connectivity test
+connectivity_test = "Bağlantı testi";
+con_test_subheader = "Bağlantı testi tamamlanana kadar lütfen bekleyin.";
+con_test = "%p Bağlantı Testi";
+con_test_not_running = "Bağlantı testi başlatılamadı, çünkü %p çalışmıyor. Lütfen %p başlatıldıktan sonra bağlantı testini tekrar çalıştırın.";
+con_test_public_fail = "Public IP adresiniz belirlenemedi. Lütfen internete bağlı olduğunuzdan emin olun ardından testi tekrarlayın.";
+con_test_execute = "Bağlantı testini başlat";
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+ga_service_desc = "cFos Game Analyzer - Performans Veri Kurtarma";
+ga_speed_installed = "cFosSpeed bilgisayarınıza kurulu görünüyor.\n\ncFosSpeed içerisinde zaten cFos Game Analyzer işlevini barındırır.\n\ncFos Game Analyzer'ın en son özelliklerini kullanabilmek için, lütfen en son cFosSpeed sürümünü from www.cfos.de adresinden indirip kurun.";
+ga_password_subheader = "cFos Game Analyzer'a harici erişim için parola.";
+ga_password_info = "Kullanıcı adı: cfosspeed";
+ga_call_info = "cFos Game Analyzer'a yerel PC'nizden şunu yazarak ulaşabilirsiniz: \nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\ncFos Game Analyzer'a başka bir cihazdan yukarıdaki şifre ile erişin ve 'localhost' yazmak yerine aşağıdaki IP adreslerinden birini kullanın:\n";
+ga_detected_by_speed = "cFos Game Analyzer programının zaten kurulu bir sürümü tespit edildi. cFosSpeed programı zaten cFos Game Analyzer özelliklerinin tümün içerisinde barındırır.\n\nEğer devam ederseniz, cFosSpeed kurulumuna başlamadan önce cFos Game Analyzer otomatik olarak kaldırılacaktır.\n\nDevam etmek istiyor musunuz?";
+ga_use_password_by_speed = "cFosSpeed programı, cFos Game Analyzer için kullanılan şifreyi kullansın mı? Böylece cFosSpeed'e diğer aygıtlardan da erişebilirsiniz.";
 
 / ----------------------------------------------------------------------
 /
@@ -144,6 +212,7 @@ badkey = "Lisansınız ile ilgili bir sorun var.\n"
 	 "Lütfen e-posta, CD veya disket ile aldığınız\n"
 	 " orjinal dosyanın üzerine çift tıklayarak lisansınızı tekrar kurunuz.";
 no_setup = "Kurulum başlatılamıyor (setup.exe).";
+no_cmd = "Komut İstemcisi (cmd.exe) açılamadı!";
 ask_disconnect_ras = "Etkin olan bir ağ bağlantısı yeniden ayarlanacaktır.\n"
 		     "Devam etmeden önce bağlantıyı kesmeniz tavsiye edilir.\n"
 		     "Mevcut bağlantı kesilsin mi?";
@@ -235,6 +304,7 @@ media_streaming = "Medya Yayınlama";
 file_sharing = "Dosya Paylaşımı";
 special = "Özel";
 other = "Diğer";
+misc_high = "Diğer yüksek öncelikli trafik";
 hint = "İpucu";
 hint_text = "Önceliklendirme, sadece çok küçük bir veri grubuna yüksek öncelik verilirse düzenli olarak çalışacaktır. Çok fazla veri transferi yapan programlara düşük öncelik veriniz. Protokol önceliklendirmesi işlemi, program önceliklendirmesi işleminden önce uygulanır.";
 prio_doc_link = "Önceliklendirme planları nasıl çalışır";
@@ -243,6 +313,7 @@ undo = "Geri al";
 filter_selection = "Filtre seçimi";
 higher = "Daha yüksek";
 high = "Yüksek öncelik";
+normal = "Normal";
 default = "Varsayılan";
 low = "Düşük";
 lower = "En düşük";
@@ -313,7 +384,11 @@ show_for = "Göster";
 this_month = "bu ay";
 time = "Süre";
 time_limit = "Süre Sınırı";
+/. Used as table header
+/. Short version of "minutes"
 time_min = "Dak";
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "s:dak";
 volume = "Birim";
 volume_limit = "Birim Sınırı";
@@ -322,6 +397,7 @@ password_bad = "Yanlış parola";
 sum_button = "toplam";
 calibrate = "Hattı Ayarla";
 test_pings = "Deneme pingleri gönder";
+open_console = " %p konsolunu aç";
 variable_bandwidth = "Değişken Bant Genişliği";
 def_bandwidth_help = "<b>Yeni</b> bağlantılar için varsayılan";
 cur_bandwidth_help = "Mevcut bağlantı için ayar";
@@ -375,11 +451,15 @@ slots_title = "Slot Kurulumu";
 can_select_multiple = "İpucu: Bir ayar seçerken Shift ya da Ctrl tuşuna basarak çoklu ayarlar seçebilirsiniz.";
 name_for = "İsim ";
 set_name = "İsim belirle";
+/. RX stands for `receive` (incoming/download)
 rx_only = "sadece RX";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "sadece TX";
 max_of_rx_tx = "Maksimum RX & TX";
 total_rx_only = "Toplam RX hızı";
 total_tx_only = "Toplam TX hızı";
+nettalk_rx = "Net Talk RX Hızı";
+nettalk_tx = "Net Talk TX Hızı";
 total_max_of_rx_tx = "Toplam RX & TX in maksimumu";
 check_if_other_also = "Eğer tüm diğer trafiğin bu slotta sayılmasını istiyorsanız, tik atın";
 performance_help = "Bilgisayar gücünden en iyi tasarruf için, internet erişimi için kullandığınız bağlantıyı 'Evet' ve diğer tüm bağlantıları 'Hayır' olarak ayarlamanızı öneririz.";
@@ -429,6 +509,8 @@ console_prio_prot = "Geçici olarak protokolü önceliklendir";
 console_prio_prot_off = "Geçici protokol önceliklendirmesini kapat";
 console_prio_prog = "Programı geçici olarak önceliklendir";
 console_prio_prog_off = "Geçici program önceliklendirmesini kapat";
+console_prio_prog_prot = "Program & protokole geçici olarak öncelik ver";
+console_prio_prog_prot_off = "Program & protokol önceliğini geçici olarak kapat";
 console_prio_prot_perm = "Protokolü kalıcı olarak önceliklendir";
 console_prio_prog_perm = "Programı kalıcı olarak önceliklendir";
 console_prio_advanced = "Gelişmiş önceliklendirme";
@@ -451,6 +533,19 @@ lock_position = "Pencere konumunu kilitle";
 check_for_news = "Haberleri kontrol et";
 rwin_expansion = "Otomatik RWIN genişlemesi";
 rwin_expansion_help = "Eğer Windows tarafından seçilen RWIN çok düşükse, indirme hızını arttırmak için TCP RWIN i otomatik olarak genişlet.";
+query_auto_open = "Durum penceresinin otomatik açılıp kapanması devre dışı bırakılsın mı?\nBu ayarı daha sonra içerik menüsünden yeniden etkinleştirebilirsiniz.";
+preview_skins = "Arayüzleri Önizle";
+enable_smartphone_skins = "Telefon Arayüzleri";
+http_access_enabled = "Şifre ayarlandı, uzaktan HTTP erişimine izin verildi.";
+http_access_disabled = "Şifre ayarlanmadı, uzaktan HTTP erişimi engellendi.";
+set_server_pwd = "Server şifresini ayarla";
+show_on_metro_apps = "Metro uygulamalarında göster";
+traffic_shaping_info = "Traffic Shaping Bilgisi";
+wlan_access_point = "Wi-Fi erişim noktası";
+prioritize_foreground_process = "Ön plandaki pencerede süren işlemi önceliklendir";
+prioritize_foreground_help = "Ön plandaki pencerede süren işlem önceliğini otomatik olarak yükseğe ayarla.";
+upnp_router_info = "UPnP Router İstatistiklerini Kullan";
+upnp_router_info_help = "Hat hızını tespit etmek için yonlendiriciden UPnP istatistiklerini kullan (eğer mümkünse). Bu ayar için yönlendiricinizden UPnP'yi etkinleştirmeniz gerekebilir.";
 
 
 / ----------------------------------------------------------------------
@@ -539,6 +634,8 @@ sn_save_err = "Anahtar dosyası %?'daki diske kaydedilemez.";
 sn_keyfile_err = "Anahtar dosyası bozulmuş.";
 
 / new 16 digit serial number dialog
+sn16_info = "Lisans anahtarınızı geri yüklemek için lütfen 16 haneli seri numaranızı giriniz. Bu işlem için internete bağlı olmanız gerekmektedir.";
+sn16_failed = "Lisans anahtarını alma işlemi başarısız!";
 
 / re-enter password dialog
 repwd_header = "%? şifresi.";
@@ -584,8 +681,20 @@ port_forwarding_fritz = " UPnP aracılığıyla güvenlik ayarlarınızda deği�
                         "Ev Ağı / Ağ / Programlar sekmesinin altından port yönlendirmesini etkinleştirebilirsiniz";
 
 / crash handler messages
+crash_msg_crash = "%p içerisinde üstesinden gelinemeyen bir istisna oluştu.";
+crash_msg_crash_installer = "%p kurulum programında üstesinden gelinemeyen bir istisna oluştu.";
+crash_msg_virus = "Şu modül kendisini programa enjekte etti ve bu durum çökmelere sebep olabilir:";
+crash_msg_virus_clean = "Bu modül bir virüs olabilir. Sisteminizde virüs taraması yapmanız şiddetle önerilir.";
+crash_msg_hook = "Kendilerini bu programa enjekte eden, başka programlara ait modüller bulundu. Çökmenin sebebinin bu modüllerden biri olmadığından emin olmak için, lütfen aşağıdaki programları kapatarak ya da kaldırarak bu programı tekrar çalıştırın:";
+crash_msg_terminate = "Programa şu an son veriliyor.";
+crash_msg_query_upload = "Hatayı analiz edebilmemiz için cFos'a çökme raporu göndermek ister misiniz?";
+crash_msg_new_release = "%p için yeni sürüm mevcut. Lütfen %p için yeni sürümü www.cfos.de adresinden indirip kurun.";
+crash_msg_new_beta = "%p için yeni beta sürüm mevcut. Lütfen %p için yeni beta sürümü www.cfos.de adresinden indirip kurun.";
 
 /start installation dialog
+start_header = "Kurulum";
+start_subheader = "Kurulumu başlat.";
+start_installation = "Kurulumu şimdi başlat.";
 
 / progress dialog
 progress_inst_header = "Kurulum";
@@ -639,10 +748,13 @@ task_desktop_link = "Masaüstü kısayolları oluşturuluyor...";
 task_program_group = "Program grubu oluşturuluyor...";
 task_registry = "Kayıt defteri kayıtları oluşturuluyor...";
 task_driver = "Sürücü kuruluyor...";
+task_service = "Hizmet kuruluyor...";
 task_daemon = "%? başlatılıyor...";
 task_uninstall_old = "Varolan sürüm kaldırılıyor...";
 task_stop_daemon = "%? durduruluyor...";
 task_uninstall_driver = "Sürücü kaldırılıyor...";
+task_uninstall_service = "Hizmet kaldırılıyor...";
+task_uninstall_ga = "Kaldırılıyor: cFos Game Analyzer...";
 task_delete_files = "Dosyalar siliniyor...";
 task_cleanup_caches = "Önbellek temizleniyor...";
 task_hangup = "Etkin bağlantılar kesiliyor...";
@@ -651,6 +763,11 @@ task_cancel = "İşlem iptal ediliyor...";
 task_canceled = "İşlem iptal edildi!";
 
 / connectivity test progress tasks
+task_start_program = "Başlatılıyor %p...";
+task_test_localhost = "Test ediliyor: yerelhost...";
+task_test_local_ip = "Test ediliyor: yerel IP adresler...";
+task_test_public_ip = "Test ediliyor: public IP address...";
+task_test_finished = "Test tamamlandı.";
 
 / program group
 speed_pg_name = "%p Traffic Shaping";
@@ -669,19 +786,26 @@ dt_advertise_desc = "Bütün %? özelliklerini listeler.";
 
 / message boxes
 query_reboot = "Değişikliklerin geçerli olabilmesi için bilgisayarınızı yeniden başlatmanız gerekmektedir.\n\nSistem yeniden başlatılsın mı?";
+query_inst_reboot = "Kuruluma devam edebilmek için işletim sisteminizi yeniden başlatmanız gerekiyor. \n\nBilgisayarı yeniden başlattıktan sonra lütfen setup programını yeniden çalıştırın.\n\nŞimdi yeniden başlatmak istiyor musunuz?";
 query_drv_inst_cancel = "Sürücü kurulumu/kaldırma işlemi işletim sistemi tarafından gerçekleştiriliyor.\nWindows kurulum arabirimi, bir sürücüyü kaldırmak için veya kurmak için \n15 dakikaya kadar bir süre gerektirebilir!\n\nBu kadar beklemediyseniz, bu işlemi iptal etmeniz kesinlikle tavsiye edilmez.\n\nİptal etmek istiyor musunuz?";
 query_driver_err_abort = "Sürücü kurulumu sırasında bir sorunla karşılaşıldı!\nBu yüzden kurulumu şimdi iptal etmeniz öneriliyor.\n\nKuruluma test amaçlı devam edebilirsiniz.\nLütfen %p in büyük ihtimalle düzenli çalışamayacağını unutmayınız.\n\nKurulum iptal edilsin mi? (önerilen)";
 query_further_info = "Daha fazla bilgilendirme ister misiniz?";
 
 / error messages
 err_driver_inst = "Sürücü kurulumu sırasında hata oluştu.";
+err_service_inst = "Hizmet kurulumu başarısız.";
+err_service_uninst = "Hizmet kaldırma başarısız.";
 err_daemon_start = "%? başlatılamadı.";
 err_uninst_old = "Varolan sürüm kaldırılamıyor. Lütfen İşletim Sisteminizi yeniden başlatıp, tekrar deneyin.";
 err_os = "İşletim sisteminiz %?.\n\n%? Windows 2000/XP ya da daha yeni İşletim Sistemi gerektirir.";
 err_os_minxp = "İşletim sisteminiz %?.\n\n%? Windows XP ya da daha yeni İşletim Sistemi gerektirir.";
+err_os_sup = "%p tarafından desteklenen sadece %? ve daha üst sürümlerdir.\n\n"
+             "%p sizin  %? işletim sisteminizde belki çalışabilir, ama çalışıp çalışmayacağı tarafımızdan test edilmemiştir.\n\n"
+             "Kuruluma devam etmek istiyor musunuz?";
 err_uninst_driver = "Bu sürücü kaldırılamaz.";
 err_create_process = "%s çağırmada hata: %s";
 err_write_lock = "%? ağ bileşenleri şu an başka bir işlem tarafından kullanılıyor. Lütfen diğer bütün programları kapatın veya bilgisayarınızı yeniden başlatıp, tekrar deneyin.";
+err_write_lock_process = "%? ağ bileşenleri şu işlemler tarafından kullanılmakta: %?. lütfen bu işlemleri kapatıp, ya da bilgisayarı yeniden başlatıp tekrar deneyiniz.";
 err_file_auth = "Bu kurulumdaki bazı dosyalar bozuk veya kayıptır.\nLütfen orijinal %p kurulumunu edininiz.\n(www.cfos.de)";
 err_cancel = "İşlem iptal edildi.";
 err_no32 = "64-bitlik işletim sistemlerine 32-bitlik sürücüler kurulamaz.\n\nİşletim Sistemi: %?\nÜrün: %?";
@@ -768,6 +892,38 @@ eml_invalid_email = "Girdiğiniz e-posta adresi geçersizdir.";
 eml_invalid_optional_email = "Geçerli bir e-mail adresi girin ya da bu alanı boş bırakın.";
 eml_reg_failed = "E-posta adresi kaydı başarısız oldu.";
 eml_checking_domain = "E-posta alanı kontrol ediliyor...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p Virtual Wi-Fi Başlangıç Sihirbazı";
+virtual_wifi_header = "Başlat: Virtual Wi-Fi";
+virtual_wifi_subheader = "Yazılım tabanlı kablosuz erişim noktası kur ve İnternet Bağlantısı Paylaşımını etkinleştir.";
+virtual_wifi_stop_header = "Durdur: Virtual Wi-Fi";
+virtual_wifi_info = "İnternet trafiğini yönlendiren ağı seçiniz ve kablosuz erişim noktası için bir şifre belirleyiniz.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "SSID boş olmalı ve 32 karakterden fazlasını içermemeli.";
+virtual_wifi_invalid_password_length = "Şifre uzunluğu 8 ile 64 karakter arasında olmak zorundadır.";
+virtual_wifi_ics_not_available = "İnternet Bağlantısı Paylaşımı bu bilgisayarda kullanılabilir değil.";
+virtual_wifi_error_get_cons = "Ağ bağlantılarını alırken hata oluştu.";
+virtual_wifi_ics_warning = "İnternet Bağlantısı Paylaşımı şu ağ için zaten etkinleştirildi:\n%?\n\nBu ağ yerine kullanmak ister misiniz?:\n%?";
+virtual_wifi_error_enable_ics = "İnternet Bağlantısı Paylaşımı etkinleştirilirken hata oluştu.";
+virtual_wifi_error_start = "Virtual Wi-Fi başlatılırken hata oluştu.";
+virtual_wifi_ok = "Virtual Wi-Fi ve İnternet Bağlantısı Paylaşımı başarıyla etkinleştirildi.\n\nNot: Virtual Wi-Fi'a bağlanamazsa, lütfen Virtual Wi-Fi'ı durdurup yeniden başlatın.\n\nEğer bu bilgisayarlardan biri Virtual Wi-Fi'a bağlanabildiği halde internete erişemiyorsa, lütfen %p uygulamasını kaldırıp tekrardan kurun.";
+virtual_wifi_query_stop = "Virtual Wi-Fi durdurulsun mu?";
+virtual_wifi_error_stop = "Virutal Wi-Fi durdurulurken hata oluştu:";
+virtual_wifi_stopped = "Virtual Wi-Fi başarıyla durduruldu.";
+virtual_wifi_dialup_ics = "Eğer çevirmeli bağlantı kullanıyorsanız, İnternet Bağlantısı Paylaşımı'nı, bu bağlantının özelliklerini değiştirerek, elle etkinleştirmeniz gerekiyor.";
+virtual_wifi_error_not_present = "Hazır durumda hiçbir Wi-Fi arayüzü bulunamadı.\n\nVirtual Wi-Fi kurmak için mutlaka bir Wi-Fi bulunmalı ve hazır durumda olmalı.";
+virtual_wifi_autostart = "Sistem başlangıcında otomatik başlat.";
+virtual_wifi_deactivate_autostart = "Otomatik başlatmayı sistem başlangıcında da iptal et.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
