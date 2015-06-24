@@ -163,7 +163,7 @@ user_administration = "User Administration";
 disable_uploads = "Disable uploads";
 enable_uploads = "Enable uploads";
 publish_file_for_download = "Publish file for download";
-upload_url_to_clipboard = "Upload URL to clipboard";
+upload_url_to_clipboard = "Copy upload link to clipboard";
 
 / pnet connectivity test
 connectivity_test = "Connectivity Test";
