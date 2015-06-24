@@ -160,9 +160,13 @@ logon_start_desc = "This tasks starts %p if the user shown below logs in.";
 show_home_dir = "Show Home Directory";
 publish_file = "Publish File";
 user_administration = "User Administration";
+/. Label of menu entry, which enables and disables any uploads to PNET.
+/. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
+/. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
 disable_uploads = "Disable uploads";
 enable_uploads = "Enable uploads";
 publish_file_for_download = "Publish file for download";
+/. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
 upload_url_to_clipboard = "Copy upload link to clipboard";
 
 / pnet connectivity test
@@ -342,6 +346,9 @@ prio_doc_link = "How the prioritization scheme works";
 save_protocols = "Save protocols";
 undo = "Undo";
 filter_selection = "Filter selection";
+/: Settings -> Protocols/Programs
+/. Used as indicator of selected by user level of priority (for Traffic Shaping)
+/. Displayed next to protocol or program name, near slider with levels
 higher = "Higher";
 high = "High";
 normal = "Normal";
@@ -458,6 +465,9 @@ disable_speed_shaping = "Disable Traffic Shaping";
 yes = "Yes";
 no = "No";
 help = "Help";
+/: cFosSpeed context menu -> Usage Graph
+/. Used as one of dropdown menu entries
+/. Means `To show all programs and protocols traffic`
 bgraph_totals = "Total";
 blocklist = "IP-Blocker";
 blocklist_help = "List of IP addresses for which all traffic is blocked.";
@@ -520,6 +530,8 @@ set = "Set";
 tx_limit_help = "Enter the speed in bytes/sec or percent that this program or protocol is allowed to send with.";
 download_more_skins = "Download more skins";
 documentation = "Documentation";
+/: cFosSpeed context menu
+/. means `Close cFosSpeed`
 exit_demon = "Exit";
 speed_test = "cFos Speed Test";
 ask_key_banned_info = "There has been a problem with your license key.\nWould you like further information?";
@@ -576,6 +588,9 @@ http_access_disabled = "No password set, HTTP access from remote is forbidden.";
 set_server_pwd = "Set Server Password";
 auto_arrange_top = "Top";
 auto_arrange_bottom = "Bottom";
+/: cFosSpeed context menu
+/. Menu entry which enables display of cFosSpeed's tile in Windows 8 Start Menu
+/. @note Currently disabled
 show_on_metro_apps = "Show on Metro apps";
 traffic_shaping_info = "Traffic Shaping Info";
 wlan_access_point = "Wi-Fi access point";
@@ -681,6 +696,7 @@ sn_save_err = "The key file cannot be saved to disk at %?.";
 sn_keyfile_err = "The key file is corrupted.";
 
 / new 16 digit serial number dialog
+/. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
 sn16_info = "Please enter your 16 digit serial number to receive your license key. You must be connected to the internet to successfully receive the license key.";
 sn16_failed = "Getting the license key failed!";
 
@@ -730,6 +746,7 @@ port_forwarding_chk = "Use automatic port forwarding, if available.";
 port_forwarding_failed = "Your router%? doesn't seem to support automatic port forwarding. "
                          "You may be able to activate this feature in your router's configuration.";
 port_forwarding_config = "You can configure your router at %?.";
+/. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
 port_forwarding_fritz = "You activate port forwarding in your FRITZ!Box by allowing changes of security settings via UPnP "
                         "under Home Network / Network / Programs";
 
@@ -999,6 +1016,7 @@ virtual_wifi_stopped = "Virtual Wi-Fi successfully stopped.";
 virtual_wifi_dialup_ics = "For a dial-up connection you have to enable Internet Connection Sharing manually by changing the properties of this connection.";
 virtual_wifi_error_not_present = "No (ready) Wi-Fi interface found.\n\nTo set up a Virtual Wi-Fi a Wi-Fi interface must be present and ready.";
 virtual_wifi_autostart = "Start automatically at system start.";
+/. Label next to a checkbox in deactivation of virtual Wi-Fi dialog
 virtual_wifi_deactivate_autostart = "Disable automatic start at system startup as well.";
 
 
