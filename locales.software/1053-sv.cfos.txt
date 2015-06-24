@@ -147,7 +147,6 @@ undo = "Ångra";
 filter_selection = "Filter sortiment";
 higher = "Högre";
 high = "Hög";
-normal = "Normal";
 low = "Låg";
 lower = "Lägre";
 entries = "Inlägg";

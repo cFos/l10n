@@ -283,7 +283,6 @@ undo = "Tak jadi";
 filter_selection = "Tapis pilihan";
 higher = "Lebih Tinggi";
 high = "Tinggi";
-normal = "Normal";
 default = "Standar";
 low = "Rendah";
 lower = "Paling Rendah";

@@ -313,7 +313,6 @@ undo = "Geri al";
 filter_selection = "Filtre seçimi";
 higher = "Daha yüksek";
 high = "Yüksek öncelik";
-normal = "Normal";
 default = "Varsayılan";
 low = "Düşük";
 lower = "En düşük";

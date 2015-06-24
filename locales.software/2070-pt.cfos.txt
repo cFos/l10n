@@ -301,7 +301,6 @@ undo = "Anular";
 filter_selection = "Selecção de filtros";
 higher = "Mais alto";
 high = "Alta";
-normal = "Normal";
 default = "Predefinição";
 low = "Baixo";
 lower = "O mais baixo possível";

@@ -310,7 +310,6 @@ undo = "Desfazer";
 filter_selection = "Seleção do filtro";
 higher = "Muito Alta";
 high = "Alta";
-normal = "Normal";
 default = "Padrão";
 low = "Baixa";
 lower = "Muito Baixa";

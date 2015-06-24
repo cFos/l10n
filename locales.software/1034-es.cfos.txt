@@ -265,7 +265,6 @@ undo = "Cancelar";
 filter_selection = "Selección de filtros";
 higher = "Prioridad muy alta";
 high = "Prioridad alta";
-normal = "Normal";
 default = "Valor predeterminado";
 low = "Prioridad baja";
 lower = "Prioridad muy baja";

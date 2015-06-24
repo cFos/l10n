@@ -120,7 +120,6 @@ undo = "Fortryd";
 filter_selection = "Filtervalg";
 higher = "Højere";
 high = "Høj";
-normal = "Normal";
 low = "Lav";
 lower = "Lavere";
 entries = "Indskrivelser";

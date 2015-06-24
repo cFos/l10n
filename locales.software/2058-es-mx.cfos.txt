@@ -286,7 +286,6 @@ undo = "Deshacer";
 filter_selection = "Filtrar selección";
 higher = "Mas alto";
 high = "Alto";
-normal = "Normal";
 default = "Predeterminado";
 low = "Bajo";
 lower = "El más bajo";
