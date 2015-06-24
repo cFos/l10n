@@ -153,6 +153,10 @@ logon_start_desc = "Cette tâche démarre %p si l'utilisateur indiqué ci dessou
 show_home_dir = "Afficher le répertoire Home";
 publish_file = "Publier le Fichier";
 user_administration = "Administration des Utilisateurs";
+disable_uploads = "Désactiver les téléchargements montants (uploads)";
+enable_uploads = "Activer les téléchargements montants (uploads)";
+publish_file_for_download = "Publier les fichiers pour le téléchargement";
+upload_url_to_clipboard = "Copier l'URL dans le presse-papiers";
 
 / pnet connectivity test
 connectivity_test = "Test de Connection";
@@ -220,6 +224,12 @@ translator_msg = "Traduction française réalisée pour cFos Software GmbH\n\n"
                         "Gilles Cellier";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Votre licence de %3 expire le %1 %2.";
+version_mismatch = "Les versions sont différentes entre le pilote et la fenêtre de programme.\n"
+   "\n"
+   "Daemon=%1\n"
+   "Driver=%2\n"
+   "\n"
+   "Merci de redémarrer et si ça ne solutionne pas le problème, réinstaller %p!\n";
 
 service_desc = "Mesure les temps de latence (ping) et les opérations privilégiées pour %p";
 no_pings_error = "Le test de paquets ping envoyé par %p a échoué.\nSans ces paquets, la Régulation dynamique de flux réseau (Traffic Shaping) %p ne peut pas fonctionner correctement.\nCliquez ici pour obtenir de l'aide.";
@@ -349,6 +359,7 @@ traffic_shaping = "Régulation dynamique de flux réseau (Traffic Shaping)";
 ras_con_help = "<b>Oui&nbsp;</b>: activer, <b>non&nbsp;</b>: désactiver, <b>demander</b>: demander seulement cette fois et sauvegarder les paramètres";
 router_connections = "Connexions du routeur";
 net_components = "Composants Réseaux";
+auto = "Auto";
 router_help = "<b>oui&nbsp;</b>: activer, <b>non&nbsp;</b>: désactiver, <b>auto&nbsp;</b>: activer la Régulation dynamique de flux réseau (Traffic Shaping), si un routeur est trouvé sur l’adaptateur réseau";
 network_adapter = "Adaptateur Réseau";
 router = "Routeur";
@@ -540,6 +551,7 @@ prioritize_foreground_process = "Prioriser les processus des fenêtres en premie
 prioritize_foreground_help = "Mettre automatiquement les processus des fenêtres en premier plan en priorité haute.";
 upnp_router_info = "Utilise les statistiques du routeur UPnP";
 upnp_router_info_help = "Utilise les statistiques du routeur UPnP pour déterminer si possible la vitesse et la Régulation dynamique de flux réseau (Traffic Shaping) de la ligne. Vous devrez certainement activer l'UPnP de votre routeur.";
+ping_stats = "Statistiques de Ping";
 
 
 / ----------------------------------------------------------------------
@@ -916,6 +928,7 @@ virtual_wifi_stopped = "Le Wi-Fi Virtuel s'est arrêté avec succès.";
 virtual_wifi_dialup_ics = "Pour une connexion par modem/ligne commutée vous devez activer manuellement le partage de connection Internet en modifiant les propriétés de cette connection.";
 virtual_wifi_error_not_present = "Aucune interface Wi-Fi (prête) trouvée.\n\nPour configurer un Wi-Fi Virtuel, une interface Wi-Fi doit être présente et prête à fonctionner.";
 virtual_wifi_autostart = "Démarrer automatiquement au démarrage système.";
+virtual_wifi_deactivate_autostart = "Désactiver le démarrage automatique aussi lors du démarrage du système.";
 
 
 / !!! DO NOT TRANSLATE !!!
