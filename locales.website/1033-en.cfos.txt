@@ -728,6 +728,7 @@ pnet_doc_misc_p4a = "In case you have to modify your certificates, you need to r
 pnet_doc_misc_p5 = "To use an existing SSL certificate you need to make sure it is in a Windows compatible format. For example, if you have a certificate from a unix system it may be a .PEM file. Download openssl and use the following command to convert it:";
 pnet_doc_misc_p5a = "where <em>mycert.cer</em> is your certificate and <em>ca1.cer</em> and <em>ca2.cer</em> (and <em>ca3.cer</em>, etc.) are 2 intermediate CA certificates required for the chain of trust.";
 pnet_doc_misc_p6 = "<em>mycert.cer</em> must be in x.509 format. You can use openssl to convert it to x.509 format if necessary. The output <em>mycert.pfx</em> is in the pkcs#12 format which Windows can read.";
+/. Explanation of `snap-in`: http://en.wikipedia.org/wiki/Microsoft_Management_Console
 pnet_doc_misc_l1 = "Now start MMC, file -> add/remove snap-in -> certificates -> computer account -> local computer, then: \"view personal certificates\" and view certificates. Right-click -> all tasks -> import and import <em>mycert.pfx</em>.";
 pnet_doc_misc_l1a = "You also need to import the certificate(s) into \"Intermediate Certification Authorities -> Certificates\". Otherwise no trust chain will be transmitted by the server, see <a class=\"inline\" href=\"http://support.microsoft.com/kb/954755\">http://support.microsoft.com/kb/954755</a>";
 pnet_doc_misc_l2 = "View the thumbprint of your imported certificate and enter the following command:<br/><br/>netsh http add sslcert ipport=0.0.0.0:443 certhash=<b>&lt;certhash&gt;</b> appid={a227f2f9-d103-4e0f-92a4-7086c8ab35ac}.<br/><br/>As <b>&lt;certhash&gt;</b> you need to use the thumbprint without spaces.";
@@ -869,6 +870,7 @@ li_text_sessions = "Multiple sessions, no limit for the number of connections";
 
 / cFos
 cfos_html_h1 = "DSL and ISDN dial-in driver with Traffic Shaping";
+/. Part of page's title (in name of the tab in web browser)
 cfos_professional_title = "cFos, Dial-Up &amp; Acceleration for DSL &amp; ISDN";
 link_text_0190 = "0190er Blocker";
 link_text_budget = "Online counter";
@@ -882,6 +884,9 @@ link_text_what_is_cfos = "What is cFos/Professional?";
 hrping_title = "<span class=\"product\">hrPing</span> - High-precision ping utility";
 hrping_p1 = "You can do much more with hrPing than with Windows Ping.";
 hrping_l1 = "Graphical display of ping results";
+/. `usec` stands for `microsecond`.
+/. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
+/. In other words, means accuracy of the measurement
 hrping_l2 = "Uses high resolution timers, so ping times are accurate to the usec";
 hrping_l3 = "Can ping as well with UDP packets or ICMP timestamp messages";
 hrping_l4 = "Times and handles ICMP error replies as well";
@@ -889,6 +894,7 @@ hrping_l5 = "Can have multiple pings \"in-flight\", no need to wait for a reply 
 hrping_l6 = "Improved statistics";
 hrping_l7 = "Size sweep: Send increasing packet sizes";
 hrping_l8 = "Can show only a summary of results";
+/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic
 hrping_l9 = "Is a Traceroute and a Pathping as well";
 
 
@@ -1536,21 +1542,32 @@ sp_doc_games_p1 = "Traffic Shaping technology does keep ping times low and trans
 sp_doc_games_p2 = "Still, to achieve optimal ping times, you should prioritize your game(s) as high as possible. You will find that we have already listed some of the currently most popular games under Program Settings. Should your game not be among the ones listed there, you can simply add it to the list.";
 sp_doc_games_p3 = "You can also <a href=\"/en/contact/priopost.htm\">let us know</a> what online games you would like to have included on that list for future updates as well.";
 sp_doc_games_p4 = "Please be careful to prioritize as few data and programs as possible in such a manner. This is because if you were to assign high priority to everything, you would be no better off than having nothing prioritized at all.";
+// `[filter]` and name of file shouldn't be translated
 sp_doc_games_p5 = "Alternatively, should the program name itself not be clear, you can also prioritize the ports used by the online game. If the TCP/UDP destination ports of an application are known, you can prioritize their data transfer as follows (by editing the [filter] section of the settings.ini file):";
 sp_doc_games_p6 = "For TCP ports:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high";
 sp_doc_games_p7 = "For UDP ports:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high";
 sp_doc_games_p8 = "After making those changes and saving them, the new settings still need to be loaded. This is done by opening the console (under Start, Program, cFosSpeed) and entering \"spd reload\". Your changes will take (and remain in) effect after the next time you restart your system.";
 sp_doc_games_a1 = "cFosSpeed-Filter Manual (English)";
 sp_doc_games_a2 = "DSL connection settings";
+/: https://www.cfos.de/en/cfosspeed/documentation/games.htm
+/. Used as alternate text for image
 sp_doc_games_a3 = "Display favor ping";
 sp_doc_games_a4 = "Dialog for program prioritization";
 sp_doc_games_t1 = "Optimizing Connection Settings:";
+/. Connections types untranslatable in our software, so they shouldn't be translated here either (`Adaptive`)
 sp_doc_games_p9 = "You can specify exactly what transfer medium you use under Connection Settings. The more information about a connection is available to cFos or cFosSpeed, the better ping times will be. Default is \"Adaptive\". But if you were for instance using a DSL connection, you should select the appropriate DSL standard or protocol as your medium.";
 sp_doc_games_t2 = "Favor Ping:";
+/. `Favor Ping` is translatable in our software, so it should be translated here too.
+/. Ensure in consistent translation across website and software, by checking
+/. translation of cFosSpeed's into your language.
+/. Look here for your locale https://github.com/cFos/l10n/blob/master/locales.software/
+/. and then search for key `favor_ping`
 sp_doc_games_p10 = "In addition, you can also use the settings in the context menu or status window to activate \"Favor Ping\". A green arrow will then show up on the status window. This setting will have cFos or cFosSpeed do everything to keep ping times to a minimum but at the expense of transfer speed, which may slow down considerably.";
 sp_doc_games_t3 = "Playing While Downloading:";
 sp_doc_games_p11 = "If you are playing a game online without Traffic Shaping and run an upload or download at the same time, ping times to your gameserver will rise. Less data traffic means better (i.e., lower) ping.  Especially with filesharing programs and other applications that send out lots of data, ping times often skyrocket resulting in serious lag. This will also slow down your in-game reaction time horrendously.";
 sp_doc_games_p12 = "Traffic Shaping alleviates this problem by allowing filesharing and downloads to run in the background while gaming. This may still raise ping times minimally though. Therefore, we recommend you to keep \"Favor Ping\" activated at such times. By default, filesharing programs are set to very low priority. Now, this should not be taken to mean they are artificially slowed or even altogether stalled. What it does mean, however, is that such data will be briefly delayed when more important data like online game traffic needs to be transmitted. Only this priority scheme makes it possible to have filesharing programs run at maximum transfer rates while still using the same connection for other applications at the same time.";
+/: http://www.cfos.de/en/cfosspeed/documentation/index.htm
+/. Used as  section title
 sp_doc_index = "Program handling";
 sp_doc_installation = "Installation / Registration";
 sp_doc_install_title = "Installation / Registration / Uninstall";
@@ -1578,6 +1595,8 @@ sp_doc_led_p1 = "cFosSpeed can use the Num Lock and Scroll Lock LEDs to display 
 sp_doc_led_dd1 = "off, fair = slow blink, bad = fast blink<br/>warns you if the ping time is too high";
 sp_doc_led_dd2 = "fast blinking as packets are counted<br/>informs you about any traffic to/from the internet";
 sp_doc_led_dd3 = "fast blink when a TX packet is prioritized<br/>one of the ways to indicate the effects of Traffic Shaping";
+/: http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm
+/. `total_rx_speed` and `total_tx_speed` shouldn't be translated, since those are actual values names
 sp_doc_led_dd4 = "maximum of total_rx_speed and total_tx_speed, 0-32%: off, 33-65%: slow blink, 66-98%: fast blink 99-100%: on<br/>informs you, when you or another user / application uses (too) much bandwidth";
 sp_doc_led_dd5 = "fast blink whenever the sum of TCP and UDP connections changes<br/>you stay informed if some new connection is established";
 sp_doc_led_dd6 = "0-15ms: off, 16-127ms: slow blink, 128-511ms: fast blink, 512ms or more: on<br/>informs you if line conditions (e.g. mobile connections) cause high ping variance";
@@ -1592,8 +1611,10 @@ sp_doc_logi_h1 = "Logitech skins on YouTube";
 sp_doc_logi_h2 = "Logitech keyboard detection";
 sp_doc_logi_p3 = "Both cfosspeed.exe and the Logitech Gaming Software are auto-started when Windows starts. If cFosSpeed runs before the Logitech Gaming Software the keyboard may not be detected. In such a case you can either use the \"detect\" option in the cFosSpeed menu for the Logitech keyboards or you can modify <em>c:\\ProgramData\\cFos\\cfosspeed\\global.ini</em>, section [All] and insert <b>startup_delay=x</b> where x is the number of seconds cFosSpeed should wait before starting the status window.";
 sp_doc_p2p_t1 = "Traffic Shaping for Filesharing (P2P)";
+/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p1 = "Thanks to cFosSpeed Traffic Shaping, you can finally use the full upstream bandwidth (with eMule, Kazaa or Bittorrent etc.) and make it available to other filenet users - without adversely affecting other Internet applications.";
 sp_doc_p2p_t2 = "The problems with filesharing software";
+/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p2 = "Running filesharing programs (like eMule, Kazaa or Bittorrent) will usually take up most if not all upstream channel bandwidth, which leaves the connection prone to high ping times. Not only does this mean filesharing communication itself will run slowly (source requests may take a full 1 or 2 seconds rather than just a few milliseconds), but it will also choke other Internet applications to a crawl. By the same token, download rates may plummet, since TCP ACKs are not being sent out in time. The browser will also become noticeably less responsive while surfing the Net.";
 sp_doc_p2p_p3 = "A popular workaround offered by many filesharing programs is to put an artificial cap on the upload rate. ";
 sp_doc_p2p_p4 = "However, if you are simultaneously running a mail upload in addition to a filesharing upload, both will compete for available upstream bandwidth. How much bandwidth each of these uploads will eventually receive is basically left to happenstance. In some cases, this may even lead to termination of all TCP connections (TCP connection starving).";
@@ -1602,9 +1623,13 @@ sp_doc_p2p_p5 = "The priority scheme integrated in cFos and cFosSpeed (re)organi
 sp_doc_p2p_p6 = "For instance, if you have a filesharing program running in the background when surfing the Net, there will only be a brief, minimal slowdown in P2P traffic while a new page is being loaded. Likewise, when sending out longer e-mails, P2P upload rates may briefly drop somewhat while the mail is being transmitted. Once the mail is sent, all uploads will continue at full speed again. The only alternatives would be to postpone transmission of the mail \"forever\" or artificially limit transfer bandwidth for filesharing somehow. But this would also mean a loss of bandwidth even when no other application is using the same connection.";
 sp_doc_p2p_p7 = "cFosSpeed is thus optimized for use with filesharing (p2p) software, allowing users to have such a program run in the background without noticing its regular Internet activity.";
 sp_doc_p2p_p8 = "Therefore, we suggest setting Kazaa etc. to \"unlimited upload\" while deactivating the \"speed sense\" option, since cFosSpeed will already optimize Internet traffic anyway.";
+/: https://www.cfos.de/en/cfosspeed/documentation/p2p.htm
+/. it's referring to system tray icon and special skin for it.
+/. Note that particularly that string refers not to actual skin, but just used as title, to highlight that "there is icon skin for cFosSpeed"
 sp_doc_p2p_t4 = "Icon skin";
 sp_doc_p2p_p9 = "Since most users have their filesharing programs run 24 hours a day, cFosSpeed comes with its own icon skin for this, making it possible to keep track of the connection without needing to have a separate status window open at all times.";
 sp_doc_p2p_t5 = "Prioritization:";
+/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p10 = "Quite a few users have one PC set aside specifically for filesharing and route P2P traffic (e.g., via Internet Connection Sharing) through a main computer directly hooked up to the Internet. In this case, the Layer-7 Protocol Detection integrated in cFos and cFosSpeed permits prioritization of the most important P2P networks like BitTorrent, eDonkey 2000 (eMule, etc.), Kazaa, Gnutella(2), Kademlia, and Direct Connect.";
 sp_doc_p2p_t6 = "Prioritizing Programs:";
 sp_doc_p2p_p11 = "cFos and cFosSpeed also permit prioritizing programs by their name. Many of the most important programs have already been included in our program setting list. This way of prioritizing is especially useful when the Layer-7 detection cannot recognize and assign data properly (as would, for instance, be the case with encrypted P2P traffic).";
@@ -1612,12 +1637,16 @@ sp_doc_performance = "Performance";
 sp_doc_phone_skins_title = "cFosSpeed skins on your phone or tablet";
 sp_doc_phone_skins_h1 = "Display traffic shaping statistics on your phone";
 sp_doc_phone_skins_p1 = "Beginning with v9.05 build 2090 cFosSpeed has a build-in web server, so you can display the status window on your phone or tablet, instead of your desktop. This is especially helpful for fullscreen applications like games or videos. Here is how to configure it:";
+/. While translating `\"Options/Settings\"` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_doc_phone_skins_l1 = "Start \"Options/Settings\" from the cFosSpeed context menu and set a server password in the \"Preferences/Enable Phone Skins\" dialog. The web server will need authorization if you access it from another machine than your local computer.";
 sp_doc_phone_skins_l2 = "Open the context menu and select the first option (<b>cFosSpeed vX.XX...</b>) to display your local <b>IP addresses</b>.";
 sp_doc_phone_skins_l3 = "Open the browser on your phone or tablet and enter the following address: <b>http://[Your IP address]:1487/cfosspeed/skin.htm</b>. <b>[Your IP address]</b> is usually the first listed address from step 2, but you can try all others if the first doesn't work.";
 sp_doc_phone_skins_l4 = "Now fill the authentification dialog with \"<b>cfosspeed</b>\" as username and the server password you configured under \"Preferences/Enable Phone Skins\" as password.";
 sp_doc_phone_skins_a1 = "Your IP address in the cFosSpeed context menu";
+/: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
+/. Title of one of pictures
 sp_doc_phone_skins_a2 = "Set password for Phone Skins";
+/.  Title of picture with demo of cFosSpeed Phone Skin
 sp_doc_phone_skins_a3 = "cFosSpeed Phone Skins live shot";
 sp_doc_phone_skins_a4 = "cFosSpeed Phone Skins on a <a class=\"inline\" href=\"http://www.fairphone.com\"><b>Fairphone</b></a>";
 sp_doc_phone_skins_p2 = "<b>Note</b>: You need Windows 7 or higher to use the built-in web server.";
@@ -1626,6 +1655,7 @@ sp_doc_prioliste = "Priority list: ";
 sp_doc_priorliste_content = "List of prioritizable applications";
 sp_doc_prio_title = "Program prioritization";
 sp_doc_prio_p1 = "<b>Hint</b>:<br />Prioritization will work properly only if as little data as possible is given high priority. Give programs sending out large amounts of data low priority.";
+/. `UNKNOWN` shouldn't be translated, since it's not translatable protocol name, used in our software
 sp_doc_prio_p2 = "First cFosSpeed tries to detect the Layer 7 Protocol for each connection. If it is not detected (i.e. the protocol is UNKNOWN) or the priority of the detected protocol is \"normal\", then the program detection is used to determine the priority.";
 sp_doc_prio_p3 = "A special case is the HTTP stream detection. If the detected protocol is HTTP, cFosSpeed tries to detect, if it is a video or audio stream. This works as follows:";
 sp_doc_prio_p4 = "If the user agent is one of the well-known players or has the substring \"player\" in it, cFosSpeed categorizes the connection as HTTP_STREAM_C or HTTP_STREAM_S. Otherwise if the content-type is audio or video it categorizes the connection as BSTREAM_C or BSTREAM_S. The BSTREAM_C/S connections are prioritized as \"normal\" so that the actual priority is determined by the program prioritization.<br /> This allows you, for example in uncertain cases, to prioritize it according to your program use.";
@@ -1723,10 +1753,18 @@ sp_doc_status_slot = "The slot graphs show the current transfer rates as percent
 sp_doc_status_slots = "The slots";
 sp_doc_status_standard = "The standard skin has been designed to track the data stream graphically.";
 sp_doc_status_states = "You can switch between the 3 states of the Icon Skin and point out different Displays. The position of the switch is in the middle of the skin (see picture).";
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis.htm
+/: http://www.cfos.de/en/cfosspeed/documentation/status.htm
+/. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_switch = "Switch between normal and large skin version";
 sp_doc_status_switch2 = "Switch: Large skin > normal skin > icon skin";
 sp_doc_status_switching = "Switching between Graphical and Numerical Display of the Default Skin:";
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
+/. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_systray = "Traffic Analysis Icon Skin in Windows Systray";
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
+/. Used as alternative text for clickable icon-buttons in sidebar at mentioned above and on similar pages
+/. You won't see it, since it displayed only if browser can't download images
 sp_doc_status_thumb_down = "Thumb down";
 sp_doc_status_thumb_up = "Thumb up";
 sp_doc_status_times = "Ping times are represented by green, yellow, or red waves in the standard skin's graphical display. Actual ping times depend in significant part on the number of simultaneous up- and downloads. If this number rises, latency will likely increase as well.";
@@ -1745,6 +1783,10 @@ sp_doc_status_utr = "Upload transfer rate in %";
 sp_doc_status_variance = "Variance of ping time";
 sp_doc_status_vertical = "The vertical bar graphs scrolling from the right to the left show the history of transfer as percentage of the maximum reached up-/download transfer rate since the last installation or calibration of cFosSpeed. The total and local transfer rates are related to running cFosSpeed in multi-user mode. Local shows the transfer rates for the current computer only, while total - the amount of traffic within the local network.<br /><br />The other display methods are the same as in the Liquid Crystal History skin.";
 sp_doc_status_wave = "Ping-time wave display";
+/: http://www.cfos.de/en/cfosspeed/documentation/status-aquarium.htm
+/. Usead as starting word for explaining labels of cFosSpeed skins elements
+/= Switch: Transfer rate in %
+/= Switch: Number of TCP/UDP connections
 sp_doc_status_word = "Switch";
 sp_doc_surf_p1 = "HTTP detection integrated in cFos and cFosSpeed serves to accelerate page loading times, especially during simultaneous uploads. A comparison of loading times for www.greenpeace.org and www.amazon.com is available at <a href=\"/en/traffic-shaping/traffic-shaping.htm\">http://www.cfos.de/en/traffic-shaping/traffic-shaping.htm</a>. Acceleration gains are higher the more individual elements need to be loaded on a given Web page.";
 sp_doc_surf_p2 = "If you are surfing a lot of pages (without major downloads), you may want to use the settings in the context menu or status window to activate \"Favor Ping\". A green arrow will then show up on the status window. This setting will have cFos or cFosSpeed do everything to keep ping times to a minimum but at the expense of transfer speed, which may slow down considerably. However, depending on what application you are running, this may speed up loading Web pages even further.";
@@ -1752,6 +1794,7 @@ sp_doc_surf_t1 = "Other Interactive Applications:";
 sp_doc_surf_p3 = "Both cFos and cFosSpeed come with integrated detection for major interactive applications like SSL, SSH, Telnet, IRC, and many others. This ensures low response times even during long uploads and downloads.";
 sp_doc_surf_p4 = "Should the standard priority scheme under Protocol Settings not be sufficient for your purposes, you can always prioritize any application either by name under \"Program Settings\" or add its port manually to the filter rules. This is especially advisable when running a server. ";
 sp_doc_surf_p5 = "If the ports are known, you can prioritize their data transfer as follows (by editing the [filter] section of the settings.ini file):";
+/. Part after colon shouldn't be translated, since it's code from configuration file
 sp_doc_surf_p6 = "For TCP ports:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high<br />; source port=5678<br />filter=-tcp-sport 5678 -c high";
 sp_doc_surf_p7 = "<br />For UDP ports:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high<br />; source port=5678<br />filter=-udp-sport 5678 -c high";
 sp_doc_surf_t2 = "Surfing and Filesharing (P2P):";
@@ -1765,6 +1808,8 @@ sp_doc_voip_p5 = "VoIP connections usually suffer from dropouts when downloads a
 sp_doc_voip_t2 = "Skype:";
 sp_doc_voip_p6 = "Skype employs a proprietary encrypted protocol that cannot be detected by a Layer-7 analysis without considerable effort. To allow users to prioritize Skype nevertheless, we have entered it in our program list.";
 sp_doc_voip_t3 = "VoIP via Router Prioritization:";
+/. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
+/. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
 sp_doc_voip_p7 = "Some routers (like the Fritz!Box) are equipped with phone jacks installed on the device. If a jack is used, all VoIP data will be transmitted directly to the Internet passing cFos and cFosSpeed by entirely. The major drawback here is that to avoid dropout, such routers restrict the available bandwidth drastically whenever a VoIP call is made or accepted. This may have a negative impact on Traffic Shaping performance, since this also means the connection is repeatedly subject to strong variations in speed. This is why we recommend you make all VoIP calls from your computer itself to allow cFos and/or cFosSpeed to detect and prioritize them. If you although want to phone via your router, then switch to \"variable (cooperative)\" via <samp>Options/Connections</samp> using the tool button.";
 sp_doc_voip_t4 = "VoIP Software in use with cFosSpeed";
 sp_doc_voip_t5 = "Measurements with IxChariot";
@@ -1791,6 +1836,7 @@ sp_doc_wlan_p6a = "When the PC is used as a Wi-Fi access point, it also uses Int
 sp_doc_wlan_p6b = "This address verification can take several seconds which is too long for some devices, so they timeout and cannot get the assigned IP address. We therefore added a workaround for such devices. To activate it you need to use the following command in the console:";
 sp_doc_wlan_p6c = "This causes cFosSpeed to interfere with the DHCP negotiation to send the IP address assignment faster.";
 sp_news_t = "Latest news regarding cFosSpeed";
+/. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_news_p1 = "cFosSpeed checks every 2 days if there is program news. If there is, it displays the mail symbol in the status window and opens this web page when clicked. This feature is on by default. If you are not interested in program news, you can turn it off in the context menu under \"Options\".";
 sp_news_p2 = "We will post news only a few times per year.";
 sp_news_h0 = "cFosSpeed news";
@@ -2297,6 +2343,7 @@ speed_guide_p11e = "For a higher download speed:";
 speed_guide_q11 = "Did this help?";
 speed_guide_p12a = "There are (rare) cases when cFosSpeed RX shaping reduces the download speed.<br/>To solve this problem try the following in the <b class=\"speed_console\">cFosSpeed Console</b>:";
 speed_guide_p12b = "There are also (rare) cases where the packet loss of your connection confuses cFosSpeed's Traffic Shaping.<br/>To solve this problem try the following in the <b class=\"speed_console\">cFosSpeed Console</b>:";
+/. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p13a = "Sometimes the speed measurements drifts over time because there is always an extreme amount of connections and a lot of UDP traffic. This can happen in some BitTorrent cases. Calibration works fine, but after a while the connections become slower and slower.";
 speed_guide_p13b = "Only in such cases you can set the speed to fixed:";
 speed_guide_l13a = "Get the current values by using the <b class=\"speed_console\">cFosSpeed Console</b>:";
@@ -2308,6 +2355,7 @@ speed_guide_q14 = "Low latency Mode active?";
 speed_guide_a14 = "Try to turn it on:";
 speed_guide_p15 = "Maybe the high ping times are caused by the server at the other end of the connection. This often happens with game servers. cFosSpeed cannot reduce your ping below the minimum which is determined by your connection / ISP. Whenever you use several connections simultaneously cFosSpeed can reduce the ping time and prioritize your traffic so that you get near minimum ping times while still using nearly all available bandwidth. This allow, for example, uploads / downloads during VoIP calls or online gameplay.";
 speed_guide_l15a = "Uninstall cFosSpeed or disable Traffic Shaping";
+/. `try both` here refers to `speed_guide_l15a` language key, which suggests to `Uninstall cFosSpeed or disable Traffic Shaping`
 speed_guide_l15b = "Download <a target=\"_blank\" href=\"http://www.cfos.de/en/download/download.htm#hrping\">hrping</a> and - without any other traffic on your connection - try both";
 speed_guide_q15 = "Is the ping time still high?";
 speed_guide_a15 = "Tip: For DSL connections use fastpath. WLAN typically has higher ping times as cable based networks. Mobile Internet may cause additional delay due to bad transfer conditions and/or congestion of the access point.";
@@ -2321,6 +2369,7 @@ speed_guide_q18 = "Is the ping time better now?";
 speed_guide_p19 = "Some equipment interferes with TCP transmissions. For example some drivers for Atheros WLAN adapters may cause high pings with downloads. Please install the most recent network drivers. For a test, use another network adapter and see if pings times are still high during downloads.";
 speed_guide_q19 = "New drivers / other network card helped?";
 speed_guide_p20a = "Is your cFosSpeed set to fixed speeds? Check this by typing the following into the <b class=\"speed_console\">cFosSpeed Console</b>:";
+/. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p20b = "It should be 0, except for rare cases with a lot of BitTorrent connections and high UDP traffic.";
 speed_guide_p20c = "If your cFosSpeed line calibration remains stable, you should set it to 0:";
 speed_guide_p20d = "or use smaller values for the fixed speed (try reducing the speed in 1% steps).";
@@ -2524,6 +2573,7 @@ cfosspeed_documentation_no_ping_desc = "What you can do if cFosSpeed does not re
 cfosspeed_documentation_phone_skins_desc = "How to use your cell phone or tablet for status indication if your computer is in fullscreen mode.";
 cfosspeed_documentation_prog_prio_desc = "How the prioritization scheme works.";
 cfosspeed_documentation_keyboard_leds_desc = "How to use the keyboard LEDs for status indication if your computer is in fullscreen mode.";
+/. `BitTorrent` — name of the protocol, not of the program
 cfosspeed_documentation_p2p_desc = "How to configure cFosSpeed for optimal performance with P2P filesharing networks, like Bittorrent, E2K, etc.";
 cfosspeed_documentation_logitech_keyboard_desc = "How to use the display of the Logitech Gamer keyboards for cFosSpeed status information. G19, G15, G13, G510 and compatible models.";
 cfosspeed_documentation_wlan_access_point_desc = "How to use cFosSpeed to turn your Windows PC into a WLAN access point for smartphones, tablets and other devices.";
