@@ -721,6 +721,7 @@ cfout_p1b = "L'actuelle pre-release <b>gratuite</b> fonctionnera jusqu'au <b>31 
 cfout_p1b_v2 = "L'actuelle pre-release <b>gratuite</b> fonctionnera jusqu'au <b>28 Février 2014</b>.";
 cfout_p1b_v3 = "L'actuelle pre-release <b>gratuite</b> fonctionnera jusqu'au <b>1er Juin 2014</b>.";
 cfout_p1b_v4 = "L'actuelle version <b>gratuite</b> est active jusqu'au <b>1er juin 2015</b>.";
+cfout_p1b_v5 = "La version actuelle et <b>gratuite</b> sera active jusqu'au <b>31 décembre 2015</b>.";
 cfout_p1c = "L'actuelle pre-release ne prend pas en charge les pièces jointes pour les évènements du calendrier.";
 cfout_p1d = "La release finale sera disponible pour environ 10 Euros.";
 cfout_a1 = "Télécharger cFos Outlook DAV";
@@ -1077,6 +1078,7 @@ uninst_assess_speed = "Comment jugez-vous les composants de cFosSpeed<span class
 uninst_dontlike = "Je n'aime pas";
 uninst_likemuch = "J'aime bien";
 uninst_asrock = "J'utilise ASRock XFAST LAN";
+uninst_asrock_order = "Vous pouvez aussi obtenir une <a onclick=\"cfos.set_event('speed_feedback', 'asrock_order'); return true;\" href=\"/en/order/cfosspeed-n.htm\"><b>licence à vie de cFosSpeed</b>.</a> Les possesseurs d'une licence à vie de cFosSpeed ont toujours un accès immédiat aux nouvelles fonctionnalités, les amélioration de vitesses et les versions Béta / Pré-versions.";
 uninst_asrock_order_start = "Visitez la page d'achat de cFosSpeed";
 uninst_dump_help_start = "Que faire en cas d'un écran bleu ?";
 uninst_install_help_start1 = "Difficultés pour installer cFosSpeed<span class=\"asus\"> / ROG GameFirst II / Turbo LAN</span>";
