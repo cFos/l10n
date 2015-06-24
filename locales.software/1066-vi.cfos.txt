@@ -34,7 +34,7 @@ htm_lang_prefix = "vi";
 / ----------------------------------------------------------------------
 
 ignore_ssl_cert_chk = "Bỏ qua lỗi chứng chỉ SSL (không an toàn)";
-ignore_ssl_cert_desc = "Nếu cFos Outlook DAV được phép bỏ qua lỗi chứng chỉ SSL, nó có thể kết nối đến các máy chủ với giấy chứng nhận SSL không an toàn, ví dụ giấy chứng nhận tự ký. Kích hoạt tùy chọn này thường không được khuyến khích, bởi vì nó làm cho một kết nối SSL dễ bị tấn công man-in-the-middle.";
+ignore_ssl_cert_desc = "Nếu cFos Outlook DAV được phép bỏ qua lỗi chứng chỉ SSL, nó có thể kết nối đến các máy chủ với giấy chứng nhận SSL không an toàn, ví dụ giấy chứng nhận tự ký. Kích hoạt tùy chọn này thường không được khuyến khích, bởi vì nó làm cho một kết nối SSL dễ bị tấn công can thiệp trung gian.";
 
 / ----------------------------------------------------------------------
 /
@@ -87,7 +87,7 @@ con_dns2 = "DNS2:";
 con_enabled = "kích hoạt";
 
 / pnet configuration dialog
-pnet_header = "Các thiết lặp chung";
+pnet_header = "Các thiết lập chung";
 pnet_subheader = "Điều chỉnh các thiết lập chung.";
 pnet_conn_header = "Kết nối";
 pnet_conn_subheader = "Thiết lập tùy chọn kết nối.";
@@ -100,9 +100,9 @@ smtp_header = "Máy chủ SMTP";
 smtp_subheader = "Cấu hình máy chủ SMTP.";
 dynip_header = "Máy chủ IP động";
 dynip_subheader = "Cấu hình máy chủ IP động";
-dlg_start_now_as_current_user = "Bắt đầu %p bây giờ là người dùng hiện tại";
+dlg_start_now_as_current_user = "Bắt đầu %p bây giờ bằng tài khoản người dùng hiện tại";
 dlg_autostart = "Khởi động %p khi Windows khởi động";
-dlg_autostart_service = "Cài đặt %p như là dịch vụ hệ thống và bắt đầu nó khi Windows khởi động";
+dlg_autostart_service = "Cài đặt %p như là dịch vụ hệ thống và cho khởi động cùng Windows";
 dlg_context_menu = "Thêm mục trình đơn ngữ cảnh trong Windows Explorer";
 dlg_create_admin_account = "Tạo tài khoản quản trị viên";
 dlg_admin_pwd = "Mật khẩu cho người dùng \"quản trị viên\":";
@@ -129,7 +129,7 @@ pnet_start_manual = "thủ công";
 pnet_start_info = "Nó được khuyến khích để bắt đầu %p tự động nếu bạn đăng nhập vào. "
                   "Nếu %p cũng chạy khi không có người dùng đăng nhập vào, bạn phải bắt đầu nó như là hệ thống dịch vụ. "
                   "Tuy nhiên trong trường hợp đó sẽ không có biểu tượng thanh tác vụ và không có menu ngữ cảnh. "
-                  "Nếu bạn chỉ thỉnh thoảng chia sẻ dữ liệu công cộng, sau đó bắt đầu %p bằng tay.";
+                  "Nếu bạn chỉ thỉnh thoảng chia sẻ dữ liệu công cộng, vậy hãy chọn bắt đầu %p thủ công.";
 
 / pnet context menu entry
 publish_with_product = "Công khai với %p";
@@ -140,8 +140,8 @@ dlg_backup_info = "Một tập tin sao lưu (.bak) đã được tạo ra của 
 / pnet
 end_program = "Kết thúc chương trình";
 file_copy_failed = "Sao chép tập tin thất bại.";
-ipv4_bind_problem = "Máy chủ không thể lắng nghe những quy định với cổng IPv4, bởi vì nó được sử dụng bởi một ứng dụng khác (ví dụ như Skype).";
-ipv6_bind_problem = "Máy chủ không thể lắng nghe những quy định với cổng IPv6, bởi vì nó được sử dụng bởi một ứng dụng khác (ví dụ như Skype).";
+ipv4_bind_problem = "Máy chủ không thể nhận được tín hiệu từ một cổng cụ thể qua IPv4, bởi vì nó được sử dụng bởi một ứng dụng khác (ví dụ như Skype).";
+ipv6_bind_problem = "Máy chủ không thể nhận được tín hiệu từ một cổng cụ thể qua IPv6, bởi vì nó được sử dụng bởi một ứng dụng khác (ví dụ như Skype).";
 closing_server = "Máy chủ đang đóng.";
 start_product = "Bắt đầu %p";
 info_port_in_use = "Cổng %? cần thiết bởi %p được sử dụng bởi một chương trình khác.\n\nChương trình: %?\nĐường dẫn: %?\n\n"
@@ -156,7 +156,7 @@ user_administration = "Quản trị viên";
 connectivity_test = "Kiểm tra kết nối";
 con_test_subheader = "Hãy đợi cho đến khi quá trình kiểm tra kết nối đã hoàn tất.";
 con_test = "%p kiểm tra kết nối";
-con_test_not_running = "Kiểm tra kết nối không được thực hiện, kể từ khi %p không chạy. Hãy bắt đầu %p và thử kết nối lại.";
+con_test_not_running = "Kiểm tra kết nối không được thực hiện do %p không chạy. Hãy bắt đầu %p và thử kết nối lại.";
 con_test_public_fail = "Địa chỉ IP công cộng của bạn không thể xác định. Hãy chắc chắn rằng bạn đã kết nối với Internet và sau đó xin vui lòng thử lại.";
 con_test_execute = "Thực hiện kiểm tra kết nối";
 
@@ -173,7 +173,7 @@ ga_password_subheader = "Mật khẩu để truy cập từ bên ngoài cho cFos
 ga_password_info = "Tên người dùng: cfosspeed";
 ga_call_info = "Truy cập cFos Game Analyzer từ máy tính của bạn với\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nTruy cập cFos Game Analyzer từ một thiết bị bên ngoài với mật khẩu ở trên và sử dụng một trong các địa chỉ IP sau thay vì 'localhost':\n";
 ga_detected_by_speed = "Phát hiện một phiên bản của cFos Game Analyzer đã được cài đặt. cFosSpeed ​​đã có tất cả các tính năng của cFos Game Analyzer.\n\nNếu bạn tiếp tục, cFos Game Analyzer sẽ được gỡ bỏ trước khi cài đặt cFosSpeed​​.\n\nBạn có muốn tiếp tục không?";
-ga_use_password_by_speed = "Có nên để cFosSpeed ​​sử dụng mật khẩu của cFos Game Analyzer, nếu thế bạn có thể truy cập cFosSpeed từ các thiết bị khác?";
+ga_use_password_by_speed = "Có nên để cFosSpeed ​​sử dụng mật khẩu của cFos Game Analyzer, nếu thế, bạn có thể truy cập cFosSpeed từ các thiết bị khác?";
 
 / ----------------------------------------------------------------------
 /
@@ -208,13 +208,13 @@ badkey = "Có vấn đề với khóa đăng ký.\nVui lòng cài đặ
 no_setup = "Không thể bắt đầu cài đặt (setup.exe).";
 no_cmd = "Không thể mở Command Prompt (cmd.exe)!";
 ask_disconnect_ras = "Một kết nối đang kích hoạt hiện tại cần được cấu hình lại.\nĐề nghị bạn bỏ kết nối trước khi tiếp tục.\nBỏ kết nối mạng hiện tại?";
-sygate_hint = "%p đã phát hiện tường lửa của Sygate, nó sẽ làm nhỡ \n%p các dữ liệu định trước bằng cách từ chối với dịch vụ chống tấn công với các gói tin\n\"Ping-of-Death\".\nBởi vậy bạn nên tải và sau đó truyền lên với \ntốc độ 30 giây cho riêng từng cái. Các kiểm tra \n%p giống như xung xác định.\n\nLưu ý: Chức năng Tường lửa\"Anti IP Manipulation\" sẽ đặt ở trạng thái \nkhông kích hoạt.";
+sygate_hint = "%p đã phát hiện tường lửa của Sygate, nó sẽ làm nhỡ \n%p các dữ liệu định trước bằng cách từ chối với dịch vụ chống tấn công với các gói tin\n\"Ping-of-Death\".\nDo vậy bạn nên tải và sau đó truyền lên với \ntốc độ 30 giây cho riêng từng cái. Các kiểm tra \n%p giống như xung xác định.\n\nLưu ý: Chức năng Tường lửa\"Anti IP Manipulation\" sẽ đặt ở trạng thái \nkhông kích hoạt.";
 select_language = "Chọn ngôn ngữ";
 translator = "Người dịch:";
 translator_name = "Phạm Tuấn Khanh - ptk911";
 translator_msg = "ptk911@yahoo.com.vn";
 / %3=product name, %1=number, %2="day"/"days"
-lic_reg_exp_warn = "Bạn %3 giấy phép hết hạn trong %1 %2.";
+lic_reg_exp_warn = "Giấy phép %3 của bạn sẽ hết hạn trong %1 %2.";
 
 service_desc = "Tự động thực hiện đo độ trễ và tác vụ cho %p";
 no_pings_error = "Các gói tin được gởi bởi %p không thấy đến. Thiếu chúng, %p Tối ưu Băng thông không thể thực hiện chính xác. Bấm ở đây để xem trợ giúp.";
@@ -262,7 +262,7 @@ licensed_to = "Đăng ký cho %?";
 upgrade = "Cập nhật phiên bản mới";
 connect_to = "Kết nối tới";
 make_own_skin = "Giao diện tự thiết kế";
-click_through = "Bấm-xuyên qua cửa sổ";
+click_through = "Bấm xuyên qua cửa sổ";
 ask = "Hỏi";
 off = "Tắt";
 on = "Mở";
@@ -292,7 +292,7 @@ other = "Khác";
 misc_high_short = "Misc. cao";
 misc_high = "Ưu tiên lưu lượng misc. cao";
 hint = "Gợi ý";
-hint_text = "Sự ưu tiên sẽ làm việc chính xác chỉ nếu có một dữ liệu nhỏ được đặt mức ưu tiên cao nhất. Để chương trình có thể chọn việc gởi dữ liệu ra ngoài với mức ưu tiên thấp. Giao thức được quyền ưu tiên sẽ hoàn thành tốt hơn chương trình có mức ưu tiên đó.";
+hint_text = "Sự ưu tiên sẽ làm việc chính xác chỉ khi có một dữ liệu nhỏ được đặt mức ưu tiên cao nhất. Để chương trình có thể chọn việc gởi dữ liệu ra ngoài với mức ưu tiên thấp. Giao thức được quyền ưu tiên sẽ hoàn thành tốt hơn chương trình có mức ưu tiên đó.";
 prio_doc_link = "Cách thức thực hiện các mức ưu tiên";
 save_protocols = "Lưu giao thức";
 undo = "Quay lại";
@@ -306,13 +306,13 @@ lower = "Thấp nhất";
 entries = "Mục";
 prog_overwrite = "Chương trình #p đã có trong danh sách.\\nBạn có muốn ghi đè?";
 games = "Trò chơi";
-voip = "Âm thoại-qua-IP";
+voip = "Gọi điện thoại qua IP";
 remote_control = "Điều khiển từ xa";
 prog_hint_text = "Mức ưu tiên sẽ làm việc chính xác chỉ khi các gói dữ liệu nhỏ được đặt ở mức ưu tiên cao. Đặt các chương trình gửi các gói dữ liệu lớn với mức ưu tiên thấp.<br />";
 save_priorities = "Lưu ưu tiên";
 delete = "Xóa";
 aux_lines = "Tuyến phụ";
-higher_prog_help = "Âm thoại-qua-IP, có thể chơi trò chơi trực tuyến";
+higher_prog_help = "Gọi điện thoại qua IP, có thể chơi trò chơi trực tuyến";
 high_prog_help = "Trò chơi, Âm nhạc, Telnet và các chương trình khác";
 low_prog_help = "Dữ liệu máy chủ, dữ liệu FTP";
 lower_prog_help = "Truyền tải ở chế độ nền, giống như chia sẻ tập tin";
@@ -336,12 +336,12 @@ activate_firewall_help = "Bảo vệ chống lại sự xâm nhập mạng, t�
 mtu_opt = "Tự động tối ưu MSS (MTU)";
 mtu_opt_help = "Điều chỉnh MSS/MTU cho tốc độ truyền tải lớn nhất. Điển hình, các giá trị dưới mức chuẩn 1500/1492 cho tốc độ nhanh hơn.";
 strict_rtp = "Kiểm tra chính xác RTP";
-strict_rtp_help = "Nếu kích hoạt, %p chỉ chấp thuận các gói tin như là RTP với một RTCP đúng. Bạn nên bỏ kích hoạt mục này cho các chương trình dùng Âm thoại-qua-IP (như VoIPBuster) mà không gửi các gói tin không RTCP. Chỉ kích hoạt mục này, nếu gói tin chính xác là RTP.";
+strict_rtp_help = "Nếu kích hoạt, %p chỉ chấp thuận các gói tin như là RTP với một RTCP đúng. Bạn nên bỏ kích hoạt mục này cho các chương trình dùng Gọi điện thoại qua IP (như VoIPBuster) mà không gửi các gói tin không RTCP. Chỉ kích hoạt mục này, nếu gói tin chính xác là RTP.";
 ts_config = "Cấu hình chức năng Phân loại dữ liệu";
 dialup_connection = "Kết nối quay số";
 dialup_connections = "Kết nối quay số";
 traffic_shaping = "Tối ưu Băng thông";
-ras_con_help = "<b>Đồng ý</b>: hoạt động, <b>no</b>: không hoạt động, <b>ask</b>: ask once only and then save the setting";
+ras_con_help = "<b>Đồng ý</b>: hoạt động, <b>không</b>: không hoạt động, <b>hỏi</b>: chỉ hỏi một lần và lưu thiết lập";
 router_connections = "Kết nối bộ định tuyến";
 net_components = "Thành phần mạng";
 auto = "Tự động";
@@ -351,7 +351,7 @@ router = "Bộ định tuyến";
 and_save_settings = "và lưu các thiết lập";
 border = "Đường viền";
 budget = "Phân bổ";
-budget_settings = "Thiết lập Budget";
+budget_settings = "Thiết lập Phân bổ";
 budget_title = "Phân bổ trực tuyến";
 budgets = "Phân bổ trực tuyến";
 graph_title = "Biểu đồ";
@@ -392,7 +392,7 @@ no_ports_open_help = "Hiện tại, không có kết nối được thiết lậ
    "Để thay đổi các thiết lập mặc định cho các kết nối mới, hãy nhấn nút \"Mặc định cho các kết nối mới\", "
    "để thay đổi các thiết lập cho các kết nối khác, nhấn \"Lưu lượng định hình\" ở phía bên trái.";
 ok = "Đồng ý";
-connection_medium = "Vửa";
+connection_medium = "Vừa";
 connection_type = "Chế độ Traffic Shaping";
 driver_not_loaded = "Không thể tải driver!";
 demon_driver_not_loaded = "Driver không chạy!\nCó thể cài đặt bị hỏng.\nHãy cài đặt lại %p.\n";
@@ -403,7 +403,7 @@ rx_limit = "Giới hạn RX";
 tx_limit = "Giới hạn TX";
 max = "Tối đa";
 apply_limits = "Áp dụng Giới hạn";
-limit_help = "Giá trị bằng kbyte/s, bao gồm tất cả các protocol, 0 = không giới hạn.";
+limit_help = "Giá trị bằng kbyte/s, bao gồm tất cả các giao thức 0 = không giới hạn.";
 enable_speed_shaping = "Bật Tối ưu Băng thông";
 disable_speed_shaping = "Tắt Tối ưu Băng thông";
 yes = "Có";
@@ -442,7 +442,7 @@ nettalk_tx = "Tốc độ Net Talk TX";
 nettalk_max_of_rx_tx = "Tối đa của Net Talk RX và TX";
 total_max_of_rx_tx = "Tối đa của tổng RX và TX";
 check_if_other_also = "Chọn, nếu bạn muốn tất cả lưu lượng khác được tính vào luồng này";
-performance_help = "Để đạt hiệu năng cao, chúng tôi khuyên bạn nên thiết lập cho kết nối sử dụng truy nhập internet là 'Yes' và các kết nối khác là 'No'.";
+performance_help = "Để đạt hiệu năng cao, chúng tôi khuyên bạn nên thiết lập cho kết nối sử dụng truy nhập internet là 'Có' và các kết nối khác là 'Không'.";
 loading = "Đang tải...";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
@@ -502,8 +502,8 @@ check_new_version_now = "Kiểm tra cập nhật bây giờ";
 program_updates = "Cập nhật chương trình";
 no_new_version_available = "Phiên bản mới chưa có";
 use_logitech = "Sử dụng màn hình hiển thị Logitech G15/G19/G510";
-detect_logitech = "Phát hiện hiển thị Logitech";
-logitech_help = "Trợ giúp hiển thị Logitech";
+detect_logitech = "Phát hiện màn hình Logitech";
+logitech_help = "Trợ giúp màn hình Logitech";
 logitech_keyboards = "Bàn phím chơi game Logitech";
 keyboard_leds = "Đèn LED bàn phím";
 keyboard_led_help = "Trợ giúp LED bàn phím";
@@ -525,7 +525,7 @@ show_on_metro_apps = "Hiển thị trên các ứng dụng Metro";
 traffic_shaping_info = "Thông tin phân luồng lưu lượng";
 wlan_access_point = "Điểm truy cập Wi-Fi";
 prioritize_foreground_process = "Ưu tiên tiến trình truy cập cho cửa sổ hiện hành";
-prioritize_foreground_help = "Tự động thiết lập ưu tiên ở mức cao cho tiến trình truy trong cửa sổ hiện hành.";
+prioritize_foreground_help = "Tự động thiết lập ưu tiên ở mức cao cho tiến trình truy cập trong cửa sổ hiện hành.";
 
 
 / ----------------------------------------------------------------------
@@ -534,7 +534,7 @@ prioritize_foreground_help = "Tự động thiết lập ưu tiên ở mức cao
 /
 / ----------------------------------------------------------------------
 
-speed_desc = "%p, truy cập Internet nhanh hơn với Tối ưu Băng thông";
+speed_desc = "%p, truy cập Internet nhanh hơn với Tối ưu Băng thông (Traffic Shaping)";
 
 / URLs
 bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
@@ -546,7 +546,7 @@ install_wizard_name = "%? Thuật sĩ cài đặt";
 uninstall_wizard_name = "%? Thuật sĩ Gỡ bỏ";
 brandkey_wizard_name = "%? Thuật sĩ Đăng kí";
 config_wizard_name = "%p Giao diện thiết lập";
-continue_line = "Để tiếp tục, bấm 'Next'";
+continue_line = "Để tiếp tục, bấm 'Tiếp theo'";
 start_inst = "Để bắt đầu cài đặt, bấm 'Next'.";
 click_next_further_info = "Bấm 'Next' để biết thêm thông tin.";
 wizard_lang_line = "Thuật sĩ này bằng ngôn ngữ:";
@@ -557,7 +557,7 @@ welcome_info = "Thuật sĩ này sẽ hướng dẫn bạn cài đặt %?
 welcome_found = "Đã tồn tại một phiên bản của %? v%? trên hệ thống của bạn.";
 welcome_found_dir = "Đã tồn tại một phiên bản của %1 v%2 trên hệ thống của bạn ở thư mục %3.";
 welcome_found_unknown = "Đã tồn tại một phiên bản của %? trên hệ thống của bạn ở thư mục %3.";
-welcome_found_modified = "Mộ sự thay đổi hoặc hoàn thành cài đặt %1 v%2 đã có ở thư mục %3.";
+welcome_found_modified = "Một sự thay đổi hoặc hoàn thành cài đặt %1 v%2 đã có ở thư mục %3.";
 welcome_update = "Để thay thế phiên bản đã có, bấm 'Next'.";
 welcome_admin = "Bạn không có quyền quản trị hệ thống. Để chạy thuật sĩ bạn cần đăng nhập bằng tài khoản quản trị.";
 welcome_lang_syslink = "<a href=\"%?\">Thêm ngôn ngữ</a>";
@@ -576,7 +576,7 @@ bk_welcome_update = "Để thay thế tập tin đã có, bấm 'Next'";
 / license agreement (these texts need not to be translated since they will be displayed only in English due to legal reasons)
 lic_header = "Giấy phép Thỏa thuận";
 lic_subheader = "Bạn cần chấp nhận giấy phép thỏa thuận để tiếp tục.";
-lic_info = "Nếu bạn chấp nhận giấy phép thỏa thuận, chọn 'Tôi đồng ý' rồi bấm 'Next', còn không thì bấm 'Cancel'.";
+lic_info = "Nếu bạn chấp nhận giấy phép thỏa thuận, chọn 'Tôi đồng ý' rồi bấm 'Next', còn không thì bấm 'Hủy'.";
 lic_agree = "Tôi đồng ý.";
 
 / restore point dialog
@@ -585,12 +585,12 @@ rp_subheader = "Đã đặt điểm phục hồi hệ thống để bạn
 rp_info = "Đã thiết lập 1 điểm để bạn có thể phục hồi lại hệ thống. Nên làm như vậy nếu bạn cài đặt trình điều khiển mới.";
 rp_check = "Thiết lập điểm khôi phục hệ thống.";
 / %1 = product name
-rp_uninst_info = "Điểm phục hồi hệ thống là không đặt giữa chế độ bình thường và chế độ gỡ bỏ cài đặt %1. Nó là điều kiện tốt để phòng ngừa rằng bạn có thể trở về lại trước nếu có xung đột về trình điều khiển. Việc gỡ bỏ %1 có thể chọn ở Menu Start ở thư mục %1 hoặc ở Control Panel.";
+rp_uninst_info = "Điểm phục hồi hệ thống không nhằm mục đích hỗ trợ cho việc gỡ bỏ cài đặt %1 thông thường về sau. Đây là một biện pháp phòng ngừa bổ sung cho phép bạn có thể quay lại tình trạng ban đầu nếu có xung đột về trình điều khiển. Việc gỡ bỏ %1 thông thường có thể thực hiện bằng cách chọn ở Menu Start ở thư mục %1 hoặc ở Control Panel.";
 
 / password dialog
 pwd_header = "Mật khẩu.";
-pwd_subheader = "Mỗi mã yêu cầu mỗi mật khẩu.";
-pwd_reg_to = "%p được đăng kí cho:";
+pwd_subheader = "Mỗi mã yêu cầu có một mật khẩu riêng.";
+pwd_reg_to = "%p sẽ được đăng kí cho:";
 pwd_password_info = "Xin vui lòng nhập mật khẩu cho mã theo định dạng xxxx-xxxx-xxxx-xxxx.";
 pwd_password = "Mật khẩu:";
 pwd_invalid_password = "Sai mật khẩu. Vui lòng kiểm tra và thử lại.";
@@ -702,7 +702,7 @@ finish_link_checkbox = "Hiển thị các chức năng mới nhất của %p";
 
 / uninstall finish page
 ui_finish_head_ok = "Gỡ bỏ thành công.";
-ui_finish_info_ok = "%? đã gở bỏ thành công khỏi máy tính của bạn.";
+ui_finish_info_ok = "%? đã gỡ bỏ thành công khỏi máy tính của bạn.";
 ui_finish_head_fail = "Gỡ bỏ thất bại.";
 ui_finish_info_fail = "%? không thể gỡ bỏ khỏi máy tính của bạn vì lí do sau:";
 ui_finish_not_removed = "Các tập tin sau chỉ được gỡ bỏ sau khi khởi động lại hệ thống: ";
@@ -853,7 +853,7 @@ virtual_wifi_ics_not_available = "Chia sẻ kết nối Internet không có sẵ
 virtual_wifi_error_get_cons = "Lỗi trong việc kết nối mạng.";
 virtual_wifi_ics_warning = "Chia sẻ kết nối Internet đã được bật cho mạng sau:\n%?\n\nBạn có muốn dùng kết nối này thay cho mạng:\n% không?";
 virtual_wifi_error_enable_ics = "Lỗi trong việc bật Chia sẻ kết nối Internet";
-virtual_wifi_error_start = "Lỗi trong việc khỏi động Wi-Fi ảo";
+virtual_wifi_error_start = "Lỗi trong việc khởi động Wi-Fi ảo";
 virtual_wifi_ok = "Đã kích hoạt thành công Wi-Fi ảo và Chia sẻ kết nối Internet.\n\nLưu ý: Nếu người dùng không thể kết nối thành công với Wi-Fi ảo, hãy dừng và khởi động lại Wi-Fi ảo.\n\nNếu người dùng có thể kết nối với Wi-Fi ảo nhưng không có được kết nối Internet, xin vui lòng gỡ bỏ cài đặt và sau đó cài đặt lại %p.";
 virtual_wifi_query_stop = "Dừng Wi-Fi ảo?";
 virtual_wifi_error_stop = "Lỗi trong việc dừng Wi-Fi ảo:";
