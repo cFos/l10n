@@ -787,6 +787,8 @@ cfout_pnet_cal2 = "Votre nom d'utilisateur cFos Personal Net";
 cfout_pnet_cal3 = "Votre mot de passe cFos Personal Net";
 cfout_davical_cal2 = "Votre nom d'utilisateur DAViCal";
 cfout_davical_cal3 = "Votre mot de passe DAViCal";
+cfout_baikal_cal2 = "Votre nom d'utilisateur Baïkal";
+cfout_baikal_cal3 = "Votre mot de passe Baïkal";
 
 / cFos IPv6 Link
 cfos6link_page_title = "ipv6 Connectivity pour XP, Vista et Windows 7";
