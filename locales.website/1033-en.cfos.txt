@@ -221,7 +221,11 @@ conf_formerror_not_complete = "Your order is incomplete! Please use your browser
 conf_fromerror_license = "Please use your browser's 'Back'-button and indicate that you have read and accepted the cFos licensing terms!";
 confident = "Confidentiality: The data you provide here will only be used for this order and not be given to others.";
 conf_lastschrift = "";
+
+/. Used as part of phrase
+/= Your Order at www.cfos.de
 conf_lastschrift_at = "at";
+
 conf_moneybookers_trans = "Moneybookers transfer";
 conf_moneybookers_text = "Please enter &quot;<strong>[%$1_name%]</strong>&quot; as reason for payment into the Moneybookers field &quot;<strong>eMail-Betreff</strong>&quot;";
 conf_name = "Please enter your name";
@@ -315,7 +319,12 @@ for_business_users = "for business users";
 for_dos_w311_os2  = "for DOS | OS/2 | Windows 3.x";
 for_existing_users = "for existing customers";
 form_subtitel_contact = "Contact Information";
+
+/. Title of form about user's order
+/. Also used as part of phrase
+/= Your Order at www.cfos.de
 form_subtitel_order = "Your Order";
+
 form_subtitel_payment = "Payment";
 form_title_c = "Order Form for Business Users";
 form_title_n = "Order Form for Private Users";
@@ -901,7 +910,10 @@ hrping_l1 = "Graphical display of ping results";
 /. In other words, means accuracy of the measurement
 hrping_l2 = "Uses high resolution timers, so ping times are accurate to the usec";
 hrping_l3 = "Can ping as well with UDP packets or ICMP timestamp messages";
+
+/. In other words means `Hrping measures requests time and handles ICMP error replies as well`
 hrping_l4 = "Times and handles ICMP error replies as well";
+
 hrping_l5 = "Can have multiple pings \"in-flight\", no need to wait for a reply before sending the next ping";
 hrping_l6 = "Improved statistics";
 hrping_l7 = "Size sweep: Send increasing packet sizes";
