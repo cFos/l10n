@@ -153,6 +153,14 @@ logon_start_desc = "Aşağıda gösterilen kullanıcı oturum açtığında, bu 
 show_home_dir = "Ev Dizinini Göster";
 publish_file = "Dosyayı Yayınla";
 user_administration = "Kullanıcı Yönetimi";
+/. Label of menu entry, which enables and disables any uploads to PNET.
+/. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
+/. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
+disable_uploads = "Yukarı yüklemeleri kapat";
+enable_uploads = "Yukarı yüklemeleri etkinleştir";
+publish_file_for_download = "Dosyayı indirme için yayımla";
+/. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
+upload_url_to_clipboard = "Upload linkini panoya kopyala";
 
 / pnet connectivity test
 connectivity_test = "Bağlantı testi";
@@ -170,6 +178,7 @@ con_test_execute = "Bağlantı testini başlat";
 
 ga_service_desc = "cFos Game Analyzer - Performans Veri Kurtarma";
 ga_speed_installed = "cFosSpeed bilgisayarınıza kurulu görünüyor.\n\ncFosSpeed içerisinde zaten cFos Game Analyzer işlevini barındırır.\n\ncFos Game Analyzer'ın en son özelliklerini kullanabilmek için, lütfen en son cFosSpeed sürümünü from www.cfos.de adresinden indirip kurun.";
+local_ip_addresses = "Yerel IP adresleri:";
 ga_password_subheader = "cFos Game Analyzer'a harici erişim için parola.";
 ga_password_info = "Kullanıcı adı: cfosspeed";
 ga_call_info = "cFos Game Analyzer'a yerel PC'nizden şunu yazarak ulaşabilirsiniz: \nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\ncFos Game Analyzer'a başka bir cihazdan yukarıdaki şifre ile erişin ve 'localhost' yazmak yerine aşağıdaki IP adreslerinden birini kullanın:\n";
@@ -227,6 +236,12 @@ translator_name = "GEEK";
 translator_msg = "http://www.geek.com.tr";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "%3 lisansınız %1 %2 içerisinde sona erecektir.";
+version_mismatch = "Sürücü (driver) ve daemon penceresi arasında sürüm uyuşmazlığı.\n"
+   "\n"
+   "Daemon=%1\n"
+   "Driver=%2\n"
+   "\n"
+   "Lütfen %p! ürününü yeniden başlatın, eğer işe yaramazsa kaldırıp yeniden kurun\n";
 
 service_desc = "%p için öncelikli eylemleri ve gecikme ölçümünü yapar";
 no_pings_error = "%p tarafından gönderilen ping paketlerinin çıkışı sağlanamıyor. "
@@ -300,6 +315,7 @@ current_connections_standard = "Mevcut Bağlantılar (Standart)";
 ts_prios = "Traffic Shaping Önceliklendirmeleri";
 client_protocols = "İstemci Protokolleri";
 server_protocols = "Sunucu Protokolleri";
+client_server_protocols = "Client ve Server Protokolleri";
 media_streaming = "Medya Yayınlama";
 file_sharing = "Dosya Paylaşımı";
 special = "Özel";
@@ -311,8 +327,12 @@ prio_doc_link = "Önceliklendirme planları nasıl çalışır";
 save_protocols = "Protokolleri kaydet";
 undo = "Geri al";
 filter_selection = "Filtre seçimi";
+/: Settings -> Protocols/Programs
+/. Used as indicator of selected by user level of priority (for Traffic Shaping)
+/. Displayed next to protocol or program name, near slider with levels
 higher = "Daha yüksek";
 high = "Yüksek öncelik";
+normal = "Normal";
 default = "Varsayılan";
 low = "Düşük";
 lower = "En düşük";
@@ -342,6 +362,8 @@ l7_prot_detection_help = "Verileri analiz ederek protokolleri algıla. 'Protokol
 favor_ping = "Ping süresine öncelik ver";
 favor_ping_help = "<b>Açık</b>: %p bant genişliğini (gerektiğinde) biraz azaltarak, ping sürelerini minimum hale getirecektir.<br /> <b>Kapalı</b>: %p ping sürelerini (gerektiğinde) biraz yükselterek, bant genişliğini maksimum hale getirecektir.";
 favor_bandwidth = "Bantgenişliği Taraflı";
+store_dns_names = "DNS isimlerini yenile";
+store_dns_names_help = "DNS sorgularını hızlandırmak için, ortak kullanılan DNS isimleri 2 gün için yenilenir";
 avoid_loss = "Paket kaybı koruması";
 avoid_loss_help = "Eğer çok fazla paket kaybı saptanırsa %p, akış almak için kullanılan TCP alım pencerelerini kapatır. Bu sadece bağlantınız tam hızla alım yaptığında olur.";
 activate_firewall = "Güvenlik Duvarını Etkinleştir";
@@ -424,6 +446,9 @@ disable_speed_shaping = "Traffic Shapingni Kapat";
 yes = "Evet";
 no  = "Hayır";
 help = "Yardım";
+/: cFosSpeed context menu -> Usage Graph
+/. Used as one of dropdown menu entries
+/. Means `To show all programs and protocols traffic`
 bgraph_totals = "Toplam";
 blocklist = "IP-Engelleyici";
 blocklist_help = "Tüm trafiğin engellendiği durum için IP adreslerinin listesi.";
@@ -459,6 +484,7 @@ total_rx_only = "Toplam RX hızı";
 total_tx_only = "Toplam TX hızı";
 nettalk_rx = "Net Talk RX Hızı";
 nettalk_tx = "Net Talk TX Hızı";
+nettalk_max_of_rx_tx = "Maksimum Net Talk RX & TX";
 total_max_of_rx_tx = "Toplam RX & TX in maksimumu";
 check_if_other_also = "Eğer tüm diğer trafiğin bu slotta sayılmasını istiyorsanız, tik atın";
 performance_help = "Bilgisayar gücünden en iyi tasarruf için, internet erişimi için kullandığınız bağlantıyı 'Evet' ve diğer tüm bağlantıları 'Hayır' olarak ayarlamanızı öneririz.";
@@ -484,6 +510,8 @@ set = "Kur";
 tx_limit_help = "Bu program ya da protokolün gönderilmesine izin verilen bayt/sn cinsinden hızı ya da yüzdeyi girin.";
 download_more_skins = "Daha fazla arayüz indirin";
 documentation = "Dökümantasyon";
+/: cFosSpeed context menu
+/. means `Close cFosSpeed`
 exit_demon = "Çık";
 speed_test = "cFos Speed Test";
 ask_key_banned_info = "Lisans anahtarınızla ilgili bir sorun oldu.\nDaha fazla bilgi ister misiniz?";
@@ -538,6 +566,11 @@ enable_smartphone_skins = "Telefon Arayüzleri";
 http_access_enabled = "Şifre ayarlandı, uzaktan HTTP erişimine izin verildi.";
 http_access_disabled = "Şifre ayarlanmadı, uzaktan HTTP erişimi engellendi.";
 set_server_pwd = "Server şifresini ayarla";
+auto_arrange_top = "Üst";
+auto_arrange_bottom = "Alt";
+/: cFosSpeed context menu
+/. Menu entry which enables display of cFosSpeed's tile in Windows 8 Start Menu
+/. @note Currently disabled
 show_on_metro_apps = "Metro uygulamalarında göster";
 traffic_shaping_info = "Traffic Shaping Bilgisi";
 wlan_access_point = "Wi-Fi erişim noktası";
@@ -633,6 +666,7 @@ sn_save_err = "Anahtar dosyası %?'daki diske kaydedilemez.";
 sn_keyfile_err = "Anahtar dosyası bozulmuş.";
 
 / new 16 digit serial number dialog
+/. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
 sn16_info = "Lisans anahtarınızı geri yüklemek için lütfen 16 haneli seri numaranızı giriniz. Bu işlem için internete bağlı olmanız gerekmektedir.";
 sn16_failed = "Lisans anahtarını alma işlemi başarısız!";
 
@@ -676,6 +710,7 @@ port_forwarding_chk = "Otomatik port yönlendirmeyi kullanın, eğer kullanılab
 port_forwarding_failed = "%? adlı router otomatik port yönlendirmeyi desteklemiyor. "
                          "Bu özelliği belki router'ınızın ayarlarından etkinleştirebilirsiniz.";
 port_forwarding_config = "%? daki router'ınızı şimdi ayarlayabilirsiniz.";
+/. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
 port_forwarding_fritz = " UPnP aracılığıyla güvenlik ayarlarınızda değişikliklere izin vererek "
                         "Ev Ağı / Ağ / Programlar sekmesinin altından port yönlendirmesini etkinleştirebilirsiniz";
 
@@ -914,6 +949,7 @@ virtual_wifi_stopped = "Virtual Wi-Fi başarıyla durduruldu.";
 virtual_wifi_dialup_ics = "Eğer çevirmeli bağlantı kullanıyorsanız, İnternet Bağlantısı Paylaşımı'nı, bu bağlantının özelliklerini değiştirerek, elle etkinleştirmeniz gerekiyor.";
 virtual_wifi_error_not_present = "Hazır durumda hiçbir Wi-Fi arayüzü bulunamadı.\n\nVirtual Wi-Fi kurmak için mutlaka bir Wi-Fi bulunmalı ve hazır durumda olmalı.";
 virtual_wifi_autostart = "Sistem başlangıcında otomatik başlat.";
+/. Label next to a checkbox in deactivation of virtual Wi-Fi dialog
 virtual_wifi_deactivate_autostart = "Otomatik başlatmayı sistem başlangıcında da iptal et.";
 
 
