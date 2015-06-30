@@ -20,7 +20,7 @@ Software translation status
 |     | de - 1031         |           |                                                       |       |
 | `G` | el - 1032         |           |                                                       |       |
 |     | es - 1034         | 10        |                                                       |       |
-|     | fr - 1036         | 13        | done (2014-04-22) by Gilles Cellier                   |       |
+|     | fr - 1036         | 0         | done (2014-04-22) by Gilles Cellier                   |       |
 | `l` | he - 1037         |           |                                                       |       |
 | `G` | hu - 1038         | 25        |                                                       |       |
 |     | it - 1040         | 4         | proofread 750 strings by Massimo Castiglia 2013-09-30 |       |
@@ -33,7 +33,7 @@ Software translation status
 | `f` | ru - 1049         | 0         | done (2013-04-22) by Serj Lavrin                      |       |
 |     | sv - 1053         |           | done (2013-01-12)                                     |       |
 | `G` | th - 1054         | 200       |                                                       |       |
-|     | tr - 1055         | 170       |                                                       |       |
+|     | tr - 1055         | 2         |                                                       |       |
 |     | id - 1057         | 50        |                                                       |       |
 |     | be - 1059         |           |                                                       |       |
 |     | sl - 1060         |           |                                                       |       |
