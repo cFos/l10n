@@ -313,8 +313,12 @@ connect_to = "Connect to";
 make_own_skin = "Design your own skin";
 click_through = "Click-through";
 ask = "Ask";
+
+/. Indicates states, like `Switch On` or `Switch Off`
+/. Used in various sections of program as menu entries or buttons labels
 off = "Off";
 on = "On";
+
 note = "Note";
 deactivated = "deactivated";
 browser_warning = "Internet Explorer version 8 or higher is recommended for this dialog!";
@@ -586,12 +590,17 @@ enable_smartphone_skins = "Phone Skins";
 http_access_enabled = "Password set, HTTP access from remote is allowed.";
 http_access_disabled = "No password set, HTTP access from remote is forbidden.";
 set_server_pwd = "Set Server Password";
+
+/: Right click on cFosSpeed -> Windows Settings -> Auto-arrange windows
+/. Possible position of status window
 auto_arrange_top = "Top";
 auto_arrange_bottom = "Bottom";
+
 /: cFosSpeed context menu
 /. Menu entry which enables display of cFosSpeed's tile in Windows 8 Start Menu
 /. @note Currently disabled
 show_on_metro_apps = "Show on Metro apps";
+
 traffic_shaping_info = "Traffic Shaping Info";
 wlan_access_point = "Wi-Fi access point";
 prioritize_foreground_process = "Prioritize process in foreground window";
