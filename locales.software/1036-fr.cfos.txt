@@ -153,9 +153,13 @@ logon_start_desc = "Cette tâche démarre %p si l'utilisateur indiqué ci dessou
 show_home_dir = "Afficher le répertoire Home";
 publish_file = "Publier le Fichier";
 user_administration = "Administration des Utilisateurs";
+/. Label of menu entry, which enables and disables any uploads to PNET.
+/. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
+/. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
 disable_uploads = "Désactiver les téléchargements montants (uploads)";
 enable_uploads = "Activer les téléchargements montants (uploads)";
 publish_file_for_download = "Publier les fichiers pour le téléchargement";
+/. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
 upload_url_to_clipboard = "Copier l'URL dans le presse-papiers";
 
 / pnet connectivity test
@@ -312,6 +316,9 @@ prio_doc_link = "Comment fonctionne le plan de priorité";
 save_protocols = "Sauvegarder les protocoles";
 undo = "Annuler";
 filter_selection = "Sélection du filtre";
+/: Settings -> Protocols/Programs
+/. Used as indicator of selected by user level of priority (for Traffic Shaping)
+/. Displayed next to protocol or program name, near slider with levels
 higher = "Le plus haut";
 high = "Haut";
 normal = "Normale";
@@ -344,6 +351,8 @@ l7_prot_detection_help = "Détecte le protocole utilisé par l’analyse des don
 favor_ping = "Priorité sur les temps de ping";
 favor_ping_help = "<b>On</b>: %p va minimiser les temps de réponse ping au détriment d'une faible réduction de la bande passante (si nécessaire).<br /><b>Off</b>:  %p va maximiser la bande passante au détriment d'une augmentation des temps de réponse ping (si nécessaire).";
 favor_bandwidth = "Priorité sur la Bande Passante";
+store_dns_names = "Rafraichir les noms DNS";
+store_dns_names_help = "Pour accélérer les requêtes DNS, gardez les noms DNS couramment utilisés rafraichis pendant deux jours";
 avoid_loss = "Mesure d'évitement de perte de paquet";
 avoid_loss_help = "%p ferme les fenêtres de réception Tcp pour la réception de flux en continue si trop de perte de paquet sont détectées. Cela ne se produit que quand votre connection reçoit à pleine vitesse. (Recommandé pour améliorer Régulation dynamique de flux réseau (Traffic Shaping) et les téléchargements)";
 activate_firewall = "Activer le pare-feu";
@@ -426,6 +435,9 @@ disable_speed_shaping = "Désactiver la Régulation dynamique de flux réseau (T
 yes = "Oui";
 no = "Non";
 help = "Aide";
+/: cFosSpeed context menu -> Usage Graph
+/. Used as one of dropdown menu entries
+/. Means `To show all programs and protocols traffic`
 bgraph_totals = "Total";
 blocklist = "Bloqueur d'Ip";
 blocklist_help = "Liste des adresses Ip pour lesquelles tout traffic est bloqué.";
@@ -488,6 +500,8 @@ set = "Renseigner";
 tx_limit_help = "Entrer la vitesse en bytes/sec ou le pourcentage que ce programme ou ce protocole est autorisé à émettre.";
 download_more_skins = "Télécharger plus d'interface (Skins)";
 documentation = "Documentation";
+/: cFosSpeed context menu
+/. means `Close cFosSpeed`
 exit_demon = "Quitter";
 speed_test = "Test de vitesse cFos";
 ask_key_banned_info = "Il y a un problème avec votre clef de license.\nVoulez-vous plus d'information?";
@@ -544,6 +558,9 @@ http_access_disabled = "L'accès HTTP à distance est interdit.";
 set_server_pwd = "Entrez le mot de passe Serveur";
 auto_arrange_top = "Haut";
 auto_arrange_bottom = "Bas";
+/: cFosSpeed context menu
+/. Menu entry which enables display of cFosSpeed's tile in Windows 8 Start Menu
+/. @note Currently disabled
 show_on_metro_apps = "Voir sur l'apps Metro ";
 traffic_shaping_info = "Informations sur la Régulation dynamique de flux réseau (Traffic Shaping)";
 wlan_access_point = "Point d'accès Wi-Fi";
@@ -645,6 +662,7 @@ sn_save_err = "Le fichier clef ne peut être sauvegardé sur le disque sur %?.";
 sn_keyfile_err = "Le fichier clef est corrompu.";
 
 / new 16 digit serial number dialog
+/. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
 sn16_info = "Merci de rentrer votre numéro de série à 16 chiffres pour recevoir votre clef de licence. Vous devez être connecté à Internet pour recevoir la clef de licence.";
 sn16_failed = "Échec de la réception de la clef de licence !";
 
@@ -688,6 +706,7 @@ port_forwarding_chk = "Utiliser la redirection automatique de port, si disponibl
 port_forwarding_failed = "Votre routeur%? ne semble pas supporter la redirection automatique de port. "
                          "Vous devriez être capable d'activer cette fonction dans la configuration de votre routeur.";
 port_forwarding_config = "Vous pouvez configurer votre routeur à %?.";
+/. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
 port_forwarding_fritz = "Vous activez la redirection de port dans votre FRITZ!Box en autorisant les changement des options de sécurité via UPnP "
                         "Sous Réseau Home / Réseau / Programmes";
 
@@ -928,6 +947,7 @@ virtual_wifi_stopped = "Le Wi-Fi Virtuel s'est arrêté avec succès.";
 virtual_wifi_dialup_ics = "Pour une connexion par modem/ligne commutée vous devez activer manuellement le partage de connection Internet en modifiant les propriétés de cette connection.";
 virtual_wifi_error_not_present = "Aucune interface Wi-Fi (prête) trouvée.\n\nPour configurer un Wi-Fi Virtuel, une interface Wi-Fi doit être présente et prête à fonctionner.";
 virtual_wifi_autostart = "Démarrer automatiquement au démarrage système.";
+/. Label next to a checkbox in deactivation of virtual Wi-Fi dialog
 virtual_wifi_deactivate_autostart = "Désactiver le démarrage automatique aussi lors du démarrage du système.";
 
 
