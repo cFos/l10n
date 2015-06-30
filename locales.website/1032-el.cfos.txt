@@ -494,11 +494,12 @@ pnet_percent = "50% έκπτωση μέχρι την απελευθέρωση τ
 /. TX stands for `transmit` (outgoing/upload)
 /. Means `RX (`receive`/incoming/download) characters per second`
 /. Means `TX (`transmit`/outgoing/upload) characters per second sent`
+/. Explanation of `snap-in`: http://en.wikipedia.org/wiki/Microsoft_Management_Console
 
 / cFos Outlook DAV
 /. Used as title
 /. Litrelly means "How cFos Outlook DAV works"
-
+/. Means "show all server types"
 
 / cFos IPv6 Link
 cfos6link_page_title = "Συνδεσιμότητα IPv6 για XP, Vista και Windows 7";
@@ -537,6 +538,7 @@ li_text_sessions = "Πολλαπλά sessions, κάνένα όριο στον α
 
 / cFos
 cfos_html_h1 = "DSL και ISDN οδηγός dial-in με Traffic Shaping";
+/. Part of page's title (in name of the tab in web browser)
 cfos_professional_title = "cFos, Dial-Up &amp; Επιτάχυνση για DSL &amp; ISDN";
 link_text_budget = "Online μετρητής";
 link_text_cfos_features = "cFos λίστα χαρακτηριστικών";
@@ -547,6 +549,10 @@ link_text_what_is_cfos = "Τι είναι το cFos/Professional?";
 
 /hrping
 hrping_title = "<span class=\"product\">hrPing</span> - Υψηλής ακρίβειας εργαλείο ping";
+/. `usec` stands for `microsecond`.
+/. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
+/. In other words, means accuracy of the measurement
+/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic
 
 
 /notifier
@@ -1059,6 +1065,136 @@ no_ping_p2a = "<p>Πατήστε Εκκίνηση -> Προγράμματα -> c
 no_ping_p2b = "<b>Το πιο σημαντικό εδώ είναι στις στήλες 2 με 4 να εμφανίζονται αριθμητικές τιμές και όχι αστερίσκοι.</b><p> Αν εμφανίζονται αριθμητικές τιμές τότε πάτε στο <a class=\"inline\" href=\"#p4\">βήμα 3</a> παρακάτω.</p><p> Αν όμως τα ping είναι μπλοκαρισμένα τότε θα εμφανιστεί κάτι που θα μοιάζει με αυτό:</p><pre class=\"code\">Tracing route to www.cfos.de [194.95.249.23] over a maximum of 30 hops:<br /><br />1     *        *        *     Request timed out.<br />2     *        *        *     Request timed out.<br />3     *        *        *     Request timed out.<br />4     *        *        *     Request timed out.<br /><br />κτλ.</pre><p>Σε αυτή την περίπτωση συνεχίστε με το<a href=\"#p3\">βήμα 2</a></p>";
 no_ping_p3_h = "2. Η εντολή Tracert δεν λειτουργεί";
 /. Console's output shouldn't be translated
+sp_rwin_th1 = "Σενάριο";
+sp_rwin_th2 = "Αποτέλεσμα";
+sp_rwin_th3 = "Όνομα Λογισμικού";
+sp_rwin_th4 = "Τύπος Σύνδεσης /<br /> Εύρος Ζώνης RX [Kbyte/s]";
+sp_rwin_th5 = "χωρίς επέκταση RWIN<br /> [Kbyte/s]";
+sp_rwin_th6 = "με επέκταση RWIN<br /> [Kbyte/s]";
+sp_doc_archive = "Αρχείο";
+sp_doc_cdm_h1 = "Ορίστε προτεραιότητα συνδέσεων με τη Διαχείριση Κατηγορίας Καθυστέρησης";
+sp_doc_cdm_p1 = "Υπάρχουν αρκετές διαφορετικές επιλογές για να ορίσετε προτεραιότητα σε μια σύνδεση ενώ αυτή βρίσκεται σε εκτέλεση. Ωστόσο για όλες αυτές τις συνδέσεις θα πρέπει να κάνετε δεξί κλικ πάνω στο παράθυρο κατάστασης και να επιλέξετε κάνωντας κλικ τις Τρέχουσες Συνδέσεις (Current Connections)";
+sp_doc_cdm_a1 = "Τρέχουσες Συνδέσεις";
+sp_doc_cdm_p2 = "Μπορείτε πλέον να επιλέξετε αν θέλετε να ορίσετε προσωρινά προτεραιότητα σε μια σύνδεση, σε ένα πρωτόκολλο ή σε ένα πρόγραμμα, ή να ορίσετε μόνιμα προτεραιότητα σε ένα πρωτόκολλο ή σε ένα πρόγραμμα";
+sp_doc_cdm_p3 = "Ορίζοντας προσωρινά προτεραιότητα σε μια σύνδεση";
+sp_doc_cdm_p4 = "Ορίζοντας προσωρινά προτεραιότητα σε ένα πρωτόκολλο";
+sp_doc_cdm_p5 = "Ορίζοντας προσωρινά προτεραιότητα σε ένα πρόγραμμα";
+sp_doc_cdm_p6 = "Ορίζοντας μόνιμα προτεραιότητα σε ένα πρωτόκολλο";
+sp_doc_cdm_p7 = "Ορίζοντας μόνιμα προτεραιότητα σε ένα πρόγραμμα";
+sp_doc_cdm_title = "Διαχείριση Κατηγορίας Καθυστέρησης";
+sp_doc_commands = "Εντολές";
+sp_doc_experts = "Τεχνικές αναφορές για εξειδικευμένους (μόνο στην Αγγλική Γλώσσα)";
+sp_doc_gamers = "Προτάσεις για gamers";
+sp_doc_games_p1 = "Η τεχνολογία Traffic Shaping κρατάει χαμηλούς χρόνους ping ενώ ταυτόχρονα κρατάει συνεχώς υψηλούς ρυθμούς μετάδοσης.";
+sp_doc_games_p2 = "Ακόμη, για να επιτύχετε βέλτιστους χρόνους ping, θα πρέπει να ορίσετε προτεραιότητα στο παιχνίδι ή στα παιχνίδια σας αντίστοιχα όσο πιο υψηλή γίνεται. Θα διαπιστώσετε ότι στις Ρυθμίσεις Προγραμμάτων εμπεριέχεται μια λίστα με τα τρέχοντα δημοφηλέστερα παιχνίδια. Εαν το παιχνίδι σας δεν εμπεριέχεται στην λίστα, μπορείτε απλώς να το προσθέσετε.";
+sp_doc_games_p3 = "Μπορείτε επίσης <a href=\"/en/contact/priopost.htm\">να μας ενημερώσετε</a> για το ποια online παιχνίδια θα θέλατε να συμπεριλάβουμε στην λίστα για μελλοντικές αναβαθμίσεις.";
+sp_doc_games_p4 = "Παρακαλούμε να είστε ιδιαίτερα προσεκτικοί ορίζοντας προτεραιότητα σε όσο δυνατόν λιγότερα δεδομένα και προγράμματα. Και αυτό γιατί σε περίπτωση που ορίσετε υψηλή προτεραιότητα σε όλα τα δεδομένα και προγράμματα, δεν θα έχει καμία διαφορά από το να μην είχατε ορίσει καθόλου προτεραιότητα σε όλα τα δεδομένα και προγράμματα.";
+// `[filter]` and name of file shouldn't be translated
+sp_doc_games_p5 = "Σε περίπτωση που το όνομα του προγράμματος δεν είναι ξεκάθαρο ή ευδιάκριτο, μπορείτε να ορίσετε προτεραιότητα στα ports που χρησιμοποιούνται από το online παιχνίδι. Εαν γνωρίζεται τα τελικά TCP/UDP ports μια εφαρμογής, μπορείτε να ορίσετε προτεραιότητα στην μεταφορά δεδομένων ως ακολούθως (τροποποιώντας το τμήμα [filter] του αρχείου settings.ini):";
+sp_doc_games_p6 = "Για TCP ports:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high";
+sp_doc_games_p7 = "Για UDP ports:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high";
+sp_doc_games_p8 = "Αφου πραγματοποιήσετε και αποθηκεύσετε τις αλλαγές αυτές, οι καινούργιες ρυθμίσεις θα πρέπει να φορτώθούν. Αυτό γίνεται ανοίγοντας την κονσόλα (μέσα στο Start, Program, cFosSpeed) και πληκτρολογώντας \"spd reload\". Οι αλλαγές θα ενεργοποιηθούν (και θα παραμείνουν) με την επόμενη επανεκίνηση του συστήματός σας.";
+sp_doc_games_a1 = "cFosSpeed-Εγχειρίδιο Χρήσης Φίλτρου (Αγγλική Γλώσσα)";
+sp_doc_games_a2 = "ρυθμίσεις σύνδεσης DSL";
+/: https://www.cfos.de/en/cfosspeed/documentation/games.htm
+/. Used as alternate text for image
+sp_doc_games_a3 = "Προβολή ping προτίμησης (favor ping)";
+sp_doc_games_a4 = "Καρτέλα ορισμού προτεραιότητας προγράμματος";
+sp_doc_games_t1 = "Bελτιστοποίηση ρυθμίσεων συνδέσης:";
+/. Connections types untranslatable in our software, so they shouldn't be translated here either (`Adaptive`)
+sp_doc_games_p9 = "Μπορείτε να προσδιορίσετε ακριβώς το μέσω μεταφοράς δεδομένων που χρησιμοποιήτε στις Ρυθμίσεις Συνδέσεων. Όσες περισσότερες πληροφορίες σχετικά με την σύνδεσή σας διατίθενται στο cFos ή cFosSpeed, τόσο καλύτεροι θα είναι οι χρόνοι ping. Η προεπιλεγμένη ρύθμιση είναι \"Προσαρμωσμένη (Adaptive)\". Αν όμως, παραδείγματι χάρης χρησιμοποιήτε μια DSL σύνδεση, τότε θα πρέπε να επιλέξετε αντίστοιχα με την DSL σύνδεσή σας το κατάλληλο standard ή πρωτόκολλο ως μέσο μεταφοράς δεδομένων.";
+sp_doc_games_t2 = "Ping Προτίμησης (Favor Ping):";
+/. `Favor Ping` is translatable in our software, so it should be translated here too.
+/. Ensure in consistent translation across website and software, by checking
+/. translation of cFosSpeed's into your language.
+/. Look here for your locale https://github.com/cFos/l10n/blob/master/locales.software/
+/. and then search for key `favor_ping`
+sp_doc_games_p10 = "Επιπλέον μπορείτε να χρησιμοποιήσετε τις ρυθμίσεις στο μενού περιοχομένων ή στο παράθυρο κατάστασης ώστε να ενεργοποιήσετε ή να απενεργοποιήσετε \"Ping Προτίμησης (Favor Ping)\". Ένα πράσινο βέλος εμφανίζεται στο παράθυρο κατάστασης. Αυτή η ρύθμιση θα κάνει το cFos ή cFosSpeed να κάνει τα πάντα ώστε να κρατήσει τους χρόνους ping στη χαμηλότερη δυνατή τιμή τους σε αντάλλαγμα με την ταχύτητα μεταφοράς η οποία μπορεί να μειωθεί αρκετά.";
+sp_doc_games_t3 = "Παίζοντας καθώς κατεβάζετε:";
+sp_doc_games_p11 = "Αν παίζετε ένα παιχνίδι online χωρίς Traffic Shapping και παράλληλα εκτελείται ένα ανέβασμα ή κατέβασμα δεδομένων ή αρχείου την ίδια στιγμή, τότε οι χρόνοι ping στο server του παιχνιδιού σας θα μεγαλώσουν. Λιγότερα δεδομένα κίνησης (Traffic) σημαίνει καλύτερο (π.χ. χαμηλότερο) ping. Ειδικά με προγράμματα διαμοίρασης αρχείων καθώς και άλλες εφαρμογές που στέλνουν πολλά δεδομένα, εκτοξεύουν τους χρόνους ping με αποτέλεσμα να υπάρχει σοβαρό lag. Αυτό όμως θα καθυστερήσει τρομακτικά τον χρόνο αντίδρασης εντός του παιχνιδιού.";
+sp_doc_games_p12 = "To Traffic Shaping εξαλείφει το πρόβλημα αυτό επιτρέποντας λειτουργίες διαμοίρασης και κατεβάσματος αρχείων να εκτελούνται στο παρασκήνιο καθώς παίζετε. Αυτό μπορεί να αυξήσει ελάχιστα όμως τους χρόνους ping. Ως εκ τούτου σας προτείνουμε σε τέτοιες καταστάσεις, να διατηρίσεται το \"Ping Προτίμησης (Favor Ping)\" ενεργοποιημένο. Τα προγράμματα διαμοίρασης αρχείων είναι ρυθμισμένα από προεπιλογή σε χαμηλή προτεραιότητα. Αυτό όμως δεν πρέπει να σημαίνει αυτόματα ότι έχουν επιβραδυνθεί τεχνιτά ή ακόμη να έχουν σταματήσει εντελώς. Αντί αυτού σημαίνει ότι τέτοιου είδους δεδομένα θα καθυστερούνται λίγο όταν θα πρέπει να μεταδοθούν πιο σημαντικά δεδομένα όπως τα δεδομένα κίνησης online παιχνιδιών. Μόνο τέτοιου είδος καθεστώς προτεραιότητας καθιστά δυνατή την λειτουργία προγραμμάτων διαμοίρασης αρχείων να εκτελούνται στους μέγιστους ρυθμούς μετάδοσης καθώς η ίδια σύνδεση χρησιμοποιείται και για άλλες εφαρμογές παράλληλα.";
+/: http://www.cfos.de/en/cfosspeed/documentation/index.htm
+/. Used as  section title
+sp_doc_index = "Χειρισμός Προγράμματος";
+sp_doc_installation = "Εγκατάσταση / Εγγραφή";
+sp_doc_install_title = "Εγκατάσταση / Εγγραφή / Απεγκατάσταση";
+sp_doc_install_h1 = "Εγκατάσταση";
+sp_doc_install_p1 = "Η εγκατάσταση του cFosSpeed είναι εύκολη και βολική και πραγματοποιείται μέσα σε μερικά βήματα:";
+sp_doc_install_l1 = "<a href=\"/en/download/download.htm\">Κατεβάστε</a> το πιο πρόσφατο <em>cfosspeed-vXXX.exe</em> αρχείο και αποθηκεύστε το στον σκληρό σας δίσκο.";
+sp_doc_install_l2 = "Εκτελέστε το αρχείο (<em>cfosspeed-vXXX.exe</em>) πραγματοποιώντας διπλό κλικ πάνω σε αυτό.";
+sp_doc_install_l3 = "Ο βοηθός εγκατάστασης θα σας καθοδηγήσει μέσα από το υπόλοιπο της διαδικασίας εγκατάστασης.";
+sp_doc_install_l4 = "Το cFosSpeed μπορεί να χρησιμοποιηθεί αμέσως μετά την επιτυχής του εγκατάσταση.";
+sp_doc_install_a1 = "Δυσκολιές κατά την εγκατάσταση το cFosSpeed?";
+sp_doc_install_h2 = "Εγγραφή";
+sp_doc_install_a2 = "Παρακολουθείστε το βίντεο <b>\" Πως να κατοχυρώσετε το cFosSpeed χρησιμοποιόντας το αρχείο του προσωπικού σας κλειδιού άδειας χρήσης <em>key.cfosspeed</em>\"</b>.";
+sp_doc_install_p2 = "Μόλις παραγγείλετε το cFosSpeed, θα σας αποστείλουμε ένα μήνυμα με το ηλεκτρονικό ταχυδρομείο (e-mail) που θα περιλαμβάνει ένα κλειδί άδειας χρήσης (ένα αρχείο που θα λέγεται '<em>key.cfosspeed</em>') και το κωδικό σας:";
+sp_doc_install_l5 = "Αποθηκεύστε το αρχείο στον σκληρό σας δίσκο (π.χ. υπό το <em>My Files</em>).";
+sp_doc_install_l6 = "Εκτελέστε το <em>key.cfosspeed</em> αρχείο πραγματοποιώντας διπλό κλικ πάνω του.";
+sp_doc_install_l7 = "Ο βοηθός εγκατάστασης θα σας καθοδηγήσει μέσα από το υπόλοιπο της διαδικασίας κατοχύρωσης.";
+sp_doc_install_l8 = "Αφού αποδεχθείτε τους όρους και τις προυποθέσεις της άδείας σας, θα πρέπει να ξαναεισάγετε τον κωδικό σας και να κλείσετε το παράθυρο διαλόγου.";
+sp_doc_install_l9 = "Το αντίγραφο το cFosSpeed είναι πλέον κατοχυρωμένο σε σας προσωπικά.";
+sp_doc_install_a3 = "Δυσκολίες κατά την εγκατάσταση του κλειδιού άδειας χρήσης του cFosSpeed?";
+sp_doc_install_h3 = "Απεγκατάσταση";
+sp_doc_install_l10 = "Για να απεγκαταστήσε το cFosSpeed ακολουθήστε απλώς την συνήθης μέθοδο απεγκατάστασης των Windows.";
+sp_doc_led_title = "Πληκτρολόγιο LEDs";
+sp_doc_led_h = "Χρησιμοποιείστε πληκτρολόγιο LEDs για να απεικονίσετε τις πληροφορίες Traffic Shaping";
+sp_doc_led_p1 = "Το cFosSpeed μπορεί να χρησιμοποιήσει τα LED του Num Lock και Scroll Lock για απεικόνηση πληροφοριών για την τρέχουσα κυκλοφορία Internet (Internet Traffic). Αυτό είναι ιδιαίτερα χρήσιμο σε gamers και χρήστες εφαρμογών σε λειτουργία πλήρης οθόνης (fullscreen), οι οποίοι δεν μπορούν να δουν το παράθυρο κατάστασης. Με την χρήση των LED του πληκτρολογίου αναπαρίσταται οι πιο σημαντικές στατιστικές κυκλοφορίας (traffic):";
+sp_doc_led_dd1 = "σβησμένο, καλός χρόνος = αργός ρυθμός αναβοσμησίματος, κακός χρόνος = ταχύς ρυθμός αναβοσβησίματος<br/>προειδοποιεί εάν ο χρόνος ping είναι πολύ υψηλός";
+sp_doc_led_dd2 = " Ο γρήγορος ρυθμός αναβοσμησίματος είναι αντίστοιχος της καταμέτρησης πακέτων δεδομένων<br/>σας ενημερώνει για οποιαδήποτε κυκλοφορία από και προς το internet";
+sp_doc_led_dd3 = "γρήγορος ρυθμός αναβοσβησίματος για όταν ένα ΤΧ πακέτο βρίσκεται σε προτεραιότητα<br/>ένας από τους τρόπους για να δείξεις τα αποτελέσματα του Traffic Shaping";
+/: http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm
+/. `total_rx_speed` and `total_tx_speed` shouldn't be translated, since those are actual values names
+sp_doc_led_dd4 = "μέγιστο της συνολικής_rx_ταχύτητας (ταχύτητας λήψης) και συνολικής_tx_ταχύτητας (ταχύτητα εκπομπής), 0-32%: εκτός λειτουργίας, 33-65%: αργό αναβόσμησμα, 66-98%: γρήγορο αναβόσμησμα 99-100%: on<br/>σας ενημερώνει, για όταν εσείς ή κάποιος άλλος χρήστης / εφαρμογή χρησιμοποιεί (πάρα) πολύ εύρος";
+sp_doc_led_dd5 = "γρήγορος ρυθμός αναβοσμησίματος για όταν το άθροισμα των TCP και UDP συνδέσεων μεταβάλλεται<br/>παραμένετε ενημερωμένοι για όταν δημιουργείται μια νέα σύνδεση";
+sp_doc_led_dd6 = "0-15ms: εκτός λειτουργίας, 16-127ms: αναβοσβήνει αργά, 128-511ms: αναβοσβήνει γρήγορα, 512ms και άνω: μόνιμα αναμένο<br/>σας ενημερώνει εαν η καταστάσεις της γραμμής προκαλούν μεγάλη διακύμανση στο υψηλό ping (πχ. συνδέσης κινητών τηλεφώνων)";
+sp_doc_led_p2 = "Μπορείτε να επιλέξετε την σήμανση LED του Num Lock και του Scroll Lock για να απεικονίσετε τις παραπάνω μεταβολές.";
+sp_doc_led_p3 = "Το ακριβές script που ελέγχεις τα LED του πληκτρολογίου είναι ένα javascript, με την ονομασία led.js. Επομένως σε περίπτωση που επιθυμείται να απεικονίσετε άλλες μεταβλητές ή να χρησιμοποιείσεται ένα τελείως διαφορετικό μοτίβο αναβοσμησίματος LED, μπορείτε ελεύθερα να προσαρμόσετε το script στις δικές σας ανάγκες.";
+sp_doc_logi_title = "Υποστήριξη πληκτρολογίου Logitech";
+sp_doc_logi_p1 = "Το cFosSpeed υποστηρίζει πληκρολόγια gamer Logitech G19, G15, G510 καθώς και συμβατά μοντέλα. Προκειμένου να μπορείτε να χρησιμοποιείσεται την απεικόνηση σε τέτοιου τύπου gaming πληκτρολόγιο, το <b>Logitech Gaming Software V7.00 ή μεγαλύτερο</b> θα πρέπει να είναι ενεργό. Τότε μπορείτε να πλοηγηθείτε στο μενού ρυθμίσεως μέσω του cFosSpeed παραθύρου και να ενεργοποιήσετε την υποστήριξη απεικόνησης Logitech (Logitech display support). Τώρα το παράθυρο κατάστασης του cFosSpeed απεικονίζετε στις ενδείξεις του πληκτρολογίου αντί στην επιφάνεια εργασίας των Windows.";
+sp_doc_logi_p2 = "Σας προτείνουμε να χρησιμοποιείσετε τα ακόλουθα skins ή <a href=\"/en/skin/skin.htm\">σχεδιάστε τα δικά σας skin</a>.";
+sp_doc_logi_g15 = "Logitech G13/G15/G510 skin";
+sp_doc_logi_g19 = "Logitech G19 skin";
+sp_doc_logi_h1 = "Logitech skins στο YouTube";
+sp_doc_logi_h2 = "ανίχνευση πληκτρολογίου Logitech";
+sp_doc_logi_p3 = "To cfosspeed.exe και το Logitech Gaming Software πρέπει να είναι ενεργοποιούνται και τα δυο αυτόματα κατά την εκκίνηση των Windows. Εαν το cFosSpeed τρέχει πριν από το Logitech Gaming Software τότε το πληκτρολόγιο πιθανόν να μην μπορεί να εντοπιστεί. Σε αυτήν την περίπτωση μπορείτε να χρησιμποιήσετε την επιλογή \"ανίχνευση (detect)\" που βρίσκεται στο αντίστοιχο μενού του cFosSpeed για πληκτρολόγια Logitech ή μπορείτε να τροποιήσετε <em>c:\\ProgramData\\cFos\\cfosspeed\\global.ini</em>, στον τόμεα [All(Όλα)] και να εισάγεται <b>startup_delay=x</b> όπου x ο αριθμός των δευτερολέπτων (seconds) κατά το οποία το cFosSpeed πρέπει να περιμένει πρωτού εκκινήσει το παράθυρο κατάστασης.";
+sp_doc_p2p_t1 = "Traffic Shaping για διαμοίραση αρχείων (P2P)";
+/. `BitTorrent` — name of the protocol, not of the program
+sp_doc_p2p_p1 = "Χάρις στο cFosSpeed Traffic Shapping, μπορείτε επιτέλους να χρησιμοποιήσετε πλήρως το upstream εύρος ζώνης (με το eMule, Kazaa ή το Βittorrent κτλ.) και να το κάνετε διαθέσιμο σε άλλους χρήστες filenet - χωρίς να επηρεάζονται δυσμενώς άλλες εφαρμογές Internet.";
+sp_doc_p2p_t2 = "Προβλήματα σχετικά με λογισμικά διαμοίρασης αρχείων (filesharing software)";
+/. `BitTorrent` — name of the protocol, not of the program
+sp_doc_p2p_p2 = "Η εκτέλεση προγραμμάτων διαμοίρασης αρχείων (όπως eMule, Kazaa ή Bittorrent) συνήθως δεσμεύει το περισσότερο αν όχι όλο το upstream εύρος ζώνης του καναλιού, με αποτέλεσμα η σύνδεση να είναι εκτεθειμένη σε υψηλούς χρόνους ping. Αυτό δεν σημαίνει μόνο ότι η επικοινωνία διαμοίρασης αρχείων θα εκτελείται με αργό ρυθμό (αιτήματα επικοινωνίας μεταξύ της πήγης μπορεί να διαρκέσουν ολόκληρα 1 ή 2 δευτερόλεπτα αντί της τάξεως μερικών μιλιδευτερολέπτων) αλλα θα περιορίσει και τις υπόλοιπες εφαρμογές Internet οι οποίες θα λειτουργούν πολύ αργά. Με τον ίδιο τρόπο, οι τιμές των download θα πέφτουν κατακόρυφα από τα TCP ACKs, τα οποία δεν αποστέλλονται έγκυρα. Επίσης το πρόγραμμα περιήγησης θα ανταποκρίνεται λιγότερο αισθητά κατά την περιήγηση σας στο διαδύκτιο.";
+sp_doc_p2p_p3 = "Ένας δημοφιλής εναλλακτικός τρόπος που προσφέρεται από πολλά προγράμμαρα διαμοίρασης αρχείων είναι η τοποθέτηση τεχνιτού ορίου στις τιμές upload. ";
+sp_doc_p2p_p4 = "Ωστόσο, αν εκτελούνται ταυτόχρονα ένα upload ηλεκτρονικής αλληλογραφίας επιπροσθέτως με ένα upload διαμοίρασης αρχείων, τότε οι δυο διεργασίε θα συναγωνίζονται για το διαθέσιμο upstream εύρος ζώνης. Η ποσότητα του εύρους ζώνης που θα δεχτεί το καθένα Upload καθορίζεται τυχαία. Σε κάποιες περιπτώσεις, αυτό μπορεί να οδηγήσει στον τερματισμό όλων των TCP συνδέσεων (ΤCP connection starving).";
+sp_doc_p2p_t3 = "Η λύση: Traffic Shaping";
+sp_doc_p2p_p5 = "Το ολοκληρωμένο σχέδιο προτεραιότητας του cFos Και του cFosSpeed (επαν)οργανώνει τα πακέτα δεδομένων με τέτοιο τρόπο ώστε να εξασφαλιστούν η μέγιστες τιμές downloading για τα προγράμματα διαμοίρασης αρχείων. Επιπρόσθετα, το cFos και του cFosSpeed αναιρεί την προτεραιότητα μεταφοράς δεδομένων διαμοίρασης αρχείων. Αυτό τώρα δεν πρέπει σημαίνει ότι τέτοιου είδους κυκλοφορία καθυστερείται τεχνιτά ή μένει συνολικά στάσιμη. Αυτό που σημαίνει ωστόσο είναι ότι τέτοια δεδομένα θα καθυστερούν λίγο όταν θα πραγματοποιείται μετάδοση σημαντικότερων δεδομένων. Μόνο αυτό το σχέδιο προτεραιότητας μπορεί να κάνει δυνατή την λειτουργία προγραμμάτων διαμοίρασης αρχείων με μέγιστες τιμές μετάδοσης καθώς η ίδια σύνδεση χρησιμοποιείται ταυτόχρονα και για άλλες εφαρμογές.";
+sp_doc_p2p_p6 = "Για παράδειγμα, αν ένα πρόγραμμα διαμοίρασης αρχείων βρίσκεται σε λειτουργία στο παρασκήνιο κατά την διάρκεια περιήγησής σας στο διαδύκτιο, τότε κατά την φόρτωση μιας νέας ιστοσελίδας, θα υπάρχει στιγμιαία μια μικρή καθυστέρηση στις P2P κυκλοφορία. Επίσης, όταν αποστέλνετε μεγάλου όγκου δεδομένων μηνύματα ηλεκτρονικής αλληλογραφίας, οι τιμές των P2P upload ενδέχεται να πέσουν ελαφρώς καθώς μεταδίδεται το μήνυμα. Μόλις ολοκληρωθεί η αποστολή, τότε όλα τα uploads θα επανέλθουν ξανά στην μέγιστη ταχύτητα. Η μόνη εναλλακτική θα ήταν να αναβληθεί η μετάδοση του μηνύματος \"επ' αορίστου\" ή να περιορίσει κατά κάποιο τρόπο τεχνιτά το εύρος ζώνης της μετάδοσης για την διαμοίραση αρχείων. Αυτό βέβαια σημαίνει απώλεια εύρους ζώνης ακόμη και όταν καμιά άλλη εφαρμογή δεν χρησιμοποιεί την ίδια σύνδεση.";
+sp_doc_p2p_p7 = "Με αυτό τον τρόπο βελτιστοποιείται το cFosSpeed για χρήση μαζί με κάποιο λογισμικό διαμοίρασης αρχείων (p2p), επιτρέποντας έτσι τους χρήστες να εκτελούν ένα τέτοιο πρόγραμμα στο παρασκήνιο χωρίς να είναι αντιληπτή η συνήθης Internet δραστηριότητά του.";
+sp_doc_p2p_p8 = "Ως εκ τούτου, σας συνιστούμε να ρυθμίσετε το Kazaa etc. σε \"απεριόριστο upload (unlimited upload)\" ενώ απενεργοποιείται την επιλογή \"speed sense (αίσθηση της ταχύτητας)\", δεδομένου ότι το cFosSpeed θα έχει ήδη βελτιστοποίησει τη κίνηση στο Διαδίκτυο ούτως ή άλλως.";
+/: https://www.cfos.de/en/cfosspeed/documentation/p2p.htm
+/. it's referring to system tray icon and special skin for it.
+/. Note that particularly that string refers not to actual skin, but just used as title, to highlight that "there is icon skin for cFosSpeed"
+/. `BitTorrent` — name of the protocol, not of the program
+/. While translating `\"Options/Settings\"` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
+/: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
+/. Title of one of pictures
+/.  Title of picture with demo of cFosSpeed Phone Skin
+/. `UNKNOWN` shouldn't be translated, since it's not translatable protocol name, used in our software
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis.htm
+/: http://www.cfos.de/en/cfosspeed/documentation/status.htm
+/. One of explaining labels of cFosSpeed skins elements
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
+/. One of explaining labels of cFosSpeed skins elements
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
+/. Used as alternative text for clickable icon-buttons in sidebar at mentioned above and on similar pages
+/. You won't see it, since it displayed only if browser can't download images
+/: http://www.cfos.de/en/cfosspeed/documentation/status-aquarium.htm
+/. Usead as starting word for explaining labels of cFosSpeed skins elements
+/= Switch: Transfer rate in %
+/= Switch: Number of TCP/UDP connections
+/. Part after colon shouldn't be translated, since it's code from configuration file
+/. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
+/. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
+/. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 
 / PNet additional pages
 
@@ -1171,6 +1307,7 @@ speed_guide_p11e = "Για μεγαλύτερη ταχύτητα λήψης:";
 speed_guide_q11 = "Είχατε τα επιθυμητά αποτελέσματα;";
 speed_guide_p12a = "Υπάρχουν (σπάνιες) περιπτώσεις που το cFosSpeed RX shaping μειώνει την ταχύτητα λήψεως.<br/> Για να λύσετε το πρόβλημα αυτό, δοκιμάστε το εξής στο <b class=\"speed_console\">cFosSpeed Console</b>:";
 speed_guide_p12b = "Επίσης, υπάρχουν (σπάνιες) περιπτώσεις που η απώλειο πακέτων (packet loss) της σύνδεσης σας μπερδεύουν την Πολιτική Προτεραιοτήτων του cFosSpeed.<br/> Για να λύσετε αυτό το πρόβλημα δοκιμάστε το εξής στο <b class=\"speed_console\">cFosSpeed Console</b>:";
+/. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p13a = "Μερικές φορές, οι μετρήσεις ταχύτητας αρχίζουν να βγάζουν λάθος αποτελέσματα με τον καιρό διότι υπάρχουν συνεχώς πάρα πολλές σύνδεσεις και πολύ κίνηση στο πρωτόκολλο UDP. Αυτό μπορεί να συμβεί όταν χρησιμοποιείτε το utorrent. Η ρύθμιση της γραμμής λειτουργεί κανονικά, αλλά μετά από λίγο καιρό η σύνδεση αρχίζει να γίνεται όλο και πιο αργή.";
 speed_guide_p13b = "Μόνο σε αυτές τις περιπτώσεις θα πρέπει να ορίσετε κλειδωμένες ταχύτητες στα αντίστοιχα πεδία:";
 speed_guide_l13a = "Χρησιμοποιείστε τις τωρινές τιμές στο <b class=\"speed_console\">cFosSpeed Console</b>:";
@@ -1182,6 +1319,7 @@ speed_guide_q14 = "Είναι ενεργή η επιλογή \"Προτίμησ�
 speed_guide_a14 = "Επιχειρήστε να ενεργοποιήσετε την επιλογή:";
 speed_guide_p15 = "Υπάρχει πιθανότητα να έχετε υψηλούς χρόνους απόκρισης από τον διακομιστή στην άλλη μεριά της σύνδεσης. Αυτό συμβαίνει συχνά με διακομιστές (server) παιχνιδιών. Το cFosSpeed δεν μπορεί να μειώσει τους χρόνους απόκρισης περαιτέρω από ότι μπορεί να προσφέρει η γραμμή/πάροχος ίντερνετ σας. Όταν χρησιμοποιείτε πολλαπλές εφαρμογές ίντερνετ το cFosSpeed μπορεί να μειώσει τους χρόνους απόκρισης που θα είχατε σε κανονικές σύνθηκες και να χρησιμοποιήσει Πολίτικές Προτεραιοτήτων για να το επιτύχει τις μειωμένες τιμές ακόμα και όταν χρησιμοποιείτε την σύνδεση σας στο έπακρο. Αυτό επιτρέπει, για παράδειγμα, λήψεις και αποστολές ενώ μιλάτε μέσω VoiP (π.χ. Skype) ή παίζετε online.";
 speed_guide_l15a = "Απεγκατάσταση του cFosSpeed ή απενεργοποίηση Πολιτική Προτεραιοτήτων (Traffic Shaping)";
+/. `try both` here refers to `speed_guide_l15a` language key, which suggests to `Uninstall cFosSpeed or disable Traffic Shaping`
 speed_guide_l15b = "Κάντε λήψη του <a target=\"_blank\" href=\"http://www.cfos.de/en/download/download.htm#hrping\">hrping</a> και -χωρίς να χρησιμοποιείτε αλλού πόρους της σύνδεσης σας- δοκιμάστε και τα δύο";
 speed_guide_q15 = "Οι χρόνοι απόκρισης (ping) είναι ακόμα υψηλοί;";
 speed_guide_a15 = "Συμβουλή: Για συνδέσεις τύπου DSL να χρησιμοποιείτε fastpath (επικοινωνία με πάροχο τηλεφωνίας/ίντερνετ). Οι ασύρματες σύνδεσεις (wi-fi) τείνουν να έχουν υψηλότερους χρόνους απόκρισης (ping) από ότι οι ενσύρματες συνδέσεις (lan). Το ίντερνετ μέσω κινητής τηλεφωνίας μπορεί να προκαλέσει ακόμα μεγαλύτερες καθυστερήσεις εξαιτίας των δυσκολιών μεταφοράς δεδομένων που παρουσιάζει αυτός ο τρόπος σύνδεσης.";
@@ -1195,6 +1333,7 @@ speed_guide_q18 = "Είναι καλύτεροι οι χρόνοι απόκρι�
 speed_guide_p19 = "Κάποιος εξοπλισμός παρεμβάλει με τις εκπομπές TCP. Για παράδειγμα, κάποιοι οδηγοί για τις ασύρματες κάρτες δικτύου Atheros μπορεί να προκαλέσουν υψηλούς χρόνους απόκρισης όταν κάνετε λήψεις. Παρακαλούμε εγκαταστείστε τους νεώτερους οδηγούς για την κάρτα δικτύου. Για δοκιμή, χρησιμοποιήστε ένα διαφορετικό προσαρμογέα δικτύου και ελέξτε αν οι χρόνοι απόκρισης είναι ακόμα υψηλοί ενώ κάνετε λήψεις.";
 speed_guide_q19 = "Βοήθησαν οι καινούριοι οδηγοί ή εξοπλισμός;";
 speed_guide_p20a = "Μήπως το cFosSpeed είναι ρυθμισμένο σε κλειδωμένες τιμές για τις ταχύτητες λήψης/αποστολής; Μπορείτε να το ελέξετε στο <b class=\"speed_console\">cFosSpeed Console</b>:";
+/. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p20b = "Θα έπρεπε να είναι 0, εκτός από σπάνιες περιπτώσεις που έχετε πολλές συνδέσεις από το uTorrent και υψηλή κίνηση στο πρωτόκολλο UDP.";
 speed_guide_p20c = "Αν η ρύθμιση της γραμμής σας έχει σταθερά αποτελέσματα, θα πρέπει να αφήσετε την τιμή της ταχύτητας στο 0:";
 speed_guide_p20d = "ή να χρησιμοποιήσετε χαμηλότερες τιμές για κλειδωμένες ταχύτητες (μειώνοντας τις τιμές με βήματα 1%).";
@@ -1274,6 +1413,7 @@ cfosspeed_documentation_status_desc = "Εξηγήσεις όλων των στο
 cfosspeed_documentation_menu_desc = "Εξηγήσεις για τα μενού των επιλογών του cFosSpeed.";
 cfosspeed_documentation_no_ping_desc = "Τι μπορείτε να κάνετε εάν το cFosSpeed δεν δέχεται pings.";
 cfosspeed_documentation_keyboard_leds_desc = "Πως μπορώ να χρησιμοποιήσω τα LED του πληκτρολογίου ώς δείκτες εάν ο υπολογιστής είναι σε πλήρη οθόνη.";
+/. `BitTorrent` — name of the protocol, not of the program
 cfosspeed_documentation_p2p_desc = "Πως ρυθμίζω το cFosSpeed για πλήρη απόδοση με δίκτυα διαμοιρασμού αρχείων P2P, όπως Bittorrent, E2K, etc.";
 cfosspeed_documentation_logitech_keyboard_desc = "Πως χρησιμοποιώ το display του Logitech Gamer keyboards για πληροφόρηση κατάστασης του cFosSpeed. G19, G15, G13, G510 και συμβατά μοντέλα.";
 beta_index_desc = "Μεταφορτώστε τις τελευταίες εκδόσεις beta του cFosSpeed, cFos IPv6 Link, cFos Broadband Connect και cFos Professional.";
