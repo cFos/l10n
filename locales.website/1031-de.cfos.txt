@@ -800,6 +800,8 @@ cfout_baikal_cal1 = "http://<b>baïkal_server_domain</b>/cal.php/calendars/<b>ih
 cfout_baikal_cal2 = "Ihr Baïkal Benutzername";
 cfout_baikal_cal3 = "Ihr Baïkal Passwort";
 cfout_baikal_card1 = "http://<b>baïkal_server_domain</b>/card.php/addressbooks<b>ihr_baïkal_benutzername</b>/default<br/>(e.g. http://mydomain.com</b>/card.php/addressbooks/benutzerer1234/default)";
+cfout_adv_conf_h1 = "Erweiterte Konfiguration:";
+cfout_adv_conf_p1 = "cFos Outlook DAV verwendet die von Ihnen eingestellte URL um die tatsächliche Adresse ihres Kalenders bzw. Adressbuchs herauszufinden. Indem Sie ihrer URL ein <b>*</b> voranstellen, können Sie dieses Verhalten abstellen. In diesem Fall benutzt cFos Outlook DAV exakt die von Ihnen angegebene URL. Dies ist hilfreich bei der Benutzung von <b>DAViCal bindings</b> und in Fällen, in denen Sie bei <b>GMX</b> oder <b>web.de</b> einen anderen Kalender nutzen wollen. Beispiel URL: *http://www.cfos.de/calendars/mycalendar2.";
 
 / cFos IPv6 Link
 cfos6link_page_title = "IPv6-Verbindung mit XP, Vista und Windows 7";
