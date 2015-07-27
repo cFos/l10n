@@ -785,12 +785,12 @@ cfout_conf_title = "如何在五步驟內與 Outlook 同步 CalDAV 行事曆或 
 cfout_goto_help = "請參考我們的 <b>詳細圖片說明</b>。";
 cfout_server = "選擇您的 CalDAV/CardDAV 伺服器類型";
 cfout_new_server = "若您能成功使用 cFos Outlook DAV 與<b>不在我們清單中</b>的行事曆或通訊錄伺服器連結，請考慮透過 <a class=\"inline\" onclick=\"contact_preselect='outlook_dav'; cfos.show_contact_form(); return false;\" href=\"/en/index.htm\"><b>聯絡表單</b></a> 將您的設定資訊傳送給我們。";
-+cfout_show_all = "顯示全部";
-+cfout_conf_step1 = "<b>1.</b> 在<b>行事曆畫面</b>對行事曆按右鍵，然後點擊「<span class=\"green\">啟用 CalDAV 同步</span>」或「<span class=\"green\">設定 CalDAV 同步</span>」，或是<br/>在<b>聯絡人畫面</b>對聯絡人資料夾按右鍵，然後點擊「<span class=\"green\">啟用 CardDAV 同步</span>」或「<span class=\"green\">設定 CardDAV 同步</span>」";
-+cfout_conf_step2 = "<b>2.</b> 輸入行事曆伺服器的 CalDAV 網址、帳號與密碼或<br/>通訊錄伺服器的 CardDAV 網址、帳號與密碼";
-+cfout_conf_step3 = "<b>3.</b> 選擇 <span class=\"green\">同步間隔</span>";
-+cfout_conf_step4 = "<b>4.</b> <span class=\"green\">儲存</span> 設定";
-+cfout_conf_step5 = "<b>5.</b> 手動開始 <span class=\"green\">同步</span>";
+cfout_show_all = "顯示全部";
+cfout_conf_step1 = "<b>1.</b> 在<b>行事曆畫面</b>對行事曆按右鍵，然後點擊「<span class=\"green\">啟用 CalDAV 同步</span>」或「<span class=\"green\">設定 CalDAV 同步</span>」，或是<br/>在<b>聯絡人畫面</b>對聯絡人資料夾按右鍵，然後點擊「<span class=\"green\">啟用 CardDAV 同步</span>」或「<span class=\"green\">設定 CardDAV 同步</span>」";
+cfout_conf_step2 = "<b>2.</b> 輸入行事曆伺服器的 CalDAV 網址、帳號與密碼或<br/>通訊錄伺服器的 CardDAV 網址、帳號與密碼";
+cfout_conf_step3 = "<b>3.</b> 選擇 <span class=\"green\">同步間隔</span>";
+cfout_conf_step4 = "<b>4.</b> <span class=\"green\">儲存</span> 設定";
+cfout_conf_step5 = "<b>5.</b> 手動開始 <span class=\"green\">同步</span>";
 cfout_google_cal1 = "https://www.google.com/calendar/dav/<b>your_google_calendar_id</b>/events<br/>（例如 https://www.google.com/calendar/dav/user1234@gmail.com/events）";
 cfout_google_cal1a = "您的主要日曆的 <b>your_google_calendar_id</b> 就是您的 Google 電子郵件地址。其他日曆的日曆 ID 格式是 <b>[long_string]@group.calendar.google.com</b>。";
 cfout_google_cal2 = "您的 Google 帳號";
@@ -835,7 +835,7 @@ cfout_baikal_cal2 = "您的 Baïkal 帳號";
 cfout_baikal_cal3 = "您的 Baïkal 密碼";
 cfout_baikal_card1 = "http://<b>baïkal_server_domain</b>/card.php/addressbooks<b>your_baïkal_username</b>/default<br/>（例如 http://mydomain.com</b>/card.php/addressbooks/user1234/default）";
 cfout_adv_conf_h1 = "進階設定:";
-+cfout_adv_conf_p1 = "cFos Outlook DAV 會使用您設定的網址來猜測行事曆或通訊錄的實際位置。若在網址前加上 <b>*</b> 即可防止此行為。這種情況下 cFos Outlook DAV 就只會使用指定的網址，這應該對 <b>DAViCal bindings</b> 以及您想要使用 <b>GMX</b> 或 <b>web.de</b> 的不同日曆時會有幫助。網址範例: *http://www.cfos.de/calendars/mycalendar2 。";
+cfout_adv_conf_p1 = "cFos Outlook DAV 會使用您設定的網址來猜測行事曆或通訊錄的實際位置。若在網址前加上 <b>*</b> 即可防止此行為。這種情況下 cFos Outlook DAV 就只會使用指定的網址，這應該對 <b>DAViCal bindings</b> 以及您想要使用 <b>GMX</b> 或 <b>web.de</b> 的不同日曆時會有幫助。網址範例: *http://www.cfos.de/calendars/mycalendar2 。";
 
 / cFos IPv6 Link
 cfos6link_page_title = "XP、Vista 和 Windows 7 的 IPv6 連線工具";
