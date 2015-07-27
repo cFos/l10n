@@ -35,6 +35,7 @@ htm_lang_prefix = "es-mx";
 
 ignore_ssl_cert_chk = "Ignorar errores del certificado SSL (inseguro)";
 ignore_ssl_cert_desc = "Si se permite a cFos Outlook DAV ignorar errores de certificado SSL, puede conectarse a servidores con certificados SSL inseguros, por ejemplo, certificados auto-firmados. Habilitar esta opción no se recomienda generalmente, debido a que hace vulnerable la conexión SSL a ataques de hombre-en-medio.";
+od_key_registered = "La licencia ha sido registrada. Por favor reinicie Outlook para que el registro se haga efectivo.";
 
 / ----------------------------------------------------------------------
 /
@@ -136,6 +137,14 @@ logon_start_desc = "Esta tarea inicia %p si inicia sesión el usuario mostrado a
 show_home_dir = "Mostrar Directorio Inicial";
 publish_file = "Publicar Archivo";
 user_administration = "Administración de Usuarios";
+/. Label of menu entry, which enables and disables any uploads to PNET.
+/. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
+/. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
+disable_uploads = "Deshabilitar las cargas";
+enable_uploads = "Habilitar las cargas";
+publish_file_for_download = "Publicar el archivo para descarga";
+/. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
+upload_url_to_clipboard = "Cargar la dirección URL al portapapeles";
 
 / pnet connectivity test
 connectivity_test = "Prueba de Conectividad";
@@ -199,6 +208,12 @@ translator_name = "Dayán Pedro Huerta Cadena";
 translator_msg = "Espero mi traducción sea comprensible. Saludos.";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Su licencia %3 caducará en %1 %2.";
+version_mismatch = "Version del driver y del daemon de la ventana no confieren.\n"
+   "\n"
+   "Daemon=%1\n"
+   "Driver=%2\n"
+   "\n"
+   "Por favor reinicie y si esto no ayudara, por favor reinstale %p!\n";
 
 service_desc = "Realiza una medición de la latencia y operaciones privilegiadas para %p";
 no_pings_error = "Los paquetes de ping enviados por %p parecen no estar logrando llegar. "
@@ -251,8 +266,12 @@ connect_to = "Conecte a";
 make_own_skin = "Diseñe su propia piél";
 click_through = "Haga clic a través";
 ask = "Preguntar";
+
+/. Indicates states, like `Switch On` or `Switch Off`
+/. Used in various sections of program as menu entries or buttons labels
 off = "Apagado";
 on = "Encendido";
+
 note = "Nota";
 deactivated = "desactivado";
 browser_warning = "¡El Internet Explorer versión 8 o mas reciente es la recomendada para este cuadro de diálogo!";
@@ -284,6 +303,9 @@ prio_doc_link = "¿Cómo funciona el esquema de priorización?";
 save_protocols = "Guardar los protocolos";
 undo = "Deshacer";
 filter_selection = "Filtrar selección";
+/: Settings -> Protocols/Programs
+/. Used as indicator of selected by user level of priority (for Traffic Shaping)
+/. Displayed next to protocol or program name, near slider with levels
 higher = "Mas alto";
 high = "Alto";
 default = "Predeterminado";
@@ -397,6 +419,9 @@ disable_speed_shaping = "Deshabilitar Perfilado de Tráfico";
 yes = "Sí";
 no = "No";
 help = "Ayuda";
+/: cFosSpeed context menu -> Usage Graph
+/. Used as one of dropdown menu entries
+/. Means `To show all programs and protocols traffic`
 bgraph_totals = "Total";
 blocklist = "Bloqueo de IP";
 blocklist_help = "Listado de direcciones IP para las cuales se ha bloqueado todo el tráfico.";
@@ -458,6 +483,8 @@ set = "Fijar";
 tx_limit_help = "Introduzca la velocidad en bytes/seg o porcentaje que este programa o protocolo tiene permitido enviar.";
 download_more_skins = "Descargar más pieles";
 documentation = "Documentación";
+/: cFosSpeed context menu
+/. means `Close cFosSpeed`
 exit_demon = "Salir";
 speed_test = "Prueba de Velocidad de cFos";
 ask_key_banned_info = "Se ha encontrado un problema con su clave de licencia.\n¿Le gustaría mayor información?";
@@ -512,13 +539,24 @@ enable_smartphone_skins = "Pieles para Teléfono";
 http_access_enabled = "Se ha establecido la contraseña, se permite el acceso remoto a HTTP.";
 http_access_disabled = "No se ha establecido una contraseña, el acceso remoto a HTTP está prohibido.";
 set_server_pwd = "Establecer Contraseña del Servidor";
+
+/: Right click on cFosSpeed -> Windows Settings -> Auto-arrange windows
+/. Possible position of status window
 auto_arrange_top = "Arriba";
 auto_arrange_bottom = "Abajo";
+
+/: cFosSpeed context menu
+/. Menu entry which enables display of cFosSpeed's tile in Windows 8 Start Menu
+/. @note Currently disabled
 show_on_metro_apps = "Mostrar en las aplicaciones Metro";
+
 traffic_shaping_info = "Información de Perfilado de Tráfico";
 wlan_access_point = "Punto de acceso Wi-Fi";
 prioritize_foreground_process = "Priorizar proceso en la ventana en primer plano";
 prioritize_foreground_help = "Automáticamente establecer la prioridad del proceso en la ventana oculta a Alta.";
+upnp_router_info = "Usar las estadísticas UPnP del Router";
+upnp_router_info_help = "Usar las estadísticas de su enrutador UPnP para determinar la velocidad de la línea y el medio de traffic shaping, de serlo posible. Es posible que deba activar la funcionalidad UPnP en su router.";
+ping_stats = "Estadísticas del Ping";
 
 
 / ----------------------------------------------------------------------
@@ -605,6 +643,7 @@ sn_save_err = "El archivo de licencia no pudo ser guardado en el disco duro en %
 sn_keyfile_err = "El archivo de licencia está corrompido.";
 
 / new 16 digit serial number dialog
+/. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
 sn16_info = "Por favor entre su nuero de serie de 16 dígitos para recibir su clave de licencia. Usted deberá estar conectado al internet para recibir el archivo correctamente.";
 sn16_failed = "¡No se pudo recuperar el archivo de licencia!";
 
@@ -653,6 +692,7 @@ port_forwarding_chk = "Usar la redirección automática de puertos, de estar dis
 port_forwarding_failed = " Su router%? parece no ofrecer soporte para la redirección automática de puertos. "
                          "Usted puede activar esta funcionalidad desde la página de configuración del enrutador.";
 port_forwarding_config = "Puede configurar su router desde %?.";
+/. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
 port_forwarding_fritz = "Usted puede activar la redirección de puertos en su FRITZ!Box al permitir los cambios en las configuraciones de seguridad mediante UPnP bajo Red Doméstica / Red / Programas";
 
 / crash handler messages
@@ -689,35 +729,236 @@ conf_del_query = "Si desea eliminar estos archivos y directorios también, podr�
                  "Después de la selección, haga clic en Siguiente.";
 
 / finish page
+finish_head_ok = "Instalación exitosa.";
+finish_info_ok = "%? ha sido correctamente instalado en su computadora.";
+finish_head_fail = "La instalación ha fallado.";
+finish_info_fail = "La instalación ha fallado debido al siguiente motivo:";
+finish_reboot = "!El sistema necesita ser reiniciado! Haga clic en Terminar para reiniciar ahora, o en cancelar para reiniciar más tarde.";
+finish_uninst_driver_reboot = "La desinstalación del driver actual solo puede levarse a cabo luego de un reinicio del sistema. "
+                             "Así que por favor reinicie su sistema y vuelva a ejecutar el programa de instalacion de nuevo.";
+finish_link_ok = "<a href=\"%?\">%? Características!</a>";
+finish_file_fail = "Sírvase aver el archivo de registro %s para mayores informaciones.";
+finish_file_link_fail = "Vea el archivo de  <a href=\"registro://%s\">log file</a> para mayores informaciones.";
+finish_cfosts_disabled = "El Traffic Shaping ha sido desabilitado en su cFos en ejecución, "
+                         "porque el %p ya está realizando el traffic shaping. (Ud. puede "
+                         "reactivar al cFos Traffic Shaping en la ventana de configuraciones del cFos.)";
+finish_cfosts_enabled = "El Traffic Shaping ha sido habilitado en su copia en ejecución de Cfos.";
+finish_link_checkbox = "Mostrar las funcionalidades más recientes de %p";
 
 / uninstall finish page
+ui_finish_head_ok = "Desinstalación exitosa.";
+ui_finish_info_ok = "%? ha sido exitosamente desinstalado de su computadora.";
+ui_finish_head_fail = "La desinstalación ha fallado.";
+ui_finish_info_fail = "%? No ha podido ser desinstalado de su computadora debido al siguiente motivo:";
+ui_finish_not_removed = "Los siguientes archivos podrán ser removidos solamente después de un reinicio en su computadora: ";
 
 / brandkey finish page
+bk_finish_head_ok = "Registro completo.";
+bk_finish_info_ok = "%? ha sido registrado a nombre de:";
+bk_finish_head_fail = "El registro ha fallado.";
+bk_finish_info_fail = "El registro ha fallado debido al siguiente motivo:";
 
 / progress tasks
+task_register_email = "Registrando dirección de email...";
+task_restore_point = "Creando punto de restauración del sistema...";
+task_copy = "Copiando archivos...";
+task_desktop_link = "Creando atajos en el escritorio...";
+task_program_group = "Creando grupo de programa...";
+task_registry = "Escribiendo las entradas en el registro de Windows...";
+task_driver = "Instalando el driver...";
+task_service = "Instalando el servicio...";
+task_daemon = "Iniciando el %?...";
+task_uninstall_old = "Desinstalando versión actual...";
+task_stop_daemon = "Deteniendo el %?...";
+task_uninstall_driver = "Desinstalando el controlador...";
+task_uninstall_service = "Desinstalando el servicio...";
+task_uninstall_ga = "Desinstalando el cFos Game Analyzer...";
+task_delete_files = "Borrando archivos...";
+task_cleanup_caches = "Limpiando la cache...";
+task_hangup = "Desconectando conexiones en línea activas...";
+task_flush_registry = "Descargando el registro al disco...";
+task_cancel = "Cancelando operación...";
+task_canceled = "¡Operación cancelada!";
 
 / connectivity test progress tasks
+task_start_program = "Encendiendo al %p...";
+task_test_localhost = "Chequeando al host local...";
+task_test_local_ip = "Probando las direcciones IP locales...";
+task_test_public_ip = "Probando las direcciones IP públicas...";
+task_test_finished = "La prueba ha concluído.";
 
 / program group
+speed_pg_name = "%p Traffic Shaping";
+pg_uninstall = "Desinstalar %?";
+pg_console = "Consola de %p";
+pg_start = "Iniciar la ventana de estado de %p";
+pg_menu = "Menú de %?";
+pg_add_connection = "Añadir conexión";
+pg_enter_serial_number = "Ingrese el número de serie de %p";
+pg_configure = "Configurar el %p";
 
 / desktop symbol
+dt_advertise = "Funcionalidades de %?";
+dt_advertise_desc = "Despliega una lista de todas las funcionalidades de %?.";
 
 / message boxes
+query_reboot = "Debe reiniciar su sistema para que los cambios se hagan efectivos.\n\n"
+   "¿Desea reiniciar ahora?";
+query_inst_reboot = "Deberá reiniciar su sistema antes de que la instalación pueda continuar.\n\n Por favor reinicie el programa de instalación tras el reinicio.\n\n¿Desea reiniciar su sistema ahora?";
+query_drv_inst_cancel = "La desinstalación/instalación del controlador es realizada por el sistema operativo.\n"
+                        "La interfaz de configuración de Windows puede requerir de hasta 15 minutos para\n"
+                        "¡Registrar o de-registrar un controlador!\n\n"
+                        "Es sumamente recomendable que usted no cancele este proceso a menos que\n"
+                        "haya ya transcurrido ese tiempo.\n\n"
+                        "¿Realmente desea cancelar?";
+query_driver_err_abort = "¡Hubo un error durante la instalación del controlador!\n"
+                         "Por lo tanto es recomendable abortar la instalación\n"
+                         "ahora.\n\n"
+                         "Sin embargo es posible continuar con la instalación,\n"
+                         "Lo que puede ser útil para propósitos de prueba. Por favor tenga en consideración \n"
+                         "que %p Probablemente no funcionará \n"
+                         "adecuadamente.\n\n"
+                         "¿Abortar la instalación? (recomendado)";
+query_further_info = "¿Desea obtener ulteriores informaciones?";
 
 / error messages
+err_driver_inst = "Instalación del controlador ha fallado.";
+err_service_inst = "Instalación del servicio ha fallado.";
+err_service_uninst = "Desinstalación del servicio ha fallado.";
+err_daemon_start = "No se ha podido iniciar a %?.";
+err_uninst_old = "La versión actual no ha podido ser desinstalada. "
+                 "Por favor reinicie su sistema operativo e inténtelo nuevamente.";
+err_os = "Su sistema operativo es %?.\n\n"
+         "%? requires Windows 2000/XP or higher to run.";
+err_os_minxp = "Your operating system is %?.\n\n"
+         "%? requiere de Windows XP o más reciente para ejecutarse.";
+err_os_sup = "%p Ofrece soporte oficial solamente para %? o más nuevo.\n\n"
+             "Es posible, pero no comprobado por nosotros, que %p también llegue a ejecutarse en su sistema operativo %?.\n\n"
+             "¿Desea continuar con la instalación?";
+err_uninst_driver = "El controlador de dispositivo no se ha podido desinstalar.";
+err_create_process = "Error iniciando el %s: %s";
+err_write_lock = " Los componentes de red de %? están siendo usados por otro proceso."
+                 "Por favor cierre todas las otras aplicaciones o reinicie su computadora y vuelva a intentarlo.";
+err_write_lock_process = "Los componentes de red de %? están siendo usados por el siguiente proceso: %?. Por favor cierre este proceso o reinicie su computadora y vuelva a intentarlo.";
+err_file_auth = "Algunos archivos en esta distribución están corruptos o faltando.\n"
+                "Por favor obtenga una distribucion autentica de %p\n"
+                "(e.j. desde www.cfos.de).";
+err_cancel = "La operación ha sido cancelada.";
+err_no32 = "No se puede instalar controladores de 32 bits en sistems operacionales de 64 bit.\n\nOS: %?\nProduct: %?";
+err_bad_keyfile = "La llave de licencia parece estar corrupta o invalida. "
+                  "Por favor entre en contacto para que le podamos otorgar una llave que funcione.";
+err_bad_setup = "%p Parece estar instalado indebidamente o algunos archivos "
+                "Han sido modificados. Por favor instale una copia nueva de "
+                " %p e intente nuevamente.";
+err_bad_signature = "La contraseña parece estar equivocada o es para "
+                    "alguna otra llave de licencia. Por favor sírvase ingresar la contraseña correcta "
+                    "para esta llave de licencia.";
+err_gdiplus =
+  "La librería GDI+ no ha sido encontrada!\n\n"
+  "Esta instalación puede solo continuar si la librería GDI+ se encuentre instalada.\n"
+  "Ud. puede descargar la librería GDI+ como parte de un SDK redistribuible directamente desde Microsoft. Por favor ejecute el instalador de los archivos descargados y los expanda \n"
+  "En un directorio <target directory> de su preferencia. Luego copie todos los archivos gdi+\n"
+  "desde el directorio <target directory>\\asms\\10\\msft\\windows\\gdiplus al directorio\n"
+  " Windows\\system32.\n\n"
+  "Haga clic en OK para abrir la página correspondiente de descargas en Microsoft.\n"
+  "Haga clic en ‘Cancelar’ para cancelar la instalación.";
+err_winhttp =
+  "¡La librería WinHTTP no ha sido encontrada!\n\n"
+  "Esta instalación puede solamente llevarse a cabo con la librería WinHTTP ya instalada.\n"
+  "La librería WinHTTP  debiera ser parte nativa del sistema operativo, pero ella \n"
+  "no puede ser cargada.";
+bad_manufacturer = "¡La instalación no puede comenzar porque este producto ha sido licenciado solamente para el hardware selecto en cuestión!";
+cannot_install = "No se puede instalar";
+err_uninst_daemon =
+   "No se ha logrado desinstalar el demonio. "
+   "De aún haber %p Ventanas de diálogos abiertas, por favor sírvase cerrarlas primero."
+   "Sino, reinicie su PC.";
+err_activate_10045 =
+   "Ha ocurrido el error HTTP 10045 durante la activación.\n"
+   "Una razón posible es que el Winsock se encuentre corrompido.\n"
+   "Para reiniciar su Winsock por favor abra la línea de comandos\n"
+   "Y digite 'netsh winsock reset'.\n"
+   "Luego reinicie su PC y vuelva a intentar la activación \n"
+   "una vez más.";
+err_activate_12002 =
+   "Ha ocurrido el error HTTP 12002 (request time-out) durante\n"
+   "el registro. Una posible razon para ello es que la conexión hacia nuestros servidor\n"
+   "necesária para el registro este siendo bloqueada por algún firewall, un programa anti-virus\n"
+   "o cualquier otro tipo de software de seguridad. en el caso en que tenga cualquiera de esos\n"
+   "programas instalados, por favor desactívelos temporalmente y luego vuelva a intentar el registro en línea.";
 / %1 = source, %2 = destination, %3 = explanation
+err_copy_from_to = "Error copiando archivo %1 a %2 (%3).";
+err_port_in_use = "El puerto %? del servidor ya se encuentra siendo usado por otro programa.\n\nProgram: %?\nPath: %?";
 
 / warning messages
+wrn_oem_update = "Usted ya dispone de una copia licenciada de %p instalada.\n\n"
+  "Se está disponiendo a instalar una versión normal tipo shareware. De continuar\n"
+  "con esta instalación, su licencia antigua ya no le funcionará.\n"
+  "Se puede obtener una versión actualizada de su %p licenciado\n"
+  "en el mismo lugar dónde lo obtuvo originalmente.\n\n"
+  "¿Desea continuar con esta instalación de todos modos?";
+wrn_close_application = "Se recomienda que cierre las siguientes aplicaciones antes de continuar:";
 
 / traffic shaping algorithm
+tsa_header = "Modo de Traffic Shaping (Versión multi-usuário)";
+tsa_subheader = "Comportamiento predeterminado del algoritmo de Traffic Shaping.";
+tsa_info = "Por favor seleccione el comportamiento predeterminado del algoritmo de Traffic Shaping"
+           "dependiendo de su conexión a Internet. (Esta selección puede posteriormente ser establecida individualmente para cada conexión.)";
 
 / vista warning
+vista_header = "Nota acerca de la instalación";
+vista_subheader = "Nota acerca la instalación de controladores en Windows Vista.";
+vista_warn_info = "%p ha sido digitalmente firmado con un certificado de GlobalSign, una empresa"
+ "licenciada por Microsoft. Sin embargo, la cFos Software GmbH no participa de la certificacion adicional WHQL de Microsoft debido a sus altos costos. Por esto le aparecerá una ventana emergente durante la instalación del controlador"
+ "de  Windows Vista con el mensaje que el publicador del controlador no puede ser comprobado.\n\n"
+ "De aparecer esta ventana,por favor haga clic en \"Instalar este controlador de todos modos\".";
+vista_warn_image = "vista_en.bmp";
 
 / dial entry dialog
+dun_wizard_name = "Asistente de conexión de %p";
+connections = "Conexiones";
+dun_subheader = "Configurar una conexión.";
+dun_with_bc = " con cFos Broadband Connect";
+dun_reenter_password = "Por favor vuelva a ingresar la Contraseña";
+dun_list_tonline = "Nueva conexión de T-Online";
+dun_new_connection = "Establecer una conexión nueva";
+dun_err_no_device = "No se ha encontrado cualquier dispositivo de %p. (El dispositivo debiera estar disponible luego tras el reinicio de su computadora.)";
 
 / e-mail registration dialog
+eml_header = "Registro de E-mail";
+eml_subheader = "Registre su dirección de e-mail en cFos.";
+eml_info = "Por favor registre su correo electrónico en cFos, de modo que nosotros podamos incluirle en nuestra lista de anuncios cuando las futuras versiones de %p esten disponibles.";
+eml_info_optional = "De registrar su correo electrónico con la cFos, usted será incluido en nuestra lista de envío y automáticamente será notificado cuando las nuevas versiones de %p esten disponibles. Si no desea ser notificado acerca de las actualizaciones de los programas, por favor deje este campo en blanco.";
+eml_email = "Su dirección de correo electrónico:";
+eml_invalid_email = "La dirección de correo electrónico que ingresó no es válida.";
+eml_invalid_optional_email = "Por favor ingrese una dirección de correo electrónico válida o simplemente deje este campo en blanco.";
+eml_reg_failed = "La comprobación de la dirección de correo electrónico ha fallado.";
+eml_checking_domain = "Verificando el dominio de la dirección de correo...";
 
 // Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "Asistente de inicio de %p del Wi-Fi virtual";
+virtual_wifi_header = "Iniciar Wi-Fi virtual";
+virtual_wifi_subheader = "Establece un punto de acceso originado por software y comparte la conexión de Internet.";
+virtual_wifi_stop_header = "Detener al Wi-Fi virtual";
+virtual_wifi_info = "Selecciona la conexión de red que rutea el tráfico de internet y elije una contraseña para el punto de acceso inalámbrico.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "El SSID No debe estar en blanco y tampoco debe tener un valor más allá de 32 caracteres.";
+virtual_wifi_invalid_password_length = "La longitud de la contraseña debe ser de entre 8 y 64 caracteres.";
+virtual_wifi_ics_not_available = "La conexión compartida a Internet no está disponible en este PC.";
+virtual_wifi_error_get_cons = "Error al adquirir las conexiones de red.";
+virtual_wifi_ics_warning = "La conexión compartida a Internet ya está habilitada en la siguiente red:\n%?\n\n¿Desea en cambio usar esta red?:\n%?";
+virtual_wifi_error_enable_ics = "Error al establecer la conexión compartida a Internet.";
+virtual_wifi_error_start = "Error al iniciar el WI-FI virtual.";
+virtual_wifi_ok = "El WI-FI virtual y la conexión compartida a internet activados correctamente.\n\nNota: Si un cliente no lograra conectarse correctamente al Wi-Fi virtual, por favor detenga y reinicie el Wi-Fi virtual.\n\nSi un cliente lograra conectarse al Wi-Fi virtual, pero no obtuviera una conexión a Internet, por favor desinstale y vuelva a instalar el %p.";
+virtual_wifi_query_stop = "¿Detener el WI-FI virtual?";
+virtual_wifi_error_stop = "Error al detener al Wi-Fi virtual:";
+virtual_wifi_stopped = "WI-Fi virtual detenido exitosamente.";
+virtual_wifi_dialup_ics = "Para el caso de una conexión discada, usted deberá habilitar la conexión compartida a internet manualmente al cambiar las propiedades para esta conexión.";
+virtual_wifi_error_not_present = "No se ha detectado cualquier interface (lista) de WI-FI.\n\npara establecer una conexión de WI-FI virtual. Se requiere de una interfaz de WI-FI lista y disponible.";
+virtual_wifi_autostart = "Iniciarse automáticamente durante el inicio del sistema";
+/. Label next to a checkbox in deactivation of virtual Wi-Fi dialog
+virtual_wifi_deactivate_autostart = "Deshabilitar el inicio automático durante el inicio del sistema.";
 
 
 / !!! DO NOT TRANSLATE !!!
