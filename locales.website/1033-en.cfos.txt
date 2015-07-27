@@ -819,6 +819,7 @@ cfout_owncloud_cal1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/
 cfout_owncloud_cal2 = "Your ownCloud username";
 cfout_owncloud_cal3 = "Your ownCloud password";
 cfout_owncloud_card1 = "http://<b>owncloud_server_domain</b>/owncloud/remote.php/carddav/addressbooks/<b>owncloud_user</b>/contacts<br/>(e.g. http://mydomain.com/owncloud/remote.php/carddav/addressbooks/user1234/contacts)";
+cfout_owncloud_p1 = "We only support the most recent major version of ownCloud. Please update if you experience problems.";
 cfout_gmx_cal1 = "https://caldav.gmx.net/<b>your_gmx_username</b><br/>(e.g. https://caldav.gmx.net/user1234@gmx.de)";
 cfout_gmx_cal2 = "Your GMX username";
 cfout_gmx_cal3 = "Your GMX password";
