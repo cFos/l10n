@@ -13,6 +13,21 @@ language = "Traditional Chinese";
 language_local = "正體中文";
 htm_lang_prefix = "zh-tw";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
@@ -137,9 +152,13 @@ logon_start_desc = "以下的使用者登入時，本任務就會啟動 %p。";
 show_home_dir = "顯示使用者家目錄";
 publish_file = "發佈檔案";
 user_administration = "使用者管理";
+/. Label of menu entry, which enables and disables any uploads to PNET.
+/. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
+/. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
 disable_uploads = "停用上傳";
 enable_uploads = "啟用上傳";
 publish_file_for_download = "發佈檔案以供下載";
+/. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
 upload_url_to_clipboard = "複製上傳網址至剪貼簿";
 
 / pnet connectivity test
@@ -263,8 +282,12 @@ connect_to = "連線到";
 make_own_skin = "設計您自己的面板";
 click_through = "滑鼠點擊可穿透視窗";
 ask = "詢問";
+
+/. Indicates states, like `Switch On` or `Switch Off`
+/. Used in various sections of program as menu entries or buttons labels
 off = "關閉";
 on = "開啟";
+
 note = "註";
 deactivated = "已停用";
 browser_warning = "建議使用 Internet Explorer 8 或更新的版本瀏覽！";
@@ -296,6 +319,9 @@ prio_doc_link = "優先順序機制如何運作";
 save_protocols = "儲存通訊協定";
 undo = "復原";
 filter_selection = "選擇過濾器";
+/: Settings -> Protocols/Programs
+/. Used as indicator of selected by user level of priority (for Traffic Shaping)
+/. Displayed next to protocol or program name, near slider with levels
 higher = "最高";
 high = "高";
 normal = "一般";
@@ -371,7 +397,11 @@ show_for = "顯示";
 this_month = "這個月";
 time = "時間";
 time_limit = "時間限制";
+/. Used as table header
+/. Short version of "minutes"
 time_min = "分";
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "時:分";
 volume = "流量";
 volume_limit = "流量限制";
@@ -404,6 +434,9 @@ disable_speed_shaping = "關閉流量塑型";
 yes = "是";
 no = "否";
 help = "說明";
+/: cFosSpeed context menu -> Usage Graph
+/. Used as one of dropdown menu entries
+/. Means `To show all programs and protocols traffic`
 bgraph_totals = "總計";
 blocklist = "IP 封鎖器";
 blocklist_help = "被封鎖的 IP 地址清單。";
@@ -425,7 +458,9 @@ slots_title = "槽位設定";
 can_select_multiple = "提示：您可以在選擇項目時，按住 Shift 或 Ctrl 鍵來選擇多個項目";
 name_for = "命名 ";
 set_name = "設定名稱";
+/. RX stands for `receive` (incoming/download)
 rx_only = "只有接收";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "只有傳送";
 max_of_rx_tx = "接收及傳送的最大值";
 total_rx_only = "接收速度總計";
@@ -459,6 +494,8 @@ set = "設定";
 tx_limit_help = "以 Bytes/s 或百分比的格式輸入這個程式或是協定允許傳送的速度。";
 download_more_skins = "下載更多面板";
 documentation = "說明文件";
+/: cFosSpeed context menu
+/. means `Close cFosSpeed`
 exit_demon = "離開";
 speed_test = "連線速度測試";
 ask_key_banned_info = "您的授權碼有問題。\n要獲得更多資訊嗎？";
@@ -513,9 +550,17 @@ enable_smartphone_skins = "手機面板";
 http_access_enabled = "已設定密碼，已允許遠端 HTTP 存取。";
 http_access_disabled = "未設定密碼，已禁止遠端 HTTP 存取。";
 set_server_pwd = "設定伺服器密碼";
+
+/: Right click on cFosSpeed -> Windows Settings -> Auto-arrange windows
+/. Possible position of status window
 auto_arrange_top = "頂端";
 auto_arrange_bottom = "底端";
+
+/: cFosSpeed context menu
+/. Menu entry which enables display of cFosSpeed's tile in Windows 8 Start Menu
+/. @note Currently disabled
 show_on_metro_apps = "於 Metro 程式清單中顯示應用程式";
+
 traffic_shaping_info = "流量塑型資訊";
 wlan_access_point = "Wi-Fi 熱點";
 prioritize_foreground_process = "調高前景程序優先權";
@@ -609,6 +654,7 @@ sn_save_err = "授權檔案無法儲存至磁碟 %?。";
 sn_keyfile_err = "授權檔案損毀。";
 
 / new 16 digit serial number dialog
+/. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
 sn16_info = "請輸入您的 16 位數序號以取回您的註冊金鑰，您必須連線至網際網路才能成功取回金鑰。";
 sn16_failed = "金鑰取回失敗！";
 
@@ -651,6 +697,7 @@ usage_stats_chk = "自動將使用統計資料送回 cFos 來增進產品的效�
 port_forwarding_chk = "如果可以就使用自動連接埠轉送功能。";
 port_forwarding_failed = "您的路由器 %? 似乎不支援自動連接埠轉送功能，您也許可以在路由器的設定裡啟用這個功能。";
 port_forwarding_config = "您可以在 %? 設定您的路由器。";
+/. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
 port_forwarding_fritz = "您已允許透過 UPnP 修改 FRITZ!Box 當中的 Home Network / Network / Programs 的安全設定，來啟用連接埠轉送功能。";
 
 / crash handler messages
@@ -775,6 +822,7 @@ err_os_sup = "%p 官方只支援 %? 或更新的版本。\n\n%p 有可能（但�
 err_uninst_driver = "無法移除裝置驅動程式。";
 err_create_process = "啟動 %s 時發生錯誤：%s";
 err_write_lock = "網路元件 %? 正被其它程式使用，請關閉其它程式或重新開機後重試。";
+err_write_lock_process = "%? 網路元件正被下列程序使用中: %?。請結束此程序，或重新啟動您的電腦後再試一次。";
 err_file_auth = "某些檔案損毀或遺失。\n請取得可靠的 %p 安裝檔案。\n（例如從 www.cfos.de 下載）";
 err_cancel = "操作已被取消。";
 err_no32 = "無法在 64 位元的作業系統安裝 32 位元的驅動程式。\n\n作業系統：%?\n產品：%?";
@@ -850,7 +898,16 @@ virtual_wifi_stopped = "已成功停止虛擬 Wi-Fi。";
 virtual_wifi_dialup_ics = "您必須為此連線手動調整設定，開啟撥號網路連線的網際網路連線共用。";
 virtual_wifi_error_not_present = "找不到（已可使用的）Wi-Fi 網路卡。\n\n必須先有已存在並就緒的 Wi-Fi 網路卡才能建立虛擬 Wi-Fi。";
 virtual_wifi_autostart = "在系統啟動時自動啟動。";
+/. Label next to a checkbox in deactivation of virtual Wi-Fi dialog
 virtual_wifi_deactivate_autostart = "不在系統啟動時自動啟動。";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
