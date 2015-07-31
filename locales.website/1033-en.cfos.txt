@@ -35,6 +35,12 @@ bc_linktext = "cFos Broadband Connect for high-speed access";
 cfos6link_linktext = "cFos IPv6 Link";
 cfos_linktext = "cFos/Professional for ISDN";
 close = "Close";
+cookie_bar_text = "We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners.";
+cookie_bar_details = "See details";
+
+/. Used as "I understand"
+cookie_bar_got_it = "Got it";
+
 desc_6link = "IPv6 Connectivity for XP, Vista and Windows 7";
 desc_dialup = "Internet Dial-Up";
 desc_shaping = "Internet Acceleration via Traffic Shaping";
@@ -823,11 +829,11 @@ cfout_owncloud_p1 = "We only support the most recent major version of ownCloud. 
 cfout_gmx_cal1 = "https://caldav.gmx.net/<b>your_gmx_username</b><br/>(e.g. https://caldav.gmx.net/user1234@gmx.de)";
 cfout_gmx_cal2 = "Your GMX username";
 cfout_gmx_cal3 = "Your GMX password";
-cfout_gmx_card1 = "https://carddav.gmx.net/<b>user_principal_uri</b>";
+cfout_gmx_card1 = "https://carddav.gmx.net/user-principal-uri";
 cfout_webde_cal1 = "https://caldav.web.de/<b>your_web.de_username</b><br/>(e.g. https://caldav.web.de/user1234@web.de)";
 cfout_webde_cal2 = "Your web.de username";
 cfout_webde_cal3 = "Your web.de password";
-cfout_webde_card1 = "https://carddav.web.de/<b>user_principal_uri</b>";
+cfout_webde_card1 = "https://carddav.web.de/user-principal-uri";
 cfout_egroupware_cal1 = "http://<b>egroupware_server_domain</b>/<b>install_path</b>/groupdav.php/<b>your_egroupware_username</b>/calendar/<br/>(e.g. http://mydomain.com/egw/groupdav.php/user1234/calendar/)";
 cfout_egroupware_cal2 = "Your EGroupware username";
 cfout_egroupware_cal3 = "Your EGroupware password";
@@ -2196,6 +2202,7 @@ cont_cont_p6_cookies = "Third parties may place and read cookies in your browser
 cont_cont_p6_google1 = "To track the usage of our website, we set our own cookies and also use Google Analytics.";
 cont_cont_p6_google2 = "IP-Addresses will be anonymized by Google. You can fully deactivate Google Analytics by installing an Add-On for deactivating Google Analytics offered by Google to your browser. Further information can be found <a class=\"inline\" href=\"http://tools.google.com/dlpage/gaoptout?hl=de\">here</a>.";
 cont_cont_p6_owncookies = "To avoid cookies being set by us, you can deactivate cookies in your browser for our website.";
+cont_cont_p6_social = "We also share information about your use of our site with our social media, advertising and analytics partners.";
 cont_cont_p7 = "Disclosures:";
 cont_cont_p8 = "You are entitled to free disclosures, correction, blocking and deletion of your stored data at all times. Please direct your demand to us (at <b>cFos Software GmbH, Nordstr. 65a, 53111 Bonn</b>) or <img src=\"/images/support-link.png\" style=\"position: relative; top: 3px\" alt=\"\" />.";
 cont_cont_p9 = "Propagation to third parties:";
