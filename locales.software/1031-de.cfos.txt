@@ -643,7 +643,7 @@ pwd_activate_failed_code = "Aktivierung des Schlüssels fehlgeschlagen: Fehlernu
 / serial number dialog
 sn_header = "Seriennummer.";
 sn_subheader = "Eingabe der Seriennummer und Aktivierung des Schlüssels.";
-sn_info = "Wenn Sie ein 16-stelligens Passwort der Form xxxx-xxxx-xxxx-xxxx haben, dann "
+sn_info = "Wenn Sie ein 16-stelliges Passwort der Form xxxx-xxxx-xxxx-xxxx haben, dann "
    "beenden Sie bitte diesen Dialog und doppelklicken Sie bitte Ihren Lizenschlüssel. "
    "Dort können Sie dann das Passwort eingeben.\n\n"
    "Wenn Sie eine 30-stellige Seriennummer der Form xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx "

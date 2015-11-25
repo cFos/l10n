@@ -35,7 +35,6 @@ htm_lang_prefix = "vi";
 
 ignore_ssl_cert_chk = "Bỏ qua lỗi chứng chỉ SSL (không an toàn)";
 ignore_ssl_cert_desc = "Nếu cFos Outlook DAV được phép bỏ qua lỗi chứng chỉ SSL, nó có thể kết nối đến các máy chủ với giấy chứng nhận SSL không an toàn, ví dụ giấy chứng nhận tự ký. Kích hoạt tùy chọn này thường không được khuyến khích, bởi vì nó làm cho một kết nối SSL dễ bị tấn công can thiệp trung gian.";
-od_key_registered = "Mã phần mềm đã được đăng ký. Hãy khởi động lại Outlook để việc đăng ký có hiệu lực.";
 
 / ----------------------------------------------------------------------
 /
@@ -76,7 +75,6 @@ ask_inst_ipv6 = "Giao thức IPv6 chưa được cài đặt trong hệ thống 
 err_inst_ipv6 = "Có lỗi %? xảy ra khi đang cài đặt giao thức IPv6.";
 pause_server = "Tạm ngừng máy chủ";
 resume_server = "Khôi phục lại máy chủ";
-file_link_failed = "Không tạo được liên kết tập tin.";
 
 / connection entry dialog
 con_err_save = "Không lưu được dữ liệu của kết nối!";
@@ -153,14 +151,6 @@ logon_start_desc = "Nhiệm vụ này bắt đầu %p nếu người dùng hiể
 show_home_dir = "Hiện thư mục chính";
 publish_file = "Tập tin công cộng";
 user_administration = "Quản trị viên";
-/. Label of menu entry, which enables and disables any uploads to PNET.
-/. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
-/. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
-disable_uploads = "Vô hiệu hóa tính năng tải lên";
-enable_uploads = "Cho phép tải lên";
-publish_file_for_download = "Đưa tập tin lên để tải về";
-/. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
-upload_url_to_clipboard = "Sao chép liên kết tập tin đã tải lên vào clipboard";
 
 / pnet connectivity test
 connectivity_test = "Kiểm tra kết nối";
@@ -225,12 +215,6 @@ translator_name = "Phạm Tuấn Khanh - ptk911";
 translator_msg = "ptk911@yahoo.com.vn";
 / %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Giấy phép %3 của bạn sẽ hết hạn trong %1 %2.";
-version_mismatch = "Phiên bản driver và của sổ daemon không trùng khớp.\n"
-   "\n"
-   "Daemon=%1\n"
-   "Driver=%2\n"
-   "\n"
-   "Vui lòng khởi động lại, và nếu sự cố vẫn không được khắc phục, vui lòng cài đặt lại %p!\n";
 
 service_desc = "Tự động thực hiện đo độ trễ và tác vụ cho %p";
 no_pings_error = "Các gói tin được gởi bởi %p không thấy đến. Thiếu chúng, %p Tối ưu Băng thông không thể thực hiện chính xác. Bấm ở đây để xem trợ giúp.";
@@ -280,12 +264,8 @@ connect_to = "Kết nối tới";
 make_own_skin = "Giao diện tự thiết kế";
 click_through = "Bấm xuyên qua cửa sổ";
 ask = "Hỏi";
-
-/. Indicates states, like `Switch On` or `Switch Off`
-/. Used in various sections of program as menu entries or buttons labels
 off = "Tắt";
 on = "Mở";
-
 note = "Chú ý";
 deactivated = "không hoạt động";
 browser_warning = "Phiên bản Internet Explorer 8 hoặc cao hơn được đề nghị cho hộp thoại này!";
@@ -317,9 +297,6 @@ prio_doc_link = "Cách thức thực hiện các mức ưu tiên";
 save_protocols = "Lưu giao thức";
 undo = "Quay lại";
 filter_selection = "Chọn bộ lọc";
-/: Settings -> Protocols/Programs
-/. Used as indicator of selected by user level of priority (for Traffic Shaping)
-/. Displayed next to protocol or program name, near slider with levels
 higher = "Cao nhất";
 high = "Cao";
 normal = "Vừa";
@@ -352,8 +329,6 @@ l7_prot_detection_help = "Quá trình tự động phát hiện giao thư�
 favor_ping = "Giảm Ping";
 favor_ping_help = "<b>Bật</b>: %p sẽ giảm thời gian ping thấp nhất khi giảm băng thông (nếu cần thiết).<br /><b>Tắt</b>: %p sẽ tăng tối đa băng thông khi thời gian ping cao hơn (nếu cần thiết).";
 favor_bandwidth = "Giảm băng thông";
-store_dns_names = "Làm mới DNS";
-store_dns_names_help = "Để tăng tốc độ truy vấn DNS, làm mới các DNS thường dùng trong 2 ngày";
 avoid_loss = "Tránh mất gói tin";
 avoid_loss_help = "%p đóng cửa sổ tiếp nhận giao thức TCP để tiếp nhận các luồng nếu phát hiện quá nhiều gói tin bị mất. Điều này chỉ xảy ra khi kết nối của bạn nhận được tốc độ đầy đủ. (Đề nghị để nâng cao Tối ưu Băng thông khi tải về)";
 activate_firewall = "Bật Tường lửa";
@@ -434,9 +409,6 @@ disable_speed_shaping = "Tắt Tối ưu Băng thông";
 yes = "Có";
 no = "Không";
 help = "Trợ giúp";
-/: cFosSpeed context menu -> Usage Graph
-/. Used as one of dropdown menu entries
-/. Means `To show all programs and protocols traffic`
 bgraph_totals = "Tổng";
 blocklist = "Chặn IP";
 blocklist_help = "Danh sách địa chỉ IP bị chặn tất cả lưu lượng.";
@@ -493,8 +465,6 @@ set = "Đặt";
 tx_limit_help = "Nhập tốc độ bằng byte/giây hoặc phần trăm mà chương trình hoặc giao thức này được phép gửi.";
 download_more_skins = "Tải giao diện mới";
 documentation = "Tài liệu";
-/: cFosSpeed context menu
-/. means `Close cFosSpeed`
 exit_demon = "Thoát";
 speed_test = "cFos Kiểm tra tốc độ";
 ask_key_banned_info = "Có vấn đề với mã giấy phép của bạn.\nBạn có muốn biết thêm thông tin?";
@@ -549,24 +519,13 @@ enable_smartphone_skins = "Giao diện điện thoại";
 http_access_enabled = "Mật khẩu đã thiết lập, cho phép truy cập HTTP từ xa";
 http_access_disabled = "Chưa thiết lập mật khẩu, không cho phép truy cập HTTP từ xa";
 set_server_pwd = "Đặt mật khẩu máy chủ";
-
-/: Right click on cFosSpeed -> Windows Settings -> Auto-arrange windows
-/. Possible position of status window
 auto_arrange_top = "Trên";
 auto_arrange_bottom = "Dưới";
-
-/: cFosSpeed context menu
-/. Menu entry which enables display of cFosSpeed's tile in Windows 8 Start Menu
-/. @note Currently disabled
 show_on_metro_apps = "Hiển thị trên các ứng dụng Metro";
-
 traffic_shaping_info = "Thông tin phân luồng lưu lượng";
 wlan_access_point = "Điểm truy cập Wi-Fi";
 prioritize_foreground_process = "Ưu tiên tiến trình truy cập cho cửa sổ hiện hành";
 prioritize_foreground_help = "Tự động thiết lập ưu tiên ở mức cao cho tiến trình truy cập trong cửa sổ hiện hành.";
-upnp_router_info = "Sử dụng thống kê Router UPnP";
-upnp_router_info_help = "Sử dụng số liệu thống kê từ router UPnP của bạn để xác định tốc độ đường truyền và thiết lập đường truyền trung bình nếu có thể. Bạn có thể cần phải kích hoạt UPnP trong router của mình.";
-ping_stats = "Thống kê Ping";
 
 
 / ----------------------------------------------------------------------
@@ -651,7 +610,6 @@ sn_save_err = "Tập tin giấy phép không thể lưu tại %?.";
 sn_keyfile_err = "Tập tin giấy phép bị hỏng.";
 
 / new 16 digit serial number dialog
-/. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
 sn16_info = "Vui lòng nhập số serial gồm 16 chữ số của bạn để nhận mã giấy phép. Lưu ý: Máy tính của bạn phải được kết nối với Internet.";
 sn16_failed = "Lấy mã giấy phép thất bại!";
 
@@ -695,7 +653,6 @@ port_forwarding_chk = "Sử dụng cổng chuyển tiếp tự động nếu có
 port_forwarding_failed = "Router của bạn %? dường như không hỗ trợ cổng chuyển tiếp tự động. "
                          "Bạn có thể kích hoạt tính năng này trong cấu hình của router.";
 port_forwarding_config = "Bạn có thể cấu hình router của bạn tại %?.";
-/. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
 port_forwarding_fritz = "Kích hoạt cổng chuyển tiếp trong FRITZ!Box của bạn bằng cách cho phép thay đổi các thiết lập bảo mật thông qua UPnP "
                         "dưới Home Network / Network / Programs";
 
@@ -707,8 +664,6 @@ crash_msg_virus_clean = "Thành phần này có thể là một virus. Hãy qué
 crash_msg_hook = "Tìm thấy các thành phần của các chương trình khác và nó tự gắn vào chương trình này. Để đảm bảo rằng các thành phần này không phải là nguyên nhân của sự cố, hãy chạy chương trình này một lần nữa sau khi tắt hoặc gỡ bỏ các chương trình sau:";
 crash_msg_terminate = "Kết thúc chương trình bây giờ.";
 crash_msg_query_upload = "Bạn có muốn gửi thông tin sự cố này cho cFos, nó sẽ giúp chúng tôi phân tích lỗi?";
-crash_msg_new_release = "Đã có phiên bản mới của %p. Hãy tải về và cài đặt phiên bản mới nhất của %p từ www.cfos.de.";
-crash_msg_new_beta = "Đã có một phiên bản beta mới của %p. Hãy tải về và cài đặt phiên bản beta mới nhất của %p từ www.cfos.de/beta.";
 
 /start installation dialog
 start_header = "Cài đặt";
@@ -804,7 +759,6 @@ dt_advertise_desc = "Danh sách các chức năng của %?.";
 
 / message boxes
 query_reboot = "Cần khởi động lại hệ thống để thay đổi có hiệu lực.\n\nKhởi động lại bây giờ?";
-query_inst_reboot = "Bạn phải khởi động lại hệ điều hành để có thể tiếp tục cài đặt.\n\nHãy khởi động lại trình cài đặt sau khi đã khởi động lại hệ thống.\n\nBạn có muốn khởi động lại hệ điều hành ngay không?";
 query_drv_inst_cancel = "Trình điều khiển cài đặt/gỡ bỏ được thực hiện bởi hệ điều hành.\nHộp thoại cài đặt có thể cần tới 15 phút để \nđăng kí hoặc hủy đăng kí một trình điều khiển!\n\nĐề nghị bạn nên hủy bỏ tiến trình này trừ khi\nbạn sẵn sàng đợi.\n\nBạn có muốn hủy bỏ?";
 query_driver_err_abort = "Có lỗi trong tiến trình cài đặt trình điều khiển thiết bị!\nĐề nghị bạn hủy bỏ cài đặt ngay bây giờ.\n\nVì nếu tiếp tục cài đặt,\nnó sẽ cẩn thận kiểm tra lại. Xin lưu ý\nlà %p có thể không thực thi đúng.\n\nHủy bỏ cài đặt? (đề nghị)";
 query_further_info = "Bạn muốn biết thêm thông tin?";
@@ -890,7 +844,6 @@ eml_checking_domain = "Đang kiểm tra tên miền Email...";
 virtual_wifi_wizard_name = "%p Khởi động thuật sĩ tạo mạng Wi-Fi ảo";
 virtual_wifi_header = "Khởi động mạng Wi-Fi ảo";
 virtual_wifi_subheader = "Thiết lập một điểm truy cập không dây dựa trên phần mềm và kích hoạt Chia sẻ kết nối Internet.";
-virtual_wifi_stop_header = "Dừng Wi-Fi ảo";
 virtual_wifi_info = "Chọn kết nối mạng điều khiển đường truyền Internet và chọn một mật khẩu cho điểm truy cập không dây.";
 virtual_wifi_ssid = "SSID:";
 virtual_wifi_default_ssid = "cFos Wi-Fi";
@@ -906,10 +859,6 @@ virtual_wifi_query_stop = "Dừng Wi-Fi ảo?";
 virtual_wifi_error_stop = "Lỗi trong việc dừng Wi-Fi ảo:";
 virtual_wifi_stopped = "Đã dừng Wi-Fi ảo thành công.";
 virtual_wifi_dialup_ics = "Để kết nối quay số bạn cần kích hoạt thủ công Chia sẻ kết nối Internet và thay đổi thuộc tính kết nối.";
-virtual_wifi_error_not_present = "Không tìm thấy giao diện Wi-Fi nào.\n\nĐể thiết lập một mạng Wi-Fi ảo, phải có một giao diện Wi-Fi sẵn sàng";
-virtual_wifi_autostart = "Tự khởi động khi khởi động hệ thống.";
-/. Label next to a checkbox in deactivation of virtual Wi-Fi dialog
-virtual_wifi_deactivate_autostart = "Vô hiệu hoá tự khởi động khi khởi động hệ thống.";
 
 
 / !!! DO NOT TRANSLATE !!!
