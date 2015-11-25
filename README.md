@@ -1,6 +1,8 @@
 cFos translation files
 ======================
 
+[![Join the chat at https://gitter.im/cFos/l10n](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cFos/l10n?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Welcome to repository of [cFos Software GmbH](http://cfos.de) ml-files which contains all translations of cFos [website](http://cfos.de) and cFos software (cFosSpeed, cFos Personal Net, cFos Professional and other).
 
 If you're here — you've probably received file with untranslated strings. In that case simply head to the [Translation section](#translation) where you can find translation instructions and recommendations. Though, it's worth mentioning that in ml-files of repository you can find already translated strings for your language. While they can be far from perfect, they can be used for any translation references and maybe will help you while translating or proofreading.
