@@ -56,6 +56,7 @@ special_offer_xmas = "X-Mas offer! <span class=\"red\">Special prices</span> onl
 special_offer_xmas_2 = "(due to weekend prolonged until January 2nd, 2011)";
 special_offer_spring = "Special offer for spring festival! until February 9th, 2011";
 special_offer_winter = "Special prices during Winter Sale until January 31st, 2012";
+summer_sale = "Special prices during Summer Sale until August 31st";
 worldcup_sale = "Special prices during World Cup!"; / FIFA Soccer World Cup
 winter_sale = "Special prices during Winter Sale!"; / New Years Sale for China
 winter_sale_ext = "Extended until January 28th - Thanks to your overwhelming support!";
@@ -774,6 +775,7 @@ cfout_p1b_v2 = "The current <b>free</b> pre-release runs until <b>February 28th 
 cfout_p1b_v3 = "The current <b>free</b> pre-release runs until <b>June 1st 2014</b>.";
 cfout_p1b_v4 = "The current <b>free</b> release runs until <b>June 1st 2015</b>.";
 cfout_p1b_v5 = "The current <b>free</b> release runs until <b>December 31st 2015</b>.";
+cfout_p1b_v6 = "The current <b>free</b> release runs until <b>March 31st 2016</b>.";
 cfout_p1c = "The current pre-release does not support attachment files for calendar events.";
 cfout_p1d = "The final release will be available for about 10 Euro.";
 cfout_p1e = "Or you can <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>buy an unlimited license here</b></a>.";
@@ -852,14 +854,19 @@ cfout_pnet_cal1 = "http://<b>pnet_server_domain</b>/private/<b>your_pnet_usernam
 cfout_pnet_cal2 = "Your cFos Personal Net username";
 cfout_pnet_cal3 = "Your cFos Personal Net password";
 cfout_pnet_card1 = "http://<b>pnet_server_domain</b>/private/<b>your_pnet_username</b>/carddav_personal<br/>(e.g. http://mydomain.com/private/user1234/carddav_personal)";
-cfout_davical_cal1 = "http://<b>davical_server_domain</b>/caldav.php/<b>your_davical_username</b>/calendar<br/>(e.g. http://mydomain.com</b>/caldav.php/user1234/calendar)";
+cfout_davical_cal1 = "http://<b>davical_server_domain</b>/caldav.php/<b>your_davical_username</b>/calendar<br/>(e.g. http://mydomain.com/caldav.php/user1234/calendar)";
 cfout_davical_cal2 = "Your DAViCal username";
 cfout_davical_cal3 = "Your DAViCal password";
-cfout_davical_card1 = "http://<b>davical_server_domain</b>/caldav.php/<b>your_davical_username</b>/addresses<br/>(e.g. http://mydomain.com</b>/caldav.php/user1234/addresses)";
-cfout_baikal_cal1 = "http://<b>baïkal_server_domain</b>/cal.php/calendars/<b>your_baïkal_username</b>/default<br/>(e.g. http://mydomain.com</b>/cal.php/calendars/user1234/default)";
+cfout_davical_card1 = "http://<b>davical_server_domain</b>/caldav.php/<b>your_davical_username</b>/addresses<br/>(e.g. http://mydomain.com/caldav.php/user1234/addresses)";
+cfout_baikal_cal1 = "http://<b>baïkal_server_domain</b>/cal.php/calendars/<b>your_baïkal_username</b>/default<br/>(e.g. http://mydomain.com/cal.php/calendars/user1234/default)";
 cfout_baikal_cal2 = "Your Baïkal username";
 cfout_baikal_cal3 = "Your Baïkal password";
-cfout_baikal_card1 = "http://<b>baïkal_server_domain</b>/card.php/addressbooks<b>your_baïkal_username</b>/default<br/>(e.g. http://mydomain.com</b>/card.php/addressbooks/user1234/default)";
+cfout_baikal_card1 = "http://<b>baïkal_server_domain</b>/card.php/addressbooks<b>your_baïkal_username</b>/default<br/>(e.g. http://mydomain.com/card.php/addressbooks/user1234/default)";
+cfout_sogo_cal1 = "http://<b>sogo_server_domain</b>/SOGo/dav/<b>your_sogo_username</b>/Calendar/personal/<br/>(e.g. http://mydomain.com/SOGo/dav/user1234/Calendar/personal/)";
+cfout_sogo_cal2 = "Your SOGo username";
+cfout_sogo_cal3 = "Your SOGo password";
+cfout_sogo_card1 = "http://<b>sogo_server_domain</b>/SOGo/dav/<b>your_sogo_username</b>/Contacts/personal/<br/>(e.g. http://mydomain.com/SOGo/dav/user1234//Contacts/personal/)";
+
 cfout_adv_conf_h1 = "Advanced configuration:";
 cfout_adv_conf_p1 = "cFos Outlook DAV uses your configured URL to try to detect the actual location of the calendar or address book. By prefixing your URL with a <b>*</b> you can suppress this behaviour. In this case cFos Outlook DAV then uses this URL exactly as specified. This should help with <b>DAViCal bindings</b> and in cases where you want to use a different calendar with <b>GMX</b> or <b>web.de</b>. Example URL: *http://www.cfos.de/calendars/mycalendar2.";
 
@@ -1089,6 +1096,7 @@ contact_form_o10 = "Can't install cFosSpeed";
 contact_form_o11 = "How to disable the status window";
 contact_form_o12 = "Report Bluescreen/BSOD";
 contact_form_o13 = "ASUS (GameFirst &amp; Turbo LAN), Gigabyte, ASRock OEM versions";
+contact_form_o14 =  "Order: I can't enter my license key";
 contact_form_h2 = "Quickly help yourself";
 contact_form_p1 = "For preliminary information you may want to consult our page for <a class=\"inline\" href=\"//en/oem/oem.htm\">OEM partners</a>";
 contact_form_l1 = "Our licensing terms allow to include our 30-day free trial version on magazine covermount CDs for free.";
@@ -1106,6 +1114,7 @@ contact_form_p8 = "Sometimes other components, e.g. network drivers, anti-virus 
 contact_form_p9 = "You can deactivate the cFosSpeed status window by right-clicking on it, selecting <b>Window Settings</b> and then deactivating \"Auto-show/Auto-hide\".";
 contact_form_p9_v2 = "You can deactivate the cFosSpeed status window by right-clicking on it and then selecting \"Hide Windows\".";
 contact_form_a2 = "Hide status window";
+contact_form_a3 = "cFosSpeed registration help";
 contact_form_p10 = "If you get a Bluescreen/BSOD caused by cFosSpeed, we need your help to fix it as quickly as possible.<br/><br/>Please <a class=\"inline\" href=\"//en/support/howto-dump.htm\">create a kernel dump</a>.";
 contact_form_p11 = "Please see our important <a class=\"inline\" href=\"//en/cfos-professional/capi-support.htm\">ISDN CAPI / Network CAPI hints</a>.";
 contact_form_h3 = "Send us a message";
@@ -1612,6 +1621,8 @@ sp_doc_install_l3 = "The install assistant will then guide you through the rest 
 sp_doc_install_l4 = "cFosSpeed can be used immediately after successful installation.";
 sp_doc_install_a1 = "Difficulties installing cFosSpeed?";
 sp_doc_install_h2 = "Registration";
+sp_doc_install_h2_16 = "16 digit password (xxxx-xxxx-xxxx-xxxx)";
+sp_doc_install_h2_30 = "30 digit serial key (xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx)";
 sp_doc_install_a2 = "Watch the video <b>\"How to register cFosSpeed with your personal license key file <em>key.cfosspeed</em>\"</b>.";
 sp_doc_install_p2 = "Once you order cFosSpeed, we will send you an e-mail with a license key (a file called '<em>key.cfosspeed</em>') and your password:";
 sp_doc_install_l5 = "Save this file on your hard drive (e.g., under <em>My Files</em>).";
@@ -1622,6 +1633,10 @@ sp_doc_install_l9 = "Your copy of cFosSpeed is now registered to you personally.
 sp_doc_install_a3 = "Difficulties installing the cFosSpeed license key?";
 sp_doc_install_h3 = "Uninstall";
 sp_doc_install_l10 = "To uninstall cFosSpeed just use the common Windows uninstall method.";
+sp_doc_install_l11 = "Click right on the cFosspeed status window or the cFosSpeed task icon.";
+sp_doc_install_l12 = "The cFosSpeed context menu opens.";
+sp_doc_install_l13 = "Choose \"Enter cFosSpeed serial number\" and follow the instructions.";
+sp_doc_install_l14 = "Enter the 30 digits serial key.";
 sp_doc_led_title = "Keyboard LEDs";
 sp_doc_led_h = "Use keyboard LEDs to display Traffic Shaping information";
 sp_doc_led_p1 = "cFosSpeed can use the Num Lock and Scroll Lock LEDs to display information about the current Internet traffic. This is especially useful for gamers and users of fullscreen application, who can't see the cFosSpeed status window. By using the keyboard LEDs the most important traffic statistics are indicated:";
@@ -1868,13 +1883,27 @@ sp_doc_wlan_h1 = "Troubleshooting using faster IP address assignment";
 sp_doc_wlan_p6a = "When the PC is used as a Wi-Fi access point, it also uses Internet Connection Sharing and typically assigns IP addresses via DHCP to your mobile device. During the DHCP address negotiation, possible IP addresses are checked for duplicates by means of ARP requests.";
 sp_doc_wlan_p6b = "This address verification can take several seconds which is too long for some devices, so they timeout and cannot get the assigned IP address. We therefore added a workaround for such devices. To activate it you need to use the following command in the console:";
 sp_doc_wlan_p6c = "This causes cFosSpeed to interfere with the DHCP negotiation to send the IP address assignment faster.";
-sp_news_t = "Latest news regarding cFosSpeed";
+sp_doc_wlan_h2 = "Manually set up a Wi-Fi access point (Windows 7 and above)";
+sp_doc_wlan_p7 = "Open the command shell as Administrator:";
+sp_doc_wlan_p8 = "In the list of network connections should now appear \"Microsoft Virtual WiFi Miniport Adapter\".";
+sp_doc_wlan_p9 = "netsh wlan set hostednetwork ssid=\"cFos Wi-Fi\" key=\"<span class=\"red\">your_password</span>\" keyUsage=persistent";
+/. "Check with" meaning "Use the following action to check the result"
+sp_doc_wlan_p10 = "Check with:";
+sp_doc_wlan_p11 = "Start \"Microsoft Virtual WiFi Miniport Adapter\".";
+sp_doc_wlan_p12 = "In the list of network connections the red cross next to \"Microsoft Virtual WiFi Miniport Adapter\" should have been disappeard.";
+sp_doc_wlan_p13 = "Right click in the list of network connections on the active Internet connection and select \"Properties\" from the menu. Click the \"Sharing\" tab, and then select the \"Allow other network users to connect through this computer’s Internet connection\" check box.";
+sp_doc_wlan_p14 = "Under \"Home networking connection\" select the connection that shows the \"Microsoft Virtual WiFi Miniport Adapter\" in the list of network connections.";
+sp_doc_wlan_p15 = "Confirm with \"OK\".";
 /. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
+sp_news_t = "Latest news regarding cFosSpeed";
 sp_news_p1 = "cFosSpeed checks every 2 days if there is program news. If there is, it displays the mail symbol in the status window and opens this web page when clicked. This feature is on by default. If you are not interested in program news, you can turn it off in the context menu under \"Options\".";
 sp_news_p2 = "We will post news only a few times per year.";
 sp_news_h0 = "cFosSpeed news";
 sp_news_h1 = "cFosSpeed news policy";
 sp_news_p3 = "Because reaching people via mail becomes more and more difficult and the social networks become more and more widespread, we decided to use Twitter as our short time news service. If there is something new, for example a new cFosSpeed beta version, we will post that on Twitter. At the most we will post only a few times per week. Therefore if you don't already have a Twitter account, please create one and follow <a class=\"inline\" target=\"_blank\" href=\"https://twitter.com/cFosSoftware\"><b>@cFosSoftware</b></a> to get the latest news. You can then conveniently let the <a href=\"/en/cfos-notifier/cfos-notifier.htm\"><b>cFos Notifier</b></a> check for our news on Twitter.<br/><br/>We also implemented a news notification in cFosSpeed. When there are very important news available (only a few times per year), like new cFosSpeed release versions, we will update the cFosSpeed news page. As of cFosSpeed v7.01 build 1921, the status windows will display a new symbol and open the cFosSpeed news page, when you click it.";
+sp_news_20150912 = "September 12th, 2015";
+sp_news_20150912_text1 = "<b>Added Ping Statistics</b><br/>cFosSpeed can now display a history of the ping times of the last 5 minutes. This feature is especially useful for gamers who want to diagnose the cause of lag. After a lag experience, you can now conveniently open the ping statistics graph and determine if the lag came from your end of the line or at a remote location, like the game server or some router in between.";
+sp_news_20150912_text2 = "<b>Added support for UPnP capable routers</b><br/>cFosSpeed can now determine the line speed and the maximum line speed by querying the gateway (router) to the Internet. It supports the functionionality of the UPnP Forum's Internet Gateway Device specification as well as the specification of the DSL Forum. So both types of UPnP routers can help to speed up the line calibration in cFosSpeed. We therefore recommend users turn on UPnP in their routers.";
 sp_news_20150126 = "January 26th, 2015";
 sp_news_20150126_text = "Ping times with and without Traffic Shaping on a 50MBit VDSL connection with 4 uploads and 2 downloads.";
 sp_news_20150112 = "January 12th, 2015";

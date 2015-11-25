@@ -734,6 +734,7 @@ cfout_p1b_v2 = "A versão preliminar atual <b>gratuita</b> estará em funcioname
 cfout_p1b_v3 = "A versão preliminar atual <b>gratuita</b> estará em funcionamento até <b>1 de Junho de 2014</b>.";
 cfout_p1b_v4 = "A atual versão <b>grátis</b> está disponível até <b>1º de Junho de 2015</b>.";
 cfout_p1b_v5 = "A atual versão <b>grátis</b> está disponível até <b>31 de Dezembro de 2015</b>.";
+cfout_p1b_v6 = "A atual versão <b>grátis</b> está disponível até <b>31 de Março de 2016</b>.";
 cfout_p1c = "A versão de pré-lançamento atual não suporta arquivos anexados aos eventos do calendário.";
 cfout_p1d = "A versão final estará disponível por cerca de 10 Euros.";
 cfout_p1e = "Ou você pode <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>comprar uma licença ilimitada aqui</b></a>.";

@@ -20,14 +20,10 @@ link_text_sitemap = "Bản đồ website";
 link_text_support = "Hỗ trợ";
 
 / index2
-about = "Về Phần mềm cFos";
 asrock_info = "Thông tin cho người dùng <b> ASRock XFast LAN </b>";
 bc_linktext = "cFos Broadband Connect cho kết nối tốc độ cao";
 cfos_linktext = "cFos/Professional dành cho IDSN";
 close = "Đóng";
-
-/. Used as "I understand"
-
 desc_6link = "cFos IPv6 Connectivity cho XP, Vista và Windows 7";
 desc_dialup = "Kết nối dial-up";
 desc_shaping = "Tăng tốc Internet bằng Traffic Shaping";
@@ -73,9 +69,7 @@ rwin_video_award2 = "Sở hữu một trong số <b>100</b> bản quyền miễn
 social_networks = "Nhấn like chúng tôi trên mạng xã hội để có nhận thông tin mới.<br/> like chúng tôi trên facebook, follow chúng tôi trên Twiter.";
 powered_by = "Hỗ trợ bởi<a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">Máy chủ Web mạng cá nhân cFos</a>";
 word_follow = "Theo dõi";
-cfosspeed_for_windows_10 = "Đã có <b>cFosSpeed ​​10</b> cho <b>Windows 10</b>.";
 learn_more = "Tìm hiểu thêm"; // Meaning "learn more about the product"
-oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> là phần mềm Tăng tốc Internet chính thức cho các sản phẩm<br/>ASUS, GIGABYTE, ASRock và các sản phẩm trò chơi của MSI"; // Line feed at approx middle of the key, preferred directly before the brand names
 
 / download
 additional_downloads = "Các tùy chọn tải về khác";
@@ -134,7 +128,6 @@ sk_lc_blue_text = "Giao diện Liquid Crystal, blue display (by Toxic)";
 sk_luna = "Giao diện Windows XP Luna";
 sk_modern = "Giao diện cFos hiện đại";
 sk_mon_txt = "Giao diện chữ màn hình cFos 5.25";
-sk_mon_txt_525 = "Giao diện cFos Monitor Text 5.25";
 sk_mon_txt_525_text = "cFos Monitor-Text-Skin (dành cho phiên bản cFos >= 5.25)";
 sk_mon_txt_text = "Giao diện chữ màn hình cFos (bởi Maik Reiss / Hoeft và Wessel)";
 sk_msinanucler = "Biểu tượng W7 cho Traffic Analysis";
@@ -188,9 +181,6 @@ by_phone = "Hỗ trợ khách hàng và đặt hàng qua điện thoại";
 buy_at = "Mua @";
 buy_now = "Mua ngay";
 conf_cc = "Trả bằng thẻ tín dụng";
-/. Used before Credit Card number, like
-/= "Nr. 2661-4345-2456-1345"
-/. It should be replaced with preferred in your region format
 conf_check_cc = "Vui lòng kiển tra lại thông tin thẻ tín dụng của bạn";
 conf_check_order = "Kiểm tra đơn đặt hàng";
 conf_deliverer = "Địa chỉ";
@@ -208,11 +198,7 @@ conf_formerror_missing_entry = "Mục yêu cầu chưa được điền!";
 conf_formerror_not_complete = "Đơn đặt hàng của bạn bị thiếu! Xin mời bạn ấn nút 'Quay lại' trên trình duyệt và điền nốt những mục còn thiếu.";
 conf_fromerror_license = "Xin mời bạn ấn nút 'Quay lại' trên trình duyệt và xác nhận rằng bạn đã đọc và đồng ý với những điều khoản sử dụng của cFosSpeed";
 confident = "Những thông tin bạn đã điền sẽ chỉ được sử dụng cho đơn đặt hàng này, và sẽ được giữ bí mật.";
-
-/. Used as part of phrase
-/= Your Order at www.cfos.de
 conf_lastschrift_at = "tại";
-
 conf_moneybookers_trans = "Chuyển tiền qua Moneybookers";
 conf_moneybookers_text = "Xin bạn dùng &quot;<strong>[%$1_name%]</strong>&quot; làm nội dung thanh toán vào trong phần dành cho moneybookers &quot;<strong>eMail-Betreff</strong>&quot;";
 conf_name = "Vui lòng điền tên của bạn";
@@ -283,8 +269,6 @@ f_use_form_c = "Là một doanh nghiệp, hãy sử dụng ";
 f_land = "Quốc gia";
 f_license = "Số đăng ký";
 f_moneybookers_text = "Bạn hãy gửi vào tài khoản Moneybookers sau:";
-/. Paymenth method — "Cash on Delivery"
-/. See http://en.wikipedia.org/wiki/Cash_on_delivery
 f_nachname_text = "Chỉ trong nước Đức, +4 &#8364; bưu phí";
 f_name = "Tên";
 f_alipay_text = "Vui lòng gửi thanh toán của bạn vào tài khoản AliPay sau：";
@@ -295,12 +279,7 @@ for_business_users = "cho người dùng thương mại";
 for_dos_w311_os2  = "cho DOS | OS/2 | Windows 3.x";
 for_existing_users = "cho khách hàng hiện tại";
 form_subtitel_contact = "Thông tin liên lạc";
-
-/. Title of form about user's order
-/. Also used as part of phrase
-/= Your Order at www.cfos.de
 form_subtitel_order = "Đơn đặt hàng của bạn";
-
 form_subtitel_payment = "Thanh toán";
 form_title_c = "Đơn đặt hàng cho người dùng thương mại";
 form_title_n = "Đơn đặt hàng cho người dùng cá nhân";
@@ -481,18 +460,12 @@ prio_ports = "Ưu tiên các cổng";
 prio_programs = "Ưu tiên băng thông cho chương trình";
 prio_protocols = "Ưu tiên băng thông cho giao thức mạng";
 related_product = "Các sản phẩm tương tự";
-/. Used in follwoing string:
-/= "Reviewed 4.5 / 5 stars by softpedia.com"
 review1 = "Đánh giá người dùng";
-/. Used in follwoing string:
-/= "Reviewed 4.5 / 5 stars by softpedia.com"
 review2 = "Bắt đầu sử dụng";
 rwin_expansion = "RWIN mở rộng";
 rwin_now = "ngay bây giờ với RWIN Expansion!";
 rwin_results = "Hãy xem danh sách các kết quả đầy ấn tượng!";
 share_cfosspeed = "Chia sẻ cFosspeed";
-slider_prio = "Bạn có thể điều chỉnh độ ưu tiên của các giao thức mạng thường dùng nhất, vì vậy tất cả các chương trình sử dụng giao thức đó sẽ tự động được ưu tiên. Ngoài ra bạn có thể cấu hình chế độ ưu tiên cho từng chương trình. Điều này có nghĩa là việc tải tập tin không gây chậm mạng (lag) khi chơi game hoặc xem video, v.v..";
-slider_conn = "Bạn sẽ thấy được những chương trình đang sử dụng băng thông Internet của bạn. cFosSpeed ​​cho phép bạn tạm thời thay đổi các ưu tiên để tăng tốc độ truyền dữ liệu hoặc giảm độ trễ cho các ứng dụng thời gian thực quan trọng.";
 special_offer_launch = "Đề nghị đặt biệt khi mua";
 special_price = "giá đặc biệt";
 word_more = "xem tiếp";
@@ -548,14 +521,10 @@ pnet_wmi_p3 = "Tải xuống và cài đặt <a class=\"inline\" href=\"/en/down
 pnet_wmi_p4 = "Để bảo vệ dữ liệu của WMI của bạn khỏi sự truy cập từ người khác, cFos WMI monitor yêu cầu bạn chứng thực HTTP của mình. Bạn nên cấu hình lại người dùng , ví dụ<b>admin</b> trong cFos PNet. Bạn có thể chạy lại chương trình hoặc thêm một người dùng mới ví dụ cho người dùng WMI bằng cách mở  <em>/users/index.htm</em> giống với admin.";
 pnet_wmi_p5 = "Để tạn dụng tối đa chúng tôi khuyên bạn nên cài đặt WMI monitor";
 pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, Tăng tốc internet. Các giá trị được thiết lập sẵn trong WMI:";
-/. RX stands for `receive` (incoming/download)
 pnet_wmi_l1a = "Tổng Tốc độ RX;";
-/. TX stands for `transmit` (outgoing/upload)
 pnet_wmi_l1b = "Tổng tốc độ TX";
 pnet_wmi_l1c = "thời gian ping";
 pnet_wmi_l1d = "Số lượng kết nối TCP/UDP";
-/. Means `RX (`receive`/incoming/download) characters per second`
-/. Means `TX (`transmit`/outgoing/upload) characters per second sent`
 pnet_wmi_l1g = "Những giá trị tương ứng với tình trạng kết nối internet hiện tại của bạn.<br/>Gía trị Window WMI tương ứng với các bộ phận chuyển đổi mạng gần đây, bất kể lưu lượng truy cập mạng LAN hay Internet. Bạn có thể hiển thị tất cả các giá trị được hiển thị trong cửa sổ trạng thái cFosSpeed​​..";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Hiển thị giá trị phần cứng</b></a>. Nó cũng được tích hợp sẵn trong WMI để có thể hiển thị giá trị của phần cứng, như";
 pnet_wmi_l2a = "Tải CPU và nhiệt độ";
@@ -702,7 +671,6 @@ pnet_doc_misc_p4a = "Trong trường hợp phải thay đổi chứng chỉ, b�
 pnet_doc_misc_p5 = "Để sử dụng một chứng chỉ SSL hiện tại, bạn cần phải chắc chắn rằng nó là trong một định dạng tương thích Windows. Ví dụ, nếu bạn có một chứng chỉ từ một hệ thống Unix có thể là một tập tin .PEM. Tải về openssl và sử dụng lệnh sau để chuyển đổi nó:";
 pnet_doc_misc_p5a = "<em>mycert.cer</em> là chứng chỉ của bạn và <em>ca1.cer</em> và <em>ca2.cer</em> (và <em>ca3.cer</em>,...) là 2 chứng chỉ CA trung gian cần thiết sự tin cậy.";
 pnet_doc_misc_p6 = "<em>mycert.cer</em> phải ở định dạng x.509. Bạn có thể sử dụng openssl để chuyển đổi nó sang định dạng x.509 nếu cần thiết. Đầu ra của <em>mycert.pfx</em> là các định dạng pkcs#12 mà Windows có thể đọc.";
-/. Explanation of `snap-in`: http://en.wikipedia.org/wiki/Microsoft_Management_Console
 pnet_doc_misc_l1 = "Bây giờ bắt đầu MMC, tập tin -> thêm/xóa snap-in -> giấy chứng nhận -> tài khoản máy tính -> máy tính cục bộ, sau đó: \"xem chứng chỉ cá nhân\" và xem giấy chứng nhận. Nhấp chuột phải -> tất cả các nhiệm vụ -> nhập vào và nhập vào <em>mycert.pfx</em>.";
 pnet_doc_misc_l1a = "Bạn cần phải đưa giấy chứng nhận vào \"Các chứng nhận trung gian -> Giấy chứng nhận\". Nếu không có sự tin cậy sẽ được truyền qua máy chủ, xem <a class=\"inline\" href=\"http://support.microsoft.com/kb/954755\">http://support.microsoft.com/kb/954755</a>";
 pnet_doc_misc_l2 = "Xem chữ kí của giấy chứng nhận mà bạn nhập vào và nhập vào lệnh sau đây:<br/><br/>netsh http add sslcert ipport=0.0.0.0:443 certhash=<b>&lt;certhash&gt;</b> appid={a227f2f9-d103-4e0f-92a4-7086c8ab35ac}.<br/><br/>Như <b>&lt;certhash&gt;</b> bạn cần phải sử dụng chữ kí mà không được có dấu cách.";
@@ -732,11 +700,8 @@ cfout_p1b = "<b>Miễn phí</b> trước khi phát hành chính thức kéo dài
 cfout_p1b_v2 = "<b>Miễn phí</b> trước khi phát hành chính thức kéo dài đến <b>ngày 28 tháng 2 năm 2014</b>.";
 cfout_p1b_v3 = "<b>Miễn phí</b> trước khi phát hành chính thức kéo dài đến <b>ngày 1 tháng 6 năm 2014</b>.";
 cfout_p1b_v4 = "Việc phát hành <b>miễn phí</b> hiện tại sẽ kéo dài đến <b>ngày 01 Tháng Sáu năm 2015</b>.";
-cfout_p1b_v5 = "Phiên bản <b>miễn phí</b> hiện tại sẽ hoạt động đến <b>ngày 31 tháng 12 năm 2015</b>.";
 cfout_p1c = "Các phiên bản phát hành không chính thức không hỗ trợ tập tin đính kèm cho các sự kiện lịch.";
 cfout_p1d = "Phiên bản chính thức sẽ có giá khoảng 10 Euro.";
-cfout_p1e = "Hoặc bạn có thể <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>mua bản quyền không giới hạn tại đây</b></a>.";
-cfout_p1f = "Không có phiên bản giới hạn thời gian cho người dùng thương mại theo yêu cầu:";
 cfout_a1 = "Tải về cFos Outlook DAV";
 cfout_h2 = "Làm thế nào để thiết lập cFos Outlook DAV";
 cfout_l1 = "Chạy trình cài đặt cFos Outlook DAV thêm cFos Outlook DAV như Outlook Add-in. Nó được thử nghiệm với Outlook 2013, nhưng cũng sẽ làm việc với Outlook 2010..";
@@ -752,8 +717,6 @@ cfout_p3d = "Để biết thêm thông tin bạn có thể xem <a class=\"inline
 cfout_p3e = "<b class=\"green\">Đồng bộ hóa nhiệm vụ</b> với lịch Google: Google lịch không hỗ trợ CalDAV cho các nhiệm vụ và nhiều hơn nữa (sử dụng Google lịch API) Google nhiệm vụ chỉ có một tập hợp rất nhỏ các tính năng so với các tính năng của Outlook nhiệm vụ. Vì vậy, đồng bộ hóa Google nhiệm vụ với Outlook nhiệm vụ không được khuyến cáo. Điều gần gũi nhất với nhiệm vụ Outlook / VTODO CalDAV là yếu tố cuộc hẹn. Do đó, các cửa hàng cFos Outlook DAV nhiệm vụ Outlook như các cuộc hẹn khi được sử dụng với một máy chủ Google. Điều này có nghĩa là bạn phải thiết lập một lịch Google, sau đó được độc quyền sử dụng cho nhiệm vụ Outlook. Thiết lập là sau đó giống như các cuộc hẹn..";
 cfout_p3f = "<b class=\"green\">Liên hệ đồng bộ hóa</b> với Google: URL là <b>https://www.googleapis.com/carddav/v1/principals/your_google_username/lists/default/</b>.";
 cfout_p4_v2 = "Đối với một <b class=\"green\">lịch DAViCal</b> URL là http://<b>your_davical_server</b>/caldav.php/<b>your_davical_account</b>/calendar, đối với <b class=\"green\">địa chỉ liên lạc DAViCal</b> URL là <b>http://your_davical_server/caldav.php/your_davical_account/addresses</b>, <b>your_davical_server</b> là tên miền hoặc địa chỉ IP của máy chủ của DAViCal. <b>your_davical_account</b> là tên người dùng cho máy chủ và mật khẩu là một trong những chỉ định cho người sử dụng này.";
-/. Used as title
-/. Litrelly means "How cFos Outlook DAV works"
 cfout_h3 = "Hoạt động cFos Outlook DAV";
 cfout_p5a_v2 = "Khi bạn bắt đầu Outlook, cFos Outlook DAV cố gắng đồng bộ tất cả dữ liệu của thư mục Outlook của bạn với server CalDAV/CardDAV. Nếu có gì đó trên server thay đổi, sự thay đổi đó thì được phản ánh trong thư mục Outlook của bạn.";
 cfout_p5b_v2 = "Vì vậy dữ liệu đã được thêm vào hay sửa đổi trên server sẽ được thêm vào hay sửa đổi trong thư mục cục bộ của bạn. Dữ liệu bị xóa sẽ bị xóa trong thư mục cục bộ của bạn. Sự đồng bộ này được thực hiện mỗi <b>n</b> phút tùy thuộc vào khoảng thời gian đồng bộ mà bạn chỉ định trong các thiết lập thư mục.";
@@ -763,44 +726,9 @@ cfout_p7b = "Mật khẩu được lưu trữ trước \"!\" và được mã h�
 cfout_p7c = "Trong <em>C:\\ProgramData\\cFos\\outlook_dav</em> bạn cũng tìm thấy một tập tin <em>trace.txt</em> với một bản ghi của các hoạt động đồng bộ cuối cùng gần đây.";
 cfout_p7c_v2 = "Trong <em>C:\\Users\\YOUR_USERNAME\\AppData\\Local\\cFos\\outlook_dav</em> bạn cũng tìm thấy một tập tin <em>trace.txt</em> với một bản ghi của các hoạt động đồng bộ cuối cùng gần đây.";
 cfout_p8 = "cFos Outlook DAV sử dụng cài đặt proxy của Internet Explorer. Bạn có thể thay đổi ở trong Control Panel, tùy chỉnh Internet.";
-cfout_disclaimer = "Đồng bộ hóa dữ liệu Outlook với các máy chủ CalDAV/CardDAV có thể gây ra vấn đề về khả năng tương tác và mất dữ liệu không mong muốn. Do đó, bạn chỉ nên sử dụng sản phẩm này với điều kiện bạn đã thử nghiệm hoàn tất và thành công cFos Outlook DAV trong trường hợp sử dụng cụ thể của bạn.";
-cfout_conf_title = "Làm thế nào để đồng bộ hóa lịch CalDAV hoặc sổ địa chỉ CardDAV với Outlook trong 5 bước";
-cfout_goto_help = "Hãy xem qua <b>hướng dẫn chi tiết có minh họa</b> của chúng tôi.";
-cfout_server = "Chọn loại máy chủ CalDAV/CardDAV của bạn";
-cfout_new_server = "Nếu bạn đã thành công được sử dụng cFos Outlook DAV với lịch hoặc máy chủ <b>không có trong danh sách của chúng tôi</b>, vui lòng hãy gửi cho chúng tôi các thông tin cấu hình của bạn bằng cách sử dụng <a class=\"inline\" onclick=\"contact_preselect='outlook_dav'; cfos.show_contact_form(); return false;\" href=\"/en/index.htm\"><b>biểu mẫu liên lạc của chúng tôi</b></a>.";
-/. Means "show all server types"
-cfout_show_all = "Hiển thị tất cả";
-cfout_conf_step1 = "<b>1.</b> Trong phần <b>Xem Lịch</b>, nhấp chuột phải lên lịch và chọn \"<span class=\"green\">Bật CalDAV Sync</span>\"/ \"<span class=\"green\">Cấu hình CalDAV Sync</span>\" hoặc<br/>trong phần <b>Xem Liên lạc</b> nhấp chuột phải lên thư mục liên lạc và chọn \"<span class=\"green\">Bật CardDAV Sync</span>\"/\"<span class=\"green\">Cấu hình CardDAV Sync</span>\"";
-cfout_conf_step2 = "<b>2.</b>Nhập địa chỉ URL CalDAV, tên người dùng và mật khẩu của máy chủ chứa lịch hoặc<br/>Địa chỉ URL CardDAV, tên người dùng và mật khẩu của máy chủ chứa địa chỉ liên lạc.";
-cfout_conf_step3 = "<b>3.</b> Chọn <span class=\"green\">khoảng thời gian đồng bộ</span>";
-cfout_conf_step4 = "<b>4.</b> <span class=\"green\">Lưu</span> các thiết lập";
-cfout_conf_step5 = "<b>5.</b> Bắt đầu <span class=\"green\">đồng bộ</span> thủ công";
 cfout_google_cal1 = "https://www.google.com/calendar/dav/<b>your_google_calendar_id</b>/events";
 cfout_google_cal1a = "<b>you_google_calendar_id</b> cho lịch chính của bạn là địa chỉ email Google của bạn. Tuy nhiên, cho tất cả các lịch khác, ID lịch có định dạng <b>[long_string]@group.calendar.google.com</b>.";
-cfout_google_cal2 = "Tên người dùng tài khoản Google của bạn";
-cfout_google_cal3 = "Mật khẩu tài khoản Google của bạn";
-cfout_owncloud_cal2 = "Tên người dùng tài khoản ownCloud của bạn";
-cfout_owncloud_cal3 = "Mật khẩu tài khoản ownCloud của bạn";
-cfout_gmx_cal2 = "Tên người dùng GMX của bạn";
-cfout_gmx_cal3 = "Mậ khẩu tài khoản GMX của bạn";
-cfout_webde_cal2 = "Tên người dùng tài khoản web.de của bạn";
-cfout_webde_cal3 = "Mật khẩu tài khoản web.de của bạn";
-cfout_egroupware_cal2 = "Tên người dùng EGroupware của bạn";
-cfout_egroupware_cal3 = "Mật khẩu tài khoản EGroupware của bạn";
-cfout_posteo_cal2 = "Tên người dùng tài khoản Posteo của bạn";
-cfout_posteo_cal3 = "Mật khẩu tài khoản Posteo của bạn";
-cfout_sarenet_cal2 = "Tên người dùng tài khoản Sarenet của bạn";
-cfout_sarenet_cal3 = "Mật khẩu tài khoản Sarenet của bạn";
-cfout_vpop3_cal2 = "Tên người dùng tài khoản VPOP3 của bạn";
-cfout_vpop3_cal3 = "Mật khẩu tài khoản VPOP3 của bạn";
-cfout_pnet_cal2 = "Tên người dùng tài khoản cFos Personal Net của bạn";
-cfout_pnet_cal3 = "Mật khẩu tài khoản cFos Personal Net của bạn";
-cfout_davical_cal2 = "Tên người dùng tài khoản DAViCal của bạn";
-cfout_davical_cal3 = "Mật khẩu tài khoản DAViCal của bạn";
-cfout_baikal_cal2 = "Tên người dùng tài khoản Baïkal của bạn";
-cfout_baikal_cal3 = "Mật khẩu tài khoản Baïkal của bạn";
-cfout_adv_conf_h1 = "Cấu hình nâng cao:";
-cfout_adv_conf_p1 = "cFos Outlook DAV sử dụng URL đã được cấu hình của bạn để thử nghiệm, nhằm phát hiện vị trí thực của lịch hoặc sổ địa chỉ. Bằng cách đặt một dấu <b>*</b> trước URL, bạn có thể ngăn việc này xảy ra. Trong trường hợp này, cFos Outlook DAV sẽ sử dụng URL này đúng như đã thiết lập. Điều này sẽ giúp ích trong việc <b>đóng gói DAViCal</b> và trong trường hợp bạn muốn sử dụng một lịch khác <b>GMX</b> hoặc <b> web.de</b>. URL Ví dụ: *http://www.cfos.de/calendars/mycalendar2.";
+
 
 / cFos IPv6 Link
 cfos6link_page_title = "Kết nối chuẩn ipv6 dành cho Windows XP, Windows 7 và Vista";
@@ -839,7 +767,6 @@ li_text_sessions = "Hỗ trợ nhiều tác vụ đồng thời, không giới h
 
 / cFos
 cfos_html_h1 = "driver DSL và ISDN dial-in Traffic Shaping";
-/. Part of page's title (in name of the tab in web browser)
 cfos_professional_title = "cFos, Kết nối quay số &amp; Tăng tốc độ cho Đường dây thuê bao kỹ thuật số &amp; Mạng số các dịch vụ tích hợp";
 link_text_budget = "Bộ đếm trực tuyến";
 link_text_cfos_features = "danh sách tính năng của cFos";
@@ -850,23 +777,6 @@ link_text_what_is_cfos = "cFos/Professional là gì?";
 
 /hrping
 hrping_title = "<span class=\"product\">hrPing</span> - Tiện ích giảm ping hiệu quả cao";
-hrping_p1 = "So với Windows Ping, bạn có thể làm được nhiều hơn nữa với hrPing.";
-hrping_l1 = "Hiển thị các kết quả ping dưới dạng đồ họa";
-/. `usec` stands for `microsecond`.
-/. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
-/. In other words, means accuracy of the measurement
-hrping_l2 = "Sử dụng bộ tính giờ với độ phân giải cao, vì vậy thời gian các lần ping luôn được hiển thị chính xác";
-hrping_l3 = "Có thể ping như với các gói tin UDP hoặc các thông báo ICMP có thời gian";
-
-/. In other words means `Hrping measures requests time and handles ICMP error replies as well`
-hrping_l4 = "Thời gian và phản hồi các lỗi xử lý ICMP";
-
-hrping_l5 = "Có thể thực hiện nhiều ping \"cùng lúc\", không cần phải chờ phản hồi trước khi gửi ping tiếp theo";
-hrping_l6 = "Tính năng thống kê được cải thiện";
-hrping_l7 = "Kích thước quét: Gửi gói tin có kích thước tăng dần";
-hrping_l8 = "Có thể hiển thị riêng chỉ một bản tóm tắt các kết quả";
-/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic
-hrping_l9 = "Cũng là một Traceroute và một Pathping";
 
 
 /notifier
@@ -1008,12 +918,6 @@ contact_form_p0 = "Liên lạc với chúng tôi về <b>vấn đề kĩ thuật
 contact_form_p0_a1 = "<b>Tốc độ quá chậm ?</b><br/>Có thể là do<a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Guide</a> có thể giúp đỡ";
 contact_form_p0_a2 = "<b>Bản quyền của tôi ở đâu?</b><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Liên lạc với chúng tôi, nếu đơn hàng của bạn mất nhiều thời gian</a>";
 contact_form_p0_a3 = "<b>Tắt trạng thái trên Windows ?</b><br/><a class=\"inline\" href=\"//en/cfosspeed/documentation/status.htm\">Làm thế nào để tắt chế độ tự động mở trên windows</a>";
-/. Used in our contact form on website, as possible choices, like:
-/= Please, select:
-/= — ...
-/= — Business Partners, Licensing, Bundling
-/= — Press, Artwork, Covermount
-/= — ...
 contact_form_o1 = "Đối tác kinh doanh, cấp phép, Đóng bó";
 contact_form_o2 = "Báo chí, ảnh minh họa, Covermount";
 contact_form_o3 = "Order: Key Bản quyền của tôi ở đâu?";
@@ -1049,9 +953,6 @@ contact_form_p11 = "Hãy xem quan trọng với chúng tôi <a class=\"inline\" 
 contact_form_h3 = "Gửi tin nhắn cho chúng tôi";
 contact_form_p12 = "Vui lòng nhập câu hỏi hoặc đề xuất của bạn và địa chỉ e-mail của bạn vào mẫu và nhấn nút\"Send\" . Chúng tôi sẽ liên lạc với bạn sớm nhất có thể.";
 contact_form_p13 = "Xin xem hướng dẫn của chúng tôi về cách <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1371473212/0#0\">cài đặt cFos Outlook DAV với Google Calendar</a>.";
-contact_form_p13b = "Nếu được, vui lòng cung cấp cho chúng tôi các thông tin sau: ";
-contact_form_p13c = "Bạn đang sử dụng <b>phiên bản Outlook nào</b>?";
-contact_form_p13d = "Bạn đang sử dụng <b>lịch hoặc máy chủ liên lạc nào</b> và đang sử dụng phiên bản nào?";
 contact_form_p14a = "ASUS, Gigabyte và ASRock đề nghị sử dụng phiên bản cFosSpeed OEM cho bo mạch chủ của họ. Cập nhật cho các phiên bản OEM có sẵn tại trang web của nhà sản xuất bo mạch chủ. Nếu bạn cài đặt một phiên bản cFosSpeed ​​thông thường thay vì phiên bản OEM của bạn, bạn sẽ được dùng thử 30 ngày trước khi mua bản quyền trọn đời từ chúng tôi hoặc gỡ bỏ sFosSpeed.";
 contact_form_p14b = "Nếu bạn thích cFosSpeed chúng tôi đề nghị bạn mua bản quyền cFosSpeed trọn đời từ chúng tôi. Lợi ích của bạn là có thể sử dụng tất cả các bản dùng thử của chúng tôi trước khi nó chính thức phát hành. Mặc dù các đối tác OME cũng cập nhật, nhưng nó sẽ chậm hơn rất nhiều.";
 decision = "Sản phẩm nào?";
@@ -1387,7 +1288,6 @@ effects = "Các hiệu ứng";
 enable_speed_shaping = "Bật Traffic Shaping";
 extras = "Phần phụ thêm";
 features_title = "Danh sách tính năng của cFosSpeed";
-feature_highlights_title = "Các tính năng nổi bật của cFosSpeed​";
 filter = "Các luật riêng biệt với bộ lọc ngôn ngữ";
 graph_title = "Biểu đồ sử dụng";
 graph_title_desc = "Hiển thị biểu đồ sử dụng cho các túi trực tuyến của cFos Speed.";
@@ -1430,7 +1330,6 @@ no_ping_tplink = "<h4>TP-Link Router:</h4><p>TP-Link có phiên bản mới, bâ
 no_ping_tplink2 = "<p><b class=\"red\">Chú ý</b>: Theo những báo cáo của người dùng, dường như không áp dụng cho các phiên bản TL-R460, TL-R860 và TL-R402M.</p>";
 no_ping_pccillin = "<h4>PC cillin 2007:</h4><p>Để cho phép lệnh tracert Windows cho PC Cillin 2007 chỉ cần làm theo những bước này:</p><ol><li>Mở console chính PC Cillin->mạng- và điều khiển-tường lửa->tường lửa cá nhân->thiết lập->chọn tài khoản->chỉnh sửa->điều khiển mạng->thêm</li><li>Bây giờ bạn có thể <samp>thêm</samp> 2 nghi thức mới. </li><li>cho những kết nối đầu ra:<br /><samp>(mặc định) cho phép cho những kết nối đầu ra<br />(giao thức) icmp<br />(cổng) tất cả các cổng<br />(thiết lập-ip) tất cả các thiết lập-ip<br /></samp></li><li>Cho những kết nối đầu vào chỉ cần lặp lại bước 3 cho những kết nối đầu vào</li></ol>";
 no_ping_statistics = "Khôi phục và giải thích thống kê ping của cFosSpeed";
-/. Console's output shouldn't be translated
 no_ping_statistics_p1 = "<p>Mở console cFosSpeed và gõ &quot;spd pingstat&quot;</p><p>Việc này cần phải nhượng bộ một đầu ra tương tự như cái ở dưới:</p><pre class=\"code\"><br />thống kê ping:<br /><br />Tổng cộng ping yêu cầu     107,686<br />  done                   107,686     <b>(1)</b><br />  ... và chỉ            107,686<br /><br />Tổng cộng ping đã gửi         106,949<br />  mạnh                 106,778<br />  ...và mới             106,778     <b>(2)</b><br /><br />Tổng cộng ping              106,804<br />  đã thấy                  106,566<br />  ...và mạnh          106,519<br />  ...và trả lời mạnh    106,519     <b>(3)</b><br />  ...và đã dùng            106,519     <b>(4)</b><br /><br />Các thống kê mất ping:<br />  1 ping trong 33 lần<br />  5 ping trong vòng 1 lần<br /><br />Ping src/dst: 192.168.0.100 to 194.95.249.23, ttl 3<br />Ethernet src/dst: 00:0e:a6:57:9b:0b to 00:11:95:78:27:a4<br /></pre>";
 no_ping_statistics_p2 = "<p>Ba giá trị đưa ra cho &quot;tổng yêu cầu ping&quot; cần phải đồng nhất. Trong trường hợp có bất kỳ sự sai lệch lớn nào trong số này, xin hãy báo cáo nó cho chúng tôi.</p><p>Giá trị được đánh dấu <b>(1)</b> cần phải xấp xỉ tương tự như cái tiếp theo<b> (2)</b>. Nếu không phải trường hợp này, đó là bằng chứng điển hình mạnh mẽ cho việc một tường lửa chặn sự truyền dữ liệu. Như trên, một sự sai lệch nhỏ của vài phần trăm không quá quan trọng.</p><p>Giá trị cho<b> (3) </b>và<b> (4) </b>cần phải giống nhau như vậy. Nếu không, gửi cho chúng tôi một lá thư.</p>";
 no_ping_statistics_p3 = "<p>Bởi dấu hiệu giống như vậy, giá trị<b> (2) </b>và<b> (3) </b>cần phải đồng nhất thô nhám. Nếu điều này không phải vậy, điều này thông thường chỉ báo ping và những phản hồi của chúng bị mất ở đâu đó &quot;trên Mạng&quot; (mà xảy ra khá nhiều). Không may, không có gì chúng tôi có thể làm về điều đó.</p><p>Khi viết cho chúng tôi một lá thư điện tử, xin liên hệ theo<a class=\"inline\" href=\"#p4\"> bước 3 </a>ở trên để lưu tâm tới tập tin để gắn kèm tới thông báo của bạn.</p>";
@@ -1506,32 +1405,21 @@ sp_doc_games_p1 = "Công nghệ Traffic Shaping giúp bạn giữ tốc độ đ
 sp_doc_games_p2 = "Mặc dù vậy nhưng bạn vẫn nên đặt quyền ưu tiên cho trò chơi bạn chơi càng cao càng tốt nếu bạn muốn ping thấp nhất. Chúng tôi đã để sẵn một số trò chơi  nổi tiếng ở mục Program Settings. Xin hãy thêm vào nếu bạn không tìm thấy trò chơi của bạn.";
 sp_doc_games_p3 = "Bạn có thể <a href=\"/en/contact/priopost.htm\">có thể cho chúng tôi biết</a> trò chơi online nào bạn muốn thêm vào trong danh sách để chúng tôi có thểm thêm vào trong bản nâng cấp.";
 sp_doc_games_p4 = "Xin hãy cẩn thận khi đặt quyền ưu tiên cho các phần mềm. Nếu bạn đặt quyền ưu tiên cao cho mọi thứ thì cũng coi như không đặt gì hết.";
-// `[filter]` and name of file shouldn't be translated
 sp_doc_games_p5 = "Trong trường hợp bạn không biết chính xác tên của chương trình, bạn có thể đặt quyền ưu tiên cho những cổng mà trò chơi bạn dùng. Nếu bạn biết cổng TCP/UDP của 1 phần mềm, bạn có thể đặt quyền ưu tiên cho nó (bằng cách chỉnh phần [bộ lọc] của tập tin settings.ini):";
 sp_doc_games_p6 = "Cổng TCP:<br />[các bộ lọc]<br />; cổng đích=1234<br />bộ lọc=-tcp-dport 1234 -c high";
 sp_doc_games_p7 = "Cổng UDP:<br />[các bộ lọc]<br />; cổng đích=1234<br />bộ lọc=-udp-dport 1234 -c high";
 sp_doc_games_p8 = "Sau khi tùy chỉnh xong và lưu lại bạn phải khởi động lại. Mở Console ra (vào Start, Program, cFosSpeed) gõ vào \"spd reload\". Sau khi bạn khởi động lại, những thay đổi sẽ có tác dụng.";
 sp_doc_games_a1 = "Hướng dẫn sử dụng bộ lọc cFosSpeed";
 sp_doc_games_a2 = "Thiết lập kết nối DSL";
-/: https://www.cfos.de/en/cfosspeed/documentation/games.htm
-/. Used as alternate text for image
 sp_doc_games_a3 = "Hiển thị ping";
 sp_doc_games_a4 = "Hộp thoại các chương trình ưu tiên";
 sp_doc_games_t1 = "Cài đặt tối ưu hóa kết nối:";
-/. Connections types untranslatable in our software, so they shouldn't be translated here either (`Adaptive`)
 sp_doc_games_p9 = "Bạn có thể chỉnh cái bạn thích dùng trong Connection Settings. Thông tin của kết nối càng chính xác thì ping sẽ càng tốt. Mặc định là \"Adaptive\". Ví dụ: trong trường hợp bạn dùng DSL connection, xin chọn DSL standard hoặc protocol thích hợp.";
 sp_doc_games_t2 = "Ưu tiên Ping:";
-/. `Favor Ping` is translatable in our software, so it should be translated here too.
-/. Ensure in consistent translation across website and software, by checking
-/. translation of cFosSpeed's into your language.
-/. Look here for your locale https://github.com/cFos/l10n/blob/master/locales.software/
-/. and then search for key `favor_ping`
 sp_doc_games_p10 = "Bạn có thể khởi động chế độ \"Ưu tiên Ping.\" trong context menu hoặc status window. Một mũi tên màu xanh lá cây sẽ hiện lên ở status window. Chể độ này của cFos hoặc cFosSpeed sẽ giảm cho ping xuống mức thấp nhất có thể nhưng tốc độ download sẽ bị chậm đi 1 mức đáng kể.";
 sp_doc_games_t3 = "Vừa chơi vừa download:";
 sp_doc_games_p11 = "Nếu bạn chơi game online trong khi upload hoặc download mà lại không dùng Traffic Shaping, ping của bạn sẽ tăng. Dữ liệu càng ít thì ping sẽ tốt hơn (thấp hơn). Đặc biệt là những chương trình chia sẻ hoặc gửi đi rất nhiều dữ liệu, ping thường lên đụng nóc, làm lag. Bạn sẽ thầy nó làm game giật liên tục.";
 sp_doc_games_p12 = "Traffic Shaping giải quyết vần đề bằng cách cho phép download chạy ẩn trong khi chơi game. Ping vẫn sẽ tăng 1 chút so với bình thường. Tốt nhất là nên khởi động chế độ \"Ưu tiên ping\". Chương trình chia sẻ dữ liệu dược mặc định ưu tiên ở mức thấp nhất. Vậy không có nghĩa là mấy chương trình đấy sẽ chạy rất chậm hoặc không chạy. Dữ liệu của mấy phần mềm đấy chỉ đi chậm hơn 1 tý dể chừa chỗ cho những dữ liệu quan trọng của game online đi trước. Chỉ có ở chế độ này bạn mới vừa download ở tốc độ tối đa trong khi vẫn chạy những chương trình khác.";
-/: http://www.cfos.de/en/cfosspeed/documentation/index.htm
-/. Used as  section title
 sp_doc_index = "Chương trình xử lý";
 sp_doc_installation = "cài đặt / Đăng ký";
 sp_doc_install_title = "Cài đặt / Đăng ký / Gỡ bỏ";
@@ -1559,8 +1447,6 @@ sp_doc_led_p1 = "cFosSpeed ​​có thể sử dụng đèn LED Num Lock và Sc
 sp_doc_led_dd1 = "tắt, công bằng = nhấp nháy chậm, xấu = nhanh chóng chớp <br /> cảnh báo bạn nếu thời gian ping là quá cao";
 sp_doc_led_dd2 = "nhấp nháy nhanh chóng như các gói tin được tính <br /> thông báo cho bạn rằng có bất kỳ lưu lượng truy cập đến / từ Internet";
 sp_doc_led_dd3 = "nhấp nháy nhanh khi một gói TX được ưu tiên <br /> một trong những cách để chỉ ra những tác động của Traffic Shaping";
-/: http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm
-/. `total_rx_speed` and `total_tx_speed` shouldn't be translated, since those are actual values names
 sp_doc_led_dd4 = "mức cao nhất của total_rx_speed và  total_tx_speed, 0-32%: tắt, 33-65%: nhấp nháy chậm, 66-98%: nhấp nháy nhanh 99-100%: mở<br />thông báo cho bạn, khi bạn hoặc người dùng khác / ứng dụng sử dụng (quá) nhiều băng thông";
 sp_doc_led_dd5 = "nhanh chóng chớp mắt bất cứ khi nào tổng của TCP và UDP kết nối thay đổi <br /> bạn ở lại thông báo nếu một số kết nối mới được thiết lập";
 sp_doc_led_dd6 = "0-15ms: tắt, 16-127ms: nhấp nháy chậm, 128-511ms: nhấp nháy nhanh, 512 hoặc nhiều hơn: trên <br /> thông báo cho bạn nếu điều kiện đường dây (ví dụ như kết nối điện thoại di động) gây ra sự bất ping cao";
@@ -1575,10 +1461,8 @@ sp_doc_logi_h1 = "Logitech skins trên YouTube";
 sp_doc_logi_h2 = "Phát hiện bạn phím Logitech";
 sp_doc_logi_p3 = "Cả hai cfosspeed.exe và phần mềm Logitech Gaming là tự động khởi động khi Windows khởi động. Nếu chạy cFosSpeed ​​trước khi phần mềm Logitech bàn phím có thể không được phát hiện. Trong trường hợp này, bạn có thể sử dụng \"phát hiện\" tùy chọn trong menu cFosSpeed ​​cho bàn phím Logitech hoặc bạn có thể sửa đổi <em>c:\\ProgramData\\cFos\\cfosspeed\\global.ini</em>, phần [All] và chèn <b>startup_delay=x</b> trong đó x là số giây cFosSpeed ​​nên chờ đợi trước khi bắt đầu cửa sổ trạng thái.";
 sp_doc_p2p_t1 = "Traffic Shaping cho phần mêm chia sẻ dữ liệu(P2P)";
-/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p1 = "Với công nghệ của cFosSpeed Traffic Shaping, bạn có thể dùng được mức độ tối đa của upload (with eMule, Kazaa or Bittorrent etc.) mà không làm ảnh hưởng những chương trình Internet khác.";
 sp_doc_p2p_t2 = "Vấn đề có thể gặp phải với phần mềm chia sẻ dữ liệu ";
-/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p2 = "Chạy phần mềm chia sẻ dữ liệu (like eMule, Kazaa or Bittorrent) thường dùng hết đường truyền upload, làm cho ping của kết nối của bạnwhich rất cao. Nó không những làm cho chính phần mềm chia sẻ dữ liệu chạy chậm (kết nối phản ứng mất đến 1 hay 2 giây trong khi đáng lẽ chỉ mất 1 phần nghìn giây), nó còn làm những phần mềm Internet khác chậm đi. Vì TCP ACKs không dược truyền đi kịp lúc, tốc độ Download cũng bị chậm đi như thế. Trình duyệt Web cũng sẽ chậm đi.";
 sp_doc_p2p_p3 = "1 cách khá phổ biến để đỡ chậm là đặt max upload thấp xuống trong phần mềm chia sẻ dữ liệu. ";
 sp_doc_p2p_p4 = "Tuy nhiên, nếu bạn upload trong mail cùng lúc với phần mềm chia sẻ dữ liệu, cả 2 sẽ ‘chiến đấu’ với nhau để dành băng thông upload. Nếu trường hợp đó xảy ra, mỗi chương trình đó upload được bao nhiêu thì tùy vào may mắn. Trong 1 vài trường hợp, tất cả kết nối TCP sẽ bị cắt (TCP connection starving).";
@@ -1587,13 +1471,9 @@ sp_doc_p2p_p5 = "Hệ thống ưu tiên của cFos và cFosSpeed sắp xếp l�
 sp_doc_p2p_p6 = "Ví dụ nếu bạn có 1 phần mềm chia sẻ dữ liệu chạy ẩn trong khi đang lướt mạng, bạn sẽ chỉ bị chậm đi 1 chút xíu ở phần mềm P2P trong khi trình duyệt Web tải dữ liệu của website. Khi bạn gửi emails, P2P upload cũng sẽ bị chậm đi 1 chút xíu trong khi gửi. Khi bạn đã gửi xong, tốc độ upload sẽ trở lại như cũ. Chỉ có duy nhất 1 cách khác là tạm dừng gửi mail \"forever\" hoặc đặt giới hạn tốc độ truyền dữ liệu cho phần mềm chia sẻ dữ liệu. Nhưng như vậy có nghĩa là bạn sẽ mất đi tốc độ băng thông cả khi không có phần mềm khác chạy.";
 sp_doc_p2p_p7 = "Vì vậy dùng cFosSpeed là tốt nhất cho phần mềm chia sẻ dữ liệu (p2p), giúp bạn lướt mạng bình thường trong khi vẫn download.";
 sp_doc_p2p_p8 = "Chúng tôi xin gợi ý là chỉnh Kazaa, v.v sang \"unlimited upload\" và bỏ chế độ \"speed sense\" đi, vì cFosSpeed đã làm nhiệm vụ tối ưu hóa Internet của bạn.";
-/: https://www.cfos.de/en/cfosspeed/documentation/p2p.htm
-/. it's referring to system tray icon and special skin for it.
-/. Note that particularly that string refers not to actual skin, but just used as title, to highlight that "there is icon skin for cFosSpeed"
 sp_doc_p2p_t4 = "Thay biểu tượng";
 sp_doc_p2p_p9 = "Hầu hết người sử dụng phần mềm chia sẻ dữ liệu chạy suốt ngày, vì thế cFosSpeed có hẳn biểu tượng riêng cho việc này. Nó giúp bạn theo dõi tình trạng kết nối mà không phải mở một cửa sổ nữa.";
 sp_doc_p2p_t5 = "Ưu tiên hóa:";
-/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p10 = "Rất nhiều người chạy 1 máy vi tính chỉ để dùng phần mềm chia sẻ dữ liệu P2P (thông qua Internet Connection Sharing). Trong trường hợp này, Layer-7 Protocol Detection của cFos và cFosSpeed cho phép bạn ưu tiên hoá những P2P networks quan trọng như BitTorrent, eDonkey 2000 (eMule, etc.), Kazaa, Gnutella(2), Kademlia, và Direct Connect.";
 sp_doc_p2p_t6 = "Ưu tiên hóa phần mềm:";
 sp_doc_p2p_p11 = "cFos và cFosSpeed cũng cho phép bạn ưu tiên hóa phần mềm với tên của chúng. Rất nhiều phần mềm quan trọng đã được chúng tôi cài sẵn trong danh mục program setting list. Cách ưu tiên này rất tiện khi Layer-7 detection không thể nhận và chỉ định dữ liệu (ví dụ: mã hóa dữ liệu của P2P).";
@@ -1601,16 +1481,12 @@ sp_doc_performance = "Hiệu suất";
 sp_doc_phone_skins_title = "Giao diện của cFosSpeed cho điện thoại và máy tính bảng";
 sp_doc_phone_skins_h1 = "Số liệu thống kê lưu lượng truy cập hình hiển thị trên điện thoại của bạn";
 sp_doc_phone_skins_p1 = "Bắt đầu với v9.05 build 2090 cFosSpeed đã được xây dựng trên webserver, vì vậy bạn có thể hiển thị cửa sổ trạng thái trên điện thoại hoặc máy tính bảng của bạn, thay vì máy tính để bàn. Điều này đặc biệt hữu ích cho các ứng dụng toàn màn hình giống như các trò chơi hoặc video. Ở đây là làm thế nào để cấu hình nó:";
-/. While translating `\"Options/Settings\"` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_doc_phone_skins_l1 = "Bắt đầu \"Tinh chỉnh/Cài đặt\" từ menu ngữ cảnh cFosSpeed và cài đặt mật khẩu server trong \"Các giao diện/Sẵn sàng các Skin điện thoại\" đối thoại. Webserver sẽ cần ủy quyền nếu bạn truy cập nó từ máy khác hơn máy tính cục bộ của bạn.";
 sp_doc_phone_skins_l2 = "Mở menu thành phần và chọn tùy chọn đầu tiên (<b>cFosSpeed vX.XX...</b>) để hiển thị khu vực cục bộ của bạn <b>địa chỉ IP</b>.";
 sp_doc_phone_skins_l3 = "Mở trình duyệt trên điện thoại hoặc máy tính bảng của bạn và điền vào địa chỉ IP: <b>http://[Địa chỉ IP của bạn]:1487/cfosspeed/skin.htm</b>. <b>[Địa chỉ IP của bạn]</b> thường là địa chỉ được liệt kê đầu tiên từ bước 2, nhưng bạn có thể cố gắng tất cả các thứ khác nếu cái đầu không làm việc.";
 sp_doc_phone_skins_l4 = "Bây giờ điền vào hộp thoại xác thực với \"<b>cfosspeed</b>\" như tên người dùng và mật khẩu server bạn đã cấu hình dưới \"Các giao diện/Sẵn sàng các Skin điện thoại\" như mật khẩu.";
 sp_doc_phone_skins_a1 = "Địa chỉ IP của bạn trong menu thành phần cFosSpeed";
-/: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
-/. Title of one of pictures
 sp_doc_phone_skins_a2 = "Cài đặt mật khẩu các Skin cho điện thoại";
-/.  Title of picture with demo of cFosSpeed Phone Skin
 sp_doc_phone_skins_a3 = "Ảnh chụp các giao diện cFosSpeed ​​Điện thoại";
 sp_doc_phone_skins_a4 = "cFosSpeed Phone Skins trên một <a class=\"inline\" href=\"http://www.fairphone.com\"><b>Fairphone</b></a>";
 sp_doc_phone_skins_p2 = "<b>Ghi chú</b>: Bạn cần Window 7 hoặc cao hơn để sử dụng webserver.";
@@ -1619,14 +1495,11 @@ sp_doc_prioliste = "danh sách ưu tiên: ";
 sp_doc_priorliste_content = "Danh sách các ứng dụng ưu tiên";
 sp_doc_prio_title = "Chương trình ưu tiên";
 sp_doc_prio_p1 = "<b>Gợi ý</b>:<br />Ưu tiên sẽ làm việc đúng chỉ nếu như dữ liệu ít nhất có thể được ưu tiên cao cho chương trình gửi một lượng lớn các dữ liệu ưu tiên thấp.";
-/. `UNKNOWN` shouldn't be translated, since it's not translatable protocol name, used in our software
 sp_doc_prio_p2 = "đầu tiên cFosSpeed ​​cố gắng để phát hiện các lớp 7 Nghị định thư cho mỗi kết nối Nếu không được phát hiện (ví dụ giao thức là UNKNOWN) hoặc ưu tiên của các giao thức được phát hiện là \"bình thường\", sau đó phát hiện chương trình được sử dụng để xác định các ưu tiên.";
 sp_doc_prio_p3 = "Một trường hợp đặc biệt là phát hiện dòng HTTP Nếu phát hiện các giao thức HTTP, cFosSpeed ​​sẽ cố gắng để phát hiện, nếu nó là một đoạn video hoặc dòng âm thanh này làm việc như sau:";
 sp_doc_prio_p4 = "Nếu đại diện người sử dụng là một trong những cầu thủ nổi tiếng hoặc có chuỗi \"chơi\" trong đó, cFosSpeed ​​phân loại các kết nối như HTTP_STREAM_C hoặc HTTP_STREAM_S. Nếu không, nếu loại nội dung âm thanh hoặc video phân loại kết nối BSTREAM_C hoặc BSTREAM_S BSTREAM_C / S. kết nối được ưu tiên như \"bình thường \" để ưu tiên thực tế được xác định bởi chương trình ưu tiên. <br /> Điều này cho phép bạn, ví dụ như trong trường hợp không chắc chắn, ưu tiên theo của bạn chương trình sử dụng.";
 sp_doc_prio_a1 = "Chương trình đã được ưu tiên";
 sp_doc_prio_a2 = "cFosSpeed 7.0 - Ưu tiên kết nối tạm thời";
-sp_doc_dec_prio = "Giảm độ ưu tiên";
-sp_doc_inc_prio = "Tăng độ ưu tiên";
 sp_doc_settings = "Lưu các thiết lập";
 sp_doc_settings_backup = "Làm thế nào để sao lưu / khôi phục lại tất cả các cài đặt cFosSpeed?";
 sp_doc_settings_files = "Bạn có thể sao lưu tất cả 5 tập tin.<br /><br />Ngoài ra, nếu bạn muốn giữ lại ngân sách các tập tin đăng nhập trực tuyến, bạn nên sao lưu các bản ghi thư mục con: <i>C:\\ProgramData\\cFos\\cFosSpeed\\logs</i>.<br/><br/>Để hồi phục việc điều chỉnh chỉ việc phục hồi lại global.ini, user.ini, data.ini. Settings.ini được ghi đè bởi các cài đặt mới Do đó, nếu bạn cũng thực hiện. thay đổi trong settings.ini, bạn cần áp dụng một lần nữa trong settings.ini mới Nếu không sử dụng settings.ini từ phiên bản cài đặt mới nhất.";
@@ -1677,7 +1550,6 @@ sp_doc_status_ht = "Lịch sử của tốc độ truyền tải lên (tổng c�
 sp_doc_status_ht_lc = "Tỉ lệ truyền Tải lên (tổng cộng) trong%";
 sp_doc_status_icon = "Giao diện Traffic Analysis Icon";
 sp_doc_status_insight = "Giao diện Traffic Analysis Insight ";
-sp_doc_status_ipv = "Phân phối băng thông cho các kết nối - IPv4 (.) / IPv6 (:)";
 sp_doc_status_line = "dòng";
 sp_doc_status_liquid = "Giao diện Liquid Crystal";
 sp_doc_status_local = "lịch sử tỉ lệ tải xuống (cục bộ) %";
@@ -1716,18 +1588,10 @@ sp_doc_status_slot = "Biểu đồ của slot biểu diễn tốc độ ch
 sp_doc_status_slots = "các slot";
 sp_doc_status_standard = "Giao diện tiêu chuẩn được thiết kế để theo dõi dòng dữ liệu một bằng đồ thị.";
 sp_doc_status_states = "Bạn có thể chuyển đổi giữa 3 trạng thái của biểu tượng giao diện và chỉ ra sự khác biệt của các kiểu hiển thị. Vị trí của công tắc nằm ở giữa của giao diện (xem ảnh)";
-/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis.htm
-/: http://www.cfos.de/en/cfosspeed/documentation/status.htm
-/. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_switch = "Chuyển đổi giữa phiên bản giao diện bình thường và giao diện lớn ";
 sp_doc_status_switch2 = "Đổi: Large skin > normal skin > icon skin";
 sp_doc_status_switching = "Chuyển đổi giữa hiển thị đồ họa và số của giao diện mặc định:";
-/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
-/. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_systray = "Biểu tượng giao diện Traffic Analysis trên Windows Systray";
-/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
-/. Used as alternative text for clickable icon-buttons in sidebar at mentioned above and on similar pages
-/. You won't see it, since it displayed only if browser can't download images
 sp_doc_status_thumb_down = "Ngón tay cái dưới";
 sp_doc_status_thumb_up = "Ngón tay cái trên";
 sp_doc_status_times = "Thởi gian Ping được biểu thị bởi các đường sóng màu xanh lá, vàng, hay đỏ trên giao diện đồ họa cơ bản. Thời gian Ping thực tế phụ thuộc một phần đáng kể vào số lượng tải lên và tải xuống đồng thời. Nếu con số này tăng, độ trễ có khả năng tăng theo.";
@@ -1746,10 +1610,6 @@ sp_doc_status_utr = "Tỉ lệ tải lên tính theo %";
 sp_doc_status_variance = "Giao động của thời gian Ping";
 sp_doc_status_vertical = "Cột đứng trên biểu đồ cuộn từ trái qua phải biểu thị lịch sử truyền tải như là  tỷ lệ tối đa cho up-/download kể từ khi cài đặt mới hoặc điều chỉnh của cFosSpeed. Tỉ lệ chuyển đổi tổng cộng và cục bộ có liên quan đến việc chạy cFosSpeed trong chế độ đa người dùng. Cục bộ biểu thị tỉ lệ chuyển đổi chỉ cho máy tính hiện tại, tổng cộng số lượng lưu lượng trong mạng cục bộ.<br /><br />Các loại hiển thị khác thì giống với giao diện Liquid Crystal History.";
 sp_doc_status_wave = "Hiển thị thời gian Ping theo hình sóng";
-/: http://www.cfos.de/en/cfosspeed/documentation/status-aquarium.htm
-/. Usead as starting word for explaining labels of cFosSpeed skins elements
-/= Switch: Transfer rate in %
-/= Switch: Number of TCP/UDP connections
 sp_doc_status_word = "Chuyển đổi";
 sp_doc_surf_p1 = "HTTP detection trong cFos và cFosSpeed giúp xem web nhanh hơn, đặc biệt khi bạn có nhiều upload cùng lúc. Bạn có thể xem bảng so sánh thời gian tải của www.greenpeace.org và www.amazon.com ở <a href=\"/en/traffic-shaping/traffic-shaping.htm\">http://www.cfos.de/en/traffic-shaping/traffic-shaping.htm</a>. Nếu trang web có càng nhiều phần thì tốc độ càng tăng.";
 sp_doc_surf_p2 = "Nếu bạn đang lướt hàng loạt website (Không download gì nhiều), Bạn nên khởi động chế độ \"Ưu tiên ping.\" Một mũi tên màu xanh lá cây sẽ hiện lên ở status window. Chể độ này của cFos hoặc cFosSpeed sẽ giảm cho ping xuống mức thấp nhất có thể nhưng tốc độ download sẽ bị chậm đi 1 mức đáng kể status window. Tuy nhiên, nó còn tùy vào những phần mềm bạn đang chạy, nó có thể giúp bạn lướt web nhanh hơn. ";
@@ -1757,7 +1617,6 @@ sp_doc_surf_t1 = "Phần mềm tương tác:";
 sp_doc_surf_p3 = "cFos và cFosSpeed có khả năng phát hiện những phần mềm tương tác như SSL, SSH, Telnet, IRC, v.v. Nó giúp thới gian tương tác luôn luôn thấp ngay cả khi bạn upload và download.";
 sp_doc_surf_p4 = "Nếu bạn cảm thấy tiêu chuẩn ưu tiên của Protocol Settings không đủ, bạn có thể đặt tiêu chuẩn ưu tiên bằng tên ở \"Program Settings\" hay bằng cổng (nhất là khi bạn chạy 1 server). ";
 sp_doc_surf_p5 = " Nếu bạn biết cổng phần mềm của bạn dùng, bạn có thể đặt quyền ưu tiên cho nó (bằng cách chỉnh phần [filter] của tập tin settings.ini):";
-/. Part after colon shouldn't be translated, since it's code from configuration file
 sp_doc_surf_p6 = "Cổng TCP:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high<br />; source port=5678<br />filter=-tcp-sport 5678 -c high";
 sp_doc_surf_p7 = "<br />Cổng UDP:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high<br />; source port=5678<br />filter=-udp-sport 5678 -c high";
 sp_doc_surf_t2 = "Lướt web và chia sẻ dữ liệu (P2P):";
@@ -1770,8 +1629,6 @@ sp_doc_voip_t1 = "Rớt mạng khi Download:";
 sp_doc_voip_p5 = "Nếu bạn mở download tốc độ cao khi dùng VoIP thì mạng rất hay bị rớt. cFos và cFosSpeed có RX shaping giúp bạn tránh rớt mạng trong khi ping vẫn thấp.";
 sp_doc_voip_p6 = "Skype mã hóa giao thức của nó. Vì vậy xét nghiệm Layer-7 rất khó nhận biết. Để giúp đỡ bạn trong việc ưu tiên hóa Skype, chúng tôi đã chuẩn bị nó sẵn trong danh sách phần mềm.";
 sp_doc_voip_t3 = "Ưu tiên VoIP bằng Router:";
-/. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
-/. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
 sp_doc_voip_p7 = "Một vài router (như Fritz!Box) có sẵn ổ cắm phone. Nếu bạn dùng ổ cắm, tất cả dữ liệu của VoIP sẽ ko đi qua cFos và cFosSpeed mà truyền trực tiếp lên Internet. Vấn đề ở đây là: mỗi khi bạn dùng VoIP, Router loại này sẽ giới hạn băng thông của những thứ khác để tránh rớt mạng. Việc này sẽ gây ảnh hưởng nghiêm trọng đến Traffic Shaping, nó còn có nghĩa là tốc độ kết nối sẽ bị thay đổi liên tục. Để tránh điều này, chúng tôi đề nghị bạn gọi VoIP trên máy vi tính để cFos hoặc cFosSpeed giúp bạn. Nếu bạn nhất định muốn gọi dùng router thì xin vui lòng đổi thành \"variable (cooperative)\" trong <samp>Options/Connections</samp> dùng nút Tool.";
 sp_doc_voip_t4 = "Dùng VoIP với cFosSpeed";
 sp_doc_voip_t5 = "Đo đạc với IxChariot";
@@ -1787,7 +1644,6 @@ sp_doc_whatsnew_word = "Có gì mới";
 sp_doc_whatsnew = "Tổng quát về phiên bản mới, các cải tiến, các sửa đổi và sửa lỗi ";
 sp_doc_wlan_title = "Điểm truy cập Wi-Fi";
 sp_doc_wlan_p1 = "Bật <a class=\"inline\" href=\"/en/traffic-shaping/traffic-shaping.htm\">cFos Phân luồng lưu lượng</a> cho điện thoại thông mình,  máy tính bảng và các thiết bị di động khác.";
-sp_doc_wlan_p1_nolink = "Kích hoạt Phân luồng băng thông cFos Traffic Shaping cho điện thoại thông minh, máy tính bảng và các thiết bị di động khác."; // same as above, but without included link
 sp_doc_wlan_p2 = "Windows 7, 8 và 8.1 cho phép bạn sử dụng adapter Wi-Fi của bạn như một điểm truy cập Wi-Fi đặc biệt. Vì vậy, các thiết bị khác có thể kết nối với máy tính của bạn (thay vì trực tiếp đến các bộ định tuyến Wi-Fi) và do đó có thể được hưởng lợi từ cFosSpeed ​​Phân luồng lưu lượng.";
 sp_doc_wlan_p3 = "cFosSpeed ​​nay có một menu ngữ cảnh tùy chọn để bắt đầu và cấu hình (hoặc ngừng) các điểm truy cập Wi-Fi một cách dễ dàng.";
 sp_doc_wlan_a1 = "Cấu hình điểm truy cập Wi-Fi cFosSpeed";
@@ -1798,16 +1654,11 @@ sp_doc_wlan_p6a = "Khi máy tính được sử dụng như một điểm truy c
 sp_doc_wlan_p6b = "Việc xác minh địa chỉ này có thể mất vài giây và là quá dài đối với một số thiết bị, vì vậy thời gian chờ sẽ kết thúc và sẽ không thể có được địa chỉ IP được gán. Do đó, chúng tôi đã thêm một tính năng cho các thiết bị như vậy. Để kích hoạt nó, bạn cần phải sử dụng lệnh sau đây trong giao diện điều khiển:";
 sp_doc_wlan_p6c = "Điều này dẫn đến việc cFosSpeed ​​can thiệp vào việc điều phối DHCP để địa chỉ IP được gán nhanh hơn.";
 sp_news_t = "Tin tức mới nhất về cFosSpeed";
-/. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_news_p1 = "cFosSpeed ​​kiểm tra mỗi 2 ngày nếu có chương trình tin tức Nếu có, nó sẽ hiển thị biểu tượng thư trong cửa sổ trạng thái và mở ra trang web này khi nhấp vào. Tính năng này được bật mặc định. Nếu bạn không quan tâm đến chương trình tin tức , bạn có thể tắt nó đi trong menu ngữ cảnh trong \"Tùy chọn\".";
 sp_news_p2 = "Chúng tôi sẽ gửi tin tức chỉ có một vài lần mỗi năm.";
 sp_news_h0 = "Tin tức của cFosSpeed";
 sp_news_h1 = "Chính sách mới của cFosSpeed";
 sp_news_p3 = "Bởi vì đến người dân thông qua thư trở nên khó khăn hơn và các mạng xã hội trở nên nhiều hơn và rộng rãi hơn, chúng tôi quyết định sử dụng Twitter như dịch vụ tin tức thời gian ngắn của chúng tôi. Nếu có một cái gì đó mới, ví dụ như một cFosSpeed ​​phiên bản beta mới, chúng tôi sẽ đăng trên Twitter. nhất chúng tôi sẽ gửi một vài lần mỗi tuần. Vì vậy nếu bạn không đã có một tài khoản Twitter, xin vui lòng tạo ra một, theo <a class=\"inline\" target=\"_blank\" href=\"https://twitter.com/cFosSoftware\"><b>@cFosSoftware</b></a> để có được những tin tức mới nhất. Bạn có thể sau đó thuận tiện cho <a href=\"/en/cfos-notifier/cfos-notifier.htm\"><b>cFos thông báo</b></a> kiểm tra tin tức của chúng tôi trên Twitter. <br/> <br/> Chúng tôi cũng thực hiện một thông báo tin tức cFosSpeed. Khi có tin tức rất quan trọng (chỉ có một vài lần mỗi năm), giống như phiên bản phát hành mới cFosSpeed, chúng tôi sẽ cập nhật các trang tin tức cFosSpeed ​​cFosSpeed ​​v7.01 build 1921, cửa sổ trạng thái sẽ hiển thị một biểu tượng mới và mở các trang tin tức cFosSpeed, khi bạn nhấp vào nó.";
-sp_news_20150126 = "26/01/2015";
-sp_news_20150126_text = "Thời gian Ping có và không có tính năng phân luồng băng thông Traffic Shaping trên một kết nối 50Mbit VDSL với 4 lượt tải lên và 2 lượt tải về.";
-sp_news_20150112 = "12/01/2015";
-sp_news_20150112_text = "cFosSpeed ​​là sản phẩm được lựa chọn hàng đầu trên Softpedia. <a class=\"inline\" href=\"http://www.softpedia.com/get/Network-Tools/Bandwidth-Tools/cFosSpeed.shtml\"><b>Nhận xét khách quan</b></a> về những điều được và chưa được của cFosSpeed.";
 sp_news_20140429 = "Tháng tư 29th, 2014";
 sp_news_20140429_text = "cFosSpeed mới phát hành v9.60 bây giờ đến với hỗ trợ toàn bộ IPv6 và các skin điện thoại cho điện thoại hoặc máy tính bảng của bạn. Xem tình trạng kêt nối của bạn trên điện thoại hoặc máy tính bảng của bạn khi chơi game các ứng dụng khác full màn hình trên PC của bạn. Cũng bắt đầu các hộp thoại kết nối hiện tại trên điện thoại hoặc máy tính bảng của bạn để giám sát và ưu tiên các kết nối của bạn trong thời gian thực.";
 sp_news_20140210 = "Tháng Hai 10th, 2014";
@@ -1945,9 +1796,6 @@ six_doc_134 = "Dể những thay đổi có hiệu quả,có thể phải khởi
 six_doc_135 = "lập bản đồ NAT46:";
 six_doc_136 = "lập bản đồ NAT46 cho phép bạn chạy các ứng dụng IPv4 hoặc là các dịch vụ IPv4 với địa chỉ IPv6, mà được truy cập vối địa chỉ IPv6. cfos6link có thể lập bản đồ của úng dụng IPv4 thành IPv6. Để làm được điều đó cFos 6link chạy địa chỉ IPv6 bằng địa chỉ IPv4 tạm thời. Bạn có thể chỉ định các vũng địa chỉ IPv4 bẳng cách thiết đặt nat46_addr=x và nat46_subnet_mask=m ở phần [param] của cfos6link.ini. Nếu ứng dụng IPv4 yêu cầu tên thông qua DNS ( ví dụ: 1 ghi nhận) cfos6link chuyển yêu cầu thành yêu cầu ghi nhận AAAA . Sau khi nhận được địa chỉ IPv6 phân bổ tương ứng với nó một IPv4 tạm thời nó chuyển về lại cho chương trình IPv4. Bất cứ khi nào ứng dụng IPv4 sử dụng địa chỉ tạm thời nó sẽ được ánh xạ đến địa chỉ IPv6 sử dụng với một điểm đến IPv6. Ví dụ bạn có thể gán các vũng sau đây của địa chỉ IPv4 cho lập bản đồ:";
 six_doc_138 = "Đối với các kết nối bạn cũng có thể chỉ định một cổng lập bản đồ, bằng cách điền vào phần [nat46_ports] trong cfos6link.ini với các giá trị, như thế này :";
-/. That string means that user have to place program's name instead of `some program` like `5000=skype`
-/. `some_program` part may be translated
-/: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
 six_doc_140 = "Sau đó dòng IPv6 đến sẽ được ánh xạ tới địa chỉ IPv4 cho dù cổng đến là 1 trong nhữg cổng đả được ánh xạ.";
 six_doc_141 = "Ngoài ra chúng ta có thể sử dụng các bản đồ IPv4 &lt;-&gt; IPv6 cho các thiết bị với các địa chỉ cố định IPv4. Các bản đồ này có thể được thiết trí trong khoản [nat46_static] nơi  ipv4_x=ipv6_y, điền vào một giá trị thí dụ như 192.168.2.1=2001:DB8::1.";
 
@@ -1986,19 +1834,15 @@ oem_t3 = "Tối đa băng thông và tối thiểu thời gian ping với Traffi
 oem_l4 = "Trình điều khiển NDIS cho Windows 7, Windows Vista, XP và 2000, x86 và x64";
 oem_l5 = "Traffic Shaping cho các kết nối hiện thời, băng thông rộng &amp; băng thông hẹp";
 oem_l6 = "Traffic Shaping cho bộ định tuyến và/hoặc modems DSL/cáp";
-/. Means "customizable status window with skins"
-/. or "brandable status window skin"
 oem_l7 = "Cửa sổ trạng thái thiết lập được với các kiểu hiển thị";
 oem_l8 = "Hạn chế lưu lượng, hạn chế tốc độ";
 oem_t4 = "Trình điều khiển Dial-Up cho ISDN và DSL, bao gồm Traffic Shaping";
 oem_l9 = "trình điều khiển cổng COM cho Windows 7, Vista, XP, 2000, x86 và x64, và các hệ thống cũ hơn như Windows 9x, ME";
 oem_l10 = "ISDN với CAPI 2.0 (CAPI2032.DLL hoặc chế độ kernel CAPI)";
-/. Channel bundling allows to use 2 ISDN channels as one for better bandwidth
 oem_l11 = "Channel gói";
 oem_l12 = "Nhận biết PPPoE cực nhanh, không cần cài đặt trình điều khiển mạng";
 oem_l13 = "Cho Window Vista, XP và 2000, x86 và x64, các loại hệ thống cũ hơn cần đặt trước";
 oem_l14 = "Dễ dàng tích hợp vào các bộ cài có sẵn";
-/. fees = licensing costs
 oem_t5 = "Quy định bản quyền và các chi phí";
 oem_l15 = "Các chi phí được tính dựa trên số lượng bản quyền đặt mua";
 oem_l16 = "Số lượng tối thiểu để giao hàng: 1,000 bản quyền";
@@ -2294,7 +2138,6 @@ speed_guide_p11e = "Để download nhanh hơn: ";
 speed_guide_q11 = "Điều này có giúp bạn?";
 speed_guide_p12a = "Có trường hợp (rất hiếm) khi cFosSpeed RX shaping làm giảm tốc độ download.<br/>Hãy thử những bước sau đây trong <b class=\"speed_console\">cFosSpeed Console</b>:";
 speed_guide_p12b = "Cũng có trường hợp (rất hiếm) là các gói tập tin bị lỗi torng kết nối của bạn lẫn lộn trong cFosSpeed Traffic Shaping.<br/> Hãy thử những bước sau đây trong  <b class=\"speed_console\">cFosSpeed Console</b>:";
-/. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p13a = "Đôi khi việc đo lường tốc độ vượt quá thời gian bởi vì có quá nhiều kết nối và nhiều lượng truy cập UDP. Điều này có thể xảy ra trong một số tường hợp BitTorrent. Tuyến định kích thước hoạt động tốt, nhưng sau một thời gian kết nối sẽ trở nên chậm hơn.";
 speed_guide_p13b = "Trong trường hợp này, bạn có thể thiết lập tốc độ cố định: ";
 speed_guide_l13a = "Thiết lập giá trị theo hướng dẫn trong <b class=\"speed_console\">cFosSpeed Console</b>:";
@@ -2306,7 +2149,6 @@ speed_guide_q14 = "Low latency Mode đã được kích hoạt?";
 speed_guide_a14 = "Hãy thử tắt nó";
 speed_guide_p15 = "Có thể độ trễ cao là do máy chủ mà bạn kết nối tới. Điều này thường xảy ra với các game servers. cFosSpeed không thể giảm độ trệ của bạn xuống mức tối thiểu / ISP. Bất cứ khi nào bạn có nhiều kết nối tại cùng thời điểm, cFosSpeed có thể à giảm độ trễ và ưu tiên cho lưu lượng của bạn vì thế bạn sẽ nhận được độ trễ gần mức tối thiểu trong khi hầu như bạn đã tận dụng hết băng thông có thể. Điều này đúng khi bạn uploads / downloads trong khi đang thực hiện cuộc gọi hoặc chơi games online.";
 speed_guide_l15a = "Gỡ cài đặt cFosSpeed hoặc bất hoạt Traffic Shaping";
-/. `try both` here refers to `speed_guide_l15a` language key, which suggests to `Uninstall cFosSpeed or disable Traffic Shaping`
 speed_guide_l15b = "Tải <a target=\"_blank\" href=\"http://www.cfos.de/en/download/download.htm#hrping\">hrping</a> có hoặc không có bất kì lưu thông nào trong các kết nối của bạn - hảy thử cả hai";
 speed_guide_q15 = "Độ trễ vẫn còn cao?";
 speed_guide_a15 = "Lưu ý: Sử dụng kết nối DSL cho đường truyền nhanh. Mạng không dây cho độ trễ cao hơn mạng có dây cáp. Mạng di động có thể bị trì hoãn do điều điện truyền tải không tốt hay các điểm truy cập bị tắt nghẽn.";
@@ -2320,7 +2162,6 @@ speed_guide_q18 = "Bây giờ độ trễ đã tốt hơn?";
 speed_guide_p19 = "Một số thiết bị can thiệp vào TCP transmissions. Ví dụ một vài trình điều khiển (drivers) cho Atheros WLAN adapters có thể là nguyên nhân dẫn đến độ trễ cao khi download. Vui lòng cài phiên bản mới nhất cho trình điều khiển đó. Để kiểm tra, hãy dùng một card mạng khác và quan sát xem độ trễ có còn cao trong khi download hay không?";
 speed_guide_q19 = "Trình điều khiển mới hay một chiếc card mạng mới đã khắc phục được vấn đề?";
 speed_guide_p20a = "Chương trình cFosSpeed của bạn đã thiết lập tốc độ cố định? Kiểm tra điều này bằng cách gõ lệnh sau đây vào <b class=\"speed_console\">cFosSpeed Console</b>:";
-/. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p20b = "Nó nên được thiết lập là 0, ngoại trừ một vài trường hợp hiếm gặp với nhiều kết nối BitTorrent và lưu lượng UDP cao.";
 speed_guide_p20c = "Nếu tuyến định kích thước của cFosSpeed hoạt động ổn định, bạn nên thiết lập là 0:";
 speed_guide_p20d = "hoặc dùng tốc độ thấp hơn cho tốc độ cố định (hãy thử giảm tốc độ 1% cho mỗi lần).";
@@ -2364,11 +2205,13 @@ speed_guide_l26g = "Ưu tiên cho các cổng";
 
 / speed test
 speed_test = "Thử nghiệm tốc độ internet của cFos";
+under_construction = "Trình kiểm tra tốc độ đang được xây dựng và sẽ có mặt vào cuối tháng 9 năm 2010.<br /><br />Trong khi đó, chúng tôi khuyên bạn nên:<br />";
 sptest_info_p1 = "Với tính năng kiểm tra tốc độ mạng của chúng tối, bạn có thể nhanh chóng kiểm tra kết nối Internet của bạn. Bạn có thể thực hiện kiểm tra tốc độ khi download/upload, ví dụ để xác minh nếu tốc độ internet của bạn phụ hợp với giá trị nhà cùng cấp. Speed Test được thiết kế để đo băng thông của bạn càng nhanh càng tốt. Đừng lo lắng khi kết quả tốc độ không phù hợp với giá trị của nhà cung cấp dịch vụ. Ví dụ nếu bạn có băng thông với tốc độ 16Mbit/s, 1% tiêu hao là 160.000 bit/sec, điều này trông có vẻ ấn tượng nhưng không có sự khác biệt lớn.";
 sptest_info_p1_sm = "Với tính năng kiểm tra tốc độ mạng của chúng tối, bạn có thể nhanh chóng kiểm tra kết nối Internet của bạn. Bạn có thể thực hiện kiểm tra tốc độ khi download/upload, ví dụ để xác minh nếu tốc độ internet của bạn phụ hợp với giá trị nhà cùng cấp.";
 sptest_info_p2 = "Bây giờ, Speed Test sẽ đo hai giá trị: tốc độ upload và download. Để kiểm tra kết nối Internet của bạn, Speed Test cũng xác định thời gian đáp ứng của máy chủ. Điều này sẽ cung cấp cho bạn một thông tin đáng tin cậy cho kết quả thử nghiệm. Trong phiên bản tiếp theo, Speed Test cũng sẽ đo những streams đồng thời ảnh hưởng đến thời gian phản hồi.";
 sptest_info_p3 = "Với một kết nối băng thông 500kbit/sec hoặc thấp hơn kết quả thử nghiệm có thể không chính xác. Chúng tôi sẽ cố gắng cải thiện điều này.";
 sptest_debug = "giao diện điều khiển gỡ lỗi đã sẵn sàng!";
+sptest_h1 = "cFos kiểm tra tốc độ phiên bản 1.0";
 sptest_browser = "Việc kiểm tra có thể không thực hiện với Opera phiên bản &lt; 10.<br />Vui lòng cập nhật trình duyệt của bạn!";
 sptest_panel_info_h = "Ý nghĩa của kết quả kiểm tra tốc độ";
 sptest_panel_info_p = "Kết quả của Speed Test cho thấy tốc độ dữ liệu truyền tải của TCP/IP. cFosSpeed sẽ cho biết tốc độ trong cửa sổ trạng thái. Sự khác biệt vào khoảng 5%. 'Thời gian phản hồi' là thời gian đầy đủ cho một yêu cầu HTTP. cFosSpeed sẽ cho biết độ trễ của kết nối Internet ở khu vực gần bạn.";
@@ -2488,12 +2331,10 @@ traffic_shaping_speed_guide_desc = "Mẹo làm thế nào để bạn có thể 
 traffic_shaping_traffic_shaping_desc = "cFos Traffic Shaping là gì và làm thế nào bạn có thể giảm thời gian ping với Traffic Shaping và tăng tốc độ Internet.";
 traffic_shaping_traffic_shaping_options_desc = "Tinh chỉnh: Làm thế nào để kiểm soát các tùy chọn Traffic Shaping để tối ưu hóa hiệu suất.";
 cfosspeed_features_desc = "Lọi ích mà cFosSpeed có thể mang lại cho bạn. Danh sách các tính năng quan trọng của sản phẩm.";
-cfosspeed_feature_hightlights_desc = "Danh sách các tính năng nổi bật của cFosSpeed ​​và các liên kết để thêm thông tin.";
 cfosspeed_cfosspeed_desc = "Tổng quan về cFosSpeed, Tăng tốc Internet với Traffic Shaping, tải xuống và thông tin kĩ thuật.";
 cfosspeed_product_news_desc = "Trang này chứa tin tức mới về cFosSpeed";
 cfosspeed_license_desc = "Giấy phép cFosSpeed.";
 cfos_outlook_dav_license_desc = "Giấy phép cFos Outlook DAV.";
-cfos_outlook_dav_configuration_desc = "Làm thế nào để cấu hình cFos  Outlook DAV làm việc với các máy chủ CalDAV/CardDAV khác.";
 cfosspeed_rwin_desc = "Lợi ích của việc kích hoạt tính năng 'Automatic RWIN expansion'";
 cfosspeed_whats_new_desc = "Tìm hiểu các tính năng mới của cFosSpeed. Danh sách tất cả các tính năng mới, các cải thiện và sửa lỗi.";
 cfosspeed_what_is_cfosspeed_desc = "cFosSpeed là gì? Tại đây bạn có thể tìm thấy những mô tả về sản phẩm.";
@@ -2524,7 +2365,6 @@ cfosspeed_documentation_no_ping_desc = "Những gì bạn có thể làm nếu c
 cfosspeed_documentation_phone_skins_desc = "Làm thế nào để sử dụng điện thoại hay máy tính bảng của bạn cho chỉ định trạng thái nếu máy tính của bạn ở chức năng toàn màn hình.";
 cfosspeed_documentation_prog_prio_desc = "Làm thế nào các chương trình ưu tiên hoạt động.";
 cfosspeed_documentation_keyboard_leds_desc = "Cách sử dụng bàn phím LEDs để báo hiệu tình trạng nếu máy tính của bạn ở chế độ toàn màn hình.";
-/. `BitTorrent` — name of the protocol, not of the program
 cfosspeed_documentation_p2p_desc = "Cách cấu hình cFosSpeed để tối ưu hóa hiệu năng với mạng chia sẽ file P2P, như Bittorrent, E2K, etc.";
 cfosspeed_documentation_logitech_keyboard_desc = "Cách sử dụng bàn phím Logitech cho game thủ để hiển thị trạng thái thông tin của cFosSpeed. G19, G15, G13, G510 và các mẫu tương ứng.";
 cfosspeed_documentation_wlan_access_point_desc = "Cách sử dụng cFosSpeed để biến máy tính của bạn thành một điểm truy cập WLAN cho điện thoại thông minh, máy tính bảng và các thiết bị di động khác.";
