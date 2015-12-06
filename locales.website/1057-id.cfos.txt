@@ -33,7 +33,7 @@ freeware_text1 = "Versi terbaru dari cFosSpeed tersedia:";
 freeware_text2 = "Pembaruan Traffic Shaping : Bandwidth maksimal, ping minimum! unduh sekarang: ";
 product_overview = "Peninjaun Produk";
 slogan = "Gunakan bandwidth anda yang sesungguhnya:<br /> kecepatan tinggi, ping rendah.";
-special_offer_xmas = "Penawaran Natal! <span class=\"red\">Harga spesial</span> hanya sampai 22 Desember!";
+special_offer_xmas = "Penawaran Natal! <span class=\"red\">Harga spesial</span> hanya sampai 15 Desember!";
 special_offer_xmas_2 = "(dikarenakan akhir pekan diperpanjang sampai 2 Januari 2011)";
 special_offer_spring = "Penawaran khusus untuk festival musim semi! sampai 9 Februari 2011";
 special_offer_winter = "Harga khusus selama musim dingin sampai 31 January 2012";

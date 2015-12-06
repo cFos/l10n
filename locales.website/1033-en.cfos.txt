@@ -52,7 +52,7 @@ freeware_text1 = "New version of cFosSpeed available:";
 freeware_text2 = "Improved Traffic Shaping: Maximum bandwidth, minimum ping! Download now: ";
 product_overview = "Product Overview";
 slogan = "Use your real bandwidth:<br /> high speed, low ping.";
-special_offer_xmas = "X-Mas offer! <span class=\"red\">Special prices</span> only until December 22nd!";
+special_offer_xmas = "X-Mas offer! <span class=\"red\">Special prices</span> only until December 15th!";
 special_offer_xmas_2 = "(due to weekend prolonged until January 2nd, 2011)";
 special_offer_spring = "Special offer for spring festival! until February 9th, 2011";
 special_offer_winter = "Special prices during Winter Sale until January 31st, 2012";

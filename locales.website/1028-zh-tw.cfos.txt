@@ -39,7 +39,7 @@ freeware_text1 = "有新版的 cFosSpeed 可供下載:";
 freeware_text2 = "改進後的流量塑型: 頻寬最大化、反應時間最小化！馬上下載: ";
 product_overview = "產品概觀";
 slogan = "取得真正的頻寬：<br />高速，低 ping 值。";
-special_offer_xmas = "聖誕節特惠方案！<span class=\"red\">特價</span> 時間到 12/22 為止！";
+special_offer_xmas = "聖誕節特惠方案！<span class=\"red\">特價</span> 時間到 12/15 為止！";
 special_offer_xmas_2 = "（由於週末，時間延長至 2011 年 1 月 2 日）";
 special_offer_spring = "春節特價優惠！<span class=\"red\">2011 年 2 月 9 日止</span>";
 special_offer_winter = "冬季特價優惠！<span class=\"red\">2012 年 1 月 31 日止</span>";

@@ -30,7 +30,7 @@ freeware_text1 = "Nieuwe versie van cFosSpeed beschrikbaar:";
 freeware_text2 = "Verbeterde Traffic Shaping: Maximale benwidt, minimale ping! Download nu: ";
 product_overview = "Product Overzicht";
 slogan = "Gebruik uw volledige snelheid:<br /> hoge snelheid, lage ping.";
-special_offer_xmas = "Kerst aanbieding! <span class=\"red\">Speciale prijzen</span> Alleen tot 22 December!";
+special_offer_xmas = "Kerst aanbieding! <span class=\"red\">Speciale prijzen</span> Alleen tot 15 December!";
 special_offer_xmas_2 = "(vanwege het weekend uitgesteld tot 2 Januari 2011)";
 special_offer_spring = "Speciaal aanbod voor spring festival tot 9. Februari 2011";
 style_light = "Licht";

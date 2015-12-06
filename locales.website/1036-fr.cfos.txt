@@ -36,7 +36,7 @@ freeware_text1 = "Nouvelle version de cFosSpeed disponible : ";
 freeware_text2 = "Gestion du trafic améliorée : bande passante maximale, ping minimal! Téléchargez maintenant : ";
 product_overview = "Vue d'Ensemble du Produit";
 slogan = "Utilisez tout le potentiel de votre bande passante :<br /> haut-débit, ping bas.";
-special_offer_xmas = "Offre de Noël! <span class=\"red\">Prix spécial</span> jusqu'au 22 décembre!";
+special_offer_xmas = "Offre de Noël! <span class=\"red\">Prix spécial</span> jusqu'au 15 décembre!";
 special_offer_xmas_2 = "(Prolongée jusqu'au 2 Janvier 2011)";
 special_offer_spring = "Offre spéciale pour le festival d'été ! Jusqu'au 9 Février 2011";
 special_offer_winter = "Prix spéciaux pendant nos Soldes d'Hiver jusqu'au 31 Janvier 2012";

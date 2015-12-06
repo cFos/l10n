@@ -35,7 +35,7 @@ freeware_text1 = "A cFosSpeed új verziója elérhető:";
 freeware_text2 = "Továbbfejlesztett Traffic Shaping: Maximális sebesség, minimális ping mellett! Töltse el most: ";
 product_overview = "Termékáttekintés";
 slogan = "Használja ki a valós sávszélességet:<br /> nagy sebesség, alacsony ping.";
-special_offer_xmas = "Karácsonyi ajánlat! <span class=\"red\">Különleges árak</span>December 22!";
+special_offer_xmas = "Karácsonyi ajánlat! <span class=\"red\">Különleges árak</span>December 15!";
 special_offer_xmas_2 = "(hétvége miatt meghosszabítva 2011. január 2-ig)";
 special_offer_spring = "Különleges tavaszi ajánlat! 2010. február 9-ig";
 special_offer_winter = "Különleges kedvezmények a Téli Kiárusítás idején 2012 január 31-ig";

@@ -35,7 +35,7 @@ freeware_text1 = "cFosSpeed'in yeni versiyonu hazır:";
 freeware_text2 = "Geliştirilmiş Traffic Shaping: Maksimum bant genişliği, minimum ping! Hemen indir: ";
 product_overview = "Ürüne Genel Bakış";
 slogan = "Gerçek band genişliğinizi kullanın:<br /> yüksek hız, düşük ping.";
-special_offer_xmas = "Noel teklifi! <span class=\"red\">Özel fiyatlar</span> yalnızca 22 Aralığa kadar!";
+special_offer_xmas = "Noel teklifi! <span class=\"red\">Özel fiyatlar</span> yalnızca 15 Aralığa kadar!";
 special_offer_xmas_2 = "(haftasonu nedeniyle 2 Ocak 2011 tarihine kadar uzatıldı)";
 special_offer_spring = "Bahar festivali için özel teklif! 9 Şubat 2011 tarihine kadar";
 special_offer_winter = "Kış İndirimi nedeniyle 31 Ocak 2012 tarihine kadar özel fiyatlar";

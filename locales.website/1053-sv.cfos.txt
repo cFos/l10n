@@ -32,7 +32,7 @@ freeware_text1 = "Ny version av cFosSpeed tillgänglig:";
 freeware_text2 = "Förbättrad Traffic Shaping: Maximal bandbredd, minimal ping! Ladda ner nu: ";
 product_overview = "Produkt Lista";
 slogan = "Använd din riktiga bandbredd:<br /> hög hastighet, låg ping.";
-special_offer_xmas = "Julerbjudande! <span class=\"red\">Special prices</span> endast till 22 december!";
+special_offer_xmas = "Julerbjudande! <span class=\"red\">Special prices</span> endast till 15 december!";
 special_offer_xmas_2 = "(på grund av helg förlängt till 2 januari, 2011)";
 special_offer_spring = "Vårerbjudande! till 9 februari, 2011";
 worldcup_sale = "VM-REA!"; / FIFA Soccer World Cup
