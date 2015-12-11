@@ -28,6 +28,11 @@ bc_linktext = "為高速網路設計的 cFos Broadband Connect";
 cfos6link_linktext = "cFos IPv6 Link";
 cfos_linktext = "為 ISDN 設計的 cFos/Professional";
 close = "關閉";
+cookie_bar_text = "我們會使用 Cookie 來為您客制網頁與廣告內容、提供社交網路媒體功能並分析我們的流量。我們也會分享您如何使用我們網站的方式給我們的社交媒體、廣告與流量分析夥伴。";
+cookie_bar_details = "了解更多資訊";
+
+/. Used as "I understand"
+cookie_bar_got_it = "知道了";
 desc_6link = "為 XP、Vista 和 Windows 7 設計的 IPv6 連線程式";
 desc_dialup = "網路撥接";
 desc_shaping = "透過最佳化網路通訊來加速網際網路連線";
@@ -43,6 +48,7 @@ special_offer_xmas = "聖誕節特惠方案！<span class=\"red\">特價</span> 
 special_offer_xmas_2 = "（由於週末，時間延長至 2011 年 1 月 2 日）";
 special_offer_spring = "春節特價優惠！<span class=\"red\">2011 年 2 月 9 日止</span>";
 special_offer_winter = "冬季特價優惠！<span class=\"red\">2012 年 1 月 31 日止</span>";
+summer_sale = "夏季特價優惠，只到八月底止！";
 worldcup_sale = "世界盃足球賽特價！"; / FIFA Soccer World Cup
 winter_sale = "冬季特價優惠！"; / New Years Sale for China
 winter_sale_ext = "延期至 1 月 28 日結束 - 感謝你的大力支援！";
@@ -677,15 +683,15 @@ pnet_doc_stage3_err = "cFos Personal Net 無法透過 <b>網際網路</b> 方式
 pnet_doc_stages_winhttp_err = "HTTP GET 失敗";
 pnet_doc_stages_server = "HTTP GET 成功，但連線至另一個伺服器";
 pnet_doc_router_title = "讓 cFos Personal Net 可對外連結";
-pnet_doc_router_p1 = "現今的大多數網路使用者，不直接使用公開 IP。而是有路由器進行位置轉換，將公開 IP 轉換為私人 IP。所以當內部的使用者不論何時對外面發起連線，路由器會自動為公開與私人 IP 地址間進行轉換。但當使用者從外部發起連線時，路由器就不知道該「打電話」給誰了。";
-pnet_doc_router_p2 = "因此，針對 cFos Personal Net 您需要設定 NAT 連接埠傳送您的路徑。請到您的路徑設定中尋找 NAT 安裝，NAT 連接埠傳送、NAT 規則、或者是類似的。 然後增加 TCP 連結到連接埠 80 (針對HTTP和連接埠443 for HTTPS) 到您的電腦連接埠80 的cFos Personal Net運作";
-pnet_doc_router_p3 = "您也可以檢查 cFos Personal Net 可以通過所有的防火牆。cFos Personal Net可以自動執行連接埠80於微軟的防火牆上，但是無法在其他防火牆軟體正常執行/以及其他的防毒軟體。一些路徑也會有防火牆。請遵守TCP對連接埠80的運輸 (還有443) 來連結 cFos Personal Net.";
-pnet_doc_router_p4 = "每一台電腦都有 cFos Personal Net 的個別地址。<b>192.168.2.122</b>. 您需要一個NAT規定來遵守所有的TCP對連接埠80的運輸，可以到<b>192.168.2.122:80</b>.<br/><br/>您可以檢測 cFos Personal Net 如下列所示的連結速率";
-pnet_doc_router_l1 = "進入您的瀏覽器 <b>http://localhost</b><br/>如果您看見 cFos Personal Net 網頁，您會知道 cFos Personal Net 正在執行中。";
-pnet_doc_router_l2 = "進入後 <b>http://192.168.2.122</b> (您的電腦地址已經執行 cFos Personal Net)在您的瀏覽器裡，您可以經由您的路徑開始連結。如果您看見cFos Personal Net網頁，您會知道微軟的防火牆已經允許讓cFos Personal Net執行。";
-pnet_doc_router_l3 = "現在您會發現您的公共網域(例如在cfos.de首頁上的最底下) 然後在瀏覽器輸入網址，例如輸入<b>http://217.23.123.7</b>。這可以檢測您的防火牆傳輸情形。如果您無法看見cFos Personal Net首頁顯示您的路徑執行NAT連接埠傳輸結果，";
-pnet_doc_script_p1 = "cFos Personal Net 支援指令碼 Common Gateway Interface (CGI) 或透過內建的指令碼 JavaScript (或任何其他語言，它支援了 Windows Scripting Host，例如：ActivePerl，ActivePython 等等)。";
-pnet_doc_script_p2 = "CGI 指定某些環境變數，其中包含有關目前 HTTP 請求的資訊。cFos PNet 在執行指令碼之前設定這些變數：<br/><br/><b>REMOTE_USER</b>、<b>AUTH_TYPE</b>、<b>SERVER_SOFTWARE</b>、<b>SERVER_PROTOCOL</b>、<b>GATEWAY_INTERFACE</b>、<b>DOCUMENT_ROOT</b>、<b>CONTENT_LENGTH</b>、<b>CONTENT_TYPE</b>、<b>REMOTE_ADDR</b>、<b>REMOTE_PORT</b>、<b>SERVER_NAME</b>、<b>SERVER_PORT</b>、<b>REQUEST_METHOD</b>、<b>QUERY_STRING</b>、<b>REMOTE_HOST</b>、<b>PATH_TRANSLATED</b>、<b>SCRIPT_NAME</b> 及所有 HTTP 標頭的名稱 <b>&lt;xxx&gt;</b> as <b>HTTP_XXX</b>。";
+pnet_doc_router_p1 = "現今的大多數網路使用者，不直接使用公開 IP。而是透過路由器將公開 IP 轉換為私人 IP 進行溝通。內部的使用者不論何時對外面發起連線後，路由器將會自動為公開與私人 IP 地址間進行轉換。但當使用者從外部發起連線時，路由器就不知道該「打電話」給誰了。";
+pnet_doc_router_p2 = "因此，您需要在路由器中為 cFos Personal Net 設定 NAT 連接埠轉送路徑。請到您路由器的設定畫面中尋找 NAT 設定、NAT 連接埠傳送、NAT 規則、或其他類似名稱的功能，然後新增規則，將通訊埠 80 對應到執行 cFos Personal Net 的電腦的通訊埠 80 的規則。（若使用 HTTPS 則尚需開啟通訊埠 443）。";
+pnet_doc_router_p3 = "您還需要檢查至 cFos Personal Net 的流量是否能通過防火牆。cFos Personal Net 會自動為您在 Windows 防火牆中開啟通訊埠 80，但無法在其他廠商的防火牆或防毒軟體中自動打開。有些路由器中也內建防火牆功能，請允許通訊埠 80（若使用 HTTPS 則還需要通訊埠 443） 當中的 TCP 流量通過。";
+pnet_doc_router_p4 = "假設您執行 cFos Personal Net 的電腦的本地 IP 地址是 <b>192.168.2.122</b>，那麼您就需要新增一條 NAT 規則，允許將通訊埠 80 的所有 TCP 流量傳送至 <b>192.168.2.122:80</b>。<br/><br/>您可以依照下列方式檢查 cFos Personal Net 是否可連線:";
+pnet_doc_router_l1 = "開啟您的瀏覽器並輸入 <b>http://localhost</b><br/>若您見到 cFos Personal Net 的網頁，就知道 cFos Personal Net 已可使用。";
+pnet_doc_router_l2 = "接下來試著在瀏覽器中輸入 <b>http://192.168.2.122</b>（您安裝 cFos Personal Net 的電腦的區網 IP），這樣做代表您正透過路由器開啟連線。若您見到 cFos Personal Net 的網頁，您就知道防火牆已允許 cFos Personal Net 的流量通過。";
+pnet_doc_router_l3 = "接下來請尋找您的公開 IP 地址（例如您可在 cfos.de 首頁的底部找到），並在瀏覽器中開啟該地址。舉例來說您可開啟 <b>http://217.23.123.7</b>。這樣可以測試您的路由器中的防火牆，以及 NAT 通訊埠轉送功能。若您沒有看到 cFos Personal Net 的頁面，請參考您路由器的說明文件，以設定 NAT 通訊埠轉送功能。";
+pnet_doc_script_p1 = "cFos Personal Net 支援透過 Common Gateway Interface (CGI) 或透過內建的 JavaScript 腳本（或任何支援 Windows Script Host 的語言，例如 ActivePerl、ActivePython 等等）執行的腳本。";
+pnet_doc_script_p2 = "CGI 指定某些環境變數，其中包含有關目前 HTTP 請求的資訊。cFos PNet 在執行指令碼之前設定這些變數：<br/><br/><b>REMOTE_USER</b>、<b>AUTH_TYPE</b>、<b>SERVER_SOFTWARE</b>、<b>SERVER_PROTOCOL</b>、<b>GATEWAY_INTERFACE</b>、<b>DOCUMENT_ROOT</b>、<b>CONTENT_LENGTH</b>、<b>CONTENT_TYPE</b>、<b>REMOTE_ADDR</b>、<b>REMOTE_PORT</b>、<b>SERVER_NAME</b>、<b>SERVER_PORT</b>、<b>REQUEST_METHOD</b>、<b>QUERY_STRING</b>、<b>REMOTE_HOST</b>、<b>PATH_TRANSLATED</b>、<b>SCRIPT_NAME</b> 及所有名稱為 <b>&lt;xxx&gt;</b> 的 HTTP 標頭對應為 <b>HTTP_XXX</b>。";
 pnet_doc_script_p3 = "此外，它還將設定以下環境變數：";
 pnet_doc_script_p4 = "這些變數都能被 CGI 指令碼或 JavaScript 存取（在 JavaScript 中，可使用 cFos PNet 網站伺服器物件的 <b>environment_var(name)</b> 方法來取回這些環境變數）。";
 pnet_doc_script_p5 = "這邊指的「JavaScript」實際上指的是 Windows Scripting Host 當中的 JavaScript 或其他實作的語言。";
@@ -695,7 +701,7 @@ pnet_doc_script_p8 = "到管理工具 -> 本機安全性原則 -> 本機原則 -
 pnet_doc_script_p9 = "如果您不使用在.htaccess 檔案中的使用者指令，建立具有相同的權限作為伺服器處理程序的子處理程序。由於 cFos PNet 必須作為管理員啟動，您的指令碼將作為管理員執行。因此每個伺服器的設定，您應該檢查哪個使用者根據您的指令碼執行的，例如，試圖存取只有管理員存取權限的檔案。";
 pnet_doc_script_h1 = "全域指令碼狀態";
 pnet_doc_script_p10 = "JavaScript 已載入並分析，無論何時第一次執行指令碼，自伺服器啟動以來。實際執行指令碼 cFos PNet 呼叫的指令碼功能 <em>main()</em>。 雖然指令碼是經過 cFos PNet 分析檢查，如果該指令碼使用全域變數或函數 (外部 <em>main</em>)。如果偵測到這種全域物件，該指令碼標記為 \"singleton\"，該值指示它具有全域狀態。";
-pnet_doc_script_p11 = "如果指令碼具有全域狀態，只有一個執行序可能同時執行。如果全域狀態的指令碼執行的過程中執行此指令碼的另一個 HTTP 請求到達時，新的請求必須等到前一個請求完成。所有其他指令碼可能會產生多次實例化，並由多個執行緒同時執行。<br/><br/>所以沒有全域的指令碼可以使今天的多核處理器的完整使用，除非是一致的全域狀態所需要。另一方面，全域狀態是持續性跨不同的 HTTP 請求。<br/><br/>這意味著在全域範圍內的定期 JavaScript 變數可以保持狀態資訊存取不同 HTTP 請求，像是計數器，工作階段 Cookie，驗證碼解決方案。一種儲存全域狀態的不同方法是使用雜湊清單 (見下文)。從而，您的指令碼可以在 \"database\" 中執行並行維護全域狀態。";
+pnet_doc_script_p11 = "如果指令碼具有全域狀態，同時僅能執行一個執行緒。如果全域狀態的指令碼執行的過程中執行此指令碼的另一個 HTTP 請求到達時，必須等到前一個請求完成才能處理新的請求。所有其他指令碼可能會產生多次實例化，並由多個執行緒同時執行。<br/><br/>所以沒有全域的指令碼可以使今天的多核處理器的完整使用，除非是一致的全域狀態所需要。另一方面，全域狀態是持續性跨不同的 HTTP 請求。<br/><br/>這意味著在全域範圍內的定期 JavaScript 變數可以保持狀態資訊存取不同 HTTP 請求，像是計數器，工作階段 Cookie，驗證碼解決方案。一種儲存全域狀態的不同方法是使用雜湊清單 (見下文)。從而，您的指令碼可以在 \"database\" 中執行並行維護全域狀態。";
 pnet_doc_script_h2 = "指令碼物件";
 pnet_doc_script_p12 = "cFos PNet 以 Windows Scripting Host 執行 JavaScript，支援以下的全域物件：";
 pnet_doc_script_h3 = "指令碼測試";
@@ -848,6 +854,11 @@ cfout_baikal_cal1 = "http://<b>baïkal_server_domain</b>/cal.php/calendars/<b>yo
 cfout_baikal_cal2 = "您的 Baïkal 帳號";
 cfout_baikal_cal3 = "您的 Baïkal 密碼";
 cfout_baikal_card1 = "http://<b>baïkal_server_domain</b>/card.php/addressbooks<b>your_baïkal_username</b>/default<br/>（例如 http://mydomain.com/card.php/addressbooks/user1234/default）";
+cfout_sogo_cal1 = "http://<b>sogo_server_domain</b>/SOGo/dav/<b>your_sogo_username</b>/Calendar/personal/<br/>（例如 http://mydomain.com/SOGo/dav/user1234/Calendar/personal/）";
+cfout_sogo_cal2 = "您的 SOGo 帳號";
+cfout_sogo_cal3 = "您的 SOGo 帳號";
+cfout_sogo_card1 = "http://<b>sogo_server_domain</b>/SOGo/dav/<b>your_sogo_username</b>/Contacts/personal/<br/>（例如 http://mydomain.com/SOGo/dav/user1234/Contacts/personal/）";
+
 cfout_adv_conf_h1 = "進階設定:";
 cfout_adv_conf_p1 = "cFos Outlook DAV 會使用您設定的網址來猜測行事曆或通訊錄的實際位置。若在網址前加上 <b>*</b> 即可防止此行為。這種情況下 cFos Outlook DAV 就只會使用指定的網址，這應該對 <b>DAViCal bindings</b> 以及您想要使用 <b>GMX</b> 或 <b>web.de</b> 的不同日曆時會有幫助。網址範例: *http://www.cfos.de/calendars/mycalendar2 。";
 
@@ -1077,6 +1088,7 @@ contact_form_o10 = "無法安裝 cFosSpeed";
 contact_form_o11 = "如何隱藏狀態視窗";
 contact_form_o12 = "回報藍底白字當機";
 contact_form_o13 = "ASUS (GameFirst &amp; Turbo LAN)、Gigabyte、ASRock OEM 版本問題";
+contact_form_o14 = "訂單：我無法輸入授權金鑰";
 contact_form_h2 = "快速自助";
 contact_form_p1 = "初步診斷資訊，您可以參考我們的 <a class=\"inline\" href=\"/en/oem/oem.htm\">OEM 合作夥伴</a> 網頁";
 contact_form_l1 = "我們的授權條款允許雜誌在附贈的免費光碟中包含 30 天試用版。";
@@ -1094,6 +1106,7 @@ contact_form_p8 = "有時其他元件，例如網路卡驅動程式、防毒軟�
 contact_form_p9 = "您可以透過滑鼠右鍵點選停用 cFosSpeed 的狀態視窗，步驟如下：<b>視窗設定</b> -> <b>&lt;您的網路卡&gt;</b>。接著停用「自動顯示 / 自動隱藏」。";
 contact_form_p9_v2 = "您可以透過滑鼠右鍵點選停用 cFosSpeed 的狀態視窗，於設定中選擇「隱藏視窗」。";
 contact_form_a2 = "隱藏狀態視窗";
+contact_form_a3 = "cFosSpeed 註冊支援";
 contact_form_p10 = "如果 cFosSpeed 造成您藍底白字的當機，我們需要您幫忙以盡快修正問題。<br/><br/>請 <a class=\"inline\" href=\"//en/support/howto-dump.htm\">建立一個核心傾印</a>。";
 contact_form_p11 = "請參閱我們重要的 <a class=\"inline\" href=\"//en/cfos-professional/capi-support.htm\">ISDN CAPI / Network CAPI 提示</a>。";
 contact_form_h3 = "傳送訊息給我們";
@@ -1600,6 +1613,8 @@ sp_doc_install_l3 = "安裝精靈會引導您完成剩下的安裝步驟。";
 sp_doc_install_l4 = "成功安裝後 cFosSpeed 即可使用。";
 sp_doc_install_a1 = "安裝 cFosSpeed 時遇到困難嗎?";
 sp_doc_install_h2 = "註冊";
+sp_doc_install_h2_16 = "16 位數密碼 (xxxx-xxxx-xxxx-xxxx)";
+sp_doc_install_h2_30 = "30 位數序號 (xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx)";
 sp_doc_install_a2 = "觀賞<b>「如何使用您的個人授權金鑰檔案 <em>key.cfosspeed</em> 註冊 cFosSpeed」</b>。";
 sp_doc_install_p2 = "完成訂購 cFosSpeed 後，我們會寄送含有授權金鑰檔案（名稱為「<em>key.cfosspeed</em>」） 以及您的密碼的郵件給您";
 sp_doc_install_l5 = "請將這個檔案於您的電腦中（例如：<em>「我的文件」資料夾</em>）。";
@@ -1610,6 +1625,10 @@ sp_doc_install_l9 = "至此，便已成功註冊 cFosSpeed。";
 sp_doc_install_a3 = "安裝 cFosSpeed 授權金鑰時遇到問題嗎？";
 sp_doc_install_h3 = "移除";
 sp_doc_install_l10 = "您只需要使用 Windows 常見移除軟體的方式來移除 cFosSpeed 即可。";
+sp_doc_install_l11 = "在 cFosSpeed 狀態視窗或 cFosSpeed 工作列圖示上按右鍵。";
+sp_doc_install_l12 = "將出現 cFosSpeed 選單。";
+sp_doc_install_l13 = "選擇「輸入 cFosSpeed 序號」並依照下列教學操作。";
+sp_doc_install_l14 = "輸入 30 位數的序號。";
 sp_doc_led_title = "鍵盤 LED";
 sp_doc_led_h = "利用鍵盤 LED 顯示流量塑型的資訊";
 sp_doc_led_p1 = "cFosSpeed 可利用 Num Lock 和 Scroll Lock 的 LED 燈號來顯示目前的網路連線流量狀況。這對無法看到 cFosSpeed 狀態視窗的全螢幕軟體使用者或遊戲玩家來說非常方便－只要觀察鍵盤的 LED 燈號就可以明白目前重要的流量統計資訊：";
@@ -1856,13 +1875,27 @@ sp_doc_wlan_h1 = "使用快速 IP 指派來除錯";
 sp_doc_wlan_p6a = "使用電腦作為 Wi-Fi 熱點時，也將會使用網際網路連線共用功能來分享網路。一般來說會透過 DHCP 分配 IP 地址給您的行動裝置。在 DHCP 分配地址的交涉過程中會透過 ARP 請求來檢查可用的 IP 地址是否已被使用。";
 sp_doc_wlan_p6b = "這個確認地址的過程可能需要幾秒鐘，對某些裝置來說太久了，而這些裝置會逾時，無法取得分配到的 IP 地址。因此我們也為這個問題提出了解決辦法。要解決此問題您需要在主控台輸入下列指令:";
 sp_doc_wlan_p6c = "這樣會讓 cFosSpeed 調整 DHCP 交涉過程，更快地發出 IP 地址。";
-sp_news_t = "cFosSpeed 的最新消息";
+sp_doc_wlan_h2 = "手動設定 Wi-Fi 熱點（Windows 7 或更新版本）";
+sp_doc_wlan_p7 = "用管理員身分開啟命令提示字元:";
+sp_doc_wlan_p8 = "網路連線清單中現在應出現「Microsoft Virtual WiFi Miniport Adapter」。";
+sp_doc_wlan_p9 = "netsh wlan set hostednetwork ssid=\"cFos Wi-Fi\" key=\"<span class=\"red\">您的密碼</span>\" keyUsage=persistent";
+/. "Check with" meaning "Use the following action to check the result"
+sp_doc_wlan_p10 = "使用下列操作確認:";
+sp_doc_wlan_p11 = "啟動「Microsoft Virtual WiFi Miniport Adapter」。";
+sp_doc_wlan_p12 = "在網路連線清單中，「Microsoft Virtual WiFi Miniport Adapter」旁的紅色刪除線應已消失。";
+sp_doc_wlan_p13 = "在網路連線對正在使用中的網際網路連線按右鍵，並選擇選單中的「屬性」。點擊「分享」分頁，然後選擇「允許其他網路的使用者透過此電腦的網際網路進行連線」選取盒。";
+sp_doc_wlan_p14 = "在「家用網路連線」下方的網路連線清單中選擇「Microsoft Virtual WiFi Miniport Adapter」。";
+sp_doc_wlan_p15 = "點擊「確定」確認。";
 /. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
+sp_news_t = "cFosSpeed 的最新消息";
 sp_news_p1 = "cFosSpeed 每兩天會檢查一次是否有新消息。若有新消息，會在狀態視窗顯示信件圖示，點擊後會打開網頁。預設會開啟此功能，若不需要，你可以在右鍵功能表中的「選項」關閉。";
 sp_news_p2 = "我們每年僅會發布幾次新消息";
 sp_news_h0 = "cFosSpeed 消息";
 sp_news_h1 = "cFosSpeed 消息政策";
 sp_news_p3 = "因為透過郵件來通知人們變得越來越難，社交網路也越來越普遍，我們決定使用 Twitter 來作為我們的快速消息發布管道。如果有新的東西，例如 cFosSpeed 新 beta 版本推出，我們將在Twitter發布。我們每週將只發布幾次消息。因此，若您沒有 Twitter 帳號，請註冊一個，並關注 <a class=\"inline\" target=\"_blank\" href=\"https://twitter.com/cFosSoftware\"><b>@cFosSoftware</b></a> 以得到最新消息。然後，您也可以使用 <a href=\"/en/cfos-notifier/cfos-notifier.htm\"><b>cFos Notifier</b></a>來方便地檢查我們在 Twitter 上發布的訊息。<br/><br/>我們也在 cFosSpeed 當中設計了通知功能。當有非常重要的消息時（每年僅幾次），例如有新 cFosSpeed 版本推出時，我們將更新 cFosSpeed 的新聞頁面。從 cFosSpeed v7.01 build 1921 開始，狀態視窗會顯示一個新的符號，點擊時會開啟 cFosSpeed 的新聞頁面。";
+sp_news_20150912 = "2015 年 9 月 12 日";
+sp_news_20150912_text1 = "<b>新增 Ping 值統計</b><br/>cFosSpeed 現在能夠顯示最近 5 分鐘的 ping 值紀錄。此功能對於需要診斷網路延滯原因的玩家來說相當有用。在遇到 lag 之後，您可以直接開啟 ping 值統計圖，並判斷這個問題是來自您這一端，或是遠端，例如是遊戲伺服器或中間經過的路由器。";
+sp_news_20150912_text2 = "<b>新增支援可使用 UPnP 功能的路由器</b><br/>cFosSpeed 現在能夠透過向閘道器（路由器）查詢，來判斷目前的線路速度與最大線路速度。目前支援符合 UPnP 論壇以及 DSL 論壇制定的網際網路閘道裝置規格的相關功能。所以這兩類的 UPnP 路由器可幫助加速 cFosSpeed 的線路校正功能。因此我們也推薦使用者打開路由器中的 UPnP 功能。";
 sp_news_20150126 = "2015 年 1 月 26 日";
 sp_news_20150126_text = "在有 4 個上傳與 2 個下載連線的 50MBit VDSL 線路中，開啟和關閉流量塑型時的 Ping 值表現。";
 sp_news_20150112 = "2015 年 1 月 12 日";
@@ -2190,6 +2223,7 @@ cont_cont_p6_cookies = "其他第三方可能會在您的瀏覽器設定並閱�
 cont_cont_p6_google1 = "為了追蹤我們的網站的使用情形，我們會在網站上設立 Cookie，並使用 Google Analytics。";
 cont_cont_p6_google2 = "Google 將匿名化 IP 地址，您也可以透過在瀏覽器中安裝附加元件來完全停用 Google Analytics。若需更多資訊，請參考 <a class=\"inline\" href=\"http://tools.google.com/dlpage/gaoptout?hl=de\">此處</a>。";
 cont_cont_p6_owncookies = "您可以在瀏覽器中停用我們網站的 Cookie 以避免被我們網站設定 Cookie。";
+cookie_bar_text = "我們也會分享您如何使用我們網站的方式給我們的社交媒體、廣告與流量分析夥伴。";
 cont_cont_p7 = "資料揭露：";
 cont_cont_p8 = "您可以在任何時候自由的要求您儲存在本公司的資料，並要求更正、封鎖並刪除您的資料。請直接聯絡我們（於 <b>cFos Software GmbH, Nordstr. 65a, 53111 Bonn</b>）或 <img src=\"/images/support-link.png\" style=\"position: relative; top: 3px\" alt=\"\" />。";
 cont_cont_p9 = "向第三者傳播：";
