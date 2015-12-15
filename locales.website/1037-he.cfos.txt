@@ -25,7 +25,7 @@ desc_shaping = "האצת האינטרנט ע'י עיצוב התעבורה";
 freeware_text1 = "גירסה חדשה של cFosSpeed זמינה:";
 freeware_text2 = "עיצוב תעבורה משופר: רוחב-פס מקסימלי, פינג מינימלי! הורד עכשיו: ";
 slogan = "השתמש ברוחב-הפס האמיתי שלך:<br /> מהירות גבוהה, פינג נמוך.";
-special_offer_xmas = "הצעת חג המולד! <span class=\"red\">מחירים מיוחדים</span> עד ה-15 לדצמבר!";
+special_offer_xmas = "הצעת חג המולד! <span class=\"red\">מחירים מיוחדים</span> עד ה-21 לדצמבר!";
 special_offer_xmas_2 = "(due to weekend prolonged until January 2nd, 2011)";
 worldcup_sale = "מחירים מיוחדים במשך אליפות העולם!"; / FIFA Soccer World Cup
 translation_text1 = "עמוד זה לא תורגם באופן מלא!";

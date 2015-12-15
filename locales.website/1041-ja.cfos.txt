@@ -34,7 +34,7 @@ freeware_text1 = "cFosSpeedの新しいバージョンがあります:";
 freeware_text2 = "Improved Traffic Shaping: バンド幅を最高に、ピングを最低に！ 今すぐダウンロードを！ ";
 product_overview = "製品概要";
 slogan = "本当のバンド幅を利用しよう！<br /> 高速でピングが少なめに！";
-special_offer_xmas = "メリークリスマス！ 12月15日までに<span class=\"red\">特別な価格</span>";
+special_offer_xmas = "メリークリスマス！ 12月21日までに<span class=\"red\">特別な価格</span>";
 special_offer_xmas_2 = "(休日のために2011年1月2日まで延長します)";
 special_offer_spring = "2010年2月9日まで、春の特別キャンペーン中！";
 special_offer_winter = "2012年1月31日までウィンターセール特別価格で提供";

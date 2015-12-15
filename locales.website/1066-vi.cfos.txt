@@ -35,7 +35,7 @@ freeware_text1 = "Phiên bản mới của cFosSpeed đã sẵn sàng:";
 freeware_text2 = "Traffic Shaping đã được cải tiến: Băng thông tối đa, ping thấp nhất!<br />Tải về ngay: ";
 product_overview = "Tổng quan sản phẩm";
 slogan = "Sử dụng băng thông thật của bạn :<br /> tốc độ cao, ping thấp.";
-special_offer_xmas = "Khuyến mãi đặc biệt cho lễ Giáng Sinh! <span class=\"red\">Giá Đặc Biệt</span> chỉ có tới ngày 15 tháng 12!";
+special_offer_xmas = "Khuyến mãi đặc biệt cho lễ Giáng Sinh! <span class=\"red\">Giá Đặc Biệt</span> chỉ có tới ngày 21 tháng 12!";
 special_offer_xmas_2 = "(quyền được hưởng kéo dài tới ngày 2 tháng một năm 2011)";
 special_offer_spring = "Giảm giá đặc biệt nhân dịp lễ hội mùa xuân ! Kéo dài tới ngày 9 tháng hai năm 2011";
 special_offer_winter = "Giá đặc biệt cho đợt giảm giá mùa Đông cho đến 31 tháng Một,2012";

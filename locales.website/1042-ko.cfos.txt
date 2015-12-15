@@ -29,7 +29,7 @@ freeware_text1 = "cFosSpeed 새 버전 사용 가능:";
 freeware_text2 = "향상된 Traffic Shaping: 최대 대역폭, 최소 핑! 지금 다운로드하세요: ";
 product_overview = "제품 개요";
 slogan = "귀하의 실제 대역폭을 사용하세요:<br /> 빠른 속도, 낮은 핑.";
-special_offer_xmas = "크리스마스 특별 주문! 12월 15일까지만 <span class=\"red\">특별한 가격</span>으로 판매합니다!";
+special_offer_xmas = "크리스마스 특별 주문! 12월 21일까지만 <span class=\"red\">특별한 가격</span>으로 판매합니다!";
 special_offer_xmas_2 = "(2011년 1월 2일까지 기간이 연장됩니다)";
 special_offer_spring = "봄 특별 행사! 2011년 2월 9일까지 입니다.";
 worldcup_sale = "월드컵 특별 세일!"; / FIFA Soccer World Cup

@@ -35,7 +35,7 @@ freeware_text1 = "มีเวอร์ชั่นใหม่ของ cFosSpe
 freeware_text2 = "ปรับปรุง Traffic Shaping: แบนด์วิธสูงสุด, ping ต่ำสุด! ดาว์นโหลดเลย: ";
 product_overview = "ภาพรวมสินค้า";
 slogan = "ใช้ bandwidth จริงของคุณ:<br /> ความเร็วที่สูง, และค่า ping ที่ต่ำ";
-special_offer_xmas = "ข้อเสนอสำหรับคริสต์มาส! <span class=\"red\">ราคาพิเศษ</span> ถึง 15 ธันวาคมเท่านั้น!";
+special_offer_xmas = "ข้อเสนอสำหรับคริสต์มาส! <span class=\"red\">ราคาพิเศษ</span> ถึง 21 ธันวาคมเท่านั้น!";
 special_offer_xmas_2 = "(เนื่องจากช่วงวันหยุดยาวถึงวันที่ 2 มกราคม 2554)";
 special_offer_spring = "โปรโมชั่นพิเศษ! ต้อนรับฤดูฝนจนถึงวันที่ 9 กุมภาพันธ์ 2554";
 special_offer_winter = "ราคาพิเศษเฉพาะช่วงหน้าหนาวนี้จนถึง 31 มกราคม 2012 นี้เท่านั้น";

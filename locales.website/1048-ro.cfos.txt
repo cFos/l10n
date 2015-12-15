@@ -30,7 +30,7 @@ freeware_text1 = "O noua versiune cFosSpeed este disponibilă:";
 freeware_text2 = "Prin intermediul Trafic Shaping: Lăţime de bandă maximă, ping minim! Descarcaţi acum: ";
 product_overview = "Product Overview";
 slogan = "Folosiţi-vă lăţimea de bandă adevarată:<br /> viteză mare, ping redus.";
-special_offer_xmas = "Ofertă de crăciun! <span class=\"red\">Preţuri promotionale</span> numai până în 15 Decembrie!";
+special_offer_xmas = "Ofertă de crăciun! <span class=\"red\">Preţuri promotionale</span> numai până în 21 Decembrie!";
 special_offer_xmas_2 = "(oferta e valabilă până în 2 Ianuarie 2011 datoritâ sfârşitului de săptămână)";
 special_offer_spring = "Ofertă speciala de primăvară! până în 9 Februarie 2011";
 worldcup_sale = "Preţuri promoţionale pe perioada Campionatului Mondial!"; / FIFA Soccer World Cup

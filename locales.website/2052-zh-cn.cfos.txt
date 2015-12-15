@@ -35,7 +35,7 @@ freeware_text1 = "有cFosSpeed的新版本可用:";
 freeware_text2 = "优化的Traffic Shaping技术: 最大带宽，最低Ping值！立即下载体验: ";
 product_overview = "产品总览";
 slogan = "充分利用您的带宽极限:<br />最大带宽，最低Ping值！";
-special_offer_xmas = "圣诞优惠活动！12月15日前购买cFos产品将享受<span class=\"red\">特别优惠价格</span>！";
+special_offer_xmas = "圣诞优惠活动！12月21日前购买cFos产品将享受<span class=\"red\">特别优惠价格</span>！";
 special_offer_xmas_2 = "由于遇到周末，故延长至2011年1月2日为止";
 special_offer_spring = "春节特惠活动！截止到<span class=\"red\">2月9日</span>";
 special_offer_winter = "冬季特惠活动！截止到<span class=\"red\">1月31日</span>";

@@ -36,7 +36,7 @@ freeware_text1 = "Nueva versión de cFosSpeed disponible:";
 freeware_text2 = "Traffic Shaping mejorado: ¡Maximo ancho de banda, minimo ping! Descarguelo ahora: ";
 product_overview = "Vistazo del producto";
 slogan = "Usa su banda ancha real:<br /> velocidad alta, ping bajo.";
-special_offer_xmas = "Oferta de Navidad! <span class=\"red\">Precio especial</span> hasta el 15 de diciembre!";
+special_offer_xmas = "Oferta de Navidad! <span class=\"red\">Precio especial</span> hasta el 21 de diciembre!";
 special_offer_xmas_2 = "Debido a que la semana se prolongó hasta el 2 de enero de 2011";
 special_offer_spring = "¡Oferta especial por el festival de la primavera! hasta el 9 de febrero de 2011";
 special_offer_winter = "Precios especiales durante Ventas de Invierno hasta el 31 de enero de 2012";

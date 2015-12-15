@@ -27,7 +27,7 @@ desc_shaping = "Internetna pospešitev z oblikovanjem prometa";
 freeware_text1 = "Na voljo je nova verzija cFosSpeed:";
 freeware_text2 = "Izboljšanje oblikovanje prometa: Maksimalna pasovna širina, minimalni ping! Prenesite zdaj: ";
 slogan = "Uporabite vašo resnično pasovno širino:<br /> visoka hitrost, nizek ping.";
-special_offer_xmas = "Božična ponudba! <span class=\"red\">Special prices</span> samo do 15 Decembra!";
+special_offer_xmas = "Božična ponudba! <span class=\"red\">Special prices</span> samo do 21 Decembra!";
 worldcup_sale = "Posebne cene med Svetovnim prvenstvom!"; / FIFA Soccer World Cup
 translation_text1 = "Ta stran ni zadostno prevedena!";
 translation_text2 = "Dobite brezplačno licenco (cFos, cFosSpeed or cFosBC) za vašo pomoč.";

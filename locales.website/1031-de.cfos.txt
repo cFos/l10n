@@ -40,7 +40,7 @@ freeware_text1 = "Neue Version von cFosSpeed verfügbar:";
 freeware_text2 = "Verbessertes Traffic Shaping: Maximale Bandbreite, minimaler Ping! Jetzt herunterladen: ";
 product_overview = "Produkt-Übersicht";
 slogan = "Bandbreite wirklich nutzen:<br /> Hohe Geschwindgkeit, niedriger Ping.";
-special_offer_xmas = "Weihnachtsaktion! <span class=\"red\">Sonderpreise</span> nur bis zum 15. Dezember!";
+special_offer_xmas = "Weihnachtsaktion! <span class=\"red\">Sonderpreise</span> nur bis zum 21. Dezember!";
 special_offer_xmas_2 = "(wegen des Wochenendes verlängert bis zum 02. Januar 2011)";
 special_offer_spring = "Sonderpreise anläßlich des Frühlingsfestes! Gültig bis 9. Februar 2011";
 special_offer_winter = "Sonderpreise im Winter-Sale bis zum 31. Januar 2012";

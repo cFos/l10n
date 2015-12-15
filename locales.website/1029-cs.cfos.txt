@@ -35,7 +35,7 @@ freeware_text1 = "Nová verze cFosSpeed je k dispozici:";
 freeware_text2 = "Vylepšený Traffic Shaping: Maximální rychlost, minimální ping! Stahujte nyní: ";
 product_overview = "Seznámení s produktem";
 slogan = "Použít vaši skuteènou rychlost:<br /> vysoká rychlost, nízký ping.";
-special_offer_xmas = "Vánoèní nabídka! <span class=\"red\">Speciální ceny</span> pouze do 15. prosince!";
+special_offer_xmas = "Vánoèní nabídka! <span class=\"red\">Speciální ceny</span> pouze do 21. prosince!";
 special_offer_xmas_2 = "(vzhledem k víkendu prodlouženo do 2. ledna 2011)";
 special_offer_spring = "Mimoøádná nabídka k oslavì pøíchodu jara!";
 special_offer_winter = "Speciální nabídka během zimních slev do 31. ledna 2012";
