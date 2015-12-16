@@ -122,7 +122,7 @@ pnet_start_login = "bejelentkezéskor (ajánlott)";
 pnet_start_system = "mint rendszerfolyamat";
 pnet_start_manual = "kézzel indítva";
 pnet_start_info = "Ajánlott, hogy %p automatikusan elinduljon bejelentkezéskor. "
-                  "Ha az szükséges, hogy (%p) fusson mielőtt még bárki is bejelentkezett volna a Windows-ba, akkor  rendszerfolyamatként szükséges futtatni. "
+                  "Ha az szükséges, hogy %p fusson, mielőtt még bárki is bejelentkezett volna a Windows-ba, akkor  rendszerfolyamatként szükséges indítani. "
                   "Mindamellett előfordulhat, hogy nem fog megjelenni a tálcán feladat ikon vagy helyi menü. "
                   "Ha csak ritkán szeretné nyílvánosan megosztani adatait, akkor kézzel indítsa el a %p-t.";
 
