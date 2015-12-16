@@ -98,7 +98,7 @@ dynip_header = "Dinamikus IP-szerver";
 dynip_subheader = "Dinamikus IP-szerver beállítása";
 dlg_start_now_as_current_user = "Futtasd a %p-t, a jelenlegi felhasználóval";
 dlg_autostart = "%p indítása a Windows-zal együtt";
-dlg_autostart_service = "Telepítés (%p) mint rendszer folyamat és bekapcsolásnál induljon el a Windows-zal együtt";
+dlg_autostart_service = "Telepítsd a %p-t mint rendszerfolyamatot és bekapcsolásnál induljon el a Windows-zal együtt";
 dlg_context_menu = "Helyi menű hozzáadása a Windows Explorer-hez";
 dlg_create_admin_account = "Rendszergazdai fiók létrehozása";
 dlg_admin_pwd = "Jelszó az \"admin\" felhasználóhoz:";
@@ -121,10 +121,10 @@ pnet_start_mode = "%p indítása:";
 pnet_start_login = "bejelentkezéskor (ajánlott)";
 pnet_start_system = "mint rendszerfolyamat";
 pnet_start_manual = "kézzel indítva";
-pnet_start_info = "Ajánlott, hogy (%p) automatikusan elinduljon bejelentkezéskor. "
+pnet_start_info = "Ajánlott, hogy %p automatikusan elinduljon bejelentkezéskor. "
                   "Ha az szükséges, hogy (%p) fusson mielőtt még bárki is bejelentkezett volna a Windows-ba, akkor  rendszerfolyamatként szükséges futtatni. "
                   "Mindamellett előfordulhat, hogy nem fog megjelenni a tálcán feladat ikon vagy helyi menü. "
-                  "Ha csak ritkán szeretné nyílvánosan megosztani adatait, akkor kézzel indítsa (%p)-t.";
+                  "Ha csak ritkán szeretné nyílvánosan megosztani adatait, akkor kézzel indítsa el a %p-t.";
 
 / pnet context menu entry
 publish_with_product = "Közzététel a %p-al";
