@@ -12,6 +12,29 @@ language = "Arabic";
 language_local = "العربية";
 htm_lang_prefix = "ar";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
+/ ----------------------------------------------------------------------
+/
+/  outlook caldav
+/
+/ ----------------------------------------------------------------------
+
+od_key_registered = "تم تسجيل المفتاح. الرجاء إعادة تشغيل اوتلوك لتفعيل التسجيل.";
+
 / ----------------------------------------------------------------------
 /
 /  6link / broadband connect / pnet
@@ -42,6 +65,7 @@ dlg_dun_pwd = "كلمة المرور:";
 dun_connect_to = "الإتصال بـ %?";
 dun_err_already_exists = "إسم إدخال الإتصال موجود مسبقا";
 disconnect = "قطع الإتصال";
+file_link_failed = "عملية خلق وصلة الملف فشلت.";
 
 / connection entry dialog
 con_err_save = "تعذر حفظ بيانات الإتصال";
@@ -54,6 +78,27 @@ con_dns2 = "DNS2:";
 con_enabled = "ممكن";
 
 / pnet configuration dialog
+
+/ pnet start type dialog
+
+/ pnet context menu entry
+
+/ pnet backup info
+
+/ pnet
+/. Label of menu entry, which enables and disables any uploads to PNET.
+/. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
+/. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
+/. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
+
+/ pnet connectivity test
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
 
 / ----------------------------------------------------------------------
 /
@@ -76,6 +121,7 @@ expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
 prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
 preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/ar/traffic-shaping/traffic-shaping.htm";
+
 
 component_mismatch = "يوجد هناك تعارض في النسخة بين مكونات هذا البرنامج . الرجاء إعادة تثبيت آخر نسخة";
 trayicon_tip = "www.cfos.de , إنترنت أسرع مع تشكيل حركة المرور";
@@ -139,8 +185,12 @@ connect_to = "الإتصال إلى";
 make_own_skin = "صمم الغلاف الخاص بك";
 click_through = "نقر ضمني";
 ask = "سؤال";
+
+/. Indicates states, like `Switch On` or `Switch Off`
+/. Used in various sections of program as menu entries or buttons labels
 off = "إغلاق";
 on = "فتح";
+
 note = "ملاحظة";
 deactivated = "غير منشط";
 ole_error = "لكي تستعمل لائحة التكوين هذه\\nمثبتا و شغال على كمبيوترك %p يجب أن يكون\\n\\nالرجاء التحقق من هذا و إعادة التثبيت عند الضرورة";
@@ -165,6 +215,9 @@ hint_text = "قد يعمل ترتيب الأفضليات فقط إذا تم إع
 save_protocols = "حفظ البروتوكولات";
 undo = "تراجع";
 filter_selection = "تحديد المرشح";
+/: Settings -> Protocols/Programs
+/. Used as indicator of selected by user level of priority (for Traffic Shaping)
+/. Displayed next to protocol or program name, near slider with levels
 higher = "أعلى";
 high = "عالية";
 normal = "عادية";
@@ -193,6 +246,7 @@ l7_prot_detection = " Layer-7 إكتشاف بروتوكول";
 l7_prot_detection_help = "أكتشف البروتوكولات من خلال تحليل البيانات . أستخدم لائحة 'عمل الأولوية للبروتوكولات' لتغيير أولوية مختلف البروتوكولات . إذا قمت بتعطيل هذا الخيار فإن البروتوكولات يتم إكتشافها حسب رقم المنفذ المستخدم";
 favor_ping = "وقت التشغيل المفضل";
 favor_ping_help = "<b>فتح</b> : سيقلل البرنامج من زمن فحص الإتصال على حساب تخفيض بسيط لنطاق العرض (عند الضرورة) ـ<br/><b>إغلاق</b> : سيزيد البرنامج من نطاق العرض على حساب زيادة بسيطة لزمن فحص الإتصال (عند ضرورة) ـ";
+favor_bandwidth = "نطاق العرض المفضل";
 activate_firewall = " تنشيط الجدار الناري";
 activate_firewall_help = "الحماية ضد تدخلات الشبكة بواسطة ترشيح الحزم الخطرة ، تقصى الحالة و نمط التسلل";
 mtu_opt = " MSS (MTU) ضبط آلي لـ";
@@ -232,13 +286,16 @@ show_for = "إظهار من أجل";
 this_month = "هذا الشهر";
 time = "الوقت";
 time_limit = "وقت محدود";
+/. Used as table header
+/. Short version of "minutes"
 time_min = "دقيقة";
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "h:min";
 volume = "الصوت";
 volume_limit = "حدود الصوت";
 spdbudget_help = "لإستعمال أي ميزانية ، أنتقل إلى لائحة الإتصالات ثم عينها على إتصال معين";
 password_bad = "كلمة مرور سيئة";
-favor_bandwidth = "نطاق العرض المفضل";
 sum_button = "تراكمي";
 calibrate = "خط مساعد";
 variable_bandwidth = "عرض النطاق الترددي المتغير";
@@ -259,6 +316,9 @@ disable_speed_shaping = "تعطيل تشكيل حركة المرور";
 yes = "نعم";
 no = "لا";
 help = "تعليمات";
+/: cFosSpeed context menu -> Usage Graph
+/. Used as one of dropdown menu entries
+/. Means `To show all programs and protocols traffic`
 bgraph_totals = "الإجمالي";
 blocklist = "IP-حاجب";
 blocklist_help = "التي حجبت حركة المرور منها IP قائمة عناوين";
@@ -280,7 +340,9 @@ slots_title = "إعداد الفتحة";
 can_select_multiple = "معلومة : يمكنك تحديد خيارات متعددة عن طريق الإستمرار بالضغط على مفتاح شيفت أو كنترول أثناء تحديد أحد الخيارات";
 name_for = "الإسم من أجل ";
 set_name = "وع الإسم";
+/. RX stands for `receive` (incoming/download)
 rx_only = "RX فقط";
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "TX فقط";
 max_of_rx_tx = "Maximum of RX & TX";
 total_rx_only = "RX مجموع سرعة";
@@ -290,15 +352,28 @@ check_if_other_also = "تأكد إذا كنت تريد تعداد كافة حر�
 performance_help = "لحفظ أقصى طاقة حاسوبية ، ننصحك بوضع الإتصال الذي تستخدمه للوصول إلى شبكة الإنترنت على 'نعم' و غير ذلك على 'لا' ـ";
 loading = "...جاري التحميل";
 
-/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
+/ explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "غير- تعاوني";
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
 
 / Ping Variance: cFos Speed allows and keeps statistics for variations in ping times. These variations are common in wireless (WLAN and/or UMTS) networks
 
+/: cFosSpeed context menu
+/. means `Close cFosSpeed`
 
 
+
+
+/: Right click on cFosSpeed -> Windows Settings -> Auto-arrange windows
+/. Possible position of status window
+
+/: cFosSpeed context menu
+/. Menu entry which enables display of cFosSpeed's tile in Windows 8 Start Menu
+/. @note Currently disabled
+
+upnp_router_info = "إستعمل إحصاءات جهاز التوجيه";
+upnp_router_info_help = "إستعمل احصاءات جهازك الموجه لتحديد سرعة الخط و وسيط تشكيل حركة المرور، إذا أمكن. قد تحتاج الى تفعيل في جهاز التوجيه.";
 
 
 / ----------------------------------------------------------------------
@@ -368,6 +443,12 @@ pwd_activate_info = "يجب عليك أن تكون متصلا بالأنترنت
 pwd_activate_failed = "مفتاح التنشيط لايعمل ! ";
 pwd_activate_failed_code = "فشل تنشيط المفتاح : الخطأ %?.";
 
+/ serial number dialog
+/ the %? will be replaced by the error number:
+
+/ new 16 digit serial number dialog
+/. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
+
 / re-enter password dialog
 repwd_header = "كلمة مرور %?";
 repwd_subheader = "مطلوب إعادة إدخال كلمة المرور";
@@ -395,6 +476,17 @@ hangup_online = "أنت الآن علة الإنترنت بالإتصال الت
 hangup_offline = "تم قطع الإتصال";
 hangup_info = "للإستمرار مع هذا المعالج يجب قطع الإتصال بالإنترنت\n\nلقطع الإتصال الآن ، أنقر قطع الإتصال";
 hangup_disco = "قطع الإتصال";
+
+/ usage statistics
+
+/ port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
+/. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
+
+/ crash handler messages
+crash_msg_new_release = "يوجد إصدار جديد من %p.الرجاء تنزيل و تثبيت الإصدار الجديد من موقع www.cfos.de.";
+crash_msg_new_beta = "يوجد إصدار جديد بيتا من %p.الرجاء تنزيل و تثبيت الإصدار الجديد بيتا من موقع www.cfos.de/beta.";
+
+/start installation dialog
 
 / progress dialog
 progress_inst_header = "التثبيت";
@@ -454,6 +546,8 @@ task_flush_registry = "...جاري إرسال الريجستري إلى القر
 task_cancel = "...جاري إلغاء العملية";
 task_canceled = "ثم إلغاء العملية";
 
+/ connectivity test progress tasks
+
 / program group
 speed_pg_name = "%? تشكيل حركة المرور";
 pg_uninstall = "إلغاء تثبيت %?";
@@ -468,6 +562,7 @@ dt_advertise_desc = "في قائمة %? وضع كافة مميزات";
 
 / message boxes
 query_reboot = "يجب أن تعيد تشغيل نظامك لتفعيل التغييرات\n\nهل تعيد تشغيل النظام الآن ؟";
+query_inst_reboot = "يتوجب عليك إعادة تشغيل نظام التشغيل في الكومبيوتر قبل امكانية الاستمرار في عملية التثبيت.\n\nالرجاء اعادة تشغيا برنامج التثبيت بعد إعادة تشغيل الكومبيوتر.\n\nهل تريد اعادة تشغيل الكومبيوتر الآن؟";
 query_drv_inst_cancel = "يتم إلغاء تثبيت برنامج التشغيل عن طريق نظام التشغيل\nيتطلب الويندوز حوالي 15 دقيقة من أجل تسجيل أو إلغاء تسجيل برنامج التشغيل\nيستحسن عدم إلغاء هذه العملية\n\nهل تريد فعلا إلغاء الأمر ؟";
 query_driver_err_abort = "لقد كان هناك خطأ أثناء تثبيت برنامج التشغيل\nيستحسن إنهاء التثبيت\nالآن\n\nبالرغم من ذلك ممكن مواصلة التثبيت\nبغرض التجربة\n%p غالبا لن يعمل بشكل صحيح\n\nهل تنهي التثبيت ؟ (مستحسن) ـ";
 
@@ -527,6 +622,20 @@ eml_invalid_optional_email = "الرجاء إدخال عنوان بريد إلك
 eml_reg_failed = "فشل تسجيل عنوان البريد إلكتروني";
 eml_checking_domain = "تدقيق نطاق البريد الالكتروني...";
 
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_stop_header = "اوقف الواي فاي الافتراضي";
+virtual_wifi_autostart = "بدء تلقائي عند بداية نظام التشغيل.";
+/. Label next to a checkbox in deactivation of virtual Wi-Fi dialog
+virtual_wifi_deactivate_autostart = "تعطيل البدء التلقائي عند بداية نظام التشيغل ايضا.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
+
 
 / ----------------------------------------------------------------------
 /
@@ -582,6 +691,7 @@ badvsn = "لـ %1 %p هذا هو\nملف المفتاح الذي تستعمله 
 setup = "إعداد برنامج التشغيل";
 no_write = "%p لا ييسمح بالكتابة إلى ملف بيانات\n%1\n\nالرجاء أطلب من مديرك السماح بالكتابة و التعديل الملفين\nGLOBAL.INI و CFOS.INI على";
 oem_for = "%1 لـ OEM نسخة";
+
 report_title = "%p تقرير إتصال";
 
 / Don't translate!
