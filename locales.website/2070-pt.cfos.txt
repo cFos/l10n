@@ -27,6 +27,9 @@ asrock_info = "Informações para utilizadores de <b>ASRock XFast LAN</b>";
 bc_linktext = "Ligação à Banda Larga cFos para acessos a alta velocidade";
 cfos_linktext = "cFos/Professional para ISDN";
 close = "Fechar";
+
+/. Used as "I understand"
+
 desc_6link = "Conectividade ipv6 para XP, Vista e Windows 7";
 desc_dialup = "Internet Dial-Up";
 desc_shaping = "Aceleração da Internet através de Traffic Shaping";
@@ -700,6 +703,7 @@ pnet_doc_scripts_p12 = "Uma vez que é sempre um grande encargo para o web maste
 /. Litrelly means "How cFos Outlook DAV works"
 /. Means "show all server types"
 
+
 / cFos IPv6 Link
 cfos6link_page_title = "Conectividade IPv6 para Windows XP e Vista e Windows 7";
 cfos_ipv6_link_title = "Conectividade IPv6 para XP, Vista e Windows 7";
@@ -748,28 +752,66 @@ link_text_what_is_cfos = "O que é o cFos/Professional?";
 
 /hrping
 hrping_title = "<span class=\"product\">hrPing</span> - Utilitário ping de alta precisão";
+hrping_p1 = "Você pode fazer muito mais com o hrPing do que com o Ping do Windows.";
+hrping_l1 = "Visualização dos resultados de ping";
 /. `usec` stands for `microsecond`.
 /. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
 /. In other words, means accuracy of the measurement
+hrping_l2 = "Utiliza temporizadores de alta resolução, assim os tempos de ping são exatos ao microssegundo";
+hrping_l3 = "Pode fazer ping também usando pacotes UDP ou mensagens ICMP";
 
 /. In other words means `Hrping measures requests time and handles ICMP error replies as well`
+hrping_l4 = "Também monitoriza e gere as respostas de erro ICMP";
 
+hrping_l5 = "Pode ter múltiplos pings \"em voo\", não é necessário esperar por uma resposta antes de enviar o ping seguinte";
+hrping_l6 = "Estatísticas melhoradas";
+hrping_l7 = "Varredura por tamanhos: Enviar pacotes de tamanho cada vez maior";
+hrping_l8 = "Pode mostrar apenas um sumário dos resultados";
 /. `Traceroute` and `Pathping` are names of utilities for networks diagnostic
+hrping_l9 = "É um Traceroute e também um Pathping";
 
 
 /notifier
+notifier_title_h0 = "<span class=\"product\">cFos Notifier</span> - manter em contacto";
 notifier_p1 = "O cFos Notifier é um programa que fica a executar em segundo plano e verifica periodicamente se novos Status do Twitter estão disponíveis. Caso haja algo novo, é exibido um ícone de notificação na barra de tarefas do Windows e uma sugestão em balão. Se clicar no balão ou no ícone na barra de tarefas, o twitter.com é carregado para que seja possível ler os novos status.";
+notifier_p1_v2 = "O cFos Notifier periodicamente verifica novas fontes e notifica-o assim que algo novo apareça. Nesse momento apresenta uma notificação na barra de ferramentas do Windows.<br/>Atualmente o cFos Notifier suporta as seguintes fontes:";
+notifier_l9 = "Correio";
+notifier_l10 = "Twitter";
+notifier_l11 = "Feeds RSS";
+notifier_p1b = "Graças ao cFos Notifier você não precisa ocupar a sua área de trabalho com janelas de navegador abertas ou clientes de correio eletrónico para se manter ligado ao mundo. E ainda: se você precisa de tempo ininterrupto, você pode \"pausar\" temporariamente o cFos Notifier para ter o silêncio de que necessita.";
+notifier_p8a = "O cFos Notifier suporta POP3 E IMAP. Introduza o seu servidor de correio eletrónico, o seu nome de utilizador e palavra-passe para configuração da conta. O cFos Notifier tentará detetar as definições da sua conta de correio automaticamente.";
+notifier_p8b = "Utilize <b>porta:servidor</b> se você utiliza uma porta não-padrão. O cFos Notifier dá preferência a ligações encriptadas em vez de ligações não encriptadas e a IMAP em vez de POP3 devido à maior velocidade de verificação de correio quando usando IMAP.";
+notifier_p8c = "Você pode impor ligações encriptadas e também permitir certificados auto-assinados. No entanto, lembre-se de que um certificado auto-assinado pode ser facilmente forjado por um atacante, podendo este assim monitorizar o seu tráfego.";
 notifier_p2 = "cFos Notifier utiliza OAuth. Na primeira execução é necessário autorizar o cFos Notifier a aceder a sua conta do Twitter. Não é necessário fornecer seu nome de utilizador e palavra-passe ao cFos Notifier. Quando executado pela primeira vez, o Twitter perguntará se permite o cFos Notifier a aceder sua conta e lhe fornece um PIN. É necessário digitar este PIN no cFos Notifier. Então o cFos Notifier gera um token de acesso, que pode ser revogado a qualquer momento.";
 notifier_a1 = "Download do cFos Notifier";
 notifier_h1 = "Porquê outro programa de notificação do Twitter?";
 notifier_p4a = "O cFos Notifier foi projectado para utilizadores com tráfego Twitter baixo a médio. Utilizadores avançados podem desejar utilizar um software mais adequado.";
 notifier_p4b = "O cFos Notifier é intencionalmente muito simples. Em vez de interromper periodicamente seu trabalho normal e navegar para a página web do Twitter para verificar se há novas mensagens, pode instalar o cFos Notifier.";
+notifier_p4c = "Dá-lhe uma vista rápida de tweets e imagens incorporadas sem a necessidade de abrir uma página da Internet ou uma aplicação. Você também poderá desativar temporariamente as notificações através da opção \"Silêncio\".";
 notifier_p4d = "Então, mensagens do Twitter não o perturbarão, a menos que tenha tempo para elas.";
 notifier_p4e = "Depois, se houver novidades, pode clicar no ícone do cFos Notifier na barra de tarefas para abrir o Twitter.";
+notifier_h5 = "Operação geral";
+notifier_p4a_v2 = "Para cada fonte você pode configurar o som de notificação, se uma dica em balão é mostrada e um ícone opcional na barra de ferramentas. Se você utiliza muitas fontes, nós recomendamos que desative o som e a dica em balão para excepto para as fontes mais importantes.";
+notifier_p4b_v2 = "Quando você abre o menu de contexto para ver um resumo das notícias, o cFos Notifier marcará as novas fontes em negrito. Assim que você abra o submenu correspondente, todas as entradas nele serão marcadas como lidas. Para as manter como não lidas você deverá abrir o submenu enquanto mantém pressionada a tecla CTRL.";
+notifier_p4c_v2 = "Quando você clica num feed RSS, você abre a página da Internet desse feed RSS. Quando você clica num Tweet, você abre a página de detalhes desse Tweet na qual poderá interagir com esse tweet, por exemplo, poderá reenviá-lo, adicioná-lo aos favoritos, etc. Clicar no título do submenu tanto pode abrir o Twitter, o seu cliente de correio eletrónico ou a página dos feeds RSS.";
+notifier_p8 = "O cFos Notifier atualmente suporta feeds RSS 2.0. Muitas páginas da Internet e fóruns oferecem o seu conteúdo como feeds RSS. Simplesmente introduza o endereço do feed RSS 2.0 para adicionar um novo feed. Por favor avise-nos se existir um feed popular que o cFos Notifier pareça não reconhecer (deixe uma mensagem utilizando o nosso <a class=\"inline\" onclick=\"cfos.show_contact_form(); return false;\" href=\"/en/index.htm\">formulário de contacto)</a>.";
 notifier_h2 = "Notícias do cFosSpeed";
+notifier_h2_v2 = "Notícias cFos";
 notifier_p5 = "Também pode utilizar o cFos Notifier para notícias do cFosSpeed. Leia mais acerca de nossa nova <a href=\"/en/cfosspeed/product-news.htm#policy\"><img src=\"sp_link_bottom_right.png\" width=\"6\" height=\"11\" border=\"0\" alt=\"\" /><b>política de notícias do cFosSpeed</b></a>.";
+notifier_p5_v2 = "Nós também utilizamos o Twitter para informarmos os nossos seguidores sobre notícias, como novas versões do programa, novos produtos, vendas, etc. Usar o cFos Notifier para nos seguir no Twitter é uma ótima forma de se manter em contacto connosco.";
 notifier_h3 = "Listas do Twitter";
 notifier_p6 = "O cFos Notifier suporta Listas. Pode configurar no Twitter listas de pessoas que deseja seguir. Caso tenha configurado tais listas, o cFos Notifier pode mostrá-las no menu de contexto. Pode escolher quais listas o cFos Notifier deve verificar. Isto permite que utilize o cFos Notifier apenas para um subconjunto dos Tweets a receber.";
+notifier_h4 = "Características do cFos Notifier";
+notifier_h4_v2 = "Características do Twitter";
+notifier_p7 = "O cFos Notifier foi completamente reconstruído. As novas características são:";
+notifier_l1 = "Suporte para API 1.1 do Twitter e HTTPS";
+notifier_l2 = "Gere múltiplas contas Twitter";
+notifier_l3 = "Os tweets agora incluem a imagem do perfil";
+notifier_l4 = "Pré-visualização de imagens incorporadas";
+notifier_l5 = "Monitoriza as suas listas assim como a sua linha do tempo";
+notifier_l6 = "Desative as notificações temporariamente";
+notifier_l7 = "Seleção do som de notificação";
+notifier_l8 = "Contas podem ser adicionadas e removidas";
 
 /FAQ
 which_product = "Que produto cFos deveria eu usar?";
@@ -1655,8 +1697,9 @@ sp_doc_wlan_h1 = "Resolução de problemas usando atribuição de endereços de 
 sp_doc_wlan_p6a = "Quando o PC é usado como um ponto de acesso Wi-Fi, também usa a Partilha de Ligação à Internet (Internet Connection Sharing, ou ICS) e por norma atribui endereços de IP via DHCP aos seus dispositivos móveis. Durante a negociação de endereço DHCP, os endereços de IP possíveis são verificados para garantir a sua não duplicação através de através de pedidos ARP.";
 sp_doc_wlan_p6b = "Esta verificação de endereço pode demorar vários segundos, o que é demasiado longo para alguns dispositivos e os leva a atingirem o tempo limite e a não receberem o endereço de IP atribuído. Por isso, adicionámos uma solução alternativa para tais dispositivos. Para a ativar precisa de usar o seguinte comando na consola:";
 sp_doc_wlan_p6c = "Isto leva o cFosSpeed a interferir com a negociação DHCP para enviar a atribuição de endereço de IP mais rapidamente.";
-sp_news_t = "Últimas notícias relacionadas com o cFosSpeed";
+/. "Check with" meaning "Use the following action to check the result"
 /. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
+sp_news_t = "Últimas notícias relacionadas com o cFosSpeed";
 sp_news_p1 = "O cFosSpeed verifica se há novas notícias de programa a cada 2 dias. Se existirem, exibe o símbolo de correio na janela de estado, e abre esta página da Web quando clicar nele. Esta funcionalidade é ativada por defeito. Se não estiver interessado em notícias de programa, pode desativá-la no menu de contexto em \"Opções\".";
 sp_news_p2 = "Apenas publicaremos notícias algumas vezes por ano.";
 sp_news_h0 = "Notícias cFosSpeed";
@@ -2129,6 +2172,24 @@ upload_p2 = "Por favor, fique ciente que não podemos responder a cada carregame
 description = "Descrição";
 
 /videos
+videos_h1 = "Vídeos YouTube";
+videos_text1 = "Como ajustar o Meio/Protocolo para a sua ligação de Internet";
+videos_text2 = "cFos WMI Monitor, um complemento cFos PNet";
+videos_text3 = "cFos Personal Net Web Server | Instalação e publicação simples";
+videos_text4 = "A expansão RWIN automática do cFosSpeed mantém as suas transferências no CYGWIN SCP rápidas";
+videos_text5 = "A expansão RWIN automática do cFosSpeed mantém as suas transferências no Mozilla Firefox rápidas";
+videos_text6 = "A expansão RWIN automática do cFosSpeed mantém as suas transferências no Internet Explorer rápidas";
+videos_text7 = "cFosSpeed 7.0 - Priorização Temporária de Ligações";
+videos_text8 = "cFosSpeed - Priorização Temporária de Ligações";
+videos_text9 = "cFosSpeed 6.60 - Como calibrar a sua ligação de Internet";
+videos_text10 = "cFosSpeed 6.60 - Mantém a sua Internet rápida durante upload/download - Veja como funciona.";
+videos_text11 = "cFosSpeed 6.60 - O Acelerador da Internet ... Acesso mais rápido à Internet com Modelagem de Tráfego";
+videos_text12 = "cFosSpeed 6.60 - Como registar o cFosSpeed usando o ficheiro com a sua chave de licença pessoal 'key.cfosspeed'";
+videos_text13 = "cFosSpeed 6.60 - Como usar Net Talk via consola cFosSpeed";
+videos_text14 = "cFosSpeed com Logitech gaming keyboard G15";
+videos_text15 = "cFosSpeed com Logitech gaming keyboard G19";
+videos_text16 = "cFosSpeed 6.50 Instalação no Windows7 32bit";
+videos_text17 = "cFosSpeed Versão 5.00 - Instalação no Windows 7";
 
 /meta descriptions
 missing_meta_desc = "metadescrição indisponível";
@@ -2152,16 +2213,21 @@ cfos_ipv6_link_support_desc = "Página de desinstalação do cFos IPv6 Link. Por
 cfos_ipv6_link_uninstall_desc = "Como desinstalar o cFos IPv6 Link.";
 cfos_ipv6_link_whats_new_desc = "Descubra o que há de novo no cFos IPv6 Link. Lista de todas as novas funcionalidades, melhorias e correções de bugs.";
 cfos_ipv6_link_documentation_nat64_desc = "Como configurar e usar o NAT64 do cFos IPv6 Link.";
+cfos_outlook_dav_desc = "Visão geral do cFos Outlook DAV.";
+cfos_outlook_dav_whats_new_desc = "Descubra o que há de novo no cFos Outlook DAV. Lista de todas as novas características, melhoramentos e correções de bugs.";
 cfospnet_activation_failed_desc = "O que fazer se a a ativação do cFospnet falhar.";
 cfospnet_cfospnet_desc = "Visão geral de produto do cFospnet, servidor de páginas web para utilizadores domésticos e profissionais";
 cfospnet_features_desc = "Lista das funcionalidades mais importantes do cFospnet.";
 cfospnet_license_desc = "Licença do cFos Personal Net.";
 cfospnet_uninstall_desc = "Página de desinstalação do cFos Personal Net. Por favor deixe um comentário sobre o porquê de o ter desinstalado.";
 cfospnet_whats_new_desc = "Descubra o que há de novo no cFos Personal Net. Lista de todas as novas funcionalidades, melhorias e correções de bugs.";
+cfospnet_wmi_desc = "Visão geral e documentação do complemento cFos Personal Net WMI";
 cfospnet_documentation_overview_desc = "Visão geral das funcionalidades e vantagens do cFos Personal Net.";
 cfospnet_documentation_setup_desc = "Configuração básica do cFos Personal Net - integração com o systema e configuração de utilizadores.";
 cfospnet_documentation_access_desc = "Ajuste a sua configuração do cFos Personal Net utilizando AccessFiles (.htaccess).";
 cfospnet_documentation_script_desc = "Documentation das funcionalidade de scripting do cFos Personal Net";
+cfospnet_documentation_dav_desc = "Documentação das características WebDAV, CalDAV e CardDAV de cFos Personal Net";
+cfospnet_documentation_media_desc = "Documentação das características de servidor de média de cFos Personal Net";
 cfospnet_documentation_security_desc = "Dicas de segurança para a sua instalação do servidor cFos Personal Net";
 cfospnet_documentation_scripts_desc = "Documentação dos scripts standard incluídos com o cFos Personal Net";
 cfospnet_documentation_misc_desc = "Documentação de outras funcionalidades do cFos Personal Net";
@@ -2194,7 +2260,65 @@ support_index_desc = "Contacte a equipa da cFos. Suporte técnico cFos, página 
 index_desc = "A nossa página de entrada. Escolha o produto sobre o que precisa de informações: cFosSpeed, o Acelerador da Internet, Traffic Shaping / Gestor de Largura de Banda, cFos Ipv6 Link para conetividade com o novo IPv6 e ligação dial-up de alta velocidade cFos Broadband Connect.";
 download_download_desc = "Download gratuito do cFosSpeed, cFos IPv6 link, cFos Broadband connect e cFos Professional, e ainda freeware adicional.";
 search_results_desc = "Resultados da sua pesquisa em www.cfos.de.";
+traffic_shaping_explain_desc = "Como calibrar de forma ótima a Modelagem de Tráfego cFos e como você pode verificar se funciona.";
+traffic_shaping_calibration_desc = "Modelagem de Tráfego: O que acontece na fase de aprendizagem?";
+traffic_shaping_calibration2_desc = "Modelagem de Tráfego: O que acontece na fase de aprendizagem e como você pode acelerá-la?";
+traffic_shaping_speed_guide_desc = "Dicas como você pode resolver problemas de velocidade como a Modelagem de Tráfego cFos.";
+traffic_shaping_traffic_shaping_desc = "O que é a Modelagem de Tráfego cFos e como você pode reduzir o seu tempo de ping com Modelagem de Tráfego e aumentar a velocidade de Internet.";
+traffic_shaping_traffic_shaping_options_desc = "Otimizar: como controlar as opções de Modelagem de Tráfego para o melhor desempenho.";
+cfosspeed_features_desc = "Como o cFosSpeed o pode beneficiar. Lista das características mais importantes.";
+cfosspeed_feature_hightlights_desc = "Lista de características em destaque do cFosSpeed e links para mais informação.";
+cfosspeed_cfosspeed_desc = "Visão geral do cFosSpeed, aceleração de Internet com Modelagem de Tráfego, transferência e informação técnica.";
+cfosspeed_product_news_desc = "Esta página contém notícias sobre o cFosSpeed";
+cfosspeed_license_desc = "Licença cFosSpeed.";
+cfos_outlook_dav_license_desc = "Licença cFos Outlook DAV.";
+cfos_outlook_dav_configuration_desc = "Como configurar o cFos Outlook DAV para funcionar com diversos servidores CalDAV/CardDAV.";
+cfosspeed_rwin_desc = "Benefícios de ativar a 'expansão automática RWIN'";
+cfosspeed_whats_new_desc = "Descubra o que há de novo no cFosSpeed. Lista de todas as novas características, melhoramentos e correções de bugs.";
+cfosspeed_what_is_cfosspeed_desc = "O que é o cFosSpeed? Aqui você encontra a descrição do produto.";
+cfosspeed_uninstall_desc = "Página de desinstalação do cFosSpeed. Por favor deixe o seu comentário, porque é que o desinstalou.";
+cfosspeed_expiration_desc = "O período de teste do cFosSpeed expirou. Aqui você encontra razões para o comprar agora.";
+cfosspeed_activation_failed_desc = "A ativação do cFosSpeed falhou. O que você pode fazer agora.";
+cfosspeed_technical_question_desc = "Contacte a nossa equipa de apoio. Aqui você pode fazer perguntas técnicas sobre o cFosSpeed.";
+cfosspeed_documentation_cdm_desc = "meta-descrição em falta";
+cfosspeed_documentation_index_desc = "Documentação do cFosSpeed. Tabela de conteúdos.";
+cfosspeed_documentation_games_desc = "Como acelerar jogos online com o cFosSpeed / Modelagem de Tráfego.";
+cfosspeed_documentation_install_desc = "Instalação do cFosSpeed, ativação da chave de licença e desinstalação.";
+cfosspeed_documentation_voip_desc = "Lista de programas de Voz sobre IP (VoIP) priorizados com o cFosSpeed.";
+cfosspeed_documentation_registration_desc = "Como resolver problemas com a ativação da chave de licença";
+cfosspeed_documentation_surf_desc = "Como acelerar a navegação na Internet com o cFosSpeed / Modelagem de Tráfego.";
+cfosspeed_documentation_speed_list_desc = "Lista de alguns fornecedores de Internet usados com o cFosSpeed, ordenados por país.";
+cfosspeed_documentation_status_desc = "Explicação de todos os elementos nas várias janelas de estado do cFosSpeed.";
+cfosspeed_documentation_status_aquarium_desc = "Explicação de todos os elementos no tema cFosSpeed Aquarium.";
+cfosspeed_documentation_status_aquarium_icon_desc = "Explicação de todos os elementos no tema cFosSpeed Aquarium Icon.";
+cfosspeed_documentation_status_liquid_crystal_desc = "Explicação de todos os elementos no tema cFosSpeed Liquid Crystal.";
+cfosspeed_documentation_status_liquid_crystal_history_desc = "Explicação de todos os elementos no tema cFosSpeed Liquid Crystal History.";
+cfosspeed_documentation_status_metro_desc = "Explicação de todos os elementos no tema cFosSpeed Metro.";
+cfosspeed_documentation_status_traffic_analysis_desc = "Explicação de todos os elementos no tema cFosSpeed Traffic Analysis.";
+cfosspeed_documentation_status_traffic_analysis_icon_desc = "Explicação de todos os elementos no tema cFosSpeed Traffic Analysis Icon.";
+cfosspeed_documentation_status_traffic_analysis_insight_desc = "Explicação de todos os elementos no tema cFosSpeed Traffic Analysis Insight.";
+cfosspeed_documentation_status_user_led_desc = "Explicação de todos os elementos nos temas de utilizador cFosSpeed / Uso de LEDs do teclado.";
+cfosspeed_documentation_menu_desc = "Explicação das opções do menu de contexto do cFosSpeed.";
+cfosspeed_documentation_no_ping_desc = "O que você pode fazer se o cFosSpeed não recebe pings.";
+cfosspeed_documentation_phone_skins_desc = "Como utilizar o seu telemóvel ou tablet para indicação de estado se o seu computador estiver em modo de ecrã completo.";
+cfosspeed_documentation_prog_prio_desc = "Como o esquema de priorização funciona.";
+cfosspeed_documentation_keyboard_leds_desc = "Como utilizar os LEDs do teclado para indicação de estado se o seu computador estiver em modo de ecrã completo.";
 /. `BitTorrent` — name of the protocol, not of the program
+cfosspeed_documentation_p2p_desc = "Como configurar o cFosSpeed para desempenho ótimo em redes de partilha P2P, como Bittorrent, E2K, etc.";
+cfosspeed_documentation_logitech_keyboard_desc = "Como utilizar o ecrã dos teclados Logitech Gamer para informação de estado do cFosSpeed. G19, G15, G13, G510 e modelos compatíveis.";
+cfosspeed_documentation_wlan_access_point_desc = "Como utilizar o cFosSpeed para transformar o seu PC Windows num ponto de acesso WLAN para smartphones, tablets e outros dispositivos.";
+beta_index_desc = "Transfira as versões beta mais recentes de cFosSpeed, cFos IPv6 Link, cFos Broadband Connect e cFos Professional.";
+beta_cfos_ipv6_link_whats_new_desc = "Lista de novas características do cFos Ipv6 Link, melhoramentos e correções de bugs na versão beta.";
+beta_cfos_broadband_connect_whats_new_desc = "Lista de novas características do cFos Broadband Connect, melhoramentos e correções de bugs na versão beta.";
+beta_cfos_pnet_whats_new_desc = "Lista de novas características do cFos Personal Net, melhoramentos e correções de bugs na versão beta.";
+beta_cfos_professional_whats_new_desc = "Lista de novas características do cFos Professional, melhoramentos e correções de bugs na versão beta.";
+beta_cfosspeed_whats_new_desc = "Lista de novas características do cFosSpeed, melhoramentos e correções de bugs na versão beta.";
+oem_oem_desc = "Informação sobre os nossos produtos e a sua personalização para parceiros OEM. Também inclui contrato / Licença OEM.";
+cfos_notifier_desc = "Visão geral do cFos Notifier.";
+cfos_notifier_whats_new_desc = "Descubra o que há de novo no cFos Notifier. Lista de todas as novas características, melhoramentos e correções de bugs.";
+upload_desc = "Página para envio de dumps e de outros ficheiros.";
+video_page_desc = "Lista de todos os vídeos no YouTube de cFos Software";
+cfosspeed_features_title = "Lista das características mais importantes do cFosSpeed.";
 
 /mailing lists
 
