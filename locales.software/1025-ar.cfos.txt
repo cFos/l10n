@@ -33,6 +33,8 @@ htm_lang_prefix = "ar";
 /
 / ----------------------------------------------------------------------
 
+ignore_ssl_cert_chk = "إلغاء أخطاء شهادة SSL (غير آمن)";
+ignore_ssl_cert_desc = "اذا سمح لـ cFos Outlook DAV بتجاهل أخطاء شهادة SSL, فيمكنه الاتصال بالخوادم مع شهادات SSL غير آمنة, مثل الشهادات الموقعة ذاتيا, تمكين هذا الخيار عادة لا ينصح به, لأنه يجعل إتصال الـ SSL قابل للهجمات من نوع man-in-the-middle";
 od_key_registered = "تم تسجيل المفتاح. الرجاء إعادة تشغيل اوتلوك لتفعيل التسجيل.";
 
 / ----------------------------------------------------------------------
@@ -55,6 +57,7 @@ sixlink_desc = "%p ,  العالي السرعة IPv6 برنامج التشغيل
 cfospnet_mainurl = "%url/index.htm";
 cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/ar/order/cfos-personal-net-n.htm";
+pnet_desc = "%p, خادم الويب الشخصي الخاص بك";
 renew_params = "تجديد المعايير";
 dlg_dun_auto = "إتصال-تلقائي";
 dlg_dun_default = "الإتصال الإفتراضي";
@@ -62,9 +65,17 @@ dlg_dun_cons = "وضعيات الإتصال";
 dlg_dun_name = "إسم الإتصال:";
 dlg_dun_uname = "إسم المستخدم:";
 dlg_dun_pwd = "كلمة المرور:";
+dlg_dun_use_ipv4 = "استخدام IPv4";
+dlg_dun_use_ipv6 = "استخدام IPv6";
 dun_connect_to = "الإتصال بـ %?";
 dun_err_already_exists = "إسم إدخال الإتصال موجود مسبقا";
 disconnect = "قطع الإتصال";
+setup_connections = "اعداد الاتصالات";
+ask_inst_ipv6 = "بروتوكول IPv6 ليس مثبتا بعد علي هذا النظام.\n\n"
+        "هل تريد تثبيت بروتوكول IPv6 الان ؟";
+err_inst_ipv6 = "خطأ %? عند تثبيت بروتوكول IPv6.";
+pause_server = "ايقاف مؤقت للخادم ";
+resume_server = "اعادة تشغيل الخادم";
 file_link_failed = "عملية خلق وصلة الملف فشلت.";
 
 / connection entry dialog
@@ -78,20 +89,86 @@ con_dns2 = "DNS2:";
 con_enabled = "ممكن";
 
 / pnet configuration dialog
+pnet_header = "الاعدادت المشتركة";
+pnet_subheader = "ظبط الاعدادات المشتركة.";
+pnet_conn_header = "اتصال";
+pnet_conn_subheader = "اعدادات خيارات الاتصال.";
+pnet_conn_local_ip = "عناوين الايبي IP المحلية %?";
+pnet_conn_public_ip = "عناوين الايبي IP العامة %?";
+pnet_pubdir_header = "المجلد العام";
+pnet_pubdir_subheader = "المجلد الذي يحتوي الملفات القابلة للتحميل.";
+pnet_pubdir_info = "من فضلك حدد موقع الملف الذي يحتوي علي الملفات التي تريد اتاحتها للتحميل.";
+smtp_header = "خادم SMTP";
+smtp_subheader = "ظبط خوادم الـ SMTP";
+dynip_header = "خوادم ذات ايبي IP متغير";
+dynip_subheader = "ظبط الخوادم ذان الأيبي IP المتغير.";
+dlg_start_now_as_current_user = "بدأ %p الأن كمستخدم حالي";
+dlg_autostart = "بدأ %p عندما يبدأ الوندوز";
+dlg_autostart_service = "تثبيت %p كخدمة و بدأه عند بدأ الوندوز.";
+dlg_context_menu = "إظافة ادخال للقائمة النصية لمستكشف نظام الوندوز";
+dlg_create_admin_account = "انشاء حساب مدير";
+dlg_admin_pwd = "كلمة المرور للمستخدم \"admin\":";
+dlg_admin_pwd_needed = "كلمة المرور للمستخدم \"admin\" يجب ان تعطي لانشاء حساب مدير.";
+dlg_register_shell_extension = "تسجيل امتداد Shell";
+dlg_server_port = "منفذ الخادم:";
+dlg_server_name = "اسم الخادم:";
+dlg_server = "الخادم:";
+dlg_https_port = "منفذ HTTPS:";
+dlg_renew_interval = "فترة التجديد (ms):";
+dlg_redirect_delay = "تأخير اعادة التوجيه (ms):";
+dlg_monitor_ports = "مراقبة تعيين المنفذ";
+dlg_enable_upnp = "تمكين الخادم متعدد الوسائط (UPnP/DLNA)";
+dlg_upnp_info = "وضع الملفات متعددة الوسائط في المجلد الفرعي 'media' للمجلد العام الخاص بك";
+use_https_port = "استخدام منفذ HTTPS";
 
 / pnet start type dialog
+pnet_start_header = "نوع التشغيل";
+pnet_start_subheader = "كيف يجب تشغيل البرنامج؟";
+pnet_start_mode = "تشغيل %p:";
+pnet_start_login = "عند تسجيل الدخول ينصح به";
+pnet_start_system = "خدمة كنظام";
+pnet_start_manual = "يدوي";
+pnet_start_info = "ينصح بـ تشغيل %p تلقائيا عند تسجيل الدخول. "
+         "إذا كان %p أيضا مشغل عند عدم وجود اي مستخدم متصل, عليك أن تبدأه كـخدمة نظام. "
+         "و لكن في هذه الحالة لن يكون هناك ايقونة شريط المهام و لا قائمة السياق. "
+         "اذا كنت تريد أن تجعل بياناتك العامة للجمهور أحيانا فقط, ثم تشغل %p يدويا.";
 
 / pnet context menu entry
+publish_with_product = "انشر مع %p";
 
 / pnet backup info
+dlg_backup_info = "تم إنشاء ملف النسخ الاحتياطي (.bak) من كل من الملفات التالية قبل أن يتم استبدالها:";
 
 / pnet
+end_program = "انهاء البرنامج";
+file_copy_failed = "عملية نسخ الملف فشلت.";
+ipv4_bind_problem = "الخادم لا يستطيع الاستماع إلى المنفذ المحدد مع IPv4, لأنه مستخدم من قبل تطبيق آخر (مثل سكايب).";
+ipv6_bind_problem = "الخادم لا يستطيع الاستماع إلى المنفذ المحدد مع IPv6, لأنه من قبل تطبيق آخر (مثل سكايب).";
+closing_server = "خادم مغلق و خارج الخدمة";
+start_product = "تشغيل %p";
+info_port_in_use = "المنفذ %? المطلوب بواسطة %p في حالة استخدام بواسطة برنامج أخر.\n\nبرنامج: %?\nPath: %?\n\n"
+          "لإستخدام %p, يجب أن تنهي البرنامج الآخر أو إختر منفذ آخر في اعدادات %p.";
+monitor_port_desc = "هذه المهمة تراقب بشكل دوري المنافذ التي يحتاجها٪ p و تنبه المستخدم إذا كان أحد المنافذ مستخدم من قبل برنامج آخر.";
+logon_start_desc = "هذه المهام تشغل %p اذا كان المستخدم المعروض ادناه متصل";
+show_home_dir = "إظهار المجلد الرئيسي";
+publish_file = "نشر الملف";
+user_administration = "إدارة المستخدم";
 /. Label of menu entry, which enables and disables any uploads to PNET.
 /. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
 /. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
+disable_uploads = "ايقاف الرفع";
+enable_uploads = "تمكين الرفع";
+publish_file_for_download = "نشر الملف للتحميل";
 /. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
+upload_url_to_clipboard = "نسخ رابط التحميل إلى الحافظة";
 
 / pnet connectivity test
+connectivity_test = "اختبار الاتصال";
+con_test_subheader = "من فضلك انتظر حتي تكتمل عملية إختبار الاتصال.";
+con_test = "إختبار الاتصال %p";
+con_test_not_running = "إختبار الاتصال لا يمكن تنفيذه, حيث ان %p غير مشغل, من فضلك شغل الـ %p و شغل إختبار الاتصال من جديد.";
+con_test_public_fail = "عنوان الايبي الخاص بك لا يمكن تحديده, من فضلك تأكد من أنك متصل بالانترنيت و جرب من جديد.";
+con_test_execute = "تنفيذ إختبار الاتصال";
 
 / ----------------------------------------------------------------------
 /
@@ -99,6 +176,14 @@ con_enabled = "ممكن";
 /
 / ----------------------------------------------------------------------
 
+ga_service_desc = "cFos محلل اللعبة - آداة استرداد البيانات";
+ga_speed_installed = "يظهر أن cFosSpeed مثبت علي جهازك.\n\ncFosSpeed يحتوي بالفعل علي وظائف cFos Game Analyser.\n\nلإستخدام أحدث خصائص cFos Game Analyser يرجي تحميل و تثبيت أحدث نسخة من cFosSpeed من خلال الموقع www.cfos.de.";
+local_ip_addresses = "عناوين الايبي IP المحلية:";
+ga_password_subheader = "كلمة المرور للوصول الخارجي الي cFos Game Analyzer.";
+ga_password_info = "الاسم المستعار: cfosspeed";
+ga_call_info = "وصول cFos Game Analyser من جهاز الكمبيوتر المحلي مع\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nAccess cFos Game Analyzer من جهاز خارجي بواسطة كلمة المرور المذكورة أعلاه و إستعمل واحد من عناوين الأيبي IP التالية بدلا من 'localhost':\n";
+ga_detected_by_speed = "تم الكشف عن نسخة مثبتة من إصدار cFos Game Analyzer. cFosSpeed يحتوي علي كل خصائص cFos Game Analyzer.\n\nإذا كنت تريد المتابعة سيتم إلغاء تثبيت cFos Game Analyzer قبل تثبيت cFosSpeed.\n\nهل ترغب في الاستمرار ؟";
+ga_use_password_by_speed = "يجب علي cFosSpeed استخدام كلمة المرور لـ cFos Game Analyzer, حيث تستطيع الوصول الي cFosSpeed من خلال أجهزة أخري كذلك ؟";
 
 / ----------------------------------------------------------------------
 /
@@ -407,6 +492,7 @@ welcome_found_modified = "%1 v%2 تم إكتشاف تثبيت معدل أو غي
 welcome_update = "لإستبدال النسخة الحالية أنقر على التالي";
 welcome_admin = "أنت ما عندك إمتيازات المدير . لتشغيل هذا المعالج تحتاج لتسجيل الدخول كمستخدم عنده إمتيازات إدارية";
 welcome_lang_syslink = "<a href= \"%?\">لغات إضافية</a>";
+welcome_oem_info = "%1 هي نسخة OEM من %p لـ %2. و لذلك %p يحتوي علي كل ميزات %1 و أكثر ";
 
 / uninstall welcome page
 ui_welcome_line = " %? v%? إلغاء تثبيت";
@@ -444,10 +530,24 @@ pwd_activate_failed = "مفتاح التنشيط لايعمل ! ";
 pwd_activate_failed_code = "فشل تنشيط المفتاح : الخطأ %?.";
 
 / serial number dialog
+sn_header = "الرقم السري.";
+sn_subheader = "أدخل الرقم السري و قم بتفعيل المفتاح";
+sn_info = "إذا كان لديك كلمة مرور من نموذج 16 رقم XXXX-XXXX-XXXX-XXXX, يرجى "
+  "الخروج من هذا الحوار و إظغط مرتين علي مفتاح الترخيص الخاص بك. "
+  "سوف تظهر الشاشة حيث يمكنك إدخال كلمة المرور.\n\n"
+  "إذا كان لديك رقم تسلسلي مكون من 30 رقم من هذا النموذج xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx يرجي "
+  "أدخل الآن لتحميل وتفعيل مفتاح الترخيص الخاص بك.\n\n";
+sn_serial_number = "الرقم السري:";
+sn_invalid_serial_number = "الرقم التسلسلي غير صالح. يرجى التحقق من المدخلات الخاصة بك وحاول مرة أخرى.";
 / the %? will be replaced by the error number:
+sn_download_err = "خطأ %? أثناء تحميل ملف المفتاح من خادمنا.";
+sn_save_err = "لا يمكن حفظ ملف المفتاح إلى القرص في %?.";
+sn_keyfile_err = "ملف النفتاح غير صالح.";
 
 / new 16 digit serial number dialog
 /. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
+sn16_info = "الرجاء إدخال الرقم التسلسلي المكون من 16 رقما لاستقبال مفتاح الترخيص الخاص بك. يجب أن تكون متصلا بالإنترنت لاستقبال مفتاح الترخيص بنجاح.";
+sn16_failed = "فشل الحصول علي مفتاح الترخيص!";
 
 / re-enter password dialog
 repwd_header = "كلمة مرور %?";
@@ -483,6 +583,13 @@ hangup_disco = "قطع الإتصال";
 /. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
 
 / crash handler messages
+crash_msg_crash = "حدث استثناء غير معالج في %p.";
+crash_msg_crash_installer = "حدث استثناء غير معالج في %p برنامج التثبيت";
+crash_msg_virus = "قامت الوحدة التالية بضخ نفسها في البرمانج, و ربما تكون سبب المشكلة:";
+crash_msg_virus_clean = "قد تكون هذه الوحدة فيروس. لذلك فإنه ينصح بشدةبتشغيل ماسح الفيروسات على النظام الخاص بك.";
+crash_msg_hook = "تم العثور على وحدات من البرامج الأخرى, التي حقنت نفسها في هذا البرنامج. للتأكد من أن هذه الوحدات ليست هي سبب المشكلة, الرجاء تشغيل هذا البرنامج مرة أخرى بعد تعطيل أو إلغاء تثبيت البرامج التالية:";
+crash_msg_terminate = "إنهاء البرنامج الآن.";
+crash_msg_query_upload = "هل ترغب في إرسال معلومات عن العطل الي cFos, الذي سيساعدنا على تحليل الخطأ؟";
 crash_msg_new_release = "يوجد إصدار جديد من %p.الرجاء تنزيل و تثبيت الإصدار الجديد من موقع www.cfos.de.";
 crash_msg_new_beta = "يوجد إصدار جديد بيتا من %p.الرجاء تنزيل و تثبيت الإصدار الجديد بيتا من موقع www.cfos.de/beta.";
 
@@ -565,16 +672,23 @@ query_reboot = "يجب أن تعيد تشغيل نظامك لتفعيل التغ
 query_inst_reboot = "يتوجب عليك إعادة تشغيل نظام التشغيل في الكومبيوتر قبل امكانية الاستمرار في عملية التثبيت.\n\nالرجاء اعادة تشغيا برنامج التثبيت بعد إعادة تشغيل الكومبيوتر.\n\nهل تريد اعادة تشغيل الكومبيوتر الآن؟";
 query_drv_inst_cancel = "يتم إلغاء تثبيت برنامج التشغيل عن طريق نظام التشغيل\nيتطلب الويندوز حوالي 15 دقيقة من أجل تسجيل أو إلغاء تسجيل برنامج التشغيل\nيستحسن عدم إلغاء هذه العملية\n\nهل تريد فعلا إلغاء الأمر ؟";
 query_driver_err_abort = "لقد كان هناك خطأ أثناء تثبيت برنامج التشغيل\nيستحسن إنهاء التثبيت\nالآن\n\nبالرغم من ذلك ممكن مواصلة التثبيت\nبغرض التجربة\n%p غالبا لن يعمل بشكل صحيح\n\nهل تنهي التثبيت ؟ (مستحسن) ـ";
+query_further_info = "هل تريد المزيد من المعلومات؟";
 
 / error messages
 err_driver_inst = "فشل تثبيت برنامج التشغيل";
+err_service_inst = "خدمة التثبيت قد فشلت.";
+err_service_uninst = "خدمة إلغاء التثبيت قد فشلت.";
 err_daemon_start = "%? تعذر بدء";
 err_uninst_old = "تعذر إلغاء تثبيت النسخة الحالية . الرجاء تسجيل الخروج من نظام التشغيل ثم تسجيل الدخول ثانية و إعادة المحاولة";
 err_os = "نظام تشغيلك هو %?\n\nWindows 2000/XP %? يتطلب\nأو أعلى للتشغيل";
 err_os_minxp = "نظام تشغيلك هو %?\n\nWindows XP %? يتطلب\nأو أعلى للتشغيل";
+err_os_sup = "%p يدعم رسما فقط %? او أعلي.\n\n"
+       "من الممكن, لكن لم تختبر من طرفنا, أيضا %p يشغل علي نظام التشغيل الخاص بك %?.\n\n"
+       "هل ترغب في متابعة التثبيت؟";
 err_uninst_driver = "تعذر إلغاء تثبيت برنامج تشغيل الجهاز";
 err_create_process = "خطأ في الإستدعاء %s: %s";
 err_write_lock = "قيد الإستعمال من عملية أخرى %? مكونات شبكة\nالرجاء إغلاق كافة التطبيقات الأخرى أو إعادة تشغيل الكمبيوتر ثم المحاولة ثانية";
+err_write_lock_process = "%? مكونات الشبكة قيد الاستخدام من قبل العملية التالية: %?. الرجاء إغلاق هذه العملية أو إعادة تشغيل جهاز الكمبيوتر الخاص بك وإعادة المحاولة.";
 err_file_auth = "بعض ملفات هذا التوزيع تالفة أو مفقود\nمرخص %p الرجاء إحصل على توزيع\n(www.cfos.de مثلا من)";
 err_cancel = "تم إلغاء العملية";
 err_no32 = "لا يمكن تثبيت برامج تشغيل 32-بت على أنظمة 64-بت\n\nالنظام : %?\nالمنتج : %?";
@@ -582,13 +696,37 @@ err_bad_keyfile = "ملف المفتاح يبدو أنه تالف أو غير ص
 err_bad_setup = "مثبت بشكل غير صحيح %p يبدو أن\nأو بعض الملفات معدل الرجاء إعادة\nجديدة و حاول ثانية %p  تثبيت نسخة";
 err_bad_signature = "كلمة المرور غير صحيحة أو أنها لملف مفتاح مختلف . الرجاء إدخال كلمة المرور المطابقة لملف المفتاح هذا";
 err_gdiplus = "لم يتم العثور على الواجهة البينية + المكتبة\n\nهذا التثبيت يمكن فقط أن يستمر إذا تم تثبيت الواجهة البينية + المكتبة\nيمكنك تحميل الواجهة البينية + المكتبة من\nالقابلة لإعادة التوزيع SDK موقع ميكروسوفت كجزء من\n\nأنقر على 'حسنا' لفتح صفحة التحميل المتعلقة في ميكروسوفت\nأنقر على 'إلغاء الأمر' لإلغاء التثبيت";
+err_winhttp =
+ "لم يتم العثور علي مكتبة WinHTTP!\n\n"
+ "عملية التثبيت يمكن أن تستمر فقط إذا كانت مكتبة WinHTTP مثبتة.\n"
+ "مكتبة WinHTTP ينبغي أن تكون جزء من نظام التشغيل الخاص بك, لكنها\n"
+ "لا يمكن تحميله.";
 bad_manufacturer = "لا يمكن بدء التثبيت ، لأن المنتج مرخص فقط للجهاز المحدد";
 cannot_install = "لا يمكن التثبيت";
+err_uninst_daemon =
+  "لا يمكن إلغاء تثبيت البرنامج الخفي daemon. "
+  "اذا كانت هناك %p نوافذ حوار مفتوحة, أغلق هذه النوافذ أولا. "
+  "خلاف ذلك, إعادة تشغيل جهاز الكمبيوتر الخاص بك.";
+err_activate_10045 =
+  "حدث خطأ HTTP 10045 أثناء التنشيط.\n"
+  "أحد الأسباب المحتملة هو أن WINSOCK الخاص بك تالف.\n"
+  "لإعادة ظبط Winsock الخاص بك يرجي فتح الامر shell\n"
+  "وقم بإدخال 'netsh winsock reset'.\n"
+  "بعد ذلك قم بإعادة تشغيل الكمبيوتر و حاول التفعيل\n"
+  "مرة أخرى.";
+err_activate_12002 =
+  "حدث خطأ HTTP 12002 (طلب مهلة) خلال\n"
+  "التسجيل. أحد الأسباب المحتملة يمكن أن يكون هذا الاتصال إلى خادمنا\n"
+  "ظروري للتسجيل لكنها معطلة بواسطة جدار ناري, مضاد فيروسات\n"
+  "برنامج أو اي نوع آخر من برامج الحماية, اذا لديك واحد منها و التي\n"
+  "برامج مثبتة, يرجي تعطيلها مؤقتا و أعد محاولة التسجيل.";
 / %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "%2 (%3) إلى %1خطأ في نسخ الملف";
+err_port_in_use = "منفذ الخادم %? مستخدم حاليا من طرف برنامج آخر.\n\nبرنامج: %?\nPath: %?";
 
 / warning messages
 wrn_oem_update = "مثبتة مسبقة %p لديك رخصة\n\nأنت على وشك تثبيت نسخة تجريبية عادية\nعند الإستمرار بهذا التثبيت فإن رخصتك سوف لن تعمل\n%p يمكنك الحصول على تحديث لرخصة\nمن حيث إشتريت المنتج\n\nهل تريد الإستمرار بالتثبيت ؟";
+wrn_close_application = "ينصح بإغلاق البرامج التالية قبل المتابعة:";
 
 / traffic shaping algorithm
 tsa_header = "(نمط تشكيل حركة المرور (نسخة مستخدم متعدد";
