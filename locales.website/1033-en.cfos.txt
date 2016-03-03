@@ -466,6 +466,7 @@ dupe_a_voip = "Good voice quality with Voice-over-IP (VoIP) (german)";
 budgets = "Online Budgets";
 desc_cfosbc = "<b>cFosBC</b>, high performance dial-up for high bandwidth internet access";
 firewall = "Firewall";
+greenlight_h1 ="<b style=\"color: #409a03\">82% \"YES\" votes</b> and positive comments on <b><span style=\"color: #5B7399\">cFosSpeed's</span> <a class=\"inline\" href=\"http://steamcommunity.com/sharedfiles/filedetails/comments/538515919\"><span style=\"color: #409a03\">Steam Greenlight page</span></a></b>!";
 header_features = "Features";
 highlights = "Highlights";
 highlight1 = "cFosSpeed prevents one application (e.g. sending email) from choking all others, like telephone calls, chat, etc.";
@@ -541,6 +542,7 @@ word_more = "more";
 desc_pnet = "Web server for home users and professionals";
 pnet_title = "Web server for home users and professionals";
 desc_pnet_new = "Host your files and synchronize your data";
+desc_pnet_portable = "Allows you to host files without installing software or using 3rd party services";
 pnet_video = "cFos Personal Net Web Server<br/>Installation and simple publishing";
 pnet_li_text_feat1 = "Instant web hosting on your PC";
 pnet_li_text_feat2 = "Easy server setup within a few minutes";
@@ -569,6 +571,16 @@ pnet_after = "After August 7th it will be";
 pnet_wmi_add_p1 = "The <a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI Monitor</b></a> is a free add-on for cFos Personal Net to display nearly all WMI values about your system, e.g. CPU load, GPU load, network usage, ping time, etc. Access these WMI values from anywhere.";
 pnet_wmi_add_p2 = "The <b>cFos WMI Monitor</b> helps gamers, power users, musicians, etc. to monitor the performance of different components in the system while running their (full-screen) applications. The <b>cFos WMI Monitor</b> makes this information available in a browser window on your PC or smartphone.";
 pnet_wmi_explain = "What is the cFos WMI Monitor?";
+pnet_portable_h1 = "Host a file with just 2 steps";
+pnet_portable_p1 = "Download cFos Personal Net Portable (cfospnet_portable.exe) and start it.";
+/. Don't translate the "Publish with..." part
+pnet_portable_p2 = "In Windows Explorer right-click on the file you want to make available for download and select \"Publish with cFos Personal Net (portable)\".";
+pnet_portable_h2 = "Additional info for cFos Personal Net Portable";
+pnet_portable_p3 = "Your download link is copied to the clipboard so you can paste it into an email or message.";
+/. Don't translate the "Publish" and "Upload..." parts
+pnet_portable_p4 = "You may need to <a class=\"inline\" href=\"/en/cfos-personal-net/documentation/router.htm\"><b>allow NAT port-forwarding</b></a> in your router. You can also allow people to upload files. Right-Click on the cFos Personal Net taskbar icon, select \"publish\" then \"Upload link to clipboard\"";
+pnet_portable_p5 = "Users of cFos Personal Net will find <em>cfospnet_portable.exe</em> in the installation directory, so you can use it in full server mode or portable mode. Most of the functionality of cFos Personal Net is also available in portable mode.";
+pnet_portable_p6 = "<b>How to activate your license key</b>: cFos Personal Net Portable creates a <em>pub\\admin</em> directory in the location it was started from. Simply move your license key to this <em>pub\\admin</em> directory. If your license key requires a password authorization, please contact us for a new key without password requirement.";
 pnet_doc_a1 = "Overview";
 pnet_doc_a2 = "Basic setup";
 pnet_doc_a3 = "Additional configuration";
@@ -580,6 +592,7 @@ pnet_doc_a8 = "Feature reference";
 pnet_doc_a9 = "Router/Firewall configuration";
 pnet_doc_a10 = "WebDAV, CalDav and CardDav";
 pnet_doc_a11 = "UPnP Media Server";
+pnet_doc_a12 = "Installing scripting languages";
 pnet_wmi_title = "cFos WMI Monitor, a cFos Personal Net add-on package";
 pnet_wmi_p1 = "Monitor vital WMI data on your PC or smartphone.<br/>Free addon package for <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net</a> users.";
 pnet_wmi_p2 = "The cFos WMI Monitor allows to display nearly all WMI values about your system, for example <b>CPU load</b>, <b>GPU load</b>, <b>network usage</b>, <b>ping time</b>, etc.<br/>Access these WMI values from <b>anywhere</b>.";
@@ -756,15 +769,27 @@ pnet_doc_misc_l4 = "Edit the <em>.htaccess</em> file in the directories where yo
 pnet_doc_misc_l5 = "Check all Perl scripts for the correct interpreter line. In CGI scripts the first line of the script file tells the web server where to find the interpreter for that script. Under UNIX often <em>perl</em> is in <em>/usr/bin</em>. So, in all your Perl scripts, change the location of your perl interpreter (after the \"<b>!</b>\" character):<br/><b>#! /usr/bin/perl</b><br/>to<br/><b>#! c:\\perl\\perl.exe</b><br/>assuming your Perl installation directory is <em>c:\\perl</em>.";
 pnet_doc_misc_l6 = "Configure sendmail. cFos PNet is shipped with the little <em>sendmail.exe</em> to allow UNIX style sending of mails. It takes the smtp parameters configured for cFos PNet in the <em>GLOBAL.INI</em> to send mails via SMTP and accepts the mail as plain text from <b>stdin</b>. Search your Perl scripts for sendmail calls and replace them by a call to cFos PNet's <em>sendmail.exe</em>.<br/>For example, change<br/><b>open (MAIL, \"|/usr/bin/sendmail -t -i -oi\");</b><br/>to<br/><b>open (MAIL, \"|c:\\\\program files\\\\cfos\\\\cfospnet\\\\sendmail.exe -t -i -oi\");</b><br/>where <em>c:\\program files\\cfos\\cfospnet</em> is your cFos PNet installation directory.";
 pnet_doc_misc_h2 = "cFos Personal Net with PHP scripts";
-pnet_doc_misc_p9 = "There are 4 steps to use PHP scripts with cFos PNet:";
+pnet_doc_misc_h2_v2 = "cFos Personal Net with PHP and MySQL";
+pnet_doc_misc_p9 = "These are the steps to use PHP scripts and MySQL with cFos PNet:";
 pnet_doc_misc_l8 = "Download the thread-safe binaries as ZIP file from <a class=\"inline\" href=\"http://windows.php.net/download/\">http://windows.php.net/download/</a>. Unzip into a PHP directory of your choice, e.g. <em>c:\\php</em>.";
 pnet_doc_misc_l9 = "In the PHP directory, rename <em>php.ini-production</em> to <em>php.ini</em> and edit it:";
 pnet_doc_misc_l9a = "Set up sendmail. cFos PNet comes with a little <em>sendmail.exe</em> program to allow UNIX style sending of mails. Remove the \"<b>;</b>\" comment of <b>sendmail_path</b> and change this line to<br/> <b>sendmail_path=c:\\\\program files\\\\cfos\\\\cfospnet\\\\sendmail.exe</b><br/>assuming <em>c:\\program files\\cfos\\cfospnet</em> is the cFos PNet installation directory.<br/>You can also use the <b>PHP built-in mail sending features</b>, instead.";
 pnet_doc_misc_l9b = "Depending on your PHP script use you may need to configure the location of <b>document_root</b>. It is by default <em>c:\\programdata\\cfos\\cfospnet\\pub</em>";
+pnet_doc_misc_l9b_v2 = "If your PHP scripts use the location of the public directory, such as <b>document_root</b>, you may need to configure it. It is by default c:\\programdata\\cfos\\cfospnet\\pub.";
 pnet_doc_misc_l9c = "Add an \"<b>E</b>\" to the <b>variables_order</b>, e.g. <b>variables_order = \"EGPCS\"</b>.";
 pnet_doc_misc_l10 = "Tell cFos PNet where the PHP interpreter is located by adding the key <b>php_interpreter</b> to the section <b>[param]</b> of <em>GLOBAL.INI</em> in <em>c:\\programdata\\cfos\\cfospnet</em>, e.g.<br/><b>php_interpreter=c:\\php\\php-cgi.exe</b><br/>You need to specify the CGI version of PHP here.";
 pnet_doc_misc_l11 = "Edit the <em>.htaccess</em> file in the directories where your PHP scripts are. Or, to enable PHP scripts globally, edit the <em>.htaccess</em> file in the document root directory or in <em>c:\\programdata\\cfos\\cfospnet\\private</em>. Add the following directive:<br/><b>AddHandler php-script php</b>";
 share_cfospnet = "Share cFos PNet";
+pnet_doc_languages_h1 = "cFos Personal Net with WordPress";
+pnet_doc_languages_l1 = "Download and install MySQL and PHP.";
+pnet_doc_languages_l2 = "Configure WordPress database:";
+pnet_doc_languages_l2a = "Find <em>mysql.exe</em> on your computer and run it with<br/>> mysql.exe -u <b>admin_username</b> -p<br/>Enter <b>admin_password</b>.";
+pnet_doc_languages_l2b = "Then issue the following commands:<br/>CREATE DATABASE <b>pnet_wordpress_db</b>;<br/>GRANT ALL PRIVILEGES ON <b>pnet_wordpress_db</b>.* TO \"<b>wordpress_username</b>\"@\"localhost\" IDENTIFIED BY \"<b>wordpress_password</b>\"; FLUSH PRIVILEGES; EXIT;";
+pnet_doc_languages_l2c = "You can delete that database with the mysql.exe and the command DROP DATABASE <b>pnet_wordpress_db</b>;.";
+pnet_doc_languages_l3 = "Create a subdirectory in your pnet <em>pub</em> tree and copy WordPress from zip archive into it.";
+pnet_doc_languages_l4 = "Start pnet and run the WordPress install script with your browser:<br/>http://localhost/<b>your_wordpress_subdirectory</b>/wp-admin/install.php<br/> and use <b>pnet_wordpress_db</b>, your <b>wordpress_username</b> and <b>wordpress_password</b> to specify the database WordPress should use.";
+pnet_doc_languages_l5 = "Download and install MySQL (e.g. Community Edition, install as \"Server Only\"), configure an additional user (maybe with db admin rights).";
+pnet_doc_languages_l6 = "In <em>php.ini</em> under Windows Extensions uncomment<br/><b>;extension=php_mysqli.dll</b><br/>and change it to<br/><b>extension=ext/php_mysqli.dll</b>.";
 
 / cFos Outlook DAV
 cfout_h1_v2 = "Cloud synchronisation of your Outlook calendar, tasks and contacts";
@@ -840,9 +865,10 @@ cfout_egroupware_cal1 = "http://<b>egroupware_server_domain</b>/<b>install_path<
 cfout_egroupware_cal2 = "Your EGroupware username";
 cfout_egroupware_cal3 = "Your EGroupware password";
 cfout_egroupware_card1 = "http://<b>egroupware_server_domain</b>/<b>install_path</b>/groupdav.php/<b>addressbook/<br/>(e.g. http://mydomain.com/egw/groupdav.php/addressbook/)";
-cfout_posteo_cal1 = "https://posteo.de:8443/calendars/<b>your_posteo_username/default<br/>(e.g. )";
+cfout_posteo_cal1 = "https://posteo.de:8443/calendars/<b>your_posteo_username</b>/default<br/>(e.g.  https://posteo.de:8843/calendars/user1234/default)";
 cfout_posteo_cal2 = "Your Posteo username";
 cfout_posteo_cal3 = "Your Posteo password";
+cfout_posteo_card1 = "https://posteo.de:8843/addressbooks/<b>your_posteo_username</b>/default<br/>(e.g. https://posteo.de:8843/addressbooks/user1234/default)";
 cfout_sarenet_cal1 = "https://ramattacknet.organizer.sarenet.es/caldav.php/<b>your_sarenet_user_email</b>/<br/>(e.g. https://ramattacknet.organizer.sarenet.es/caldav.php/user1234@ramattack.net/)";
 cfout_sarenet_cal2 = "Your Sarenet username";
 cfout_sarenet_cal3 = "Your Sarenet password";
@@ -865,7 +891,11 @@ cfout_baikal_card1 = "http://<b>baïkal_server_domain</b>/card.php/addressbooks<
 cfout_sogo_cal1 = "http://<b>sogo_server_domain</b>/SOGo/dav/<b>your_sogo_username</b>/Calendar/personal/<br/>(e.g. http://mydomain.com/SOGo/dav/user1234/Calendar/personal/)";
 cfout_sogo_cal2 = "Your SOGo username";
 cfout_sogo_cal3 = "Your SOGo password";
-cfout_sogo_card1 = "http://<b>sogo_server_domain</b>/SOGo/dav/<b>your_sogo_username</b>/Contacts/personal/<br/>(e.g. http://mydomain.com/SOGo/dav/user1234//Contacts/personal/)";
+cfout_sogo_card1 = "http://<b>sogo_server_domain</b>/SOGo/dav/<b>your_sogo_username</b>/Contacts/personal/<br/>(e.g. http://mydomain.com/SOGo/dav/user1234/Contacts/personal/)";
+cfout_one_cal1 = "https://caldav.one.com/calendars/users/<b>your_one.com_user_email</b>/<b>calendar_collectionGUID</b>/<br/>(e.g. https://caldav.one.com/calendars/users/user1234@one.com/0AAAA0000-A0AA-0000-A0A0-A0AAA0A0A00A/)";
+cfout_one_cal2 = "Your one.com  username";
+cfout_one_cal3 = "Your one.com password";
+cfout_one_p1 = "You can check your <b>calendar_collectionGUID</b> at https://caldav.one.com/calendars/users/<b>your_one.com_user_email</b>/.";
 
 cfout_adv_conf_h1 = "Advanced configuration:";
 cfout_adv_conf_p1 = "cFos Outlook DAV uses your configured URL to try to detect the actual location of the calendar or address book. By prefixing your URL with a <b>*</b> you can suppress this behaviour. In this case cFos Outlook DAV then uses this URL exactly as specified. This should help with <b>DAViCal bindings</b> and in cases where you want to use a different calendar with <b>GMX</b> or <b>web.de</b>. Example URL: *http://www.cfos.de/calendars/mycalendar2.";
@@ -2524,6 +2554,11 @@ videos_text15 = "cFosSpeed with Logitech gaming keyboard G19";
 videos_text16 = "cFosSpeed 6.50 Installation on Windows7 32bit";
 videos_text17 = "cFosSpeed Version 5.00 - Installation on Windows 7";
 
+/port forwarding
+port_forwarding_title = "Enable port forwarding for your router";
+port_forwarding_brand = "Select the brand of your router";
+port_forwarding_router = "Select your router";
+
 /meta descriptions
 missing_meta_desc = "missing meta description";
 asrock_index_desc = "Additional info for ASRock XFast LAN users.";
@@ -2563,6 +2598,7 @@ cfospnet_documentation_dav_desc = "Documentation of the WebDAV, CalDAV and CardD
 cfospnet_documentation_media_desc = "Documentation of the media server features of cFos Personal Net";
 cfospnet_documentation_security_desc = "Security tips for your cFos Personal Net server installation";
 cfospnet_documentation_scripts_desc = "Documentation of the included standard scripts of cFos Personal Net";
+cfospnet_documentation_install_scripting_desc = "How to setup and use several scripting languages with cFos Personal Net";
 cfospnet_documentation_misc_desc = "Documentation of miscellaneous other features of cFos Personal Net";
 cfospnet_documentation_featref_desc = "cFos Personal Net feature reference";
 cfos_professional_activation_failed_desc = "What to do, if the cFos Professional activation fails.";
@@ -2650,6 +2686,7 @@ oem_oem_desc = "Information of our products and their customizability for OEM pa
 cfos_notifier_desc = "cFos Notifier product overview.";
 cfos_notifier_whats_new_desc = "Find out what's new in cFos Notifier. List of all new features, improvements and bug fixes.";
 upload_desc = "Upload page for dumps and other files";
+port_forwarding_desc = "Instructions on the activation of Port Forwarding for various routers";
 video_page_desc = "List of all YouTube videos by cFos Software";
 cfosspeed_features_title = "List of the most important cFosSpeed features.";
 
