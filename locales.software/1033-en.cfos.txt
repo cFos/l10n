@@ -302,7 +302,7 @@ short_dexpire = "Expired %1 %2";
 short_exp = "Expired!";
 / %1=number, %2="day/days", %3=product name
 lic_dexpire = "Your evaluation period has expired for %1 %2. Buy %3 today!";
-lic_try = "You may try %3 for %1 %2 yet before purchasing.";
+lic_try = "You may try %3 for %1 %2 before purchasing.";
 
 enable_win = "Enable status window?\n\n"
    "The status window shows the status of your active connection.";
