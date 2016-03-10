@@ -25,6 +25,9 @@ bc_linktext = "Yüksek hızlı erişim için cFos Broadband Connect";
 cfos6link_linktext = "cFos IPv6 Bağlantısı";
 cfos_linktext = "ISDN için cFos/Professional";
 close = "Kapat";
+
+/. Used as "I understand"
+
 desc_6link = "XP, Vista ve Windows 7 için ipv6 bağlanabilirliği";
 desc_dialup = "İnternet üzerinden Çevirmeli Arama";
 desc_shaping = "Trafik Shaping ile daha hızlı İnternet";
@@ -168,6 +171,9 @@ by_phone = "Bize telefonla da ulaşabilirsiniz ";
 buy_at = "@ ile satın alın";
 buy_now = "Şimdi satın al";
 conf_cc = "Kredi kartı ödemesi";
+/. Used before Credit Card number, like
+/= "Nr. 2661-4345-2456-1345"
+/. It should be replaced with preferred in your region format
 conf_cc_nr = "No.";
 conf_check_cc = "Lütfen kredi kartı bilgilerinizi kontrol edin";
 conf_check_order = "Siparişinizi kontrol edin";
@@ -186,6 +192,10 @@ conf_formerror_missing_entry = "Eksik bilgi!";
 conf_formerror_not_complete = "Siparişiniz tamamlanmadı! Lütfen tarayıcınızın 'Geri' düğmesini kullanarak eksik bilgileri giriniz.";
 conf_fromerror_license = "Lütfen tarayıcınızın 'Geri' düğmesini kullanarak cFos Lisans Sözleşmesi koşullarını okuduğunuzu ve kabul ettiğinizi beyan ediniz!";
 confident = "Gizlilik: Burada sağlamış olduğunuz bilgiler sadece bu sipariş için kullanılacaktır, başka bir sipariş için kullanılmayacaktır.";
+
+/. Used as part of phrase
+/= Your Order at www.cfos.de
+
 conf_moneybookers_trans = "Moneybookers transferi";
 conf_moneybookers_text = "Lütfen ödeme açıklaması olarak moneybookers &quot;<strong>eMail-Betreff</strong>&quot; alanına &quot;<strong>[%$1_name%]</strong>&quot; giriniz.";
 conf_name = "Lütfen adınızı girin";
@@ -251,6 +261,8 @@ f_use_form_c = "Ticari bir kullanıcı iseniz, lütfen şunu kullanın: ";
 f_land = "Ülke";
 f_license = "Lisans";
 f_moneybookers_text = "Lütfen ödemenizi şu Moneybookers hesabına yapın:";
+/. Paymenth method — "Cash on Delivery"
+/. See http://en.wikipedia.org/wiki/Cash_on_delivery
 f_nachname = "Kapıda Ödeme";
 f_nachname_text = "Yalnızca Almanya içine, +4 &#8364; posta ücreti";
 f_name = "İsim";
@@ -262,7 +274,12 @@ for_business_users = "iş kullanıcıları için";
 for_dos_w311_os2  = "DOS | OS/2 | Windows 3.x için";
 for_existing_users = "mevcut müşterilerimiz için";
 form_subtitel_contact = "İletişim Bilgileri";
+
+/. Title of form about user's order
+/. Also used as part of phrase
+/= Your Order at www.cfos.de
 form_subtitel_order = "Siparişiniz";
+
 form_subtitel_payment = "Ödeme Şekli";
 form_title_c = "İş Kullanıcıları için Sipariş Formu";
 form_title_n = "Özel kullanıcılar için cFosSpeed sipariş formu";
@@ -434,7 +451,11 @@ prio_ports = "Portlara öncelik ver";
 prio_programs = "Program Önceliklendirme";
 prio_protocols = "Trafik Düzenleme Protokol Önceliklendirmeleri";
 related_product = "İlişkili Ürün";
+/. Used in follwoing string:
+/= "Reviewed 4.5 / 5 stars by softpedia.com"
 review1 = "Derecelendirildi";
+/. Used in follwoing string:
+/= "Reviewed 4.5 / 5 stars by softpedia.com"
 review2 = "yıldız ile";
 rwin_now = "şimdi RWIN eklentisi ile!";
 rwin_results = "Etkileyici sonuçların listesine bir bakın!";
@@ -446,7 +467,7 @@ word_more = "devamı";
 /cFos Personal Net
 desc_pnet = "Kişisel kullanıcılar ve profesyoneller için web sunucusu";
 pnet_title = "Kişisel kullanıcılar ve profesyoneller için web sunucusu";
-desc_pnet_new = "DosyalarД±nД±zД± sunucuda tutun ve tГјm verilerinizi senkronize edin";
+desc_pnet_new = "Dosyalarınızı sunucuda tutun ve tüm verilerinizi senkronize edin";
 pnet_video = "cFos Kişsel Net Websunucusu<br/>Yükleme ve basit yayınlama";
 pnet_li_text_feat1 = "Bilgisayarınızda anlık web hosting";
 pnet_li_text_feat2 = "Bir kaç dakikada kolay server kurulumu";
@@ -456,12 +477,12 @@ pnet_li_text_feat5 = "Uzak sunucu zorunlu değil";
 pnet_li_text_feat6 = "Tam multi-thread ve multi-core desteği";
 pnet_li_text_feat7 = "Kendi kişisel Bulut'unuzu yapın";
 pnet_li_text_feat8 = "Akıllı telefonlarınız ve tabletleriniz için ev ağınızda verilerinizi yönetin";
-pnet_li_text_feat8a = "AkД±llД± telefon ve tabletlerinizdeki dosya, takvim ve adreslerinizi senkronize edin";
+pnet_li_text_feat8a = "Akıllı telefon ve tabletlerinizdeki dosya, takvim ve adreslerinizi senkronize edin";
 pnet_li_text_feat8b = "ve MS Outlook ile: <a class=\"inline\" href=\"/en/cfos-outlook-dav/cfos-outlook-dav.htm\"><b>OutlookDAV</b> (beta)</a>";
 pnet_li_text_feat9 = "WebDAV desteği (RFC 4918)";
 pnet_li_text_feat9a = "WebDAV, CalDAV ve CardDAV desteği";
 pnet_li_text_feat10 = "Windows Vista/7 için kenar çubuğu aracı";
-pnet_serv_dav = "cFos Personal Net'in CALDAV (RFC 4791) desteДџi vardД±r. Bu, takvim verilerinizi depolamanД±za ve senkronize etmenize olanak tanД±r.<br />cFos Personal Net'in CardDAV (RFC 6352) desteДџi de vardД±r. Bu Г¶zellik ise cFos Personal Net ile adres defterinizdeki kiЕџileri depolamanД±zД± ve senkronize etmenizi saДџlar.";
+pnet_serv_dav = "cFos Personal Net'in CALDAV (RFC 4791) desteği vardır. Bu, takvim verilerinizi depolamanıza ve senkronize etmenize olanak tanır.<br />cFos Personal Net'in CardDAV (RFC 6352) desteği de vardır. Bu özellik ise cFos Personal Net ile adres defterinizdeki kişileri depolamanızı ve senkronize etmenizi sağlar.";
 pnet_highlight1 = "Verilerinize üçüncü-parti erişimi için uzak sunucu gerekli değil";
 pnet_highlight2 = "Tam multi-thread ve multi-core desteği. Sunucu performansı işlemci çekirdeğinize bağlı olarak ölçütlendirilir";
 pnet_highlight3 = "Kullanıcılarınızın suncuya erişmesi için sadece internet tarayıcısına ihtiyacı vardır - başka program gerekli değil";
@@ -474,6 +495,8 @@ pnet_after = "7 Ağustos'tan sonra olacak ";
 pnet_wmi_add_p1 = "<a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI Monitor</b></a> cFos Personal Net için ücretsiz bir ek pakettir, sistemin neredeyse tüm WMI değerlerini görüntülemeye yarar, örn. CPU yükü, GPU yükü, ağ kullanımı, ping süresi, vs. Bu WMI değerlerine her yerden ulaşabilirsiniz.";
 pnet_wmi_add_p2 = "<b>cFos WMI Monitor</b> oyuncuların, güç kullanıcılarının, müzisyenlerin vs. (tam ekran) uygulamalarını çalıştırırken, farklı bileşenlerin performansını gözlemlemelerine yardımcı olur. <b>cFos WMI Monitor</b> bu bilgiyi bilgisayarınızda ya da akıllı telefonunuzda bir tarayıcı penceresi içinde verir.";
 pnet_wmi_explain = "cFos WMI Monitor nedir ?";
+/. Don't translate the "Publish with..." part
+/. Don't translate the "Publish" and "Upload..." parts
 pnet_doc_a1 = "Genel Bakış";
 pnet_doc_a2 = "Kolay Kurulum";
 pnet_doc_a3 = "Gelişmiş Ayarlamalar";
@@ -492,10 +515,14 @@ pnet_wmi_p3 = "<a class=\"inline\" href=\"/en/download/download.htm\"><b>cFos WM
 pnet_wmi_p4 = "Başkalarının sizin WMI verilerinize erişmesini önlemek için, cFos WMI Monitor HTTP doğrulaması geçerli olan bir kullanıcı gerektirir. O yüzden cFos PNet'te bir kullanıcıyı, mesela <b>admin</b>'i ayarlamalısınız. Bunu, kurulum dosyasını yeniden çalıştırarak yapabilirsiniz. Ya da açılan <em>/users/index.htm</em>'i tönetici olarak çalıştırarak yeni bir kullanıcı ekleyebilirsiniz, örneğin user wmi.";
 pnet_wmi_p5 = "cFos WMI Monitor en yüksek verimi alabilmek için ";
 pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, İnternet hızlandırıcımızı kullanmanızı öneririz. Tümleşik WMI sağlayıcısı aşağıdaki WMI değerlerini kullanılabilir hale getirir:";
+/. RX stands for `receive` (incoming/download)
 pnet_wmi_l1a = "toplam RX hızı";
+/. TX stands for `transmit` (outgoing/upload)
 pnet_wmi_l1b = "toplam TX hızı";
 pnet_wmi_l1c = "ping süresi";
 pnet_wmi_l1d = "TCP/UDP bağlantı sayımı";
+/. Means `RX (`receive`/incoming/download) characters per second`
+/. Means `TX (`transmit`/outgoing/upload) characters per second sent`
 pnet_wmi_l1g = "Bu değerler mevcut internet bağlantınıza uyar.<br/>Windows WMI değerleri de mevcut ağ adaptörünüze uyar, LAN’ı ya da İnternet trafiğini dikkate almaz. cFosSpeed durum penceresinde görünen tüm değerleri görüntüleyebilirsiniz.";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Açık Donanım Gözlemi</b></a>. Bu aynı zamanda şunlar gibi kullanışlı donanım değerlerini görüntüleyebilen tümleşik bir WMI sağlayıcısıdır:";
 pnet_wmi_l2a = "CPU yükü ve sıcaklığı";
@@ -609,16 +636,20 @@ pnet_doc_scripts_p11 = "Mevcut HTTP bağlantılarını görüntülemek için kul
 pnet_doc_scripts_p12 = "Görselleri web sayfası tarafından kullanılan formata uydurmak için yeniden boyutlandırmak web tasarımcıları için her zaman külfet olmuştur, o yüzden cFos PNet görsel nesnelerini (GDI+) kullanan küçük bir script sağladık. Bu script, URL'nin sorgu dizgisi içinde bir dosya adı ve bir <b>w</b> (genişlik) ve <b>h</b> (yükseklik) parametresi kullanır. Eğer görselleriniz çeşitli boyutlardaysa, en-boy oranını korumak için tek bir parametre kullanmalısınız. <em>makedir2.jss</em> mevcut klasörde depolanmış görsellerin küçük görüntülerini oluşturmak için bu scriptle kurulan bağlantıları kullanır.";
 pnet_doc_scripts_p13 = "Sunucu taraflı scriptlemeyi basitleştirmek için faydalı işlevlerin koleksiyonudur. Şu işlevsellikleri sunar:<br/><br/>- web server nesnesini ve fonksiyonlarını paketler.<br/>- Javascript String nesnesini kullanışlı birkaç fonksiyonla genişletir.<br/>- query string’in ya da POST ile kulanılan form verisinin script parametre değerlendirmesi işlemini yapar.<br/>- küçük dosyaların yüklenmesi, kaydı ve gönderilmesi (mail ile).<br/>- rfc 1123 tarihleri cookielerde kullanıldığı gibi.<br/>- cookies.<br/>- basit bir XML dönüştürme fonksiyonudur.<br/><br/>Eğer cFos PNet’I daha büyük projeler için kullanırsanız, işlevsel birimleri dahili basit bir script dosyası yerine modüller halinde paketlemek isteyebilirsiniz. cFos PNet common.js girişimini ve modül özelleştirmeyi destekler. ";
 pnet_doc_misc_p1 = "cFos PNet bir bakım scriptini günde bir kere çağırabilir. <b>daily_maintenance= &lt;script url&gt;</b> anahtarıyla script ismini ayarlayabilirsiniz ve <em>GLOBAL.INI</em> dosyasındaki <b>[param]</b> bölümündeki <b>maintenance_time=hh:mm:ss</b> ile çalıştığında zamanı değiştirebilirsiniz. <b>&lt;script url&gt;</b> / ile başlayan scriptin public dizinindeki konumudur.";
+/. Explanation of `snap-in`: http://en.wikipedia.org/wiki/Microsoft_Management_Console
 
 / cFos Outlook DAV
-cfout_h1_v2 = "Outlook takviminizin. GГ¶revlerin ve kiЕџilerin bulut eЕџzamanlamasД±";
-cfout_p1b = "Mevcut <b>Гјcretsiz</b> yayД±n Г¶ncesi sГјrГјm <b>31 AralД±k 2013'e kadar geГ§erlidir</b>.";
-cfout_p1b_v2 = "Mevcut <b>Гјcretsiz</b> yayД±n Г¶ncesi sГјrГјm <b>28 Ећubat 2014'e kadar geГ§erlidir</b>.";
-cfout_p1c = "Mevcut yayД±n-Г¶ncesi sГјrГјm takvim etkinlikleri iГ§in eklenti dosyalarД±nД± desteklemez.";
-cfout_p1d = "Son sГјrГјm (beta sonrasД±ndaki gerГ§ek sГјrГјm) yaklaЕџД±k 10 Euro (27 TL) gibi bir fiyata satД±lacaktД±r.";
+cfout_h1_v2 = "Outlook takviminizin. Görevlerin ve kişilerin bulut eşzamanlaması";
+cfout_p1b = "Mevcut <b>ücretsiz</b> yayın öncesi sürüm <b>31 Aralık 2013'e kadar geçerlidir</b>.";
+cfout_p1b_v2 = "Mevcut <b>ücretsiz</b> yayın öncesi sürüm <b>28 Şubat 2014'e kadar geçerlidir</b>.";
+cfout_p1c = "Mevcut yayın-öncesi sürüm takvim etkinlikleri için eklenti dosyalarını desteklemez.";
+cfout_p1d = "Son sürüm (beta sonrasındaki gerçek sürüm) yaklaşık 10 Euro (27 TL) gibi bir fiyata satılacaktır.";
 cfout_a1 = "cFos Outlook DAV indir";
-cfout_h2 = "cFos Outlook DAV nasД±l kurulur";
-cfout_l1 = "cFos Outlook DAV'Д± Outlook eklentisi olarak eklemek iГ§in cFos Outlook DAV kurucusunu Г§alД±ЕџtД±rД±n. Outlook 2013 ile test edilmiЕџtir, ancak Outlook 2010 ile de Г§alД±ЕџmasД± beklenir.";
+cfout_h2 = "cFos Outlook DAV nasıl kurulur";
+cfout_l1 = "cFos Outlook DAV'ı Outlook eklentisi olarak eklemek için cFos Outlook DAV kurucusunu çalıştırın. Outlook 2013 ile test edilmiştir, ancak Outlook 2010 ile de çalışması beklenir.";
+/. Used as title
+/. Litrelly means "How cFos Outlook DAV works"
+/. Means "show all server types"
 
 
 / cFos IPv6 Link
@@ -658,6 +689,7 @@ li_text_sessions = "Çoklu oturumlar, bağlantı sayısı sınırlaması yok";
 
 / cFos
 cfos_html_h1 = "Traffic Shaping özellikli DSL ve ISDN çevirmeli arama sürücüsü";
+/. Part of page's title (in name of the tab in web browser)
 cfos_professional_title = "cFos, Çevirmeli Bağlantı &amp; DSL için hızlandırma &amp; ISDN";
 link_text_budget = "Online counter";
 link_text_cfos_features = "cFos özellik listesi";
@@ -668,6 +700,14 @@ link_text_what_is_cfos = "cFos/Professional nedir?";
 
 /hrping
 hrping_title = "<span class=\"product\">hrPing</span> - Yüksek-hassasiyetli ping aracı";
+/. `usec` stands for `microsecond`.
+/. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
+/. In other words, means accuracy of the measurement
+
+/. In other words means `Hrping measures requests time and handles ICMP error replies as well`
+
+/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic
+
 
 /notifier
 notifier_title = "cFos Bilgilendirici";
@@ -771,6 +811,12 @@ choice3 = "İnternet bağlantınız PPPoE mi kullanıyor (ör. DSL)?";
 choice4 = "USB'den bağlı bir DSL Modem mi kullanıyorsunuz?";
 choice5 = "Çevirmeli Arama Ağı sürücüsü?";
 choice7 = "İkisi de?";
+/. Used in our contact form on website, as possible choices, like:
+/= Please, select:
+/= — ...
+/= — Business Partners, Licensing, Bundling
+/= — Press, Artwork, Covermount
+/= — ...
 decision = "Hangi ürün?";
 decision_help = "Karar Yolu";
 dialup_dsl_cable = "DSL ile çevirmeli arama ağı veya kablo modem (PPPoE)";
@@ -950,7 +996,7 @@ ts_o_l14 = "<b>Karışık Ham IP/Çerçeve Sayısı:</b> Gelen trafik \"Çerçev
 ts_o_p2 = "Hangi aktarım ortamının/protokolünün kullanıldığını biliyorsanız doğru ortamı/protokolu ayarlayın. Şüpheliyseniz <samp>Uyumlu</samp> seçeneğini seçin.";
 ts_o_p3 = "Değişken bant genişliği için Traffic Shaping, birden çok bilgisayardan aynı anda gönderme ve indirme işlemi yaparken dahi ping sürelerini iyileştirmek için tasarlanmıştır. Hedef, etkileşimli uygulamalar için İnternet'i cevap verir bir durumda korumaktır. Kalıcı dosya paylaşım trafiğine (P2P) sahip bilgisayarlar toplamda duyarlılıkta çok küçük bir etki görmelidir. En iyi ping süreleri \"sabit\" seçeneğinde elde edilir. İkinci en iyi seçenek ise \"değişken, ortak.\"dır. Lütfen cFos Traffic Shaping kalibrasyonu ile ilgili önerilerimize de göz atın.";
 ts_o_p4 = "cFosSpeed çok-kullanıcılı özelliği cFosSpeed Traffic Shaping'in birden çok istemciye sahip ağlarda kullanılabilmesini sağlar. Örneğin birkaç bilgisayara internet erişimini sağlamak için bir router kullanılıyorsa, cFosSpeed bilgisayarların bir tanesinde - veya daha iyisi - hepsinde yüklenebilir. Uygun Traffic Shaping modu seçilecerek mevcut tüm bant genişliğinin ideal kullanımı sağlanabilir.";
-ts_ts_a0 = "Yeni Traffic Shaping sayfamД±z.";
+ts_ts_a0 = "Yeni Traffic Shaping sayfamız.";
 ts_ts_better = "= daha iyi";
 ts_ts_title = "Gerçek band genişliğinizi kullanın";
 ts_ts_t1 = "Trafik Düzenleme Nasıl çalışıyor?";
@@ -1021,7 +1067,7 @@ ts_tsn_t1 = "Ayarlama";
 ts_tsn_l1 = "Eğer ACK yeteri kadar hızlı gönderilmezse, upload yaparken indirmeler yavaşlayabilir(Klasik Trafik Düzenleme).";
 ts_tsn_l2 = "Otomatik Windows TCP ayarlama indirmelerin yavaşlamasına sebep olabilir. cFosSpeed'in RWIN eklentisi bunu hızlandırabilir. <br/>cFosSpeed ayrıca bazı uygulamalarda indirmeleri hızlandırabilir (see <a class=\"inline\" href=\"/en/cfosspeed/rwin-expansion.htm\">test sonuçları</a>).";
 ts_tsn_l3 = "cFosSpeed düşük ping süreleri sunar, ağır indirme ve yüklemelerde bile.";
-ts_tsn_a3 = "cFosSpeed RWIN uzantД±sД±yla hД±zlandД±rma";
+ts_tsn_a3 = "cFosSpeed RWIN uzantısıyla hızlandırma";
 ts_tsn_t2 = "Önceliklendirme";
 ts_tsn_l4 = "cFosSpeed önceliklendirme şeması ile programlarınıza her zaman tam bant genişliği verebilirsiniz, çünkü cFosSpeed hangi programın önceliklendirileceğine karar verir.";
 ts_tsn_l5 = "Örnek olarak, Oyun Trafiği, VoIP, veya Ses/Video içeriği upload ya da download'dan daha önceliklidir.";
@@ -1036,18 +1082,18 @@ ts_tsn_l12 = "Stil durum pencereleri (temalarla birlikte), böylelikle her zaman
 ts_tsn_t4 = "Hız testleri";
 ts_tsn_a1 = "Önceki Trafik Şekillendirme Sayfalarımız";
 ts_tsn_t5 = "cFosSpeed esas özellikler";
-ts_tsn_p1 = "Г‡eЕџitli cFosSpeed modГјlleriyle paket akД±ЕџД± - daha fazla aГ§Д±klama iГ§in <span class=\"green\">mouse over</span>";
+ts_tsn_p1 = "Çeşitli cFosSpeed modülleriyle paket akışı - daha fazla açıklama için <span class=\"green\">mouse over</span>";
 ts_tsn_hov1 = "Yüksek gecikme süresi dalgalanmarını iyileştirir, örneğin mobil bağlantılar.";
 ts_tsn_hov2 = "Birden fazla bilgisayar tek bağlantıyı paylaştığında performansı iyileştirir.";
 ts_tsn_hov3 = "Protokollerin &amp; programların maksimum hızını ayarlamanızı sağlar.";
 ts_tsn_hov4 = "Oyun bağlantıları gibi sınıflandırmamış bağlantıları sınıflandırır.";
-ts_tsn_hov5a = "Г–nceliklendirme planД± / on-the-fly Г¶nceliklendirmesi / filtre kurallarД±";
-ts_tsn_hov5b = "Protokoller ve &amp; programlarД± iГ§in maksimum hД±z ayarlamasД±na olanak tanД±r.";
-ts_tsn_hov6 = "Г–nceliklendirme planД± / on-the-fly Г¶nceliklendirmesi / filtre kurallarД±";
-ts_tsn_hov7 = "Standart dД±ЕџД± protokolleri sД±nД±flandД±rД±r, oyun trafiДџi gibi...";
-ts_tsn_hov8 = "En yaygД±n protokolleri tespit eder, HTTP, Mail, VoIP, Filesharing gibi...";
-ts_tsn_a2 = "Eski Traffic Shaping sayfalarД±mД±z";
-ts_3work_together = "ГњГ§ ayar birlikte nasД±l Г§alД±ЕџД±r?";
+ts_tsn_hov5a = "Önceliklendirme planı / on-the-fly önceliklendirmesi / filtre kuralları";
+ts_tsn_hov5b = "Protokoller ve &amp; programları için maksimum hız ayarlamasına olanak tanır.";
+ts_tsn_hov6 = "Önceliklendirme planı / on-the-fly önceliklendirmesi / filtre kuralları";
+ts_tsn_hov7 = "Standart dışı protokolleri sınıflandırır, oyun trafiği gibi...";
+ts_tsn_hov8 = "En yaygın protokolleri tespit eder, HTTP, Mail, VoIP, Filesharing gibi...";
+ts_tsn_a2 = "Eski Traffic Shaping sayfalarımız";
+ts_3work_together = "Üç ayar birlikte nasıl çalışır?";
 youtube_speedwin7 = "Win7'de cFosSpeed kurulumunu izle";
 net_talk_help = "LAN bağlatınızın istatistiklerini yayınla";
 net_talk_help_long = "Kesinliği arttırmak için, Trafik Şekillendirme istatistiklerini ev ağınızdaki diğer bilgisayarlara gönderir.Internete herhangi bir veri gönderilmez.";
@@ -1141,6 +1187,7 @@ no_ping_tplink = "<h4>TP-Link Router:</h4><p>TP-Link artık ping paketlerine izi
 no_ping_tplink2 = "<p><b class=\"red\">Dikkat</b>: Kullanıcılarımız TL-R460, TL-R860 and TL-R402M modellerinde yeni yazılımın işe yaramadığını bildirdiler.</p>";
 no_ping_pccillin = "<h4>PC cillin 2007:</h4><p>To allow the Windows tracert command for PC Cillin 2007 just follow this steps:</p><ol><li>Open the PC Cillin main console->network- and firewall-control->personal firewall->settings->select account->edit->network control->add</li><li>Now you can <samp>add</samp> 2 new protocols. </li><li>for outgoing connections:<br /><samp>(default) allow for outgoing connections<br />(protocol) icmp<br />(port) all ports<br />(ip-settings) all ip-settings<br /></samp></li><li>For incoming connections just repeat step 3 for incoming connections</li></ol>";
 no_ping_statistics = "cFosSpeed'in ping istatistiklerini alma ve yorumlama";
+/. Console's output shouldn't be translated
 no_ping_statistics_p1 = "<p>cFosSpeed konsolunu açarak &quot;spd pingstat&quot; yazın.</p><p>Aşağıdakine benzer bir sonuç çıktısı verecektir:</p><pre class=\"code\"><br />Ping statistics:<br /><br />Total ping requests      107,686<br />  done                   107,686     <b>(1)</b><br />  ...and only            107,686<br /><br />Total pings sent         106,949<br />  strong                 106,778<br />  ...and new             106,778     <b>(2)</b><br /><br />Total pongs              106,804<br />  found                  106,566<br />  ...and strong          106,519<br />  ...and strong reply    106,519     <b>(3)</b><br />  ...and used            106,519     <b>(4)</b><br /><br />Ping outage statistics:<br />  1 ping in a row 33 times<br />  5 pings in a row 1 time<br /><br />Ping src/dst: 192.168.0.100 to 194.95.249.23, ttl 3<br />Ethernet src/dst: 00:0e:a6:57:9b:0b to 00:11:95:78:27:a4<br /></pre>";
 no_ping_statistics_p2 = "<p>&quot;toplam ping istekleri&quot; adı altındaki 3 değer aynı olmalı. Eğer herhangi bir sapma var ise, lütfen bunu bize bildirin.</p><p> İşaretlenmiş olan <b>(1)</b> değeri yaklaşık olarak bir sonraki değer <b> (2)</b> aynı olmalıdır. Değerler bu durumda değilse, güvenlik duvarının veri akışını engellediğine sağlam bir kanıt olur. Ufak sapmalar çok da önemli değildir.</p><p><b> (3) </b> ve<b> (4) </b> değerleri yaklaşık olarak aynı olmalıdır. Eğer bir sorun yaşıyorsanız, bize mail atın.</p>";
 no_ping_statistics_p3 = "<p>Bazı durumlarda, <b> (2) </b>ve<b> (3) </b> değerleri aynı olmalıdır. Bu durum, genelde ping cevaplarının &quot;İnternette&quot; bir yerlerde kaybolduğunu gösterir. Maalesef, bu konuda yapabileceğimiz birşey yok.</p><p> Bize e-mail yollarken, lütfen <a class=\"inline\" href=\"#p4\"> step 3 </a> ilişkin bilgileri mesajınıza ekleyin.</p>";
@@ -1204,21 +1251,32 @@ sp_doc_games_p1 = "Trafik Şekillendirme teknolojisi ping sürelerini düşük t
 sp_doc_games_p2 = "Optimum ping süresine ulaşmak için, oyun(lar)ınızı en yüksek dereceyle önceliklendirmelisiniz. Program ayarları kısmında bizim önceden listelediğimiz bazı popular oyunları göreceksiniz. Eğer oyununuz orada yok ise, basitçe ekleyebilirsiniz.";
 sp_doc_games_p3 = "Ayrıca <a href=\"/en/contact/priopost.htm\">bize bildirin</a> butonu ile gelecekte hangi oyunların listede otomatik olarak yer almasını istediğinizi söyleyebilirsiniz.";
 sp_doc_games_p4 = "Programları önceliklendirirken dikkatli olun. Hepsine yüksek öncelik vermek, hiç öncelik verilmemiş halinden farksız olacaktır.";
+// `[filter]` and name of file shouldn't be translated
 sp_doc_games_p5 = "Alternatif olarak, programın adı bilinmiyorsa, port numaralarını kullanarak önceliklendirme yapabilirsiniz. Eğer TCP/UDP portları biliniyorsa, aşağıdaki gibi verileri önceliklendirebilirsiniz.(settings.ini dosyasındaki [filter] kısmını düzenleyerek):";
 sp_doc_games_p6 = "TCP portları için:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high";
 sp_doc_games_p7 = "UDP portları için:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high";
 sp_doc_games_p8 = "Değişiklikleri yapıp kaydettikten sonra, yeni ayarların yüklenmesi gerekecektir. Bunu konsolu açıp (Başlat, Program, cFosSpeed) and \"spd reload\" komutunu girerek yapabilirsiniz. Değişiklikler bilgisayarınızı yeniden başlattığınızda geçerli olacaktır.";
 sp_doc_games_a1 = "cFosSpeed-Filter Yönergesi (İngilizce)";
 sp_doc_games_a2 = "DSL bağlantı ayarları";
+/: https://www.cfos.de/en/cfosspeed/documentation/games.htm
+/. Used as alternate text for image
 sp_doc_games_a3 = "Display favor ping";
 sp_doc_games_a4 = "Program önceliklendirme diyaloğu";
 sp_doc_games_t1 = "Bağlantı ayarlarını optimize etmek:";
+/. Connections types untranslatable in our software, so they shouldn't be translated here either (`Adaptive`)
 sp_doc_games_p9 = "İnternet bağlantınızı Bağlantı Ayarları kısmından tam olarak seçebilirsiniz. cFosSpeed'e girilen her bilgi daha düşük ping süreleri sağlayacaktır. Varsayılan \"Adaptive\" dir. Ama DSL bağlantısı için uygun olan DSL standardını ya da protokolünüzü bağlantınıza uygun olarak girmelisiniz.";
 sp_doc_games_t2 = "Favor Ping:";
+/. `Favor Ping` is translatable in our software, so it should be translated here too.
+/. Ensure in consistent translation across website and software, by checking
+/. translation of cFosSpeed's into your language.
+/. Look here for your locale https://github.com/cFos/l10n/blob/master/locales.software/
+/. and then search for key `favor_ping`
 sp_doc_games_p10 = "Ek olarak, bağlam menüsündeki ayarları kullanarak \"Favor Ping\"'i aktif edebilirsiniz. Yeşil bir ok bilgi ekranında belirecektir. cFosSpeed'in ping sürelerini minimum tutmak için, gerektiğinde bağlantı hızını önemli ölçüde düşürmesine sebep olur.";
 sp_doc_games_t3 = "İndirme Yaparken Upload Yapmak :";
 sp_doc_games_p11 = "Trafik Şekillendirme kullanmadan online bir oyun oynarken upload ya da download yaparsanız, ping süreleriniz yükselecektir. Düşük veri akışı düşük ping demektir. Özellikle dosya paylaşım rogramları ve diğer programları büyük ölçüde veri yollayara ping sürelerini sık sık çok yükseltecektir. Bu aynı zamanda oyun içindeki reaksiyonlarınızı da yavaşlatacaktır.";
 sp_doc_games_p12 = "Trafik Şekillendirme bu problemi giderir ve size oyun oynarken download ya da upload yapmanıza olanak sağlar. Bu hâla ping sürelerinde minimum artışa neden olabilir. Bu nedenle, \"Favor Ping\"i böyle zamanlarda aktif etmenizi öneriyoruz. Varsayılan olarak, dosya paylaşım programları en düşük  önceliğe sahiptirler. Bu dosya paylaşım programlarının çok yavaş indirme yapacağına ya da tamamen duracağı anlamına gelmez. Sadece daha önemli verilerin aktarılması gerektiğinde indirmenin gecikeceği anlamına gelir. Sadece öncelik şeması sayesinde aynı anda maksimum hızda dosya paylaşımı yaparken aynı  bağlantı ile diğer programları da kullanabilmenize izin verir.";
+/: http://www.cfos.de/en/cfosspeed/documentation/index.htm
+/. Used as  section title
 sp_doc_index = "Programın kullanımı";
 sp_doc_installation = "Kurulum / Kayıt";
 sp_doc_led_title = "Klavye Işıkları";
@@ -1227,6 +1285,8 @@ sp_doc_led_p1 = "cFosSPeed Num Lock ve Scroll Lock ışıklarını kullanarak İ
 sp_doc_led_dd1 = "ışık yok, makul = nadir parlama, kötü = sık parlama<br/>Ping değerinizin yüksek olduğunu uyarır";
 sp_doc_led_dd2 = "sık parlamalar size paketlerin sayıldığını bildirir<br/>Internet'ten bilgi alınıp/yolladığını haber verir.";
 sp_doc_led_dd3 = "Bir TX paketi önceliklendirilmiş durumdayken sık parlama<br/>Trafik Şekillendirme'nin faydalarını göstermenin bir yolu";
+/: http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm
+/. `total_rx_speed` and `total_tx_speed` shouldn't be translated, since those are actual values names
 sp_doc_led_dd4 = "Maksimum of total_rx_speed ve total_tx_speed, 0-32%: iken kapalı, 33-65%: nadir parlama, 66-98%: sık parlamalar 99-100%: tamamen açık<br/>size, başka bir kullanıcı ya da bir uygulama çok fazla bant genişiği kullandığında haber verir.";
 sp_doc_led_dd5 = "TCP ve UDP'deki değişimler sırasında sık parlama<br/>böylece yeni bağlantılar kurulduğunda haberdar olursunuz.";
 sp_doc_led_p2 = "Scroll Lock ve Num Lock ışıklarını, yukarıdaki bilgilendirmelerden herhangi birini seçerek kullanabilirsiniz.";
@@ -1240,8 +1300,10 @@ sp_doc_logi_h1 = "YouTube'daki Logitech temaları";
 sp_doc_logi_h2 = "Logitech klavyesi bulma";
 sp_doc_logi_p3 = "Hem cfosspeed.exe hem de Logitech Gaming Software, Windwos açılışında otomatik olarak açılacaktır. Eğer cFosSpeed, Logitech Gaming Software'den erken açılırsa, klavye algılanamayabilir. Böyle bir durumda, cFosSpeed menüsü altındaki \"algıla\" seçeneğini kullanabilir ya da <em>c:\\ProgramData\\cFos\\cfosspeed\\global.ini</em> dosyasını açıp [All] kısmına <b>startup_delay=x</b> satırını ekleyip, x yerine cFosSpeed'in kaç saniye cinsinden ne kadar geç açılması gerektiğini girmelisiniz.";
 sp_doc_p2p_t1 = "Dosya paylaşımı (P2P) için Trafik Şekillendirmesi";
+/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p1 = "cFosSpeed Trafik Şekillendirme sayesinde, hattınızı tam anlamıyla kullanabilir (eMule, KaZaaa veya Bittorent vs. ile birlikte) ve diğer kullanıcılara hiçbir olumsuzluk yaşamadan kullanılabilir hale getirebilirsiniz.";
 sp_doc_p2p_t2 = "Dosya paylaşım yazılımı ile sorunlar";
+/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p2 = "Dosya paylaşım programlarını kullanmak (eMule, Kazaa veya Bittorrent gibi) hattın tamamını kullanacağından yüksek pinge neden olur. Bu dosya paylaşım programının yavaş çalışacağının yanı sıra (kaynak istemleri birkaç milisaniye süreceğine, 1 ya da 2 tam saniye sürebilir) diğer İnternet programlarını da yavaşlatır. Aynı zamanda, indirme hızı TCP ACK'ler zamanında yollanamadığı için yavaşlar. Ayrıca İnternette gezerken tarayıcınız daha tepkisiz hâle gelir.";
 sp_doc_p2p_p3 = "Popüler bir geçici çözüm, Upload hızına geçici bir limit koymaktır. ";
 sp_doc_p2p_p4 = "Eğer aynı anda bir posta atarken dosya paylaşım programınız upload yapıyorsa, ikisi gönderme bant genişliği için çakışacaktır. Genelde hangi programın ne kadar bant genişliği alacağı tamamen tesadüftür. Bazı durumlarda bu durum tüm TCP bağlantılarının kopmasına sebep olabilir.";
@@ -1250,17 +1312,26 @@ sp_doc_p2p_p5 = "Öncelik şeması cFos ve cFosSpeed'e entegredir ve dosya payla
 sp_doc_p2p_p6 = "Örnek verirsek, arkaplanda dosya paylaşım programı kullanırken internette gezerken, P2P trafiğinde sadece kısa ve ufak bir düşüş yaşanacaktır. Büyük e-postalar yollarken P2P trafiğinde biraz düşüş yaşanabilir. E-Posta yollanılması tamamlandığında, tüm uploadlar yeniden tam hız devam edecektir. Tek alternatif e-posta yollamayı \"sonsuza kadar\" ertelemek ya da dosya paylaşım programına yapay bir limit koymak olurdu. Ancak bu, aynı zamanda diğer programlar interneti kullanmazken de hız düşüşüne sebep olurdu.";
 sp_doc_p2p_p7 = "cFosSpeed bu dosyapaylaşım (p2p) programları için optimize edildi, bu sayede internet keyfinizi hiç bozmadan istediğiniz programı açabilirsiniz.";
 sp_doc_p2p_p8 = "Bu nedenle, size Kazaa gibi programlarda \"speed sense\" ayarını \"unlimited upload\" şeklinde değiştirmenizi öneriyoruz, çünkü cFosSpeed zaten İnternet trafiğinizi optimize edecektir.";
+/: https://www.cfos.de/en/cfosspeed/documentation/p2p.htm
+/. it's referring to system tray icon and special skin for it.
+/. Note that particularly that string refers not to actual skin, but just used as title, to highlight that "there is icon skin for cFosSpeed"
 sp_doc_p2p_t4 = "Icon Teması";
 sp_doc_p2p_p9 = "Çoğu kullanıcı dosya paylaşım programını 24 saat çalıştırdığı için, cFosSpeed icon teması ile birlikte gelmektedir. Böylece bağlantıların izini herhangi bir ayıraca gerek duymadan her zaman görebilirsiniz.";
 sp_doc_p2p_t5 = "Önceliklendirme:";
+/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p10 = "Quite a few users have one PC set aside specifically for filesharing and route P2P traffic (e.g., via Internet Connection Sharing) through a main computer directly hooked up to the Internet. In this case, the Layer-7 Protocol Detection integrated in cFos and cFosSpeed permits prioritization of the most important P2P networks like BitTorrent, eDonkey 2000 (eMule, etc.), Kazaa, Gnutella(2), Kademlia, and Direct Connect.";
 sp_doc_p2p_t6 = "Programları önceliklendirmek:";
 sp_doc_p2p_p11 = "cFos and cFosSpeed also permit prioritizing programs by their name. Many of the most important programs have already been included in our program setting list. This way of prioritizing is especially useful when the Layer-7 detection cannot recognize and assign data properly (as would, for instance, be the case with encrypted P2P traffic).";
 sp_doc_performance = "Performans";
+/. While translating `\"Options/Settings\"` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
+/: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
+/. Title of one of pictures
+/.  Title of picture with demo of cFosSpeed Phone Skin
 sp_doc_prioliste = "Öncelik listesi: ";
 sp_doc_priorliste_content = "Öncelik verilebilecek programlar listesi";
 sp_doc_prio_title = "Program önceliklendirmesi";
 sp_doc_prio_p1 = "<b>İpucu</b>:<br />Önceliklendirme en stabil olabilecek en küçük veriye en yüksek öncelik verilirse çalışır. Büyük miktarlarda veri yollayan programlara düşük öncelik verin.";
+/. `UNKNOWN` shouldn't be translated, since it's not translatable protocol name, used in our software
 sp_doc_prio_p2 = "Öncelikle cFosSpeed Layet 7 Protocol'ü her bağlantı için bulmaya çalışacaktır. Eğer bulunamazsa (protokol bilinmiyorsa) veya tanımlanmış protokolun önceliği \"normal\" ise, o zaman program algılama önceliği ayarlamak için kullanılacaktır.";
 sp_doc_prio_p3 = "HTTP yayın algılaması özel bir durumdur. Eğer algılananan protokol HTTP ise, cFosSpeed bir video ya da ses yayını olduğunu algılamaya çalışacaktır. Çalışma prensibi şöyledir:";
 sp_doc_prio_p4 = "If the user agent is one of the well-known players or has the substring \"player\" in it, cFosSpeed categorized the connection as HTTP_STREAM_C or HTTP_STREAM_S. Otherwise if the content-type is audio or video it categorizes the connection as BSTREAM_C or BSTREAM_S. There BSTREAM_C/S connections are prioritized as \"normal\" so that the actual priority is determined by the program prioritization.<br /> This allows you, for example in uncertain cases, to prioritize it according to your program use.";
@@ -1324,10 +1395,18 @@ sp_doc_status_slot = "Slot grafikleri cFosSpeed'in son kalibrasyonunda ya da kur
 sp_doc_status_slots = "Slotlar";
 sp_doc_status_standard = "Standart tema, grafiksel olarak veri akışını izlemek için tasarlanmıştır.";
 sp_doc_status_states = "Icon Temasının 3 farklı görünümüne geçiş yapabilirsiniz. Geçiş anahtarının yeri temanın orta kısımlarındadır (resme bakın).";
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis.htm
+/: http://www.cfos.de/en/cfosspeed/documentation/status.htm
+/. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_switch = "Normal ve büyük tema sürümü arasında geçiş yap";
 sp_doc_status_switch2 = "Geçişler: Büyük tema > normal tema > icon skin";
 sp_doc_status_switching = "Varsayılan Temanın Grafiksel ve Sayısal Görünümleri arasında geçiş yapmak:";
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
+/. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_systray = "Windows Görev Çubuğunda Trafik Analiz Simgesi Teması";
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
+/. Used as alternative text for clickable icon-buttons in sidebar at mentioned above and on similar pages
+/. You won't see it, since it displayed only if browser can't download images
 sp_doc_status_times = "Ping süresi, standart tema'nın grafiksel görünümünde yeşil, sarı, ya da kırmızı dalgalar ile belirtilir. Gerçek ping süresi eşzamanlı gönderme ve indirme sayısının üzerindeki önemli bölüm içerisine bağlıdır. Eğer bu sayı yükselirse, gecikme ihtimali de artacaktır.";
 sp_doc_status_toggle = "İlgili düğmelere tıkladığınız zaman, grafiksel ve sayısal tema görünümü arasında geçiş yapmanız mümkündür.";
 sp_doc_status_total = "% cinsinden indirme transferi oranı geçmişi (toplam)";
@@ -1343,6 +1422,10 @@ sp_doc_status_utr = "% cinsinden gönderme transferi oranı";
 sp_doc_status_variance = "Ping süresinin değişikliği";
 sp_doc_status_vertical = "Dikey bar grafiği soldan sağa kaydığında cFosSpeed'in son kurulumu ya da kalibrasyonunda en yükseğe ulaşan gönderme/indirme transfer oranından bu yana oluşan transfer oranının yüzde olarak geçmişini gösterir. Toplam ve yerel transfer oranları cFosSpeed'in çoklu-kullanıcı modunda çalışmasına bağlıdır. Yerel transfer oranı sadece geçerli bilgisayar için olan oranı gösterir, toplam transfer oranı ise yerel ağın içerisindeki trafiğin miktarını gösterir.<br /><br />Diğer görüntüleme metotları Likit Kristal Geçmişi teması ile aynıdır.";
 sp_doc_status_wave = "Ping-süresi dalga gösterimi";
+/: http://www.cfos.de/en/cfosspeed/documentation/status-aquarium.htm
+/. Usead as starting word for explaining labels of cFosSpeed skins elements
+/= Switch: Transfer rate in %
+/= Switch: Number of TCP/UDP connections
 sp_doc_status_word = "Anahtar";
 sp_doc_surf_p1 = "HTTP tespiti, özellikle eşzamanlı göndermeler sırasında sayfa yüklenme süresini hızlandırmak için cFos ve cFosSpeed hizmeti içerisine entegre edilmiştir. www.greenpeace.org ve www.amazon.com için yükleme sürelerinin karşılaştırması <a href=\"/en/traffic-shaping/traffic-shaping.htm\">http://www.cfos.de/en/traffic-shaping/traffic-shaping.htm</a> sayfasında mevcuttur. Hızlanma kazançları, belirli bir Web sayfası üzerinde yüklenmiş olan gerekli ögelerden daha yüksektir.";
 sp_doc_surf_p2 = "Eğer bir çok sayfada sörf yapıyorsanız (önemli derecede indirme yapmıyorsanız), durum penceresinden ya da kaynak menüsünden \"Ping Süresine Öncelik ver\" ayarını aktif ederek kullanmak isteyebilirsiniz. O zaman yeşil bir ok durum penceresinde görüntülenecektir. cFos ya da cFosSpeed, sahip olduğu bu ayar ile transfer hızının harcamalarında meydana gelebilecek önemli ölçüde yavaşlamalarda en düşük ping sürelerini tutmak için her şeyi yapacaktır. Ancak, bu işlem hangi uygulamaları çalıştırdığınıza da bağlıdır, bu uygulamalar çalıştırılmadığında Web sayfaları daha da hızlı yüklenebilir.";
@@ -1350,6 +1433,7 @@ sp_doc_surf_t1 = "Diğer İnteraktif Uygulamalar:";
 sp_doc_surf_p3 = "cFos ve cFosSpeed, SSL, SSH, Telnet, IRC, ve diğerleri gibi başlıca interaktif uygulamalar için entegre tespit özelliği ile gelir. Bu, uzun göndermeler ve indirmeler sırasında bile düşük yanıt zamanı sağlar.";
 sp_doc_surf_p4 = "Protokol Ayarları altındaki standart öncelik planı amaçlarınız için yeterli olmayabilir, daima herhangi bir uygulamaya \"Program Ayarları\" altındaki kendi adından ya da filtre kuralları için manuel olarak port ekleyerek öncelik tanımlayabilirsiniz. Bu, özellikle bir sunucu çalıştırıldığı zaman tavsiye edilir. ";
 sp_doc_surf_p5 = "Eğer portlar biliniyorsa, alttaki gibi (settings.ini dosyası içerisindeki [filter] bölümünü düzenleyerek) kendi veri transfer önceliğinizi tanımlayabilirsiniz:";
+/. Part after colon shouldn't be translated, since it's code from configuration file
 sp_doc_surf_p6 = "TCP portları için:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high<br />; source port=5678<br />filter=-tcp-sport 5678 -c high";
 sp_doc_surf_p7 = "<br />UDP portları için:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high<br />; source port=5678<br />filter=-udp-sport 5678 -c high";
 sp_doc_surf_t2 = "Sörf yapma ve Dosya paylaşımı (P2P):";
@@ -1362,6 +1446,8 @@ sp_doc_voip_t1 = "İndirme Sırasındaki Kopmalar:";
 sp_doc_voip_p5 = "İndirmeler tam hızda eş zamanlı bir şekilde çalıştırıldığı zaman genellikle VoIP bağlantıları kopmalardan zarar görür. Entegre haldeki RX shaping'e teşekkürler, cFos ve cFosSpeed ping sürelerini sürekli düşük tutarak bu sorunu önlemeye yardımcı olur.";
 sp_doc_voip_p6 = "Skype özel bir şifreleme protokolü kullanır, böylece önemli ölçüde bir çaba olmadan Katman-7 analizi tarafından tespit edilemez. Buna rağmen kullanıcılara yine de Skype önceliği için izin verilmiştir, dolayısıyla program listemize bunu da ekledik.";
 sp_doc_voip_t3 = "Router Önceliklendirmesi yoluyla VoIP:";
+/. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
+/. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
 sp_doc_voip_p7 = "Bazı routerlar (Fritz!Box gibi) aygıt üzerinde telefon girişleri ile donatılmıştır. Eğer bir giriş kullanılıyorsa, tüm VoIP verisi tamamıyla cFos ve cFosSpeed'i pas geçerek direkt olarak internete iletilecektir. Buradaki en büyük dezavantaj kopmaları önlemektir, bu tür routerlar bir VoIP araması yapıldığında ya da kabul edildiğinde mevcut bant genişliğini büyük ölçüde kısıtlarlar. Bu, Traffic Shaping performansında olumsuz bir etkiye neden olabilir, bu da demektir ki ayrıca hızdaki güçlü varyasyonlar için bağlantı durmadan sorun olacaktır. Bu da bizim neden tüm VoIP aramalarını tespit ve öncelik vermek için cFos ve/veya cFosSpeed'e izin vererek bilgisayarınızın kendisinden yapmanızı önerdiğimizi daha iyi açıklıyor. Eğer yine de buna rağmen telefon için routerınızı kullanmak isterseniz, o zaman araç düğmesini kullanarak <samp>Ayarlar/Bağlantılar</samp> yoluyla \"değişken (işbirliği)\" özelliğine geçiş yapın.";
 sp_doc_voip_t4 = "cFosSpeed ile VoIP Yazılımı kullanımı";
 sp_doc_voip_t5 = "IxChariot ile ölçümler";
@@ -1374,6 +1460,8 @@ sp_doc_voip_a3 = "RTP doğrulumasının deaktivasyonu";
 sp_doc_voip_a4 = "Skype'nin program önceliklendirmesi";
 sp_doc_voip_p11 = "<em>Gecikme</em> MOS değerinin çok önemli bir bölümüdür. cFosSpeed kullanıldığında bu gecikmenin artması sınırlar dahilinde korunur, oysa ki cFosSpeed kullanılmadığı zaman bu gecikme 700 milisaniyeye kadar yükselir (kırmızı grafik).";
 sp_doc_whatsnew = "Yeni özelliklere, geliştirmelere, düzenlemelere ve hata düzeltmelerine genel bakış";
+/. "Check with" meaning "Use the following action to check the result"
+/. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_news_t = "cFosSpeed'e ilişkin son haberler";
 sp_news_p1 = "cFosSpeed, eğer program haberleri varsa her 2 günde bir kontrol yapar. Eğer mevcut bir haber varsa, durum penceresi üzerinde mektup sembolü ile gösterilir ve ilgili web sayfasını o sembole tıklayarak açabilirsiniz. Bu özellik varsayılan olarak vardır. Eğer program haberleri ilginizi çekmiyorsa, \"Ayarlar\" menüsü altından bu özelliği kapatabilirsiniz.";
 sp_news_p2 = "Her yıl sadece bir kaç kez haber yayınlayacağız.";
@@ -1501,6 +1589,9 @@ six_doc_134 = "Değişikliklerin etkili olması için, yeniden başlatma gerekli
 six_doc_135 = "NAT46 eşleştirme:";
 six_doc_136 = "NAT46 mapping allows you to run IPv4-only applications with IPv6 destinations or to make IPv4-only services accessible from IPv6. cfos6link can now map traffic from IPv4 only applications to IPv6. To do so, it temporary associates at IPv6 address with a temporay IPv4 address. You can specify the IPv4 address pool by setting nat46_addr=x and nat46_subnet_mask=m in the [param] section of cfos6link.ini. If an IPv4 applications requests a name via DNS (ie. an A record) cfos6link changes the request into an AAAA record request. After it receives the corresponding IPv6 address it allocates a temporary IPv4 for that IPv6 and returns it to the IPv4 application. Whenever the IPv4 application uses that temporary address it will be mapped to the IPv6 address for use with an IPv6 destination. For example you can assign the following pool of IPv4 addresses for mapping:";
 six_doc_138 = "For incoming connections you can also specify a port mapping, by filling the section [nat46_ports] in cfos6link.ini with values, like this:";
+/. That string means that user have to place program's name instead of `some program` like `5000=skype`
+/. `some_program` part may be translated
+/: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
 six_doc_140 = "Then incoming IPv6 traffic is mapped to IPv4 whenever the destination port is one of the mapped ports.";
 six_doc_141 = "In addition you can add static IPv4 &lt;-&gt; IPv6 mappings for applications which use hard-coded IPv4 addresses. You can specifiy these mappings by filling the section [nat46_static] with value like &lt;ipv4_addr&gt;=&lt;ipv6_addr&gt;, for example 192.168.2.1=2001:DB8::1";
 
@@ -1532,15 +1623,19 @@ oem_t3 = "Traffic Shaping ile minimum ping ile maksimum bant genişliği";
 oem_l4 = "Windows 7, Windows Vista, XP ve 2000, x86 ve x64 için NDIS sürücü";
 oem_l5 = "Mevcut bağlantılar için Traffic Shaping, genişbant &amp; darbant";
 oem_l6 = "Traffic Shaping for routers and/or DSL/cable modems";
+/. Means "customizable status window with skins"
+/. or "brandable status window skin"
 oem_l7 = "Temalarla yapılandırılabilir durum penceresi";
 oem_l8 = "Trafik limitleri, hız limitleri";
 oem_t4 = "Dial-Up driver for ISDN and DSL, incl. Traffic Shaping";
 oem_l9 = "Windows 7, Vista, XP, 2000, x86 ve x64, eski işletim sistemleri; Windows 9x, ME için COM port sürücü";
 oem_l10 = "ISDN ile CAPI 2.0 (CAPI2032.DLL ya da kernel modu CAPI)";
+/. Channel bundling allows to use 2 ISDN channels as one for better bandwidth
 oem_l11 = "Channel bundling";
 oem_l12 = "On-the-Fly PPPoE algılaması, ağ sürücüsü yüklemek gerekli değildir.";
 oem_l13 = "İstek üzerine Window Vista, XP ve 2000, x86 ve x64, eski işletim sistemleri için";
 oem_l14 = "Mevcut yüklemelere kolay uyum sağlama";
+/. fees = licensing costs
 oem_t5 = "Lisans koşulları ve ücretleri";
 oem_l15 = "Ücretler sipariş edilen lisans sayısına dayanmaktadır";
 oem_l16 = "Asgari sevkiyat: 1.000 lisans";
@@ -1818,6 +1913,7 @@ speed_guide_p11e = "Daha yüksek indirme hızı için:";
 speed_guide_q11 = "Yardımcı oldu mu?";
 speed_guide_p12a = "cFosSpeed RX shaping'in indirme hızını düşürdüğü bazı (nadir) durumlar vardır.<br/>Gösterilen yerde şunu deneyin <b class=\"speed_console\">cFosSpeed Console</b>:";
 speed_guide_p12b = "Ayrıca bağlantınızdaki veri kaybının cFosSpeed Traffic Shaping'in aklını karıştırdığı bazı (nadir) durumlar da var.<br/> Gösterilen yerde şunu deneyin <b class=\"speed_console\">cFosSpeed Console</b>:";
+/. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p13a = "Devamlı aşırı derecede bağlantı ve çok sayıda UDP trafiği olduğunda,bazen hız ölçümleri zamanla sapar. Bu bazı BitTorrent bağlantılı durumlarda olabilir. Ayarlamalar düzgün çalışır ama bir süre sonra bağlantı yavaşladıkça yavaşlar.";
 speed_guide_p13b = "Hızı sadece bu gibi durumlarda sabit konuma getirebilirsiniz:";
 speed_guide_l13a = "<b class=\"speed_console\">cFosSpeed Console</b> kullanarak şuan ki değerleri öğrenin:";
@@ -1829,6 +1925,7 @@ speed_guide_q14 = "Düşük latency modu aktif mi?";
 speed_guide_a14 = "Açmayı dene:";
 speed_guide_p15 = "Belkide yüksek ping değerleri bağlandığınız sunucudan kaynaklanıyordur. Oyun sunucularında sıklıkla olan bir şeydir. cFosSpeed pingini senin bağlantının(ISP) belirlediği minimum değerden aşağısına düşüremez / ISP.Aynı anda bir kaç yere birden bağlandığında cFosSpeed ping sürelerini azaltabilir ve trafiğinin önceliklerini ayarlıyarak sen neredeyse tüm bant genişliğini kullanırken aynı zamanda en düşük ping sürelerine yakın süreler alırsın.Bu, örnek olarak; indirme/gönderme yaparken VoIP konuşmana ya da online oyun oynamana olanak tanır.";
 speed_guide_l15a = "cFosSpeed'i kaldırmak ya da Traffic Shaping'i devre dışı bırakmak";
+/. `try both` here refers to `speed_guide_l15a` language key, which suggests to `Uninstall cFosSpeed or disable Traffic Shaping`
 speed_guide_l15b = "İndir <a target=\"_blank\" href=\"http://www.cfos.de/en/download/download.htm#hrping\">hrping</a> ve - trafiğinde başka bir bağlantı olmadan - ikisinide dene";
 speed_guide_q15 = "Ping süresi hala yüksek mi?";
 speed_guide_a15 = "Öneri: DLS bağlantısı için fastpath(Hızlı yol) kullanın.Kablo tabanlı ağlarda WLAN normal olarak yüksek ping sürelerine sahiptir. Mobil internet kötü aktarım durumları ve erişim noktasındaki izdihamdan dolayı ek geçikmelere neden olabilir.";
@@ -1842,6 +1939,7 @@ speed_guide_q18 = "Ping daha iyi mi şimdi?";
 speed_guide_p19 = "Bazı donanım ve yazılımları TCP yayınlarıyla çakışabilir. Örneğin Atheros WLAN adapters için olan bir sürücü yüksek pinglere sebep olabilir.Lütfen en son ağ bağdaştırıcı sürücülerini yükleyin. Test etmek için, başka bir ağ bağdaştırıcısı kullanın ve bakın bakalım ping süreleri indirme yaparken hala yüksek mi.";
 speed_guide_q19 = "Yeni sürücüler / diğer ağ bağdaştırıcısı işe yaradı mı?";
 speed_guide_p20a = "cFosSpeed'iniz sabit bir hıza ayarlı mı? Buna gösterilen yere şunları yazarak kontrol edin <b class=\"speed_console\">cFosSpeed Console</b>:";
+/. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p20b = "0 olmalı, çok sayıda BitTorrent bağlantısı ve yüksek UDP trafiği gibi bazı nadir durumlar hariç.";
 speed_guide_p20c = "Eğer cfosspeed'in hat ayarlaması stabil duruyorsa, onu 0 yapmalısınız:";
 speed_guide_p20d = "ya da sabit hız için küçük değerler kullanın (Hızı adım adım %1 olarak düşürmeyi deneyin).";
@@ -1884,13 +1982,11 @@ speed_guide_l26g = "Portlara öncelik vermek";
 
 / speed test
 speed_test = "cFos Hız testi";
-under_construction = "Hız testi yapım aşamasında ve Ekim 2010 sonunda hazır olacak.<br /><br />Bu sırada size önerimiz:<br />";
 sptest_info_p1 = "Bizim yeni hız denetleyicimizle, internet hızınızı kolayca test edebilirsiniz. İndirme ve gönderme hız testleri yapabilirsiniz, pekiştirmek için örnek verecek olursak, Eğer internet hızınız vaat edilen hızlarda ise, Hız testi sizin kullanılabilir bant genişliğinizi mümkün olan en hızlı şekilde ölçmek için tasarlanmıştır. Hız denetiminin gösterdiği hızlar servis sağlayıcınızın size verdiği hızlarla aynı değilse hemen paniklemeyin. Örneğin 16Mbit/s bant genişliğiniz var, 1% müsamaha zaten 160.000 bit/sn ediyor, etkileyici bir rakam gibi görünüyor olsada pek bir fark yaratmıyor.";
 sptest_info_p1_sm = "Bizim yeni hız denetleyicimizle, internet hızınızı kolayca test edebilirsiniz. İndirme ve gönderme hız testleri yapabilirsiniz, pekiştirmek için örnek verecek olursak, Eğer internet hızınız vaat edilen hızlarda ise.";
 sptest_info_p2 = "Şimdilik, Hız testi iki değeri ölçüyor: İndirme ve gönderme hızı. İnternet bağlantısınız test etmek için, hız testi aynı zamanda sunucudan gelen cevap sürelerini de saptıyor. Bu size test sonuçlarının ne kadar güvenilir olup olmadığı konusunda bir fikir verebilir.Hız testinin sonraki versiyonu bunlara ek olarak, aynı zamanda olan veri akımının internet bağlantınızın cevap verme süresini ne kadar etkilediğini de ölçecek.";
 sptest_info_p3 = "500kbit/sn ve altında ki sonuçlar an itibari ile pek doğru olmayabilir.İnternet hız testini bu doğrultuda geliştirmeye çalışıcağız.";
 sptest_debug = "Hata ayıklama paneli hazır!";
-sptest_h1 = "cFos Hız testi V1.0";
 sptest_browser = "Bu test Opera &lt; 10 ile çalışmamaktadır.<br />Lütfen tarayıcınızı güncelleyin!";
 sptest_panel_info_h = "Hız testi sonuçlarının anlamı";
 sptest_panel_info_p = "Hız testi TCP/IP hızının yük verisini belirtir. cFosSpeed durum penceresinde saf IP hızını gösterir. Fark 5% civarıdır. 'Cevap verme süresi' tam HTTP istek süresidir. cFosSpeed sizin yakınınızdaki internet ping sürelerini gösterir.";
@@ -1909,24 +2005,27 @@ sptest_bot_p1 = "cFosSpeed'in MSS (MTU) optimizasyonu sizin MSS/MTU değerlerini
 /upload
 
 /videos
-videos_h1 = "YouTube videolarД±";
-videos_text1 = "Д°nternet baДџlantД±nД±z iГ§in Medium/Protocol ayarlama";
+videos_h1 = "YouTube videoları";
+videos_text1 = "İnternet bağlantınız için Medium/Protocol ayarlama";
 videos_text2 = "cFos WMI Monitor, bir cFos PNet eklenti paketi";
-videos_text3 = "cFos Personal Net Web Server | Kurulum ve basit yayД±nlama";
-videos_text4 = "cFosSpeed Automatic RWIN uzantД±sД± Г¶zelliДџi CYGWIN SCP indirmelerinizi hД±zlandД±rД±r";
-videos_text5 = "cFosSpeed Automatic RWIN uzantД±sД± Г¶zelliДџi Mozilla Firefox indirmelerinizi hД±zlandД±rД±r";
-videos_text6 = "cFosSpeed Automatic RWIN uzantД±sД± Г¶zelliДџi Internet Explorer indirmelerinizi hД±zlandД±rД±r";
-videos_text7 = "cFosSpeed 7.0 - BaДџlantД±larda GeГ§ici Г–nceliklendirme";
-videos_text8 = "cFosSpeed - BaДџlantД±larda GeГ§ici Г–nceliklendirme";
-videos_text9 = "cFosSpeed 6.60 - Д°nternet baДџlantД±nД±zД± nasД±l kalibre edersiniz?";
-videos_text10 = "cFosSpeed 6.60 - Upload/indirme sД±rasД±nda internetinizin hД±zlД± kalmasД±nД± saДџlar - NasД±l Г§alД±ЕџtД±ДџД±na bakД±n.";
-videos_text11 = "cFosSpeed 6.60 - Internet Accelerator ... Traffic Shaping ile daha hД±zlД± internet";
-videos_text12 = "cFosSpeed 6.60 - cFosSpeed'i kiЕџisel anahtar dosyanД±zla 'key.cfosspeed' nasД±l etkinleЕџtirirsiniz?";
-videos_text13 = "cFosSpeed 6.60 - cFosSpeed konsolu aracД±lД±ДџД±yla Net Talk kullanma";
+videos_text3 = "cFos Personal Net Webserver | Kurulum ve basit yayınlama";
+videos_text4 = "cFosSpeed Automatic RWIN uzantısı özelliği CYGWIN SCP indirmelerinizi hızlandırır";
+videos_text5 = "cFosSpeed Automatic RWIN uzantısı özelliği Mozilla Firefox indirmelerinizi hızlandırır";
+videos_text6 = "cFosSpeed Automatic RWIN uzantısı özelliği Internet Explorer indirmelerinizi hızlandırır";
+videos_text7 = "cFosSpeed 7.0 - Bağlantılarda Geçici Önceliklendirme";
+videos_text8 = "cFosSpeed - Bağlantılarda Geçici Önceliklendirme";
+videos_text9 = "cFosSpeed 6.60 - İnternet bağlantınızı nasıl kalibre edersiniz?";
+videos_text10 = "cFosSpeed 6.60 - Upload/indirme sırasında internetinizin hızlı kalmasını sağlar - Nasıl çalıştığına bakın.";
+videos_text11 = "cFosSpeed 6.60 - Internet Accelerator ... Traffic Shaping ile daha hızlı internet";
+videos_text12 = "cFosSpeed 6.60 - cFosSpeed'i kişisel anahtar dosyanızla 'key.cfosspeed' nasıl etkinleştirirsiniz?";
+videos_text13 = "cFosSpeed 6.60 - cFosSpeed konsolu aracılığıyla Net Talk kullanma";
 videos_text14 = "cFosSpeed Logitech oyun klavyesi G15";
 videos_text15 = "cFosSpeed ve Logitech oyun klavyesi G19";
-videos_text16 = "cFosSpeed 6.50 Windows7 32bit Гјzerinde kurulum";
-videos_text17 = "cFosSpeed Version 5.00 - Windows 7 Гјzerinde kurulum";
+videos_text16 = "cFosSpeed 6.50 Windows7 32bit üzerinde kurulum";
+videos_text17 = "cFosSpeed Version 5.00 - Windows 7 üzerinde kurulum";
+
+/port forwarding
+
 
 /meta descriptions
 missing_meta_desc = "Ürünle ilgili eksik açıklamalar";
@@ -1950,20 +2049,20 @@ cfos_ipv6_link_support_desc = "cFos IPv6 Link kaldırma sayfası. Neden kaldır�
 cfos_ipv6_link_uninstall_desc = "cFos IPv6 Link nasıl kaldırılır.";
 cfos_ipv6_link_whats_new_desc = "cFos IPv6 Link de neler yeni. Yeni özellikler,geliştirmeler ve düzeltilen sorunların  listesi.";
 cfos_ipv6_link_documentation_nat64_desc = "NAT64 de cFos IPv6 Link nasıl kurulur ve kullanılır .";
-cfos_outlook_dav_desc = "cFos Outlook DAV ГјrГјne genel bakД±Еџ.";
+cfos_outlook_dav_desc = "cFos Outlook DAV ürüne genel bakış.";
 cfospnet_activation_failed_desc = "cFospnet aktivasyonu başarısız olursa ne yapmalı?";
 cfospnet_cfospnet_desc = "cFospnet ürün genel bilgileri, ev kullanıcıları ve profesyoneller için web server";
 cfospnet_features_desc = "En önemli cFospnet özelliklerinin listesi.";
 cfospnet_license_desc = "cFos Personal Net lisansı.";
 cfospnet_uninstall_desc = "cFos Personal Net kaldırma sayfası. Neden kaldırıyorsunuz lütfen geribilgilendirmede bulunun.";
 cfospnet_whats_new_desc = "cFos Personal Net de neler yeni. Yeni özellikler,geliştirmeler ve düzeltilen sorunların  listesi.";
-cfospnet_wmi_desc = "cFos Personal Net WMI eklentisi genel bakД±Еџ ve dГ¶kГјmantasyon.";
+cfospnet_wmi_desc = "cFos Personal Net WMI eklentisi genel bakış ve dökümantasyon.";
 cfospnet_documentation_overview_desc = "cFos Personal Net'in özellikleri ve avantajlarına genel bakış.";
 cfospnet_documentation_setup_desc = "How to basically setup cFos Personal Net - system integration and user setup.";
 cfospnet_documentation_access_desc = "cFos Personal Net ayarlarına AccessFiles (.htaccess) kullanarak ince ayar yapın .";
 cfospnet_documentation_script_desc = "cFos Personal Net'in komut özelliklerinin dökümanı. ";
-cfospnet_documentation_dav_desc = "WebDAV dГ¶kГјmantasyonu, cFos Personal Net'in CalDAV ve CardDAV Г¶zellikleri.";
-cfospnet_documentation_media_desc = "cFos Personal Net medya server Г¶zellikleri dГ¶kГјmantasyonu.";
+cfospnet_documentation_dav_desc = "WebDAV dökümantasyonu, cFos Personal Net'in CalDAV ve CardDAV özellikleri.";
+cfospnet_documentation_media_desc = "cFos Personal Net medya server özellikleri dökümantasyonu.";
 cfospnet_documentation_security_desc = "Sunuculara yüklenen cFos Personal Net için güvenlik tavsiyeleri ";
 cfospnet_documentation_scripts_desc = "cFos Personal Net'in dahil olan standart komutları için döküman";
 cfospnet_documentation_misc_desc = "cFos Personal Net'in çeşitli özelliklerinin dökümanı";
@@ -2017,38 +2116,39 @@ cfosspeed_technical_question_desc = "Destek ekibimizle irtibata geçin. Burada c
 cfosspeed_documentation_cdm_desc = "Ürünle ilgili eksik açıklamalar";
 cfosspeed_documentation_index_desc = "cFosSpeed ürünü hakkýndaki dokümanlar. Ýçerik.";
 cfosspeed_documentation_games_desc = "Online oyunlar cFosSpeed / Trafik Düzenleyici ile hýzlandýrma yollarý";
-cfosspeed_documentation_install_desc = "cFosSpeed kurulumu, lisans anahtarД±nД±n etkinleЕџtirilmesi ve kaldД±rma.";
+cfosspeed_documentation_install_desc = "cFosSpeed kurulumu, lisans anahtarının etkinleştirilmesi ve kaldırma.";
 cfosspeed_documentation_voip_desc = "cFosSpeed'in uyumlu olduðu (VoIP) uygulamalarý.";
 cfosspeed_documentation_registration_desc = "Ürün anahtarınızı aktive ederken karşılaşılan sorunlarla nasıl başa çıkıcaksınız";
 cfosspeed_documentation_surf_desc = "cFosSpeed / Trafik Düzenleme ile web gezintinizi hýzlandýrma yollarý.";
 cfosspeed_documentation_speed_list_desc = "cFosSpeed'in kullanýldýðý bazý ISS'ler, ülke ülke sýralanmýþtýr.";
 cfosspeed_documentation_status_desc = "cFosSpeed durum ekranýndaki araçlarýn açýklamasý.";
-cfosspeed_documentation_status_aquarium_desc = "cfosSpeed Aquarium arayГјzГјndeki tГјm gГ¶rsel elemanlarД±n aГ§Д±klamasД±.";
-cfosspeed_documentation_status_aquarium_icon_desc = "cfosSpeed Aquarium Icon arayГјzГјndeki tГјm gГ¶rsel elemanlarД±n aГ§Д±klamasД±.";
-cfosspeed_documentation_status_liquid_crystal_desc = "cfosSpeed Liquid Crystal arayГјzГјndeki tГјm gГ¶rsel elemanlarД±n aГ§Д±klamasД±..";
-cfosspeed_documentation_status_liquid_crystal_history_desc = "cfosSpeed Liquid Crystal History arayГјzГјndeki tГјm gГ¶rsel elemanlarД±n aГ§Д±klamasД±..";
-cfosspeed_documentation_status_metro_desc = "cfosSpeed Metro arayГјzГјndeki tГјm gГ¶rsel elemanlarД±n aГ§Д±klamasД±.";
-cfosspeed_documentation_status_traffic_analysis_desc = "cfosSpeed Traffic Analysis arayГјzГјndeki tГјm gГ¶rsel elemanlarД±n aГ§Д±klamasД±.";
-cfosspeed_documentation_status_traffic_analysis_icon_desc = "cfosSpeed Traffic Analysis Icon arayГјzГјndeki tГјm gГ¶rsel elemanlarД±n aГ§Д±klamasД±.";
-cfosspeed_documentation_status_traffic_analysis_insight_desc = "cfosSpeed Traffic Analysis Insight arayГјzГјndeki tГјm gГ¶rsel elemanlarД±n aГ§Д±klamasД±.";
-cfosspeed_documentation_status_user_led_desc = "cfosSpeed User arayГјzГјndeki tГјm gГ¶rsel elemanlarД±n aГ§Д±klamasД± / Klavye LEDlerinin kullanД±mД±.";
+cfosspeed_documentation_status_aquarium_desc = "cfosSpeed Aquarium arayüzündeki tüm görsel elemanların açıklaması.";
+cfosspeed_documentation_status_aquarium_icon_desc = "cfosSpeed Aquarium Icon arayüzündeki tüm görsel elemanların açıklaması.";
+cfosspeed_documentation_status_liquid_crystal_desc = "cfosSpeed Liquid Crystal arayüzündeki tüm görsel elemanların açıklaması..";
+cfosspeed_documentation_status_liquid_crystal_history_desc = "cfosSpeed Liquid Crystal History arayüzündeki tüm görsel elemanların açıklaması..";
+cfosspeed_documentation_status_metro_desc = "cfosSpeed Metro arayüzündeki tüm görsel elemanların açıklaması.";
+cfosspeed_documentation_status_traffic_analysis_desc = "cfosSpeed Traffic Analysis arayüzündeki tüm görsel elemanların açıklaması.";
+cfosspeed_documentation_status_traffic_analysis_icon_desc = "cfosSpeed Traffic Analysis Icon arayüzündeki tüm görsel elemanların açıklaması.";
+cfosspeed_documentation_status_traffic_analysis_insight_desc = "cfosSpeed Traffic Analysis Insight arayüzündeki tüm görsel elemanların açıklaması.";
+cfosspeed_documentation_status_user_led_desc = "cfosSpeed User arayüzündeki tüm görsel elemanların açıklaması / Klavye LEDlerinin kullanımı.";
 cfosspeed_documentation_menu_desc = "cFosSpeed araç menüsünün açýklamasý.";
 cfosspeed_documentation_no_ping_desc = "cFosSpeed ping almýyorsa yapýlabileceklerin listesi.";
 cfosspeed_documentation_prog_prio_desc = "Önceliklendirme işlemi nasıl çalışır?";
 cfosspeed_documentation_keyboard_leds_desc = "Bilgisayarýnýz tam ekran modunda iken klavyenizdeki LED göstergelerinden anlýk durumu takip etme yollarý";
+/. `BitTorrent` — name of the protocol, not of the program
 cfosspeed_documentation_p2p_desc = "Bittorrent, E2K, gibi P2P protokollerini cFosSpeed ile optimize etme yollarý.";
 cfosspeed_documentation_logitech_keyboard_desc = "Logitech Gamer klavyeleri ile cFosSpeed'in durumu hakkýnda bilgi alma yollarý. (Uyumlu modeller: G19,G15, G13, G510.)";
 beta_index_desc = "cFosSpeed'in en yeni Beta versiyonunu indirme baðlantýsý, cFos IPv6 Baðlantýsý, cFos Geniþbant Baðlanýcýsý ve cFos Profesyonel.";
 beta_cfos_ipv6_link_whats_new_desc = "cFos IPv6 Baðlantýsý'nýn beta versiyonu ile gelen özellikleri geliþtirmeleri ve düzeltmeleriyle bilgiler.";
 beta_cfos_broadband_connect_whats_new_desc = "cFos Geniþbant Baðlanýcýsý'nýn beta versiyonu ile gelen özelliklerin geliþtirmelerin ve düzeltmelerin listesi.";
-beta_cfos_pnet_whats_new_desc = "cFos Personal Net'in yeni Г¶zelliklerinin listesi, beta sГјrГјm hata dГјzeltmeleri ve geliЕџtirmeler.";
+beta_cfos_pnet_whats_new_desc = "cFos Personal Net'in yeni özelliklerinin listesi, beta sürüm hata düzeltmeleri ve geliştirmeler.";
 beta_cfos_professional_whats_new_desc = "cFos Professional'ın yeni özellikleri,geliştirmeleri ve beta versiyonundaki hata düzeltimlerinin listesi.";
 beta_cfosspeed_whats_new_desc = "List of cFosSpeed'in yeni özellikleri,geliştirmeleri ve beta versiyonundaki hata düzeltimlerinin listesi.";
 oem_oem_desc = "Tüm ürünlerimiz hakkýnda bilgiler ve OEM partnerlerimiz için özelleþtirilebilme açýklamasý. Ayrýca OEM kontratý / kullanýcý sözleþmesi de ektedir.";
 cfos_notifier_desc = "cFos Notifier'a genel bakış.";
 cfos_notifier_whats_new_desc = "cFos Notifier'daki yenilikler. Yeni özellikler,geliştirmeler ve düzeltilen sorunların  listesi.";
-upload_desc = "Dumo'lar ve diДџer dosyalar iГ§in upload sayfasД±";
-video_page_desc = "cFos YazД±lД±mД±yla tГјm YouTube videolarД±nД±n listesi";
+upload_desc = "Dumo'lar ve diğer dosyalar için upload sayfası";
+video_page_desc = "cFos Yazılımıyla tüm YouTube videolarının listesi";
 cfosspeed_features_title = "cFosSpeed'in en önemli özelliklerinin listesi.";
 
 /mailing lists
