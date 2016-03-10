@@ -801,6 +801,7 @@ cfout_p1b_v3 = "The current <b>free</b> pre-release runs until <b>June 1st 2014<
 cfout_p1b_v4 = "The current <b>free</b> release runs until <b>June 1st 2015</b>.";
 cfout_p1b_v5 = "The current <b>free</b> release runs until <b>December 31st 2015</b>.";
 cfout_p1b_v6 = "The current <b>free</b> release runs until <b>March 31st 2016</b>.";
+cfout_p1b_v7 = "The current <b>free</b> release runs until <b id=\"expire_date\">June 30th 2016</b>.";
 cfout_p1c = "The current pre-release does not support attachment files for calendar events.";
 cfout_p1d = "The final release will be available for about 10 Euro.";
 cfout_p1e = "Or you can <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>buy an unlimited license here</b></a>.";
@@ -2558,6 +2559,10 @@ videos_text17 = "cFosSpeed Version 5.00 - Installation on Windows 7";
 port_forwarding_title = "Enable port forwarding for your router";
 port_forwarding_brand = "Select the brand of your router";
 port_forwarding_router = "Select your router";
+port_forwarding_goto_instruction = "Goto instructions";
+port_forwarding_no_instruction_h1 = "There are no instructions available for this router.";
+
+port_forwarding_contact_us = "Contact us";
 
 /meta descriptions
 missing_meta_desc = "missing meta description";

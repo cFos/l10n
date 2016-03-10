@@ -724,6 +724,7 @@ cfout_p1b_v3 = "L'actuelle pre-release <b>gratuite</b> fonctionnera jusqu'au <b>
 cfout_p1b_v4 = "L'actuelle version <b>gratuite</b> est active jusqu'au <b>1er juin 2015</b>.";
 cfout_p1b_v5 = "La version actuelle et <b>gratuite</b> sera active jusqu'au <b>31 décembre 2015</b>.";
 cfout_p1b_v6 = "La version actuelle et <b>gratuite</b> sera active jusqu'au <b>31 Mars 2016</b>.";
+cfout_p1b_v7 = "La version actuelle et <b>gratuite</b> sera active jusqu'au <b id=\"expire_date\">June 30th 2016</b>.";
 cfout_p1c = "L'actuelle pre-release ne prend pas en charge les pièces jointes pour les évènements du calendrier.";
 cfout_p1d = "La release finale sera disponible pour environ 10 Euros.";
 cfout_p1e = "Ou alors vous pouvez <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>acheter une licence perpétuelle ici</b></a>.";
