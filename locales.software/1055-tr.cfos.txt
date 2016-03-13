@@ -252,7 +252,7 @@ other_languages = "Diğer Diller";
 install_dir = "Kurulum klasörü: ";
 ask_clear_tsdata = "Traffic Shaping verisini temizlemek ve yeni çizgi kalibrasyonunu başlatmak istiyor musunuz?";
 allow_traffic_shaping = "Bu bağlantı için Traffic Shaping'e izin verilsin mi";
-none = "Hiçbiri";
+none = "hiçbiri";
 lic_expired = "Deneme süreniz sona erdi. %1 artık etkin değil. %1 i bugün satın alın!";
 settings = "Ayarlar";
 winsettings = "Pencere ayarları";
@@ -294,28 +294,28 @@ upgrade = "Yeni sürümü kontrol et";
 connect_to = "Bağlan";
 make_own_skin = "Kendi arayüzünüzü oluşturun";
 click_through = "Üzerine tıklayın";
-ask = "sorun";
-off = "kapalı";
-on = "açık";
+ask = "Sorun";
+off = "Kapalı";
+on = "Açık";
 note = "Not";
-deactivated = "kapalı";
+deactivated = "kapandı";
 browser_warning = "Bu diyalog için Internet Explorer sürüm 8 ya da üstü önerilir!";
 ole_error = "Bu düzenleme penceresini kullanmak için \\n%p' in bilgisayarınızda kurulu ve sorunsuz çalışıyor olması gerekmektedir.\\nLütfen %p' i kontrol edin ve gerekiyor ise tekrar kurun.";
 ts_settings = "Traffic Shaping Seçenekleri";
 preferences = "Tercihler";
-prio_protocols = "Traffic Shaping Protokol Önceliklendirmeleri";
+prio_protocols = "Protokol Önceliklendirmeleri";
 protocol = "Protokol";
 protocols = "Protokoller";
 prio_programs = "Program Önceliklendirme";
 program = "Program";
 programs = "Programlar";
-current_connections = "Bağlantılar";
+current_connections = "Mevcut Bağlantılar";
 current_connections_advanced = "Mevcut Bağlantılar (Gelişmiş)";
 current_connections_standard = "Mevcut Bağlantılar (Standart)";
 ts_prios = "Traffic Shaping Önceliklendirmeleri";
 client_protocols = "İstemci Protokolleri";
 server_protocols = "Sunucu Protokolleri";
-client_server_protocols = "Client ve Server Protokolleri";
+client_server_protocols = "İstemci ve Sunucu Protokolleri";
 media_streaming = "Medya Yayınlama";
 file_sharing = "Dosya Paylaşımı";
 special = "Özel";
@@ -344,12 +344,12 @@ remote_control = "Uzaktan Erişim";
 prog_hint_text = "Önceliklendirme sadece mümkün olan en az miktarda veriye yüksek öncelik verildiğinde düzgün şekilde çalışacaktır. Çok miktarda veri gönderen programlara düşük öncelik verin.<br />";
 save_priorities = "Öncelikleri kaydet";
 delete = "Sil";
-aux_lines = "yardım çizgileri";
+aux_lines = "Yardım çizgileri";
 higher_prog_help = "Voice-over-IP, belki oyunlar";
 high_prog_help = "Oyunlar, Medya yayını, Telnet ve diğer etkileşimli yazılımlar";
 low_prog_help = "Sunucu verisi, FTP verisi";
-lower_prog_help = "sürekli arkaplan trafiği, örneğin; dosya paylaşımı";
-delete_help = "Listeden kaldır, yani; paketlere normal öncelik ver.";
+lower_prog_help = "Sürekli arkaplan trafiği, örneğin; dosya paylaşımı";
+delete_help = "Listeden kaldır (yani, paketlere normal öncelik ver).";
 prog_help = "Düşük öncelikli paketlerin transfer hızı sadece daha büyük öncelikli paket transferleri ile aynı anda gerçekleştiğinde yavaşlamaktadır. Diğer durumlarda düşük öncelikli veriler maksimum hızda transfer edilmektedir.";
 filename = "Dosya adı";
 description = "Açıklama";
@@ -379,9 +379,9 @@ traffic_shaping = "Traffic Shaping";
 ras_con_help = "<b>Evet</b>: açık, <b>hayır</b>: kapalı, <b>sor</b>: bir kez sor ve ayarları kaydet.";
 router_connections = "Router Ayarları";
 net_components = "Ağ Bileşenleri";
-auto = "otomatik";
+auto = "Otomatik";
 router_help = "<b>Evet</b>: aç, <b>hayır</b>: kapat, <b>otomatik</b>: Ağ bileşenlerinde router bulunduysa, Traffic Shapingni aç";
-network_adapter = "ağ bağdaştırıcısı";
+network_adapter = "Ağ Bağdaştırıcısı";
 router = "Router";
 and_save_settings = "ve ayarları kaydet";
 border = "Kenarlık";
@@ -390,7 +390,7 @@ budget_settings = "Bütçe Ayarları";
 budget_title = "%p Çevrimiçi Bütçeler";
 budgets = "Çevrimiçi Bütçeler";
 graph_title = "Kullanım Grafiği";
-hard_limit = "Sert<br>Sınırlar";
+hard_limit = "Sert<br>Sınırlar"; /. Katı<br>Sınırlar,Üst<br>Sınırlar
 hard_limit_help_not_set = "Tüketilen bir bütçe sadece durum penceresinde gösterilecektir";
 hard_limit_help_set = "Bütçe tüketildiyse paketler bırakılacaktır";
 last_3_months = "son 3 ay";
@@ -456,7 +456,7 @@ apply_blocklist = "Filtre listesini kullan";
 search = "Ara";
 budget_connection = "Hangi bağlantı için hangi bütçenin kullanılacağını ayarlayın";
 reset = "Sıfırla";
-autohide_on_fullscreen = "Tam ekranda otomatik-gizlen";
+autohide_on_fullscreen = "Tam ekranda otomatik-gizle";
 slot_selected = "Seçili protokoller / programlar";
 show = "Göster";
 hide = "Gizle";
@@ -497,7 +497,7 @@ regid_help_long = "Bağlantınızı başka birkaç makineyle eşzamanlı olarak 
 
 / "Net Talk" means that %p exchanges traffic statistics with other instances of %p in the same subnet (ie. on the same router).
 net_talk = "Net Talk";
-net_talk_help = "LAN'ınız üzerindeki trafik istatistiklerini yayınlayın";
+net_talk_help = "LAN bağlantınıza trafik istatistiklerini yayınlayın";
 net_talk_help_long = "Doğruluğu geliştirmek için, Traffic Shaping istatistiklerinizi yerel (ev) ağınızdaki diğer bilgisayarlara gönderin. İnternete hiçbir veriniz gönderilmemektedir.";
 net_talk_subheader = "Lütfen Net_Talk özelliği kullanılmalıysa seçin.";
 
@@ -522,7 +522,7 @@ channel_explain = "Kanal kullanımını WLAN durumunuzu ayarlamak için kullanab
 no_adapters = "Adaptör bilgisi yok.";
 wlan_no_service = "Hizmet kullanılabilir değil. Lütfen Windows için Wireless LAN API (WZC) kurun ya da çalıştırın.";
 wlan_no_station = "Yeterince Erişim Noktası bulunamadı.";
-kaspersky_hint = "Kaspersky Internet Security 2010 %p sorununa yol açmış olabilir. Lütfen Kaspersky Internet Security 2011 ürününüzü güncelleyin.";
+kaspersky_hint = "Kaspersky Internet Security 2010 %p sorununa yol açmış olabilir. Lütfen Kaspersky Internet Security ürününüzü son sürüme güncelleyin.";
 
 console_cancel = "İptal";
 console_freeze = "Dondur";
@@ -586,7 +586,7 @@ upnp_router_info_help = "Hat hızını tespit etmek için yonlendiriciden UPnP i
 /
 / ----------------------------------------------------------------------
 
-speed_desc = "%p - Traffic Shaping ile Daha Hızlı İnternet!";
+speed_desc = "%p, Traffic Shaping ile daha hızlı internet!";
 
 / URLs
 bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
@@ -611,7 +611,8 @@ welcome_found_dir = "Sisteminizdeki %3 klasöründe %1 v%2nin mevcut bir kurulum
 welcome_found_unknown = "Sisteminizde %? in, mevcut bir kurulumuna rastlanmıştır.";
 welcome_found_modified = "Sisteminizdeki %3 klasöründe %1 v%2nin düzenlenmiş ya da bitirilmemiş bir kurulumuna rastlanmıştır.";
 welcome_update = "Mevcut versiyonu değiştirmek için İleri'ye tıklayın.";
-welcome_admin = "Bu işlemi yapmak için gerekli yönetici haklarına sahip değilsiniz.\nKurulumu yapabilmek için yönetici haklarına sahip bir kullanıcı hesabıyla giriş yapmanız gerekmektedir.";
+welcome_admin = "Bu işlemi yapmak için gerekli yönetici haklarına sahip değilsiniz. "
+                "Kurulumu yapabilmek için yönetici haklarına sahip bir kullanıcı hesabıyla giriş yapmanız gerekmektedir.";
 welcome_lang_syslink = "<a href=\"%?\">Diğer Diller</a>";
 welcome_oem_info = "%1, %2 için %p'nin OEM versiyonudur. Yani, %p %1 ve daha fazlasının tüm özelliklerini içerir.";
 
@@ -632,7 +633,7 @@ lic_info = "Eğer Lisans Sözleşmesini kabul ediyorsanız; 'Kabul Ediyorum' u s
 lic_agree = "Kabul Ediyorum";
 
 / restore point dialog
-rp_header = "Sistem geri yükleme noktası";
+rp_header = "Sistem Geri Yükleme Noktası";
 rp_subheader = "Sistem geri yükleme noktası, sisteminizi daha önceki bir duruma geri döndürmeyi sağlar.";
 rp_info = "Sistem geri yükleme noktası Windows işletim sisteminizi oluşturulduğu noktaya geri yüklemeye yarar. Yeni bir sürücü kuruluyorsa sistem geri yükleme noktası oluşturulması tavsiye edilir.";
 rp_check = "Sistem geri yükleme noktası oluştur.";
@@ -688,8 +689,11 @@ instdir_system_recommended = "Yükleme hedefinin sistem sürücüsünde olması 
 
 / tcp settings dialog
 tcp_header = "TCP alıcı pencere boyutunu ayarla.";
-tcp_subheader = "TCP (Dosya Transferi Kontrolü Protokolü) alıcı pencere boyutu uygun bir seviyeye ayarlanmalıdır.";
-tcp_info = "TCP alıcı pencere boyutu gelen verinin çıktısını kontrol eder. Windows Kayıt Defterinde saklanır. Veri şu anda uygun bir değerde değil..\n\n Bu sihirbaza bu değeri daha uygun bir değer ile değiştirmesi için izin vermeniz tavsiye edilir.(yapılan düzenleme bilgisayarınız yeniden başlatıldıktan sonra geçerli olacaktır.)";
+tcp_subheader = "TCP (İletim Kontrol Protokolü) alıcı pencere boyutu uygun bir seviyeye ayarlanmalıdır.";
+tcp_info = "TCP alıcı pencere boyutu gelen verinin çıktısını kontrol eder. "
+           "Windows kayıt defterinde saklanan bu veri, şu anda uygun bir değerde değil..\n\n"
+           "Bu sihirbaza bu değeri daha uygun bir değer ile değiştirmesi için izin vermeniz tavsiye edilir. "
+           "(Yapılan düzenleme bilgisayarınız yeniden başlatıldıktan sonra geçerli olacaktır.)";
 tcp_check = "TCP alıcı pencere boyutunu düzenle. (Önerilen)";
 
 / hang up online connection dialog
@@ -697,7 +701,8 @@ hangup_header = "Etkin Bağlantı";
 hangup_subheader = "Etkin bağlantı kesilmelidir.";
 hangup_online = "Bu bağlantılarınız şu an etkindir:";
 hangup_offline = "Bağlantı kesildi.";
-hangup_info = "Bu sihirbaza devam etmek istiyorsanız, etkin bağlantıyı kesmeniz gerekmektedir.\n\nBağlantıyı şimdi kesmek için Bağlantıyı Kes'e tıklayın.";
+hangup_info = "Bu sihirbaza devam etmek istiyorsanız, etkin bağlantıyı kesmeniz gerekmektedir.\n\n"
+              "Bağlantıyı şimdi kesmek için Bağlantıyı Kes'e tıklayın.";
 hangup_disco = "Bağlantıyı kes";
 
 / usage statistics
@@ -711,7 +716,7 @@ port_forwarding_failed = "%? adlı router otomatik port yönlendirmeyi desteklem
                          "Bu özelliği belki router'ınızın ayarlarından etkinleştirebilirsiniz.";
 port_forwarding_config = "%? daki router'ınızı şimdi ayarlayabilirsiniz.";
 /. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
-port_forwarding_fritz = " UPnP aracılığıyla güvenlik ayarlarınızda değişikliklere izin vererek "
+port_forwarding_fritz = "UPnP aracılığıyla güvenlik ayarlarınızda değişikliklere izin vererek "
                         "Ev Ağı / Ağ / Programlar sekmesinin altından port yönlendirmesini etkinleştirebilirsiniz";
 
 / crash handler messages
@@ -740,7 +745,7 @@ progress_uninst_wait = "Lütfen program kaldırma işlemi tamamlanana kadar bekl
 progress_driver_wait = "Lütfen bekleyin. Sürücü kurulumu/kaldırma işlemi gerçekleştiriliyor. Bu işlem bir kaç dakika sürebilir.";
 
 / confirm delete dialog
-conf_del_header = "Ayar dosyalarını sil";
+conf_del_header = "Ayar Dosyalarını Sil";
 conf_del_subheader = "Ayarlarınızın ve kişisel bilgileriniz ile birlikte dosyaların da silinmesi için onay vermelisiniz.";
 conf_del_info = "Takip eden yapılandırma dosyaları ve hedefler %p tarafından oluşturuldu ve henüz silinmedi:";
 conf_del_column = "Dosya adı";
@@ -754,7 +759,7 @@ finish_info_fail = "Kurulum aşağıdaki nedenden dolayı tamamlanamadı:";
 finish_reboot = "Sistem yeniden başlatılmalıdır! Yeniden başlatmak için Bitir'e, daha sonra yeniden başlatmak için ise İptal'e tıklayın.";
 finish_uninst_driver_reboot = "Sürücü kaldırma işlemi ancak sistem yeniden başlatıldıktan sonra tamamlanabilir. "
                              "Lütfen sisteminizi yeniden başlattıktan sonra kurulum programını tekrar çalıştırın.";
-finish_link_ok = "<a href=\"%?\">%? Özellikleri!</a>";
+finish_link_ok = "<a href=\"%?\">%? özellikleri!</a>";
 finish_file_fail = "Daha fazla bilgi için %s kayıt dosyasını okuyun.";
 finish_file_link_fail = "Daha fazla bilgi için <a href=\"file://%s\">kayıt dosyası</a>nı okuyun.";
 finish_cfosts_disabled = "Çalışan cFos programınızdaki Traffic Shaping kapatıldı, çünkü %p zaten gerekli Traffic Shapingni yapıyor.(isterseniz cFos ayar menüsünden Traffic Shapingni tekrar açabilirsiniz)";
@@ -815,7 +820,7 @@ pg_enter_serial_number = "%p seri numarasını girin";
 pg_configure = "%p'yi ayarla";
 
 / desktop symbol
-dt_advertise = "%? özellikleri";
+dt_advertise = "%? Özellikleri";
 dt_advertise_desc = "Bütün %? özelliklerini listeler.";
 
 / message boxes
@@ -840,7 +845,7 @@ err_uninst_driver = "Bu sürücü kaldırılamaz.";
 err_create_process = "%s çağırmada hata: %s";
 err_write_lock = "%? ağ bileşenleri şu an başka bir işlem tarafından kullanılıyor. Lütfen diğer bütün programları kapatın veya bilgisayarınızı yeniden başlatıp, tekrar deneyin.";
 err_write_lock_process = "%? ağ bileşenleri şu işlemler tarafından kullanılmakta: %?. lütfen bu işlemleri kapatıp, ya da bilgisayarı yeniden başlatıp tekrar deneyiniz.";
-err_file_auth = "Bu kurulumdaki bazı dosyalar bozuk veya kayıptır.\nLütfen orijinal %p kurulumunu edininiz.\n(www.cfos.de)";
+err_file_auth = "Bu kurulumdaki bazı dosyalar bozuk veya kayıptır.\nLütfen orijinal %p kurulumunu edininiz.\n(www.cfos.de adresinden)";
 err_cancel = "İşlem iptal edildi.";
 err_no32 = "64-bitlik işletim sistemlerine 32-bitlik sürücüler kurulamaz.\n\nİşletim Sistemi: %?\nÜrün: %?";
 err_bad_keyfile = "Anahtar dosyası bozulmuş veya geçersiz. Çalışan bir anahtar dosyası için lütfen bizle iletişim kurun.";
@@ -907,7 +912,7 @@ vista_warn_info = "%p, GlobalSign tarafından dijital olarak sertifika ile imzal
 vista_warn_image = "vista_en.bmp";
 
 / dial entry dialog
-dun_wizard_name = "%p Bağlantı sihirbazı";
+dun_wizard_name = "%p Bağlantı Sihirbazı";
 connections = "Bağlantılar";
 dun_subheader = "Bir bağlantı oluştur.";
 dun_with_bc = " cFos Broadband Connect ile";
