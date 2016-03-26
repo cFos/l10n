@@ -20,6 +20,7 @@ link_text_sitemap = "Site haritası";
 link_text_support = "Destek";
 
 / index2
+about = "cFos Yazılımı Hakkında";
 asrock_info = "<b>ASRock XFast LAN</b> kullanıcıları için bilgi";
 bc_linktext = "Yüksek hızlı erişim için cFos Broadband Connect";
 cfos6link_linktext = "cFos IPv6 Bağlantısı";
@@ -33,6 +34,7 @@ desc_dialup = "İnternet üzerinden Çevirmeli Arama";
 desc_shaping = "Trafik Shaping ile daha hızlı İnternet";
 desc_freeware = "Ücretsiz araçlar ve hizmetler";
 desc_notifier = "Twitter hesabınız ile yeni Tweetlerden haberdar kalın";
+desc_notifier_v2 = "Yeni E-postalar, Tweetler ve RSS Beslemeleri ile haberdar kalın";
 desc_speedtest = "Internet bağlantı hızınızı test edin";
 freeware_text1 = "cFosSpeed'in yeni versiyonu hazır:";
 freeware_text2 = "Geliştirilmiş Traffic Shaping: Maksimum bant genişliği, minimum ping! Hemen indir: ";
@@ -43,6 +45,8 @@ special_offer_xmas_2 = "(haftasonu nedeniyle 2 Ocak 2011 tarihine kadar uzatıld
 special_offer_spring = "Bahar festivali için özel teklif! 9 Şubat 2011 tarihine kadar";
 special_offer_winter = "Kış İndirimi nedeniyle 31 Ocak 2012 tarihine kadar özel fiyatlar";
 worldcup_sale = "Dünya kupası süresince özel fiyatlar!"; / FIFA Soccer World Cup
+winter_sale = "Kış Satışı süresince özel fiyatlar!"; / New Years Sale for China
+winter_sale_ext = "28 Eylüle kadar uzatıldı - Büyük desteğiniz için teşekkürler!";
 style_light = "Hafif";
 style_strong = "Koyu";
 style_untranslated = "Çevrilmemiş metinler için vurgulama modu";
@@ -66,6 +70,11 @@ quick_poll_p = "Hangisi?";
 current_version = "Mevcut sürüm";
 rwin_video_award = "cFosSpeed RWIN-Expansion Award 2012 etkinliğine şimdi katılın!";
 rwin_video_award2 = "Ücretsiz <b>100</b> ömürboyu cFosSpeed lisansından birini kazanın!";
+social_networks = "Lütfen sosyal ağlardaki varlığımızı destekleyin.<br/>Facebook'ta bizi beğenin, Twitter'da bizi takip edin.";
+word_follow = "Takip et";
+cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> artık <b>Windows 10</b> için kullanıma hazır.";
+learn_more = "Detaylı bilgi"; // Meaning "learn more about the product"
+oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> şunlar için kullanılabilecek resmi internet hızlandırıcıdır:<br/>ASUS, GIGABYTE, ASRock ve MSI oyun ürünleri"; // Line feed at approx middle of the key, preferred directly before the brand names
 
 / download
 additional_downloads = "Diğer Dosyalar";
@@ -75,6 +84,8 @@ alt_cfos_image = "cFos görseli";
 alt_speed_image = "cFosSpeed görseli";
 bark_text = "WatchDog hizmeti. İşlemleri takip eder ve durduklarında yeniden başlatır.";
 beta_versions = "cFos beta sürümleri";
+beta_thanks = "<b>Beta testçilerimize</b> hataları bildirdikleri için ve bize izleme (trace) dosyaları, çökme raporları gönderdikleri için çok teşekkür ederiz. Sizin yardımınız olmadan ürünlerimiz bu yüksek kalite standardını yakalayamazdı!";
+beta_warning = "Bu beta sürümler tam olarak test edilmiş <span class=\"red\">değildir</span> .<br/><span class=\"red\">Kullanmanızdaki risk size aittir.</span>.";
 black = "siyah";
 cfnotify_text = "Görev çubuğunuzda simgeleri göstermek için bir program. Örneğin, cFos arayan monitörü için kullanılabilir.";
 cfosbc_text = "Yüksek bant genişlikli İnternet bağlantısı için Çevirmeli-Arama sürücüsü.";
@@ -105,6 +116,7 @@ mugstore_header = "cFos kupaları mugstore.de'de";
 mugstore_text = "Her sene bu kupalar cFos Software GmbH için özel olarak tasarlanmakta ve yeni yıl hediyesi olarak şirketin dostlarına verilmektedir. Hepsi de ana konu &quot;cFos&quot; olacak şekilde bilinen sanat eserlerine ya da popüler sinema filmlerine saygının izlerini taşır.<br /><br />Önceleri sadece belli bir sayıda hazırlanan bu kupalar artık herkesin alabileceği şekilde burada: <br />";
 other_languages = "Diğer Diller";
 other_systems = "diğer işletim sistemleri için";
+product_page = "Ürün sayfası";
 rnahelp_text = "Windows İnternet bağlantıları için komut programı";
 sk_c64_text = "C64-tarzı cFos arayüz (Hazırlayan, Markus Welz)";
 sk_classic = "cFos Klasik Arayüz";
@@ -136,6 +148,7 @@ sk_offchu_history = "SK Geçmişi İnce";
 sk_offchu_history_text = "İnce yatay Sıvı Kristal Tarihli Arayüzü (Hazırlayan, offchu)";
 sk_safak = "Safak'ın Teması";
 sk_safak_text = "Shinnher'ın Teması (Safak Falakaoglu tarafından düzenlendi)";
+sk_shinnher = "Shinnher Arayüzü";
 sk_shinnher_text = "Akışkan Kristal Görünümü (Düzenleyen, Shinnher)";
 sk_shinnher_text_black = "Siyah arkaplanlı Shinnher'in Arayüzü, Scott tarafından düzenlendi.";
 sk_shinnher_text_grey = "Gri arkaplanlı Shinnher'in Arayüzü, Scott tarafından düzenlendi.";
@@ -157,10 +170,12 @@ whats_new = "Bu sürümde neler yeni?";
 zip_tip = "Yukarıda listelenen ZIP dosyalarını <a class=\"inline\" href=\"http://www.pkware.com\">PKZIP</a>, <a class=\"inline\" href=\"http://www.winzip.de\">WinZIP</a> ya da <a class=\"inline\" href=\"http://www.info-zip.org/\">Info-ZIP</a> programlarını kullanarak açabilirsiniz.";
 cfos6link_text = "XP, Vista ve Windows 7 için IPv6 Bağlanabilirliği";
 twitter_follow = "cFos'u Twitter'dan takip edin";
+twitter_follow_short = " cFos Yazılımını takip et";
 language_files = "dil dosyaları";
 word_translation = "çeviriler";
 
 / order
+alt_logo = "cFos Software GmbH logosu";
 atm_price = "İsteğe bağlı ATM versiyonu";
 bank_de_account = "2000 850 040";
 bank_de_bic = "BIC (SWIFT-code): GENO DE D1 BRS";
@@ -309,6 +324,7 @@ incl_vat_ship = "Ücrete tüm kargo ücretleri ve Almanya vergisi dahildir.";
 incl_vat_ship_cfos_omni = "Tüm-Platformlar - satış ve katma değer vergisi dahil. Ücretsiz taşıma ve kargolama.  <br />cFos/DOS, cFos/Win, cFos/2 ve cFos NT/2000/XP/2003 Server/Vista/7 + x86/x64 Edition 'ı içerir.";
 lifetime_updates = "Ömür boyu Güncelleme ";
 lifetime_updates_text = "cFosSpeed/cFos lisansınız tüm gelecek güncellemeleri (örneğin; işletim sisteminiz için yeni sürümler) içermektedir. Yeni sürümleri sitemizden indirip mevcut kurulu yazılımın üzerine yüklemeniz yeterlidir.";
+mercado_pay_now = "Mercado Pago ile şimdi ödeyin";
 multi_buy = "Satın Al";
 office_time = "Pzts-cm 9.00-12.00 (Almanya Saati ile)";
 only = "sadece";
@@ -320,9 +336,11 @@ paypal_form_pay_now = "Şimdi PayPal ile ödeyin";
 pay_with = "ile ödeme";
 private_users = "Özel Kullanıcılar ";
 private_users_text = "Eğer cFos için ödediğiniz ücreti vergilerinizden düşemiyorsanız, özel kullanıcı olarak değerlendirilirsiniz.";
+server_unavailable = "Sunucuya geçici olarak ulaşılamıyor, lütfen birkaç saniye içinde tekrar deneyiniz.";
 shopping_cart = "Alışveriş sepeti";
 spbc_text = "özel bir fiyata 1 cFosSpeed lisansı + 1 cFos Broadband Connect lisansı";
 spbc_title = "Özel piyasaya sürme teklifi";
+speed_pnet_until = "9 Ekime kadar";
 speed_pnet_bundle = "cFosSpeed ve cFos Personal Net paketinin fiyatı sadece";
 speed_pnet_only = "Sadece cFos Personal Net'in fiyatı";
 special_conditions = "Özel Durumlar";
@@ -335,11 +353,16 @@ special_conditions_text_pnet = "Eğer <em>cFos Personal Net</em> i daha fazla sa
 special_conditions_text_pnetbnd = "Eğer <em>cFos Personal Net / cFosSpeed bundle</em> i daha fazla sayıda almak ve/veya bayi olmak niyetindeyseniz, lütfen bizim <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a> ile iletişime geçin. Size derhal bir teklif göndereceğiz.";
 special_offer = "Özel teklif";
 special_price_for = "Ülkeniz vatandaşları için özel fiyat.";
+th_abort_paypal = "İşlem başarısız!";
 th_order_date = "Sipariş Tarihi";
 th_paypal_text = "<strong>Bir sonraki iş gününde</strong> size PayPal'a bir bağlantı göndereceğiz. Bu bağlantı ödemeniz ile ilgili gerekli tüm bilgileri içerecektir. Eğer siparişinizi hızlandırmak istiyorsanız, ödemenizi şimdi de yapabilirsiniz. PayPal sitesine girin (bağlantı aşağıda) ve gerekli tüm bilgileri elle girin. Lütfen adınızı \"email subject\" alanına girin. Ödeme onayından sonra teslimat yapılacaktır.";
+th_paypal_text_redirect = "PayPal'e yönlendiriliyor...";
 th_text = "Siparişiniz ivedi şekilde sipariş ekibimize geçti ve <strong>aynı gün ya da bir sonraki iş gününde</strong> işleme konulacak.<br />  Ekibimiz siparişinizi sistemimize girdiğinde ayrıca bir onaylama e-postası alacaksınız.";
+th_text_paypal = "İşleminiz tamamlandı ve doğrulama için bir e-posta gönderildi. İşlem detaylarınızı görmek için <a class=\"inline\" href=\"http://www.paypal.com\">PayPal hesabınıza</a> girebilirsiniz.";
+th_text_paypal_abort = "İşleminiz tamamlanamadı, lütfen tekrar deneyin.";
 th_thanks = "Teşekkürler!";
 th_thanks_order = "Şiparişiniz için teşekkür ederiz!";
+th_thanks_paypal = "Ödemeniz için teşekkür ederiz!";
 validation_lifetime = "sınırsız güncellemeler içerir";
 webmoney_id = "WebMoney ID'miz: 414417381154 .";
 webmoney_purses = "Rus Rublesi (RUB) için cüzdanımız: R186904373715.";
@@ -447,6 +470,7 @@ li_text_feat5 = "VoIP konuşma kalitesini artırın";
 more_features = "Daha fazla özellik";
 news_info = "Haberler / Bilgi";
 optimize_traffic = "İnternet'e bir akıştan fazlasıyla bağlandığınız her zaman, cFosSpeed trafiği optimize edecektir.";
+phone_skins = "Telefonunuzdaki/tabletinizdeki durum penceresi";
 prio_ports = "Portlara öncelik ver";
 prio_programs = "Program Önceliklendirme";
 prio_protocols = "Trafik Düzenleme Protokol Önceliklendirmeleri";
@@ -457,9 +481,12 @@ review1 = "Derecelendirildi";
 /. Used in follwoing string:
 /= "Reviewed 4.5 / 5 stars by softpedia.com"
 review2 = "yıldız ile";
+rwin_expansion = "RWIN Uzantısı";
 rwin_now = "şimdi RWIN eklentisi ile!";
 rwin_results = "Etkileyici sonuçların listesine bir bakın!";
 share_cfosspeed = "cFosSpeed'i paylaş";
+slider_prio = "En yaygın ağ protokolleri için öncelikleri ayarlayabilirsiniz. Böylece onu kullanan tüm programlar otomatik olarak doğru önceliğe sahip olacaktır. Ek olarak, her bir programın önceliğini tek tek ayarlayabilirsiniz. Yani mesela oyun oynarken ya da video izlerken aynı zamanda dosya indirmeniz, videoda ya da oyunda kesintiye, gecikmeye, duraklamaya yol açmamış olur.";
+slider_conn = "Bir bakışta bant genişliğinizi hangi programların kullandığını görebilirsiniz. Dosya aktarımlarını hızlandırmak için ya da gecikme sürelerinin çok önemli olduğu uygulamalarda gecikmeyi azaltmak için cFos Speed listesinden istediğiniz uygulamanın önceliğini geçici olarak değiştirebilirsiniz.";
 special_offer_launch = "Özel piyasaya sürme teklifi:<br />cFosBC + cFosSpeed, toplam sadece ";
 special_price = "özel fiyat";
 word_more = "devamı";
@@ -729,6 +756,7 @@ which_product = "Hangi cFos ürününü kullanmalıyım?";
 word_support_faq = "cFos Destek SSS";
 
 / support
+activation_title = "Etkinleştirme başarısız oldu";
 activation_salut = "Sevgili cFosSpeed kullanıcısı";
 activation_salut_cfos = "Sevgili cFos kullanıcısı";
 activation_salut_cfosbc = "Sevgili cFos Genişbant Bağlantı kullanıcısı";
@@ -811,12 +839,56 @@ choice3 = "İnternet bağlantınız PPPoE mi kullanıyor (ör. DSL)?";
 choice4 = "USB'den bağlı bir DSL Modem mi kullanıyorsunuz?";
 choice5 = "Çevirmeli Arama Ağı sürücüsü?";
 choice7 = "İkisi de?";
+contact_form_h1 = "cFos ekibiyle iletişim ";
+contact_form_p0 = "Bizimle irtibata geçebileceğiniz konular: <b>teknik sorunlar</b>, <b>siparişiniz hakkında sorular</b>, <b>iş teklifleri hakkında sorular</b> <b>basın bilgileri</b>.";
+contact_form_p0_a1 = "<b>Hız çok mu düşük?</b><br/>Belki <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Rehberi</a> yardımcı olabilir.";
+contact_form_p0_a2 = "<b>Lisans anahtarım nerede?</b><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Bizimle iletişime geçin, çünkü siparişinizin ulaşması uzun sürebilir.</a>";
+contact_form_p0_a3 = "<b>Durum penceresini kapatmak mı istiyorsunuz?</b><br/><a class=\"inline\" href=\"//en/cfosspeed/documentation/status.htm\">Durum penceresini otomatik açma-kapatma nasıl yapılır?</a>";
 /. Used in our contact form on website, as possible choices, like:
 /= Please, select:
 /= — ...
 /= — Business Partners, Licensing, Bundling
 /= — Press, Artwork, Covermount
 /= — ...
+contact_form_o1 = "İş Ortakları, Lisans, Paketleme";
+contact_form_o2 = "Basın, Artwork, Covermount";
+contact_form_o3 = "Sipariş: Lisans anahtarım nerede?";
+contact_form_o4 = "Sipariş: Lisans anahtarımı kaybettim";
+contact_form_o5 = "Öneriler / Diğer Sorular";
+contact_form_o6 = "cFosSpeed'i 100% performansa kalibre edemiyorum";
+contact_form_o7 = "İnternet hızım aşırı düşük";
+contact_form_o8 = "Ping aşırı yüksek";
+contact_form_o9 = "Lisans anahtarımda sorun var";
+contact_form_o10 = "cFosSpeed'i kuramıyorum";
+contact_form_o11 = "Durum penceresini nasıl devre dışı bırakırım?";
+contact_form_o12 = "Mavi Ekran Hatası/BSOD bildir";
+contact_form_o13 = "ASUS (GameFirst &amp; Turbo LAN), Gigabyte, ASRock OEM versiyonları";
+contact_form_h2 = "Kendi kendine hızlı yardım";
+contact_form_p1 = "Temel bilgiler için <a class=\"inline\" href=\"//en/oem/oem.htm\">OEM partnerlerimizin sayfalarını inceleyebilirsiniz</a>";
+contact_form_l1 = "Lisans şartlarımıza göre dergilerin yanında hediye olarak verilen CD'lerin içerisinde programımızın 30 günlük deneme sürümünün ücretsiz verilmesine izin vardır.";
+contact_form_l2 = "Yüksek çözünürlüklü baskı kalitesinde ücretsiz Artwork için: <a class=\"inline\" href=\"//en/press/samples.htm\">artwork sayfası</a>";
+contact_form_l4 = "<a class=\"inline\" href=\"//en/press/reviews.htm\">Ürünlerimizin basın değerlendirmeleri</a> ";
+contact_form_p2 = "Lütfen gereksiz e-posta klasörünüzü kontrol edin. Lisans anahtarınızı içeren e-posta yanlışlıkla spam olarak işaretlenmiş olabilir. <br/><br/>Sipariş verdikten sonra bizim işleme koyabilmemiz için lütfen 2 iş günü bekleyin. Eğer 2 iş günü içerisinde lisans anahtarınızı içeren postayı alamazsanız, sistemde ödemeniz görünmediği için lisansı göndermemiş olabiliriz. Sık yaşadığımız bir durum da bir mail adresinden sipariş verilip ödemenin başka bir mail adresi üzerinden yapılmasıdır. Lütfen aşağıdaki formu mümkün olduğunca detaylı bir şekilde doldurun. Böylece lisans anahtarınızı en kısa sürede göndermeye çalışacağız.<br/><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Lisans anahtarım nerede?</a>";
+contact_form_a1 = "Kayıp lisans anahtarınızın iadesini isteyin";
+contact_form_p3 = "cFosSpeed ile internet hızınızı nasıl artıracağınızı öğrenmek için, <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Rehberini inceleyin</a>.";
+contact_form_p4 = "cFosSpeed'i nasıl kalibre edeceğinizi öğrenmek için <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Rehberi</a> içeriğini okuyarak <b>ideal performans elde edin</b>.";
+contact_form_p5 = "Hız hakkında bilgi edinmek için <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Rehberini okuyun</a> ve <b>maksimum hıza ulaşın</b>.";
+contact_form_p6 = "Ping'i düşürmek istiyorsanız <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Rehberini okuyarak</a> nasıl yapıldığını öğrenin ve <b>minimum ping elde edin</b>.";
+contact_form_p7 = "Lisans anahtarını nasıl kuracağınızla ilgili <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation.htm\">buradan yardım alabilirsiniz</a>.<br/><br/>Lisans anahtarını bulmak ve kurmakla ilgili <a class=\"inline\" href=\"//en/cfosspeed/documentation/registration-help.htm\">ek ipuçlarını burada bulabilirsiniz</a>.";
+contact_form_p8 = "Bazen diğer bileşenler, mesela ağ sürücüleri, antivirüs/antispyware yazılımları, ağ kurulumu esnasında cFosSpeed kurulumunu engelleyebilir.<br/><br/>Şu yardım konularına göz atabilirsiniz: <a class=\"inline\" href=\"//en/cfosspeed/documentation/driver-not-loaded.htm\">en yaygın kurulum sorunları</a> ve <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation-help.htm\">cFosSpeed kurulamazsa ne yapabilirsiniz</a>.";
+contact_form_p9 = "cFosSpeed durum penceresini devre dışı bırakmak için pencereye sağ tıklayın ve <b>Pencere Ayarları</b> bölümünden \"Otomatik-aç/Otomatik-gizle\" seçeneğini devre dışı bırakın.";
+contact_form_p9_v2 = "cFosSpeed durum penceresini kapatmak istiyorsanız pencereye sağ tıklayıp \"Pencereleri Gizle\" seçeneğine tıklayın.";
+contact_form_a2 = "Durum penceresini gizle";
+contact_form_p10 = "Eğer cFosSpeed kaynaklı bir Mavi Ekran Hatası/BSOD alırsanız, bu hatayı en kısa sürede onarmamız için sizin yardımınıza ihtiyacımız var.<br/><br/>Please <a class=\"inline\" href=\"//en/support/howto-dump.htm\">create a kernel dump</a>.";
+contact_form_p11 = "Önemli ipuçları için lütfen <a class=\"inline\" href=\"//en/cfos-professional/capi-support.htm\">ISDN CAPI / Network CAPI ipuçlarına bakın</a>.";
+contact_form_h3 = "Bize mesaj gönderin";
+contact_form_p12 = "Lütfen soru ya da önerinizle birlikte e-posta adresinizi forma yazıp \"Gönder\" butonuna basarak bize gönderin. En kısa zamanda sizinle iletişim kuracağız.";
+contact_form_p13 = "Lütfen yönergelerimizi inceleyin: <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1371473213\">Google Calendar ile cFos Outlook DAV nasıl kurulur?</a>.";
+contact_form_p13b = "Lütfen bize -eğer mümkünse- aşağıdaki bilgileri sağlayınız: ";
+contact_form_p13c = "Kullandığınız <b>Outlook versiyonu</b> nedir?";
+contact_form_p13d = "Kullandığınız <b>takvim ya da irtibat(contact) sunucusu</b> hangisi ve hangi sürümü kullanıyorsunuz?";
+contact_form_p14a = "ASUS, Gigabyte ve ASRock bazı anakart modelleri için cFosSpeed OEM versiyonunu verir. OEM versiyon için güncellemeler, anakart firmasının kendi internet sitesinde bulunur. Eğer OEM versiyon kurduktan sonra üzerine normal (internetten indirdiğiniz) cFosSpeed sürümünü kurarsanız, 30 günlük bir deneme sürümü başlamış olacak. Bu aşamada isterseniz bizden (cfos'tan) ömür boyu geçerli bir lisans satın alırsınız, ya da OEM sürümüne geri dönmek için kurulu programı kaldırıp tekrardan sıfırdan OEM sürümü kurabilirsiniz.";
+contact_form_p14b = "Eğer cFosSpeed ürünümüzü seviyorsanız, bizden bu ürün için ömür boyu geçerli lisans almanızı öneririz. Çünkü bu lisans, gelecekte çıkaracağımız cFosSpeed beta sürümlerini ve tam sürümlerini de kullanabilmenizi sağlayacaktır. OEM iş ortaklarımız da kendi verdikleri OEM sürümler için güncellemeler sunmaktadır ancak biz genelde yeni sürüm ve yeni özellikler sunma konusunda daha hızlıyız.";
 decision = "Hangi ürün?";
 decision_help = "Karar Yolu";
 dialup_dsl_cable = "DSL ile çevirmeli arama ağı veya kablo modem (PPPoE)";
@@ -907,13 +979,16 @@ uninst_install_help_start2 = "Problem: 'sürücü yüklenemedi'. Ne yapabilirim?
 uninst_installation = "Kurulumla ilgili sorunlar";
 uninst_no_sale = "Ülkemden satın almak için kolay bir yol yok";
 uninst_pingtime = "Yeterince ping süresi düşmedi";
+uninst_pingtime_inc = "cFosSpeed<span class=\"asus\"> / ROG GameFirst II / Turbo LAN</span> ping'i yükseltti";
 uninst_price = "Fiyat (çok pahalı)";
 uninst_speed = "Yeterince hız artışı olmadı";
+uninst_speed_reduce = "cFosSpeed<span class=\"asus\"> / ROG GameFirst II / Turbo LAN</span> hızımı düşürdü";
 uninst_prioritize = "Yeteri kadar program/protokol önceleştirmesi olmadı";
 uninst_dialogfunct = "Diyalog fonksiyonelliği";
 uninst_dialogappear = "Diyalog görünüşü";
 uninst_status = "Durum penceresi görünüşü";
 uninst_stability = "Programın stabilliği";
+uninst_crashes = "Program çökmeleri ve mavi ekran hataları";
 uninst_other = "Diğer, lütfen bize ne olduğunu söyleyin";
 uninst_mail = "(Eğer cevap vermemizi veya yardım etmemizi istiyorsanız.)";
 uninst_thanks = "Geri bildiriminiz için teşekkürler!";
@@ -1145,6 +1220,7 @@ effects = "Etkiler";
 enable_speed_shaping = "Trafik Düzenlemesini Aç";
 extras = "Ekstralar";
 features_title = "cFosSpeed özellik listesi";
+feature_highlights_title = "cFosSpeed öne çıkan özellikler";
 filter = "Filtreleme diliyle bağımsız kurallar";
 graph_title = "Kullanım Grafiği";
 graph_title_desc = "cFos Speed Online Bütçeler için kullanım grafiğini görüntüle.";
@@ -1202,9 +1278,11 @@ options = "Seçenekler";
 prio_prog = "Program Önceliklendirmeleri";
 product_desc = "Mevcut sürüm numarası. Buraya tıklayarak yapılandırma numarası da dahil olacak şekilde tüm sürüm numarasını, lisans bilgilerini ve mevcut kurulum dizinini görüntüleyebilirsiniz.";
 pr_queues = "5 öncelik sırası";
+registration_help_general = "Genel İpuçları";
 registration_help_hints = "Özel sorunlar için ipuçları";
 registration_help_howto = "www.cfos.de adresinden satın alınan bir lisans, cFosSpeed'i etkinleştirmek üzere herhangi bir zamanda kullanılabilir.<br /><br />Bu konu hakkında daha detaylı bilgiyi şuradan bulabilirsiniz:";
 registration_help_outlook_express = "key.cfosspeed veya key.cfos lisans anahtarı dosyalarını almak için Outlook Express ayarlarını nasıl düzenleyebilirim?";
+registration_help_a1 = "'key.cfosspeed' adlı kişisel lisans dosyasını kullanarak cFosSpeed nasıl lisanslanır?";
 registration_help_text_file = "Lisans anahtarı bir metin dosyası gibi açılır";
 registration_help_p7 = "Lisans anahtarını sabit diskinize kaydedin";
 registration_help_p8 = "Dosyaya sağ tıklayarak onu açın ve Birlikte Aç komutunu verin. Ardından Aramayı kullananın ve cFosSpeed'in yüklü bulunduğu dizindeki cFosSpeed yükleme programı setup.exe'yi seçin. Örneğin C: -> Programs -> cFosSpeed -> setup.exe.";
@@ -1230,6 +1308,8 @@ sp_rwin_h1 = "\"Otomatik RWIN eklentisini\" aktif etmenin faydalarını göstere
 sp_rwin_a1 = "cFosSpeed'in Internet Explorer indirmelerini nasıl hızlandırdığını görün";
 sp_rwin_a2 = "cFosSpeed'in Mozilla Firefox indirmelerini nasıl hızlandırdığını görün";
 sp_rwin_a3 = "cFosSpeed'in Cygwin SCP indirmelerini nasıl hızlandırdığını görün";
+sp_rwin_a4 = "Ödül kazananların sunumuyla YouTube oynatma listesi";
+sp_rwin_a5 = "cFosSpeed'in ping sürelerinizi nasıl düşük tuttuğunu görün";
 sp_rwin_h2 = "Teknik Arkaplan";
 sp_rwin_p1 = "Otomatik TCP ayarlama sistemi başlangıçta ve veri yollanırken RTT değerlerini ölçer. Sadece veri alınıp veri gönderilmediği durumlarda ölçme işlemi başarısız olabilir, böylelikle RWIN faydası az olur. Bu durumu kolayca, hızlı ama yüksek ping sürelerine sahip bir internet bağlantısı ile doğrulayabilirsiniz. Örnek olarak 50mbit/s hızına sahip Avrupa'dan Amerikaya bir bağlantı ya da, mobil bir bağlantı verilebilir.";
 sp_rwin_h3 = "RWIN-Ilerleme Ödülü 2012 sonuçları";
@@ -1244,6 +1324,13 @@ sp_doc_archive = "Arşiv";
 sp_doc_cdm_h1 = "Sınıf Gecikme Yönetimi";
 sp_doc_cdm_p1 = "Bir bağlantıyı önceliklendirirken çok fazla seçenek vardır, hepsi için sadece bilgi ekranına sağ tıklayıp Mevcut Bağlantılar'a tıklayın.";
 sp_doc_cdm_a1 = "Şu anki bağlantılar";
+sp_doc_cdm_p2 = "İstediğiniz bağlantıya, protokole ya da programa geçici ya da kalıcı olarak öncelik vermek istiyorsanız, şimdi seçebilirsiniz.";
+sp_doc_cdm_p3 = "Bir bağlantıya geçici olarak öncelik ver";
+sp_doc_cdm_p4 = "Bir protokole geçici olarak öncelik ver";
+sp_doc_cdm_p5 = "Bir programa geçici olarak öncelik ver";
+sp_doc_cdm_p6 = "Bir protokole kalıcı olarak öncelik ver";
+sp_doc_cdm_p7 = "Bir programa kalıcı olarak öncelik ver";
+sp_doc_cdm_title = "Sınıf Gecikmelerini Yönet";
 sp_doc_commands = "Komutlar";
 sp_doc_experts = "Uzmanlar için teknik referanslar (Sadece İngilizce)";
 sp_doc_gamers = "Oyuncular için öneriler";
@@ -1279,6 +1366,24 @@ sp_doc_games_p12 = "Trafik Şekillendirme bu problemi giderir ve size oyun oynar
 /. Used as  section title
 sp_doc_index = "Programın kullanımı";
 sp_doc_installation = "Kurulum / Kayıt";
+sp_doc_install_title = "Kurulum / Kayıt / Kaldırma";
+sp_doc_install_h1 = "Kurulum";
+sp_doc_install_p1 = "cFosSpeed kurulumu birkaç adımda tamamlanır, kolay ve pratiktir:";
+sp_doc_install_l2 = "Dosyayı çalıştırmak için (<em>cfosspeed-vXXX.exe</em>) üzerine çift tıklayın.";
+sp_doc_install_l3 = "Kurulumun bundan sonrasında kurulum asistanı size rehberlik edecektir.";
+sp_doc_install_l4 = "cFosSpeed başarıyla kurulduysa, kurulumdan hemen sonra kullanmaya başlayabilirsiniz.";
+sp_doc_install_a1 = "cFosSpeed kurulumunda sorun mu yaşıyorsunuz?";
+sp_doc_install_h2 = "Kayıt";
+sp_doc_install_a2 = "Şu video size yardımcı olabilir: <b>\"cFosSpeed'i etkinleştirmek için <em>key.cfosspeed</em>\" dosyası nasıl kullanılır?</b>.";
+sp_doc_install_p2 = "cFosSpeed lisansını sipariş ettikten sonra, size ('<em>key.cfosspeed</em>' adlı bir dosya) ve lisans anahtarı göndereceğiz:";
+sp_doc_install_l5 = "key.cfosspeed dosyasını bilgisayarınıza indirin (örn., <em>Dosyalarım</em> klasörüne).";
+sp_doc_install_l6 = "<em>key.cfosspeed</em> dosyasını çift tıklayarak çalıştırın.";
+sp_doc_install_l7 = "Kurulumun bundan sonrasında kurulum asistanı size lisanslama konusunda rehberlik edecektir.";
+sp_doc_install_l8 = "Hüküm ve koşulları kabul ettikten sonra lisans anahtarınızı tekrar girin ve pencereyi kapatın.";
+sp_doc_install_l9 = "cFosSpeed ürününüz kişisel olarak sizin adınıza başarıyla lisanslandı.";
+sp_doc_install_a3 = "cFosSpeed lisans anahtarını kurmakta sorun mu yaşıyorsunuz?";
+sp_doc_install_h3 = "Kaldır";
+sp_doc_install_l10 = "cFosSpeed'i kaldırmak için Windows program kaldırma bölümünü kullanabilirsiniz.";
 sp_doc_led_title = "Klavye Işıkları";
 sp_doc_led_h = "Trafik şekillendirme bilgisini klavye ışıklarını kullanarak göster";
 sp_doc_led_p1 = "cFosSPeed Num Lock ve Scroll Lock ışıklarını kullanarak İnternet trafiği hakkında bilgi verebilir. Bu uygulama, oyuncular ve tam ekran uygulamalar için kullanışlıdır. Klavye ışıkları ile en önemli trafik istatistikleri yansıtılacaktır:";
@@ -1323,10 +1428,21 @@ sp_doc_p2p_p10 = "Quite a few users have one PC set aside specifically for files
 sp_doc_p2p_t6 = "Programları önceliklendirmek:";
 sp_doc_p2p_p11 = "cFos and cFosSpeed also permit prioritizing programs by their name. Many of the most important programs have already been included in our program setting list. This way of prioritizing is especially useful when the Layer-7 detection cannot recognize and assign data properly (as would, for instance, be the case with encrypted P2P traffic).";
 sp_doc_performance = "Performans";
+sp_doc_phone_skins_title = "Telefonunuzda veya tabletinizde cFosSpeed arayüzleri";
+sp_doc_phone_skins_h1 = "Telefonunuzda traffic shaping istatistklerini görüntüleyin";
+sp_doc_phone_skins_p1 = "v9.05 build 2090 cFosSpeed sürümünden itibaren, cFosSpeed içerisinde gömülü bir web server ile gelir. Bu sayede durum penceresini masaüstü yerine telefon ve tabletinizden görüntüleyebilirsiniz. Bu özellikle oyun ve video gibi tam ekran kullanılan uygulamalar için kullanışlıdır. Ayarlamak için şu adımları takip edin:";
 /. While translating `\"Options/Settings\"` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
+sp_doc_phone_skins_l1 = "cFosSpeed içerik menüsünden \"Ayarlar/Seçenekler\" kısmına girin ve \"Tercihler/Telefon Arayüzlerini Etkinleştir\" diyaloğunda bir sunucu parolası oluşturun. Eğer kendi yerel bilgisayarınız haricinde bir yerden sunucuya ulaşırsanız, sunucu sizden kimlik doğrulaması isteyecektir.";
+sp_doc_phone_skins_l2 = "İçerik menüsünü açın ve ilk seçeneği seçin (<b>cFosSpeed vX.XX...</b>), yerel <b>IP addresleriniz</b> görüntülenecektir.";
+sp_doc_phone_skins_l3 = "Telefon ya da tabletinizden internet tarayıcısını açın ve şu adresi girin: <b>http://[IP adresiniz]:1487/cfosspeed/skin.htm</b>. <b>[IP adresiniz]</b> genelde önceki adımda bahsettiğimiz ip adreslerinden ilk sırada olanıdır. Ama eğer o adres çalışmazsa, diğer adresleri de deneyebilirsiniz.";
+sp_doc_phone_skins_l4 = "Şimdi giriş ekranında kullanıcı adı olarak \"<b>cfosspeed</b>\" yazın, şifre kısmına da önceki adımda \"Tercihler/Telefon Arayüzlerini Etkinleştir\" kısmında sunucu şifresi olarak belirlediğiniz şifreyi yazın.";
+sp_doc_phone_skins_a1 = "cFosSpeed içerik menüsünde sizin IP adresiniz";
 /: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
 /. Title of one of pictures
+sp_doc_phone_skins_a2 = "Telefon Arayüzleri için şifre oluştur";
 /.  Title of picture with demo of cFosSpeed Phone Skin
+sp_doc_phone_skins_p2 = "<b>Not</b>: Gömülü web sunucusunu kullanabilmek için Windows 7 ve üstü işletim sistemlerini kullanmanız gerekmektedir.";
+sp_doc_phone_skins_p3 = "<b>Not</b>: Ayrıca mevcut bağlantılarınızı telefonunuzdan ve tabletinizden de görebilirsiniz ve onlara öncelik verebilirsiniz. Sadece http://<b>[IP adresiniz]</b>:1487/cfosspeed/console.htm bağlantısını tarayıcınızda açın. Bu diyalog tıpkı cFosSpeed durum penceresini ya da içerik menüsünü açmışsınız gibi çalışacaktır.";
 sp_doc_prioliste = "Öncelik listesi: ";
 sp_doc_priorliste_content = "Öncelik verilebilecek programlar listesi";
 sp_doc_prio_title = "Program önceliklendirmesi";
@@ -1336,17 +1452,24 @@ sp_doc_prio_p2 = "Öncelikle cFosSpeed Layet 7 Protocol'ü her bağlantı için 
 sp_doc_prio_p3 = "HTTP yayın algılaması özel bir durumdur. Eğer algılananan protokol HTTP ise, cFosSpeed bir video ya da ses yayını olduğunu algılamaya çalışacaktır. Çalışma prensibi şöyledir:";
 sp_doc_prio_p4 = "If the user agent is one of the well-known players or has the substring \"player\" in it, cFosSpeed categorized the connection as HTTP_STREAM_C or HTTP_STREAM_S. Otherwise if the content-type is audio or video it categorizes the connection as BSTREAM_C or BSTREAM_S. There BSTREAM_C/S connections are prioritized as \"normal\" so that the actual priority is determined by the program prioritization.<br /> This allows you, for example in uncertain cases, to prioritize it according to your program use.";
 sp_doc_prio_a1 = "Önceden önceliklendirilmiş programlar";
+sp_doc_prio_a2 = "cFosSpeed 7.0 - Bağlantılara Geçici Öncelik Vermek";
+sp_doc_dec_prio = "Önceliği azalt";
+sp_doc_inc_prio = "Önceliği artır";
 sp_doc_settings = "Ayarları kaydet";
 sp_doc_settings_backup = "cFosSpeed ayarlarının yedek alma/yükleme işlemi nasıl yapılır?";
 sp_doc_settings_files = "5 dosyayı da yedekleyebilirsiniz.<br /><br /> Ayrıca, eğer online bütçe girdi dosyalarını da tutmak istiyorsanız, <i>C:\\ProgramData\\cFos\\cFosSpeed\\logs</i> dizinini de yedeklemelisiniz.<br /><br /> Ayarları geri yüklemek için sadece global.ini, user.ini, data.ini. Settings.ini dosyalarını yeniden yükleyin. Bu nedenle eğer bir değişiklik yaparsanız, settings.ini dosyasının yeni halini yedeklemelisiniz. Aksi takdirde yeni yüklenmiş settings.ini dosyasını kullanın.";
 sp_doc_settings_store = "cFosSpeed dosyalarını aşağıdaki dizinde tutmaktadır:";
 sp_doc_settings_hint = "İpucu: Eğer son beta sürümünü kullanıyorsanız, dosyalar C: - ProgramData - cFos - cFosSpeed içindedir.";
+sp_doc_speedlist = "Hız listesi: ";
 sp_doc_speedlist_content = "Ülke ve donanım listesi";
 sp_doc_speedlist_p1 = "Bu liste ayrıca kullanıcılarımız tarafından yollanan, fakat bizim doğrulamadığımız bilgileri de içerir. Bu nedenle listedeki bilgiler üzerinden herhangi bir iddiaada bulunulamaz,hiçbir garanti veya teminatlar talep edilemez.";
 sp_doc_speedlist_h1 = "<em>cFosSpeed</em> ile test edilen sağlayıcılar";
 sp_doc_speedlist_h2 = "<em>cFosSpeed</em> ile test edilen donanımlar";
 sp_doc_speedlist_a1 = "Dsl modemler listesine";
 sp_doc_speedlist_h3 = "DSL &amp; Kablolu Modemler";
+sp_doc_status_disable = "cFosSpeed durum penceresi devre dışı bırakılıyor";
+sp_doc_status_h1 = "cFosSpeed Durum Penceresi ve Arayüzler hakkında bilmeniz gereken her şey";
+sp_doc_status_p1 = "cFosSpeed Durum Pencereleri mevcut internet bağlantınız hakkında önemli istatistikleri gösterir. Sizin için en kullanışlı olacak arayüz hangisiyse onu seçmelisiniz. Mesela Windows görev çubuğuna entegre olarak çalışan simgeleri ya da mevcut farklı internet bağlantı türlerinizin gerçek zamanlı istatistiklerini gösteren Traffic Analysis arayüzü işinize yarayabilir.";
 sp_doc_status = "cFosSpeed Bilgi Penceresi (Temalar)";
 sp_doc_status_aquarium = "Aquarium Teması";
 sp_doc_status_activated = "Açılmış slot";
@@ -1661,6 +1784,7 @@ asus_af_l6 = "<b>Ek işlevler</b>: Tam ekranda otomatik gizleme (Oyun Modu), Gü
 / asrock
 asrock_p1 = "ASRock anakartlarının müşterisi olarak ASRock XFast LAN tarafından kullanma ve yararlanma hakkınız var. Tam özellikli, sınırsız Traffic Shaping çözümü cFosSpeed tarafından sunulmaktadır. ASRock XFast Lan sürümüyle hız arttırabilirsiniz. Dileriz, beğenirsiniz.";
 asrock_p2 = "Yeni özellikler için profesyonel cFosSpeed sürümü mevcut.";
+asrock_p3 = "cFosSpeed versiyonunu kurarsanız, 30 günlük deneme sürümünüz olur. 30 gün bitiminde ister cFosSpeed ömür boyu geçerli lisansını alın, isterseniz de cFosSpeed'i kaldırın ve ASRock XFAST/LAN sürümünü yeniden kurun. Unutmayın ki cFosSpeed ömür boyu geçerli lisansı alanlar, en yeni cFosSpeed özelliklerine ve Beta/Beta öncesi sürümlerine anında sahip olurlar.";
 
 / special price
 back = "geri";
@@ -1951,6 +2075,7 @@ speed_guide_l21c = "Yeni oluşturulan istatistikleri incele";
 speed_guide_p21b = " \"default\" üstündeki tüm sınıflarda trafik 20%-40%'dan fazla olmamalı.";
 speed_guide_q21 = "20%-40%'dan fazla mı?";
 speed_guide_p22a = "Hangi bağlantının bant genişliğini sömürdüğüne bak. Bir süre veri aktar ve o an ki bağlantılara bak";
+speed_guide_p22b_v2 = "Lütfen şundan emin olun: öncelik vermek istediğiniz program \"yüksek\" ya da \"daha yüksek\" olarak ve geri kalan her şey \"normal\" ya da daha düşük olarak ayarlanmış durumda mı?";
 speed_guide_p22c = "Eğer değilse,Protokol Önceliklendirmeleri ya da program diyalogunu açın (burdan \"Options > Settings\") ve ayarları düzenleyin.Eğer istediğiniz program ismi yoksa program ekliyebilirsiniz de .";
 speed_guide_h23 = "Bağlantı problemleri";
 speed_guide_p23a = "\"Automatic MSS (MTU) optimization\" aktif mi diye lütfen bakın:";
@@ -2003,6 +2128,12 @@ sptest_cancel = "İptal";
 sptest_bot_p1 = "cFosSpeed'in MSS (MTU) optimizasyonu sizin MSS/MTU değerlerinizi 1492'den biraz aşağı değerlere düşürebilir.Bazı \"net speed tests\" sayfaları aksini söyleselerde, ATM temelli DSL bağlantılarında bu değer daha yüksek olabilir.Ama MSS (MTU) optimizasyonu bazı oyunlarla çakışabilir, yapabileceğiniz en iyi şey hız testini hem MSS (MTU) optimizasyonu ile hem de onsuz yapmak olacaktır.";
 
 /upload
+upload_title = "cFos Upload Sayfası";
+upload_h1 = "Upload dosyası";
+upload_thanks = "Ürünlerimizdeki çökme problemlerini düzeltmemize yardımcı olduğunuz için teşekkürler.";
+upload_p1 = "Bize çökme problemi bildirirken lütfen <a class=\"inline\" href=\"/en/download/download.htm\">en son sürümü</a> ya da <a class=\"inline\" href=\"/en/beta/index.htm\">en son beta sürümü</a> kullandığınızdan emin olun.Sadece güncel sürümler için hataları onarabiliriz.<br/><b>Lütfen eski sürümlerdeki çökme sorunlarını göndermeyin!</b>";
+upload_p2 = "Lütfen her gönderiye tek tek yanıt veremeyeceğimizin farkında olun, ancak emin olun her bir gönderiyi tek tek inceliyoruz ve eğer ek bilgi gerekirse sizinle irtibata geçiyoruz.";
+description = "Açıklama";
 
 /videos
 videos_h1 = "YouTube videoları";
@@ -2025,7 +2156,6 @@ videos_text16 = "cFosSpeed 6.50 Windows7 32bit üzerinde kurulum";
 videos_text17 = "cFosSpeed Version 5.00 - Windows 7 üzerinde kurulum";
 
 /port forwarding
-
 
 /meta descriptions
 missing_meta_desc = "Ürünle ilgili eksik açıklamalar";
