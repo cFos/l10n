@@ -308,6 +308,7 @@ filter_selection = "Filtrar selección";
 /. Displayed next to protocol or program name, near slider with levels
 higher = "Mas alto";
 high = "Alto";
+normal = "Normal";
 default = "Predeterminado";
 low = "Bajo";
 lower = "El más bajo";
@@ -337,6 +338,8 @@ l7_prot_detection_help = "Detecta protocolos al analizar los datos. Use el dialo
 favor_ping = "Favorecer el tiempo de Ping";
 favor_ping_help = "<b>Encendido</b>: %p minimizará los tiempos de ping al costo de un ligera baja en el ancho de banda (de ser necesario).<br /><b>apagado</b>: %p maximizará el ancho de banda al pequeño costo de aumentar un poco los tiempos de ping (de ser necesario).";
 favor_bandwidth = "Favorecer el ancho de banda";
+store_dns_names = "Refrescar los nombres DNS";
+store_dns_names_help = "Para acelerar las búsquedas de DNS, mantiene los nombres DNS comunmente usados actualizados durante 2 días";
 avoid_loss = "Evitar la perdida de paquetes";
 avoid_loss_help = "%p cierra las ventanas de recepción del TCP para el stream de entrada si se llega a detectar demasiadas perdidas de paquetes. Esto solo suele suceder cuando sus conexiones están recibiendo a velocidad máxima. (Recomendado para un Traffic Shaping mejorado de las descargas)";
 activate_firewall = "Activar el Firewall";
