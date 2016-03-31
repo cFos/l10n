@@ -26,10 +26,13 @@ bc_linktext = "Yüksek hızlı erişim için cFos Broadband Connect";
 cfos6link_linktext = "cFos IPv6 Bağlantısı";
 cfos_linktext = "ISDN için cFos/Professional";
 close = "Kapat";
+cookie_bar_text = "İçerik ve reklamları kişileştirmek, sosyal medya özellikleri sağlamak ve internet trafiğimizi analiz etmek için çerezleri kullanıyoruz. Ayrıca sitemizi kullanmanızla ilgili bilgileri sosyal medya, reklamcılık ve analiz ortaklarımızla paylaşıyoruz.";
+cookie_bar_details = "Ayrıntılara gözatın";
 
 /. Used as "I understand"
+cookie_bar_got_it = "Anladım";
 
-desc_6link = "XP, Vista ve Windows 7 için ipv6 bağlanabilirliği";
+desc_6link = "XP, Vista ve Windows 7 için IPv6 bağlanabilirliği";
 desc_dialup = "İnternet üzerinden Çevirmeli Arama";
 desc_shaping = "Trafik Shaping ile daha hızlı İnternet";
 desc_freeware = "Ücretsiz araçlar ve hizmetler";
@@ -44,6 +47,7 @@ special_offer_xmas = "Noel teklifi! <span class=\"red\">Özel fiyatlar</span> ya
 special_offer_xmas_2 = "(haftasonu nedeniyle 2 Ocak 2011 tarihine kadar uzatıldı)";
 special_offer_spring = "Bahar festivali için özel teklif! 9 Şubat 2011 tarihine kadar";
 special_offer_winter = "Kış İndirimi nedeniyle 31 Ocak 2012 tarihine kadar özel fiyatlar";
+summer_sale = "31 Ağustosa kadar özel fiyatlar";
 worldcup_sale = "Dünya kupası süresince özel fiyatlar!"; / FIFA Soccer World Cup
 winter_sale = "Kış Satışı süresince özel fiyatlar!"; / New Years Sale for China
 winter_sale_ext = "28 Eylüle kadar uzatıldı - Büyük desteğiniz için teşekkürler!";
@@ -55,6 +59,7 @@ translation_text1 = "Bu sayfa yeterli düzeyde çevrilmemiştir!";
 translation_text2 = "Bize yardım ederek ücretsiz lisans (cFos, cFosSpeed or cFosBC) kazanın.";
 translation_text3 = "Daha fazla bilgi";
 twitter_notifier_linktext = "cFos Bildirimleri";
+twitter_notifier_linktext_v2 = "Mail, Twitter &amp; RSS için cFos Bildirimleri";
 view_translations = "Çevirileri görüntüle";
 view_all = "Tümü <span class=\"smalltext\">(diğer çevirmenler tarafından yapılan en son değişiklikler)</span>";
 view_approved = "Sadece onaylanmış";
@@ -71,6 +76,7 @@ current_version = "Mevcut sürüm";
 rwin_video_award = "cFosSpeed RWIN-Expansion Award 2012 etkinliğine şimdi katılın!";
 rwin_video_award2 = "Ücretsiz <b>100</b> ömürboyu cFosSpeed lisansından birini kazanın!";
 social_networks = "Lütfen sosyal ağlardaki varlığımızı destekleyin.<br/>Facebook'ta bizi beğenin, Twitter'da bizi takip edin.";
+powered_by = "<a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net Web Server</a> tarafından sunulmaktadır";
 word_follow = "Takip et";
 cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> artık <b>Windows 10</b> için kullanıma hazır.";
 learn_more = "Detaylı bilgi"; // Meaning "learn more about the product"
@@ -79,6 +85,7 @@ oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">c
 / download
 additional_downloads = "Diğer Dosyalar";
 add_lang_text = "cFosSpeed için ek diller";
+alt_cfos6link_image = "cFos IPv6 bağlantısı";
 alt_cfosbc_image = "cFosBC görseli";
 alt_cfos_image = "cFos görseli";
 alt_speed_image = "cFosSpeed görseli";
@@ -377,7 +384,7 @@ word_month = "Ay";
 word_serial_number = "seri numarası";
 word_service = "Ek bilgi";
 word_submit_order = "Siparişi Gönder";
-word_year = "Yıl";
+word_year = "yıl";
 
 / Order and Announcelist Confirmation Email
 ann_subject = "cFos bildirimleri listesine katıldığınız için teşekkür ederiz";
@@ -495,6 +502,7 @@ word_more = "devamı";
 desc_pnet = "Kişisel kullanıcılar ve profesyoneller için web sunucusu";
 pnet_title = "Kişisel kullanıcılar ve profesyoneller için web sunucusu";
 desc_pnet_new = "Dosyalarınızı sunucuda tutun ve tüm verilerinizi senkronize edin";
+desc_pnet_portable = "Yazılım kurmadan veya 3. parti bir servis kullanmadan, dosyalarınızı barındırmanıza olanak verir";
 pnet_video = "cFos Kişsel Net Websunucusu<br/>Yükleme ve basit yayınlama";
 pnet_li_text_feat1 = "Bilgisayarınızda anlık web hosting";
 pnet_li_text_feat2 = "Bir kaç dakikada kolay server kurulumu";
@@ -534,6 +542,8 @@ pnet_doc_a7 = "Çeşitli özellikler";
 pnet_doc_a8 = "Özellik referansı";
 pnet_doc_a9 = "Router/Güvenlik Duvarı ayarları";
 pnet_doc_a10 = "WebDAV, CalDav ve CardDav";
+pnet_doc_a11 = "UPnP Media Sunucusu";
+pnet_doc_a12 = "Betik dili kurulumu";
 pnet_wmi_title = "cFos WMI Monitor, bir cFos Personal Net eklenti paketi";
 pnet_wmi_p1 = "PC ya da akıllı telefonunuzda önemli WMI verisini gözlemleyin.<br/> <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net</a> kullanıcıları için ücretsiz eklenti paketi.";
 pnet_wmi_p2 = "cFos WMI Monitor sisteminizle ilgili neredeyse tüm WMI değerlerini görüntülemenize izin verir, örneğin <b>CPU yükü</b>, <b>GPU yükü</b>, <b>ağ kullanımı</b>, <b>ping süresi</b>, vs.<br/> Bu WMI değerlerine <b>her yerden</b> ulaşabilirsiniz.";
@@ -863,6 +873,8 @@ contact_form_o10 = "cFosSpeed'i kuramıyorum";
 contact_form_o11 = "Durum penceresini nasıl devre dışı bırakırım?";
 contact_form_o12 = "Mavi Ekran Hatası/BSOD bildir";
 contact_form_o13 = "ASUS (GameFirst &amp; Turbo LAN), Gigabyte, ASRock OEM versiyonları";
+contact_form_o14 = "Sipariş: Lisan anahtarımı giremiyorum";
+contact_form_o15 = "Lisans anahtarı kazan";
 contact_form_h2 = "Kendi kendine hızlı yardım";
 contact_form_p1 = "Temel bilgiler için <a class=\"inline\" href=\"//en/oem/oem.htm\">OEM partnerlerimizin sayfalarını inceleyebilirsiniz</a>";
 contact_form_l1 = "Lisans şartlarımıza göre dergilerin yanında hediye olarak verilen CD'lerin içerisinde programımızın 30 günlük deneme sürümünün ücretsiz verilmesine izin vardır.";
@@ -1004,7 +1016,7 @@ search_web = "Web'de ara";
 search_cfos = "Ara www.cfos.de";
 
 / traffic shaping
-alt_load_print = "Resmin yazıcı sürümünü yükle";
+alt_load_print = "Resmin yazdırılabilinir sürümünü yükle";
 alt_transfer_rates = "Aktarım oranları";
 ts_c_t1 = "cFos Trafik Düzenlemesi ile İlgili Önemli Not";
 ts_c_t1a = "cFos Traffic Shaping hakkında daha fazla bilgi";
@@ -1359,7 +1371,7 @@ sp_doc_games_t2 = "Favor Ping:";
 /. Look here for your locale https://github.com/cFos/l10n/blob/master/locales.software/
 /. and then search for key `favor_ping`
 sp_doc_games_p10 = "Ek olarak, bağlam menüsündeki ayarları kullanarak \"Favor Ping\"'i aktif edebilirsiniz. Yeşil bir ok bilgi ekranında belirecektir. cFosSpeed'in ping sürelerini minimum tutmak için, gerektiğinde bağlantı hızını önemli ölçüde düşürmesine sebep olur.";
-sp_doc_games_t3 = "İndirme Yaparken Upload Yapmak :";
+sp_doc_games_t3 = "İndirme Yaparken Oyun Oynamak:";
 sp_doc_games_p11 = "Trafik Şekillendirme kullanmadan online bir oyun oynarken upload ya da download yaparsanız, ping süreleriniz yükselecektir. Düşük veri akışı düşük ping demektir. Özellikle dosya paylaşım rogramları ve diğer programları büyük ölçüde veri yollayara ping sürelerini sık sık çok yükseltecektir. Bu aynı zamanda oyun içindeki reaksiyonlarınızı da yavaşlatacaktır.";
 sp_doc_games_p12 = "Trafik Şekillendirme bu problemi giderir ve size oyun oynarken download ya da upload yapmanıza olanak sağlar. Bu hâla ping sürelerinde minimum artışa neden olabilir. Bu nedenle, \"Favor Ping\"i böyle zamanlarda aktif etmenizi öneriyoruz. Varsayılan olarak, dosya paylaşım programları en düşük  önceliğe sahiptirler. Bu dosya paylaşım programlarının çok yavaş indirme yapacağına ya da tamamen duracağı anlamına gelmez. Sadece daha önemli verilerin aktarılması gerektiğinde indirmenin gecikeceği anlamına gelir. Sadece öncelik şeması sayesinde aynı anda maksimum hızda dosya paylaşımı yaparken aynı  bağlantı ile diğer programları da kullanabilmenize izin verir.";
 /: http://www.cfos.de/en/cfosspeed/documentation/index.htm
@@ -1369,11 +1381,14 @@ sp_doc_installation = "Kurulum / Kayıt";
 sp_doc_install_title = "Kurulum / Kayıt / Kaldırma";
 sp_doc_install_h1 = "Kurulum";
 sp_doc_install_p1 = "cFosSpeed kurulumu birkaç adımda tamamlanır, kolay ve pratiktir:";
+sp_doc_install_l1 = "En son <em>cfosspeed-vXXX.exe</em> dosyasını <a href=\"/en/download/download.htm\">indir</a> ve sabit diske kaydet.";
 sp_doc_install_l2 = "Dosyayı çalıştırmak için (<em>cfosspeed-vXXX.exe</em>) üzerine çift tıklayın.";
 sp_doc_install_l3 = "Kurulumun bundan sonrasında kurulum asistanı size rehberlik edecektir.";
 sp_doc_install_l4 = "cFosSpeed başarıyla kurulduysa, kurulumdan hemen sonra kullanmaya başlayabilirsiniz.";
 sp_doc_install_a1 = "cFosSpeed kurulumunda sorun mu yaşıyorsunuz?";
 sp_doc_install_h2 = "Kayıt";
+sp_doc_install_h2_16 = "16 haneli şifre (xxxx-xxxx-xxxx-xxxx)";
+sp_doc_install_h2_30 = "30 haneli seri numarası (xxxxx-xxxxx-xxxxx-xxxxx-xxxxx-xxxxx)";
 sp_doc_install_a2 = "Şu video size yardımcı olabilir: <b>\"cFosSpeed'i etkinleştirmek için <em>key.cfosspeed</em>\" dosyası nasıl kullanılır?</b>.";
 sp_doc_install_p2 = "cFosSpeed lisansını sipariş ettikten sonra, size ('<em>key.cfosspeed</em>' adlı bir dosya) ve lisans anahtarı göndereceğiz:";
 sp_doc_install_l5 = "key.cfosspeed dosyasını bilgisayarınıza indirin (örn., <em>Dosyalarım</em> klasörüne).";
@@ -1392,13 +1407,13 @@ sp_doc_led_dd2 = "sık parlamalar size paketlerin sayıldığını bildirir<br/>
 sp_doc_led_dd3 = "Bir TX paketi önceliklendirilmiş durumdayken sık parlama<br/>Trafik Şekillendirme'nin faydalarını göstermenin bir yolu";
 /: http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm
 /. `total_rx_speed` and `total_tx_speed` shouldn't be translated, since those are actual values names
-sp_doc_led_dd4 = "Maksimum of total_rx_speed ve total_tx_speed, 0-32%: iken kapalı, 33-65%: nadir parlama, 66-98%: sık parlamalar 99-100%: tamamen açık<br/>size, başka bir kullanıcı ya da bir uygulama çok fazla bant genişiği kullandığında haber verir.";
+sp_doc_led_dd4 = "maksimum of total_rx_speed ve total_tx_speed, 0-32%: iken kapalı, 33-65%: nadir parlama, 66-98%: sık parlamalar 99-100%: tamamen açık<br/>size, başka bir kullanıcı ya da bir uygulama çok fazla bant genişiği kullandığında haber verir.";
 sp_doc_led_dd5 = "TCP ve UDP'deki değişimler sırasında sık parlama<br/>böylece yeni bağlantılar kurulduğunda haberdar olursunuz.";
 sp_doc_led_p2 = "Scroll Lock ve Num Lock ışıklarını, yukarıdaki bilgilendirmelerden herhangi birini seçerek kullanabilirsiniz.";
 sp_doc_led_p3 = "Klavye ışıklarını kullanan asıl kod, led.js adındaki bir javascript kodudur. Eğer değişik şekilde kullanmak isterseniz, bu dosyayı istediğiniz şekilde düzenleyebilirsiniz.";
 sp_doc_logi_title = "Logitech Klavye Desteği";
 sp_doc_logi_p1 = "Logitech Oyuncu klayveleri, G19, G15, G13, G510, tamamen cFosSpeed ile uyumlu modellerdir. Oyuncu klavyesini kullanabilmek için <b>Logitech Gaming Software V7.00 ya da üstü</b> kullanılması gereklidir. cFosSpeed pencere ayarları menüsünden Logitech ekran desteği etkinleştirebilirsiniz. Artık cFosSpeed durum penceresi Windows'ta görüntülemek yerine klavye üzerinde görüntülenir.";
-sp_doc_logi_p2 = "Size aşağıdaki temaları kullanmanızı öneriyoruz ya da <a href=\"/en/skin/skin.htm\"><img src=\"sp_link_bottom_right.png\" width=\"6\" height=\"11\" border=\"0\"  alt=\"\" />kendi temanızı oluşturabilirsiniz</a>.";
+sp_doc_logi_p2 = "Size aşağıdaki temaları kullanmanızı öneriyoruz ya da <a href=\"/en/skin/skin.htm\">kendi temanızı oluşturabilirsiniz</a>.";
 sp_doc_logi_g15 = "Logitech G13/G15/G510 teması";
 sp_doc_logi_g19 = "Logitech G19 teması";
 sp_doc_logi_h1 = "YouTube'daki Logitech temaları";
