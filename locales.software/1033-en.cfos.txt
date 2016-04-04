@@ -160,12 +160,15 @@ logon_start_desc = "This tasks starts %p if the user shown below logs in.";
 show_home_dir = "Show Home Directory";
 publish_file = "Publish File";
 user_administration = "User Administration";
+
 /. Label of menu entry, which enables and disables any uploads to PNET.
 /. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
 /. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
 disable_uploads = "Disable uploads";
 enable_uploads = "Enable uploads";
+
 publish_file_for_download = "Publish file for download";
+
 /. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
 upload_url_to_clipboard = "Copy upload link to clipboard";
 
@@ -253,8 +256,10 @@ select_language = "Select Language";
 translator = "Translator";
 translator_name = "";
 translator_msg = "";
-/ %3=product name, %1=number, %2="day"/"days"
+
+/. %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Your %3 license expires in %1 %2.";
+
 version_mismatch = "Version mismatch between driver and daemon window.\n"
    "\n"
    "Daemon=%1\n"
@@ -295,12 +300,14 @@ dayl_singular = "day";
 dayl_plural = "days";
 days_singular = "day";
 days_plural = "days";
-/ %1=number, %2="day/days"
+
+/. %1=number, %2="day/days"
 short_try = "Try for %1 %2";
 short_dexpire = "Expired %1 %2";
 
 short_exp = "Expired!";
-/ %1=number, %2="day/days", %3=product name
+
+/. %1=number, %2="day/days", %3=product name
 lic_dexpire = "Your evaluation period has expired for %1 %2. Buy %3 today!";
 lic_try = "You may try %3 for %1 %2 before purchasing.";
 
@@ -350,6 +357,7 @@ prio_doc_link = "How the prioritization scheme works";
 save_protocols = "Save protocols";
 undo = "Undo";
 filter_selection = "Filter selection";
+
 /: Settings -> Protocols/Programs
 /. Used as indicator of selected by user level of priority (for Traffic Shaping)
 /. Displayed next to protocol or program name, near slider with levels
@@ -359,6 +367,7 @@ normal = "Normal";
 default = "Default";
 low = "Low";
 lower = "Lowest";
+
 entries = "Entries";
 prog_overwrite = "The program #p is already in the list.\\nWould you like to overwrite the entry with new values?";
 games = "Games";
@@ -428,12 +437,15 @@ show_for = "Show for";
 this_month = "this month";
 time = "Time";
 time_limit = "Time Limit";
+
 /. Used as table header
 /. Short version of "minutes"
 time_min = "Min";
+
 /. Used as table header
 /. Short version of "hours:minutes"
 time_units = "h:min";
+
 volume = "Volume";
 volume_limit = "Volume Limit";
 spdbudget_help = "To use a budget, go to the preferences dialog and assign it to a particular connection";
@@ -469,10 +481,12 @@ disable_speed_shaping = "Disable Traffic Shaping";
 yes = "Yes";
 no = "No";
 help = "Help";
+
 /: cFosSpeed context menu -> Usage Graph
 /. Used as one of dropdown menu entries
 /. Means `To show all programs and protocols traffic`
 bgraph_totals = "Total";
+
 blocklist = "IP-Blocker";
 blocklist_help = "List of IP addresses for which all traffic is blocked.";
 apply_blocklist = "Use filterlist";
@@ -498,10 +512,13 @@ slots_title = "Slot Setup";
 can_select_multiple = "Hint: You can select multiple options by holding down the Shift or Ctrl key while selecting an option";
 name_for = "Name for ";
 set_name = "Set name";
+
 /. RX stands for `receive` (incoming/download)
 rx_only = "RX only";
+
 /. TX stands for `transmit` (outgoing/upload)
 tx_only = "TX only";
+
 max_of_rx_tx = "Maximum of RX & TX";
 total_rx_only = "Total RX speed";
 total_tx_only = "Total TX speed";
@@ -534,9 +551,11 @@ set = "Set";
 tx_limit_help = "Enter the speed in bytes/sec or percent that this program or protocol is allowed to send with.";
 download_more_skins = "Download more skins";
 documentation = "Documentation";
+
 /: cFosSpeed context menu
 /. means `Close cFosSpeed`
 exit_demon = "Exit";
+
 speed_test = "cFos Speed Test";
 ask_key_banned_info = "There has been a problem with your license key.\nWould you like further information?";
 
@@ -672,7 +691,8 @@ rp_info = "A system restore point enables you to restore your Windows system to 
           "the restore point was set. It is recommended to set a system restore point if a new driver "
           "is installed.";
 rp_check = "Set system restore point.";
-/ %1 = product name
+
+/. %1 = product name
 rp_uninst_info = "The system restore point is not meant for a later normal uninstallation of %1. It's rather an "
                  "additional precaution that enables you to put your system back into its original state in case "
                  "of a driver conflict. A normal uninstallation of %1 can be selected either in the Start Menu in the "
@@ -705,8 +725,10 @@ sn_save_err = "The key file cannot be saved to disk at %?.";
 sn_keyfile_err = "The key file is corrupted.";
 
 / new 16 digit serial number dialog
+
 /. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
 sn16_info = "Please enter your 16 digit serial number to receive your license key. You must be connected to the internet to successfully receive the license key.";
+
 sn16_failed = "Getting the license key failed!";
 
 / re-enter password dialog
@@ -755,6 +777,7 @@ port_forwarding_chk = "Use automatic port forwarding, if available.";
 port_forwarding_failed = "Your router%? doesn't seem to support automatic port forwarding. "
                          "You may be able to activate this feature in your router's configuration.";
 port_forwarding_config = "You can configure your router at %?.";
+
 /. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
 port_forwarding_fritz = "You activate port forwarding in your FRITZ!Box by allowing changes of security settings via UPnP "
                         "under Home Network / Network / Programs";
@@ -952,8 +975,10 @@ err_activate_12002 =
    "necessary for the registration is being blocked by a firewall, an anti-virus\n"
    "program or any other kind of security software. If you have any of those\n"
    "programs installed, please deactivate them temporarily and then retry the registration.";
-/ %1 = source, %2 = destination, %3 = explanation
+
+/. %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "Error copying file %1 to %2 (%3).";
+
 err_port_in_use = "The server port %? is already in use by another program.\n\nProgram: %?\nPath: %?";
 
 / warning messages
