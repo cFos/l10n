@@ -475,7 +475,7 @@ dupe_a_voip = "Good voice quality with Voice-over-IP (VoIP) (german)";
 budgets = "Online Budgets";
 desc_cfosbc = "<b>cFosBC</b>, high performance dial-up for high bandwidth internet access";
 firewall = "Firewall";
-greenlight_h1 ="<b style=\"color: #409a03\">82% \"YES\" votes</b> and positive comments on <b><span style=\"color: #5B7399\">cFosSpeed's</span> <a class=\"inline\" href=\"http://steamcommunity.com/sharedfiles/filedetails/comments/538515919\"><span style=\"color: #409a03\">Steam Greenlight page</span></a></b>!";
+greenlight_h1 = "<b style=\"color: #409a03\">82% \"YES\" votes</b> and positive comments on <b><span style=\"color: #5B7399\">cFosSpeed's</span> <a class=\"inline\" href=\"http://steamcommunity.com/sharedfiles/filedetails/comments/538515919\"><span style=\"color: #409a03\">Steam Greenlight page</span></a></b>!";
 header_features = "Features";
 highlights = "Highlights";
 highlight1 = "cFosSpeed prevents one application (e.g. sending email) from choking all others, like telephone calls, chat, etc.";
