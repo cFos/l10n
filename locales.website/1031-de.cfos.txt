@@ -1643,10 +1643,10 @@ sp_doc_logi_h2 = "Logitech Tastatur-Erkennung";
 sp_doc_logi_p3 = "Sowohl cfosspeed.exe als auch die Logitech Gaming Software starten mit dem Windows Autostart. Falls cfosspeed.exe vor der Logitech Gaming Software startet, wird die Tastatur möglicherweise nicht erkannt. In diesem Fall können Sie entweder die Suchfunktion im cFosSpeed Menü für Logitech nutzen oder in <em>c:\\ProgramData\\cFos\\cfosspeed\\global.ini</em>, section [All] die Zeile <b>startup_delay=x</b> einfügen, wobei x die Anzahl Sekunden ist, die cFosSpeed warten soll bevor das Status Fenster gestartet wird.";
 sp_doc_p2p_t1 = "Traffic Shaping für Tauschbörsen (P2P)";
 /. `BitTorrent` — name of the protocol, not of the program
-sp_doc_p2p_p1 = "Dank cFosSpeed Traffic Shaping können Sie mit eMule, Kazaa, Bittorrent, etc. die gesamte Upstream-Bandbreite voll ausnutzen und anderen Filenetz-Teilnehmern zur Verfügung stellen, ohne Ihre anderen Internet-Anwendungen in Mitleidenschaft zu ziehen.";
+sp_doc_p2p_p1 = "Dank cFosSpeed Traffic Shaping können Sie mit eMule, Kazaa, BitTorrent, etc. die gesamte Upstream-Bandbreite voll ausnutzen und anderen Filenetz-Teilnehmern zur Verfügung stellen, ohne Ihre anderen Internet-Anwendungen in Mitleidenschaft zu ziehen.";
 sp_doc_p2p_t2 = "Die Probleme mit Tauschbörsen-Programmen";
 /. `BitTorrent` — name of the protocol, not of the program
-sp_doc_p2p_p2 = "Nutzer von Tauschbörsen, wie eMule, Kazaa, Bittorrent haben typischerweise Dauer-Auslastung des Upstream-Kanals. Dadurch ist der Anschluss besonders anfällig für hohe Ping-Zeiten. Dies hat nicht nur zur Folge, dass die Kommunikation der Tauschbörsen-Software langsam läuft (Source-Anfragen dauern dann 1-2 Sekunden, statt nur wenige Millisekunden), sondern das Internet wird bei allen anderen Anwendungen ebenfalls ausgebremst. Download-Raten brechen unter Umständen ein, weil die TCP ACKs nicht mehr rechtzeitig verschickt werden können. Der Browser wirkt beim Surfen träge.";
+sp_doc_p2p_p2 = "Nutzer von Tauschbörsen, wie eMule, Kazaa, BitTorrent haben typischerweise Dauer-Auslastung des Upstream-Kanals. Dadurch ist der Anschluss besonders anfällig für hohe Ping-Zeiten. Dies hat nicht nur zur Folge, dass die Kommunikation der Tauschbörsen-Software langsam läuft (Source-Anfragen dauern dann 1-2 Sekunden, statt nur wenige Millisekunden), sondern das Internet wird bei allen anderen Anwendungen ebenfalls ausgebremst. Download-Raten brechen unter Umständen ein, weil die TCP ACKs nicht mehr rechtzeitig verschickt werden können. Der Browser wirkt beim Surfen träge.";
 sp_doc_p2p_p3 = "Als Ausweg bieten die Tauschbörsen-Programme an, die Upload-Rate künstlich zu beschränken.";
 sp_doc_p2p_p4 = "Wenn Sie allerdings zusätzlich zum Upload des Tauschbörsen-Programms noch einen Mail-Upload durchführen, konkurrieren beide um die Upstream-Bandbreite. Es ist dann dem Zufall überlassen, wer wieviel Bandbreite erhält. Dies kann im Extremfall zum Abbruch von TCP Verbindungen führen (TCP connection starving).";
 sp_doc_p2p_t3 = "Die Lösung: Traffic Shaping";
@@ -2637,7 +2637,7 @@ cfosspeed_documentation_phone_skins_desc = "Wie Sie ein Smartphone oder Tablet z
 cfosspeed_documentation_prog_prio_desc = "Funktionsweise des Priorisierungsschemas.";
 cfosspeed_documentation_keyboard_leds_desc = "Wie Sie die Tastatur LEDs zur Status-Anzeige nutzen können, wenn Ihr Computer im Vollbild-Modus ist.";
 /. `BitTorrent` — name of the protocol, not of the program
-cfosspeed_documentation_p2p_desc = "Optimale Konfiguration von cFosSpeed für P2P Tauschbörsen Netze, wie Bittorrent, E2K, etc.";
+cfosspeed_documentation_p2p_desc = "Optimale Konfiguration von cFosSpeed für P2P Tauschbörsen Netze, wie BitTorrent, E2K, etc.";
 cfosspeed_documentation_logitech_keyboard_desc = "Die Anzeige der Logitech Gamer Tastaturen zur Anzeige von cFosSpeed Status Information nutzen. G19, G15, G13, G510 und kompatible Modelle.";
 cfosspeed_documentation_wlan_access_point_desc = "Wie Ihren Windows PC mittels cFosSpeed in einen Wi-Fi Access Point für Smartphones, Tablets und andere mobile Geräte verwandeln können.";
 beta_index_desc = "Download der neuesten Beta Versionen von cFosSpeed, cFos IPv6 Link, cFos Broadband Connect und cFos Professional.";

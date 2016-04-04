@@ -1742,12 +1742,12 @@ sp_doc_logi_p3 = "Both cfosspeed.exe and the Logitech Gaming Software are auto-s
 sp_doc_p2p_t1 = "Traffic Shaping for Filesharing (P2P)";
 
 /. `BitTorrent` — name of the protocol, not of the program
-sp_doc_p2p_p1 = "Thanks to cFosSpeed Traffic Shaping, you can finally use the full upstream bandwidth (with eMule, Kazaa or Bittorrent etc.) and make it available to other filenet users - without adversely affecting other Internet applications.";
+sp_doc_p2p_p1 = "Thanks to cFosSpeed Traffic Shaping, you can finally use the full upstream bandwidth (with eMule, Kazaa or BitTorrent etc.) and make it available to other filenet users - without adversely affecting other Internet applications.";
 
 sp_doc_p2p_t2 = "The problems with filesharing software";
 
 /. `BitTorrent` — name of the protocol, not of the program
-sp_doc_p2p_p2 = "Running filesharing programs (like eMule, Kazaa or Bittorrent) will usually take up most if not all upstream channel bandwidth, which leaves the connection prone to high ping times. Not only does this mean filesharing communication itself will run slowly (source requests may take a full 1 or 2 seconds rather than just a few milliseconds), but it will also choke other Internet applications to a crawl. By the same token, download rates may plummet, since TCP ACKs are not being sent out in time. The browser will also become noticeably less responsive while surfing the Net.";
+sp_doc_p2p_p2 = "Running filesharing programs (like eMule, Kazaa or BitTorrent) will usually take up most if not all upstream channel bandwidth, which leaves the connection prone to high ping times. Not only does this mean filesharing communication itself will run slowly (source requests may take a full 1 or 2 seconds rather than just a few milliseconds), but it will also choke other Internet applications to a crawl. By the same token, download rates may plummet, since TCP ACKs are not being sent out in time. The browser will also become noticeably less responsive while surfing the Net.";
 
 sp_doc_p2p_p3 = "A popular workaround offered by many filesharing programs is to put an artificial cap on the upload rate. ";
 sp_doc_p2p_p4 = "However, if you are simultaneously running a mail upload in addition to a filesharing upload, both will compete for available upstream bandwidth. How much bandwidth each of these uploads will eventually receive is basically left to happenstance. In some cases, this may even lead to termination of all TCP connections (TCP connection starving).";
@@ -2783,7 +2783,7 @@ cfosspeed_documentation_prog_prio_desc = "How the prioritization scheme works.";
 cfosspeed_documentation_keyboard_leds_desc = "How to use the keyboard LEDs for status indication if your computer is in fullscreen mode.";
 
 /. `BitTorrent` — name of the protocol, not of the program
-cfosspeed_documentation_p2p_desc = "How to configure cFosSpeed for optimal performance with P2P filesharing networks, like Bittorrent, E2K, etc.";
+cfosspeed_documentation_p2p_desc = "How to configure cFosSpeed for optimal performance with P2P filesharing networks, like BitTorrent, E2K, etc.";
 
 cfosspeed_documentation_logitech_keyboard_desc = "How to use the display of the Logitech Gamer keyboards for cFosSpeed status information. G19, G15, G13, G510 and compatible models.";
 cfosspeed_documentation_wlan_access_point_desc = "How to use cFosSpeed to turn your Windows PC into a WLAN access point for smartphones, tablets and other devices.";

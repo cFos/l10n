@@ -1424,7 +1424,7 @@ sp_doc_p2p_t1 = "Dosya paylaşımı (P2P) için Trafik Şekillendirmesi";
 sp_doc_p2p_p1 = "cFosSpeed Trafik Şekillendirme sayesinde, hattınızı tam anlamıyla kullanabilir (eMule, KaZaaa veya Bittorent vs. ile birlikte) ve diğer kullanıcılara hiçbir olumsuzluk yaşamadan kullanılabilir hale getirebilirsiniz.";
 sp_doc_p2p_t2 = "Dosya paylaşım yazılımı ile sorunlar";
 /. `BitTorrent` — name of the protocol, not of the program
-sp_doc_p2p_p2 = "Dosya paylaşım programlarını kullanmak (eMule, Kazaa veya Bittorrent gibi) hattın tamamını kullanacağından yüksek pinge neden olur. Bu dosya paylaşım programının yavaş çalışacağının yanı sıra (kaynak istemleri birkaç milisaniye süreceğine, 1 ya da 2 tam saniye sürebilir) diğer İnternet programlarını da yavaşlatır. Aynı zamanda, indirme hızı TCP ACK'ler zamanında yollanamadığı için yavaşlar. Ayrıca İnternette gezerken tarayıcınız daha tepkisiz hâle gelir.";
+sp_doc_p2p_p2 = "Dosya paylaşım programlarını kullanmak (eMule, Kazaa veya BitTorrent gibi) hattın tamamını kullanacağından yüksek pinge neden olur. Bu dosya paylaşım programının yavaş çalışacağının yanı sıra (kaynak istemleri birkaç milisaniye süreceğine, 1 ya da 2 tam saniye sürebilir) diğer İnternet programlarını da yavaşlatır. Aynı zamanda, indirme hızı TCP ACK'ler zamanında yollanamadığı için yavaşlar. Ayrıca İnternette gezerken tarayıcınız daha tepkisiz hâle gelir.";
 sp_doc_p2p_p3 = "Popüler bir geçici çözüm, Upload hızına geçici bir limit koymaktır. ";
 sp_doc_p2p_p4 = "Eğer aynı anda bir posta atarken dosya paylaşım programınız upload yapıyorsa, ikisi gönderme bant genişliği için çakışacaktır. Genelde hangi programın ne kadar bant genişliği alacağı tamamen tesadüftür. Bazı durumlarda bu durum tüm TCP bağlantılarının kopmasına sebep olabilir.";
 sp_doc_p2p_t3 = "Çözüm: Trafik Şekillendirme";
@@ -2281,7 +2281,7 @@ cfosspeed_documentation_no_ping_desc = "cFosSpeed ping almıyorsa yapılabilecek
 cfosspeed_documentation_prog_prio_desc = "Önceliklendirme işlemi nasıl çalışır?";
 cfosspeed_documentation_keyboard_leds_desc = "Bilgisayarınız tam ekran modunda iken klavyenizdeki LED göstergelerinden anlık durumu takip etme yolları";
 /. `BitTorrent` — name of the protocol, not of the program
-cfosspeed_documentation_p2p_desc = "Bittorrent, E2K, gibi P2P protokollerini cFosSpeed ile optimize etme yolları.";
+cfosspeed_documentation_p2p_desc = "BitTorrent, E2K, gibi P2P protokollerini cFosSpeed ile optimize etme yolları.";
 cfosspeed_documentation_logitech_keyboard_desc = "Logitech Gamer klavyeleri ile cFosSpeed'in durumu hakkında bilgi alma yolları. (Uyumlu modeller: G19,G15, G13, G510.)";
 beta_index_desc = "cFosSpeed'in en yeni Beta versiyonunu indirme bağlantısı, cFos IPv6 Bağlantısı, cFos Genişbant Bağlanıcısı ve cFos Profesyonel.";
 beta_cfos_ipv6_link_whats_new_desc = "cFos IPv6 Bağlantısı'nın beta versiyonu ile gelen özellikleri geliştirmeleri ve düzeltmeleriyle bilgiler.";
