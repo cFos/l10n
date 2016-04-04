@@ -1667,10 +1667,12 @@ sp_doc_games_p1 = "Traffic Shaping technology does keep ping times low and trans
 sp_doc_games_p2 = "Still, to achieve optimal ping times, you should prioritize your game(s) as high as possible. You will find that we have already listed some of the currently most popular games under Program Settings. Should your game not be among the ones listed there, you can simply add it to the list.";
 sp_doc_games_p3 = "You can also <a href=\"/en/contact/priopost.htm\">let us know</a> what online games you would like to have included on that list for future updates as well.";
 sp_doc_games_p4 = "Please be careful to prioritize as few data and programs as possible in such a manner. This is because if you were to assign high priority to everything, you would be no better off than having nothing prioritized at all.";
-// `[filter]` and name of file shouldn't be translated
+
+/. `[filter]` and name of file shouldn't be translated
 sp_doc_games_p5 = "Alternatively, should the program name itself not be clear, you can also prioritize the ports used by the online game. If the TCP/UDP destination ports of an application are known, you can prioritize their data transfer as follows (by editing the [filter] section of the settings.ini file):";
 sp_doc_games_p6 = "For TCP ports:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high";
 sp_doc_games_p7 = "For UDP ports:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high";
+
 sp_doc_games_p8 = "After making those changes and saving them, the new settings still need to be loaded. This is done by opening the console (under Start, Program, cFosSpeed) and entering \"spd reload\". Your changes will take (and remain in) effect after the next time you restart your system.";
 sp_doc_games_a1 = "cFosSpeed-Filter Manual (English)";
 sp_doc_games_a2 = "DSL connection settings";
