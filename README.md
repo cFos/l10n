@@ -578,6 +578,6 @@ It's recommended to work with syntax highlighting for cFos ml-file. It helps to 
 * **Sublime Text** and **TextMate**: [Syntax highlighting with markup errors detection](https://github.com/ArmorDarks/cfos-ml-syntax)
 
 
-IMPORTANT:
-----------
+Agreement
+---------
 By returning the translation to us you allow us to use it in any way we wish. In return you get a free license for cFos or cFosSpeed.
