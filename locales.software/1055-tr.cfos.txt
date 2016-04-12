@@ -153,12 +153,15 @@ logon_start_desc = "Aşağıda gösterilen kullanıcı oturum açtığında, bu 
 show_home_dir = "Ev Dizinini Göster";
 publish_file = "Dosyayı Yayınla";
 user_administration = "Kullanıcı Yönetimi";
+
 /. Label of menu entry, which enables and disables any uploads to PNET.
 /. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
 /. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
 disable_uploads = "Yukarı yüklemeleri kapat";
 enable_uploads = "Yukarı yüklemeleri etkinleştir";
+
 publish_file_for_download = "Dosyayı indirme için yayımla";
+
 /. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
 upload_url_to_clipboard = "Upload linkini panoya kopyala";
 
@@ -234,8 +237,10 @@ select_language = "Lütfen bir dil seçin";
 translator = "Çeviren";
 translator_name = "GEEK";
 translator_msg = "http://www.geek.com.tr";
-/ %3=product name, %1=number, %2="day"/"days"
+
+/. %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "%3 lisansınız %1 %2 içerisinde sona erecektir.";
+
 version_mismatch = "Sürücü (driver) ve daemon penceresi arasında sürüm uyuşmazlığı.\n"
    "\n"
    "Daemon=%1\n"
@@ -271,18 +276,20 @@ selectskin = "Arayüz seçin";
 topmost = "Her zaman üstte";
 defpos = "Varsayılan konum";
 disco_ras = "Çıkış yap";
-config = "Ayarlar";
+config = "Seçenekler";
 order = "Şimdi satın al!";
 dayl_singular = "gün";
 dayl_plural = "gün";
 days_singular = "gün";
 days_plural = "gün";
-/ %1=number, %2="day/days"
+
+/. %1=number, %2="day/days"
 short_try = "%1 %2 daha deneyin";
 short_dexpire = "%1 %2 sona erdi";
 
 short_exp = "Sona erdi!";
-/ %1=number, %2="day/days", %3=product name
+
+/. %1=number, %2="day/days", %3=product name
 lic_dexpire = "Deneme süreniz %1 %2 önce sona erdi. %3 ürününü bugün satın alın!";
 lic_try = "%3'i satın almadan önce %1 %2 kadar daha deneyebilirsiniz.";
 
@@ -295,13 +302,17 @@ connect_to = "Bağlan";
 make_own_skin = "Kendi arayüzünüzü oluşturun";
 click_through = "Üzerine tıklayın";
 ask = "Sorun";
+
+/. Indicates states, like `Switch On` or `Switch Off`
+/. Used in various sections of program as menu entries or buttons labels
 off = "Kapalı";
 on = "Açık";
+
 note = "Not";
 deactivated = "kapandı";
 browser_warning = "Bu diyalog için Internet Explorer sürüm 8 ya da üstü önerilir!";
 ole_error = "Bu düzenleme penceresini kullanmak için \\n%p' in bilgisayarınızda kurulu ve sorunsuz çalışıyor olması gerekmektedir.\\nLütfen %p' i kontrol edin ve gerekiyor ise tekrar kurun.";
-ts_settings = "Traffic Shaping Seçenekleri";
+ts_settings = "Traffic Shaping Ayarları";
 preferences = "Tercihler";
 prio_protocols = "Protokol Önceliklendirmeleri";
 protocol = "Protokol";
@@ -327,6 +338,7 @@ prio_doc_link = "Önceliklendirme planları nasıl çalışır";
 save_protocols = "Protokolleri kaydet";
 undo = "Geri al";
 filter_selection = "Filtre seçimi";
+
 /: Settings -> Protocols/Programs
 /. Used as indicator of selected by user level of priority (for Traffic Shaping)
 /. Displayed next to protocol or program name, near slider with levels
@@ -336,6 +348,7 @@ normal = "Normal";
 default = "Varsayılan";
 low = "Düşük";
 lower = "En düşük";
+
 entries = "Kayıtlar";
 prog_overwrite = "#p programı zaten listede bulunmaktadır.\\n Yeni değerlerle üzerine yazmak ister misiniz?";
 games = "Oyunlar";
@@ -372,7 +385,7 @@ mtu_opt = "Otomatik MSS (MTU) Düzenlemesi";
 mtu_opt_help = "MSS/MTU değerlerini maksimum transfer hızı için düzenler. Tipik olarak, 1500/1492 nin biraz altındaki değerler daha yüksek hız sağlarlar.";
 strict_rtp = "Katı RTP kontrolleri";
 strict_rtp_help = "Eğer etkinleştirilirse, %p sadece geçerli bir RTCP kaynak numarasına sahip RTP paketlerini algılayacaktır. Eğer RTCP paketleri göndermeyen Voice-over-IP programları (örneğin; VoIPBuster) kullanıyorsanız, bu seçeneği işaretlememelisiniz.";
-ts_config = "%p Traffic Shaping Seçenekleri";
+ts_config = "%p Traffic Shaping Ayarları";
 dialup_connection = "Çevirmeli bağlantı";
 dialup_connections = "Çevirmeli Bağlantılar";
 traffic_shaping = "Traffic Shaping";
@@ -405,12 +418,15 @@ show_for = "Göster";
 this_month = "bu ay";
 time = "Süre";
 time_limit = "Süre Sınırı";
+
 /. Used as table header
 /. Short version of "minutes"
 time_min = "Dak";
+
 /. Used as table header
 /. Short version of "hours:minutes"
 time_units = "s:dak";
+
 volume = "Birim";
 volume_limit = "Birim Sınırı";
 spdbudget_help = "Bir bütçeyi kullanmak için, bağlantılar iletisine gidin ve onu özel bir bağlantıya atayın (tayın edin)";
@@ -421,7 +437,7 @@ test_pings = "Deneme pingleri gönder";
 open_console = " %p konsolunu aç";
 variable_bandwidth = "Değişken Bant Genişliği";
 def_bandwidth_help = "<b>Yeni</b> bağlantılar için varsayılan";
-cur_bandwidth_help = "Mevcut bağlantı için ayar";
+cur_bandwidth_help = "Mevcut bağlantı için ayarlar";
 no_ports_open = "Açık bağlantı yok.";
 no_ports_open_help = "Şu anda, %p tarafından kullanılan açık bağlantı yok. "
    "Yeni bağlantıların varsayılan ayarlarını değiştirmek için, \"Yeni bağlantılar için varsayılanlar\" sekmesine tıklayın, "
@@ -446,10 +462,12 @@ disable_speed_shaping = "Traffic Shapingni Kapat";
 yes = "Evet";
 no  = "Hayır";
 help = "Yardım";
+
 /: cFosSpeed context menu -> Usage Graph
 /. Used as one of dropdown menu entries
 /. Means `To show all programs and protocols traffic`
 bgraph_totals = "Toplam";
+
 blocklist = "IP-Engelleyici";
 blocklist_help = "Tüm trafiğin engellendiği durum için IP adreslerinin listesi.";
 apply_blocklist = "Filtre listesini kullan";
@@ -472,13 +490,16 @@ traffic_analysis = "Trafik Analizi";
 slot = "Slot";
 slots = "Slotlar";
 slots_title = "Slot Kurulumu";
-can_select_multiple = "İpucu: Bir ayar seçerken Shift ya da Ctrl tuşuna basarak çoklu ayarlar seçebilirsiniz.";
+can_select_multiple = "İpucu: Birden fazla seçeneği aynı anda seçmek için Shift ya da Ctrl tuşuna basarak seçim yapabilirsiniz.";
 name_for = "İsim ";
 set_name = "İsim belirle";
+
 /. RX stands for `receive` (incoming/download)
 rx_only = "sadece RX";
+
 /. TX stands for `transmit` (outgoing/upload)
 tx_only = "sadece TX";
+
 max_of_rx_tx = "Maksimum RX & TX";
 total_rx_only = "Toplam RX hızı";
 total_tx_only = "Toplam TX hızı";
@@ -510,9 +531,11 @@ set = "Kur";
 tx_limit_help = "Bu program ya da protokolün gönderilmesine izin verilen bayt/sn cinsinden hızı ya da yüzdeyi girin.";
 download_more_skins = "Daha fazla arayüz indirin";
 documentation = "Dökümantasyon";
+
 /: cFosSpeed context menu
 /. means `Close cFosSpeed`
 exit_demon = "Çık";
+
 speed_test = "cFos Speed Test";
 ask_key_banned_info = "Lisans anahtarınızla ilgili bir sorun oldu.\nDaha fazla bilgi ister misiniz?";
 
@@ -566,12 +589,17 @@ enable_smartphone_skins = "Telefon Arayüzleri";
 http_access_enabled = "Şifre ayarlandı, uzaktan HTTP erişimine izin verildi.";
 http_access_disabled = "Şifre ayarlanmadı, uzaktan HTTP erişimi engellendi.";
 set_server_pwd = "Server şifresini ayarla";
+
+/: Right click on cFosSpeed -> Windows Settings -> Auto-arrange windows
+/. Possible position of status window
 auto_arrange_top = "Üst";
 auto_arrange_bottom = "Alt";
+
 /: cFosSpeed context menu
 /. Menu entry which enables display of cFosSpeed's tile in Windows 8 Start Menu
 /. @note Currently disabled
 show_on_metro_apps = "Metro uygulamalarında göster";
+
 traffic_shaping_info = "Traffic Shaping Bilgisi";
 wlan_access_point = "Wi-Fi erişim noktası";
 prioritize_foreground_process = "Ön plandaki pencerede süren işlemi önceliklendir";
@@ -637,7 +665,8 @@ rp_header = "Sistem Geri Yükleme Noktası";
 rp_subheader = "Sistem geri yükleme noktası, sisteminizi daha önceki bir duruma geri döndürmeyi sağlar.";
 rp_info = "Sistem geri yükleme noktası Windows işletim sisteminizi oluşturulduğu noktaya geri yüklemeye yarar. Yeni bir sürücü kuruluyorsa sistem geri yükleme noktası oluşturulması tavsiye edilir.";
 rp_check = "Sistem geri yükleme noktası oluştur.";
-/ %1 = product name
+
+/. %1 = product name
 rp_uninst_info = "Sistem geri yükleme noktası daha sonra gerçekleşebilecek bir %1 kaldırma işlemi için değildir. Daha çok, ileride gerçekleşebilecek bir sürücü çakışması sonucunda sisteminizi eski haline çevirmek için kullanılmaktadır. %1 in normal kaldırma işlemi Başlat menüsünün %1 klasöründen ya da Kontrol panelinizin Program Ekle-Kaldır bölümünden yapılmaktadır.";
 
 / password dialog
@@ -667,8 +696,10 @@ sn_save_err = "Anahtar dosyası %?'daki diske kaydedilemez.";
 sn_keyfile_err = "Anahtar dosyası bozulmuş.";
 
 / new 16 digit serial number dialog
+
 /. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
 sn16_info = "Lisans anahtarınızı geri yüklemek için lütfen 16 haneli seri numaranızı giriniz. Bu işlem için internete bağlı olmanız gerekmektedir.";
+
 sn16_failed = "Lisans anahtarını alma işlemi başarısız!";
 
 / re-enter password dialog
@@ -715,6 +746,7 @@ port_forwarding_chk = "Otomatik port yönlendirmeyi kullanın, eğer kullanılab
 port_forwarding_failed = "%? adlı router otomatik port yönlendirmeyi desteklemiyor. "
                          "Bu özelliği belki router'ınızın ayarlarından etkinleştirebilirsiniz.";
 port_forwarding_config = "%? daki router'ınızı şimdi ayarlayabilirsiniz.";
+
 /. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
 port_forwarding_fritz = "UPnP aracılığıyla güvenlik ayarlarınızda değişikliklere izin vererek "
                         "Ev Ağı / Ağ / Programlar sekmesinin altından port yönlendirmesini etkinleştirebilirsiniz";
@@ -746,7 +778,7 @@ progress_driver_wait = "Lütfen bekleyin. Sürücü kurulumu/kaldırma işlemi g
 
 / confirm delete dialog
 conf_del_header = "Ayar Dosyalarını Sil";
-conf_del_subheader = "Ayarlarınızın ve kişisel bilgileriniz ile birlikte dosyaların da silinmesi için onay vermelisiniz.";
+conf_del_subheader = "Yapılandırma ayarlarınızı veya kişisel bilgilerinizi içeren dosyaların silinmesini onaylamanız gerekmektedir.";
 conf_del_info = "Takip eden yapılandırma dosyaları ve hedefler %p tarafından oluşturuldu ve henüz silinmedi:";
 conf_del_column = "Dosya adı";
 conf_del_query = "Bu dosyaları da silmek istiyorsanız, silmek istediklerinizi teker teker seçebilirsiniz. Seçtikten sonra İleri'ye tıklayınız.";
@@ -887,8 +919,10 @@ err_activate_12002 =
    "Eğer bu programlardan birine sahipseniz lütfen\n"
    "geçici olarak devre dışı bırakın ve kayıt işlemini\n"
    "tekrar deneyin.";
-/ %1 = source, %2 = destination, %3 = explanation
+
+/. %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "%1 i %2 (%3) ye kopyalarken sorun oluştu.";
+
 err_port_in_use = "Sunucu portu %? şu anda başka bir program tarafından kullanılıyor.\n\nProgram: %?\nHedef: %?";
 
 / warning messages
