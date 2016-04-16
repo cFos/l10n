@@ -102,7 +102,7 @@ cfosbc_text = "Yüksek bant genişlikli İnternet bağlantısı için Çevirmeli
 cfosconnect_text = "ISP'ler tarafından kaynaklanan aşırı yüklenme problemlerine karşı korunma";
 cfos_other_text = "Trafik Düzenleme ile ISDN ve ATM Çevrimiçi Sürücüsü - Modem Yazılımı için";
 cfos_text = "ISDN Çevrimiçi Sürücüsü - aynı zamanda modem yazılımı için";
-disclaimer = "Vazgeçme Belgesi";
+disclaimer = "Sorumluluk Reddi";
 disclaimer_text = "Size bir hizmet olarak, aşağıdaki cFos/cFosSpeed bölgeselleştirmelerini ücretsiz olarak indirilebilir hale getirdik. Bu genişlemeler, müşterilerimiz tarafından yine müşterilerimiz için yapıldığından, cFos Software GmbH bunlar için yasal yükümlülük altına girmediği gibi, bu konuda teknik destek sağlamak durumunda da değildir.<br />Belirli bir bölgeselleştirme konusundaki sorularınız için, lütfen yazar ile doğrudan bağlantıya geçin. Ancak, bilerek ya da bilmeyerek yapılmış olması muhtemel çok bariz bir çeviri hatasıyla karşılaştıysanız, lütfen bunu kontrol edebilmemiz için bize bildirin.";
 download_current_beta = "Güncel beta sürümü indirin";
 download_for = "için kurulum";
@@ -222,6 +222,7 @@ confident = "Gizlilik: Burada sağlamış olduğunuz bilgiler sadece bu sipariş
 
 /. Used as part of phrase
 /= Your Order at www.cfos.de
+conf_lastschrift_at = "üstünde";
 
 conf_moneybookers_trans = "Moneybookers transferi";
 conf_moneybookers_text = "Lütfen ödeme açıklaması olarak moneybookers &quot;<strong>eMail-Betreff</strong>&quot; alanına &quot;<strong>[%$1_name%]</strong>&quot; giriniz.";
@@ -417,6 +418,7 @@ em_webmoney = "WebMoney hesabımıza.";
 / cFosSpeed
 a_bt = "Torrentler ile cFosSpeed";
 a_games = "Online oyunlarımı nasıl hızlandırabilirim?";
+alt_ct_logo = "c't Logo";
 a_p2p = "Dosya paylaşımı (P2P) için Traffic Shaping";
 a_registration_help = "Anahtar Kaydı Yardım Sayfası";
 a_surf = "İnternet'te nasıl daha hızlı sörf yapabilirim?";
@@ -437,6 +439,7 @@ dupe_a_voip = "Voice-over-IP (VoIP) ile iyi ses kalitesi (Alman)";
 budgets = "Çevrimiçi Bütçe";
 desc_cfosbc = "<b>cFosBC</b>, yüksek bant genişlikli İnternet için yüksek performanslı çevirmeli-arama";
 firewall = "Güvenlik Duvarı";
+greenlight_h1 ="<b style=\"color: #409a03\">82% \"Evet\" oylayın</b> ve olumlu yorum bırakın <b><span style=\"color: #5B7399\">cFosSpeed'in</span> <a class=\"inline\" href=\"http://steamcommunity.com/sharedfiles/filedetails/comments/538515919\"><span style=\"color: #409a03\">Steam Greenlight sayfası</span></a></b>!";
 header_features = "Özellikler";
 highlights = "Önemli özellikler";
 highlight1 = "cFosSpeed bir uygulamanın diğerlerinin yolunu tıkamasına engel olur (telefon aramaları, sohbet vb.)";
@@ -529,6 +532,7 @@ pnet_li_text_feat8b = "ve MS Outlook ile: <a class=\"inline\" href=\"/en/cfos-ou
 pnet_li_text_feat9 = "WebDAV desteği (RFC 4918)";
 pnet_li_text_feat9a = "WebDAV, CalDAV ve CardDAV desteği";
 pnet_li_text_feat10 = "Windows Vista/7 için kenar çubuğu aracı";
+pnet_li_text_feat11 = "UPnP Medya Sunucusu";
 pnet_serv_dav = "cFos Personal Net'in CALDAV (RFC 4791) desteği vardır. Bu, takvim verilerinizi depolamanıza ve senkronize etmenize olanak tanır.<br />cFos Personal Net'in CardDAV (RFC 6352) desteği de vardır. Bu özellik ise cFos Personal Net ile adres defterinizdeki kişileri depolamanızı ve senkronize etmenizi sağlar.";
 pnet_highlight1 = "Verilerinize üçüncü-parti erişimi için uzak sunucu gerekli değil";
 pnet_highlight2 = "Tam multi-thread ve multi-core desteği. Sunucu performansı işlemci çekirdeğinize bağlı olarak ölçütlendirilir";
@@ -539,12 +543,22 @@ pnet_percent = "Version 1.0 yayınlanana kadar %50 indirim";
 pnet_release = "version 1.0 yayınlandı";
 pnet_until = "Daha sonra ömür-boyu lisans satın al";
 pnet_after = "7 Ağustos'tan sonra olacak ";
+pnet_nat_h1 = "NAT port yönlendirmesini ayarla";
+pnet_nat_p1 = "<a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>popüler routerlar için rehber</b></a> burada.";
+pnet_nat_p2 = "<b class=\"green\">cFosSpeed ve cFos Personal Net için ücretsiz lisans edinme!</b><br/><a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>Router rehberimizi</b></a> tamamlamamız için yardımcı olun. Routerınız için NAT port yönlendirme talimatını yazın.";
+pnet_nat_p3 = "Routerınız zaten listede mi?";
 pnet_wmi_add_p1 = "<a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI Monitor</b></a> cFos Personal Net için ücretsiz bir ek pakettir, sistemin neredeyse tüm WMI değerlerini görüntülemeye yarar, örn. CPU yükü, GPU yükü, ağ kullanımı, ping süresi, vs. Bu WMI değerlerine her yerden ulaşabilirsiniz.";
 pnet_wmi_add_p2 = "<b>cFos WMI Monitor</b> oyuncuların, güç kullanıcılarının, müzisyenlerin vs. (tam ekran) uygulamalarını çalıştırırken, farklı bileşenlerin performansını gözlemlemelerine yardımcı olur. <b>cFos WMI Monitor</b> bu bilgiyi bilgisayarınızda ya da akıllı telefonunuzda bir tarayıcı penceresi içinde verir.";
 pnet_wmi_explain = "cFos WMI Monitor nedir ?";
+pnet_portable_h1 = "Sadece iki adımda dosyalarınızı barındırın";
+pnet_portable_p1 = "cFos Personal Net Taşınabilir sürümünü indirin (cfospnet_portable.exe) ve başlatın.";
 
 /. Don't translate the "Publish with..." part
 
+pnet_portable_p2 = "Windows Gezgini içerisinde indirilebilinir yapmak istediğiniz dosyaya sağ tıklayın ve seçin \"Publish with cFos Personal Net (portable)\".";
+
+pnet_portable_h2 = "cFos Personal Net Taşınabilir hakkında ek bilgi";
+pnet_portable_p3 = "İndirme bağlantınız, mesaj veya epostaya yapıştırabilmeniz için panoya kopyalanır.";
 
 /. Don't translate the "Publish" and "Upload..." parts
 
@@ -722,7 +736,7 @@ cfout_l1 = "cFos Outlook DAV'ı Outlook eklentisi olarak eklemek için cFos Outl
 
 
 /. Means "show all server types"
-
+cfout_show_all = "Hepsini göster";
 
 
 / cFos IPv6 Link
@@ -766,6 +780,7 @@ cfos_html_h1 = "Traffic Shaping özellikli DSL ve ISDN çevirmeli arama sürüc�
 /. Part of page's title (in name of the tab in web browser)
 cfos_professional_title = "cFos, Çevirmeli Bağlantı &amp; DSL için hızlandırma &amp; ISDN";
 
+link_text_0190 = "0190er Engelleyici";
 link_text_budget = "Online counter";
 link_text_cfos_features = "cFos özellik listesi";
 link_text_cfos_priolist = "cFos ile yazılımlarınıza öncelik verin (&#187; yazılım listesi)";
@@ -775,11 +790,13 @@ link_text_what_is_cfos = "cFos/Professional nedir?";
 
 /hrping
 hrping_title = "<span class=\"product\">hrPing</span> - Yüksek-hassasiyetli ping aracı";
+hrping_p1 = "hrPing ile Windows Ping aracindan daha fazlasını yapabilirsiniz.";
+hrping_l1 = "Ping sonuçları için grafik görünüm";
 
 /. `usec` stands for `microsecond`.
 /. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
 /. In other words, means accuracy of the measurement
-
+hrping_l2 = "Daha hassas zamanlayıcılar kullanır, böylelikle daha doğru sonuçlara ulaşılır";
 
 /. In other words means `Hrping measures requests time and handles ICMP error replies as well`
 
@@ -1620,6 +1637,8 @@ sp_doc_status_systray = "Windows Görev Çubuğunda Trafik Analiz Simgesi Temas�
 /: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
 /. Used as alternative text for clickable icon-buttons in sidebar at mentioned above and on similar pages
 /. You won't see it, since it displayed only if browser can't download images
+sp_doc_status_thumb_down = "Başarılı";
+sp_doc_status_thumb_up = "Başarısız";
 
 sp_doc_status_times = "Ping süresi, standart tema'nın grafiksel görünümünde yeşil, sarı, ya da kırmızı dalgalar ile belirtilir. Gerçek ping süresi eşzamanlı gönderme ve indirme sayısının üzerindeki önemli bölüm içerisine bağlıdır. Eğer bu sayı yükselirse, gecikme ihtimali de artacaktır.";
 sp_doc_status_toggle = "İlgili düğmelere tıkladığınız zaman, grafiksel ve sayısal tema görünümü arasında geçiş yapmanız mümkündür.";
@@ -1682,6 +1701,7 @@ sp_doc_voip_p11 = "<em>Gecikme</em> MOS değerinin çok önemli bir bölümüdü
 sp_doc_whatsnew = "Yeni özelliklere, geliştirmelere, düzenlemelere ve hata düzeltmelerine genel bakış";
 
 /. "Check with" meaning "Use the following action to check the result"
+sp_doc_wlan_p10 = "Kontrol edin:";
 
 sp_news_t = "cFosSpeed'e ilişkin son haberler";
 
@@ -1932,10 +1952,14 @@ cont_gr_p8 = "Tüm videolar <a class=\"inline\" href=\"http://www.youtube.com/cF
 cont_gr_lang_arabic = "Arapça";
 cont_gr_lang_bulgarian = "Bulgarca";
 cont_gr_lang_chinese_tw = "Çince (Geleneksel)";
+cont_gr_lang_chinese_cn = "Çince (Basitleştirilmiş)";
 cont_gr_lang_czech = "Çekce";
 cont_gr_lang_dutch = "Flemenkçe";
+cont_gr_lang_french = "Fransızca";
 cont_gr_lang_greek = "Yunanca";
+cont_gr_lang_hungarian = "Macarca";
 cont_gr_lang_indonesian = "Endonezce";
+cont_gr_lang_italian = "İtalyanca";
 cont_gr_lang_japanese = "Japonca";
 cont_gr_lang_korean = "Korece";
 cont_gr_lang_macedonian = "Makedonca";
@@ -1946,6 +1970,9 @@ cont_gr_lang_portuguese_br = "Portekizce (Brezilya)";
 cont_gr_lang_romanian = "Rumence";
 cont_gr_lang_russian = "Rusça";
 cont_gr_lang_swedish = "İsveççe";
+cont_gr_lang_serbian = "Sırpça";
+cont_gr_lang_spanish = "İspanyolca";
+cont_gr_lang_spanish_mx = "İspanyolca (Meksika)";
 cont_gr_lang_thai = "Tai dili";
 cont_gr_lang_turkish = "Türkçe";
 cont_gr_lang_vietnamese = "Vietnamca";
@@ -2063,6 +2090,7 @@ word_black = "siyah";
 word_white = "beyaz";
 word_transparent = "saydam";
 word_dark = "koyu";
+word_logo = "logo";
 word_background = "arka plan";
 text_it_works = "Çalışıyor!";
 
@@ -2394,7 +2422,7 @@ beta_cfosspeed_whats_new_desc = "List of cFosSpeed'in yeni özellikleri,gelişti
 oem_oem_desc = "Tüm ürünlerimiz hakkında bilgiler ve OEM partnerlerimiz için özelleştirilebilme açıklaması. Ayrıca OEM kontratı / kullanıcı sözleşmesi de ektedir.";
 cfos_notifier_desc = "cFos Notifier'a genel bakış.";
 cfos_notifier_whats_new_desc = "cFos Notifier'daki yenilikler. Yeni özellikler,geliştirmeler ve düzeltilen sorunların  listesi.";
-upload_desc = "Dumo'lar ve diğer dosyalar için upload sayfası";
+upload_desc = "Damplar ve diğer dosyalar için upload sayfası";
 video_page_desc = "cFos Yazılımıyla tüm YouTube videolarının listesi";
 cfosspeed_features_title = "cFosSpeed'in en önemli özelliklerinin listesi.";
 
@@ -2435,10 +2463,12 @@ countryname_tr = "Türkiye";
 countryname_tw = "Tayvan";
 countryname_uk = "Ukrayna";
 countryname_zh_hk = "Hong Kong";
+languagename_per = "Farsça";
 
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "TRY";
 currency_prefix = "";
+// YTL to TL (2009), (Note:ISO 4217 code not changed), U+20BA TURKISH LIRA SIGN (₺) (MAY 2012) https://en.wikipedia.org/wiki/Turkish_lira
 currency_suffix = "YTL";
 selected_value = "Turkey";
 
