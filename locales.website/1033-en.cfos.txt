@@ -181,6 +181,14 @@ sk_tutorial_text = "How to create your own cFos(Speed) skin";
 sk_tga = "TGA Skins";
 sk_tga_text = "cFos(Speed) skin archive with TGA files - for older versions of our programs";
 speed_text = "Faster Internet access with Traffic Shaping";
+start_download_h1 = "Start download";
+
+/. the span with id "countdown" must not be changed or translated, only moved to appropriate position
+start_download_p1 = "Your download starts in <span id=\"countdown\">00:00</span>.";
+
+/. the id "download_link" must not be translated
+start_download_p2 = "If your download doesn't start automatically, please try this <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direct link</b></a>.";
+
 submit = "Send";
 transparent = "transparent";
 updates = "Updates";
@@ -2750,6 +2758,7 @@ support_hacks_expired_desc = "Our statement to hacks, if your version is expired
 support_index_desc = "Contact the cFos team. cFos technical support, main page.";
 index_desc = "Our entry page. Choose for which product you need information: 1. cFosSpeed: The Internet Accelerator, Traffic Shaping / Bandwidth Management. 2. cFos Ipv6 Link for connectivity with the new IPv6 3. High speed dial-up cFos Broadband Connect.";
 download_download_desc = "Free download of cFosSpeed, cFos IPv6 link, cFos Broadband connect and cFos Professional and also additional freeware.";
+download_start_download_desc = "Start the download selected on download page.";
 search_results_desc = "The results of your search in www.cfos.de.";
 traffic_shaping_explain_desc = "How to optimally calibrate cFos Traffic Shaping and how you can check if it works.";
 traffic_shaping_calibration_desc = "Traffic Shaping: What happens in the learning phase?";
