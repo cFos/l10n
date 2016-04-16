@@ -183,10 +183,12 @@ sk_tga_text = "cFos(Speed) skin archive with TGA files - for older versions of o
 speed_text = "Faster Internet access with Traffic Shaping";
 start_download_h1 = "Start download";
 
-/. the span with id "countdown" must not be changed or translated, only moved to appropriate position
+/. Do not translate or change `<span id=\"countdown\">00:00</span>` part.
+/. But you can move it around as whole freely
 start_download_p1 = "Your download starts in <span id=\"countdown\">00:00</span>.";
 
-/. the id "download_link" must not be translated
+/. Do not translate or change anything except `direct link` in <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direct link</b></a>` part.
+/. You can move it around as whole freely, though
 start_download_p2 = "If your download doesn't start automatically, please try this <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direct link</b></a>.";
 
 submit = "Send";
