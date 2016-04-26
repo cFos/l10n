@@ -2468,8 +2468,7 @@ languagename_per = "Farsça";
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "TRY";
 currency_prefix = "";
-// YTL to TL (2009), (Note:ISO 4217 code not changed), U+20BA TURKISH LIRA SIGN (₺) (MAY 2012) https://en.wikipedia.org/wiki/Turkish_lira
-currency_suffix = "YTL";
+currency_suffix = "TL";
 selected_value = "Turkey";
 
 
