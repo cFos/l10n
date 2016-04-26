@@ -2866,10 +2866,30 @@ countryname_vn = "Vietnam";
 countryname_zh_hk = "Hong Kong";
 languagename_per = "Farsi";
 
-/ no translation  -  currency info for order form exchange rates only - do not modify!
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those strings used in order form exchange rates and shouldn't be modified
+/
+/ !!! DO NOT TRANSLATE !!!
+
+/. Code of native for current language currency according to European Central Bank
+/. Used to retrieve exchange rates from ECB, calculate and display prices in native currency on Order page
+/. Do not modify, unless you really know what you're doing
 currency_4217 = "USD";
+
+/. Leading and subsequent (if needed any) currency symbol/code of specified in `currency_4217` currency
+/. Purely decorative
+/. String will be formed without any predefined spaces, like that:
+/= `~ currency_prefix{{value}}currency_suffix`
+/. So, don't forget to add space before suffix, or after prefix, if you need any, right inside language key
 currency_prefix = "$";
 currency_suffix = "";
+
+/. Value of `Country` field in Order form
+/. In English always should be `Select your country`
+/. In other languages should contain name of the country _in English_, for which specified currency in `currency_4217`
 selected_value = "Select your country";
 
+/ END SECTION: don't translate
 
