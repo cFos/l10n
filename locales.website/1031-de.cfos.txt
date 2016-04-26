@@ -166,7 +166,7 @@ sk_tga = "TGA-Skins";
 sk_tga_text = "cFos(Speed) Skin-Archiv mit TGA-Grafiken - für ältere Programmversionen";
 speed_text = "Schnelleres Internet mit Traffic Shaping";
 start_download_h1 = "Download starten";
-start_download_p1 = "Ihr Download startet in <span id=\"countdown\">00:00</span>.";
+start_download_p1 = "Ihr Download startet in <span id=\"countdown\">00</span> Sekunden.";
 start_download_p2 = "Falls Ihr Download nicht automatisch startet, versuchen Sie bitte diesen <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direkten Link</b></a>.";
 submit = "Abschicken";
 transparent = "transparent";

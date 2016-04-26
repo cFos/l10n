@@ -185,7 +185,7 @@ start_download_h1 = "Start download";
 
 /. Do not translate or change `<span id=\"countdown\">00:00</span>` part.
 /. But you can move it around as whole freely
-start_download_p1 = "Your download starts in <span id=\"countdown\">00:00</span>.";
+start_download_p1 = "Your download will start in <span id=\"countdown\">00</span> seconds.";
 
 /. Do not translate or change anything except `direct link` in <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direct link</b></a>` part.
 /. You can move it around as whole freely, though
