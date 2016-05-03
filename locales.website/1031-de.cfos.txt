@@ -81,6 +81,9 @@ cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> unterstützt jetzt auch <b>Windo
 learn_more = "Mehr erfahren";
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> ist der offizielle Internet Beschleuniger für<br/>ASUS, GIGABYTE, ASRock und MSI Gaming Produkte";
 
+/. Used on a small label - should not be very broad and both lines almost of same length
+top_seller = "TOP<br/>Seller";
+
 / download
 additional_downloads = "Zusätzliche Downloads";
 add_lang_text = "Zusätzliche Sprachen für cFosSpeed";
@@ -126,6 +129,8 @@ rnahelp_text = "Batch-Utility für Windows-Internet-Verbindungen";
 sk_c64_text = "Skin im Commodore 64-Look (von Markus Welz)";
 sk_classic = "cFos Skin Classic";
 sk_classic_text = "Das klassische cFos Skin";
+sk_dean = "Deans Metro Skin";
+sk_dean_text = "Metro Skin modifiziert für Windows 10 (von Dean)";
 sk_froghut = "Froghut Title Bar Skin";
 sk_froghut_text = "Froghut Title Bar Skin (von Björn v. d. Osten)";
 sk_grant = "Grant's Skin";
@@ -2516,6 +2521,8 @@ port_forwarding_no_instruction_h1 = "Für diesen Router ist keine Anleitung vorh
 port_forwarding_no_instruction_p1 = "Wenn Sie Sich Lizenzschlüssel für cFosSpeed und cFos Personal Net verdienen wollen, indem Sie eine Anleitung für diesen Router verfassen, kontaktieren Sie uns bitte durch Klicken auf den unten stehenden Button.";
 port_forwarding_no_instruction_p2 = "Die Anleitung sollte einige Screenshots und Schritt-für-Schritt-Anweisungen enthalten, die leicht nachvollzogen werden können (<a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding/avm-7490.htm\"><b>siehe Beispiel</b></a>).";
 port_forwarding_contact_us = "Kontaktieren Sie uns";
+coming_soon_title = "Bald verfügbar!";
+coming_soon_p1 = "Für diesen Router haben wir eine Anleitung in Vorbereitung.<br/><b>Sie wird in Kürze verfügbar sein.</b>";
 avm_7490_title = "Port-Forwarding für die AVM FRITZ!Box 7490 einrichten";
 avm_7490_p1 = "Melden Sie Sich mit Ihrem Benutzernamen und Passwort bei Ihrer FRITZ!Box an";
 avm_7490_p2 = "Klicken Sie auf \"Internet\" und \"Freigaben\" im Hauptmenü (links)";
@@ -2525,6 +2532,15 @@ avm_7490_p5 = "Wählen Sie \"HTTP-Server\" und den Computer, auf dem cFos Person
 avm_7490_p6 = "Klicken Sie auf \"OK\"";
 avm_7490_p7 = "Speichern Sie die neuen Einstellungen durch Klick auf den Button \"Übernehmen\"";
 avm_7490_p8 = "Port-Forwarding ist jetzt für Ihren Computer eingerichtet und Sie können Sich wieder von Ihrer FRITZ!Box abmelden.";
+tlink_td_8840tv4_title = "Port-Forwarding für den TP-LINK TD-8840Tv4 einrichten";
+tlink_td_8840tv4_p0 = "Die folgende Anleitung ist gedacht für die letzte offizielle Firmware (TD-8840Tv4_0.8.0_2.3_up(150917)_2015-09-18_09.14.43.bin), die Sie <a class=\"inline\" href=\"http://www.tp-link.de/res/down/soft/TD-8840TV4_150917.zip\"><b>hier</b></a> herunterladen können.";
+tlink_td_8840tv4_p1 = "Melden Sie Sich mit Ihrem Benutzernamen und Passwort bei Ihrem Router an (Default-IP: <em>192.168.1.1</em> - Default-Benutzername/Passwort: <em>admin</em>)";
+tlink_td_8840tv4_p2 = "Kicken Sie auf \"Forwarding\" und \"Virtual Servers\" im Hauptmenü (links)";
+tlink_td_8840tv4_p3 = "Klicken Sie auf den Button \"Add New\"";
+tlink_td_8840tv4_p4 = "Wählen Sie \"HTTP\" als \"Common Service port\" geben Sie die (vorzugsweise statische) IP-Adresse des Computers, auf dem cFos Personal Net läuft, in das Feld \"IP Address\" ein";
+tlink_td_8840tv4_p5 = "Klicken Sie auf den Button \"Save\"";
+tlink_td_8840tv4_p6 = "Melden Sie sich von Ihrem Router ab, indem Sie im Hauptmenü (links) auf \"Logout\" klicken";
+tlink_td_8840tv4_p7 = "Port-Forwarding ist jetzt für Ihren Computer eingerichtet.";
 
 /meta descriptions
 missing_meta_desc = "missing meta description";
@@ -2656,6 +2672,8 @@ cfos_notifier_whats_new_desc = "Welche Neuerungen gibt es beim cFos Notifier? Li
 upload_desc = "Upload-Seite für Dumps und andere Dateien";
 port_forwarding_desc = "Anleitungen zum Einrichten des Port-Forwarding für verschiedene Router";
 pf_avm_7490_desc = "Anleitungen zum Einrichten des Port-Forwarding für die AVM FRITZ!Box 7490";
+pf_tlink_td_8840tv4_desc = "Anleitungen zum Einrichten des Port-Forwarding für T-Link TD-8840Tv4";
+pf_coming_soon_desc = "Vorläufige Seite für Router-Anleitungen in Bearbeitung";
 video_page_desc = "Liste alle YouTube-Videos von cFos Software";
 cfosspeed_features_title = "Liste der wichtigsten cFosSpeed-Features.";
 

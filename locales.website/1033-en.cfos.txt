@@ -95,6 +95,9 @@ cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> is now available for <b>Windows 
 learn_more = "Learn more"; // Meaning "learn more about the product"
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> is the official Internet Accelerator for<br/>ASUS, GIGABYTE, ASRock and MSI gaming products"; // Line feed at approx middle of the key, preferred directly before the brand names
 
+/. Used on a small label - should not be very broad and both lines almost of same length
+top_seller = "TOP<br/>Seller";
+
 / download
 additional_downloads = "Additional downloads";
 add_lang_text = "Additional languages for cFosSpeed";
@@ -142,6 +145,8 @@ sk_c64 = "cFos C64";
 sk_c64_text = "C64-styled 'cFos skin' (by Markus Welz)";
 sk_classic = "cFos Skin Classic";
 sk_classic_text = "The classic cFos Skin";
+sk_dean = "Dean's Metro Skin";
+sk_dean_text = "Metro Skin modified for Windows 10 (by Dean)";
 sk_froghut = "Froghut Title Bar Skin";
 sk_froghut_text = "Froghut Title Bar Skin (by Björn v. d. Osten)";
 sk_grant = "Grant's Skin";
@@ -2681,6 +2686,8 @@ port_forwarding_no_instruction_h1 = "There are no instructions available for thi
 port_forwarding_no_instruction_p1 = "If you would like to earn a license key for cFosSpeed and cFos Personal Net by sending us instructions for this router, you can contact us by clicking on the button below.";
 port_forwarding_no_instruction_p2 = "The instructions should contain some screenshots and a step-by-step guide, which can be followed easily (<a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding/avm-7490.htm\"><b>see example</b></a>).";
 port_forwarding_contact_us = "Contact us";
+coming_soon_title = "Coming soon!";
+coming_soon_p1 = "We are working on the instructions for this router.<br/><b>They will be available soon.</b>";
 avm_7490_title = "Enable port forwarding for the AVM FRITZ!Box 7490";
 avm_7490_p1 = "Log into your FRITZ!Box with your username and password";
 avm_7490_p2 = "Click on \"Internet\" and \"Permit Access\" in the main menu on the left";
@@ -2690,6 +2697,15 @@ avm_7490_p5 = "Select \"HTTP-Server\" and the computer cFos Personal Net is runn
 avm_7490_p6 = "Click on \"Apply\"";
 avm_7490_p7 = "Save the new settings by clicking on the \"Apply\" button";
 avm_7490_p8 = "Port forwarding is now configured for your computer and you can log out of your FRITZ!Box.";
+tlink_td_8840tv4_title = "Enable port forwarding for the TP-LINK TD-8840Tv4";
+tlink_td_8840tv4_p0 = "The following guide is intended for the latest official firmware (TD-8840Tv4_0.8.0_2.3_up(150917)_2015-09-18_09.14.43.bin) which you can download from <a class=\"inline\" href=\"http://www.tp-link.de/res/down/soft/TD-8840TV4_150917.zip\"><b>here</b></a>.";
+tlink_td_8840tv4_p1 = "Log into your router with your username and password (default IP: <em>192.168.1.1</em> - default username/password: <em>admin</em>)";
+tlink_td_8840tv4_p2 = "Click on \"Forwarding\" and \"Virtual Servers\" in the main menu on the left";
+tlink_td_8840tv4_p3 = "Click on the \"Add New\" button";
+tlink_td_8840tv4_p4 = "Select \"HTTP\" as \"Common Service port\" and enter the (preferably static) IP of the computer cFos Personal Net is running on in the \"IP Address\" field";
+tlink_td_8840tv4_p5 = "Click on the \"Save\" button";
+tlink_td_8840tv4_p6 = "Log out of your router by clicking on \"Logout\" in the main menu on the left";
+tlink_td_8840tv4_p7 = "Port forwarding is now configured for your computer!";
 
 /meta descriptions
 missing_meta_desc = "missing meta description";
@@ -2823,6 +2839,8 @@ cfos_notifier_whats_new_desc = "Find out what's new in cFos Notifier. List of al
 upload_desc = "Upload page for dumps and other files";
 port_forwarding_desc = "Instructions on the activation of Port Forwarding for various routers";
 pf_avm_7490_desc = "Instructions on the activation of Port Forwarding for the AVM FRITZ!Box 7490";
+pf_tlink_td_8840tv4_desc = "Instructions on the activation of Port Forwarding for the T-Link TD-8840Tv4";
+pf_coming_soon_desc = "Temporary page for router instructions in progress";
 video_page_desc = "List of all YouTube videos by cFos Software";
 cfosspeed_features_title = "List of the most important cFosSpeed features.";
 
