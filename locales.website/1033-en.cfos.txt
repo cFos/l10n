@@ -95,7 +95,10 @@ cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> is now available for <b>Windows 
 learn_more = "Learn more"; // Meaning "learn more about the product"
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> is the official Internet Accelerator for<br/>ASUS, GIGABYTE, ASRock and MSI gaming products"; // Line feed at approx middle of the key, preferred directly before the brand names
 
-/. Used on a small label - should not be very broad and both lines almost of same length
+/: https://www.cfos.de/ru/order/order.htm
+/. Used on a small label in corner of product's box image
+/. Try to keep string as narrow as possible. If phrase should be spanned on two lines
+/. (with `<br/>` tag in place of break), try to keep both lines of same length
 top_seller = "TOP<br/>Seller";
 
 / download
