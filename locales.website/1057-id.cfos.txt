@@ -2123,7 +2123,7 @@ announce_list = "Daftar Pengumunan cFos";
 
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "IDR";
-currency_prefix = "Rp.";
+currency_prefix = "Rp ";
 currency_suffix = "";
 selected_value = "Indonesia";
 

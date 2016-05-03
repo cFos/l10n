@@ -1428,8 +1428,8 @@ cfosspeed_features_title = "Λίστα των πιο σημαντικών λει
 
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "EUR";
-currency_prefix = "";
-currency_suffix = "&#8364;";
+currency_prefix = "&#8364;";
+currency_suffix = "";
 selected_value = "Greece";
 
 

@@ -2468,7 +2468,7 @@ languagename_per = "Farsça";
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "TRY";
 currency_prefix = "";
-currency_suffix = "TL";
+currency_suffix = " TL";
 selected_value = "Turkey";
 
 

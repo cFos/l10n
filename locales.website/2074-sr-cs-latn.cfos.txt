@@ -56,7 +56,7 @@ input_lang = "sr-cs-latn";
 / no translation
 currency_4217 = "RSD";
 currency_prefix = "";
-currency_suffix = "din";
+currency_suffix = " dinara";
 selected_value = "Serbia";
 
 

@@ -1327,7 +1327,7 @@ countryname_tw = "Thajsko";
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "CZK";
 currency_prefix = "";
-currency_suffix = "Kč";
+currency_suffix = " Kč";
 selected_value = "Czech Republic";
 
 

@@ -1601,8 +1601,8 @@ countryname_tr = "Turkije";
 
 / no translation
 currency_4217 = "EUR";
-currency_prefix = "";
-currency_suffix = "&#8364;";
+currency_prefix = "&#8364; ";
+currency_suffix = "";
 selected_value = "Netherlands";
 
 

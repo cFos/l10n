@@ -412,7 +412,7 @@ selectskin = "انتخاب پوسته";
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "IRR";
 currency_prefix = "";
-currency_suffix = "﷼";
+currency_suffix = " rials";
 selected_value = "Iran";
 
 

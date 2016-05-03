@@ -825,7 +825,7 @@ cfosspeed_features_title = "Lista celor mai importante caracteristici cFosSpeedâ
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "RON";
 currency_prefix = "";
-currency_suffix = "lei";
+currency_suffix = " lei";
 selected_value = "Romania";
 
 

@@ -227,7 +227,7 @@ f_trans_mail = "Teile saadetakse meie pangakonto andmed tellimuse kinnitamise e-
 / no translation
 currency_4217 = "EEK";
 currency_prefix = "";
-currency_suffix = "kr";
+currency_suffix = " kr";
 selected_value = "Estonia";
 
 

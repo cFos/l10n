@@ -1032,7 +1032,7 @@ under_construction = "Hastighetstestet är under utveckling och kommer under Okt
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "SEK";
 currency_prefix = "";
-currency_suffix = "kr";
+currency_suffix = " kr";
 selected_value = "Sweden";
 
 

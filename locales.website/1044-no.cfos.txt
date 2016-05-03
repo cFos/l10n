@@ -58,7 +58,7 @@ f_trans_within_country = "OverfÃ¸r innen ditt land";
 / no translation
 currency_4217 = "NOK";
 currency_prefix = "";
-currency_suffix = "kr";
+currency_suffix = " kr";
 selected_value = "Norway";
 
 

@@ -59,7 +59,7 @@ f_trans_mail = "Du vil modtage vores bankkonto informationer i din ordrebekræft
 / no translation
 currency_4217 = "DKK";
 currency_prefix = "";
-currency_suffix = "kr";
+currency_suffix = " kr.";
 selected_value = "Denmark";
 
 

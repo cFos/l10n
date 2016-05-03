@@ -83,7 +83,7 @@ worldcup_sale = "Знижки на честь Чемпіонату світу п
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "UAH";
 currency_prefix = "";
-currency_suffix = "грн";
+currency_suffix = " ₴";
 selected_value = "Ukraine";
 
 

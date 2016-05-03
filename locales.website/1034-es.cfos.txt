@@ -2294,7 +2294,7 @@ countryname_uk = "Ucrania";
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "EUR";
 currency_prefix = "";
-currency_suffix = "&#8364;";
+currency_suffix = " &#8364;";
 selected_value = "Spain";
 
 

@@ -56,8 +56,8 @@ input_lang = "de-ch";
 
 / no translation
 currency_4217 = "CHF";
-currency_prefix = "CHF";
-currency_suffix = "";
+currency_prefix = "";
+currency_suffix = " francs";
 selected_value = "Switzerland";
 
 

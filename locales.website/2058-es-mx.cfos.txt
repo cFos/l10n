@@ -2588,8 +2588,8 @@ languagename_per = "Persa";
 
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "MXN";
-currency_prefix = "$";
-currency_suffix = "(MXN)";
+currency_prefix = "Mex$";
+currency_suffix = "";
 selected_value = "Mexico";
 
 

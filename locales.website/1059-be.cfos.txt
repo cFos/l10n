@@ -670,8 +670,8 @@ bc_faq2 = "Дзе я магу задаць пытанні, якія тычацц
 
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "BYR";
-currency_prefix = "";
-currency_suffix = "Br";
+currency_prefix = "Br";
+currency_suffix = "";
 selected_value = "Belarus";
 
 

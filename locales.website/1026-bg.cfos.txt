@@ -1093,7 +1093,7 @@ description = "Описание";
 / no translation  -  currency info for order form exchange rates only - do not modify!
 currency_4217 = "BGN";
 currency_prefix = "";
-currency_suffix = "levs";
+currency_suffix = " leva";
 selected_value = "Bulgaria";
 
 

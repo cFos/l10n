@@ -2296,6 +2296,6 @@ countryname_zh_hk = "Hongkong";
 currency_4217 = "HUF";
 currency_prefix = "";
 currency_suffix = "&#8364;";
-selected_value = "Magyarország";
+selected_value = "Hungary";
 
 
