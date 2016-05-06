@@ -51,8 +51,11 @@ summer_sale = "Sonderpreise im Sommer-Sale bis zum 31. August";
 worldcup_sale = "Sonderpreise zur Fußball-WM";
 winter_sale = "Sonderpreise im Winter-Sale!";
 winter_sale_ext = "Verlängert bis 28. Januar - Danke für Ihre großartige Unterstützung!";
+
+/. Mean text styles, like `light font` (thin), or `bold font` (strong)
 style_light = "Leicht";
 style_strong = "Stark";
+
 style_untranslated = "Hervorhebung von unübersetztem Text";
 translation_settings = "Übersetzungs-Einstellungen";
 translation_text1 = "Diese Seite ist nicht hinreichend übersetzt!";
@@ -81,7 +84,10 @@ cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> unterstützt jetzt auch <b>Windo
 learn_more = "Mehr erfahren";
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> ist der offizielle Internet Beschleuniger für<br/>ASUS, GIGABYTE, ASRock und MSI Gaming Produkte";
 
-/. Used on a small label - should not be very broad and both lines almost of same length
+/: https://www.cfos.de/ru/order/order.htm
+/. Used on a small label in corner of product's box image
+/. Try to keep string as narrow as possible. If phrase should be spanned on two lines
+/. (with `<br/>` tag in place of break), try to keep both lines of same length
 top_seller = "TOP<br/>Seller";
 
 / download
@@ -171,8 +177,15 @@ sk_tga = "TGA-Skins";
 sk_tga_text = "cFos(Speed) Skin-Archiv mit TGA-Grafiken - für ältere Programmversionen";
 speed_text = "Schnelleres Internet mit Traffic Shaping";
 start_download_h1 = "Download starten";
+
+/. Do not translate or change `<span id=\"countdown\">00:00</span>` part.
+/. But you can move it around as whole freely
 start_download_p1 = "Ihr Download startet in <span id=\"countdown\">00</span> Sekunden.";
+
+/. Do not translate or change anything except `direct link` in <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direct link</b></a>` part.
+/. You can move it around as whole freely, though
 start_download_p2 = "Falls Ihr Download nicht automatisch startet, versuchen Sie bitte diesen <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direkten Link</b></a>.";
+
 submit = "Abschicken";
 transparent = "transparent";
 updates = "Updates";
@@ -198,9 +211,11 @@ by_phone = "Support, telefonische Bestellung";
 buy_at = "Kaufen bei";
 buy_now = "Jetzt kaufen";
 conf_cc = "Zahlung per Kreditkarte";
+
 /. Used before Credit Card number, like
 /= "Nr. 2661-4345-2456-1345"
 /. It should be replaced with preferred in your region format
+
 conf_check_cc = "Bitte überprüfen Sie Ihre Kreditkartendaten";
 conf_check_order = "Bestellung überprüfen";
 conf_deliverer = "Besteller / Lieferanschrift";
@@ -291,10 +306,14 @@ f_land = "Land";
 f_license = "Lizenzbestimmungen";
 f_mercado = "Mercado Pago";
 f_moneybookers_text = "Senden Sie den Betrag bitte an das Moneybookers Konto:";
+
 /. Paymenth method — "Cash on Delivery"
 /. See http://en.wikipedia.org/wiki/Cash_on_delivery
 f_nachname = "Nachname";
+
+/. Says that certain payment method available within Germany only
 f_nachname_text = "nur innerhalb Deutschlands, Zuschlag 4,- &#8364;";
+
 f_name = "Name";
 f_alipay_text = "Bitte überweisen sie Ihre Zahlung auf folgendes AliPay-Konto：";
 f_optional = "optional";
@@ -489,12 +508,15 @@ prio_ports = "Ports priorisieren";
 prio_programs = "Programme priorisieren";
 prio_protocols = "Protokolle priorisieren";
 related_product = "Verwandtes Produkt";
+
 /. Used in follwoing string:
 /= "Reviewed 4.5 / 5 stars by softpedia.com"
 review1 = "Beurteilt mit";
+
 /. Used in follwoing string:
 /= "Reviewed 4.5 / 5 stars by softpedia.com"
 review2 = "Sternen durch";
+
 rwin_expansion = "RWIN Expansion";
 rwin_now = "jetzt mit RWIN-Expansion!";
 rwin_results = "Sehen sie die beindruckenden Resultate!";
@@ -545,12 +567,16 @@ pnet_wmi_add_p2 = "Der <b>cFos WMI Monitor</b> hilft Gamern, Power Usern, Musike
 pnet_wmi_explain = "Was ist der cFos WMI-Monitor?";
 pnet_portable_h1 = "Veröffentlichen Sie eine Datei in nur zwei Schritten";
 pnet_portable_p1 = "Laden Sie cFos Personal Net Portable (cfospnet_portable.exe) herunter und starten Sie es.";
+
 /. Don't translate the "Publish with..." part
 pnet_portable_p2 = "Im Windows Explorer rechts-klicken Sie dann auf die Datei, die Sie zum Download bereitstellen wollen und wählen Sie im Kontextmenü \"Publish with cFos Personal Net (portable)\".";
+
 pnet_portable_h2 = "Zusätzliche Informationen zu cFos Personal Net Portable";
 pnet_portable_p3 = "Ihr Download-Link wird in die Zwischenablage kopiert, so dass Sie ihn in eine Mail oder Nachricht einfügen können.";
+
 /. Don't translate the "Publish" and "Upload..." parts
 pnet_portable_p4 = "Möglicherweise müssen Sie die <a class=\"inline\" href=\"/en/cfos-personal-net/documentation/router.htm\"><b>NAT Port-Freigabe in Ihrem Router erlauben</b></a>. Sie können anderen auch gestatten, Dateien auf Ihren Computer hochzuladen. Rechts-klicken Sie auf das cFos Personal Net Taskbar-Icon, und wählen Sie dann \"Publish\" und danach \"Upload link to clipboard\"";
+
 pnet_portable_p5 = "Benutzer von cFos Personal Net finden <em>cfospnet_portable.exe</em> im Installationsverzeichnis; Sie können es also wahlweise im Server- oder im Portable-Modus benutzen. Die meisten Funktionen von cFos Personal Net sind auch im Portable-Modus verfügbar.";
 pnet_portable_p6 = "<b>So aktivieren Sie Ihren Lizenzschlüssel</b>: cFos Personal Net Portable erzeugt ein <em>pub\\admin</em>-Verzeichnis an dem Ort, an dem es gestartet wird. Kopieren Sie Ihren Lizenzschlüssel einfach in dieses<em>pub\\admin</em>-Verzeichnis. Wenn Ihr Lizenzschlüssel eine Passwort-Aktivierung erfordert, kontaktieren Sie uns bitte um einen neuen Schlüssel zu erhalten, der kein Passwort benötigt.";
 pnet_doc_a1 = "Übersicht";
@@ -573,14 +599,20 @@ pnet_wmi_p3 = "Laden und installieren Sie das <a class=\"inline\" href=\"/en/dow
 pnet_wmi_p4 = "Um zu verhindern, dass andere auf Ihre WMI Daten zugreifen können, benötigt der cFos WMI Monitor einen gültigen Benutzer bei der HTTP Authentisierung. Sie sollten also einen cFos PNet Benutzer einrichten, z.B. <b>admin</b>. Hierzu können Sie z.B. das  Setup erneut ausführen. Oder Sie können einen neuen Benutzer hinzufügen, z.B. <b>wmi</b>, indem Sie die Seite <em>/users/index.htm</em> als admin starten.";
 pnet_wmi_p5 = "Um maximalen Nutzen aus dem cFos WMI Monitor zu ziehen, empfehlen wir Ihnen auch folgendes zu installieren:";
 pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, unseren Internet Beschleuniger. Der eingebaute  WMI provider stellt folgende WMI Werte zur Verfügung:";
+
 /. RX stands for `receive` (incoming/download)
 pnet_wmi_l1a = "Gesamt RX-Speed";
+
 /. TX stands for `transmit` (outgoing/upload)
 pnet_wmi_l1b = "Gesamt TX-Speed";
+
 pnet_wmi_l1c = "Pingzeit";
 pnet_wmi_l1d = "TCP/UDP connection count";
+
 /. Means `RX (`receive`/incoming/download) characters per second`
+
 /. Means `TX (`transmit`/outgoing/upload) characters per second sent`
+
 pnet_wmi_l1g = "Diese Werte beziehen sich auf Ihre aktuelle Internet-Verbindung.<br/>Windows-eigene WMI Werte beziehen sich auf den Netzwerk-Adapter, egal ob es sich um Internet oder LAN traffic handelt. Sie können alle Werte, die im cFosSpeed Status Fenster angezeigt werden können, auch im WMI Monitor anzeigen.";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Open Hardware Monitor</b></a>. Dieser hat ebenfalls einen eingebauten WMI provider, der sehr nützliche Werte über Ihre Hardware zur Verfügung stellt, wie";
 pnet_wmi_l2a = "CPU Auslastung und Temperatur";
@@ -683,7 +715,11 @@ pnet_doc_router_l1 = "Starten Sie Ihren Browser und geben <b>http://localhost</b
 pnet_doc_router_l2 = "Geben Sie nun in Ihrem Browser, sagen wir, <b>http://192.168.2.122</b> ein (d.h. die lokale Adresse der Maschine auf der Sie  cFos Personal Net laufen lassen). Dadurch öffnen Sie eine Verbindung über Ihren Router. Falls Sie die cFos Personal Net Webseite sehen, wissen Sie daß die firewall(s) in Windows Daten zu cFos Personal Net durchlassen.";
 pnet_doc_router_l3 = "Finden Sie nun Ihre öffentliche IP Adresse heraus (diese wird z.B. unten auf der cfos.de Homepage angezeigt) und geben Sie diese in Ihrem Browser ein, z.B. <b>http://217.23.123.7</b>. Dies testet die firewall in Ihrem Router und das NAT port forwarding. Falls Sie die cFos Personal Net Homepage nicht sehen, ziehen Sie die Dokumentation Ihres Routers zu Rate, wie man NAT port forwarding konfiguriert.";
 pnet_doc_script_p1 = "cFos Personal Net unterstützt Skripting entweder mittels Common Gateway Interface (CGI) oder mittels eingebauten Javascript (oder anderen Sprachen, die den Windows Scripting Host unterstützen, z.B. ActivePerl, ActivePython, etc.).";
+
+/: http://www.cfos.de/en/cfos-personal-net/documentation/scripting.htm
+/. Do not translate variable names (`REMOTE_USER`, etc.)
 pnet_doc_script_p2 = "CGI spezifiziert bestimmte Umgebungsvariablen, die Informationen über den aktuellen HTTP request enthalten. cFos PNet setzt diese Variablen vor der Ausführung des Skripts:<br/><br/><b>REMOTE_USER</b>, <b>AUTH_TYPE</b>, <b>SERVER_SOFTWARE</b>, <b>SERVER_PROTOCOL</b>, <b>GATEWAY_INTERFACE</b>, <b>DOCUMENT_ROOT</b>, <b>CONTENT_LENGTH</b>, <b>CONTENT_TYPE</b>, <b>REMOTE_ADDR</b>, <b>REMOTE_PORT</b>, <b>SERVER_NAME</b>, <b>SERVER_PORT</b>, <b>REQUEST_METHOD</b>, <b>QUERY_STRING</b>, <b>REMOTE_HOST</b>, <b>PATH_TRANSLATED</b>, <b>SCRIPT_NAME</b> und alle HTTP header mittels Benamung <b>&lt;xxx&gt;</b> als <b>HTTP_XXX</b>.";
+
 pnet_doc_script_p3 = "Ausserdem werden folgende Umgebungsvariablen gesetzt:";
 pnet_doc_script_p4 = "All diese Variablen sind von CGI Skripten oder von Javascript aus verfügbar (in Javascript hat das cFos PNet Webserver Objekt eine Methode <b>environment_var(name)</b> zum Auslesen von Umgebungsvariablen).";
 pnet_doc_script_p5 = "Wenn wir \"Javascript\" sagen, meinen wir eigentlich den Windows Scripting Host mit Javascript oder jede andere Sprache, die in dort instanziiert ist.";
@@ -713,9 +749,13 @@ pnet_doc_scripts_p4 = "Die Scripte führen die Authentifizierung wie folgt durch
 pnet_doc_scripts_p4a = "Die Scripte führen die Authentifizierung gemäß den entsprechenden Einstellungen in der <em>.htaccess</em> durch. Das bedeutet Sie benötigen geeignete Zugangsdaten für den Benutzer, dem das Verzeichnis zugeordnet ist.";
 pnet_doc_scripts_p5 = "Hier ist eine kurze Beschreibung der Scripte. Sie sollten einen Blick auf den Quellcode werfen, um zu sehen, wie diese funktionieren.";
 pnet_doc_scripts_p6 = "Wenn keine <em>index.htm</em> oder <em>index.html</em> Datei im angeforderten Verzeichnis vorhanden sind, startet cFos PNet dieses Script um eine Verzeichnisliste zu erstellen.<br/> Das Script nutzt FileSystemObject um Informationen über den Inhalt des aktuellen Verzeichnisses zu sammeln. Daraufhin lädt es eine XML Vorlage, parst diese und erzeugt eine HTML Seite aus den Verzeichnisinhalten und den Teilstücken, welche durch die XML-Datei geliefert wurden. Um das Aussehen oder die Funktionalität der Verzeichnisauflistung zu ändern, können Sie die XML Vorlage modifizieren. Die herauskommende HTML Datei enthält Links zur grundlegenden Dateiverwaltung. Als Administrator können Sie sich mittels HTTP Authentifizierung anmelden und Dateien oder Ordner umbenennen, löschen sowie neue Dateien hochladen und neue Ordner erstellen. Dies wird durch jQuery auf Clientseite unterstützt, wodurch im Prinzip auf einfache Art und Weise Ajax Anfragen an cFos PNet gesendet werden. Das Serverseitige Script <em>file_op.jss</em> führt die notwendige HTTP Authentifizierung durch und bearbeitet die Dateioperationen.";
+
+/: http://www.cfos.de/en/cfos-personal-net/documentation/standard-scripts.htm
+/. Do not translate operations' names like `rename`, `delete`, `mkdir`, etc., since those are console commands
 pnet_doc_scripts_p7 = "Führt Dateioperationen gemäß der obigen Authentifizierung durch. Dateioperationen sind <b>rename</b>, <b>delete</b>, <b>mkdir</b> um einen Ordner zu erstellen und upload. Upload benötigt üblicherweise Authentifizierung. Weil der Browser immer zuerst die gesamte hochzuladende Datei an den Server sendet und dann die Authentifizierung durchführt, würde er die Datei zweimal senden. Um zuerst dem Browser die Authentifizierungsinformationen zu geben, unterstützt das Script <em>file_op.jss</em> einen Korrekturlauf für den Upload. Der Browser fragt den Server mithilfe einer Ajax Anfrage nach der HTTP Authentifizierungsantwort (401) und benutzt diese dann automatisch für den tatsächlichen Upload. Der Upload wird durch eine Funktion in <em>upload.jss</em> bearbeitet, welche cFos PNet's file Objekt nutzt um das Hochladen von Dateien mit frei wählbarer Größe zu erlauben.";
 pnet_doc_scripts_p8 = "Führt grundlegende Funktionen zur Administration der Benutzer aus: <b>erstellen</b>, <b>löschen</b>, <b>Passwort zurücksetzen</b> und <b>auflisten</b>. Zur Authentifizierung wird das Administrator-Konto benötigt.";
 pnet_doc_scripts_p9 = "Da Hash-Listen eine wichtige Rolle für cFos PNet spielen, stellt <em>list_op.jss</em> grundlegende Auflistungsoperationen zur Verfügung, welche für Ajax Anfragen genutzt werden können. Es wird das selbe Authentifizierungsschema durchgeführt wie oben beschrieben. Das heißt: Abhängig von dem Ort des Scripts wird der Benutzer gewählt, für den die Authentifizierung erforderlich ist. Die Authentifizierung wird gemäß den Direktiven in der jeweiligen <em>.htaccess</em> Datei durchgeführt. <em>list_op.jss</em> bietet folgende Operationen an:<br/><br/><b>get</b> Ausgabe einer Liste der Werte in der Hash-Liste.<br/><b>set</b> Setzen einer Liste von Schlüsseln zu einer Liste von Werten.<br/><b>save</b> Speichern eines Snapshots auf Platte.<br/><b>erase</b> Löschen einer Liste von Schlüsseln.<br/><b>clear</b> Löschen aller Schlüssel.<br/><b>remove</b> Löschen einer Liste aus dem Speicher / von der Platte.<br/><b>size</b> Ausgabe der Listengröße.<br/><b>list</b> Auflistung aller Elemente in der Hash-liste.<br/><br/>Der Ajax-Bestandteil in <em>dyndns.htm</em> nutzt diese Operationen um DyDNS Konfigurationsinformationen einzurichten.";
+
 pnet_doc_scripts_p10 = "Führt die DynDNS An- oder Abmeldung durch, unter Verwendung der Konfigurationsdaten in der Hash-Liste <em>dyndns.txt</em> im privaten Ordner.<br/>Kann beim Server Start und Stop verwendet werden (siehe Kapitel 1).";
 pnet_doc_scripts_p11 = "Ermöglicht die aktuelle Anzahl an HTTP Verbindungen anzuzeigen. HTTP wird über TCP verwendet. Um HTTP Anfragen zu beschleunigen versuchen Browser die TCP Verbindungen wiederzuverwenden. Die tatsächliche HTTP Anfrage ist lediglich eine kurze Nachricht und eine Antwort. Danach schließt der Browser die TCP Verbindung nach einigen Sekunden. Daher kann es sein, dass Sie manche Nutzer nur eine kurze zeit sehen. Wenn die Authentifizierung erfolgreich war, wird der Benutzername zusammen mit der IP-Adresse ausgegeben.";
 pnet_doc_scripts_p12 = "Weil es immer eine Last für den Webmaster ist, Bilder auf die Größe anzupassen, welche auf der Webseite verwendet wird, haben wir ein kleines Script implementiert, welches das cFos PNet image object (GDI+) nutzt. Es verwendet den Dateinamen und die Parameter <b>w</b> (width = Breite) und <b>h</b> (height = Höhe) in der URL des Query String. Wenn Ihre Bilder von beliebigen Größen sind, sollten Sie lediglich einen der Parameter nutzen, damit das korrekte Seitenverhältnis des Bildes erhalten bleibt. <em>makedir2.jss</em> benutzt Links zu diesem Script um Thumbnails für die Bilder im aktuellen Ordner anzuzeigen.";
@@ -728,8 +768,10 @@ pnet_doc_misc_p4a = "Falls Sie Ihre Zertifikate ändern müssen, müssen die alt
 pnet_doc_misc_p5 = "Um ein existierendes SSL-Zertifikat zu nutzen, müssen sie sicherstellen, dass es ein Windows-kompatibles Format hat. Wenn Sie z.B. ein Zertifikat von einem Unix-System haben, könnte es eine .PEM-Datei sein. Laden Sie openssl herunter und benutzen Sie To das folgende Kommando, um es zu konvertieren:";
 pnet_doc_misc_p5a = "wobei <em>mycert.cer</em> Ihr Zertifikat ist und <em>ca1.cer</em> und <em>ca2.cer</em> (und <em>ca3.cer</em> usw.) für die Vertrauenskette erforderliche dazwischen liegende Zertifikate sind.";
 pnet_doc_misc_p6 = "<em>mycert.cer</em> muss das x.509-Format haben. Sie können openssl benutzen um es nach .x509 zu konvertieren, falls nötig. Das erzeugte <em>mycert.pfx</em> ist im pkcs#12-Format, welches Windows lesen kann.";
+
 /. Explanation of `snap-in`: http://en.wikipedia.org/wiki/Microsoft_Management_Console
 pnet_doc_misc_l1 = "Jetzt starten Sie MMC, Datei -> Snap-Ins hinzufügen bzw. entfernen -> Zertifikate -> Computerkonto -> Localen Computer, dann \"Eigene Zertifikate\" and Zertifikate ansehen. Rechtsklick -> Alle Aufgaben -> Importieren and importieren Sie <em>mycert.pfx</em>.";
+
 pnet_doc_misc_l1a = "Außerdem müssen Sie die Zertifikate in \"Zwischenzertifizierungsstellen -> Zertifikate\" importieren. Andernfalls wird vom Server keine Vertrauenskette übermittelt, siehe <a class=\"inline\" href=\"http://support.microsoft.com/kb/954755\">http://support.microsoft.com/kb/954755</a>";
 pnet_doc_misc_l2 = "Sehen Sie sich den Thumbprint Ihres importierten Zertifikates an und geben sie das folgende Kommando ein:<br/><br/>netsh http add sslcert ipport=0.0.0.0:443 certhash=<b>&lt;certhash&gt;</b> appid={a227f2f9-d103-4e0f-92a4-7086c8ab35ac}.<br/><br/>Als <b>&lt;certhash&gt;</b> müssen Sie den Thumbprint ohne Leerzeichen benutzen.";
 pnet_doc_misc_p7 = "Für IPv6 muss der Parameter <b>ipport</b> des Kommandos netsh lauten: <b>ipport=[::]:443</b>.";
@@ -792,9 +834,11 @@ cfout_p3d = "In unserem Forum finden Sie eine <a class=\"inline\" href=\"http://
 cfout_p3e = "<b class=\"green\">Aufgaben Synchronisation</b> mit dem Google Kalender: Der Google Kalender unterstützt kein CalDAV für Aufgaben und ausserdem haben Aufgaben (mit dem Google Calendar API) bei Google nur eine kleine Untermenge an Funktionen im Vergleich zu Outlook. Daher ist die Synchronisation von Outlook Aufgaben mit Google Aufgaben nicht zu empfehlen. Am nächsten kommen bei Google Termine. Daher speichert cFos Outlook DAV die Outlook Aufgaben als Termine, wenn sie mit einem Google Server synchronisiert werden. Das bedeutet, Sie müssen einen weiteren Google Kalender einrichten, der ausschliesslich für Outlook Aufgaben verwendet wird. Die Einrichtung ist dann die gleiche wie bei Terminen";
 cfout_p3f = "<b class=\"green\">Kontakt Synchronisation</b> mit Google: Für Google Kontakte ist die URL <b>https://www.googleapis.com/carddav/v1/principals/ihr_google_benutzername/lists/default/</b>.";
 cfout_p4_v2 = "Für einen <b class=\"green\">DAViCal Kalender</b> ist die URL http://<b>ihr_davical_server</b>/caldav.php/<b>ihr_davical_account</b>/calendar, für <b class=\"green\">DAViCal Kontakte</b><b>http://ihr_davical_server/caldav.php/ihr_davical_account/addresses</b>, wobei <b>ihr_davical_server</b> die Domain oder die IP-Addresse Ihres DAViCal Servers ist. <b>ihr_davical_account</b> ist der Benutzername für diesen DAViCal Server und als Passwort geben Sie das diesem Benutzernamen zugeordnete Passwort an.";
+
 /. Used as title
 /. Litrelly means "How cFos Outlook DAV works"
 cfout_h3 = "cFos Outlook DAV Funktionsweise";
+
 cfout_p5a_v2 = "Wenn Sie Outlook starten, versucht cFos Outlook DAV die Daten Ihrer Outlook Ordner mit dem CalDAV/CardDAV Server zu synchronisieren. Falls sich auf dem Server seit Ihrem letzten Log-in etwas geändert hat, wird dies in Ihren Outlook Ordnern nachgehalten.";
 cfout_p5b_v2 = "Daten, die auf dem Server hinzugefügt oder geändert wurden, werden in Ihren Outlook Ordnern hinzugefügt oder geändert. Daten, die auf dem Server gelöscht wurden, werden auch in Ihren lokalen Outlook Ordnern gelöscht. Diese Synchronisation wird alle <b>n</b> Minuten, so wie Sie es im Ordner Setup eingestellt haben, wiederholt.";
 cfout_p6_v3 = "Wenn Sie Daten in lokalen Ordnern hinzufügen, ändern oder löschen, können sie diese Änderungen mit Hilfe des Buttons \"Sync All\" im Menüband sofort auf dem Server aktualisieren. Das sollten Sie auch tun, bevor Sie Outlook beenden.";
@@ -808,8 +852,10 @@ cfout_conf_title = "Synchronisieren sie einen CalDAV Kalender oder ein CardDAV A
 cfout_goto_help = "Lesen Sie unsere <b>detaillierte illustrierte Anleitung</b>.";
 cfout_server = "CalDAV/CardDAV Servertyp auswählen";
 cfout_new_server = "Falls Sie cFos Outlook DAV erfolgreich mit einem Kalender- oder Address-Server genutzt haben, der <b>nicht in unserer Liste enthalten</b> ist, teilen Sie uns dies bitte über unser <a class=\"inline\" onclick=\"contact_preselect='outlook_dav'; cfos.show_contact_form(); return false;\" href=\"/en/index.htm\"><b>Kontaktformular</b></a> mit.";
+
 /. Means "show all server types"
 cfout_show_all = "Alle anzeigen";
+
 cfout_conf_step1 = "<b>1.</b> In der <b>Kalenderansicht</b> auf den Kalender rechtsklicken und \"<span class=\"green\">Enable CalDAV Sync</span>\" bzw. \"<span class=\"green\">Config CalDAV Sync</span>\" anklicken oder<br/>in der <b>Kontaktansicht</b> auf den Kontaktordner rechtsklicken und \"<span class=\"green\">Enable CardDAV Sync</span>\" bzw. \"<span class=\"green\">Config CardDAV Sync</span>\" anklicken";
 cfout_conf_step2 = "<b>2.</b> CalDAV URL, Benutzername und Passwort des Kalenderservers eintragen oder<br/>CardDAV URL, Benutzername und Passwort des Adressbuchservers eintragen";
 cfout_conf_step3 = "<b>3.</b> <span class=\"green\">Zeitintervall der Synchronisierung</span> wählen";
@@ -909,8 +955,10 @@ li_text_sessions = "Multi-Sessionfähig, ohne Kanalbeschränkung";
 
 / cFos
 cfos_html_h1 = "ISDN &amp; DSL-Einwahltreiber mit Traffic Shaping";
+
 /. Part of page's title (in name of the tab in web browser)
 cfos_professional_title = "cFos, Einwahl &amp; Beschleunigung f. DSL &amp; ISDN";
+
 link_text_budget = "Volumen &amp; Zeit-Zähler";
 link_text_cfos_features = "cFos Feature-Liste";
 link_text_cfos_priolist = "Mit cFos Programme priorisieren (» Programm-Liste)";
@@ -921,10 +969,12 @@ link_text_what_is_cfos = "Was ist cFos/Professional?";
 hrping_title = "<span class=\"product\">hrPing</span> - Hochpräzisions-Ping-Utility";
 hrping_p1 = "Mit hrPing können Sie mehr tun als mit Windows Ping";
 hrping_l1 = "Grafische Darstellung der Ping-Ergebnisse";
+
 /. `usec` stands for `microsecond`.
 /. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
 /. In other words, means accuracy of the measurement
 hrping_l2 = "Benutzt hochauflösenden Timer, Ping-Zeiten sind bis auf die usec genau";
+
 hrping_l3 = "Kann mit UDP Packets oder ICMP Timestamp Messages pingen";
 
 /. In other words means `Hrping measures requests time and handles ICMP error replies as well`
@@ -934,6 +984,7 @@ hrping_l5 = "Kann mehrere Pings \"unterwegs\" haben, vor dem nächsten Ping muss
 hrping_l6 = "Verbesserte Statistiken";
 hrping_l7 = "Size sweep: Senden mit wachsenden Paketgrößen";
 hrping_l8 = "Kann auch nur Zusammenfassung der Ergebnisse anzeigen";
+
 /. `Traceroute` and `Pathping` are names of utilities for networks diagnostic
 hrping_l9 = "Ist auch Traceroute und Pathping";
 
@@ -1076,6 +1127,7 @@ contact_form_p0 = "Kontaktieren Sie uns wegen <b>technischer Probleme</b>, Frage
 contact_form_p0_a1 = "<b>Geschwindigkeit zu niedrig?</b><br/>Vielleicht kann der <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed-Guide</a> weiterhelfen";
 contact_form_p0_a2 = "<b>Wo ist mein Lizenzschlüssel?</b><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Kontaktieren Sie uns, wenn Ihre Bestellung zu lange dauert</a>";
 contact_form_p0_a3 = "<b>Statusfenster ausschalten?</b><br/><a class=\"inline\" href=\"//en/cfosspeed/documentation/status.htm\">Automatisches Öffnen des Statusfensters abschalten</a>";
+
 /. Used in our contact form on website, as possible choices, like:
 /= Please, select:
 /= — ...
@@ -1097,6 +1149,7 @@ contact_form_o12 = "Bluescreen/BSOD mitteilen";
 contact_form_o13 = "ASUS (GameFirst &amp; Turbo LAN), Gigabyte, ASRock OEM Versionen";
 contact_form_o14 =  "Bestellung: Ich kann meinen Lizenzschlüssel nicht eingeben";
 contact_form_o15 = "Lizenzschlüssel verdienen";
+
 contact_form_h2 = "Schnelle Selbsthilfe";
 contact_form_p1 = "Erste Informationen erhalten Sie auf unserer Seite für <a class=\"inline\" href=\"//en/oem/oem.htm\">OEM-Partner</a>";
 contact_form_l1 = "Unsere Lizenzbedingungen erlauben das kostenlose Veröffentlichen unserer 30-Tage-Testversionen auf Heft-CDs/DVDs.";
@@ -1499,8 +1552,10 @@ no_ping_tplink = "<h4>TP-Link Router:</h4><p>TP-Link bietet eine neue Firmware a
 no_ping_tplink2 = "<p><b class=\"red\">Achtung</b>: Dies scheint nach Userberichten zumindest für die Modelle TL-R460, TL-R860 und TL-R402M nicht zuzutreffen.</p>";
 no_ping_pccillin = "<h4>PC cillin 2007:</h4><p>Um für PC Cillin 2007 den Windows tracert-Befehl, und damit Antworten aus dem Netz auf pings zu erlauben, sind folgende Schritte zu beachten:</p><ol><li>PC Cillin hauptkonsole öffnen->netzwerk- und firewall-kontrolle->personal firewall->einstellungen->account aussuchen und auf bearbeiten gehen->netzwerksteuerung->hinzufügen</li><li>Jetzt über <samp>hinzufügen</samp> 2 neue Protokolle hinzufügen. </li><li>für ausgehende Verbindungen:<br /><samp>(allgemein) bei verbindung ausgehend-zulassen<br />(protokoll) icmp<br />(port) alle ports<br />(ip-einstellungen) alle ip-einstellungen<br /></samp></li><li>Für eingehende den 3. Schritt wiederholen, aber statt <samp>ausgehend-zulassen</samp> natürlich eingehend-zulassen wählen.</li></ol>";
 no_ping_statistics = "Abrufen und Auswerten der cFosSpeed Ping-Statistik";
+
 /. Console's output shouldn't be translated
 no_ping_statistics_p1 = "<p>Geben Sie auf der cFosSpeed Konsole ein: &quot;spd pingstat&quot;.</p><p>Die Ausgabe sieht etwa so aus:</p><pre class=\"code\"><br />Ping statistics:<br /><br />Total ping requests      107,686<br />  done                   107,686     <b>(1)</b><br />  ...and only            107,686<br /><br />Total pings sent         106,949<br />  strong                 106,778<br />  ...and new             106,778     <b>(2)</b><br /><br />Total pongs              106,804<br />  found                  106,566<br />  ...and strong          106,519<br />  ...and strong reply    106,519     <b>(3)</b><br />  ...and used            106,519     <b>(4)</b><br /><br />Ping outage statistics:<br />  1 ping in a row 33 times<br />  5 pings in a row 1 time<br /><br />Ping src/dst: 192.168.0.100 to 194.95.249.23, ttl 3<br />Ethernet src/dst: 00:0e:a6:57:9b:0b to 00:11:95:78:27:a4<br /></pre>";
+
 no_ping_statistics_p2 = "<p>Die drei Zahlen unter &quot;Total ping requests&quot; sollten gleich sein. Wenn sie große Unterschiede zeigen, melden Sie sich bitte bei uns.</p><p>Die Zahl bei <b>(1)</b> sollte gleich der Zahl bei <b>(2)</b> sein. Wenn nicht, ist das ein starkes Indiz dafür, dass eine Firewall das Senden von Daten verhindert. Auch hier ist eine Abweichung um ein paar Prozent nicht schlimm.</p><p>Die Zahlen <b>(3)</b> und <b>(4)</b> sollten wieder etwa gleich groß sein. Wenn nicht -> Mail an uns.</p>";
 no_ping_statistics_p3 = "<p>Die Zahl <b>(2)</b> sollte etwa gleich der Zahl bei <b>(3)</b> sein. Wenn nicht, spricht das sehr dafür, dass &quot;das Netz&quot; Pings oder deren Antworten verliert (was leider teilweise stark passiert!) Dann können wir leider nichts daran machen.</p><p>Wenn Sie eine Mail an uns schreiben, schauen Sie bitte unter <a href=\"#p4\">Punkt 3</a>, welche Dateien Sie anhängen sollten.</p>";
 no_ping_update = "Installieren Sie zunächst die aktuellste cFosSpeed-Version";
@@ -1575,33 +1630,42 @@ sp_doc_games_p1 = "Traffic Shaping erlaubt gute Ping-Zeiten und gleichzeitig hoh
 sp_doc_games_p2 = "Für optimalen Ping bei Online-Games müssen Sie Ihr Spiel hoch priorisieren. Unter Einstellungen, Programme, haben wir einige der bekanntesten Spiele bereits eingetragen. Falls Ihr Spiel nicht dabei ist, können Sie es hier hinzufügen.";
 sp_doc_games_p3 = "Sie können uns <a href=\"/en/contact/priopost.htm\">hier</a> auch über Online-Spiele, die sich noch nicht in der Liste befinden, informieren.";
 sp_doc_games_p4 = "Achten Sie darauf, dass möglichst wenig Daten hoch priorisiert sind. Denn wenn Sie alles hoch priorisieren, kommt es aufs gleiche heraus, als wenn gar nichts priorisiert ist.";
-// `[filter]` and name of file shouldn't be translated
+
+/. `[filter]` and name of file shouldn't be translated
 sp_doc_games_p5 = "Falls der Programm-Name nicht klar festzulegen ist, können Sie auch die Ports, die Ihr Online-Game benutzt, priorisieren. Wenn die TCP/UDP Ziel-Ports einer Anwendung bekannt ist, können Sie deren Datentransfer folgendermaßen bevorzugen (bearbeiten Sie dazu die Sektion [filter] in der Datei settings.ini):";
 sp_doc_games_p6 = "Für TCP-Ports:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high";
 sp_doc_games_p7 = "Für UDP-Ports:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high";
+
 sp_doc_games_p8 = "Nach dem Ändern und Speichern müssen Sie die neuen Einstellungen einlesen, indem Sie auf Start, Programme, cFosSpeed, Konsole öffnen klicken und eingeben \"spd reload\". Danach und nach allen weiteren Neustarts sind die Änderungen aktiv.";
 sp_doc_games_a1 = "Handbuch für cFosSpeed-Filter. (englisch)";
 sp_doc_games_a2 = "DSL Anschlusseinstellungen";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/games.htm
 /. Used as alternate text for image
 sp_doc_games_a3 = "Anzeige Ping-Zeit bevorzugen";
+
 sp_doc_games_a4 = "Einstellungen Programm-Priorisierung";
 sp_doc_games_t1 = "Anschluss-Einstellung optimieren:";
+
 /. Connections types untranslatable in our software, so they shouldn't be translated here either (`Adaptive`)
 sp_doc_games_p9 = "Unter Einstellungen, Verbindungen können Sie für Ihre Verbindung das genaue Übertragungsmedium einstellen. Je mehr cFos bzw. cFosSpeed über den Anschluss weiß, desto besser die Ping-Zeiten. Standard ist \"Adaptiv\". Wenn Sie aber z.B. einen DSL-Anschluss haben, sollten Sie als Medium die für Ihren Anschluss zutreffende DSL-Variante wählen.";
-sp_doc_games_t2 = "Ping-Zeit bevorzugen:";
+
 /. `Favor Ping` is translatable in our software, so it should be translated here too.
 /. Ensure in consistent translation across website and software, by checking
 /. translation of cFosSpeed's into your language.
 /. Look here for your locale https://github.com/cFos/l10n/blob/master/locales.software/
 /. and then search for key `favor_ping`
+sp_doc_games_t2 = "Ping-Zeit bevorzugen:";
 sp_doc_games_p10 = "Zusätzlich können Sie in den Einstellungen, im Kontext-Menu und im Status-Fenster auch noch \"Ping-Zeit bevorzugen\" aktivieren. Im Status-Fenster erscheint dann ein grüner Pfeil. Mit dieser Einstellung bevorzugt cFos bzw. cFosSpeed die Ping-Zeit so stark, dass sogar kleinere Einbrüche in der Transferrate in Kauf genommen werden.";
+
 sp_doc_games_t3 = "Spielen und gleichzeitiges Downloaden:";
 sp_doc_games_p11 = "Wenn Sie - ohne Traffic Shaping - ein Spiel im Netz spielen und gleichzeitig einen Upload oder Download laufen haben, werden Ihre Ping-Zeiten zum Gameserver schlechter. Je weniger Traffic auf der Leitung, desto besser der Ping. Bei Tauschbörsen und anderen Programmen, die viele Daten versenden, steigt die Ping-Zeit extrem an (lag). Dadurch werden Ihre (Re)aktionen im Spiel wesentlich langsamer.";
 sp_doc_games_p12 = "Mit Traffic Shaping entschärft sich dieses Problem. Traffic Shaping erlaubt, während des Spielens noch Tauschbörsen und Downloads zu betreiben. Dies kann allerdings die Ping-Zeit minimal erhöhen. Hier empfehlen wir, \"Ping-Zeit bevorzugen\" zu aktivieren. Tauschbörsen sind standardmäßig sehr niedrig priorisiert. Das bedeutet aber nicht, dass sie künstlich ausgebremst werden, sondern nur, dass deren Daten in dem Falle verzögert werden, wenn wichtigere Daten (z.B. Game Traffic) vorliegen. Dieses Prioritätsschema macht es überhaupt erst möglich, der Tauschbörse maximale Transfer zu erlauben und den Anschluss gleichzeitig noch für andere Anwendungen zu nutzen.";
+
 /: http://www.cfos.de/en/cfosspeed/documentation/index.htm
 /. Used as  section title
 sp_doc_index = "Programmbehandlung";
+
 sp_doc_installation = "Installation / Registrierung";
 sp_doc_install_title = "Installation / Registrierung / Deinstallation";
 sp_doc_install_h1 = "Installation";
@@ -1634,9 +1698,11 @@ sp_doc_led_p1 = "cFosSpeed kann die Num Lock und Scroll Lock LEDs nutzen, um Inf
 sp_doc_led_dd1 = "gut = aus, mittel = langsam blinken, schlecht = schnell blinken<br/>warnt Sie, wenn der Ping zu hoch wird";
 sp_doc_led_dd2 = "schnell blinken wenn neue Pakete gezählt werden<br/>informiert Sie über sämtlichen Traffic vom/zum Internet";
 sp_doc_led_dd3 = "schnell blinken, wenn ein Paket priorisiert wird<br/>eine der Möglichkeiten die Wirkung des Traffic Shapings anzuzeigen";
+
 /: http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm
 /. `total_rx_speed` and `total_tx_speed` shouldn't be translated, since those are actual values names
 sp_doc_led_dd4 = "maximum aus total_rx_speed und total_tx_speed, 0-32%: aus, 33-65%: langsam blinken, 66-98% schnell blinken, 98-100: an<br/>informiert Sie, wenn Sie oder ein anderer User / eine andere Applikation (zu) viel Bandbreite nutzen";
+
 sp_doc_led_dd5 = "schnell blinken wenn sich die Summe aus TCP und UDP Verbindungen ändert<br/>Sie bleiben über jede neue Verbindung ins Netz informiert";
 sp_doc_led_dd6 = "0-15ms: aus, 16-127ms: langsam blinken, 128-511ms: schnell blinken, 512 or mehr: an<br/>informiert Sie, wenn die Leitungsqualität (z.b. bei Mobilfunk-Verbindungen) hohen Ping verursacht";
 sp_doc_led_p2 = "Sie können diese Werte mit Num Lock oder Scroll Lock darstellen.";
@@ -1650,11 +1716,15 @@ sp_doc_logi_h1 = "Logitech-Skins auf YouTube";
 sp_doc_logi_h2 = "Logitech Tastatur-Erkennung";
 sp_doc_logi_p3 = "Sowohl cfosspeed.exe als auch die Logitech Gaming Software starten mit dem Windows Autostart. Falls cfosspeed.exe vor der Logitech Gaming Software startet, wird die Tastatur möglicherweise nicht erkannt. In diesem Fall können Sie entweder die Suchfunktion im cFosSpeed Menü für Logitech nutzen oder in <em>c:\\ProgramData\\cFos\\cfosspeed\\global.ini</em>, section [All] die Zeile <b>startup_delay=x</b> einfügen, wobei x die Anzahl Sekunden ist, die cFosSpeed warten soll bevor das Status Fenster gestartet wird.";
 sp_doc_p2p_t1 = "Traffic Shaping für Tauschbörsen (P2P)";
+
 /. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p1 = "Dank cFosSpeed Traffic Shaping können Sie mit eMule, Kazaa, BitTorrent, etc. die gesamte Upstream-Bandbreite voll ausnutzen und anderen Filenetz-Teilnehmern zur Verfügung stellen, ohne Ihre anderen Internet-Anwendungen in Mitleidenschaft zu ziehen.";
+
 sp_doc_p2p_t2 = "Die Probleme mit Tauschbörsen-Programmen";
+
 /. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p2 = "Nutzer von Tauschbörsen, wie eMule, Kazaa, BitTorrent haben typischerweise Dauer-Auslastung des Upstream-Kanals. Dadurch ist der Anschluss besonders anfällig für hohe Ping-Zeiten. Dies hat nicht nur zur Folge, dass die Kommunikation der Tauschbörsen-Software langsam läuft (Source-Anfragen dauern dann 1-2 Sekunden, statt nur wenige Millisekunden), sondern das Internet wird bei allen anderen Anwendungen ebenfalls ausgebremst. Download-Raten brechen unter Umständen ein, weil die TCP ACKs nicht mehr rechtzeitig verschickt werden können. Der Browser wirkt beim Surfen träge.";
+
 sp_doc_p2p_p3 = "Als Ausweg bieten die Tauschbörsen-Programme an, die Upload-Rate künstlich zu beschränken.";
 sp_doc_p2p_p4 = "Wenn Sie allerdings zusätzlich zum Upload des Tauschbörsen-Programms noch einen Mail-Upload durchführen, konkurrieren beide um die Upstream-Bandbreite. Es ist dann dem Zufall überlassen, wer wieviel Bandbreite erhält. Dies kann im Extremfall zum Abbruch von TCP Verbindungen führen (TCP connection starving).";
 sp_doc_p2p_t3 = "Die Lösung: Traffic Shaping";
@@ -1662,31 +1732,40 @@ sp_doc_p2p_p5 = "Das in cFos bzw. cFosSpeed eingebaute Prioritätsschema sortier
 sp_doc_p2p_p6 = "Wenn Sie z.B. auf Ihrem PC im Hintergrund eine Tauschbörse betreiben und im Netz surfen, wird nur für den kurzen Moment des Seitenaufbaus der P2P-Traffic minimal gesenkt. Schicken Sie eine längere Mail, kann der P2P-Upload für die Dauer der Mail-Übertragung sinken. Sobald die Mail versendet ist, geht es mit voller Speed weiter. Die Alternative wäre, entweder \"ewig\" auf den Mailtransfer zu warten oder die Tauschbörse künstlich zu limitieren. Dies kostet aber auch dann Bandbreite, wenn keine andere Anwendung den Anschluss nutzt.";
 sp_doc_p2p_p7 = "cFosSpeed ist also so auf den Einsatz mit Tauschbörsen-Software (P2P) optimiert, dass man ein solches Tauschbörsen-Programm im Hintergrund laufen lassen kann und normalerweise von dessen Internet-Aktivität nichts bemerkt.";
 sp_doc_p2p_p8 = "Daher schlagen wir vor, Kazaa etc. auf unbeschränkten Upload einzustellen und die Speed-Sense Option zu deaktivieren, da cFosSpeed den Internet-Traffic ohnehin optimiert.";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/p2p.htm
 /. it's referring to system tray icon and special skin for it.
 /. Note that particularly that string refers not to actual skin, but just used as title, to highlight that "there is icon skin for cFosSpeed"
 sp_doc_p2p_t4 = "Icon-Skin";
 sp_doc_p2p_p9 = "Da Nutzer ihre Tauschbörsen normalerweise 24 Stunden durchlaufen lassen, enthält cFosSpeed hierfür ein eigenes (Icon-)Skin für den Windows-Systray. So hat man die Verbindung im Überblick, ohne dass ein eigenes Status Fenster geöffnet sein muss.";
+
 sp_doc_p2p_t5 = "Priorisierung:";
+
 /. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p10 = "Viele haben einen eigenen PC für die Tauschbörse. Sie routen dann (z.B. mit der Internet Verbindungsfreigabe) den P2P-Traffic durch ihren Hauptrechner, der direkt mit dem Internet verbunden ist. Die in cFos bzw. cFosSpeed eingebaute Layer-7 Protokoll-Erkennung erlaubt in diesem Fall die Priorisierung der wichtigsten P2P-Netze: BitTorrent, eDonkey 2000 (eMule, etc.), Kazaa, Gnutella(2), Kademlia und Direct Connect.";
+
 sp_doc_p2p_t6 = "Programm-Priorisierung:";
 sp_doc_p2p_p11 = "Zusätzlich bietet cFos bzw. cFosSpeed an, Traffic nach Programm-Namen zu priorisieren. Hier haben wir die wichtigsten bereits eingetragen. Diese Priorisierung greift, wenn die Layer-7 Erkennung die Daten nicht zuordnen kann, z.B. bei verschlüsseltem P2P Verkehr.";
 sp_doc_performance = "Performance";
 sp_doc_phone_skins_title = "cFosSpeed Skins auf Telefon oder Tablet";
 sp_doc_phone_skins_h1 = "Traffic Shaping Statistik auf dem Telefon anzeigen";
 sp_doc_phone_skins_p1 = "Ab Version v9.05 build 2090 hat cFosSpeed einen eingebauten Webserver, so dass Sie das Status Fenster auf Ihrem Telefon oder Tablet anzeigen lassen können, anstatt auf dem Desktop. Dies ist besonders hilfreich für Vollbild-Anwendungen, wie Spiele oder Videos. So konfigurieren Sie es:";
+
 /. While translating `\"Options/Settings\"` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_doc_phone_skins_l1 = "Starten Sie \"Einstellungen/Einstellungen\" vom cFosSpeed Kontext-Menu und stellen Sie unter \"Einstellungen/Phone Skins aktivieren\" ein Server-Passwort ein. Der Webserver braucht Authentisierung, wenn Sie von einem anderen Gerät als dem lokalen PC zugreifen.";
+
 sp_doc_phone_skins_l2 = "Öffnen Sie das Kontext-Menu und selektieren die erste Option (<b>cFosSpeed vX.XX...</b>), um Ihre lokalen <b>IP Adressen</b> anzuzeigen.";
 sp_doc_phone_skins_l3 = "Öffnen Sie den Browser Ihres Telefons oder Tablets und geben sie die fogende Adresse ein: <b>http//[Ihre IP Adresse]:1487/cfosspeed/skin.htm</b>. <b>[Ihre IP Adresse]</b> ist normalerweise die erste in der Liste aus Schritt 2, aber Sie können alle probieren, falls diese nicht funktioniert.";
 sp_doc_phone_skins_l4 = "Nun geben Sie im Anmeldedialog als Benutzernahme \"<b>cfosspeed</b>\" und als Passwort das unter \"Einstellungen/Phone Skins aktivieren\" eingestellte ein.";
 sp_doc_phone_skins_a1 = "Ihre IP Adresse im cFosSpeed Kontext-Menü";
+
 /: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
 /. Title of one of pictures
 sp_doc_phone_skins_a2 = "Passwort für Phone Skins festlegen";
+
 /.  Title of picture with demo of cFosSpeed Phone Skin
 sp_doc_phone_skins_a3 = "cFosSpeed Phone Skins in Aktion";
+
 sp_doc_phone_skins_a4 = "cFosSpeed Phone Skins auf dem <a class=\"inline\" href=\"http://www.fairphone.com\">Fairphone</a>";
 sp_doc_phone_skins_p2 = "<b>Hinweis</b>: Sie benötigen Windows 7 oder höher, um den eingebauten Webserver nutzen zu können.";
 sp_doc_phone_skins_p3 = "<b>Hinweis</b>: Sie können auch Ihre aktuellen Verbindungen von Ihrem Telefon oder Tablet aus ansehen und priorisieren. Einfach dazu http://<b>[Ihre IP Adresse]</b>:1487/cfosspeed/console.htm in Ihrem Browser öffnen. Dieser Dialog läuft genauso, als wäre er vom cFosSpeed Status Fenster oder Kontext Menu aus gestartet worden.";
@@ -1694,8 +1773,10 @@ sp_doc_prioliste = "Prioritätsliste: ";
 sp_doc_priorliste_content = "Liste von prioritisierten Anwendungen";
 sp_doc_prio_title = "Programmen Prioritäten zuweisen";
 sp_doc_prio_p1 = "<b>Hinweis</b>:<br />Die Prioritisierung funktioniert nur dann wenn so wenig Daten wie möglich die höchste Priorität zugewiesen wird. Programmen die große Mengen an Daten verschicken sollten Sie eine geringere Priorität zuweisen.";
+
 /. `UNKNOWN` shouldn't be translated, since it's not translatable protocol name, used in our software
 sp_doc_prio_p2 = "Zuerst versucht cFosSpeed das Layer 7 Protokoll für jede Verbindung zu ermitteln. Wenn es nicht ermittelt wird (d.h. das Protokoll ist unbekannt) oder die Priorität des ermittelten Protokolls \"normal\", ist, dann wird diese Programermittlung benutzt um die Priorität zu bestimmen";
+
 sp_doc_prio_p3 = "Ein Sonderfall ist die HTTP-stream-Erkennung. Wenn das erkannte Protokoll HTTP ist versucht cFosSpeed festzustellen ob es sich um einen Video- oder Audiostream handelt. Dies funktioniert folgendermaßen:";
 sp_doc_prio_p4 = "Wenn der user agent einer der well-known players ist oder den substring \"player\" in sich trägt, kategorisiert cFosSpeed die Verbindung als HTTP_STREAM_C oder HTTP_STREAM_S. Ansonsten, wenn der Inhalt Audio oder Video ist, wird er als BSTREAM_C oder BSTREAM_S kategorisiert. Dort werden BSTREAM_C/S Verbindungen als \"normal\" prioritisiert so dass die tatsächliche Prioritisierung von der Programmpriorisierung abhängt.<br /> Das erlaubt es Ihnen in zum Beispiel ungewissen Fällen das Programm nach ihrem persönlichen Gebrauch zu priorisieren.";
 sp_doc_prio_a1 = "Programme die bereits priorisiert sind";
@@ -1791,20 +1872,24 @@ sp_doc_status_slot = "Die Slot-Graphen zeigen die aktuelle Übertragungsrate in 
 sp_doc_status_slots = "Die Slots";
 sp_doc_status_standard = "Das Standard-Skin ist darauf ausgelegt, den Datenfluss graphisch darzustellen.";
 sp_doc_status_states = "Durch Umschalten kann man zwischen den 3 Zuständen des Icon Skins weiterschalten und verschiedene Einträge hervorheben. Der Umschalter liegt genau in der Mitte des Icon Skins (siehe Abbildung).";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis.htm
 /: http://www.cfos.de/en/cfosspeed/documentation/status.htm
 /. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_switch = "Umschalten zwischen normaler und großer Skin-Version";
 sp_doc_status_switch2 = "Umschalten: Großes Skin > Normales Skin > Icon-Skin";
 sp_doc_status_switching = "Zwischen der graphischen und numerischen Anzeige des Standard-Skins umschalten:";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
 /. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_systray = "Traffic Analysis Icon Skin im Windows Systray";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
 /. Used as alternative text for clickable icon-buttons in sidebar at mentioned above and on similar pages
 /. You won't see it, since it displayed only if browser can't download images
 sp_doc_status_thumb_down = "Daumen runter";
 sp_doc_status_thumb_up = "Daumen hoch";
+
 sp_doc_status_times = "Ping Zeiten werden in der grafischen Skinanzeige in Wellenform dargestellt. Es können grüne, gelbe und rote Wellen erscheinen. Die absoluten Pingzeiten hängen wesentlich von der Anzahl der Up-/Downloads ab. Steigt diese Anzahl, verlängern sich die Zeiten.";
 sp_doc_status_toggle = "Durch klicken der entsprechenden Schaltflächen schaltet man zwischen grafischer und numerischer Skinanzeige um.";
 sp_doc_status_total = "Verlauf der Download-Übertragungsrate (total) in %";
@@ -1821,20 +1906,24 @@ sp_doc_status_utr = "Upload-Übertragungsrate in %";
 sp_doc_status_variance = "Varianz der Ping-Zeit";
 sp_doc_status_vertical = "Die von rechts nach links durchlaufenden vertikalen Balken für Up- und Download zeigen die aktuelle Übertragungsrate in Prozent von dem Übertragungsraten-Maximum an, das seit der letzen Kalibrierung erreicht worden ist. Die totalen und lokalen Werte beziehen sich auf den Betrieb im Multi-User-Modus. Lokal bezeichnet die Übertragungsraten auf dem aktuellen Rechner, total die Gesamtübertragungsraten im lokalen Netzwerk. ";
 sp_doc_status_wave = "Pingzeitenanzeige durch Wellen";
+
 /: http://www.cfos.de/en/cfosspeed/documentation/status-aquarium.htm
 /. Usead as starting word for explaining labels of cFosSpeed skins elements
 /= Switch: Transfer rate in %
 /= Switch: Number of TCP/UDP connections
 sp_doc_status_word = "Umschalten";
+
 sp_doc_surf_p1 = "Die in cFos und cFosSpeed eingebaute HTTP-Erkennung sorgt für einen beschleunigten Seitenaufbau, besonders während gleichzeitiger Uploads. Auf <a href=\"/en/traffic-shaping/traffic-shaping.htm\">http://www.cfos.de/en/traffic-shaping/traffic-shaping.htm</a> sehen Sie hier einen Vergleich der Ladezeiten von www.greenpeace.org und www.amazon.com. Die Beschleunigung wird umso stärker, je mehr Einzelelemente auf der jeweiligen Webseite nachgeladen werden.";
 sp_doc_surf_p2 = "Wenn sie (ohne lange Downloads) auf vielen Seiten surfen, können Sie in den Einstellungen, im Kontext-Menu und im Status-Fenster zusätzlich \"Ping-Zeit bevorzugen\" aktivieren.  Im Status-Fenster erscheint dann ein grüner Pfeil. Mit dieser Einstellung bevorzugt cFos bzw. cFosSpeed die Ping-Zeit so stark, dass sogar kleinere Einbrüche in der Transferrate in Kauf genommen werden. Dies führt je nach Anwendung zu einem flüssigeren Seitenaufbau.";
 sp_doc_surf_t1 = "Andere Interaktive Anwendungen:";
 sp_doc_surf_p3 = "cFos und cFosSpeed haben eine eingebaute Erkennung für viele interaktive Anwendungen, wie SSL, SSH, Telnet, IRC, etc. Hier profitieren Sie von kurzen Antwortzeiten, auch während langer Uploads und Downloads.";
 sp_doc_surf_p4 = "Reicht das Prioritätsschema unter Einstellungen, Protokolle, nicht aus, können Sie Ihre Anwendung entweder unter \"Programme\" nach Namen priorisieren oder den Port fest in die Filterregeln eintragen. Dies bietet sich besonders für Server-Betrieb an.";
 sp_doc_surf_p5 = "Bei bekannten Ports können Sie deren Datentransfer folgendermaßen bevorzugen (bearbeiten Sie dazu die Sektion [filter] in der Datei settings.ini):";
+
 /. Part after colon shouldn't be translated, since it's code from configuration file
 sp_doc_surf_p6 = "Für TCP-Ports:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high<br />; source port=5678<br />filter=-tcp-sport 5678 -c high";
 sp_doc_surf_p7 = "<br />Für UDP-Ports:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high<br />; source port=5678<br />filter=-udp-sport 5678 -c high";
+
 sp_doc_surf_t2 = "Surfen und Tauschbörsen (P2P):";
 sp_doc_surf_p8 = "Tauschbörsen sind standardmäßig sehr niedrig priorisiert. Das bedeutet aber nicht, dass sie künstlich ausgebremst werden, sondern nur falls andere wichtige Daten vorliegen. Andernfalls laufen die Tauschbörsen mit voller Speed. Dieses Prioritätsschema macht es überhaupt erst möglich, der Tauschbörse maximale Transferraten zu erlauben und den Anschluss gleichzeitig noch für andere Anwendungen, z.B. zum Surfen, zu nutzen.";
 sp_doc_voip_p1 = "Für gute Sprachqualität bei Voice-over-IP ist minimale Ping-Zeit wichtigste Voraussetzung.";
@@ -1846,9 +1935,11 @@ sp_doc_voip_p5 = "VoIP-Verbindungen erleiden normalerweise Aussetzer bei gleichz
 sp_doc_voip_t2 = "Skype:";
 sp_doc_voip_p6 = "Skype nutzt ein proprietäres verschlüsseltes Protokoll, das von einer Layer-7-Analyse nicht ohne großen Aufwand erkannt werden kann. Damit Skype trotzdem priorisiert wird, haben wir es in die Liste der zu priorisierenden Programme eingetragen.";
 sp_doc_voip_t3 = "VoIP Priorisierung am Router:";
+
 /. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 /. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
 sp_doc_voip_p7 = "Manche Router (z.B. die Fritz!Box) bieten am Gerät Telefonanschlüsse, deren Daten dann als Voice-over-IP direkt (an cFos bzw. cFosSpeed vorbei) ins Internet gehen. Ab dem Moment, wo ein VoIP-Gespräch zustande kommt, begrenzen die Router die Bandbreite drastisch, um Aussetzer zu vermeiden. Aus Sicht von cFos bzw. cFosSpeed hat der Anschluss dann starke Geschwindigkeitsschwankungen, die das Traffic Shaping negativ beeinflussen können. Wir empfehlen in diesem Falle VoIP-Telefonate vom PC auszuführen, so dass die Daten von cFos bzw. cFosSpeed erkannt und priorisiert werden können. Wenn Sie trotzdem über den Router telefonieren wollen, dann schalten Sie cFosSpeed bitte unter Einstellungen, Verbindungen und Klick auf das Werkzeug in den Modus \"variabel, kooperativ\".";
+
 sp_doc_voip_t4 = "VoIP Software im Einsatz mit cFosSpeed";
 sp_doc_voip_t5 = "Messungen mit IxChariot";
 sp_doc_voip_p8 = "Wir haben cFosSpeed Traffic Shaping mit IxChariot (einer Netzwerk Performance Mess-Software von Ixia) getestet, um zu messen, wie sehr sich cFosSpeed Traffic Shaping lohnt. Dazu haben wir die VoIP-Parameter mittels IxChariot gemessen und währenddessen mehrere Uploads gemacht.";
@@ -1863,7 +1954,7 @@ sp_doc_whatsnew_word = "Änderungen";
 sp_doc_whatsnew = "Überblick über neue Features, Verbesserungen, Änderungen und Bugfixes";
 sp_doc_wlan_title = "WLAN Access Point";
 sp_doc_wlan_p1 = "Nutzen Sie <a class=\"inline\" href=\"/en/traffic-shaping/traffic-shaping.htm\">cFos Traffic Shaping</a> mit Smartphones, Tablets und anderen mobilen Geräten.";
-sp_doc_wlan_p1_nolink = "Nutzen Sie cFos Traffic Shaping mit Smartphones, Tablets und anderen mobilen Geräten.";
+sp_doc_wlan_p1_nolink = "Nutzen Sie cFos Traffic Shaping mit Smartphones, Tablets und anderen mobilen Geräten."; // same as above, but without included link
 sp_doc_wlan_p2 = "Windows 7, 8 und 8.1 erlauben die Nutzung des WLAN adapters als ad hoc WLAN access point. So können sich andere Geräte mit Ihrem PC verbinden (statt direkt mit dem WLAN Router) und daher vom Traffic Shaping von cFosSpeed.";
 sp_doc_wlan_p3 = "cFosSpeed hat nun eine Kontext-Menü-Option zum einfachen Starten und Konfigurieren (und Stoppen) des WLAN Access Points.";
 sp_doc_wlan_a1 = "Konfiguration des cFosSpeed WLAN Access Points";
@@ -1877,16 +1968,20 @@ sp_doc_wlan_h2 = "WLAN Access Point manuell einrichten (ab Windows 7)";
 sp_doc_wlan_p7 = "Command Shell als Administrator öffnen:";
 sp_doc_wlan_p8 = "In den Netzwerkverbindungen sollte jetzt der \"Microsoft Virtual WiFi Miniport Adapter\" auftauchen.";
 sp_doc_wlan_p9 = "netsh wlan set hostednetwork ssid=\"cFos Wi-Fi\" key=\"<span class=\"red\">ihr_passwort</span>\" keyUsage=persistent";
+
 /. "Check with" meaning "Use the following action to check the result"
 sp_doc_wlan_p10 = "Kontrolle mit:";
+
 sp_doc_wlan_p11 = "\"Microsoft Virtual WiFi Miniport Adapter\" starten.";
 sp_doc_wlan_p12 = "In den Netzwerkverbindungen sollte das rote Kreuz am \"Microsoft Virtual WiFi Miniport Adapter\" verschwunden sein.";
 sp_doc_wlan_p13 = "In den Netzwerkverbindungen auf die aktive Internetverbindung rechtsklicken und aus dem Menü \"Eingenschaften\" wählen. Auf den Reiter \"Freigabe\" klicken und einen Haken setzten bei \"Anderen Benutzer im Netzwerk gestatten, diese Verbindung des Computers als Internetverbindung zu verwenden\".";
 sp_doc_wlan_p14 = "Unter Heimnetzverbindung die Drahtlosnetzwerkverbindung auswählen, bei der in den Netzwerkverbindungen \"Microsoft Virtual WiFi Miniport Adapter\" angezeigt wird.";
 sp_doc_wlan_p15 = "Auf \"OK\" klicken.";
-/. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_news_t = "Letzte Neuigkeiten rund um cFosSpeed";
+
+/. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_news_p1 = "cFosSpeed überprüft alle 2 Tage ob es Neuigkeiten rund um das Programm gibt. Sind Neuigkeiten verfügbar, wird das Mail-Symbol im Statusfenster aktiviert, das durch Anklicken auf diese Seite weiterleitet. Dieses Feature ist standarmäßig eingeschaltet. Falls Sie nicht an Programm-Neugkeiten interessiert sind, können Sie dies unter \"Optionen\" abstellen.";
+
 sp_news_p2 = "Wir werden pro Jahr nur einige wenige Meldungen veröffentlichen.";
 sp_news_h0 = "cFosSpeed Neuigkeiten";
 sp_news_h1 = "cFosSpeed<br/>News-Richtlinien";
@@ -2042,9 +2137,11 @@ six_doc_134 = "Möglicherweise ist ein Neustart erforderlich, damit die Änderun
 six_doc_135 = "NAT46 mapping:";
 six_doc_136 = "NAT46 Mapping erlaubt es alte IPv4 Anwendungen mit IPv6 zu verwenden oder IPv4 Server von IPv6 aus erreichabr zu machen. cfos6link kann nun traffic von auf IPv4 beschränkten Anwendungen auf IPv6 mappen. Hierzu weist cFos IPv6 link temporäre IPv4 Adressen zu, die dann netzseitig in IPv6-Adressen gemapped werden. Sie können das IPv4-Adressen-Kontingent spezifizieren, indem Sie nat46_addr=x und nat46_subnet_mask=m in der [param] section von cfos6link.ini setzen. Wenn eine IPv4-Anwendung einen Namen über DNS anfordert (das heißt einen A record) ändert cfos6link die Anfrage in eine AAAA-record-Anfrage. Nachdem es die entsprechende IPv6-Adresse erhält, legt es eine temporäre IPv4 Adresse für diese IPv6 an und sendet diese an die IPv4-Anwendung zurück. Wann immer die IPv4-Anwendung diese temporäre Adresse nutzt, wird diese auf die IPv6-Adresse abgebildet und für das IPv6-Ziel verwendet. Sie können zum Beispiel den folgenden pool von IPv4-Adressen für das NAT46 mapping auswählen:";
 six_doc_138 = "Für eingehende Verbindungen können sie zusätzlich ein port mapping angeben, indem Sie die section [nat46_ports] in der cfos6link.ini mit Werten wie diesen bestücken:";
+
 /. That string means that user have to place program's name instead of `some program` like `5000=skype`
 /. `some_program` part may be translated
 /: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
+
 six_doc_140 = "Dann wird der eingehende IPv6-traffic auf IPv4 abgebildet wann immer der Zielport einem der abgebildeten Ports entspricht.";
 six_doc_141 = "Darüberhinaus können Sie statische IPv4 &lt;-&gt; IPv6 Mappings für Anwendungen, die fest eingestellte IPv4-Adressen verwenden, nutzen. Diese Mappings können sie festlegen, indem sie die section [nat46_static] mit Werten der Form ipv4_x=ipv6_y, z.B. 192.168.2.1=2001:DB8::1, füllen";
 
@@ -2083,20 +2180,26 @@ oem_t3 = "Maximale Bandbreite bei minimalem Ping durch Traffic Shaping";
 oem_l4 = "NDIS Treiber für Windows 7, Windows Vista, XP und 2000, x86 und x64";
 oem_l5 = "Traffic Shaping für alle gängigen Breitband- und Schmalband-Internetzugänge";
 oem_l6 = "Traffic Shaping mit Router und/oder DSL/Kable-Modems";
+
 /. Means "customizable status window with skins"
 /. or "brandable status window skin"
 oem_l7 = "Konfigurierbares Status Fenster mit Skins";
+
 oem_l8 = "Traffic Limits, Speed Limits";
 oem_t4 = "Einwahltreiber für ISDN und DSL, inkl. Traffic Shaping";
 oem_l9 = "COM Port Treiber für Windows 7, Vista, XP, 2000, x86 und x64, sowie für ältere Systeme, wie Windows 9x, ME";
 oem_l10 = "ISDN mit CAPI 2.0 (CAPI2032.DLL oder Kernel Mode CAPI)";
+
 /. Channel bundling allows to use 2 ISDN channels as one for better bandwidth
 oem_l11 = "Kanalbündelung";
+
 oem_l12 = "On-the-Fly PPPoE Erkennung, ohne Netzwerktreiber-Installation";
 oem_l13 = "Für Window Vista, XP und 2000, x86 und x64, ältere Systeme auf Anfrage";
 oem_l14 = "Leicht in bestehende Installer integrierbar";
+
 /. fees = licensing costs
 oem_t5 = "Lizenzgebühren und Bedingungen";
+
 oem_l15 = "Preise richten sich nach der Anzahl der benötigten Lizenzen";
 oem_l16 = "Mindestabnahme: 1000 Stück";
 oem_l17 = "Abrechnung wahlweise pauschal oder nach Anzahl installierter Lizenzen";
@@ -2393,8 +2496,10 @@ speed_guide_p11e = "Für eine höhere Download Speed:";
 speed_guide_q11 = "Hat dies geholfen??";
 speed_guide_p12a = "Es gibt (seltene) Fälle in denen cFosSpeed RX shaping die Download Speed reduziert.<br/>Um dieses Problem zu lösen, versuchen Sie folgendes in der <b class=\"speed_console\">cFosSpeed Konsole</b>:";
 speed_guide_p12b = "Es gibt außerdem (seltene) Fälle in denen Paketverlust Ihrer Verbindung cFosSpeed's Traffic Shaping durcheinander bringt.<br/>Um dies zu lösen, versuchen Sie folgendes in der <b class=\"speed_console\">cFosSpeed Konsole</b>:";
+
 /. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p13a = "Manchmal weicht die Geschwindigkeitsmessung etwas ab über die Zeit, wenn dauerhaft extrem viele Verbindungen und viel UDP Traffic vorhanden sind. Dieser Fall kann in manchen Situationen mit BitTorrent auftreten. Die Kalibrierung arbeitet korrekt, aber nach einer Weile wird die Verbindung immer langsamer.";
+
 speed_guide_p13b = "Nur in diesem Szenario können Sie die Geschwindigkeit fixieren:";
 speed_guide_l13a = "Lesen Sie die aktuellen Werte aus indem Sie die <b class=\"speed_console\">cFosSpeed Konsole</b> benutzen:";
 speed_guide_l13b = "Wählen Sie einen Wert zwischen diesen beiden Zahlen und nehmen Sie 90% bis 98% davon (<span class=\"txspeed_new\">510715</span> in diesem Beispiel).<br />Setzen Sie es mit";
@@ -2405,8 +2510,10 @@ speed_guide_q14 = "Low latency Mode aktiv?";
 speed_guide_a14 = "Versuchen Sie diesen einzuschalten:";
 speed_guide_p15 = "Möglicherweise werden die hohen Pingzeiten durch den Server am anderen Ende der Verbindung verursacht. Dies passiert häufig bei Spieleservern. cFosSpeed kann Ihren Ping nicht weiter reduzieren, als es Ihre Verbindung / Ihr Provider zulässt. Wann immer Sie mehrere Verbindungen nutzen, kann cFosSpeed Ihre Pingzeit verringern und Ihren Netzwerkverkehr derart priorisieren, dass Sie die geringst möglichen Pingzeiten haben, obwohl Sie die volle Bandbreite Ihrer Verbindung nutzen. Dies erlaubt beispielsweise Uploads und Downloads während VoiP Gesprächen oder Online-Gaming.";
 speed_guide_l15a = "Deinstallieren Sie cFosSpeed oder deaktivieren Sie Traffic Shaping";
+
 /. `try both` here refers to `speed_guide_l15a` language key, which suggests to `Uninstall cFosSpeed or disable Traffic Shaping`
 speed_guide_l15b = "Downloaden Sie <a target=\"_blank\" href=\"http://www.cfos.de/en/download/download.htm#hrping\">hrping</a> und - ohne jeglichen anderen Netzwerkverkehr - versuchen Sie beides";
+
 speed_guide_q15 = "Ist der Ping immer noch hoch?";
 speed_guide_a15 = "Tipp: Bei einer DSL-Verbindung nutzen Sie Fastpath. WLAN hat typischerweise höhere Pingzeiten als verkabelte Netzwerke. Mobiles Internet kann zusätzliche Verzögerungen verursachen, etwa wegen schlechten Netzempfangs oder Störung des Funksignals des Access Points.";
 speed_guide_p16 = "Ist ein weiterer PC im Netzwerk vorhanden, der Daten sendet/empfängt??";
@@ -2419,8 +2526,10 @@ speed_guide_q18 = "Ist der Ping nun besser?";
 speed_guide_p19 = "Manche Geräte bereiten Probleme mit TCP Übertragungen. Zum Beispiel manche Treiber für Atheros WLAN Adapter können hohe Pingzeiten während Downloads verursachen. Zum testen, probieren Sie einen anderen Netzwerkadapter aus und beobachten Sie ob der Ping während Downloads immer noch hoch ist.";
 speed_guide_q19 = "Haben neue Treiber / ein anderer Netzwerkadapter geholfen?";
 speed_guide_p20a = "Ist Ihr cFosSpeed auf eine feste Geschwindigkeit eingestellt? Überprüfen Sie dies, indem Sie folgendes in die <b class=\"speed_console\">cFosSpeed Konsole</b> eingeben:";
+
 /. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p20b = "Es sollte 0 sein, außer in seltenen Fällen mit vielen µTorrent Verbindungen und großem UDP Datenaufkommen.";
+
 speed_guide_p20c = "Wenn Ihre cFosSpeed Verbindungskalibrierung stabil bleibt, sollten Sie es auf 0 setzen:";
 speed_guide_p20d = "oder Sie nutzen kleinere Werte für die feste Geschwindigkeit (probieren Sie die Geschwindigkeit in 1% Schritten zu verringern).";
 speed_guide_h21 = "Priorisierung";
@@ -2656,8 +2765,10 @@ cfosspeed_documentation_no_ping_desc = "Was Sie tun können, falls cFosSpeed kei
 cfosspeed_documentation_phone_skins_desc = "Wie Sie ein Smartphone oder Tablet zur Status-Anzeige nutzen können, wenn Ihr Computer im Vollbild-Modus ist.";
 cfosspeed_documentation_prog_prio_desc = "Funktionsweise des Priorisierungsschemas.";
 cfosspeed_documentation_keyboard_leds_desc = "Wie Sie die Tastatur LEDs zur Status-Anzeige nutzen können, wenn Ihr Computer im Vollbild-Modus ist.";
+
 /. `BitTorrent` — name of the protocol, not of the program
 cfosspeed_documentation_p2p_desc = "Optimale Konfiguration von cFosSpeed für P2P Tauschbörsen Netze, wie BitTorrent, E2K, etc.";
+
 cfosspeed_documentation_logitech_keyboard_desc = "Die Anzeige der Logitech Gamer Tastaturen zur Anzeige von cFosSpeed Status Information nutzen. G19, G15, G13, G510 und kompatible Modelle.";
 cfosspeed_documentation_wlan_access_point_desc = "Wie Ihren Windows PC mittels cFosSpeed in einen Wi-Fi Access Point für Smartphones, Tablets und andere mobile Geräte verwandeln können.";
 beta_index_desc = "Download der neuesten Beta Versionen von cFosSpeed, cFos IPv6 Link, cFos Broadband Connect und cFos Professional.";
@@ -2717,10 +2828,30 @@ countryname_vn = "Vietnam";
 countryname_zh_hk = "Hongkong";
 languagename_per = "Farsi";
 
-/ no translation  -  currency info for order form exchange rates only - do not modify!
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those strings used in order form exchange rates and shouldn't be modified
+/
+/ !!! DO NOT TRANSLATE !!!
+
+/. Code of native for current language currency according to European Central Bank
+/. Used to retrieve exchange rates from ECB, calculate and display prices in native currency on Order page
+/. Do not modify, unless you really know what you're doing
 currency_4217 = "EUR";
+
+/. Leading and subsequent (if needed any) currency symbol/code of specified in `currency_4217` currency
+/. Purely decorative
+/. String will be formed without any predefined spaces, like that:
+/= `~ currency_prefix{{value}}currency_suffix`
+/. So, don't forget to add space before suffix, or after prefix, if you need any, right inside language key
 currency_prefix = "";
 currency_suffix = " &#8364;";
+
+/. Value of `Country` field in Order form
+/. In English always should be `Select your country`
+/. In other languages should contain name of the country _in English_, for which specified currency in `currency_4217`
 selected_value = "Deutschland";
 
+/ END SECTION: don't translate
 
