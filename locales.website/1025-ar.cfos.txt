@@ -2144,9 +2144,9 @@ countryname_zh_hk = "هونغ كونغ";
 languagename_per = "الفارسية";
 
 / no translation  -  currency info for order form exchange rates only - do not modify!
-currency_4217 = "EGP";
-currency_prefix = "E£";
+currency_4217 = "USD";
+currency_prefix = "$";
 currency_suffix = "";
-selected_value = "Egypt";
+selected_value = "Arabic";
 
 
