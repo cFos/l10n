@@ -20,12 +20,16 @@ link_text_sitemap = "Oldaltérkép";
 link_text_support = "Támogatás";
 
 / index2
+about = "A cFos Softwareről";
 asrock_info = "Információ <b>ASRock XFast LAN</b> felhasználók számára";
 bc_linktext = "cFos Broadband Connect a nagysebességű kapcsolatokhoz";
 cfos_linktext = "cFos/Professional ISDN kapcsolathoz";
 close = "Bezárás";
+cookie_bar_text = "Cookiekat használunk, hogy személyre szabjuk a reklámokat és a tartalmat, hogy közösségi média funkciókat biztosítsunk és, hogy elemezzük a forgalmunk. Mi megosztjuk ezt az információt az oldal használatáról a közösségi média partnereinkkel, a reklám és az elemező partnereinkkel. ";
+cookie_bar_details = "Lásd a részleteket";
 
 /. Used as "I understand"
+cookie_bar_got_it = "Megértettem";
 
 desc_6link = "ipv6 csatlakozás XP, Vista és Windows 7 alatt";
 desc_dialup = "Internet tárcsázó";
@@ -42,6 +46,7 @@ special_offer_xmas = "Karácsonyi ajánlat! <span class=\"red\">Különleges ár
 special_offer_xmas_2 = "(hétvége miatt meghosszabítva 2011. január 2-ig)";
 special_offer_spring = "Különleges tavaszi ajánlat! 2010. február 9-ig";
 special_offer_winter = "Különleges kedvezmények a Téli Kiárusítás idején 2012 január 31-ig";
+summer_sale = "Speciális árak a Nyári Akció alatt augusztus 31-ig";
 worldcup_sale = "Alkalmi ár a Világbajnokság idejére!"; / FIFA Soccer World Cup
 winter_sale = "Különleges kedvezmények a Téli Kiárusítás idején!"; / New Years Sale for China
 winter_sale_ext = "Meghosszabbítva január 28-ig - Köszönjük a támogatását!";
@@ -75,6 +80,9 @@ rwin_video_award2 = "Nyerje meg a <b>100</b> ingyenes cFosSpeed örök licenszt!
 social_networks = "Kérjük támogassa a társasági hálózatainkat.<br/>Lájkoljon Facebook-on, kövessen minket Twitter-en!";
 powered_by = "Üzemelteti a <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net webszerver</a>";
 word_follow = "Követés";
+cfosspeed_for_windows_10 = "<b>cFosSpeed ​​10</b> már elérhető a <b>Windows 10-en</b>.";
+learn_more = "További információ"; // Meaning "learn more about the product"
+oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> a hivatalos Internet Gyorsítója az<br/>ASUS, GIGABYTE, ASRock és az MSI játékos eszközeinek"; // Line feed at approx middle of the key, preferred directly before the brand names
 
 /: https://www.cfos.de/ru/order/order.htm
 /. Used on a small label in corner of product's box image
@@ -105,11 +113,13 @@ download_page = "Letöltési oldal";
 downloads = "Letöltések";
 download_x64_for = "<b>Letöltés</b> x64 Edition";
 download_x86x64_for = "<b>Letöltés</b> x86 + x64 Edition";
+email = "E-mail";
 for = ":";
 freeware_programs = "Ingyenes programok";
 gadget = "cFosSpeed gadget Vista rendszerhez";
 gadget_text = "cFosSpeed oldalsáv alkalmazás Windows Vista/7 rendszerhez<br /><span class=\"smalltext\" style=\"line-height: 12px\"><br /><b class=\"red\">Note</b>: If you get a &quot;<b>Can't reate automation object</b>&quot; error message after installing the gadget, please do the following:<br /><b>1</b>. Check the version number of cFosSpeed<br />&nbsp;&nbsp;&nbsp;&nbsp;(4.24 or higher is mandatory)<br /><b>2</b>. Reboot your system</span>";
 grey = "szürke";
+GADGET_TITLE = "cFosSpeed ​​eszköz";
 hacks_cracks = "Véleményünk <br /> programok feltöréséről";
 hint = "Tipp";
 hrping_text = "Nagy pontosságú ping optimizáló eszköz";
@@ -129,6 +139,7 @@ sk_froghut_text = "Froghut Title Bar felszín (by Björn v. d. Osten)";
 sk_grant = "Grant's felszín";
 sk_grant_text = "Icon felszín (készítette: Grant Brunton)";
 skins = "Felszínek";
+sk_history = "LC Történet";
 sk_history_text = "Liquid Crystal felszín előzmény sávokkal";
 sk_lc_blue = "Liquid Crystal kék";
 sk_lc_blue_text = "Liquid Crystal felület, kék képernyő (by Toxic)";
@@ -141,8 +152,12 @@ sk_mon_txt_text = "készítette: Maik Reiss / Hoeft und Wessel)";
 sk_msinanucler = "Traffic Analysis Icon W7";
 sk_msinanucler_text = "Módosított forgalomelemzés skin háttérképpel";
 sk_mtin = "MTiN's felszín";
+sk_mtin_text = "Minimal Skin (MTiN-től)";
+sk_netmedic = "Rx/Tx Skin (+ Ikon)";
 sk_netmedic_text = "Send/Receive Skin and Icon Skin (by Ilya Dedinsky)";
+sk_offchu = "Slim LC";
 sk_offchu_text = "Slim horizontal Liquid Crystal felszín (by offchu)";
+sk_offchu_history = "Slim LC Történet";
 sk_offchu_history_text = "Slim horizontal Liquid Crystal History felszín (by offchu)";
 sk_safak = "Safak témája";
 sk_safak_text = "Shinnher témája módosítva Safak Falakaoglu által";
@@ -218,6 +233,7 @@ confident = "Az itt megadott adatokat bizalmasan kezeljük, és harmadik személ
 
 /. Used as part of phrase
 /= Your Order at www.cfos.de
+conf_lastschrift_at = "a";
 
 conf_moneybookers_trans = "Moneybookers átutalás";
 conf_moneybookers_text = "Kérjük adja meg nevét, mint a fizetés okát, a moneybookers mezőben";
@@ -271,6 +287,7 @@ f_deliverto_list_01 = "nev@valami.hu, nem  <span style=\"text-decoration: line-t
 f_deliverto_list_02 = "Helyesen van kibetűzve?";
 f_deliverto_list_03 = "Minden speciális karakter helyesen van beírva <span style=\"background-color: #ffffe0; font-weight: bold\">&nbsp;. - _&nbsp;</span>";
 f_deliverto_list_04 = "Ügyeljen a végződésekre! (.hu vagy .com, nem ugyanaz)";
+f_email = "E-mail";
 f_express = "Szállítás";
 f_express_text = "Licenc kiküldése emailen keresztül. A fent megadott email címre fogjuk kiküldeni.";
 find_serial = "Tipp: A szériaszámát a jobb alsó sarokban, az óra mellett található cFos ikonra jobb gombbal kattintva találja, a megynyíló menüben, fentről a második sorban.  (pl. cF1234)";
@@ -339,6 +356,7 @@ incl_vat_ship = "Az ár tartalmazza a német ÁFA-t és a szállítási költsé
 incl_vat_ship_cfos_omni = "Omni-Plattform - ÁFÁ-val. Ingyenes kezelés és szállítás.<br />tartalmazza a cFos/DOS, cFos/Win, cFos/2 és cFos NT/2000/XP/2003 Server/Vista/7 + x86/x64 Edition verziókat ";
 lifetime_updates = "Örökös frissítés";
 lifetime_updates_text = "A <em>cFosSpeed</em> licenc megvásárlásával Ön egy életen át tartó szoftvert kap (újabb operációs rendszerekre is)! Az új verziókat a már megvásárolt licencekkel aktiválhatja.";
+mercado_pay_now = "Fizessen most Mercado Pago-val";
 multi_buy = "Vásárlás";
 office_time = "Hétfő-Péntek 9-12h";
 only = "csupán";
@@ -405,6 +423,7 @@ em_hello = "Helló!";
 em_thank_you = "Köszönjük, hogy megrendelte a *** -et";
 em_transfer = "Kérjük utaljon";
 em_account = "erre a bankszámlára";
+em_link = "Link";
 em_alipay = "az AliPay fiókhoz";
 em_paypal = "erre a PayPal számlára";
 em_moneybookers = "erre a MoneyBookers számlára";
@@ -415,6 +434,7 @@ em_webmoney = "WebMoney számlánkra.";
 / cFosSpeed
 a_bt = "a cFosSpeed torrenttel";
 a_games = "Hogyan javíthatom az online játékok teljesítményét?";
+alt_ct_logo = "c't Logo";
 a_p2p = "Traffic Shaping fájlmegosztáshoz (P2P)";
 a_registration_help = "Segítség a kulcs-alapú regisztrációhoz";
 a_surf = "Hogyan böngészhetek gyorsabban az Interneten?";
@@ -435,6 +455,7 @@ dupe_a_voip = "Kiváló minőségű VoIP beszélgetések (német)";
 budgets = "Lehetőségek";
 desc_cfosbc = "<b>cFosBC</b>, nagy teljesítményű tárcsázó, a nagy sebességű Internet eléréshez";
 firewall = "Tűzfal";
+greenlight_h1 = "<b style=\"color: #409a03\">82% \"IGEN\" szavazatok</b> és pozitív kommentek <b><span style=\"color: #5B7399\">cFosSpeed-ről</span> <a class=\"inline\" href=\"http://steamcommunity.com/sharedfiles/filedetails/comments/538515919\"><span style=\"color: #409a03\">a Steam Greenlight oldaon</span></a></b>!";
 header_features = "Jellemzői";
 highlights = "Highlights";
 highlight1 = "A cFosSpeed megakadályozza, hogy a különböző tevékenységek zavarják egymást, mint például az email küldés, telefonbeszélgetés, chatelés stb.";
@@ -483,6 +504,7 @@ li_text_feat5 = "Növeli a VoIP beszélgetések minőségét";
 more_features = "További jellemzők";
 news_info = "Hírek / Infó";
 optimize_traffic = "Ahányszor csak csatlakozol az Internethez egy vagy több adatfolyammal, a cFosSpeed optimalizálja az adatforgalmat.";
+phone_skins = "Állapot ablak a telefonján/táblagépén";
 prio_ports = "A portok priorizálása";
 prio_programs = "Programok priorizálása";
 prio_protocols = "Forgalomszabályzási Protokol Priorítások";
@@ -496,9 +518,12 @@ review1 = "Tesztelt";
 /= "Reviewed 4.5 / 5 stars by softpedia.com"
 review2 = "csillag által";
 
+rwin_expansion = "RWIN Kiterjesztés";
 rwin_now = "most RWIN Expansion-al!";
 rwin_results = "Lássa a lenyűgöző eredményeket!";
 share_cfosspeed = "Ossza meg a cFosSpeed-t";
+slider_prio = "Beálíthatja a prioritásokat a legáltalánosabb hálózati protokolloknak, ezáltal az összes program ami használja jó prioritást kap. Ezen kívül beállíthatja a prioritást külön programokra. Ez azt jelenti, hogy a letöltés nem okoz lagot játék alatt vagy videók nézése közben például. ";
+slider_conn = "Egy pillanat alatt megnézheti, hogy melyik programok használják a sávszélességet. A cFosSpeed lehetőséget nyújt a prioritások változtatására ezzel elősegítve az átviteli sebességet vagy pedig a válaszidő csökkenést az idő-kritikus alkalmazásokban.";
 special_offer_launch = "Különleges ajánlat:<br />cFosBC + cFosSpeed mindösszesen ";
 special_price = "különleges ár";
 special_price_launch = "3990Ft";
@@ -508,6 +533,7 @@ word_more = "tovább";
 desc_pnet = "Webszerver otthoni és profi felhasználók számára";
 pnet_title = "Webszerver otthoni és vállalati felhasználóknak";
 desc_pnet_new = "Ossza meg fájljait és szinkronizálja az adatait";
+desc_pnet_portable = "Lehetővé teszi, hogy fájlokat osszon meg külön program telepítése vagy külső szolgáltatás nélkül";
 pnet_video = "cFos Personal Net Webszerver<br/>Telepítés és egyszerű publikálás";
 pnet_li_text_feat1 = "Azonnali web-hoszting az Ön számítógépén";
 pnet_li_text_feat2 = "Egyszerű szerver-beállítás percek alatt";
@@ -533,15 +559,27 @@ pnet_percent = "50%-os kedvezmény az 1.0 verzió megjelenéséig";
 pnet_release = "1.0 verzió megjelenése";
 pnet_until = "Vásárolja meg az élettartam licenszt";
 pnet_after = "augusztus 7ig";
+pnet_nat_h1 = "NAT porttovábbítás beállítása";
+pnet_nat_p1 = "Itt van a mi <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>útmutatónk a népszerű routerekhez</b></a>.";
+pnet_nat_p2 = "<b class=\"green\">Szerezzen egy ingyenes cFosSpeed és cFos Personal Net kulcsot!</b><br/>Segítsen befejezni a <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>router útmutatónk</b></a>. Írja le, hogy hogyan kell NAT porttovábbítást beállítani az ön routerén.";
+pnet_nat_p3 = "Az ön routere már szerepel a listán?";
 pnet_wmi_add_p1 = "A <a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI Monitor</b></a> ingyenes bővítmény a cFos Personal Net-hez, ami információt ad az ön rendszeréről, pl.: kijelzi a CPU, GPU, hálózati használatokat, ping időt, stb. Ezeket a WMI értékeket bárhonnan elérhetjük.";
 pnet_wmi_add_p2 = "A <b>cFos WMI Monitor</b> segít a játékosoknak, tuningosoknak, zenészeknek, stb. hogy ellenőrízzék a különböző komponensek használatát mikor teljes képernyős alkalmazásokat futtatnak. A <b>cFos WMI Monitor</b> információk elérhetőek az ön számítógép böngészőjében és okostelefonján.";
 pnet_wmi_explain = "Mi az a cFos WMI Monitor?";
+pnet_portable_h1 = "Osszon meg egy fájlt csupán 2 lépéssel";
+pnet_portable_p1 = "Töltse le a cFos Personal Net Portable-t (cfospnet_portable.exe) és indítsa el.";
 
 /. Don't translate the "Publish with..." part
+pnet_portable_p2 = "A Windows Intézőben nyomjon jobb gombot arra a fájlra amit szeretne megosztani és válaszza \"Publish with cFos Personal Net (portable)\".";
 
+pnet_portable_h2 = "További információk a cFos Personal Net Portable-ről";
+pnet_portable_p3 = "A letöltési link a vágólapra másolva ezután beillesztheti egy emailbe vagy elküldheti üzenetként.";
 
 /. Don't translate the "Publish" and "Upload..." parts
+pnet_portable_p4 = "Lehet, hogy <a class=\"inline\" href=\"/en/cfos-personal-net/documentation/router.htm\"><b>engedélyeznie kell a NAT porttovábbítást</b></a> a routerében. Engedélyezheti másoknak, hogy fájlokat töltsenek fel. Jobb gombbal kattintson a cFos Personal Net tálca ikonra, és válassza a \"publish\" aztán \"Upload link to clipboard\"";
 
+pnet_portable_p5 = "cFos Personal Net használók találhatnak egy <em>cfospnet_portable.exe</em> fájlt, amit használhatnak teljes szerver módban vagy hordozható módban. A cFos Personal Net legtöbb funkciója elérhető hordozható módban is.";
+pnet_portable_p6 = "<b>Hogyan aktiválja a kulcsot</b>: cFos Personal Net Portable készít egy <em>pub\\admin</em> mappát oda ahonnan el lett indítva. Egyszerűen helyezze a kulcsot ebbe a <em>pub\\admin</em> mappába. Ha a kulcsnak szüksége van jelszóra, akkor kérjük vegye fel a kapcsolatot velünk egy jelszó nélküli kulcsért.";
 pnet_doc_a1 = "Áttekintés";
 pnet_doc_a2 = "Alapvető beállítás";
 pnet_doc_a3 = "További beállítások";
@@ -553,6 +591,7 @@ pnet_doc_a8 = "Fícsör utalás";
 pnet_doc_a9 = "Router/Tűzfal beállítás";
 pnet_doc_a10 = "WebDAV, CalDav és CardDav";
 pnet_doc_a11 = "UPnP Média Szerver";
+pnet_doc_a12 = "Scriptelő nyelvek telepítése";
 pnet_wmi_title = "cFos WMI Monitor, egy cFos Personal Net bővítmény csomag";
 pnet_wmi_p1 = "Kijelzi a fontos WMI adatokat a számítógépén és okostelefonján.<br/>Ingyenes kiegészítő csomag a <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net</a> felhasználóknak.";
 pnet_wmi_p2 = "A cFos WMI Monitor engedi a képernyőn megmutatni a WMI értékeket az ön rendszeréről, például <b>CPU használat</b>, <b>GPU használat</b>, <b>hálózati használat</b>, <b>ping idő</b>, stb.<br/>Ezek a WMI értékek <b>bárhonnan</b> elérhetőek.";
@@ -572,8 +611,10 @@ pnet_wmi_l1c = "ping idő";
 pnet_wmi_l1d = "TCP/UDP kapcsolat érték";
 
 /. Means `RX (`receive`/incoming/download) characters per second`
+pnet_wmi_l1e = "RX kpm";
 
 /. Means `TX (`transmit`/outgoing/upload) characters per second sent`
+pnet_wmi_l1f = "TX kpm";
 
 pnet_wmi_l1g = "Ezek az értékek a jelenlegi valós Internet kapcsolatáról tájékoztatnak.<br/>Windows WMI értékek a jelenlegi valós hálózati kártyájáról tájékoztatnak, beleértve a helyi és Internet hálózatot. Ön be tudja állítani melyik értékeket mutassa a cFosSpeed kijelzőjén.";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Open Hardware Monitor</b></a>. Ez is egy beépített WMI-szolgáltató, amely képes megjeleníteni nagyon hasznos hardver értékeket, mint például a";
@@ -595,11 +636,60 @@ pnet_doc_dav_p1 = "cFos Personal Net támogatja a CardDAV (RFC 6352)-t. Ez enged
 pnet_doc_dav_p2 = "Az automatikus kereséshez használhatja a cFos Personal Net fiókját. A CALDAV automatikusan létrehoz egy carddav_personal könyvtárat a <em>pub/private/&lt;az ön felhasználó neve&gt;/</em> könyvtárban.";
 pnet_doc_dav_p3 = "Az előtagok alapján a címjegyzékei sorba állíthatóak <b>cardav_prefix</b> fontos része <b>[param]</b> a <em>GLOBAL.INI</em> és ez \"cardav_\" alapértelmezett.";
 pnet_doc_dav_p4 = "Címjegyzék helyének beállításához önnek létre kell hozni egy könyvtárat <em>carddav_personal</em> manuálisan és ezt a címet meg kell adnia a címjegyzék szoftverében is (pl.: <b>http://localhost/private/testuser/carddav_personal</b>).";
+pnet_doc_dav_p5 = "Ha manuálisan állítsa be a CardDAV-ot, készítenie kell egy <em>.htaccess</em> fájlt <b>pnet_lock on</b> utasítással ha a CardDAV könyvtárt több gépről használja egyidejűleg.";
 pnet_doc_dav_h3 = "Szinkronizálás <img src=\"/images/outlook_icon_19.png\" style=\"width: 19px; height: 19px; position: relative; top: 4px; left: 1px\" alt=\"Outlook Icon\"/>MS Outlook naptárakkal, feladatokkal és névjegyekkel";
 pnet_doc_dav_p6 = "<a class=\"inline\" href=\"/en/cfos-outlook-dav/cfos-outlook-dav.htm\">A <b>cFos OutlookDAV</b> (béta)</a> használatával a <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\"><b>cFos Personal Net</b></a> szinkronizálható az <b>MS Outlook</b> naptáraival, feladataival és névjegyeivel.";
+pnet_doc_media_h1 = "cFos Personal Net Media Kiszolgáló";
+pnet_doc_media_p1 = "cFos Personal Net-nek van beépített UPnP média kiszolgálója. Aktiválhatja ha beállítja a kulcsot <b>enable_media_server=1</b> ben <b>[param]</b> szakaszán <em>GLOBAL.INI</em> <em>programdata\\cfos\\cfospnet</em> könyvtárban.";
 pnet_doc_media_p2a = "A fő könyvtár a médiák számára (zenék, videók, képek) alapértelmezetten a <em>pub</em>\\<em>media</em> könyvtárban található. Ezt meg tudja változtatni a <b>media_dir=&lt;directory&gt;</b> kulcs segítségével a GLOBAL.INI fájlban, a <b>[param]</b> szekció alatt. Ez a mappa, alkönyvtára kell hogy legyen a <em>pub</em> mappának.";
 pnet_doc_media_p2b = "A cFos Personal Net is használja a média mappa nevét. Emiatt, hogy hozzáférjen az elérési útjához a különböző médiáknak, hozzáad egy <b>.enc</b> végződést a mappa nevéhez. Példaképpen: <em>\\media\\...</em> átalakúl <em>\\media.enc\\...</em> formátumra. Ezért, kérjük ne használja a <em>\\media.enc</em> könyvtárnevet.";
 pnet_doc_media_p2c = "A cFos Personal Net most ellenőrzi a média könyvtárat és almappáit a HTTP hitelesítési beállításokkal. Csak azok a fájlok és mappák nevei lesznek feldolgozva, amik korlátlan hozzáféréssel érhetők el a HTTP GET módszerrel. Amikor engedélyezi az UPnP média szervert, a cFos Personal Net automatikusan megnyitja az <b>1900-as portot UDP</b>-n és a <b>2869-es portot TCP</b>-n (ezek az alapértelmezett UPnP portok) a Windows Tűzfalban.";
+pnet_doc_media_p3 = "A cFos Personal Net újraindítása után minden fájl a média könyvtárban és alkönyvtárban be lesz olvasva <em>hang/*</em>, <em>video/*</em> és <em>kép/*</em> fájlnak és ezt jelenti bármely UPnP kliensnek saját hálózaton belül. UPnP megjeleníti (pl. tv készülékeket vagy Internet rádiót, stb.) ezután pedig kérheti és lejátszhatja őket. Kipróbálhatja Windows Media Playerrel. Miután újra indította a cFos Personal Net-et látnia kell egy új bejegyzést a Média Könyvtárban a Windows Media Playerben.";
+pnet_doc_ov_h1 = "cFos Personal Net, az ön személyes web szervere";
+pnet_doc_ov_p1 = "cFos Personal Net (PNet) egy teljes funkcionalitású HTTP kiszolgáló személyes és szakmai célra. Személyes használatra a helyett, hogy egy szolgáltatón keresztül üzemeltetne egy oldalt, egyszerűbben megteheti ezt a Windowsos gépén. Professzionális használatra, béreljen egy virtuális gépes PC-t vagy egy dedikált PC-t egy webszolgáltatótól és futtassa ott.";
+pnet_doc_ov_p2 = "A cFos PNet használatával, beállíthatja a webes megjelenését a már megszokott windows környezetben. Továbbá a kliens és kiszolgáló oldali szkriptelés ugyan azt a nyelvet használja: JavaScriptet.";
+pnet_doc_ov_p3 = "A cFos PNet könnyű megosztást biztosít, fájlok fel és letöltését további beállítások nélkül. Egyszerűen csak másolja a fájlokat amiket meg szeretne osztani egy nyilvános mappába és bárki letöltheti azt egy átlagos böngészőn keresztül.";
+pnet_doc_ov_p4 = "A cFos PNet szkriptjei lehetőséget biztosítanak a felhasználói fiókok beállítására. Ez lehetővé teszi, hogy mások fájlokat tölthessenek fel az ön gépére. Ismételten, a fájlok feltöltéséhet csak egy böngésző szükgéges.";
+pnet_doc_ov_p5 = "Ha testre szeretné szabni a cFos PNet-et, akkor használhat Apache-szerű .htaccess fájlokat és JavaScriptet. A cFos PNet olyan erőteljes képességekkel rendelkezik mint egy profi web szerver.";
+pnet_doc_ov_h2 = "A cFos Personal Net előnyei";
+pnet_doc_ov_l1 = "Azonnali fájlmegosztás a gépén külön szolgáltató nélkül.<br/>Nincs szükség tövábbi program telepítésére mint például egy FTP kliens, stb.";
+pnet_doc_ov_l2 = "Nincs központi szerver, ahol valaki láthatja az összes kommunikációt.<br/>Fájlmegosztás személyes szinten.";
+pnet_doc_ov_l3 = "Könnyű fájl megosztás.<br/>Ideiglenes szerver a könnyű fájlmegosztásért e-mail nélkül.";
+pnet_doc_ov_l4 = "A felhasználók / klienseknek csak egy böngészőre van szükségük.<br/>Nincs szükség külön program telepítésére.";
+pnet_doc_ov_l5 = "Rendkívül alacsony válaszidők.<br/>A cFos PNet teljesen kihasználja a többszálú / több-magos felépítését a modern processzoroknak, úgyhogy több HTTP kérés/ szkript futhat egyidejűleg. Ráadásul, a .htaccess fájlok és a JavaScriptek gyorsítottak. A sebesség tesztjeinken a cFos PNet nagyon gyorsnak bizonyult, a hátráltató tényező a fájlrendszer volt, nem pedig a web szerver.";
+pnet_doc_ov_l6 = "Nagyon egyszerű JavaScript integráció.<br/>Szkriptelheti a szerverét és a böngészőjét egy nyelven.";
+pnet_doc_ov_l7 = "Zökkenőmentes integrációja a HTTP azonosításnak szkripteléssel.";
+pnet_doc_ov_l8 = "Beépített hash listák (No-SQL adatbázis), megint csak gyorsított és nagy sebességen.";
+pnet_doc_ov_l9 = "Könnyű felhasználó kezelés.";
+pnet_doc_ov_l10 = "Beépített gzip / deflate tömörítés ugyancsak elérhető a JavaScript által.";
+pnet_doc_ov_l11 = "Menet közbeni jelszó titkosítás.";
+pnet_doc_ov_l12 = "Beépített levél küldő.";
+pnet_doc_ov_l13 = "WebDAV támogatás (RFC 4918)";
+pnet_doc_ov_l13a = "Fájl, naptár és névjegyzék szinkronizálás WebDAV, CalDav és CardDav-al";
+pnet_doc_ov_l14 = "Megmutatja a jelenlegi kapcsolatok számát és a fájl átvitelek előrehaladását. Windows 8 használók használhatják a HTML verziót a <em>pub/users/gadget.htm</em>.";
+pnet_doc_ov_l15 = "CalDAV támogatás (RFC 4791)";
+pnet_doc_ov_l16 = "Beépített UPnP média szerver.";
+pnet_doc_ov_h3 = "Miért ne próbálná ki";
+pnet_doc_ov_p6 = "A mai Web Alkalmazásokat úgy tervezik, hogy a kliens böngészőjében több a szerveren pedig kevesebb funkcionalitásuk legyen. Ez az új böngészőknek köszönhető (beleértve a mobil böngészőket) amik támogatják a szabvány JavaScript-et és DOM-ot. JQuery és más böngésző könyvtárak megegyszerűsítik a Web Alk. kliens oldali írását. A gyors JavaScript motor lehetőséget biztosít a böngészőknek a hatékony munkára. Így a szervernek sokkal kevesebb munkát kell végeznie. A fő funkciói ezért, hogy biztos elérést biztosítson az erőforrásoknak és egyenletes állapotban maradjon. Például a kliens böngészője adatot kér, sorbarendez, előkészít és kijelzi azt a felhasználó felé a szerver segítsége nélkül . A szerver szerepe tehát csupán az adatok biztos állapotban tartása. Ebben az esetben a szerver oldali programozás lehet minimális. Szóval érdemes lehet használnia egy könnyű szervert egyszerű programozási lehetőségekkel, mint a cFos PNet.";
+pnet_doc_ov_h4 = "WebDAV támogatás";
+pnet_doc_ov_h4a = "Tárolja és szinkronizzálja adatait WebDAV-al";
+pnet_doc_ov_p7 = "WebDAV egy szabvány ami lehetővé teszi az elosztott erőforrás-gazdálkodást. Ez lehetővé teszi, hogy a cFos Personal Net mappákkal együtt működjenek a fájl szinkronizáló eszközök és a Windows Intéző.";
+pnet_doc_ov_p8 = "Hogy távolról elérje a cFos Personal Net mappáit írja a <b>\\\\www.sajátdomain.com\\DavWWWRoot\\dav</b> a Windows Intézője címsorába. Ezután a Windows Intéző hozzáfér a dav almappához a nyilvános mappában.  Írás/törlés hozzáférésért távolítsa el a kommentelt részt a <em>.htaccess</em> fájlban a nyilvános mappában. Kérjük, módosítsa a hozzáférési jogokat / HTTP hitelesítés. Máskülönben mindenkinek lesz hozzáférése a dav mappa írás/törléséhez.";
+pnet_doc_ov_p9 = "A cFos Personal Net támogatja a következő HTTP módokat: <b>PROPFIND</b>, <b>PROPPATCH</b>, <b>DELETE</b>, <b>PUT</b>, <b>MKCOL</b>, <b>COPY</b>, <b>MOVE</b>, <b>LOCK</b>, <b>UNLOCK</b>. <b>PROPPATCH</b> arra használatos, hogy módosítsuk a fájl tulajdonságait és idejét.<br/><br/>cFos Personal Net jelenleg minden WebDAV erőforrást fájl és könyvtárként kezel a nyilvános könyvtárfában.<br/>A lezárások mindig kizárólagosak. A <b>pnet_LimitPut</b> utasítás az új fájlok és könyvtárak létrehozását tiltja. Az utasítás még használatos a fájlok törlése és módosítása ellen is.";
+pnet_doc_ov_h5 = "CalDAV támogatás";
+pnet_doc_ov_h5a = "Naptár szinkronizáció CalDAV-al";
+pnet_doc_ov_p10 = "cFos Personal Net támogatja a CALDAV-ot (RFC 4791). Ez lehetővé teszi, hogy tárolja és szinkronizálja a naptár adatait. Használhat olyan naptár szoftvert ami automatán felismeri a naptárt vagy beállíthatja a könyvtárakat, ahol a naptár bejegyzéseket kézzel tárolja.<br/>Automata felismeréshez a cFos Personal Net a jelenlegi felhasználó HTTP hitelesítését használja. Automatikusan készít egy <em>caldav_personal directory</em> a <em>pub/private/&lt;your user name&gt;/</em> könyvtárban. A címjelszés a naptár könyvtárakhoz beállítható a <b>caldav_prefix</b> kulcsal a <b>[param]</b> szakaszában <em>GLOBAL.INI</em> ami \"caldav_\" alapból.";
+pnet_doc_ov_p11 = "Hogy a naptár helyét kézzel adja meg (például, hogy Mozilla Lightningal használja) készítenie kell egy könyvtárat <em>caldav_personal</em> és manuálisan állítsa be ezt az url-t a naptár alkalmazásában (e.g. <b>http://localhost/private/testuser/caldav_personal</b>).";
+pnet_doc_ov_p12 = "Ha manuálisan állítsa be a CalDAV-ot, készítenie kell egy <em>.htaccess</em> fájlt <b>pnet_lock on</b> utasítással ha a CalDAV könyvtárt több gépről használja egyidejűleg.";
+pnet_doc_setup_h1 = "Alapvető beállítás";
+pnet_doc_setup_p1 = "A legalapvetőbb, hogy telepítse a cFos PNet-et és másolja a dokumentumokat amiket meg szeretne osztani a 'pub' nevű könyvtárba ami a cFos PNet alkalmazás könyvtárában található. Alap beállításon a JavaScript <b>makedir.jss</b> szép kimeneti könyvtárakat készít a felhasználóinak.";
+pnet_doc_setup_p2 = "Beállíthatja a publikus és privát mappái helyét a \"public_dir=\" és \"private_dir=\" kulcsok beállításával a <em>cfospnet.ini</em>-ben, szakaszában [param] a kívánt mappára (teljes elérési út szükséges). <em>cfospnet.ini</em> megtalálható a <em>c:\\programdata\\cFos\\cfospnet</em> mappában.";
+pnet_doc_setup_p3 = "Alapból a cFos PNet a 80 portot használja a HTTP szolgáltatásokhoz, de megváltoztathatja ezt a \"server_port\" kulcsal a [param] szakaszában a <em>cfospnet.ini</em>-ben.<br/>Alapból a, cFos PNet IPv4 és IPv6 használ. Ha a csatlakozást korlátozni szeretné IPv4 vagy IPv6-ra akkor beállíthatja ezt az \"ipv4_allowed\" vagy \"ipv6_allowed\" kulcsal \"0\" állítva ugyan abban a [param] szakaszában a <em>cfospnet.ini</em>-ben.";
+pnet_doc_setup_p4 = "Ha JavaScripten keresztül szeretne levelet küldeni, akkor be kell állítania ezeket a kulcsokat is a [param] szakaszában:<br/><table><tr><td>\"smtp_server\"</td><td>az SMTP kiszolgáló címe</td></tr><tr><td>\"smtp_username\"</td><td>a felhasználó neve</td></tr><tr><td style=\"padding-right: 20px\">\"smtp_password\"</td><td>a jelszava</td></tr><tr><td style=\"padding-right: 20px\">\"smtp_port\"</td><td>az SMTP kiszolgáló portja,pl. 25. Ha nem állít be semmit smtp_port-nak, akkor az alapértelmezett portot fogja használni</td></tr></table>";
+pnet_doc_setup_p5 = "Ennyi. Ahhoz, hogy mások elérjék az ön web szerverét, be kell állítania a port továbbítást a routerében, hogyha NAT mögött van. Ezen felül: Ha dinamikus IP címet használ akkor, ajánlott lehet regisztrálnia egy dinamikus DNS szolgáltatásra, mint például a DynDNS (www.dyndns.org). Mi elláttuk a cFos PNet-et egy szkriptel ami regisztrál DynDNSre induláskor és kilép leállításkor. Használatához, indítsa a <b>dyndns.htm</b> a pub mappából, hogy megadja a cFos PNet-nek az ön DynDNS paramétereit. Aztán aktiválja a dyndns.jss-t mint indító és leállító szkript a <em>cfospnet.ini</em> -ben azzal, hogy eltávolítja a \";\" az \"on_start\" és az \"on_stop\" sorból a [scripts] szekcióban.";
+pnet_doc_setup_p6 = "Használja a <b>Menet közbeni jelszó titkosítást</b> azzal, hogy a jelszavait egy hozzáadott \"!\" jellel kezdi. Akármikor mikor a cFos PNet vagy a szkriptek találkoznak a jelszóban egy \"!\"onnantól kezdve az titkosítva lesz, így nem lesznek sima szögfájlok jelszavakkal a gépén. Vigyázzon, mert ez nem ad komoly biztonságot, mert a cFos PNet-nek tudnia kell a dekódoló metódust és ezért egy támadó kinyerheti a jelszavakat.  A kódolás egy véletlenszerű érték által megy végbe, amit a cFos PNet választ egyszer minden telepítésnél és a <em>master_pwd.ini</em> fájlban van tárolva a cFos PNet telepítési könyvtárában.<br/> Úgyhogy ne engedje, hogy mások lássák ezt a fájlt! Azzal, hogy közel egyedi véletlen értéket használ a jelszavak titkosításához, ezért valószínűtlen, hogy valaki dekódolja a titkosított jelszavakat (kivéve ha rendelkezik a <em>master_pwd.ini</em> fájlal).<br/>A <b>master_pwd</b> érték a registryben van tárolva, hogy megússza a teljes eltávolítást. Továbbá, ha szeretné használni ugyan azt a <b>master_pwd</b> értéket egy új telepítéshez, készítsen másolatot róla <em>master_pwd.ini</em> és (mielőtt elkezdi az új letepítést) tegye ugyan abba a mappába mint a cFos PNet <em>setup.exe</em>-je.";
+pnet_doc_setup_h2 = "cFos PNet mint rendszer szolgáltatás";
+pnet_doc_setup_p7 = "Ha manuálisan indítja a cfospnet.exe-t, akkor sima Win32 folyamatként fut az ön felhasználói profilján keresztül. Amikor kilép a Windows leállítja úgy ahogy a többi megnyitott programot. <br/>Használhatja a cFos PNet-et mint rendszer szolgáltatást. Így a Windowsal egyidejűleg indul függetlenül a attól, hogy melyik felhasználó lépett be. Használja a<br/><br/>\"cfospnet.exe -start_service\" hogy regisztrálja a cFos PNet mint szolgáltatás és elindítsa.<br/>\"cfospnet.exe -stop_service\" hogy leállítsa a cFos PNet és törölje a szolgáltatást.";
 pnet_doc_setup_h3 = "Felhasználó-kezelés";
 pnet_doc_setup_p8 = "A cFos Pnet alapértelmezett felhasználókezelést is tartalmaz. A telepítõ létrehoz egy <em>/users/admin</em> könyvtárat a <em>pub</em> könyvtárban. Az új felhasználók egy <em>profile.txt</em> nevû konfigurációs fájlt kapnak a saját <em>/users/<username></em> felhasználói könyvtárukban. Ezen kívül egy <em>/private/<username></em> könyvtárat is kapnak.<br/>Így ha egy fájlt csak egy bizonyos felhasználóval szeretne megosztani, másolja azt át az Õ <em>/private/<username></em> könyvtárába a <em>pub</em> könyvtár helyett. Az <em>.htaccess</em> konfiguráció így csak akkor enged hozzáférést a fájlhoz, ha a felhasználó megadta a nevét és jelszavát. A felhasználó fel is tölthet a saját könyvtárába (a megfelelõ jelszó megadása után). Készíthet és törölhet felhasználókat, és beállíthatja a jelszavukat, ha a <b>/users/index.htm</b> -t \"admin\"-ként használja.";
 pnet_doc_access_title = "További konfiguráció AccessFiles-el (<em>.htaccess</em>)";
