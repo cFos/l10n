@@ -952,9 +952,9 @@ cont_gr_t2 = "Преведете делови од cFos страницата и�
 / countrynames
 
 / no translation
-currency_4217 = "MKD";
-currency_prefix = "";
-currency_suffix = " ден,";
+currency_4217 = "USD";
+currency_prefix = "$";
+currency_suffix = "";
 selected_value = "Macedonia";
 
 
