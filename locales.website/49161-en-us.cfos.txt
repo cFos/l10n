@@ -14,9 +14,6 @@ input_lang = "en-us";
 / download
 
 / order
-currency_abbr = "$";
-currency_code_paypal = "USD";
-currency_sign = "$";
 
 / Order and Announcelist Confirmation Email
 

@@ -193,7 +193,6 @@ conf_trans_to = "宛先";
 conf_trans_within_de = "ドイツ国内送金";
 conf_webmoney_trans = "WebMoney での送金";
 conf_webmoney_text = "我々の受付チームは貴方に注文に対し別のメール(order-number, WMID and WM-Purse)を送付します。このメールを受ける前に送金しないでください。ありがとうございます ";
-currency_code_paypal = "ユーロ";
 download_software = "ソフトウェアの最新バージョンは<a class=\"inline\" href=\"/en/download/download.htm\">こちら</a>からダウンロードできます。";
 f_agent_text = "内に担当者から購入";
 f_announce = "はい、我々のプログラムの新しいバージョンがリリースされる際に通知されます";

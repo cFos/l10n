@@ -228,8 +228,6 @@ conf_trans_to = "Đến";
 conf_trans_within_de = "Chuyển tiền trong nước Đức";
 conf_webmoney_trans = "Chuyển tiền qua WebMoney";
 conf_webmoney_text = "Đội ngũ bán hàng của chúng tôi sẽ kiểm tra đơn đặt hàng của bạn và gửi mail cho bạn những thông tin khác (mã đặt hàng,WMID và WM-Purse). Xin bạn không chuyển tiền đến khi nhận được email thứ hai. Xin cảm ơn!";
-currency_abbr = "VND";
-currency_sign = "₫";
 download_software = "Bạn có thể tải về phiên bản mới nhất cho phần mềm của bạn <a class=\"inline\" href=\"/en/download/download.htm\">here</a>.";
 f_agent_text = "Mua từ một đại lý ở Việt Nam";
 f_announce = "Tôi muốn được thông báo khi phiên bản mới được phát hành.";

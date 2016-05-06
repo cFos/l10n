@@ -21,8 +21,6 @@ bank_de_blz = "";
 bank_de_iban = "";
 bank_de_iban_hint = "";
 bank_de_name = "Axis Bank | IFSC Code: UTIB0000227";
-currency_abbr = "Rs.";
-currency_sign = "Rs.";
 f_trans_text2 = "Transfer to our official local Agent for cFos India.";
 special_price_for = "Special price for citizens of India.";
 

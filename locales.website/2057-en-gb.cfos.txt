@@ -14,8 +14,6 @@ input_lang = "en-gb";
 / download
 
 / order
-currency_abbr = "£";
-currency_sign = "£";
 
 / Order and Announcelist Confirmation Email
 

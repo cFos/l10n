@@ -233,9 +233,6 @@ conf_trans_within_de = "德国境内汇款";
 conf_webmoney_trans = "WebMoney转账";
 conf_webmoney_text = "我们的服务小组将在处理您的订单时向您发送一封包含订单号、WMID和WM-Purse的电子邮件。请在收到该电子邮件之后再进行汇款。谢谢！";
 contact_line = "<b>相关购买事宜请咨询我方驻中国地区代理人: <img src=\"../images/cfos_cn-link.png\" width=\"120\" height=\"15\" border=\"0\" alt=\"\"/> </b>"; / Contact our Chinese agency for questions concerning your order
-currency_abbr = "￥";
-currency_code_paypal = "欧元";
-currency_sign = "￥";
 dollar_show = "<div style=\"float: right; height: 80px; width: 80px; padding: 0px; margin: 0px; background-image:url(../images/bigdot.gif); font-size: 17px; font-weight: bold; color: red; text-align: center\"> <span style=\"position: relative; top: 13px\"> 1.00&nbsp;&#x20ac;<br /></span> <span style=\"position: relative; top: 23px\">10.79￥</span></div> ";
 download_software = "点击<a class=\"inline\" href=\"/en/download/download.htm\">这里</a>下载最新版本。";
 f_agent_text = "从中国的代理处购买";
