@@ -24,6 +24,9 @@ asrock_info = "Információ <b>ASRock XFast LAN</b> felhasználók számára";
 bc_linktext = "cFos Broadband Connect a nagysebességű kapcsolatokhoz";
 cfos_linktext = "cFos/Professional ISDN kapcsolathoz";
 close = "Bezárás";
+
+/. Used as "I understand"
+
 desc_6link = "ipv6 csatlakozás XP, Vista és Windows 7 alatt";
 desc_dialup = "Internet tárcsázó";
 desc_shaping = "<span style='position: relative; top: -10px'>Internetgyorsítás forgalomszabályozás technológiával<br />&nbsp;&nbsp;(Traffic Shaping)</span>";
@@ -42,8 +45,11 @@ special_offer_winter = "Különleges kedvezmények a Téli Kiárusítás idején
 worldcup_sale = "Alkalmi ár a Világbajnokság idejére!"; / FIFA Soccer World Cup
 winter_sale = "Különleges kedvezmények a Téli Kiárusítás idején!"; / New Years Sale for China
 winter_sale_ext = "Meghosszabbítva január 28-ig - Köszönjük a támogatását!";
+
+/. Mean text styles, like `light font` (thin), or `bold font` (strong)
 style_light = "Világos";
 style_strong = "Erős";
+
 style_untranslated = "Lefordítatlan szöveg kiemelése";
 translation_settings = "Forditási Beállitások";
 translation_text1 = "Ez az oldal még nincs teljesen lefordítva!";
@@ -69,6 +75,11 @@ rwin_video_award2 = "Nyerje meg a <b>100</b> ingyenes cFosSpeed örök licenszt!
 social_networks = "Kérjük támogassa a társasági hálózatainkat.<br/>Lájkoljon Facebook-on, kövessen minket Twitter-en!";
 powered_by = "Üzemelteti a <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net webszerver</a>";
 word_follow = "Követés";
+
+/: https://www.cfos.de/ru/order/order.htm
+/. Used on a small label in corner of product's box image
+/. Try to keep string as narrow as possible. If phrase should be spanned on two lines
+/. (with `<br/>` tag in place of break), try to keep both lines of same length
 
 / download
 additional_downloads = "Kiegészítő letöltések";
@@ -147,6 +158,13 @@ sk_tutorial_text = "Hogyan készítse el saját cFos(Speed) skinjét";
 sk_tga = "TGA Skinek";
 sk_tga_text = "cFos(Speed) skin archívum TGA fájlokkal - szoftvereink korábbi verzióihoz";
 speed_text = "Gyorsabb internet forgalom szabályzással!";
+
+/. Do not translate or change `<span id=\"countdown\">00:00</span>` part.
+/. But you can move it around as whole freely
+
+/. Do not translate or change anything except `direct link` in <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direct link</b></a>` part.
+/. You can move it around as whole freely, though
+
 submit = "Elküld";
 transparent = "Átlátszó";
 updates = "Frissítések";
@@ -174,10 +192,12 @@ by_phone = "Telefonon is megrendelheti";
 buy_at = "Vásárlás";
 buy_now = "Megvásárolom most";
 conf_cc = "Hitelkártyás fizetés";
+
 /. Used before Credit Card number, like
 /= "Nr. 2661-4345-2456-1345"
 /. It should be replaced with preferred in your region format
 conf_cc_nr = "Kártyaszám";
+
 conf_check_cc = "Kérem ellenőrizze a bankkártya-adatokat";
 conf_check_order = "Ellenőrizze a megrendelést";
 conf_deliverer = "Címe";
@@ -195,6 +215,10 @@ conf_formerror_missing_entry = "Hiányzó mező!";
 conf_formerror_not_complete = "Hiányzó mező!  Hiányos a megrendelése ! Kérem lépjen vissza és töltse ki a hiányzó mezőket!";
 conf_fromerror_license = "Kérem lépjen vissza az előző oldalra, és olvassa el majd jelölje be a license egyezmént!";
 confident = "Az itt megadott adatokat bizalmasan kezeljük, és harmadik személynek nem adjuk ki";
+
+/. Used as part of phrase
+/= Your Order at www.cfos.de
+
 conf_moneybookers_trans = "Moneybookers átutalás";
 conf_moneybookers_text = "Kérjük adja meg nevét, mint a fizetés okát, a moneybookers mezőben";
 conf_name = "Kérem adja meg a nevét";
@@ -263,10 +287,14 @@ f_use_form_c = "Céges felhasználóként, kérjük használja a(z)";
 f_land = "Ország";
 f_license = "Licenc";
 f_moneybookers_text = "Kérjük a következő MoneyBookers számlára utalja az összeget:";
+
 /. Paymenth method — "Cash on Delivery"
 /. See http://en.wikipedia.org/wiki/Cash_on_delivery
 f_nachname = "Utánvét";
+
+/. Says that certain payment method available within Germany only
 f_nachname_text = "kizárólag Németországon belül, további postaköltséggel";
+
 f_name = "Név";
 f_alipay_text = "Kérem terhelje a vásárlás összegét a következő AliPay számlára：";
 f_optional = "opcionális";
@@ -276,7 +304,12 @@ for_business_users = "cégek számára";
 for_dos_w311_os2  = "DOS | OS/2 | Windows 3.x rendszerekhez";
 for_existing_users = "meglévő ügyfeleknek";
 form_subtitel_contact = "Elérhetőség";
+
+/. Title of form about user's order
+/. Also used as part of phrase
+/= Your Order at www.cfos.de
 form_subtitel_order = "Megrendelésem";
+
 form_subtitel_payment = "Hogyan szeretne fizetni?";
 form_title_c = "Megrendelőlap cégek számára";
 form_title_n = "Megrendelőlap magánszemélyek számára";
@@ -454,12 +487,15 @@ prio_ports = "A portok priorizálása";
 prio_programs = "Programok priorizálása";
 prio_protocols = "Forgalomszabályzási Protokol Priorítások";
 related_product = "Kapcsolódó termékek";
+
 /. Used in follwoing string:
 /= "Reviewed 4.5 / 5 stars by softpedia.com"
 review1 = "Tesztelt";
+
 /. Used in follwoing string:
 /= "Reviewed 4.5 / 5 stars by softpedia.com"
 review2 = "csillag által";
+
 rwin_now = "most RWIN Expansion-al!";
 rwin_results = "Lássa a lenyűgöző eredményeket!";
 share_cfosspeed = "Ossza meg a cFosSpeed-t";
@@ -500,6 +536,12 @@ pnet_after = "augusztus 7ig";
 pnet_wmi_add_p1 = "A <a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI Monitor</b></a> ingyenes bővítmény a cFos Personal Net-hez, ami információt ad az ön rendszeréről, pl.: kijelzi a CPU, GPU, hálózati használatokat, ping időt, stb. Ezeket a WMI értékeket bárhonnan elérhetjük.";
 pnet_wmi_add_p2 = "A <b>cFos WMI Monitor</b> segít a játékosoknak, tuningosoknak, zenészeknek, stb. hogy ellenőrízzék a különböző komponensek használatát mikor teljes képernyős alkalmazásokat futtatnak. A <b>cFos WMI Monitor</b> információk elérhetőek az ön számítógép böngészőjében és okostelefonján.";
 pnet_wmi_explain = "Mi az a cFos WMI Monitor?";
+
+/. Don't translate the "Publish with..." part
+
+
+/. Don't translate the "Publish" and "Upload..." parts
+
 pnet_doc_a1 = "Áttekintés";
 pnet_doc_a2 = "Alapvető beállítás";
 pnet_doc_a3 = "További beállítások";
@@ -519,14 +561,20 @@ pnet_wmi_p3 = "Letöltése és telepítése <a class=\"inline\" href=\"/en/downl
 pnet_wmi_p4 = "Hogy mások ne férjenek hozzá az ön WMI adataihoz, a cFos WMI Monitor-nak szükség van egy HTTP alapú személy azonosításra. Önnek létre kell hozni egy felhasználót, egy <b>admin</b>-t a cFos PNet-ben. Ön ezt újra beállíthatja. Vagy ön létrehozhat egy új felhasználót, például egyet WMI-hez, amit megnyithat <em>/users/index.htm</em> adminként.";
 pnet_wmi_p5 = "Ehhez ajánljuk a cFos WMI Monitor telepítését";
 pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, a mi internet gyorsítónk tartalmaz WMI értékeket az netes kapcsolatunkról:";
+
 /. RX stands for `receive` (incoming/download)
 pnet_wmi_l1a = "teljes RX sebesség";
+
 /. TX stands for `transmit` (outgoing/upload)
 pnet_wmi_l1b = "teljes TX sebesség";
+
 pnet_wmi_l1c = "ping idő";
 pnet_wmi_l1d = "TCP/UDP kapcsolat érték";
+
 /. Means `RX (`receive`/incoming/download) characters per second`
+
 /. Means `TX (`transmit`/outgoing/upload) characters per second sent`
+
 pnet_wmi_l1g = "Ezek az értékek a jelenlegi valós Internet kapcsolatáról tájékoztatnak.<br/>Windows WMI értékek a jelenlegi valós hálózati kártyájáról tájékoztatnak, beleértve a helyi és Internet hálózatot. Ön be tudja állítani melyik értékeket mutassa a cFosSpeed kijelzőjén.";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Open Hardware Monitor</b></a>. Ez is egy beépített WMI-szolgáltató, amely képes megjeleníteni nagyon hasznos hardver értékeket, mint például a";
 pnet_wmi_l2a = "CPU használat és hőmérséklet";
@@ -552,17 +600,39 @@ pnet_doc_dav_p6 = "<a class=\"inline\" href=\"/en/cfos-outlook-dav/cfos-outlook-
 pnet_doc_media_p2a = "A fő könyvtár a médiák számára (zenék, videók, képek) alapértelmezetten a <em>pub</em>\\<em>media</em> könyvtárban található. Ezt meg tudja változtatni a <b>media_dir=&lt;directory&gt;</b> kulcs segítségével a GLOBAL.INI fájlban, a <b>[param]</b> szekció alatt. Ez a mappa, alkönyvtára kell hogy legyen a <em>pub</em> mappának.";
 pnet_doc_media_p2b = "A cFos Personal Net is használja a média mappa nevét. Emiatt, hogy hozzáférjen az elérési útjához a különböző médiáknak, hozzáad egy <b>.enc</b> végződést a mappa nevéhez. Példaképpen: <em>\\media\\...</em> átalakúl <em>\\media.enc\\...</em> formátumra. Ezért, kérjük ne használja a <em>\\media.enc</em> könyvtárnevet.";
 pnet_doc_media_p2c = "A cFos Personal Net most ellenőrzi a média könyvtárat és almappáit a HTTP hitelesítési beállításokkal. Csak azok a fájlok és mappák nevei lesznek feldolgozva, amik korlátlan hozzáféréssel érhetők el a HTTP GET módszerrel. Amikor engedélyezi az UPnP média szervert, a cFos Personal Net automatikusan megnyitja az <b>1900-as portot UDP</b>-n és a <b>2869-es portot TCP</b>-n (ezek az alapértelmezett UPnP portok) a Windows Tűzfalban.";
+pnet_doc_setup_h3 = "Felhasználó-kezelés";
+pnet_doc_setup_p8 = "A cFos Pnet alapértelmezett felhasználókezelést is tartalmaz. A telepítõ létrehoz egy <em>/users/admin</em> könyvtárat a <em>pub</em> könyvtárban. Az új felhasználók egy <em>profile.txt</em> nevû konfigurációs fájlt kapnak a saját <em>/users/<username></em> felhasználói könyvtárukban. Ezen kívül egy <em>/private/<username></em> könyvtárat is kapnak.<br/>Így ha egy fájlt csak egy bizonyos felhasználóval szeretne megosztani, másolja azt át az Õ <em>/private/<username></em> könyvtárába a <em>pub</em> könyvtár helyett. Az <em>.htaccess</em> konfiguráció így csak akkor enged hozzáférést a fájlhoz, ha a felhasználó megadta a nevét és jelszavát. A felhasználó fel is tölthet a saját könyvtárába (a megfelelõ jelszó megadása után). Készíthet és törölhet felhasználókat, és beállíthatja a jelszavukat, ha a <b>/users/index.htm</b> -t \"admin\"-ként használja.";
+pnet_doc_access_title = "További konfiguráció AccessFiles-el (<em>.htaccess</em>)";
+pnet_doc_access_p1 = "A cFos PNet kiértékeli az AccessFiles nevû konfigurációs fájlokat. Alapértelmezésben a nevük <em>.htaccess</em>. Az itt található úgynevezett direktívák határozzák meg a cFos PNet viselkedését az adott könyvtárra (és annak összes alkönyvtáraira) vonatkozóan amelyben megtalálhatóak. Az elsõ <em>.htaccess</em> fájl a <em>private</em> könyvtárban található, és ez tartalmazza az összes alapvetõ beállítást. Ha a kliens lekér egy meghatározott url-t, mondjuk <b>/test/x/file1.txt</b>, az összes könyvtárhoz tartozó összes <em>.htaccess</em> kiértékeli amelyre az url hivatkozik. Ebben a példában elõször a <em>private</em> könyvtárban található <em>.htaccess</em> lesz kiértékelve, majd a <em>pub</em> könyvtár <em>.htaccess</em> -e, majd a <em>test</em> könyvtáré, majd az <em>x</em> könyvtár <em>.htaccess</em> fájlja.<br/>Az összes direktíva kumulatív, azaz összeadódnak, vagy felülírják, de nem törlik egymást.";
+pnet_doc_access_p2 = "Az a szándék a kumulatív konfiguráció mögött, hogy megadja az alapvetõ konfigurációt, majd hozzáférést biztosít a felhasználóknak a <em>pub</em> könyvtár alatti könyvtárakhoz. Például, létrehozhatna egy <em>limited</em> nevû könyvtárat a <em>pub</em> alatt, majd egy korlátozott felhasználónak hozzáférést adna ehhez a könyvtárhoz, hogy ott fájlokat tegyen közzé. Ez a felhasználó létrehozhatja a saját <em>.htaccess</em> fájlját, de korlátozva volna az alapvetõ beállításokkal, melyet elõzetesen Ön a <em>private</em> és/vagy <em>pub</em> -ban konfigurált.";
+pnet_doc_access_p3 = "A web-en sok jó bemutatót talál a <em>.htaccess</em> fájlokhoz, így itt rövidek leszünk.<br/><br/><b class=\"green\">Az alábbi direktívák támogatottak:</b>";
+pnet_doc_access_h3 = "Rewrite engine";
+pnet_doc_access_p4 = "Rewrite engine-eket arra használják, hogy megváltoztassák a HTTP kérelem részeit, mielõtt az adott kérelmet végrehajtja a szerver. A cFos PNet-nek egy JavaScript alapú rewrite engine-je van, amely olyan erõs, hogy egy egész saját Javascript http szervert létrehozhat. A HTTP kérelem bármely részét módosíthatja vagy akár az egész kérelmet a saját Javascript-jével kezelheti. Az aktiváláshoz használja a <br/><br/>RewriteScript <b>&lt;script-file&gt;</b> direktívát.<br/><br/>Lásd a <em>rewrite_doc.txt</em>-t a részletes dokumentációhoz.";
+pnet_doc_stages_head_ok = "cFos Personal Net csatlakozás ellenõrzés: <b class=\"green\">Sikerült!</b>";
+pnet_doc_stages_head_err = "cFos Personal Net csatlakozás ellenõrzés: <b class=\"red\">Sikertelen!</b>";
+pnet_doc_stage1_ok = "cFos Personal Net elérhetõ volt <b>localhost</b> -ként. A cfospnet.exe is fut és a <b id=\"stage1_ok_port\"></b> szerver port elérhetõ.";
+pnet_doc_stage1_err = "cFos Personal Net nem volt elérhetõ <b>localhost</b>-ként. Vagy nem fut a cfospnet.exe vagy a <b class=\"red\" id=\"stage1_err_port\"></b> szerver port nem elérhetõ, vagy egy másik program használja.";
+pnet_doc_stage2_ok = "cFos Personal Net elérhetõ volt az Ön helyi hálózatán a <b>helyi IP címen</b> és szerver porton <b id=\"stage2_ok_port\"></b>. A tûzfal szoftvere átengedi HTTP kérelmeket a számítógépére.";
+pnet_doc_stage2_err = "cFos Personal Net nem volt elérhetõ a helyi IP címen. Lehet, hogy a tûzfal blokkolja a számítógépére, avgy szerver portjára érkezõ HTTP kérelmeket <b class=\"red\" id=\"stage2_err_port\"></b>.";
+pnet_doc_stage3_ok = "cFos Personal Net elérhetõ volt a nyilvános <b>Internet</b> felé. A NAT port továbbítás a routerén látszólag a HTTP kérelmeket a számítógépe <b id=\"stage3_ok_port\"></b> portjára irányítja.";
+pnet_doc_stage3_err = "cFos Personal Net nem volt elérhetõ a nyilvános <b>Internet</b> felé. Vagy a NAT port továbbítás nincs beállítva a routerén hogy átirányítsa a HTTP kérvényeket a <b class=\"red\" id=\"stage3_err_port\"></b> portra a számítógépén vagy a tûzfal(talán a routerében) blokkolja a nyilvános Internetrõl érkezõ HTTP kérvényeket.";
+pnet_doc_stages_winhttp_err = "HTTP GET meghiúsult";
 pnet_doc_stages_server = "HTTP elfogadva, de másik szerverhez csatlakozott.";
 pnet_doc_router_title = "Tedd a cFos Personal Net-et kívülrõl elérhetõvé.";
 pnet_doc_router_p1 = "A legtöbb internet felhasználó napjainkban nem használ publikus internetcímeket közvetlenül. Ehelyett van nekik egy telepített router, ami lefordítja a publikus internetcímeket azokra a címekre, amit a helyi hálózatukban használnak. Így mikor a felhasználó egy kapcsolatot kezdeményez a külvilággal, a router automatikusan beállítja az ideiglenes térképet a privát cím és a port és a publikus cím között. De mikor a felhasználó kívülrõl éri el a routert (és a helyi hálózatot) a router nem tudja, melyik számítógép továbbítja a hálózatban a \"hívást\".";
 pnet_doc_router_p2 = "Tehát be kell állítanod a NAT port forwarding-ot a routeredben a cFos Personal NET-nek. Menj a routered beállításaiba és keresd meg a NAT beállítást, NAT port forwarding-ot, NAT szabályokat vagy hasonlót. Aztán add hozzá szabályként a TCP kapcsolatokhoz a 80-as portot (HTTP-hez és 443-at HTTPS-hez), ezek a portok, amelyeken a cFos Personal Net fut az számítógépeden.";
+pnet_doc_router_a1 = "<b>Port továbbítás beállításához tanácsokat</b> talál különbözõ routerekhez <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>itt</b></a>.";
 pnet_doc_router_p3 = "Ezenfelül még ellenõrizned kell, hogy a forgalom eljut-e a cFos Personal Net-hez a tûzfalon keresztül. cFos Personal Net automatikusan meg tudja nyitni a 80-as portot a Windows tûzfalon keresztül, de egyéb tûzfal/vírusirtókon nem tudja. Több router rendelkezik saját tûzfallal még. Kérlek, engedélyezd a TCP forgalmat a 80-as porton (és talán a 443-on) hogy elérd a cFos Personal Net-et.";
 pnet_doc_router_p4 = "Állítsd be a számítógépen a helyi címet <b>192.168.2.122</b>-ra. Aztán egy NAT szabályban kell engedélyezned az összes TCP forgalmat a 80-as porton keresztül a <b>192.168.2.122:80</b>-ra menni. Meg tudod nézni a további cFos Personal Net beállításokat:";
 pnet_doc_router_l1 = "Indítsd el a böngészõd és gépeld be <b>http://localhost</b><br/> , ha látod a cFos Personal Net weblapot, akkor a cFos Personal Net alapvetõen mûködik.";
 pnet_doc_router_l2 = "Gépeld be a <b>http://192.168.2.122</b> címet (a helyi hálózata a számítógépnek, amin a cFos Personal Net mûködik) a böngészõdbe. Ezt csinálva megnyitod a kapcsolatot a routeren keresztül. Ha látod a cFos Personal Net weblapot, akkor a tûzfalak a Windowsban engedélyezik a forgalmat a cFos Personal Net-nek.";
 pnet_doc_router_l3 = "Most keresd meg a publikus IP címed (ezt meg tudod tenni a cfos.de weblapjának közepén) és gépeld ezt be a böngészõdbe, például: <b>http://217.23.123.7</b>. Ezzel tudod tesztelni a routered tûzfalában a NAT port forwardingot. Ha nem látod a cFos Personal Net weboldalát, nézd meg a routered dokumentációjában, hogy miképp tudod benne konfigurálni a NAT port forwardingot.";
 pnet_doc_script_p1 = "A cFos Personal Net támogatja a szkriptelést a Common Gateway Interface-en (CGI) keresztül vagy a beépített szkriptelést JavaScriptben (vagy támogat egyéb nyelveket is, melyek a Windows Scripting Host-ban vannak, mint pl. ActivePerl, ActivePython, stb.).";
+
+/: http://www.cfos.de/en/cfos-personal-net/documentation/scripting.htm
+/. Do not translate variable names (`REMOTE_USER`, etc.)
 pnet_doc_script_p2 = "CGI változatok  tartalmazzák azokat a változókat, amik magukban hordozzák az információkat az aktuális HTTP lekérésben. A cFos PNet beállítja ezeket a változókat mielõtt ezek a szkriptek végrehajtódnának: <br/><br/><b>REMOTE_USER</b>, <b>AUTH_TYPE</b>, <b>SERVER_SOFTWARE</b>, <b>SERVER_PROTOCOL</b>, <b>GATEWAY_INTERFACE</b>, <b>DOCUMENT_ROOT</b>, <b>CONTENT_LENGTH</b>, <b>CONTENT_TYPE</b>, <b>REMOTE_ADDR</b>, <b>REMOTE_PORT</b>, <b>SERVER_NAME</b>, <b>SERVER_PORT</b>, <b>REQUEST_METHOD</b>, <b>QUERY_STRING</b>, <b>REMOTE_HOST</b>, <b>PATH_TRANSLATED</b>, <b>SCRIPT_NAME</b> és az összes névvel rendelkezõ HTTP fejet <b>&lt;xxx&gt;</b> ,mint <b>HTTP_XXX</b>.";
+
 pnet_doc_script_p3 = "Összegzésben, ez beállítja a következõ környezeti változókat:";
 pnet_doc_script_p4 = "Az összes ilyen CGI szkript vagy JavaScript (JavaScriptben a cFos PNet web szerver objektumának van egy metódusa <b>environment_var(name)</b> felfedezni ezeket a környezeti változókat) elérhetõ.";
 pnet_doc_script_p5 = "Ha a \"JavaScript\"-et említjük, mi aktuálisan a Windows Scripting Host-ban telepített Javascript-re vagy egyéb ott installált nyelvre gondolunk.";
@@ -592,9 +662,13 @@ pnet_doc_scripts_p4 = "A szkriptek a következõket hajtják végre a hitelesít
 pnet_doc_scripts_p4a = "A szkriptek egy hitelesítést kérnek, a <em>.htaccess</em> beállítások szerint. Így kell neked egy megfelelõ felhasználói meghatalmazás a felhasználónak, hogy melyik mappa tartozik hozzá.";
 pnet_doc_scripts_p5 = "Itt egy rövid leírása a szkripteknek. Neked javallott lenne megnézned a forráskódot, hogyan mûködnek ezek.";
 pnet_doc_scripts_p6 = "Ha a kért könyvtárban nincs <em>index.htm</em> vagy <em>index.html</em> fájl, a cFos PNet ezt a szkriptet indítja el a könyvtárlista létrehozására.<br/> A szkript a FileSystemObject objektumot használja az aktuális könyvtár adatainak begyűjtésére. Ezt követően betölt egy XML sablonfájlt, feldolgozza, majd a könyvár tartalmából és az XML részletekből létrehoz egy HTML oldalt. A könyvtárlista megjelnése és funkciói az XML sablon szerkesztésével módosíthatók. A létrejövő HTML fájl tartalmazza az alapvető fájlkezelő-funkciók hivatkozásait. Rendszergazdaként HTTP-hitelesítéssel bejelentkezve fájlokat vagy mappákat nevezhet át, törölheti azokat, fájlokat tölthet fel és új mappákat is létrehozhat. Az ügyféloldalon ezt jQuery valósítja meg, amely tulajdonképpen arra való, hogy Ajax kéréseket küldjön a cFos PNet számára. A szerveroldalon a szükséges HTTP-hitelesítést és a fájlműveleteket a <em>file_op.jss</em> szkript kezeli.";
+
+/: http://www.cfos.de/en/cfos-personal-net/documentation/standard-scripts.htm
+/. Do not translate operations' names like `rename`, `delete`, `mkdir`, etc., since those are console commands
 pnet_doc_scripts_p7 = "A fentieknek megfelelő fájlműveleteket végez. A fájlműveletek: <b>rename</b> (átnevezés), <b>delete</b> (törlés), <b>mkdir</b> (könyvtár létrehozása) és a feltöltés. A feltöltéshez általában hitelesítés szükséges. Mivel a böngésző előbb mindig a teljes fájlt küldi el a szerverre, majd aztán szerzi be a hitelesítési adatokat, ez azt jelentené, hogy kétszer küldi el a fájlt. A <em>file_op.jss</em> azért, hogy előbb adja meg a böngészőnek a hitelesítési adatokat, támogat egy feltöltést megelőző műveletet is. A böngésző egy Ajax kéréssel HTTP-hitelesítési választ (401) kér, majd automatikusan alkalmazza azt az aktuális feltöltésre. A feltöltést az <em>upload.jss</em> fájl egyik függvénye kezeli, amely a cFos PNet fájl objektumát használja a különböző méretű fájlok feltöltésére.";
 pnet_doc_scripts_p8 = "Alapvető felhasználókezelő műveleteket végez: <b>create</b> (létrehozás), <b>delete</b> (törlés), <b>reset password</b> (jelszó visszaállítása) és <b>list</b> (listázás). Ezekhez rendszergazdai (admin) jogosultság szükséges.";
 pnet_doc_scripts_p9 = "Mivel a kivonatlisták fontos szerepet játszanak a cFos PNet-nél, a <em>list_op.jss</em> alapvető listaműveleteket biztosít az Ajax-kérésekhez. A fentiekben leírt hitelesítési folyamat zajlik le. Azaz: A parancsfájl helyétől függően kiválasztásra kerül a hitelesítést igénylő felhasználó. A hitelesítés a megfelelő <em>.htaccess</em> fájl direktíváknak megfelelően zajlik. A <em>list_op.jss</em> a következő műveleteket teszi lehetővé:<br/><br/><b>get</b> Kiolvassa a kivonatlista egy értéklistáját.<br/><b>set</b> Kulcslistát állít be egy értéklistához.<br/><b>save</b> Lemezre ment egy pillanatképet.<br/><b>erase</b> Töröl egy kulcslistát.<br/><b>clear</b> Minden kulcsot töröl.<br/><b>remove</b> Törli a listát a memóriából / lemezről.<br/><b>size</b> Visszaadja a lista méretét.<br/><b>list</b> Megjeleníti a kivonatlista minden elemét.<br/><br/>A <em>dyndns.htm</em> fájlban lévő Ajax ezeket a műveleteket használja a DynDNS beállításainak megadására.";
+
 pnet_doc_scripts_p10 = "DynDNS regisztrációt végez, illetve megszünteti azt a magán mappában lévő <em>dyndns.txt</em> fájl konfigurációs beállításainak felhasználásával.<br/>Szerverindításnál és -leállításnál használható (lásd az 1. fejezetet).";
 pnet_doc_scripts_p11 = "Az aktuális HTTP-kapcsolatok megjelenítésére szolgál. A HTTP TCP protokollon keresztül zajlik. A HTTP-kérések gyorsítására a böngészők megpróbálják újra felhasználni a HTTP-kérések TCP kapcsolatait. A tényleges HTTP-kérés csak egy rövid üzenet és válasz. Ezt követően a böngésző néhány másodpercen belül lezárja a TCP kapcsolatot. Így lehet, hogy egy felhasználó csak néhány másodpercig látható. Ha a hitelesítés sikeres volt, megérkezik a felhasználó neve is az IP-címével együtt.";
 pnet_doc_scripts_p12 = "Mivel a webgazdának mindig problémát jelent a képek weboldalon használt méretűre történő átméretezése, létrehoztunk egy kis szkriptet, amely a cFos PNet képobjektumát használja (GDI+). Ennek paraméterei az URL karakterláncában a <b>w</b> (width – szélesség) és a <b>h</b> (height – magasság). Ha képek különböző méretűek, a képarány megőrzése érdekében érdemes csak az egyik paramétert használni. A <em>makedir2.jss</em> az aktuális mappában tárolt képek bélyegképeinek megjelenítéséhez erre a parancsprogramra hivatkozik.";
@@ -607,7 +681,10 @@ pnet_doc_misc_p4a = "Abban az esetben, ha módosítania kell tanúsítványait, 
 pnet_doc_misc_p5 = "Meglévő SSL-tanúsítvány használatához annak Windows-kompatibilis formátumúnak kell lennie. Például ha Unix rendszerről származó tanúsítványa van, az lehet .PEM fájl. Az OpenSSL-t letöltve azt az alább paranccsal konvertálhatja át:";
 pnet_doc_misc_p5a = "ebben a <em>sajáttanúsítvány.cer</em> az Ön tanúsítványa, míg a <em>ca1.cer</em>, <em>ca2.cer</em> (<em>ca3.cer</em> stb.) 2 köztes hitelesítésszolgáltatói (CA) tanúsítvány, amelyek a tanúsítványlánchoz szükségesek.";
 pnet_doc_misc_p6 = "<em>sajáttanúsítvány.cer</em> fájlnak X.509 formátumúnak kell lennie. Az OpenSSL használatával szükség esetén X.509 formátumúra alakíthatja  Az eredményként létrejövő <em>sajáttanúsítvány.pfx</em> a Windows által értelmezhető pkcs#12 formátumú.";
+
+/. Explanation of `snap-in`: http://en.wikipedia.org/wiki/Microsoft_Management_Console
 pnet_doc_misc_l1 = "Majd indítsa el az MMC-t, Fájl -> Beépülő modul hozzáadás/eltávolítása -> Tanúsítványok -> Számítógépfiók -> Helyi számítógép, majd: \"Személyes tanúsítványok megtekintése\", ahol megtekintheti a tanúsítványokat. Kattintás a jobb egérgombbal -> Minden feladat -> Importálás és exportálás <em>sajáttanúsítvány.pfx</em>.";
+
 pnet_doc_misc_l1a = "Lehetséges, hogy a tanúsítványokat importálnia kell a „Közbenső szintű hitelesítésszolgáltatók -> Tanúsítványok” közé. Máskülönben a megbízhatósági láncot a szerver nem továbbítja, lásd: <a class=\"inline\" href=\"http://support.microsoft.com/kb/954755\">http://support.microsoft.com/kb/954755</a>";
 pnet_doc_misc_l2 = "Tekintse meg az importált tanúsítvány ujjlenyomatát, és adja ki a következő parancsot:<br/><br/>netsh http add sslcert ipport=0.0.0.0:443 certhash=<b>&lt;tanúsítványkivonat&gt;</b> appid={a227f2f9-d103-4e0f-92a4-7086c8ab35ac}.<br/><br/> A <b>&lt;tanúsítványkivonat&gt;</b> helyére a szóközök nélküli ujjlenyomatot kell megadni.";
 pnet_doc_misc_p7 = "IPv6 esetén a netsh parancs <b>ipport</b> paramétere a következő kell, hogy legyen: <b>ipport=[::]:443</b>.";
@@ -618,41 +695,118 @@ pnet_doc_misc_l4 = "A PHP szkripteket tartalmazó mappákban szerkessze a <em>.h
 pnet_doc_misc_l5 = "Ellenőrizze valamennyi Perl szkriptet, hogy tartalmazzák-e a megfelelő értelmezősorokat. CGI szkriptekben az első sor értesíti a webszervert, hogy hol találja a szkript értelmezőjét. UNIX alatt a <em>Perl</em> gyakran a <em>/usr/bin</em> útvonalon található. Tehát valamennyi Perl szkriptben módosítsa az értelmezőt (a „<b>!</b>” utáni karaktert) a következőre:<br/><b>#! /usr/bin/perl</b><br/>to<br/><b>#! c:\\perl\\perl.exe</b><br/>feltételezve, hogy a Perl telepítési mappája <em>c:\\perl</em>.";
 pnet_doc_misc_l6 = "Állítsa be a sendmailt. cFos PNet-hez tartozik egy kis <em>sendmail.exe</em> fájl, amely UNIX-stílusú levélküldést tesz lehetővé. Ez a cFos PNet <em>GLOBAL.INI</em> fájljában meghatározott SMTP-paramétereket használja, és a levelet az <b>stdin</b> bemenetről fogadja szövegként. Keresse meg Perl szkriptjeiben a sendmail-hívásokat, és cserélje le azokat a cFos PNet <em>sendmail.exe</em> fájljára.<br/>Például cserélje az<br/><b>open (MAIL, \"|/usr/bin/sendmail -t -i -oi\");</b><br/> hívást a következőre:<br/><b>open (MAIL, \"|c:\\\\program files\\\\cfos\\\\cfospnet\\\\sendmail.exe -t -i -oi\");</b><br/>ahol a <em>c:\\program files\\cfos\\cfospnet</em> a  cFos PNet  telepítési mappája.";
 pnet_doc_misc_h2 = "cFos Personal Net használata PHP szkriptekkel";
+pnet_doc_misc_h2_v2 = "cFos Personal Net PHP-el és MySQL-el";
 pnet_doc_misc_p9 = "A cFos PNet szerverben a PHP szkriptek használata 4 lépésben állítható be:";
 pnet_doc_misc_l8 = "A <a class=\"inline\" href=\"http://windows.php.net/download/\">http://windows.php.net/download/</a> oldalról ZIP-fájlként töltse le a szálbiztos bináris állományokat. Tömörítse ki egy tetszőleges mappába, pl.: <em>c:\\php</em>.";
 pnet_doc_misc_l9 = "A PHP mappában nevezze át a <em>php.ini-production</em> fájlt a következőre: <em>php.ini</em>, majd szerkessze azt:";
 pnet_doc_misc_l9a = "Állítsa be a sendmailt. cFos PNet-hez tartozik egy kis <em>sendmail.exe</em> fájl, amely UNIX-stílusú levélküldést tesz lehetővé. Távolítsa el a <b>sendmail_path</b> „<b>;</b>” megjegyzését, és módosítsa ezt a sort a következőre:<br/> <b>sendmail_path=c:\\\\program files\\\\cfos\\\\cfospnet\\\\sendmail.exe</b><br/>feltételezve, hogy a <em>c:\\program files\\cfos\\cfospnet</em> a cFos PNet telepítési mappája.<br/>Ehelyett használhatja a <b>PHP beépített levélküldő funkcióit</b> is.";
 pnet_doc_misc_l9b = "A PHP szkripttől függően lehet, hogy be kell állítania a <b>document_root</b> helyét is. Ez alaphelyzetben: <em>c:\\programdata\\cfos\\cfospnet\\pub</em>";
+pnet_doc_misc_l9b_v2 = "Ha a PHP script-jei a nyilvános könyvtárat használják, mint a <b>document_root</b>, elõfordulhat hogy konfigurálnia kell azt. Alapértelmezésként c:\\programdata\\cfos\\cfospnet\\pub.";
 pnet_doc_misc_l9c = "Adjon egy \"<b>E</b>\" betűt a <b>variables_order</b> változóhoz, pl.: <b>variables_order = \"EGPCS\"</b>.";
 pnet_doc_misc_l10 = "Megadja a cFos PNet-nek a PHP értelmező helyét azzal, hogy hozzáadja a <b>php_interpreter</b> kulcsot a <em>c:\\programdata\\cfos\\cfospnet</em> elérési útvonalon található <em>GLOBAL.INI</em> <b>[param]</b> szakaszához pl.:<br/><b>php_interpreter=c:\\php\\php-cgi.exe</b><br/>Itt meg kell adnia a PHP CGI verzióját.";
+pnet_doc_misc_l11 = "Szerkessze a <em>.htaccess</em> fájlt azokban a könyvtárakban ahol a PHP script-jei vannak. Vagy, a PHP script-ek globális engedélyezéséhez szerkessze a dokumentum gyökérkönyvtárban vagy a <em>c:\\programdata\\cfos\\cfospnet\\private</em>-ban levõ <em>.htaccess</em> fájlt. Adja hozzá a következõ direktívát:<br/><b>AddHandler php-script php</b>";
 share_cfospnet = "cFos PNet megosztása";
+pnet_doc_languages_h1 = "cFos Personal Net WordPress-el";
+pnet_doc_languages_l1 = "Töltse le és telepítse MySQL-t és PHP-t.";
+pnet_doc_languages_l2 = "WordPress adatbázis konfigurálása:";
+pnet_doc_languages_l2a = "Keresse meg a <em>mysql.exe</em>-t a számítógépén és futtassa <br/>> mysql.exe -u <b>admin_felhasználónév</b> -p<br/>Enter <b>admin_jelszó</b>-val.";
+pnet_doc_languages_l2b = "Majd adja ki az alábbi parancsokat:<br/>CREATE DATABASE <b>pnet_wordpress_db</b>;<br/>GRANT ALL PRIVILEGES ON <b>pnet_wordpress_db</b>.* TO \"<b>wordpress_felhasználónév</b>\"@\"localhost\" IDENTIFIED BY \"<b>wordpress_jelszó</b>\"; FLUSH PRIVILEGES; EXIT;";
+pnet_doc_languages_l2c = "Ezt az adatbázist kitörölheti a mysql.exe-vel és a következõ paranccsal DROP DATABASE <b>pnet_wordpress_db</b>;.";
+pnet_doc_languages_l3 = "Készítsen egy alkönyvtárat a pnet <em>pub</em> könyvtárfájában és másolja oda a WordPress-t zip archívumból.";
+pnet_doc_languages_l4 = "Indítsa el a pnet-et és futtassa a WordPress telepítõ script-jét a böngészõjébõl:<br/>http://localhost/<b>az_Ön_wordpress_alkönyvtára</b>/wp-admin/install.php<br/> majd használja a <b>pnet_wordpress_db</b>, <b>wordpress_felhasználónév</b> és <b>wordpress_jelszó</b>-t hogy megadja mely adatbázist használja a WordPress.";
+pnet_doc_languages_l5 = "Töltse le és telepítse a MySQL-t (pl. Community Edition, telepítse \"Server Only\"-ként), konfiguráljon egy további felhasználót (esetleg db admin jogokkal).";
+pnet_doc_languages_l6 = "A <em>php.ini</em>-ben Windows Extensions alatt törölje a comment jelet a<br/><b>;extension=php_mysqli.dll</b><br/> elõl és változtassa meg<br/><b>extension=ext/php_mysqli.dll</b>-ra.";
 
 / cFos Outlook DAV
+cfout_h1_v2 = "Outlook naptára, feladatai és névjegyei felhõ szinkronizációja";
 cfout_p1a = "A cFos Outlook DAV egy Outlook kiegészítő, ami összekapcsolja a naptár mappáját a CalDAV/CardDAV szerverrel a felhőben.";
+cfout_p1a2 = "Otthoni tárolású megoldásokhoz próbálja ki a <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\"><b>cFos Personal Net's</b></a> CalDAV/CardDAV szolgáltatásait. ";
 cfout_p1b = "A jelenlegi <b>ingyenes</b>, kiadás előtti változat <b>2013 December 31</b>-ig érhető el.";
+cfout_p1b_v2 = "A jelenlegi <b>ingyenes</b> elõ-kiadás <b>2014. Február 28</b>-ig fut.";
+cfout_p1b_v3 = "A jelenlegi <b>ingyenes</b> elõ-kiadás <b>2014. Június 1</b>-ig fut.";
+cfout_p1b_v4 = "A jelenlegi <b>ingyenes</b> kiadás <b>2015. június 1</b>-ig fut.";
+cfout_p1b_v5 = "A jelenlegi <b>ingyenes</b> kiadás <b>2015. December 31</b>-ig fut.";
+cfout_p1b_v6 = "A jelenlegi <b>ingyenes</b> kiadás <b>2016. Március 31</b>-ig fut.";
+cfout_p1b_v7 = "A jelenlegi <b>ingyenes</b> kiadás <b id=\"expire_date\">2016. Június 30</b>-ig fut.";
 cfout_p1c = "A jelenlegi, kiadás előtti változat még nem támogatja a csatolmányokat a naptári eseményekhez.";
+cfout_p1d = "A végleges verzió körülbelül 10 Euro-ért lesz elérhetõ.";
+cfout_p1e = "Vagy <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>itt vásárolhat korlátlan licencet</b></a>.";
+cfout_p1f = "Idõkorlát nélküli verzió kereskedelmi felhasználóknak kérésre:";
 cfout_a1 = "cFos Outlook DAV letöltése";
 cfout_h2 = "Hogyan kell beállítani a cFos Outlook DAV-ot";
 cfout_l1 = "Futtassa a cFos Outlook DAV telepítőt, hogy hozzáadhassa, mint Outlook kiegészítő. Le lett tesztelve az Outlook 2013-al, de működnie kell az Outlook 2010-el is.";
 cfout_l2_v2 = "Indítsa el az Outlook-ot, majd hozzon létre egy új naptár mappát. Ezután kattintson jobb egérgombbal ezen a mappán, és válassza a \"Sync with CalDAV\"-ot. Most már beállíthatja a mappát, ha rajta jobb egérkattintás után kiválasztja a \"Config CalDAV Sync\"-et.";
 cfout_l2a = "További információkért, érdemes egy pillantást vetnie a honlapunkon található <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>részletesen illusztrált bemutatónkra</b></a>.";
 cfout_l3 = "Miután létrehozta a mappát, kérjük indítsa újra az Outlook-ot. Most egy kis beállító párbeszédablak fog felugrani. Ezután, válassza azt a beállítást, amely megfelelő önnek az újonnan létrehozott Outlook mappához, majd adja meg az ön CalDAV calendar szerver URL címét, felhasználónevét és jelszavát. A szinkronizálás gyakoriságát is megadhatja itt. A beállítások után, indítsa újra még egyszer az Outlook-ot a változások érvényesítéséhez!";
+cfout_l4_v2 = "Feladatok és névjegyek szinkronizációja pontosan úgy mûködik, mint a találkozók szinkronizációja. Kattintson jobb gombbal a feladatok könyvtárra és konfigurálja az URL-t és a felhasználó nevet/jelszót mint a találkozóknál. Használhatja ugyanazt az URL-t, felhasználó nevet/jelszót mint a találkozóknál. Azonban, feladatoknál ez nem mûködik a Google-el (lásd alább).";
 cfout_p2 = "A <b class=\"green\">cFos Personal Net</b>-hez a CalDAV/CardDAV URL a következő: \"http://<b>hálózati_tartománya</b>/private/<b>felhasználói_neve</b>/caldav_personal\", ahol a <b>hálózati_tartománya</b> az a tartományi név, vagy az IP címe a cFos Personal Net server-nek, ahol a szerver található. <b>felhasználói_neve</b> az a név, akié a naptár. Pl.: <b>admin</b>.";
 cfout_p3a = "A <b class=\"green\">Google Calendar</b>-hoz az URL a következő: \"https://www.google.com/calendar/dav/<b>google_calendar_azonosítója</b>/events\" (bizonyosodjon meg róla, hogy az URL a \"https\" címet használja, mert a \"http\" cím nem támogatott). A <b>google_calendar_azonosítója</b> az elsődleges naptárjához tartozó Google e-mail címe. Előfordulhat, hogy az összes többi naptárnak az azonosítója a következőképpen néz ki: <b>[hosszú_karaktersorozat]@group.calendar.google.com</b>.";
 cfout_p3b = "Megtekintheti a naptári azonosítóját a calendar.google.com oldalon, ha rákattint a \"lefelé\" nyílra a naptára mellett, és kiválasztja a \"Naptár beállítások\"-at (\"Calendar settings\").";
 cfout_p3c = "Ahogyan a felhasználó nevét és jelszavát használja a hasonló információknál, a többi Google szolgáltatásoknál.";
 cfout_p3d = "További információkért, érdemes egy pillantást vetnie a honlapunkon található <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1371473212/0#0\"><b>részletesen illusztrált bemutatónkra</b></a>.";
 cfout_p3e = "<b class=\"green\">Szinkronizáció feladatok</b> a Google naptárral: A Google naptár nem támogatja a CalDAV-feladatokat és ezen kívül a feladatoknak (az API Google naptárral) a Google-nál csak kevés funkció van az Outlook-hoz képest. Ezért az Outook szinkronizáció-feladatok nem ajánlható Google feladatokkal. A következők a Google időpontoknál jönnek. Ezért menti a cFos Outlook DAV az Outlook feladatokat időpontokként, ha ezeket Google szerverrel szinkronizáljuk. Ez azt jelenti, hogy Önnek egy további Google-naptárt kell beállítania, melyet kizárólag Outlook feladatokhoz fog használni. A beállítás akkor ugyanaz lesz, mint az időpontoknál";
+cfout_p3f = "<b class=\"green\">Névjegy szinkronizálás</b> Google-el: a Google Contacts-hoz az URL <b>https://www.googleapis.com/carddav/v1/principals/az_ön_google_felhasználóneve/lists/default/</b>.";
+cfout_p4_v2 = "A <b class=\"green\">DAViCal naptár</b>-hoz az URL http://<b>az_ön_davical_szervere</b>/caldav.php/<b>az_ön_davical_accountja</b>/calendar, a <b class=\"green\">DAViCal névjegyekhez</b> az URL <b>http://az_ön_davical_szervere/caldav.php/az_ön_davical_accountja/addresses</b>, ahol <b>az_ön_davical_szervere</b> az Ön DAViCal szerverének domainja, vagy IP-címe. <b>az_ön_davical_accountja</b> a felhasználónév ehhez a szerverhez, a jelszó pedig azé a felhasználóé.";
+
 /. Used as title
 /. Litrelly means "How cFos Outlook DAV works"
 cfout_h3 = "cFos Outlook DAV működése";
-cfout_h3 = "cFos Outlook DAV működése";
+
+cfout_p5a_v2 = "Ha leindítja az Outlook-t, cFos Outlook DAV megpróbálja az Outlook könyvtáraik összes adatát szinkronizálni a CalDAV/CardDAV szerverrel. Ha valami változott a szerveren, a változások látszanak az Outlook könyvtáraiban.";
+cfout_p5b_v2 = "Így a szerveren hozzáadott vagy megváltoztatott adat hozzáadódik, ill. megváltozik helyi könyvtárban is. A szerveren törölt adat a helyi könyvtárban is törlõdik. Ez a szinkronizáció <b>n</b> percenként elvégzõdik a könyvtár beállításnál megadott szinkronizálási intervallum szerint.";
+cfout_p6_v3 = "Ahányszor hozzáad, megváltoztat, vagy töröl egy eseményt a helyi könyvtárakban frissítheti az adatokat a szerveren a \"Sync All\" gomb használatával a gombsoron. Ezt fontolja meg az Outlook bezárása elõtt is.";
+cfout_p7a_v2 = "A könyvtár konfigurációs adatok a <em>C:\\Users\\AZ_ÖN_FELHASZNÁLÓNEVE\\AppData\\Local\\cFos\\outlook_dav</em> könyvtárban vannak tárolva. A <em>C:\\ProgramData\\cFos\\outlook_dav</em> könyvtár tartalmazza a <em>folder_setup.hta</em>-t, így késõbb megváltoztathatja a konfigurációt.";
 cfout_p7b = "A jelszó egy megelőző \"!\" jellel van tárolva, és \"on-the-fly\" technikával van kódolva, ahogy a cFos Outlook DAV-nak erre szüksége van.";
 cfout_p7c = "A <em>C:\\ProgramData\\cFos\\outlook_dav</em> könyvtárban megtalálható a <em>trace.txt</em> fájl, az utolsó szinkronizáció eseményeivel.";
 cfout_p7c_v2 = "A <em>C:\\Users\\USERNAME\\AppData\\Local\\cFos\\outlook_dav</em> könyvtárban megtalálható a <em>trace.txt</em> fájl, az utolsó szinkronizáció eseményeivel.";
 cfout_p8 = "A cFos Outlook DAV az Internet Explorer proxy beállításait használja. Megváltoztathatja a Vezérlőpultban, az Internet beállításoknál.";
+cfout_disclaimer = "Az Outlook adatoknak a CalDAV/CardDAV szerverekkel való szinkronizációja váratlan együttmûködési problémákat és adatvesztést okozhat. Ezért csak úgy rendelje meg, ha teljességel sikeresen tesztelte a cFos Outlook DAV-t az Ön egyéni alkalmazásában.";
+cfout_conf_title = "Hogyan szinkronizálja a CalDAV naptárját vagy CardDAV névjegyzékét Outlook-al 5 lépésben";
+cfout_goto_help = "Nézze át a <b>részletesen illusztrált útmutatónkat</b>.";
+cfout_server = "Válasszon CalDAV/CardDAV szerver típust";
+cfout_new_server = "Ha sikeresen használja a cFos Outlook DAV-t olyan naptár vagy névjegyzék-szerverrel, mely <b>nincs a listánkban</b>, kérjük vegye fontolóra a konfigurációs információi elküldését az alábbi ûrlapon <a class=\"inline\" onclick=\"contact_preselect='outlook_dav'; cfos.show_contact_form(); return false;\" href=\"/en/index.htm\"><b>contact form</b></a>.";
+
+/. Means "show all server types"
+cfout_show_all = "Mutassa mindet";
+
+cfout_conf_step1 = "<b>1.</b><b>Calendar View</b>-ben, kattintson jobb gombbal a naptárra, majd kattintson a \"<span class=\"green\">Enable CalDAV Sync</span>\"/ \"<span class=\"green\">Config CalDAV Sync</span>\" vagy<br/><b>Contact View</b>-ben kattintson jobb gombbal a névjegyek könyvtárra, majd kattintson a \"<span class=\"green\">Enable CardDAV Sync</span>\"/\"<span class=\"green\">Config CardDAV Sync</span>\"";
+cfout_conf_step2 = "<b>2.</b> Adja meg a naptárszerver CalDAV URL-t, felhasználónevet és jelszót vagy<br/>a névjegyzék-szerver CardDAV URL-t, felhasználónevet és jelszót";
+cfout_conf_step3 = "<b>3.</b> Válasszon <span class=\"green\">szinkronizálási intervallumot</span>";
+cfout_conf_step4 = "<b>4.</b> Beállítások <span class=\"green\">mentése</span>";
+cfout_conf_step5 = "<b>5.</b> Indítsa a <span class=\"green\">szinkronizálást</span> kézzel";
 cfout_google_cal1 = "https://www.google.com/calendar/dav/<b>google_calendar_azonosítója</b>/events";
 cfout_google_cal1a = "A <b>google_calendar_azonosítója</b> az elsődleges naptárjához tartozó Google e-mail címe. Előfordulhat, hogy az összes többi naptárnak az azonosítója a következőképpen néz ki: <b>[hosszú_karaktersorozat]@group.calendar.google.com</b>.";
+cfout_google_cal2 = "Az Ön Google felhasználóneve";
+cfout_google_cal3 = "Az Ön Google jelszava";
+cfout_owncloud_cal2 = "Az Ön ownCloud felhasználóneve";
+cfout_owncloud_cal3 = "Az Ön ownCloud jelszava";
+cfout_owncloud_p1 = "Az ownCloud csak legfrissebb fõ verzióját támogatjuk. Kérjük frissítse, ha problémát tapasztal.";
+cfout_gmx_cal2 = "Az Ön GMX felhasználóneve";
+cfout_gmx_cal3 = "Az Ön GMX jelszava";
+cfout_webde_cal2 = "Az Ön web.de felhasználóneve";
+cfout_webde_cal3 = "Az Ön web.de jelszava";
+cfout_egroupware_cal2 = "Az Ön EGroupware felhasználóneve";
+cfout_egroupware_cal3 = "Az Ön EGroupware jelszava";
+cfout_posteo_cal2 = "Az Ön Posteo felhasználóneve";
+cfout_posteo_cal3 = "Az Ön Posteo jelszava";
+cfout_sarenet_cal2 = "Az Ön Sarenet felhasználóneve";
+cfout_sarenet_cal3 = "Az Ön Sarenet jelszava";
+cfout_vpop3_cal2 = "Az Ön VPOP3 felhasználóneve";
+cfout_vpop3_cal3 = "Az Ön VPOP3 jelszava";
+cfout_pnet_cal2 = "Az Ön cFos Personal Net felhasználóneve";
+cfout_pnet_cal3 = "Az Ön cFos Personal Net jelszava";
+cfout_davical_cal2 = "Az Ön DAViCal felhasználóneve";
+cfout_davical_cal3 = "Az Ön DAViCal jelszava";
+cfout_baikal_cal2 = "Az Ön Ba?kal felhasználóneve";
+cfout_baikal_cal3 = "Az Ön Ba?kal jelszava";
+cfout_sogo_cal2 = "Az Ön SOGo felhasználóneve";
+cfout_sogo_cal3 = "Az Ön SOGo jelszava";
+cfout_one_cal2 = "Az Ön one.com  felhasználóneve";
+cfout_one_cal3 = "Az Ön one.com jelszava";
+cfout_one_p1 = "Ellenõrizheti a <b>calendar_collectionGUID</b>-t az alábbi címen https://caldav.one.com/calendars/users/<b>your_one.com_user_email</b>/.";
+
+cfout_adv_conf_h1 = "Haladó konfiguráció:";
+cfout_adv_conf_p1 = "cFos Outlook DAV Az Ön konfigurált URL-jét használja, hogy megtalálja a naptár, vagy névjegyzék tényleges helyét. Elnyomhatja ezt a viselkedést, ha <b>*</b>-t szúr az URL-jébe. Ebben az esetben cFos Outlook DAV az adott URL-t pontosan úgy használja, ahogy meg van adva. Ez segítséget nyújt <b>DAViCal bindings</b>-nél és olyan esetekben ha más naptárat szeretne használni <b>GMX</b> vagy <b>web.de</b>-nél. Példa URL: *http://www.cfos.de/calendars/mycalendar2.";
 
 / cFos IPv6 Link
 cfos6link_page_title = "IPv6 csatlakozás XP, Vista és Windows 7 alatt";
@@ -691,7 +845,10 @@ li_text_sessions = "Korlátlan számú kezelt program, korlátlan számú nyitot
 
 / cFos
 cfos_html_h1 = "DSL és ISDN Dial-in meghajtó Traffic Shapingel";
+
+/. Part of page's title (in name of the tab in web browser)
 cfos_professional_title = "cFos, Dial-Up &amp; Gyorsítás DSL-hez &amp; ISDN";
+
 link_text_0190 = "Tárcsázó programok elleni védelem";
 link_text_budget = "Online számláló";
 link_text_cfos_features = "cFos - hasznos képességek DSL és ISDN kapcsolatokhoz";
@@ -702,6 +859,26 @@ link_text_what_is_cfos = "Mi a cFos/Professional?";
 
 /hrping
 hrping_title = "<span class=\"product\">hrPing</span> - Magas precizitású ping segédprogram";
+hrping_p1 = "Sokkal többre képes a hrPing-el, mint a Windows Ping-el.";
+hrping_l1 = "Ping eredmények grafikus megjelenítése";
+
+/. `usec` stands for `microsecond`.
+/. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
+/. In other words, means accuracy of the measurement
+hrping_l2 = "Nagyfelbontású idõzítõket használ, így a ping idõk usec pontosságúak";
+
+hrping_l3 = "UDP csomagokkal és ICMP idõbélyegzõ üzenetekkel is tud pingelni";
+
+/. In other words means `Hrping measures requests time and handles ICMP error replies as well`
+hrping_l4 = "ICMP error replies-kat is mér és kezel";
+
+hrping_l5 = "Több ping lehet egy idõben \"in-flight\", nem kell megvárni a választ a következõ ping elküldése elõtt";
+hrping_l6 = "Továbbfejlesztett statisztikák";
+hrping_l7 = "Size sweep: növekvõ méretû csomagok küldése";
+hrping_l8 = "Mutathatja csak az eredmények összegzését is";
+
+/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic
+hrping_l9 = "Egyben Traceroute és Pathping";
 
 
 /notifier
@@ -802,6 +979,7 @@ contact_form_p0 = "Vegye fel velünk a kapcsolatot, ha <b>technikai problémája
 contact_form_p0_a1 = "<b>Alacsony a sebessége?</b><br/>Esetleg, a <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Kalaúz</a> segíthet.";
 contact_form_p0_a2 = "<b>Hol van az licence kulcsom?</b><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Lépjen velünk kapcsolatba, mert a rendelése esetleg hosszabb időt vehet igénybe.</a>";
 contact_form_p0_a3 = "<b>Kikapcsolná az állapot ablakot?</b><br/><a class=\"inline\" href=\"//en/cfosspeed/documentation/status.htm\">Hogyan lehet kikapcsolni az automatikusan megnyíló állapot ablakot.</a>";
+
 /. Used in our contact form on website, as possible choices, like:
 /= Please, select:
 /= — ...
@@ -821,6 +999,7 @@ contact_form_o10 = "Nem lehet telepíteni a cFosSpeed-et";
 contact_form_o11 = "Hogyan lehet letiltani a állapot ablakot";
 contact_form_o12 = "Kékhalál jelentése";
 contact_form_o13 = "ASUS (GameFirst &amp; Turbo LAN), Gigabyte, ASRock OEM verziók";
+
 contact_form_h2 = "Gyorssegítség";
 contact_form_p1 = "Amennyiben szeretne előzetes információkért találni a <a class=\"inline\" href=\"//en/oem/oem.htm\">OEM partnerekről, kattintson ide.</a>";
 contact_form_l1 = "A licence-feltételeink megengedik, hogy a 30 napos próba változatot hozzámellékeljék az újságok vagy magazinok CD mellékleteihez ingyen.";
@@ -1221,8 +1400,10 @@ no_ping_tplink = "<h4>TP-Link Router:</h4><p>A TP-Link új firmware-t ajánl, am
 no_ping_tplink2 = "<p><b class=\"red\">Figyelem</b>: Felhasználói visszajelzések szerint ez nem érvényes a következő modellekre TL-R460, TL-R860 and TL-R402M (és talán még más modellkre sem).</p>";
 no_ping_pccillin = "<h4>PC cillin 2007:</h4><p>Ahhoz, hogy a PC Cillin 2007 számára engedélyezze a Windows tracert parancsát, a következőket kell tennie:</p><ol><li>Nyissa meg a PC Cillin fő konzolát->hálózat- és tűzfalvezérlő->egyéni tűzfal->beállítások->a felhasználói fiók kiválasztása->szerkesztés->hálózatvezérlő->hozzáadás</li><li>Most  <samp>hozzáadhat</samp> 2 új protokollt. </li><li>a kimenő kapcsolatoknak:<br /><samp>(alapértelmezett) engedélyezi a kimenő kapcsolatot<br />(protokoll) icmp<br />(port) minden port<br />(ip-beállítások) minden ip-beállítás<br /></samp></li><li>A bejövő kapcsolatok beállításához cak ismételje meg a 3. lépést</li></ol>";
 no_ping_statistics = "gátolja a cFosSpeed ping statisztikáját";
+
 /. Console's output shouldn't be translated
 no_ping_statistics_p1 = "<p>Nyissa meg a cFosSpeed vezérlőjét és írja be ezt: &quot;spd pingstat&quot;</p><p>Ennek a lentihez hasonló eredményt kellene adnia:</p><pre class=\"code\"><br />Ping statistics:<br /><br />Total ping requests      107,686<br />  done                   107,686     <b>(1)</b><br />  ...and only            107,686<br /><br />Total pings sent         106,949<br />  strong                 106,778<br />  ...and new             106,778     <b>(2)</b><br /><br />Total pongs              106,804<br />  found                  106,566<br />  ...and strong          106,519<br />  ...and strong reply    106,519     <b>(3)</b><br />  ...and used            106,519     <b>(4)</b><br /><br />Ping outage statistics:<br />  1 ping in a row 33 times<br />  5 pings in a row 1 time<br /><br />Ping src/dst: 192.168.0.100 to 194.95.249.23, ttl 3<br />Ethernet src/dst: 00:0e:a6:57:9b:0b to 00:11:95:78:27:a4<br /></pre>";
+
 no_ping_statistics_p2 = "<p>Az &quot;összes ping-kérésre&quot; adott három értéknek azonosnak kell lennie. Ha komolyabb eltérést észlel közöttük, kérjük, jelezze nekünk.</p><p>Az <b>(1)</b>-gyel jelölt értéknek hozzávetőlegesen azonosnak kell lennie a<b> (2)</b>-sel. Ha ez nem így van, az egyértelmű bizonyítéka annak, hogy a tűzfal akadályozza az adatátvitelt. Mindennek ellnére, amint fönt is látható, egy csekély eltérés nem probléma.</p><p>A<b> (3)</b>-as és<b> (4)</b>-es érték szintén legyen közel azonos. Ha nem az, küldjön nekünk e-mailt.</p>";
 no_ping_statistics_p3 = "<p>Továbbá a<b> (2)</b>-es és a<b> (3)</b>-as értéknek is nagyjából azonosnak kell lennie. Ha nem az, általában azt jelenti, hogy a pingek és a válaszok elvesztek valahol &quot;a világhálón&quot; (ami elég gyakran megesik). Sajnos ez ellen semmit sem tehetünk.</p><p>Ha e-mailt ír nekünk, kérjük, alkalmazza a<a class=\"inline\" href=\"#p4\"> 3. lépésben </a> írottakat, és a fájlokat csatolja üzenetéhez.</p>";
 no_ping_update = "Mindenekelőtt töltse le és telepítse a cFosSpeed legfrissebb verzióját:";
@@ -1286,22 +1467,42 @@ sp_doc_games_p1 = "A Forgalomalakítás technológia nem tartja egyidejűleg ala
 sp_doc_games_p2 = "Hogy optimális ping időket tudjon elérni, a játékait a lehető legagasabbra kell priorizálni. Mi már felvettük a listánkra néhányat a jelenleg legnépszerűbb játékokból a program beállítások pont alá. Ha a játéka nincs a listában, egyszerűen hozzáadhatja.";
 sp_doc_games_p3 = "Továbbá <a href=\"/en/contact/priopost.htm\">tudassa velünk</a> milyen online játékokat szeretne a listában látni az elkövetkező verziókban.";
 sp_doc_games_p4 = "Kérem figyeljen arra, hogy a lehető legkevesebb programot és adatot priorizálja. Ez azért fontos, mert ha mindenhez magas prioritást rendel, akkor az ugyanaz mintha semmit sem priorizálna.";
+
+/. `[filter]` and name of file shouldn't be translated
 sp_doc_games_p5 = "Másik megoldásként, ha a program neve nem teljesen egyértelmű, priorizálhatja a portokat is, amit az online játék használ. Ha az alkalmazás TCP/UDP célportjai ismertek, akkor az adatátviteleiket a következőképp lehet optimalizálni: (a settings.ini fájl [filter] szekciójának szerkesztésével):";
 sp_doc_games_p6 = "TCP portokhoz:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high";
 sp_doc_games_p7 = "UDP portokhoz:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high";
+
 sp_doc_games_p8 = "A változtatások mentése után az új beállításokat be is kell tölteni. Ez megtehető a konzol megnyitásával (Start menü, Program, cFosSpeed) majd az \"spd reload\" parancs kiadásával. A változtatások az operációs rendszer következő indulásakor fognak érvénybe lépni.";
 sp_doc_games_a1 = "cFosSpeed-szűrő kézikönyv (angol nyelvű)";
 sp_doc_games_a2 = "DSL kapcsolat beállításai";
+
+/: https://www.cfos.de/en/cfosspeed/documentation/games.htm
+/. Used as alternate text for image
 sp_doc_games_a3 = "Ping javítása felirat megjelenítése";
+
 sp_doc_games_a4 = "Program priorizáció dialógus";
 sp_doc_games_t1 = "Kapcsolat beállítások optimalizálása:";
+
+/. Connections types untranslatable in our software, so they shouldn't be translated here either (`Adaptive`)
 sp_doc_games_p9 = "A Kapcsolat beállítások menüpont alatt pontosan beállíthatja milyen átviteli közeget használ. Minél több információ áll a cFos vagy cFosSpeed rendelkezésére a kapcsolatról, annál jobb ping idők érhetőek el. Az alapértelmezett beállítás \"Alkalmazkodó\". Ha DSL kapcsolatot használ akkor inkább a megfelelő DSL standardot vagy protokollt válassza átviteli közegnek.";
+
+/. `Favor Ping` is translatable in our software, so it should be translated here too.
+/. Ensure in consistent translation across website and software, by checking
+/. translation of cFosSpeed's into your language.
+/. Look here for your locale https://github.com/cFos/l10n/blob/master/locales.software/
+/. and then search for key `favor_ping`
 sp_doc_games_t2 = "Ping javítása:";
 sp_doc_games_p10 = "Ráadásul, használhatja a beállításokat a menüben vagy státusz ablakban hogy aktiváld a \"Ping javítása\" opciót. Egy zöld nyíl fog megjelenni a státusz ablakban. Ez a beállítás a cFos-t vagy cFosSpeed-et arra utasítja, hogy a ping időket a lehető legalacsonyabbra szorítsa annak árán, hogy az átviteli sebesség érezhetően csökkenni fog.";
+
 sp_doc_games_t3 = "letöltés játék közben:";
 sp_doc_games_p11 = "Ha Online jászol Forgalomalakítás nélkül, és közben le- vagy feltöltesz egyidejűleg, akkor a játékszerver felé irányuló ping idők emelkedni fognak. Kisebb forgalom jobb (értsd: alacsonyabb) ping időket jelent. Különösen igaz ez a fájlmegosztó és más kommunikáció-intenzív alkalmazásoknál. Ekkor a ping idők drasztikusan emelkednek, ami a játékban lag-ot eredményez. (késés, csúszás) Egyúttal a játék-beli reakcióidőd is erősen rontja.";
 sp_doc_games_p12 = "A Forgalomalakítás enyhíti ezeket a problémákat azáltal, hogy a fájlmegosztó és letöltő folyamatokat engedi a háttérben futni játék közben. Ez egy kicsit még emelheti a ping időket egy kicsit. E miatt ajánljuk, hogy ilyenkor tartsd bekapcsolva a \"Ping javítása\" opciót. Alapértelmezett esetben a fájlmegosztó alkalmazások nagyon alacsony prioritással futnak. Most ne vegyük számításba azt, hogy ilyenkor a letöltések mesterségesen le lesznek lassítva esetleg szüneteltetve. Ami a lényeg, hogy ezek az adatok némileg késlelteve lesznek, hogy a fontosabb adatok (mint pl online játék adatforgalma) előnyt élvezhessenek. Csak ez a priorizálási séma teszi lehetővé, hogy a fájlmegosztó programok maximális sebességgel tudjanak kommunikálni miközben más alkalmazások is használják a kapcsolatot.";
+
+/: http://www.cfos.de/en/cfosspeed/documentation/index.htm
+/. Used as  section title
 sp_doc_index = "Program kezelés";
+
 sp_doc_installation = "Telepítés / Regisztráció";
 sp_doc_install_title = "Telepítés / Regisztráció / Eltávolítás";
 sp_doc_install_h1 = "Telepítés";
@@ -1328,7 +1529,11 @@ sp_doc_led_p1 = "cFosSpeed képes arra, hogy Num Lock és Scroll Lock LED-eket h
 sp_doc_led_dd1 = "nem működő, gyenge = lassú villogás, rossz = gyors villogás<br/>arra figyelmeztet, hogy a ping idő túl magas";
 sp_doc_led_dd2 = "gyors villogás ahogy a csomagokat számolja<br/>informál, hogy van-e forgalom az internet felé/felől";
 sp_doc_led_dd3 = "gyors villogás mikor egy TX csomag van priorizálva<br/>egyik módja annak, hogy a Forgalomalakítás hatásait kijelezzük";
+
+/: http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm
+/. `total_rx_speed` and `total_tx_speed` shouldn't be translated, since those are actual values names
 sp_doc_led_dd4 = "total_rx_speed és total_tx_speed maximuma, 0-32%: kikapcsolva, 33-65%: lassú villogás, 66-98%: gyors villogás 99-100%: bekapcsolva<br/>informál, hogy te vagy egy másik felhasználó/alkalmazás túlterheli a kapcsolatot";
+
 sp_doc_led_dd5 = "gyors villogás valahányszor a TCP és UDP csomagok összege változik<br/>informál, hogy új kapcsolat jött létre";
 sp_doc_led_dd6 = "0-15ms: kikapcsolva, 16-127ms: lassú villogás, 128-511ms: gyors villogás, 512 or more: bekapcsolva<br/>informál ha a kapcsolati feltételek (pl. mobil kapcsolatok) túl nagy változásokat okoznak a ping időkben";
 sp_doc_led_p2 = "A Num Lock és Scroll Lock LED-et is választhatod, hogy megjeleníts a fenti információkat.";
@@ -1342,9 +1547,15 @@ sp_doc_logi_h1 = "Logitech témák a YouTube-on";
 sp_doc_logi_h2 = "Logitech billentyűzet detektálás";
 sp_doc_logi_p3 = "A cfosspeed.exe és a Logitech Gaming Software automatikusan elindul a windows-al együtt. ha a cFosSpeed előb van elindítva mint a Logitech Gaming Software akkor lehet hogy a billentyűzetet nem érzékeli. Ilyen esetben vagy használd a \"detektálás\" opciót a cFosSpeed menüben a Logitech billentyűzethez vagy módosíthatod a <em>c:\\ProgramData\\cFos\\cfosspeed\\global.ini</em>-t, az [All] szekcióban add hozzá <b>startup_delay=x</b> ahol x az az érték másodpercben, amennyit a cFosSpeed várni fog mielőtt elindítja a státusz ablakot.";
 sp_doc_p2p_t1 = "Forgalom-alakítás fájlmegosztáshoz (P2P)";
+
+/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p1 = "A cFosSpeed Forgalomalakításának köszönhetően, végre használhatod a teljes feltöltési sávszélességedet (pl. eMule, Kazaa vagy BitTorrent stb.) és ezt lehetővé teheted más fájlmegosztó hálózat felhasználói számára is, anélkül hogy jelentősen befolyásolná más internetes alkalmazások működését.";
+
 sp_doc_p2p_t2 = "Problémák a fájlmegosztó alkalmazásokkal";
+
+/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p2 = "Fájlmegosztó programok futtatása(mint pl. eMule, Kazaa vagy BitTorrent) általában lefoglalja a feltöltési sebesség egészét vagy nagyrészét, ami a kapcsolatot a magas ping idők felé tolja. E miatt nem csak a fájlmegosztók adatforgalma fog lassulni (forrás kérés 1-2 másodpercet is elvehet néhány ezredmásodperc helyett), de más internetes alkalmazásokat is lefolythat a vánszorgás szintjére. Egyúttal a letöltési sebességek is belassulhatnak, mivel a TCP ACK-ok nincsenek időben kiküldve. A böngésző szintén erezhetően belassul szörfölés közben.";
+
 sp_doc_p2p_p3 = "Egy népszerű félmegoldás erre, hogy ha a fájlmegosztó programok feltöltési sebességére egy mesterséges korlátot helyezünk. ";
 sp_doc_p2p_p4 = "Ha egyszerre fut egy levél feltöltés egy fájlmegosztó mellett, mindkettő versenyezni fog a rendelkezésre álló sávszélességért. Hogy melyik mennyit kap az a véletlenre van bízva. Bizonyos esetekben ez az összes TCP kapcsolat megszakadásához is vezethet. (TCP kapcsolat éheztetése).";
 sp_doc_p2p_t3 = "A megoldás: Forgalom alakítás";
@@ -1352,23 +1563,40 @@ sp_doc_p2p_p5 = "A cFos és cFosSpeed prioritási sémái(újra)szervezik az ada
 sp_doc_p2p_p6 = "Például, ha egy fájlmegosztó programod fut a háttérben, miközben a neten böngészel, akkor csak minimális lassulás lesz a  P2P forgalomban egy új ablak betöltése közben. hasonlóan, mikor enagyobb e-mailt küldesz, a P2P feltöltési sebesség némileg lecsökkenhet a küldés idejére. Ha a levél elment, az összes feltöltés teljes sebességgel fog ismét menni. Egyetlen alternatíva lenne, hogy a levél elküldését \"örökké\" késleltessük vagy mesterségesen lekorlátozzuk az fájlmegosztás sebességét. Ez viszont a sávszélesség csökkensével járna akkor mikor semmilyen más alkalmazás sem használja a kapcsolatot.";
 sp_doc_p2p_p7 = "A cFosSpeed-et ezért fájlmegosztó (p2p) szoftverek használatához optimalizáltuk, ami lehetővé teszi a felhasználók számára, hogy ilyen programokat futtassanak a háttérben anélkül, hogy a normál internetezést megzavarná.";
 sp_doc_p2p_p8 = "E miatt, azt javasoljuk, hogy állítsa a Kazaa és hasonló programoknál válassza a \"korlátlan feltöltés\" opciót és kapcsolja ki a \"sebesség érzékelés\" opciót, mivel a cFosSpeed már optimailzálja az internet forgalmat.";
+
+/: https://www.cfos.de/en/cfosspeed/documentation/p2p.htm
+/. it's referring to system tray icon and special skin for it.
+/. Note that particularly that string refers not to actual skin, but just used as title, to highlight that "there is icon skin for cFosSpeed"
 sp_doc_p2p_t4 = "Icon kinézet";
 sp_doc_p2p_p9 = "Mivel a legtöbb felhasználó 24 órában futtat fájlmegosztó programokat, a cFosSpeed-nek külön ikonja van ehhez, ami lehetővé teszi, hogy figyelemmel kövesd a kapcsolatot anélkül, hogy egy státusz ablaknak kéne mindig nyitva lennie.";
+
 sp_doc_p2p_t5 = "Priorizálás:";
+
+/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p10 = "Elég kevés embernek van egy PC-je beállítva speciálisan fájlmegosztásra és P2P forgalom irányítására (pl. Internet kapcsolat megosztásán keresztül) egy fő számítógépen keresztül ami közvetlenül az internetre van kötve. Ebben az esetben a cFos-ba és cFosSpeed-be integrált Layer-7 Protokol Detektálás megengedi a legfontosabb P2P hálózatok priorizálását (mint pl. BitTorrent, eDonkey 2000 (eMule, stb.), Kazaa, Gnutella(2), Kademlia, és Direct Connect).";
+
 sp_doc_p2p_t6 = "Programok priorizálása:";
 sp_doc_p2p_p11 = "A cFos és cFosSpeed lehetővé teszi a programok priorizálását a nevükön alapján is. A legfontosabb programok nagy része már szerepel a programbeállítások listánkon. A priorizálás ilyen formája különösen hasznos ha a Layer-7 detektálás nem tudja megfelelően felismerni és hozzárendelni az adatokat. (például titkosított P2P forgalom esetén).";
 sp_doc_performance = "Teljesítmény";
 sp_doc_phone_skins_title = "cFosSpeed témák a telefonon és tableten";
 sp_doc_phone_skins_h1 = "Átviteli statisztikák kijelzése a telefonon";
 sp_doc_phone_skins_p1 = "A cFosSpeed 9.05 verziótól (2090 build) követően, egy beépített web szerver található meg benne, így a telefonon vagy tableten is megjelenítheti az állapot ablakot a számítógép helyett. Ez különösen hasznos lehet, ha teljes képernyős alkalmazást futtat, úgymint játékoknál vagy videóknál. Itt megtalálja, hogy hogyan kell beállítani ezt:";
+
+/. While translating `\"Options/Settings\"` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_doc_phone_skins_l1 = "Jobb gomb az állapot ablakon, majd a \"Beállítások/Beállítások\" menüpontot kiválasztva, a felugró ablakban a \"Beállítások\" menüpont alatt kell kiválasztani a \"Phone Skins\"-t majd egy jelszót beállítani. A web szerver számára szükséges egy azonosítás, hogy hozzá lehessen férni másik helyről a helyi számítógéphez.";
+
 sp_doc_phone_skins_l2 = "A státusz ablakon jobb kattintással elérhető menüben, a legelső bejegyzésre kattintva (<b>cFosSpeed vX.XX...</b>) megjelenik a helyi <b>IP cím</b>.";
 sp_doc_phone_skins_l3 = "Telefon vagy tablet böngészőjében nyissa meg a következő címet: <b>http://[a számítógép IP címe]:1487/cfosspeed/skin.htm</b>. <b>[a számítógép IP címe]</b> általában a listában a legelső IP cím, de amennyiben nem működik vele, próbálja ki a többit is.";
 sp_doc_phone_skins_l4 = "A felugró azonosítási párbeszéd ablakban a felhasználó névhez írja be a \"<b>cfosspeed</b>\"-et, majd a jelszóhoz a korábban a beállítások alatt a \"Phone Skins\" jelszót.";
 sp_doc_phone_skins_a1 = "Az IP címét itt találja a cFosSpeed menüjében";
+
+/: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
+/. Title of one of pictures
 sp_doc_phone_skins_a2 = "Jelszó beállítása a Phone Skins-hez";
+
+/.  Title of picture with demo of cFosSpeed Phone Skin
 sp_doc_phone_skins_a3 = "cFosSpeed Phone Skins pillanatképe";
+
 sp_doc_phone_skins_a4 = "cFosSpeed Phone Skins egy <a class=\"inline\" href=\"http://www.fairphone.com\"><b>Fairphone</b>-on</a>";
 sp_doc_phone_skins_p2 = "<b>Megjegyzés</b>: Legalább Windows 7 vagy magasabb operációs rendszer szükséges a beépített web szerver használatára.";
 sp_doc_phone_skins_p3 = "<b>Megjegyzés</b>: A telefonon vagy tableten nem csak megnézheti, de akár rangsorolhatja is a kapcsolatokat. Csak nyissa meg a böngészőben a http://<b>[a számítógép IP címe]</b>:1487/cfosspeed/console.htm címet. A párbeszédablak ugyan úgy működik, mintha a PC-n állítaná át.";
@@ -1376,7 +1604,10 @@ sp_doc_prioliste = "Prioritás lista: ";
 sp_doc_priorliste_content = "Priorizálható alkalmazások listája";
 sp_doc_prio_title = "Program priorizálás";
 sp_doc_prio_p1 = "<b>Tipp</b>:<br />A priorizálás akkor fog jól működni, ha a lehető legkevesebb adatot teszünk magas prioritásra. Nagy adatmennyiséget küldő programoknak adj alacsony prioritást.";
+
+/. `UNKNOWN` shouldn't be translated, since it's not translatable protocol name, used in our software
 sp_doc_prio_p2 = "Először a cFosSpeed megpróbálja detektálni Layer 7 Protokolt minden egyes kapcsolathoz. Ha nem sikerült detektálni (pl. a protokol UNKNOWN/ISMERETLEN) vagy a detektált protokol prioritása \"normal\", akkor a program detektálást használja, hogy megállapítsa a prioritást.";
+
 sp_doc_prio_p3 = "Egy speciális eset a HTTP folyam detektálás. Ha a detektált protokol HTTP, a cFosSpeed megpróbálja detektálni, hogy ez egy videó vagy audió folyam-e. Ez így történik:";
 sp_doc_prio_p4 = "Ha a program egyike a jól ismert lejátszók egyike, vagy a lejátszó neve tartalmazza a \"player\" szót, a cFosSpeed a kapcsolatot HTTP_STREAM_C vagy HTTP_STREAM_S kategóriaként fogja kezelni. Máskülönben, ha a tartalom-típus audio vagy video a kapcsolatot BSTREAM_C vagy BSTREAM_S kategóriájúként kezeli. A BSTREAM_C/S kapcsolatok \"normal\"-ként vannak priorizálva szóval az aktuális prioritás program prioritizálástól függ.<br /> Ez lehetővé teszi, például bizonytalan esetekben, hogy priorizáld a program felhasználása szerint.";
 sp_doc_prio_a1 = "Már priorizált programok";
@@ -1470,12 +1701,24 @@ sp_doc_status_slot = "A Slot-grafikonok mutatják az aktuális átviteli sebess�
 sp_doc_status_slots = "A foglalatok";
 sp_doc_status_standard = "Az alapértelmezett felszín célja az adatáramlás grafikus ábrázolása.";
 sp_doc_status_states = "Az átkapcsolás révén az ikon-felszín három állapotából tovább lehet kapcsolni és különböző bejegyzéseket kiemelni. Az átkapcsoló pontosan az ikon-felszín közepén van (lásd: ábránk).";
+
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis.htm
+/: http://www.cfos.de/en/cfosspeed/documentation/status.htm
+/. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_switch = "Átkapcsolás a normál és nagy felszín-verzióra";
 sp_doc_status_switch2 = "Váltás: nagy méret > normál méret > ikonméret";
 sp_doc_status_switching = "Átkapcsolás az alapértelmezett felszín grafikus és numerikus kijelzője között:";
+
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
+/. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_systray = "Forgalom-elemzés ikonfelszín a Windows tálcán";
+
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
+/. Used as alternative text for clickable icon-buttons in sidebar at mentioned above and on similar pages
+/. You won't see it, since it displayed only if browser can't download images
 sp_doc_status_thumb_down = "Ciki";
 sp_doc_status_thumb_up = "Menő";
+
 sp_doc_status_times = "A ping-időket a grafikus felszín-kijelzőben hullámformában ábrázoljuk. Megjelenhetnek zöld, sárga és vörös hullámok. Az abszolút ping-idők lényegesen függnek a fel- és letöltések számától. A számnövekedés az időhosszabbodást jelzi.";
 sp_doc_status_toggle = "A megfelelő kapcsolóra kattintással átkapcsolhatunk a grafikus és numerikus kijelző között.";
 sp_doc_status_total = "A letöltés- átviteli sebességének előzményei (teljes) %-ban";
@@ -1492,15 +1735,24 @@ sp_doc_status_utr = "Feltöltés átviteli sebesség %-ban";
 sp_doc_status_variance = "A ping-idő varianciája";
 sp_doc_status_vertical = "A jobról balra átfutó függőleges csíkok fel- és letöltés esetén jelzik az aktuális átviteli sebességet a maximális átviteli sebesség százalékában, amelyet a legutolsó kalibrálás óta elért. A teljes és helyi értékek a többfelhasználós üzemmódra vonatkoznak. A helyi az aktuális PC átviteli sebességet, a teljes a helyi hálózat átviteli sebességét mutatja. ";
 sp_doc_status_wave = "ping-idő kijelzés hullámokkal";
+
+/: http://www.cfos.de/en/cfosspeed/documentation/status-aquarium.htm
+/. Usead as starting word for explaining labels of cFosSpeed skins elements
+/= Switch: Transfer rate in %
+/= Switch: Number of TCP/UDP connections
 sp_doc_status_word = "Átkapcsolás";
+
 sp_doc_surf_p1 = "A cFos-ba és cFosSpeed-be beépített HTTP-felismerés gondoskodik a gyorsított oldalfelépítésről, különösen egyidejű feltöltés alatt. A <a href=\"/en/traffic-shaping/traffic-shaping.htm\">http://www.cfos.de/en/traffic-shaping/traffic-shaping.htm</a>-en lát egy letöltési idő összehasonlítást a www.greenpeace.org és www.amazon.com-ról. A gyorsítás annál nagyobb, minél több egyedi elem kerül utántöltésre a mi9ndenkori weboldalra.";
 sp_doc_surf_p2 = "Ha Ön (hosszú letöltések nélkül) sok oldalon szörfözik, a beállításokban, a helyi menüben és az állapot-ablakban járulékosan a \"Ping-idő előnybe részesítése\"-t bekapcsolhatja.  Az állapot-ablakban megjelenik majd egy zöld nyíl. E beállítással előnybe részesíti a cFos ill. a cFosSpeed a ping-időket annyira, hogy még a kisebb sebesség-megszakításokat is igénybe fogja venni. Ez alkalmazástól függően folyamatosabb oldalfelépítést eredményez.";
 sp_doc_surf_t1 = "Más interaktív alkalmazások:";
 sp_doc_surf_p3 = "A cFos és cFosSpeed beépített módon felismer sok interaktív alkalmazást, mint pl. SSL, SSH, Telnet, IRC, stb. Itt profitálhat a rövid válaszidőkből hosszú fel- és letöltés alatt is.";
 sp_doc_surf_p4 = "Ha nem elég a prioritásrendszer a beállítások, protokollok alatt,priorizálhatja alkalmazásait vagy a \"Programok\" alatt név szerint, vagy beírja a portot a szűrőszabályokba. Ez különösen ajánlható szerver-üzemekhez.";
 sp_doc_surf_p5 = "Ismert portoknál azok adatátvitelét a következő módon részesítheti előnybe (szerkessze ehhez a [szűrő] szekcióban a settings.ini fájlt):";
+
+/. Part after colon shouldn't be translated, since it's code from configuration file
 sp_doc_surf_p6 = "TCP-portokhoz:<br />[filter]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high<br />; source port=5678<br />filter=-tcp-sport 5678 -c high";
 sp_doc_surf_p7 = "<br />UDP-portokhoz:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high<br />; source port=5678<br />filter=-udp-sport 5678 -c high";
+
 sp_doc_surf_t2 = "Szörfözés és fájlcsere (P2P):";
 sp_doc_surf_p8 = "A fájlcseerék alapértelmezetten nagyon alacsonyra rangsoroltak. Ez azonban nem azt jelenti, hogy mesterségesen lefékezik őket, hanem csak akkor, ha más fontos adatok vannak. Egyéb esetben a fájlcserék teljes sebességgel futhatnak. Ez a rangsorolás-rendszer teszi egyáltalán lehetővé a fájlcsere engedélyezését maximális átviteli sebességgel és a kapcsolatot egyidejűleg más alkalmazások számára, pl. böngészés, használni.";
 sp_doc_voip_p1 = "A jó hangminőség Voice-over-IP esetén a minimális ping-idő a legfontosabb előfeltétel.";
@@ -1511,7 +1763,11 @@ sp_doc_voip_t1 = "Kimaradás letöltésnél:";
 sp_doc_voip_p5 = "VoIP-kapcsolatoknál gyakran vannak kimaradások teljes sebességű letöltések esetén. A cFosban és cFosSeed-ben található RX-Shapingnak köszönhetően azonban itt is alacsony marad a ping-idő és így elkerülhető a kimaradás.";
 sp_doc_voip_p6 = "A Skype saját titkosított protokollt használ, amelyet a Layer-7-elemzés csak nagy nehézségek árán ismerhet fel. Hogy a spype ennek ellenére rangsoroható, felvettük a rangsorolandó programok listájába.";
 sp_doc_voip_t3 = "VoIP rangsorolás a routeren:";
+
+/. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
+/. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
 sp_doc_voip_p7 = "Némely Router (pl. Fritz!Box) az eszközön telefoncsatlakozást kínál, amelynek adatait aztán  Voice-over-IP-ként közvetlenül az internetre mennek. Attól a pillanattól, hogy egy VoIP-beszélgetés létrejön, a Router drasztikusan korlátozza a sávszélességet, hogy elkerülje a hangkimaradást. A cFos ill. cFosSpeed szemszögéből nézve a csatlakozásnak erős sebességingadozása van, amely a Traffic Shaping-ot negatívan befolyásolhatja. Ez esetben javasoljuk a VoIP-telefonálást a PC-ről végezni, úgy, hogy az adatokat a cFos ill. cFosSpeed felismeri és rangsorolhatja. Ha Ön mégis a Routeren át akar telefonálni, akkor kapcsolja ki a cFosSpeed-et a Beállítások, Kapcsolatok alatt és kattintson kattintson az eszközre \"variabel, kooperatív\" módban.";
+
 sp_doc_voip_t4 = "VoIP szoftver használata cFosSpeed-del";
 sp_doc_voip_t5 = "Mérések az IxChariot-tal";
 sp_doc_voip_p8 = "Mi teszteltük a cFosSpeed Traffic Shaping-ot az IxChariot-tal (Netzwerk Performance mérőszoftver az Ixia-tól), hogy mérjük, mennyit ér a cFosSpeed Traffic Shaping. Ehhez mértük a VoIP-paramétereket a IxChariot-tal és időkönben több feltöltést végeztünk.";
@@ -1535,8 +1791,14 @@ sp_doc_wlan_h1 = "Gyors hibaelhárítás IP-cím hozzárendelés segítségével
 sp_doc_wlan_p6a = "Amikor a PC WiFi hozzáférési pontotként van használva, akkor minden eszközéhez hozzárendel egy IP címet a DHCP-n keresztül. A DHCP-s címkiosztás alkalmával, a kiosztásra kerülő IP cím ellenőrzésre kerül a Címfeloldó Protokollal, hogy ne legyen duplán kiadva, mely ütközéshez vezetne.";
 sp_doc_wlan_p6b = "Ez a IP cím hitelesítés néhány másodpercet vehet igénybe, mely esetleg túl sok lehet pár eszköz számára. Az időtúllépés miatt pedig nem tudják megkapni a lefoglalt IP címet. Ezért, mi hozzáadtunk egy opciót, hogy meg lehessen kerülni ezt, ezen eszközök számára. Hogy sikerüljön aktiválni, a következő parancsot kell megadni a konzolban:";
 sp_doc_wlan_p6c = "Ez azt eredményezheti, hogy a cFosSpeed gyors IP cím hozzárendelésekor összeakadhat a DHCP cím kiosztással.";
+
+/. "Check with" meaning "Use the following action to check the result"
+
 sp_news_t = "Legutóbbi cFosSpeed-újdonságok";
+
+/. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_news_p1 = "A cFosSpeed minden második napon ellenőrzi, hogy vannak-e programújdonságok. Ha vannak, a levélikon aktiválódik az állapotablakban, amely rákattintással tovább visz a weboldalra. Ez a funkció alapértelmezetten mindig bekapcsolt. Ha a programújdonságok nem érdeklik Önt, ezt kikapcsolhatja az \"Opciók\" alatt.";
+
 sp_news_p2 = "Mi évente csak kevés jelentést hozunk nyilvánosságra.";
 sp_news_h0 = "cFosSpeed hírek";
 sp_news_h1 = "cFosSpeed hír irányelvek";
@@ -1679,10 +1941,11 @@ six_doc_130 = "Példa egy cfos6link.ini fájlra (ehhez: OPTION_DASP érték 100)
 six_doc_134 = "Lehet, hogy PC-újraindításra lesz szükség, hogy a változtatások életbe lépjenek.";
 six_doc_136 = "NAT46 Mapping lehetővé teszi régi IPv4 alkalmazásokat IPv6-al használni, vagy IPv4 szervert  IPv6-ból elérhetővé tenni. A cfos6link forgalmat tud mappolni IPv4-re korlátozott alkalmazásokból IPv6-ra. E célból a cFos IPv6 Link ideiglenes IPv4-címeket rendel hozzá, melyek aztán internetoldalon leképződnek az IPv6-címekben. Az IPv4-címkontingenst specifikálni lehet, azáltal, hogy nat46_addr=x-t és nat46_subnet_mask=m-et a cfos6link.ini [param] szakaszába beírjuk. Ha egy IPv4-alkalmazás egy nevet lekér a DNS révén (vagyis egy A rekordot) megváltoztatja a cfos6link a lekérdezést AAAA-record-lekérdezésre. Miután a megfelelő IPv6-címet megkapja, elhelyez egy átmeneti IPv4 címet az IPv6 számára és visszaküldi ezt az IPv4-alaklmazásnak. Ha mindig az IPv4-alkalmazás használja ezt az átmeneti címet, ez le fog képződni az IPv6-címre és az IPv6-cílra kerül felhasználásra. Ön pl. kiválaszthatja az IPv4-címek következő pool-jáűt a NAT46 mapping-hoz:";
 six_doc_138 = "Bejövő kapcsolat számára járulékosan megadhat egy port mapping-ot, azáltal, hogy a [nat46_ports] szekciót a cfos6link.ini-ben olyan értékekkel, mint ez feltölti:";
-/. `some_program` part may/should be translated in similar manner
-/. Menas that user have to place program's name instead there
-/. like `5000=eset`
-/: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm?__ntrack_pv=1
+
+/. That string means that user have to place program's name instead of `some program` like `5000=skype`
+/. `some_program` part may be translated
+/: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
+
 six_doc_140 = "Aztán leképezzük a bejövő IPv6-forgalmat IPv4-re.";
 six_doc_141 = "Ebből adódóan használhat statikus IPv4 &lt;-&gt; IPv6 leképzéseket alkalmazásokhoz, amelyek rögzített IPv4-címeket használnak. Ezeket a leképzéseket meg lehet adni, azáltal, hogy a [nat46_static] szakaszt feltölti ipv4_x=ipv6_y, pl. 192.168.2.1=2001:DB8 értékekkel";
 
@@ -1721,20 +1984,26 @@ oem_t3 = "Maximális sávszélesség minimális pinggel a Traffic Shaping techno
 oem_l4 = "NDIS meghajtó Windows 7-hez, Windows Vistához, XP-hez és 2000-hez, x86 és x64";
 oem_l5 = "Traffic Shaping meglévő kapcsolatokhoz, szélessáv &amp; keskenysáv";
 oem_l6 = "Traffic Shaping routerekhez és/vagy DSL/kábelmodemekhez";
+
 /. Means "customizable status window with skins"
 /. or "brandable status window skin"
 oem_l7 = "Konfigurálható státuszablak skinekkel";
+
 oem_l8 = "Forgalomkorlátok, sebességkorlátok";
 oem_t4 = "Dial-Up meghajtó ISDN-hez és DSL-hez, Traffic Shapinggel";
 oem_l9 = "COM port meghajtó Windows 7-hez, Vistához, XP-hez, 2000-hez, x86, x64, és régebbi operációs rendszerekhez, mint pl. Windows 9x, ME";
 oem_l10 = "ISDN with CAPI 2.0 (CAPI2032.DLL vagy kernel módú CAPI)";
+
 /. Channel bundling allows to use 2 ISDN channels as one for better bandwidth
 oem_l11 = "Menetközbeni PPPoE detektálás, nincs szükség hálózati meghajtó installálására";
+
 oem_l12 = "On-the-Fly PPPoE felismerés, hálózati meghajtó telepítése nélkül";
 oem_l13 = "Window Vistéhoz, XP-hez és 2000-hez, x86 x64, kérésre régebbi operációs rendszerekhez is";
 oem_l14 = "Könnyű integrálni meglévő telepítőbe";
+
 /. fees = licensing costs
 oem_t5 = "Licenc kondíciók és díjak";
+
 oem_l15 = "A díjak a megrendelt licencek mennyiségétől függenek";
 oem_l16 = "Minimum mennyiség: 1,000 licenc";
 oem_l17 = "Számlázás egy előre meghatározott fix áron vagy az aktuálisan használt licencek száma alapján";
@@ -2021,7 +2290,10 @@ speed_guide_p11e = "A nagyobb letöltési sebességhez:";
 speed_guide_q11 = "Segített ez??";
 speed_guide_p12a = "Előfordul (ritkább) esetenként, amikor a cFosSpeed RX shaping csökkenti a letöltési sebességet.<br/>E probléma megoldása érdekében, próbálja meg a következőt a <b class=\"speed_console\">cFosSpeed konzolon</b>:";
 speed_guide_p12b = "Előfordul ezen kívül (ritka) esetben, amikor a kapcsolat csomagvesztését a cFosSpeed Traffic Shaping elrontja.<br/>E probléma megoldása érdekében, próbálja meg a következőt a <b class=\"speed_console\">cFosSpeed konzolon</b>:";
+
+/. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p13a = "Néha kissé eltér a sebességmérés az idő alatt, amikor tartósan sok kapcsolat és nagy UDP forgalom van. Ez történhet néha az BitTorrent-tel. A kalibrálás korrekt, a kapcsolat azonban egy idő után egyre lassúbb lesz.";
+
 speed_guide_p13b = "Csak ebben a szcenárióban rögzítheti a sebességet:";
 speed_guide_l13a = "Olvassa ki a jelenlegi értékeket, miközben a <b class=\"speed_console\">cFosSpeed konzolt</b> használja:";
 speed_guide_l13b = "Válasszon egy értéket a két szám közül és vegye ennek 90%-98%-át (<span class=\"txspeed_new\">510715</span> e példában).<br />Ezzel cserélje ki";
@@ -2032,7 +2304,10 @@ speed_guide_q14 = "Aktív a Low latency mód?";
 speed_guide_a14 = "Próbálja meg ezt bekapcsolni:";
 speed_guide_p15 = "Lehet, hogy a magas ping-időket a kapcsolat másik végén a szerver okozza. Ez gyakran történik játékszervereknél. A cFosSpeed a pinget nem csökkentheti az alá, amit internetkapcsolata / szolgáltatója megenged. Ha Ön bármikor több internetkapcsolatot használ, képes a cFosSpeed az Ön ping-idejét csökkenteni és az Ön hálózati forgalmát ilyen módon priorizálni, hogy lehetőleg alacsony ping-ideje legyen, annak ellenére, hogy a teljes sávszélességet használja. Ez lehetővé teszi pl. a feltöltéseket és letöltéseket VoiP beszélgetés, vagy online-játék alatt.";
 speed_guide_l15a = "Távolítsa el a cFosSpeed-et vagy kapcsolja ki a Traffic Shaping-ot";
+
+/. `try both` here refers to `speed_guide_l15a` language key, which suggests to `Uninstall cFosSpeed or disable Traffic Shaping`
 speed_guide_l15b = "Töltse le <a target=\"_blank\" href=\"http://www.cfos.de/en/download/download.htm#hrping\">hrping</a> és - minden más hálózati forgalom nélkül - próbálja meg mindkettőt";
+
 speed_guide_q15 = "Még mindig magas a ping?";
 speed_guide_a15 = "Tipp: DSL-kapcsolatnál használja a Fastpath -ot. A WLAN-nak tipikusan magasabb ping-ideje van, mint a kábelhálózatoknak. A mobil internet további késlekedést okozhat, főként a rossz térerő, vagy a hozzáférési pont rádiójelének zavara miatt.";
 speed_guide_p16 = "Van másik PC is a hálózaton, amely adatokat küld/fogad??";
@@ -2045,7 +2320,10 @@ speed_guide_q18 = "Jobb lett most a ping?";
 speed_guide_p19 = "Némely eszköz problémát okoznak a TCP-átvitellel. Például némely Atheros WLAN adapter-eszközmeghajtó magas ping-időket okoz a letöltés alatt. Tesztelésre próbáljon ki másik hálózati adaptert és figyelje meg, hogy a ping letöltés alatt magas-e még mindig.";
 speed_guide_q19 = "Segített az új eszközmeghajtó / másik hálózati adapter?";
 speed_guide_p20a = "Önnél a cFosSpeed állandó sebességre van beállítva? Ellenőrizze ezt, miközben a <b class=\"speed_console\">cFosSpeed konzolon</b> beadja:";
+
+/. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p20b = "0-nak kell lennie, kivéve ritka esetben sok µTorrent kapcsolattal és nagy UDP-adatforgalommal.";
+
 speed_guide_p20c = "Ha a cFosSpeed kapcsolat kalibrálás stabil marad, állítsa 0-ra:";
 speed_guide_p20d = "vagy ne használjon kis értékeket az állandó kapcsolathoz (próbálja meg a sebességet 1% lépésben csökkenteni).";
 speed_guide_h21 = "Priorizálás";
@@ -2088,13 +2366,11 @@ speed_guide_l26g = "Portok priorizálása";
 
 / speed test
 speed_test = "cFos sebesség-teszt";
-under_construction = "A sebességteszt készítése folyamatban van és valószínűleg október végén indul.<br /><br />Az átmeneti időre javasoljuk:<br />";
 sptest_info_p1 = "Az új sebesség-ellenőrzővel könnyen megmérheti internet-kapcsolatának sebességét. Végezhet feltöltés- és letöltés sebességmérést, annak érdekében, hogy megállapítsa, azok a szolgáltató által ígért értéket mutatják-e. Ne legyen nyugtalan, ha a teszt nem az exakt értékeknek felel meg. Például az 1%-os tűrés 16Mbit/s csatlakozásnál már 160.000bit/s. Ez a szám ugyan hatásosnak tűnik, de valójában csak nagyon kicsi különbség.";
 sptest_info_p1_sm = "Az új sebesség-ellenőrzővel könnyen megmérheti internet-kapcsolatának sebességét. Végezhet feltöltés- és letöltés sebességmérést, annak érdekében, hogy megállapítsa, azok a szolgáltató által ígért értéket mutatják-e.";
 sptest_info_p2 = "Először az online teszt két értéket mér: A feltöltés és a letöltés sebességét. Az internet-kapcsolat tesztjéhez megállapítja a speed test a szerver válaszidejét is. Ez arról ad felvilágosítást, hogy mennyire megbízhatóak a speed test eredmények. Sebességmérőnk követező verziója járulékosan azt is meg fogja állapítani, hogyan változtatják meg a különböző adatáramlások a kapcsolat ping-idejét.";
 sptest_info_p3 = "500kbits/sec internet-sebességnél és alatta jelenleg nem különösen pontos az eredmény. E tekintetben még javítani fogunk sebességmérőnkön.";
 sptest_debug = "hibakeresés-konzol kész!";
-sptest_h1 = "cFos Speed-Test V1.0";
 sptest_browser = "Ez a teszt nem működik Opera-verziókkal &lt; 10.<br />Kérjük frissítse böngészőjét!";
 sptest_panel_info_h = "A Speed-Test-eredmények jelentősége";
 sptest_panel_info_p = "A teszteredmények megmutatják a TCP/IP használati adatok sebességét, ezzel szemben a cFosSpeed saját állapot-ablakában a nyersadatok sebességét. A különbség mintegy 5%. 'Response time' a teljes HTTP request ideje. A cFosSpeed megmutatja a közelebbi internet-környezetben a ping-időket.";
@@ -2131,6 +2407,8 @@ videos_text14 = "A cFosSpeed használata a Logitech G15 billentyűzettel";
 videos_text15 = "A cFosSpeed használata a Logitech G19 billentyűzettel";
 videos_text16 = "A cFosSpeed 6.50 telepítése 32 bites Windows 7 rendszerre";
 videos_text17 = "cFosSpeed 5.00-ás verzió – telepítés Windows 7 rendszerre";
+
+/port forwarding
 
 /meta descriptions
 asrock_index_desc = "További infó ASRock XFast LAN-használóknak.";
@@ -2239,7 +2517,10 @@ cfosspeed_documentation_menu_desc = "A cFosSpeed helyi menü opcióinak magyará
 cfosspeed_documentation_no_ping_desc = "Mit tehet, ha a cFosSpeed nem fogad pingeket.";
 cfosspeed_documentation_prog_prio_desc = "A prioritások rendszere.";
 cfosspeed_documentation_keyboard_leds_desc = "Hogyan lehet a billentyűzet-LEDeket használni az állapot-kijelzésre, Ha a PC teljesképernyő-módban van.";
+
+/. `BitTorrent` — name of the protocol, not of the program
 cfosspeed_documentation_p2p_desc = "A cFosSpeed optimális konfigurálása P2P fájlcserélő hálózatokra, mint a BitTorrent, E2K, stb.";
+
 cfosspeed_documentation_logitech_keyboard_desc = "A Logitech Gamer billentyűzet kijelzői  a cFosSpeed állapot-információk kijelzésére. G19, G15, G13, G510 és kompatibilis modellek.";
 beta_index_desc = "A cFosSpeed, cFos IPv6 Link, cFos Broadband Connect és cFos Professional legújabb béta-verzióinak letöltése.";
 beta_cfos_ipv6_link_whats_new_desc = "A cFos IPv6 Link béta-verziója tulajdonságainak, javításainak és hibajavításának listája.";
@@ -2289,10 +2570,30 @@ countryname_tw = "Tajvan";
 countryname_uk = "Ukrajna";
 countryname_zh_hk = "Hongkong";
 
-/ no translation  -  currency info for order form exchange rates only - do not modify!
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those strings used in order form exchange rates and shouldn't be modified
+/
+/ !!! DO NOT TRANSLATE !!!
+
+/. Code of native for current language currency according to European Central Bank
+/. Used to retrieve exchange rates from ECB, calculate and display prices in native currency on Order page
+/. Do not modify, unless you really know what you're doing
 currency_4217 = "HUF";
+
+/. Leading and subsequent (if needed any) currency symbol/code of specified in `currency_4217` currency
+/. Purely decorative
+/. String will be formed without any predefined spaces, like that:
+/= `~ currency_prefix{{value}}currency_suffix`
+/. So, don't forget to add space before suffix, or after prefix, if you need any, right inside language key
 currency_prefix = "";
 currency_suffix = "&#8364;";
+
+/. Value of `Country` field in Order form
+/. In English always should be `Select your country`
+/. In other languages should contain name of the country _in English_, for which specified currency in `currency_4217`
 selected_value = "Hungary";
 
+/ END SECTION: don't translate
 
