@@ -1845,9 +1845,11 @@ sp_doc_p2p_p10 = "Quite a few users have one PC set aside specifically for files
 sp_doc_p2p_t6 = "Prioritizing Programs:";
 sp_doc_p2p_p11 = "cFos and cFosSpeed also permit prioritizing programs by their name. Many of the most important programs have already been included in our program setting list. This way of prioritizing is especially useful when the Layer-7 detection cannot recognize and assign data properly (as would, for instance, be the case with encrypted P2P traffic).";
 sp_doc_performance = "Performance";
-sp_doc_phone_skins_title = "cFosSpeed skins on your phone or tablet";
+
+/: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
+sp_doc_phone_skins_title = "cFosSpeed Status Window on your phone or tablet";
 sp_doc_phone_skins_h1 = "Display traffic shaping statistics on your phone";
-sp_doc_phone_skins_p1 = "Beginning with v9.05 build 2090 cFosSpeed has a build-in web server, so you can display the status window on your phone or tablet, instead of your desktop. This is especially helpful for fullscreen applications like games or videos. Here is how to configure it:";
+sp_doc_phone_skins_p1 = "Beginning with v9.05 build 2090 cFosSpeed has a build-in web server, so you can display the status window on your phone or tablet, in addition to your desktop. This is especially helpful for fullscreen applications like games or videos. Here is how to configure it:";
 
 /. While translating `\"Options/Settings\"` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_doc_phone_skins_l1 = "Start \"Options/Settings\" from the cFosSpeed context menu and set a server password in the \"Preferences/Enable Phone Skins\" dialog. The web server will need authorization if you access it from another machine than your local computer.";
