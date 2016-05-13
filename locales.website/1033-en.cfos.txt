@@ -34,11 +34,20 @@ asrock_info = "Information for <b>ASRock XFast LAN</b> users";
 bc_linktext = "cFos Broadband Connect for high-speed access";
 cfos6link_linktext = "cFos IPv6 Link";
 cfos_linktext = "cFos/Professional for ISDN";
+
+/. Means "Close current dialog window"
 close = "Close";
+
+/. Cookies here means not actual crisp and tasty cookies, but web cookies.
+/. See for details: https://en.wikipedia.org/wiki/HTTP_cookie
+/. Check that wikipedia page in your language to find out best translation for your language
 cookie_bar_text = "We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners.";
+
+/. Used as text of link, which leads to page with detailed explanations
+/. Depending on your language, you might drop `See` part
 cookie_bar_details = "See details";
 
-/. Used as "I understand"
+/. Used as "I've understood"
 cookie_bar_got_it = "Got it";
 
 desc_6link = "IPv6 Connectivity for XP, Vista and Windows 7";
@@ -92,8 +101,18 @@ social_networks = "Please support our social network presence.<br/>Like us on Fa
 powered_by = "Powered by <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net Web Server</a>";
 word_follow = "Follow";
 cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> is now available for <b>Windows 10</b>.";
-learn_more = "Learn more"; // Meaning "learn more about the product"
-oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> is the official Internet Accelerator for<br/>ASUS, GIGABYTE, ASRock and MSI gaming products"; // Line feed at approx middle of the key, preferred directly before the brand names
+
+/: http://www.cfos.de/en/index.htm
+/: http://www.cfos.de/en/download/download.htm
+/: http://www.cfos.de/en/cfosspeed/cfosspeed.htm
+/: http://www.cfos.de/en/cfosspeed/cfosspeed-feature-highlights.htm
+/. Used as label for button or text of link, which proposes to learn more about product or feature
+learn_more = "Learn more";
+
+/. Used as promo text in header of cfos.de
+/. Please, keep line feed (`<br/>` tag, which stands for line break) at approx middle of the text,
+/. preferred directly before the brand names
+oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> is the official Internet Accelerator for<br/>ASUS, GIGABYTE, ASRock and MSI gaming products";
 
 /: https://www.cfos.de/ru/order/order.htm
 /. Used on a small label in corner of product's box image
@@ -490,7 +509,12 @@ dupe_a_voip = "Good voice quality with Voice-over-IP (VoIP) (german)";
 budgets = "Online Budgets";
 desc_cfosbc = "<b>cFosBC</b>, high performance dial-up for high bandwidth internet access";
 firewall = "Firewall";
+
+/: http://www.cfos.de/en/cfosspeed/cfosspeed.htm
+/. Used in sidebar of cFosSpeed page as promotion. Says that cFosSpeed keeps quite high number
+/. of "YES" and has numerous positive comments at Steam Greenlight
 greenlight_h1 = "<b style=\"color: #409a03\">82% \"YES\" votes</b> and positive comments on <b><span style=\"color: #5B7399\">cFosSpeed's</span> <a class=\"inline\" href=\"http://steamcommunity.com/sharedfiles/filedetails/comments/538515919\"><span style=\"color: #409a03\">Steam Greenlight page</span></a></b>!";
+
 header_features = "Features";
 highlights = "Highlights";
 highlight1 = "cFosSpeed prevents one application (e.g. sending email) from choking all others, like telephone calls, chat, etc.";
@@ -1007,26 +1031,36 @@ link_text_firewall = "Firewall";
 link_text_what_is_cfos = "What is cFos/Professional?";
 
 /hrping
+/: http://www.cfos.de/en/ping/ping.htm
 hrping_title = "<span class=\"product\">hrPing</span> - High-precision ping utility";
 hrping_p1 = "You can do much more with hrPing than with Windows Ping.";
+
+/. Used as one of entries in list of hrPings features
 hrping_l1 = "Graphical display of ping results";
 
+/. Used as one of entries in list of hrPings features
 /. `usec` stands for `microsecond`.
-/. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
-/. In other words, means accuracy of the measurement
+/. In current context means `usec resolution` (also known as `microsecond resolution`),
+/. which is technical term. In other words, means accuracy of the measurement
 hrping_l2 = "Uses high resolution timers, so ping times are accurate to the usec";
 
+/. Used as one of entries in list of hrPings features
 hrping_l3 = "Can ping as well with UDP packets or ICMP timestamp messages";
 
+/. Used as one of entries in list of hrPings features
 /. In other words means `Hrping measures requests time and handles ICMP error replies as well`
 hrping_l4 = "Times and handles ICMP error replies as well";
 
+/. Those strings used as one of entries in list of hrPings features
 hrping_l5 = "Can have multiple pings \"in-flight\", no need to wait for a reply before sending the next ping";
 hrping_l6 = "Improved statistics";
 hrping_l7 = "Size sweep: Send increasing packet sizes";
 hrping_l8 = "Can show only a summary of results";
 
-/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic
+/: http://www.cfos.de/en/ping/ping.htm
+/. Used as one of entries in list of hrPings features
+/. Says that hrPing is effective replacement for both those utilities.
+/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic, do not translate them
 hrping_l9 = "Is a Traceroute and a Pathping as well";
 
 
@@ -1164,9 +1198,17 @@ choice4 = "You use a DSL Modem connected to USB?";
 choice5 = "Driver for Dial-Up Network?";
 choice6 = "Traffic Shaping?";
 choice7 = "Both?";
+
+/. Used as title of contact form
+/. Can be translated as "Contact cFos team" in case origianl variant doesn't translate well into your language
 contact_form_h1 = "Your contact to the cFos team";
+
 contact_form_p0 = "Contact us about <b>technical problems</b>, questions regarding <b>your order</b>, <b>business proposals</b> or <b>press information</b>.";
+
+/. Refer to `speed_guide` language key in website's localization file to see how `cFos Speed Guide`
+/. has been translated in your language (here: https://github.com/cFos/l10n/tree/master/locales.website)
 contact_form_p0_a1 = "<b>Speed too low?</b><br/>Maybe the <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Guide</a> can help";
+
 contact_form_p0_a2 = "<b>Where is my license key?</b><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Contact us, because your order takes a long time</a>";
 contact_form_p0_a3 = "<b>Turn off the status window?</b><br/><a class=\"inline\" href=\"//en/cfosspeed/documentation/status.htm\">How to turn off auto-open of the status window</a>";
 
@@ -1207,7 +1249,11 @@ contact_form_p6 = "Please refer to our <a class=\"inline\" href=\"//en/traffic-s
 contact_form_p7 = "Here you find <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation.htm\">help how to install your license key</a>.<br/><br/>Here are additional hints how to <a class=\"inline\" href=\"//en/cfosspeed/documentation/registration-help.htm\">find and install your license key</a>.";
 contact_form_p8 = "Sometimes other components, e.g. network drivers, anti-virus software or anti-spyware, in the network installation prevent cFosSpeed from being installed.<br/><br/>Here is <a class=\"inline\" href=\"//en/cfosspeed/documentation/driver-not-loaded.htm\">help for the most common installation problems</a> and <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation-help.htm\">what you can do if cFosSpeed doesn't install</a>.";
 contact_form_p9 = "You can deactivate the cFosSpeed status window by right-clicking on it, selecting <b>Window Settings</b> and then deactivating \"Auto-show/Auto-hide\".";
+
+/. Refer to `closewindows` language key in software's localization file to see how `Hide Windows`
+/. has been translated in your language (here: https://github.com/cFos/l10n/tree/master/locales.software)
 contact_form_p9_v2 = "You can deactivate the cFosSpeed status window by right-clicking on it and then selecting \"Hide Windows\".";
+
 contact_form_a2 = "Hide status window";
 contact_form_a3 = "cFosSpeed registration help";
 contact_form_p10 = "If you get a Bluescreen/BSOD caused by cFosSpeed, we need your help to fix it as quickly as possible.<br/><br/>Please <a class=\"inline\" href=\"//en/support/howto-dump.htm\">create a kernel dump</a>.";
