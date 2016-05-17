@@ -2461,7 +2461,10 @@ asrock_p3 = "If you install the cFosSpeed version, you have a trial period of 30
 /
 / ----------------------------------------------------------------------
 
+/. Means "Go back" or "Return"
+/. Used as text of link, which takes user back to previous page
 back = "back";
+
 explain1 = "We are now offering cFos and cFosSpeed at a very special discount price in an effort to increase dissemination and awareness of our Traffic Shaping technology.";
 explain2 = "You will receive a license for both our 32-bit and our 64-bit version.";
 explain4 = "For cFosSpeed, future versions for Vista/7 are also included.";
