@@ -2,11 +2,23 @@
 #fallback 1031
 #charset 0
 
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
 language = "English";
 lang_key = "_e";
 input_lang = "en";
 
-/ test purposes, don't translate!
+/ ----------------------------------------------------------------------
+/
+/  Testing language keys
+/  Test purposes, don't translate!
+/
+/ ----------------------------------------------------------------------
+
 __test_key = "test_value";
 __test_key2 = "test_value2";
 __test_key3 = "test_value3";
@@ -16,7 +28,12 @@ __test_key6 = "test_value6";
 __test_key7 = "test_value7";
 __test_key8 = "test_value8";
 
-/ navigation
+/ ----------------------------------------------------------------------
+/
+/  Navigation
+/
+/ ----------------------------------------------------------------------
+
 link_text_contact = "Contact";
 link_text_impressum = "";
 link_text_download = "Download";
@@ -28,7 +45,12 @@ link_text_products = "Products";
 link_text_sitemap = "Sitemap";
 link_text_support = "Support";
 
-/ index2
+/ ----------------------------------------------------------------------
+/
+/  index2
+/
+/ ----------------------------------------------------------------------
+
 about = "About cFos Software";
 asrock_info = "Information for <b>ASRock XFast LAN</b> users";
 bc_linktext = "cFos Broadband Connect for high-speed access";
@@ -120,7 +142,12 @@ oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">c
 /. (with `<br/>` tag in place of break), try to keep both lines of same length
 top_seller = "TOP<br/>Seller";
 
-/ download
+/ ----------------------------------------------------------------------
+/
+/  Download
+/
+/ ----------------------------------------------------------------------
+
 additional_downloads = "Additional downloads";
 add_lang_text = "Additional languages for cFosSpeed";
 alt_cfos6link_image = "cFos IPv6 Link";
@@ -232,7 +259,12 @@ twitter_follow_short = "Follow cFos Software";
 language_files = "languages files";
 word_translation = "translation";
 
-/ order
+/ ----------------------------------------------------------------------
+/
+/  Order
+/
+/ ----------------------------------------------------------------------
+
 alt_logo = "cFos Software GmbH logo";
 atm_price = "ATM version on request";
 bank_de_account = "2000 850 040";
@@ -465,7 +497,12 @@ word_service = "Service";
 word_submit_order = "Submit Order";
 word_year = "year";
 
-/ Order and Announcelist Confirmation Email
+/ ----------------------------------------------------------------------
+/
+/  Order and Announcelist Confirmation Email
+/
+/ ----------------------------------------------------------------------
+
 ann_subject = "Thank you for joining the cFos announcement list";
 ann_salut = "Dear cFos user";
 ann_info = "you have subscribed to the cFos Announcements list. We will inform you about new versions of our programs about 3-5 times per year.";
@@ -485,7 +522,12 @@ em_text = "We will process your order as soon as possible.";
 em_transfer_hint_cn = "";
 em_webmoney = "to our WebMoney account.";
 
-/ cFosSpeed
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
 a_bt = "cFosSpeed with torrents";
 a_games = "How can I accelerate my online games?";
 alt_ct_logo = "c't Logo";
@@ -589,7 +631,12 @@ special_price = "special price";
 special_price_launch = "19,95 &#8364;";
 word_more = "more";
 
-/cFos Personal Net
+/ ----------------------------------------------------------------------
+/
+/  cFos Personal Net
+/
+/ ----------------------------------------------------------------------
+
 desc_pnet = "Web server for home users and professionals";
 pnet_title = "Web server for home users and professionals";
 desc_pnet_new = "Host your files and synchronize your data";
@@ -867,7 +914,12 @@ pnet_doc_languages_l4 = "Start pnet and run the WordPress install script with yo
 pnet_doc_languages_l5 = "Download and install MySQL (e.g. Community Edition, install as \"Server Only\"), configure an additional user (maybe with db admin rights).";
 pnet_doc_languages_l6 = "In <em>php.ini</em> under Windows Extensions uncomment<br/><b>;extension=php_mysqli.dll</b><br/>and change it to<br/><b>extension=ext/php_mysqli.dll</b>.";
 
-/ cFos Outlook DAV
+/ ----------------------------------------------------------------------
+/
+/  cFos Outlook DAV
+/
+/ ----------------------------------------------------------------------
+
 cfout_h1_v2 = "Cloud synchronisation of your Outlook calendar, tasks and contacts";
 cfout_p1a = "cFos Outlook DAV is an Outlook Add-in to connect to calendar and contact folders on a CalDAV/CardDAV server in the cloud.";
 cfout_p1a2 = "For home hosted solutions you might want to try out <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\"><b>cFos Personal Net's</b></a> CalDAV/CardDAV services. ";
@@ -981,7 +1033,12 @@ cfout_one_p1 = "You can check your <b>calendar_collectionGUID</b> at https://cal
 cfout_adv_conf_h1 = "Advanced configuration:";
 cfout_adv_conf_p1 = "cFos Outlook DAV uses your configured URL to try to detect the actual location of the calendar or address book. By prefixing your URL with a <b>*</b> you can suppress this behaviour. In this case cFos Outlook DAV then uses this URL exactly as specified. This should help with <b>DAViCal bindings</b> and in cases where you want to use a different calendar with <b>GMX</b> or <b>web.de</b>. Example URL: *http://www.cfos.de/calendars/mycalendar2.";
 
-/ cFos IPv6 Link
+/ ----------------------------------------------------------------------
+/
+/  cFos IPv6 Link
+/
+/ ----------------------------------------------------------------------
+
 cfos6link_page_title = "IPv6 Connectivity for XP, Vista and Windows 7";
 cfos_ipv6_link_title = "IPv6 Connectivity for XP, Vista and Windows 7";
 header_features_overview = "Features at a glance";
@@ -1002,7 +1059,12 @@ provider_list_h1 = "IPv6-Provider that were tested with <em>cFos IPv6 Link</em>"
 dupe_word_documentation = "documentation";
 word_documentation = "Documentation";
 
-/ cFos BC
+/ ----------------------------------------------------------------------
+/
+/  cFos BC
+/
+/ ----------------------------------------------------------------------
+
 bc_page_title = "high-performance Dial-Up driver for Internet Access with high bandwidth.";
 broadband_connect_title = "High-Performance PPPoE Dial-Up driver";
 link_text_cfosspeed = "<b>cFosSpeed</b>, for routers, cable modems and USB DSL modems";
@@ -1016,7 +1078,12 @@ li_text_pppoe_auto = "PPPoE auto-detect, all PPPoE parameters configurable";
 li_text_ppppoe_dial = "PPPoE Dial-Up driver for Windows";
 li_text_sessions = "Multiple sessions, no limit for the number of connections";
 
-/ cFos
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
 cfos_html_h1 = "DSL and ISDN dial-in driver with Traffic Shaping";
 
 /. Part of page's title (in name of the tab in web browser)
@@ -1030,7 +1097,13 @@ link_text_feature_list = "Features for DSL and ISDN";
 link_text_firewall = "Firewall";
 link_text_what_is_cfos = "What is cFos/Professional?";
 
-/hrping
+
+/ ----------------------------------------------------------------------
+/
+/  hrPing
+/
+/ ----------------------------------------------------------------------
+
 /: http://www.cfos.de/en/ping/ping.htm
 hrping_title = "<span class=\"product\">hrPing</span> - High-precision ping utility";
 hrping_p1 = "You can do much more with hrPing than with Windows Ping.";
@@ -1063,8 +1136,12 @@ hrping_l8 = "Can show only a summary of results";
 /. `Traceroute` and `Pathping` are names of utilities for networks diagnostic, do not translate them
 hrping_l9 = "Is a Traceroute and a Pathping as well";
 
+/ ----------------------------------------------------------------------
+/
+/  cFos Notifier
+/
+/ ----------------------------------------------------------------------
 
-/notifier
 notifier_title = "cFos Notifier";
 notifier_title_h0 = "<span class=\"product\">cFos Notifier</span> - keep in touch";
 notifier_p1 = "cFos Notifier is a program which runs in the background and periodically checks, whether new Twitter Statuses are available. If there is something new, it displays a notification icon in the windows taskbar and a balloon tip. If you click on the balloon or the taskbar icon, twitter.com is started so you can read the new statuses.";
@@ -1107,11 +1184,21 @@ notifier_l6 = "Turn off notifications temporarily";
 notifier_l7 = "Selectable notification sound";
 notifier_l8 = "Accounts can be added and removed";
 
-/FAQ
+/ ----------------------------------------------------------------------
+/
+/  FAQ
+/
+/ ----------------------------------------------------------------------
+
 which_product = "Which cFos product should I use?";
 word_support_faq = "cFos Support FAQ";
 
-/ support
+/ ----------------------------------------------------------------------
+/
+/  Support
+/
+/ ----------------------------------------------------------------------
+
 activation_title = "Activation failed";
 activation_salut = "Dear cFosSpeed user";
 activation_salut_cfos = "Dear cFos user";
@@ -1385,7 +1472,12 @@ yes = "Yes";
 search_web = "Search the web";
 search_cfos = "Search www.cfos.de";
 
-/ traffic shaping
+/ ----------------------------------------------------------------------
+/
+/  Traffic shaping
+/
+/ ----------------------------------------------------------------------
+
 alt_load_print = "Load print version of image";
 alt_transfer_rates = "Transfer rates";
 ts_c_t1 = "Important note on cFos Traffic Shaping";
@@ -1563,7 +1655,12 @@ vari_fixed = "Ping Variance";
 vari_fixed_help = "Use advanced Traffic Shaping to accommodate for varying ping times";
 vari_fixed_help_long = "Gather ping statistics to accommodate for variation in ping times; especially useful for mobile/wireless connections.";
 
-/ cFosSpeed additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed additional pages
+/
+/ ----------------------------------------------------------------------
+
 adjust_speed_shaping = " - turn this feature on and off";
 autoarrange = "Auto-arrange windows";
 auto_mtu = "Auto-MTU optimization";
@@ -2151,11 +2248,20 @@ word_updates = "Updates";
 word_prices = "Prices";
 word_delivery = "Delivery";
 
-/ PNet additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFos PNet additional pages
+/
+/ ----------------------------------------------------------------------
+
 cfospnet_doc_page_title = "cFos Personal Net documentation";
 
+/ ----------------------------------------------------------------------
+/
+/  cFos IPv6 Link additional pages
+/
+/ ----------------------------------------------------------------------
 
-/ IPv6 Link additional pages
 six_doc_p1 = "Connectivity with the new IPv6 network";
 six_doc_p2 = "cFos IPv6 Link allows dial-up with IPv6 for Windows 7, Vista and XP.";
 six_doc_p3 = "Install cFos IPv6 Link, configure the dial-up connection to your ISP and you're done! cFos IPv6 Link does not only connect to the new IPv6, but also configures the routing and IP and DNS addresses automatically.";
@@ -2248,7 +2354,12 @@ six_doc_139 = "5000=some_program";
 six_doc_140 = "Then incoming IPv6 traffic is mapped to IPv4 whenever the destination port is one of the mapped ports.";
 six_doc_141 = "In addition you can add static IPv4 &lt;-&gt; IPv6 mappings for applications which use hard-coded IPv4 addresses. You can specify these mappings by filling the section [nat46_static] with value like &lt;ipv4_addr&gt;=&lt;ipv6_addr&gt;, for example 192.168.2.1=2001:DB8::1";
 
-/ cFos BC additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFos Broadband Connect additional pages
+/
+/ ----------------------------------------------------------------------
+
 bc_doc_p1 = "cFos Broadband Connect is a high-performance Dial-Up driver for Internet Access with high bandwidth. While the driver shipped with Windows can only transfer up to 4.5 Mbyte/s (= 36 Mbit/s), cFos Broadband Connect sends with 50 Mbyte/s (= 400 Mbit/s).<br /><i>Tested with Gigabit LAN, Pentium 4 (3GHz).</i>";
 bc_doc_p2 = "cFos Broadband Connect is designed for maximum throughput under minimum CPU load. This leaves your CPU power to the actual Internet applications, like media players, etc. At full speed cFos Broadband Connect needs only 3% CPU time.";
 bc_doc_p3 = "cFos Broadband Connect supports all important PPPoE parameters. These can easily be configured with the phone number used for the Dial-Up connection. With Auto-Detect cFos Broadband Connect finds all Internet access points connected to your system.";
@@ -2272,7 +2383,12 @@ bc_param_in_service = "   in_service_name (empty)     answer incoming calls only
 bc_param_padr_timeout = "   padr_timeout 2000           timeout in milliseconds. Specifies how long cFos Broadband Connect should wait\n                               for PADR during incoming calls.";
 bc_param_max_frame = "   max_frame_size=x            maximum frame size (MTU), default 1492";
 
-/ oem
+/ ----------------------------------------------------------------------
+/
+/  OEM
+/
+/ ----------------------------------------------------------------------
+
 oem_title = "OEM versions for ISPs and device manufacturers";
 oem_t1 = "Our OEM Products";
 oem_t2 = "High-speed PPPoE Dial-Up driver for Windows 7, Vista and XP";
@@ -2311,7 +2427,12 @@ oem_t7 = "Our standard OEM license contracts in German and English";
 oem_t8 = "Contact:";
 oem_t9 = "OEM partners";
 
-/ asus
+/ ----------------------------------------------------------------------
+/
+/  ASUS
+/
+/ ----------------------------------------------------------------------
+
 asus_p1 = "As a customer of certain ASUS motherboards you have the right to use and benefit from ASUS ROG GameFirst I&amp;II / Turbo LAN. This is a full-featured, unlimited Traffic Shaping solution powered by cFosSpeed. We hope you enjoy the speed-up possible with your version of ASUS ROG GameFirst I&amp;II / Turbo LAN.";
 asus_p2 = "For additional fine-tuning options there is also the most recent professional cFosSpeed version available.";
 asus_a1 = "You can <a class=\"inline\" href=\"/en/download/download.htm\">download cFosSpeed here</a>.";
@@ -2324,12 +2445,22 @@ asus_af_l4 = "<b>Real-Time Traffic Analysis</b> in status window.";
 asus_af_l5 = "<b>Fine-Tuning options</b>: Connection Medium selection, RX &amp; TX speed limits, DSCP / VLAN tagging / filtering.";
 asus_af_l6 = "<b>Additional functionality</b>: Auto-hide on fullscreen (Game Mode), Firewall, volume &amp; online time counters, IP filter-lists / block-lists.";
 
-/ asrock
+/ ----------------------------------------------------------------------
+/
+/  ASRock
+/
+/ ----------------------------------------------------------------------
+
 asrock_p1 = "As a customer of ASRock motherboards you have the right to use and benefit from ASRock XFast LAN. This is a full-featured, unlimited Traffic Shaping solution powered by cFosSpeed. We hope you enjoy the speed-up possible with your version of ASRock XFast LAN.";
 asrock_p2 = "For the newest features there is also the most recent professional cFosSpeed version available.";
 asrock_p3 = "If you install the cFosSpeed version, you have a trial period of 30 days. Then you can either buy a cFosSpeed lifetime license or uninstall cFosSpeed and install ASRock XFAST/LAN again. Owners of a cFosSpeed lifetime license always have immediate access to the newest cFosSpeed features and Beta / Pre-Release versions.";
 
-/ special price
+/ ----------------------------------------------------------------------
+/
+/  Special price
+/
+/ ----------------------------------------------------------------------
+
 back = "back";
 explain1 = "We are now offering cFos and cFosSpeed at a very special discount price in an effort to increase dissemination and awareness of our Traffic Shaping technology.";
 explain2 = "You will receive a license for both our 32-bit and our 64-bit version.";
@@ -2344,7 +2475,12 @@ special_price_h2 = "To January 31st:";
 special_price_h3 = "From February 1st:";
 special_price_h4 = "For all licenses:";
 
-/ contact
+/ ----------------------------------------------------------------------
+/
+/  Contact
+/
+/ ----------------------------------------------------------------------
+
 affiliate_program = "Affiliate Program";
 affiliate_earnmoney = "Earn money with cFosSpeed?";
 affiliate_placelink = "Place a special order link on your website and get a certain percentage of the sale profits";
@@ -2506,7 +2642,12 @@ cont_select_h4 = "You've got a different question";
 cont_trademark = "cFos® is a registered trademark.";
 word_mandatory = "mandatory";
 
-/ link_programm
+/ ----------------------------------------------------------------------
+/
+/  link_programm
+/
+/ ----------------------------------------------------------------------
+
 banner_alt = "cFos / cFosSpeed Acceleration of DSL and Broadband Cable with Traffic Shaping, Tuning, optimal Ping";
 internet_tuning = "Internet tuning";
 for_techniques = "for DSL, Router &#38; cable modems";
@@ -2520,7 +2661,12 @@ word_logo = "logo";
 word_background = "background";
 text_it_works = "It works!";
 
-/ press
+/ ----------------------------------------------------------------------
+/
+/  Press
+/
+/ ----------------------------------------------------------------------
+
 press = "press releases";
 release = "Press release";
 supported_operating_systems = "Supported Operating Systems";
@@ -2534,7 +2680,12 @@ press_boilerplate_text = "cFos Software GmbH, Bonn (Germany) is developing and f
 legal_note = "Legal Note";
 legal_note_text = "Our licensing conditions do explicitly permit putting the most recently released shareware versions of cFos, cFos Broadband Connect, cFos IPv6 Link and cFosSpeed on free CDs for inclusion with magazines.  For more on licensing issues, please consult our <a href=\"/en/cfosspeed/license.htm\">LICENSE.TXT</a> file.  Both text and artwork on our web site may be used for press and review purposes.";
 
-/ speed guide
+/ ----------------------------------------------------------------------
+/
+/  cFos Speed Guide
+/
+/ ----------------------------------------------------------------------
+
 speed_guide = "cFos Speed Guide";
 speed_guide_const = "The Speed Guide is under construction and will be available soon.<br />";
 speed_guide_continue = "Continue";
@@ -2674,7 +2825,12 @@ speed_guide_l26e = "Suggestions for gamers";
 speed_guide_l26f = "Prioritizing programs";
 speed_guide_l26g = "Prioritizing ports";
 
-/ speed test
+/ ----------------------------------------------------------------------
+/
+/  cFos Speed Test
+/
+/ ----------------------------------------------------------------------
+
 speed_test = "cFos Speed Test";
 sptest_info_p1 = "With our new speed checker, you can quickly test the speed of your Internet connection. You can perform upload and download speed tests, for example to verify, if your Internet speed matches the promised values. The Speed Test is designed to measure your available bandwidth as fast as possible. Don't be alarmed if the speed check doesn't match the exact values your ISP gave you. For example if you have a broadband speed of 16Mbit/s, 1% tolerance is already 160,000 bit/sec, which looks impressive but makes no big difference.";
 sptest_info_p1_sm = "With our new speed checker, you can quickly test the speed of your Internet connection. You can perform upload and download speed tests, for example to verify, if your Internet speed matches the promised values.";
@@ -2696,7 +2852,12 @@ sptest_send = "Send report";
 sptest_cancel = "Cancel";
 sptest_bot_p1 = "cFosSpeed's MSS (MTU) optimization may reduce your MSS/MTU from 1492 to a little lower value. With ATM based DSL networks this can result in higher throughput, even if some \"net speed tests\" pages say otherwise. But MSS (MTU) optimization can interfere with some games, so best you do the speed check with and without MSS (MTU) optimization yourself.";
 
-/upload
+/ ----------------------------------------------------------------------
+/
+/  Upload
+/
+/ ----------------------------------------------------------------------
+
 upload_title = "cFos Upload Page";
 upload_h1 = "Upload file";
 upload_thanks = "Thank you for helping us fixing crashes in our products.";
@@ -2704,7 +2865,12 @@ upload_p1 = "Please make sure you have the most recent <a class=\"inline\" href=
 upload_p2 = "Please be aware that we cannot respond to every upload individually, but it will be reviewed by us and we may contact you if we need additional information.";
 description = "Description";
 
-/videos
+/ ----------------------------------------------------------------------
+/
+/  Videos
+/
+/ ----------------------------------------------------------------------
+
 videos_h1 = "YouTube videos";
 videos_text1 = "How to adjust the Medium/Protocol for your Internet connection";
 videos_text2 = "cFos WMI Monitor, a cFos PNet add-on";
@@ -2724,7 +2890,12 @@ videos_text15 = "cFosSpeed with Logitech gaming keyboard G19";
 videos_text16 = "cFosSpeed 6.50 Installation on Windows7 32bit";
 videos_text17 = "cFosSpeed Version 5.00 - Installation on Windows 7";
 
-/port forwarding
+/ ----------------------------------------------------------------------
+/
+/  Port forwarding
+/
+/ ----------------------------------------------------------------------
+
 port_forwarding_title = "Setup NAT port forwarding for your router";
 port_forwarding_brand = "Select the brand of your router";
 port_forwarding_router = "Select your router model";
@@ -2755,7 +2926,12 @@ tlink_td_8840tv4_p5 = "Click on the \"Save\" button";
 tlink_td_8840tv4_p6 = "Log out of your router by clicking on \"Logout\" in the main menu on the left";
 tlink_td_8840tv4_p7 = "Port forwarding is now configured for your computer!";
 
-/meta descriptions
+/ ----------------------------------------------------------------------
+/
+/  Meta descriptions
+/
+/ ----------------------------------------------------------------------
+
 missing_meta_desc = "missing meta description";
 asrock_index_desc = "Additional info for ASRock XFast LAN users.";
 asus_asus_desc = "Additional info for ASUS Game!First users.";
@@ -2892,10 +3068,20 @@ pf_coming_soon_desc = "Temporary page for router instructions in progress";
 video_page_desc = "List of all YouTube videos by cFos Software";
 cfosspeed_features_title = "List of the most important cFosSpeed features.";
 
-/mailing lists
+/ ----------------------------------------------------------------------
+/
+/  Mailing lists
+/
+/ ----------------------------------------------------------------------
+
 announce_list = "cFos Announce List";
 
-/ countrynames
+/ ----------------------------------------------------------------------
+/
+/  Countrynames
+/
+/ ----------------------------------------------------------------------
+
 countryname_bg = "Bulgaria";
 countryname_br = "Brazil";
 countryname_by = "Belarus";
@@ -2932,10 +3118,16 @@ countryname_vn = "Vietnam";
 countryname_zh_hk = "Hong Kong";
 languagename_per = "Farsi";
 
+/ ----------------------------------------------------------------------
+/
+/  Currency
+/
+/ ----------------------------------------------------------------------
+
 / !!! DO NOT TRANSLATE !!!
 /
 / Anything below that line shouldn't be translated.
-/ Those strings used in order form exchange rates and shouldn't be modified
+/ Those strings used in Order Form exchange rates and shouldn't be modified
 /
 / !!! DO NOT TRANSLATE !!!
 
