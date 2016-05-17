@@ -12,6 +12,21 @@ language = "Indonesian";
 language_local = "Bahasa Indonesia";
 htm_lang_prefix = "id";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
@@ -20,6 +35,7 @@ htm_lang_prefix = "id";
 
 ignore_ssl_cert_chk = "Abaikan error SSL certificate (tidak aman)";
 ignore_ssl_cert_desc = "Jika cFos Outlook DAV diijinkan untuk mengabaikan error SSL certificate, program ini masih dapat terhubung ke server dengan SSL certificates yang tidak aman, sebagai contoh self-signed certificates. Mengaktifkan pilihan ini sangat tidak direkomendasikan, karena menyebabkan SSL connection rawan mendapat serangan.";
+od_key_registered = "Kunci telah terdaftar. Harap restart Outlook untuk proses registrasi agar berhasil.";
 
 / ----------------------------------------------------------------------
 /
@@ -59,6 +75,9 @@ setup_connections = "Tata sambungan";
 ask_inst_ipv6 = "Protokol IPv6 belum diinstal ke sistem ini.\n\n"
                 "Apakah Anda ingin menginstal protokol IPv6 sekarang?";
 err_inst_ipv6 = "Galat %? ketika menginstal protokol IPv6.";
+pause_server = "Server diberhentikan sementara";
+resume_server = "Server dijalankan kembali";
+file_link_failed = "Pembuatan link file gagal.";
 
 / connection entry dialog
 con_err_save = "Tak dapat menyimpan data sambungan!";
@@ -134,6 +153,18 @@ monitor_port_desc = "Tugas ini memonitor secara periodik port yang dibutuhkan ol
 logon_start_desc = "Tugas ini mulai %p jika pengguna yang terlihat dibawah logs in.";
 show_home_dir = "Perlihatkan Home Directory";
 publish_file = "Publikasikan File";
+user_administration = "User Administration";
+
+/. Label of menu entry, which enables and disables any uploads to PNET.
+/. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
+/. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
+disable_uploads = "Menonaktifkan upload";
+enable_uploads = "Mengaktifkan upload";
+
+publish_file_for_download = "Munculkan file untuk download";
+
+/. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
+upload_url_to_clipboard = "Copy upload link ke clipboard";
 
 / pnet connectivity test
 connectivity_test = "Test konektivitas";
@@ -151,6 +182,12 @@ con_test_execute = "Eksekusi test konektivitas";
 
 ga_service_desc = "cFos Game Analyzer - Cek performa penerimaan data";
 ga_speed_installed = "cFosSpeed tampaknya telah terinstal di komputer anda.\n\ncFosSpeed telah memuat cFos Game Analyzer.\n\nUntuk menggunakan fitur terkini dari cFos Game Analyzer, harap download dan instal versi terkini dari cFosSpeed di www.cfos.de.";
+local_ip_addresses = "Alamat IP lokal:";
+ga_password_subheader = "Password untuk akses eksternal ke cFos Game Analyzer.";
+ga_password_info = "Username: cfosspeed";
+ga_call_info = "Akses cFos Game Analyzer dari PC anda melalui\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nAkses cFos Game Analyzer dari perangkat eksternal dengan password diatas dan gunakan salah satu dari alamat IP selain 'localhost':\n";
+ga_detected_by_speed = "Versi terpasang dari cFos Game Analyzer telah terdeteksi. cFosSpeed telah mempunyai fitur dari cFos Game Analyzer.\n\nJika anda melanjutkan, the cFos Game Analyzer akan menguninstal instalasi cFosSpeed sebelumnya.\n\nApakah anda akan melanjutkan proses ini?";
+ga_use_password_by_speed = "Haruskah cFosSpeed menggunakan password dari cFos Game Analyzer, sehingga anda dapat mengakses cFosSpeed dari perangkat lain dengan lancar?";
 
 / ----------------------------------------------------------------------
 /
@@ -194,8 +231,16 @@ select_language = "Pilih Bahasa";
 translator = "Penerjemah";
 translator_name = "elda taluta";
 translator_msg = "Mari membeli salinan orisinal cFosSpeed; JANGAN memakai perangkat lunak bajakan!";
-/ %3=product name, %1=number, %2="day"/"days"
+
+/. %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Lisensi %3 Anda akan kedaluwarsa dalam %1 hari.";
+
+version_mismatch = "Versi tidak cocok antara driver dan daemon window.\n"
+   "\n"
+   "Daemon=%1\n"
+   "Driver=%2\n"
+   "\n"
+   "Harap restart dan jika tidak ada perubahan harap reinstal %p!\n";
 
 service_desc = "Lakukan perhitungan latensi dan operasi berprivilese untuk %p";
 no_pings_error = "Paket ping yang dikirim oleh %p tampaknya tak menembus keluar. "
@@ -230,12 +275,14 @@ dayl_singular = "hari";
 dayl_plural = "hari";
 days_singular = "hari";
 days_plural = "hari";
-/ %1=number, %2="day/days"
+
+/. %1=number, %2="day/days"
 short_try = "Coba selama %1 hari";
 short_dexpire = "Kedaluwarsa dalam %1 hari";
 
 short_exp = "Kedaluwarsa!";
-/ %1=number, %2="day/days", %3=product name
+
+/. %1=number, %2="day/days", %3=product name
 lic_dexpire = "Masa evaluasi Anda telah kedaluwarsa selama %1 hari. Beli %3 hari ini!";
 lic_try = "Anda boleh mencoba %3 selama %1 hari sebelum membeli.";
 
@@ -248,8 +295,12 @@ connect_to = "Sambungkan dengan";
 make_own_skin = "Rancang kulit Anda sendiri";
 click_through = "Klik tembus";
 ask = "Tanya";
+
+/. Indicates states, like `Switch On` or `Switch Off`
+/. Used in various sections of program as menu entries or buttons labels
 off = "Mati";
 on = "Hidup";
+
 note = "Catatan";
 deactivated = "lumpuh";
 browser_warning = "Internet Explorer versi 8 atau yang lebih tinggi sangat direkomendasikan untuk dialog ini!";
@@ -281,11 +332,17 @@ prio_doc_link = "Bagaimana skema pemrioritasan bekerja";
 save_protocols = "Simpan protokol";
 undo = "Tak jadi";
 filter_selection = "Tapis pilihan";
+
+/: Settings -> Protocols/Programs
+/. Used as indicator of selected by user level of priority (for Traffic Shaping)
+/. Displayed next to protocol or program name, near slider with levels
 higher = "Lebih Tinggi";
 high = "Tinggi";
+normal = "Normal";
 default = "Standar";
 low = "Rendah";
 lower = "Paling Rendah";
+
 entries = "Entri-entri";
 prog_overwrite = "Program #p telah ada dalam senarai.\\nApakah Anda ingin menimpa entri dengan nilai baru?";
 games = "Permainan";
@@ -312,6 +369,8 @@ l7_prot_detection_help = "Mendeteksi protokol dengan menganalisis data. Gunakan 
 favor_ping = "Pilih Waktu Ping";
 favor_ping_help = "<b>Hidup</b>: %p akan meminimalkan waktu ping pada keluaran lebar pita yang sedikit berkurang (jika dibutuhkan).<br /><b>Mati</b>: %p akan memaksimalkan waktu ping pada keluaran lebar pita yang berwaktu ping agak tinggi (jika dibutuhkan).";
 favor_bandwidth = "Pilih Lebar Pita";
+store_dns_names = "Refresh nama DNS";
+store_dns_names_help = "Untuk mempercepat pencarian DNS, akan disimpan DNS yang paling sering digunakan, dan setiap 2 hari akan direfresh";
 avoid_loss = "Pencegahan paket hilang";
 avoid_loss_help = "%p menutup jendela penerimaan TCP dari menerima arus bila terlalu banyak paket hilang terdeteksi. Ini hanya terjadi jika sambungan Anda menerima dengan kecepatan penuh.";
 activate_firewall = "Aktifkan Tembok Api";
@@ -327,6 +386,7 @@ traffic_shaping = "Pembentukan Kepadatan";
 ras_con_help = "<b>Ya</b>: mengaktifkan, <b>tidak</b>: menonaktifkan, <b>tanya</b>: bertanya sekali saja kemudian simpan penataan";
 router_connections = "Sambungan Perute";
 net_components = "Komponen Jaringan";
+auto = "Auto";
 router_help = "<b>Ya</b>: mengaktifkan, <b>no</b>: menonaktifkan, <b>oto</b>: memfungsikan Pembentukan Kepadatan, jika perute ditemukan pada komponen jaringan ini";
 network_adapter = "Adapter Jaringan";
 router = "Perute";
@@ -352,8 +412,15 @@ show_for = "Tampilkan selama";
 this_month = "bulan ini";
 time = "Waktu";
 time_limit = "Batas Waktu";
+
+/. Used as table header
+/. Short version of "minutes"
 time_min = "Menit";
+
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "jam:menit";
+
 volume = "Volume";
 volume_limit = "Batas Volume";
 spdbudget_help = "Untuk menggunakan sebuah anggaran, tuju dialog sambungan dan terapkan terhadap sambungan tertentu";
@@ -389,6 +456,12 @@ disable_speed_shaping = "Lumpuhkan Pembentukan Kepadatan";
 yes = "Ya";
 no = "Tidak";
 help = "Bantuan";
+
+/: cFosSpeed context menu -> Usage Graph
+/. Used as one of dropdown menu entries
+/. Means `To show all programs and protocols traffic`
+bgraph_totals = "Total";
+
 blocklist = "Penangkal PI";
 blocklist_help = "Senarai alamat PI yang dihalangi oleh seluruh kepadatan.";
 apply_blocklist = "Gunakan senarai tapis";
@@ -414,8 +487,13 @@ slots_title = "Penataan Slot";
 can_select_multiple = "Bocoran: Anda dapat memilih opsi berganda dengan menahan tombol Shift atau Ctrl ketika memilih sebuah opsi";
 name_for = "Nama untuk ";
 set_name = "Tata nama";
+
+/. RX stands for `receive` (incoming/download)
 rx_only = "RX saja";
+
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "TX saja";
+
 max_of_rx_tx = "RX & TX maksimum";
 total_rx_only = "Total kecepatan RX ";
 total_tx_only = "Total kecepatan TX ";
@@ -447,7 +525,11 @@ set = "Set";
 tx_limit_help = "Tentukan kecepatan dalam bata/detik yang diijinkan untuk dikirim oleh program atau protokol ini.";
 download_more_skins = "Unduh lebih banyak kulit";
 documentation = "Dokumentasi";
+
+/: cFosSpeed context menu
+/. means `Close cFosSpeed`
 exit_demon = "Keluar";
+
 speed_test = "Uji Kecepatan cFos";
 ask_key_banned_info = "Terdapat masalah dengan kunci lisensi Anda.\nApakah Anda menginginkan informasi lebih jauh?";
 
@@ -497,10 +579,28 @@ rwin_expansion = "Perluasan RWIN otomatis";
 rwin_expansion_help = "Otomatis perluas RWIN TCP guna meningkatkan kecepatan unduhan jika RWIN yang dipilih oleh Windows terlalu lambat.";
 query_auto_open = "Menonaktifkan membuka dan menutup otomatis jendela status?\nAnda dapat mengaktifkannya nanti didalam context menu.";
 preview_skins = "Pratinjau Skins";
+enable_smartphone_skins = "Phone Skin";
 http_access_enabled = "Akses HTTP dari remote diperbolehkan.";
 http_access_disabled = "Akses HTTP dari remote dilarang.";
+set_server_pwd = "Set Password Server";
+
+/: Right click on cFosSpeed -> Windows Settings -> Auto-arrange windows
+/. Possible position of status window
 auto_arrange_top = "Atas";
 auto_arrange_bottom = "Bawah";
+
+/: cFosSpeed context menu
+/. Menu entry which enables display of cFosSpeed's tile in Windows 8 Start Menu
+/. @note Currently disabled
+show_on_metro_apps = "Menampilkan Metro apps";
+
+traffic_shaping_info = "Info Traffic Shaping";
+wlan_access_point = "Wi-Fi akses point";
+prioritize_foreground_process = "Memprioritaskan proses pada bagian depan jendela";
+prioritize_foreground_help = "Otomatis set prioritas proses pada bagian depan jendela ke high.";
+upnp_router_info = "Menggunakan statistik UPnP Router";
+upnp_router_info_help = "Menggunakan statistik dari UPnP router anda untuk menentukan kecepatan line dan media traffic shaping, jika dimungkinkan. Anda perlu untuk mengaktifkan UPnP pada router anda.";
+ping_stats = "Statistik Ping";
 
 
 / ----------------------------------------------------------------------
@@ -560,7 +660,8 @@ rp_info = "Titik simpan ulang sistem membantu Anda menyimpan ulang sistem Window
           "dibuat. Dianjurkan untuk membuat titik simpan ulang sistem saat menginstal sebuah "
           "pengandar baru.";
 rp_check = "Buat titik simpan ulang sistem.";
-/ %1 = product name
+
+/. %1 = product name
 rp_uninst_info = "Titik simpan ulang sistem bukan dimaksudkan sebagai sarana penghapusan instalasi normal dari %1. Ia lebih pada "
                  "pencegahan tambahan yang memungkinkan sistem Anda kembali ke keadaan aslinya andaikata terjadi "
                  "konflik pengandar. Penghapusan instalasi normal dari %1 dapat dipilih baik dari Menu Mulai di "
@@ -593,7 +694,10 @@ sn_save_err = "Berkas kunci tak dapat disimpan ke disket di %?.";
 sn_keyfile_err = "Berkas kunci rusak.";
 
 / new 16 digit serial number dialog
+
+/. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
 sn16_info = "Harap masukan 16 digit nomor seri anda untuk menerima kunci lisensi anda. Anda harus sudah terhubung dengan internet untuk menerima kunci lisensi dengan sukses.";
+
 sn16_failed = "Gagal mendapatkan kunci lisensi!";
 
 / re-enter password dialog
@@ -642,6 +746,8 @@ port_forwarding_chk = "Gunakan automatic port forwarding, jika tersedia.";
 port_forwarding_failed = "Router anda%? tampaknya tidak mendukung automatic port forwarding. "
                          "Anda mungkin dapat mengaktifkan fitur ini ke dalam konfigurasi router anda.";
 port_forwarding_config = "Anda dapat mengkonfigurasi router anda di%?.";
+
+/. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
 port_forwarding_fritz = "Anda telah mengaktifkan port forwarding di dalam FRITZ!Box anda dengan mengizinkan perubahan pengaturan keamanan via UPnP "
                         "melalui Home Network / Network / Programs";
 
@@ -653,6 +759,8 @@ crash_msg_virus_clean = "Modul ini mungkin adalah virus. Oleh karena itu sangat 
 crash_msg_hook = "Modul dari program lain telah ditemukan, modul tersebut telah menginjeksi dirinya sendiri ke dalam program ini. Untuk meyakinkan bahwa modul tersebut bukan penyebab dari crash, harap jalankan program ini lagi setelah deaktivasi atau melepas program berikut:";
 crash_msg_terminate = "Program berakhir sekarang.";
 crash_msg_query_upload = "Apakah anda ingin mengirimkan crash dump ke cFos, yang akan membantu anda untuk menganalisa error yang terjadi?";
+crash_msg_new_release = "Versi terbaru dari %p telah tersedia. Harap download dan instal versi terbaru %p di www.cfos.de.";
+crash_msg_new_beta = "Versi beta terbaru dari %p telah tersedia. Harap download dan instal versi beta terbaru %p di www.cfos.de/beta.";
 
 /start installation dialog
 start_header = "Instalasi";
@@ -720,6 +828,7 @@ task_uninstall_old = "Menghapus instalasi versi yang ada...";
 task_stop_daemon = "Menghentikan %?...";
 task_uninstall_driver = "Menghapus instalasi pengandar...";
 task_uninstall_service = "Melepas layanan...";
+task_uninstall_ga = "Uninstal cFos Game Analyzer...";
 task_delete_files = "Menghapus berkas files...";
 task_cleanup_caches = "Membersihkan tembolok...";
 task_hangup = "Memutuskan sambungan terhubung yang aktif...";
@@ -729,6 +838,7 @@ task_canceled = "Operasi dibatalkan!";
 
 / connectivity test progress tasks
 task_start_program = "Memulai %p...";
+task_test_localhost = "Testing localhost...";
 task_test_local_ip = "Testing alamat IP lokal...";
 task_test_public_ip = "Testing alamat IP publik...";
 task_test_finished = "Test selesai.";
@@ -751,6 +861,7 @@ dt_advertise_desc = "Senarai seluruh fitur %?.";
 / message boxes
 query_reboot = "Anda harus mem-boot ulang sistem agar perubahan dapat bekerja.\n\n"
    "Boot ulang sistem sekarang?";
+query_inst_reboot = "Anda harus merestart sistem operasi anda sebelum proses instalasi dilanjutkan.\n\nHarap restart setup program setelah merestart sistem operasi anda.\n\nApakah anda akan merestart sistem operasi anda sekarang?";
 query_drv_inst_cancel = "Penghapusan/instalasi pengandar dilakukan oleh sistem operasi.\n"
                         "Antarmuka tataan Windows dapat membutuhkan waktu hingga 15 menit untuk\n"
                         "mendaftarkan atau mencoret sebuah pengandar!\n\n"
@@ -785,6 +896,7 @@ err_uninst_driver = "Instalasi pengandar peranti tak dapat dihapus.";
 err_create_process = "Gagal memanggil %s: %s";
 err_write_lock = "%? Komponen jaringan sedang dipakai oleh proses lain. "
                  "Silakan tutup seluruh aplikasi lain atau boot ulang komputer Anda lalu coba lagi.";
+err_write_lock_process = "%? komponen jaringan sedang digunakan oleh proses ini: %?. Harap akhiri proses tersebut dan restart komputer anda dan coba kembali.";
 err_file_auth = "Beberapa berkas dari distribusi ini rusak atau hilang.\n"
                 "Silakan unduh distribusi autentik %p\n"
                 "(mis. dari www.cfos.de).";
@@ -835,8 +947,10 @@ err_activate_12002 =
    "Jika Anda memiliki salah satu dari program tersebut yang terinstal, silakan\n"
    "nonaktifkan sementara lalu coba lagi\n"
    "pendaftarannya.";
-/ %1 = source, %2 = destination, %3 = explanation
+
+/. %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "Gagal menyalin berkas dari %1 ke %2 (%3).";
+
 err_port_in_use = "Pangkalan peladen %? telah terpakai oleh program lain.\n\nProgram: %?\nJalur: %?";
 
 / warning messages
@@ -885,6 +999,39 @@ eml_invalid_email = "Alamat surel yang Anda masukkan tak sahih.";
 eml_invalid_optional_email = "Silakan masukkan alamat surel yang sahih atau tidak sama sekali.";
 eml_reg_failed = "Pendaftaran alamat surel gagal.";
 eml_checking_domain = "Memeriksa ranah surel...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p Virtual Wi-Fi Start Wizard";
+virtual_wifi_header = "Menjalankan Virtual Wi-Fi";
+virtual_wifi_subheader = "Setup software-based wireless akses poin dan aktifkan Internet Connection Sharing.";
+virtual_wifi_stop_header = "Stop Virtual Wi-Fi";
+virtual_wifi_info = "Pilih koneksi network yang menghubungkan Internet traffic dan tentukan password untuk wireless akses poin.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "SSID tidak boleh kosong dan and tidak lebih dari 32 karakter.";
+virtual_wifi_invalid_password_length = "Panjang password harus berada antara 8 hingga 64 karakter.";
+virtual_wifi_ics_not_available = "Internet Connection Sharing tidak tersedia pada komputer ini.";
+virtual_wifi_error_get_cons = "Error dalam mendapatkan koneksi jaringan.";
+virtual_wifi_ics_warning = "Internet Connection Sharing telah diaktifkan pada jaringan ini:\n%?\n\nApakah anda akan menggunakan jaringan selain ini:\n%?";
+virtual_wifi_error_enable_ics = "Error dalam mengaktifkan Internet Connection Sharing.";
+virtual_wifi_error_start = "Error dalam menjalankan Virtual Wi-Fi.";
+virtual_wifi_ok = "Virtual Wi-Fi dan Internet Connection Sharing telah sukses teraktivasi.\n\nNote: Jika klien tidak dapat terhubung dengan Virtual Wi-Fi, harap stop dan restart Virtual Wi-Fi.\n\nJika klien dapat terhubung dengan Virtual Wi-Fi tetapi tidak mendapatkan koneksi Internet, harap uninstal dan kemudian reinstal program %p.";
+virtual_wifi_query_stop = "Stop Virtual Wi-Fi?";
+virtual_wifi_error_stop = "Error dalam melakukan stop Virutal Wi-Fi:";
+virtual_wifi_stopped = "Virtual Wi-Fi telah berhasil stop.";
+virtual_wifi_dialup_ics = "Untuk koneksi dial-up anda harus mengaktifkan Internet Connection Sharing secara manual dengan mengganti properti dari koneksi ini.";
+virtual_wifi_error_not_present = "Wi-Fi tidak ditemukan.\n\nUntuk menseting Virtual Wi-Fi, Wi-Fi harus tersedia dan siap.";
+virtual_wifi_autostart = "Start otomatis pada saat sistem start.";
+/. Label next to a checkbox in deactivation of virtual Wi-Fi dialog
+virtual_wifi_deactivate_autostart = "Nonaktifkan start otomatis pada sistem.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
