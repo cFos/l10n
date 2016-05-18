@@ -2117,11 +2117,7 @@ sp_doc_voip_p5 = "VoIP connections usually suffer from dropouts when downloads a
 sp_doc_voip_t2 = "Skype:";
 sp_doc_voip_p6 = "Skype employs a proprietary encrypted protocol that cannot be detected by a Layer-7 analysis without considerable effort. To allow users to prioritize Skype nevertheless, we have entered it in our program list.";
 sp_doc_voip_t3 = "VoIP via Router Prioritization:";
-
-/. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
-/. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
-sp_doc_voip_p7 = "Some routers (like the Fritz!Box) are equipped with phone jacks installed on the device. If a jack is used, all VoIP data will be transmitted directly to the Internet passing cFos and cFosSpeed by entirely. The major drawback here is that to avoid dropout, such routers restrict the available bandwidth drastically whenever a VoIP call is made or accepted. This may have a negative impact on Traffic Shaping performance, since this also means the connection is repeatedly subject to strong variations in speed. This is why we recommend you make all VoIP calls from your computer itself to allow cFos and/or cFosSpeed to detect and prioritize them. If you although want to phone via your router, then switch to \"variable (cooperative)\" via <samp>Options/Connections</samp> using the tool button.";
-
+sp_doc_voip_p7 = "Some routers (like the Fritz!Box) are equipped with phone jacks. If a jack is used, all VoIP data will be transmitted directly to the Internet bypassing cFosSpeed entirely. Such routers may restrict the available bandwidth when a VoIP call is made causing a negative impact on Traffic Shaping performance. Therefore we recommend making VoIP calls from your computer, not the router, to allow  cFosSpeed to detect and prioritize them.";
 sp_doc_voip_t4 = "VoIP Software in use with cFosSpeed";
 sp_doc_voip_t5 = "Measurements with IxChariot";
 sp_doc_voip_p8 = "We tested our software using IxChariot (a network performance testing tool provided by Ixia) to evaluate the benefits of cFosSpeed Traffic Shaping. For this purpose we monitored the VoIP parameters with IxChariot while performing multiple uploads.";
