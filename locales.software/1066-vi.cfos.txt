@@ -42,19 +42,13 @@ ignore_ssl_cert_desc = "Nếu cFos Outlook DAV được phép bỏ qua lỗi ch�
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "%url/index.htm";
-bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/vi/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, Dial-up Driver với hiệu suất cao";
-sixlink_mainurl = "%url/index.htm";
-sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/vi/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, IPv6 dial-up driver với tốc độ cao";
-cfospnet_mainurl = "%url/index.htm";
-cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/vi/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, máy chủ web cá nhân của bạn";
 renew_params = "thay thông số mới";
@@ -181,20 +175,8 @@ ga_use_password_by_speed = "Có nên để cFosSpeed ​​sử dụng mật kh�
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/vi/order/cfosspeed-n.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/vi/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Việc kiểm tra tính nhất quán đã phát hiện ra rằng một hoặc nhiều thành phần đã được sửa đổi.\n"
@@ -537,9 +519,6 @@ prioritize_foreground_help = "Tự động thiết lập ưu tiên ở mức cao
 speed_desc = "%p, truy cập Internet nhanh hơn với Tối ưu Băng thông (Traffic Shaping)";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? Thuật sĩ cài đặt";
@@ -875,8 +854,6 @@ virtual_wifi_dialup_ics = "Để kết nối quay số bạn cần kích hoạt 
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "%url/index.htm";
-cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/vi/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -908,7 +885,6 @@ cfos_expired = "Phiên bản %p này đã hết hạn.\nĐặt mua %p Profession
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 

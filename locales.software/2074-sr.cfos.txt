@@ -326,7 +326,6 @@ total_max_of_rx_tx = "Maks. totalnog RX & TX";
 check_if_other_also = "Oznaèite, ako želite da se sav ostali saobraæaj raèuna u ovom slotu";
 performance_help = "Da sačuvate maksimalnu snagu, preporučujemo da postavite vezu koju koristite za internet pristup na 'Da' a sve druge na 'Ne'.";
 loading = "Uèitavanje...";
-connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Bez saradnje";

@@ -18,16 +18,10 @@ htm_lang_prefix = "sl";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "%url/index.htm";
-bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/sl/order/broadband-connect-n.htm";
 bc_desc = "%p, visoko zmogljivi gonilnik na klic";
-sixlink_mainurl = "%url/index.htm";
-sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/sl/order/cfos-ipv6-link-n.htm";
 sixlink_desc = "%p, hitri IPv6 gonilnik";
-cfospnet_mainurl = "%url/index.htm";
-cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/sl/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, vaš osebni web strežnik";
 renew_params = "Posodobi parametre";
@@ -101,24 +95,7 @@ start_product = "Zaženi %p";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/sl/order/cfosspeed-n.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-documentation_url = "%url/cfosspeed/documentation/index.htm";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
-beta_url = "%url/beta/index.htm";
-keyboard_led_help_url = "%url/cfosspeed/documentation/keyboard-leds.htm";
-logitech_help_url = "%url/cfosspeed/documentation/logitech-keyboard.htm";
-speed_guide_url = "%url/traffic-shaping/speed-guide.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 auth_failed = "Preverjanje konsistence je detektiralo, da je ena ali več komponent bilo spremenjeno.\n"
    "Prosim inštaliraj nespremenjeno verzijo z naše web strani:\n";
@@ -367,7 +344,6 @@ total_max_of_rx_tx = "Maksimum od skupne RX & TX";
 check_if_other_also = "Izberi, če želiš da se ves ostal promet štej k tej reži";
 performance_help = "Za prihranitev maksimalne računalniške moči, predlagamo da se postavi povezave ki se uporabljajo za intenet na 'Da' vse ostale pa na 'Ne'.";
 loading = "Nalagam...";
-connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other PCs on the net, which don't have %p Traffic Shaping.
 regid = "Brez sodelovanja";
@@ -443,10 +419,6 @@ check_for_news = "Preveri za novice";
 speed_desc = "%p, hitrejši internet s preoblikovanjem prometa";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
-cfospnet_activation_failed_url = "%url/cfos-personal-net/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? Instalacijski Čarovnik";

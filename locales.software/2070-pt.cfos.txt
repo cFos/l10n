@@ -177,20 +177,8 @@ ga_use_password_by_speed = "O cFosSpeed deverá utilizar a palavra passe do cFos
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/pt/order/cfosspeed-n.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/pt/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "O verificador de consistência detetou que um ou mais componentes foram modificados.\n"
@@ -541,9 +529,6 @@ ping_stats = "Estatísticas de Ping";
 speed_desc = "%p, o acesso mais rápido à Internet com Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Assistente de Instalação %?";
@@ -931,7 +916,6 @@ cfos_expired = "Esta %p versão expirou.\nCompre %p/Professional     agora!\nCom
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 

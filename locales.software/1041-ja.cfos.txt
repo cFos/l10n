@@ -40,19 +40,13 @@ htm_lang_prefix = "ja";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "%url/index.htm";
-bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/ja/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "%url/index.htm";
-sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/ja/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "%url/index.htm";
-cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/ja/order/cfos-personal-net-n.htm";
 pnet_desc = "パーソナルウェブサーバー %p";
 renew_params = "更新パラメータ";
@@ -171,20 +165,8 @@ ga_use_password_by_speed = "他のデバイスから cFosSpeed にアクセス�
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/ja/order/cfosspeed-n.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 auth_failed = "整合性チェックでコンポーネントの改変が1つ以上検出されました。\n"
    "弊社のウェブサイトから改変されていないバージョンをインストールしてください:\n";
@@ -530,9 +512,6 @@ prioritize_foreground_help = "フォアグラウンドウィンドウの処理�
 speed_desc = "%p, 帯域制御でネットアクセスの高速化";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? インストールウィザード";
@@ -895,8 +874,6 @@ virtual_wifi_stopped = "仮想Wi-Fiを停止しました。";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "%url/index.htm";
-cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/ja/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -998,7 +975,6 @@ report_title = "%p接続状況報告";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_back = "戻る";

@@ -45,16 +45,10 @@ od_key_registered = "Registrado com sucesso. Por favor, reinicie o Outlook para 
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "%url/index.htm";
-bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/pt-br/order/broadband-connect-n.htm";
 bc_desc = "%p, Controlador  de discagem de alto rendimento";
-sixlink_mainurl = "%url/index.htm";
-sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/pt-br/order/cfos-ipv6-link-n.htm";
 sixlink_desc = "%p, Controlador  de discagem IPv6 de alta velocidade e rendimento ";
-cfospnet_mainurl = "%url/index.htm";
-cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/pt-br/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, seu servidor web pessoal";
 renew_params = "Renovar parâmetros";
@@ -186,21 +180,8 @@ ga_use_password_by_speed = "O cFosSpeed deve usar a senha do cFos Game Analyzer,
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/pt-br/order/cfosspeed-n.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-documentation_url = "%url/cfosspeed/documentation/index.htm";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/pt-br/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Ao verificar os arquivos foi detectado que um ou mais componentes foram modificados.\nPor favor, baixe e instale uma versão oficial do nosso site:\n";
@@ -552,9 +533,6 @@ ping_stats = "Estatísticas do Ping";
 speed_desc = "%p, acesso mais rápido a Internet com Modelagem de Tráfego";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Assistente de Instalação do %?";
@@ -894,8 +872,6 @@ virtual_wifi_deactivate_autostart = "Desativar também a inicialização automá
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "%url/index.htm";
-cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/pt-br/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -927,7 +903,6 @@ cfos_expired = "Esta versão %p expirou.\nCompre o %p/Profissional agora!\nAcess
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_cancel = "&Cancelar";

@@ -29,20 +29,14 @@ od_key_registered = "Registrierung der Lizenzdatei abgeschlossen. Bitte starten 
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "%url/index.htm";
-bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/de/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Einwahl-Treiber";
-sixlink_mainurl = "%url/index.htm";
-sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/de/order/cfos-ipv6-link-n.htm";
 sixlink_langurl = "";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-Speed IPv6 Einwahl-Treiber";
-cfospnet_mainurl = "%url/index.htm";
-cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/de/order/cfos-personal-net-n.htm";
 cfospnet_langurl = "";
 pnet_pg_name = "%p";
@@ -177,29 +171,9 @@ ga_use_password_by_speed = "Soll cFosSpeed das Passwort des cFos Game Analyzers 
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/de/order/cfosspeed-n.htm";
-speed_langurl = "%url/cfosspeed/documentation/lang.htm";
-make_own_skin_url = "%url/skin/skin.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
-many_cons_help = "%url/cfosspeed/documentation/bittorrent.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-documentation_url = "%url/cfosspeed/documentation/index.htm";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
 speed_test_url = "http://www.cfosspeed.de/speed-test/speed-test_de.htm";
-beta_url = "%url/beta/index.htm";
-keyboard_led_help_url = "%url/cfosspeed/documentation/keyboard-leds.htm";
-logitech_help_url = "%url/cfosspeed/documentation/logitech-keyboard.htm";
-speed_guide_url = "%url/traffic-shaping/speed-guide.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/de/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Der Konsistenz-Check hat ergeben, dass eine oder mehrere Komponenten modifiziert wurden.\n"
@@ -471,7 +445,6 @@ total_max_of_rx_tx = "Max. von Gesamt RX & TX";
 check_if_other_also = "Aktiv: Sämtlicher anderer Traffic soll in diesem Slot gezählt werden";
 performance_help = "Um die Rechnerleistung maximal zu halten, empfehlen wir nur die für ihren Internetzugang genutzte Verbindung auf 'Ja' zu setzen und alle anderen auf 'Nein'.";
 loading = "Lade...";
-connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Nicht kooperativ";
@@ -568,11 +541,6 @@ ping_stats = "Ping Statistik";
 speed_desc = "%p, schnelleres Internet mit Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
-cfospnet_activation_failed_url = "%url/cfos-personal-net/activation-failed.htm";
-virtual_wifi_doc_url = "%url/cfosspeed/documentation/wlan-access-point.htm";
 
 / wizard
 install_wizard_name = "%? Installations-Assistent";
@@ -991,8 +959,6 @@ virtual_wifi_deactivate_autostart = "Automatischen Start bei jedem Systemstart e
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "%url/index.htm";
-cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/de/order/cfos-professional-n.htm";
 budget_file = "budget.cfhta";
 report_tpl = "report.tpl";
@@ -1002,8 +968,6 @@ cfos_htm = "techinfo\\cfos.htm";
 techinfo_htm = "techinfo\\techinfo.htm";
 dsldevice_help = "techinfo\\dsldev.htm";
 features_htm = "techinfo\\features.htm";
-cfos_feat = "%url/cfos-professional/features.htm";
-after_cfos_calibration = "%url/traffic-shaping/calibration-message.htm";
 
 testskin = "Window testen";
 lastcallers = "Anruferliste";
@@ -1130,7 +1094,6 @@ no_translate_short_dexpire = "%1 %2 Verzug!";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_back = "&Zurück";

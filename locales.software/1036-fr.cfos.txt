@@ -43,19 +43,13 @@ od_key_registered = "La clée a été enregistrée. Merci de redémarrer Outlook
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "%url/index.htm";
-bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/fr/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "%url/index.htm";
-sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/fr/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, Driver de communication High-speed IPv6";
-cfospnet_mainurl = "%url/index.htm";
-cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/fr/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, votre serveur internet privé";
 renew_params = "Renouveler les paramètres";
@@ -191,20 +185,8 @@ ga_use_password_by_speed = "cFosSpeed devrait-il utiliser le mot de passe de cFo
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/fr/order/cfosspeed-n.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/ar/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Le contrôle de cohérence a détecté qu'un ou plusieurs composants ont été modifiés.\n"
@@ -580,9 +562,6 @@ ping_stats = "Statistiques de Ping";
 speed_desc = "%p, Votre connexion Internet plus rapide avec la Régulation dynamique de flux réseau (Traffic Shaping)";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Assistant d’installation de %?";
@@ -965,8 +944,6 @@ virtual_wifi_deactivate_autostart = "Désactiver le démarrage automatique aussi
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "%url/index.htm";
-cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/fr/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -1013,7 +990,6 @@ setup = "Options";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 

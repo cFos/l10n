@@ -43,19 +43,13 @@ od_key_registered = "La chiave è stata registrata. Si prega di riavviare Outloo
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "%url/index.htm";
-bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/it/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, driver per connessioni remote ad alte prestazioni";
-sixlink_mainurl = "%url/index.htm";
-sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/it/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, driver per connessioni remote IPv6 ad alta velocità";
-cfospnet_mainurl = "%url/index.htm";
-cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/it/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, il tuo personal web server";
 renew_params = "Rinnova parametri ";
@@ -185,24 +179,8 @@ ga_use_password_by_speed = "Usando la stessa password che usi per cFos Game Anal
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/it/order/cfosspeed-n.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-documentation_url = "%url/cfosspeed/documentation/index.htm";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
-keyboard_led_help_url = "%url/cfosspeed/documentation/keyboard-leds.htm";
-logitech_help_url = "%url/cfosspeed/documentation/logitech-keyboard.htm";
-speed_guide_url = "%url/traffic-shaping/speed-guide.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/it/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Il controllo di coerenza ha rilevato che uno o più componenti sono stati modificati.\nSi prega di installare una versione non modificata dal nostro sito:\n";
@@ -457,7 +435,6 @@ total_max_of_rx_tx = "Max. del Totale RX & TX";
 check_if_other_also = "Seleziona, se vuoi che tutto l'altro traffico venga conteggiato in questa porta";
 performance_help = "Per non impegnare la massima potenza di calcolo, si consiglia di impostare la connessione in uso per l'accesso internet su 'Si' e tutti le altre su 'No'.";
 loading = "Caricamento...";
-connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Non cooperativa";
@@ -554,9 +531,6 @@ ping_stats = "Statistiche Ping";
 speed_desc = "%p, Internet più veloce con Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Installazione guidata di %?";
@@ -899,8 +873,6 @@ virtual_wifi_deactivate_autostart = "Disabilita l'avvio automatico all'avvio del
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "%url/index.htm";
-cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/it/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -932,7 +904,6 @@ cfos_expired = "Questa %p versione è scaduta.\nOrdina %p/Professional adesso!\n
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 

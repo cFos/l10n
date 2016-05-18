@@ -43,19 +43,13 @@ od_key_registered = "Ключ зарегистрирован. Пожалуйст
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "%url/index.htm";
-bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/ru/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, высокопроизводительный Dial-Up драйвер";
-sixlink_mainurl = "%url/index.htm";
-sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/ru/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, высокопроизводительный IPv6 Dial-Up драйвер";
-cfospnet_mainurl = "%url/index.htm";
-cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/ru/order/cfos-personal-net-n.htm";
 pnet_desc = "%p, Ваш персональный веб-сервер";
 renew_params = "Обновить параметры";
@@ -193,20 +187,8 @@ ga_use_password_by_speed = "Следует ли cFosSpeed использоват
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/ru/order/cfosspeed-n.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/ru/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "Во время проверки было обнаружено, что один или несколько компонентов были изменены.\n"
@@ -510,7 +492,6 @@ total_max_of_rx_tx = "Макс. общ. вх. и исх. скорости";
 check_if_other_also = "Весь прочий трафик";
 performance_help = "Чтобы минимизировать нагрузку на процессор, рекомендуется установить \"Да\" для используемого Интернет-подключения и \"Нет\" для всех остальных.";
 loading = "Загрузка...";
-connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "Само по себе";
@@ -619,9 +600,6 @@ ping_stats = "Статистика пинга";
 speed_desc = "%p, увеличьте скорость работы Интернета с помощью технологии приоритезации трафика";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Мастер установки %?";
@@ -1048,8 +1026,6 @@ virtual_wifi_deactivate_autostart = "Также отключить автома�
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "%url/index.htm";
-cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/ru/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -1059,7 +1035,6 @@ cfos_htm = "techinfo\\cfos_e.htm";
 techinfo_htm = "techinfo\\techinfo_e.htm";
 dsldevice_help = "techinfo\\dsldev_e.htm";
 features_htm = "techinfo\\features_e.htm";
-after_cfos_calibration = "%url/traffic-shaping/calibration-message.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
 
@@ -1082,7 +1057,6 @@ cfos_expired = "Срок этой версии %p истек.\nКупите %p/P
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 

@@ -42,20 +42,14 @@ ignore_ssl_cert_desc = "Pokud je v Outlook DAV povoleno ignorování chyb SSL ce
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "%url/index.htm";
-bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/cs/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "%url/index.htm";
-sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/cs/order/cfos-ipv6-link-n.htm";
 sixlink_langurl = "";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "%url/index.htm";
-cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/cs/order/cfos-personal-net-n.htm";
 cfospnet_langurl = "";
 pnet_pg_name = "%p";
@@ -183,20 +177,8 @@ ga_use_password_by_speed = "Má cFosSpeed použít stejné heslo jako cFos Game 
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/cs/order/cfosspeed-n.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 auth_failed = "Kontrola konzistence odhalila, že došlo k modifikaci jedné nebo více komponent.\n"
    "Prosíme, nainstalujte původní verzi z našich webových stránek:\n";
@@ -538,9 +520,6 @@ prioritize_foreground_help = "Automaticky nastavit prioritu procesu v popředí 
 speed_desc = "%p, rychlejší přístup k internetu s Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? Instalační průvodce";
@@ -941,7 +920,6 @@ cfos_expired  = "Skončila testovací doba produktu %p.\nZakupte %p/Professional
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 

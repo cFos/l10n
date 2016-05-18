@@ -44,19 +44,13 @@ od_key_registered = "已註冊此金鑰，請重新啟動 Outlook 讓註冊生�
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "%url/index.htm";
-bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/zh-tw/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p，高效能撥接驅動程式";
-sixlink_mainurl = "%url/index.htm";
-sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/zh-tw/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p，高速 IPv6 撥接驅動程式";
-cfospnet_mainurl = "%url/index.htm";
-cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/zh-tw/order/cfos-personal-net-n.htm";
 cfospnet_langurl = "";
 pnet_pg_name = "%p";
@@ -190,29 +184,9 @@ ga_use_password_by_speed = "cFosSpeed 是否應該繼續使用 cFos Game Analyze
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/zh-tw/order/cfosspeed-n.htm";
-speed_langurl = "%url/cfosspeed/documentation/lang.htm";
-make_own_skin_url = "%url/skin/skin.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
-many_cons_help = "%url/cfosspeed/documentation/bittorrent.htm";
 mainurl_name = "www.cfos.de";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-documentation_url = "%url/cfosspeed/documentation/index.htm";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
 speed_test_url = "http://www.cfosspeed.de/speed-test/speed-test_zh-tw.htm";
-beta_url = "%url/beta/index.htm";
-keyboard_led_help_url = "%url/cfosspeed/documentation/keyboard-leds.htm";
-logitech_help_url = "%url/cfosspeed/documentation/logitech-keyboard.htm";
-speed_guide_url = "%url/traffic-shaping/speed-guide.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/zh-tw/traffic-shaping/traffic-shaping.htm";
 
 auth_failed = "完整性檢查發現某些元件已被修改，\n請由我們的網頁下載並安裝未被修改的版本：\n";
@@ -472,7 +446,6 @@ total_max_of_rx_tx = "接收及傳送總計的最大值";
 check_if_other_also = "如果您想要將所有其它流量均計算到此槽位，請勾選此選項";
 performance_help = "為了節省電腦資源消耗，我們建議將存取網際網路的連線設定為「是」，其它連線設定為「否」。";
 loading = "載入中…";
-connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
 
 / explanation of 'regid': the Traffic Shaping mode should be selected as "not cooperative" if there are other devices on the net, which don't have %p Traffic Shaping.
 regid = "非合作模式";
@@ -579,11 +552,6 @@ ping_stats = "Ping 統計";
 speed_desc = "%p，使用流量塑型加快網際網路的速度";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
-cfospnet_activation_failed_url = "%url/cfos-personal-net/activation-failed.htm";
-virtual_wifi_doc_url = "%url/cfosspeed/documentation/wlan-access-point.htm";
 
 / wizard
 install_wizard_name = "%? 安裝精靈";
@@ -916,8 +884,6 @@ virtual_wifi_deactivate_autostart = "不在系統啟動時自動啟動。";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "%url/index.htm";
-cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/zh-tw/order/cfos-professional-n.htm";
 budget_file = "budget_tw.cfhta";
 report_tpl = "report_tw.tpl";
@@ -927,8 +893,6 @@ cfos_htm = "techinfo\\cfos_e.htm";
 techinfo_htm = "techinfo\\techinfo_e.htm";
 dsldevice_help = "techinfo\\dsldev_e.htm";
 features_htm = "techinfo\\features_e.htm";
-cfos_feat = "%url/cfos-professional/features.htm";
-after_cfos_calibration = "%url/traffic-shaping/calibration-message.htm";
 
 testskin = "測試視窗";
 lastcallers = "最近來電";
@@ -1009,7 +973,6 @@ report_title = "%p 連線報告";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_back = "返回 (&B)";

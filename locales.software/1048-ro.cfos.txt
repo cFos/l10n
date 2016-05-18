@@ -170,7 +170,6 @@ ga_use_password_by_speed = "Să folosească cFosSpeed aceeași parolă ca și cF
 /
 / ----------------------------------------------------------------------
 
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 auth_failed = "În urma verificări a fost detectată o modificare a unei sau mai multor componente.\n"
    "Reinstalați o versiune nemodificată de pe pagina noastră:\n";

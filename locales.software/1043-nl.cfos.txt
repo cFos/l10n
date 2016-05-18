@@ -18,16 +18,10 @@ htm_lang_prefix = "nl";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "%url/index.htm";
-bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/nl/order/broadband-connect-n.htm";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "%url/index.htm";
-sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/nl/order/cfos-ipv6-link-n.htm";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "%url/index.htm";
-cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/nl/order/cfos-personal-net-n.htm";
 renew_params = "Parameters vernieuwen";
 dlg_dun_auto = "Automatisch verbinden";
@@ -77,19 +71,7 @@ dlg_redirect_delay = "Redirection vertraging (ms):";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/nl/order/cfosspeed-n.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 
 component_mismatch = "Er is een versie conflict tussen onderdelen van dit programma. Installeer de meest recente versie.";
 trayicon_tip = "Sneller internet door verkeersregeling, www.cfos.de";
@@ -329,9 +311,6 @@ regid = "Niet samenwerkend";
 speed_desc = "%p, sneller internettoegang door Verkeers Modellering";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "%? Installatie Helper";
@@ -585,8 +564,6 @@ eml_checking_domain = "Controleren van E-mail domein...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "%url/index.htm";
-cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/nl/order/cfos-professional-n.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
@@ -609,7 +586,6 @@ cfos_expired = "Deze %p versie is verlopen.\nKoop %p/Professional nu!\nStart de 
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 

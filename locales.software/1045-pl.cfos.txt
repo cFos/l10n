@@ -18,19 +18,13 @@ htm_lang_prefix = "pl";
 /
 / ----------------------------------------------------------------------
 
-bc_mainurl = "%url/index.htm";
-bc_updateurl = "%url/download/download.htm";
 bc_orderurl = "https://www.cfos.de/pl/order/broadband-connect-n.htm";
 bc_langurl = "";
 bc_pg_name = "%p";
 bc_desc = "%p, High-Performance Dial-Up Driver";
-sixlink_mainurl = "%url/index.htm";
-sixlink_updateurl = "%url/download/download.htm";
 sixlink_orderurl = "https://www.cfos.de/pl/order/cfos-ipv6-link-n.htm";
 sixlink_pg_name = "%p";
 sixlink_desc = "%p, High-speed IPv6 dial-up driver";
-cfospnet_mainurl = "%url/index.htm";
-cfospnet_updateurl = "%url/download/download.htm";
 cfospnet_orderurl = "https://www.cfos.de/pl/order/cfos-personal-net-n.htm";
 renew_params = "Odnów parametry";
 dlg_dun_auto = "Auto-łączenie";
@@ -61,20 +55,8 @@ con_enabled = "aktywne";
 /
 / ----------------------------------------------------------------------
 
-speed_mainurl = "%url/index.htm";
-speed_updateurl = "%url/download/download.htm";
 speed_orderurl = "https://www.cfos.de/pl/order/cfosspeed-n.htm";
-no_pings_help = "%url/cfosspeed/documentation/no-ping.htm";
-phone_skins_help = "%url/cfosspeed/documentation/phone-skins.htm";
-ts_options_help = "%url/traffic-shaping/traffic-shaping-options.htm";
 mainurl_name = "Strona domowa";
-after_calibration = "%url/traffic-shaping/calibration.htm";
-download_more_skins_url = "%url/download/download.htm#skins";
-expiration_cfosspeed_htm = "%url/cfosspeed/expiration.htm";
-after_calibration_new = "%url/traffic-shaping/calibration-message.htm";
-expiration_cfosspeed_new_htm = "%url/cfosspeed/expiration-message.htm";
-prio_doc_link_url = "%url/cfosspeed/documentation/program-prioritization.htm";
-preview_skins_url = "%url/cfosspeed/documentation/status.htm";
 traffic_shaping_htm = "https://www.cfos.de/pl/traffic-shaping/traffic-shaping.htm";
 
 component_mismatch = "Wystąpił konflikt pomiędzy wersjami komponentów programu. Proszę ponownie zainstalować program używając najnowszej wersji.";
@@ -278,9 +260,6 @@ regid = "Nie współdzielony";
 speed_desc = "%p, szybszy dostęp do Internetu przy pomocy Traffic Shaping";
 
 / URLs
-bc_activation_failed_url = "%url/broadband-connect/activation-failed.htm";
-sixlink_activation_failed_url = "%url/cfos-ipv6-link/activation-failed.htm";
-speed_activation_failed_url = "%url/cfosspeed/activation-failed.htm";
 
 / wizard
 install_wizard_name = "Kreator instalacji %?";
@@ -493,8 +472,6 @@ eml_checking_domain = "Sprawdzanie domeny adresu E-mail...";
 /
 / ----------------------------------------------------------------------
 
-cfos_mainurl = "%url/index.htm";
-cfos_updateurl = "%url/download/download.htm";
 cfos_orderurl = "https://www.cfos.de/pl/order/cfos-professional-n.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
@@ -504,7 +481,6 @@ cfos_htm = "techinfo\\cfos_e.htm";
 techinfo_htm = "techinfo\\techinfo_e.htm";
 dsldevice_help = "techinfo\\dsldev_e.htm";
 features_htm = "techinfo\\features_e.htm";
-after_cfos_calibration = "%url/traffic-shaping/calibration-message.htm";
 
 lastcallers = "Ostatni dzwoniący";
 clearlist = "Wyczyść Listę";
@@ -572,7 +548,6 @@ report_title = "%p Raport Połączenia";
 / ----------------------------------------------------------------------
 
 / URLs
-cfos_activation_failed_url = "%url/cfos-professional/activation-failed.htm";
 
 / dialog elements
 dlg_btn_back = "&Powrót";
