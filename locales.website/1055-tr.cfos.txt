@@ -1120,7 +1120,6 @@ ts_o_t1 = "Her bağlantı için, bu ayarları ayarlayabilirsiniz:";
 ts_o_l1 = "Ortam/Protokol";
 ts_o_l2 = "Kullanımlar";
 ts_o_l3 = "Traffic Shaping Modu (Çok kullanıcılı sürüm)";
-ts_o_p1 = "<samp>seçenekler/bağlantılar</samp> altında bulunan iletişim kutusunda <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Ayarlara\" border=\"0\" height=\"20\" width=\"21\" /> tıklayarak <samp>ortam iletişim kutusunu</samp> açabilir ve her bağlantı için bir ortam seçebilirsiniz. Aşağıdaki listeden seçim yapabilirsiniz:";
 ts_o_a1 = "Ekran Görüntüsü";
 ts_o_a2 = "bağlantı özellikleri";
 ts_o_l4 = "<b>Uyumlu:</b> cFos/cFosSpeed otomatik olarak kendini bağlantınıza uyumlu hale getirecektir. Hangi bağlantı türüne sahip olduğunuzdan emin değilseniz bu seçeneği kullanın. Aksi halde bağlantınız için geçerli olan seçeneği seçin. Seçtiğiniz seçenek ne kadar bağlantı türünüze uygun olursa o kadar düşük ping süreleri elde edersiniz.";

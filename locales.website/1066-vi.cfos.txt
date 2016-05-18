@@ -1112,7 +1112,6 @@ ts_o_t1 = "Cho mỗi kết nối, bạn có thể tùy chỉnh những thiết l
 ts_o_l1 = "Mức trung bình/Phương thức";
 ts_o_l2 = "Sử dụng";
 ts_o_l3 = "Chế độTraffic Shaping ( Phiên bản Nhiều người dùng )";
-ts_o_p1 = "Trong hộp thoại dưới thẻ <samp>Tùy chỉnh/Kết nối</samp> bạn có thể mở <samp>hộp thoại Mức trung bình</samp> bằng cách click <img src=\"/images/settings.png\" alt=\"Thiết lập\" title=\"Thiết lập\" border=\"0\" height=\"20\" width=\"21\" /> và chọn một mức trung bình cho mỗi kết nối.Bạn có thể chọn lựa từ danh sách sau:";
 ts_o_a1 = "Ảnh minh họa";
 ts_o_a2 = "Cài đặt các kết nối";
 ts_o_l4 = "<b>Thích nghi:</b> cFos/cFosSpeed sẽ tự động tùy biến để tạo thiết lập tốt nhất cho kết nối của bạn. Chỉ nên sử dụng thiết lập này khi bạn không biết được kiểu kết nối của bạn là gì. Nếu không, hãy lựa chọn thiết lập được định sẵn cho kết nối của bạn. Thiết lập bạn chọn càng phù hợp với kết nối thì thời gian ping sẽ càng thấp.";

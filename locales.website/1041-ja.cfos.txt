@@ -572,7 +572,6 @@ ts_o_t1 = "それぞれの接続において、以下の方法で調整するこ
 ts_o_l1 = "Medium中/Protocolプロトコル";
 ts_o_l2 = "Usesユーザー";
 ts_o_l3 = "Traffic Shaping Mode通信シェーピングモード (Multi-User versionマルチユーザー版)";
-ts_o_p1 = "ダイアログの中の <samp>optionsオプション/connections接続</samp>で <samp>medium dialog中ダイアログ</samp> をクリックによって開くことが出来る。 <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> そしてすべての接続に「medium中」を選択。引き続き以下の選択ができます。";
 ts_o_a1 = "Screenshotスクリーンショット";
 ts_o_l4 = "<b>Adaptiveアダプティヴ:</b> cFos/cFosSpeed はあなたの接続と自動で適応させます. どのような接続でもこの設定のみです。 それ以外の場合は、接続に適用される設定を選択します。接続形式を適切にすることにより、PINGの時間が少なくなります。";
 ts_o_l5 = "<b>DSL (PPPoE):</b> Most widespread DSL protocol (米国、ドイツ、東欧と一般の国での接続). ";

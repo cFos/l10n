@@ -930,7 +930,6 @@ ts_o_t1 = "Dla każdego połączenia możesz dostosować następujące parametry
 ts_o_l1 = "Typ łącza/Protokół";
 ts_o_l2 = "Zastosowanie";
 ts_o_l3 = "Tryb Zarządzania Ruchem (Wielu Użytkowników)";
-ts_o_p1 = "W oknie dialogowym pod <samp>opcje/połączenia</samp> otwórz <samp>ustawienia</samp> klikając na <img src=\"/images/settings.png\" alt=\"Ustawienia\" title=\"Ustawienia\" border=\"0\" height=\"20\" width=\"21\" /> i wybierz odpowiedni typ łącza dla każdego połączenia. Dostępne są następujące opcje:";
 ts_o_a1 = "Zrzut ekranu";
 ts_o_a2 = "ustawienia połaczenia";
 ts_o_l4 = "<b>Adaptywny:</b> cFos/cFosSpeed automatycznie dostosuje się do twojego łącza. Użyj tego ustawienia tylko wtedy gdy nie masz pewności jakie łącze posiadasz. W przeciwnym wypadku wybierz ustawienie które najlepiej odpowiada rzeczywistości. Wybranie właściwych ustawień zapewni minimalne czasy pingów.";

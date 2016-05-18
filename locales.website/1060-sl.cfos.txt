@@ -475,7 +475,6 @@ ts_o_t1 = "Za vsako povezavo, lahko ponastavite naslednje nastavitve:";
 ts_o_l1 = "Medium/Protokol";
 ts_o_l2 = "Uporaba";
 ts_o_l3 = "Traffic Shaping Mode (Multi-User verzija - več uporabnikov hkrati)";
-ts_o_p1 = "V dialognem oknu pod <samp>možnosti/povezava</samp> lahko odprete <samp>medium dialog</samp> z klikom <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> in izberete medium za vsako povezavo posebaj. Lahko izberete v naslednji listi:";
 ts_o_a1 = "Zajem zaslona";
 ts_o_l4 = "<b>Prilagodljivo:</b> cFos/cFosSpeed se bo prilagodil vaši povezavi automatsko. Tole nastavitev uporabite, samo če ne veste kakšen tip povezave imate. Drugače uporabite nastavitev, ki se navaja na vašo povezavo. Bolje kot ustreza izbrana nastavitev vaši povezavi, manjši bodo ping časi.";
 ts_o_l5 = "<b>DSL (PPPoE):</b> Najbolj razširjen DSL protokol (največ uporabljen v ZDA, Nemčiji, Severni Evropi in ostalih večjih tržiščih). ";

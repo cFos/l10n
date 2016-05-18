@@ -691,7 +691,6 @@ ts_o_t1 = "För varje anslutning, kan Du justera följande inställningar:";
 ts_o_l1 = "Medium/Protocol";
 ts_o_l2 = "Användning";
 ts_o_l3 = "Traffic Shaping Mode (Multi-User version)";
-ts_o_p1 = "I dialogfönstret under <samp>options/connections</samp> kan Du öppna <samp>medium dialog</samp> genom att klicka <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> och välja medium för var och en anslutning. Du kan välja från följande lista:";
 ts_o_l4 = "<b>Adaptive:</b> cFos/cFosSpeed anpassar sej till Din anslutning automatiskt. Använd denna inställning bara om Du är osäker på Din anslutnings typ. Annars, välj den inställning som passar Din anslutning.Ju bättre inställningen passar Din anslutnings typ, ju  lägre ping tid bör det bli.";
 ts_o_l5 = "<b>DSL (PPPoE):</b> Mest utspridda DSL protocol (vanligast använd i USA, Germany, Eastern Europe, och andra större delar av världen). ";
 ts_o_l5_a = "<a class=\"inline\" href=\"http://en.wikipedia.org/wiki/PPPoE\">PPPoE explanation @ wikipedia.org</a>";

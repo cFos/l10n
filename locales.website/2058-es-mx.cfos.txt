@@ -1215,7 +1215,6 @@ ts_o_t1 = "Para cada conexión, puede realizar los siguientes ajustes:";
 ts_o_l1 = "Medio/Protocolo";
 ts_o_l2 = "Usos";
 ts_o_l3 = "Modo de Perfilado de Tráfico (Versión Multi-Usuario)";
-ts_o_p1 = "En la ventana de diálogo en <samp>options/connections</samp> puede abrir el <samp>diálogo de medio</samp> haciendo click en <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> y elija un medio para cada conexión. Puede elegir del siguiente listado:";
 ts_o_a1 = "Captura de pantalla";
 ts_o_a2 = "Opciones de conexión";
 ts_o_l4 = "<b>Adaptivo:</b> cFos/cFosSpeed se adaptará a su conexión automáticamente. Utilice este ajuste sólo si no esta seguro del tipo de conexión que posee. De otra manera, elija el ajuste que mejor aplique a su conexión. Cuanto mejor elegido sea este ajuste para el tipo de conexión, deberían ser menores los tiempos de ping.";

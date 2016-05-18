@@ -670,7 +670,6 @@ ts_o_t1 = "Voor elke verbinding, kunt u de volgende instellingen aanpassen:";
 ts_o_l1 = "Medium/Protocol";
 ts_o_l2 = "gebruikt";
 ts_o_l3 = "Traffic Shaping Mode (Meerdere gebruikers versie)";
-ts_o_p1 = "In het dialoogvenster onder opties verbindingen unt u het dialoogvenster medium dialog openen door te klikken en kies een medium voor elke verbinding. U kunt kiezen uit de volgende lijst: Bijdragen tot een betere vertaling";
 ts_o_a2 = "Verbinding instellingen";
 ts_o_l4 = "<b>Adaptive:</b> cFos/cFosSpeed zal zich automatisch aanpassen aan uw verbinding. Gebruik deze instelling alleen als U niet zeker weet wat uw type verbinding is. Anders selecteert u de instelling die van toepassing is op uw verbinding. Hoe beter de gekozen instelling past bij uw type verbinding, des te lager de ping-tijden zouden moeten zijn.";
 ts_o_l5 = "<b>DSL (PPPoE):</b> Meest verspreide DSL protocol (vaak gebruikt in de VS, Duitsland, Oost-Europa, en andere belangrijke markten). ";

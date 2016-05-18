@@ -1337,7 +1337,6 @@ ts_o_t1 = "Pro Verbindung können Sie folgende Traffic Shaping-Einstellungen vor
 ts_o_l1 = "Medium";
 ts_o_l2 = "Anwendungsmöglichkeiten";
 ts_o_l3 = "Traffic Shaping Modus (Multi-User Version)";
-ts_o_p1 = "Im Dialogfenster unter <samp>Einstellungen/Verbindungen</samp> können Sie durch klicken auf <img src=\"/images/settings.png\" alt=\"Einstellungen\" title=\"Einstellungen\" border=\"0\" height=\"20\" width=\"21\" /> eine Mediumauswahl für die einzelnen Verbindungen vornehmen. Dabei haben sie die Auswahl aus der folgenden Liste:";
 ts_o_a1 = "Screenshot";
 ts_o_a2 = "Verbindungseinstellungen";
 ts_o_l4 = "<b>Adaptive</b>, cFos/cFosSpeed versucht sich selbsttätig auf Ihren Anschluß anzupassen. Wählen Sie diese Option nur, falls Sie nicht wissen, welche Übertragungstechnik Ihr Anschluß verwendet. Ansonsten wählen Sie die auf Ihren Anschluß am besten passende Option. Je besser die Einstellung, desto geringer die Ping-Zeiten.";

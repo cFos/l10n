@@ -1274,7 +1274,6 @@ ts_o_t1 = "Minden kapcsolathoz a következő beállítási lehetőségek vannak:
 ts_o_l1 = "Eszköz/Protokol";
 ts_o_l2 = "Használat";
 ts_o_l3 = "Traffic Shaping (Forgalomszabályozás) módja (Multi-User verzió)";
-ts_o_p1 = "Ebben a beállítási ablakban a <samp>beállítások/kapcsolatok</samp> menüben megnyithatod az <samp>eszköz ablakot</samp> ha rákattintasz <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> és kiválasztod az eszközt minden kapcsolathoz. A következők közül választhatsz:";
 ts_o_a1 = "Pillanatkép";
 ts_o_a2 = "a kapcsolat beállításai";
 ts_o_l4 = "<b>Adaptive:</b> cFos/cFosSpeed automatikusan beállítja a kapcsolatot. Akkor használd ez a beállítási lehetőséget, ha nem vagy biztos benne, hogy milyen a kapcsolatod típusa. Minden egyéb esetben válaszd ki a megfelelő kapcsolatot. Csak a megfelelő beállítással lesznek alacsonyak a pingek";

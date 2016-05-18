@@ -551,7 +551,6 @@ ts_o_t1 = "Pentru fiecare conexiune, puteţi ajusta următoarele setări:";
 ts_o_l1 = "Mediu/Protocol";
 ts_o_l2 = "Utilizează";
 ts_o_l3 = "Mod Traffic Shaping (Versiunea Multi-Utilizator)";
-ts_o_p1 = "În fereastra de dialog la <samp>opţiuni/conexiuni</samp> puteţi deschide <samp>mediul de dialog</samp> făcând clic pe <img src=\"/images/settings.png\" alt=\"Setări\" title=\"Setări\" border=\"0\" height=\"20\" width=\"21\" /> şi alege un mediu pentru fiecare conexiune. Puteţi alege din următoarea listă:";
 ts_o_a1 = "Captură Ecran";
 ts_o_a2 = "setări conexiune";
 ts_o_l4 = "<b>Adaptiv:</b> cFos/cFosSpeed se va adapta la conexiunea dvs. în mod automat. Utilizaţi această setare numai dacă nu sunteţi sigur ce tip de conexiune este. În caz contrar, selectaţi setarea pe care se aplică pentru conexiunea dvs. . Cu cât setarea aleasă este potrivită conexiunii dvs. , cu atât latenţa va fi mai redusă.";

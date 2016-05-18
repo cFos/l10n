@@ -1214,7 +1214,6 @@ ts_o_t1 = "Para cada conexão, você poderá ajustar os seguintes parâmetros:";
 ts_o_l1 = "Meio/Protocolo";
 ts_o_l2 = "Usos";
 ts_o_l3 = "Modo do Traffic Shaping (Versão Multi-usuário)";
-ts_o_p1 = "Na janela de dialogo em <samp>Opções/Conexões</samp> você pode abrir o <samp>quadro de diálogos do meio</samp> ao clicar em <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> e escolher o meio para cada conexão. Você poderá escolher desde a seguinte lista:";
 ts_o_a1 = "Foto da tela";
 ts_o_a2 = "configurações de conexão";
 ts_o_l4 = "<b>Adaptive:</b> cFos/cFosSpeed se adaptará à sua conexão automaticamente. Utilize esta opção somente se não estiver seguro do tipo de conexão que usa. Caso contrario, selecione o tipo de conexão aplicável a sua conexão. Quanto mais preciso for o parâmetro escolhido à sua conexão, menores serão os tempos de ping.";

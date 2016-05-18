@@ -1115,7 +1115,6 @@ ts_o_t1 = "Para cada ligação, pode ajustar as seguintes configurações";
 ts_o_l1 = "Meio/Protocolo";
 ts_o_l2 = "Usos";
 ts_o_l3 = "Modo Traffic Shaping (Versão Multi-User)";
-ts_o_p1 = "Na janela de diálogo <samp>opções/ligações</samp> pode abrir o <samp>diálogo do meio</samp> ao clicar em <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> e escolher um meio para cada ligação. Pode escolher um dos seguintes:";
 ts_o_a1 = "Screenshot";
 ts_o_a2 = "configurações de ligação";
 ts_o_l4 = "<b>Adaptive:</b> cFos/cFosSpeed vai adaptar a sua ligação automaticamente. Use esta opção apenas se não tiver a certeza qual é o seu tipo de ligação. Caso contrário, seleccione a opção que se aplica à sua ligação. Quanto melhor esta opção se adequar à sua ligação, menores serão os pings.";

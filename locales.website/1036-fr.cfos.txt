@@ -1202,7 +1202,6 @@ ts_o_t1 = "Pour chaque connection vous pouvez ajuster les paramètres suivants :
 ts_o_l1 = "Support / Protocoles";
 ts_o_l2 = "Utilisation";
 ts_o_l3 = "Mode Traffic Shaping activé (Version Multi-Utilisateurs)";
-ts_o_p1 = "Dans la fenêtre sous <samp>options/connections</samp> vous pouvez ouvrir la fenêtre de des<samp>supports</samp> en cliquant <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> et choisir un support pour chaque connection. Vous pouvez choisir à partir de la liste suivante :";
 ts_o_a1 = "Capture d'écran";
 ts_o_a2 = "Paramètres de connection";
 ts_o_l4 = "<b>Adaptatif :</b> cFos/cFosSpeed s'adaptera automatiquement à votre connection. Choisissez cette option uniquement si vous n'êtes pas sûr du type de connection que vous utilisez. Sinon sélectionnez les paramètres qui s'adaptent le mieux à votre connection : plus vous serez précis, meilleurs seront les résultats !";

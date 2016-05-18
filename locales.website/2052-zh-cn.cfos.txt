@@ -1065,7 +1065,6 @@ ts_o_t1 = "对于每个连接，你可以调整以下设置:";
 ts_o_l1 = "媒介/协议";
 ts_o_l2 = "使用";
 ts_o_l3 = "Traffic Shaping模式 (多用户版本)";
-ts_o_p1 = "在对话窗口下 <samp>设置/链接</samp> 您可以通过单击<img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" />打开 <samp>媒介对话框</samp> 来为每个链接调整调整媒介. 以从下面的列表中选择:";
 ts_o_a1 = "屏幕截图";
 ts_o_a2 = "链接设置";
 ts_o_l4 = "<b>自动适应:</b> cFos/cFosSpeed 会自动适应你的连接. 如果你不能确定您的连接类型是什么那么请使用此设置. 否则，请选择适用于您的连接设置. 选择适合您的连接类型的设定，ping的反应时间将会更快.";

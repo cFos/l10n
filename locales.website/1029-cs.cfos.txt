@@ -850,7 +850,6 @@ ts_exp_l5 = "Lepší kvalita linky při internetové telefonii (VoIP)";
 ts_exp_p7 = "Nemusíte tomu věřit, ale můžete provést měřeni sami:";
 ts_exp_a1 = "Manuál";
 ts_o_t1 = "Pro každé připojení si můžete upravit tato nastavení:";
-ts_o_p1 = "V dialogovém okně pod <samp>options/connections</samp> můžete otevřít <samp>dialog pro média</samp> tak, že kliknete na <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> a vyberete pro každé připojení nějaké médium. Můžete vybírat z tohoto seznamu:";
 ts_o_a1 = "Snímek obrazovky";
 ts_o_a2 = "nastavení připojení";
 ts_o_l4 = "<b>Adaptivní:</b> cFos/cFosSpeed se automaticky přizpůsobí vašemu připojení. Toto nastavení použijte jen tehdy, když si nejste jisti, jakého typu vaše připojení je. Jinak zvolte nastavení, které se vztahuje na vaše připojení. Čím lépe bude zvolené nastavení odpovídat typu vašeho připojení, tím nižší by měly být doby pingu.";

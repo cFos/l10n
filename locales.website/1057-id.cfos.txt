@@ -986,7 +986,6 @@ ts_o_t1 = "Untuk setiap koneksi, anda dapat mengatur setting-setting berikut:";
 ts_o_l1 = "Medium/Protokol";
 ts_o_l2 = "Penggunaan";
 ts_o_l3 = "Mode Traffic Shaping (versi Multi-Pengguna)";
-ts_o_p1 = "Pada jendela dialog dalam <samp>options/connections</samp> anda dapat membuka <samp>medium dialog</samp> dengan mengklik <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> dan memilih medium untuk setiap koneksi. Anda dapat memilih dari daftar berikut:";
 ts_o_a2 = "Setting koneksi";
 ts_o_l4 = "<b>Adaptif:</b> cFos/cFosSpeed akan beradaptasi pada koneksi Anda secara otomatis. Gunakan pengaturan ini hanya jika Anda tidak yakin dengan tipe koneksi Anda. Selain itu, pilihlah pengaturan yang sesuai dengan tipe koneksi Anda. Semakin tepat pilihan tipe koneksi Anda, semakin rendah waktu ping yang didapatkan.";
 ts_o_l5 = "<b>DSL (PPPoE):</b> Protokol DSL paling tersebar luas (umumnya digunakan di USA, Jerman, Eropa Timur, dan market utama lainnya). ";

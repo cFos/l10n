@@ -1089,7 +1089,6 @@ ts_o_t1 = "Per ogni connessione, è possibile regolare le seguenti impostazioni:
 ts_o_l1 = "Media / Protocollo";
 ts_o_l2 = "Utilizzi";
 ts_o_l3 = "Modalità Traffic Shaping (Versione multi-utente)";
-ts_o_p1 = "Nella finestra di dialogo sotto <samp>opzioni/connessioni</samp> è possibile aprire la finestra di dialogo <samp>media</samp> cliccando e scegliendo media per ogni connessione. Potete scegliere dall'elenco seguente: ";
 ts_o_a1 = "Schermata";
 ts_o_a2 = "Impostazioni di connessione";
 ts_o_l4 = "<b> Adattativo:</b> cFos / cFosSpeed si adatterà alla vostra connessione automaticamente. Utilizzare questa impostazione solo se non siete sicuri di quale tipo sia la vostra connessione. In caso contrario, selezionare l'impostazione che si applica alla vostra connessione. La scelta migliore dell'impostazione deve coincidere con le caratteristiche della vostra connessione e dovrebbero quindi risultare tempi di Ping più bassi. ";
