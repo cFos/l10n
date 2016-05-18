@@ -1856,7 +1856,6 @@ sp_doc_voip_t3 = "VoIP rangsorolás a routeren:";
 
 /. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 /. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
-sp_doc_voip_p7 = "Némely Router (pl. Fritz!Box) az eszközön telefoncsatlakozást kínál, amelynek adatait aztán  Voice-over-IP-ként közvetlenül az internetre mennek. Attól a pillanattól, hogy egy VoIP-beszélgetés létrejön, a Router drasztikusan korlátozza a sávszélességet, hogy elkerülje a hangkimaradást. A cFos ill. cFosSpeed szemszögéből nézve a csatlakozásnak erős sebességingadozása van, amely a Traffic Shaping-ot negatívan befolyásolhatja. Ez esetben javasoljuk a VoIP-telefonálást a PC-ről végezni, úgy, hogy az adatokat a cFos ill. cFosSpeed felismeri és rangsorolhatja. Ha Ön mégis a Routeren át akar telefonálni, akkor kapcsolja ki a cFosSpeed-et a Beállítások, Kapcsolatok alatt és kattintson kattintson az eszközre \"variabel, kooperatív\" módban.";
 
 sp_doc_voip_t4 = "VoIP szoftver használata cFosSpeed-del";
 sp_doc_voip_t5 = "Mérések az IxChariot-tal";

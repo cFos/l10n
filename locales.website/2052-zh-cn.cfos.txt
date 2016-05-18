@@ -1559,7 +1559,6 @@ sp_doc_voip_p5 = "在满速下载的同时，VoIP连接通常面临着丢包的�
 sp_doc_voip_t2 = "Skype：";
 sp_doc_voip_p6 = "Skype采用了不容易被7层协议检测出的自有协议。为了使用户可以调整Skype的优先级，我们已经在程序列表中加入了Skype。";
 sp_doc_voip_t3 = "路由器VoIP优先级：";
-sp_doc_voip_p7 = "一些路由器（如Fritz!Box）配备有电话接口，如果使用了该接口，所有的VoIP数据都会完全绕过cFos和cFosSpeed直接接入互联网。这样做的主要缺陷是，为了避免丢包，在使用VoIP拨打或接收时，路由器会大幅度地限制可用带宽。这会给Traffic Shaping流量整形的性能造成负面影响,因为这意味着连接的速度会不断的剧烈变化。这就是为什么我们建议您让所有的VoIP数据通过您的电脑本身，让cFos或cFosSpeed来对其进行检测与调整优先级。如果您仍然想通过路由器拨打电话，可以通过<samp>Options/Connections</samp>按钮切换到\"variable (cooperative)\"。";
 sp_doc_voip_t4 = "可以配合cFosSpeed使用的VoIP软件：";
 sp_doc_voip_t5 = "使用IxChariot测速";
 sp_doc_voip_p8 = "我们使用IxChariot（Ixia提供的网络性能测试软件）来对cFosSpeed的Taffic Shaping流量整形进行测试。为此我们用IxChariot来监测同时执行多个上传任务时的VoIP参数。";

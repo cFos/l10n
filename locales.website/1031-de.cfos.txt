@@ -1938,7 +1938,6 @@ sp_doc_voip_t3 = "VoIP Priorisierung am Router:";
 
 /. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 /. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
-sp_doc_voip_p7 = "Manche Router (z.B. die Fritz!Box) bieten am Gerät Telefonanschlüsse, deren Daten dann als Voice-over-IP direkt (an cFos bzw. cFosSpeed vorbei) ins Internet gehen. Ab dem Moment, wo ein VoIP-Gespräch zustande kommt, begrenzen die Router die Bandbreite drastisch, um Aussetzer zu vermeiden. Aus Sicht von cFos bzw. cFosSpeed hat der Anschluss dann starke Geschwindigkeitsschwankungen, die das Traffic Shaping negativ beeinflussen können. Wir empfehlen in diesem Falle VoIP-Telefonate vom PC auszuführen, so dass die Daten von cFos bzw. cFosSpeed erkannt und priorisiert werden können. Wenn Sie trotzdem über den Router telefonieren wollen, dann schalten Sie cFosSpeed bitte unter Einstellungen, Verbindungen und Klick auf das Werkzeug in den Modus \"variabel, kooperativ\".";
 
 sp_doc_voip_t4 = "VoIP Software im Einsatz mit cFosSpeed";
 sp_doc_voip_t5 = "Messungen mit IxChariot";

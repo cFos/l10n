@@ -1848,7 +1848,6 @@ sp_doc_voip_p6 = "Skype 使用了自有的加密通訊協定，而無法被第7�
 sp_doc_voip_t3 = "透過路由器調整 VoIP 優先權:";
 /. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 /. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
-sp_doc_voip_p7 = "一些路由器（例如 Fritz!Box）內建了耳機孔。若使用該耳機孔，所有的 VoIP 會完全繞過cFos 及 cFosSpeed 直接傳輸到網際網路。這樣的好處是不會掉封包，撥號或接聽電話時路由器會自動保留頻寬供 VoIP 使用。但這可能會抵銷流量塑型的效果，因為這樣會一直讓網路速度大幅變化。這就是為什麼我們建議您讓所有的 VoIP 流量從您的電腦本機，透過 cFos 和 cFosSpeed 偵測後以高優先權通過。如果您還是想透過路由器打電話，可以透過工具按鈕中的 <samp>選項/連線</samp> 切換為「可變，合作」。";
 sp_doc_voip_t4 = "使用 cFosSpeed 時同時使用 VoIP 軟體";
 sp_doc_voip_t5 = "使用 IxChariot 測量";
 sp_doc_voip_p8 = "我們使用 IxChariot（Ixia 的網路性能測試軟體）來測試 cFosSpeed 的流量塑型效果。為求準確，我們在進行多個上傳的同時使用 IxChariot 來監測 VoIP 參數。";

@@ -1627,7 +1627,6 @@ sp_doc_voip_t1 = "Rớt mạng khi Download:";
 sp_doc_voip_p5 = "Nếu bạn mở download tốc độ cao khi dùng VoIP thì mạng rất hay bị rớt. cFos và cFosSpeed có RX shaping giúp bạn tránh rớt mạng trong khi ping vẫn thấp.";
 sp_doc_voip_p6 = "Skype mã hóa giao thức của nó. Vì vậy xét nghiệm Layer-7 rất khó nhận biết. Để giúp đỡ bạn trong việc ưu tiên hóa Skype, chúng tôi đã chuẩn bị nó sẵn trong danh sách phần mềm.";
 sp_doc_voip_t3 = "Ưu tiên VoIP bằng Router:";
-sp_doc_voip_p7 = "Một vài router (như Fritz!Box) có sẵn ổ cắm phone. Nếu bạn dùng ổ cắm, tất cả dữ liệu của VoIP sẽ ko đi qua cFos và cFosSpeed mà truyền trực tiếp lên Internet. Vấn đề ở đây là: mỗi khi bạn dùng VoIP, Router loại này sẽ giới hạn băng thông của những thứ khác để tránh rớt mạng. Việc này sẽ gây ảnh hưởng nghiêm trọng đến Traffic Shaping, nó còn có nghĩa là tốc độ kết nối sẽ bị thay đổi liên tục. Để tránh điều này, chúng tôi đề nghị bạn gọi VoIP trên máy vi tính để cFos hoặc cFosSpeed giúp bạn. Nếu bạn nhất định muốn gọi dùng router thì xin vui lòng đổi thành \"variable (cooperative)\" trong <samp>Options/Connections</samp> dùng nút Tool.";
 sp_doc_voip_t4 = "Dùng VoIP với cFosSpeed";
 sp_doc_voip_t5 = "Đo đạc với IxChariot";
 sp_doc_voip_p8 = "Chúng tôi kiểm tra sản phẩm với IxChariot (1 phần mềm đo đạc mức độ hoạt động mạng của công ty Ixia) để tính toán lợi ích của cFosSpeed Traffic Shaping. Chúng tôi dùng IxChariot để đo đạc các thông số của VoIP trong khi thực hiện hàng loạt upload.";

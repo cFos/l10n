@@ -1686,7 +1686,6 @@ sp_doc_voip_t3 = "Router Önceliklendirmesi yoluyla VoIP:";
 
 /. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 /. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
-sp_doc_voip_p7 = "Bazı routerlar (Fritz!Box gibi) aygıt üzerinde telefon girişleri ile donatılmıştır. Eğer bir giriş kullanılıyorsa, tüm VoIP verisi tamamıyla cFos ve cFosSpeed'i pas geçerek direkt olarak internete iletilecektir. Buradaki en büyük dezavantaj kopmaları önlemektir, bu tür routerlar bir VoIP araması yapıldığında ya da kabul edildiğinde mevcut bant genişliğini büyük ölçüde kısıtlarlar. Bu, Traffic Shaping performansında olumsuz bir etkiye neden olabilir, bu da demektir ki ayrıca hızdaki güçlü varyasyonlar için bağlantı durmadan sorun olacaktır. Bu da bizim neden tüm VoIP aramalarını tespit ve öncelik vermek için cFos ve/veya cFosSpeed'e izin vererek bilgisayarınızın kendisinden yapmanızı önerdiğimizi daha iyi açıklıyor. Eğer yine de buna rağmen telefon için routerınızı kullanmak isterseniz, o zaman araç düğmesini kullanarak <samp>Ayarlar/Bağlantılar</samp> yoluyla \"değişken (işbirliği)\" özelliğine geçiş yapın.";
 
 sp_doc_voip_t4 = "cFosSpeed ile VoIP Yazılımı kullanımı";
 sp_doc_voip_t5 = "IxChariot ile ölçümler";
