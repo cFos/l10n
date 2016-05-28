@@ -4,13 +4,22 @@
 #fallback2 1033
 #charset 0
 
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
 language = "Brazilian Portuguese";
 lang_key = "_br";
 input_lang = "pt-br";
 
-/ test purposes, don't translate!
+/ ----------------------------------------------------------------------
+/
+/  Navigation
+/
+/ ----------------------------------------------------------------------
 
-/ navigation
 link_text_contact = "Contato";
 link_text_download = "Baixar";
 link_text_forum = "Fórum";
@@ -21,13 +30,30 @@ link_text_products = "Produtos";
 link_text_sitemap = "Mapa do Site";
 link_text_support = "Suporte";
 
-/ index2
+/ ----------------------------------------------------------------------
+/
+/  index2
+/
+/ ----------------------------------------------------------------------
+
 about = "Sobre o programa cFos";
 asrock_info = "Informações para usuários do <b>ASRock XFast LAN</b>";
 bc_linktext = "Conexão de banda larga cFos para um acesso de alta velocidade";
 cfos6link_linktext = "Link cFos ipv6";
 cfos_linktext = "cFos/Profissional para ISDN";
+
+/. Means "Close current dialog window"
 close = "Fechar";
+
+/. Cookies here means not actual crisp and tasty cookies, but web cookies.
+/. See for details: https://en.wikipedia.org/wiki/HTTP_cookie
+/. Check that wikipedia page in your language to find out best translation for your language
+
+/. Used as text of link, which leads to page with detailed explanations
+/. Depending on your language, you might drop `See` part
+
+/. Used as "I've understood"
+
 desc_6link = "Conectividade ipv6 para XP, Vista, Windows 7 e 8";
 desc_dialup = "Conexão à Internet discada";
 desc_shaping = "Aceleração da Internet mediante o Traffic Shaping";
@@ -44,10 +70,13 @@ special_offer_xmas_2 = "(devido ao fim de semana prolongado até 2 de janeiro de
 special_offer_spring = "Oferta especial para Festival da Primavera! até fevereiro 9th, 2011";
 special_offer_winter = "Preços especiais durante as vendas de inverno até 31 de Janeiro, 2012";
 worldcup_sale = "Preços especiais durante a Copa do Mundo!"; / FIFA Soccer World Cup
-winter_sale = "Preços especiais durante as vendas de inverno!";
+winter_sale = "Preços especiais durante as vendas de inverno!"; / New Years Sale for China
 winter_sale_ext = "Prorrogado até dia 28 de Janeiro - Graças ao seu apoio esmagador!";
+
+/. Mean text styles, like `light font` (thin), or `bold font` (strong)
 style_light = "Fino";
 style_strong = "Grosso";
+
 style_untranslated = "Modo realçado para texto não traduzido";
 translation_settings = "Configurações de tradução";
 translation_text1 = "Esta pagina não está traduzida o bastante!";
@@ -73,10 +102,30 @@ social_networks = "Por favor, apoie a nossa presença nas redes sociais.<br/>Cur
 powered_by = "Desenvolvido por <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net Web Server</a>";
 word_follow = "Siga";
 cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> agora está disponível para <b>Windows 10</b>.";
+
+/: http://www.cfos.de/en/index.htm
+/: http://www.cfos.de/en/download/download.htm
+/: http://www.cfos.de/en/cfosspeed/cfosspeed.htm
+/: http://www.cfos.de/en/cfosspeed/cfosspeed-feature-highlights.htm
+/. Used as label for button or text of link, which proposes to learn more about product or feature
 learn_more = "Saiba mais"; // Meaning "learn more about the product"
+
+/. Used as promo text in header of cfos.de
+/. Please, keep line feed (`<br/>` tag, which stands for line break) at approx middle of the text,
+/. preferred directly before the brand names
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> é o Acelerador de Internet oficial das marcas<br/>ASUS, GIGABYTE, ASRock e MSI gaming products"; // Line feed at approx middle of the key, preferred directly before the brand names
 
-/ download
+/: https://www.cfos.de/ru/order/order.htm
+/. Used on a small label in corner of product's box image
+/. Try to keep string as narrow as possible. If phrase should be spanned on two lines
+/. (with `<br/>` tag in place of break), try to keep both lines of same length
+
+/ ----------------------------------------------------------------------
+/
+/  Download
+/
+/ ----------------------------------------------------------------------
+
 additional_downloads = "Downloads adicionais";
 add_lang_text = "Idiomas adicionais do cFosSpeed";
 alt_cfos6link_image = "Atalho para o cFos ipv6";
@@ -161,6 +210,13 @@ sk_tutorial_text = "Como criar sua própria skin do cFos(Speed)";
 sk_tga = "Skins TGA";
 sk_tga_text = "Arquivo de skin cFos(Speed) com arquivos TGA - para versões antigas dos nossos programas";
 speed_text = "Acesso à Internet mais rápido com o Traffic Shaping";
+
+/. Do not translate or change `<span id=\"countdown\">00:00</span>` part.
+/. But you can move it around as whole freely
+
+/. Do not translate or change anything except `direct link` in <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direct link</b></a>` part.
+/. You can move it around as whole freely, though
+
 submit = "Enviar";
 transparent = "Transparente";
 updates = "Atualizações";
@@ -175,7 +231,12 @@ twitter_follow_short = "Siga cFos Software";
 language_files = "arquivos de linguagens";
 word_translation = "tradução";
 
-/ order
+/ ----------------------------------------------------------------------
+/
+/  Order
+/
+/ ----------------------------------------------------------------------
+
 alt_logo = "cFos Software GmbH logotipo";
 atm_price = "Versão ATM sobre pedido";
 bank_de_account = "2000 850 040";
@@ -187,10 +248,12 @@ by_phone = "Apóie-nos. Peça pelo telefone";
 buy_at = "Comprar em";
 buy_now = "Compre Agora";
 conf_cc = "Pagamento com cartão de credito";
+
 /. Used before Credit Card number, like
 /= "Nr. 2661-4345-2456-1345"
 /. It should be replaced with preferred in your region format
 conf_cc_nr = "Nº.";
+
 conf_check_cc = "Por favor, verifique suas informações do cartão de crédito";
 conf_check_order = "Verifique seu pedido";
 conf_deliverer = "Seu endereço";
@@ -281,10 +344,14 @@ f_use_form_c = "Como usuário corporativo, favor usar o(a)";
 f_land = "País";
 f_license = "Licença";
 f_moneybookers_text = "Por favor envie seu pagamento à seguinte conta do Moneybooker:";
+
 /. Paymenth method — "Cash on Delivery"
 /. See http://en.wikipedia.org/wiki/Cash_on_delivery
 f_nachname = "C.O.D.(contra entrega)";
+
+/. Says that certain payment method available within Germany only
 f_nachname_text = "Somente para dentro do território alemão, +4 &#8364; tarifa postal";
+
 f_name = "Nome";
 f_alipay_text = "Por favor, submeta seu pagamento a seguinte conta AliPay：";
 f_optional = "opcional";
@@ -384,7 +451,12 @@ word_service = "Serviço";
 word_submit_order = "Efetuar a compra";
 word_year = "Ano";
 
-/ Order and Announcelist Confirmation Email
+/ ----------------------------------------------------------------------
+/
+/  Order and Announcelist Confirmation Email
+/
+/ ----------------------------------------------------------------------
+
 ann_subject = "Obrigador por juntar-se à lista de anúncios cFos";
 ann_salut = "Caro usuário cFos";
 ann_info = "você se inscreveu na lista de anúncios cFos. Nós o informaremos sobre novas versões de nossos programas por volta de 3-5 vezes ao ano.";
@@ -403,7 +475,12 @@ em_noreply = "Este é um mail automático. Por favor não responda. Se nós não
 em_text = "Processaremos seu pedido apenas possível.";
 em_webmoney = "À nossa conta do Webmoney.";
 
-/ cFosSpeed
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
 a_bt = "cFosSpeed com torrents";
 a_games = "Como posso acelerar meus jogos online?";
 alt_ct_logo = "c't Logo";
@@ -427,6 +504,11 @@ dupe_a_voip = "Boa qualidade de voz com o protocolo Voice-over-IP (VoIP)";
 budgets = "Analise de trafego diário";
 desc_cfosbc = "<b>cFosBC</b>, Alta performance nas conexões discadas de banda larga ";
 firewall = "Firewall";
+
+/: http://www.cfos.de/en/cfosspeed/cfosspeed.htm
+/. Used in sidebar of cFosSpeed page as promotion. Says that cFosSpeed keeps quite high number
+/. of "YES" and has numerous positive comments at Steam Greenlight
+
 header_features = "Principais funções";
 highlights = "Destaques";
 highlight1 = "cFosSpeed evita uma de determinada aplicação (por exemplo, e-mail de saída) bloquear todos as outras, como chamadas telefônicas, bate-papos, etc.";
@@ -455,7 +537,7 @@ link_text_suggest_program = "Sugerir novo programa";
 link_text_reviews = " A cFos na imprensa ";
 link_text_speedlist = "cFosSpeed - O mundo em ação  (&#187; country and hardware list)";
 link_text_techinfo = "<b>cFos</b>, Um controlador  de discagem DSL e ISDN com muitas funções";
-link_text_traffic_shaping = "O que é o  Traffic Shaping?";
+link_text_traffic_shaping = "O que é o Traffic Shaping?";
 link_text_watch = "cFosWatch versão 2.00";
 link_text_what_is_speed = "O que é o cFosSpeed?";
 li_text_behavioural = "Proteção contra vírus de por meio de detecção  de mudanças no comportamento dos aplicativos";
@@ -480,12 +562,15 @@ prio_ports = "Priorizando portas";
 prio_programs = "Priorizando os aplicativos";
 prio_protocols = "Priorizando os protocolos";
 related_product = "Produto relacionado";
+
 /. Used in follwoing string:
 /= "Reviewed 4.5 / 5 stars by softpedia.com"
 review1 = "Revisão";
+
 /. Used in follwoing string:
 /= "Reviewed 4.5 / 5 stars by softpedia.com"
 review2 = "Créditos";
+
 rwin_expansion = "Expansão RWIN";
 rwin_now = "Agora com expansão RWIN!";
 rwin_results = "Veja a lista de resultados impressionantes!";
@@ -496,7 +581,12 @@ special_offer_launch = "Oferta especial de lançamento:<br />cFosBC +  o cFosSpe
 special_price = "Preço especial";
 word_more = "mais";
 
-/cFos Personal Net
+/ ----------------------------------------------------------------------
+/
+/  cFos Personal Net
+/
+/ ----------------------------------------------------------------------
+
 desc_pnet = "Servidor web para usuários domésticos e profissionais";
 pnet_title = "Servidor web para usuários domésticos e profissionais";
 desc_pnet_new = "Hospede arquivos e sincronize seus dados";
@@ -528,6 +618,12 @@ pnet_after = "Depois de 07 de Agosto será";
 pnet_wmi_add_p1 = "O <a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI Monitor</b></a> é um add-on gratuito para cFos Personal Net, que permite a visualização de vários valores WMI em seu sistema, ex.: CPU load, GPU load, uso da rede, latência (ping), etc. Você pode acessar essas informações de qualquer lugar.";
 pnet_wmi_add_p2 = "O <b>cFos WMI Monitor</b> auxilia os gamers, usuários avançados, músicos, etc. - monitorando a performance dos componentes no sistema, enquanto você executa aplicativos em tela-cheia. O <b>cFos WMI Monitor</b> mostra todas essas informações no navegador, podendo ser acessadas pelo PC ou smartphone.";
 pnet_wmi_explain = "O que é cFos WMI Monitor ?";
+
+/. Don't translate the "Publish with..." part
+
+
+/. Don't translate the "Publish" and "Upload..." parts
+
 pnet_doc_a1 = "Visão Geral";
 pnet_doc_a2 = "Configuração básica";
 pnet_doc_a3 = "Configuração Adicional";
@@ -547,16 +643,22 @@ pnet_wmi_p3 = "Baixe e instale o cFos WMI Monitor package (pack adcional). Nele 
 pnet_wmi_p4 = "Para evitar que outras pessoas acessem seu dados WMI, o cFos WMI Monitor requer um usuário válido por meio de uma autenticação HTTP. Portanto, você deve configurar um usuário, por exemplo <b>administrador</b> no cFos PNet. Você pode fazer isso executando novamente a configuração. Ou você pode adicionar um novo usuário, por exemplo usuário wmi, executando no diretório <em>/users/index.htm</em> como administrador.";
 pnet_wmi_p5 = "Para aproveitar ao máximo a cFos WMI Monitor recomendamos instalar";
 pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, fora acelerador de Internet. Ele é embutido em um provedor WMI fazendo os seguintes valores WMI disponível:";
+
 /. RX stands for `receive` (incoming/download)
 pnet_wmi_l1a = "total da velocidade RX";
+
 /. TX stands for `transmit` (outgoing/upload)
 pnet_wmi_l1b = "total da velocidade TX";
+
 pnet_wmi_l1c = "tempo de ping";
 pnet_wmi_l1d = "contador de conexão TCP/UDP";
+
 /. Means `RX (`receive`/incoming/download) characters per second`
 pnet_wmi_l1e = "RX cps";
+
 /. Means `TX (`transmit`/outgoing/upload) characters per second sent`
 pnet_wmi_l1f = "TX cps";
+
 pnet_wmi_l1g = "Estes valores correspondem à sua conexão com a Internet atual.<br/>valores do Windows WMI correspondem ao adaptador de rede atual, independentemente da rede LAN ou tráfego da Internet. Você pode exibir todos os valores que são exibidos na cFosSpeed status window (janela de status).";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Open Hardware Monitor</b></a>. Ela também tem um provedor embutido WMI que pode exibir valores de hardware que é muito úteis, como";
 pnet_wmi_l2a = "carregamento e temperatura da CPU";
@@ -658,7 +760,11 @@ pnet_doc_router_l1 = "Inicie o seu navegador e digite <b>http://localhost</b><br
 pnet_doc_router_l2 = "Digite, por exemplo, <b>http://192.168.2.122</b> (endereço local da máquina onde você executa o cFos Personal Net) no seu navegador. Ao fazê-lo, você abre uma conexão via seu roteador. Se você vir a página web do cFos Personal Net, os firewalls no Windows permitiram a passagem de tráfego para o cFos Personal Net.";
 pnet_doc_router_l3 = "Agora, encontre o seu endereço público de ip (por exemplo, no canto inferior direito da página inicial do site cfos.de) e o digite no navegador, por exemplo, <b>http://217.23.123.7</b>. Isso testa o firewall no seu roteador e o encaminhamento de porta NAT. Se você não vir a página web do cFos Personal Net consulte a documentação do seu roteador sobre como configurar o encaminhamento de porta NAT.";
 pnet_doc_script_p1 = "cFos Personal Net suporta scripting tanto pot Common Gateway Interface (CGI) quanto via scripting incorporado no Javascript (ou qualquer outra linguagem que suporte o Windows Scripting Host, e.g. ActivePerl, ActivePython, etc.).";
+
+/: http://www.cfos.de/en/cfos-personal-net/documentation/scripting.htm
+/. Do not translate variable names (`REMOTE_USER`, etc.)
 pnet_doc_script_p2 = "CGI especifica certas variáveis do ambiente, que contém informações sobre a requisição HTTP atual. cFos PNet define essas variáveis antes de executar o script:<br/><br/><b>REMOTE_USER</b>, <b>AUTH_TYPE</b>, <b>SERVER_SOFTWARE</b>, <b>SERVER_PROTOCOL</b>, <b>GATEWAY_INTERFACE</b>, <b>DOCUMENT_ROOT</b>, <b>CONTENT_LENGTH</b>, <b>CONTENT_TYPE</b>, <b>REMOTE_ADDR</b>, <b>REMOTE_PORT</b>, <b>SERVER_NAME</b>, <b>SERVER_PORT</b>, <b>REQUEST_METHOD</b>, <b>QUERY_STRING</b>, <b>REMOTE_HOST</b>, <b>PATH_TRANSLATED</b>, <b>SCRIPT_NAME</b> e todos os cabeçalhos HTTP com nome <b>&lt;xxx&gt;</b> como <b>HTTP_XXX</b>.";
+
 pnet_doc_script_p3 = "Além do mais, ele define as seguintes variáveis de ambiente:";
 pnet_doc_script_p4 = "Todas essas variáveis são acessíveis do script CGI ou do Javascript (em Javascript o objeto servidor web cFos PNet tem um método <b>environment_var(name)</b> para recuperar essas variáveis de ambiente).";
 pnet_doc_script_p5 = "Quando nos referimos ao \"Javascript\", na verdade nos referimos ao Windows Scripting Host com Javascript ou quaisquer outras linguagens instanciadas nele.";
@@ -688,9 +794,13 @@ pnet_doc_scripts_p4 = "O script realiza a autenticação desta forma: Se a respe
 pnet_doc_scripts_p4a = "Os scripts realizam autenticação de acordo com as respectivas configurações <em>.htaccess</em>. Para isso necessitará de credenciais de usuário apropriadas para utilizar os diretórios seguintes.";
 pnet_doc_scripts_p5 = "Aqui está uma breve descrição dos scripts. Você deve dar uma olhada no código-fonte para ver como funcionam.";
 pnet_doc_scripts_p6 = "Se não houver arquivos <em>index.htm</em> ou <em>index.html</em> presentes no diretório requisitado, cFos PNet inicia este script para gerar uma listagem de diretórios.<br/> O script usa o FileSystemObject para coletar informações sobre o conteúdo do diretório corrente. Ele então carrega um template XML, analisa-o e gera uma página HTML a partir do conteúdo do diretório e dos snippets fornecidos pelo XML. Para mudar o visual ou a funcionalidade da listagem de diretórios, modifique o template XML. O arquivo resultante HTML tem links para arquivos básicos de manutenção nele. Como administrador, você pode logar usando autenticação HTTP e renomear, deletar arquivos e pastas, fazer upload de arquivos bem como criar novas pastas. Isto é suportado pelo jQuery no lado do cliente, que é basicamente usado para enviar convenientemente requisições Ajax para o cFos PNet. O script do lado do servidor <em>file_op.jss</em> realiza a necessária autenticação HTTP e lida com operações de arquivo.";
+
+/: http://www.cfos.de/en/cfos-personal-net/documentation/standard-scripts.htm
+/. Do not translate operations' names like `rename`, `delete`, `mkdir`, etc., since those are console commands
 pnet_doc_scripts_p7 = "Realiza operações de arquivo de acordo com a autenticação acima. Operações de arquivo são <b>rename</b>, <b>delete</b>, <b>mkdir</b> para criar uma pasta e realizar uploads. Uploads tipicamente necessitam de autenticação, porque o navegador sempre envia primeiro o arquivo inteiro subido para o servidor e depois pega a informação de autenticação, então ele enviaria o arquivo duas vezes. Para dar ao navegador informações de autenticação primeiro, o script <em>file_op.jss</em> suporta uma operação de upload 'pre-flight'. O navegador, usando uma requisição ajax, pede ao servidor a resposta de autenticação HTTP (401) e então automaticamente usa-a para o upload de fato. Upload é lidado pela função <em>upload.jss</em>, que usa o objeto de arquivo do cFos PNet's para permitir o upload de arquivos com um tamanho arbitrário.";
 pnet_doc_scripts_p8 = "Realiza funções básicas de administração de usuário: <b>create</b>, <b>delete</b>, <b>reset password</b> e <b>list</b>. O usuário admin é necessário para autenticação.";
 pnet_doc_scripts_p9 = "Já que a lista de hash tem uma importante tarefa no cFos PNet, <em>list_op.jss</em> provê operações de lista básicas para requisições Ajax. A mesma esquemática de autenticação como descrita acima é realizada. Isto é: Dependendo do local do script, o usuário - para qual a autenticação é requisitada - é escolhido. A autenticação é feita definindo a diretiva <b>PNet_limitPut</b> em <em>.htaccess</em>. <em>list_op.jss</em> oferece as seguintes operações:<br/><br/><b>get</b> Pega uma lista de valores na lista de hash.<br/><b>set</b> Define uma lista de chaves para uma lista de valores.<br/><b>save</b> Salva um instantâneo no disco.<br/><b>erase</b> Apaga uma lista de chaves.<br/><b>clear</b> Apaga todas as chaves.<br/><b>remove</b> Deleta a lista da memória / disco.<br/><b>size</b> Retorna o tamanho da lista.<br/><b>list</b> Lista todos os elementos na lista de hash.<br/><br/>O Ajax em <em>dyndns.htm</em> faz uso dessas operações para instalar as informações de configuração DynDNS.";
+
 pnet_doc_scripts_p10 = "Realiza o registro ou desregistro do DynDNS, usando os dados de configuração na lista de hash <em>dyndns.txt</em> na pasta privada.<br/>Pode ser usado no início do servidor e em seu encerramento (ver capítulo 1).";
 pnet_doc_scripts_p11 = "Usado para exibir as conexões HTTP atuais. HTTP é feito via TCP. Para agilizar as requisições HTTP, os navegadores tentam reusar as conexões TCP para requisições HTTP. A requisição HTTP efetiva contém apenas uma breve mensagem e uma resposta. Depois disso, em alguns segundos o navegador fecha a conexão TCP. Então você pode ver um usuário apenas por um breve período. Se a autenticação for bem-sucedida, o nome do usuário também é retornado com o endereço IP do usuário.";
 pnet_doc_scripts_p12 = "Pela razão de que é sempre um fardo para o webmaster redimensionar imagens para o formato usado na página web, nós implementamos um pequeno script, que usa o objeto de imagem do cFos PNet (GDI+). Ele usa um arquivo e um parâmetro de <b>w</b> (largura) e <b>h</b> (altura) no query string da URL. Se suas imagens são de um tamanho arbitrário, recomenda-se usar apenas um parâmetro para preservar o aspect ratio da imagem. <em>makedir2.jss</em> usa links para este script para exibir imagens de miniatura armazenadas na pasta atual.";
@@ -703,8 +813,10 @@ pnet_doc_misc_p4a = "No caso de ter que modificar seus certificados, você terá
 pnet_doc_misc_p5 = "Para utilizar um certificado SSL existente você deve garantir que esteja em um formato compatível com o Windows. Por exemplo, se você tiver um certificado de um sistema UNIX, podendo ser um .PEM file. Baixe o openssl e use o seguinte comando para convertê-lo:";
 pnet_doc_misc_p5a = "onde <em>mycert.cer</em> é seu certificado e <em>ca1.cer</em> e <em>ca2.cer</em> (e <em>ca3.cer</em>, etc.) são 2 CA certificados intermediados requeridos para a cadeia de confiança.";
 pnet_doc_misc_p6 = "<em>mycert.cer</em> deve estar no formato x.509. Você pode utilizar o openssl para convertê-lo no formato x.509 se necessário. A saída <em>mycert.pfx</em> está no formato pkcs#12 no qual o Windows pode ler.";
+
 /. Explanation of `snap-in`: http://en.wikipedia.org/wiki/Microsoft_Management_Console
 pnet_doc_misc_l1 = "Agora inicie o MMC, arquivo -> adicionar/remover snap-in -> certificados -> conta do computador -> computador local, depois: \"visualizar certificados pessoais\" e visualizar certificados. Botão direito -> todas as tarefas -> importar e exportar <em>mycert.pfx</em>.";
+
 pnet_doc_misc_l1a = "Você também precisa importar o(s) certificados(s) a \"Intermediate Certification Authorities -> Certificates\". Do contrário nenhuma cadeia de confiança será transmitida ao servidor, veja <a class=\"inline\" href=\"http://support.microsoft.com/kb/954755\">http://support.microsoft.com/kb/954755</a>";
 pnet_doc_misc_l2 = "Visualize a assinatura do seu certificado importado e insira o seguinte comando:<br/><br/>netsh http add sslcert ipport=0.0.0.0:443 certhash=<b>&lt;certhash&gt;</b> appid={a227f2f9-d103-4e0f-92a4-7086c8ab35ac}.<br/><br/>Como <b>&lt;certhash&gt;</b> use a assinatura sem espaços.";
 pnet_doc_misc_p7 = "Para IPv6 o parâmetro <b>ipport</b> do comando netsh deve ser: <b>ipport=[::]:443</b>.";
@@ -725,7 +837,12 @@ pnet_doc_misc_l10 = "Diga ao cFos PNet onde o interpretador de PHP está localiz
 pnet_doc_misc_l11 = "Edite o arquivo <em>.htaccess</em> nos diretórios onde seus PHP scripts estão. Ou, para habilitar os PHP scripts globalmente, edite o arquivo <em>.htaccess</em> no diretório raiz ou em <em>c:\\programdata\\cfos\\cfospnet\\private</em>. Adicione a seguinte diretriz:<br/><b>AddHandler php-script php</b>";
 share_cfospnet = "Compartilhe cFos PNet";
 
-/ cFos Outlook DAV
+/ ----------------------------------------------------------------------
+/
+/  cFos Outlook DAV
+/
+/ ----------------------------------------------------------------------
+
 cfout_h1_v2 = "Sincronização na nuvem do seu calendário Outlook, tarefas e contatos";
 cfout_p1a = "cFos Outlook DAV é um complemento de Outlook que conecta o calendário e pastas de contato de um servidor CalDAV/CardDAV a nuvem.";
 cfout_p1a2 = "Para soluções de hospedagem caseira talvez você queira tentar os serviços CalDAV/CardDAV do <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\"><b>cFos Personal Net's</b></a>. ";
@@ -755,9 +872,11 @@ cfout_p3d = "Para maiores informações de uma olhada nas nossas <a class=\"inli
 cfout_p3e = "<b class=\"green\">Sincronização de Tarefas</b> com Calendários Google: O Calendário Google não suporta CalDAV para tarefas e demais coisas (utilizando a API dos Calendário Google) as tarefas do Google possuem apenas uma pequena gama de recursos se comparado aos recursos de tarefa do Outlook. Então sincronizar as tarefas do Google com as do Outlook não é recomendado. O elemento mais próximo das tarefas do Outlook / VTODO CalDAV são os compromissos. Portanto o cFos Outlook DAV armazena as tarefas do Outlook como compromissos quando utilizado com um servidor Google. Isto significa que você deverá configurar outro Calendário Google, que será então usado exclusivamente para as tarefas do Outlook. A configuração é a mesma que a dos compromissos.";
 cfout_p3f = "<b class=\"green\">Sincronização de Contatos</b> com o Google: Para contatos do Google o URL é <b>https://www.googleapis.com/carddav/v1/principals/seu_usuário_google/lists/default/</b>.";
 cfout_p4_v2 = "Para um <b class=\"green\">Calendário DAViCal</b> o URL é http://<b>seu_servidor_davical</b>/caldav.php/<b>sua_conta_davical</b>/calendar, para os <b class=\"green\">Contatos DAViCal</b> o URL é <b>http://seu_servidor_davical/caldav.php/sua_conta_davical/addresses</b>, onde <b>seu_servidor_davical</b> é o domínio ou endereço de IP do seu servidor DAViCal. <b>sua_conta_davical</b> é o usuário para este servidor e a senha é a designada para este usuário.";
+
 /. Used as title
 /. Litrelly means "How cFos Outlook DAV works"
 cfout_h3 = "Operação do cFos Outlook DAV";
+
 cfout_p5a_v2 = "Quando você inicia o Outlook, o cFos Outlook DAV tenta sincronizar todos os dados das suas pastas do Outlook com o servidor CalDAV/CardDAV. Se ocorrer alguma mudança no servidor, as mudanças se refletem nas suas pastas do Outlook.";
 cfout_p5b_v2 = "Então dados adicionados ou modificados no servidor serão adicionados ou modificados na sua pasta local. Dados deletados no servidor serão deletados da sua pasta local. Esta sincronização é feita a cada <b>n</b> minutos dependendo do intervalo de sincronização que você especificou na configuração da pasta.";
 cfout_p6_v3 = "Sempre que adicionar, modificar ou deletar um evento em suas pastas locais você pode atualizar a data do servidor usando o botão \"Sync All\" na barra. Também considere fazer o mesmo antes de fechar o Outlook.";
@@ -771,8 +890,10 @@ cfout_conf_title = "Como sincronizar um calendário CalDAV ou Lista de contatos 
 cfout_goto_help = "Dê uma olhada em nossas <b>detalhadas instruções ilustradas</b>.";
 cfout_server = "Selecione seu tipo de servidor CalDAV/CardDAV";
 cfout_new_server = "Se você usou com sucesso o cFos Outlook DAV com um servidor de calendário ou de contatos <b>que não está incluso em nossa lista</b>, por favor, considere enviar essa informação com sua configuração usando nosso <a class=\"inline\" onclick=\"contact_preselect='outlook_dav'; return false;\" href=\"/en/index.htm\"><b>contato</b></a>.";
+
 /. Means "show all server types"
 cfout_show_all = "Exibir todos";
+
 cfout_conf_step1 = "<b>1.</b> Em <b>Calendário</b>, clique com o botão direito no calendário e depois clique em \"<span class=\"green\">Habilitar CalDAV Sync</span>\"/ \"<span class=\"green\">Configurar CalDAV Sync</span>\" ou<br/>em <b>Contatos</b> clique com o botão direito na pasta contatos e depois clique em \"<span class=\"green\">Habilitar CardDAV Sync</span>\"/\"<span class=\"green\">Configurar CardDAV Sync</span>\"";
 cfout_conf_step2 = "<b>2.</b> Entre com a URL CalDAV, usuário e senha do seu servidor de calendário ou<br/>com a URL CardDAV, usuário e senha do seu servidor de endereços";
 cfout_conf_step3 = "<b>3.</b> Selecione o <span class=\"green\">intervalo de sincronização</span>";
@@ -802,7 +923,13 @@ cfout_pnet_cal3 = "Sua senha cFos Personal Net";
 cfout_davical_cal2 = "Seu usuário DAViCal";
 cfout_davical_cal3 = "Sua senha DAViCal";
 
-/ cFos IPv6 Link
+
+/ ----------------------------------------------------------------------
+/
+/  cFos IPv6 Link
+/
+/ ----------------------------------------------------------------------
+
 cfos6link_page_title = "Conectividade ipv6 para o Windows XP e o Vista e o Windows 7";
 cfos_ipv6_link_title = "Conectividade IPv6 Connectivity para XP, Vista e Windows 7";
 header_features_overview = "Resumo de funções";
@@ -823,7 +950,12 @@ provider_list_h1 = "Provedores IPv6 que foram testados com <em>cFos IPv6 Link</e
 dupe_word_documentation = "documentação ";
 word_documentation = "Documentação ";
 
-/ cFos BC
+/ ----------------------------------------------------------------------
+/
+/  cFos BC
+/
+/ ----------------------------------------------------------------------
+
 bc_page_title = "Controlador de discagem de  alto rendimento para o acesso à Internet com banda larga.";
 broadband_connect_title = "Controlador de acesso telefônico PPPoE de alta performance";
 link_text_cfosspeed = "<b>cFosSpeed</b>, Para routers, cable modems e modems DSL USB";
@@ -837,10 +969,17 @@ li_text_pppoe_auto = "PPPoE auto-detect, Todos os parâmetros PPPoE configuráve
 li_text_ppppoe_dial = "Controlador de discagem PPPoE para o Windows";
 li_text_sessions = "Sessões múltiplas, sem limite para o numero de conexões";
 
-/ cFos
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
 cfos_html_h1 = "Controlador de discagem DSL e ISDN com  Traffic Shaping";
+
 /. Part of page's title (in name of the tab in web browser)
 cfos_professional_title = "cFos, Acesso telefônico &amp; Aceleração para DSL &amp; ISDN";
+
 link_text_budget = "Contador online";
 link_text_cfos_features = "Lista de funções do cFos";
 link_text_cfos_priolist = "Dê prioridade a seus aplicativos com o  cFos (&#187; program list)";
@@ -848,28 +987,51 @@ link_text_feature_list = "Funções para  DSL e ISDN";
 link_text_firewall = "Firewall";
 link_text_what_is_cfos = "O que é o cFos/Professional?";
 
-/hrping
+
+/ ----------------------------------------------------------------------
+/
+/  hrPing
+/
+/ ----------------------------------------------------------------------
+
+/: http://www.cfos.de/en/ping/ping.htm
 hrping_title = "<span class=\"product\">hrPing</span> - Utilitário de ping de alta precisão";
 hrping_p1 = "Você pode fazer muito mais com o hrPing do que com o Windows Ping.";
+
+/. Used as one of entries in list of hrPings features
 hrping_l1 = "Visualização gráfica dos resultados de ping";
+
+/. Used as one of entries in list of hrPings features
 /. `usec` stands for `microsecond`.
-/. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
-/. In other words, means accuracy of the measurement
+/. In current context means `usec resolution` (also known as `microsecond resolution`),
+/. which is technical term. In other words, means accuracy of the measurement
 hrping_l2 = "Usa temporizadores de alta resolução, então o tempo de ping é preciso em usec (microssegundo)";
+
+/. Used as one of entries in list of hrPings features
 hrping_l3 = "Podendo dar ping também com pacotes UDP ou mensagens ICMP timestamp";
 
+/. Used as one of entries in list of hrPings features
 /. In other words means `Hrping measures requests time and handles ICMP error replies as well`
 hrping_l4 = "Responde a horários e a tratamentos de erros ICMP também";
 
+/. Those strings used as one of entries in list of hrPings features
 hrping_l5 = "Podendo ter múltiplos ping \"enviados\", sem a necessidade de esperar por uma resposta antes de enviar o próximo ping";
 hrping_l6 = "Estatísticas aprimoradas";
 hrping_l7 = "Varredura de tamanho: Envia pacotes com tamanho crescente.";
 hrping_l8 = "Pode exibir apenas um resumo dos resultados";
-/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic
+
+/: http://www.cfos.de/en/ping/ping.htm
+/. Used as one of entries in list of hrPings features
+/. Says that hrPing is effective replacement for both those utilities.
+/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic, do not translate them
 hrping_l9 = "É um Traceroute e um Pathping também";
 
+/ ----------------------------------------------------------------------
+/
+/  cFos Notifier
+/
+/ ----------------------------------------------------------------------
 
-/notifier
 notifier_title = "Notificador de Twitter da cFos";
 notifier_title_h0 = "<span class=\"product\">cFos Notifier</span> - mantendo o contato";
 notifier_p1 = "O Notificador de Twitter da cFos é um programa que é executado em segundo plano e que periodicamente checa se novos status do Twitter estão disponíveis. Se houver algo novo, o programa mostrará um ícone de notificação na barra de tarefas do Windows e um balão de dica. Se você clicar no balão ou no ícone na barra de tarefas, o twitter.com será lançado e então você poderá ler os novos status.";
@@ -912,11 +1074,21 @@ notifier_l6 = "Desativar temporariamente as notificações";
 notifier_l7 = "Som de notificação personalizável";
 notifier_l8 = "As contas podem ser adicionadas e removidas";
 
-/FAQ
+/ ----------------------------------------------------------------------
+/
+/  FAQ
+/
+/ ----------------------------------------------------------------------
+
 which_product = "Qual produto da cFos devo usar?";
 word_support_faq = "Perguntas freqüentes - Suporte cFos";
 
-/ support
+/ ----------------------------------------------------------------------
+/
+/  Support
+/
+/ ----------------------------------------------------------------------
+
 activation_title = "A Ativação Falhou";
 activation_salut = "Caro usuário do cFosSpeed";
 activation_salut_cfos = "Caro usuário da cFos";
@@ -1003,11 +1175,20 @@ choice4 = "Você usa um Modem DSL conectado ao seu micro com cabo USB?";
 choice5 = "Controlador ( Driver) para redes a discagem?";
 choice6 = "Modelagem de Tráfego?";
 choice7 = "Ambos?";
+
+/. Used as title of contact form
+/. Can be translated as "Contact cFos team" in case origianl variant doesn't translate well into your language
 contact_form_h1 = "Seu contato com a Equipe cFos";
+
 contact_form_p0 = "Contate-nos para falar sobre <b>problemas técnicos</b>, perguntas sobre <b>seu pedido</b>, <b>propostas de negócios</b> ou <b>informações para imprensa</b>.";
+
+/. Refer to `speed_guide` language key in website's localization file to see how `cFos Speed Guide`
+/. has been translated in your language (here: https://github.com/cFos/l10n/tree/master/locales.website)
 contact_form_p0_a1 = "<b>Velocidade muito baixa?</b><br/>Talvez o <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Guide</a> possa te ajudar";
+
 contact_form_p0_a2 = "<b>Onde está minha chave de licença?</b><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Contate-nos, caso o seu pedido esteja demorando muito</a>";
 contact_form_p0_a3 = "<b>Quer desativar a janela de status?</b><br/><a class=\"inline\" href=\"//en/cfosspeed/documentation/status.htm\">Como desativar a abertura automática da janela de status</a>";
+
 /. Used in our contact form on website, as possible choices, like:
 /= Please, select:
 /= — ...
@@ -1027,6 +1208,7 @@ contact_form_o10 = "Não consigo instalar o cFosSpeed";
 contact_form_o11 = "Como desativar a janela de status";
 contact_form_o12 = "Relatar Tela-azul / BSOD";
 contact_form_o13 = "ASUS (GameFirst &amp; Turbo LAN), Gigabyte, ASRock versões OEM";
+
 contact_form_h2 = "Encontre ajuda rapidamente";
 contact_form_p1 = "Para informações preliminares, você pode querer consultar nossa página de <a class=\"inline\" href=\"//en/oem/oem.htm\">Parceiros OEM</a>";
 contact_form_l1 = "Nossos termos de licenciamento permitem a inclusão das versões Trial de nossos softwares em CDs de Revistas, sem qualquer custo.";
@@ -1041,8 +1223,12 @@ contact_form_p5 = "Por favor, consulte o <a class=\"inline\" href=\"//en/traffic
 contact_form_p6 = "Por favor, consulte o <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Guide</a> para ajuda, e como conseguir <b>menor ping</b>.";
 contact_form_p7 = "Aqui você encontra <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation.htm\">ajuda para instalação da sua chave de licença</a>.<br/><br/>Algumas dicas para <a class=\"inline\" href=\"//en/cfosspeed/documentation/registration-help.htm\">localizar e instalar sua chave de licença</a>.";
 contact_form_p8 = "Alguns softwares, ex.: drivers de rede, anti-vírus ou anti-spyware, podem bloquear a instalação do cFosSpeed.<br/><br/>Veja aqui <a class=\"inline\" href=\"//en/cfosspeed/documentation/driver-not-loaded.htm\">como lidar com problemas de instalação</a> e <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation-help.htm\">o que fazer quando o cFosSpeed não instala</a>.";
-contact_form_p9 = "Para desativar a janela de status do cFosSpeed, basta clicar com o botão direito, e navegar até o menu: <b>Window Settings</b>. Então desmarque \"Auto-show/Auto-hide\".";
+contact_form_p9 = "Para desativar a janela de status do cFosSpeed, basta clicar com o botão direito, e navegar até o menu: <b>Window Settings</b>. Então desmarcar \"Auto-show/Auto-hide\".";
+
+/. Refer to `closewindows` language key in software's localization file to see how `Hide Windows`
+/. has been translated in your language (here: https://github.com/cFos/l10n/tree/master/locales.software)
 contact_form_p9_v2 = "Você pode desativar a janela de gráficos do cFosSpeed clicando com o botão direito nela e depois selecione \"Fechar Janela\".";
+
 contact_form_a2 = "Esconder janela de status";
 contact_form_p10 = "Se você recebeu uma Tela-azul/BSOD causada pelo cFosSpeed, ajude-nos a consertá-la.<br/><br/>Por favor, veja <a class=\"inline\" href=\"//en/support/howto-dump.htm\">como criar um Kernel dump</a>.";
 contact_form_p11 = "Por favor, veja as nossas <a class=\"inline\" href=\"//en/cfos-professional/capi-support.htm\">dicas para ISDN CAPI / Network CAPI</a>.";
@@ -1059,22 +1245,22 @@ decision_help = "Arvore de decisão";
 dialup_dsl_cable = "Acesso a rede com DSL ou Cable Modem (PPPoE)";
 expiration_buy = "<a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">Compre agora a sua licença pessoal vitalícia cFosSpeed!</b></a>";
 expiration_div1_h1 = "Obrigado por experimentar o cFosSpeed!";
-expiration_div1_p1 = "Agora o cFos Traffic Shaping está calibrado para sua ligação com a Internet.<br /> Agora ele maximiza a taxa de transferência enquanto minimiza o tempo de ping.<br /> Nossos clientes se acostumam tão rápido que muitos não conseguem mais imaginar a vida sem ele.";
-expiration_div1_p2 = "Evita downloads lentos durante uploads simultâneos.<br /> Evita pings altos ou qualidade ruim em VoIP por causa de outras transferências de dados.";
+expiration_div1_p1 = "Agora o cFos Traffic Shaping está calibrado para sua ligação com a Internet.<br /> Ele está maximizando a taxa de transferência enquanto minimiza o tempo de ping.<br /> Nossos clientes se acostumam tão rápido que muitos não conseguem mais imaginar a vida sem ele.";
+expiration_div1_p2 = "Evite downloads lentos durante uploads simultâneos.<br /> Evita pings altos ou qualidade ruim em VoIP por causa de outras transferências de dados.";
 expiration_div1_p3 = "Aproveite a oportunidade e <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">compre agora uma licença vitalícia do cFosSpeed.</b></a>";
 expiration_div2_h1 = "Antes que você perceba que o período de teste de 30 dias do cFosSpeed tenha acabado.";
-expiration_div2_p1 = "Certamente, até agora, você se beneficiou com o cFos Traffic Shaping por causa da";
-expiration_div2_p2 = "máxima largura de banda e mínimo ping.";
-expiration_div2_p3 = "O cFos Traffic Shaping faz efeito logo que você use mais de um fluxo de dados da internet, começando com e-mail e navegando na web.";
-expiration_div2_p4 = "Para curtir uma conexão de internet otimizada no futuro, <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">compre agora sua licença vitalícia do cFosSpeed!</b></a>";
-expiration_div2_p5 = "Compre uma vez e garanta o direito à atualizações vitalícias:<br /><b>Todas as versões futuras já estão inclusas no preço</b>.";
-expiration_div3_p1 = "<h1>A importância do pioneirismo é inegável.</h1>No campo de otimização da internet, o cFosSpeed é pioneiro. Durante anos, nós aprimoramos o cFos Traffic Shaping para que seja extraído o máximo da sua ligação com a internet.";
-expiration_div3_p2 = "O cFos Traffic Shaping não só <b>maximiza a largura da banda</b> enquanto mantém <b>o mínimo ping</b>, mas também dá a você a opção de priorizar aplicações individuais, como Jogos, transmissão de mídia, etc. além de outras aplicações. Com o cFosSpeed <b>você</b> decide como usar sua conexão.";
-expiration_div3_p3 = "Você não precisa constatemente procurar por novas versões, porque com as nossas licenças vitalícias elas já estão inclusas no preço. Basta apenas baixar a nova versão na nossa página da  web, instalar sobre a versão antiga - está feito!";
-expiration_div3_p4 = "O cFos Traffic Shaping lhe convenceu?<br />Então <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">compre - uma vez - a licença vitalícia do cFosSpeed agora!</b></a>";
+expiration_div2_p1 = "Certamente, Com certeza até agora você se beneficiou com o cFos Traffic Shaping por causa da";
+expiration_div2_p2 = "máxima largura de banda e ping mínimo.";
+expiration_div2_p3 = "O cFos Traffic Shaping entra em ação após um certo uso de dados na internet, começando com e-mail e navegando na web.";
+expiration_div2_p4 = "Para disfrutar uma conexão de internet otimizada no futuro, <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">compre agora sua licença vitalícia do cFosSpeed!</b></a>";
+expiration_div2_p5 = "Compre uma vez e garanta o direito à atualizações vitalícias:<br /><b>Todas as versões futuras já estão incluídas no preço</b>.";
+expiration_div3_p1 = "<h1>A importância do pioneirismo é inegável.</h1>No campo de otimização da internet, o cFosSpeed é pioneiro. Durante anos, nós aprimoramos o cFos Traffic Shaping para sua conexão de internet seja aproveitada ao máximo.";
+expiration_div3_p2 = "O cFos Traffic Shaping não só <b>maximiza a largura da banda</b> enquanto mantém <b>o ping no mínimo </b>, mas também dá a você a opção de priorizar aplicações individuais, como Jogos, transmissão de mídia, etc. além de outras aplicações. Com o cFosSpeed <b>você</b> decide como usar sua conexão.";
+expiration_div3_p3 = "Você não precisa constantemente procurar por novas versões, porque com as nossas licenças vitalícias elas já estão inclusas no preço. Basta apenas baixar a nova versão na nossa página web, e instalar sobre a versão antiga - pronto!";
+expiration_div3_p4 = "O cFos Traffic Shaping lhe convenceu?<br />Então <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">compre - de uma vez - a licença vitalícia do cFosSpeed agora!</b></a>";
 expiration_div4_p1 = "Seu período de testes terminará em poucos dias!";
 expiration_div4_p2 = "Não espere até que o cFos Traffic Shaping seja desativado. Continue desfrutando de largura de banda máxima e ping mínimo.";
-expiration_div4_p3 = "O cFosSpeed é acessivel.<br />Compre uma vez e garanta seu direito à atualizalções vitalícias.<br />Aproveite a oportunidade e <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">compre agora sua licença vitalícia do cFosSpeed!</b></a>";
+expiration_div4_p3 = "O cFosSpeed é acessivel.<br />Compre uma vez e garanta seu direito à atualizações vitalícias.<br />Aproveite a oportunidade e <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfosspeed-n.htm\"><b class=\"red\">compre agora sua licença vitalícia do cFosSpeed!</b></a>";
 expiration_div4_p4 = "Desde que você esteja ciente das <b>vantagens do cFosSpeed Traffic Shaping</b>, nós <b>não iremos ativar outro pop-up</b>. Por isso:";
 faq_long = "Perguntas freqüentes  ";
 h1_alternatives = "cFosSpeed, cFos ou cFos Broadband Connect";
@@ -1169,7 +1355,12 @@ yes = "Sim";
 search_web = "Procurar na internet";
 search_cfos = "Procurar www.cfos.de";
 
-/ traffic shaping
+/ ----------------------------------------------------------------------
+/
+/  Traffic shaping
+/
+/ ----------------------------------------------------------------------
+
 alt_load_print = "Carregar versão impressa da imagem";
 alt_transfer_rates = "Taxas de transferência";
 ts_c_t1 = "Nota importante sobre o Traffic Shaping da cFos";
@@ -1345,7 +1536,12 @@ vari_fixed = "Variação Ping";
 vari_fixed_help = "Use o Traffic Shaping avançado para acomodar a variação dos tempos de ping";
 vari_fixed_help_long = "Coleta estatísticas de ping para adaptar-se a variações nos tempos de ping; especialmente útil para ligações móveis / sem fios.";
 
-/ cFosSpeed additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed additional pages
+/
+/ ----------------------------------------------------------------------
+
 adjust_speed_shaping = " - ligar e desligar esse recurso";
 autoarrange = "Auto-organizar janelas";
 auto_mtu = "Otimização automática do MTU";
@@ -1429,8 +1625,10 @@ no_ping_tplink = "<h4>TP-Link Router:</h4><p>TP-Link oferece um novo firmware, q
 no_ping_tplink2 = "<p><b class=\"red\">Atenção</b>: Após relatos de usuários, isso parece não se aplicar a, pelo menos, os modelos TL-R460, R860 e TL-TL-R402M.</p>";
 no_ping_pccillin = "<h4>PC cillin 2007:</h4><p>Para permitir que o Windows comando tracert para PC Cillin 2007 basta seguir esses passos:</p><ol><li>Abra o PC Cillin console principal->rede- e firewall-control->personal firewall->settings->select account->edit->network control->add</li><li>Agora você pode <samp>adcionar</samp> 2 novos protocolos. </li><li>para conexões de saída:<br /><samp>(default) permitir conexões de saída<br />(protocol) icmp<br />(port) all ports<br />(ip-settings) all ip-settings<br /></samp></li><li>Para conexões de entrada apenas repita o passo 3 para conexões de entrada</li></ol>";
 no_ping_statistics = "Recuperando e interpretação estatísticas de ping cFosSpeed";
+
 /. Console's output shouldn't be translated
 no_ping_statistics_p1 = "<p>Abra o console cFosSpeed e digite &quot;spd pingstat&quot;</p><p>Isto deve produzir um resultado semelhante ao abaixo:</p><pre class=\"code\"><br />Ping estatísticas:<br /><br />Total ping requests      107,686<br />  done                   107,686     <b>(1)</b><br />  ...and only            107,686<br /><br />Total pings sent         106,949<br />  strong                 106,778<br />  ...and new             106,778     <b>(2)</b><br /><br />Total pongs              106,804<br />  found                  106,566<br />  ...and strong          106,519<br />  ...and strong reply    106,519     <b>(3)</b><br />  ...and used            106,519     <b>(4)</b><br /><br />Ping outage statistics:<br />  1 ping in a row 33 times<br />  5 pings in a row 1 time<br /><br />Ping src/dst: 192.168.0.100 to 194.95.249.23, ttl 3<br />Ethernet src/dst: 00:0e:a6:57:9b:0b to 00:11:95:78:27:a4<br /></pre>";
+
 no_ping_statistics_p2 = "<p>Os três valores dados para &quot;total ping requests&quot; deve ser idêntico. No caso de haver qualquer desvio grande entre estes, por favor, informe-nos.</p><p>O valor marcado <b>(1)</b> deve ser aproximadamente o mesmo que o próximo a<b> (2)</b>. Se esse não for o caso, é tipicamente uma forte evidência que a transmissão de dados esteja bloqueio de firewall. Tal como referido acima, um pequeno desvio de vários pontos percentuais não é dramático, embora.</p><p>Valores para<b> (3) </b>e<b> (4) </b>devem também ser quase o mesmo. Se não, envie-nos um e-mail.</p>";
 no_ping_statistics_p3 = "<p>Pela mesma razão, os valores<b> (2) </b>e<b> (3) </b>deve ser praticamente idêntico. Se o não é assim, isso geralmente indica que pings e as suas respostas se perdem em algum lugar &quot;na Internet&quot; (o que acontece bastante). Infelizmente, não há nada que possamos fazer sobre isso.</p><p>Ao escrever-nos um e-mail, por favor consulte<a class=\"inline\" href=\"#p4\"> step 3 </a>abaixo sobre quais os arquivos para anexar à sua mensagem.</p>";
 no_ping_update = "Primeiro de tudo, baixe e instale a última versão do cFosSpeed:";
@@ -1504,33 +1702,42 @@ sp_doc_games_p1 = "Traffic Shaping tecnologia mantém tempos de ping baixa e tax
 sp_doc_games_p2 = "Ainda assim, para alcançar tempos de ping ideal, você deve priorizar o seu jogo (s) o mais alto possível. Você vai achar que já listou alguns dos jogos mais populares atualmente se encontra sob Definições Programa. Caso o jogo não estar entre os listados lá, você pode simplesmente adicioná-lo à lista.";
 sp_doc_games_p3 = "Você também pode conosco que os jogos online que você gostaria de ter incluído nessa lista de futuras atualizações também.";
 sp_doc_games_p4 = "Tenha cuidado de priorizar como poucos dados e programas que possível, de tal maneira. Isto porque se você estivesse a atribuir elevada prioridade a tudo, você não seria melhor do que nada ter priorizado a todos.";
-// `[filter]` and name of file shouldn't be translated
+
+/. `[filter]` and name of file shouldn't be translated
 sp_doc_games_p5 = "Alternativamente, caso não o nome do programa em si é claro, você também pode prioritze as portas usadas pelo The Game on-line. Se as portas TCP / UDP de destino uma aplicação são conhecidos, você pode priorizar a sua transferência de dados da seguinte forma (editando o [filter] do settings.ini arquivo):";
 sp_doc_games_p6 = "Para portas TCP: <br /> [filtros] <br />; porta dest = 1234 <br /> filtro =- tcp-dport 1234-c elevado";
 sp_doc_games_p7 = "Para as portas UDP: <br /> [filtros] <br />; porta dest = 1234 <br /> filtro =- udp-dport 1234-c elevado";
+
 sp_doc_games_p8 = "Depois de fazer essas alterações e salvá-los, os novos ajustes ainda precisam ser carregados. Isso é feito abrindo o console (em Iniciar, Programas, cFosSpeed) e digitando reload spd. As alterações terão (e permanecem em) o efeito após a próxima vez que você reiniciar o sistema.";
 sp_doc_games_a1 = "cFosSpeed Filtro Manual (Inglês)";
 sp_doc_games_a2 = "Definições de ligação DSL";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/games.htm
 /. Used as alternate text for image
 sp_doc_games_a3 = "Exibir auxiliar de ping";
+
 sp_doc_games_a4 = "Diálogo para a priorização do programa";
 sp_doc_games_t1 = "Otimização de configurações de conexão:";
+
 /. Connections types untranslatable in our software, so they shouldn't be translated here either (`Adaptive`)
 sp_doc_games_p9 = "Você pode especificar exatamente o que você usa transferência médio em Configurações de Conexão. Quanto mais informações sobre uma conexão está disponível para cFos ou cFosSpeed, os tempos de ping melhor será. O padrão é Adaptive. Mas se você fosse, por exemplo, usando uma conexão DSL, você deve escolher o padrão adequado de DSL ou protocolo como o seu meio.";
-sp_doc_games_t2 = "Auxiliar de ping";
+
 /. `Favor Ping` is translatable in our software, so it should be translated here too.
 /. Ensure in consistent translation across website and software, by checking
 /. translation of cFosSpeed's into your language.
 /. Look here for your locale https://github.com/cFos/l10n/blob/master/locales.software/
 /. and then search for key `favor_ping`
+sp_doc_games_t2 = "Auxiliar de ping";
 sp_doc_games_p10 = "Além disso, você também pode usar as configurações no menu de contexto ou janela de status para ativar Favor Ping. A seta verde irá aparecer na janela de status. Esta configuração terá cFos ou cFosSpeed fazer de tudo para manter tempos de ping a um mínimo, mas à custa da velocidade de transferência, que pode diminuir consideravelmente.";
+
 sp_doc_games_t3 = "Jogando durante a transferência:";
 sp_doc_games_p11 = "Se você estiver jogando um jogo on-line sem Traffic Shaping e executar um upload ou download ao mesmo tempo, os tempos de ping para seu gameserver will rise. Menos tráfego de dados significa uma melhor (ou seja, inferiores) ping. Especialmente com programas de compartilhamento de arquivos e outros aplicativos que enviam grandes quantidades de dados, muitas vezes ping foguete, resultando em atraso sério. Isso também irá diminuir seu tempo de reação no jogo tremendamente.";
 sp_doc_games_p12 = "Traffic Shaping alivia este problema, permitindo compartilhamento de arquivos e downloads a correr em segundo plano durante os jogos. Isso ainda pode aumentar tempos de ping minimamente embora. Portanto, recomendamos que você mantenha Favor Ping ativado em tais ocasiões. Por padrão, os programas de compartilhamento de arquivos são ajustadas para prioridade muito baixa. Agora, isso não deve ser tomado para significar que são artificialmente retardado ou mesmo completamente paralisado. O que não significa, porém, é que tais dados serão brevemente atrasada quando os dados mais importantes, como o tráfego de jogos online tem de ser transmitida. Só este esquema prioridade torna possível ter programas de compartilhamento de arquivos funcionar a taxas de transferência máxima e ainda usando a mesma conexão para outros aplicativos ao mesmo tempo.";
+
 /: http://www.cfos.de/en/cfosspeed/documentation/index.htm
 /. Used as  section title
 sp_doc_index = "Programa de manejo";
+
 sp_doc_installation = "Instalação / Registro";
 sp_doc_install_title = "Instalação / Registro / Desinstalação";
 sp_doc_install_h1 = "Instalação";
@@ -1557,9 +1764,11 @@ sp_doc_led_p1 = "cFosSpeed pode usar os LEDs Num Lock e Scroll Lock para mostrar
 sp_doc_led_dd1 = "Bom = piscar lento, ruim = piscar rapido<br/>avisa quando o ping esta muito alto";
 sp_doc_led_dd2 = "pisca rapido quando pacotes são contados<br/>informa quando não há nenhum trafego de internnet";
 sp_doc_led_dd3 = "Pisca rapido qunado um pacote TX é priorizado<br/>uma das maneiras para indicar os efeitos do Traffic Shaping";
+
 /: http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm
 /. `total_rx_speed` and `total_tx_speed` shouldn't be translated, since those are actual values names
 sp_doc_led_dd4 = "maximo do total_rx_speed e total_tx_speed, 0-32%: desligado, 33-65%: piscada lenta, 66-98%: piscada rapida 99-100%: on<br/>informa você, e a outros usuarios quando um aplicativo usa muita largura de banda";
+
 sp_doc_led_dd5 = "piscar rápido sempre que a soma das mudanças conexões TCP e UDP<br/>você se mantem informado se alguma nova conexão é estabelecida";
 sp_doc_led_dd6 = "0-15ms: desligado, 16-127ms: piscada lenta, 128-511ms: piscada rapida, 512 or more: ligado<br/>informa as condições da linha (e.g. conecções moveis podem causar grrades variações de ping)";
 sp_doc_led_p2 = "Voçê pode esscolher os LEDs Num Lock e Scroll Lock  para mostrar qualquer um dos valores.";
@@ -1573,11 +1782,15 @@ sp_doc_logi_h1 = "Skins Logitech no YouTube";
 sp_doc_logi_h2 = "Detecção de teclado Logitech";
 sp_doc_logi_p3 = "Tanto cfosspeed.exe quanto Logitech Gaming Software são iniciados junto ao windows. Se o cFosSpeed for iniciado antes do Logitech Gaming Software o teclado não é detectado. Nesse caso você pode usar o \"detect\" opção no menu cFosSpeed ​​para os teclados da Logitech ou você pode modificar <em>c:\\ProgramData\\cFos\\cfosspeed\\global.ini</em>, seção [All] e insira <b>startup_delay=x</b> onde x é o número de segundos cFosSpeed ​​deve esperar antes de iniciar a janela de status.";
 sp_doc_p2p_t1 = "Traffic Shaping para compartilhamento de dados (P2P)";
+
 /. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p1 = "Graças a cFosSpeed Traffic Shaping, você pode finalmente usar a largura de banda total a montante (com o eMule, Kazaa ou BitTorrent, etc) e torná-lo disponível aos usuários FileNet outros - sem afectar outras aplicações da Internet.";
+
 sp_doc_p2p_t2 = "Os problemas com o software de compartilhamento de arquivos";
+
 /. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p2 = "Execução de programas de compartilhamento de arquivos (como o eMule, Kazaa ou BitTorrent) normalmente irá levar até mais, se não toda a largura do canal a montante, o que deixa a conexão propenso a tempos de ping alto. Não só esta comunicação filesharing dizer se será executado lentamente (pedidos de fonte pode ter uma faixa 1 ou 2 segundos ao invés de apenas alguns milissegundos), mas também vai sufocar outras aplicações da Internet para um rastreamento. Pela mesma razão, as taxas de download pode despencar, já que o TCP ACKs não estão sendo enviados em tempo. O navegador também irá tornar-se menos sensível ao surfing a rede.";
+
 sp_doc_p2p_p3 = "Uma solução popular oferecidas por programas de compartilhamento de arquivos muitos é colocar um limite artificial sobre a taxa de upload. ";
 sp_doc_p2p_p4 = "No entanto, se o seu simultaneamente façam o upload de correio, além de um carregamento de compartilhamento de arquivos, ambos irão competir por largura de banda de upstream disponível. O quanto de banda cada um desses uploads acabará por receber é deixado ao acaso, basicamente. Em alguns casos, isso pode até levar à cessação de todas as conexões TCP (conexão TCP fome).";
 sp_doc_p2p_t3 = "A solução: Traffic Shaping";
@@ -1585,31 +1798,42 @@ sp_doc_p2p_p5 = "O regime de prioridade integrado no CFOs e cFosSpeed (re) organ
 sp_doc_p2p_p6 = "Por exemplo, se você tiver um programa de compartilhamento de arquivos em execução em segundo plano quando a navegar na Net, só haverá uma desaceleração, em breve mínimo de tráfego P2P, enquanto uma nova página está sendo carregada. Da mesma forma, quando o envio de mais e-mails, as taxas de P2P upload brevemente poderá cair um pouco enquanto o e-mail está sendo transmitido. Uma vez que o email é enviado, todos os envios vai continuar a toda velocidade novamente. A única alternativa seria a de adiar envio do e-mail sempre ou artificialmente limitar a largura de banda de transferência para compartilhamento de alguma forma. Mas isso significaria também uma perda de largura de banda, mesmo quando nenhum outro aplicativo está usando a mesma conexão.";
 sp_doc_p2p_p7 = "cFosSpeed é, portanto, otimizado para uso com compartilhamento de arquivos (P2P) de software, permitindo que os usuários tenham um tal programa executado em segundo plano, sem perceber a sua actividade na Internet regular.";
 sp_doc_p2p_p8 = "Portanto, sugerimos a criação Kazaa etc upload ilimitado, enquanto que a desactivação do velocidade sentido opção, desde cFosSpeed já vai otimizar o tráfego de Internet de qualquer maneira.";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/p2p.htm
 /. it's referring to system tray icon and special skin for it.
 /. Note that particularly that string refers not to actual skin, but just used as title, to highlight that "there is icon skin for cFosSpeed"
 sp_doc_p2p_t4 = "Aparência do ícone";
 sp_doc_p2p_p9 = "Como a maioria dos usuários de seus programas de compartilhamento de arquivos funcionar 24 horas por dia, cFosSpeed vem com seu próprio ícone para a pele, tornando-o possível para manter o controle da conexão sem a necessidade de ter uma janela de status distinto e aberto em todos os momentos.";
+
 sp_doc_p2p_t5 = "Priorização:";
+
 /. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p10 = "Muito poucos usuários têm um PC reservada especificamente para o compartilhamento de arquivos via P2P e de tráfego (por exemplo, através do compartilhamento de conexão Internet) através de um computador principal diretamente ligado à Internet. Neste caso, o Layer-7 Protocol Detection integrado no CFOs e permite dar prioridade cFosSpeed das mais importantes redes P2P como BitTorrent, eDonkey 2000 (eMule, etc), Kazaa, Gnutella (2), Kademlia e Direct Connect.";
+
 sp_doc_p2p_t6 = "Priorizar programas:";
 sp_doc_p2p_p11 = "CFOs e cFosSpeed também permitem priorizar os programas por seu nome. Muitos dos programas mais importantes já foram incluídos no nosso programa de configuração lista. Esta forma de priorização é especialmente útil quando o Layer-7 detecção pode não reconhecer e atribuir os dados corretamente (como seria, por exemplo, ser o caso com o tráfego P2P encriptado).";
 sp_doc_performance = "Performace";
+
+/: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
 sp_doc_phone_skins_title = "Skins cFosSpeed ​​em seu telefone ou tablet";
 sp_doc_phone_skins_h1 = "Display com estatísticas de traffic shaping em seu telefone";
 sp_doc_phone_skins_p1 = "Começando com o cFosSpeed v9.05 build 2090 que ​​tem um servidor web incluido, você pode exibir a janela de status no seu telefone ou tablet, em vez de seu desktop. Isso é especialmente útil para aplicações em tela cheia, como jogos ou vídeos. Aqui está como configurá-lo:";
+
 /. While translating `\"Options/Settings\"` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_doc_phone_skins_l1 = "Va até \"Opções/Configurações\" no menu de contexto do cFosSpeed ​​e defina uma senha para servidor no pagina \"Preferências/Skins de Smartphone\". O servidor web requer autorização se você acessá-lo a partir de uma máquina remota ou em sua rede local.";
+
 sp_doc_phone_skins_l2 = "Abra o menu de contexto e escolha a primeira opção (<b>cFosSpeed vX.XX...</b>) para mostrar seus <b>endereços IP locais</b>.";
 sp_doc_phone_skins_l3 = "Abra o navegador do seu celular ou tablet e digite o seguinte endereço: <b>http://[seu IP]:1487/cfosspeed/skin.htm</b>. <b>[O seu endereço de IP]</b> é geralmente o primeiro endereço listado no passo 2, mas você pode experimentar todos os outros ou um de sua preferência, se o primeiro não funcionar.";
 sp_doc_phone_skins_l4 = "Agora preencha o diálogo de autenticação com \"<b>cfosspeed</b>\" como o nome de usuário e senha que você configurou em \"Preferências/Skins de Smartphone\" como senha.";
 sp_doc_phone_skins_a1 = "O seu endereço de IP no menu de contexto do cFosSpeed";
+
 /: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
 /. Title of one of pictures
 sp_doc_phone_skins_a2 = "Defina a senha de skins para acesso em seu smartphone";
+
 /.  Title of picture with demo of cFosSpeed Phone Skin
 sp_doc_phone_skins_a3 = "Foto do cFosSpeed Phone Skins funcionando";
+
 sp_doc_phone_skins_a4 = "cFosSpeed Phone Skins em um <a class=\"inline\" href=\"http://www.fairphone.com\"><b>Fairphone</b></a>";
 sp_doc_phone_skins_p2 = "<b>Nota</b>: Você precisa de um Windows 7 ou superior para usar o servidor de web embutido.";
 sp_doc_phone_skins_p3 = "<b>Nota</b>: Você também pode ver e priorizar suas conexões atuais a partir do seu smartphone ou tablete. Simplesmente abrindo o endereço http://<b>[Seu IP Local]</b>:1487/cfosspeed/console.htm em seu navegador. Essa janela funciona como se fosse iniciada pelo próprio cFosSpeed com sua janela de gráficos ou seu menu de contexto.";
@@ -1617,8 +1841,10 @@ sp_doc_prioliste = "Lista de prioridadede: ";
 sp_doc_priorliste_content = "Lista de dprogramas proritarios";
 sp_doc_prio_title = "Priorização de programas";
 sp_doc_prio_p1 = "<b>Hint</b>:<br />Priorização funcionará corretamente apenas se o mínimo de dados possível é dada alta prioridade. Dê programas que enviam grandes quantidades de dados de baixa prioridade.";
+
 /. `UNKNOWN` shouldn't be translated, since it's not translatable protocol name, used in our software
 sp_doc_prio_p2 = "Primeiro cFosSpeed ​​tenta detectar a camada &amp; do Protocolo para cada ligação. Se não for detectada (ou seja, o protocolo é desconhecido) ou a prioridade do protocolo detectado é \"normal\", em seguida, a detecção de programa é usado para determinar a prioridade.";
+
 sp_doc_prio_p3 = "Um caso especial é a detecção de fluxo HTTP. Se o protocolo HTTP é detectado, cFosSpeed ​​tenta detectar, se é um fluxo de vídeo ou de áudio. Este funciona da seguinte maneira:";
 sp_doc_prio_p4 = "Se o agente é um dos jogadores bem conhecidos ou tem a substring \"player \" no mesmo, cFosSpeed categoriza aa conecção como HTTP_STREAM_C or HTTP_STREAM_S. Caso contrário, se o tipo de conteúdo de áudio ou vídeo que categoriza a conexão como BSTREAM_C ou BSTREAM_S.As conexões BSTREAM_C / S são priorizados como \"normal \" para que a prioridade atual é determinada pela priorização programa.<br /> sso permite que você, por exemplo, em casos duvidosos, para priorizá-los de acordo com seu uso do programa.";
 sp_doc_prio_a1 = "Programas que já estão priorizados";
@@ -1637,11 +1863,11 @@ sp_doc_speedlist_h1 = "Provedores testados com <em>cFosSpeed</em>";
 sp_doc_speedlist_h2 = "Hardware testado com <em>cFosSpeed</em>";
 sp_doc_speedlist_a1 = "para a lista de modems DSL";
 sp_doc_speedlist_h3 = "DSL &amp; Modems a cabo";
-sp_doc_status_disable = "desativando janela de status cFosSpeed";
-sp_doc_status_h1 = "Tudo o que você precisa saber sobre a janela de status e Skins do cFosSpeed";
-sp_doc_status_p1 = "A janela de status do cFosSpeed exibe estatísticas importantes sobre a sua conexão com a Internet atual. Você deve escolher uma skin mais útil para você, por exemplo, as skins ícones que integram na barra de tarefas ou a skin análise de tráfego com estatísticas em tempo real sobre os seus tipos diferentes de conexões de tráfego.";
-sp_doc_status_p2 = "Por favor, votar em skins diferentes. Isso vai nos ajudar a projetar novas janelas de interface.";
-sp_doc_status = "cFosSpeed Janela de Status (Skins)";
+sp_doc_status_disable = "Desativando a janela de estado do cFosSpeed";
+sp_doc_status_h1 = "Tudo o que você precisa saber sobre a janela de estado e Skins (Peles) do cFosSpeed";
+sp_doc_status_p1 = "A janela de status do cFosSpeed exibe estatísticas importantes sobre a sua conexão com a Internet atual. Você deve escolher uma Pele mais útil para você, por exemplo, as peles em ícones que integram na barra de tarefas ou a pele de análise de tráfego com estatísticas em tempo real sobre os seus tipos diferentes de conexões de tráfego.";
+sp_doc_status_p2 = "Por favor, vote para as peles diferentes. Isso vai nos ajudar a projetar novas janelas de interface.";
+sp_doc_status = "cFosSpeed Janela de Status (Peles)";
 sp_doc_status_aquarium = "Aquarium Skin";
 sp_doc_status_aquarium_numeric = "Aquarium Skin (Numérica)";
 sp_doc_status_activated = "Slot Ativado";
@@ -1656,7 +1882,7 @@ sp_doc_status_choose = "Nas janelas de configurações do menu de contexto, voc�
 sp_doc_status_color_switch = "Selecione esquema de cores";
 sp_doc_status_colors = "verde=grande / amarelo=OK / vermelho=ruim";
 sp_doc_status_configuration = "Janela de configuração do slot";
-sp_doc_status_cps = "Taxa de download de CPS";
+sp_doc_status_cps = "Taxa de descarga de CPS";
 sp_doc_status_dad = "Vizualizador de taxa de download";
 sp_doc_status_deactivated = "Slot desativado";
 sp_doc_status_default = "Skin-padrão (grafico)";
@@ -1667,29 +1893,29 @@ sp_doc_status_dtr = "Taxa de transferência de download em %";
 sp_doc_status_favor = "Favorecer tempo de ping ligado/desligado (modo de baixa latencia)";
 sp_doc_status_files = "Os arquivos background_color(_l).tga (no mesmo diretório) pode ser modificado para suas necessidades, utilizando um programa gráfico adequado. A área transparente das imagens não deve ser mudado.";
 sp_doc_status_graph = "Grafico de ttaxa de transferencia em % para slots 1-10";
-sp_doc_status_history = "Skin Liquid Crystal History";
-sp_doc_status_hl = "Histórico de taxa de tranferênccia de upload (local) em %";
-sp_doc_status_hl_lc = "Taxa de trandferência de upload (local) em %";
+sp_doc_status_history = "Pele estilo Cristal liquido com historial";
+sp_doc_status_hl = "Histórico de taxa de transferência de carga (local) em %";
+sp_doc_status_hl_lc = "Taxa de transferência de carga (local) em %";
 sp_doc_status_horizontal = "As barras horizontais do gráfico mostram as taxa de tansferencia corrente para upload e download como porcentagem em relação ao máximo atingido para up-/download desde a última instalação ou calibração do cFosSpeed. As taxas de transferência totais e locais são referentes à sessão em uso do cFosSpeed no modo multi-utilizador. As taxas de transferência locais mostram apenas os valores do computador actual, as taxas de transferência totais mostram os valores dentro da rede local.";
-sp_doc_status_ht = "Histórico de taxa de tranferência de upload (total) em %";
-sp_doc_status_ht_lc = "Taxa de tranferencia de upload (total) em %";
-sp_doc_status_icon = "Skin Traffic Analysis Icon";
-sp_doc_status_insight = "Skin Traffic Analysis Insight";
+sp_doc_status_ht = "Histórico de taxa de transferência de carga (total) em %";
+sp_doc_status_ht_lc = "Taxa de transferência de carga (total) em %";
+sp_doc_status_icon = "Pele em forma de Ícone com analise de tráfico";
+sp_doc_status_insight = "Pele com analise de tráfico detalhado";
 sp_doc_status_ipv = "Distribuição das conexões - IPv4 (.) / IPv6 (:)";
 sp_doc_status_line = "linha";
-sp_doc_status_liquid = "Skin Liquid Crystal";
-sp_doc_status_local = "Histórico de tranferencia de download (local) taxa em %";
-sp_doc_status_local_lc = "Transferencia de download (local) taxa em %";
+sp_doc_status_liquid = "Pele no tema de Cristal Líquido";
+sp_doc_status_local = "Histórico de transferência de descarga (local) taxa em %";
+sp_doc_status_local_lc = "Transferência de descarga (local) taxa em %";
 sp_doc_status_locked = "Baixa latência bloqueada (= sempre ligado)";
-sp_doc_status_low = "Troca para o modo de baixa latencia";
+sp_doc_status_low = "Troca para o modo de baixa latência";
 sp_doc_status_matrix = "O arquivo matrix.tga (no mesmo diretorio) pode ser modificado para as suas necessidades, utilizando um programa de gráficos adequado";
 sp_doc_status_maximum = "Para alcançar taxas de transferência máximas durante o download, o tempo de ping para cada download deve ser levantada brevemente.";
-sp_doc_status_metro = "Metro Skin";
+sp_doc_status_metro = "Pele no estilo Metro";
 sp_doc_status_nd = "Vizualizador Numerico";
 sp_doc_status_net_talk = "Skin Traffic Analysis Net Talk Icon";
 sp_doc_status_net_talk_text = "Em vez de exibir os slots de 1-10, esta skin mostra o upload e download local mostrando as taxas de transferência em verde brilhante e laranja e as taxas totais (dentro de sua rede local) em verde mais escuro e laranja..";
 sp_doc_status_none = "0=nenhum / 1=um / 2=dois a cinco / 3=acima de cinco";
-sp_doc_status_number = "Numero de conecções TCP/UDP";
+sp_doc_status_number = "Número de conexões TCP/UDP";
 sp_doc_status_number2 = "Numero de conecções TCP/UDP/TCP+UDP (comutável)";
 sp_doc_status_numerical = "Skin Aquarium Numerical";
 sp_doc_status_off = "sempre ligado / sem movimento = desligado";
@@ -1697,67 +1923,75 @@ sp_doc_status_on = "atualmente em (se necessário) /";
 sp_doc_status_only = "Mostrar graficos somente para os slots 9 e 10";
 sp_doc_status_opaque = "O fundo transparente da janela de status pode ser substituído por um que seja opaco, aplicando (no Windows Vista e Windows 7 com direitos de administrador) as seguintes alterações no net.ini arquivo no diretório [diretório de instalação cFosSpeed​​] \\ liquid_crystal_skin";
 sp_doc_status_opaque_lch = "O fundo transparente da janela de status pode ser substituído por um que seja opaco, aplicando (no Windows Vista e Windows 7 com direitos de administrador) as seguintes alterações no net.ini arquivo no diretório [diretório de instalação cFosSpeed​​] \\ lc_history_skin";
-sp_doc_status_open = "Abrir diretório de conecções atuais";
-sp_doc_status_own = "Como fazer sua própria skin";
+sp_doc_status_open = "Abrir diretório de conexões atuais";
+sp_doc_status_own = "Como fazer sua própria pele ou tema";
 sp_doc_status_packet = "Pacotes priorizados pelo Traffic Shaping";
 sp_doc_status_ping = "Tempo de ping em ms";
 sp_doc_status_pingtimes = "Tempo de ping grafico/numerico";
 sp_doc_status_prioritized = "Tempo de ping em pacotes priorizados com vizualizador ligado [ms]";
-sp_doc_status_rate = "Taxa de upload de CPS";
-sp_doc_status_rate_skin = "Avalie essa skin";
+sp_doc_status_rate = "Taxa de carga em CPS";
+sp_doc_status_rate_skin = "Avalie essa pele ou tema";
 sp_doc_status_rename = "A configuração de slots de 1-10 (como parte das configurações cFosSpeed​​) pode ser acessado clicando no botão Abrir slot de configurações da skin ou use as opções de configurações de entrada do menu do ícone systray. Cada slot pode ser configurado e renomeado individualmente.";
 sp_doc_status_shape = "Nível do Grafico";
 sp_doc_status_shinnher = "Esta skin compacto foi desenhado por um usuário cFosSpeed​​, que modificou apenas o de Liquid Crystal.<br /> Você pode baixar a pele de nossa Homepage";
 sp_doc_status_show = "Mostrar graficos para todos os slots";
-sp_doc_status_skin = "Skin Traffic Analysis";
+sp_doc_status_skin = "Pele de análise de tráfico";
 sp_doc_status_slot = "O gráfico do slot mostra as taxas de transferência actuais como porcentagem do máximo atingido desde a última calibração ou instalação do cFosSpeed.";
 sp_doc_status_slots = "Os slots";
 sp_doc_status_standard = "A skin padrão foi criado para controlar o fluxo de dados graficamente.";
 sp_doc_status_states = "Você pode trocar rapidamente entre os 3 estados da Skin e apontar vizualizadores diferentes. A posição do botão está na média da pele (ver a figura).";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis.htm
 /: http://www.cfos.de/en/cfosspeed/documentation/status.htm
 /. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_switch = "Troque para a versão normal e grande da skin";
-sp_doc_status_switch2 = "Troque: Skin grande > Skin normal > Icone";
+sp_doc_status_switch2 = "Troque: Pele grande > pele normal > Ícone";
 sp_doc_status_switching = "Troque rapidamente entre as vizualizações graficas e numericas  das skins padrões:";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
 /. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_systray = "Skin Traffic Analysis Icon na Windows Systray";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
 /. Used as alternative text for clickable icon-buttons in sidebar at mentioned above and on similar pages
 /. You won't see it, since it displayed only if browser can't download images
 sp_doc_status_thumb_down = "Gostei";
 sp_doc_status_thumb_up = "Não Gostei";
+
 sp_doc_status_times = "Tempos de ping são representados por ondas verdes, amarelas ou vermelhas na exibição gráfica da skin. Tempos de ping reais dependen, em parte significativa do número de tranferências simultâneas. Se esse número é grande, provavelmente a lantência tambem será.";
 sp_doc_status_toggle = "Ao clicar nos botões correspondentes, é possível alternar entre a exibição gráfica e numérica da skin.";
-sp_doc_status_total = "Histórico de tranferênca de download (total) taxa em %";
-sp_doc_status_total_lc = "Tranferênia de download (total) taxa em %";
+sp_doc_status_total = "Histórico de transferência de descarga (total) taxa em %";
+sp_doc_status_total_lc = "Transferência de download (total) taxa em %";
 sp_doc_status_transfer = "Taxa de tranferência em %";
 sp_doc_status_transparent = "O fundo transparente da janela de status pode ser substituído por um que seja opaco, aplicando (no Windows Vista e Windows 7 com direitos de administrador) as seguintes alterações no net.ini arquivos e net_l.ini no diretório [diretório de instalação cFosSpeed​​] \\ traffic_analysis_skin:";
 sp_doc_status_tr_insight = "O fundo transparente da janela de status pode ser substituído por um que seja opaco, aplicando (no Windows Vista e Windows 7 com direitos de administrador) as seguintes alterações na rede arquivos (_n). Ini e líquido (_n) _l.ini no diretório [cFosSpeed ​​diretório de instalação] \\ ta_insight_skin:";
-sp_doc_status_tutorial = "Mais informaçoes sobre como criar suas próprias peles podem ser encontrados em nosso <a class=\"inline\" href=\"/en/skin/skin.htm\">tutorial de design de skins</a>";
+sp_doc_status_tutorial = "Mais informações sobre como criar suas próprias peles podem ser vistas no nosso <a class=\"inline\" href=\"/en/skin/skin.htm\">tutorial de design de peles</a>";
 sp_doc_status_tx_shape = "Indicador de shaping de TX";
 sp_doc_status_upload = "Vizualizador de atividade de upload";
 sp_doc_status_upstream = "Regular pacote de dados upstream";
-sp_doc_status_user = "Skin do usuario";
+sp_doc_status_user = "Pele ou tema do usuário";
 sp_doc_status_utr = "Taxa de tranferência de upload em %";
 sp_doc_status_variance = "Variação de tempo de ping";
 sp_doc_status_vertical = "Os gráficos de barras horizontais para upload e download que mostram a transferência atual em porcentagem do máximo atingido na taxa de transferência de up-/download desde a última instalação ou calibração de cFosSpeed. As taxas de transferência total e local estão relacionadas à execução cFosSpeed ​​em modo multi-usuário. Local mostra as taxas de transferência para o computador atual, some o total de tráfego dentro da rede local.<br /><br />Os outros métodos de exibição são os mesmos que no skin Liquid Crystal History.";
 sp_doc_status_wave = "Vizualizador de tempo de ping em onda";
+
 /: http://www.cfos.de/en/cfosspeed/documentation/status-aquarium.htm
 /. Usead as starting word for explaining labels of cFosSpeed skins elements
 /= Switch: Transfer rate in %
 /= Switch: Number of TCP/UDP connections
 sp_doc_status_word = "Switch";
+
 sp_doc_surf_p1 = "Detecção HTTP integrado no CFOs e cFosSpeed serve para acelerar o tempo de carregamento da página, especialmente durante uploads simultâneos. A comparação dos tempos de carga para www.greenpeace.org www.amazon.com e está disponível em <a href=\"/en/traffic-shaping/traffic-shaping.htm\"> http://www.cfos.de/en/traffic-shaping/traffic-shaping.htm </a>. Aceleração ganhos são maiores quanto mais elementos individuais precisam ser carregados em uma página da web.";
 sp_doc_surf_p2 = "Se você estiver navegando um monte de páginas (sem downloads major), você pode querer usar as configurações no menu de contexto ou janela de status para ativar Favor Ping. A seta verde irá aparecer na janela de status. Esta configuração terá cFos ou cFosSpeed fazer de tudo para manter tempos de ping a um mínimo, mas à custa da velocidade de transferência, que pode diminuir consideravelmente. No entanto, dependendo da aplicação que está funcionando, isso pode acelerar o carregamento de páginas Web ainda mais.";
 sp_doc_surf_t1 = "Outros aplicativos interativos:";
 sp_doc_surf_p3 = "Ambos os CFOs e cFosSpeed vêm com detecção integrada para as principais aplicações interativas, como o SSL, SSH, Telnet, IRC, e muitos outros. Isso garante os tempos de resposta baixos, mesmo durante longos uploads e downloads.";
 sp_doc_surf_p4 = "Caso não o regime de prioridade padrão ao abrigo do Protocolo Definições ser suficiente para seus propósitos, você sempre pode priorizar qualquer aplicativo pelo nome em Configurações de Programas ou adicionar a sua porta manualmente para as regras de filtragem. Isto é especialmente recomendável quando executar um servidor.";
 sp_doc_surf_p5 = "Se as portas são conhecidas, você pode priorizar a sua transferência de dados da seguinte forma (editando o [filter] do arquivo settings.ini):";
+
 /. Part after colon shouldn't be translated, since it's code from configuration file
 sp_doc_surf_p6 = "Para portas TCP:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high<br />; source port=5678<br />filter=-tcp-sport 5678 -c high";
 sp_doc_surf_p7 = "<br />Para portas UDP:<br />[filtros]<br />; porta dest=1234<br />filtro=-udp-dport 1234 -c high<br />; source port=5678<br />filter=-udp-sport 5678 -c Alto";
+
 sp_doc_surf_t2 = "Surfing e compartilhamento de arquivos (P2P):";
 sp_doc_surf_p8 = "Por padrão, os programas de compartilhamento de arquivos são ajustadas para prioridade muito baixa. Agora, isso não deve ser tomado para significar que são artificialmente retardado ou mesmo completamente paralisado. O que não significa, porém, é que tais dados serão brevemente atrasada quando os dados mais importantes estão sendo transmitidos. Só este esquema prioridade torna possível ter programas de compartilhamento de arquivos funcionar a taxas de transferência máxima e ainda usando a mesma conexão para outros aplicativos (como navegar na Web), ao mesmo tempo.";
 sp_doc_voip_p1 = "Não só a latência mínima é absolutamente essencial para Voice-over-IP, é o fator mais importante na melhoria da qualidade de voz.";
@@ -1768,8 +2002,6 @@ sp_doc_voip_t1 = "Desistentes Durante Download:";
 sp_doc_voip_p5 = "Ligações VoIP geralmente sofrem de abandono quando os downloads são executar simultaneamente a toda a velocidade. Graças à sua RX integrada a modelagem, CFOs e cFosSpeed ajudar a evitar esse problema, mantendo tempos de ping consistentemente baixa.";
 sp_doc_voip_p6 = "O Skype utiliza um protocolo proprietário criptografado que não possa ser detectada por uma camada-7 análise sem esforço considerável. Para permitir que usuários do Skype para priorizar, no entanto, temos que entrou na nossa lista de programa.";
 sp_doc_voip_t3 = "VoIP via priorização de roteamento:";
-/. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
-/. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
 sp_doc_voip_t4 = "VoIP em uso com cFosSpeed";
 sp_doc_voip_t5 = "Medidas com IxChariot";
 sp_doc_voip_p8 = "Nós testamos nosso software usando IxChariot (uma rede de ferramenta de testes de desempenho fornecidos pelo Ixia) para avaliar os benefícios do cFosSpeed Traffic Shaping. Para este propósito nós monitorados os parâmetros de VoIP com IxChariot durante a execução de uploads múltiplos.";
@@ -1794,9 +2026,14 @@ sp_doc_wlan_h1 = "Solução de problemas usando atribuição de endereço IP rá
 sp_doc_wlan_p6a = "Quando o PC é usado como um ponto de acesso Wi-Fi, ele também usa o compartilhamento de conexão Internet e, normalmente, atribui o endereço IP via DHCP ao seu dispositivo móvel. Durante a negociação de endereço com o DHCP, possíveis endereços IP são verificados por meio de requisições ARP para que não haja duplicatas.";
 sp_doc_wlan_p6b = "Essa verificação de endereço pode levar muito tempo em alguns dispositivos, e então atingir o tempo limite e não consegue obter o endereço IP. Adicionamos uma solução alternativa para esses dispositivos. Para ativá-la você precisa usar o seguinte comando no console:";
 sp_doc_wlan_p6c = "Isso faz com que cFosSpeed interfira com a negociação do DHCP e envie a atribuição de endereço IP o mais rápido possível.";
+
+/. "Check with" meaning "Use the following action to check the result"
+
 sp_news_t = "Últimas notícias sobre cFosSpeed";
+
 /. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_news_p1 = "cFosSpeed ​​verifica a cada 2 dias, se não há notícia do programa. Se houver, ele exibe o símbolo de correio na janela de status e abre esta página quando clicado. Esse recurso é ativado por padrão. Se você não está interessado em notícias programa, você pode desligá-lo no menu de contexto em \"Options\".";
+
 sp_news_p2 = "Iremos postar notícias apenas algumas vezes por ano.";
 sp_news_h0 = "Noticias cFosSpeed";
 sp_news_h1 = "Politica de noticias cFosSpeed";
@@ -1859,11 +2096,20 @@ word_updates = "Atualizações";
 word_prices = "Preços";
 word_delivery = "Entrega";
 
-/ PNet additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFos PNet additional pages
+/
+/ ----------------------------------------------------------------------
+
 cfospnet_doc_page_title = "Documentação do cFos Personal Net";
 
+/ ----------------------------------------------------------------------
+/
+/  cFos IPv6 Link additional pages
+/
+/ ----------------------------------------------------------------------
 
-/ IPv6 Link additional pages
 six_doc_p1 = "Conectividade com a nova rede IPv6";
 six_doc_p2 = "cFos IPv6 Link permite conexão dial-up com o IPv6 para o Windows 7, Windows Vista e XP.";
 six_doc_p3 = "Instalar Link cFos IPv6, configurar a conexão dial-up para seu provedor e pronto! Link cFos IPv6 não é só ligar para o IPv6 novo, mas também configura o roteamento e endereços de IP e DNS automaticamente.";
@@ -1943,14 +2189,21 @@ six_doc_134 = "Para as alterações tornarem-se efetivas, um 'reboot' pode ser n
 six_doc_135 = "mapeamento NAT46:";
 six_doc_136 = "O mapeamento NAT46 permite a você rodar as aplicações específicas IPv4 com destinação IPv6 ou serviços específicos IPv4, os quais são acessíveis a partir de IPv6. O Link cfos6 pode agora mapear o tráfego das aplicações específicas IPv4, para IPv6. Para tal, ele temporariamente se associa ao endereço IPv6 com um endereço temporário IPv4. Você pode especificar o valor comum do endereço IPv4, fazendo nat46_addr=x e nat46_subnet_mask=m na [param] secção de cfos6link.ini. Se uma aplicação IPv4 requisitar um nome via DNS (ie. um registro A), o Link cfos6 altera o requerimento em um registro de requerimento AAAA. Após haver recebido o correspondente endereço IPv6 ele aloca um temporário IPv4 para aquele IPv6 e retorna-o para a alicação IPv4. Não importando quando a aplicação IPv4 utilizar aquele endereço temporário, ele será mapeado para o endereço IPv6, para utilização com uma destinação IPv6. Por exemplo, você pode designar os seguintes endereços em comum, para mapeamento com endereços IPv4:";
 six_doc_138 = "Para conexões de entrada você pode também especificar uma porta de mapeamento, preenchendo a seção [nat46_ports] em cfos6link.ini com valores como este:";
+
 /. That string means that user have to place program's name instead of `some program` like `5000=skype`
 /. `some_program` part may be translated
 /: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
 six_doc_139 = "5000=nome_do_programa";
+
 six_doc_140 = "Então o tráfego de entrada IPv6 é mapeado para IPv4, não importando se a porta de destino é uma das portas mapeadas.";
 six_doc_141 = "Adicionalmente você poderá incluir mapeamentos  estáticos IPv4 e &lt;-&gt; IPv6 para os aplicativos que usam os endereços IPv4.Você poderá especificar estes mapeamentos ao preencher a seção  [nat46_static] com valores como &lt;ipv4_addr&gt;=&lt;ipv6_addr&gt;, por exemplo  192.168.2.1=2001:DB8::1";
 
-/ cFos BC additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFos Broadband Connect additional pages
+/
+/ ----------------------------------------------------------------------
+
 bc_doc_p1 = "A Conexão de Banda Larga cFos é um driver'Dial-Up'de alta performance para acessar a Internet com grande largura de banda. Enquanto o driver que vem com o Windows pode transferir somente até 4.5 Mbyte/s (= 36 Mbit/s), a conexão com Banda Larga cFos envia 50 Mbyte/s (= 400 Mbit/s).<br /><i>Testado com Gigabit LAN, Pentium 4 (3GHz).</i>";
 bc_doc_p2 = "A Conexão de Banda Larga cFos é designada para rendimento máximo sob condição de mínima carga da CPU. Isto deixa a potência de sua CPU livre para as atuais aplicações da Internet, como 'media players', etc. Na velocidade máxima, a Conexão de Banda Larga cFos Broadband necessita apenas de 3% do tempo da CPU.";
 bc_doc_p3 = "A Conexão de Banda Larga cFos suporta todos os parâmetros PPPoE importantes. Estes podem ser facilmente configurados com o número telefônico utilizado para a coxexão Dial-Up. Através de auto-detecção, A Conexão de Banda Larga cFos encontra todos os pontos de acesso à Internet conectados ao seu sistema.";
@@ -1974,7 +2227,12 @@ bc_param_in_service = "   in_service_name (vazio)     responde a chamadas soment
 bc_param_padr_timeout = "   padr_timeout 2000           'timeout' em mili segundos. Especifica por quanto tempo a Conexão de Banda Larga cFos deve esperar\n                               para PADR durante chamadas.";
 bc_param_max_frame = "   max_frame_size=x            máximo tamanho de 'frame'(MTU), default 1492";
 
-/ oem
+/ ----------------------------------------------------------------------
+/
+/  OEM
+/
+/ ----------------------------------------------------------------------
+
 oem_title = "versão OEM para ISPs e fabricantes de dispositivos";
 oem_t1 = "Nossos produtos OEM";
 oem_t2 = "Driver 'Dial-up' PPPoE de alta velocidade para Windows 7, Vista e XP";
@@ -1985,20 +2243,26 @@ oem_t3 = "Máxima largura de banda com mínimo 'ping' através de Conformação 
 oem_l4 = "Driver NDIS para Windows 7, Windows Vista, XP e 2000, x86 e x64";
 oem_l5 = "Traffic Shaping para as conexões existentes, de banda larga  &amp;e tradicionais";
 oem_l6 = "Conformação de Tráfego para roteadorese/ou modems DSL/cabo";
+
 /. Means "customizable status window with skins"
 /. or "brandable status window skin"
 oem_l7 = "Status de configuração de janela com 'skins'";
+
 oem_l8 = "Limites de tráfego, limites de velocidade";
 oem_t4 = "Driver 'Dial-Up' para ISDN e DSL, Conformação de Tráfego incluso";
 oem_l9 = "Driver porta COM para Windows 7, Vista, XP, 2000, x86 e x64, e sistemas de operacionais mais antigos como Windows 9x, ME";
 oem_l10 = "ISDN com CAPI 2.0 (CAPI2032.DLL ou kernel modo CAPI)";
+
 /. Channel bundling allows to use 2 ISDN channels as one for better bandwidth
 oem_l11 = "empacotamento de canais";
+
 oem_l12 = "detecção PPPoE 'On-the-Fly', não há necessidade de instalação de driver de rede";
 oem_l13 = "Para Window Vista, XP e 2000, x86 e x64, sistemas operacionais mais antigos sob pedido";
 oem_l14 = "Fácil integração com instaladores existentes";
+
 /. fees = licensing costs
 oem_t5 = "Condições de licenciamento e taxas";
+
 oem_l15 = "Taxas são baseadas no número delicenças requeridas";
 oem_l16 = "Embarque mínimo: 1.000 licenças";
 oem_l17 = "Faturamento por preço fixo pré estabeleçido ou com base no número atual de licenças utilizadas";
@@ -2007,7 +2271,12 @@ oem_t7 = "Nossas licenças de contrato standard OEM em alemão e inglês";
 oem_t8 = "Contato:";
 oem_t9 = "parceiros OEM";
 
-/ asus
+/ ----------------------------------------------------------------------
+/
+/  ASUS
+/
+/ ----------------------------------------------------------------------
+
 asus_p1 = "Como cliente de certas placas mãe ASUS, você tem o direito de utilizar e se beneficiar do ASUS ROG GameFirst I&amp;II / Turbo LAN!  Esta é uma completa solução ilimitada para Formação de Tráfego proporcionada por cFosSpeed. Nós esperamos que você aproveite o aumento de velocidade com seu ASUS ROG GameFirst I&amp;II / Turbo LAN!";
 asus_p2 = "Para opções de ajustes finos adicionais, também está disponível a mais recente versão profissional cFosSpeed.";
 asus_a1 = "Você pode <a class=\"inline\" href=\"/en/download/download.htm\"><img src=\"sp_link_bottom_right.png\" largura=\"9\" altura=\"11\" borda=\"0\" alt=\"\" />efetue o download cFosSpeed aqui</a>.";
@@ -2020,13 +2289,26 @@ asus_af_l4 = "<b>Análise de tráfego em tempo real</b>na janela de status.";
 asus_af_l5 = "<b>Opções de ajustes finos</b>: Seleção de conexão intermediária, RX &amp; limites de velocidade TX, DSCP / Etiquetagem VLAN / filtragem.";
 asus_af_l6 = "<b>funcionalidade adicional</b>: 'Auto-hide' em tela total (Modo de jogo), Firewall, volume &amp; contadores de tempo online, listas de filtros IP / listas de bloqueio.";
 
-/ asrock
+/ ----------------------------------------------------------------------
+/
+/  ASRock
+/
+/ ----------------------------------------------------------------------
+
 asrock_p1 = "Como cliente de certas placas mãe ASRock, você tem o direito de utilizar e se beneficiar do ASRock XFast LAN.  Esta é uma completa solução ilimitada para Formação de Tráfego proporcionada por cFosSpeed. Nós esperamos que você aproveite o aumento de velocidade com seu ASRock XFast LAN.";
 asrock_p2 = "Para as mais novas funcionalidades também há a mais recente versão disponível do cFosSpeed Professional.";
 asrock_p3 = "Se você instalar esta versão do cFosSpeed, você terá um período de testes de 30 dias. Depois desse prazo você pode ou comprar uma licença vitalícia do cFosSpeed ou desinstalar o cFosSpeed e instalar o ASRock XFAST/LAN novamente. Donos de uma licença vitalícia do cFosSpeed sempre possuem acesso imediato às funcionalidades mais novas do cFosSpeed, bem como acesso a versões Beta/Pré-Lançamento.";
 
-/ special price
+/ ----------------------------------------------------------------------
+/
+/  Special price
+/
+/ ----------------------------------------------------------------------
+
+/. Means "Go back" or "Return"
+/. Used as text of link, which takes user back to previous page
 back = "Atras";
+
 explain1 = "Nos estamos oferecendo agora nosso cFos e cFosSpeed com um desconto muito especial num esforço para aumentar a disseminação e consciência de nossa tecnologia de Traffic Shapping.";
 explain2 = "Receberá uma licença para ambas versões 32 e 64 bits.";
 explain4 = "Para o cFosSpeed,também se incluirão futuras versões para o Windows Vista/7.";
@@ -2040,7 +2322,12 @@ special_price_h2 = "Até o 31 de janeiro :";
 special_price_h3 = "Desde o dia 1 de fevereiro:";
 special_price_h4 = "Para todas as licenças:";
 
-/ contact
+/ ----------------------------------------------------------------------
+/
+/  Contact
+/
+/ ----------------------------------------------------------------------
+
 affiliate_program = "Programa de Afiliados";
 affiliate_earnmoney = "Ganhar dinheiro com cFosSpeed?";
 affiliate_placelink = "Coloque um link especial de compra no seu website e ganhe uma porcentagem dos lucros da venda";
@@ -2201,7 +2488,12 @@ cont_select_h4 = "Você tem uma pergunta diferente";
 cont_trademark = "cFos® é uma marca registrada.";
 word_mandatory = "mandatório";
 
-/ link_programm
+/ ----------------------------------------------------------------------
+/
+/  link_programm
+/
+/ ----------------------------------------------------------------------
+
 banner_alt = "Aceleração cFos/cFosSpeed dos modems DSL e cabos de banda larga com Traffic Shapping, Tuning e tempos ótimos de ping";
 internet_tuning = " Tuning da Internet";
 for_techniques = "Para DSL, Router &#38; e cable modems";
@@ -2215,7 +2507,12 @@ word_logo = "logo";
 word_background = "Fundo";
 text_it_works = "Funciona!";
 
-/ press
+/ ----------------------------------------------------------------------
+/
+/  Press
+/
+/ ----------------------------------------------------------------------
+
 press = "comunicados de imprensa";
 release = "Comunicado de imprensa";
 supported_operating_systems = "Sistemas Operacionais Suportados";
@@ -2229,7 +2526,12 @@ press_boilerplate_text = "cFos Software GmbH, Bonn (Alemanha) está desenvolvend
 legal_note = "Nota Legal";
 legal_note_text = "Nossas condições de licensiamento permitem explicitamente disponibilizar nossas mais recentes versões de testes do cFos, cFos Broadband Connect, cFos IPv6 Link e cFosSpeed em CDs gratuitos incluídos em revistas. Para mais questões de licensiamento, por favor, consulte o nosso arquivo <a href=\"/en/cfosspeed/license.htm\">LICENSE.TXT</a>. Tanto o texto quanto a arte o nosso website podem ser usados para propósitos de imprensa e análise.";
 
-/ speed guide
+/ ----------------------------------------------------------------------
+/
+/  cFos Speed Guide
+/
+/ ----------------------------------------------------------------------
+
 speed_guide = "Guia de Velocidade cFos";
 speed_guide_const = "O Guia de Velocidade está em construção e estará disponível em breve.<br />";
 speed_guide_continue = "Continuar";
@@ -2295,8 +2597,10 @@ speed_guide_p11e = "Para uma velocidade maior de download:";
 speed_guide_q11 = "Isto ajudou?";
 speed_guide_p12a = "Há casos (raros) onde o RX shaping do cFosSpeed reduz a velocidade de download.<br/>Tente o seguinte no <b class=\"speed_console\">Console cFosSpeed</b>:";
 speed_guide_p12b = "Há tambem casos (raros) onde a perda de pacotes da sua conexão confunde o Traffic Shapping do cFosSpeed.<br/> Tente o seguinte no <b class=\"speed_console\">Console cFosSpeed</b>:";
+
 /. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p13a = "Às vezes as medições de velocidade variam ao longo do tempo porque sempre há uma quantidade muito grande conexões e muito tráfego UDP. Isso pode acontecer em alguns casos com torrents. A calibração funciona corretamente, mas depois de algum tempo a conexão fica mais e mais lenta.";
+
 speed_guide_p13b = "Somente nesses casos você deve configurar a velocidade como fixa:";
 speed_guide_l13a = "Obtenha os valores atuais usando o <b class=\"speed_console\">Console cFosSpeed</b>:";
 speed_guide_l13b = "Agora escolha um valor entre esses dois números e use 90% a 98% dele (<span class=\"txspeed_new\">510715</span> neste exemplo).<br />Configure ele com";
@@ -2307,8 +2611,10 @@ speed_guide_q14 = "Modo de Baixa Latência ativo?";
 speed_guide_a14 = "Tente ligá-lo:";
 speed_guide_p15 = "Talvez os tempos de ping altos sejam causados pelo servidor na outra ponta da conexão. Isso frequentemente ocorre com servidores de jogos. cFosSpeed não pode reduzir o seu ping abaixo do mínimo que é determinado pela sua conexão e/ou por seu provedor. Sempre que você usar várias conexões simultâneas, cFosSpeed pode reduzir o tempo de ping e priorizar o seu tráfego para que você tenha pings próximos ao mínimo enquanto ainda usando quase toda a sua banda disponível. Isso permite, por exemplo, uploads/downloads durante chamadas de voIP ou jogos online.";
 speed_guide_l15a = "Desinstalar cFosSpeed ou desabilitar o Traffic Shaping";
+
 /. `try both` here refers to `speed_guide_l15a` language key, which suggests to `Uninstall cFosSpeed or disable Traffic Shaping`
 speed_guide_l15b = "Faça download do <a target=\"_blank\" href=\"http://www.cfos.de/en/download/download.htm#hrping\">hrping</a> e - sem nenhum outro tráfego na sua conexão - tente ambos";
+
 speed_guide_q15 = "O seu tempo de ping ainda está alto?";
 speed_guide_a15 = "Dica: para conexões DSL utilize fastpath. WLAN tipicamente tem tempos de ping mais altos do que redes a cabo. Internet m´vel pode causar um atraso adicional devido a más condições de transferência ou congestão no ponto de acesso.";
 speed_guide_p16 = "Há outro PC na rede que envia/recebe dados?";
@@ -2321,8 +2627,10 @@ speed_guide_q18 = "O tempo de ping está melhor agora?";
 speed_guide_p19 = "Algum equipamento interfere com transmissões TCP. Por exemplo, alguns drivers de adaptadores Atheros WLAN podem causar pings altos com download. Por favor, instale os drivers de rede mais recentes. Como um teste, use outro adaptador de rede e verifique se os tempos de ping ainda estão altos durante downloads.";
 speed_guide_q19 = "Novos drivers / outra placa de rede ajudaram?";
 speed_guide_p20a = "O seu cFosSpeed está configurado com velocidades fixas? Verifique isso digitando o seguinte no <b class=\"speed_console\">Console cFosSpeed</b>:";
+
 /. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p20b = "Deveria ser 0, exceto em caasos raros com muitas conexões de Torrents e algo tráfego UDP.";
+
 speed_guide_p20c = "Se a sua calibração de linha do cFosSpeed permanecer estável, você deveria configurá-lo em 0:";
 speed_guide_p20d = "ou usar valores menores para a velocidade fixa (tente reduzir a velocidade em passos de 1%).";
 speed_guide_h21 = "Priorização";
@@ -2363,7 +2671,12 @@ speed_guide_l26e = "Sugestões para gamers";
 speed_guide_l26f = "Priorizando programas";
 speed_guide_l26g = "Priorizando portas";
 
-/ speed test
+/ ----------------------------------------------------------------------
+/
+/  cFos Speed Test
+/
+/ ----------------------------------------------------------------------
+
 speed_test = "Teste de Velocidade cFos";
 sptest_info_p1 = "Com o nosso novo verificador de velocidade, você pode rapidamente testar a velocidade de sua conexão à internet. Você pode realizar testes de upload e download para verificar se sua velocidade de conexão se iguala à velocidade contratada. O teste de velocidade tem por objetivo medir a largura de banda disponível tão rápido quanto possível. Não se preocupe se o teste não apresentar os exatos valores que seu provedor lhe vendeu. Por exemplo, se você tiver uma conexão de banda larga de 16Mbit/s, 1% de tolerância já é 160.000 bit/sec, o que aparenta ser impressionante, mas não faz grande diferença.";
 sptest_info_p1_sm = "Com o nosso novo verificador de velocidade, você pode rapidamente testar a velocidade de sua conexão à internet. Você pode realizar testes de upload e download para verificar se sua velocidade de conexão se iguala à velocidade contratada.";
@@ -2385,7 +2698,12 @@ sptest_send = "Enviar relato";
 sptest_cancel = "Cancelar";
 sptest_bot_p1 = "A otimização de MSS (MTU) do cFosSpeed pode reduzir seu MSS/MTU de 1492 para um valor um pouco menor. Com redes DSL baseadas em ATM, isto pode gerar uma maior taxa de transfência, mesmo que algumas páginas de \"testes de velocidade\" digam o contrário. Porém, a otimização de MSS (MTU) pode interferir com alguns jogos, então é melhor que você faça a verificação de velocidade com e sem a otimização MSS (MTU).";
 
-/upload
+/ ----------------------------------------------------------------------
+/
+/  Upload
+/
+/ ----------------------------------------------------------------------
+
 upload_title = "cFos Página de Upload";
 upload_h1 = "Upload de arquivo";
 upload_thanks = "Obrigado por ajudar a melhorar nossos produtos.";
@@ -2393,7 +2711,12 @@ upload_p1 = "Certifique-se de que está usando uma <a class=\"inline\" href=\"/e
 upload_p2 = "Entenda que não podemos responder à cada upload individualmente, mas certamente iremos revisá-lo, e entraremos em contato se precisarmos de mais informações.";
 description = "Descrição";
 
-/videos
+/ ----------------------------------------------------------------------
+/
+/  Videos
+/
+/ ----------------------------------------------------------------------
+
 videos_h1 = "Vídeos no YouTube";
 videos_text1 = "Como ajustar o Tipo/Protocolo da sua conexão de Internet";
 videos_text2 = "cFos WMI Monitor, uma extensão cFos PNet";
@@ -2413,7 +2736,19 @@ videos_text15 = "cFosSpeed ​​com o teclado Logitech G15 Gaming G19";
 videos_text16 = "cFosSpeed ​​6.50 Instalação em Windows 7 32bit";
 videos_text17 = "cFosSpeed ​​Versão 5.00 - Instalação no Windows 7";
 
-/meta descriptions
+/ ----------------------------------------------------------------------
+/
+/  Port forwarding
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  Meta descriptions
+/
+/ ----------------------------------------------------------------------
+
 missing_meta_desc = "descrição meta ausente";
 asrock_index_desc = "Info adicional para usuários do AsRock XFast LAN.";
 asus_asus_desc = "Info adicional para usuários do ASUS Game!First.";
@@ -2499,7 +2834,7 @@ cfosspeed_rwin_desc = "Benefícios da ativação 'Automatic RWIN expansion'";
 cfosspeed_whats_new_desc = "Descubra o que há de novo no cFosSpeed. Lista com todas as novas funções, melhorias e correções de bugs.";
 cfosspeed_what_is_cfosspeed_desc = "O que é cFosSpeed? Aqui você encontra a descrição do produto.";
 cfosspeed_uninstall_desc = "Página de desinstalação do cFosSpeed. Se possível, deixe um feedback sobre o motivo da desinstalação...";
-cfosspeed_expiration_desc = "O período de avaliação do cFosSpeed expirou. Aqui você encontra razões para comprá-lo agora.";
+cfosspeed_expiration_desc = "O período de avaliação do cFosSpeed expirou. Aqui você encontra as razões para comprá-lo agora.";
 cfosspeed_activation_failed_desc = "A ativação do cFosSpeed falhou. O que você pode fazer agora.";
 cfosspeed_technical_question_desc = "Contacte nossa equipe de suporte. Aqui você pode fazer perguntas técnicas sobre o cFosSpeed.";
 cfosspeed_documentation_cdm_desc = "descrição meta ausente";
@@ -2515,7 +2850,7 @@ cfosspeed_documentation_status_aquarium_desc = "Explicação de todos os element
 cfosspeed_documentation_status_aquarium_icon_desc = "Explicação de todos os elementos de exibição da skin cFosSpeed ​​Aquarium ícon.";
 cfosspeed_documentation_status_liquid_crystal_desc = "Explicação de todos os elementos de exibição na skin cFosSpeed ​​de Liquid Crystal";
 cfosspeed_documentation_status_liquid_crystal_history_desc = "Explicação de todos os elementos de exibição na skin cFosSpeed Liquid Crystal History skin";
-cfosspeed_documentation_status_metro_desc = "Explicação de todos os elementos de exibição na skin cFosSpeed ​​Metro.";
+cfosspeed_documentation_status_metro_desc = "Explicação de todos os elementos de exibição no tema do in cFosSpeed Metro.";
 cfosspeed_documentation_status_traffic_analysis_desc = "Explicação de todos os elementos de exibição na skin cFosSpeed ​​Traffic Analysis.";
 cfosspeed_documentation_status_traffic_analysis_icon_desc = "Explicação de todos os elementos de exibição na skin cFosSpeed ​​Traffic Analysis Icon skin.";
 cfosspeed_documentation_status_traffic_analysis_insight_desc = "Explicação de todos os elementos de exibição na skin cfosSpeed Traffic Analysis Insight skin.";
@@ -2525,8 +2860,10 @@ cfosspeed_documentation_no_ping_desc = "O que você pode fazer se o cFosSpeed n�
 cfosspeed_documentation_phone_skins_desc = "Como usar seu telefone celular ou tablet para indicação de status se o seu computador está em modo de tela cheia.";
 cfosspeed_documentation_prog_prio_desc = "Como o esquema de priorização funciona.";
 cfosspeed_documentation_keyboard_leds_desc = "Como usar os LEDs do teclado para indicação de status se o seu computador está em modo tela cheia.";
+
 /. `BitTorrent` — name of the protocol, not of the program
 cfosspeed_documentation_p2p_desc = "Como configurar o cFosSpeed para perfomance ideal com redes de compartilhamento P2P como BitTorrent, E2K, etc.";
+
 cfosspeed_documentation_logitech_keyboard_desc = "Como usar o display dos teclados Logitech Gamer para informações de status do cFosSpeed. G19, G15, G13, G510 e modelos compatíveis.";
 cfosspeed_documentation_wlan_access_point_desc = "Como usar cFosSpeed para transformar seu PC com Windows em um ponto de acesso WLAN para smartphones, tabletes e outros dispositivos.";
 beta_index_desc = "Baixe as versões beta mais recentes do cFosSpeed, cFos IPv6 Link, cFos Broadband Connect e cFos Professional.";
@@ -2542,10 +2879,20 @@ upload_desc = "Envie-nos arquivos de dumps, observações ou sugestões.";
 video_page_desc = "Lista de todos os vídeos do YouTube de cFos Software";
 cfosspeed_features_title = "Lista das funções mais importantes do cFosSpeed.";
 
-/mailing lists
+/ ----------------------------------------------------------------------
+/
+/  Mailing lists
+/
+/ ----------------------------------------------------------------------
+
 announce_list = "Lista de anúncios cFos";
 
-/ countrynames
+/ ----------------------------------------------------------------------
+/
+/  Countrynames
+/
+/ ----------------------------------------------------------------------
+
 countryname_bg = "Bulgária";
 countryname_br = "Brasil";
 countryname_by = "Belarus";
@@ -2582,10 +2929,46 @@ countryname_vn = "Vietnã";
 countryname_zh_hk = "Hong Kong";
 languagename_per = "Persa";
 
-/ no translation  -  currency info for order form exchange rates only - do not modify!
+/ ----------------------------------------------------------------------
+/
+/  Currency
+/
+/ ----------------------------------------------------------------------
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those strings used in Order Form exchange rates and shouldn't be modified
+/
+/ !!! DO NOT TRANSLATE !!!
+
+/. Code of native for current language currency according to European Central Bank
+/. Used to retrieve exchange rates from ECB, calculate and display prices in native currency on Order page
+/. Do not modify, unless you really know what you're doing
 currency_4217 = "BRL";
+
+/. Leading and subsequent (if needed any) currency symbol/code of specified in `currency_4217` currency
+/. Purely decorative
+/. String will be formed without any predefined spaces, like that:
+/= `~ currency_prefix{{value}}currency_suffix`
+/. So, don't forget to add space before suffix, or after prefix, if you need any, right inside language key
 currency_prefix = "R$";
 currency_suffix = "";
+
+/. Value of `Country` field in Order form
+/. In English always should be `Select your country`
+/. In other languages should contain name of the country _in English_, for which specified currency in `currency_4217`
 selected_value = "Brazil";
 
+/ END SECTION: do not translate
+
+/ ----------------------------------------------------------------------
+/
+/  Testing language keys
+/  Test purposes, !!! DO NOT TRANSLATE !!!
+/
+/ ----------------------------------------------------------------------
+
+
+/ END SECTION: do not translate
 
