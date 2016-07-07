@@ -3,13 +3,22 @@
 #fallback1 1033
 #charset 136
 
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
 language = "Traditional Chinese";
 lang_key = "_tw";
 input_lang = "zh-tw";
 
-/ test purposes, don't translate!
+/ ----------------------------------------------------------------------
+/
+/  Navigation
+/
+/ ----------------------------------------------------------------------
 
-/ navigation
 link_text_contact = "聯絡我們";
 link_text_impressum = "";
 link_text_download = "下載";
@@ -21,17 +30,31 @@ link_text_products = "產品";
 link_text_sitemap = "網站地圖";
 link_text_support = "技術支援";
 
-/ index2
+/ ----------------------------------------------------------------------
+/
+/  index2
+/
+/ ----------------------------------------------------------------------
+
 about = "關於 cFos Software";
 asrock_info = "給 <b>ASRock XFast LAN</b> 使用者的資訊";
 bc_linktext = "為高速網路設計的 cFos Broadband Connect";
 cfos6link_linktext = "cFos IPv6 Link";
 cfos_linktext = "為 ISDN 設計的 cFos/Professional";
+
+/. Means "Close current dialog window"
 close = "關閉";
+
+/. Cookies here means not actual crisp and tasty cookies, but web cookies.
+/. See for details: https://en.wikipedia.org/wiki/HTTP_cookie
+/. Check that wikipedia page in your language to find out best translation for your language
 cookie_bar_text = "我們會使用 Cookie 來為您客制網頁與廣告內容、提供社交網路媒體功能並分析我們的流量。我們也會分享您如何使用我們網站的方式給我們的社交媒體、廣告與流量分析夥伴。";
+
+/. Used as text of link, which leads to page with detailed explanations
+/. Depending on your language, you might drop `See` part
 cookie_bar_details = "了解更多資訊";
 
-/. Used as "I understand"
+/. Used as "I've understood"
 cookie_bar_got_it = "知道了";
 desc_6link = "為 XP、Vista 和 Windows 7 設計的 IPv6 連線程式";
 desc_dialup = "網路撥接";
@@ -53,8 +76,11 @@ worldcup_sale = "世界盃足球賽特價！"; / FIFA Soccer World Cup
 winter_sale = "冬季特價優惠！"; / New Years Sale for China
 winter_sale_ext = "延期至 1 月 28 日結束 - 感謝你的大力支援！";
 speed_linktext = "cFosSpeed";
+
+/. Mean text styles, like `light font` (thin), or `bold font` (strong)
 style_light = "精簡";
 style_strong = "強烈";
+
 style_untranslated = "強調未翻譯的文字";
 translation_settings = "翻譯設定";
 translation_text1 = "此頁面尚未被妥善翻譯！";
@@ -81,12 +107,33 @@ social_networks = "請在社群網路上支援我們。<br/>請在 Facebook 上�
 powered_by = "由 <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net Web Server</a> 提供";
 word_follow = "關注";
 cfosspeed_for_windows_10 = "支援 <b>Windows 10</b> 的 <b>cFosSpeed 10</b> 已經推出。";
-learn_more = "了解產品的更多資訊"; // Meaning "learn more about the product"
+
+/: http://www.cfos.de/en/index.htm
+/: http://www.cfos.de/en/download/download.htm
+/: http://www.cfos.de/en/cfosspeed/cfosspeed.htm
+/: http://www.cfos.de/en/cfosspeed/cfosspeed-feature-highlights.htm
+/. Used as label for button or text of link, which proposes to learn more about product or feature
+learn_more = "了解產品的更多資訊";
+
+/. Used as promo text in header of cfos.de
+/. Please, keep line feed (`<br/>` tag, which stands for line break) at approx middle of the text,
+/. preferred directly before the brand names
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> 是<br/>ASUS、GIGABYTE、ASRock、MSI 電競主機板的官方網路加速器";
 
-/ download
-additional_downloads = "其它的下載";
-add_lang_text = "cFosSpeed 的其他語系檔";
+/: https://www.cfos.de/ru/order/order.htm
+/. Used on a small label in corner of product's box image
+/. Try to keep string as narrow as possible. If phrase should be spanned on two lines
+/. (with `<br/>` tag in place of break), try to keep both lines of same length
+top_seller = "熱門<br/>產品";
+
+/ ----------------------------------------------------------------------
+/
+/  Download
+/
+/ ----------------------------------------------------------------------
+
+additional_downloads = "其它下載";
+add_lang_text = "cFosSpeed 其他語系檔案";
 alt_cfos6link_image = "cFos IPv6 Link";
 alt_cfosbc_image = "cFosBC 的圖片";
 alt_cfos_image = "cFos 的圖片";
@@ -131,6 +178,8 @@ sk_c64 = "cFos C64";
 sk_c64_text = "C64 風格的 cFos 面板（Markus Welz 製作）";
 sk_classic = "cFos Skin Classic";
 sk_classic_text = "cFos 經典面板";
+sk_dean = "Dean 的 Metro 面板";
+sk_dean_text = "為 Windows 10 修改的 Metro 面板（Dean 製作）";
 sk_froghut = "Froghut Title Bar 面板";
 sk_froghut_text = "Froghut 標題列面板（Björn v. d. Osten 製作）";
 sk_grant = "Grant 的面板";
@@ -170,6 +219,16 @@ sk_tutorial_text = "如何製作自己專屬的 cFos(Speed) 面板";
 sk_tga = "TGA 面板";
 sk_tga_text = "TGA 格式的 cFos(Speed) 面板封存 - 供舊版程式使用";
 speed_text = "藉由「流量塑型」功能更快地存取網際網路";
+start_download_h1 = "開始下載";
+
+/. Do not translate or change `<span id=\"countdown\">00:00</span>` part.
+/. But you can move it around as whole freely
+start_download_p1 = "將於 <span id=\"countdown\">00</span> 秒後開始下載。"; 
+
+/. Do not translate or change anything except `direct link` in <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direct link</b></a>` part.
+/. You can move it around as whole freely, though
+start_download_p2 = "若未自動開始下載，請使用 <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>此連結</b></a>。";
+
 submit = "傳送";
 transparent = "透明";
 updates = "更新";
@@ -184,7 +243,12 @@ twitter_follow_short = "關注 cFos Software";
 language_files = "語言檔";
 word_translation = "翻譯";
 
-/ order
+/ ----------------------------------------------------------------------
+/
+/  Order
+/
+/ ----------------------------------------------------------------------
+
 alt_logo = "cFos Software GmbH 商標";
 atm_price = "若需 ATM 版本請直接連絡我們";
 bank_de_account = "700-0111149-0304451";
@@ -198,10 +262,12 @@ by_phone = "技術支援、電話訂購";
 buy_at = "價格: ";
 buy_now = "立即購買";
 conf_cc = "以信用卡付款";
+
 /. Used before Credit Card number, like
 /= "Nr. 2661-4345-2456-1345"
 /. It should be replaced with preferred in your region format
 conf_cc_nr = "信用卡卡號:";
+
 conf_check_cc = "請檢查您的信用卡資訊";
 conf_check_order = "確認您的訂單";
 conf_deliverer = "您的地址";
@@ -302,10 +368,14 @@ f_land = "國家";
 f_license = "授權";
 f_mercado = "Mercado Pago";
 f_moneybookers_text = "請將款項匯至下列 Moneybookers 帳戶：";
+
 /. Paymenth method — "Cash on Delivery"
 /. See http://en.wikipedia.org/wiki/Cash_on_delivery
 f_nachname = "貨到付款";
+
+/. Says that certain payment method available within Germany only
 f_nachname_text = "限德國境內，需加 4 歐元郵資";
+
 f_name = "姓名";
 f_alipay_text = "請將款項送到下列支付寶帳戶：";
 f_optional = "可選";
@@ -411,7 +481,12 @@ word_service = "服務";
 word_submit_order = "送出訂購資料";
 word_year = "年";
 
-/ Order and Announcelist Confirmation Email
+/ ----------------------------------------------------------------------
+/
+/  Order and Announcelist Confirmation Email
+/
+/ ----------------------------------------------------------------------
+
 ann_subject = "感謝您訂閱 cFos 速報";
 ann_salut = "親愛的 cFos 使用者您好";
 ann_info = "您已經訂閱了 cFos 速報，我們每年將會發佈三到五次有關我們軟體的改版訊息。";
@@ -431,7 +506,12 @@ em_text = "我們會儘快處理您的訂購。";
 em_transfer_hint_cn = "您的訂購將於一個工作日內開始進入處理程序<br />接著我們並會寄送包含轉帳帳號及相關細節的第二封確認信件給您";
 em_webmoney = "到我們的 WebMoney 帳戶。";
 
-/ cFosSpeed
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
 a_bt = "cFosSpeed 與 torrents";
 a_games = "如何加速我的線上遊戲？";
 alt_ct_logo = "c't 商標";
@@ -455,6 +535,12 @@ dupe_a_voip = "良好的網路電話 (VoIP) 語音品質 (德語)";
 budgets = "上網流量限制";
 desc_cfosbc = "高效能高速寬頻網路撥號軟體 <b>cFosBC</b>";
 firewall = "防火牆";
+
+/: http://www.cfos.de/en/cfosspeed/cfosspeed.htm
+/. Used in sidebar of cFosSpeed page as promotion. Says that cFosSpeed keeps quite high number
+/. of "YES" and has numerous positive comments at Steam Greenlight
+greenlight_h1 ="<b><span style=\"color: #5B7399\">cFosSpeed 在</span> <a class=\"inline\" href=\"http://steamcommunity.com/sharedfiles/filedetails/comments/538515919\"><span style=\"color: #409a03\">Steam Greenlight 上的頁面</span></a></b><b style=\"color: #409a03\">有 82% 的人都說如果這款軟體於 Steam 推出的話，「會！」購買，並留下正面的留言</b>！";
+
 header_features = "功能";
 highlights = "特點";
 highlight1 = "cFosSpeed 可以防止任一套應用程式（例如寄信時）的上傳流量塞住網路，造成其他程式無法傳輸流量，例如電話、聊天等。";
@@ -509,12 +595,15 @@ prio_ports = "設定通訊埠優先權";
 prio_programs = "設定程式優先權";
 prio_protocols = "設定通訊協定優先權";
 related_product = "相關產品";
+
 /. Used in follwoing string:
 /= "Reviewed 4.5 / 5 stars by softpedia.com"
 review1 = "評鑑";
+
 /. Used in follwoing string:
 /= "Reviewed 4.5 / 5 stars by softpedia.com"
 review2 = "推薦人";
+
 rwin_expansion = "RWIN 放大";
 rwin_now = "現在搭配 RWIN 放大技術！";
 rwin_results = "看看驚人的效果！";
@@ -526,10 +615,16 @@ special_price = "優惠價";
 special_price_launch = "NT$499";
 word_more = "更多";
 
-/cFos Personal Net
+/ ----------------------------------------------------------------------
+/
+/  cFos Personal Net
+/
+/ ----------------------------------------------------------------------
+
 desc_pnet = "家庭使用者和專業人士的網頁伺服器";
 pnet_title = "家庭使用者和專業人士的網頁伺服器";
 desc_pnet_new = "儲存您的檔案並同步您的資料";
+desc_pnet_portable = "不用安裝軟體或使用第三方服務，即可分享檔案";
 pnet_video = "cFos Personal Net Web Server<br/>安裝和簡單的發布";
 pnet_li_text_feat1 = "您的 PC 上的即時網頁主機";
 pnet_li_text_feat2 = "在幾分鐘內就能輕鬆完成伺服器設定";
@@ -555,9 +650,27 @@ pnet_percent = " 50% 折扣。";
 pnet_release = "1.0 版發行";
 pnet_until = "在那之前購買終身授權，只需 ";
 pnet_after = "8 月 7 日後將調整為 ";
+pnet_nat_h1 = "設定 NAT 通訊埠轉遞";
+pnet_nat_p1 = "這裡有我們 <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>針對知名品牌路由器所撰寫的設定教學</b></a>。";
+pnet_nat_p2 = "<b class=\"green\">免費獲得 cFosSpeed 及 cFos Personal Net 授權！</b><br/>請幫助我們補完 <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>路由器設定指南</b></a>。撰寫如何在您的路由器設定 NAT 通訊埠轉遞功能的教學，即可獲得免費授權。";
+pnet_nat_p3 = "您的路由器已在清單中嗎？";
 pnet_wmi_add_p1 = "<a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI 監控程式</b></a> 是 cFos Personal Net 的免費附加元件，可以顯示您系統幾乎所有的 WMI 資料，例如：CPU 使用率、GPU 使用率、網路使用率、ping 時間…等等，可以在任何地方存取這些 WMI 資料。";
 pnet_wmi_add_p2 = "<b>cFos WMI 監控程式</b>可幫助遊戲玩家、重度使用者、音樂玩家…等等，在執行程式時監控系統裡不同元件的效能，<b>cFos WMI 監控程式</b>可在你的個人電腦或智慧型手機上的瀏覽器顯示這些資訊。";
 pnet_wmi_explain = "cFos WMI 監控程式是什麼？";
+pnet_portable_h1 = "只要兩步驟即可分享檔案";
+pnet_portable_p1 = "下載 cFos Personal Net 可攜版（cfospnet_portable.exe）並執行。";
+
+/. Don't translate the "Publish with..." part
+pnet_portable_p2 = "在 Windows 檔案總管，對想要分享的檔案按右鍵，選擇「Publish with cFos Personal Net (portable)」。";
+
+pnet_portable_h2 = "cFos Personal Net 可攜版的其他資訊";
+pnet_portable_p3 = "您的下載連結將複製至剪貼簿，這樣就可以貼到電子郵件或聊天軟體中。";
+
+/. Don't translate the "Publish" and "Upload..." parts
+pnet_portable_p4 = "您可能需要在路由器 <a class=\"inline\" href=\"/en/cfos-personal-net/documentation/router.htm\"><b>允許 NAT 通訊埠轉送</b></a>。您也可以允許別人上傳檔案，只要對工具列的 cFos Personal Net 圖示按右鍵，選擇「publish」、然後是「Upload link to clipboard」";
+
+pnet_portable_p5 = "cFos Personal Net 使用者將可在安裝資料夾找到 <em>cfospnet_portable.exe</em>，這樣就可以任意以完整伺服器版本或可攜版的方式執行。可攜版就可以使用 cFos Personal Net 大多數的功能。";
+pnet_portable_p6 = "<b>如何啟用您的授權金鑰</b>: cFos Personal Net 可攜版會在執行的資料夾中建立 <em>pub\\admin</em> 資料夾。請將您的授權金鑰移動至此 <em>pub\\admin</em> 資料夾。若您的授權金鑰使用時需要輸入密碼，請連絡我們更換一份不用密碼的版本。";
 pnet_doc_a1 = "總覽";
 pnet_doc_a2 = "基本安裝";
 pnet_doc_a3 = "其他組態";
@@ -569,6 +682,7 @@ pnet_doc_a8 = "功能參考";
 pnet_doc_a9 = "路由器/防火牆設定";
 pnet_doc_a10 = "WebDAV、CalDav 及 CardDav";
 pnet_doc_a11 = "UPnP 媒體伺服器";
+pnet_doc_a12 = "安裝腳本指令語言";
 pnet_wmi_title = "cFos WMI 監控程式，一套 cFos Personal Net 的附加元件";
 pnet_wmi_p1 = "在你的個人電腦或智慧型手機監控系統重要的 WMI 資料，<br/><a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net</a> 使用者的免費附加元件。";
 pnet_wmi_p2 = "cFos WMI 監控程式可以顯示您系統幾乎所有的 WMI 資料，例如：<b>CPU 使用率</b>、<b>GPU 使用率</b>、<b>網路使用率</b>、<b>ping 時間</b>…等等。<br/>在<b>任何地方</b>存取這些 WMI 資料。";
@@ -577,16 +691,22 @@ pnet_wmi_p3 = "下載並安裝 <a class=\"inline\" href=\"/en/download/download.
 pnet_wmi_p4 = "為避免其它人存取你的 WMI 資料，cFos WMI 監控程式會以 HTTP 認證的方式來確認是否為合法的使用者，因此你必需在 cFos PNet 裡設定使用者帳號，例如：<b>admin</b>。你可以重新執行設定或是新增一個使用者，例如以管理者帳號打開 <em>/users/index.htm</em> 並新增 wmi 這個使用者。";
 pnet_wmi_p5 = "為了有效發揮 cFos WMI 監控程式功能，我們建議安裝";
 pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>，我們的網際網路加速程式，它提供了 WMI 服務，並可以提供以下的 WMI 資料：";
+
 /. RX stands for `receive` (incoming/download)
 pnet_wmi_l1a = "總接收速度";
+
 /. TX stands for `transmit` (outgoing/upload)
 pnet_wmi_l1b = "總傳送速度";
+
 pnet_wmi_l1c = "ping 時間";
 pnet_wmi_l1d = "TCP/UDP 連線數目";
+
 /. Means `RX (`receive`/incoming/download) characters per second`
 pnet_wmi_l1e = "接收字元率";
+
 /. Means `TX (`transmit`/outgoing/upload) characters per second sent`
 pnet_wmi_l1f = "傳送字元率";
+
 pnet_wmi_l1g = "這些值和你目前的網際網路連線一致，<br/>Windows WMI 值和目前網路卡一致，不論是區域網路或網際網路，您可以在此顯示出現在 cFosSpeed 狀態視窗裡的所有資料。";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Open Hardware Monitor</b></a> 也內建 WMI 服務，可以顯示相當有用的硬體資料，像是";
 pnet_wmi_l2a = "CPU 使用率及溫度";
@@ -682,13 +802,18 @@ pnet_doc_stages_server = "HTTP GET 成功，但連線至另一個伺服器";
 pnet_doc_router_title = "讓 cFos Personal Net 可對外連結";
 pnet_doc_router_p1 = "現今的大多數網路使用者，不直接使用公開 IP。而是透過路由器將公開 IP 轉換為私人 IP 進行溝通。內部的使用者不論何時對外面發起連線後，路由器將會自動為公開與私人 IP 地址間進行轉換。但當使用者從外部發起連線時，路由器就不知道該「打電話」給誰了。";
 pnet_doc_router_p2 = "因此，您需要在路由器中為 cFos Personal Net 設定 NAT 連接埠轉送路徑。請到您路由器的設定畫面中尋找 NAT 設定、NAT 連接埠傳送、NAT 規則、或其他類似名稱的功能，然後新增規則，將通訊埠 80 對應到執行 cFos Personal Net 的電腦的通訊埠 80 的規則。（若使用 HTTPS 則尚需開啟通訊埠 443）。";
+pnet_doc_router_a1 = "可在 <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>此處</b></a> 找到一些知名品牌路由器 <b>開啟通訊埠轉遞功能的教學</b>。";
 pnet_doc_router_p3 = "您還需要檢查至 cFos Personal Net 的流量是否能通過防火牆。cFos Personal Net 會自動為您在 Windows 防火牆中開啟通訊埠 80，但無法在其他廠商的防火牆或防毒軟體中自動打開。有些路由器中也內建防火牆功能，請允許通訊埠 80（若使用 HTTPS 則還需要通訊埠 443） 當中的 TCP 流量通過。";
 pnet_doc_router_p4 = "假設您執行 cFos Personal Net 的電腦的本地 IP 地址是 <b>192.168.2.122</b>，那麼您就需要新增一條 NAT 規則，允許將通訊埠 80 的所有 TCP 流量傳送至 <b>192.168.2.122:80</b>。<br/><br/>您可以依照下列方式檢查 cFos Personal Net 是否可連線:";
 pnet_doc_router_l1 = "開啟您的瀏覽器並輸入 <b>http://localhost</b><br/>若您見到 cFos Personal Net 的網頁，就知道 cFos Personal Net 已可使用。";
 pnet_doc_router_l2 = "接下來試著在瀏覽器中輸入 <b>http://192.168.2.122</b>（您安裝 cFos Personal Net 的電腦的區網 IP），這樣做代表您正透過路由器開啟連線。若您見到 cFos Personal Net 的網頁，您就知道防火牆已允許 cFos Personal Net 的流量通過。";
 pnet_doc_router_l3 = "接下來請尋找您的公開 IP 地址（例如您可在 cfos.de 首頁的底部找到），並在瀏覽器中開啟該地址。舉例來說您可開啟 <b>http://217.23.123.7</b>。這樣可以測試您的路由器中的防火牆，以及 NAT 通訊埠轉送功能。若您沒有看到 cFos Personal Net 的頁面，請參考您路由器的說明文件，以設定 NAT 通訊埠轉送功能。";
 pnet_doc_script_p1 = "cFos Personal Net 支援透過 Common Gateway Interface (CGI) 或透過內建的 JavaScript 腳本（或任何支援 Windows Script Host 的語言，例如 ActivePerl、ActivePython 等等）執行的腳本。";
+
+/: http://www.cfos.de/en/cfos-personal-net/documentation/scripting.htm
+/. Do not translate variable names (`REMOTE_USER`, etc.)
 pnet_doc_script_p2 = "CGI 指定某些環境變數，其中包含有關目前 HTTP 請求的資訊。cFos PNet 在執行指令碼之前設定這些變數：<br/><br/><b>REMOTE_USER</b>、<b>AUTH_TYPE</b>、<b>SERVER_SOFTWARE</b>、<b>SERVER_PROTOCOL</b>、<b>GATEWAY_INTERFACE</b>、<b>DOCUMENT_ROOT</b>、<b>CONTENT_LENGTH</b>、<b>CONTENT_TYPE</b>、<b>REMOTE_ADDR</b>、<b>REMOTE_PORT</b>、<b>SERVER_NAME</b>、<b>SERVER_PORT</b>、<b>REQUEST_METHOD</b>、<b>QUERY_STRING</b>、<b>REMOTE_HOST</b>、<b>PATH_TRANSLATED</b>、<b>SCRIPT_NAME</b> 及所有名稱為 <b>&lt;xxx&gt;</b> 的 HTTP 標頭對應為 <b>HTTP_XXX</b>。";
+
 pnet_doc_script_p3 = "此外，它還將設定以下環境變數：";
 pnet_doc_script_p4 = "這些變數都能被 CGI 指令碼或 JavaScript 存取（在 JavaScript 中，可使用 cFos PNet 網站伺服器物件的 <b>environment_var(name)</b> 方法來取回這些環境變數）。";
 pnet_doc_script_p5 = "這邊指的「JavaScript」實際上指的是 Windows Scripting Host 當中的 JavaScript 或其他實作的語言。";
@@ -718,9 +843,13 @@ pnet_doc_scripts_p4 = "指令碼會執行以下驗證：如果對應操作發生
 pnet_doc_scripts_p4a = "腳本根據 <em>.htaccess</em> 裡的個別設定來執行認證，因此你需要此目錄使用者的正確帳號密碼。";
 pnet_doc_scripts_p5 = "這為指令碼操作的簡短說明。您應該到原始碼中尋找如何運作。";
 pnet_doc_scripts_p6 = "如果在請求的資料夾中沒有 <em>index.htm</em> 或 <em>index.html</em> 檔案，cFos PNet 會執行這個指令碼來產生資料夾清單。<br/>指令碼使用 FileSystemObject 來收集目前資料夾內容的資訊。然後載入一個 XML 範本文件，分析後以 XML 提供的資料夾內容產生 HTML 頁面。若要更改資料夾清單的外觀或功能，請修改 XML 範本。產生的 HTML 的檔案中有基本的維護連結，您可以系統管理員的帳號登入後重新命名、刪除檔案或資料夾、上傳檔案並建立新的資料夾。這個功能是由客戶端的 jQuery 傳送 Ajax 請求給 cFos PNet 來進行。伺服器端的指令碼檔案 <em>file_op.jss</em> 會執行需要的 HTTP 認證並處理檔案操作。";
+
+/: http://www.cfos.de/en/cfos-personal-net/documentation/standard-scripts.htm
+/. Do not translate operations' names like `rename`, `delete`, `mkdir`, etc., since those are console commands
 pnet_doc_scripts_p7 = "根據以上的認證，進行檔案操作。檔案操作有 <b>rename</b>、<b>delete</b>、<b>mkdir</b> 來建立資料夾和上傳。上傳通常需要認證；由於瀏覽器總是先上傳整個檔案到伺服器後，才會取得認證資訊，將會傳送文件兩次。為了讓瀏覽器先進行認證，<em>file_op.jss</em> 指令碼檔案會提供檔案上傳前的操作。而瀏覽器會透過 Ajax 請求要求伺服器回應 HTTP 認證（401），然後再實際上傳。上傳過程會交由 <em>upload.jss</em> 中的函數，使用 cFos PNet 的檔案物件以允許上傳任意大小的檔案。";
 pnet_doc_scripts_p8 = "執行基本的使用者管理功能：<b>create</b>、<b>delete</b>、<b>reset password</b> 和 <b>list</b>，必須先以 admin 帳號登入。";
 pnet_doc_scripts_p9 = "由於雜湊清單在 cFos PNet 中扮演重要的角色，<em>list_op.jss</em> 為 Ajax 請求提供基礎清單操作。如上文所述進行相同的認證方案。也就是說，會依照指令碼位置來選擇要進行驗證的使用者。認證是根據各個資料夾中的 <em>.htaccess</em> 來達成。<em>list_op.jss</em> 提供以下操作：<br/><br/><b>get</b>取得雜湊清單中的值。<br/><b>set</b>設定值清單的鍵值。<br/><b>save</b>儲存快照到硬碟中。<br/><b>erase</b>刪除一組鍵值。<br/><b>clear</b> 清除所有鍵值。<br/><b>remove</b>刪除記憶體/硬碟中的清單。<br/><b>size</b>回傳清單大小。<br/><b>list</b>列出雜湊清單的所有元素。<br/><br/><em>dyndns.htm</em> 的 AJAX 會使用這些操作來設定 DynDNS 設定資訊。";
+
 pnet_doc_scripts_p10 = "使用私人資料資料夾中的雜湊清單 <em>dyndns.txt</em> 設定檔案來註冊 DynDNS 或取消註冊。<br/>可以在伺服器的啟動和關閉時使用（請參閱第 1 章）。";
 pnet_doc_scripts_p11 = "用於顯示目前的 HTTP 連線。HTTP 都是 TCP 連線。要加快 HTTP 請求，瀏覽器會嘗試重複使用 HTTP 請求的 TCP 連線。HTTP 請求實際上只是一段短訊息跟回應。在那之後的幾秒鐘瀏覽器就會關閉 TCP，因此您可能只會看到使用者出現一下下。如果認證成功，將會回傳使用者名稱與 IP 地址。";
 pnet_doc_scripts_p12 = "由於調整網頁中的圖片格式始終是主要的負擔，我們做了一小段指令碼，使用 cFos PNet image object (GDI+)。它在網址的查詢字串中會使用檔案名稱和 <b>w</b>（寬度）與 <b>h</b>（高度）等參數。若您的圖片皆為不同大小，您應該只使用一個參數以保持圖片的寬高比。<em>makedir2.jss</em> 使用這個指令碼的連結來顯示目前資料夾中的圖片縮圖。";
@@ -733,8 +862,10 @@ pnet_doc_misc_p4a = "如果你要修改憑證，你要先用 <br/>> netsh http d
 pnet_doc_misc_p5 = "若要使用現有的 SSL 憑證，你需要確定是 Windows 相容的格式，例如，如果你使用的是 unix 系統的憑證，可能是一個 .PEM 檔案，請下載 openssl 並使用底下的命令來轉換：";
 pnet_doc_misc_p5a = "其中 <em>mycert.cer</em> 是你的憑證，<em>ca1.cer</em> 及 <em>ca2.cer</em> （及 <em>ca3.cer</em>…等等）是在信任鏈中的兩個中介 CA 憑證。";
 pnet_doc_misc_p6 = "<em>mycert.cer</em> 必需是 x.509 格式，若有需要的話，你可以使用 openssl 來轉換成 x.509 格式，輸出的 <em>mycert.pfx</em> 是一個 Windows 可以讀取的 pkcs#12 格式。";
+
 /. Explanation of `snap-in`: http://en.wikipedia.org/wiki/Microsoft_Management_Console
 pnet_doc_misc_l1 = "啟動 MMC，新增/移除嵌入式管理單元 -> 憑證 -> 電腦帳戶 -> 本機電腦，然後：「檢視個人憑證」來檢視憑證，點滑鼠右鍵 -> 所有工作 -> 匯入 來匯入 <em>mycert.pfx</em>。";
+
 pnet_doc_misc_l1a = "你還要將憑證匯入「中繼憑證授權單位 -> 憑證」，否則伺服器不會傳送任何信任鏈，請參閱 <a class=\"inline\" href=\"http://support.microsoft.com/kb/954755\">http://support.microsoft.com/kb/954755</a>";
 pnet_doc_misc_l2 = "檢視你匯入憑證的指紋，然後輸入以下命令：<br/><br/>netsh http add sslcert ipport=0.0.0.0:443 certhash=<b>&lt;certhash&gt;</b> appid={a227f2f9-d103-4e0f-92a4-7086c8ab35ac}。<br/><br/>和 <b>&lt;certhash&gt;</b> 一樣，指紋不得含有空白。";
 pnet_doc_misc_p7 = "netsh 支援 IPv6 的 <b>ipport</b> 參數，格式必須為：<b>ipport=[::]:443</b>。";
@@ -745,17 +876,34 @@ pnet_doc_misc_l4 = "編輯 Perl 腳本所在目錄的 <em>.htaccess</em> 檔案�
 pnet_doc_misc_l5 = "檢查每行 Perl 腳本是否正確，在 CGI 腳本裡，第一行告知網頁伺服器要去那裡找這個腳本的直譯程式，在 UNIX 系統裡，<em>perl</em> 通常是在 <em>/usr/bin</em>，因此在你的所有 Perl 腳本裡，請修改正確的 Perl 直譯程式所在位置（在 \"<b>!</b>\" 字元之後）：<br/><b>#! /usr/bin/perl</b><br/> 改為 <br/><b>#! c:\\perl\\perl.exe</b><br/>假設你將 Perl 安裝在 <em>c:\\perl</em>。";
 pnet_doc_misc_l6 = "設定 sendmail。cFos PNet 包含了一個小程式 <em>sendmail.exe</em>，可以支援 UNIX 格式的傳送電子郵件方式，它使用了在 <em>GLOBAL.INI</em> 裡有關 cFos PNet 的 SMTP 參數，然後從 <b>stdin</b> 輸入的純文件當成是 mail 內容。搜尋你的 Perl 腳本裡有關 sendmail 的呼叫，然後將它們取代成呼叫 cFos PNet 的 <em>sendmail.exe</em><br/>例如：將 <br/><b>open (MAIL，\"|/usr/bin/sendmail -t -i -oi\");</b><br/>改為<br/><b>open (MAIL，\"|c:\\\\program files\\\\cfos\\\\cfospnet\\\\sendmail.exe -t -i -oi\");</b><br/>其中 <em>c:\\program files\\cfos\\cfospnet</em> 是你的 cFos 安裝目錄。";
 pnet_doc_misc_h2 = "在 cFos Personal Net 使用 PHP 腳本";
-pnet_doc_misc_p9 = "四個步驟在 cFos PNet 使用 PHP 腳本：";
+pnet_doc_misc_h2_v2 = "在 cFos Personal Net 使用 PHP 與 MySQL";
+pnet_doc_misc_p9 = "以下是在 cFos PNet 使用 PHP 程式及 MySQL 的方式:";
 pnet_doc_misc_l8 = "從 <a class=\"inline\" href=\"http://windows.php.net/download/\">http://windows.php.net/download/</a> 下載壓縮的執行檔，解壓縮到任何一個目錄，例：<em>c:\\php</em>。";
 pnet_doc_misc_l9 = "在此目錄裡，將 <em>php.ini-production</em> 重新命名為 <em>php.ini</em>，然後編輯此檔。";
 pnet_doc_misc_l9a = "設定 sendmail。cFos PNet 包含了一個小程式 <em>sendmail.exe</em>，可以支援 UNIX 格式的傳送電子郵件方式，移除 <b>sendmail_path</b> 前面的註解 \"<b>;</b>\"，然後將此行修改為<br/> <b>sendmail_path=c:\\\\program files\\\\cfos\\\\cfospnet\\\\sendmail.exe</b><br/>其中 <em>c:\\program files\\cfos\\cfospnet</em> 是你的 cFos 安裝目錄。<br/>你也可以改用<b>PHP 內建的傳送電子郵件功能</b>。";
 pnet_doc_misc_l9b = "依據你的 PHP 腳本內容，你可能需要設定 <b>document_root</b> 的位置。預設是在 <em>c:\\programdata\\cfos\\cfospnet\\pub</em>";
+pnet_doc_misc_l9b_v2 = "若您的 PHP 程式會使用到公開目錄的位置，例如 <b>document_root</b>，您需要預先設定。此參數預設值為 c:\\programdata\\cfos\\cfospnet\\pub。";
 pnet_doc_misc_l9c = "在 <b>variables_order</b> 加上一個 \"<b>E</b>\"，例如：<b>variables_order = \"EGPCS\"</b>。";
 pnet_doc_misc_l10 = "藉由設定 <em>c:\\programdata\\cfos\\cfospnet</em> 目錄下 <em>GLOBAL.INI</em> 中 <b>[param]</b> 段落內新增的 <b>php_interpreter</b> 值告知 cFos PNet PHP 直譯程式的所在位置。例如：<br/><b>php_interpreter=c:\\php\\php-cgi.exe</b><br/>你需要指定 PHP 的 CGI 版本。";
 pnet_doc_misc_l11 = "編輯 PHP 腳本所在目錄裡的 <em>.htaccess</em> 檔案，或是修改文件根目錄或 <em>c:\\programdata\\cfos\\cfospnet\\private</em> 目錄下的 <em>.htaccess</em> 檔來啟用全域的 PHP 腳本。加入以下屬性：<br/><b>AddHandler php-script php</b>";
 share_cfospnet = "分享 cFos PNet";
+pnet_doc_languages_h1 = "在 cFos Personal Net 安裝 WordPress";
+pnet_doc_languages_l1 = "下載安裝 MySQL 及 PHP。";
+pnet_doc_languages_l2 = "設定 WordPress 資料庫:";
+pnet_doc_languages_l2a = "在您的電腦上尋找 <em>mysql.exe</em>，並以下列方式執行<br/>> mysql.exe -u <b>管理員帳號名稱</b> -p<br/>輸入 <b>管理員密碼</b>。";
+pnet_doc_languages_l2b = "然後輸入下列指令:<br/>CREATE DATABASE <b>pnet_wordpress_db</b>;<br/>GRANT ALL PRIVILEGES ON <b>pnet_wordpress_db</b>.* TO \"<b>WordPress 資料庫帳號</b>\"@\"localhost\" IDENTIFIED BY \"<b>WordPress 資料庫密碼</b>\"; FLUSH PRIVILEGES; EXIT;";
+pnet_doc_languages_l2c = "您可以執行 mysql.exe，並輸入下列指令: DROP DATABASE <b>pnet_wordpress_db</b>; 來刪除 WordPress 資料庫。";
+pnet_doc_languages_l3 = "在您的 pnet <em>pub</em> 資料夾建立一個子資料夾，並將 WordPress 程式解壓至此。";
+pnet_doc_languages_l4 = "啟動 pnet，並在瀏覽器中執行 WordPress 安裝程式:<br/>http://localhost/<b>您的 WordPress 資料夾路徑</b>/wp-admin/install.php<br/>，並使用 <b>pnet_wordpress_db</b>、<b>WordPress 資料庫帳號</b> and <b>WordPress 資料庫密碼</b> 來設定 WordPress 要使用的資料庫。";
+pnet_doc_languages_l5 = "下載安裝 MySQL（例如社群版本，安裝時選擇「Server Only」），建立其他使用者（可授予資料庫管理權限）。";
+pnet_doc_languages_l6 = "在 <em>php.ini</em> 的 Windows Extensions 段落，將下列擴充套件從<br/><b>;extension=php_mysqli.dll</b><br/>修改為<br/><b>extension=ext/php_mysqli.dll</b>。";
 
-/ cFos Outlook DAV
+/ ----------------------------------------------------------------------
+/
+/  cFos Outlook DAV
+/
+/ ----------------------------------------------------------------------
+
 cfout_h1_v2 = "雲端同步您的 Outlook 日曆、任務與聯絡人";
 cfout_p1a = "cFos Outlook DAV 是一個 Outlook 擴充套件，讓 Outlook 能連線至 CalDAV/CardDAV 雲端伺服器的日曆和聯絡人資料夾。";
 cfout_p1a2 = "對於家用管理的方案，您可以嘗試 <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\"><b>cFos Personal Net</b></a> 的CalDAV/CardDAV 服務。";
@@ -765,7 +913,7 @@ cfout_p1b_v3 = "目前的 <b>免費預覽版</b> 使用期限至 <b>2014 年 06 
 cfout_p1b_v4 = "目前的 <b>免費版</b> 使用期限至 <b>2015 年 06 月 01 日</b>止。";
 cfout_p1b_v5 = "目前的 <b>免費版</b> 使用期限至 <b>2015 年 12 月 31 日</b>止。";
 cfout_p1b_v6 = "目前的 <b>免費版</b> 使用期限至 <b>2016 年 03 月 31 日</b>止。";
-cfout_p1b_v7 = "目前的 <b>免費版</b> 使用期限至 <b id=\"expire_date\">June 30th 2016</b>止。";
+cfout_p1b_v7 = "目前的 <b>免費版</b> 使用期限至 <b id=\"expire_date\">2016 年 06 月 30 日</b>止。";
 cfout_p1c = "目前的預覽版不支援在日曆的事件中附加檔案。";
 cfout_p1d = "最終版本將以大約 10 歐元價格販售。";
 cfout_p1e = "您也可以 <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>在此購買無此限制的授權</b></a>。";
@@ -785,9 +933,11 @@ cfout_p3d = "若需更詳細的資訊，請參考我們網站上的 <a class=\"i
 cfout_p3e = "<b class=\"green\">任務同步</b>對於 Google 日曆：Google 日曆不支援透過 CalDAV 同步任務，同時在使用 Google 日曆 API 的情況下，Google 支援的功能只是 Outlook 支援的功能的一小部分。因此不建議將 Outlook 任務同步到 Google 任務。與 Outlook 任務 / VTODO CalDAV 最相似的是預約，因此當與 Google 日曆同步時，cFos Outlook DAV 將 Outlook 任務存儲為預約。也就是說您需要新建一個 Google 日曆，並保證該日曆僅用於同步 Outlook 任務。設置過程與預約的設置是一樣的。";
 cfout_p3f = "<b class=\"green\">Google 聯絡人同步</b>：Google 聯絡人網址是 <b>https://www.googleapis.com/carddav/v1/principals/your_google_username/lists/default/</b>。";
 cfout_p4_v2 = "對於 <b class=\"green\">DAViCal 日曆</b> 網址是 http://<b>your_davical_server</b>/caldav.php/<b>your_davical_account</b>/calendar，<b class=\"green\">DAViCal contacts</b> 網址是 <b>http://your_davical_server/caldav.php/your_davical_account/addresses</b>，其中 <b>your_davical_server</b> 是您的 DAViCal 伺服器的網域名稱或 IP 位址。<b>your_davical_account</b> 是伺服器的使用者名稱與密碼。";
+
 /. Used as title
 /. Litrelly means "How cFos Outlook DAV works"
 cfout_h3 = "cFos Outlook DAV 的原理";
+
 cfout_p5a_v2 = "當您執行 Outlook，cFos Outlook DAV 將嘗試與 CalDAV/CardDAV 伺服器同步 Outlook 中所有資料夾與資料。如果伺服器有什麼改變，這些改變會反應在您的 Outlook 資料夾。";
 cfout_p5b_v2 = "所以當伺服器上的資料有新增或修改，那麼本機端也會同步的新增或修改。伺服器上的資料有刪除，那麼本機端也會同步的刪除。同步每次完成皆為 <b>n</b> 分鐘，這取決於您在資料夾設定中指定的同步時間。";
 cfout_p6_v3 = "每當您進行新增、修改或刪除的動作，您可以透過功能區的「同步所有 (Sync All)」按鈕來更新伺服器的資料。在您關閉 Outlook 之前您應該考慮這麼做。";
@@ -801,8 +951,10 @@ cfout_conf_title = "如何在五步驟內與 Outlook 同步 CalDAV 行事曆或 
 cfout_goto_help = "請參考我們的 <b>詳細圖片說明</b>。";
 cfout_server = "選擇您的 CalDAV/CardDAV 伺服器類型";
 cfout_new_server = "若您能成功使用 cFos Outlook DAV 與<b>不在我們清單中</b>的行事曆或通訊錄伺服器連結，請考慮透過 <a class=\"inline\" onclick=\"contact_preselect='outlook_dav'; cfos.show_contact_form(); return false;\" href=\"/en/index.htm\"><b>聯絡表單</b></a> 將您的設定資訊傳送給我們。";
+
 /. Means "show all server types"
 cfout_show_all = "顯示全部";
+
 cfout_conf_step1 = "<b>1.</b> 在<b>行事曆畫面</b>對行事曆按右鍵，然後點擊「<span class=\"green\">啟用 CalDAV 同步</span>」或「<span class=\"green\">設定 CalDAV 同步</span>」，或是<br/>在<b>聯絡人畫面</b>對聯絡人資料夾按右鍵，然後點擊「<span class=\"green\">啟用 CardDAV 同步</span>」或「<span class=\"green\">設定 CardDAV 同步</span>」";
 cfout_conf_step2 = "<b>2.</b> 輸入行事曆伺服器的 CalDAV 網址、帳號與密碼或<br/>通訊錄伺服器的 CardDAV 網址、帳號與密碼";
 cfout_conf_step3 = "<b>3.</b> 選擇 <span class=\"green\">同步間隔</span>";
@@ -830,9 +982,10 @@ cfout_egroupware_cal1 = "http://<b>egroupware_server_domain</b>/<b>install_path<
 cfout_egroupware_cal2 = "您的 EGroupware 帳號";
 cfout_egroupware_cal3 = "您的 EGroupware 密碼";
 cfout_egroupware_card1 = "http://<b>egroupware_server_domain</b>/<b>install_path</b>/groupdav.php/<b>addressbook/<br/>（例如 http://mydomain.com/egw/groupdav.php/addressbook/）";
-cfout_posteo_cal1 = "https://posteo.de:8443/calendars/<b>your_posteo_username/default<br/>（例如 )";
+cfout_posteo_cal1 = "https://posteo.de:8443/calendars/<b>your_posteo_username</b>/default<br/>（例如 https://posteo.de:8843/calendars/user1234/default）";
 cfout_posteo_cal2 = "您的 Posteo 帳號";
 cfout_posteo_cal3 = "您的 Posteo 密碼";
+cfout_posteo_card1 = "https://posteo.de:8843/addressbooks/<b>your_posteo_username</b>/default<br/>（例如 https://posteo.de:8843/addressbooks/user1234/default）";
 cfout_sarenet_cal1 = "https://ramattacknet.organizer.sarenet.es/caldav.php/<b>your_sarenet_user_email</b>/<br/>（例如 https://ramattacknet.organizer.sarenet.es/caldav.php/user1234@ramattack.net/）";
 cfout_sarenet_cal2 = "您的 Sarenet 帳號";
 cfout_sarenet_cal3 = "您的 Sarenet 密碼";
@@ -854,13 +1007,22 @@ cfout_baikal_cal3 = "您的 Baïkal 密碼";
 cfout_baikal_card1 = "http://<b>baïkal_server_domain</b>/card.php/addressbooks<b>your_baïkal_username</b>/default<br/>（例如 http://mydomain.com/card.php/addressbooks/user1234/default）";
 cfout_sogo_cal1 = "http://<b>sogo_server_domain</b>/SOGo/dav/<b>your_sogo_username</b>/Calendar/personal/<br/>（例如 http://mydomain.com/SOGo/dav/user1234/Calendar/personal/）";
 cfout_sogo_cal2 = "您的 SOGo 帳號";
-cfout_sogo_cal3 = "您的 SOGo 帳號";
+cfout_sogo_cal3 = "您的 SOGo 密碼";
 cfout_sogo_card1 = "http://<b>sogo_server_domain</b>/SOGo/dav/<b>your_sogo_username</b>/Contacts/personal/<br/>（例如 http://mydomain.com/SOGo/dav/user1234/Contacts/personal/）";
+cfout_one_cal1 = "https://caldav.one.com/calendars/users/<b>your_one.com_user_email</b>/<b>calendar_collectionGUID</b>/<br/>（例如 https://caldav.one.com/calendars/users/user1234@one.com/0AAAA0000-A0AA-0000-A0A0-A0AAA0A0A00A/）";
+cfout_one_cal2 = "您的 one.com 帳號";
+cfout_one_cal3 = "您的 one.com 密碼";
+cfout_one_p1 = "您可到 https://caldav.one.com/calendars/users/<b>your_one.com_user_email</b>/ 確認您的 <b>calendar_collectionGUID</b>。";
 
 cfout_adv_conf_h1 = "進階設定:";
 cfout_adv_conf_p1 = "cFos Outlook DAV 會使用您設定的網址來猜測行事曆或通訊錄的實際位置。若在網址前加上 <b>*</b> 即可防止此行為。這種情況下 cFos Outlook DAV 就只會使用指定的網址，這應該對 <b>DAViCal bindings</b> 以及您想要使用 <b>GMX</b> 或 <b>web.de</b> 的不同日曆時會有幫助。網址範例: *http://www.cfos.de/calendars/mycalendar2 。";
 
-/ cFos IPv6 Link
+/ ----------------------------------------------------------------------
+/
+/  cFos IPv6 Link
+/
+/ ----------------------------------------------------------------------
+
 cfos6link_page_title = "XP、Vista 和 Windows 7 的 IPv6 連線工具";
 cfos_ipv6_link_title = "XP、Vista 和 Windows 7 的 IPv6 連線工具";
 header_features_overview = "功能概要";
@@ -881,7 +1043,12 @@ provider_list_h1 = "<em>cFos IPv6 Link</em> 測試過的 IPv6 的提供者";
 dupe_word_documentation = "文件";
 word_documentation = "文件";
 
-/ cFos BC
+/ ----------------------------------------------------------------------
+/
+/  cFos BC
+/
+/ ----------------------------------------------------------------------
+
 bc_page_title = "高效能寬頻網際網路撥號驅動程式。";
 broadband_connect_title = "高效能 PPPoE 撥接驅動程式";
 link_text_cfosspeed = "<b>cFosSpeed</b>，用於路由器、Cable Modem 及 USB DSL 數據機";
@@ -895,10 +1062,17 @@ li_text_pppoe_auto = "自動偵測 PPPoE，可設定所有 PPPoE 參數";
 li_text_ppppoe_dial = "Windows PPPoE 撥號驅動程式";
 li_text_sessions = "多路連線，無連線數限制";
 
-/ cFos
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
 cfos_html_h1 = "有流量塑型功能的 ISDN 和 DSL 撥號網路驅動程式";
+
 /. Part of page's title (in name of the tab in web browser)
 cfos_professional_title = "cFos，撥號到 DSL 與 ISDN 網路並加速";
+
 link_text_0190 = "禁撥高收費電話功能";
 link_text_budget = "流量計數器及計時器";
 link_text_cfos_features = "cFos 功能清單";
@@ -907,28 +1081,52 @@ link_text_feature_list = "ISDN 和 DSL 功能";
 link_text_firewall = "防火牆";
 link_text_what_is_cfos = "cFos/Professional 是什麼？";
 
-/hrping
+/ ----------------------------------------------------------------------
+/
+/  hrPing
+/
+/ ----------------------------------------------------------------------
+
+/: http://www.cfos.de/en/ping/ping.htm
 hrping_title = "<span class=\"product\">hrPing</span> - 高精確度的 ping 工具";
 hrping_p1 = "您可以用 hrPing 比 Windows Ping 做更多事。";
+
+/. Used as one of entries in list of hrPings features
 hrping_l1 = "圖形化顯示 ping 結果";
+
+/. Used as one of entries in list of hrPings features
 /. `usec` stands for `microsecond`.
-/. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
-/. In other words, means accuracy of the measurement
+/. In current context means `usec resolution` (also known as `microsecond resolution`),
+/. which is technical term. In other words, means accuracy of the measurement
 hrping_l2 = "使用高精準度的計時器，所以每個 ping 的時間可以精準到微秒（百萬分之一秒）";
+
+/. Used as one of entries in list of hrPings features
 hrping_l3 = "可以使用 UDP 封包或 ICMP 時間戳記訊息來 ping";
 
+/. Used as one of entries in list of hrPings features
 /. In other words means `Hrping measures requests time and handles ICMP error replies as well`
 hrping_l4 = "處理時間與 ICMP 錯誤回應";
 
+/. Those strings used as one of entries in list of hrPings features
 hrping_l5 = "可以同時丟出多個 ping，不需要先等到回應再丟下個 ping";
 hrping_l6 = "改善過的統計資料";
 hrping_l7 = "清理大小: 傳送不同大小的封包";
 hrping_l8 = "可以只顯示傳送結果摘要";
-/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic
+
+/: http://www.cfos.de/en/ping/ping.htm
+
+/. Used as one of entries in list of hrPings features
+/. Says that hrPing is effective replacement for both those utilities.
+/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic, do not translate them
 hrping_l9 = "也可以拿來當作 Traceroute 與 Pathping 使用";
 
 
-/notifier
+/ ----------------------------------------------------------------------
+/
+/  cFos Notifier
+/
+/ ----------------------------------------------------------------------
+
 notifier_title = "cFos Notifier";
 notifier_title_h0 = "<span class=\"product\">cFos Notifier</span> - 保持聯繫";
 notifier_p1 = "cFos Notifier 是一個在背景執行的程式，定期檢查是否有新的 Twitter 狀態。如果有新東西，它會在 Windows 工具列中顯示通知與氣球提示。如果您點擊氣球或工具列圖示，就會自動打開 twitter.com 連結，你就可以看到新的狀態。";
@@ -971,11 +1169,21 @@ notifier_l6 = "暫時停止通知";
 notifier_l7 = "選擇通知的音效";
 notifier_l8 = "可以新增與刪除帳號";
 
-/FAQ
+/ ----------------------------------------------------------------------
+/
+/  FAQ
+/
+/ ----------------------------------------------------------------------
+
 which_product = "我該如何選擇 cFos 產品？";
 word_support_faq = "cFos 常見問題";
 
-/ support
+/ ----------------------------------------------------------------------
+/
+/  Support
+/
+/ ----------------------------------------------------------------------
+
 activation_title = "啟動失敗";
 activation_salut = "親愛的 cFosSpeed 使用者";
 activation_salut_cfos = "親愛的 cFos 使用者";
@@ -1062,11 +1270,20 @@ choice4 = "您使用連接到 USB 的 DSL 數據機？";
 choice5 = "撥號連線的驅動程式？";
 choice6 = "流量塑型？";
 choice7 = "兩個一起？";
+
+/. Used as title of contact form
+/. Can be translated as "Contact cFos team" in case origianl variant doesn't translate well into your language
 contact_form_h1 = "聯絡 cFos 團隊";
+
 contact_form_p0 = "聯絡我們關於 <b>技術問題</b>、<b>訂單問題</b>、<b>商業合作</b> 或 <b>新聞採訪</b>。";
+
+/. Refer to `speed_guide` language key in website's localization file to see how `cFos Speed Guide`
+/. has been translated in your language (here: https://github.com/cFos/l10n/tree/master/locales.website)
 contact_form_p0_a1 = "<b>速度太慢？</b><br/>也許 <a class=\"inline\" href=\"/en/traffic-shaping/speed-guide.htm\">cFos 速度指南</a> 可以幫助您。";
+
 contact_form_p0_a2 = "<b>我的授權金鑰在哪裡？</b><br/><a class=\"inline\" href=\"/en/contact/msgpost.htm\">請聯絡我們，因為您的訂單已經很久了。</a>";
 contact_form_p0_a3 = "<b>如何關閉狀態視窗？</b><br/><a class=\"inline\" href=\"/en/cfosspeed/documentation/status.htm\">如何關閉自動開啟狀態視窗。</a>";
+
 /. Used in our contact form on website, as possible choices, like:
 /= Please, select:
 /= — ...
@@ -1087,6 +1304,8 @@ contact_form_o11 = "如何隱藏狀態視窗";
 contact_form_o12 = "回報藍底白字當機";
 contact_form_o13 = "ASUS (GameFirst &amp; Turbo LAN)、Gigabyte、ASRock OEM 版本問題";
 contact_form_o14 = "訂單：我無法輸入授權金鑰";
+contact_form_o15 = "獲得授權金鑰";
+
 contact_form_h2 = "快速自助";
 contact_form_p1 = "初步診斷資訊，您可以參考我們的 <a class=\"inline\" href=\"/en/oem/oem.htm\">OEM 合作夥伴</a> 網頁";
 contact_form_l1 = "我們的授權條款允許雜誌在附贈的免費光碟中包含 30 天試用版。";
@@ -1102,7 +1321,11 @@ contact_form_p6 = "請參考我們的 <a class=\"inline\" href=\"//en/traffic-sh
 contact_form_p7 = "您可以在 <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation.htm\">這裡</a> 找到如何安裝授權金鑰的幫助。<br/><br/>這裡有更多 <a class=\"inline\" href=\"//en/cfosspeed/documentation/registration-help.htm\">尋找並安裝授權金鑰的資訊</a>。";
 contact_form_p8 = "有時其他元件，例如網路卡驅動程式、防毒軟體或反間諜軟體，會防止從網路安裝 cFosSpeed。<br/><br/>以下是 <a class=\"inline\" href=\"//en/cfosspeed/documentation/driver-not-loaded.htm\">常見安裝問題</a> 與 <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation-help.htm\">如果無法安裝 cFosSpeed，您可以怎麼做</a>。";
 contact_form_p9 = "您可以透過滑鼠右鍵點選停用 cFosSpeed 的狀態視窗，步驟如下：<b>視窗設定</b> -> <b>&lt;您的網路卡&gt;</b>。接著停用「自動顯示 / 自動隱藏」。";
+
+/. Refer to `closewindows` language key in software's localization file to see how `Hide Windows`
+/. has been translated in your language (here: https://github.com/cFos/l10n/tree/master/locales.software)
 contact_form_p9_v2 = "您可以透過滑鼠右鍵點選停用 cFosSpeed 的狀態視窗，於設定中選擇「隱藏視窗」。";
+
 contact_form_a2 = "隱藏狀態視窗";
 contact_form_a3 = "cFosSpeed 註冊支援";
 contact_form_p10 = "如果 cFosSpeed 造成您藍底白字的當機，我們需要您幫忙以盡快修正問題。<br/><br/>請 <a class=\"inline\" href=\"//en/support/howto-dump.htm\">建立一個核心傾印</a>。";
@@ -1115,6 +1338,7 @@ contact_form_p13c = "您使用的是哪個 <b>版本的 Outlook</b>？";
 contact_form_p13d = "您使用的是哪套 <b>行事曆或聯絡人伺服器</b>，以及哪個版本？";
 contact_form_p14a = "華碩、技嘉與華擎會為某些主機板提供 OEM 版的 cFosSpeed。請到主機板廠商的網站下載這些 OEM 版本的更新。若您在電腦中用一般的 cFosSpeed 版本蓋過 OEM 版，將會開始進入 30 天的試用期。試用期結束後，您可以向我們購買 cFosSpeed 終身授權，或是移除 cFosSpeed 並重新安裝 OEM 版本。";
 contact_form_p14b = "若您喜歡 cFosSpeed，我們非常感謝您向我們購買終身授權。購買後您將可以下載未來所有的 cFosSpeed beta 測試版與正式發行版本。雖然我們的 OEM 夥伴可能會提供更新，但一般來說我們的更新與放入新功能的頻率會比較快。";
+contact_form_p15 = "若您想告訴我們您路由器的設定方式，以賺取 cFosSpeed 及 cFos Personal Net 金鑰的話，請在表單輸入您的路由器品牌、型號，以及您的電子郵件地址，然後點擊「傳送」按鈕。我們將盡快回覆您。";
 decision = "哪一個產品？";
 decision_help = "決策路徑";
 dialup_dsl_cable = "使用 DSL 或第四台網路 (Cable Modem) 的撥號網路 (PPPoE)";
@@ -1233,7 +1457,12 @@ yes = "是";
 search_web = "搜尋網路";
 search_cfos = "搜尋 www.cfos.de";
 
-/ traffic shaping
+/ ----------------------------------------------------------------------
+/
+/  Traffic shaping
+/
+/ ----------------------------------------------------------------------
+
 alt_load_print = "載入影像的列印版本";
 alt_transfer_rates = "傳輸速率";
 ts_c_t1 = "cFos 流量塑型的重要註解";
@@ -1278,6 +1507,7 @@ ts_o_t1 = "對於每個連線，您可以調整以下設定：";
 ts_o_l1 = "媒體/通訊協定";
 ts_o_l2 = "用途";
 ts_o_l3 = "流量塑型模式（多使用者版本）";
+ts_o_p1 = "在 <samp>選項 -> 設定</samp> 對話窗中，您可以點擊 <img src=\"/images/settings.png\" alt=\"設定\" title=\"設定\" border=\"0\" height=\"20\" width=\"21\" /> 開啟 <samp>連線設定</samp>，並為各個連線選擇連線媒介。您可以選擇下列幾種:";
 ts_o_a1 = "畫面擷圖";
 ts_o_a2 = "連線設定";
 ts_o_l4 = "<b>自動判斷:</b> cFos/cFosSpeed 會自動偵測您的連線類型。當您不知道您的連線類型時請使用此設定。否則請選擇您的連線類型。選擇正確的連線類型，可以降低更多 ping 值。";
@@ -1410,7 +1640,12 @@ vari_fixed = "變動 Ping 值";
 vari_fixed_help = "使用進階流量塑型功能來適應變動的反應時間";
 vari_fixed_help_long = "收集 ping 值的統計資料來進行調整。在行動/無線網路中特別有用。";
 
-/ cFosSpeed additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed additional pages
+/
+/ ----------------------------------------------------------------------
+
 adjust_speed_shaping = " - 開關本功能";
 autoarrange = "自動排列視窗";
 auto_mtu = "自動最佳化 MTU";
@@ -1496,8 +1731,10 @@ no_ping_tplink = "<h4>TP-Link Router：</h4><p>TP-Link 提供一個允許 cFosSp
 no_ping_tplink2 = "<p><b class=\"red\">注意</b>：根據使用者的回報，這無法適用於 TL-R460、TL-R860 和 TL-R402M 等型號。</p>";
 no_ping_pccillin = "<h4>PC Cillin 2007：</h4><p>請依照以下步驟允許 Windows tracert 命令：</p><ol><li>開啟 PC Cillin 主控台→「network- and firewall-control」→「personal firewall」→「settings」→「select account」→「edit→network control」→「add」</li><li>現在您可以 <samp>新增(add)</samp> 二個新的協定。</li><li>外送的連線：<br /><samp>(default) allow for outgoing connections<br />(protocol) icmp<br />(port) all ports<br />(ip-settings) all ip-settings<br /></samp></li><li>要設定傳入的連線，請重覆步驟 3</li></ol>";
 no_ping_statistics = "取得並解讀 cFosSpeed ping 值統計資料";
+
 /. Console's output shouldn't be translated
 no_ping_statistics_p1 = "<p>開啟 cFosSpeed 主控台並輸入「spd pingstat」</p><p>這會產生一個類似底下的輸出：</p><pre class=\"code\"><br />反應時間統計：<br /><br />所有反應時間請求         107,686<br />  完成                   107,686     <b>(1)</b><br />  …只有                 107,686<br /><br />所有送出的反應時間       106,949<br />  強勁的                 106,778<br />  …新的                 106,778     <b>(2)</b><br /><br />所有收到的反應時間       106,804<br />  找到                   106,566<br />  …強勁的               106,519<br />  …強勁的回應           106,519     <b>(3)</b><br />  …使用的               106,519     <b>(4)</b><br /><br />反應時間損耗統計：<br />  1 個反應封包在同一行 33 次<br />  5 個反應封包在同一行 1 次<br /><br />反應封包 來源/目標：192.168.0.100 到 194.95.249.23，存活時間 3<br />乙太網路 來源/目標：00:0e:a6:57:9b:0b 到 00:11:95:78:27:a4<br /></pre>";
+
 no_ping_statistics_p2 = "<p>「所有反應時間請求」的三個值應該是一樣的，如果三個值有很大的差異，請回報給我們。</p><p><b>(1)</b> 的值應該和 <b>(2)</b> 的值很接近。如果不是這樣子的情況，應該就是防火牆封鎖了資料的傳輸。如同上面所提到的，幾個百分比的差異是不算大的。</p><p><b>(3)</b> 和 <b>(4) </b>的值也是如上面所描述，如果不是如此的話，請寄電子郵件給我們。</p>";
 no_ping_statistics_p3 = "<p>根據相同的符記，值 <b>(2)</b> 及 <b>(3)</b> 應該大致上相同，如果不一樣的話，通常表示送出反應時間封包及回應時，在「網路上」的某個地方遺失了(經常發生)。很不幸的，我們無法對此狀態做任何處理。</p><p>當您寫電子郵件給我們時，請參考上面的<a class=\"inline\" href=\"#p4\">步驟 3</a>，裡面有關於您應該夾帶什麼檔案到電子郵件裡的說明。</p>";
 no_ping_update = "首先下載並安裝最新版本的 cFosSpeed：";
@@ -1573,33 +1810,43 @@ sp_doc_games_p1 = "流量塑型技術可以同時保持低 ping 值與高傳輸�
 sp_doc_games_p2 = "此外，為了得到最低的 ping 值，您應該盡可能調高遊戲的優先權。您可以在程式設定中的清單中找到時下最流行遊戲的名稱；就算您的遊戲沒有列在裡面，您也可以自行把它加入名單裡。";
 sp_doc_games_p3 = "您也可以<a href=\"/en/contact/priopost.htm\">讓我們知道</a>您想讓哪些線上遊戲也包含在未來軟體更新的清單中。";
 sp_doc_games_p4 = "要注意的是，請不要將太多程式或通訊協定設定成高優先權，因為如果您把所有的東西都給予高先權，結果其實就等於什麼都沒有做。";
-// `[filter]` and name of file shouldn't be translated
+
+/. `[filter]` and name of file shouldn't be translated
 sp_doc_games_p5 = "如果不清楚該線上遊戲的程式名稱，也可以改為調整其對應通訊埠的優先權。如果能知道應用程式目的地的 TCP/UDP 埠號，您可以直接修改 settings.ini 檔案裡的 [filter] 段落，來調整優先權：";
 sp_doc_games_p6 = "TCP 埠：<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high";
 sp_doc_games_p7 = "UDP 埠：<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high";
+
 sp_doc_games_p8 = "儲存修改之後，需要重新載入新設定：開啟開始->所有程式->cFosSpeed 裡的主控台，然後輸入「spd reload」；您的設定變化要到下一次重新啟動電腦後生效。";
 sp_doc_games_a1 = "cFosSpeed 過濾器手冊（英文）";
 sp_doc_games_a2 = "DSL 連線設定";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/games.htm
 /. Used as alternate text for image
 sp_doc_games_a3 = "顯示偏好 Ping 值";
+
 sp_doc_games_a4 = "程式優先權對話窗";
 sp_doc_games_t1 = "最佳化連線設定：";
+
 /. Connections types untranslatable in our software, so they shouldn't be translated here either (`Adaptive`)
 sp_doc_games_p9 = "您可以在連線控制內特別指定您的連線媒體。cFos 或 cFosSpeed 若能更了解關於連線的資訊，ping 值表現就會越好。預設值為「自動偵測」，但若您使用 DSL 連線，您就應該選擇正確的 DSL 標準與通訊協定作為您的連線媒體。";
+
 sp_doc_games_t2 = "偏好 Ping 值:";
 /. `Favor Ping` is translatable in our software, so it should be translated here too.
 /. Ensure in consistent translation across website and software, by checking
 /. translation of cFosSpeed's into your language.
 /. Look here for your locale https://github.com/cFos/l10n/blob/master/locales.software/
 /. and then search for key `favor_ping`
+sp_doc_games_t2 = "偏好 Ping 值:";
 sp_doc_games_p10 = "除此之外，您也可以利用在滑鼠右鍵選單或狀態視窗的設定來啟動「偏好 Ping 值」功能。開啟後會有一個綠色箭頭出現在狀態視窗上。這個設定會讓 cFos 或 cFosSpeed 用任何方式保持低 ping 值，但傳輸速度可能會需要大幅降低。";
+
 sp_doc_games_t3 = "在下載檔案的時候玩遊戲：";
 sp_doc_games_p11 = "若您在玩線上遊戲時沒有開啟流量塑型，又同時進行下載或上傳，您對遊戲伺服器的 ping 值就會變高。在同一時間中有越低的資料流量代表能有越好（低）的 ping 值。檔案分享程式或其他高資料傳輸的應用程式會造成 ping 值一飛沖天、遊戲非常 LAG，同時也讓您遊戲的反應變得非常差。";
 sp_doc_games_p12 = "流量塑型功能讓您在玩遊戲的時候，把檔案分享或下載放到幕後執行的方式來減低此問題。但這樣做還是可能會提高一些 ping 值。因此，我們建議您在這種時候開啟「偏好 Ping 值」功能；預設情況下，檔案分享程式的優先權會被設定成非常低，但這並不表示它被限速或暫停傳輸，而是說這類型的資料會在其他較重要工作（例如線上遊戲）的資料需要傳輸時，延後進行傳遞。只有利用這種排定優先權的方式才可能在您執行其他應用程式時，又能同時使同一連線的檔案分享程式能夠以最高速率進行傳輸。";
+
 /: http://www.cfos.de/en/cfosspeed/documentation/index.htm
 /. Used as  section title
 sp_doc_index = "程式處理";
+
 sp_doc_installation = "安裝 / 註冊";
 sp_doc_install_title = "安裝 / 註冊 / 移除";
 sp_doc_install_h1 = "安裝";
@@ -1632,9 +1879,11 @@ sp_doc_led_p1 = "cFosSpeed 可利用 Num Lock 和 Scroll Lock 的 LED 燈號來�
 sp_doc_led_dd1 = "良好情況下會保持熄滅，普通情形為慢速閃爍，快速閃爍代表<br/>警告您 ping 值過高";
 sp_doc_led_dd2 = "隨著封包計入而快速的閃爍來<br/>告知您有其他流出或流入的網路流量。";
 sp_doc_led_dd3 = "優先傳輸 TX 封包時快速閃爍<br/>是一種用來表示流量塑型效果的方法";
+
 /: http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm
 /. `total_rx_speed` and `total_tx_speed` shouldn't be translated, since those are actual values names
 sp_doc_led_dd4 = "達到 total_rx_speed 及 total_tx_speed 最大值的：0 到 32% 時熄滅、33~65% 時慢速閃爍、66~98% 時快速閃爍、99~100% 時保持亮燈；<br/>這樣就能在您或其他使用者或應用程式使用太多頻寬時可以告知您。";
+
 sp_doc_led_dd5 = "只要 TCP 和 UDP 的連線數改變就會快速閃爍，<br/>這樣一旦有新的連線建立您都可以馬上知道。";
 sp_doc_led_dd6 = "0~15ms: 熄滅、16~127ms: 慢速閃爍、128~511ms: 快速閃爍、512ms 以上: 保持亮燈。<br/>這樣能告訴您是否因為線路問題（如行動裝置連線）而造成 ping 值變高。";
 sp_doc_led_p2 = "您可以選擇 Num Lock 和 Scroll Lock 的 LED 燈號來展示上述任何一種您要的數值。";
@@ -1648,11 +1897,15 @@ sp_doc_logi_h1 = "YouTube 上的羅技面板";
 sp_doc_logi_h2 = "偵測羅技鍵盤";
 sp_doc_logi_p3 = "cfosspeed.exe 和羅技遊戲軟體都會在 Windows 開機時自行啟動，如果 cFosSpeed 比羅技遊戲軟體先啟動的話，可能會無法偵測到鍵盤。遇到這樣子的情況，您可以使用 cFosSpeed 選單裡的「偵測」選項來重新偵測羅技鍵盤，或修改 <em>C:\\ProgramData\\cFos\\cfosspeed\\global.ini</em> 檔案，在 [All] 的部分插入 <b>startup_delay=x</b> 這行文字，其中 x 代表了 cFosSpeed 在啟動狀態視窗前需要等待的秒數。";
 sp_doc_p2p_t1 = "檔案分享程式（P2P）的流量塑型";
+
 /. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p1 = "受惠於 cFosSpeed 的流量塑型功能，您總算可以透過 eMule、Kazaa 或 Bittorent 來完整使用上傳頻寬，並提供給同網路使用者剩餘頻寬，而不會影響到其他網路應用程式的傳輸。";
+
 sp_doc_p2p_t2 = "檔案分享軟體造成的問題";
+
 /. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p2 = "通常執行檔案分享程式（如 eMule、Kazaa 或 BitTorrent）會占用所有的上傳資料通道，進而容易導致網路連線的 ping 值變高。這表示著除了檔案分享的傳輸會變慢（原本只需要花幾毫秒的時間要求來源，變成需要花一兩秒以上）之外，還會使其他網路應用程式變慢。換句話說，因為無法即時送出 TCP 的 ACK 封包，會導致下載速度直直下滑；同時當您瀏覽網路時，瀏覽器的回應速度也會顯著地變慢。";
+
 sp_doc_p2p_p3 = "檔案分享程式針對此問題最常提供的改善方式就是設定最大上傳速率。";
 sp_doc_p2p_p4 = "然而，若您同時正在寄出郵件和檔案分享兩件工作，它們會互相競爭現有的上傳頻寬。至於它們彼此如何分配頻寬呢？基本上是完全看運氣的。在某些情況下，這樣會造成所有 TCP 連線關閉（TCP 連線不足）。";
 sp_doc_p2p_t3 = "解決方案：流量塑型功能";
@@ -1660,31 +1913,42 @@ sp_doc_p2p_p5 = "整合在 cFos 和 cFosSpeed 的優先權處理功能利用一�
 sp_doc_p2p_p6 = "舉例來說，在您瀏覽網路，同時背景又在執行檔案分享程式的情況下，當您讀入新的網頁時，您的 P2P 傳輸只會細微且短暫地減速。同樣情況，當您寄出較為龐大的電子郵件時，P2P 軟體的上傳速率也可能在上傳附件時短暫下降；信件寄出後，所有的上傳馬上會再度回歸全速執行。相較於「永遠地」限制檔案峰分享軟體的頻寬，這表示就算沒有其他應用程式在使用同一連線，您還是損失了一部分的頻寬。";
 sp_doc_p2p_p7 = "因此，cFosSpeed 針對檔案分享軟體 (P2P) 進行最佳化，讓使用者能把這些程式丟到幕後執行，而不需要特別注意日常的網路活動。";
 sp_doc_p2p_p8 = "因此我們建議把 Kazaa 等軟體設定到「上傳速度無限」，同時關閉掉「速度感測」選項，因為 cFosSpeed 已經針對您的網路傳輸最佳化了。";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/p2p.htm
 /. it's referring to system tray icon and special skin for it.
 /. Note that particularly that string refers not to actual skin, but just used as title, to highlight that "there is icon skin for cFosSpeed"
 sp_doc_p2p_t4 = "圖示面板";
 sp_doc_p2p_p9 = "因為大多數的使用者都讓他們的檔案分享程式跑 24 小時持續執行，cFosSpeed 特地設計了一套專門的面板，讓使用者能在不用透過狀態視窗就能了解所有連線狀況。";
+
 sp_doc_p2p_t5 = "調整優先權：";
+
 /. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p10 = "不少使用者會特別準備一台專門進行檔案分享和進行 P2P 傳輸的電腦，經由另一台直接連線的主電腦來連上網際網路（例如藉由網路連線分享）。這種情況下，cFos 和 cFosSpeed 內建的第七層協定偵測功能可用來為這些常見的 P2P 程式例如 BitTorrent、eDonkey 2000（或 eMule）、Kazaa、Gnutella(2)、Kademlia 和 Direct Connect 等程式調整優先權。";
+
 sp_doc_p2p_t6 = "為程式調整優先權：";
 sp_doc_p2p_p11 = "cFos 和 cFosSpeed 也可根據程式的名稱來為它們排定優先權，而大多數常見的重要程式都已經被列入我們的程式清單了；這種排定優先權的方式，對於第七層協定偵測功能無法辨識而適當指派資料的傳輸（舉例來說：加密的 BT 傳輸）來說，是非常有用的。";
 sp_doc_performance = "效能";
-sp_doc_phone_skins_title = "在您手機或平板電腦上使用的 cFosSpeed 面板";
+
+/: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
+sp_doc_phone_skins_title = "在您手機或平板電腦上顯示 cFosSpeed 狀態視窗";
 sp_doc_phone_skins_h1 = "在臨的手機上顯示流量塑型統計資料";
-sp_doc_phone_skins_p1 = "cFosSpeed 從 v9.05 build 2090 開始內建一套網頁伺服器，您就可以在手機或平板電腦中顯示狀態視窗，而不在電腦中顯示。這樣對於您要執行全螢幕程式，例如玩遊戲或看影片時相當有用。以下是設定方式:";
+sp_doc_phone_skins_p1 = "cFosSpeed 從 v9.05 build 2090 開始內建一套網頁伺服器，您就可以在手機或平板電腦中也顯示狀態視窗。這樣對於您要執行全螢幕程式，例如玩遊戲或看影片時相當有用。以下是設定方式:";
+
 /. While translating `\"Options/Settings\"` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_doc_phone_skins_l1 = "從 cFosSpeed 的右鍵選單選擇「選項/設定」，並在「偏好設定/開啟手機面板」對話框設定伺服器密碼。網頁伺服器將會在您從該伺服器本機以外的電腦存取時要求授權。";
+
 sp_doc_phone_skins_l2 = "開啟右鍵選單，並選擇第一個選項（<b>cFosSpeed vX.XX...</b>）以顯示您電腦的 <b>IP 地址</b>。";
 sp_doc_phone_skins_l3 = "在您的手機或電腦開啟網頁瀏覽器，並輸入下列網址: <b>http://[您的 IP 地址]:1487/cfosspeed/skin.htm</b>。<b>[您的 IP 地址]</b> 通常會是在第二部中出現的第一個地址，但如果無法使用的話您也可以試試其他的。";
 sp_doc_phone_skins_l4 = "接下來請填寫您在「偏好設定/開啟手機面板」指定的密碼，帳號使用 <b>cfosspeed</b> 即可。";
 sp_doc_phone_skins_a1 = "您在 cFosSpeed 右鍵選單中的 IP 地址";
+
 /: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
 /. Title of one of pictures
 sp_doc_phone_skins_a2 = "為手機面板設定密碼";
+
 /.  Title of picture with demo of cFosSpeed Phone Skin
 sp_doc_phone_skins_a3 = "cFosSpeed 手機面板示意圖";
+
 sp_doc_phone_skins_a4 = "<a class=\"inline\" href=\"http://www.fairphone.com\"><b>Fairphone</b></a> 上的 cFosSpeed 手機面板";
 sp_doc_phone_skins_p2 = "<b>註</b>: 您需要 Windows 7 或更新版作業系統才能使用內建網頁伺服器。";
 sp_doc_phone_skins_p3 = "<b>註</b>: 您也可以直接在手機或平板電腦中檢視並調整目前連線的優先權。只要用瀏覽器開啟 http://<b>[您的 IP 地址]</b>:1487/cfosspeed/console.htm。此對話框的效果將與從 cFosSpeed 狀態視窗或右鍵選單中開啟相同。";
@@ -1692,8 +1956,10 @@ sp_doc_prioliste = "優先權清單: ";
 sp_doc_priorliste_content = "可調整優先權的應用程式清單";
 sp_doc_prio_title = "程式優先權調整";
 sp_doc_prio_p1 = "<b>提示</b>：<br />優先權處理功能僅在少數資料被給予高優先權的時候才能夠有效地運作；對於高資料量流出的程式，請把它的優先權給調低。";
+
 /. `UNKNOWN` shouldn't be translated, since it's not translatable protocol name, used in our software
 sp_doc_prio_p2 = "cFosSpeed 首先會嘗試偵測每一項連線的第七層協定；如果無法偵測到（也就是通訊協定類型為 UNKNOWN），或是該被偵測到的協定優先權為「正常」，就會用偵測程式的方式來決定優先權。";
+
 sp_doc_prio_p3 = "HTTP 串流的偵測是個特別的情況；如果偵測到 HTTP 通訊協定，cFosSpeed 會嘗試判斷它是否為影音串流。方式如下：";
 sp_doc_prio_p4 = "若使用者代理字串是知名播放程式，或是包含 \"player\" 等關鍵字，cFosSpeed 會將此連線分類定為 HTTP_STREAM_C 或 HTTP_STREAM_S。否則，如果內容類型為影音，就會被分類為 BSTREAM_C 或 BSTREAM_S。而 BSTREAM_C/S 類型的連線，優先權會被設為「正常」，將交由程式本身來決定優先權。<br />這樣可在無法確定的某些情況，依照程式用途來決定封包優先權。";
 sp_doc_prio_a1 = "已經被設定過優先權的程式";
@@ -1790,20 +2056,24 @@ sp_doc_status_slot = "此插槽圖表顯示了目前傳送速率相對 cFosSpeed
 sp_doc_status_slots = "插槽";
 sp_doc_status_standard = "可以使用標準面板對流量進行跟蹤記錄。";
 sp_doc_status_states = "您可以切換圖示面板的三個狀態。開關在面板的中間（請參考圖片）。";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis.htm
 /: http://www.cfos.de/en/cfosspeed/documentation/status.htm
 /. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_switch = "切換標準及大型面板";
 sp_doc_status_switch2 = "切換: 大型面板 > 正常面板 > 圖示面板";
 sp_doc_status_switching = "切換預設面板的圖表及數值顯示:";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
 /. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_systray = "在系統狀態列的流量分析圖示面板";
+
 /: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
 /. Used as alternative text for clickable icon-buttons in sidebar at mentioned above and on similar pages
 /. You won't see it, since it displayed only if browser can't download images
 sp_doc_status_thumb_down = "讚";
 sp_doc_status_thumb_up = "不讚";
+
 sp_doc_status_times = "在標準面板的圖表中，Ping 值以綠色、黃色、紅色的波形表示。真實的 ping 值取決於同時進行的上傳及下載數量。若此數字增加，Ping 值也會增加。";
 sp_doc_status_toggle = "點擊相對應的按鈕，可以切換顯示數值面板和圖表面板。";
 sp_doc_status_total = "總下載傳輸百分率歷史";
@@ -1820,20 +2090,24 @@ sp_doc_status_utr = "上傳速率百分比";
 sp_doc_status_variance = "ping 值變化";
 sp_doc_status_vertical = "從右到左滾動的垂直柱狀圖顯示上下載傳輸速率與自上次安裝或 cFosSpeed 校正的比值的歷史。總額和本地傳輸速率與以多用戶模式執行 cFosSpeed 有關，而本地只顯示這台計算機的傳輸速率佔本地網路的流量比例。<br /><br />其他顯示方法與液晶歷史面板相同。";
 sp_doc_status_wave = "顯示 Ping 值波動";
+
 /: http://www.cfos.de/en/cfosspeed/documentation/status-aquarium.htm
 /. Usead as starting word for explaining labels of cFosSpeed skins elements
 /= Switch: Transfer rate in %
 /= Switch: Number of TCP/UDP connections
 sp_doc_status_word = "切換";
+
 sp_doc_surf_p1 = "cFos 與 cFosSpeed 內建的 HTTP 伺服器能加速頁面載入時間，尤其是在同時進行上載時。可以在 <a href=\"/en/traffic-shaping/traffic-shaping.htm\">http://www.cfos.de/en/traffic-shaping/traffic-shaping.htm</a> 找到 www.greenpeace.org 和 www.amazon.com 的比較結果在。若網頁中的元素越多，加速效果將會更明顯。";
 sp_doc_surf_p2 = "若瀏覽很多網頁（不下載大檔案），您可能會想要在右鍵選單中的設定，或是在狀態視窗中開啟「偏好 Ping 值」。狀態視窗中將出現一個綠色箭頭，cFos 與 cFosSpeed 會盡所有可能降低 ping 值，但同時會犧牲一些傳輸速度。然而，這個視你使用的程式而定，可能會讓您能明顯覺得網頁瀏覽變得更快。";
 sp_doc_surf_t1 = "其他互動應用城市:";
 sp_doc_surf_p3 = "cFos 及 cFosSpeed 均內建了互動軟體的檢測規則，例如 SSL、SSH、Telnet、IRC 等等。這個可以確保了這些應用能有快速的反應時間。";
 sp_doc_surf_p4 = "若預設的通訊協定選項當中的標準優先權規則無法滿足您的需求，你可以在程式設定中手動將程式名稱，或是通訊埠新增到過濾規則當中。尤其是在執行伺服器時，這個功能非常好用。";
 sp_doc_surf_p5 = "若已知通訊埠，您可依照以下方式修改優先權（編輯　settings.ini　檔案中 [filter] 一節）:";
+
 /. Part after colon shouldn't be translated, since it's code from configuration file
 sp_doc_surf_p6 = "對於 TCP 埠:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high<br />; source port=5678<br />filter=-tcp-sport 5678 -c high";
 sp_doc_surf_p7 = "<br />對於 UDP 埠:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high<br />; source port=5678<br />filter=-udp-sport 5678 -c high";
+
 sp_doc_surf_t2 = "瀏覽及檔案分享 (P2P):";
 sp_doc_surf_p8 = "預設情況下，檔案分享程式的優先權最低。現在，不需要刻意限速或暫停分享軟體。這代表，在有更重要的資料需要傳送時會暫時停止傳輸檔案分享的資料。透過設定優先權的方式，讓您能透過最大的速度進行檔案分享，而不會影響其他程式。";
 sp_doc_voip_p1 = "不只是 VoIP 需要低的延滯時間，而是能夠改善語音品質的重要因素。";
@@ -1845,8 +2119,8 @@ sp_doc_voip_p5 = "VoIP 連線封包常會在有其他全速下載進行時被丟
 sp_doc_voip_t2 = "Skype:";
 sp_doc_voip_p6 = "Skype 使用了自有的加密通訊協定，而無法被第7層分析檢測出來。若要提高 Skype 的優先權，你可以在程式列表中輸入它。";
 sp_doc_voip_t3 = "透過路由器調整 VoIP 優先權:";
-/. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
-/. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
+sp_doc_voip_p7 = "某些路由器（例如 Fritz!Box）內建電話插孔。若插入電話時，所有語音資料將略過 cFosSpeed 直接傳輸到網際網路上。這些路由器可能會在進行 VoIP 通話時限制網路頻寬，造成流量塑型功能暫時失效。因此我們建議您直接在電腦上撥打 VoIP 電話而不透過話機撥打，以讓 cFosSpeed 能夠自動偵測並正確設定封包優先權。";
+
 sp_doc_voip_t4 = "使用 cFosSpeed 時同時使用 VoIP 軟體";
 sp_doc_voip_t5 = "使用 IxChariot 測量";
 sp_doc_voip_p8 = "我們使用 IxChariot（Ixia 的網路性能測試軟體）來測試 cFosSpeed 的流量塑型效果。為求準確，我們在進行多個上傳的同時使用 IxChariot 來監測 VoIP 參數。";
@@ -1875,16 +2149,20 @@ sp_doc_wlan_h2 = "手動設定 Wi-Fi 熱點（Windows 7 或更新版本）";
 sp_doc_wlan_p7 = "用管理員身分開啟命令提示字元:";
 sp_doc_wlan_p8 = "網路連線清單中現在應出現「Microsoft Virtual WiFi Miniport Adapter」。";
 sp_doc_wlan_p9 = "netsh wlan set hostednetwork ssid=\"cFos Wi-Fi\" key=\"<span class=\"red\">您的密碼</span>\" keyUsage=persistent";
+
 /. "Check with" meaning "Use the following action to check the result"
 sp_doc_wlan_p10 = "使用下列操作確認:";
+
 sp_doc_wlan_p11 = "啟動「Microsoft Virtual WiFi Miniport Adapter」。";
 sp_doc_wlan_p12 = "在網路連線清單中，「Microsoft Virtual WiFi Miniport Adapter」旁的紅色刪除線應已消失。";
 sp_doc_wlan_p13 = "在網路連線對正在使用中的網際網路連線按右鍵，並選擇選單中的「屬性」。點擊「分享」分頁，然後選擇「允許其他網路的使用者透過此電腦的網際網路進行連線」選取盒。";
 sp_doc_wlan_p14 = "在「家用網路連線」下方的網路連線清單中選擇「Microsoft Virtual WiFi Miniport Adapter」。";
 sp_doc_wlan_p15 = "點擊「確定」確認。";
-/. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_news_t = "cFosSpeed 的最新消息";
+
+/. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_news_p1 = "cFosSpeed 每兩天會檢查一次是否有新消息。若有新消息，會在狀態視窗顯示信件圖示，點擊後會打開網頁。預設會開啟此功能，若不需要，你可以在右鍵功能表中的「選項」關閉。";
+
 sp_news_p2 = "我們每年僅會發布幾次新消息";
 sp_news_h0 = "cFosSpeed 消息";
 sp_news_h1 = "cFosSpeed 消息政策";
@@ -1953,11 +2231,20 @@ word_updates = "更新";
 word_prices = "價格";
 word_delivery = "出貨";
 
-/ PNet additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFos PNet additional pages
+/
+/ ----------------------------------------------------------------------
+
 cfospnet_doc_page_title = "cFos Personal Net 文件";
 
+/ ----------------------------------------------------------------------
+/
+/  cFos IPv6 Link additional pages
+/
+/ ----------------------------------------------------------------------
 
-/ IPv6 Link additional pages
 six_doc_p1 = "連線至新的 IPv6 網路";
 six_doc_p2 = "cFos IPv6 Link 讓您可在 Windows 7、Vista 與 XP 撥號連線至 IPv6 網路。";
 six_doc_p3 = "安裝 cFos IPv6 Link，設定撥號連線至您的網路業者就搞定了！cFos IPv6 Link 不僅連接到全新的 IPv6 網路，還能可以自動設定路由、IP 與 DNS 位址。";
@@ -2041,14 +2328,21 @@ six_doc_135 = "NAT46 映射:";
 six_doc_136 = " NAT46 映射讓您可在執行僅支援 IPv4 的程式時使用 IPv6 地址，或使用 IPv6 存取僅支援 IPv4 的服務。cfos6link 可以將流量從僅支援 IPv4 的程式映射到 IPv6。它的做法是將一個暫用的 IPv4 地址關連到一個暫用的 IPv6 地址。您可以在 cfos6link.ini 的 [param] 一節中設定 nat46_addr=x 及nat46_subnet_mask=m 來指定 IPv4 地址池。若 IPv4 程式透過 DNS 請求名稱（例如解析一筆 A 記錄），cfos6link 會將該記錄改成解析 AAAA 記錄。收到相應的 IPv6 位址解析回覆，它會為該 IPv6 地址分配一個臨時的 IPv4 地址並回傳給 IPv4 程式。在 IPv4 程式使用這個臨時位址的任何時候，都會映射到 IPv6 位址。您可以使用下列 IPv4 地址池來進行映射：";
 six_doc_137 = "[param]<br />nat46_addr=10.0.0.0<br />nat46_subnet_mask=255.0.0.0<br />";
 six_doc_138 = "對於連入連線，您也可以透過在 cfos6link.ini 檔案中的 [nat46_ports] 一節設定通訊埠映射，例如:";
+
 /. That string means that user have to place program's name instead of `some program` like `5000=skype`
 /. `some_program` part may be translated
 /: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
 six_doc_139 = "5000=軟體名稱";
+
 six_doc_140 = "則當目的地通訊埠是對應埠時，連入的 IPv6 流量就會自動映射到 IPv4 地址。";
 six_doc_141 = "另外，您也可以為寫死使用 IPv4 的軟體新增靜態的 IPv4 &lt;-&gt; IPv6 映射。您可以在 [nat46_static] 一節中加入值 &lt;ipv4_addr&gt;=&lt;ipv6_addr&gt;，例如 192.168.2.1=2001:DB8::1 來指定這類映射。";
 
-/ cFos BC additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFos Broadband Connect additional pages
+/
+/ ----------------------------------------------------------------------
+
 bc_doc_p1 = "cFos Broadband Connect 是一個供高速網路使用的高效能撥號網路驅動程式。Windows 內建的驅動程式只能傳輸最多 4.5 Mbyte/s (= 36 Mbit/s)，而 cFos Broadband Connect 可以 50 Mbyte/s (= 400 Mbit/s) 的速度傳輸。<br /><i>此數值是使用 Gigabit 區域網路在 Pentium 4 (3GHz) 電腦測試而出。</i>";
 bc_doc_p2 = "cFos Broadband Connect 的設計是在最低的 CPU 負載下能有最高流量。讓您的 CPU 能夠完整用於處理網路城市，例如媒體播放器當中。全速 cFos Broadband Connect 全速工作時僅需 3% 的 CPU 時間。";
 bc_doc_p3 = "cFos Broadband Connect 支援所有重要的 PPPoE 參數。可以簡單使用撥號連線時的電話號碼來調整設定。cFos Broadband Connect 也可透過自動偵測功能來尋找所有連線到您的系統的網際網路存取點。";
@@ -2072,7 +2366,12 @@ bc_param_in_service = "   in_service_name （空）            僅回應服務�
 bc_param_padr_timeout = "   padr_timeout 2000            逾時時間，單位為毫秒。指定 cFos Broadband Connect\n                               在來電時要等待 PADR 封包多久。";
 bc_param_max_frame = "   max_frame_size=x            最大訊框大小 (MTU)，預設值為 1492";
 
-/ oem
+/ ----------------------------------------------------------------------
+/
+/  OEM
+/
+/ ----------------------------------------------------------------------
+
 oem_title = "供網路業者與裝置製造商發行的 OEM 版本";
 oem_t1 = "我們的 OEM 產品";
 oem_t2 = "高速 PPPoE 撥號驅動程式，適用於 Windows 7、Vista 和 XP";
@@ -2083,20 +2382,26 @@ oem_t3 = "透過流量塑型，得到最大頻寬與最低的 ping 值";
 oem_l4 = "包含 Windows 7、Windows Vista、Windows XP、Windows 2000 的 x86 與 x64 版本的 NDIS 驅動程式";
 oem_l5 = "為現有連線，無論寬頻或窄頻皆能流量塑型";
 oem_l6 = "為路由器和 DSL / Cable modem 進行流量塑型";
+
 /. Means "customizable status window with skins"
 /. or "brandable status window skin"
 oem_l7 = "可透過面板調整狀態視窗外觀";
+
 oem_l8 = "流量限制、速度限制";
 oem_t4 = "ISDN 和 DSL 撥號驅動程式，包含流量塑型功能";
 oem_l9 = "針對 Windows 7、Vista、XP、2000 的 x86 和 x64 版，以及舊版作業系統如 Windows 9X、ME 的 COM 埠驅動程式";
 oem_l10 = "支援 CAPI 2.0（CAPI2032.DLL 或核心模式 CAPI）的 ISDN 連線";
+
 /. Channel bundling allows to use 2 ISDN channels as one for better bandwidth
 oem_l11 = "頻道捆綁";
+
 oem_l12 = "即時偵測 PPPoE，不需要再安裝驅動程式";
 oem_l13 = "供 Windows Vista、XP、2000 的 x86 和 x64 位元版本使用，若需要亦可提供舊版作業系統版本。 ";
 oem_l14 = "容易整合到現有的安裝程式";
+
 /. fees = licensing costs
 oem_t5 = "授權條件和費用";
+
 oem_l15 = "費用是根據訂購的授權數量計算";
 oem_l16 = "最少需 1,000 份授權";
 oem_l17 = "可以預先談定的固定價格，或是依照實際使用授權數量收費";
@@ -2105,7 +2410,12 @@ oem_t7 = "我們的標準 OEM 授權契約是以德文和英文撰寫";
 oem_t8 = "聯繫方式：";
 oem_t9 = "OEM 夥伴";
 
-/ asus
+/ ----------------------------------------------------------------------
+/
+/  ASUS
+/
+/ ----------------------------------------------------------------------
+
 asus_p1 = "作為某些 ASUS 主機板的客戶，您可以使用 ASUS ROG GameFirst I &amp; II / Turbo LAN。這是完整功能，無限制的 cFosSpeed 流量塑型解決方案。我們希望您可以享受 ASUS ROG GameFirst I &amp; II / Turbo LAN 所帶來的加速快感。";
 asus_p2 = "您可以使用最新、更專業的 cFosSpeed 來做更多微調。";
 asus_a1 = "您可以 <a class=\"inline\" href=\"/en/download/download.htm\">在此下載 cFosSpeed</a>。";
@@ -2118,13 +2428,26 @@ asus_af_l4 = "<b>即時流量分析</b>：狀態視窗即時顯示流量情況�
 asus_af_l5 = "<b>微調選項</b>：選擇連線媒體、Rx 和 Tx 速度限制的、DSCP / VLAN 標記 / 過濾。";
 asus_af_l6 = "<b>其他功能</b>：全螢幕時自動隱藏（遊戲模式）、防火牆、音量與上網時間計數器、IP 過濾器清單/封鎖清單。";
 
-/ asrock
+/ ----------------------------------------------------------------------
+/
+/  ASRock
+/
+/ ----------------------------------------------------------------------
+
 asrock_p1 = "作為 ASRock 主機板的客戶，您可以使用 ASRock XFast LAN。這是完整功能，無限制的 cFosSpeed 流量塑型解決方案。我們希望您可以享受 ASRock XFast LAN 所帶來的加速快感。";
 asrock_p2 = "您可以使用最新、更專業的 cFosSpeed 來做更多微調。";
 asrock_p3 = "若您安裝 cFosSpeed，將會有 30 天試用期。然後您可以購買 cFosSpeed 終身授權，或是移除 cFosSpeed 裝回 ASRock XFast LAN。cFosSpeed 終身授權的擁有者可永遠立即獲得 cFosSpeed 的最新功能和測試版 / 預先發行版本。";
 
-/ special price
+/ ----------------------------------------------------------------------
+/
+/  Special price
+/
+/ ----------------------------------------------------------------------
+
+/. Means "Go back" or "Return"
+/. Used as text of link, which takes user back to previous page
 back = "返回";
+
 explain1 = "為了增加宣傳和推廣我們的流量塑型技術，我們現在正以非常特別的促銷價銷售 cFos 和 cFosSpeed。";
 explain2 = "您將收到一份可使用 32 位元和 64 位元版本的授權。";
 explain4 = "cFosSpeed 也包括 Vista/7 的未來版本";
@@ -2138,7 +2461,12 @@ special_price_h2 = "到 1 月 31 日：";
 special_price_h3 = "從 2 月 1 日：";
 special_price_h4 = "對於所有授權：";
 
-/ contact
+/ ----------------------------------------------------------------------
+/
+/  Contact
+/
+/ ----------------------------------------------------------------------
+
 affiliate_program = "加盟計劃";
 affiliate_earnmoney = "想利用 cFosSpeed 賺錢嗎？";
 affiliate_placelink = "在您的網站上放一個特別的訂購連結，即可從中取得固定的銷售利潤回饋";
@@ -2300,7 +2628,12 @@ cont_select_h4 = "其它問題";
 cont_trademark = "cFos® 是註冊商標。";
 word_mandatory = "必填";
 
-/ link_programm
+/ ----------------------------------------------------------------------
+/
+/  link_programm
+/
+/ ----------------------------------------------------------------------
+
 banner_alt = "cFos / cFosSpeed 加速 DSL 與第四台寬頻上網加速與流量塑型、調整、最佳化 Ping值";
 internet_tuning = "最佳化上網速度";
 for_techniques = "供 DSL、路由器與第四台網路（cable modem）使用";
@@ -2314,7 +2647,12 @@ word_logo = "標示";
 word_background = "背景";
 text_it_works = "有效！";
 
-/ press
+/ ----------------------------------------------------------------------
+/
+/  Press
+/
+/ ----------------------------------------------------------------------
+
 press = "新聞稿";
 release = "新聞稿";
 supported_operating_systems = "支援的作業系統";
@@ -2328,7 +2666,12 @@ press_boilerplate_text = "自 1993 年以來，cFos Software GmbH, Bonn (Germany
 legal_note = "法律聲明";
 legal_note_text = "我們的授權停款明確地允許將最新版的 cFos、cFos Broadband Connect、cFos IPv6 Link 及 cFosSpeed 放入雜誌附贈的免費光碟中散佈。若需更多法律聲明，請參考我們的 <a href=\"/en/cfosspeed/license.htm\">LICENSE.TXT</a> 檔案。我們網站上的文字和圖片皆可用於新聞和審查目的。";
 
-/ speed guide
+/ ----------------------------------------------------------------------
+/
+/  cFos Speed Guide
+/
+/ ----------------------------------------------------------------------
+
 speed_guide = "cFos Speed Guide";
 speed_guide_const = "速度指南正在建構中，將會盡快完成。<br />";
 speed_guide_continue = "繼續";
@@ -2394,8 +2737,10 @@ speed_guide_p11e = "若需較高的下載速度：";
 speed_guide_q11 = "這樣有幫助嗎？";
 speed_guide_p12a = "有一些罕見情況是 cFosSpeed 接收端的塑型功能時會降低下載速度。<br/>請試著在 <b class=\"speed_console\">cFosSpeed 主控台</b> 這麼做：";
 speed_guide_p12b = "也有一些罕見情況是，您網路遺失的封包混淆了 cFosSpeed 的流量塑型功能。<br/>請試著在 <b class=\"speed_console\">cFosSpeed 主控台</b>：";
+
 /. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p13a = "有時在有大量連線數與 UDP 流量時，測量到的速度會隨時間變動。這可能發生在一些使用 BitTorrent 的時候。校正功能正常，但經過一段時間之後，連線速度會越來越慢。";
+
 speed_guide_p13b = "這種情況下，您可將速度固定下來：";
 speed_guide_l13a = "使用 <b class=\"speed_console\">cFosSpeed 主控台</b> 得到目前的值：";
 speed_guide_l13b = "現在選擇這兩個數字之間的值，並將其設定為這個值得 98% 至 90% 之間（以 <span class=\"txspeed_new\">510715</span> 為例）。<br />";
@@ -2406,8 +2751,10 @@ speed_guide_q14 = "打開了低延遲模式嗎？";
 speed_guide_a14 = "試著打開它：";
 speed_guide_p15 = "也許高 ping 值是由對方的伺服器造成的。這種情況經常在發生遊戲伺服器。cFosSpeed 無法您的 ping 值降到比網路業者造成的 ping 還低。當您同時進行多個連線時，cFosSpeed 可以減少 ping 值並為您的封包調整優先權，使您在 ping 值保持最低的時候，還能有最大的頻寬。讓您可以在透過 VoIP 打電話或玩線上遊戲時，還能下載/上傳檔案。";
 speed_guide_l15a = "移除 cFosSpeed 或停用流量塑型";
+
 /. `try both` here refers to `speed_guide_l15a` language key, which suggests to `Uninstall cFosSpeed or disable Traffic Shaping`
 speed_guide_l15b = "下載 <a target=\"_blank\" href=\"http://www.cfos.de/en/download/download.htm#hrping\">hrping</a> - 並在您的網路上沒有其他流量時 - 試試看這兩種方式";
+
 speed_guide_q15 = "ping 值還是很高嗎？";
 speed_guide_a15 = "秘訣：對 DSL 連線使用 fastpath。無線網路一般來說都會比有線網路有較高的 ping 值，行動網路因為還可能會因為不良的訊號環境或基地台擁塞的關係，有更大的延滯。";
 speed_guide_p16 = "網路中是否有另一台電腦在傳送或接收資料？";
@@ -2420,8 +2767,10 @@ speed_guide_q18 = "現在 ping 值有比較好了嗎？";
 speed_guide_p19 = "有些設備會干擾 TCP 傳輸。例如，Atheros 無線網卡的某些驅動程式會在下載檔案時造成 ping 值變高。請安裝最新的網路驅動程式。若需測試，請使用另一張網路卡，看看下載檔案時的 ping 值是否仍然這麼高。";
 speed_guide_q19 = "新的驅動程式 / 其他網路卡有幫助嗎？";
 speed_guide_p20a = "cFosSpeed 是否被設定為固定速度？在 <b class=\"speed_console\">cFosSpeed 主控台</b> 中輸入下列東西：";
+
 /. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p20b = "除了在有很多 BitTorrent 的連線和 UDP 流量的少數情況，它應該是 0。";
+
 speed_guide_p20c = "如果您的 cFosSpeed 的線路校正結果保持穩定，您應該將其設定為 0：";
 speed_guide_p20d = "或者使用較小的固定速度（嘗試降低速度，一次 1% ）。";
 speed_guide_h21 = "優先權";
@@ -2462,7 +2811,12 @@ speed_guide_l26e = "針對遊戲玩家的建議";
 speed_guide_l26f = "調整程式優先權";
 speed_guide_l26g = "調整通訊埠優先權";
 
-/ speed test
+/ ----------------------------------------------------------------------
+/
+/  cFos Speed Test
+/
+/ ----------------------------------------------------------------------
+
 speed_test = "cFos Speed Test";
 sptest_info_p1 = "透過我們全新的 Speed Test 網頁，您可以快速測試網際網路連線速度，您可以進行上傳和下載的速度測試，來驗證您的網際網路連線速度是否與電信業者宣稱的速度相同。速度測試功能是設計來測量您的頻寬的最高可用速度，如果測試結果與您網路業者提供的速度不是完全相同請別緊張，例如：假設您的可用頻寬為 16Mbit/s，1% 的容忍值即為 160,000 bit/sec，看起來差很多但實際上不會有太大感覺。";
 sptest_info_p1_sm = "透過我們全新的速度測試工具，您可以快速測試網際網路連線速度。您可以進行上傳和下載的速度測試，來驗證您的網際網路連線速度是否與電信業者宣稱的速度相同。";
@@ -2484,7 +2838,12 @@ sptest_send = "傳送報告";
 sptest_cancel = "取消";
 sptest_bot_p1 = "cFosSpeed 的 MSS（MTU）的最佳化可能會將您的 MSS/MTU 從 1492 稍微降低一點。在基於 ATM 的 DSL 網路架構中，這樣能有更高的傳輸量，但某些「網路速度測試」頁面有不同看法。MSS（MTU）最佳化可能會干擾某些遊戲，所以您最好在開關 MSS（MTU）最佳化的情況下都做一次速度測試，自己進行最佳化。";
 
-/upload
+/ ----------------------------------------------------------------------
+/
+/  Upload
+/
+/ ----------------------------------------------------------------------
+
 upload_title = "cFos 上傳網頁";
 upload_h1 = "上傳檔案";
 upload_thanks = "感謝您幫助我們修正產品中的問題。";
@@ -2492,7 +2851,12 @@ upload_p1 = "請確保您已使用最新的 <a class=\"inline\" href=\"/en/downl
 upload_p2 = "請注意，我們不會都回應每一筆上傳資料，但我們必定會研究這些資料，如果我們需要其他資料會再與您聯繫。";
 description = "敘述";
 
-/videos
+/ ----------------------------------------------------------------------
+/
+/  Videos
+/
+/ ----------------------------------------------------------------------
+
 videos_h1 = "YouTube 影片";
 videos_text1 = "如何調整您網際網路連線的媒體/通訊協定種類";
 videos_text2 = "cFos WMI Monitor，cFos PNet 的一套附加元件";
@@ -2512,7 +2876,67 @@ videos_text15 = "cFosSpeed 與羅技玩家級鍵盤 G19";
 videos_text16 = "cFosSpeed 6.50 在 Windows7 32bit 版本上的安裝";
 videos_text17 = "cFosSpeed 5.00 版 - 在 Windows 7 安裝";
 
-/meta descriptions
+/ ----------------------------------------------------------------------
+/
+/  Port forwarding
+/
+/ ----------------------------------------------------------------------
+
+port_forwarding_title = "在您的路由器設定通訊埠轉遞";
+port_forwarding_brand = "選擇路由器品牌";
+port_forwarding_router = "選擇路由器型號";
+port_forwarding_got_instructions = "有此路由器型號的教學。";
+port_forwarding_goto_instructions = "前往教學";
+port_forwarding_no_instruction_h1 = "無此路由器的設定教學。";
+port_forwarding_no_instruction_p1 = "若您知道如何設定此路由器，並想告訴我們以獲得 cFosSpeed 及 cFos Personal Net 授權金鑰的話，請點擊下方按紐。";
+port_forwarding_no_instruction_p2 = "教學內容應包含畫面擷圖以及明確而清楚的步驟教學，您可參考<a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding/avm-7490.htm\"><b>此範例</b></a>。";
+port_forwarding_no_instruction_p3 = "可在 <a class=\"inline\" href=\"/files/port-forwarding-step-numbers.zip\"><b>此處</b></a> 下載用於畫面擷取圖中標示各步驟數字的圖片。";
+port_forwarding_contact_us = "連絡我們";
+coming_soon_title = "即將推出！";
+coming_soon_p1 = "我們正在為此路由器撰寫教學。<br/><b>很快就會推出。</b>";
+avm_7490_title = "設定 AVM FRITZ!Box 7490 的通訊埠轉遞功能";
+avm_7490_p1 = "使用您的帳號密碼登入 FRITZ!Box";
+avm_7490_p2 = "點擊左方主選單的「Internet」及「Permit Access」";
+avm_7490_p3 = "點擊「Permit Access」分頁";
+avm_7490_p4 = "點擊「New Port Forwarding」按鈕";
+avm_7490_p5 = "在選項清單中選擇「HTTP-Server」及執行 cFos Personal Net 的電腦";
+avm_7490_p6 = "點擊「Apply」";
+avm_7490_p7 = "再次點擊「Apply」儲存設定";
+avm_7490_p8 = "通訊埠轉遞設定完成，您可登出 FRITZ!Box。";
+huawei_hg633_title = "設定 Huawei HG633 的通訊埠轉遞功能";
+huawei_hg633_p1 = "登入至路由器";
+huawei_hg633_p2 = "點擊「Internet」分頁";
+huawei_hg633_p3 = "點擊「Port Forwarding」";
+huawei_hg633_p4 = "點擊「New Port Mapping」";
+huawei_hg633_p5 = "從「Application」清單選擇「Webserver(HTTP)」";
+huawei_hg633_p6 = "在「Internal Host」選擇執行 cFos Personal Net 的電腦";
+huawei_hg633_p7 = "點擊「Save」";
+mitrastar_hgw_2501gn_r2_title = "設定 Mitrastar HGW-2501GN-R2 的通訊埠轉遞功能";
+mitrastar_hgw_2501gn_r2_p1 = "使用您的帳號密碼登入路由器（預設 IP: <b>192.168.1.1</b>、預設網址: <b>http://192.168.1.1/cgi-bin/main.html</b> 、預設帳號: <b>1234</b>、預設密碼: <b>1234</b>）。若您是 Movistar ISP 客戶，請連絡他們取得密碼。";
+mitrastar_hgw_2501gn_r2_p2 = "點擊左側主選單的「Network Setting」";
+mitrastar_hgw_2501gn_r2_p3 = "點擊「NAT」";
+mitrastar_hgw_2501gn_r2_p4 = "點擊「Port Forwarding」標籤";
+mitrastar_hgw_2501gn_r2_p5 = "在「WAN Interface」選擇網際網路介面，然後點擊「Add new rule」按鈕";
+mitrastar_hgw_2501gn_r2_p6 = "勾選「Active」選取盒";
+mitrastar_hgw_2501gn_r2_p7 = "在「Service Name」選擇「WWW」，然後在「Server IP Address」欄位輸入要執行 cFos Personal Net 的電腦的（最好是固定）IP";
+mitrastar_hgw_2501gn_r2_p8 = "點擊「Apply」按鈕";
+mitrastar_hgw_2501gn_r2_p9 = "點擊右上角的「Logout」登出路由器";
+tlink_td_8840tv4_title = "設定 TP-LINK TD-8840Tv4 的通訊埠轉遞功能";
+tlink_td_8840tv4_p0 = "下列設定教學是依照最新版本韌體（TD-8840Tv4_0.8.0_2.3_up(150917)_2015-09-18_09.14.43.bin）撰寫，您可於 <a class=\"inline\" href=\"http://www.tp-link.de/res/down/soft/TD-8840TV4_150917.zip\"><b>此處</b></a>下載。";
+tlink_td_8840tv4_p1 = "使用您的帳號密碼登入路由器（預設 IP: <em>192.168.1.1</em>、預設帳號、密碼皆為:<em>admin</em>）";
+tlink_td_8840tv4_p2 = "點擊左方主選單的「Forwarding」及「Virtual Servers」";
+tlink_td_8840tv4_p3 = "點擊「Add New」按鈕";
+tlink_td_8840tv4_p4 = "在「Common Service port」選擇「HTTP」並在「IP Address」欄位輸入要執行 cFos Personal Net 的電腦的（最好是固定）IP";
+tlink_td_8840tv4_p5 = "點擊「Save」按鈕";
+tlink_td_8840tv4_p6 = "點擊左方主選單的「Logout」登出路由器";
+tlink_td_8840tv4_p7 = "通訊埠轉遞設定完成！";
+
+/ ----------------------------------------------------------------------
+/
+/  Meta descriptions
+/
+/ ----------------------------------------------------------------------
+
 missing_meta_desc = "缺少 meta description";
 asrock_index_desc = "給 ASRock XFast LAN 使用者的其他資訊。";
 asus_asus_desc = "給 ASUS Game!First 使用者的其他資訊。";
@@ -2551,6 +2975,7 @@ cfospnet_documentation_dav_desc = "cFos Personal Net 的 WebDAV、CalDAV 及 Car
 cfospnet_documentation_media_desc = "cFos Personal Net 的媒體伺服器功能的說明文件";
 cfospnet_documentation_security_desc = "cFos Personal Net 伺服器的安全性小秘訣。";
 cfospnet_documentation_scripts_desc = "cFos Personal Net 內建的標準指令碼的的說明文件。";
+cfospnet_documentation_install_scripting_desc = "如何在 cFos Personal Net 設定使用多種不同的程式語言";
 cfospnet_documentation_misc_desc = "cFos Personal Net 的其他功能的說明文件。";
 cfospnet_documentation_featref_desc = "cFos Personal Net 功能參考";
 cfos_professional_activation_failed_desc = "cFos Professional 啟用失敗時該怎麼辦？";
@@ -2580,6 +3005,7 @@ support_hacks_expired_desc = "我們對破解版的聲明，如果您的版本�
 support_index_desc = "聯絡 cFos 團隊。cFos 技術支援，首頁。";
 index_desc = "我們的入口網頁。選擇您需要哪套產品的資訊：1. cFosSpeed：網際網路加速器、流量塑型/頻寬管理。2. 使用 cFos IPv6 Link 連線到全新的 IPv6 網路。3. 使用 cFos Broadband Connect 高速撥號上網。";
 download_download_desc = "免費下載 cFosSpeed、cFos IPv6 Link、cFos Broadband connect 和 cFos Professional 與其他免費軟體。";
+download_start_download_desc = "在下載頁面下載選擇項目。";
 search_results_desc = "您在 www.cfos.de 的網頁搜尋結果。";
 traffic_shaping_explain_desc = "如何以最佳方式校正 cFos 的流量塑型，以及如何檢查它是否正常運作。";
 traffic_shaping_calibration_desc = "流量塑型：在學習階段會發生什麼事？";
@@ -2624,8 +3050,10 @@ cfosspeed_documentation_no_ping_desc = "如果 cFosSpeed 沒有接收到 ping �
 cfosspeed_documentation_phone_skins_desc = "當您的電腦正在使用全螢幕程式時，如何使用手機顯示狀態。";
 cfosspeed_documentation_prog_prio_desc = "優先權功能的原理。";
 cfosspeed_documentation_keyboard_leds_desc = "當您的電腦正在使用全螢幕程式時，如何使用鍵盤的 LED 燈號顯示狀態。";
+
 /. `BitTorrent` — name of the protocol, not of the program
 cfosspeed_documentation_p2p_desc = "使用 BitTorrent、ED2K 等 P2P 檔案分享軟體時如何設定 cFosSpeed 以獲得最佳效能。";
+
 cfosspeed_documentation_logitech_keyboard_desc = "如何使用羅技玩家鍵盤 G19、G15、G13、G510 與相容產品上的螢幕顯示 cFosSpeed 的狀態資訊。";
 cfosspeed_documentation_wlan_access_point_desc = "如何使用 cFosSpeed 讓您的 Windows 電腦變成無線網路熱點給智慧型手機、平板電腦與其他裝置使用。";
 beta_index_desc = "下載最新的 cFosSpeed、cFos IPv6 Link、cFos Broadband Connect 及 cFos Professional 的 Beta 測試版。";
@@ -2638,13 +3066,29 @@ oem_oem_desc = "我們的產品與 OEM 合作夥伴的客製版本資訊。也�
 cfos_notifier_desc = "cFos Notifier 產品概述。";
 cfos_notifier_whats_new_desc = "cFos Notifier 的新功能、改進和 bug 修正清單。";
 upload_desc = "上傳傾印檔案與其他檔案";
+port_forwarding_desc = "對大部分品牌的路由器開啟通訊埠轉遞功能的教學";
+pf_avm_7490_desc = "AVM FRITZ!Box 7490 的通訊埠轉遞設定教學";
+pf_huawei_hg633_desc = "Huawei HG633 的通訊埠轉遞設定教學";
+pf_mitrastar_hgw_2501gn_r2_desc = "Mitrastar HGW-2501GN-R2 的通訊埠轉遞設定教學";
+pf_tlink_td_8840tv4_desc = "T-Link TD-8840Tv4 的通訊埠轉遞設定教學";
+pf_coming_soon_desc = "路由器設定教學撰寫中的暫用頁面";
 video_page_desc = "cFos Software 的所有 YouTube 影片";
 cfosspeed_features_title = "cFosSpeed 重要功能清單。";
 
-/mailing lists
+/ ----------------------------------------------------------------------
+/
+/  Mailing lists
+/
+/ ----------------------------------------------------------------------
+
 announce_list = "cFos 公告郵件群組";
 
-/ countrynames
+/ ----------------------------------------------------------------------
+/
+/  Countrynames
+/
+/ ----------------------------------------------------------------------
+
 countryname_bg = "保加利亞";
 countryname_br = "巴西";
 countryname_by = "白俄羅斯";
@@ -2681,10 +3125,45 @@ countryname_vn = "越南";
 countryname_zh_hk = "香港";
 languagename_per = "波斯語";
 
-/ no translation  -  currency info for order form exchange rates only - do not modify!
+/ ----------------------------------------------------------------------
+/
+/  Currency
+/
+/ ----------------------------------------------------------------------
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those strings used in Order Form exchange rates and shouldn't be modified
+/
+/ !!! DO NOT TRANSLATE !!!
+
+/. Code of native for current language currency according to European Central Bank
+/. Used to retrieve exchange rates from ECB, calculate and display prices in native currency on Order page
+/. Do not modify, unless you really know what you're doing
 currency_4217 = "TWD";
+
+/. Leading and subsequent (if needed any) currency symbol/code of specified in `currency_4217` currency
+/. Purely decorative
+/. String will be formed without any predefined spaces, like that:
+/= `~ currency_prefix{{value}}currency_suffix`
+/. So, don't forget to add space before suffix, or after prefix, if you need any, right inside language key
 currency_prefix = "NT$";
 currency_suffix = "";
+
+/. Value of `Country` field in Order form
+/. In English always should be `Select your country`
+/. In other languages should contain name of the country _in English_, for which specified currency in `currency_4217`
 selected_value = "Taiwan";
 
+/ END SECTION: do not translate
 
+/ ----------------------------------------------------------------------
+/
+/  Testing language keys
+/  Test purposes, !!! DO NOT TRANSLATE !!!
+/
+/ ----------------------------------------------------------------------
+
+
+/ END SECTION: do not translate
