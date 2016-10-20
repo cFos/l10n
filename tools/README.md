@@ -24,3 +24,5 @@ To get untranslated files you have to do following steps:
 3. Run script in `/tools` depending on source and language for which you'd like to get untranslated strings. For example, to get software strings for French language, run `get.untranslated.software.fr-1036.bat`
 
 File with untranslated strings will appear in root of project. For example, generated today file for software strings from French language will look like this `sw__mk__fr--en__2016-10-20.cfos.txt`.
+
+If you want to have more freedom over what extracted, exported and so on — try using `mltool.exe` directly. It's CLI utility. See instructions for it [here](https://github.com/cFos/l10n/tools/bin/README.md).
