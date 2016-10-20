@@ -1,0 +1,16 @@
+/added.misc/
+/added.software/
+/added.website/
+
+/build/
+
+auth.bat
+
+/locales.website.templates*
+
+/sent/
+/pending/
+
+/misc/
+
+/*.bak
