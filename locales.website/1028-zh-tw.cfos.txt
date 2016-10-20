@@ -56,6 +56,7 @@ cookie_bar_details = "了解更多資訊";
 
 /. Used as "I've understood"
 cookie_bar_got_it = "知道了";
+
 desc_6link = "為 XP、Vista 和 Windows 7 設計的 IPv6 連線程式";
 desc_dialup = "網路撥接";
 desc_shaping = "透過最佳化網路通訊來加速網際網路連線";
@@ -119,6 +120,10 @@ learn_more = "了解產品的更多資訊";
 /. Please, keep line feed (`<br/>` tag, which stands for line break) at approx middle of the text,
 /. preferred directly before the brand names
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> 是<br/>ASUS、GIGABYTE、ASRock、MSI 電競主機板的官方網路加速器";
+
+/. Used as notification banner for OEM users
+/. Please, keep line feed (`<br/>` tag, which stands for line break) at approx middle of the text,
+/. preferred directly before the link to the brand pages
 
 /: https://www.cfos.de/ru/order/order.htm
 /. Used on a small label in corner of product's box image
@@ -661,7 +666,10 @@ pnet_until = "在那之前購買終身授權，只需 ";
 pnet_after = "8 月 7 日後將調整為 ";
 pnet_nat_h1 = "設定 NAT 通訊埠轉遞";
 pnet_nat_p1 = "這裡有我們 <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>針對知名品牌路由器所撰寫的設定教學</b></a>。";
+
+/. pnet_nat_p2 is outdated and split into three parts now - no need to translate it any longer
 pnet_nat_p2 = "<b class=\"green\">免費獲得 cFosSpeed 及 cFos Personal Net 授權！</b><br/>請幫助我們補完 <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>路由器設定指南</b></a>。撰寫如何在您的路由器設定 NAT 通訊埠轉遞功能的教學，即可獲得免費授權。";
+
 pnet_nat_p3 = "您的路由器已在清單中嗎？";
 pnet_wmi_add_p1 = "<a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI 監控程式</b></a> 是 cFos Personal Net 的免費附加元件，可以顯示您系統幾乎所有的 WMI 資料，例如：CPU 使用率、GPU 使用率、網路使用率、ping 時間…等等，可以在任何地方存取這些 WMI 資料。";
 pnet_wmi_add_p2 = "<b>cFos WMI 監控程式</b>可幫助遊戲玩家、重度使用者、音樂玩家…等等，在執行程式時監控系統裡不同元件的效能，<b>cFos WMI 監控程式</b>可在你的個人電腦或智慧型手機上的瀏覽器顯示這些資訊。";
@@ -955,7 +963,6 @@ cfout_p7b = "密碼的開頭有「!」時就代表已被即時加密，cFos Outl
 cfout_p7c = "您可以在 <em>C:\\ProgramData\\cFos\\outlook_dav</em> 找到一個名為 <em>trace.txt</em> 的檔案，其中是最近的同步動作日誌。";
 cfout_p7c_v2 = "您可以在 <em>C:\\Users\\YOUR_USERNAME\\AppData\\Local\\cFos\\outlook_dav</em> 找到一個名為 <em>trace.txt</em> 的檔案，其中是最近的同步動作日誌。";
 cfout_p8 = "cFos Outlook DAV 是使用 Internet Explorer 瀏覽器的代理伺服器設定。您可以於控制台中的網際網路選項進行修改。";
-cfout_disclaimer = "與 CalDAV/CardDAV 伺服器同步 Outlook 資料可能會有未預期的相容性問題，造成資料損失。您應該只在完全測試後再使用 cFos Outlook DAV。";
 cfout_conf_title = "如何在五步驟內與 Outlook 同步 CalDAV 行事曆或 CardDAV 通訊錄";
 cfout_goto_help = "請參考我們的 <b>詳細圖片說明</b>。";
 cfout_server = "選擇您的 CalDAV/CardDAV 伺服器類型";
@@ -1090,7 +1097,14 @@ link_text_feature_list = "ISDN 和 DSL 功能";
 link_text_firewall = "防火牆";
 link_text_what_is_cfos = "cFos/Professional 是什麼？";
 
-/hrping
+
+/ ----------------------------------------------------------------------
+/
+/  hrPing
+/
+/ ----------------------------------------------------------------------
+
+/: http://www.cfos.de/en/ping/ping.htm
 hrping_title = "hrPing - 高精確度的 ping 工具";
 hrping_title_h0 = "<span class=\"product\">hrPing</span> - 高精確度的 ping 工具";
 hrping_p1 = "您可以用 hrPing 比 Windows Ping 做更多事。";
@@ -1118,12 +1132,10 @@ hrping_l7 = "清理大小: 傳送不同大小的封包";
 hrping_l8 = "可以只顯示傳送結果摘要";
 
 /: http://www.cfos.de/en/ping/ping.htm
-
 /. Used as one of entries in list of hrPings features
 /. Says that hrPing is effective replacement for both those utilities.
 /. `Traceroute` and `Pathping` are names of utilities for networks diagnostic, do not translate them
 hrping_l9 = "也可以拿來當作 Traceroute 與 Pathping 使用";
-
 
 / ----------------------------------------------------------------------
 /
@@ -1834,7 +1846,6 @@ sp_doc_games_t1 = "最佳化連線設定：";
 /. Connections types untranslatable in our software, so they shouldn't be translated here either (`Adaptive`)
 sp_doc_games_p9 = "您可以在連線控制內特別指定您的連線媒體。cFos 或 cFosSpeed 若能更了解關於連線的資訊，ping 值表現就會越好。預設值為「自動偵測」，但若您使用 DSL 連線，您就應該選擇正確的 DSL 標準與通訊協定作為您的連線媒體。";
 
-sp_doc_games_t2 = "偏好 Ping 值:";
 /. `Favor Ping` is translatable in our software, so it should be translated here too.
 /. Ensure in consistent translation across website and software, by checking
 /. translation of cFosSpeed's into your language.
@@ -2124,7 +2135,6 @@ sp_doc_voip_t2 = "Skype:";
 sp_doc_voip_p6 = "Skype 使用了自有的加密通訊協定，而無法被第7層分析檢測出來。若要提高 Skype 的優先權，你可以在程式列表中輸入它。";
 sp_doc_voip_t3 = "透過路由器調整 VoIP 優先權:";
 sp_doc_voip_p7 = "某些路由器（例如 Fritz!Box）內建電話插孔。若插入電話時，所有語音資料將略過 cFosSpeed 直接傳輸到網際網路上。這些路由器可能會在進行 VoIP 通話時限制網路頻寬，造成流量塑型功能暫時失效。因此我們建議您直接在電腦上撥打 VoIP 電話而不透過話機撥打，以讓 cFosSpeed 能夠自動偵測並正確設定封包優先權。";
-
 sp_doc_voip_t4 = "使用 cFosSpeed 時同時使用 VoIP 軟體";
 sp_doc_voip_t5 = "使用 IxChariot 測量";
 sp_doc_voip_p8 = "我們使用 IxChariot（Ixia 的網路性能測試軟體）來測試 cFosSpeed 的流量塑型效果。為求準確，我們在進行多個上傳的同時使用 IxChariot 來監測 VoIP 參數。";
@@ -2444,6 +2454,20 @@ asrock_p3 = "若您安裝 cFosSpeed，將會有 30 天試用期。然後您可�
 
 / ----------------------------------------------------------------------
 /
+/  Gigabyte
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  MSI
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
 /  Special price
 /
 / ----------------------------------------------------------------------
@@ -2551,7 +2575,6 @@ cont_cont_p6_cookies = "其他第三方可能會在您的瀏覽器設定並閱�
 cont_cont_p6_google1 = "為了追蹤我們的網站的使用情形，我們會在網站上設立 Cookie，並使用 Google Analytics。";
 cont_cont_p6_google2 = "Google 將匿名化 IP 地址，您也可以透過在瀏覽器中安裝附加元件來完全停用 Google Analytics。若需更多資訊，請參考 <a class=\"inline\" href=\"http://tools.google.com/dlpage/gaoptout?hl=de\">此處</a>。";
 cont_cont_p6_owncookies = "您可以在瀏覽器中停用我們網站的 Cookie 以避免被我們網站設定 Cookie。";
-cookie_bar_text = "我們也會分享您如何使用我們網站的方式給我們的社交媒體、廣告與流量分析夥伴。";
 cont_cont_p7 = "資料揭露：";
 cont_cont_p8 = "您可以在任何時候自由的要求您儲存在本公司的資料，並要求更正、封鎖並刪除您的資料。請直接聯絡我們（於 <b>cFos Software GmbH, Nordstr. 65a, 53111 Bonn</b>）或 <img src=\"/images/support-link.png\" style=\"position: relative; top: 3px\" alt=\"\" />。";
 cont_cont_p9 = "向第三者傳播：";
@@ -2898,15 +2921,6 @@ port_forwarding_no_instruction_p3 = "可在 <a class=\"inline\" href=\"/files/po
 port_forwarding_contact_us = "連絡我們";
 coming_soon_title = "即將推出！";
 coming_soon_p1 = "我們正在為此路由器撰寫教學。<br/><b>很快就會推出。</b>";
-avm_7490_title = "設定 AVM FRITZ!Box 7490 的通訊埠轉遞功能";
-avm_7490_p1 = "使用您的帳號密碼登入 FRITZ!Box";
-avm_7490_p2 = "點擊左方主選單的「Internet」及「Permit Access」";
-avm_7490_p3 = "點擊「Permit Access」分頁";
-avm_7490_p4 = "點擊「New Port Forwarding」按鈕";
-avm_7490_p5 = "在選項清單中選擇「HTTP-Server」及執行 cFos Personal Net 的電腦";
-avm_7490_p6 = "點擊「Apply」";
-avm_7490_p7 = "再次點擊「Apply」儲存設定";
-avm_7490_p8 = "通訊埠轉遞設定完成，您可登出 FRITZ!Box。";
 huawei_hg633_title = "設定 Huawei HG633 的通訊埠轉遞功能";
 huawei_hg633_p1 = "登入至路由器";
 huawei_hg633_p2 = "點擊「Internet」分頁";
@@ -2925,15 +2939,6 @@ mitrastar_hgw_2501gn_r2_p6 = "勾選「Active」選取盒";
 mitrastar_hgw_2501gn_r2_p7 = "在「Service Name」選擇「WWW」，然後在「Server IP Address」欄位輸入要執行 cFos Personal Net 的電腦的（最好是固定）IP";
 mitrastar_hgw_2501gn_r2_p8 = "點擊「Apply」按鈕";
 mitrastar_hgw_2501gn_r2_p9 = "點擊右上角的「Logout」登出路由器";
-tlink_td_8840tv4_title = "設定 TP-LINK TD-8840Tv4 的通訊埠轉遞功能";
-tlink_td_8840tv4_p0 = "下列設定教學是依照最新版本韌體（TD-8840Tv4_0.8.0_2.3_up(150917)_2015-09-18_09.14.43.bin）撰寫，您可於 <a class=\"inline\" href=\"http://www.tp-link.de/res/down/soft/TD-8840TV4_150917.zip\"><b>此處</b></a>下載。";
-tlink_td_8840tv4_p1 = "使用您的帳號密碼登入路由器（預設 IP: <em>192.168.1.1</em>、預設帳號、密碼皆為:<em>admin</em>）";
-tlink_td_8840tv4_p2 = "點擊左方主選單的「Forwarding」及「Virtual Servers」";
-tlink_td_8840tv4_p3 = "點擊「Add New」按鈕";
-tlink_td_8840tv4_p4 = "在「Common Service port」選擇「HTTP」並在「IP Address」欄位輸入要執行 cFos Personal Net 的電腦的（最好是固定）IP";
-tlink_td_8840tv4_p5 = "點擊「Save」按鈕";
-tlink_td_8840tv4_p6 = "點擊左方主選單的「Logout」登出路由器";
-tlink_td_8840tv4_p7 = "通訊埠轉遞設定完成！";
 
 / ----------------------------------------------------------------------
 /
@@ -3071,10 +3076,8 @@ cfos_notifier_desc = "cFos Notifier 產品概述。";
 cfos_notifier_whats_new_desc = "cFos Notifier 的新功能、改進和 bug 修正清單。";
 upload_desc = "上傳傾印檔案與其他檔案";
 port_forwarding_desc = "對大部分品牌的路由器開啟通訊埠轉遞功能的教學";
-pf_avm_7490_desc = "AVM FRITZ!Box 7490 的通訊埠轉遞設定教學";
 pf_huawei_hg633_desc = "Huawei HG633 的通訊埠轉遞設定教學";
 pf_mitrastar_hgw_2501gn_r2_desc = "Mitrastar HGW-2501GN-R2 的通訊埠轉遞設定教學";
-pf_tlink_td_8840tv4_desc = "T-Link TD-8840Tv4 的通訊埠轉遞設定教學";
 pf_coming_soon_desc = "路由器設定教學撰寫中的暫用頁面";
 video_page_desc = "cFos Software 的所有 YouTube 影片";
 cfosspeed_features_title = "cFosSpeed 重要功能清單。";
@@ -3171,3 +3174,4 @@ selected_value = "Taiwan";
 
 
 / END SECTION: do not translate
+
