@@ -391,7 +391,6 @@ no = "Ne";
 help = "Nápověda";
 bgraph_totals = "Celkem";
 blocklist = "IP blokování";
-blocklist_help = "Seznam IP adres, pro které je provoz blokován.";
 apply_blocklist = "Použít seznam filtrů";
 search = "Hledat";
 budget_connection = "Nastavte, jaký rozpočet se použije pro to které připojení";

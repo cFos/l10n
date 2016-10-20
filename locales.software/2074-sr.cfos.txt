@@ -295,7 +295,6 @@ no = "Ne";
 help = "Pomoæ";
 bgraph_totals = "Ukupno";
 blocklist = "Blokiranje IP-a";
-blocklist_help = "Spisak IP adresa za koje je sav saobraæaj blokiran.";
 apply_blocklist = "Koristi spisak filtera";
 search = "Pretraga";
 budget_connection = "Konfiguracija sa budžetom se koristi za ovu vezu";

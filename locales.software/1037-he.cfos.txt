@@ -258,7 +258,6 @@ no = "לא";
 help = "עזרה";
 bgraph_totals = "סיכום";
 blocklist = "חוסם כתובות";
-blocklist_help = "רשימת כתובות עבורם התעבורה חסומה.";
 apply_blocklist = "הפעל פילטר";
 search = "חפש";
 budget_connection = "הגדר תציבים לקישורים";

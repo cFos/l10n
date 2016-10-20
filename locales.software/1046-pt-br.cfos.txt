@@ -404,7 +404,6 @@ no = "Não";
 help = "Ajuda";
 bgraph_totals = "Total";
 blocklist = "Bloqueador de IP";
-blocklist_help = "Lista de endereços IP para os quais todo o tráfego está bloqueado.";
 apply_blocklist = "Usar lista de filtros";
 search = "Procurar";
 budget_connection = "Configure qual cota é usada para qual conexão";

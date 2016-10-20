@@ -291,7 +291,6 @@ no = "아니오";
 help = "도움";
 bgraph_totals = "총계";
 blocklist = "IP 블록";
-blocklist_help = "모든 트래픽이 블록된 IP주소 목록.";
 apply_blocklist = "필터 목록 사용";
 search = "찾기";
 budget_connection = "어떤 연결에 어떤 예산 사용 할지 설정";

@@ -387,7 +387,6 @@ no = "Nu";
 help = "Ajutor";
 bgraph_totals = "Total";
 blocklist = "Blocarea IPurilor";
-blocklist_help = "Listă cu adrese IP către care e blocat traficul.";
 apply_blocklist = "Foloseşte lista de filtre";
 search = "Caută";
 budget_connection = "Alocă bugetul conexiunilor";

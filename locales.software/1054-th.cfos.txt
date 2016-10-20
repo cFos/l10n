@@ -391,7 +391,6 @@ no = "ไม่";
 help = "ช่วยเหลือ";
 bgraph_totals = "รวมทั้งหมด";
 blocklist = "ตัวBlock IP";
-blocklist_help = "รายการที่ IP ที่ถูกปิดกั้นการเชื่อมต่อ";
 apply_blocklist = "ใช้ filterlist";
 search = "ค้นหา";
 budget_connection = "ปรับแต่งโควตาการใช้งานของการเชื่อมต่อ";

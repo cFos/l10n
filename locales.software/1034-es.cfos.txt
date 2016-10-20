@@ -353,7 +353,6 @@ yes = "Sí";
 no = "No";
 help = "Ayuda";
 blocklist = "Bloqueador de direcciones IP";
-blocklist_help = "Despliega una lista de las direcciones IP cuyo tráfico  se encuentra completamente bloqueado.";
 apply_blocklist = "Utilizar lista de filtros";
 search = "Buscar";
 budget_connection = "Configura el presupuesto que será usado con cada conexión";

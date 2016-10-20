@@ -413,7 +413,6 @@ help = "說明";
 /. Means `To show all programs and protocols traffic`
 bgraph_totals = "總計";
 blocklist = "IP 封鎖器";
-blocklist_help = "被封鎖的 IP 地址清單。";
 apply_blocklist = "使用封鎖清單";
 search = "搜尋";
 budget_connection = "設定連線使用那一個預算";

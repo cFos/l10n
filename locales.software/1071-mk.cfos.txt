@@ -277,7 +277,6 @@ no = "Не";
 help = "Помош";
 bgraph_totals = "Вкупно";
 blocklist = "IP-Блокирач";
-blocklist_help = "Листа на IP адреса за кои е блокиран целиот сообраќај.";
 apply_blocklist = "Користи филтер листа";
 search = "Барај";
 budget_connection = "Конфигурирај кој буџет се користи за која конекција";

@@ -384,7 +384,6 @@ no  = "Nem";
 help = "Súgó";
 bgraph_totals = "Összes";
 blocklist = "IP-blokkoló";
-blocklist_help = "IP-címek, melyekhez minden forgalom blokkolva lesz.";
 apply_blocklist = "Szűrőlista használata";
 search = "Keresés";
 budget_connection = "Kapcsolatokhoz beosztás hozzárendelése";

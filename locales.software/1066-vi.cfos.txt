@@ -393,7 +393,6 @@ no = "Không";
 help = "Trợ giúp";
 bgraph_totals = "Tổng";
 blocklist = "Chặn IP";
-blocklist_help = "Danh sách địa chỉ IP bị chặn tất cả lưu lượng.";
 apply_blocklist = "Sử dụng bộ lọc danh sách";
 search = "Tìm kiếm";
 budget_connection = "Cấu hình phân bổ sử dụng cho các kết nối";

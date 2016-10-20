@@ -304,7 +304,6 @@ no = "خیر";
 help = "راهنمايي";
 bgraph_totals = "کل";
 blocklist = "IP-Blocker";
-blocklist_help = "لیست آدرس های آی پی برای ترافیک مسدود شده";
 apply_blocklist = "استفاده از لیست فیلتر";
 search = "جستجو";
 budget_connection = "پیکربندی اینکه بودجه برای کدام اتصال باشد";

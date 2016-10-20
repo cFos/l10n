@@ -388,7 +388,6 @@ help = "تعليمات";
 /. Means `To show all programs and protocols traffic`
 bgraph_totals = "الإجمالي";
 blocklist = "IP-حاجب";
-blocklist_help = "التي حجبت حركة المرور منها IP قائمة عناوين";
 apply_blocklist = "إستخدام قائمة المرشح";
 search = "بحث";
 budget_connection = "قم بتكوين الميزانية المراد إستخدامها للإتصال المطلوب";

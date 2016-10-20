@@ -427,7 +427,6 @@ help = "Ayuda";
 /. Means `To show all programs and protocols traffic`
 bgraph_totals = "Total";
 blocklist = "Bloqueo de IP";
-blocklist_help = "Listado de direcciones IP para las cuales se ha bloqueado todo el tráfico.";
 apply_blocklist = "Usar listado de filtro";
 search = "Buscar";
 budget_connection = "Configurar el presupuesto que usará cada conexión";

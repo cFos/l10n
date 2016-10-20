@@ -257,7 +257,6 @@ no = "Nee";
 help = "Hulp";
 bgraph_totals = "Totaal";
 blocklist = "IP-Blokkeerder";
-blocklist_help = "Lijst met IP adressen waarvoor al het verkeer geblokkeerd is.";
 apply_blocklist = "Gebruik filterlijst";
 search = "Zoek";
 budget_connection = "Configureer welk budget voor welke verbinding gebruikt wordt";

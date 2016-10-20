@@ -451,7 +451,6 @@ help = "Yardım";
 bgraph_totals = "Toplam";
 
 blocklist = "IP-Engelleyici";
-blocklist_help = "Tüm trafiğin engellendiği durum için IP adreslerinin listesi.";
 apply_blocklist = "Filtre listesini kullan";
 search = "Ara";
 budget_connection = "Hangi bağlantı için hangi bütçenin kullanılacağını ayarlayın";

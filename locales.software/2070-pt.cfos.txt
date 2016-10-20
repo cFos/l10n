@@ -400,7 +400,6 @@ no = "Não";
 help = "Ajuda";
 bgraph_totals = "Total";
 blocklist = "Bloqueio de IPs";
-blocklist_help = "Lista de endereços IP para que todo o tráfego é bloqueado";
 apply_blocklist = "Aplicar a lista";
 search = "Procurar";
 budget_connection = "Configurar a quota que é usado em cada ligação";

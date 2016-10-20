@@ -311,7 +311,6 @@ no = "Ne";
 help = "Pomoč";
 bgraph_totals = "Skupaj";
 blocklist = "IP-Bloker";
-blocklist_help = "Seznam IP naslovov za katere je blokiran ves promet.";
 apply_blocklist = "Uporabi filtrirni seznam";
 search = "Išči";
 budget_connection = "Konfiguriraj kateri proračun bo uporabljen pri posamezni povezavi";

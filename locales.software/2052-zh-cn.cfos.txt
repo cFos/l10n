@@ -396,7 +396,6 @@ no = "否";
 help = "帮助";
 bgraph_totals = "总计";
 blocklist = "IP黑名单";
-blocklist_help = "列表中的IP地址的所有流量将被阻挡。";
 apply_blocklist = "使用黑名单";
 search = "搜索";
 budget_connection = "设置不同连接对应的预算";

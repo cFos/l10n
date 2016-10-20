@@ -384,7 +384,6 @@ no = "いいえ";
 help = "ヘルプ";
 bgraph_totals = "合計";
 blocklist = "IPアドレスブロック";
-blocklist_help = "すべてのトラフィックをブロックするIPアドレスのリストです。";
 apply_blocklist = "フィルターリストを使用";
 search = "検索";
 budget_connection = "どの接続に対してどの割当を適用するかを設定します";
