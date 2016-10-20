@@ -28,6 +28,8 @@ if "%src%"=="software" (
   set "src_full=website"
 )
 
+set "ml_file=%mlDir%\ml.%src_full%.cfos.txt"
+
 DEL "_temp.cfos.txt"
 
 @echo off
@@ -90,7 +92,7 @@ if defined first (
 more +1 "scripts\exclude.%src_full%.cfos.txt" >> "_temp.cfos.txt"
 
 :: Export untranslated or unreviewed with mltool
-IF "%type%"=="pr" %mltoolExe% pvr -m "%mlDir%\ml.%src_full%.cfos.txt" -i %sourceLang% -n "%destDir%\%src_prefix%%type%__%lang%--org__%date%.cfos.txt" -e %langId% -z "_temp.cfos.txt" -u
-IF "%type%"=="mk" %mltoolExe% exp -m "%mlDir%\ml.%src_full%.cfos.txt" -i %sourceLang% -n "%destDir%\%src_prefix%%type%__%lang%--en__%date%.cfos.txt" -e %langId% -z "_temp.cfos.txt" -u
+IF "%type%"=="pr" %mltoolExe% pvr -m %ml_file% -i %sourceLang% -n "%destDir%\%src_prefix%%type%__%lang%--org__%date%.cfos.txt" -e %langId% -z "_temp.cfos.txt" -u
+IF "%type%"=="mk" %mltoolExe% exp -m %ml_file% -i %sourceLang% -n "%destDir%\%src_prefix%%type%__%lang%--en__%date%.cfos.txt" -e %langId% -z "_temp.cfos.txt" -u
 
 DEL "_temp.cfos.txt"
