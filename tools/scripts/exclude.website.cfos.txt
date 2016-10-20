@@ -1,0 +1,87 @@
+﻿
+
+/ test purposes, don't translate!
+__test_key = "test_value";
+__test_key2 = "test_value2";
+__test_key3 = "test_value3";
+__test_key4 = "test_value4_en";
+__test_key5 = "test_value5";
+__test_key6 = "test_value6";
+__test_key7 = "test_value7";
+__test_key8 = "test_value8";
+
+bank_de_account = "2000 850 040";
+bank_de_blz = "380 601 86";
+bank_de_iban = "IBAN: DE 17 380 601 86 2000 850 040";
+
+cfos6link_linktext = "cFos IPv6 Link";
+speed_linktext = "cFosSpeed";
+gsm_etc = "GSM, UMTS, WIMAX, WIFI";
+isdn = "ISDN";
+ndis6 = "NDIS 6";
+router = "Router";
+dsl_ppoe = "DSL, PPPoE";
+dsl_pptp = "DSL, PPTP";
+no_ping_avg_security = "AVG Internet Security:";
+sp_doc_status_rx = "tx_shape_level / rx_shape_level";
+sp_doc_voip_t2 = "Skype:";
+system_requirements_speed02 = "32bit / 64bit (x64)";
+vdsl = "VDSL";
+vpn = "VPN";
+six_doc_131 = "[param]<br />option_dasp=100";
+six_doc_132 = "[DHCPv6_statefull_options]<br />oro1=100";
+six_doc_133 = "[DHCPv6_stateless_options]<br />oro1=100";
+
+/ no translation  -  currency info for order form exchange rates only - do not modify!
+wiki_link1 = "http://en.wikipedia.org/wiki/PPPoE";
+wiki_link2 = "http://en.wikipedia.org/wiki/PPPoA";
+wiki_link3 = "http://en.wikipedia.org/wiki/Point-to-Point_Tunneling_Protocol";
+wiki_link4 = "http://en.wikipedia.org/wiki/Cable_modem";
+wiki_link5 = "http://en.wikipedia.org/wiki/Integrated_Services_Digital_Network";
+wiki_link6 = "http://en.wikipedia.org/wiki/ATM_Adaptation_Layers";
+
+net_talk = "Net Talk";
+
+currency_4217 = "EUR";
+currency_prefix = "";
+currency_suffix = "&#8364;";
+input_lang = "pt";
+lang_key = "_pt";
+language = "Portuguese";
+selected_value = "Portugal";
+
+link_text_impressum = "";
+alt_cfos6link_image = "cFos IPv6 Link";
+sk_c64 = "cFos C64";
+bank_de_account_owner = "cFos Software GmbH";
+bank_de_name = "Volksbank Bonn";
+contact_line = "";
+currency_abbr = "&#8364;";
+currency_code_paypal = "EUR";
+currency_sign = "&#8364;";
+dollar_show = "<div style=\"float: right; height: 80px; width: 80px; padding: 0px; margin: 0px; background-image:url(../images/bigdot.gif); font-size: 17px; font-weight: bold; color: red; text-align: center\"> <span style=\"position: relative; top: 13px\"> 1.00&nbsp;&#x20ac;<br /></span> <span style=\"position: relative; top: 23px\">$&nbsp;1.42</span></div> ";
+moneybookers = "Moneybookers";
+paypal = "PayPal";
+webmoney = "WebMoney";
+special_price_launch = "19,95 &#8364;";
+
+twitter_notifier_linktext = "cFos Twitter Notifier";
+conf_lastschrift = "";
+special_offer_text = "";
+taobao_sale = "";
+em_transfer_hint_cn = "";
+link_text_0190 = "0190er Blocker";
+notifier_title = "cFos Twitter Notifier";
+product = "cFosSpeed";
+
+link_traffic_shaping = "/en/traffic-shaping/traffic-shaping.htm";
+
+f_mercado = "Mercado Pago";
+
+paypal_lang = "en_US";
+
+six_doc_137 = "[param]<br />nat46_addr=10.0.0.0<br />nat46_subnet_mask=255.0.0.0<br />";
+
+
+
+six_doc_p18 = "RFC 2464   Transmission of IPv6 Packets over Ethernet Networks<br />RFC 3162   RADIUS and IPv6<br />RFC 3315   Dynamic Host Configuration Protocol for IPv6 (DHCPv6)<br />RFC 3484   Default Address Selection for Internet Protocol version 6 (IPv6)<br />RFC 3587   IPv6 Global Unicast Address Format<br />RFC 3633   IPv6 Prefix Options for Dynamic Host Configuration Protocol (DHCP) version 6<br />RFC 3646   DNS Configuration options for Dynamic Host Configuration Protocol for IPv6 (DHCPv6)<br />RFC 3736   Stateless Dynamic Host Configuration Protocol (DHCP) Service for IPv6<br />RFC 4193   Unique Local IPv6 Unicast Addresses<br />RFC 4429   Optimistic Duplicate Address Detection (DAD) for IPv6<br />RFC 4443   Internet Control Message Protocol (ICMPv6) for the Internet Protocol Version 6 (IPv6) Specification<br />RFC 4472   Operational Considerations and Issues with IPv6 DNS<br />RFC 4818   RADIUS Delegated-IPv6-Prefix Attribute<br />RFC 4861   Neighbor Discovery for IP version 6 (IPv6)<br />RFC 4862   IPv6 Stateless Address Autoconfiguration<br />RFC 5006   IPv6 Router Advertisement Option for DNS Configuration<br />RFC 5072   IP Version 6 over PPP<br />RFC 5175   IPv6 Router Advertisement Flags Option<br />RFC 5220   Problem Statement for Default Address Selection in Multi-Prefix Environments<br />RFC 5221   Requirements for Address Selection Mechanisms<br />RFC 5453   Reserved IPv6 Interface Identifiers<br />draft:      <a class=\"inline\" href=\"http://tools.ietf.org/html/draft-fujisaki-dhc-addr-select-opt-08\">http://tools.ietf.org/html/draft-fujisaki-dhc-addr-select-opt-08</a>";

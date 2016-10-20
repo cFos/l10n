@@ -1,0 +1,820 @@
+﻿
+
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
+
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+cfosspeed_feature_highlights_htm = "%url/cfosspeed/cfosspeed-feature-highlights.htm";
+
+connection_type_help = "%url/traffic-shaping/traffic-shaping-old.htm#advanced";
+
+virtual_wifi_doc_url = "%url/cfosspeed/documentation/wlan-access-point.htm";
+
+htm_lang_prefix = "en";
+
+outlook_caldav_desc = "%p";
+
+pnet_conn_localhost = "localhost 127.0.0.1";
+
+mainurl_name = "www.cfos.de";
+
+bc_mainurl = "http://www.cfos.de/en/index.htm";
+bc_updateurl = "http://www.cfos.de/en/download/download.htm";
+bc_orderurl = "https://www.cfos.de/en/order/broadband-connect-n.htm";
+bc_langurl = "";
+bc_pg_name = "%p";
+sixlink_mainurl = "http://www.cfos.de/en/index.htm";
+sixlink_updateurl = "http://www.cfos.de/en/download/download.htm";
+sixlink_orderurl = "https://www.cfos.de/en/order/cfos-ipv6-link-n.htm";
+sixlink_langurl = "";
+sixlink_pg_name = "%p";
+cfospnet_mainurl = "http://www.cfos.de/en/index.htm";
+cfospnet_updateurl = "http://www.cfos.de/en/download/download.htm";
+cfospnet_orderurl = "https://www.cfos.de/en/order/cfos-personal-net-n.htm";
+cfospnet_langurl = "";
+pnet_pg_name = "%p";
+con_ipv4 = "IPv4";
+con_ipv6 = "IPv6";
+con_dns1 = "DNS1:";
+con_dns2 = "DNS2:";
+
+
+speed_mainurl = "http://www.cfos.de/en/index.htm";
+speed_updateurl = "http://www.cfos.de/en/download/download.htm";
+speed_orderurl = "https://www.cfos.de/en/order/cfosspeed-n.htm";
+speed_langurl = "http://www.cfos.de/en/cfosspeed/documentation/lang.htm";
+make_own_skin_url = "http://www.cfos.de/en/skin/skin.htm";
+no_pings_help = "http://www.cfos.de/en/cfosspeed/documentation/no-ping.htm";
+phone_skins_help = "http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm";
+ts_options_help = "http://www.cfos.de/en/traffic-shaping/traffic-shaping-options.htm";
+many_cons_help = "http://www.cfos.de/en/cfosspeed/documentation/bittorrent.htm";
+mainurl_name = "www.cfos.de";
+after_calibration = "http://www.cfos.de/en/traffic-shaping/calibration.htm";
+download_more_skins_url = "http://www.cfos.de/en/download/download.htm#skins";
+documentation_url = "http://www.cfos.de/en/cfosspeed/documentation/index.htm";
+expiration_cfosspeed_htm = "http://www.cfos.de/en/cfosspeed/expiration.htm";
+speed_test_url = "http://www.cfosspeed.de/speed-test/speed-test_en.htm";
+beta_url = "http://www.cfos.de/en/beta/index.htm";
+keyboard_led_help_url = "http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm";
+logitech_help_url = "http://www.cfos.de/en/cfosspeed/documentation/logitech-keyboard.htm";
+speed_guide_url = "http://www.cfos.de/en/traffic-shaping/speed-guide.htm";
+after_calibration_new = "http://www.cfos.de/en/traffic-shaping/calibration-message.htm";
+expiration_cfosspeed_new_htm = "http://www.cfos.de/en/cfosspeed/expiration-message.htm";
+prio_doc_link_url = "http://www.cfos.de/en/cfosspeed/documentation/program-prioritization.htm";
+preview_skins_url = "http://www.cfos.de/en/cfosspeed/documentation/status.htm";
+
+bc_activation_failed_url = "http://www.cfos.de/en/broadband-connect/activation-failed.htm";
+sixlink_activation_failed_url = "http://www.cfos.de/en/cfos-ipv6-link/activation-failed.htm";
+speed_activation_failed_url = "http://www.cfos.de/en/cfosspeed/activation-failed.htm";
+cfospnet_activation_failed_url = "http://www.cfos.de/en/cfos-personal-net/activation-failed.htm";
+
+pg_www = "www.cfos.de";
+
+
+
+
+
+/ ====================================================================================
+/ ====================================================================================
+/ ====================================================================================
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
+cfos_mainurl = "http://www.cfos.de/en/index.htm";
+cfos_updateurl = "http://www.cfos.de/en/download/download.htm";
+cfos_orderurl = "https://www.cfos.de/en/order/cfos-professional-n.htm";
+budget_file = "budget_e.cfhta";
+report_tpl = "report_e.tpl";
+invkey = "invkey_e.htm";
+aoltec = "techinfo\\aoltec_e.htm";
+cfos_htm = "techinfo\\cfos_e.htm";
+techinfo_htm = "techinfo\\techinfo_e.htm";
+dsldevice_help = "techinfo\\dsldev_e.htm";
+features_htm = "techinfo\\features_e.htm";
+cfos_feat = "http://www.cfos.de/en/cfos-professional/features.htm";
+after_cfos_calibration = "http://www.cfos.de/en/traffic-shaping/calibration-message.htm";
+
+testskin = "Test Window";
+lastcallers = "Last Callers";
+clearlist = "Clear List";
+ras_error = "The Dial-Up Network reports error";
+pwd_error = "Password Error";
+check_dialup = "Please check your Dial-Up connection.";
+/ %1 = number of seconds, %2 = "late"/"early"
+sync = "ISDN time-sync: we're %1 secs %2";
+isync = "Clock was %1 too %2";
+
+late = "late";
+early = "early";
+/ %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
+max_drift = "Max time difference of %1 minutes exceeded (%2 minutes)";
+
+nosync = "ISDN time-sync: nothing to do";
+nosyncreg = "ISDN time-sync: full version only";
+inetsync = "Sync time with Internet";
+noinetsync = "Sync time: full version only";
+conrep = "Connection Report";
+startserv = "Start %1 service";
+stopserv = "Stop %1 service";
+quit = "Quit status window";
+order_oem = "Buy the professional version now!";
+morefeatures = "More Features!";
+upgrade_easy = "Get the new %p driver!";
+ipmtu = "Settings in Dial-Up Networking have been changed for optimum performance.\n"
+   "Changes will be active after the next reboot.";
+closemsg = "Sorry, but this window stays open for your information, so\n"
+   "you will always know when the %p test period ends.\n"
+   "\n"
+   "In the full version, %p/Professional, this window is closed\n"
+   "automatically and is opened only when needed. With a right-\n"
+   "click into the %p window or onto the %p-tray icon you can\n"
+   "start the %p Order page now!";
+cfos_endsoon = "Your test period will end soon.\n"
+   "Buy %p Professional now!\n"
+   "Start the %p order page at\n"
+   "\n"
+   "https://www.cfos.de/en/order/order.htm\n";
+cfos_expired = "This %p version is expired.\n"
+   "Buy %p/Professional now!\n"
+   "Start the %p order page at\n"
+   "\n"
+   "https://www.cfos.de/en/order/order.htm\n"
+   "\n"
+   "Phone: +49-228-7669826\n"
+   "Fax: +49-228-7669827.";
+actionwait = "Your selected action will be executed as soon as you are online.";
+discask = "Do you really want to terminate this connection?";
+dial_warn = "Dialing of %1 allowed?";
+/ %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
+badvsn =
+   "This is %p for %1.\n"
+   "The key file you used, however, works only\n"
+   "for %2.\n"
+   "You can get the upgrade here:\n"
+   "https://www.cfos.de/en/order/order.htm\n"
+   "\n"
+   "If you ordered %p recently and this is\n"
+   "not the right version of %p, please contact us:\n"
+   "http://www.cfos.de/en/contact/contact.htm";
+
+active = "active";
+inactive = "inactive";
+disabled = "disabled";
+setup = "Driver Setup";
+no_write = "No write permission to the %p data file\n"
+   "%1.\n\n"
+   "Please ask your administrator to allow write and modify access to\n"
+   "CFOS.INI and GLOBAL.INI.";
+oem_for = "OEM version for %1";
+second = "second";
+seconds = "seconds";
+capi1 = "L1 Error";
+capi2 = "L2 Error";
+capi3 = "L3 Error";
+capi4 = "Unspec";
+capi5 = "Unspec";
+capi6 = "Unassigned";
+capi7 = "Unspec";
+capi8 = "Busy";
+capi9 = "No Answer";
+capi10 = "No Answer";
+capi11 = "Rejected";
+capi12 = "Num. Changed";
+capi13 = "Invalid Num";
+capi14 = "Unspec";
+capi15 = "Telco Busy";
+capi16 = "Telco Down";
+capi17 = "Temp.Failure";
+capi18 = "Congestion";
+capi19 = "Telco Busy";
+capi20 = "Telco Busy";
+capi21 = "No Bearer Cap";
+capi22 = "No such Service";
+
+report_title = "%p Connection Report";
+
+/ Don't translate!
+no_translate_lic_text = "Licensed to";
+no_translate_lic_line1 = "License ";
+no_translate_lic_expired = "Your evaluation period has expired. Order %1 today!";
+no_translate_short_exp = "Expired!";
+no_translate_lic_try = "You may try this program for %1 %2 before purchasing.";
+no_translate_dayl_singular = "day";
+no_translate_dayl_plural = "days";
+no_translate_short_try = "Try for %1 %2";
+no_translate_days_singular = "day";
+no_translate_days_plural = "days";
+no_translate_lic_dexpire = "Your evaluation period has expired for %1 %2. Order %3 today!";
+no_translate_short_dexpire = "Expired %1 %2";
+/ END SECTION: don't translate
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Setup
+/
+/ ----------------------------------------------------------------------
+
+/ URLs
+cfos_activation_failed_url = "http://www.cfos.de/en/cfos-professional/activation-failed.htm";
+
+/ dialog elements
+dlg_btn_back = "&Back";
+dlg_btn_cancel = "&Cancel";
+dlg_btn_ok = "&OK";
+dlg_btn_change = "&Change";
+dlg_btn_next = "&Next";
+dlg_btn_end = "&End";
+dlg_btn_accept = "&Accept";
+dlg_btn_decline = "&Decline";
+dlg_inst_subheader = "%p is being installed on your computer.";
+dlg_start_header = "Ready to install";
+dlg_end_dsl = "Setup DSL dial-up connection";
+dlg_end_isdn = "Setup ISDN dial-up connection";
+dlg_end_block = "Setup number blocking (e.g. international calls)";
+dlg_oem_header = "%p Professional";
+adv_osna = "This is a special DSL version for use with your ISP "
+        "only. You could also install the 30-day trial version of cFos Professional. "
+        "It has extended functionality, such as the features shown in the next dialog.";
+dlg_oem_quest = "Install the 30 days trial version?";
+
+/ begin dialog
+dlg_title = "%p DSL/ISDN Driver Setup";
+dlg_bgn_header = "%p Installation";
+dlg_bgn_dir_txt = "Installation directory:";
+dlg_bgn_dir_sel_title = "Select the %p installation directory";
+dlg_bgn_dir_type_desc = "%p installation directory";
+dlg_bgn_inst = "&Install";
+dlg_bgn_update = "&Update";
+
+/ medium dialog
+dlg_med_header = "%p Medium selection";
+dlg_med_subheader = "%p brings the integration of DSL and ISDN (and ATM). "
+                    "Why install several drivers, if you can have it all in one?";
+dlg_med_isdn_box = "ISDN (CAPI 2.0)";
+dlg_med_dsl_box = "DSL (PPPoE broadband access)";
+dlg_med_areacode_txt = "Area code:";
+dlg_med_msn_txt = "MSN (your ISDN phone number):";
+dlg_med_netbt_txt = "Adjust TCP/IP settings for optimum performance and deactivate NetBIOS over TCP/IP (recommended)";
+
+/ com port dialog
+dlg_com_header = "%p COM port selection";
+dlg_com_subheader = "Support for multiple COM ports: Channel bundling with ISDN and Multi-Link PPP.";
+dlg_com_txt = "Please select the COM ports.";
+dlg_com_prefix = "COM";
+
+/ feature dialog
+dlg_fea_header = "%p Feature Setup";
+dlg_fea_subheader = "Advanced features: Over 50 modem commands and over 100 registers for fine-tuning.";
+dlg_fea_param = "Additional parameters (field may be left unchanged):";
+dlg_fea_spdts = "%p has been detected on your computer.\n\n"
+                "It is recommended to turn off Traffic Shaping in %p\n"
+                "if it's running together with %p.\n\n"
+                "Turn on %p Traffic Shaping anyway?";
+fs_chktimesync = "Time sync";
+fs_doctimesync = "(Automatically synchronize computer time with Internet or ISDN time)";
+fs_chkfirewall = "Firewall";
+fs_docfirewall = "(Basic protection for your computer from known weaknesses)";
+fs_chktrafficshp = "Traffic Shaping";
+fs_doctrafficshp = "(Internet tuning: Surf the web faster with %p Traffic Shaping)";
+fs_chkcallmon = "ISDN Caller monitor";
+fs_doccallmon = "(Display phone number of incoming calls; see CFOSINI.HTM for details)";
+fs_chkdyncapi = "Dynamic CAPI loading";
+fs_docdyncapi = "(recommended for laptops, necessary with network CAPIs)";
+
+/ uninstall dialog
+dlg_deinst_ok = "Deinstall";
+dlg_deinst_header = "Deinstall %p";
+dlg_deinst_subheader = "%p is being deinstalled.";
+
+/ configuration dialog
+dlg_cnf_header = "Configure %p";
+dlg_cnf_subheader = "%p DSL/ISDN Driver Setup\nhttp://www.cfos.de";
+dlg_cnf_dslisdn = "DSL && ISDN &settings";
+dlg_cnf_comports = "&COM port selection";
+dlg_cnf_features = "&Feature Setup";
+dlg_cnf_dundsl = "Setup &DSL dial-up connection";
+dlg_cnf_dunisdn = "Setup &ISDN dial-up connection";
+dlg_cnf_block = "Setup phone number &blocking";
+dlg_cnf_startmode = "Change Start&mode";
+dlg_cnf_icon = "Activate &Tray Icon";
+
+/ startmode dialog
+dlg_smd_header = "%p Start mode selection";
+dlg_smd_subheader = "%p DSL/ISDN Driver Setup\nhttp://www.cfos.de";
+dlg_smd_automatic = "&Automatic (when system starts)";
+dlg_smd_manual = "&Manual (through status window)";
+
+/ dial-up network dialog
+dlg_dun_header = "Dial-Up connection";
+dlg_dun_header_dsl = "DSL connection";
+dlg_dun_header_isdn = "ISDN connection";
+dlg_dun_subheader = "Make sure all fields contain correct and complete values, "
+                    "especially the username and password fields.";
+dlg_dun_phone = "Access phone number:";
+dlg_dun_line = "including outside line access prefix (if necessary)";
+dlg_dun_showall = "show all countries";
+
+/ user connection dialog
+dun_usercon = "User defined connection";
+dun_with_cfos = "with %p";
+dun_fmt = "new <%s> connection";
+
+/ dial-up network
+dun_err_modem = "Cannot find a usable installed\n"
+        "%p modem to setup a DUN connection.";
+dun_err_invalid_name = "The dial entry name is invalid.";
+dun_err_invalid_parameter = "At least one of the entered\n"
+        "parameters is invalid.";
+dun_err_state_machine = "Error 695 (state machines not started) during\n"
+        "DUN connection setup. This might indicate that\n"
+        "DUN (Dial-Up Networking) is not installed on\n"
+        "your computer. In that case, please install\n"
+        "Dial-Up Networking (version 1.3 or higher) on\n"
+        "your computer.";
+dun_err_ras = "Unknown error during DUN connection setup.";
+dun_legal_info = "We have to point out that the configuration of Dial-Up Network\n"
+        "connections is a service of our installation program.  Connecting your\n"
+        "internet service provider (ISP) with these Dial-Up Network connections\n"
+        "may result in additional costs.  The charging rates of the respective\n"
+        "ISPs, as well as changes of logon parameters - (e.g. phone number)\n"
+        "can be obtained on the web page of the respective ISP.\n"
+        "\n"
+        "The behaviour of dial-up connections set up by %p differs from\n"
+        "standard windows settings.  Please check all connections in Dial-Up\n"
+        "Networking";
+country_0 = "existing DUN connections";
+country_49 = "Germany";
+
+/ phone number blocking dialog
+dlg_blk_header = "Phone number blocking";
+dlg_blk_subheader = "Protect yourself against expensive dialers.";
+dlg_blk_off = "&Deactivate";
+dlg_blk_internet = "Only for &Internet connections";
+dlg_blk_all = "For &all %p modems";
+dlg_blk_block = "Phone numbers to block";
+dlg_blk_warn = "Phone numbers to warn";
+dlg_blk_add = "Add";
+dlg_blk_del = "Remove";
+dlg_blk_prefix = "Dial prefix";
+dlg_blk_ask_pref = "";
+dlg_blk_ras = "All Dial-Up connections";
+dlg_blk_doublechk = "Double check";
+dlg_blk_doublechk_help = "Activate the 'Double check' if you wish\n"
+        "to compare phone numbers with and without\n"
+        "the dial prefix. This is only neccessary\n"
+        "if you have different equipment that\n"
+        "makes dial-up connections partially with\n"
+        "and partially without a dial prefix.";
+dlg_blk_legalinfo = "Cases, when %p and cFosWatch cannot protect you:\n"
+        "If you have an ISDN card or analog modem installed, these devices can\n"
+        "dial connections to expensive phone numbers (i.e. numbers to be blocked\n"
+        "or warned, like 0190xxx). If this happens without %p or a DUN\n"
+        "connection (e.g. if third party software uses proprietary routines for\n"
+        "dialing voice or data connections), the phone number cannot be checked\n"
+        "by %p or cFosWatch. In these cases you have to pull the plug or turn\n"
+        "off the modem. There is also no protection against calls made by\n"
+        "ordinary telephones or computers on which %p and/or cFosWatch is not\n"
+        "installed. If you want to be absolutely sure, you can ask your local\n"
+        "phone company to block certain phone numbers. However this service may not be\n"
+        "free of charge. Furthermore, we cannot be held liable for failure or\n"
+        "errors in the protection routines of %p and/or cFosWatch and/or the\n"
+        "operating system and/or third party software. We are also not\n"
+        "responsible for the case where other programs disable or circumvent the\n"
+        "protection mechanisms in %p and/or cFosWatch.\n"
+        "\n"
+        "This text is also saved to the file 0190.TXT in your %p directory.\n";
+
+/ password dialog
+dlg_pwd_header = "Enter key password";
+dlg_pwd_subheader = "Your license key contains your personal data and must not be disclosed to others.";
+dlg_pwd_password = "Password:";
+dlg_pwd_info = "These are the details of your %p license:\n\n"
+        "Serial number:\t%s\n"
+        "Name:\t%s\n"
+        "Street:\t%s\n"
+        "Town:\t%s\n"
+        "E-mail:\t%s\n\n"
+        "Please enter the password into the box below.  The password was sent to you by e-mail "
+        "or it is printed on the invoice.";
+dlg_pwd_bad = "The password is incorrect, please re-enter.\n\n"
+        "It's best to use cut & paste if the password is present in electronic form.";
+
+/ progress dialog
+pr_wait = "Please wait..";
+pr_go = "Go!";
+pr_chk_sw = "Checking software..";
+pr_unreg_old_drv = "Unregistering old driver..";
+pr_inst_new_drv = "Installing new driver..";
+pr_unreg_drv = "Unregistering driver..";
+pr_reg_drv = "Registering driver..";
+pr_rm_group = "Removing program group..";
+pr_cr_group = "Creating program group..";
+pr_rm_inf = "Removing INF files..";
+pr_rm_prod = "Removing product files..";
+pr_del_files = "Deleting old files..";
+pr_cpy_files = "Copying files..";
+pr_rm_ports = "Removing ports..";
+pr_rm_obs_ports = "Removing obsolete ports - please wait..";
+pr_rm_modems = "Removing modems..";
+pr_rm_obs_modems = "Removing obsolete modems - please wait..";
+pr_add_pm = "Adding ports and modems..";
+pr_add_ports = "Addings new ports - please wait..";
+pr_add_modems = "Adding new modems - please wait..";
+pr_clean_up = "Cleaning up..";
+pr_start_drv = "Starting driver..";
+pr_dun_modems = "Checking modem names in dial-up connections..";
+pr_inst_ras = "Installing Windows RAS..";
+pr_inst_dun = "Installing Windows Dial-Up Networking..";
+pr_restart_point = "Creating restore point..";
+
+/ ISDN late install
+late_ask = "AOL has detected an ISDN device in your computer.  Would you like to install\n"
+        "ISDN support (%p OEM) for AOL?\n"
+        "\n"
+        "Please select 'Yes' to install ISDN support now.\n"
+        "\n"
+        "Please select 'No' to install ISDN support later.\n"
+        "\n"
+        "Please select 'Cancel' if you do not want to install ISDN support and\n"
+        "wish not to be asked again.";
+late_instnever_confirm = "Attention: You have selected 'Cancel'.  ISDN support will not be installed.\n"
+        "You may not be able to go online with ISDN.  If you wish to use AOL\n"
+        "with ISDN, we recommend installing ISDN support.\n"
+        "\n"
+        "Do you want to install ISDN support?";
+
+/ DSL late install
+late_dsl_ask = "AOL has detected a DSL device in your computer.  Would you like to install\n"
+        "DSL support (%p OEM) for AOL?\n"
+        "\n"
+        "Please select 'Yes' to install DSL support now.\n"
+        "\n"
+        "Please select 'No' to install DSL support later.\n"
+        "\n"
+        "Please select 'Cancel' if you do not want to install DSL support and\n"
+        "wish not to be asked again.";
+late_dsl_instnever_confirm = "Attention: You have selected 'Cancel'.  DSL support will not be installed.\n"
+        "You may not be able to go online with DSL.  If you wish to use AOL\n"
+        "with DSL, we recommend installing DSL support.\n"
+        "\n"
+        "Do you want to install DSL support?";
+
+/ modem registration
+regmdm_error = "Error during modem register process.\n\n"
+        "Please see the log file CFSETUP.TXT in your\n"
+        "Windows directory for more information.";
+regmdm_unregerror = "Error during modem unregister process.\n\n"
+        "Please see the log file CFSETUP.TXT in your\n"
+        "Windows directory for further information.";
+regmdm_raserror = "Error registering modem as RAS device\n"
+        "(Remote Access Service).\n\n"
+        "Please see the log file CFSETUP.TXT in your\n"
+        "Windows directory for further information.";
+regmdm_unraserror = "Error unregistering modem as RAS device\n"
+        "(Remote Access Service).\n\n"
+        "Please see the log file CFSETUP.TXT in your\n"
+        "Windows directory for further information.";
+lastrasdevice_error = "The modem cannot be removed because\n"
+        "it is the only registered RAS device\n"
+        "(Remote Access Service).\n\n"
+        "Windows NT always requires at least\n"
+        "one registered RAS device.\n";
+getmdmlist_error = "Error creating list of available\n"
+        "modems.\n\n"
+        "Please see the log file CFSETUP.TXT in your\n"
+        "Windows directory for further information.";
+regport_error = "Error during port register process.\n\n"
+        "Please see the log file CFSETUP.TXT in your\n"
+        "Windows directory for further information.";
+regport_unregerror = "Error during port unregister process.\n\n"
+        "Please see the log file CFSETUP.TXT in your\n"
+        "Windows directory for further information.";
+
+/ tip of the day
+totd_title = "%p - Tip of the Day";
+totd_show = "&Don't pop up this window again.";
+totd_didyouknow = "Did you know...";
+totd_nexttip = "&Next Tip";
+
+/ OEM versions tips (additional to the regular tips)
+totd_oem =
+"If you want to use the full range of features your DSL and/or "
+        "ISDN line offers you, you can upgrade this %p version to our "
+        "full professional version.  See www.cfos.de for more information.";
+
+/ regular tips
+totd1 = "%p Traffic Shaping speeds up your uploads and downloads!  It will "
+        "make your connections run smoothly and responsively even when you have "
+        "multiple transfers running.";
+totd2 = "Protect your computer against intruders and known weaknesses with "
+        "%p' Firewall!  Use the %p Firewall for basic security.  It"
+        "cannot however replace a comprehensive firewall but it's a good start.  It can also work in "
+        "conjunction with other firewall software.";
+totd3 = "A licensed copy of %p includes licenses for all future updates "
+        "(i.e. new versions) as well.  You can download them from "
+        "www.cfos.de and install them over your existing version without "
+        "having to uninstall in order to upgrade.  Settings will be copied and are ready "
+        "to be used in the updated program.";
+totd4 = "%p has special code for a super-fast Internet logon!  So %p "
+        "connects up to 3 times faster to the Internet than conventional "
+        "drivers for Windows systems.";
+totd5 = "Right-click on %p' status-window to see the context-menu.  "
+        "There you can find our help file or configure the settings %p.  Double-click "
+        "on the %p icon to hide/unhide the window.";
+totd6 = "In the Feature Setup, you can enable %p to keep your computer clock "
+        "synchronized to internet or ISDN-time.  Once a day the time is "
+        "checked and corrected if needed.  Click on 'Configure %p' in the "
+        "status-window, then on 'Feature Setup' and enable 'Time Sync'.";
+totd7 = "Many internet providers offer a fixed number of hours for free per "
+        "month.  With the %p budget management, it's easy to observe how "
+        "much time you have left!  %p supports volume-budgets, too.";
+totd8 = "You want to know who's calling?  Select 'Caller Monitor' in "
+        "%p' Feature Setup.  The status-window will show the phone number of "
+        "calling parties.  All calls are logged in LOGFILE.TXT and you can "
+        "even play special WAV files for each caller.  See "
+        "CFOSINI.HTM for more information.";
+totd9 = "%p has a special inactivity timer for the internet.  With 'ATS86=...' you can "
+        "set for how many minutes your connection may be idle "
+        "for %p to hang up automatically.  Enter the inactivity time "
+        "for your %p-Modem under Properties > Connection > Advanced > "
+        "Extra settings as ATS86=n, where n is the number of minutes of "
+        "inactivity.";
+totd10 = "%p supports skins, i.e. customizable status windows.  You can "
+        "design your own skin.  For more information on how to create skins, "
+        "see SKIN.HTM";
+totd11 = "If your DSL modem has no power switch, connect it to a switchable "
+        "plug.  Usually DSL modems consume a lot of power and thereby cost a lot of "
+        "money and pollute the environment.";
+totd12 = "In %p' status-window you can observe the current transfer rate. "
+        "The %p-icon indicates if data is sent or received.";
+totd13 = "%p offers more than 100 modem-registers for optimal fine-tuning "
+        "to your requirements.  See MODEM.TXT for all modem-registers and "
+        "commands.  Click on 'Help' in context-menu and then on MODEM.TXT. ";
+totd14 = "There is an international help conference available on the internet "
+        "as a mailing list.  See http://www.cfos.de/en/cfos-professional/update.htm for "
+        "more info.  "
+        "You can join our announcement list as well; then we will send you "
+        "a mail each time a new %p version is released.";
+totd15 = "In WHATSNEW.TXT you can find all the new features of our current "
+        "version.  Click on 'Help' and then on 'WHATSNEW.TXT' in %p' "
+        "context menu.";
+totd16 = "%p has support for Lotus Notes.  See the modem-file LOTUS_CF.MDM "
+        "for more details.";
+totd17 = "Only cynics think that C.F.O.S. stands for \"Creatures from Outer "
+        "Space\"!  It comes from \"CAPI-FOSSIL\", where CAPI is the ISDN "
+        "standard and FOSSIL is a serial interface under DOS.  :-)";
+totd18 = "Feel free to contact our support team if you have any problems: "
+        "http://www.cfos.de/en/contact/contact.htm";
+
+/ directory creation
+dir_badname = "Directory name collides with existing file";
+dir_create = "Directory %s does not exist.\n"
+        "Would you like to create this directory?";
+dir_create_error = "Creation of directory %s failed.\n"
+        "Error: %s";
+dir_cd_error = "Change to directory %s failed (r=%d).";
+dir_nooverwrite = "Unable to overwrite some of the files in the selected directory.\n"
+        "Please select a different directory for installation.\n";
+dir_notnuffree = "Not enough free space on %s\n"
+        "Required: %lu kBytes\n"
+        "Free: %lu kBytes\n\n"
+        "Please select a different drive for installation.";
+dir_baddir = "Cannot access directory.\n"
+        "Please enter a valid directory.";
+
+/ com port messages
+com_need1 = "You must select at least one COM port.\n\n"
+        "To do this you can either select a COM-port in the 'COM port selection'\n"
+        "screen or put the name of the port in the 'additional parameters' line\n"
+        "in the 'Feature Setup' screen.\n";
+com_teles = "You have selected COM ports that are currently used by TELES.VCOMM.\n\n"
+        "To use these ports with %p, reconfigure TELES.VCOMM as shown\n"
+        "Click: Start - Settings - Control Panel - TELES ISDN.\n"
+        "Then, click on Modems and free the desired COM-ports.\n"
+        "You may need to reboot in order for the settings to take effect.";
+com_rvscomnt = "You have selected COM ports that may be used by RVS-COM.\n"
+        "If you already made the following changes, just click 'OK'\n\n"
+        "To use these ports with %p, stop the RVS COM driver as follows:\n"
+        "Click on: Start - Settings - Control Panel - Devices.\n"
+        "Look for the device 'RVS Virtual COM Port' and click on 'Stop'.\n"
+        "Now, click on 'Startup' and there on 'Manual'. 'Ok' - 'Close'.\n"
+        "You may need to reboot in order for the settings to take effect.";
+com_rvscom95 = "You have selected COM ports that are currently used by RVS-COM.\n\n"
+        "To use these ports with %p, you have to deinstall or disable\n"
+        "VRVSPORT.  Try doing this in the hardware manager.\n";
+
+/ installation
+install_ask =
+        "Install directory:\n"
+        "   %s"
+        "%s"
+        "%s"
+        "%s\n"
+        "\n"
+        "COM ports:%s\n"
+        "\n"
+        "Parameters:\n"
+        "   %s\n"
+        "\n"
+        "Start Installation?";
+inst_dsl_on = "\n\nDSL support:\n   Active";
+inst_msn = "\n\nMSN:\n   ";
+inst_ok = "Installation successful.\n\n";
+inst_hypertrm = "An old version of Hyperterminal was found on your computer.  "
+        "This version is known to have problems with new serial drivers like %p.  "
+        "You can get a fixed version named 'Hyperterminal Personal Edition' "
+        "at http://www.hilgraeve.com.  "
+        "Setup has created a link to this site in the %p program group.\n\n";
+inst_norights = "Not enough rights to (de)install %p!\n"
+        "You need to have Administrator rights to (de)install %p.\n"
+        "Log off, then log on with Administrator rights and restart Setup.";
+inst_scm_noopen = "Unable to open Service Manager!\n"
+        "Maybe you do not have enough rights to do so?\n"
+        "Log off, then log on with Administrator rights and restart Setup.\n\n"
+        "See %s for details.";
+inst_mtuchanged = "Settings in Dial-Up Networking were changed for optimum speed.  "
+        "Changes will be active upon the next reboot.\n\n";
+inst_rmmodem = "Some %p-modems were deinstalled from your COM-Ports, because "
+        "the new %p version has new modem settings.  Please review the modem "
+        "settings in the modem manager and reinstall missing modems manually.\n\n";
+inst_reboot = "Windows must be rebooted to continue the installation.";
+inst_runonce = "Installation will continue after your computer has rebooted.";
+inst_winpoet1 = "You have installed both %p for DSL and WinPoET.  "
+        "You must stop the WinPoET service or you will not be able "
+        "to connect with %p because WinPoET will disconnect your "
+        "sessions.  ";
+inst_winpoet95 = "To stop WinPoET, right-click on WinPoET's tray icon and select shutdown.\n\n";
+inst_winpoetnt = "To stop WinPoET, select Start > Settings > Control Panel > "
+        "Services and stop the service 'WinPPPoverEthernet'.\n\n";
+inst_winpoetall = "To stop WinPoET, start the service manager and stop "
+        "the service 'WinPPPoverEthernet'.\n\n";
+inst_closeports = "SETUP cannot continue, because some %p COM-ports are\n"
+        "still in use.  Close those ports and/or click on...\n\n"
+        "Yes:\tto try again,\n"
+        "No:\tto go on anyway (you will need to reboot afterwards),\n"
+        "Cancel:\tto cancel.";
+inst_mdmrename_list = "The following %p modems have been renamed. Please "
+        "adjust your Dial-Up Network connections and all other programs "
+        "that use these modems accordingly:\n";
+inst_mdmrename_entry = "\"%s\" to \"%s\" on port %s.\n";
+inst_mdmremove_list = "The following %p modems had to be removed. Each %p "
+        "modem can be installed manually using the modem manager. Please "
+        "adjust your dial-up network connections and all other programs "
+        "that use the modems that were removed accordingly:\n";
+inst_mdmremove_entry = "\"%s\" on port %s.\n";
+
+/ foo messages
+foo_openerror = "Cannot open %s: %s";
+foo_testbad = "Archive test failed.\nSetup cannot continue.";
+foo_badarc = "Archive extraction failed.\nSetup cannot continue.";
+foo_test = "Testing archive, please wait..";
+foo_extract = "Extracting files, please wait..";
+foo_nodriver = "Driver-file %s not found,\n error %s!";
+
+/ uninstallation
+deinst_nocfos = "No %p found to deinstall.";
+deinst_notthis = "Cannot deinstall this version of %p.";
+deinst_ask = "\n\nStart Deinstallation?";
+deinst_ok = "Deinstallation successful.\n";
+deinst_askfiles = "Found the following %p data files:\n\n";
+deinst_askfiles2 = "\nDelete these files as well and remove the directory?";
+deinst_askfiles3 = "While deinstalling from directory %s,\n"
+        "SETUP found the following unrecognized files:\n\n";
+
+/ configuration messages
+conf_nocfos = "No %p found to configure.";
+conf_discard = "Changes not yet saved.\n"
+        "Save changes now?";
+conf_ok_noboot = "Configuration changed, settings active.\n"
+        "%p restarted, no reboot required.";
+conf_ok_boot = "Configuration changed.\n"
+        "You will need to reboot to activate the changes made.";
+conf_no_capi16 = "Neither CAPI.DLL, CAPI20.DLL nor VxD-CAPI 2.0 found.\n\n"
+        "%p/Win requires a CAPI driver to be run.\n"
+        "Please install your CAPI driver first\n"
+        "and restart %p Setup afterwards.";
+conf_no_capi32 = "No active CAPI 2.0 driver found.\n"
+        "Please install and start your CAPI driver.\n";
+conf_no_comport = "No free COM-port found.";
+conf_wrong_os = "DLL reported wrong Operating System.";
+conf_syserror = "System or internal error.\nSee %s for details.";
+conf_some_error = "DLL error #%d";
+conf_wait = "Changing configuration...";
+
+/ program group
+group_order_inet = "Buy advanced %p";
+group_order_oem = "Get advanced %p driver";
+group_conf = "Configure %p";
+group_deinstall = "Deinstall %p";
+group_doc = "%p documentation";
+group_wwwcfos = "www.cfos.de";
+group_hypertrm = "Internet Hyperterminal";
+group_dun_dsl = "Setup DSL connection";
+group_dun_isdn = "Setup ISDN connection";
+group_num_block = "Setup number blocking";
+
+/ registration
+tkey_notfound = "Transport file %s not found.\n"
+        "Copy file to the directory %p Setup resides in\n"
+        "and restart %p Setup.\n";
+tkey_bad = "Trouble installing %p key.\n"
+        "For details see %s.\n";
+tkey_ok_reboot = "%p key successfully installed.\n\n"
+        "This program is now registered to:  %s\n"
+        "Serial number:  %s.\n\n"
+        "You need to restart %p or your computer to activate the registration.";
+tkey_ok = "%p key successfully installed.\n\n"
+        "This program is now registered to:  %s\n"
+        "Serial number:  %s.\n\n"
+        "Have fun using %p!";
+tkey_filebad = "The transport file is corrupt.\n"
+        "Please contact us to get a new one:\n"
+        "http://www.cfos.de/en/contact/contact.htm";
+tkey_inst = "You need to install %p prior to installing the key.\n"
+        "Install %p now? (selecting 'No' will exit Setup)";
+tkey_abort = "License not accepted, registration aborted.";
+
+/ miscellaneous
+bugs = "Attention: This is a BETA release of a new %p version.\n\n"
+        "It is very likely that it still contains bugs.  Please back up all\n"
+        "of your valuable data before continuing and do not run this version\n"
+        "unattended.  If you have not backed up your data yet, click CANCEL.\n"
+        "Otherwise, click OK to continue with Setup.";
+type_choice = "Select a %p to install:";
+button_ok = "&Ok";
+ask_reboot = "Windows must reboot to activate the changes made.\n"
+        "Reboot now?";
+lic_bad = "Unpacking of the license agreement failed.\n"
+        "Installation cannot continue.";
+inst_eventvwr = "The Event Viewer is running, please close it\n"
+        "because installation cannot continue while Event Viewer is active.\n";
+inst_already = "You already have a %p installed.\n"
+        "It is installed on port '%s'.";
+inst_toinstall = "About to install:";
+inst_aol_over_cfi = "You are trying to install an AOL %p version\n"
+        "while you have a %p for some other OEM(s) installed.\n"
+        "If you install this AOL %p the connection to the\n"
+        "other OEM(s) might get blocked.\n\n"
+        "We suggest you install a shareware version downloadable from\n\n"
+        "   http://www.cfos.de/en/oem/oem.htm\n\n"
+        "That version will enable you to connect to all OEM(s) and it\n"
+        "may be more recent than the version you have now.";
+inst_cfi_over_aol = "You are trying to install an OEM %p version\n"
+        "while you have an AOL %p installed.  If you install\n"
+        "this %p the connection to AOL might get blocked.\n\n"
+        "We suggest you go to :\n"
+        "   http://www.cfos.de/en/oem/oem.htm\n"
+        "and download a new %p version there.  That version will\n"
+        "enable you to connect to all OEM(s) and it may be more recent\n"
+        "than the version you have now.";
+inst_raspppoe = "You seem to have RASPPPoE installed. RASPPPoE is configured "
+        "to log a warning for each of %p' packets. To disable this "
+        "go to the RASPPPoE protocol, select Properties, Advanced and "
+        "uncheck the \"Log Warnings\" checkbox. This should not impair RASPPPoE's "
+        "function but keep your Event Log small and fast";
+dll_found = "The following driver was found installed:\n\n";
+dll_founddir = "In directory";
+dll_replace = "\nThis driver will be replaced if you proceed.";
+features_bad = "Unpacking of the FEATURES.HTM/FEAT_E.HTM file failed.";
+general_error = "An error occurred during setup.\n\n"
+      "Please see file %s\n"
+      "for further details.";
+
+/ Don't translate!
+no_translate_badlhsig = "wbad local header signature";
+no_translate_unknhdrtype = "wunknown header type %u\n";
+no_translate_lhbadcrc = "wlocal header has bad CRC\n";
+no_translate_lh2long = "wlocal header too long\n";
+no_translate_filebadcrc = "wfile has bad CRC";
+no_translate_file2long = "wfilesize not as expected";
+no_translate_badcreat = "wfile creation failed: %s";
+no_translate_filename2long = "wfilename too long\n";
+no_translate_askoverwrite = " overwrite (y,n,a=all)? ";
+no_translate_outofmem = "fout of memory\n";
+no_translate_fileshort = "earchive too short\n";
+no_translate_askmakedir = " create directory %s? ";
+no_translate_errmkdir = "w%s: directory creation failed";
+no_translate_decomp_invdata = "wgarbage compressed data";
+no_translate_method_unsupp = "wunsupported method";
+/ END SECTION: don't translate
