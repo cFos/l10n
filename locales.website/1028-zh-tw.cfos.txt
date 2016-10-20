@@ -302,7 +302,16 @@ conf_alipay_text_v2c = "2. 轉帳過程中需要輸入電話號碼，可以用�
 conf_alipay_text_v2d = "(1) 我們的電話號碼"; /chinese payments only - do not translate!
 conf_alipay_text_v2e = "或"; /chinese payments only - do not translate!
 conf_alipay_text_v2f = "(2) 您在中國的電話號碼"; /chinese payments only - do not translate!
+conf_alipay_text_v2f_v2 = "您在中國的電話號碼"; /chinese payments only - do not translate!
 conf_alipay_text2 = "如果您的支付寶帳號是使用 <span id=\"alipay_mail\"></span> 以外的其他電子信箱註冊的，請告訴我們，以便我們能更快地處理您的款項。"; /chinese payments only - do not translate!
+conf_alipay_v3_p1 = "许可将会发到您的以下邮箱";
+conf_alipay_v3_p2 = "支付宝转账步骤：";
+conf_alipay_v3_p3 = "1.请将<span class=\"ali_price\"></span> 转账至我们的支付宝账户： <img src=\"/images/mail_cfos_cn2.png\" width=\"112\" height=\"10\" alt=\"\"/> 账户名：孙轶群";
+conf_alipay_v3_p3_mail = "1.请将 [%$prodprice%] [%$prodcurrency%] 转账至我们的支付宝账户： cfos_cn2@cfos.de 账户名：孙轶群";
+conf_alipay_v3_p4 = "2.如您的支付宝登录邮箱与许可接收邮箱不符，请务必将许可接收邮箱备注在付款信息内。";
+conf_alipay_v3_p5 = "3.请将您付款成功截图发到以下邮箱";
+conf_alipay_v3_p6 = "截图样本请参考下图";
+conf_alipay_v3_p7 = "提示：订单处理将在两个工作日内完成，请您耐心等待。";
 conf_alipay_mailtext = "請輸入 [%$1_name%] 作為付款的原因。"; /chinese payments only - do not translate!
 conf_alipay_mailtext2 = "如果您的支付寶帳號是使用 [%$a_email%] 以外的電子信箱註冊的，請告訴我們，以便我們能更快地處理您的款項。"; /chinese payments only - do not translate!
 conf_alipay_trans = "支付寶轉帳"; /chinese payments only - do not translate!
@@ -1001,10 +1010,10 @@ cfout_davical_cal1 = "http://<b>davical_server_domain</b>/caldav.php/<b>your_dav
 cfout_davical_cal2 = "您的 DAViCal 帳號";
 cfout_davical_cal3 = "您的 DAViCal 密碼";
 cfout_davical_card1 = "http://<b>davical_server_domain</b>/caldav.php/<b>your_davical_username</b>/addresses<br/>（例如 http://mydomain.com/caldav.php/user1234/addresses）";
-cfout_baikal_cal1 = "http://<b>baïkal_server_domain</b>/cal.php/calendars/<b>your_baïkal_username</b>/default<br/>（例如 http://mydomain.com/cal.php/calendars/user1234/default）";
+cfout_baikal_cal1 = "http://<b>baïkal_server_domain</b>/baikal/cal.php/calendars/<b>your_baïkal_username</b>/default<br/>（例如 http://mydomain.com/cal.php/calendars/user1234/default）";
 cfout_baikal_cal2 = "您的 Baïkal 帳號";
 cfout_baikal_cal3 = "您的 Baïkal 密碼";
-cfout_baikal_card1 = "http://<b>baïkal_server_domain</b>/card.php/addressbooks<b>your_baïkal_username</b>/default<br/>（例如 http://mydomain.com/card.php/addressbooks/user1234/default）";
+cfout_baikal_card1 = "http://<b>baïkal_server_domain</b>/baikal/card.php/addressbooks<b>your_baïkal_username</b>/default<br/>（例如 http://mydomain.com/card.php/addressbooks/user1234/default）";
 cfout_sogo_cal1 = "http://<b>sogo_server_domain</b>/SOGo/dav/<b>your_sogo_username</b>/Calendar/personal/<br/>（例如 http://mydomain.com/SOGo/dav/user1234/Calendar/personal/）";
 cfout_sogo_cal2 = "您的 SOGo 帳號";
 cfout_sogo_cal3 = "您的 SOGo 密碼";
@@ -1081,14 +1090,9 @@ link_text_feature_list = "ISDN 和 DSL 功能";
 link_text_firewall = "防火牆";
 link_text_what_is_cfos = "cFos/Professional 是什麼？";
 
-/ ----------------------------------------------------------------------
-/
-/  hrPing
-/
-/ ----------------------------------------------------------------------
-
-/: http://www.cfos.de/en/ping/ping.htm
-hrping_title = "<span class=\"product\">hrPing</span> - 高精確度的 ping 工具";
+/hrping
+hrping_title = "hrPing - 高精確度的 ping 工具";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - 高精確度的 ping 工具";
 hrping_p1 = "您可以用 hrPing 比 Windows Ping 做更多事。";
 
 /. Used as one of entries in list of hrPings features

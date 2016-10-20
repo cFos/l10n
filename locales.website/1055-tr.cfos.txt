@@ -545,7 +545,9 @@ pnet_until = "Daha sonra ömür-boyu lisans satın al";
 pnet_after = "7 Ağustos'tan sonra olacak ";
 pnet_nat_h1 = "NAT port yönlendirmesini ayarla";
 pnet_nat_p1 = "<a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>popüler routerlar için rehber</b></a> burada.";
-pnet_nat_p2 = "<b class=\"green\">cFosSpeed ve cFos Personal Net için ücretsiz lisans edinme!</b><br/><a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>Router rehberimizi</b></a> tamamlamamız için yardımcı olun. Routerınız için NAT port yönlendirme talimatını yazın.";
+pnet_nat_p2a = "cFosSpeed ve cFos Personal Net için ücretsiz lisans edinme!>";
+pnet_nat_p2b = "<a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>Router rehberimizi</b></a> tamamlamamız için yardımcı olun.";
+pnet_nat_p2c = "Routerınız için NAT port yönlendirme talimatını yazın.";
 pnet_nat_p3 = "Routerınız zaten listede mi?";
 pnet_wmi_add_p1 = "<a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI Monitor</b></a> cFos Personal Net için ücretsiz bir ek pakettir, sistemin neredeyse tüm WMI değerlerini görüntülemeye yarar, örn. CPU yükü, GPU yükü, ağ kullanımı, ping süresi, vs. Bu WMI değerlerine her yerden ulaşabilirsiniz.";
 pnet_wmi_add_p2 = "<b>cFos WMI Monitor</b> oyuncuların, güç kullanıcılarının, müzisyenlerin vs. (tam ekran) uygulamalarını çalıştırırken, farklı bileşenlerin performansını gözlemlemelerine yardımcı olur. <b>cFos WMI Monitor</b> bu bilgiyi bilgisayarınızda ya da akıllı telefonunuzda bir tarayıcı penceresi içinde verir.";
@@ -789,7 +791,8 @@ link_text_firewall = "Güvenlik Duvarı";
 link_text_what_is_cfos = "cFos/Professional nedir?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - Yüksek-hassasiyetli ping aracı";
+hrping_title = "hrPing - Yüksek-hassasiyetli ping aracı";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - Yüksek-hassasiyetli ping aracı";
 hrping_p1 = "hrPing ile Windows Ping aracindan daha fazlasını yapabilirsiniz.";
 hrping_l1 = "Ping sonuçları için grafik görünüm";
 

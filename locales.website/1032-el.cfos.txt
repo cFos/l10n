@@ -548,7 +548,8 @@ link_text_firewall = "Τείχος Προστασίας";
 link_text_what_is_cfos = "Τι είναι το cFos/Professional?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - Υψηλής ακρίβειας εργαλείο ping";
+hrping_title = "hrPing - Υψηλής ακρίβειας εργαλείο ping";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - Υψηλής ακρίβειας εργαλείο ping";
 /. `usec` stands for `microsecond`.
 /. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
 /. In other words, means accuracy of the measurement

@@ -450,7 +450,8 @@ link_text_firewall = "방화벽";
 link_text_what_is_cfos = "cFos/Professional가 무엇인가요?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - 고정밀 핑 유틸리티";
+hrping_title = "hrPing - 고정밀 핑 유틸리티";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - 고정밀 핑 유틸리티";
 
 /notifier
 

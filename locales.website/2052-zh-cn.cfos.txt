@@ -205,9 +205,11 @@ conf_alipay_text = "请在支付宝付款页面中输入&quot;<strong id=\"alipa
 conf_alipay_text_v2a = "要使用支付宝支付，请遵循以下步骤："; /chinese payments only - do not translate!
 conf_alipay_text_v2b = "1. 转账至我们的支付宝账户："; /chinese payments only - do not translate!
 conf_alipay_text_v2c = "2. 如果支付宝要求提供电话号码，请从以下两者任选其一："; /chinese payments only - do not translate!
+conf_alipay_text_v2c_v2 = "2. 如果支付宝要求提供电话号码："; /chinese payments only - do not translate!
 conf_alipay_text_v2d = "a) 使用我们的电话号码："; /chinese payments only - do not translate!
 conf_alipay_text_v2e = "或"; /chinese payments only - do not translate!
 conf_alipay_text_v2f = "b) 使用您自己的中国国内电话号码"; /chinese payments only - do not translate!
+conf_alipay_text_v2f_v2 = "使用您自己的中国国内电话号码"; /chinese payments only - do not translate!
 conf_alipay_text2 = "如果您的支付宝账户使用<span id=\"alipay_mail\"></span>之外的邮箱进行注册，请通知我们，那样我们可以更快地处理您的付款。"; /chinese payments only - do not translate!
 conf_alipay_mailtext = "请在支付宝付款页面中输入[%$1_name%] 作为您付款的理由 电子邮件内容"; /chinese payments only - do not translate!
 conf_alipay_mailtext2 = "如果您的支付宝账户使用[%$a_email%]之外的邮箱进行注册，请通知我们，那样我们可以更快地处理您的付款。"; /chinese payments only - do not translate!
@@ -370,7 +372,7 @@ ann_info = "您已加入cFos邮件列表。每年我们会通知您3-5次关于�
 ann_clicktext = "确认加入邮件列表并接收公告邮件，请点击此处";
 ann_unsubscribe = "如果您想之后取消订阅，请向 mailing@cfos.de 发送一封主题为 ‘Unsubscribe’的邮件或者联系客服。";
 ann_thanks = "感谢您， cFos团队";
-em_hello = "你好";
+em_hello = "您好";
 em_thank_you = "感谢您订购";
 em_transfer = "请现在就转账";
 em_account = "通过银行帐户";
@@ -760,7 +762,8 @@ link_text_firewall = "防火墙";
 link_text_what_is_cfos = "什么是 cFos/Professional?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - 高精确度的 Ping 工具";
+hrping_title = "hrPing - 高精确度的 Ping 工具";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - 高精确度的 Ping 工具";
 
 /notifier
 notifier_p1 = "cFos Notifier 是一种用来周期性监测 cFos 是否有更新的后台程序。如果有更新，它就会在 Windows 任务栏显示通知图标并跳出提示。如果您点击提示或通知图标，您便可在 twitter.com 阅读新资讯。";
@@ -2154,6 +2157,17 @@ videos_text14 = "在罗技(Logitech)游戏键盘G15查看cFosSpeed窗口";
 videos_text15 = "在罗技(Logitech)游戏键盘G19查看cFosSpeed窗口";
 videos_text16 = "在Windows7 32位上安装cFosSpeed 6.50";
 videos_text17 = "cFosSpeed Version 5.00 - 在Windows7上安装";
+
+/port forwarding
+d_link_dir_605lw_title = "D-Link DIR-605LW 端口转发设置方法";
+d_link_dir_605lw_p1 = "使用你的用户名及密码登陆路由器界面（原始IP:192.168.0.1，原始用户名：admin，没有密码）。登陆成功后，点“手动设置”或“高级网络设置”进入主界面";
+d_link_dir_605lw_p2 = "点“高级”";
+d_link_dir_605lw_p3 = "“高级端口转发规则”";
+d_link_dir_605lw_p4 = "名称随意填写，IP地址填写 运行中的cFos Personal Net 里“IP Address”内的 IP";
+d_link_dir_605lw_p5 = "类型 选择 \"HTTP\"，公共端口填\"80\"";
+d_link_dir_605lw_p6 = "通信量类型 选择 \"TCP\"";
+d_link_dir_605lw_p7 = "点“保存设置”";
+d_link_dir_605lw_p8 = "最后在页面左侧点退出";
 
 /meta descriptions
 missing_meta_desc = "描述标签丢失";

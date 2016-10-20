@@ -708,7 +708,8 @@ link_text_firewall = " مزود ﺑ Firewall ";
 link_text_what_is_cfos = " ما هو cFos/Professional ؟";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - هي اداة علية الدقة لقياس البنق";
+hrping_title = "hrPing - هي اداة علية الدقة لقياس البنق";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - هي اداة علية الدقة لقياس البنق";
 /. `usec` stands for `microsecond`.
 /. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
 /. In other words, means accuracy of the measurement

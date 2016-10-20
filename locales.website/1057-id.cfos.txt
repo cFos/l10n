@@ -695,8 +695,8 @@ link_text_feature_list = "Fitur untuk DSL dan ISDN";
 link_text_what_is_cfos = "Apakah cFos/Professional?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - ping utility presisi tinggi";
-
+hrping_title = "hrPing - ping utility presisi tinggi";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - ping utility presisi tinggi";
 
 /notifier
 notifier_title = "Pengumuman cFos ";

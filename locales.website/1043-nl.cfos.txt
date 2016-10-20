@@ -435,7 +435,8 @@ link_text_feature_list = "functies voor DSL en ISDN";
 link_text_what_is_cfos = "Wat is cFos/Professional?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - Nauwkeurige ping tool";
+hrping_title = "hrPing - Nauwkeurige ping tool";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - Nauwkeurige ping tool";
 
 /notifier
 notifier_p1 = "cFos Notifier is een programma dat in de achtergrond draait en zo nu en dan zoekt of er een nieuwe Twitter Status beschikbaar is. Als er iets nieuws is, zal het een notificatie icoontje weergeven in de windows taakbalk en een ballon tip. Als u de ballon of het taakbalk icoontje aanklikt zal twitter.com starten zodat u uw status kunt lezen.";

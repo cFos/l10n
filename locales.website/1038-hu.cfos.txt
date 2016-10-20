@@ -561,7 +561,9 @@ pnet_until = "Vásárolja meg az élettartam licenszt";
 pnet_after = "augusztus 7ig";
 pnet_nat_h1 = "NAT porttovábbítás beállítása";
 pnet_nat_p1 = "Itt van a mi <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>útmutatónk a népszerű routerekhez</b></a>.";
-pnet_nat_p2 = "<b class=\"green\">Szerezzen egy ingyenes cFosSpeed és cFos Personal Net kulcsot!</b><br/>Segítsen befejezni a <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>router útmutatónk</b></a>. Írja le, hogy hogyan kell NAT porttovábbítást beállítani az ön routerén.";
+pnet_nat_p2a = "Szerezzen egy ingyenes cFosSpeed és cFos Personal Net kulcsot!";
+pnet_nat_p2b = "Segítsen befejezni a <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>router útmutatónk</b></a>.";
+pnet_nat_p2c = "Írja le, hogy hogyan kell NAT porttovábbítást beállítani az ön routerén.";
 pnet_nat_p3 = "Az ön routere már szerepel a listán?";
 pnet_wmi_add_p1 = "A <a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI Monitor</b></a> ingyenes bővítmény a cFos Personal Net-hez, ami információt ad az ön rendszeréről, pl.: kijelzi a CPU, GPU, hálózati használatokat, ping időt, stb. Ezeket a WMI értékeket bárhonnan elérhetjük.";
 pnet_wmi_add_p2 = "A <b>cFos WMI Monitor</b> segít a játékosoknak, tuningosoknak, zenészeknek, stb. hogy ellenőrízzék a különböző komponensek használatát mikor teljes képernyős alkalmazásokat futtatnak. A <b>cFos WMI Monitor</b> információk elérhetőek az ön számítógép böngészőjében és okostelefonján.";
@@ -817,7 +819,7 @@ cfout_p1b_v3 = "A jelenlegi <b>ingyenes</b> elõ-kiadás <b>2014. Június 1</b>-
 cfout_p1b_v4 = "A jelenlegi <b>ingyenes</b> kiadás <b>2015. június 1</b>-ig fut.";
 cfout_p1b_v5 = "A jelenlegi <b>ingyenes</b> kiadás <b>2015. December 31</b>-ig fut.";
 cfout_p1b_v6 = "A jelenlegi <b>ingyenes</b> kiadás <b>2016. Március 31</b>-ig fut.";
-cfout_p1b_v7 = "A jelenlegi <b>ingyenes</b> kiadás <b id=\"expire_date\">2016. Június 30</b>-ig fut.";
+cfout_p1b_v7 = "A jelenlegi <b>ingyenes</b> kiadás <b id=\"expire_date\">September 30th, 2016</b>-ig fut.";
 cfout_p1c = "A jelenlegi, kiadás előtti változat még nem támogatja a csatolmányokat a naptári eseményekhez.";
 cfout_p1d = "A végleges verzió körülbelül 10 Euro-ért lesz elérhetõ.";
 cfout_p1e = "Vagy <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>itt vásárolhat korlátlan licencet</b></a>.";
@@ -948,7 +950,8 @@ link_text_firewall = "Tűzfal";
 link_text_what_is_cfos = "Mi a cFos/Professional?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - Magas precizitású ping segédprogram";
+hrping_title = "hrPing - Magas precizitású ping segédprogram";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - Magas precizitású ping segédprogram";
 hrping_p1 = "Sokkal többre képes a hrPing-el, mint a Windows Ping-el.";
 hrping_l1 = "Ping eredmények grafikus megjelenítése";
 

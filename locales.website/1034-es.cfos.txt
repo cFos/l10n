@@ -776,7 +776,8 @@ link_text_firewall = "Cortafuegos";
 link_text_what_is_cfos = "¿Que es cFos/Professional?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> – Utilidad de ping de alta precisión";
+hrping_title = "hrPing – Utilidad de ping de alta precisión";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> – Utilidad de ping de alta precisión";
 
 /notifier
 notifier_title = "cFos Notificador Twitter";

@@ -670,7 +670,8 @@ link_text_firewall = "Zapora";
 link_text_what_is_cfos = "Co to jest cFos/Professional?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - narzędzie ping o wysokiej dokładności";
+hrping_title = "hrPing - narzędzie ping o wysokiej dokładności";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - narzędzie ping o wysokiej dokładności";
 
 /notifier
 notifier_p1 = "cFos Notifier jest programem, który działa w tle i co jakiś czas sprawdza czy są dostępne nowe statusy Twittera. Jeżeli jest coś nowego to wyświetla ikonę powiadamiania na pasku zadań Windows i podpowiedź w chmurce. Jeśli klikniesz na podpowiedź w chmurce lub ikonę powiadamiania na pasku zadań, zostaniesz przeniesiony na twitter.com i będziesz mógł odczytać nowe statusy.";

@@ -852,7 +852,7 @@ cfout_p1b_v3 = "A versão preliminar atual <b>gratuita</b> estará em funcioname
 cfout_p1b_v4 = "A atual versão <b>grátis</b> está disponível até <b>1º de Junho de 2015</b>.";
 cfout_p1b_v5 = "A atual versão <b>grátis</b> está disponível até <b>31 de Dezembro de 2015</b>.";
 cfout_p1b_v6 = "A atual versão <b>grátis</b> está disponível até <b>31 de Março de 2016</b>.";
-cfout_p1b_v7 = "A atual versão <b>grátis</b> está disponível até <b id=\"expire_date\">June 30th 2016</b>.";
+cfout_p1b_v7 = "A atual versão <b>grátis</b> está disponível até <b id=\"expire_date\">September 30th, 2016</b>.";
 cfout_p1c = "A versão de pré-lançamento atual não suporta arquivos anexados aos eventos do calendário.";
 cfout_p1d = "A versão final estará disponível por cerca de 10 Euros.";
 cfout_p1e = "Ou você pode <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>comprar uma licença ilimitada aqui</b></a>.";
@@ -995,7 +995,8 @@ link_text_what_is_cfos = "O que é o cFos/Professional?";
 / ----------------------------------------------------------------------
 
 /: http://www.cfos.de/en/ping/ping.htm
-hrping_title = "<span class=\"product\">hrPing</span> - Utilitário de ping de alta precisão";
+hrping_title = "hrPing - Utilitário de ping de alta precisão";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - Utilitário de ping de alta precisão";
 hrping_p1 = "Você pode fazer muito mais com o hrPing do que com o Windows Ping.";
 
 /. Used as one of entries in list of hrPings features

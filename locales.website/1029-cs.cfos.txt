@@ -550,7 +550,8 @@ link_text_feature_list = "Možnosti pro DSL a ISDN";
 link_text_what_is_cfos = "Co je cFos/Professional?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - nástroj pro vysoce přesný ping";
+hrping_title = "hrPing - nástroj pro vysoce přesný ping";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - nástroj pro vysoce přesný ping";
 
 
 /notifier

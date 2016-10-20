@@ -577,7 +577,8 @@ link_text_firewall = "Защитна стена";
 link_text_what_is_cfos = "Какво е cFos/Professional?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - Високо прецизен ping инструмент";
+hrping_title = "hrPing - Високо прецизен ping инструмент";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - Високо прецизен ping инструмент";
 
 /notifier
 

@@ -774,7 +774,8 @@ link_text_firewall = "Tường lửa";
 link_text_what_is_cfos = "cFos/Professional là gì?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - Tiện ích giảm ping hiệu quả cao";
+hrping_title = "hrPing - Tiện ích giảm ping hiệu quả cao";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - Tiện ích giảm ping hiệu quả cao";
 
 
 /notifier

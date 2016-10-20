@@ -775,7 +775,8 @@ link_text_feature_list = "Funzionalità ADSL ed ISDN";
 link_text_what_is_cfos = "Cos'è cFos/Professional?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - Nagy pontosságú válaszidő mérő";
+hrping_title = "hrPing - Nagy pontosságú válaszidő mérő";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - Nagy pontosságú válaszidő mérő";
 
 
 /notifier

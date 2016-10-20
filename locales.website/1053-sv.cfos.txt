@@ -449,7 +449,8 @@ link_text_firewall = "Brandvägg";
 link_text_what_is_cfos = "Vad är cFos/Professional?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - Hög-precision ping verktyg";
+hrping_title = "hrPing - Hög-precision ping verktyg";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - Hög-precision ping verktyg";
 
 /notifier
 notifier_p1 = "cFos Notifier är ett program som körs i bakgrunden och kontrollerar om ny Twitter Status är tillgänglig. Om något nytt finns, visas en meddelandeikon i windows taskbar och en ballong. Om du klickar på ballongen eller taskbar ikonen, startar twitter.com så att du kan läsa den nya statusen.";

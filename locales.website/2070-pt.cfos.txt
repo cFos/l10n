@@ -751,7 +751,8 @@ link_text_firewall = "Firewall";
 link_text_what_is_cfos = "O que é o cFos/Professional?";
 
 /hrping
-hrping_title = "<span class=\"product\">hrPing</span> - Utilitário ping de alta precisão";
+hrping_title = "hrPing - Utilitário ping de alta precisão";
+hrping_title_h0 = "<span class=\"product\">hrPing</span> - Utilitário ping de alta precisão";
 hrping_p1 = "Você pode fazer muito mais com o hrPing do que com o Ping do Windows.";
 hrping_l1 = "Visualização dos resultados de ping";
 /. `usec` stands for `microsecond`.
