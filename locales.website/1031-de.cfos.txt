@@ -821,7 +821,7 @@ cfout_p1b_v3 = "Die aktuelle <b>kostenlose</b> Pre-Release läuft bis <b>1. Juni
 cfout_p1b_v4 = "Die aktuelle <b>kostenlose</b> Release läuft bis <b>1. Juni 2015</b>.";
 cfout_p1b_v5 = "Die aktuelle <b>kostenlose</b> Release läuft bis <b>31. Dezember 2015</b>.";
 cfout_p1b_v6 = "Die aktuelle <b>kostenlose</b> Release läuft bis <b>31. März 2016</b>.";
-cfout_p1b_v7 = "Die aktuelle <b>kostenlose</b> Release läuft bis <b id=\"expire_date\">September 30th, 2016</b>.";
+cfout_p1b_v7 = "Die aktuelle <b>kostenlose</b> Release läuft bis <b id=\"expire_date\">30. September 2016</b>.";
 cfout_p1c = "Die aktuelle Pre-Release unterstützt keine Dateianhänge für Kalendertermine.";
 cfout_p1d = "Die endgültige Release wird ca. 10 Euro kosten.";
 cfout_p1e = "Alternativ können sie auch <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>eine zeitlich unbegrenzte Lizenz erwerben</b></a>.";

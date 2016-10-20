@@ -922,7 +922,7 @@ cfout_p1b_v3 = "目前的 <b>免費預覽版</b> 使用期限至 <b>2014 年 06 
 cfout_p1b_v4 = "目前的 <b>免費版</b> 使用期限至 <b>2015 年 06 月 01 日</b>止。";
 cfout_p1b_v5 = "目前的 <b>免費版</b> 使用期限至 <b>2015 年 12 月 31 日</b>止。";
 cfout_p1b_v6 = "目前的 <b>免費版</b> 使用期限至 <b>2016 年 03 月 31 日</b>止。";
-cfout_p1b_v7 = "目前的 <b>免費版</b> 使用期限至 <b id=\"expire_date\">2016 年 06 月 30 日</b>止。";
+cfout_p1b_v7 = "目前的 <b>免費版</b> 使用期限至 <b id=\"expire_date\">2016 年 09 月 30 日</b>止。";
 cfout_p1c = "目前的預覽版不支援在日曆的事件中附加檔案。";
 cfout_p1d = "最終版本將以大約 10 歐元價格販售。";
 cfout_p1e = "您也可以 <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>在此購買無此限制的授權</b></a>。";

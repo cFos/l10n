@@ -819,7 +819,7 @@ cfout_p1b_v3 = "A jelenlegi <b>ingyenes</b> elõ-kiadás <b>2014. Június 1</b>-
 cfout_p1b_v4 = "A jelenlegi <b>ingyenes</b> kiadás <b>2015. június 1</b>-ig fut.";
 cfout_p1b_v5 = "A jelenlegi <b>ingyenes</b> kiadás <b>2015. December 31</b>-ig fut.";
 cfout_p1b_v6 = "A jelenlegi <b>ingyenes</b> kiadás <b>2016. Március 31</b>-ig fut.";
-cfout_p1b_v7 = "A jelenlegi <b>ingyenes</b> kiadás <b id=\"expire_date\">September 30th, 2016</b>-ig fut.";
+cfout_p1b_v7 = "A jelenlegi <b>ingyenes</b> kiadás <b id=\"expire_date\">2016. szeptember 30</b>-ig fut.";
 cfout_p1c = "A jelenlegi, kiadás előtti változat még nem támogatja a csatolmányokat a naptári eseményekhez.";
 cfout_p1d = "A végleges verzió körülbelül 10 Euro-ért lesz elérhetõ.";
 cfout_p1e = "Vagy <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>itt vásárolhat korlátlan licencet</b></a>.";
