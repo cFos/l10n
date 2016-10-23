@@ -2,32 +2,64 @@
 #fallback 1033
 #charset 0
 
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
 language = "Indonesian";
 lang_key = "_id";
 input_lang = "id";
 
-/ test purposes, don't translate!
+/ ----------------------------------------------------------------------
+/
+/  Navigation
+/
+/ ----------------------------------------------------------------------
 
-/ navigation
 link_text_contact = "Kontak";
 link_text_download = "Unduh";
 link_text_forum = "Forum";
 link_text_oem_version = "Versi OEM";
 link_text_order = "Memesan";
 link_text_press_releases = "Press releases";
+link_text_products = "Produk";
 link_text_sitemap = "Sitemap";
 link_text_support = "Dukungan";
 
-/ index2
+/ ----------------------------------------------------------------------
+/
+/  index2
+/
+/ ----------------------------------------------------------------------
+
+about = "Tentang cFos Software";
 asrock_info = "Informasi untuk pengguna <b>ASRock XFast LAN</b>";
 bc_linktext = "cFos Broadband Connect untuk akses kecepatan tinggi";
 cfos_linktext = "cFos/Professional untuk ISDN";
+
+/. Means "Close current dialog window"
 close = "Tutup";
+
+/. Cookies here means not actual crisp and tasty cookies, but web cookies.
+/. See for details: https://en.wikipedia.org/wiki/HTTP_cookie
+/. Check that wikipedia page in your language to find out best translation for your language
+cookie_bar_text = "Kami menggunakan cookies untuk personalisasi konten dan iklan, untuk menyediakan fitur sosial media dan untuk menganalisa traffic kita. Kami juga membagikan informasi tentang penggunaan anda pada situs kita dengan sosial media kita, periklanan dan rekan penganalisa.";
+
+/. Used as text of link, which leads to page with detailed explanations
+/. Depending on your language, you might drop `See` part
+cookie_bar_details = "Lihat detail";
+
+/. Used as "I've understood"
+cookie_bar_got_it = "Mengerti";
+
 desc_6link = "Konektivitas IPv6 untuk XP, Vista dan Windows 7";
 desc_dialup = "Internet Dial-Up";
 desc_shaping = "Akselerasi Internet melalui Traffic Shaping";
 desc_freeware = "Alat dan layanan gratis";
 desc_notifier = "Tetap terinformasi tentang Tweets baru di akun Twitter anda";
+desc_notifier_v2 = "Dapatkan informasi terbaru tentang surat baru, Tweets dan RSS Feeds";
 desc_speedtest = "Uji coba kecepatan koneksi Internet anda";
 freeware_text1 = "Versi terbaru dari cFosSpeed tersedia:";
 freeware_text2 = "Pembaruan Traffic Shaping : Bandwidth maksimal, ping minimum! unduh sekarang: ";
@@ -37,13 +69,22 @@ special_offer_xmas = "Penawaran Natal! <span class=\"red\">Harga spesial</span> 
 special_offer_xmas_2 = "(dikarenakan akhir pekan diperpanjang sampai 2 Januari 2011)";
 special_offer_spring = "Penawaran khusus untuk festival musim semi! sampai 9 Februari 2011";
 special_offer_winter = "Harga khusus selama musim dingin sampai 31 January 2012";
+summer_sale = "Harga spesial selama musim panas hingga 31 Agustus";
 worldcup_sale = "Harga spesial selama Piala Dunia!"; / FIFA Soccer World Cup
+winter_sale = "Harga spesial selama musim dingin!"; / Tahun baru China
+winter_sale_ext = "Diperpanjang hingga 28 Januari - Terima kasih atas dukungan anda!";
+
+/. Mean text styles, like `light font` (thin), or `bold font` (strong)
+style_light = "Tipis";
+style_strong = "Tebal";
+
 style_untranslated = "Mode Highlight untuk text yang belum diterjemahkan";
 translation_settings = "Pengaturan terjemahan";
 translation_text1 = "This page is not sufficiently translated!";
 translation_text2 = "Dapatkan sebuah lisensi gratis (cFos, cFosSpeed atau cFosBC) untuk membantu kita.";
 translation_text3 = "Informasi lebih lanjut";
 twitter_notifier_linktext = "Pemberitahu Twitter cFos";
+twitter_notifier_linktext_v2 = "cFos Notifier untuk surat, Twitter &amp; RSS";
 view_translations = "Lihat terjemahan";
 view_all = "Semua <span class=\"smalltext\">(perubahan termutakhir oleh penerjemah lain)</span>";
 view_approved = "Hanya yang telah disetujui";
@@ -60,8 +101,36 @@ current_version = "Versi saat ini";
 rwin_video_award = "Lamar untuk cFosSpeed RWIN-Expansion Award 2012 sekarang!";
 rwin_video_award2 = "Menangkan satu dari <b>100</b> lisensi seumur hidup cFosSpeed gratis!";
 social_networks = "Mohon dukung keberadaan sosial kami.<br/>Sukai kami di Facebook, ikuti kami di Twitter.";
+word_follow = "Ikuti";
+cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> sekarang telah tersedia untuk <b>Windows 10</b>.";
 
-/ download
+/: http://www.cfos.de/en/index.htm
+/: http://www.cfos.de/en/download/download.htm
+/: http://www.cfos.de/en/cfosspeed/cfosspeed.htm
+/: http://www.cfos.de/en/cfosspeed/cfosspeed-feature-highlights.htm
+/. Used as label for button or text of link, which proposes to learn more about product or feature
+learn_more = "Pelajari lebih lanjut";
+
+/. Used as promo text in header of cfos.de
+/. Please, keep line feed (`<br/>` tag, which stands for line break) at approx middle of the text,
+/. preferred directly before the brand names
+oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> adalah official Internet Accelerator untuk<br/>ASUS, GIGABYTE, ASRock dan produk MSI gaming";
+
+/. Used as notification banner for OEM users
+/. Please, keep line feed (`<br/>` tag, which stands for line break) at approx middle of the text,
+/. preferred directly before the link to the brand pages
+
+/: https://www.cfos.de/ru/order/order.htm
+/. Used on a small label in corner of product's box image
+/. Try to keep string as narrow as possible. If phrase should be spanned on two lines
+/. (with `<br/>` tag in place of break), try to keep both lines of same length
+
+/ ----------------------------------------------------------------------
+/
+/  Download
+/
+/ ----------------------------------------------------------------------
+
 additional_downloads = "Tambahan unduhan";
 add_lang_text = "Tambahan bahasa untuk cFosSpeed";
 alt_cfosbc_image = "cFosBC gambar";
@@ -69,6 +138,8 @@ alt_cfos_image = "cFos gambar";
 alt_speed_image = "cFosSpeed gambar";
 bark_text = "Layanan WatchDog. Memonitor dan me-restart proses-proses, bila berhenti bekerja.";
 beta_versions = "Versi beta cFos";
+beta_thanks = "<b>A terimakasih banyak</b> kepada seluruh beta tester atas respon cepat dalam melaporkan errors dan mengirim kami file trace dan crashdumps. Tanpa bantuan kalian produk kami tidak akan dapat memiliki standart kualitas tinggi!";
+beta_warning = "Beta versi ini telah <span class=\"red\">tidak</span> di test secara keseluruhan.<br/><span class=\"red\">Gunakanlah dengan resiko anda sendiri</span>.";
 black = "Hitam";
 cfnotify_text = "Perlengkapan untuk menunjukkan icon-icon di taskbar anda. untuk digunakan sebagai contoh dengan cFos caller monitor";
 cfosbc_text = "Driver Dial-Up untuk akses internet bandwidth besar.";
@@ -83,11 +154,13 @@ download_page = "Halaman unduh";
 downloads = "Unduhan";
 download_x64_for = "<b>Unduh</b> untuk edisi x64";
 download_x86x64_for = "<b>Unduh</b> untuk edisi x86 + x64";
+email = "Email";
 for = "Untuk";
 freeware_programs = "Program Freeware";
 gadget = "cFosSpeed gadget untuk Vista";
 gadget_text = "cFosSpeed sidebar gadget untuk Windows Vista/7<br /><span class=\"smalltext\" style=\"line-height: 12px\"><br /><b class=\"red\">Note</b>: jika anda menjumpai &quot;<b>Can't create automation object</b>&quot; pesan error setelah menginstal gadget, mohon lakukan langkah-langkah berikut:<br /><b>1</b>. periksa versi angka dari cFosSpeed<br />&nbsp;&nbsp;&nbsp;&nbsp;(4.24 atau lebih tinggi adalah wajib)<br /><b>2</b>. Reboot sistem anda</span>";
 grey = "Abu-abu";
+gadget_title = "cFosSpeed gadget";
 hacks_cracks = "Opini kita tentang <br /> Hacks &amp; Cracks";
 hint = "Hint";
 hrping_text = "Perlengkapan ping ketepatan tinggi dengan kemampuan tingkat lanjut dan statistik";
@@ -97,34 +170,61 @@ mugstore_header = "Mug cFos di mugstore.de";
 mugstore_text = "Setiap tahun, mug-mug ini dibuat khusus untuk cFos Software GmbH dan diberikan kepada teman jauh perusahaan sebagai hadiah Natal. Mereka memberikan hormat kepada sebuah seni atau film populer, semua menyatu dibawah topik &quot;cFos&quot;.<br /><br />Sebelumnya hanya di cetak dalam jumlah terbatas, sekarang tersedia secara online untuk semua orang dit<br />";
 other_languages = "Bahasa lain";
 other_systems = "Untuk sistem operasi lain";
+product_page = "Halaman produk";
 rnahelp_text = "Batch-utility untuk koneksi internet Windows";
 sk_c64_text = "C64-styled 'cFos skin' (oleh Markus Welz)";
 sk_classic = "cFos Skin klasik";
 sk_classic_text = "cFos Skin klasik";
+sk_dean = "Dean's Metro Skin";
+sk_dean_text = "Metro Skin modified untuk Windows 10 (by Dean)";
+sk_froghut = "Froghut Title Bar Skin";
 sk_froghut_text = "Froghut Title Bar Skin (oleh Björn v. d. Osten)";
+sk_grant = "Grant's Skin";
 sk_grant_text = "Icon Skin (oleh Grant Brunton)";
+skins = "Skins";
 sk_history = "sejarah LC";
 sk_history_text = "Liquid Crystal skin dengan bars sejarah";
+sk_lc_blue = "Liquid Crystal blue";
 sk_lc_blue_text = "Liquid Crystal skin, tampilan warna biru (oleh Toxic)";
 sk_luna = "Skin untuk Windows XP Luna";
+sk_modern = "cFos Modern Skin";
+sk_mon_txt = "cFos Monitor Text Skin";
+sk_mon_txt_525 = "cFos Monitor Text Skin 5.25";
 sk_mon_txt_525_text = "cFos Monitor-Text-Skin (untuk cFos versi >= 5.25)";
 sk_mon_txt_text = "cFos Monitor-Text-Skin (oleh Maik Reiss / Hoeft und Wessel)";
 sk_msinanucler = "Ikon Traffic Analysis W7";
 sk_msinanucler_text = "Skin Traffic Analysis yang Dimodifikasi dengan gambar latar oleh Msinanucler";
+sk_mtin = "MTiN's Skin";
 sk_mtin_text = "Minimal Skin (oleh MTiN)";
+sk_netmedic = "Rx/Tx Skin (+ Icon)";
 sk_netmedic_text = "kirim/terima Skin dan Icon Skin (oleh Ilya Dedinsky)";
+sk_offchu = "Slim LC";
 sk_offchu_text = "Slim horizontal Liquid Crystal Skin (oleh offchu)";
 sk_offchu_history = "sejarah Slim LC";
 sk_offchu_history_text = "skin sejarah Slim horizontal Liquid Crystal (oleh offchu)";
+sk_safak = "Safak's Skin";
 sk_safak_text = "Shinnher's Skin dimodifikasi Safak Falakaoglu";
+sk_shinnher = "Shinnher's Skin";
 sk_shinnher_text = "Liquid Crystal Skin dimodifikasi oleh Shinnher";
 sk_shinnher_text_black = "Shinnher's Skin dengan background hitam dimodifikasi oleh Scott";
 sk_shinnher_text_grey = "Shinnher's Skin dengan background abus-abu dimodifikasi oleh Scott";
 sk_shinnher_text_trans = "Shinnher's Skin dengan background tembus pandang dimodifikasi oleh Scott";
+sk_txt = "cFos Text Skin";
 sk_txt_text = "cFos Text Skin, bagi yang melewatkan skin cFos windows lama.<br />(Petunjuk: instalasi hanya ke 'modern'-directory)";
+sk_tutorial = "Skin Tutorial";
 sk_tutorial_text = "Bagaimana menciptakan skin cFos(speed) anda sendiri";
+sk_tga = "TGA Skins";
 sk_tga_text = "cFos(Speed) arsip skin dengan file - untuk versi lama dari program kami";
 speed_text = "Akses internet lebih cepat dengan Traffic Shaping";
+
+/. Do not translate or change `<span id=\"countdown\">00:00</span>` part.
+/. But you can move it around as whole freely
+start_download_p1 = "Proses download akan dimulai dalam <span id=\"countdown\">00</span> detik.";
+
+/. Do not translate or change anything except `direct link` in <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direct link</b></a>` part.
+/. You can move it around as whole freely, though
+start_download_p2 = "Jika proses download tidak dapat dimulai secara otomatis, harap coba ini <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direct link</b></a>.";
+
 submit = "Kirim";
 transparent = "Tembus pandang";
 updates = "Pembaruan";
@@ -139,7 +239,12 @@ twitter_follow_short = "Ikuti cFos Software";
 language_files = "file bahasa";
 word_translation = "terjemahan";
 
-/ order
+/ ----------------------------------------------------------------------
+/
+/  Order
+/
+/ ----------------------------------------------------------------------
+
 atm_price = "versi ATM atas permintaan";
 bank_de_account = "";
 bank_de_account_owner = "";
@@ -152,6 +257,11 @@ by_phone = "Bantuan, order lewat telepon";
 buy_at = "Beli @";
 buy_now = "Beli Sekarang";
 conf_cc = "Pembayaran kartu kredit";
+
+/. Used before Credit Card number, like
+/= "Nr. 2661-4345-2456-1345"
+/. It should be replaced with preferred in your region format
+
 conf_check_cc = "Mohon periksa informasi kartu kredit anda";
 conf_check_order = "Periksa pesanan anda";
 conf_deliverer = "Alamat anda";
@@ -169,7 +279,11 @@ conf_formerror_missing_entry = "Entri yang dibutuhkan hilang!";
 conf_formerror_not_complete = "Pemesanan anda belum lengkap! Mohon gunakan tombol browser 'kembali' anda dan isilah entri yang kurang.";
 conf_fromerror_license = "Mohon gunakan tombol browser 'kembali' anda dan indikasikan bahwa anda telah membaca dan menerima syarat-syarat lisensi cFos!";
 confident = "Kerahasiaan: Data yang anda sediakan disini hanya akan digunakan untuk pemesanan ini dan tidak akan diberikan kepada orang lain.";
+
+/. Used as part of phrase
+/= Your Order at www.cfos.de
 conf_lastschrift_at = "di";
+
 conf_moneybookers_trans = "Transfer Moneybookers";
 conf_moneybookers_text = "Mohon masukkan &quot;<strong>[%$1_name%]</strong>&quot; sebagai alasan pembayaran ke moneybookers &quot;<strong>eMail-Betreff</strong>&quot;";
 conf_name = "Masukkan nama anda";
@@ -214,9 +328,11 @@ f_checkbox_license_text_speed = "Saya telah membaca <a class=\"inline\" href=\"/
 f_checkbox_license_text_pnet = "Saya telah membaca <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">perjanjian lisensi cFos Personal Net</a> dan menerima syarat dan kondisinya.";
 f_checkbox_license_text_pnetbnd = "Saya telah membaca perjanjian lisensi untuk <a class=\"inline\" href=\"/en/cfos-personal-net/license.htm\" target=\"_blank\">cFos Personal Net</a> dan <a class=\"inline\" href=\"/en/cfosspeed/license.htm\" target=\"_blank\">cFosSpeed</a> serta menerima syarat dan kondisinya.";
 f_city_postcode = "Zip/Kode pos, Kota";
+f_deliverto_list_01 = "user@host.net, bukan <span style=\"text-decoration: line-through\">www.host.net</span>";
 f_deliverto_list_02 = "Apakah telah dieja dengan benar?";
 f_deliverto_list_03 = "Karakter khusus seperti <span style=\"background-color: #ffffe0; font-weight: bold\">&nbsp;. - _&nbsp;</span> dimasukkan dengan benar?";
 f_deliverto_list_04 = "Mohon jangan bingung antara gmx.de dengan gmx.net!";
+f_email = "eMail";
 f_express = "Express";
 f_express_text = "pengantaran melalui eMail; email diatas harus valid.";
 find_serial = "Petunjuk: Anda dapat menemukan nomor serial anda dengan meng-klik sebelah kanan pada simbol cFos task. Lihatlah pada baris kedua dari atas pada konteks menu.  (i.e. cF1234)";
@@ -233,8 +349,14 @@ f_use_form_c = "Sebagai pengguna bisnis, mohon gunakan ";
 f_land = "Negara";
 f_license = "Lisensi";
 f_moneybookers_text = "Silahkan masukkan pembayaran anda ke rekening Moneybookers berikut:";
+
+/. Paymenth method — "Cash on Delivery"
+/. See http://en.wikipedia.org/wiki/Cash_on_delivery
 f_nachname = "COD";
+
+/. Says that certain payment method available within Germany only
 f_nachname_text = "khusus Jerman saja, +4 &#8364; biaya pengiriman";
+
 f_name = "Nama";
 f_alipay_text = "Serahkan pembayaran anda ke akun AliPay verikut：";
 f_optional = "opsional";
@@ -244,7 +366,12 @@ for_business_users = "untuk pengguna bisnis";
 for_dos_w311_os2  = "untuk DOS | OS/2 | Windows 3.x";
 for_existing_users = "untuk pelanggan yang ada";
 form_subtitel_contact = "Informasi Kontak";
+
+/. Title of form about user's order
+/. Also used as part of phrase
+/= Your Order at www.cfos.de
 form_subtitel_order = "Pesanan Anda";
+
 form_subtitel_payment = "Pembayaran";
 form_title_c = "Formulir Pemesanan untuk Pengguna Bisnis";
 form_title_n = "Formulir Pemesanan untuk Pengguna Pribadi";
@@ -273,6 +400,7 @@ incl_vat_ship = "Harga termasuk PPN Jerman dan semua biaya ongkos dan penanganan
 incl_vat_ship_cfos_omni = "Omni-Platform - termasuk pajak penjualan / PPN. Bebas biaya pengiriman dan penanganan.  <br />Termasuk cFos/DOS, cFos/Win, cFos/2 dan cFos NT/2000/XP/2003 Server/Vista/7 + Edisi x86/x64.";
 lifetime_updates = "Pemutakhiran Seumur Hidup";
 lifetime_updates_text = "Anda dapat mengunduh versi baru untuk sistem operasi anda dan menginstal di bawah versi lama.";
+mercado_pay_now = "Bayar sekarang dengan Mercado Pago";
 multi_buy = "Beli";
 office_time = "dari Senin hingga Jum'at dari 9 pagi hingga siang (CET)";
 only = "hanya";
@@ -285,6 +413,7 @@ paypal_lang = "id_ID";
 pay_with = "Pembayaran menggunakan";
 private_users = "Pengguna Pribadi";
 private_users_text = "Pengguna Pribadi pesan di sini! Jika anda dapat memotong harga dari produk kami dari pajak anda, silahkan menuju: ";
+server_unavailable = "Server untuk sementara tidak tersedia, harap coba lagi beberapa detik.";
 shopping_cart = "Kereta belanja";
 spbc_text = "1 lisensi cFosSpeed+ 1 lisensi cFos Broadband Connect license untuk harga khusus";
 spbc_title = "Penawaran khusus diluncurkan";
@@ -301,11 +430,16 @@ special_conditions_text_pnet = "Bila anda bermaksud untuk memesan <em>cFos Perso
 special_conditions_text_pnetbnd = "Bila anda bermaksud untuk memesan <em>cFos Personal Net / cFosSpeed bundle</em> dalam jumlah besar dan/atau ingin menjadi reseller, mohon hubungi <a class=\"inline\" href=\"/en/contact/msgpost.htm\" onclick=\"cfos.show_contact_form(); return false;\"><b>cFos Order Team</b></a> kami. Kami akan mengirimkan penawaran kepada anda segera.";
 special_offer = "Penawaran khusus";
 special_price_for = "Harga khusus untuk penduduk di negara anda.";
+th_abort_paypal = "Transaksi gagal!";
 th_order_date = "Tanggal Pemesanan";
 th_paypal_text = "Kami akan mengirim anda tautan menuju Paypal pada <strong>hari kerja berikutnya</strong>. Itu akan berisi semua informasi penting untuk pembayaran. Jika anda mau mempercepat pemesanan anda, anda juga dapat membayarnya sekarang. Tuju ke situs web PayPal (taut di bawah ini) dan masukkan semua data penting secara manual. Silahkan masukkan nama pada bagian \"email subject\". Pengiriman setelah pembayaran dikonfirmasi.";
+th_paypal_text_redirect = "Mengalihkan ke PayPal...";
 th_text = "Telah sampai pada waktunya pada tim kami dan akan diproses pada waktu yang <strong>sama atau hari kerja berikutnya</strong>.<br /> Anda juga akan menerima konfirmasi melalui e-mail pada saat tim kami telah memasukkan transaksi pemesanan ke sistem kami.";
+th_text_paypal = "Transaksi anda telah berhasil dan anda akan menerima konfirmasi melalui e-mail. Anda juga dapat log in kedalam akun<a class=\"inline\" href=\"http://www.paypal.com\">PayPal anda</a> untuk melihat detail transaksi.";
+th_text_paypal_abort = "Transaksi anda belum berhasil, harap coba lagi";
 th_thanks = "Terima kasih!";
 th_thanks_order = "Terima kasih untuk pemesanan anda!";
+th_thanks_paypal = "Terimakasih atas pembayarannya!";
 validation_lifetime = "termasuk pemutakhiran tak terbatas di masa depan";
 webmoney_id = "ID WebMoney kami adalah 414417381154 .";
 webmoney_purses = "Dompet kami untuk Russian Rubles (RUB) adalah R186904373715.";
@@ -322,7 +456,12 @@ word_service = "Layanan";
 word_submit_order = "Kirim Pemesanan";
 word_year = "tahun";
 
-/ Order and Announcelist Confirmation Email
+/ ----------------------------------------------------------------------
+/
+/  Order and Announcelist Confirmation Email
+/
+/ ----------------------------------------------------------------------
+
 ann_subject = "Terimakasih telah bergabung dengan daftar pengumuman cFos";
 ann_salut = "Kepada pengguna cFos";
 ann_info = "Anda telah berlangganan daftar pengumuman cFos. Kami akan memberitahukan kepada anda tentang versi terbaru dari program kami sekitar 3-5 kali pertahun.";
@@ -341,7 +480,12 @@ em_noreply = "Ini adalah e-mail otomatis. Mohon jangan dibalas. Jika anda tidak 
 em_text = "Kami akan memproses pesanan anda secepat mungkin.";
 em_webmoney = "ke rekening WebMoney kami.";
 
-/ cFosSpeed
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
 a_bt = "cFosSpeed dengan torrent";
 a_games = "Bagaimana saya dapat mempercepat game online saya?";
 alt_ct_logo = "Logo c't";
@@ -357,12 +501,20 @@ cfosspeed_access = "<b>Untuk semua tipe akses</b>: DSL, Kabel, Jaringan Seluler 
 cfosspeed_more = "Pelajari lebih lanjut";
 cfosspeed_rwin = "Pengguna kami dapat meningkatkan kecepatan unduh mereka menjadi <b>172%</b> dengan Ekspansi RWIN cFosSpeed.";
 cfosspeed_games = "Mempercepat game online anda";
+cfosspeed_news = "Berita produk cFosSpeed";
 cfosspeed_surf = "Berselancar di Web lebih cepat";
 cfosspeed_speedup = "Peningkatan kecepatan <b>172%</b> dari pengguna kami";
 cfosspeed_rewin = "Lihat hasil yang menakjubkan dari Ekspansi RWIN cFosSpeed";
 dupe_a_voip = "Kualitas suara bagus dengan Voice-over-IP (VoIP) (jerman)";
 budgets = "Dana Daring";
 desc_cfosbc = "<b>cFosBC</b>, dial-up dengan performa tinggi untuk akses internet dengan bandwidth tinggi";
+firewall = "Firewall";
+
+/: http://www.cfos.de/en/cfosspeed/cfosspeed.htm
+/. Used in sidebar of cFosSpeed page as promotion. Says that cFosSpeed keeps quite high number
+/. of "YES" and has numerous positive comments at Steam Greenlight
+greenlight_h1 = "<b style=\"color: #409a03\">82% \"YES\" vote</b> dan berikan komentar positif pada <b><span style=\"color: #5B7399\">cFosSpeed's</span> <a class=\"inline\" href=\"http://steamcommunity.com/sharedfiles/filedetails/comments/538515919\"><span style=\"color: #409a03\">halaman Steam Greenlight</span></a></b>!";
+
 header_features = "Fitur";
 highlights = "Highlights";
 highlight1 = "cFosSpeed mencegah sebuah aplikasi (contohnya, mengirim email) agar tidak menghambat aplikasi lainnya, seperti panggilan telepon, chat, dll.";
@@ -410,21 +562,40 @@ li_text_feat5 = "Memperbaiki kualitas VoIP";
 more_features = "Fitur lebih";
 news_info = "Berita / Info";
 optimize_traffic = "Setiap kali anda mengakses internet dengan lebih dari satu aliran data, cFosSpeed dapat memaksimalkan lalu-lintas data.";
+phone_skins = "Jendela status pada smartphone/tablet anda";
 prio_ports = "Memprioritaskan port-port";
 prio_programs = "Prioritaskan program";
 prio_protocols = "Prioritaskan protokol";
 related_product = "Produk terkait";
+
+/. Used in follwoing string:
+/= "Reviewed 4.5 / 5 stars by softpedia.com"
+review1 = "Telah direview";
+
+/. Used in follwoing string:
+/= "Reviewed 4.5 / 5 stars by softpedia.com"
+review2 = "diberikan peringkat bintang";
+
+rwin_expansion = "RWIN Expansion";
 rwin_now = "sekarang dengan Ekspansi RWIN!";
 rwin_results = "Lihat daftar hasil-hasil menakjubkan yang diperoleh!";
 share_cfosspeed = "Berbagi cFosSpeed";
+slider_prio = "Anda dapat mengatur prioritas dari protokol jaringan yang paling sering digunakan, sehingga seluruh programs yang menggunakannya secara otomatis mempunyai prioritas masing masing. Sebagai tambahan anda dapat mengkonfigurasi prioritas dari masing masing program. Artinya downloads tidak menyebabkan lag sebagai contoh ketika sedang memainkan game atau menonton video.";
+slider_conn = "Sekilas anda melihat program mana yang menggunakan bandwidth anda. cFosSpeed memperbolehkan anda untuk sementara mengganti prioritas untuk meningkatkan kecepatan transfer dan menurunkan latency untuk aplikasi yang memerlukan waktu tepat.";
 special_offer_launch = "Penawaran harga khusus:<br />cFosBC + cFosSpeed untuk harga berjumlah ";
 special_price = "harga khusus";
 word_more = "lanjut";
 
-/cFos Personal Net
+/ ----------------------------------------------------------------------
+/
+/  cFos Personal Net
+/
+/ ----------------------------------------------------------------------
+
 desc_pnet = "Web server untuk pengguna rumahan dan profesional";
 pnet_title = "Web server untuk pengguna rumahan dan profesional";
 desc_pnet_new = "Tampung berkas anda dan sinkronkan data anda";
+desc_pnet_portable = "Memperbolehkan anda untuk menampung file tanpa menginstal software atau menggunakan jasa lain";
 pnet_video = "cFos Personal Net Web Server<br/>Instalasi dan penerbitan sederhana";
 pnet_li_text_feat1 = "Web hosting secara instan pada PC anda";
 pnet_li_text_feat2 = "Setup server dengan mudah dalam beberapa menit";
@@ -435,9 +606,11 @@ pnet_li_text_feat6 = "Dukungan penuh multi-thread dan multi-core";
 pnet_li_text_feat7 = "Bangun 'cloud' pribadi anda";
 pnet_li_text_feat8 = "Data host untuk smartphone dan tablet Anda di jaringan rumah";
 pnet_li_text_feat8a = "Sinkronkan berkas, kalender dan alamat dar smartphone dan tablet anda";
+pnet_li_text_feat8b = "dan dengan MS Outlook: <a class=\"inline\" href=\"/en/cfos-outlook-dav/cfos-outlook-dav.htm\"><b>OutlookDAV</b> (beta)</a>";
 pnet_li_text_feat9 = "Dukungan WebDAV(RFC 4918)";
 pnet_li_text_feat9a = "Mendukung WebDAV, CalDAV dan CardDAV";
 pnet_li_text_feat10 = "Sidebar Gadget untuk Windows Vista/7";
+pnet_serv_dav = "cFos Personal Net mendukung CALDAV (RFC 4791). Hal ini memungkinkan anda untuk menyimpan dan mensinkronisasi data kalender anda.<br />cFos Personal Net mendukung CardDAV (RFC 6352). Hal ini memungkinkan anda untuk menyimpan dan mensinkronisasi kontak buku alamat anda dengan cFos Personal Net.";
 pnet_highlight1 = "Tidak perlu remote server dengan akses pihak ketiga ke data anda";
 pnet_highlight2 = "Dukungan penuh multi-thread dan multi-core. Kinerja server sebanding dengan jumlah core prosesor";
 pnet_highlight3 = "Pengguna anda hanya perlu sebuah web browser untuk mengaksees server - perangkat lunak tambahan tidak diperlukan";
@@ -447,9 +620,29 @@ pnet_percent = "Diskon 50% hingga Peluncuran Versi 1.0";
 pnet_release = "Peluncuran versi 1.0";
 pnet_until = "Sampai waktu tersebut beli lisensi seumur hidup untuk";
 pnet_after = "Setelah tanggal 7 Agustus akan";
+pnet_nat_p1 = "Disini adalah<a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>panduan kami untuk router populer</b></a>.";
+
+/. pnet_nat_p2 is outdated and split into three parts now - no need to translate it any longer
+pnet_nat_p2 = "<b class=\"green\">Dapatkan gratis lisensi cFosSpeed dan lisensi cFos Personal Net!</b><br/>Bantu kami untuk menyelesaikan <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>panduan router kami</b></a>. Tuliskan instruksi lengkap tentang bagaimana untuk set up NAT port forwarding dengan router anda.";
+
+pnet_nat_p3 = "Apakah router anda telah terdaftar?";
 pnet_wmi_add_p1 = "<a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI Monitor</b></a> adalah add-on gratis untuk cFos Personal Net untuk menampilkan hampir semua nilai WMI tentang sistem anda, seperti CPU load, GPU load, network usage, ping time, dan lain lain. Akses nilai WMI di mana saja.";
 pnet_wmi_add_p2 = "<b>cFos WMI Monitor</b> membantu gamers, pengguna aktif, musisi, dan lain lain. Untuk memonitor performa dari masing masing komponen dalam sistem jalankan add-on ini ketika menjalankan aplikasi (full-screen). <b>cFos WMI Monitor</b> membuat informasi tersebut tersedia di dalam jendela browser di PC atau smartphone anda.";
 pnet_wmi_explain = "Apakah cFos WMI Monitor itu?";
+pnet_portable_h1 = "Menampung file hanya dengan 2 langkah";
+pnet_portable_p1 = "Download cFos Personal Net Portable (cfospnet_portable.exe) dan jalankan.";
+
+/. Don't translate the "Publish with..." part
+pnet_portable_p2 = "Dalam Windows Explorer klik kanan pada file yang ingin anda jadikan tersedia untuk didownload dan pilih \"Publish with cFos Personal Net (portable)\".";
+
+pnet_portable_h2 = "Info tambahan untuk cFos Personal Net Portable";
+pnet_portable_p3 = "Link download anda telah terkopi ke clipboard sehingga anda dapat mempastenya kedalam email atau pesan.";
+
+/. Don't translate the "Publish" and "Upload..." parts
+pnet_portable_p4 = "Anda mungkin perlu untuk <a class=\"inline\" href=\"/en/cfos-personal-net/documentation/router.htm\"><b>memperbolehkan NAT port-forwarding</b></a> pada router anda. Anda juga dapat memperbolehkan orang lain untuk upload file. Klik kanan pada cFos Personal Net taskbar ikon, pilih \"publish\" kemudian \"Upload link ke clipboard\"";
+
+pnet_portable_p5 = "Pengguna cFos Personal Net dapat mencari <em>cfospnet_portable.exe</em> didalam direktori instalasi, sehingga anda dapat menggunakannya dalam mode full server atau mode portable. Sebagian besar dari kegunaan cFos Personal Net juga tersedia dalam portable mode.";
+pnet_portable_p6 = "<b>Bagaimana cara aktivasi license key anda</b>: cFos Personal Net Portable membuat <em>pub\\admin</em> direktori pada lokasi yang telah dipilih sebelumnya. Cara simpelnya adalah dengan memindahkan license key ke direktori <em>pub\\admin</em>. Jika license key anda memerlukan password authorization, harap hubungi kami untuk key baru yang tidak memerlukan password.";
 pnet_doc_a1 = "Peninjauan";
 pnet_doc_a2 = "Setup dasar";
 pnet_doc_a3 = "Konfigurasi tambahan";
@@ -460,6 +653,7 @@ pnet_doc_a7 = "Fitur lainnya";
 pnet_doc_a8 = "Referensi fitur";
 pnet_doc_a9 = "Konfigurasi Router/Firewall";
 pnet_doc_a10 = "WebDAV, CalDav dan CardDav";
+pnet_doc_a12 = "Menginstal bahasa script";
 pnet_wmi_title = "cFos WMI Monitor, adalah paket add-on cFos Personal Net";
 pnet_wmi_p1 = "Monitor data vital WMI pada PC atau smartphone anda.<br/>Paket add-on gratis untuk pengguna <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net</a>.";
 pnet_wmi_p2 = "cFos WMI Monitor memperbolehkan untuk menampilkan hampir semua nilai WMI tentang sistem anda, contohnya <b>CPU load</b>, <b>GPU load</b>, <b>network usage</b>, <b>ping time</b>, dan lain lain.<br/>Akses nilai WMI <b>di mana saja</b>.";
@@ -468,11 +662,21 @@ pnet_wmi_p3 = "Download dan instal <a class=\"inline\" href=\"/en/download/downl
 pnet_wmi_p4 = "Untuk mencegah orang lain mengakses WMI data anda, cFos WMI Monitor membutuhkan validasi pengguna dengan cara otentifikasi HTTP. Dengan begitu anda dapat mengatur pengguna, contohnya <b>admin</b> dalam cFos PNet. Anda dapat melakukannya dengan menjalankan ulang setup. Atau anda juga dapat menambahkan pengguna baru, contohnya pengguna WMI, dengan menjalankan dan membuka WMI <em>/users/index.htm</em> sebagai admin.";
 pnet_wmi_p5 = "Untuk menikmati fitur cFos WMI Monitor kami merekomendasikan untuk menginstalnya";
 pnet_wmi_l1 = "<a href=\"/en/cfosspeed/cfosspeed.htm\"><b>cFosSpeed</b></a>, Internet accelerator kami. Ini menyediakan built-in WMI yang membuat nilai WMI tersebut tersedia:";
+
+/. RX stands for `receive` (incoming/download)
 pnet_wmi_l1a = "total kecepatan RX";
+
+/. TX stands for `transmit` (outgoing/upload)
 pnet_wmi_l1b = "total kecepatan TX";
+
 pnet_wmi_l1d = "menghitung koneksi TCP/UDP";
+
+/. Means `RX (`receive`/incoming/download) characters per second`
 pnet_wmi_l1e = "RX cps";
+
+/. Means `TX (`transmit`/outgoing/upload) characters per second sent`
 pnet_wmi_l1f = "TX cps";
+
 pnet_wmi_l1g = "Nilai tersebut terhubung dengan koneksi Internet yang anda gunakan.<br/>Nilai Windows WMI terhubung ke network adapter yang anda gunakan, terlepas dari arus LAN atau Internet. Anda dapat menampilkan seluruh nilai dimana telah tertampilkan di dalam jendela status cFosSpeed.";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Open Hardware Monitor</b></a>. Ini juga menyediakan built-in WMI yang dapat menampilkan nilai hardware secara lengkap, seperti";
 pnet_wmi_l2a = "CPU load dan temperatur";
@@ -494,6 +698,8 @@ pnet_doc_dav_p2 = "Untuk deteksi otomatis, cFos Personal Net menggunakan penggun
 pnet_doc_dav_p3 = "Permulaan dari direktori buku alamat dapat di set up dengan kunci <b>cardav_prefix</b> di seksi <b>[param]</b> dari <em>GLOBAL.INI</em> dan dasar \"cardav_\".";
 pnet_doc_dav_p4 = "Untuk mengkonfigurasi lokasi buku alamat secara manual anda harus membuat direktori <em>carddav_personal</em> secara manual dan set up alamat ini di dalam aplikasi buku alamat(e.g. <b>http://localhost/private/testuser/carddav_personal</b>).";
 pnet_doc_dav_p5 = "Jika anda mengkonfigurasi CardDAV secara manual, anda dapat membuat file <em>.htaccess</em> dengan instruksi <b>pnet_lock on</b> jika anda menggunakan direktori CardDAV dari beberapa komputer secara simultan.";
+pnet_doc_dav_h3 = "Sinkronisasi dengan <img src=\"/images/outlook_icon_19.png\" style=\"width: 19px; height: 19px; position: relative; top: 4px; left: 1px\" alt=\"Outlook Icon\"/>MS Outlook kalender, tugas dan kontak";
+pnet_doc_dav_p6 = "<a class=\"inline\" href=\"/en/cfos-outlook-dav/cfos-outlook-dav.htm\"><b>cFos OutlookDAV</b> (beta)</a> dapat digunakan untuk mensinkronisasi kalender, tugas dan kontak dari<a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\"><b>cFos Personal Net</b></a> with <b>MS Outlook</b>.";
 pnet_doc_media_p1 = "cFos Personal Net mempunyai built-in UPnP media server. Anda dapat mengaktifkannya dengan mensetting kunci <b>enable_media_server=1</b> di dalam seksi <b>[param]</b> dari <em>GLOBAL.INI</em> di dalam direktori <em>programdata\\cfos\\cfospnet</em>.";
 pnet_doc_media_p2a = "Dasar dari direktori untuk media (audio, video, images) pada dasarnya <em>media</em> di dalam direktori <em>pub</em>. Anda dapat menggantinya dengan kunci <b>media_dir=&lt;directory&gt;</b> di dalam seksi <b>[param]</b>  GLOBAL.INI. Itu dapat menjadi subdirektori dari <em>pub</em>.";
 pnet_doc_media_p2b = "cFos Personal Net juga menggunakan nama dari direktori media untuk mengkodekan URLs dari media anda, dengan menambahkan <b>.enc</b> untuk melakukannya. Contohnya<em>/media/...</em> menjadi <em>/media.enc/...</em> Jadi anda tidak perlu menggunakan direktori <em>/media.enc</em>.";
@@ -564,13 +770,18 @@ pnet_doc_stages_server = "HTTP GET berhasil, tetapi terhubung ke server lain";
 pnet_doc_router_title = "Buat cFos Personal Net dapat dijangkau dari luar";
 pnet_doc_router_p1 = "Kebanyakan pengguna internet dewasa ini tidak menggunakan alamat Internet publik secara langsung. Malah mereka mempunya router terpasang yang menerjemahkan alamat Internet publik ke alamat jaringan pribadi mereka. Sehingga kapan pun pengguna memulai sambungan dari luar, router secara otomatis menetapkan pemetaan sementara antara alamat pribadi dan port dan alamat publik. Namun ketka pengguna dari luar mengakses router anda (dan jaringan lokal) router tidak tahu ke komputer mana dalam jaringan yang seharusnya meneruskan \"panggilan\".";
 pnet_doc_router_p2 = "Oleh karena itu untuk cFos Personal Net anda harus menetapkan NAT 'port forwarding' di router anda. Pergilah ke setup router anda dan carilah setup NAT, NAT port forwarding, peraturan NAT rules, atau sejenisnya. Kemudian tambahkan peraturan untuk koneksi TCP untuk memetakan Port 80 (untuk HTTP dan port 443 untuk HTTPS) ke port 80 ke mesin anda dimana cFos Personal Net sedang berjalan.";
+pnet_doc_router_a1 = "<b>Instruksi tentang bagaimana untuk menjalankan port forwarding</b> untuk variasi router tersedia <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>disini</b></a>.";
 pnet_doc_router_p3 = "Anda juga harus memeriksa apakah lalu-lintas data ke cFos Personal Net dapat melewati firewall. cFos Personal Net dapat secara otomatis membuka port 80 di firewall Windows, tapi tidak pada produk firewall / produk antivirus vendor lain. Perlu diingat beberapa router juga memiliki firewall mereka sendiri. Ijinkan lalu-lintas TCP untuk port 80 (dan mungkin 443) untuk boleh mencapai cFos Personal Net.";
 pnet_doc_router_p4 = "Misal mesin dimana cFos Personal Net anda sedang berjalan mempunyai alamat lokal <b>192.168.2.122</b>. Maka anda membutuhkan peraturan NAT untuk mengijinkan semua lalu-lintas TCP untuk port 80 untuk pergi ke <b>192.168.2.122:80</b>.<br/><br/>Anda dapt memeriksa konektivitas cFos Personal Net dengan cara berikut:";
 pnet_doc_router_l1 = "Jalankan browser anda dan ketikkan <b>http://localhost</b><br/>Bila anda melihat halaman web cFos Personal Net, maka anda tahu kalau cFos Personal Net bekerja normal.";
 pnet_doc_router_l2 = "Masukkan, misal, <b>http://192.168.2.122</b> (alamat lokal dari mesin tempat anda menjalankan cFos Personal Net) pada browser anda. Dengan melakukan ini anda membuka koneksi via router anda. Bila anda melihat halaman web cFos Personal Net, anda akan tahu bahwa firewall pada Windows mengijinkan lalu-lintas untuk cFos Personal Net.";
 pnet_doc_router_l3 = "Sekarang carilah alamat publik IP anda (misalkan pada bagian bawah halaman utama cfos.de) dan masukkan pada browser, sebagai contoh <b>http://217.23.123.7</b>. Hal ini akan menguji coba firewall pada router anda dan 'port forwarding' NAT. Bila anda tidak melihat halaman cFos Personal Net silahkan konsultasi dengan dokumentasi router anda tentang bagaimana cara mengkonfigurasi 'port forwarding' NAT";
 pnet_doc_script_p1 = "cFos Personal Net mendukung penulisan skrip entah via Common Gateway Interface (CGI) atau via penulisan skrip built-in pada Javascript (atau bahasa lain yang mendukung Windows Scripting Host, misal ActivePerl, ActivePython, dll.).";
+
+/: http://www.cfos.de/en/cfos-personal-net/documentation/scripting.htm
+/. Do not translate variable names (`REMOTE_USER`, etc.)
 pnet_doc_script_p2 = "CGI menentukan variabel lingkungan tertentu, yang berisi informasi tentang permintaan HTTP yang sekarang. cFos PNET menetapkan variabel-variabel ini sebelum mengeksekusi script:<br/><br/><b>REMOTE_USER</b>, <b>AUTH_TYPE</b>, <b>SERVER_SOFTWARE</b>, <b>SERVER_PROTOCOL</b>, <b>GATEWAY_INTERFACE</b>, <b>DOCUMENT_ROOT</b>, <b>CONTENT_LENGTH</b>, <b>CONTENT_TYPE</b>, <b>REMOTE_ADDR</b>, <b>REMOTE_PORT</b>, <b>SERVER_NAME</b>, <b>SERVER_PORT</b>, <b>REQUEST_METHOD</b>, <b>QUERY_STRING</b>, <b>REMOTE_HOST</b>, <b>PATH_TRANSLATED</b>, <b>SCRIPT_NAME</b> dan semua header HTTP headers dengan nama <b>&lt;xxx&gt;</b> sebagai <b>HTTP_XXX</b>.";
+
 pnet_doc_script_p3 = "Selain itu, ia menetapkan variabel lingkungan berikut:";
 pnet_doc_script_p4 = "Semua variable ini dapat diakses dari skrip CGI atau dari Javascript (pada Javascript obyek web server cFos PNet mempunyai metode <b>environment_var(name)</b> untuk mengambil variable lingkunga ini).";
 pnet_doc_script_p5 = "Ketika mengacu pada \"Javascript\" maksud kami sebenarnya adalah Windows Scripting Host dengan Javascript atau bahasa lainnya yang dicontohkan di dalamnya.";
@@ -600,9 +811,13 @@ pnet_doc_scripts_p4 = "Scripts melakukan otentikasi sebagai berikut: Jika masing
 pnet_doc_scripts_p4a = "Script ini melakukan proses otentikasi sesuai dengan pengaturan <em>.htaccess</em>. Oleh karena itu Anda membutuhkan hak akses pengguna yang sesuai dengan direktori yang dimaksud.";
 pnet_doc_scripts_p5 = "Berikut deskripsi singkat dari scripts. Anda harus melihat ke source code, untuk melihat bagaimana mereka bekerja.";
 pnet_doc_scripts_p6 = "Jika tidak terdapat <em>index.htm</em> atau <em>index.html</em> file yang ada di direktori yang diminta, cFos PNET mulai script ini untuk menghasilkan daftar direktori.<br/> Scrips ini menggunakan FileSystemObject untuk mengumpulkan informasi tentang isi dari direktori saat ini. Kemudian beban dari XML template file, di parse dan menghasilkan halaman HTML dari isi direktori dan potongan yang disediakan oleh XML. Untuk mengubah tampilan atau kegunaan dari daftar directori, ubah XML template. HTML file yang dihasilkan mempunyai link file dasar maintentance didalamnya. Sebagai administrator anda dapat login menggunakan HTTP authentication dan mengganti nama, menghapus file atau folder, upload files dan juga membuat folder baru. Ini didukung oleh jQuery di sisi klien, yang pada dasarnya berguna untuk memudahkan mengirim permintaan Ajax ke cFos PNet. Server side script <em>file_op.jss</em> melakukan otentikasi HTTP yang diperlukan dan menangani pengoperasian file.";
+
+/: http://www.cfos.de/en/cfos-personal-net/documentation/standard-scripts.htm
+/. Do not translate operations' names like `rename`, `delete`, `mkdir`, etc., since those are console commands
 pnet_doc_scripts_p7 = "Mengoperasikan file sesuai dengan otentikasi diatas. Pengoperasian file adalah <b>rename</b>, <b>delete</b>, <b>mkdir</b> untuk membuat folder dan upload. Upload biasanya membutuhkan otentikasi. Karena browser selalu mengawali dengan mengirim file yang terupload ke server lalu mendapatkan informasi otentikasi, itu akan mengirim file dua kali. Untuk memberikan browser informasi otentikasi pertama kali, script <em>file_op.jss</em> mendukung upload sebelum operasi berjalan. Browser, menggunakan permintaan ajax, menanyakan server untuk respon otentifikasi HTTP (401) kemudian secara otomatis menggunakannya untuk upload yang sebenarnya. Upload ditangani dengan fungsi didalam <em>upload.jss</em>, yang menggunakan obyek file cFos PNet's untuk mengijinkan upload file dengan ukuran tak terbatas.";
 pnet_doc_scripts_p8 = "Melakukan fungsi dasar user administration: <b>create</b>, <b>delete</b>, <b>reset password</b> dan <b>list</b>. Pengguna admin diperlukan untuk otentikasi.";
 pnet_doc_scripts_p9 = "Karena daftar acak berperan penting bagi cFos PNet, <em>list_op.jss</em> menyediakan daftar dasar operasi yang tersedia untuk permintaan Ajax . Skema otentikasi yang sama seperti yang dijelaskan diatas dilakukan, yaitu: tergantung pada lokasi dari script pengguna untuk proses otentikasi yang diperlukan dipilih. Otentikasi dilakukan sesuai dengan pengaturan <b>PNet_limitPut</b> directive in <em>.htaccess</em>. <em>list_op.jss</em> menyajikan operasi:<br/><br/><b>get</b> Dapatkan daftar nilai didalam daftar acak.<br/><b>set</b> Set daftar kunci ke daftar nilai.<br/><b>save</b> simpan snapshot kedalam disk.<br/><b>erase</b> menghapus daftar kunci.<br/><b>clear</b> menghapus semua kunci.<br/><b>remove</b> menghapus daftar dari memory / disk.<br/><b>size</b> mengembalikan ukuran daftar.<br/><b>list</b> daftar semua element didalam daftar acak.<br/><br/>The Ajax in <em>dyndns.htm</em> memanfaatkan operasi untuk mengatur informasi konfigurasi DynDNS.";
+
 pnet_doc_scripts_p10 = "Melakukan register atau unregister DynDNS, menggunakan data config didalam daftar acak <em>dyndns.txt</em> didalam folder pribadi.<br/>Dapat digunakan pada saat server startup dan shutdown (lihat Bab 1).";
 pnet_doc_scripts_p11 = "Digunakan untuk menampilkan koneksi HTTP saat ini. HTTP dilakukan melalui TCP. Untuk mempercepat permintaan HTTP, browser mencoba untuk mempergunakan lagi koneksi TCP untuk permintaan HTTP. Kenyataannya permintaan HTTP hanya pesan singkat dan respon singkat. Setelah itu browser menutup koneksi TCP setelah beberapa detik. Jadi anda mungkin melihat penggunaan hanya untuk waktu yang singkat. Jika otentikasi telah sukses nama pengguna juga kembali dengan alamat IP pengguna.";
 pnet_doc_scripts_p12 = "Karena selalu membebani web master untuk mengubah ukuran gambar kedalam format yang digunakan pada halaman web, kami menerapkan beberapa script, dimana menggunakan cFos PNet image object (GDI+), menggunakan filename dan parameter <b>w</b> (width) dan <b>h</b> (height) didalam string URL's query. Jika gambar anda berukuran tidak terbatas, anda harus menggunakan hanya satu parameter untuk mempertahankan aspek rasio gambar. <em>makedir2.jss</em> penggunaan links ke script ini untuk menampilkan gambar thumbnail untuk gambar yang tersimpan didalam folder saat ini.";
@@ -615,42 +830,101 @@ pnet_doc_misc_p4a = "Dalam kasus ini anda harus memodifikasi sertifikasi, anda p
 pnet_doc_misc_p5 = "Untuk menggunakan SSL sertifikasi yang telah ada anda harus yakin bahwa telah sesuai dengan format Windows. Contohnya, jika anda mempunyai sertifikasi dari sistem unix itu dapat berupa .PEM file. Download openssl dan gunakan perintah berikut untuk mengkonversinya:";
 pnet_doc_misc_p5a = "dimana <em>mycert.cer</em> adalah sertifikasi anda dan <em>ca1.cer</em> dan <em>ca2.cer</em> (and <em>ca3.cer</em>, etc.) adalah 2 sertifikasi CA menengah yang dibutuhkan untuk rangkaian yang terpercaya.";
 pnet_doc_misc_p6 = "<em>mycert.cer</em> harus dalam format x.509. Anda dapat menggunakan openssl untuk mengkonversinya kedalam format x.509 bila dibutuhkan. Hasil output <em>mycert.pfx</em> berada dalam format pkcs#12 yang dapat dibaca oleh Windows.";
+
+/. Explanation of `snap-in`: http://en.wikipedia.org/wiki/Microsoft_Management_Console
 pnet_doc_misc_l1 = "Sekarang jalankan MMC, file -> add/remove snap-in -> certificates -> computer account -> local computer, kemudian: \"view personal certificates\" dan lihat sertifikasi. Klik kanan -> all tasks -> import dan import <em>mycert.pfx</em>.";
+
 pnet_doc_misc_l1a = "Anda juga perlu untuk import sertifikasi(s) ke dalam \"Intermediate Certification Authorities -> Certificates\". Sebaliknya, rangkaian yang tidak dipercaya akan ditransmisikan oleh server, lihat <a class=\"inline\" href=\"http://support.microsoft.com/kb/954755\">http://support.microsoft.com/kb/954755</a>";
 pnet_doc_misc_l2 = "Lihat thumbprint dari sertifikasi yang telah anda import dan masukkan perintah dibawah ini:<br/><br/>netsh http add sslcert ipport=0.0.0.0:443 certhash=<b>&lt;certhash&gt;</b> appid={a227f2f9-d103-4e0f-92a4-7086c8ab35ac}.<br/><br/>As <b>&lt;certhash&gt;</b> anda perlu untuk menggunakan thumbprint tanpa spasi.";
+pnet_doc_misc_p7 = "Untuk IPv6 <b>ipport</b> parameter dari netsh command harus seperti ini: <b>ipport=[::]:443</b>.";
+pnet_doc_misc_h1 = "cFos Personal Net dengan Perl script";
+pnet_doc_misc_p8 = "Disini terdapat 4 langkah untuk menggunakan Perl script dengan menggunakan cFos PNet:";
+pnet_doc_misc_l3 = "Download dan install Perl dari <a class=\"inline\" href=\"http://www.activestate.com/activeperl\">http://www.activestate.com/activeperl</a>.";
+pnet_doc_misc_l4 = "Edit <em>.htaccess</em> file dalam direktori dimana Perl scripts anda berada. Atau, untuk menjalankan Perl script secara global, edit <em>.htaccess</em> file di dalam direktori document root atau pada <em>c:\\programdata\\cfos\\cfospnet\\private</em>. Tambahkan directive berikut:<br/><b>AddHandler cgi-script pl</b>";
+pnet_doc_misc_l5 = "Cek seluruh Perl script untuk line interpreter yang benar. Dalam CGI script, line pertama dari file script meberitahu web server dimana untuk mencari interpreter untuk script tersebut. Dibawah UNIX sering ditemui <em>perl</em> berada didalam <em>/usr/bin</em>. Sehingga, di dalam semua Perl scripts anda, ganti lokasi dari perl interpreter anda(setelah karakter \"<b>!</b>\"):<br/><b>#! /usr/bin/perl</b><br/>ke<br/><b>#! c:\\perl\\perl.exe</b><br/>asumsi direktori instalasi Perl anda berada pada <em>c:\\perl</em>.";
+pnet_doc_misc_l6 = "Konfigurasikan sendmail. cFos PNet telah disertakan <em>sendmail.exe</em> berukuran kecil untuk memperbolehkan UNIX style mengirim surat. Hal tersebut memerlukan configurasi parameter smtp untuk cFos PNet di dalam <em>GLOBAL.INI</em> untuk mengirim surat melalui SMTP dana menerima surat sebagai text polos dari <b>stdin</b>. Search Perl script anda untuk panggilan mengirim surat dan gantikan semua dengan panggilan ke cFos PNet's <em>sendmail.exe</em>.<br/>Sebagai contoh, ganti<br/><b>open (MAIL, \"|/usr/bin/sendmail -t -i -oi\");</b><br/>ke<br/><b>open (MAIL, \"|c:\\\\program files\\\\cfos\\\\cfospnet\\\\sendmail.exe -t -i -oi\");</b><br/>dimana <em>c:\\program files\\cfos\\cfospnet</em> adalah direktori instalasi cFos PNet anda.";
+pnet_doc_misc_h2 = "cFos Personal Net dengan PHP script";
+pnet_doc_misc_h2_v2 = "cFos Personal Net dengan PHP dan MySQL";
+pnet_doc_misc_p9 = "Ini adalah langkah langkah untuk menggunakan PHP scripts dan MySQL dengan cFos PNet:";
+pnet_doc_misc_l8 = "Download binari thread-safe sebagai ZIP file dari <a class=\"inline\" href=\"http://windows.php.net/download/\">http://windows.php.net/download/</a>. Unzip kedalam direktori PHP sesuai pilihan anda, e.g. <em>c:\\php</em>.";
+pnet_doc_misc_l9 = "Didalam direktori PHP, rename <em>php.ini-production</em> ke <em>php.ini</em> dan kemudian diedit:";
+pnet_doc_misc_l9a = "Set up kirim surat. cFos PNet datang dengan program<em>sendmail.exe</em> berukuran kecil untuk memperbolehkan UNIX style mengirim surat. Hilangkan komen \"<b>;</b>\" dari <b>sendmail_path</b> dan ganti line ini dengan<br/> <b>sendmail_path=c:\\\\program files\\\\cfos\\\\cfospnet\\\\sendmail.exe</b><br/>asumsi <em>c:\\program files\\cfos\\cfospnet</em> adalah direktori instalasi cFos PNet.<br/>Anda juga dapat menggunakan <b>fitur PHP built-in mail sending</b>, sebagai gantinya.";
 pnet_doc_misc_l9b = "Tergantung pada PHP script yang Anda gunakan mungkin Anda perlu mengatur lokasi dari <b>document_root</b>. Hal ini secara default <em>c:\\programdata\\cfos\\cfospnet\\pub</em>";
+pnet_doc_misc_l9b_v2 = "Jika PHP scripts anda menggunakan lokasi dari direktori publik, seperti <b>document_root</b>, anda perlu untuk mengkonfigurasinya kedalam direktori ini secara default c:\\programdata\\cfos\\cfospnet\\pub.";
 pnet_doc_misc_l9c = "Tambahkan \"<b>E</b>\" pada <b>variables_order</b>, e.g. <b>variables_order = \"EGPCS\"</b>.";
 pnet_doc_misc_l10 = "Beritahu cFos PNet dimana PHP interpreter berada dengan cara menambahkan key <b>php_interpreter</b> ke bagian <b>[param]</b> dari <em>GLOBAL.INI</em> dalam <em>c:\\programdata\\cfos\\cfospnet</em>, e.g.<br/><b>php_interpreter=c:\\php\\php-cgi.exe</b><br/>Anda perlu untuk menentukan versi CGI dari PHP di sini.";
 pnet_doc_misc_l11 = "Edit <em>.htaccess</em> file di dalam direktori dimana PHP scripts berada. atau, untuk mengaktifkan PHP scripts secara menyeluruh, edit pada <em>.htaccess</em> file dalam direktori root atau di <em>c:\\programdata\\cfos\\cfospnet\\private</em>. Tambahan direktif berikut:<br/><b>AddHandler php-script php</b>";
 share_cfospnet = "Bagikan cFos PNet";
+pnet_doc_languages_h1 = "cFos Personal Net dengan WordPress";
+pnet_doc_languages_l1 = "Download dan instal MySQL dan PHP.";
+pnet_doc_languages_l2 = "Konfigurasi database WordPress:";
+pnet_doc_languages_l2a = "Cari <em>mysql.exe</em> dalam komputer anda dan jalankan program tersebut dengan perintah <br/>> mysql.exe -u <b>admin_username</b> -p<br/>Masukan <b>admin_password</b>.";
+pnet_doc_languages_l2b = "Kemudian ikuti command berikut:<br/>CREATE DATABASE <b>pnet_wordpress_db</b>;<br/>GRANT ALL PRIVILEGES ON <b>pnet_wordpress_db</b>.* TO \"<b>wordpress_username</b>\"@\"localhost\" IDENTIFIED BY \"<b>wordpress_password</b>\"; FLUSH PRIVILEGES; EXIT;";
+pnet_doc_languages_l2c = "Anda dapat menghapus database tersebut dengan mysql.exe dan dengan command DROP DATABASE <b>pnet_wordpress_db</b>;.";
+pnet_doc_languages_l3 = "Buat subdirectory didalam pnet <em>pub</em> tree anda dan copy WordPress dari zip archive ke dalamnya.";
+pnet_doc_languages_l4 = "Mulai pnet dan jalankan WordPress install script dengan browser anda:<br/>http://localhost/<b>your_wordpress_subdirectory</b>/wp-admin/install.php<br/> dan gunakan <b>pnet_wordpress_db</b>, <b>wordpress_username</b> anda dan <b>wordpress_password</b> untuk menentukan database WordPress yang akan digunakan.";
+pnet_doc_languages_l5 = "Download dan instal MySQL (e.g. Community Edition, instal sebagai \"Server Only\"), konfigurasikan user tambahan (mungkin dengan persetujuan db admin).";
+pnet_doc_languages_l6 = "Dalam <em>php.ini</em> dibawah Windows Extensions uncomment<br/><b>;extension=php_mysqli.dll</b><br/>dan ganti dengan<br/><b>extension=ext/php_mysqli.dll</b>.";
 
-/ cFos Outlook DAV
+/ ----------------------------------------------------------------------
+/
+/  cFos Outlook DAV
+/
+/ ----------------------------------------------------------------------
+
 cfout_h1_v2 = "Sinkronisasi awan dari kalender outlook Anda, kontak dan tugas";
 cfout_p1a = "cFos Outlook DAV adalah tambahan Add-in Outlook untuk menghubungkan ke kalender dan berkas kontak pada CalDAV/CardDAV server yang ada di awan.";
 cfout_p1a2 = "Untuk home hosted solutions Anda mungkin ingin mencoba <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\"><b>cFos Personal Net's</b></a> CalDAV/CardDAV services. ";
+cfout_p1b = "Pre-release <b>gratis</b> yang tersedia saat ini berjalan hingga <b>31 Desember 2013</b>.";
+cfout_p1b_v2 = "Pre-release <b>gratis</b> yang tersedia saat ini berjalan hingga <b>28 Februari 28th 2014</b>.";
+cfout_p1b_v3 = "Pre-release <b>gratis</b> yang tersedia saat ini berjalan hingga <b>1 Juni 2014</b>.";
+cfout_p1b_v4 = "Pre-release <b>gratis</b> yang tersedia saat ini berjalan hingga <b>1 Juni 2015</b>.";
+cfout_p1b_v5 = "Pre-release <b>gratis</b> yang tersedia saat ini berjalan hingga <b>31 Desember 2015</b>.";
+cfout_p1b_v6 = "Pre-release <b>gratis</b> yang tersedia saat ini berjalan hingga <b>31 Maret 2016</b>.";
+cfout_p1b_v7 = "Pre-release <b>gratis</b> yang tersedia saat ini berjalan hingga <b id=\"expire_date\">30 September 2016</b>.";
 cfout_p1c = "Pra-rilis saat ini tidak mendukung file attachment untuk even kalender.";
 cfout_p1d = "Versi rilis Final akan tersedia dengan harga 10 Euro.";
+cfout_p1e = "Atau anda dapat <a class=\"inline\" href=\"https://www.cfos.de/en/order/cfos-outlook-dav-n.htm\"><b>membeli unlimited license disini</b></a>.";
+cfout_p1f = "Not time-limited version untuk pengguna komersial sesuai pesanan:";
 cfout_a1 = "Unduh cFos Outlook DAV";
 cfout_h2 = "Bagaimana mempersiapkan cFos Outlook DAV";
 cfout_l1 = "Jalankan cFos Outlook DAV installer untuk menambahkan cFos Outlook DAV menjadi penggaya Outlook. Ini teruji pada Outlook 2013, tapi seharusnya juga berkerja pada Outlook 2010.";
 cfout_l2_v2 = "Mulai membuka Outlook dan buat berkas kalender baru. Sekarang klik-kanan pada berkas ini dan pilih \"Sync with CalDAV\". Anda sekarang dapat mengatur berkas dengan klik-kanan lagi dan memilih \"Config CalDAV Sync\".";
+cfout_l2a = "Untuk informasi lebih lanjut anda dapat melihat pada <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>ilustrasi detail instruksi</b></a>.";
 cfout_l3 = "Segera setelah berkas dibuat, silahkan mulai kembali Outlook. Sekarang sebuah dialog kecil pengaturan akan keluar. Pilih file konfigurasu yang sesuai dengan berkas yang dibuat Outlook anda dan masukkan URL dari CalDAV calendar server Anda, username dan password Anda. Anda juga dapat menentukan sync interval. Kemudian mulai ulang Outlook satu kali lagi.";
 cfout_l4_v2 = "Sinkronisasi tugas dan kontak berkerja persis seperti sinkronisasi yang telah ditetapkan. Klik-kana pada berkas tugas dan atur URL berserta user name/password seperti yang sudah ditetapkan. Anda dapat menggunakan URL, user name, password yang sama dengan yang sudah ditetapkan. Bagaimanapun, untuk tugas tidak berkerja dengan Google (lihat dibawah).";
+cfout_p2 = "Untuk <b class=\"green\">cFos Personal Net</b>CalDAV/CardDAV URL adalah http://<b>your_pnet_domain</b>/private/<b>your_user_name</b>/caldav_personal, dimana <b>your_pnet_domain</b> adalah domain atau IP address dari cFos Personal Net server atau localhost atau local IP address dalam LAN anda. <b>your_user_name</b> adalah nama dari pemilik kalender, e.g. <b>admin</b>.";
+cfout_p3a = "Untuk <b class=\"green\">Google Calendar</b> URL adalah https://www.google.com/calendar/dav/<b>your_google_calendar_id</b>/events (cek kembali bahwa URL tersebut adalah \"https\" protocol, karena \"http\" addresses tidak akan bekerja). <b>your_google_calendar_id</b> untuk kalender primer adalah Google email address. Namun demikian, untuk kalender lain, kalender ID mempunyai format <b>[long_string]@group.calendar.google.com</b>.";
 cfout_p3b = "Anda dapat menerima ID kalender di calendar.google.com dengan mengklik \"down\" panah berikutnya untuk kalender Anda dan memilih \"Calendar settings\".";
 cfout_p3c = "Username dan password menggunakan informasi yang sama untuk layanan Google lainnya.";
+cfout_p3d = "Untuk informasi lebih lanjut anda dapat melihat pada <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1371473212/0#0\"><b>ilustrasi detail instruksi</b></a>.";
 cfout_p3e = "<b class=\"green\">Sinkronisasi Tugas</b> dengan Google Calendar: Google Calendar tidak menndukung CalDAV untuk tugas dan yang lain-lainnya (gunakan Google Calendar API) Google Tasks hanya memiliki bagian yang sangat kecil dari fitur yang ada dibandingkan dengan fitur pada Outlook tasks. Jadi sinkronisasi Google Tasks dengan Outlook tasks tidak direcommendasikan. Hal yang paling dekat dengan elemen Outlook tasks / VTODO CalDAV adalah yang sudah ditetapkan. oleh karena cFos Outlook DAV menyimpan Outlook tasks sebagai ketetapan ketika digunakan dengan Google server. Ini berarti Anda dapat mengatur Kalender Google yang lain, yang kemudian secara ekslusif digunakan hanya untuk Outlook tasks. Pengaturan yang telah ada sama dengan yang sudah ditetapkan.";
 cfout_p3f = "<b class=\"green\">Sinkronisasi Kontak</b> dengan Google: untuk URL Google Contacts adalah <b>https://www.googleapis.com/carddav/v1/principals/your_google_username/lists/default/</b>.";
 cfout_p4_v2 = "Untuk a <b class=\"green\">DAViCal calendar</b> alamatnya adalah http://<b>your_davical_server</b>/caldav.php/<b>your_davical_account</b>/calendar, for <b class=\"green\">DAViCal contacts</b> alamat URLnya adalah <b>http://your_davical_server/caldav.php/your_davical_account/addresses</b>, dimana <b>your_davical_server</b> adalah domain atau alamat IP dari DAViCal server Anda. <b>your_davical_account</b> adalah username untuk server ini dan password adalah menjadi satu untuk pengguna ini.";
+
+/. Used as title
+/. Litrelly means "How cFos Outlook DAV works"
 cfout_h3 = "Operasi cFos Outlook DAV";
+
 cfout_p5a_v2 = "Ketika Anda memulai Outlook, cFos Outlook DAV mencoba untuk menyinkronkan semua data dari berkas Outlook dengan CalDAV/CardDAV server. Jika sesuatu pada server telah berubah, perubahan tersebut  tercermin dalam berkas Outlook Anda.";
 cfout_p5b_v2 = "Jadi data yang ditambahkan atau diubah pada server akan ditambahkan atau dimodifikasi dalam berkas lokal Anda. Data yang dihapus di server akan dihapus dalam berkas lokal Anda. Sinkronisasi ini dilakukan setiap <b>n</b> menit tergantung pada interval penyelarasan yang ditetapkan dalam berkas pengaturan.";
+cfout_p6_v3 = "Ketika anda menambahkan, mengganti atau menghapus event di dalam local folder anda, anda dapat mengupdate server data menggunakan tombol \"Sync All\" di ribbon. Anda harus mempertimbangkan utuk melakukan hal yang sama sebelum menutup Outlook.";
+cfout_p7a_v2 = "Folder data konfigurasi tersimpan dalam direktori <em>C:\\Users\\YOUR_USERNAME\\AppData\\Local\\cFos\\outlook_dav</em>. Direktori <em>C:\\ProgramData\\cFos\\outlook_dav</em> mengandung <em>folder_setup.hta</em>, sehingga nantinya anda dapat mengganti konfigurasi.";
 cfout_p7b = "Password disimpan dengan preceding \"!\" dan terenkripsi on-the-fly  dengan cepat saat dibutuhkan oleh cFos Outlook DAV.";
 cfout_p7c = "Dalam <em>C:\\ProgramData\\cFos\\outlook_dav</em> Anda juga menemukan file <em>trace.txt</em> dengan log dari operasi sinkronisasi terakhir.";
 cfout_p7c_v2 = "Dalam <em>C:\\Users\\USERNAME\\AppData\\Local\\cFos\\outlook_dav</em> Anda juga menemukan file <em>trace.txt</em> dengan log dari operasi sinkronisasi terakhir.";
 cfout_p8 = "cFos Outlook DAV menggunakan pengaturan proxy Internet Explorer. Anda dapat merubahnya di Control Panel, Internet Options.";
 
+/. Means "show all server types"
 
-/ cFos IPv6 Link
+
+
+/ ----------------------------------------------------------------------
+/
+/  cFos IPv6 Link
+/
+/ ----------------------------------------------------------------------
+
 cfos6link_page_title = "Konektivitas IPv6 untuk XP, Vista dan Windows 7";
 cfos_ipv6_link_title = "Konektivitas IPv6 untuk XP, Vista and Windows 7";
 header_features_overview = "Sekilas fitur";
@@ -671,7 +945,12 @@ provider_list_h1 = "Penyedia-IPv6 bahwa telah ditest dengan <em>cFos IPv6 Link</
 dupe_word_documentation = "dokumentasi";
 word_documentation = "Dokumentasi";
 
-/ cFos BC
+/ ----------------------------------------------------------------------
+/
+/  cFos BC
+/
+/ ----------------------------------------------------------------------
+
 bc_page_title = "Dial-Up driver dengan performa tinggi untuk akses internet dengan bandwidth besar.";
 broadband_connect_title = "Driver PPPoE Dial-Up performa tinggi";
 link_text_cfosspeed = "<b>cFosSpeed</b>, untuk routers, cable modems dan USB DSL modems";
@@ -685,20 +964,59 @@ li_text_pppoe_auto = "Deteksi otomatis PPPoE, semua parameter PPPoE dapat diatur
 li_text_ppppoe_dial = "PPPoE Dial-Up driver untuk Windows";
 li_text_sessions = "Sesi berulangkali, tidak ada batasan jumlah koneksi";
 
-/ cFos
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
 cfos_html_h1 = "Driver dial-in DSL dan ISDN dengan Traffic Shaping";
+
+/. Part of page's title (in name of the tab in web browser)
 cfos_professional_title = "cFos, Dial-Up &amp; Percepatan untuk DSL &amp; ISDN";
+
 link_text_budget = "penghitung Online";
 link_text_cfos_features = "daftar fitur cFos";
 link_text_cfos_priolist = "Memprioritaskan program dengan cFos (&#187; Daftar program)";
 link_text_feature_list = "Fitur untuk DSL dan ISDN";
 link_text_what_is_cfos = "Apakah cFos/Professional?";
 
-/hrping
+
+/ ----------------------------------------------------------------------
+/
+/  hrPing
+/
+/ ----------------------------------------------------------------------
+
+/: http://www.cfos.de/en/ping/ping.htm
 hrping_title = "hrPing - ping utility presisi tinggi";
 hrping_title_h0 = "<span class=\"product\">hrPing</span> - ping utility presisi tinggi";
 
-/notifier
+/. Used as one of entries in list of hrPings features
+
+/. Used as one of entries in list of hrPings features
+/. `usec` stands for `microsecond`.
+/. In current context means `usec resolution` (also known as `microsecond resolution`),
+/. which is technical term. In other words, means accuracy of the measurement
+
+/. Used as one of entries in list of hrPings features
+
+/. Used as one of entries in list of hrPings features
+/. In other words means `Hrping measures requests time and handles ICMP error replies as well`
+
+/. Those strings used as one of entries in list of hrPings features
+
+/: http://www.cfos.de/en/ping/ping.htm
+/. Used as one of entries in list of hrPings features
+/. Says that hrPing is effective replacement for both those utilities.
+/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic, do not translate them
+
+/ ----------------------------------------------------------------------
+/
+/  cFos Notifier
+/
+/ ----------------------------------------------------------------------
+
 notifier_title = "Pengumuman cFos ";
 notifier_p1 = "Pengumuman cFos adalah program yang berjalan didalam background dan secara periodik mengecek, apakah status baru Twitter tersedia. Jika disana terdapat sesuatu yang baru, itu akan tampil sebagai ikon notifikasi didalam windows taskbar dan balloon tip. Jika anda klik pada ikon balloon atau ikon taskbar, twitter.com akan memulai jadi anda dapat membaca status terbaru.";
 notifier_p2 = "Pengumuman cFos menggunakan OAuth. Pada startup pertama anda perlu untuk mengijinkan Pengumuman cFos untuk mengakses Twitter account anda. Anda tidak harus memberikan Pengumuman cFos user name atau password anda. Ketika started pertama kali, Twitter menanyakan anda, jika anda memperbolehkan cFos Pengumuman untuk mengakses account anda dan meberikan anda PIN, anda harus memasukan PIN tersebut kedalam kotak input Pengumuman cFos. Pengumuman cFos kemudian mendapatkan tiket akses, dimana anda dapat membatalkannya kapan saja.";
@@ -713,11 +1031,21 @@ notifier_p5 = "Anda dapat juga menggunakan Pengumuman cFos untuk berita cFosSpee
 notifier_h3 = "Daftar Twitter";
 notifier_p6 = "Pengumuman cFos supports Lists. Dalam Twitter anda dapat mengatur daftar orang yang ingin anda ikuti. Jika anda telah mengkonfigurasi seperti daftar, Pengumuman cFos dapat menampilkannya dalam menu context. Anda dapat memilih daftar mana yang harus dicek Pengumuman cFos. Ini memperbolehkan anda untuk menggunakan Pengumuman cFos hanya untuk melihat tweet masuk.";
 
-/FAQ
+/ ----------------------------------------------------------------------
+/
+/  FAQ
+/
+/ ----------------------------------------------------------------------
+
 which_product = "Produk manakah yang harus saya pakai?";
 word_support_faq = "Dukungan cFos FAQ";
 
-/ support
+/ ----------------------------------------------------------------------
+/
+/  Support
+/
+/ ----------------------------------------------------------------------
+
 activation_title = "Aktivasi gagal";
 activation_salut = "Dear cFosSpeed user";
 activation_salut_cfos = "Dear cFos user";
@@ -792,11 +1120,26 @@ choice3 = "Koneksi Internet anda memakai PPPoE (e.g. DSL)?";
 choice4 = "Anda memakai DSL Modem tersambung di USB?";
 choice5 = "Driver untuk Dial-Up Network?";
 choice7 = "Keduanya?";
+
+/. Used as title of contact form
+/. Can be translated as "Contact cFos team" in case origianl variant doesn't translate well into your language
 contact_form_h1 = "Kontak Anda kepada tim cFos";
+
 contact_form_p0 = "Hubungi kami untuk <b>masalah teknis</b>, pertanyaan tentang <b>pemesanan Anda</b>, <b>proposal bisnis</b> dan <b>informasi pers</b>.";
+
+/. Refer to `speed_guide` language key in website's localization file to see how `cFos Speed Guide`
+/. has been translated in your language (here: https://github.com/cFos/l10n/tree/master/locales.website)
 contact_form_p0_a1 = "<b>Kecepatan terlalu lambat?</b><br/>Mungkin <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">Petunjuk cFos Speed Guide</a> dapat membantu";
+
 contact_form_p0_a2 = "<b>Dimana license key saya?</b><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Hubungi kami, pemesanan Anda memakan waktu lama</a>";
 contact_form_p0_a3 = "<b>Matikan status window?</b><br/><a class=\"inline\" href=\"//en/cfosspeed/documentation/status.htm\">Bagaimana cara mematikan pembuka otomatis dari status window</a>";
+
+/. Used in our contact form on website, as possible choices, like:
+/= Please, select:
+/= — ...
+/= — Business Partners, Licensing, Bundling
+/= — Press, Artwork, Covermount
+/= — ...
 contact_form_o1 = "Partner Bisnis, Licensing, Bundling";
 contact_form_o2 = "Pers, Artwork, Covermount";
 contact_form_o3 = "Order: Dimana license key saya?";
@@ -809,6 +1152,7 @@ contact_form_o9 = "Permasalahan license key saya";
 contact_form_o10 = "Tidak dapat melepas pemasangan cFosSpeed";
 contact_form_o11 = "Bagaimana cara menonaktifkan status window";
 contact_form_o12 = "Laporkan Bluescreen/BSOD";
+
 contact_form_h2 = "Bantuan cepat untuk Anda";
 contact_form_p1 = "Untuk informasi pendahuluan, Anda dapat melihat halaman kami untuk <a class=\"inline\" href=\"//en/oem/oem.htm\">OEM partner</a>";
 contact_form_l1 = "Persyaratan lisensi kami mengizinkan untuk menyertakan versi trial 30 hari pada CD covermount majalah secara gratis.";
@@ -824,6 +1168,10 @@ contact_form_p6 = "Mohon mengacu pada <a class=\"inline\" href=\"//en/traffic-sh
 contact_form_p7 = "Temukan <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation.htm\">bantuan cara pemasangan license key Anda</a>.<br/><br/>Berikut adalah petunjuk tambahan dalam <a class=\"inline\" href=\"//en/cfosspeed/documentation/registration-help.htm\">menemukan dan memasang license key Anda</a>.";
 contact_form_p8 = "Kadangkala beberapa komponen seperti, network drivers, software anti-virus atau anti-spyware, dalam network installation menghambat dalam proses pemasangan cFosSpeed.<br/><br/>Berikut adalah <a class=\"inline\" href=\"//en/cfosspeed/documentation/driver-not-loaded.htm\">bantuan untuk permasalahan umum dalam pemasangan</a> dan <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation-help.htm\">apa yang dapat Anda lakukan jika cFosSpeed tidak dapat terpasang</a>.";
 contact_form_p9 = "Anda dapat menonaktifkan cFosSpeed status window dengan melakukan klik kanan dan pilih pilihan context menu berikut: <b>window settings</b> -> <b>&lt;network adapter anda&gt;</b>. Kemudian nonaktifkan \"auto-open/auto-hide\".";
+
+/. Refer to `closewindows` language key in software's localization file to see how `Hide Windows`
+/. has been translated in your language (here: https://github.com/cFos/l10n/tree/master/locales.software)
+
 contact_form_a2 = "Sembunyikan status window";
 contact_form_p10 = "Jika anda mendapat Bluescreen/BSOD yang disebabkan oleh cFosSpeed, kami membutuhkan bantuan Anda untuk memperbaikinya secepat mungkin.<br/><br/>Mohon <a class=\"inline\" href=\"//en/support/howto-dump.htm\">buat sebuah kernel dump</a>.";
 contact_form_p11 = "Mohon lihat <a class=\"inline\" href=\"//en/cfos-professional/capi-support.htm\">petunjuk ISDN CAPI / Network CAPI</a> penting kami.";
@@ -941,7 +1289,12 @@ yes = "Ya";
 search_web = "Cari di web";
 search_cfos = "Cari www.cfos.de";
 
-/ traffic shaping
+/ ----------------------------------------------------------------------
+/
+/  Traffic shaping
+/
+/ ----------------------------------------------------------------------
+
 alt_load_print = "Muat versi print dari gambar";
 alt_transfer_rates = "Laju transfer";
 ts_c_t1 = "Catatan penting pada cFos Traffic Shaping";
@@ -1113,7 +1466,12 @@ vari_fixed = "Variasi ping";
 vari_fixed_help = "Gunakan Traffic Shaping lebih lanjut untuk mengakomodasi variasi waktu ping";
 vari_fixed_help_long = "Mengumpulkan ping statistik untuk mengakomodasi variasi waktu ping, terutama berguna untuk koneksi mobile / wireless.";
 
-/ cFosSpeed additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed additional pages
+/
+/ ----------------------------------------------------------------------
+
 adjust_speed_shaping = " - nyalakan atau matikan fitur ini";
 autoarrange = "Mengatur jendela otomatis";
 auto_mtu = "Optimalisasi MTU otomatis";
@@ -1192,7 +1550,10 @@ no_ping_tplink = "<h4>TP-Link Router:</h4><p>TP-Link menawarkan firmware baru, y
 no_ping_tplink2 = "<p><b class=\"red\">Perhatian</b>: Berdasarkan laporan para pengguna, sepertinya hal ini tidak berlaku setidaknya pada model TL-R460, TL-R860 dan TL-R402M.</p>";
 no_ping_pccillin = "<h4>PC cillin 2007:</h4><p>Untuk memperbolehkan perintah tracert Windows untuk PC Cillin 2007 ikuti saja langkah-lagkah berikut ini:</p><ol><li>Buka konsol utama PC Cillin->network- and firewall-control->personal firewall->settings->select account->edit->network control->add</li><li>Sekarang anda dapat <samp>menambahkan</samp> 2 protokol baru. </li><li>untuk koneksi keluar:<br /><samp>(default) allow for outgoing connections<br />(protocol) icmp<br />(port) all ports<br />(ip-settings) all ip-settings<br /></samp></li><li>Untuk koneksi masuk ulangi langkah ke 3 untuk koneksi masuk</li></ol>";
 no_ping_statistics = "Menerima dan menerjemahkan statistik ping cFosSpeed";
+
+/. Console's output shouldn't be translated
 no_ping_statistics_p1 = "<p>Buka konsol cFosSpeed dan ketik &quot;spd pingstat&quot;</p><p>Hal ini akan memberikan sebuah keluaran serupa dengan di bawah:</p><pre class=\"code\"><br />Ping statistics:<br /><br />Total ping requests      107,686<br />  done                   107,686     <b>(1)</b><br />  ...and only            107,686<br /><br />Total pings sent         106,949<br />  strong                 106,778<br />  ...and new             106,778     <b>(2)</b><br /><br />Total pongs              106,804<br />  found                  106,566<br />  ...and strong          106,519<br />  ...and strong reply    106,519     <b>(3)</b><br />  ...and used            106,519     <b>(4)</b><br /><br />Ping outage statistics:<br />  1 ping in a row 33 times<br />  5 pings in a row 1 time<br /><br />Ping src/dst: 192.168.0.100 to 194.95.249.23, ttl 3<br />Ethernet src/dst: 00:0e:a6:57:9b:0b to 00:11:95:78:27:a4<br /></pre>";
+
 no_ping_statistics_p2 = "<p>Tiga nilai yang diberikan &quot;total ping requests&quot; seharusnya sama/identik. Bila ada perbedaan/penyimpangan yang mencolok/besar, mohon laporkan hal tersebut kepada kami.</p><p>Nilai yang ditandai <b>(1)</b> seharusnya kira-kira sama dengan yang disebelah <b> (2)</b>. Bila tidak, biasanya hal itu adalah bukti kuat bahwa firewall sedang memblokir transmisi data. Seperti di atas, penyimpangan kecil beberapa persen tidak perlu dikhawatirkan.</p><p>Nilai untuk<b> (3) </b>dan<b> (4) </b>seharusnya juga sama. Bila tidak, kirimkan kami email.</p>";
 no_ping_statistics_p3 = "<p>Dengan tanda/bukti yang sama, nilai<b> (2) </b>and<b> (3) </b>seharusnya kurang lebih identik. Jika tidak begitu, hal ini biasanya menandakan bahwa ping dan balasan ping hilang di suatu tempat &quot;di jaringan&quot; (bisa sering terjadi). Sayangnya, tidak ada yang dapat kami lakukan mengenai hal itu.</p><p>Bila mengirim e-mail kepada kami, mohon rujuk ke<a class=\"inline\" href=\"#p4\"> tahap 3 </a>di bawah tentang file-file apa yang harus dilampirkan di pesan Anda.</p>";
 no_ping_update = "Pertama-tama, unduh and pasang (instal) versi terbaru cFosSpeed:";
@@ -1263,22 +1624,42 @@ sp_doc_games_p1 = "Teknologi Traffic Shaping menjaga waktu ping tetap rendah dan
 sp_doc_games_p2 = "Meskipun begitu, untuk mencapai waktu ping yang optimal, Anda seharusnya memprioritaskan aplikasi permainan Anda setinggi mungkin. Anda akan menemukan bahwa kami telah mendaftarkan beberapa aplikasi permainan yang kebanyakan sudah terkenal pada masa sekarang didalam Pengaturan Program. Bila aplikasi permainan Anda tidak ada di dalam daftar, Anda dapat menambahkannya ke dalam daftar.";
 sp_doc_games_p3 = "Anda juga dapat <a href=\"/en/contact/priopost.htm\"><img src=\"sp_link_bottom_right.png\" width=\"6\" height=\"11\" border=\"0\" alt=\"\" />memberitahu kami</a> permainan online apa yang mungkin Anda ingin sertakan pada daftar tersebut untuk pembaharuan di masa mendatang.";
 sp_doc_games_p4 = "Berhati-hatilah untuk memprioritaskan sesedikit mungkin data dan program dengan cara seperti ini. Hal ini dikarenakan bila Anda memberikan prioritas tinggi pada semuanya, Anda sama saja dengan tidak memprioritaskan apa-apa.";
+
+/. `[filter]` and name of file shouldn't be translated
 sp_doc_games_p5 = "Kemungkinan lain, bila nama program itu sendiri tidak jelas , anda juga dapat memprioritaskan port-port yang digunakan oleh game online tersebut. Jika port-port tujuan TCP/UDP dari sebuah aplikasi diketahui, anda dapat memprioritaskan transfer datanya seperti berikut (dengan mengubah bagian [filter] di berkas settings.ini):";
 sp_doc_games_p6 = "Untuk port-port TCP:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high";
 sp_doc_games_p7 = "Untuk port-port UDP:<br />[filters]<br />; dest port=1234<br />filter=-udp-dport 1234 -c high";
+
 sp_doc_games_p8 = "Setelah membuat perubahan tersebut dan menyimpannya, peraturan yang baru masih harus dimuat. Hal ini dilakukan dengan cara membuka konsol (didalam Start, Program, cFosSpeed) dan memasukkan \"spd reload\". Perubahan Anda akan (dan tetap) bekerja setelah Anda me-restart sistem anda.";
 sp_doc_games_a1 = "Petunjuk cFosSpeed-Filter (English)";
 sp_doc_games_a2 = "Pengaturan koneksi DSL";
+
+/: https://www.cfos.de/en/cfosspeed/documentation/games.htm
+/. Used as alternate text for image
 sp_doc_games_a3 = "Tampilkan pilih waktu ping";
+
 sp_doc_games_a4 = "Dialog untuk prioritisasi program";
 sp_doc_games_t1 = "Mengoptimalkan Pengaturan Koneksi:";
+
+/. Connections types untranslatable in our software, so they shouldn't be translated here either (`Adaptive`)
 sp_doc_games_p9 = "Anda dapat menentukan dengan tepat medium/perantara transfer apa yang Anda gunakan dalam Pengaturan Koneksi. Semakin banyak informasi tentang sebuah koneksi yang tersedia untuk cFos atau cFosSpeed, semakin baik waktu ping Anda. Setelan pabrikannya adalah \"Adaptive\". Tetapi jika Anda misalnya menggunakan sebuah koneksi DSL, Anda sebaiknya memilih standar atau protokol yang tepat sebagai medium/perantara Anda.";
+
+/. `Favor Ping` is translatable in our software, so it should be translated here too.
+/. Ensure in consistent translation across website and software, by checking
+/. translation of cFosSpeed's into your language.
+/. Look here for your locale https://github.com/cFos/l10n/blob/master/locales.software/
+/. and then search for key `favor_ping`
 sp_doc_games_t2 = "Favoritkan Ping:";
 sp_doc_games_p10 = "Tambahan, Anda juga dapat memakai pengaturan di konteks menu atau jendela status untuk mengaktifkan \"Favoritkan Ping\". Sebuah tanda panah berwarna hijau akan muncul di jendela status. Pengaturan ini akan membuat cFos atau cFosSpeed melakukan segalanya untuk menjaga waktu ping seminimal mungkin tetapi dengan mengorbankan kecepatan transfer, yang dapat turun dengan tidak sedikit.";
+
 sp_doc_games_t3 = "Bermain Ketika Mengunduh:";
 sp_doc_games_p11 = "Bila Anda sedang bermain permainan online tanpa Traffic Shaping dan menjalankan sebuah unggah atau unduh pada waktu yang bersamaan, waktu ping ke server permainan Anda akan meningkat. Semakin sedikit lalu lintas data berarti lebih baik (misal, lebih rendah) ping.  Khususnya dengan program-program filesharing dan aplikasi-aplikasi yang lain yang mengirim banyak data, waktu ping sering melonjak tinggi menyebabkan lag parah. Hal ini juga akan memperlambat waktu reaksi dalam permainan menjadi sangat buruk.";
 sp_doc_games_p12 = "Traffic Shaping mengurangi masalah ini dengan memperbolehkan filesharing dan unduhan untuk berjalan di latar belakang ketika sedang bermain. Hal ini mungkin masih meningkatkan waktu ping secara minimal. Oleh karena itu, kami menyarankan Anda untuk tetap mengaktifkan \"Favoritkan Ping\" pada saat-saat seperti ini. Pada setelan pabrik, program filesharing diatur dengan prioritas sangat rendah. Tapi, jangan mengganggap hal ini berarti bahwa program tersebut sengaja diperlambat atau bahkan dihentikan sekaligus. Maksudnya adalah, data tersebut akan ditunda sebentar ketika data yang lebih penting seperti lalu lintas pemainan online harus ditransmisikan. Hanya dengan skema prioritas seperti ini yang mungkin untuk membuat program-program filesharing berjalan dengan kecepatan transfer maksimum walaupun masih menggunakan koneksi yang sama untuk aplikasi yang lain di waktu bersamaan.";
+
+/: http://www.cfos.de/en/cfosspeed/documentation/index.htm
+/. Used as  section title
 sp_doc_index = "Penanganan program";
+
 sp_doc_installation = "Pemasangan / Pendaftaran";
 sp_doc_install_title = "Pemasangan / Pendaftaran / Melepas Pemasangan";
 sp_doc_install_h1 = "Pemasangan";
@@ -1304,7 +1685,11 @@ sp_doc_led_p1 = "cFosSpeed menggunakan LED Num Lock dan Scroll Lock untuk menamp
 sp_doc_led_dd1 = "mati, lumayan = kedip perlahan, buruk = kedip cepat<br/>memperingatkan Anda bila waktu ping terlalu tinggi";
 sp_doc_led_dd2 = "kedip cepat seraya paket dihitung<br/>memberitahu Anda bahwa ada lalu lintas ke/dari Internet";
 sp_doc_led_dd3 = "kedip cepat ketika sebuah paket TX diprioritaskan<br/>salah satu cara untuk mengindikasi pengaruh dari Traffic Shaping";
+
+/: http://www.cfos.de/en/cfosspeed/documentation/keyboard-leds.htm
+/. `total_rx_speed` and `total_tx_speed` shouldn't be translated, since those are actual values names
 sp_doc_led_dd4 = "jumlah maksimum total_rx_speed dan total_tx_speed, 0-32%: mati, 33-65%: kedip perlahan, 66-98%: kedip cepat 99-100: hidup<br/>memberitahu Anda, ketika Anda atau pengguna / aplikasi lain memakai (terlalu) banyak bandwidth(lebar pita)";
+
 sp_doc_led_dd5 = "kedip cepat sewaktu-waktu jumlah koneksi TCP dan UDP berubah<br/>Anda tetap tahu bila beberapa koneksi baru dibuka";
 sp_doc_led_dd6 = "0-15ms: mati, 16-127ms: kedip perlahan, 128-511ms: kedip cepat, 512 atau lebih: hidup<br/>memberitahu Anda jika kondisi saluran (misal: koneksi mobile) menyebabkan variasi ping tinggi";
 sp_doc_led_p2 = "Anda dapat memilih Num Lock dan Scroll Lock LEDs untuk menampilkan value di atas.";
@@ -1316,9 +1701,15 @@ sp_doc_logi_h1 = "Skin Logitech di YouTube";
 sp_doc_logi_h2 = "Pendeteksi Keyboard Logitech";
 sp_doc_logi_p3 = "cfosspeed.exe dan the Logitech Gaming Software diaktifkan otomatis ketika Windows dimulai. Jika cFosSpeed berjalan sebelum Logitech Gaming Software, keyboard mungkin tidak dapat terdeteksi. Pada kasus tersebut Anda dapat menggunakan pilihan \"detect\" pada menu cFosSpeed untuk Logitech keyboards atau anda dapat merubah <em>c:\\ProgramData\\cFos\\cfosspeed\\global.ini</em>, section [All] dan masukan <b>startup_delay=x</b> dimana x adalah jumlah detik cFosSpeed harus menunggu sebelum memulai status window.";
 sp_doc_p2p_t1 = "Traffic Shaping untuk Filesharing (P2P)";
+
+/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p1 = "Terima kasih pada cFosSpeed Traffic Shaping, Anda dapat menggunakan upstream bandwidth secara utuh (dengan eMule, Kazaa atau BitTorrent dll.) dan membuatnya tersedia bagi pengguna filenet lainnya - tanpa merugikan aplikasi internet lainnya.";
+
 sp_doc_p2p_t2 = "Permasalahan dengan software filesharing";
+
+/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p2 = "Menjalankan program filesharing (seperti eMule, Kazaa atau BitTorrent) biasanya akan memakan hampir seluruh upstream channel bandwidth, yang cenderung mengakibatkan ping koneksi meninggi. Hal ini tidak hanya menyebabkan komunikasi filesharing communication tersebut menjadi lambat (source requests mungkin dapat memakan waktu 1 atau 2 detik dari seharusnya yang hanya beberapa mili detik), hal ini juga akan menyebabkan aplikasi internet lainnya melambat. Dengan token yang sama, download rate akan kacau, karena TCP ACKs tidak terkirim pada waktunya. Browser juga akan melambat ketika melakukan surfing net.";
+
 sp_doc_p2p_p3 = "Solusi populer yang ditawarkan oleh banyak program filesharing adalah dengan memberikan batas buatan pada upload rate. ";
 sp_doc_p2p_p4 = "Namun, jika Anda menjalankan mail upload bersamaan dengan filesharing upload, keduanya akan berebut upstream bandwidth yang tersedia. Berapa bandwidth yang akan diterima oleh masing-masing upload akan teralokasi secara acak. Pada beberapa kasus, hal ini bahkan dapat menyebabkan terputusnya seluruh koneksi TCP (TCP connection starving).";
 sp_doc_p2p_t3 = "Solusinya adalah: Traffic Shaping";
@@ -1326,17 +1717,39 @@ sp_doc_p2p_p5 = "Skema prioritas terintegrasi dalam cFos dan cFosSpeed mengatur 
 sp_doc_p2p_p6 = "Sebagai contoh, jika terdapat sebuah program filesharing berjalan pada background ketika surfing net, hanya akan terjadi pelambatan minimal pada P2P traffic ketika memuat halaman baru. Demikian pula ketika mengirimkan email panjang, P2P upload rate akan sedikit menurun ketika email sedang dikirim. Setelah email terkirim, seluruh upload akan kembali pada kecepatan penuh. Alternatif lainnya yaitu dengan menunda pengiriman email \"forever\" atau membatasi transfer bandwidth untuk filesharing. Namun hal ini  juga berakibat hilangnya bandwidth bahkan ketika tidak ada aplikasi lain menggunakan koneksi yang sama.";
 sp_doc_p2p_p7 = "cFosSpeed mengoptimalkan penggunaan dengan software filesharing (p2p), memungkinkan pengguna menggunakan program pada background tanpa mengganggu aktivitas berinternet.";
 sp_doc_p2p_p8 = "Karena itu, kami menyarankan pengaturan Kazaa dll. ke \"unlimited upload\" ketika menonaktifkan pilihan \"speed sense\", karena cFosSpeed sudah mengoptimalkan internet traffic.";
+
+/: https://www.cfos.de/en/cfosspeed/documentation/p2p.htm
+/. it's referring to system tray icon and special skin for it.
+/. Note that particularly that string refers not to actual skin, but just used as title, to highlight that "there is icon skin for cFosSpeed"
 sp_doc_p2p_p9 = "Karena kebanyakan pengguna menjalankan program filesharing selama 24 jam penuh, cFosSpeed memiliki skin tersendiri untuk ini, membuatnya dapat memantau koneksi tanpa harus membuka status window terpisah setiap saat.";
+
 sp_doc_p2p_t5 = "Prioritas:";
+
+/. `BitTorrent` — name of the protocol, not of the program
 sp_doc_p2p_p10 = "Beberapa pengguna memiliki PC lain untuk filesharing dan route P2P traffic (misal, via Internet Connection Sharing) melalui komputer utama yang terhubung langsung dengan internet. Pada kasus ini, Layer-7 Protocol Detection terintegrasi pada cFos dan cFosSpeed memungkinkan prioritas terpenting dari jaringan P2P seperti BitTorrent, eDonkey 2000 (eMule, dll.), Kazaa, Gnutella(2), Kademlia, dan Direct Connect.";
+
 sp_doc_p2p_t6 = "Memprioritaskan program:";
 sp_doc_p2p_p11 = "cFos dan cFosSpeed juga mengizinkan prioritas program berdasarkan namanya. Banyak program penting terlah tersedia pada daftar pengaturan program kami. Cara prioritas ini berguna ketika Layer-7 detection tidak dapat mengenali dan menempatkan data seperti seharusnya (sebagai contoh, P2P traffic yang terenkripsi).";
 sp_doc_performance = "Performa";
+
+/: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
+
+/. While translating `\"Options/Settings\"` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
+
+
+/: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
+/. Title of one of pictures
+
+/.  Title of picture with demo of cFosSpeed Phone Skin
+
 sp_doc_prioliste = "Daftar prioritas: ";
 sp_doc_priorliste_content = "Daftar aplikasi yang dapat diprioritaskan";
 sp_doc_prio_title = "Prioritas program";
 sp_doc_prio_p1 = "<b>Petunjuk</b>:<br />Prioritas akan bekerja secara baik jika data kecil diberikan prioritas yang paling tinggi. Berikan prioritas rendah pada program yang mengirimkan data dalam jumlah besar.";
+
+/. `UNKNOWN` shouldn't be translated, since it's not translatable protocol name, used in our software
 sp_doc_prio_p2 = "Pertama, cFosSpeed akan mencoba mendeteksi Layer 7 Protocol untuk setiap koneksi. Jika tidak terdeteksi (misal, protokol UNKNOWN) atau prioritas dari protokol terdeteksi adalah \"normal\", maka program detection akan digunakan untuk menentukan prioritasi.";
+
 sp_doc_prio_p3 = "Kasus tertentu pada HTTP stream detection. Jika protokol terdeteksi adalah HTTP, cFosSpeed mencoba mendeteksi, jika video atau audio stream. Hal ini akan bekerja seperti berikut:";
 sp_doc_prio_p4 = "Jika user agent adalah salah satu dari player yang telah dikenali atau memiliki substring \"player\", cFosSpeed mengkategorikan koneksi sebagai HTTP_STREAM_C atau HTTP_STREAM_S. Atau, jika content-type adalah audio atau video, koneksi akan dikategorikan sebagai BSTREAM_C atau BSTREAM_S. Koneksi BSTREAM_C/S terprioritaskan sebagai \"normal\" sehingga prioritas sebenarnya ditentukan oleh prioritas program.<br /> Ini memungkinkan Anda, sebagai contoh pada kasus tertentu, untuk memprioritaskan sesuai penggunaan program Anda.";
 sp_doc_prio_a1 = "Program yang telah diprioritaskan";
@@ -1416,9 +1829,21 @@ sp_doc_status_slot = "Grafik Slot menunjukkan kecepatan transfer saat ini sebaga
 sp_doc_status_slots = "slot";
 sp_doc_status_standard = "Skin standar telah dirancang untuk melacak aliran data secara grafis.";
 sp_doc_status_states = "Anda dapat memilih di antara 3 bagian ikon Skin  dan mendapatkan tampilan berbeda. Posisi pengalih terdapat di tengah-tengah skin (lihat gambar).";
+
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis.htm
+/: http://www.cfos.de/en/cfosspeed/documentation/status.htm
+/. One of explaining labels of cFosSpeed skins elements
 sp_doc_status_switch = "Memilih antara ukuran skin versi normal dan besar";
 sp_doc_status_switch2 = "Memilih: Skin Besar > skin normal > skin ikon";
 sp_doc_status_switching = "Memilih antara tampilan Grafik dan numerik dari skin bawaan:";
+
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
+/. One of explaining labels of cFosSpeed skins elements
+
+/: https://www.cfos.de/en/cfosspeed/documentation/status-traffic-analysis-icon.htm
+/. Used as alternative text for clickable icon-buttons in sidebar at mentioned above and on similar pages
+/. You won't see it, since it displayed only if browser can't download images
+
 sp_doc_status_times = "Waktu Ping diwakili oleh gelombang warna hijau, kuning, atau merah dalam tampilan grafik skin standar. Waktu ping yang sebenarnya tergantung di bagian signifikan pada jumlah unggahan dan unduhan bersamaan. Jika nomor ini naik, latency kemungkinan akan meningkat juga.";
 sp_doc_status_toggle = "Dengan mengklik pada tombol yang sesuai, mungkinkan untuk beralih antara tampilan skin grafis dan numerik.";
 sp_doc_status_total = "Riwayat dari rerata transfer unduhan (total) dalam %";
@@ -1434,14 +1859,23 @@ sp_doc_status_utr = "Rerata transfer unggahan dalam %";
 sp_doc_status_variance = "Variasi dari waktu ping";
 sp_doc_status_vertical = "Bar grafik vertikal bergulir di sisi kanan ke sisi kiri menunjukkan riwayat transfer sebagai persentase dari rerata pencapaian transfer unggahan/ unduhan sejak instalasi dan kalibrasi terakhir dari cFosSpeed. Total dan lokal rerata transfer berhubungan dengan cFosSpeed yang berjalan dalam multi-user mode. Lokal menunjukan rerata transfer hanya dari computer sebelumnya, sementara total - jumlah lalu lintas dalam jaringan lokal..<br /><br />Metode tampilan lainnya adalah sama seperti pada Liquid Crystal History skin.";
 sp_doc_status_wave = "Tampilan gelombang waktu-Ping";
+
+/: http://www.cfos.de/en/cfosspeed/documentation/status-aquarium.htm
+/. Usead as starting word for explaining labels of cFosSpeed skins elements
+/= Switch: Transfer rate in %
+/= Switch: Number of TCP/UDP connections
 sp_doc_status_word = "Memilih";
+
 sp_doc_surf_p1 = "Pendeteksi HTTP terintegrasi dalam cFos Dan cFosSpeed ​b​erfungsi untuk mempercepat waktu load halaman, terutama saat me-unggah bersamaan. Pembandingan waktu load dari www.greenpeace.org dan www.amazon.com tersedia at <a href=\"/en/traffic-shaping/traffic-shaping.htm\">http://www.cfos.de/en/traffic-shaping/traffic-shaping.htm</a>. Percepatan keuntungan yang lebih tinggi elemen individual harus dimuat pada halaman Web yang diberikan.";
 sp_doc_surf_p2 = "Jika Anda menjelajah banyak halaman (tanpa melakukan download), Anda mungkin ingin menggunakan pengaturan dalam konteks menu atau jendela status untuk mengaktifkan \"Favor Ping\". Sebuah panah hijau akan muncul di jendela status. Pengaturan ini akan memastikan cFos atau cFosSpeed ​​melakukan segalanya untuk menjaga agar waktu ping ke minimum, tanpa harus mengeluarkan lebih banyak kecepatan transfer, yang jauh dapat memperlambat. Namun, tergantung pada aplikasi apa yang Anda jalankan, ini lebih jauh dapat mempercepat load halaman web.";
 sp_doc_surf_t1 = "Aplikasi Interaktif yang lain:";
 sp_doc_surf_p3 = "Baik cFos dan cFosSpeed ​​dibekali dengan pendeteksi terintegrasi untuk aplikasi interaktif besar seperti SSL, SSH, Telnet, IRC, dan lebih banyak lagi. Hal ini menjamin waktu respon yang rendah bahkan selama unggahan panjang dan unduhan.";
 sp_doc_surf_p4 = "Mungkin skema prioritas standar dibawah Pengaturan Protokol tidak mencukupi untuk tujuan Anda, Anda selalu dapat memprioritaskan aplikasi apapun baik sesuai nama pada \"Program Settings\" atau menambahkan port secara manual dengan aturan filter. Hal ini sangat dianjurkan ketika menjalankan server. ";
 sp_doc_surf_p5 = "Jika port diketahui, Anda dapat memprioritaskan transfer data mereka sebagai berikut (dengan melakukan editing pada [filter] bagian pada file settings.ini):";
+
+/. Part after colon shouldn't be translated, since it's code from configuration file
 sp_doc_surf_p6 = "Untuk port TCP:<br />[filters]<br />; dest port=1234<br />filter=-tcp-dport 1234 -c high<br />; source port=5678<br />filter=-tcp-sport 5678 -c high";
+
 sp_doc_surf_t2 = "Menjelajah dan berbagi file (P2P):";
 sp_doc_surf_p8 = "Secara standar, program berbagi file di tetapkan ke prioritas paling rendah. Sekarang, hal ini bukan berarti mereka menjadi diperlambat atau dihentikan sama sekali. Artinya adalah, data tersebut akan sedikit tertunda ketika data yang lebih penting sedang di transmisikan. Hanya skema prioritas yang memungkinkan untuk memaksimalkan kecepatan transfer program berbagi file saat sedang menggunakan koneksi yang sama untuk aplikasi lain (seperti menjelajah web) di waktu bersamaan.";
 sp_doc_voip_p1 = "Tidak hanya latensi minimal yang sangat penting untuk Voice-over-IP, itu adalah faktor paling penting dalam meningkatkan kualitas suara.";
@@ -1464,8 +1898,14 @@ sp_doc_voip_a4 = "Prioritasi program Skype";
 sp_doc_voip_p11 = "<em>Penundaan</em> adalah bagian penting dari nilai MOS. Menggunakan cFosSpeed menjaga kenaikan penundaan ini dengan pembatasan, sehinggan dapat naik menjadi 700 milisekon saat tidak menggunakan cFosSpeed (grafik merah).";
 sp_doc_whatsnew_word = "Pembaruan";
 sp_doc_whatsnew = "Gambaran dari fitur baru, peningkatan, modifikasi dan perbaikan";
+
+/. "Check with" meaning "Use the following action to check the result"
+
 sp_news_t = "Berita terbaru terkait tentang cFosSpeed";
+
+/. While translating `\"Options\""` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
 sp_news_p1 = "cFosSpeed akan mengecek setiap 2 hari jika ada program baru. Jika ada, ia akan menampilkan simbol surat di jendela status and dan membuka halaman ini jika di klik. Fitur ini akan hidup secara standar. Jika anda tidak tertarik dengan berita program, anda dapat menonaktifkannya di dalam menu \"Options\".";
+
 sp_news_p2 = "Kami akan memposting berita hanya beberapa kali per tahun.";
 sp_news_h0 = "Berita cFosSpeed";
 sp_news_h1 = "Kebijakan berita cFosSpeed";
@@ -1516,11 +1956,20 @@ word_updates = "Perbarui";
 word_prices = "Harga";
 word_delivery = "Pengiriman";
 
-/ PNet additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFos PNet additional pages
+/
+/ ----------------------------------------------------------------------
+
 cfospnet_doc_page_title = "Dokumentasi cFos Personal Net";
 
+/ ----------------------------------------------------------------------
+/
+/  cFos IPv6 Link additional pages
+/
+/ ----------------------------------------------------------------------
 
-/ IPv6 Link additional pages
 six_doc_p1 = "Konektivitas dengan jaringan baru IPv6";
 six_doc_p2 = "cFos IPv6 Link memungkinkan kita melakukan dial-up IPv6 untuk Windows 7, Vista dan XP.";
 six_doc_p3 = "Install cFos IPv6 Link, konfigurasi koneksi dial-up ke ISP anda dan anda telah selesai! cFos IPv6 Link tidak hanya terkoneksi ke IPv6 baru, tetapi juga mengkonfigurasi routing dan IP juga alamat DNS secara otomatis.";
@@ -1597,11 +2046,21 @@ six_doc_134 = "Agar perubahan berjalan, mungkin diperlukan reboot.";
 six_doc_135 = "Pemetaan NAT46:";
 six_doc_136 = "Pemetaan NAT46memungkinkan anda menjalankan aplikasi IPv4-only  dengan destinasi IPv6 atau membuat server IPv4-only dapat di akses oleh IPv6. cfos6link csekarang dapat memetakan dari aplikasi IPv4 only ke IPv6. Untuk melakukannya, ia akan terasosiasi dengan alamat IPv6 dengan alamat IPv4 sementara. Anda dapat menentukan kolom alamat IPv4 dengan menset nat46_addr=x and nat46_subnet_mask=m pada bagian [param] dalam cfos6link.ini. Jika aplikasi IPv4 meminta nama melalui DNS (contohnya A record) cfos6link menggati permintaan menjadi AAAA record request. Setelah itu akan menerima alamat IPv6 ia akan mengalokasikan IPv4 sementara untuk IPv6 tersebut dan mengembalikannya ke aplikasi IPv4. Setiap kali aplikasi IPv4 menggunakan alamat semetara, ia akan dipetakan ke alamat IPv6 untuk digunakan menuju ke IPv6. Sebagai contoh, anda dapat menentukan kolom alamat IPv4 untuk pemetaan:";
 six_doc_138 = "Untuk koneksi yang masuk anda juga dapat memetakan port, dengan mengisi [nat46_ports] dalam cfos6link.ini dengan angka seperti ini:";
+
+/. That string means that user have to place program's name instead of `some program` like `5000=skype`
+/. `some_program` part may be translated
+/: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
 six_doc_139 = "5000=beberapa_program";
+
 six_doc_140 = "Lalu koneksi yang masuk dari IPv6 dipetakan ke IPv4. sewaktu-waktu port tujuan adalah port yang dipetakan.";
 six_doc_141 = "Sebagai tambahan anda dapat menambah IPv4 statis &lt;-&gt; pemetaan IPv6 digunakan untuk aplikasi yang menggunakan hard-coded alamat IPv4. Anda dapat mengatur pemetaan ini dengan mengisi bagian [nat46_static] dengan nilai seperti &lt;ipv4_addr&gt;=&lt;ipv6_addr&gt;, sebagai contoh 192.168.2.1=2001:DB8::1";
 
-/ cFos BC additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFos Broadband Connect additional pages
+/
+/ ----------------------------------------------------------------------
+
 bc_doc_p1 = "cFos Broadband Connect adalah driver Dial-Up berperforma tinggi untuk akses Internet dengan menggunakan bandwidth yang besar. Ketika driver dikirimkan, Windows hanya dapat melakukan transfer hingga 4.5 Mbyte/s (= 36 Mbit/s), sedangkan cFos Broadband Connect dapat mengirimkan sebesar 50 Mbyte/s (= 400 Mbit/s).<br /><i>Telah teruji dengan Gigabit LAN, Pentium 4 (3GHz).</i>";
 bc_doc_p2 = "cFos Broadband Connect didesain untuk hasil keluaran maksimal dengan CPU load yang minimal. Ini menghilangkan kebutuhan performa CPU anda untuk menjalankan aplikasi yang membutuhkan Internet, seperti media player, dan lain lain. Pada kecepatan penuh, cFos Koneksi Broadband hanya membutuhkan 3% CPU time.";
 bc_doc_p3 = "cFos Broadband Connect menudukung seluruh parameter PPPoE penting. Itu dapat memudahkan untuk dikonfigurasikan dengan nomer telepon yang digunakan untuk koneksi Dial-Up tersebut. Dengan fitur Auto-Detect, cFos Broadband Connect mencari seluruh Internet access points yang telah terhubung kedalam sistem.";
@@ -1625,7 +2084,12 @@ bc_param_in_service = "   in_service_name (kosong)     menjawab panggilan masuk 
 bc_param_padr_timeout = "   padr_timeout 2000           timeout dalam milliseconds. Menentukan berapa lama cFos Broadband Connect dapat menunggu\n                               untuk PADR selama panggilan masuk.";
 bc_param_max_frame = "   max_frame_size=x            ukuran frame maksimal (MTU), default 1492";
 
-/ oem
+/ ----------------------------------------------------------------------
+/
+/  OEM
+/
+/ ----------------------------------------------------------------------
+
 oem_title = "Versi OEM untuk ISP dan produsen peralatan";
 oem_t1 = "Produk OEM kami";
 oem_t2 = "PPPoE Dial-Up driver kecepatan tinggi untuk Windows 7, Vista dan XP";
@@ -1636,16 +2100,26 @@ oem_t3 = "Bandwidth maksimal dengan waktu ping minimal oleh Traffic Shaping";
 oem_l4 = "NDIS driver untuk Windows 7, Windows Vista, XP dan 2000, x86 dan x64";
 oem_l5 = "Traffic Shaping untuk koneksi yang telah ada, broadband &amp; narrowband";
 oem_l6 = "Traffic Shaping untuk routers dan/atau DSL/modem kabel";
+
+/. Means "customizable status window with skins"
+/. or "brandable status window skin"
 oem_l7 = "Status window yang dapat dikonfigurasikan dengan skin";
+
 oem_l8 = "Membatasi traffic , membatasi kecepatan";
 oem_t4 = "Dial-Up driver untuk ISDN dan DSL, termasuk. Traffic Shaping";
 oem_l9 = "COM port driver untuk Windows 7, Vista, XP, 2000, x86 dan x64, dan sistem operasi yang lebih tua, seperti Windows 9x, ME";
 oem_l10 = "ISDN dengan CAPI 2.0 (CAPI2032.DLL atau kernel mode CAPI)";
+
+/. Channel bundling allows to use 2 ISDN channels as one for better bandwidth
 oem_l11 = "Bundling saluran";
+
 oem_l12 = "Deteksi PPPoE On-the-Fly, tidak memerlukan instalasi driver jaringan";
 oem_l13 = "Untuk Window Vista, XP dan 2000, x86 dan x64, sistem operasi yang lebih tua atas permintaan";
 oem_l14 = "Mudah untuk mengintegrasikan dengan installer yang sudah ada";
+
+/. fees = licensing costs
 oem_t5 = "Kondisi lisensi dan biaya";
+
 oem_l15 = "Biaya berdasarkan atas jumlah lisensi yang diorder";
 oem_l16 = "Pengiriman minimal: 1,000 lisensi";
 oem_l17 = "Penagihan baik dengan harga tetap yang telah diatur sebelumnya atau berdasarkan pada jumlah lisensi nyata yang digunakan";
@@ -1654,7 +2128,12 @@ oem_t7 = "Kontrak lisensi standard OEM kami dalam bahasa German dan English";
 oem_t8 = "Kontak:";
 oem_t9 = "Mitra OEM";
 
-/ asus
+/ ----------------------------------------------------------------------
+/
+/  ASUS
+/
+/ ----------------------------------------------------------------------
+
 asus_p1 = "Sebagai pelanggan dari motherboard ASUS tertentu anda mempunyai hak untuk menggunakan dan memanfaatkan ASUS ROG GameFirst I&amp;II / Turbo LAN. Ini adalah fitur penuh, solusi unlimited Traffic Shaping yang didukung oleh cFosSpeed. Kami berharap anda menikmati peningkatan kecepatan yang mungkin didapatkan dengan versi dari ASUS ROG GameFirst I&amp;II / Turbo LAN.";
 asus_p2 = "Sebagai tambahan opsi fine-tuning disana juga merupakan versi cFosSpeed professional terkini yang tersedia.";
 asus_a1 = "Anda dapat <a class=\"inline\" href=\"/en/download/download.htm\"><img src=\"sp_link_bottom_right.png\" width=\"6\" height=\"11\" border=\"0\" alt=\"\" />download cFosSpeed disini</a>.";
@@ -1667,13 +2146,40 @@ asus_af_l4 = "<b>Analisis Traffic secara Real-Time</b> pada jendela status.";
 asus_af_l5 = "<b>Opsi Fine-Tuning</b>: Pemilihan Koneksi Medium, RX &amp; TX limit kecepatan, DSCP / VLAN penandaan / penyaringan.";
 asus_af_l6 = "<b>Fungsi tambahan</b>: Auto-hide pada fullscreen (Game Mode), Firewall, volume &amp; penghitung online time, daftar filter/ daftar block IP.";
 
-/ asrock
+/ ----------------------------------------------------------------------
+/
+/  ASRock
+/
+/ ----------------------------------------------------------------------
+
 asrock_p1 = "Sebagai pelanggan dari motherboard ASRock anda mempunyai hak untuk menggunakan dan memanfaatkan ASRock XFast LAN. Ini adalah fitur penuh, solusi unlimited Traffic Shaping yang didukung oleh cFosSpeed. Kami berharap anda menikmati peningkatan kecepatan yang mungkin didapatkan dengan versi dari ASRock XFast LAN.";
 asrock_p2 = "Untuk fitur terbaru disana juga merupakan versi cFosSpeed professional terkini yang tersedia.";
 asrock_p3 = "Jika anda instal versi cFosSpeed, anda mempunyai periode trial selama 30 hari. Lalu anda dapat membeli lisensi cFosSpeed lifetime atau uninstall cFosSpeed dan instal ASRock XFAST/LAN lagi. Pemilik dari lisensi cFosSpeed lifetime selalu mempunyai akses langsung ke berita fitur cFosSpeed dan versi Beta / Pre-Release.";
 
-/ special price
+/ ----------------------------------------------------------------------
+/
+/  Gigabyte
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  MSI
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  Special price
+/
+/ ----------------------------------------------------------------------
+
+/. Means "Go back" or "Return"
+/. Used as text of link, which takes user back to previous page
 back = "kembali";
+
 explain1 = "Kini kami menawarkan cFos dan cFosSpeed dengan harga diskon sangat special dalam upaya untuk meningkatkan sosialisasi dan kesadaran terhadap teknologi Traffic Shaping.";
 explain2 = "Anda akan menerima lisensi untuk versi 32-bit dan versi 64-bit.";
 explain4 = "Untuk cFosSpeed, versi mendatang untuk Vista/7 juga termasuk.";
@@ -1687,7 +2193,12 @@ special_price_h2 = "Hingga 31 Januari:";
 special_price_h3 = "Dari 1 Februari:";
 special_price_h4 = "Untuk seluruh lisensi:";
 
-/ contact
+/ ----------------------------------------------------------------------
+/
+/  Contact
+/
+/ ----------------------------------------------------------------------
+
 affiliate_earnmoney = "Menghasilkan uang dengan cFosSpeed?";
 affiliate_placelink = "Tempatkan link pesanan spesial pada website anda dan dapatkan persentase tertentu dari keuntungan penjualan";
 affiliate_interested = "Tertarik?";
@@ -1821,7 +2332,12 @@ cont_select_h4 = "Anda punya pertanyaan lain";
 cont_trademark = "cFos® adalah merk dagan teregistrasi.";
 word_mandatory = "mandatori";
 
-/ link_programm
+/ ----------------------------------------------------------------------
+/
+/  link_programm
+/
+/ ----------------------------------------------------------------------
+
 banner_alt = "cFos / cFosSpeed Aceleration untuk DSL dan kabel Broadband dengan Traffic Shaping, Setelan, Ping optimal";
 internet_tuning = "Setelan Internet";
 for_techniques = "untuk DSL, Router &#38; modem kabel";
@@ -1834,7 +2350,12 @@ word_dark = "gelap";
 word_background = "latar belakang";
 text_it_works = "Berhasil!";
 
-/ press
+/ ----------------------------------------------------------------------
+/
+/  Press
+/
+/ ----------------------------------------------------------------------
+
 press = "Rilis pers";
 release = "Rilis pers";
 supported_operating_systems = "Sistem Operasi yang didukung";
@@ -1847,7 +2368,12 @@ press_boilerplate_text = "cFos Software GmbH, Bonn (Germany) mengembangkan dan m
 legal_note = "Catatan Legal";
 legal_note_text = "Lisensi kamiOur licensing conditions do explicitly permit putting the most recently released shareware versions of cFos, cFos Broadband Connect, cFos IPv6 Link and cFosSpeed on free CDs for inclusion with magazines.  For more on licensing issues, please consult our <a href=\"/en/cfosspeed/license.htm\">LICENSE.TXT</a> file.  Both text and artwork on our web site may be used for press and review purposes.";
 
-/ speed guide
+/ ----------------------------------------------------------------------
+/
+/  cFos Speed Guide
+/
+/ ----------------------------------------------------------------------
+
 speed_guide = "Panduan Kecepatan cFos";
 speed_guide_const = "Panduan kecepatan sedang dalam tahap pembanguanan dan akan segera hadir.<br />";
 speed_guide_continue = "Lanjutkan";
@@ -1913,7 +2439,10 @@ speed_guide_p11e = "Untuk kecepatan mengunduh yang lebih tinggi:";
 speed_guide_q11 = "Apakah ini membantu?";
 speed_guide_p12a = "Ada Kasus (jarang ) ketika cFosSpeed RX shaping mengurangi kecepatan download.<br/>Cobalah berukit ini di <b class=\"speed_console\">cFosSpeed Console</b>:";
 speed_guide_p12b = "Ada juga kasus (jarang) ketika hilangnya paket koneksi anda membuat bingung cFosSpeed Traffic Shaping<br/> Cobakah ini di <b class=\"speed_console\">cFosSpeed Console</b>:";
+
+/. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p13a = "Terkadang pengukur kecepatan kehabisan waktu karena ada jumlah koneksi yang ekstrim dan banyak jaringan UDP. Ini dapat terjadi di beberapa kasus BitTorrent. Pengukur kecepatan berkerja dengan baik, tepati setelah beberapa saat koneksi menjadi lambat dan lebih lambat.";
+
 speed_guide_p13b = "Hanya dalam kasus tertentu anda dapet mengatur kecepata untuk stabil:";
 speed_guide_l13a = "Dapatkan nilai saat ini dengan menggunakan <b class=\"speed_console\">cFosSpeed Console</b>:";
 speed_guide_l13b = "Sekarang pilih nilai diantara kerua angka dan dapetkan 90% sampa 98% dari itu (<span class=\"txspeed_new\">510715</span> in this example).<br />Set it with";
@@ -1924,7 +2453,10 @@ speed_guide_q14 = "Aktifkan mode latency rendah?";
 speed_guide_a14 = "Cobalah untuk menyalakannya:";
 speed_guide_p15 = "Mungkin ping yang tinggi disebabkan oleh server di ujung sambungan yang lain. Hal ini sering terjadi dengan server game. cFosSpeed tidak dapet mengurangi ping anda dibawah angka minimum yang di tentukan oleh koneksi anda /IPS. Kapanpun anda menggunakan beberapa koneksi secara bersamaan cFosSpeed dapat mengurangi waktu ping dan memprioritaskan jaringan anda sehingga anda mendapatkan waktu ping minimum ketika tetap menggunakan semua bandwith yang ada. Ini diperbolehkan, contohnya, Upload / download ketika panggilan VOIP atau bermain game online.";
 speed_guide_l15a = "Uninstall cFosSpeed atau nonaktifkan Traffic Shaping";
+
+/. `try both` here refers to `speed_guide_l15a` language key, which suggests to `Uninstall cFosSpeed or disable Traffic Shaping`
 speed_guide_l15b = "Download <a target=\"_blank\" href=\"http://www.cfos.de/en/download/download.htm#hrping\"><img src=\"sp_link_bottom_right.png\" width=\"6\" height=\"11\" border=\"0\" alt=\"\" />hrping</a> and - tanpa jaringan lain dalam koneksi anda - coba keduanya";
+
 speed_guide_q15 = "Apakah Waktu Ping masih Terlalu lama?";
 speed_guide_a15 = "Tips: Untuk koneksi DSL gunakan fastpath. WLAN biasanya memiliki waktu ping yang tinggi seperti naringan berbasis kabel. Mobile Internet mungkin menyebabkan penundaan tambahan karena kondisi transfer koneksi yang buruk dan/atau kemacetan dari jalur akses.";
 speed_guide_p16 = "Apakah ada PC lain dalam jaringan yang sedang mengirim/menerima data?";
@@ -1937,7 +2469,10 @@ speed_guide_q18 = "Apakah waktu ping sekarang sudah bagus?";
 speed_guide_p19 = "Beberapa peratatan mengganggu transmisi TCP. Contohnya beberapa driver untuk adapter Atheros WLAN mungkin menyebabkan banyak ping ketika mendownload. Harap install driver jaringan terbaru. Untuk tes, gunakan adapter jaringan lain dan lihat apakah waktu ping masih tinggi selama mendownload.";
 speed_guide_q19 = "Driver Baru / kartu jaringan lain membantu?";
 speed_guide_p20a = "Apakah cFosSpeed anda diatur untuk menstabilkan kecepatan? Cek ini dengan mengetik berikut ini ke <b class=\"speed_console\">cFosSpeed Console</b>:";
+
+/. `BitTorrent` — name of the protocol, not of the program
 speed_guide_p20b = "Ini seharusnya menjadi 0, kecuali untuk beberapa kondisi dengan banyak koneksi BitTorrent dan trafik UDP yang tinggi.";
+
 speed_guide_p20c = "Jika pengujian jaringan cFosSpeed tetap stabil, anda harus mengsettingnya ke 0:";
 speed_guide_p20d = "Atau masukkan nilai yang lebih rendah untuk memperbaiki kecepatan (coba kurangi kecepatan di langkah 1%).";
 speed_guide_h21 = "Prioritas";
@@ -1977,9 +2512,13 @@ speed_guide_l26e = "Saran untuk pemain game";
 speed_guide_l26f = "Memprioritaskan programs";
 speed_guide_l26g = "Memprioritaskan ports";
 
-/ speed test
+/ ----------------------------------------------------------------------
+/
+/  cFos Speed Test
+/
+/ ----------------------------------------------------------------------
+
 speed_test = "Pengukur Kecepatan cFos";
-under_construction = "Pengukur kecepatan sedang dalam pembangunan dan akan tersedia pada akhir oktober 2010.<br /><br />Sementara itu kami menyarankan:<br />";
 sptest_info_p1 = "Dengan Pengecek kecapatan baru kamu, anda dapar dengan cepat menguji kecepatan koneksi internet anda. Anda dapat melakukan tes kecepatan upload dan download, contohnya untuk memeriksa, apakah kecepatan internet anda sesuai yang dijanjikan. Uji kecepatan ini di desain untuk mengukur bandwith anda yang tersedia secepat mungkin. Jangan khawatir jika pengukur kecepatan tidak sesuai dengan angka yang diberikan ISP kepada anda. Contohnya jika anda memiliki kecepatan boardband 16Mbit/s, 1% toleransi sudah 160.000 bit/sec. kelihatan mengesankan tapi tidak membuat banyak perbedaan.";
 sptest_info_p1_sm = "Dengan Pengecek kecapatan baru kamu, anda dapar dengan cepat menguji kecepatan koneksi internet anda. Anda dapat melakukan tes kecepatan upload dan download, contohnya untuk memeriksa, apakah kecepatan internet anda sesuai yang dijanjikan.";
 sptest_info_p2 = "Saat ini, penguji kecepatan mengukur dua nilai : kecepatan upload dan download. Untuk menguji koneksi internet, penguji kecepatan juga menentukan waktu respon dari server. Ini memberikan anda gambaran bagaimana diandalkannya hasil uji coba. Versi selanjutknya dari penguji kecepatan kamu juga akan mengukur berapa perbedaan stream simultan mempengaruhi respon waktu sambungan.";
@@ -2000,11 +2539,33 @@ sptest_send = "Kirim laporan";
 sptest_cancel = "batalkan";
 sptest_bot_p1 = "Optimalisasi cFosSpeed MSS (MTU) mungkin dapat mengurangi MSS/MTU anda dari 1.492 ke angka yang sedikit lebih rendah. Dengan ATM berbasis jadingan DSL dapat menghasilkan output yang lebih tinggi, berkipun jika beberapa \"net speed tests\" menhatakan sebaliknya. Tapi optimalisasi MSS (MTU) dapat mempengaruhi beberapa permainan, jadi yang terbaik anda lakukan cek kecepatan dengan dan tanpa optimalisasi MSS (MTU) sendiri.";
 
-/upload
+/ ----------------------------------------------------------------------
+/
+/  Upload
+/
+/ ----------------------------------------------------------------------
 
-/videos
 
-/meta descriptions
+/ ----------------------------------------------------------------------
+/
+/  Videos
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  Port forwarding
+/
+/ ----------------------------------------------------------------------
+
+
+/ ----------------------------------------------------------------------
+/
+/  Meta descriptions
+/
+/ ----------------------------------------------------------------------
+
 missing_meta_desc = "Deskripsi meta hilang";
 asrock_index_desc = "Informasi tambahan untuk pengguna ASRock XFast LAN.";
 asus_asus_desc = "Informasi tambahan untuk pengguna ASUS Game!First.";
@@ -2101,7 +2662,10 @@ cfosspeed_documentation_menu_desc = "Penjelasan opsi konteks menu dari cFosSpeed
 cfosspeed_documentation_no_ping_desc = "Apa yang dapat anda lakukan jika cFosSpeed tidak menerima ping.";
 cfosspeed_documentation_prog_prio_desc = "Bagaimana skema prioritasasi bekerja.";
 cfosspeed_documentation_keyboard_leds_desc = "Bagaimana cara untuk menggunakan keyboard LED untuk mengindikasi jika komputer anda dalam mode layar penuh.";
+
+/. `BitTorrent` — name of the protocol, not of the program
 cfosspeed_documentation_p2p_desc = "Bagaimana Cara mengkonfigurasi cFosSpeed untuk performa optimal dengan jadingan filesharing P2P, seperi Bittorent, E2K, dll.";
+
 cfosspeed_documentation_logitech_keyboard_desc = "Bagaimana Cara menggunakan rampilan kerboard dari Logitech gamer keyboard untuk informasi starus cFosSpeed. G19, G15, G13, G510 dan model yang kompatibel.";
 beta_index_desc = "Download versi beta terbaru dari cFosSpeed, cFos IPv6 Link, cFos Broadband Connect dan cFos Professional.";
 beta_cfos_ipv6_link_whats_new_desc = "Daftar fitur baru dari cFos Ipv6 Link, peningkatan dan perbaikan bug dari versi beta.";
@@ -2114,15 +2678,61 @@ cfos_notifier_desc = "Tampilan produk cFos Notifier.";
 cfos_notifier_whats_new_desc = "Lihat apa yang baru di cFos Notifier. Daftar dari semua fitur baru, peningkatan dan perbaikan bug.";
 cfosspeed_features_title = "Daftar dari fitur paling penting dari cFosSpeed.";
 
-/mailing lists
+/ ----------------------------------------------------------------------
+/
+/  Mailing lists
+/
+/ ----------------------------------------------------------------------
+
 announce_list = "Daftar Pengumunan cFos";
 
-/ countrynames
+/ ----------------------------------------------------------------------
+/
+/  Countrynames
+/
+/ ----------------------------------------------------------------------
 
-/ no translation  -  currency info for order form exchange rates only - do not modify!
+
+/ ----------------------------------------------------------------------
+/
+/  Currency
+/
+/ ----------------------------------------------------------------------
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those strings used in Order Form exchange rates and shouldn't be modified
+/
+/ !!! DO NOT TRANSLATE !!!
+
+/. Code of native for current language currency according to European Central Bank
+/. Used to retrieve exchange rates from ECB, calculate and display prices in native currency on Order page
+/. Do not modify, unless you really know what you're doing
 currency_4217 = "IDR";
+
+/. Leading and subsequent (if needed any) currency symbol/code of specified in `currency_4217` currency
+/. Purely decorative
+/. String will be formed without any predefined spaces, like that:
+/= `~ currency_prefix{{value}}currency_suffix`
+/. So, don't forget to add space before suffix, or after prefix, if you need any, right inside language key
 currency_prefix = "Rp ";
 currency_suffix = "";
+
+/. Value of `Country` field in Order form
+/. In English always should be `Select your country`
+/. In other languages should contain name of the country _in English_, for which specified currency in `currency_4217`
 selected_value = "Indonesia";
 
+/ END SECTION: do not translate
+
+/ ----------------------------------------------------------------------
+/
+/  Testing language keys
+/  Test purposes, !!! DO NOT TRANSLATE !!!
+/
+/ ----------------------------------------------------------------------
+
+
+/ END SECTION: do not translate
 
