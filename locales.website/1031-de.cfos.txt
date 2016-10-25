@@ -2,13 +2,22 @@
 #fallback 1033
 #charset 0
 
+/ **********************************************************************
+/
+/  language
+/
+/ **********************************************************************
+
 language = "German";
 lang_key = "";
 input_lang = "de";
 
-/ test purposes, don't translate!
+/ ----------------------------------------------------------------------
+/
+/  Navigation
+/
+/ ----------------------------------------------------------------------
 
-/ navigation
 link_text_contact = "Kontakt";
 link_text_impressum = " / Impressum";
 link_text_download = "Download";
@@ -20,16 +29,30 @@ link_text_products = "Produkte";
 link_text_sitemap = "Sitemap";
 link_text_support = "Support";
 
-/ index2
+/ ----------------------------------------------------------------------
+/
+/  index2
+/
+/ ----------------------------------------------------------------------
+
 about = "Über cFos Software";
 asrock_info = "Informationen für <b>ASRock XFast LAN</b> Benutzer";
 bc_linktext = "cFos Broadband Connect für den High-Speed-Zugang";
 cfos_linktext = "cFos/Professional für ISDN";
+
+/. Means "Close current dialog window"
 close = "Schließen";
+
+/. Cookies here means not actual crisp and tasty cookies, but web cookies.
+/. See for details: https://en.wikipedia.org/wiki/HTTP_cookie
+/. Check that wikipedia page in your language to find out best translation for your language
 cookie_bar_text = "Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Nutzung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter.";
+
+/. Used as text of link, which leads to page with detailed explanations
+/. Depending on your language, you might drop `See` part
 cookie_bar_details = "Details ansehen";
 
-/. Used as "I understand"
+/. Used as "I've understood"
 cookie_bar_got_it = "Verstanden";
 
 desc_6link = "IPv6 Verbindung mit XP, Vista und Windows 7";
@@ -81,8 +104,22 @@ social_networks = "Bitte unterstützen sie uns in Sozialen Netzwerken.<br/>Klick
 powered_by = "Powered by <a href=\"/en/cfos-personal-net/cfos-personal-net.htm\">cFos Personal Net Webserver</a>";
 word_follow = "Folgen";
 cfosspeed_for_windows_10 = "<b>cFosSpeed 10</b> unterstützt jetzt auch <b>Windows 10</b>.";
+
+/: http://www.cfos.de/en/index.htm
+/: http://www.cfos.de/en/download/download.htm
+/: http://www.cfos.de/en/cfosspeed/cfosspeed.htm
+/: http://www.cfos.de/en/cfosspeed/cfosspeed-feature-highlights.htm
+/. Used as label for button or text of link, which proposes to learn more about product or feature
 learn_more = "Mehr erfahren";
+
+/. Used as promo text in header of cfos.de
+/. Please, keep line feed (`<br/>` tag, which stands for line break) at approx middle of the text,
+/. preferred directly before the brand names
 oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">cFosSpeed</a> ist der offizielle Internet Beschleuniger für<br/>ASUS, GIGABYTE, ASRock und MSI Gaming Produkte";
+
+/. Used as notification banner for OEM users
+/. Please, keep line feed (`<br/>` tag, which stands for line break) at approx middle of the text,
+/. preferred directly before the link to the brand pages
 oem_info_asrock = "Wir haben zusätzliche Informationen für Sie als <a class=\"inline\" href=\"/en/asrock/index.htm\">Käufer eines <b>ASRock</b> Motherboards</a>!";
 oem_info_asus = "Wir haben zusätzliche Informationen für Sie als <a class=\"inline\" href=\"/en/asus/asus.htm\">Käufer eines <b>ASUS</b> Motherboards</a>!";
 oem_info_gigabyte = "Wir haben zusätzliche Informationen für Sie als <a class=\"inline\" href=\"/en/gigabyte/index.htm\">Käufer eines <b>Gigabyte</b> Motherboards</a>!";
@@ -94,7 +131,12 @@ oem_info_msi = "Wir haben zusätzliche Informationen für Sie als <a class=\"inl
 /. (with `<br/>` tag in place of break), try to keep both lines of same length
 top_seller = "TOP<br/>Seller";
 
-/ download
+/ ----------------------------------------------------------------------
+/
+/  Download
+/
+/ ----------------------------------------------------------------------
+
 additional_downloads = "Zusätzliche Downloads";
 add_lang_text = "Zusätzliche Sprachen für cFosSpeed";
 alt_cfosbc_image = "cFosBC-Bild";
@@ -204,7 +246,13 @@ twitter_follow_short = "cFos Software folgen";
 language_files = "Sprachdateien";
 word_translation = "Übersetzung";
 
-/ order
+/ ----------------------------------------------------------------------
+/
+/  Order
+/
+/ ----------------------------------------------------------------------
+
+alt_logo = "cFos Software GmbH Logo";
 atm_price = "Version für ATM auf Anfrage";
 bank_de_account = "2000 850 040";
 bank_de_bic = "BIC (SWIFT-code): GENO DE D1 BRS";
@@ -219,6 +267,7 @@ conf_cc = "Zahlung per Kreditkarte";
 /. Used before Credit Card number, like
 /= "Nr. 2661-4345-2456-1345"
 /. It should be replaced with preferred in your region format
+conf_cc_nr = "Nr.";
 
 conf_check_cc = "Bitte überprüfen Sie Ihre Kreditkartendaten";
 conf_check_order = "Bestellung überprüfen";
@@ -417,7 +466,12 @@ word_service = "Service";
 word_submit_order = "Kaufen";
 word_year = "Jahr";
 
-/ Order and Announcelist Confirmation Email
+/ ----------------------------------------------------------------------
+/
+/  Order and Announcelist Confirmation Email
+/
+/ ----------------------------------------------------------------------
+
 ann_subject = "Danke, dass Sie der cFos-Benachrichtungsliste beigetreten sind";
 ann_salut = "Lieber cFos-Nutzer";
 ann_info = "Sie haben sich für den cFos-Verteiler angemeldet. Wir werden Sie ungefähr 3-5 mal im Jahr über neue Versionen unserer Programme informieren.";
@@ -428,6 +482,7 @@ em_hello = "Hallo";
 em_thank_you = "Vielen Dank für Ihre Bestellung von";
 em_transfer = "Bitte überweisen Sie jetzt";
 em_account = "auf das Bankkonto";
+em_link = "Link:";
 em_alipay = "auf das AliPay-Konto";
 em_paypal = "auf das PayPal-Konto";
 em_moneybookers = "auf das Moneybookers Konto";
@@ -435,7 +490,12 @@ em_noreply = "Dies ist eine automatische Mail. Bitte nicht darauf antworten. Fal
 em_text = "Wir werden Ihre Bestellung so schnell wie möglich bearbeiten.";
 em_webmoney = "zu unserem WebMoney Konto.";
 
-/ cFosSpeed
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed
+/
+/ ----------------------------------------------------------------------
+
 a_bt = "cFosSpeed mit Torrents";
 a_games = "Wie beschleunige ich Online-Games?";
 alt_ct_logo = "c't-Logo";
@@ -458,7 +518,13 @@ cfosspeed_rewin = "Hier die eindrucksvollen Ergebnisse von cFosSpeed's RWIN Expa
 dupe_a_voip = "Gute Stimmqualität mit Voice-over-IP (VoIP) (deutsch)";
 budgets = "Online-Budgets";
 desc_cfosbc = "<b>cFosBC</b>, High-Performace-Einwahl für besonders hohe Geschwindigkeiten";
+firewall = "Firewall";
+
+/: http://www.cfos.de/en/cfosspeed/cfosspeed.htm
+/. Used in sidebar of cFosSpeed page as promotion. Says that cFosSpeed keeps quite high number
+/. of "YES" and has numerous positive comments at Steam Greenlight
 greenlight_h1 ="<b style=\"color: #409a03\">82% \"JA\"-Stimmen</b> und positive Kommentare auf <b><span style=\"color: #5B7399\">cFosSpeeds</span> <a class=\"inline\" href=\"http://steamcommunity.com/sharedfiles/filedetails/comments/538515919\"><span  style=\"color: #409a03\">Steam Greenlight Seite</span></a></b>!";
+
 header_features = "Features";
 highlights = "Highlights";
 highlight1 = "cFosSpeed hindert einzelne Programme (z.B. E-Mail-Versand) daran, alle anderen (z.B. Chat, VoIP, Online-Spiele) auszubremsen.";
@@ -532,7 +598,12 @@ special_price = "Spezialpreis";
 special_price_launch = "19,95&#8364;";
 word_more = "mehr";
 
-/cFos Personal Net
+/ ----------------------------------------------------------------------
+/
+/  cFos Personal Net
+/
+/ ----------------------------------------------------------------------
+
 desc_pnet = "Webserver für private und professionelle Nutzung";
 pnet_title = "Webserver für private und professionelle Nutzung";
 desc_pnet_new = "Hosten Sie Ihre Dateien und synchronisieren Ihre Daten";
@@ -617,8 +688,10 @@ pnet_wmi_l1c = "Pingzeit";
 pnet_wmi_l1d = "TCP/UDP connection count";
 
 /. Means `RX (`receive`/incoming/download) characters per second`
+pnet_wmi_l1e = "RX cps";
 
 /. Means `TX (`transmit`/outgoing/upload) characters per second sent`
+pnet_wmi_l1f = "TX cps";
 
 pnet_wmi_l1g = "Diese Werte beziehen sich auf Ihre aktuelle Internet-Verbindung.<br/>Windows-eigene WMI Werte beziehen sich auf den Netzwerk-Adapter, egal ob es sich um Internet oder LAN traffic handelt. Sie können alle Werte, die im cFosSpeed Status Fenster angezeigt werden können, auch im WMI Monitor anzeigen.";
 pnet_wmi_l2 = "<a href=\"http://openhardwaremonitor.org/\"><b>Open Hardware Monitor</b></a>. Dieser hat ebenfalls einen eingebauten WMI provider, der sehr nützliche Werte über Ihre Hardware zur Verfügung stellt, wie";
@@ -811,7 +884,12 @@ pnet_doc_languages_l4 = "Starten Sie PNnet und dann das WordPress Installationss
 pnet_doc_languages_l5 = "Downloaden und installieren Sie MySQL (z.B. Community Edition, installieren als \"Server Only\"); konfigurieren Sie einen zusätzlichen Benutzer (möglicherweise mit admin-Rechten).";
 pnet_doc_languages_l6 = "In <em>php.ini</em> unter Windows Extensions kommentieren Sie<br/><b>;extension=php_mysqli.dll</b><br/>aus und ändern es in<br/><b>extension=ext/php_mysqli.dll</b>.";
 
-/ cFos Outlook DAV
+/ ----------------------------------------------------------------------
+/
+/  cFos Outlook DAV
+/
+/ ----------------------------------------------------------------------
+
 cfout_h1_v2 = "Cloud Synchronisation Ihrer Outlook Kalender, Aufgaben und Kontakte";
 cfout_p1a = "cFos Outlook DAV ist ein Outlook Add-in um einen Kalender Ordner mit einem CalDAV/CardDAV Server in der Cloud zu verbinden.";
 cfout_p1a2 = "Für Heimserver Lösungen bieten sich die CalDAV/CardDAV-Funktionen von <a class=\"inline\" href=\"/en/cfos-personal-net/cfos-personal-net.htm\"><b>cFos Personal Net</b></a> an. ";
@@ -870,7 +948,6 @@ cfout_p7c_v2 = "In <em>C:\\Users\\IHR_BENUTZERNAME\\AppData\\Local\\cFos\\outloo
 cfout_p8 = "cFos Outlook DAV nutzt die Proxy Einstellungen des Internet Explorer. Diese können Sie unter Systemsteuerung, Internet Optionen einstellen.";
 cfout_p9 = "Um SSL-Zertifikat-Fehlermeldungen zu ignorieren kann im Schlüssel <em>HKEY_LOCAL_MACHINE\\SOFTWARE\\cFos\\outlook_dav</em> der Windows-Registry der Wert <b>ignore_ssl_errors</b> = <b>1</b> gesetzt werden.";
 cfout_p10 = "Um Probleme mit <b>UTF-8 kodierten vCards</b> zu beheben, muss man <b>Datei</b> -> <b>Optionen</b> -> <b>Erweitert</b> -> <b>Internationale Optionen</b> -> <b>Bevorzugte Codierung ausgehender vCards</b> auf <b>UTF-8</b> setzen.";
-cfout_disclaimer = "Bei der Synchronisation von Outlook Daten mit CalDAV/CardDAV Servern können unerwartete Interoperabilitäts-Probleme und Datenverluste auftreten. Die Bestellung erfolgt unter der Voraussetzung, dass Sie cFos Outlook DAV erfolgreich für Ihr Einsatzgebiet vollständig getestet haben.";
 cfout_conf_title = "Synchronisieren sie einen CalDAV Kalender oder ein CardDAV Adressbuch mit Outlook in 5 Schritten";
 cfout_goto_help = "Lesen Sie unsere <b>detaillierte illustrierte Anleitung</b>.";
 cfout_server = "CalDAV/CardDAV Servertyp auswählen";
@@ -947,7 +1024,12 @@ cfout_synology_p2 = "Einen CardDAV-Server mit einem Synology NAS einrichten.";
 cfout_adv_conf_h1 = "Erweiterte Konfiguration:";
 cfout_adv_conf_p1 = "cFos Outlook DAV verwendet die von Ihnen eingestellte URL um die tatsächliche Adresse ihres Kalenders bzw. Adressbuchs herauszufinden. Indem Sie ihrer URL ein <b>*</b> voranstellen, können Sie dieses Verhalten abstellen. In diesem Fall benutzt cFos Outlook DAV exakt die von Ihnen angegebene URL. Dies ist hilfreich bei der Benutzung von <b>DAViCal bindings</b> und in Fällen, in denen Sie bei <b>GMX</b> oder <b>web.de</b> einen anderen Kalender nutzen wollen. Beispiel URL: *http://www.cfos.de/calendars/mycalendar2.";
 
-/ cFos IPv6 Link
+/ ----------------------------------------------------------------------
+/
+/  cFos IPv6 Link
+/
+/ ----------------------------------------------------------------------
+
 cfos6link_page_title = "IPv6-Verbindung mit XP, Vista und Windows 7";
 cfos_ipv6_link_title = "IPv6-Verbindung mit XP, Vista und Windows 7";
 header_features_overview = "Features auf einen Blick";
@@ -968,7 +1050,12 @@ provider_list_h1 = "IPv6-Provider mit denen <em>cFos IPv6 Link</em> getestetet w
 dupe_word_documentation = "Dokumentation";
 word_documentation = "Dokumentation";
 
-/ cFos BC
+/ ----------------------------------------------------------------------
+/
+/  cFos BC
+/
+/ ----------------------------------------------------------------------
+
 bc_page_title = "High-Performance Einwahl-Treiber für Internet-Zugänge mit besonders hohen Geschwindigkeiten";
 broadband_connect_title = "High-Performance PPPoE Einwahl-Treiber";
 link_text_cfosspeed = "<b>cFosSpeed</b>, Traffic Shaping für Router, Kabel-Modems und USB DSL-Modems";
@@ -982,7 +1069,12 @@ li_text_pppoe_auto = "PPPoE Auto-detect, alle PPPoE-Parameter einstellbar";
 li_text_ppppoe_dial = "PPPoE-Einwahltreiber für Windows";
 li_text_sessions = "Multi-Sessionfähig, ohne Kanalbeschränkung";
 
-/ cFos
+/ ----------------------------------------------------------------------
+/
+/  cFos
+/
+/ ----------------------------------------------------------------------
+
 cfos_html_h1 = "ISDN &amp; DSL-Einwahltreiber mit Traffic Shaping";
 
 /. Part of page's title (in name of the tab in web browser)
@@ -992,34 +1084,55 @@ link_text_budget = "Volumen &amp; Zeit-Zähler";
 link_text_cfos_features = "cFos Feature-Liste";
 link_text_cfos_priolist = "Mit cFos Programme priorisieren (» Programm-Liste)";
 link_text_feature_list = "Features für DSL und ISDN";
+link_text_firewall = "Firewall";
 link_text_what_is_cfos = "Was ist cFos/Professional?";
 
-/hrping
+
+/ ----------------------------------------------------------------------
+/
+/  hrPing
+/
+/ ----------------------------------------------------------------------
+
+/: http://www.cfos.de/en/ping/ping.htm
 hrping_title = "hrPing - Hochpräzisions-Ping-Utility";
 hrping_title_h0 = "<span class=\"product\">hrPing</span> - Hochpräzisions-Ping-Utility";
 hrping_p1 = "Mit hrPing können Sie mehr tun als mit Windows Ping";
+
+/. Used as one of entries in list of hrPings features
 hrping_l1 = "Grafische Darstellung der Ping-Ergebnisse";
 
+/. Used as one of entries in list of hrPings features
 /. `usec` stands for `microsecond`.
-/. In current context means `usec resolution` (also known as `microsecond resolution`), which is technical term
-/. In other words, means accuracy of the measurement
+/. In current context means `usec resolution` (also known as `microsecond resolution`),
+/. which is technical term. In other words, means accuracy of the measurement
 hrping_l2 = "Benutzt hochauflösenden Timer, Ping-Zeiten sind bis auf die usec genau";
 
+/. Used as one of entries in list of hrPings features
 hrping_l3 = "Kann mit UDP Packets oder ICMP Timestamp Messages pingen";
 
+/. Used as one of entries in list of hrPings features
 /. In other words means `Hrping measures requests time and handles ICMP error replies as well`
 hrping_l4 = "Misst und behandelt auch ICMP Error Replies";
 
+/. Those strings used as one of entries in list of hrPings features
 hrping_l5 = "Kann mehrere Pings \"unterwegs\" haben, vor dem nächsten Ping muss nicht auf Antwort gewartet werden";
 hrping_l6 = "Verbesserte Statistiken";
 hrping_l7 = "Size sweep: Senden mit wachsenden Paketgrößen";
 hrping_l8 = "Kann auch nur Zusammenfassung der Ergebnisse anzeigen";
 
-/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic
+/: http://www.cfos.de/en/ping/ping.htm
+/. Used as one of entries in list of hrPings features
+/. Says that hrPing is effective replacement for both those utilities.
+/. `Traceroute` and `Pathping` are names of utilities for networks diagnostic, do not translate them
 hrping_l9 = "Ist auch Traceroute und Pathping";
 
+/ ----------------------------------------------------------------------
+/
+/  cFos Notifier
+/
+/ ----------------------------------------------------------------------
 
-/notifier
 notifier_title = "cFos Notifier";
 notifier_title_h0 = "<span class=\"product\">cFos Notifier</span> - bleiben Sie in Verbindung";
 notifier_p1 = "Der cFos Notifier ist ein Programm, das im Hintergrund läuft und regelmäßig prüft, ob neue Twitter Meldungen verfügbar sind. Falls es etwas neues gibt, zeigt er ein entsprechendes Icon in der Windows Taskleiste an, sowie einen balloon tip. Falls Sie auf den balloon oder das Taskbar Icon klicken, wird twitter.com gestartet, so daß Sie die neuen Meldungen lesen können.";
@@ -1062,11 +1175,21 @@ notifier_l6 = "Benachrichtigungen vorübergehend abschaltbar";
 notifier_l7 = "Auswählbarer Benachrichtigungsklang";
 notifier_l8 = "Accounts können hinzugefügt und entfernt werden";
 
-/FAQ
+/ ----------------------------------------------------------------------
+/
+/  FAQ
+/
+/ ----------------------------------------------------------------------
+
 which_product = "Welches cFos Produkt soll ich benutzen?";
 word_support_faq = "cFos Support FAQ";
 
-/ support
+/ ----------------------------------------------------------------------
+/
+/  Support
+/
+/ ----------------------------------------------------------------------
+
 activation_title = "Aktivierung fehlgeschlagen";
 activation_salut = "Lieber cFosSpeed-Nutzer,";
 activation_salut_cfos = "Lieber cFos-Nutzer,";
@@ -1151,10 +1274,19 @@ choice2 = "Nutzen Sie einen Router für Ihren Internet-Zugang?";
 choice3 = "Nutzen Sie einen PPPoE Internet-Zugang, z.B. DSL?";
 choice4 = "Nutzen sie ein DSL-Modem am USB";
 choice5 = "Zugangstreiber für das DFÜ-Netz?";
+choice6 = "Traffic Shaping?";
 choice7 = "Möchten Sie beides?";
+
+/. Used as title of contact form
+/. Can be translated as "Contact cFos team" in case origianl variant doesn't translate well into your language
 contact_form_h1 = "Ihr Kontakt zum cFos-Team";
+
 contact_form_p0 = "Kontaktieren Sie uns wegen <b>technischer Probleme</b>, Fragen bezüglich <b>Ihrer Bestellung</b>, <b>B2B-Anfragen</b> oder <b>Presse-Informationen</b>.";
+
+/. Refer to `speed_guide` language key in website's localization file to see how `cFos Speed Guide`
+/. has been translated in your language (here: https://github.com/cFos/l10n/tree/master/locales.website)
 contact_form_p0_a1 = "<b>Geschwindigkeit zu niedrig?</b><br/>Vielleicht kann der <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed-Guide</a> weiterhelfen";
+
 contact_form_p0_a2 = "<b>Wo ist mein Lizenzschlüssel?</b><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Kontaktieren Sie uns, wenn Ihre Bestellung zu lange dauert</a>";
 contact_form_p0_a3 = "<b>Statusfenster ausschalten?</b><br/><a class=\"inline\" href=\"//en/cfosspeed/documentation/status.htm\">Automatisches Öffnen des Statusfensters abschalten</a>";
 
@@ -1195,7 +1327,11 @@ contact_form_p6 = "In unserem <a class=\"inline\" href=\"//en/traffic-shaping/sp
 contact_form_p7 = "Hier finden Sie <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation.htm\">Hilfe zur Installation des Lizenzschlüssels</a>.<br/><br/>Hier gibt es zusätzliche Hinweise zum <a class=\"inline\" href=\"//en/cfosspeed/documentation/registration-help.htm\">Finden und Installieren des Lizenzschlüssels</a>.";
 contact_form_p8 = "Manchmal können andere Komponenten, z.B. Netzwerktreiber, Anti-Virus- oder Anti-Spyware-Software, die Installation von cFosSpeed verhindern.<br/><br/>Hier finden Sie <a class=\"inline\" href=\"//en/cfosspeed/documentation/driver-not-loaded.htm\">Hilfe zu den häufigsten Installationsproblemen</a> und <a class=\"inline\" href=\"//en/cfosspeed/documentation/installation-help.htm\">was Sie tun können, wenn cFosSpeed nicht installiert werden kann</a>.";
 contact_form_p9 = "Sie können das cFosSpeed-Statusfenster deaktivieren, in dem Sie darauf rechtsklicken und dann die folgenden Punkte des Kontextmenüs auswählen: <b>Fenstereinstellungen</b> -> <b>&lt;Ihre Netzwerkkarte&gt;</b>. Dann deaktivieren Sie \"Auto öffnen/schließen\".";
+
+/. Refer to `closewindows` language key in software's localization file to see how `Hide Windows`
+/. has been translated in your language (here: https://github.com/cFos/l10n/tree/master/locales.software)
 contact_form_p9_v2 = "Sie können das cFosSpeed-Statusfenster deaktivieren, in dem Sie darauf rechtsklicken und dann \"Fenster schließen\" auswählen.";
+
 contact_form_a2 = "Statusfenster ausblenden";
 contact_form_a3 = "cFosSpeed Registrierungs-Hilfe";
 contact_form_p10 = "Wenn cFosSpeed bei Ihnen einen Bluescreen/BSOD verursacht, brauchen wir Ihre Hilfe um dies schnellstmöglich zu beheben.<br/><br/>Bitte <a class=\"inline\" href=\"//en/support/howto-dump.htm\">erstellen Sie einen Kernel-Dump</a>.";
@@ -1238,6 +1374,7 @@ hof_agent = "cFos-Agenten";
 hof_desc = "Das sind unsere Top-Mitwirkenden, die uns wirklich geholfen haben unsere Software oder Homepage zu verbessern. Vielen Dank!";
 hof_friends = "cFos-Freunde";
 hof_skindesigner = "Skin-Designer";
+hof_title = "Hall of Fame";
 hof_titleadd = "...unsere Top-Mitwirkenden";
 hof_translator = "Übersetzer";
 hof_bugfixhero = "Bugfix-Helden";
@@ -1271,6 +1408,7 @@ text_order = "Falls Sie noch nicht im Besitz einer offiziellen cFos-, cFosSpeed-
 text_thanks = "<b>Vielen Dank</b> an alle, die cFos / cFosSpeed / cFosBC bereits gekauft haben. Sie unterstützen damit die Weiterentwicklung unserer Software!";
 text_version = "<b>Eine offizielle Lizenz ist der beste Weg zu höchstem Datendurchsatz und/oder geringen Ping-Zeiten.</b><br /><br /> Nur unsere unmodifizierten Original-Versionen bieten den vollen Funktionsumfang. Wir laden regelmäßig Hacks unserer Software aus dem Netz. Diese Hacks sind meist liederlich zusammenkopierte Dateien und von schlechter Qualität.<br /><br /> <b>Auch wenn es nicht so aussieht: <span class=\"red\">die Software läuft früher oder später nicht mehr richtig</span>.</b>";
 text_which_one = "Welches Produkt soll ich nehmen?";
+traffic_shaping = "Traffic Shaping";
 uninst_h1_6link = "cFos IPv6 Link wurde deinstalliert";
 uninst_h1_bc = "cFos Broadband Connect wurde deinstalliert";
 uninst_h1_cfos = "cFos wurde deinstalliert";
@@ -1322,7 +1460,12 @@ yes = "Ja";
 search_web = "Internet-Suche";
 search_cfos = "Durchsuche www.cfos.de";
 
-/ traffic shaping
+/ ----------------------------------------------------------------------
+/
+/  Traffic shaping
+/
+/ ----------------------------------------------------------------------
+
 alt_load_print = "Druckversion des Bildes laden";
 alt_transfer_rates = "Transferraten";
 ts_c_t1 = "Wichtiger Hinweis zu cFos Traffic Shaping";
@@ -1371,6 +1514,7 @@ ts_o_t1 = "Pro Verbindung können Sie folgende Traffic Shaping-Einstellungen vor
 ts_o_l1 = "Medium";
 ts_o_l2 = "Anwendungsmöglichkeiten";
 ts_o_l3 = "Traffic Shaping Modus (Multi-User Version)";
+ts_o_p1 = "Im Dialog-Fenster unter <samp>Optionen -> Einstellungen</samp> können Sie die <samp>verbindungseinstellungen</samp> durch Klicken auf <img src=\"/images/settings.png\" alt=\"Settings\" title=\"Settings\" border=\"0\" height=\"20\" width=\"21\" /> öffnen und ein Medium für jede Verbindung auswählen. Sie können aus folgender Liste auswählen:";
 ts_o_a1 = "Screenshot";
 ts_o_a2 = "Verbindungseinstellungen";
 ts_o_l4 = "<b>Adaptive</b>, cFos/cFosSpeed versucht sich selbsttätig auf Ihren Anschluß anzupassen. Wählen Sie diese Option nur, falls Sie nicht wissen, welche Übertragungstechnik Ihr Anschluß verwendet. Ansonsten wählen Sie die auf Ihren Anschluß am besten passende Option. Je besser die Einstellung, desto geringer die Ping-Zeiten.";
@@ -1406,6 +1550,7 @@ ts_ts_ani1_alt = "Normaler Daten-Empfang";
 ts_ts_ani1_text = "Erst wenn das ACK Packet ankommt, darf der Server neue Daten schicken.";
 ts_ts_ani2_alt = "Kein Traffic Shaping";
 ts_ts_ani2_text = "ACK Packete werden von Sendedaten ausgebremst. Damit kann der Download nicht mehr mit voller Geschwindigkeit laufen.";
+ts_ts_ani3_alt = "cFos Traffic Shaping";
 ts_ts_ani3_text = "ACK Packete werden so in die Sendedaten eingeschleust, dass trotz Upload ein kontinuierlicher Download bei voller Geschwindigkeit möglich ist.";
 ts_ts_p1 = "<b>cFos Traffic Shaping reduziert Wartezeiten beim Datentransfer und ermöglicht bis zu dreimal schnelleres Surfen. Nutzen auch Sie die Bandbreite Ihres Anschluss voll aus!</b>";
 ts_ts_p2 = "Im Internet (mit TCP/IP) kann der Sendekanal den Empfangskanal ausbremsen, so dass es zu Einbrüchen in der Datenübertragungsrate kommt. Dies passiert, wenn die empfangenen Datenpackete nicht schnell genug quittiert werden. So kann der Sende-Kanal den Empfangskanal ausbremsen, weil bei voller Sendeauslastung die Quittungen nicht schnell genug verschickt werden können.";
@@ -1501,7 +1646,12 @@ vari_fixed = "Ping-Schwankung";
 vari_fixed_help = "Erweitertes Traffic Shaping nutzen zur Anpassung an schwankende Pings";
 vari_fixed_help_long = "Sammle statistische Daten über Schwankungen der Ping-Zeiten; besonders sinnvoll bei Mobilfunk- oder WLAN-Verbindungen.";
 
-/ cFosSpeed additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFosSpeed additional pages
+/
+/ ----------------------------------------------------------------------
+
 adjust_speed_shaping = "an- bzw. abschalten";
 autoarrange = "Fenster automatisch positionieren";
 auto_mtu = "Auto-MTU-Optimierung";
@@ -1780,6 +1930,8 @@ sp_doc_p2p_p10 = "Viele haben einen eigenen PC für die Tauschbörse. Sie routen
 sp_doc_p2p_t6 = "Programm-Priorisierung:";
 sp_doc_p2p_p11 = "Zusätzlich bietet cFos bzw. cFosSpeed an, Traffic nach Programm-Namen zu priorisieren. Hier haben wir die wichtigsten bereits eingetragen. Diese Priorisierung greift, wenn die Layer-7 Erkennung die Daten nicht zuordnen kann, z.B. bei verschlüsseltem P2P Verkehr.";
 sp_doc_performance = "Performance";
+
+/: http://www.cfos.de/en/cfosspeed/documentation/phone-skins.htm
 sp_doc_phone_skins_title = "cFosSpeed Skins auf Telefon oder Tablet";
 sp_doc_phone_skins_h1 = "Traffic Shaping Statistik auf dem Telefon anzeigen";
 sp_doc_phone_skins_p1 = "Ab Version v9.05 build 2090 hat cFosSpeed einen eingebauten Webserver, so dass Sie das Status Fenster auf Ihrem Telefon oder Tablet anzeigen lassen können, anstatt auf dem Desktop. Dies ist besonders hilfreich für Vollbild-Anwendungen, wie Spiele oder Videos. So konfigurieren Sie es:";
@@ -1968,10 +2120,7 @@ sp_doc_voip_p5 = "VoIP-Verbindungen erleiden normalerweise Aussetzer bei gleichz
 sp_doc_voip_t2 = "Skype:";
 sp_doc_voip_p6 = "Skype nutzt ein proprietäres verschlüsseltes Protokoll, das von einer Layer-7-Analyse nicht ohne großen Aufwand erkannt werden kann. Damit Skype trotzdem priorisiert wird, haben wir es in die Liste der zu priorisierenden Programme eingetragen.";
 sp_doc_voip_t3 = "VoIP Priorisierung am Router:";
-
-/. While translating `Options/Connections` ensure that translation corresponds to relevant labels in menu of cFosSpeed in your language.
-/. `\"variable (cooperative)\"` is untranslatable in our software, so it shouldn't be translated here either
-
+sp_doc_voip_p7 = "Einige Router (wie die Fritz!Box) sind mit Telefonsteckern ausgestattet. Falls ein Telefonstecker benutzt wird, werden alle VoIP Daten direkt im Router ins Internet versendet und gehen nicht durch cFosSpeed. Solche Router könnten die Bandbreite während eines VoIP Telefonats limitieren und damit einen negativen Einfluß auf das Traffic Shaping haben. Falls dies zum Problem führt, raten wir VoIP Telefonate über Ihren Computer zu machen, nicht über den Router, so dass cFosSpeed diese erkennen und priorisieren kann.";
 sp_doc_voip_t4 = "VoIP Software im Einsatz mit cFosSpeed";
 sp_doc_voip_t5 = "Messungen mit IxChariot";
 sp_doc_voip_p8 = "Wir haben cFosSpeed Traffic Shaping mit IxChariot (einer Netzwerk Performance Mess-Software von Ixia) getestet, um zu messen, wie sehr sich cFosSpeed Traffic Shaping lohnt. Dazu haben wir die VoIP-Parameter mittels IxChariot gemessen und währenddessen mehrere Uploads gemacht.";
@@ -2085,11 +2234,20 @@ word_updates = "Updates";
 word_prices = "Preise";
 word_delivery = "Lieferung";
 
-/ PNet additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFos PNet additional pages
+/
+/ ----------------------------------------------------------------------
+
 cfospnet_doc_page_title = "cFos Personal Net Dokumentation";
 
+/ ----------------------------------------------------------------------
+/
+/  cFos IPv6 Link additional pages
+/
+/ ----------------------------------------------------------------------
 
-/ IPv6 Link additional pages
 six_doc_p1 = "Verbindung mit dem neuen IPv6 Netz";
 six_doc_p2 = "cFos IPv6 Link ermöglicht die Einwahl ins IPv6 unter Windows XP und Vista.";
 six_doc_p3 = "cFos IPv6 Link installieren, Wählverbindung zum IPv6 Internet Provider konfigurieren, fertig. cFos IPv6 Link wählt sich nicht nur ins IPv6 ein, sondern sorgt außerdem für die automatische Konfiguration des Routing, sowie der IP- und DNS-Adressen.";
@@ -2176,11 +2334,17 @@ six_doc_138 = "Für eingehende Verbindungen können sie zusätzlich ein port map
 /. That string means that user have to place program's name instead of `some program` like `5000=skype`
 /. `some_program` part may be translated
 /: http://www.cfos.de/en/cfos-ipv6-link/documentation/policy-table-adjustment-nat46.htm
+six_doc_139 = "5000=ein_programm";
 
 six_doc_140 = "Dann wird der eingehende IPv6-traffic auf IPv4 abgebildet wann immer der Zielport einem der abgebildeten Ports entspricht.";
 six_doc_141 = "Darüberhinaus können Sie statische IPv4 &lt;-&gt; IPv6 Mappings für Anwendungen, die fest eingestellte IPv4-Adressen verwenden, nutzen. Diese Mappings können sie festlegen, indem sie die section [nat46_static] mit Werten der Form ipv4_x=ipv6_y, z.B. 192.168.2.1=2001:DB8::1, füllen";
 
-/ cFos BC additional pages
+/ ----------------------------------------------------------------------
+/
+/  cFos Broadband Connect additional pages
+/
+/ ----------------------------------------------------------------------
+
 bc_doc_p1 = "cFos Broadband Connect ist ein High-Performance Einwahl-Treiber für Internet-Anschlüsse mit besonders hohe Geschwindigkeiten. Während der unter Windows mitgelieferte Treiber nur auf ca. 4,5 Mbyte/s (= 36 Mbit/s) Datenübertragung kommt, sendet cFos Broadband Connect mit 50 Mbyte/s (= 400 Mbit/s).<br /><i>Getestet mit Gigabit LAN, Pentium 4 (3GHz).</i>";
 bc_doc_p2 = "cFos Broadband Connect ist auf maximalen Durchsatz unter minimaler Systemlast entwickelt. Dadurch bleibt mehr Rechenleistung für die eigentlichen Internet-Anwendungen, wie Media Player, etc. übrig. cFos Broadband Connect braucht bei vollem Datendurchsatz nur knapp 3% Rechenleistung.";
 bc_doc_p3 = "cFos Broadband Connect unterstützt alle wichtigen PPPoE Parameter. Diese lassen sich in der Rufnummer der Wählverbindung angeben. Mittels Autodetect findet cFos Broadband Connect ohne zusätzliche Konfiguration alle vom System zugänglichen Zugangs-Knoten.";
@@ -2204,7 +2368,12 @@ bc_param_in_service = "   in_service_name (leer)      nur Antworten, wenn der be
 bc_param_padr_timeout = "   padr_timeout 2000           timeout in Millisekunden. Wie lange soll cFos Broadband Connect bei eingehenden\n                               Rufen auf das PADR warten.";
 bc_param_max_frame = "   max_frame_size=x            maximum frame size (MTU), default 1492";
 
-/ oem
+/ ----------------------------------------------------------------------
+/
+/  OEM
+/
+/ ----------------------------------------------------------------------
+
 oem_title = "OEM Versionen für Service-Provider und Gerätehersteller";
 oem_t1 = "Unsere OEM Produkte";
 oem_t2 = "High-speed PPPoE Einwahltreiber für XP, Vista und Windows 7";
@@ -2243,12 +2412,18 @@ oem_t7 = "Hier unsere Standard-Lizenzverträge auf Deutsch und Englisch";
 oem_t8 = "Kontakt:";
 oem_t9 = "OEM-Partner";
 
-/ asus
+/ ----------------------------------------------------------------------
+/
+/  ASUS
+/
+/ ----------------------------------------------------------------------
+
 asus_p1 = "Als Käufer bestimmter ASUS Motherboards haben sie die Möglichkeit ASUS ROG GameFirst I&amp;II / Turbo LAN zu nutzen. Dabei handelt es sich um eine vollständige und uneingeschränkte Traffic-Shaping-Lösung auf der Basis von cFosSpeed. Wir hoffen, sie haben Freude an der Internet-Beschleunigung, die ihnen ASUS ROG GameFirst I&amp;II / Turbo LAN ermöglicht.";
 asus_p2 = "Für weitere Einstellmöglichkeiten ist darüber hinaus die neueste Version von cFosSpeed erhältlich.";
 asus_a1 = "Sie können <a class=\"inline\" href=\"/en/download/download.htm\">cFosSpeed hier herunterladen</a>.";
 asus_a1_v2 = "Um immer auf dem aktuellen Stand bezüglich neuer Features zu sein, können Sie die neueste Version von cFosSpeed auf unserer <a class=\"inline\" href=\"/en/download/download.htm\">cFosSpeed-Downloadseite</a> herunterladen.";
 asus_a2 = "Hier gibt es <a class=\"inline\" href=\"features.htm\">eine Liste der zusätzlichen Features</a>.";
+asus_a3 = "Für ASUS ROG GameFirst I&amp;II / Turbo LAN können Sie die aktuelle Priorisierungs-Liste als <a class=\"inline\" href=\"/files/settings.ini\">settings.ini</a> downloaden und nach <em>c:\\programdata\\cfos\\cfosspeed</em> kopieren.";
 asus_af_title = "Zusätzliche Features von cFosSpeed";
 asus_af_l1 = "<b>Multi-User-Version</b>, unterstützt mehrere PCs an einem Router, um die Internetverbindung gemeinsam optimal zu nutzen.";
 asus_af_l2 = "<b>Verbesserte Erkennung und Klassifizierung</b> mit Layer-7 Protokoll-Priorisierung, HTTP, SSL, SSH bulk detection, RX Priorisierung. Verbesserte Voice-over-IP-Unterstützung (VoIP).";
@@ -2257,23 +2432,44 @@ asus_af_l4 = "<b>Real-Time-Traffic-Analyse</b> im neuen Statusfenster.";
 asus_af_l5 = "<b>Feineinstellungen</b>: Auswahl des Verbindungsmediums, RX- &amp; TX-Geschwindigkeitsbegrenzungen, DSCP / VLAN Tagging / Filterung.";
 asus_af_l6 = "<b>Zusätzliche Funktionalität</b>: Automatisches Minimieren im Fullscreen-Betrieb (Game Mode), Firewall, Zähler für Volumen &amp; Onlinezeit, IP Filter- / Blocklisten.";
 
-/ asrock
+/ ----------------------------------------------------------------------
+/
+/  ASRock
+/
+/ ----------------------------------------------------------------------
+
 asrock_p1 = "Als Käufer eines ASRock Motherboards haben sie die Möglichkeit ASRock XFast LAN zu nutzen. Dabei handelt es sich um eine vollständige und uneingeschränkte Traffic-Shaping-Lösung auf der Basis von cFosSpeed. Wir hoffen, sie haben Freude an der Internet-Beschleunigung, die ihnen ASRock XFast LAN ermöglicht.";
 asrock_p2 = "Für die neuesten Features ist darüber hinaus die aktuelle Version von cFosSpeed erhältlich.";
 asrock_p3 = "Wenn sie diese cFosSpeed-Version installieren, haben sie 30 Tage Zeit um sie auszuprobieren. Danach können sie entweder eine cFosSpeed-Lifetime-Lizenz kaufen oder cFosSpeed deinstallieren und wieder ASRock XFast LAN installieren. Besitzer einer Lifetime-Lizenz haben immer Zugriff auf die neuesten Features von cFosSpeed und auf Beta- und Pre-Release-Versionen.";
 
+/ ----------------------------------------------------------------------
+/
 /  Gigabyte
+/
+/ ----------------------------------------------------------------------
 
 gigabyte_p1 = "Als Käufer eines  GIGABYTE Motherboards mit Intel® GbE LAN haben sie die Möglichkeit Gigabyte cFos SPEED zu nutzen. Dabei handelt es sich um eine vollständige und uneingeschränkte Traffic-Shaping-Lösung auf der Basis von cFosSpeed. Wir hoffen, sie haben Freude an der Internet-Beschleunigung, die ihnen Gigabyte cFos SPEED ermöglicht.";
 gigabyte_p3 = "Wenn sie diese cFosSpeed-Version installieren, haben sie 30 Tage Zeit um sie auszuprobieren. Danach können sie entweder eine cFosSpeed-Lifetime-Lizenz kaufen oder cFosSpeed deinstallieren und wieder Gigabyte cFos SPEED installieren. Besitzer einer Lifetime-Lizenz haben immer Zugriff auf die neuesten Features von cFosSpeed und auf Beta- und Pre-Release-Versionen.";
 
+/ ----------------------------------------------------------------------
+/
 /  MSI
+/
+/ ----------------------------------------------------------------------
 
 msi_p1 = "Als Käufer eines MSI Gaming Series Motherboards haben sie die Möglichkeit den MSI Gaming LAN Manager zu nutzen. Dabei handelt es sich um eine vollständige und uneingeschränkte Traffic-Shaping-Lösung auf der Basis von cFosSpeed. Wir hoffen, sie haben Freude an der Internet-Beschleunigung, die ihnen der MSI Gaming LAN Manager ermöglicht.";
 msi_p3 = "Wenn sie diese cFosSpeed-Version installieren, haben sie 30 Tage Zeit um sie auszuprobieren. Danach können sie entweder eine cFosSpeed-Lifetime-Lizenz kaufen oder cFosSpeed deinstallieren und wieder den MSI Gaming LAN Manager installieren. Besitzer einer Lifetime-Lizenz haben immer Zugriff auf die neuesten Features von cFosSpeed und auf Beta- und Pre-Release-Versionen.";
 
-/ special price
+/ ----------------------------------------------------------------------
+/
+/  Special price
+/
+/ ----------------------------------------------------------------------
+
+/. Means "Go back" or "Return"
+/. Used as text of link, which takes user back to previous page
 back = "Zurück";
+
 explain1 = "Wir bieten cFos und cFosSpeed derzeit zu einem extrem niedrigen Preis an, weil wir die Verbreitung und Bekanntheit unseres Traffic Shapings erhöhen möchten.";
 explain2 = "Sie erhalten eine Lizenz sowohl für die 32-Bit, als auch die 64-Bit Version.";
 explain4 = "Für cFosSpeed sind auch die zukünftigen Versionen für Vista/7 schon enthalten.";
@@ -2287,7 +2483,12 @@ special_price_h2 = "Bis zum 31. Januar 2007:";
 special_price_h3 = "Ab dem 1. Februar 2007:";
 special_price_h4 = "Für alle Lizenzen gilt:";
 
-/ contact
+/ ----------------------------------------------------------------------
+/
+/  Contact
+/
+/ ----------------------------------------------------------------------
+
 affiliate_program = "Affiliate-Programm";
 affiliate_earnmoney = "Geld verdienen mit cFosSpeed?";
 affiliate_placelink = "Platzieren Sie einen speziellen Bestell-Link auf Ihrer Website und erhalten Sie einen Teil der Verkaufserlöse";
@@ -2449,7 +2650,12 @@ cont_select_h4 = "Sie haben eine andere Frage";
 cont_trademark = "cFos® ist ein eingetragenes Warenzeichen.";
 word_mandatory = "Pflichtfeld";
 
-/ link_programm
+/ ----------------------------------------------------------------------
+/
+/  link_programm
+/
+/ ----------------------------------------------------------------------
+
 banner_alt = "cFos / cFosSpeed DSL und Kabel Breitband-Beschleunigung mit Traffic Shaping, Tuning, optimaler Ping";
 internet_tuning = "Internet Tuning";
 for_techniques = "für DSL, Router &#38; Kabel Modems";
@@ -2459,10 +2665,16 @@ word_black = "Schwarz";
 word_white = "Weiß";
 word_transparent = "transparent";
 word_dark = "dunkel";
+word_logo = "Logo";
 word_background = "Hintergrund";
 text_it_works = "Es wirkt!";
 
-/ press
+/ ----------------------------------------------------------------------
+/
+/  Press
+/
+/ ----------------------------------------------------------------------
+
 press = "Pressemitteilungen";
 release = "Pressemeldung";
 supported_operating_systems = "Unterstützte Betriebssysteme";
@@ -2476,7 +2688,12 @@ press_boilerplate_text = "cFos Software GmbH, Bonn (Deutschland) entwickelt und 
 legal_note = "Rechtsbelehrung";
 legal_note_text = "Unserer Lizenzbedingungen erlauben explizit die aktuellsten Shareware-Versionen von cFos, cFos Broadband Connect, cFos IPv6 Link und cFosSpeed auf kostenlose CDs zu packen, um sie Magazinen beizulegen. Für weitere Lizenzfragen beachten Sie bitte unsere <a href=\"/en/cfosspeed/license.htm\">LICENSE.TXT-Datei</a>. Artwork und Text unserer Webseite dürfen zu Presse- und Rezensions-Zwecken verwendet werden.";
 
-/ speed guide
+/ ----------------------------------------------------------------------
+/
+/  cFos Speed Guide
+/
+/ ----------------------------------------------------------------------
+
 speed_guide = "cFos Speed-Guide";
 speed_guide_const = "Der Speed-Guide ist im Aufbau und wird bald verfügbar sein.";
 speed_guide_continue = "Fortfahren";
@@ -2616,7 +2833,12 @@ speed_guide_l26e = "Empfehlungen für Spieler";
 speed_guide_l26f = "Priorisierung von Programmen";
 speed_guide_l26g = "Priorisierung von Ports";
 
-/ speed test
+/ ----------------------------------------------------------------------
+/
+/  cFos Speed Test
+/
+/ ----------------------------------------------------------------------
+
 speed_test = "cFos Speed-Test";
 sptest_info_p1 = "Mit unserem neuen Speed Checker können Sie leicht die Geschwindigkeit Ihrer Internet Verbindung testen. Sie können Upload und Download Speed Tests durchführen, um z.B. zu prüfen, ob Ihre Internet Speed den versprochenen Werten entspricht. Der Speed Test ist so designed, dass er Ihre Internet Geschwindigkeit möglichst schnell misst. Bitte seien Sie nicht beunruhigt, wenn der speed check nicht exakt den Werten enspricht, die Ihr Provider Ihnen genannt hat. Zum Beispiel ist 1% Toleranz an einem 16Mbit/s Anschluss schon 160.000bit/s. Diese Zahl sieht beeindruckend aus, macht aber nur einen kleinen Unterschied.";
 sptest_info_p1_sm = "Mit unserem neuen Speed Checker können Sie leicht die Geschwindigkeit Ihrer Internet Verbindung testen. Sie können Upload und Download Speed Tests durchführen, um z.B. zu prüfen, ob Ihre Internet Speed den versprochenen Werten entspricht.";
@@ -2638,7 +2860,12 @@ sptest_send = "Bericht senden";
 sptest_cancel = "Abbrechen";
 sptest_bot_p1 = "Die cFosSpeed MSS (MTU) Optimierung kann die MSS/MTU von 1492 auf einen etwas geringeren Wert reduzieren. Bei ATM basierten DSL Netzwerken kann dies zu einer tatsächlichen Erhöhung der Transferrate führen auch wenn gewisse \"Internet Speed Check\" Seiten etwas anderes behaupten. MSS (MTU) Optimierung kann aber leider auch zu Problemen mit bestimmten Spielen führen. Daher experimentieren sie am besten selbst mit und ohne MSS/MTU Optimierung.";
 
-/upload
+/ ----------------------------------------------------------------------
+/
+/  Upload
+/
+/ ----------------------------------------------------------------------
+
 upload_title = "cFos Upload Seite";
 upload_h1 = "Datei hochladen";
 upload_thanks = "Vielen Dank, dass Sie uns helfen Fehler in unseren Produkten zu beseitigen!";
@@ -2646,7 +2873,12 @@ upload_p1 = "Bitte benutzen Sie die aktuelle <a class=\"inline\" href=\"/en/down
 upload_p2 = "Bitte beachten Sie, dass wir nicht auf jeden Upload einzeln anworten können, aber jeder Upload wird von uns geprüft und wir kontaktieren Sie, falls wir mehr Infos brauchen.";
 description = "Beschreibung";
 
-/videos
+/ ----------------------------------------------------------------------
+/
+/  Videos
+/
+/ ----------------------------------------------------------------------
+
 videos_h1 = "YouTube-Videos";
 videos_text1 = "So stellen Sie das Medium/Protokoll für Ihre Internet-Verbindung ein";
 videos_text2 = "cFos WMI Monitor, ein cFos PNet Add-on";
@@ -2666,7 +2898,12 @@ videos_text15 = "cFosSpeed mit Logitech gaming keyboard G19";
 videos_text16 = "cFosSpeed 6.50 Installation unter Windows7 32bit";
 videos_text17 = "cFosSpeed Version 5.00 - Installation unter Windows 7";
 
-/port forwarding
+/ ----------------------------------------------------------------------
+/
+/  Port forwarding
+/
+/ ----------------------------------------------------------------------
+
 port_forwarding_title = "NAT Port-Forwarding bei Ihrem Router einrichten";
 port_forwarding_brand = "Wählen Sie die Marke Ihres Routers";
 port_forwarding_router = "Wählen Sie Ihr Router-Modell";
@@ -2793,7 +3030,6 @@ tp_link_td_w8970_p3 = "Klicken Sie auf den \"Add New\" Button";
 tp_link_td_w8970_p4 = "Wählen Sie \"HTTP\" als \"Common Service port\" und geben sie die (vorzugsweise statische) IP-Adresse des Computers ein, auf dem cFos Personal Net läuft, in das Feld \"IP Address\" ein";
 tp_link_td_w8970_p5 = "Klicken Sie auf den \"Save\" Button";
 tp_link_td_w8970_p6 = "Melden Sie Sich von Ihrem Router ab, indem Sie im linken Hauptmenü auf \"Logout\" klicken";
-
 tp_link_tl_wr1043nd_title = "Port-Forwarding für den TP-LINK TL-WR1043ND einrichten";
 tp_link_tl_wr1043nd_p0 = "Die folgende Anleitung ist für die letzte offizielle Firmware des TL-WR1043NDv1 gedacht, sollte aber auf den neueren Versionen des Routers annähernd identisch nachzuvollziehen sein. Die Version TL-WR1043ND_V1_140319 der Firmware können Sie <a class=\"inline\" href=\"http://www.tp-link.de/resources/software/TL-WR1043ND_v1_130428.zip\">hier</a> herunterladen.";
 tp_link_tl_wr1043nd_p6 = "Melden Sie sich von Ihrem Router ab, indem Sie links unten im Hauptmenü auf \"Logout\" klicken";
@@ -2824,7 +3060,12 @@ xiaomi_miwifi_mini_p8 = "Klicken Sie auf \"Reboot\"";
 xiaomi_miwifi_mini_p9 = "Klicken Sie auf den \"OK\" Button";
 xiaomi_miwifi_mini_p10 = "Klicken Sie auf den \"Reboot router\" Button";
 
-/meta descriptions
+/ ----------------------------------------------------------------------
+/
+/  Meta descriptions
+/
+/ ----------------------------------------------------------------------
+
 missing_meta_desc = "missing meta description";
 asrock_index_desc = "Zusatzinfo für ASRock XFast LAN-Benutzer.";
 asus_asus_desc = "Zusatzinfo für ASUS Game!First Nutzer.";
@@ -2978,13 +3219,13 @@ pf_bt_home_hub_5_type_a_desc = "Anleitungen zum Einrichten des Port-Forwarding f
 pf_dasan_h640w_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Dasan H640W";
 pf_dd_wrt_dd_wrt_desc = "Anleitungen zum Einrichten des Port-Forwarding für Router, auf denen DD-WRT läuft";
 pf_draytek_vigor_2830n_desc = "Anleitungen zum Einrichten des Port-Forwarding für den DRAYTEK VIGOR 2830n";
-pf_d_link_dsl_520b_se_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DSL-520B-SE";
 pf_d_link_dir_605lw_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-605LW";
 pf_d_link_dir_615_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-615";
 pf_d_link_dir_655_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-655";
 pf_d_link_dir_825_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-825";
 pf_d_link_dsl_2730u_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DSL-2730U";
 pf_d_link_dsl_2640t_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DSL-2640T";
+pf_d_link_dsl_520b_se_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DSL-520B-SE";
 pf_d_link_dwr_116_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DWR-116";
 pf_edimax_br6228n_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Edimax BR6228N";
 pf_hitron_cgnf_twn_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Hitron CGNF-TWN";
@@ -2996,11 +3237,11 @@ pf_linksys_e2500_desc = "Anleitungen zum Einrichten des Port-Forwarding für den
 pf_linksys_ea6900_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Linksys EA6900";
 pf_linksys_wrt1900acs_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Linksys WRT1900ACS";
 pf_mitrastar_hgw_2501gn_r2_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Mitrastar HGW-2501GN-R2";
-pf_multilaser_n_150mbps__desc = "Anleitungen zum Einrichten des Port-Forwarding für den Multilaser N 150mbps";
+pf_multilaser_n_150mbps_desc = "Anleitung zum Aktivieren von NAT Port-Freigabe für den Multilaser N 150mbps";
 pf_netgear_r6300v2_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Netgear R6300v2";
 pf_netgear_centria_wndr4700_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Netgear CENTRIA WNDR4700";
-pf_netgear_wndr3800_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Netgear WNDR3800";
 pf_netgear_wnr2000v2_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Netgear WNR2000V2";
+pf_netgear_wndr3800_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Netgear WNDR3800";
 pf_tp_link_td_8840tv4_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TD-8840Tv4";
 pf_tp_link_td_w8951nd_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TD-W8951ND";
 pf_tp_link_td_w8970_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TD-W8970";
@@ -3015,10 +3256,20 @@ pf_coming_soon_desc = "Vorläufige Seite für Router-Anleitungen in Bearbeitung"
 video_page_desc = "Liste alle YouTube-Videos von cFos Software";
 cfosspeed_features_title = "Liste der wichtigsten cFosSpeed-Features.";
 
-/mailing lists
+/ ----------------------------------------------------------------------
+/
+/  Mailing lists
+/
+/ ----------------------------------------------------------------------
+
 announce_list = "cFos Announce List";
 
-/ countrynames
+/ ----------------------------------------------------------------------
+/
+/  Countrynames
+/
+/ ----------------------------------------------------------------------
+
 countryname_bg = "Bulgarien";
 countryname_br = "Brasilien";
 countryname_by = "Weißrussland";
@@ -3055,10 +3306,16 @@ countryname_vn = "Vietnam";
 countryname_zh_hk = "Hongkong";
 languagename_per = "Farsi";
 
+/ ----------------------------------------------------------------------
+/
+/  Currency
+/
+/ ----------------------------------------------------------------------
+
 / !!! DO NOT TRANSLATE !!!
 /
 / Anything below that line shouldn't be translated.
-/ Those strings used in order form exchange rates and shouldn't be modified
+/ Those strings used in Order Form exchange rates and shouldn't be modified
 /
 / !!! DO NOT TRANSLATE !!!
 
@@ -3080,5 +3337,15 @@ currency_suffix = " &#8364;";
 /. In other languages should contain name of the country _in English_, for which specified currency in `currency_4217`
 selected_value = "Deutschland";
 
-/ END SECTION: don't translate
+/ END SECTION: do not translate
+
+/ ----------------------------------------------------------------------
+/
+/  Testing language keys
+/  Test purposes, !!! DO NOT TRANSLATE !!!
+/
+/ ----------------------------------------------------------------------
+
+
+/ END SECTION: do not translate
 
