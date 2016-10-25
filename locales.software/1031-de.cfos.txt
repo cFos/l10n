@@ -12,6 +12,21 @@ language = "Deutsch";
 language_local = "Deutsch";
 htm_lang_prefix = "de";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
@@ -137,9 +152,16 @@ logon_start_desc = "Diese Task startet %p, wenn sich der unten angezeigte Benutz
 show_home_dir = "Start-Verzeichnis anzeigen";
 publish_file = "Datei veröffentlichen";
 user_administration = "Benutzerverwaltung";
+
+/. Label of menu entry, which enables and disables any uploads to PNET.
+/. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
+/. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
 disable_uploads = "Uploads deaktivieren";
 enable_uploads = "Uploads aktivieren";
+
 publish_file_for_download = "Datei zum Download veröffentlichen";
+
+/. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
 upload_url_to_clipboard = "Upload URL in die Zwischenablage";
 
 / pnet connectivity test
@@ -207,8 +229,10 @@ select_language = "Sprache auswählen";
 translator = "Übersetzer";
 translator_name = "";
 translator_msg = "";
-/ %3=product name, %1=number, %2="day"/"days"
+
+/. %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Ihre %3 Lizenz ist noch %1 %2 gültig.";
+
 version_mismatch = "Verschiedene Versionen von Treiber und Status Fenster gefunden!\n"
    "\n"
    "Status Fenster=%1\n"
@@ -249,12 +273,14 @@ dayl_singular = "Tag";
 dayl_plural = "Tage";
 days_singular = "Testtag";
 days_plural = "Testtage";
-/ %1=number, %2="day/days"
+
+/. %1=number, %2="day/days"
 short_try = "Noch %1 %2";
 short_dexpire = "%1 %2 Verzug!";
 
 short_exp = "Abgelaufen!";
-/ %1=number, %2="day/days", %3=product name
+
+/. %1=number, %2="day/days", %3=product name
 lic_dexpire = "Ihre Testzeit ist schon %1 %2 abgelaufen. Kaufen Sie %3 jetzt!";
 lic_try = "Sie können %3 noch %1 %2 testen, bevor Sie kaufen.";
 
@@ -267,8 +293,12 @@ connect_to = "Verbinden mit";
 make_own_skin = "Eigenes Skin designen";
 click_through = "Klick-transparent";
 ask = "Fragen";
+
+/. Indicates states, like `Switch On` or `Switch Off`
+/. Used in various sections of program as menu entries or buttons labels
 off = "Aus";
 on = "An";
+
 note = "Hinweis";
 deactivated = "deaktiviert";
 browser_warning = "Internet Explorer Version 8 oder höher wird für diesen Dialog empfohlen.";
@@ -300,10 +330,17 @@ prio_doc_link = "Funktionsweise des Priorisierungsschemas";
 save_protocols = "Protokolle speichern";
 undo = "Rückgängig";
 filter_selection = "Filter Auswahl";
+
+/: Settings -> Protocols/Programs
+/. Used as indicator of selected by user level of priority (for Traffic Shaping)
+/. Displayed next to protocol or program name, near slider with levels
 higher = "Höher";
 high = "Hoch";
+normal = "Normal";
+default = "Standard";
 low = "Niedrig";
 lower = "Sehr Niedrig";
+
 entries = "Einträge";
 prog_overwrite = "Das Programm #p ist schon in der Liste.\\nÜberschreiben mit neuen Werten?";
 games = "Spiele";
@@ -331,9 +368,9 @@ l7_prot_detection = "Layer-7 Protokoll Erkennung";
 l7_prot_detection_help = "Protokolle anhand der Nutzdaten erkennen lassen. Sie können im Dialog 'Protokolle priorisieren' die Priorität der verschiedenen Protokolle einstellen. Wenn Sie diese Option deaktivieren, werden die Protokolle anhand der Portnummer erkannt.";
 favor_ping = "Ping-Zeit bevorzugen";
 favor_ping_help = "<b>An</b>: %p minimiert die Ping-Zeit auch wenn dies zu leicht reduzierten Transferraten führt (falls nötig).<br /><b>Aus</b>: %p maximiert den Datendurchsatz auch wenn dies zu leicht höheren Ping-Zeiten führt (falls nötig).";
+favor_bandwidth = "Bandbreite bevorzugen";
 store_dns_names = "DNS Namen aktuell halten";
 store_dns_names_help = "DNS Namen 2 Tage lang aktuell halten um DNS Anfragen zu beschleunigen";
-favor_bandwidth = "Bandbreite bevorzugen";
 avoid_loss = "Paketverlust vermeiden";
 avoid_loss_help = "%p verkleinert das TCP Empfangsfenster, wenn es bei empfangenden TCP Verbindungen zu großen Paketverlust feststellt. Das passiert nur, wenn Ihre Verbindung mit voller Geschwindigkeit Daten empfängt. (Empfohlen für verbessertes Traffic Shaping beim Download)";
 activate_firewall = "Firewall aktivieren";
@@ -349,6 +386,7 @@ traffic_shaping = "Traffic Shaping";
 ras_con_help = "<b>Ja</b>: aktivieren, <b>Nein</b>: Deaktivieren, <b>Fragen</b>: Fragen und Einstellung dann speichern";
 router_connections = "Router Verbindungen";
 net_components = "Netzwerk Komponenten";
+auto = "Auto";
 router_help = "<b>Ja</b>: aktivieren, <b>Nein</b>: deaktivieren, <b>Auto</b>: Traffic Shaping aktivieren, falls Router an Netzwerk Komponente erkannt wurde";
 network_adapter = "Netzwerk-Karte";
 router = "Router";
@@ -374,7 +412,15 @@ show_for = "Anzeigen für";
 this_month = "diesen Monat";
 time = "Zeit";
 time_limit = "Zeit-Limit";
+
+/. Used as table header
+/. Short version of "minutes"
+time_min = "Min";
+
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "Std:Min";
+
 volume = "Volumen";
 volume_limit = "Volumen-Limit";
 spdbudget_help = "Um ein Budget zu nutzen müssen Sie dieses im Einstellungs-Dialog noch einer Verbindung zuordnen";
@@ -401,6 +447,9 @@ demon_driver_not_loaded = "Treiber nicht geladen!\n"
 asus_demon_driver_not_loaded = "Installieren Sie %p nach der Installation eines neuen Betriebssytems ebenfalls neu.\nBesuchen Sie die ASUS-Webseite %w für die neuste %p-Version.";
 many_cons_error = "%p rx-Traffic Shaping arbeitet an der Grenze der Leistungsfähigkeit, weil zu viele Verbindungen gleichzeitig übertragen. Mit weniger Verbindungen wird es wahrscheinlich besser funktionieren. Klicken Sie hier für Hilfe.";
 limit_bandwidth = "Bandbreite der aktuellen Verbindung limitieren";
+rx_limit = "RX Limit";
+tx_limit = "TX Limit";
+max = "Max";
 apply_limits = "Limits übernehmen";
 limit_help = "Werte in kbyte/s, inklusive Protokol-Overhead, 0 = kein Limit";
 enable_speed_shaping = "Traffic Shaping aktivieren";
@@ -408,7 +457,12 @@ disable_speed_shaping = "Traffic Shaping deaktivieren";
 yes = "Ja";
 no = "Nein";
 help = "Hilfe";
+
+/: cFosSpeed context menu -> Usage Graph
+/. Used as one of dropdown menu entries
+/. Means `To show all programs and protocols traffic`
 bgraph_totals = "Gesamt";
+
 blocklist = "IP-Blocker";
 blocklist_help = "c:\\programdata\\cfos\\cfosspeed\\blocklist.txt als Liste von IP Adressen nutzen, für die sämtlicher traffic geblockt wird";
 apply_blocklist = "Filterliste benutzen";
@@ -435,8 +489,13 @@ slots_title = "Slot Einstellungen";
 can_select_multiple = "Hinweis: Sie können mehrere Optionen selektieren, indem Sie die Shift- or Strg-Taste gedrückt halten, während Sie eine Option auswählen.";
 name_for = "Name für ";
 set_name = "Name setzen";
+
+/. RX stands for `receive` (incoming/download)
 rx_only = "Nur RX";
+
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "Nur TX";
+
 max_of_rx_tx = "Maximum von RX & TX";
 total_rx_only = "Gesamte RX Speed";
 total_tx_only = "Gesamte TX Speed";
@@ -468,7 +527,11 @@ set = "Setzen";
 tx_limit_help = "Geben Sie die Geschwindigkeit in Bytes/Sek oder Prozent an, mit der dieses Programm oder Protokoll senden darf.";
 download_more_skins = "Mehr Skins downloaden";
 documentation = "Dokumentation";
+
+/: cFosSpeed context menu
+/. means `Close cFosSpeed`
 exit_demon = "Beenden";
+
 speed_test = "cFos Speed Test";
 ask_key_banned_info = "Es ist ein Problem mit Ihrem Lizenzschlüssel aufgetreten.\nMöchten Sie weitere Informationen?";
 
@@ -522,9 +585,17 @@ enable_smartphone_skins = "Phone Skins";
 http_access_enabled = "Passwort eingetragen, HTTP Zugriff aus der Ferne erlaubt.";
 http_access_disabled = "Kein Passwort eingetragen, HTTP Zugriff aus der Ferne verboten.";
 set_server_pwd = "Server Passwort setzen";
+
+/: Right click on cFosSpeed -> Windows Settings -> Auto-arrange windows
+/. Possible position of status window
 auto_arrange_top = "Oben";
 auto_arrange_bottom = "Unten";
+
+/: cFosSpeed context menu
+/. Menu entry which enables display of cFosSpeed's tile in Windows 8 Start Menu
+/. @note Currently disabled
 show_on_metro_apps = "In Metro Apps anzeigen";
+
 traffic_shaping_info = "Traffic Shaping Info";
 wlan_access_point = "WLAN access point";
 prioritize_foreground_process = "Prozess im Vordergrund-Fenster priorisieren";
@@ -592,7 +663,8 @@ rp_info = "Mit einem Wiederherstellungspunkt können Sie Ihr Windows System auf 
           "den es zu der Zeit hatte, als der Wiederherstellungspunkt gesetzt wurde. Vor der Installation "
           "eines neuen Treibers wird das Setzen eines Wiederherstellungspunktes empfohlen.";
 rp_check = "Wiederherstellungspunkt setzen.";
-/ %1 = product name
+
+/. %1 = product name
 rp_uninst_info = "Der Wiederherstellungspunkt wird nicht zum Zweck einer späteren, normalen Deinstallation gesetzt. "
                  "Vielmehr dient er als zusätzliche Sicherheit, dass Sie Ihr System im Falle eines Treiberkonflikts "
                  "in den ursprünglichen Zustand zurücksetzen können. Zur normalen Deinstallation von %1 finden Sie "
@@ -626,7 +698,10 @@ sn_save_err = "Die Schlüsseldatei kann nicht unter %? gespeichert werden.";
 sn_keyfile_err = "Die Schlüsseldatei ist fehlerhaft.";
 
 / new 16 digit serial number dialog
+
+/. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
 sn16_info = "Bitte geben Sie Ihre 16-stellige Seriennummer ein, um Ihren Lizenzschlüssel herunterzuladen. Dazu muss eine Verbindung mit dem Internet bestehen.";
+
 sn16_failed = "Der Lizenzschlüssel konnte nicht heruntergeladen werden!";
 
 / re-enter password dialog
@@ -677,6 +752,8 @@ port_forwarding_chk = "Automatische Portweiterleitung verwenden, falls verfügba
 port_forwarding_failed = "Ihr Router%? scheint zur Zeit keine automatische Portweiterleitung zu unterstützen. "
                          "Diese können Sie ggf. in der Konfiguration des Routers aktivieren.";
 port_forwarding_config = "Sie können Ihren Router konfigurieren unter %?.";
+
+/. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
 port_forwarding_fritz = "In der FRITZ!Box aktivieren Sie die Portweiterleitung, indem Sie unter Heimnetz / Netzwerk / Programme "
                         "die Änderungen der Sicherheitseinstellungen über UPnP gestatten.";
 
@@ -879,8 +956,10 @@ err_activate_12002 =
    "Sollten Sie derartige Programme installiert haben,\n"
    "deaktivieren Sie diese bitte vorübergehend und\n"
    "führen Sie dann die Registrierung erneut durch.";
-/ %1 = source, %2 = destination, %3 = explanation
+
+/. %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "Die Datei %1 konnte nicht nach %2 kopiert werden (%3).";
+
 err_port_in_use = "Der Server-Port %? wird bereits von einem anderen Programm verwendet.\n\nProgramm: %?\nPfad: %?";
 
 / warning messages
@@ -953,7 +1032,16 @@ virtual_wifi_stopped = "Das virtuelle WLAN wurde erfolgreich angehalten.";
 virtual_wifi_dialup_ics = "Für eine DFÜ-Netz- bzw. Wählverbindung müssen Sie die Internet-Verbindungsfreigabe manuell über die Eigenschaften dieser Verbindung aktivieren.";
 virtual_wifi_error_not_present = "Kein (einsatzbereites) WLAN-Interface gefunden.\n\nZur Einrichtung eines virtuellen WLANs muss ein WLAN-Interface vorhanden und einsatzbereit sein.";
 virtual_wifi_autostart = "Automatisch bei jedem Systemstart starten.";
+/. Label next to a checkbox in deactivation of virtual Wi-Fi dialog
 virtual_wifi_deactivate_autostart = "Automatischen Start bei jedem Systemstart ebenfalls deaktivieren.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
