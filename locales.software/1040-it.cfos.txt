@@ -402,6 +402,7 @@ no = "No";
 help = "Aiuto";
 bgraph_totals = "Totale";
 blocklist = "Blocco IP";
+blocklist_help = "Usa c:\\programdata\\cfos\\cfosspeed\\blocklist.txt come lista degli indirizzi IP per i quali tutto il traffico è bloccato";
 apply_blocklist = "Usa Elenco Filtri";
 search = "Cerca";
 budget_connection = "Configura quale budget usare per le connessioni";
