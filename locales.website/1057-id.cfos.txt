@@ -621,10 +621,6 @@ pnet_release = "Peluncuran versi 1.0";
 pnet_until = "Sampai waktu tersebut beli lisensi seumur hidup untuk";
 pnet_after = "Setelah tanggal 7 Agustus akan";
 pnet_nat_p1 = "Disini adalah<a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>panduan kami untuk router populer</b></a>.";
-
-/. pnet_nat_p2 is outdated and split into three parts now - no need to translate it any longer
-pnet_nat_p2 = "<b class=\"green\">Dapatkan gratis lisensi cFosSpeed dan lisensi cFos Personal Net!</b><br/>Bantu kami untuk menyelesaikan <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>panduan router kami</b></a>. Tuliskan instruksi lengkap tentang bagaimana untuk set up NAT port forwarding dengan router anda.";
-
 pnet_nat_p3 = "Apakah router anda telah terdaftar?";
 pnet_wmi_add_p1 = "<a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI Monitor</b></a> adalah add-on gratis untuk cFos Personal Net untuk menampilkan hampir semua nilai WMI tentang sistem anda, seperti CPU load, GPU load, network usage, ping time, dan lain lain. Akses nilai WMI di mana saja.";
 pnet_wmi_add_p2 = "<b>cFos WMI Monitor</b> membantu gamers, pengguna aktif, musisi, dan lain lain. Untuk memonitor performa dari masing masing komponen dalam sistem jalankan add-on ini ketika menjalankan aplikasi (full-screen). <b>cFos WMI Monitor</b> membuat informasi tersebut tersedia di dalam jendela browser di PC atau smartphone anda.";

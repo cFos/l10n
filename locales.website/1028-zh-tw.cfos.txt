@@ -228,7 +228,7 @@ start_download_h1 = "開始下載";
 
 /. Do not translate or change `<span id=\"countdown\">00:00</span>` part.
 /. But you can move it around as whole freely
-start_download_p1 = "將於 <span id=\"countdown\">00</span> 秒後開始下載。"; 
+start_download_p1 = "將於 <span id=\"countdown\">00</span> 秒後開始下載。";
 
 /. Do not translate or change anything except `direct link` in <a class=\"inline\" id=\"download_link\" href=\"/en/download/download.htm\"><b>direct link</b></a>` part.
 /. You can move it around as whole freely, though
@@ -666,10 +666,6 @@ pnet_until = "在那之前購買終身授權，只需 ";
 pnet_after = "8 月 7 日後將調整為 ";
 pnet_nat_h1 = "設定 NAT 通訊埠轉遞";
 pnet_nat_p1 = "這裡有我們 <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>針對知名品牌路由器所撰寫的設定教學</b></a>。";
-
-/. pnet_nat_p2 is outdated and split into three parts now - no need to translate it any longer
-pnet_nat_p2 = "<b class=\"green\">免費獲得 cFosSpeed 及 cFos Personal Net 授權！</b><br/>請幫助我們補完 <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>路由器設定指南</b></a>。撰寫如何在您的路由器設定 NAT 通訊埠轉遞功能的教學，即可獲得免費授權。";
-
 pnet_nat_p3 = "您的路由器已在清單中嗎？";
 pnet_wmi_add_p1 = "<a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI 監控程式</b></a> 是 cFos Personal Net 的免費附加元件，可以顯示您系統幾乎所有的 WMI 資料，例如：CPU 使用率、GPU 使用率、網路使用率、ping 時間…等等，可以在任何地方存取這些 WMI 資料。";
 pnet_wmi_add_p2 = "<b>cFos WMI 監控程式</b>可幫助遊戲玩家、重度使用者、音樂玩家…等等，在執行程式時監控系統裡不同元件的效能，<b>cFos WMI 監控程式</b>可在你的個人電腦或智慧型手機上的瀏覽器顯示這些資訊。";
@@ -2916,7 +2912,7 @@ port_forwarding_got_instructions = "有此路由器型號的教學。";
 port_forwarding_goto_instructions = "前往教學";
 port_forwarding_no_instruction_h1 = "無此路由器的設定教學。";
 port_forwarding_no_instruction_p1 = "若您知道如何設定此路由器，並想告訴我們以獲得 cFosSpeed 及 cFos Personal Net 授權金鑰的話，請點擊下方按紐。";
-port_forwarding_no_instruction_p2 = "教學內容應包含畫面擷圖以及明確而清楚的步驟教學，您可參考<a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding/avm-7490.htm\"><b>此範例</b></a>。";
+port_forwarding_no_instruction_p2 = "教學內容應包含畫面擷圖以及明確而清楚的步驟教學，您可參考<a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding/avm-fritzbox-7490.htm\"><b>此範例</b></a>。";
 port_forwarding_no_instruction_p3 = "可在 <a class=\"inline\" href=\"/files/port-forwarding-step-numbers.zip\"><b>此處</b></a> 下載用於畫面擷取圖中標示各步驟數字的圖片。";
 port_forwarding_contact_us = "連絡我們";
 coming_soon_title = "即將推出！";

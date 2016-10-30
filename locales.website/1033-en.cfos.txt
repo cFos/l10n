@@ -670,10 +670,6 @@ pnet_until = "Until then buy a lifetime license for";
 pnet_after = "After August 7th it will be";
 pnet_nat_h1 = "Setup NAT port forwarding";
 pnet_nat_p1 = "Here our <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>guide for popular routers</b></a>.";
-
-/. pnet_nat_p2 is outdated and split into three parts now - no need to translate it any longer
-pnet_nat_p2 = "<b class=\"green\">Get a free cFosSpeed and cFos Personal Net license!</b><br/>Help us to complete our <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>router guide</b></a>. Write instructions of how to set up NAT port forwarding with your router.";
-
 pnet_nat_p2a = "Get a free cFosSpeed and cFos Personal Net license!";
 pnet_nat_p2b = "Help us to complete our <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>router guide</b></a>.";
 pnet_nat_p2c = "Write instructions of how to set up NAT port forwarding with your router.";
