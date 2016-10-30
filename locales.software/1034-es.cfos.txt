@@ -12,12 +12,30 @@ language = "Spanish";
 language_local = "Castellano";
 htm_lang_prefix = "es";
 
+
+/ ----------------------------------------------------------------------
+/
+/  URLs for *ALL* languages.  Since all languages fall back to English,
+/  we don't need to translate the following section of strings.
+/
+/  "%url" contains htm_prefix + htm_lang_prefix, thus in english
+/  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
+/  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
+/
+/ ----------------------------------------------------------------------
+
+/ must end with a slash ('/') and is used to set value of "%url"
+
+
 / ----------------------------------------------------------------------
 /
 /  outlook caldav
 /
 / ----------------------------------------------------------------------
 
+ignore_ssl_cert_chk = "Ignore errores en certificados SSL (no seguro)";
+ignore_ssl_cert_desc = "Si se permite que cFos Outlook DAV ignore los errores de los certificados SSL, se podra conectar con servidores con certificados SSl no seguros, por ejemplo certificados auto firmados. Activar esta opción no es recomendado por lo general, porque esto hace la conexión SSl vulnerable en la modalidad de ataques de hombre en el medio.";
+od_key_registered = "La clave ha sido registrada. Por favor reinicie Outlook para que el registro surta efecto.";
 
 / ----------------------------------------------------------------------
 /
@@ -50,6 +68,9 @@ setup_connections = "Configurar las conexiones";
 ask_inst_ipv6 = "El protocolo IPv6 no ha sido instalado en este sistema.\n\n"
                 "Desea instalar ahora el protocolo IPv6?";
 err_inst_ipv6 = "Error %? cuando se instalaba el protocolo IPv6.";
+pause_server = "Servidor en pausa";
+resume_server = "Servidor reconectado";
+file_link_failed = "La creación del archivo de vínculos ha fallado.";
 
 / connection entry dialog
 con_err_save = "¡No se pueden guardar los datos de conexión!";
@@ -127,6 +148,17 @@ show_home_dir = "Muestra el directorio principal";
 publish_file = "Publicar archivo";
 user_administration = "Administración de usuarios";
 
+/. Label of menu entry, which enables and disables any uploads to PNET.
+/. cFos PNET is kind of "personal dropbox", it has ability to accept uploaded files.
+/. A bit more information: http://www.cfos.de/en/cfos-personal-net/documentation/overview.htm
+disable_uploads = "Desactive subidas";
+enable_uploads = "Subidas activadas";
+
+publish_file_for_download = "Publique el archivo para descarga";
+
+/. Means "copy the URL, which leads to the upload page, to the Windows clipboard"
+upload_url_to_clipboard = "Copie el enlace de subida al portapapeles";
+
 / pnet connectivity test
 connectivity_test = "Test de conectividad";
 con_test_subheader = "Por favor, espere hasta que la Prueba de Conectividad haya finalizado.";
@@ -134,6 +166,21 @@ con_test = "%p Prueba de Conectividad";
 con_test_not_running = "La prueba de conectividad no puede ejecutarse, dado que %p no está activo. Por favor, inicie %p y luego realice la prueba de conectividad, nuevamente.";
 con_test_public_fail = "Su dirección IP pública no puede determinarse. Por favor, asegúrese de estar conectado a Internet, y luego, por favor, repita la prueba.";
 con_test_execute = "Efectuar la prueba de conectividad";
+
+/ ----------------------------------------------------------------------
+/
+/  Game Analyzer
+/
+/ ----------------------------------------------------------------------
+
+ga_service_desc = "cFos Game Analyzer - Rendimiento de recuperacion de datos";
+ga_speed_installed = "cFosSpeed se encuentra instalado en su computador.\n\ncFosSpeed ya contiene la funcionabilidad de cFos Game Analyzer.\n\nPara usar las últimas caracteristicas de cFos Game Analyzer, por favor descargue e instale la versión mas reciente de cFosSpeed desde www.cfos.de.";
+local_ip_addresses = "Direccion IP local:";
+ga_password_subheader = "Contraseña para acceso externo a cFos Game Analyzer.";
+ga_password_info = "Nombre de Usuario: cfosspeed";
+ga_call_info = "Acceda a cFos Game Analyzer desde su computadora local con\nhttp://localhost:1487/cfosspeed/game-analyzer.htm\n\nAccess cFos Game Analyzer desde una unidad externa con la contraseña mostrada arriba y use una de las direcciones IP en lugar de 'localhost':\n";
+ga_detected_by_speed = "Una versión instalada de cFos Game Analyzer ha sido detectada. cFosSpeed ya contiene todas las caracteristicas de cFos Game Analyzer.\n\nSi usted continua, será desinstalado el cFos Game Analyzer posterior a la instalacion de cFosSpeed.\n\nDesea continuar?";
+ga_use_password_by_speed = "Deberia cFosSpeed usar la contraseña de cFos Game Analyzer, usted podra accesar cFosSpeed desde otros equipos igualmente?";
 
 / ----------------------------------------------------------------------
 /
@@ -161,8 +208,16 @@ select_language = "Seleccionar idioma";
 translator = "Traductor";
 translator_name = "";
 translator_msg = "";
-/ %3=product name, %1=number, %2="day"/"days"
+
+/. %3=product name, %1=number, %2="day"/"days"
 lic_reg_exp_warn = "Su licencia de %3 expirará en %1 %2.";
+
+version_mismatch = "Perdida de versión entre el driver y la ventana de proceso en segundo plano.\n"
+   "\n"
+   "Daemon=%1\n"
+   "Driver=%2\n"
+   "\n"
+   "Por favor reinicie y si esto no ayuda reinstale %p!\n";
 
 service_desc = "Mide tiempos de latencia y ejecuta operaciones privilegiadas";
 no_pings_error = "Parece que los paquetes de ping enviados por %p no están llegando. Sin estos paquetes el Traffic Shaping de %p no puede funcionar adecuadamente. Probablemente fueron bloqueados por un firewall. El servicio '%p Service' (spd.exe) debe tener acceso al Internet.";
@@ -195,12 +250,14 @@ dayl_singular = "día";
 dayl_plural = "días";
 days_singular = "día de prueba";
 days_plural = "días de prueba";
-/ %1=number, %2="day/days"
+
+/. %1=number, %2="day/days"
 short_try = "Queda(n) %1 %2";
 short_dexpire = "¡%1 %2 de expiración!";
 
 short_exp = "¡El tiempo de prueba ha expirado!";
-/ %1=number, %2="day/days", %3=product name
+
+/. %1=number, %2="day/days", %3=product name
 lic_dexpire = "El periodo de prueba ha expirado desde %1 %2. ¡Compre %3 hoy!";
 lic_try = "Puede seguir probando %3 por %1 %2, antes de comprar.";
 
@@ -212,8 +269,12 @@ connect_to = "Conectar a";
 make_own_skin = "Diseño de sus propios temas";
 click_through = "Transparencia al clic";
 ask = "Confirmar";
+
+/. Indicates states, like `Switch On` or `Switch Off`
+/. Used in various sections of program as menu entries or buttons labels
 off = "Apagado";
 on = "Encendido";
+
 note = "Comentario";
 deactivated = "desactivado";
 browser_warning = "Para este diálogo se recomienda Microsoft Internet Explorer versión 8 o superior!";
@@ -245,11 +306,17 @@ prio_doc_link = "Cómo trabaja el esquema de priorización de trabajos";
 save_protocols = "Guardar protocolos";
 undo = "Cancelar";
 filter_selection = "Selección de filtros";
+
+/: Settings -> Protocols/Programs
+/. Used as indicator of selected by user level of priority (for Traffic Shaping)
+/. Displayed next to protocol or program name, near slider with levels
 higher = "Prioridad muy alta";
 high = "Prioridad alta";
+normal = "Normal";
 default = "Valor predeterminado";
 low = "Prioridad baja";
 lower = "Prioridad muy baja";
+
 entries = "Entradas";
 prog_overwrite = "El programa #p ya se encuentra en la lista. ¿ Desea reemplazarlo con nuevos valores?";
 games = "Juegos";
@@ -276,6 +343,8 @@ l7_prot_detection_help = "Detecta los protocolos analizando los datos. Usar el d
 favor_ping = "Priorizar el tiempo de ping";
 favor_ping_help = "<b>Activo</b>: %p El Traffic Shaping mejora los tiempos de Ping al costo de una ligera baja en el ancho de banda (cuándo fuera necesario).<br /> <b>Apagado</b>: %p El Traffic Shaping maximiza el ancho de banda al costo de un tiempo de Ping más alto.";
 favor_bandwidth = "Priorizar el ancho de banda";
+store_dns_names = "Refresque los nombres de DNS";
+store_dns_names_help = "Para acelerar las consultas de los DNS, mantenga actualizados los nombres de los DNS de uso frecuente, comúnmente usados por 2 dias";
 avoid_loss = "Prevención de pérdida de paquete";
 avoid_loss_help = "%p cierra ventanas de recepción TCP para recibir cadenas si es detectada mucha pérdida de paquetes. Esto solo ocurre cuando su conexión se encuentra recibiendo a velocidad máxima.";
 activate_firewall = "Activar Firewall";
@@ -291,6 +360,7 @@ traffic_shaping = "Traffic Shaping";
 ras_con_help = "<b>Sí</b>: activar, <b>no</b>: desactivar, <b>confirmar</b>: confirmar solamente una vez y guardar preferencias";
 router_connections = "Conexiones de router";
 net_components = "Componentes de la red";
+auto = "Auto";
 router_help = "<b>Sí</b>: activar, <b>no</b>: desactivar, <b>auto</b>: activar el Traffic Shaping, de encontrarse un enrutador en este componente de red";
 network_adapter = "Tarjeta de Red";
 router = "Router";
@@ -316,7 +386,15 @@ show_for = "Mostrar para";
 this_month = "Este mes";
 time = "Tiempo";
 time_limit = "Límite de tiempo";
+
+/. Used as table header
+/. Short version of "minutes"
+time_min = "Min";
+
+/. Used as table header
+/. Short version of "hours:minutes"
 time_units = "horas:min";
+
 volume = "Volumen";
 volume_limit = "Límite de volumen";
 spdbudget_help = "Para usar un presupuesto, ir al diálogo de Conexiones y adjudicarlo a una conexión";
@@ -352,6 +430,12 @@ disable_speed_shaping = "Desactivar el Traffic Shaping";
 yes = "Sí";
 no = "No";
 help = "Ayuda";
+
+/: cFosSpeed context menu -> Usage Graph
+/. Used as one of dropdown menu entries
+/. Means `To show all programs and protocols traffic`
+bgraph_totals = "Total";
+
 blocklist = "Bloqueador de direcciones IP";
 apply_blocklist = "Utilizar lista de filtros";
 search = "Buscar";
@@ -376,8 +460,13 @@ slots_title = "Configuración de las ranuras";
 can_select_multiple = "Consejo: Puede elegir varias opciones al mantener apretado el botón Shift o Ctrl en el teclado mientras selecciona una opción";
 name_for = "Nombre para ";
 set_name = "Establecer el nombre";
+
+/. RX stands for `receive` (incoming/download)
 rx_only = "Solamente RX";
+
+/. TX stands for `transmit` (outgoing/upload)
 tx_only = "Solamente TX";
+
 max_of_rx_tx = "Máximo del RX & TX";
 total_rx_only = "Velocidad total del RX";
 total_tx_only = "Velocidad total del TX";
@@ -409,7 +498,11 @@ set = "Ajuste";
 tx_limit_help = "Ingrese la velocidad en bytes/seg o porcentaje que permite enviar con este programa o protocolo.";
 download_more_skins = "Descargar otras máscaras";
 documentation = "Documentación";
+
+/: cFosSpeed context menu
+/. means `Close cFosSpeed`
 exit_demon = "Salir";
+
 speed_test = "Prueba de velocidad cFos";
 ask_key_banned_info = "Se ha registrado un problema con la clave de su licencia.\nDesea más información sobre esta incidencia?";
 
@@ -459,6 +552,28 @@ rwin_expansion = "Expansión RWIN automática";
 rwin_expansion_help = "Expandir automaticamente TCP RWIN para incrementar la velocidad de bajada si el RWIN seleccionado por Windows es muy lento.";
 query_auto_open = "Desactivar apertura y cierre automáticos de la ventana de estado?\nPuede reestablecerlo más tarde en el menú contextual.";
 preview_skins = "Vista previa de los temas";
+enable_smartphone_skins = "Pieles de Telefono";
+http_access_enabled = "Contraseña establecida, el acceso remoto por HTTP esta permitido.";
+http_access_disabled = "No se ha definido una contraseña, el acceso remoto por HTTP no está permitido.";
+set_server_pwd = "Coloque la contraseña del servidor";
+
+/: Right click on cFosSpeed -> Windows Settings -> Auto-arrange windows
+/. Possible position of status window
+auto_arrange_top = "Superior";
+auto_arrange_bottom = "Inferior";
+
+/: cFosSpeed context menu
+/. Menu entry which enables display of cFosSpeed's tile in Windows 8 Start Menu
+/. @note Currently disabled
+show_on_metro_apps = "Mostrar en Metro apps";
+
+traffic_shaping_info = "Informacion de Traffic Shaping";
+wlan_access_point = "Punto de acceso Wi-Fi";
+prioritize_foreground_process = "Priorize el proceso de la ventana posterior en la ventana de primer plano";
+prioritize_foreground_help = "Automáticamente coloque la prioridad del proceso en la ventana de primer plano en alta.";
+upnp_router_info = "Use estadisticas de Router UPnP";
+upnp_router_info_help = "Use las estadisticas de su enruteador UPnP para determinar el trafico y la velocidad  media, si es posible. Usted debe tener activo UPnP en su router.";
+ping_stats = "Estadisticas de Ping";
 
 
 / ----------------------------------------------------------------------
@@ -510,7 +625,8 @@ rp_header = "Punto de restauración del sistema";
 rp_subheader = "Los Puntos de restauración permiten restaurar su sistema a un estado anterior.";
 rp_info = "Un punto de restauración permite restaurar su sistema de Windows al estado del momento en que el punto de restauración fue establecido. Se recomienda establecer un punto de restauración antes de instalar un controlador de dispositivos nuevo.";
 rp_check = "Establecer punto de restauración.";
-/ %1 = product name
+
+/. %1 = product name
 rp_uninst_info = "El punto de restauración no sirve para una desinstalación posterior de %1. Es más bien una medida de precaución adicional que permite restaurar su sistema al estado original en caso de conflicto en los controladores. Una desinstalación normal de %1 puede ser ejecutada desde el menú inicio en la carpeta %1 o en el Panel de control en Agregar o quitar programas.";
 
 / password dialog
@@ -538,6 +654,13 @@ sn_invalid_serial_number = "Número de serie no válido. Por favor revise su ent
 sn_download_err = "Error %? descargando el fichero de clave desde nuestro servidor.";
 sn_save_err = "El fichero de clave no puede ser guardado en el disco en %?.";
 sn_keyfile_err = "El fichero clave está dañado.";
+
+/ new 16 digit serial number dialog
+
+/. Don't confuse 16 digit _serial numbers_ with 16 digit _passwords_
+sn16_info = "Favor introducir el numero de serial de 16 digitos para recibir su clave de licencia. Usted debe estar conectado a internet para recibir su clave de licencia satisfactoriamente.";
+
+sn16_failed = "Fallo en la obtención de la clave de la licencia!";
 
 / re-enter password dialog
 repwd_header = "Contraseña de %";
@@ -579,6 +702,8 @@ port_forwarding_chk = "Usar redireccionado de puerto automático, si está dispo
 port_forwarding_failed = "Su enrutador%? no parece soportar redireccionado de puerto automático. "
                          "Puede activar esta opción en la configuración de su enrutador.";
 port_forwarding_config = "Puede configurar su enrutador en %?.";
+
+/. Explains where port forwarding can be activated. Only users of FRITZ!Box will see that message.
 port_forwarding_fritz = "Puede activar redireccionado de puerto en su FRITZ!Box permitiendo cambios en la configuración de seguridad vía UPnP "
                         "bajo Red Doméstica / Red / Programas";
 
@@ -590,6 +715,8 @@ crash_msg_virus_clean = "Este módulo podría ser un virus. Por eso es muy recom
 crash_msg_hook = "Se han encontrado Módulos de otras aplicaciones, que se han inyectado ellos mismos en esta aplicación. Para asegurarse de que estos módulos no son la causa del error, por favor, ejecute esta aplicación de nuevo después de desactivar o desinstalar las siguientes aplicaciones:";
 crash_msg_terminate = "El programa finaliza ahora.";
 crash_msg_query_upload = "¿Quiere enviar un archivo de volcado a cFos, el cual nos ayudará a analizar el error?";
+crash_msg_new_release = "Una nueva versión de %p esta disponible. Por favor descargue e instale la versión mas reciente de %p desde www.cfos.de.";
+crash_msg_new_beta = "Hay una nueva versión beta de %p disponible. Por favor descargue e instale la mas reciente versión beta %p desde www.cfos.de/beta.";
 
 /start installation dialog
 start_header = "Instalación";
@@ -648,10 +775,13 @@ task_desktop_link = "Crear enlace en el escritorio...";
 task_program_group = "Crear grupo del programa...";
 task_registry = "Crear entradas del registro del sistema...";
 task_driver = "Instalando controlador...";
+task_service = "Instalando servicio...";
 task_daemon = "Iniciando %?...";
 task_uninstall_old = "Desinstalando versión actual...";
 task_stop_daemon = "Parando %? ...";
 task_uninstall_driver = "Desinstalando controlador...";
+task_uninstall_service = "Desinstalando servicio...";
+task_uninstall_ga = "Desinstalando cFos Game Analyzer...";
 task_delete_files = "Borrando archivos...";
 task_cleanup_caches = "Limpiando caches...";
 task_hangup = "Desconectando conexiones online activas...";
@@ -683,12 +813,15 @@ dt_advertise_desc = "Listar todas las características de %?.";
 
 / message boxes
 query_reboot = "Debe reiniciar su sistema para que los cambios surtan efecto.\n\n¿Reiniciar sistema ahora?";
+query_inst_reboot = "Debe reiniciar su sistema operativo,para que la instalación pueda continuar.\n\nPor favor reinicie el programa de instalación despues del reinicio.\n\nDesea reiniciar su sistema operativo ahora?";
 query_drv_inst_cancel = "La Desinstalación del controlador esta siendo ejecutada por el sistema operativo.\n¡La interfaz del instalador de Windows puede requerir hasta 15 minutos para\nregistrar o des-registrar un controlador!\n\nSe ruega no interrumpir este proceso hasta que haya pasado\neste tiempo.\n\n¿Desea cancelar realmente?";
 query_driver_err_abort = "Ocurrió un error durante la instalación del controlador!\nSe recomienda cancelar la instalación.\n\nPara usos de prueba se puede continuar con la instalación .\nEn este caso tenga en cuenta que probablemente %p no vaya a funcionar correctamente.\n\nCancelar instalación ahora? (recomendado)";
 query_further_info = "Desea más información?";
 
 / error messages
 err_driver_inst = "Ha fallado la instalación del controlador.";
+err_service_inst = "Fallo el servicio de instalación.";
+err_service_uninst = "Fallo el servicio de desinstalación.";
 err_daemon_start = "No se puede iniciar %?.";
 err_uninst_old = "La versión existente no se pudo desinstalar. Por favor reinicie la computadora.";
 err_os = "Su sistema operativo es %?.\n\n%? requiere Windows 2000/XP o sistemas más recientes para funcionar.";
@@ -699,6 +832,7 @@ err_os_sup = "%p soporta oficialmente sólo %? o superior.\n\n"
 err_uninst_driver = "No se pudo desinstalar el controlador del dispositivo.";
 err_create_process = "Error llamando %s: %s";
 err_write_lock = "Los componentes de la red de %? están siendo usados por otro proceso. Por favor cierre todas las otras aplicaciones o reinicie su ordenador y trate nuevamente.";
+err_write_lock_process = "%? los componentes de red están siendo usado por el siguiente proceso: %?. Por favor cierre este proceso o reinice su computador y pruebe de nuevo.";
 err_file_auth = "Algunos archivos de esta distribución están corruptos o no pueden ser encontrados.\nPor favor obtenga un distribución auténtica de %p\n(por ejemplo desde www.cfos.de).";
 err_cancel = "La operación fue cancelada.";
 err_no32 = "No se pueden instalar controladores de 32 bit en sistemas de 64 bit.\n\nSistema Operativo: %?\nProducto: %?";
@@ -742,8 +876,10 @@ err_activate_12002 =
    "Si tiene instalado algun programa de este tipo, por favor\n"
    "desactívelo temporalmente e intente nuevamente el\n"
    "registro.";
-/ %1 = source, %2 = destination, %3 = explanation
+
+/. %1 = source, %2 = destination, %3 = explanation
 err_copy_from_to = "Error copiando el archivo %1 a %2 (%3).";
+
 err_port_in_use = "El puerto %? del servidor se encuentra en uso por otro programa.\n\nProgram: %?\nPath: %?";
 
 / warning messages
@@ -786,6 +922,39 @@ eml_invalid_email = "La dirección de correo electrónico que ingresó es invál
 eml_invalid_optional_email = "Por favor ingrese una dirección de correo válida o simplemente deje este campo en blanco.";
 eml_reg_failed = "El registro de la dirección de correo electrónico ha fallado.";
 eml_checking_domain = "Chequeando el dominio de correo electrónico...";
+
+// Virtual Wi-Fi +++ Translators get explanations at http://msdn.microsoft.com/en-us/library/windows/desktop/dd815243%28v=vs.85%29.aspx
+virtual_wifi_wizard_name = "%p Iniciar asistente de Wi-Fi virtual";
+virtual_wifi_header = "Inicie Wi-Fi Virtual";
+virtual_wifi_subheader = "Configure un software basado en un punto de acceso inalambrico y active conexión compartida a internet.";
+virtual_wifi_stop_header = "Detener el Wi-Fi virtual";
+virtual_wifi_info = "Seleccione la conexión de red que enrute el trafico de internet y seleccione una contraseña para el punto de acceso inalámbrico.";
+virtual_wifi_ssid = "SSID:";
+virtual_wifi_default_ssid = "cFos Wi-Fi";
+virtual_wifi_invalid_ssid_length = "El SSID no debe estar vacio y no tener mas de 32 caracteres.";
+virtual_wifi_invalid_password_length = "La longitud de la contraseña debe ser entre 8 y 64 caracteres.";
+virtual_wifi_ics_not_available = "La conexión compartida de internet no está disponible en este computador.";
+virtual_wifi_error_get_cons = "Error obteniendo las conexiones de red.";
+virtual_wifi_ics_warning = "Conexión compartida a internet esta activa para la siguiente red:\n%?\n\nUsted desea usar en su lugar esta red:\n%?";
+virtual_wifi_error_enable_ics = "Error permitiendo la conexión compartida a internet.";
+virtual_wifi_error_start = "Error iniciando Wi-Fi Virtual.";
+virtual_wifi_ok = "Wi-Fi Virtual y conexión compartida a internet, activada correctamente.\n\nNota: Si el cliente no se puede conectar correctamente al Wi-Fi virtual, por favor detenga y reinicie el Wi-Fi virtual.\n\nSi un cliente se puede conectar al Wi-Fi virtual pero no obtiene una conexión con internet, por favor desinstale e instálelo de nuevo %p.";
+virtual_wifi_query_stop = "Detener Wi-Fi virtual?";
+virtual_wifi_error_stop = "Error deteniendo Wi-Fi Virutal:";
+virtual_wifi_stopped = "Wi-Fi Virtual detenido correctamente.";
+virtual_wifi_dialup_ics = "Para conexiones discadas, usted debe activar compartir conexión a Internet y cambiar manualmente las propiedades de esta conexión.";
+virtual_wifi_error_not_present = "No se encontró una interfaz Wi-Fi (activa).\n\nPara configurar una interfaz Wi-Fi virtual, debe estar presente y activa una interface Wi-Fi.";
+virtual_wifi_autostart = "Iniciar automáticamente al inicio del sistema.";
+/. Label next to a checkbox in deactivation of virtual Wi-Fi dialog
+virtual_wifi_deactivate_autostart = "Deshabilitar el inicio automático al arrancar el sistema.";
+
+
+/ !!! DO NOT TRANSLATE !!!
+/
+/ Anything below that line shouldn't be translated.
+/ Those are outdated strings. Just ignore them
+/
+/ !!! DO NOT TRANSLATE !!!
 
 
 / ----------------------------------------------------------------------
