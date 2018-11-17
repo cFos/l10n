@@ -43,7 +43,7 @@ set first=1
     if defined first (
       type "%%F"
       set "first="
-    ) else more +1 "%%F"
+    ) else more +1 /E "%%F"
   )
 )
 
@@ -55,7 +55,7 @@ set first=1
     if defined first (
       type "%%F"
       set "first="
-    ) else more +1 "%%F"
+    ) else more +1 /E "%%F"
   )
 )
 
@@ -65,7 +65,7 @@ set first=1
     if defined first (
       type "%%F"
       set "first="
-    ) else more +1 "%%F"
+    ) else more +1 /E "%%F"
   )
 )
 
@@ -76,7 +76,7 @@ IF "%type%"=="pr" (
     if defined first (
       type "%%F"
       set "first="
-    ) else more +1 "%%F"
+    ) else more +1 /E "%%F"
   )
 )
 )
@@ -89,7 +89,7 @@ if defined first (
 @echo on
 
 :: Exclude everything from `exclude...cfos.txt` file
-more +1 "scripts\exclude.%src_full%.cfos.txt" >> "_temp.cfos.txt"
+more +1 /E "scripts\exclude.%src_full%.cfos.txt" >> "_temp.cfos.txt"
 
 :: Export untranslated or unreviewed with mltool
 IF "%type%"=="pr" %mltoolExe% pvr -m %ml_file% -i %sourceLang% -n "%destDir%\%src_prefix%%type%__%lang%--org__%date%.cfos.txt" -e %langId% -z "_temp.cfos.txt" -u
