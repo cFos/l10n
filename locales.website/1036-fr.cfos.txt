@@ -36,13 +36,14 @@ freeware_text1 = "Nouvelle version de cFosSpeed disponible : ";
 freeware_text2 = "Gestion du trafic améliorée : bande passante maximale, ping minimal! Téléchargez maintenant : ";
 product_overview = "Vue d'Ensemble du Produit";
 slogan = "Utilisez tout le potentiel de votre bande passante :<br /> haut-débit, ping bas.";
-special_offer_xmas = "Offre de Noël! <span class=\"red\">Prix spécial</span> jusqu'au 21 décembre!";
+special_offer_xmas = "Offre de Noël! <span class=\"red\">Prix spécial</span> jusqu'au <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(Prolongée jusqu'au 2 Janvier 2011)";
 special_offer_spring = "Offre spéciale pour le festival d'été ! Jusqu'au 9 Février 2011";
 special_offer_winter = "Prix spéciaux pendant nos Soldes d'Hiver jusqu'au 31 Janvier 2012";
 worldcup_sale = "Offres spéciales durant la Coupe du Monde!"; / FIFA Soccer World Cup
 winter_sale = "Prix spéciaux pour l'Hiver !"; / New Years Sale for China
 winter_sale_ext = "Prolongés jusqu'au 28 Janvier - Pour remercier votre énrome soutien !";
+xmas_sale_extended = "Offre de Noël! Prolongés jusqu'au <span id=\"endsale\"></span>!";
 style_light = "Léger";
 style_strong = "Gras";
 style_untranslated = "Surligner le texte non traduit";
@@ -732,6 +733,7 @@ cfout_p1f = "Pas de version limitée dans le temps pour les utilisateurs l'ayant
 cfout_a1 = "Télécharger cFos Outlook DAV";
 cfout_h2 = "Comment configurer cFos Outlook DAV";
 cfout_l1 = "Lancez l'installation de cFos Outlook DAV pour ajouter cFos Outlook DAV comme module additionnel d'Outlook. Cela fonctionne avec Outlook 2013, mais devrait aussi fonctionner avec Outlook 2010.";
+cfout_l1_v2 = "Lancez l'installation de cFos Outlook DAV pour ajouter cFos Outlook DAV comme module additionnel d'Outlook. Cela fonctionne avec Outlook 2016 et 2013, mais devrait aussi fonctionner avec Outlook 2010.";
 cfout_l2_v2 = "Démarrez Outlook et créez un nouveau répertoire de calendrier. A présent, cliquez à l'aide du bouton droit sur ce répertoire et choisissez \"Synchroniser avec CalDAV\". Vous pouvais maintenant configurer le répertoire en cliquant à l'aide du bouton droit et en sélectionnant \"Configurer CalDAV Sync\".";
 cfout_l2a = "Pour de plus amples informations, vous devriez jeter un oeil sur nos <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>instructions illustrées détaillées</b></a>.";
 cfout_l3 = "Dès que le répertoire est créé, merci de redémarrer Outlook. A présent, une boite de dialogue de configuration devrait apparaitre. sélectionnez le fichier de configuration correspondant à botre nouveau répertoire Outlook et entrez l'URL de votre serveur de calendrier CalDAV, votre nom d'utilisateur et mot de passe. Vous pouvez aussi spécifier l'intervalle de synchronisation. A présent, redémarrer encore une fois Outlook.";
@@ -828,9 +830,9 @@ li_text_ppppoe_dial = "Pilotes dial-up PPPoE pour Windows";
 li_text_sessions = "Sessions multiples, nombre de connexions illimité";
 
 / cFos
-cfos_html_h1 = "Pilotes pour connexions RNIS et DSL";
+cfos_html_h1 = "Pilotes pour connexions ISDN";
 /. Part of page's title (in name of the tab in web browser)
-cfos_professional_title = "cFos, Dial-Up &amp; Accélération pour DSL &amp; ISDN";
+cfos_professional_title = "cFos, Dial-Up pour ISDN";
 link_text_0190 = "Blocage des numéros 0190/0900";
 link_text_budget = "Compteurs de trafic &amp; de temps de connexion";
 link_text_cfos_features = "cFos - fonctionnalités principales en DSL et ISDN";

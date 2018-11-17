@@ -29,7 +29,7 @@ desc_shaping = "Паскарэнне Інтэрнэт з Traffic Shaping";
 freeware_text1 = "Даступна новая версія cFosSpeed:";
 freeware_text2 = "Палепшаны Traffic Shaping: Максімальная прапускная здольнасць Інтэрнэт, мінімальны пінг! Запампаваць зараз:";
 slogan = "Выкарыстайце ўсю хуткасць Інтэрнэт: <br /> высокая хуткасць, нізкі пінг";
-special_offer_xmas = "Калядная прапанова! <span class=\"red\"> Адмысловыя кошты </span> толькі да 21 снежня!";
+special_offer_xmas = "Калядная прапанова! <span class=\"red\"> Адмысловыя кошты </span> толькі да <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(да ўікэнда, падоўжанага да 3-га студзеня 2010)";
 special_offer_spring = "Адмысловая прапанова для вясновага фэсту! да 28-га Лютага, 2010";
 worldcup_sale = "Адмысловыя кошты падчас Чэмпіянату свету па футболе!"; / FIFA Soccer World Cup
@@ -394,7 +394,7 @@ li_text_ppppoe_dial = "PPPoE Дыал-Ап драйвер для Windows";
 li_text_sessions = "Мультысесіі, няма абмежаванняў колькасці злучэнняў";
 
 / cFos
-cfos_html_h1 = "DSL і ISDN дыал-ін драйвер з Traffic Shaping";
+cfos_html_h1 = "ISDN дыал-ін драйвер";
 link_text_0190 = "0190er Блакавальнік";
 link_text_budget = "Анлайн лічыльнік";
 link_text_cfos_features = "cFos спіс асаблівасцяў";

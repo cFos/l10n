@@ -26,7 +26,7 @@ desc_shaping = "Internet kiirendus Traffic Shaping´u kaudu";
 freeware_text1 = "Uus cFosSpeed versioon on saadaval:";
 freeware_text2 = "Täiustatud Traffic Shaping: Maksimaalne läbilaskevõime, minimaalne ping! Lae kohe alla: ";
 slogan = "Kasutage oma tõelist läbilaskevõimet:<br /> suur kiirus, madal ping.";
-special_offer_xmas = "Jõulude pakkumine! <span class=\"red\">Erihinnad</span> ainult kuni 21 detsembrini!";
+special_offer_xmas = "Jõulude pakkumine! <span class=\"red\">Erihinnad</span> ainult kuni 21 <span id=\"endsale\"></span>!";
 translation_text1 = "See lehekülg ei ole piisavalt tõlgitud!";
 translation_text2 = "Saa tasuta litsensi (cFos, cFosSpeed või cFosBC) aidates meid.";
 translation_text3 = "Lisainformatsioon";

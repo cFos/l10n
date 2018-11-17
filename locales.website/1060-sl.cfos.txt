@@ -27,7 +27,7 @@ desc_shaping = "Internetna pospešitev z oblikovanjem prometa";
 freeware_text1 = "Na voljo je nova verzija cFosSpeed:";
 freeware_text2 = "Izboljšanje oblikovanje prometa: Maksimalna pasovna širina, minimalni ping! Prenesite zdaj: ";
 slogan = "Uporabite vašo resnično pasovno širino:<br /> visoka hitrost, nizek ping.";
-special_offer_xmas = "Božična ponudba! <span class=\"red\">Special prices</span> samo do 21 Decembra!";
+special_offer_xmas = "Božična ponudba! <span class=\"red\">Special prices</span> samo do <span id=\"endsale\"></span>!";
 worldcup_sale = "Posebne cene med Svetovnim prvenstvom!"; / FIFA Soccer World Cup
 translation_text1 = "Ta stran ni zadostno prevedena!";
 translation_text2 = "Dobite brezplačno licenco (cFos, cFosSpeed or cFosBC) za vašo pomoč.";
@@ -377,7 +377,7 @@ li_text_ppppoe_dial = "PPPoE Dial-Up gonilnik za Windows";
 li_text_sessions = "Več sej, brezmejno število povezav";
 
 / cFos
-cfos_html_h1 = "DSL in ISDN dial-in gonilnik s Traffic Shaping";
+cfos_html_h1 = "ISDN dial-in gonilnik";
 link_text_0190 = "0190er Bloker";
 link_text_budget = "Online števec";
 link_text_cfos_features = "cFos seznam fukcij";

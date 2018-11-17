@@ -696,9 +696,9 @@ li_text_ppppoe_dial = " مزود ﺑ برنامج تشغيل لنظام الطل
 li_text_sessions = " يمكنه تنفيذ عدد لا محدود من ﺍﻟ Multiple sessions في الكونكشن الواحد, و كذلك يستوعب عدد لا محدود من ﺍﻟ connections من مختلف الأنواع ";
 
 / cFos
-cfos_html_h1 = " برنامج يعمل ﻛ برنامج تشغيل لنظام أجراء الطلب الهاتفي و هو مخصص لخط ﺍﻟ ISDN و خط ﺍﻟ DSL و هو مزود أيضا ً بتقنية ﺍﻟ Traffic Shaping ";
+cfos_html_h1 = " برنامج يعمل ﻛ برنامج تشغيل لنظام أجراء الطلب الهاتفي و هو مخصص لخط ﺍﻟ ISDN ";
 /. Part of page's title (in name of the tab in web browser)
-cfos_professional_title = "cFos, الاتصال الهاتفي &amp; وتسريع ل DSL &amp; ISDN";
+cfos_professional_title = "cFos, الاتصال الهاتفي  ISDN";
 link_text_0190 = " مزود ﺑ  <span dir=\"ltr\">0190er Blocker</span> لحمايتك من الاتصالات الهاتفية التي تقوم بها الفيروسات من هاتفك دون علمك و التي تكلفك مبالغ طائلة ";
 link_text_budget = " مزود ﺑ Online counter و هو عداد لحساب مقدار حجم و زمن استخدامك للكونكشن خاصتك ";
 link_text_cfos_features = " قائمة مميزات cFos ";

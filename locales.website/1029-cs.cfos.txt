@@ -35,12 +35,13 @@ freeware_text1 = "Nová verze cFosSpeed je k dispozici:";
 freeware_text2 = "Vylepšený Traffic Shaping: Maximální rychlost, minimální ping! Stahujte nyní: ";
 product_overview = "Seznámení s produktem";
 slogan = "Použít vaši skuteènou rychlost:<br /> vysoká rychlost, nízký ping.";
-special_offer_xmas = "Vánoèní nabídka! <span class=\"red\">Speciální ceny</span> pouze do 21. prosince!";
+special_offer_xmas = "Vánoèní nabídka! <span class=\"red\">Speciální ceny</span> pouze do <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(vzhledem k víkendu prodlouženo do 2. ledna 2011)";
 special_offer_spring = "Mimoøádná nabídka k oslavì pøíchodu jara!";
 special_offer_winter = "Speciální nabídka během zimních slev do 31. ledna 2012";
 worldcup_sale = "Sleva během Mistrovství světa ve fotbale!"; / FIFA Soccer World Cup
 winter_sale_ext = "Prodlouženo do 28. ledna - Děkujeme Vám za podporu!";
+xmas_sale_extended = "Vánoèní nabídka! Prodlouženo do <span id=\"endsale\"></span>a!";
 style_light = "Lehký";
 style_strong = "Tučný";
 style_untranslated = "Zvýrazněný mód pro nepřeložený text";
@@ -540,8 +541,8 @@ li_text_ppppoe_dial = "PPPoE Dial-Up ovladač pro Windows";
 li_text_sessions = "Vícenásobné spojení, neomezený počet spojení";
 
 / cFos
-cfos_html_h1 = "DSL a ISDN dial-in ovladač s podporou Traffic Shaping";
-cfos_professional_title = "cFos, Dial-Up &amp; Zrychlení pro DSL &amp; ISDN";
+cfos_html_h1 = "ISDN dial-in ovladač";
+cfos_professional_title = "cFos, Dial-Up pro ISDN";
 link_text_0190 = "0190er blokovač";
 link_text_budget = "Online počítadlo";
 link_text_cfos_features = "Seznam možností cFos";

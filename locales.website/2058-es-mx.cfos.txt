@@ -39,13 +39,14 @@ freeware_text1 = "Hay una versión nueva de cFosSpeed disponible:";
 freeware_text2 = "Traffic Shaping mejorado: ancho de banda máximo, ping reducido ! Descargue ahora: ";
 product_overview = "Vistazo al producto";
 slogan = "Use su ancho de banda real:<br /> Alta velocidad, con menos ping.";
-special_offer_xmas = "¡Oferta de navidad! <span class=\"red\">Precios especiales</span> ¡solamente hasta el 21 de diciembre!";
+special_offer_xmas = "¡Oferta de navidad! <span class=\"red\">Precios especiales</span> ¡solamente hasta el <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(debido al fin de semana largo, fue prolongado hasta el 2 de enero del 2011)";
 special_offer_spring = "¡Oferta especial para el festival de primavera! Hasta el 9 de febrero del 2011";
 special_offer_winter = "Precios especiales durante el invierno hasta el 31 de enero del 2012";
 worldcup_sale = "¡Precios especiales durante la Copa Mundial!"; / FIFA Soccer World Cup
 winter_sale = "Precios especiales durante el invierno!";
 winter_sale_ext = "Se extiende hasta el 28 de enero - ¡Gracias por su abrumador soporte!";
+xmas_sale_extended = "¡Oferta de navidad! Se extiende hasta el <span id=\"endsale\"></span>!";
 style_light = "estilo Suave";
 style_strong = "estilo Fuerte";
 style_untranslated = "Modo de resalto para textos no traducidos";
@@ -740,6 +741,7 @@ cfout_p1f = "Versión sin límites de tiempo para usuarios comerciales disponibl
 cfout_a1 = "Descargue cFos Outlook DAV";
 cfout_h2 = "Cómo configurar cFos Outlook DAV";
 cfout_l1 = "Ejecute el instalador de cFos Outlook DAV para añadir cFos Outlook DAV como un complemento de Outlook. Está probado con Outlook 2013, pero también debería correr con Outlook 2010.";
+cfout_l1_v2 = "Ejecute el instalador de cFos Outlook DAV para añadir cFos Outlook DAV como un complemento de Outlook. Está probado con Outlook 2016 y 2013, pero también debería correr con Outlook 2010.";
 cfout_l2_v2 = "Inicie Outlook y creé una nueva carpeta de calendario. En el menú contextual de la carpeta seleccione \"Sync with CalDAV\". Ahora puede configurar la carpeta eligiendo \"Config CalDAV Sync\" nuevamente en el menú contextual.";
 cfout_l2a = "Para mayor información podría considerar darle un vistazo a nuestras <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>detalladas instrucciones ilustradas</b></a>.";
 cfout_l3 = "Tan pronto haya sido creada la carpeta, por favor reinicie Outlook. Debería aparecer un pequeño diálogo de configuración. Seleccione el archivo de configuración correspondiente a su nueva carpeta en Outlook e introduzca el URL de su servidor de calendario CalDAV, así como su nombre de usuario y contraseña. También puede especificar el intervalo de sincronización. Ahora reinicie una vez más Outlook.";
@@ -841,9 +843,9 @@ li_text_ppppoe_dial = "Controlador para Windows de conexiones telefónicas a tra
 li_text_sessions = "Sesiones múltiples, sin límite para el número de conexiones";
 
 / cFos
-cfos_html_h1 = "Controlador para acceso telefónico DSL e ISDN con Traffic Shaping";
+cfos_html_h1 = "Controlador para acceso telefónico ISDN";
 /. Part of page's title (in name of the tab in web browser)
-cfos_professional_title = "cFos, Acceso Telefónico &amp; Aceleración para DSL &amp; ISDN";
+cfos_professional_title = "cFos, Acceso Telefónico para ISDN";
 link_text_budget = "Contador de tiempo y tráfico en línea";
 link_text_cfos_features = "Lista de características de cFos";
 link_text_cfos_priolist = "Priorice programas con cFos (&#187; lista de programas)";

@@ -37,13 +37,14 @@ freeware_text1 = "Νέα έκδοση του cFosSpeed είναι διαθέσι
 freeware_text2 = "Βελτιωμένο Traffic Shaping: Μέγιστο εύρος σύνδεσης, ελάχιστος χρόνος απόκρισης! Μεταφορτώστε τώρα: ";
 product_overview = "Σύνοψη Προϊόντος";
 slogan = "Αξιοποιηστε πληρως τη γραμμη σας:<br />υψηλες ταχυτητες, χαμηλα low ping.";
-special_offer_xmas = "Χριστουγεννίατικη προσφορά! <span class=\"red\">Ειδικές τιμές</span> μόνο μέχρι 21 Δεκεμβρίου!";
+special_offer_xmas = "Χριστουγεννίατικη προσφορά! <span class=\"red\">Ειδικές τιμές</span> μόνο μέχρι <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(λόγω του παρατεταμένου Σαββατοκύριακου πριν απο τις 2 Ιανουαρίου, 2011)";
 special_offer_spring = "Ειδηκή προσφορά για το ανοιξιάτικο φεστιβάλ! Πριν απο τις 9 Φεβρουαριου, 2011";
 special_offer_winter = "Ειδικές τιμές στις Χειμερινές Εκπτώσεις μέχρι 31 Ιανουαρίου, 2012";
 worldcup_sale = "Ειδικές τιμές κατά την διάρκεια του Μουντιάλ!"; / FIFA Soccer World Cup
 winter_sale = "Ειδικές τιμές κατά την χειμερινή περίοδο!"; / New Years Sale for China
 winter_sale_ext = "Παράταση μέχρι 28 Ιανουαρίου - Ευχαριστούμε για την δυναμική υποστήριξή σας!";
+xmas_sale_extended = "Χριστουγεννίατικη προσφορά! Παράταση μέχρι <span id=\"endsale\"></span>!";
 style_light = "Ελαφρύ";
 style_strong = "Έντονο";
 style_untranslated = "Κατάσταση τονισμού μη μεταφρασμένου κειμένου";
@@ -537,9 +538,9 @@ li_text_ppppoe_dial = "Οδηγός PPPoE Dial-Up για Windows";
 li_text_sessions = "Πολλαπλά sessions, κάνένα όριο στον αριθμό των συνδέσεων";
 
 / cFos
-cfos_html_h1 = "DSL και ISDN οδηγός dial-in με Traffic Shaping";
+cfos_html_h1 = "ISDN οδηγός dial-in";
 /. Part of page's title (in name of the tab in web browser)
-cfos_professional_title = "cFos, Dial-Up &amp; Επιτάχυνση για DSL &amp; ISDN";
+cfos_professional_title = "cFos, Dial-Up για ISDN";
 link_text_budget = "Online μετρητής";
 link_text_cfos_features = "cFos λίστα χαρακτηριστικών";
 link_text_cfos_priolist = "Προτεραιοτητα σε προγραμματα με το cFos (» λιστα προγραμμάτων) ";

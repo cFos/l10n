@@ -34,12 +34,13 @@ freeware_text1 = "cFosSpeedの新しいバージョンがあります:";
 freeware_text2 = "Improved Traffic Shaping: バンド幅を最高に、ピングを最低に！ 今すぐダウンロードを！ ";
 product_overview = "製品概要";
 slogan = "本当のバンド幅を利用しよう！<br /> 高速でピングが少なめに！";
-special_offer_xmas = "メリークリスマス！ 12月21日までに<span class=\"red\">特別な価格</span>";
+special_offer_xmas = "メリークリスマス！ <span id=\"endsale\"></span>までに<span class=\"red\">特別な価格</span>";
 special_offer_xmas_2 = "(休日のために2011年1月2日まで延長します)";
 special_offer_spring = "2010年2月9日まで、春の特別キャンペーン中！";
 special_offer_winter = "2012年1月31日までウィンターセール特別価格で提供";
 worldcup_sale = "ワールドカップ開催期間中は特別価格!"; / FIFA Soccer World Cup
 winter_sale_ext = "1月28日まで延長 - 皆様からの大きな反響に感謝!";
+xmas_sale_extended = "メリークリスマス！ <span id=\"endsale\"></span>まで延長!";
 word_new = "新しい";
 word_newversion = "新バージョン";
 watch_video_newfeatures = "新機能紹介動画を見る";
@@ -446,7 +447,7 @@ li_text_ppppoe_dial = "PPPoEのダイヤルアップは、Windows用のドライ
 li_text_sessions = "複数のセッションは、接続数の制限はありません";
 
 / cFos
-cfos_html_h1 = "ISDNとDSLを最速化するダイヤルアップドライバー";
+cfos_html_h1 = "ISDNを最速化するダイヤルアップドライバー";
 link_text_0190 = "ダイアラーからの怪しい電話をブロック";
 link_text_budget = "容量、時間測定器";
 link_text_cfos_features = "cFos - シフォス　DSL とISDN専用の人気機能";
@@ -766,6 +767,21 @@ legal_note_text = "当社は、cFos、cFosブロードバンドコネクト、cF
 /upload
 
 /videos
+
+/ ----------------------------------------------------------------------
+/
+/  Port forwarding
+/
+/ ----------------------------------------------------------------------
+
+aterm_wg1400hp_p1 = "ルーターにログインしてください";
+aterm_wg1400hp_p2 = "サイドメニューから詳細設定を選んでください";
+aterm_wg1400hp_p3 = "サイドメニューからポートマッピング設定を選んでください";
+aterm_wg1400hp_p4 = "設定をする接続を選んでください";
+aterm_wg1400hp_p5 = "追加ボタンを押してください";
+aterm_wg1400hp_p6 = "LAN側ホストにcFos Personal Netが動作しているPCのIPを入力してください";
+aterm_wg1400hp_p7 = "設定ボタンを押してください";
+aterm_wg1400hp_p8 = "保存ボタンを押してください";
 
 /meta descriptions
 

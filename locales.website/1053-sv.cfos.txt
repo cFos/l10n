@@ -32,7 +32,7 @@ freeware_text1 = "Ny version av cFosSpeed tillgänglig:";
 freeware_text2 = "Förbättrad Traffic Shaping: Maximal bandbredd, minimal ping! Ladda ner nu: ";
 product_overview = "Produkt Lista";
 slogan = "Använd din riktiga bandbredd:<br /> hög hastighet, låg ping.";
-special_offer_xmas = "Julerbjudande! <span class=\"red\">Special prices</span> endast till 21 december!";
+special_offer_xmas = "Julerbjudande! <span class=\"red\">Special prices</span> endast till <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(på grund av helg förlängt till 2 januari, 2011)";
 special_offer_spring = "Vårerbjudande! till 9 februari, 2011";
 worldcup_sale = "VM-REA!"; / FIFA Soccer World Cup
@@ -438,8 +438,8 @@ li_text_ppppoe_dial = "PPPoE uppringningsdrivrutin för Windows";
 li_text_sessions = "Flera sessioner, ingen begränsning för antalet anslutningar";
 
 / cFos
-cfos_html_h1 = "DSL- och ISDN-drivrutin";
-cfos_professional_title = "cFos, Ring upp &amp; Acceleration för DSL &amp; ISDN";
+cfos_html_h1 = "ISDN-drivrutin";
+cfos_professional_title = "cFos, Ring upp för ISDN";
 link_text_0190 = "Skydd mot modemkapare";
 link_text_budget = "Onlineräknare";
 link_text_cfos_features = "cFos - DSL/ISDN funktioner";

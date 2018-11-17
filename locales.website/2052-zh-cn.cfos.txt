@@ -35,13 +35,14 @@ freeware_text1 = "有cFosSpeed的新版本可用:";
 freeware_text2 = "优化的Traffic Shaping技术: 最大带宽，最低Ping值！立即下载体验: ";
 product_overview = "产品总览";
 slogan = "充分利用您的带宽极限:<br />最大带宽，最低Ping值！";
-special_offer_xmas = "圣诞优惠活动！12月21日前购买cFos产品将享受<span class=\"red\">特别优惠价格</span>！";
+special_offer_xmas = "圣诞优惠活动！<span id=\"endsale\"></span>前购买cFos产品将享受<span class=\"red\">特别优惠价格</span>！";
 special_offer_xmas_2 = "由于遇到周末，故延长至2011年1月2日为止";
 special_offer_spring = "春节特惠活动！截止到<span class=\"red\">2月9日</span>";
 special_offer_winter = "冬季特惠活动！截止到<span class=\"red\">1月31日</span>";
 worldcup_sale = "世界杯特卖！"; / FIFA Soccer World Cup
 winter_sale = "冬季特卖！"; / New Years Sale for China
 winter_sale_ext = "延长至 1 月 28 日—感谢您的大力支持！";
+xmas_sale_extended = "圣诞优惠活动！延长至 <span id=\"endsale\"></span>！";
 style_light = "轻松";
 style_strong = "强烈";
 style_untranslated = "突出显示未翻译文字";
@@ -698,6 +699,7 @@ cfout_p1c = "目前的预发行版软件不支持在日历的项目中添加附�
 cfout_a1 = "下载 cFos Outlook DAV";
 cfout_h2 = "如何设置 cFos Outlook DAV";
 cfout_l1 = "运行 cFos Outlook DAV 安装程序，为 Outlook 安装加载项。程序在 Outlook 2013 下测试通过，在 Outlook 2010 中应该也可以正常工作";
+cfout_l1_v2 = "运行 cFos Outlook DAV 安装程序，为 Outlook 安装加载项。程序在 Outlook 2016和2013 下测试通过，在 Outlook 2010 中应该也可以正常工作";
 cfout_l2_v2 = "启动 Outlook 并创建一个新的日历文件夹。 右键单击该文件夹并选择 \"Sync with CalDAV\"。 随后可以通过右键单击该文件夹并选择 \"Config CalDAV Sync\"来再次配置文件夹。";
 cfout_l2a = "关于更详细的信息，您可以查看我们的网站 <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>更加详细的说明</b></a>.";
 cfout_l3 = "建立文件夹后请重启 Outlook 。此时，应该出现一个设置对话框。选择与你刚创建的 Outlook 文件夹相对应的配置文件，随后输入你的 CalDAV 日历服务器地址、用户名和密码。你还可以同时设置同部件和。随后，请再次重启 Outlook。";
@@ -751,8 +753,8 @@ li_text_ppppoe_dial = "用于 Windows 的 PPPoE 拨号驱动";
 li_text_sessions = "多线程，无连接数限制";
 
 / cFos
-cfos_html_h1 = "带有通信量调整功能的 DSL 和 ISDN 拨号驱动";
-cfos_professional_title = "cFos, 适用于 DSL 和 ISDN 的拨号和加速工具";
+cfos_html_h1 = "ISDN 拨号驱动";
+cfos_professional_title = "cFos, 适用于 ISDN 的拨号";
 link_text_0190 = "禁拨高收费电话功能";
 link_text_budget = "通信量计数器及计时器";
 link_text_cfos_features = "cFos 功能列表";
@@ -2168,6 +2170,18 @@ d_link_dir_605lw_p5 = "类型 选择 \"HTTP\"，公共端口填\"80\"";
 d_link_dir_605lw_p6 = "通信量类型 选择 \"TCP\"";
 d_link_dir_605lw_p7 = "点“保存设置”";
 d_link_dir_605lw_p8 = "最后在页面左侧点退出";
+d_link_dir_605lw_title = "D-Link DIR-605LW 端口转发设置方法";
+tenda_fh1202_title = "腾达FH1202 端口转发设置方法";
+tenda_fh1202_p0 = "下列设置步骤是基于腾达FH1202路由器的最新官方固件(<a class=\"inline\" href=\"http://down.tenda.com.cn/uploadfile/FH1202/US_FH1202V1.0BR_V1.2.0.20(408)_CN_TD.rar\"><b>US_FH1202V1.0BR_V1.2.0.20(408)_CN_TD.bin</b></a>) 固件下载地址为.";
+tenda_fh1202_p1 = "使用管理密码登陆路由器(默认登陆地址: <b>192.168.0.1</b> ， 如果没有设置过路由器管理密码，可以直接跳转到步骤2)";
+tenda_fh1202_p2 = "点击 \"高级设置\" 文字";
+tenda_fh1202_p3 = "点击顶部菜单栏的 \"高级设置\" 按钮";
+tenda_fh1202_p4 = "点击左边菜单的 \"虚拟服务器\"";
+tenda_fh1202_p5 = "在下拉菜单选择 \"HTTP(80)\" ，再点击 \"填充到\" 按钮，将相应端口号填充到第1行中";
+tenda_fh1202_p6 = "在 \"内网IP\" 中输入运行 cFos Personal Net 软件的电脑的局域网地址";
+tenda_fh1202_p7 = "勾选 \"启用\" 以激活这条端口转发规则";
+tenda_fh1202_p8 = "点击 \"保存\" 按钮";
+tenda_fh1202_p9 = "点击 \"重启路由器\" 按钮";
 
 /meta descriptions
 missing_meta_desc = "描述标签丢失";
@@ -2290,6 +2304,22 @@ cfos_notifier_desc = "cFos Notifier 产品概况。";
 cfos_notifier_whats_new_desc = "查看 cFos Notifier的新信息。包含新的功能、改进和错误修正列表。";
 video_page_desc = "cFos Software所有YouTube视频";
 cfosspeed_features_title = "cFosSpeed 的重要功能列表。";
+
+/ ----------------------------------------------------------------------
+/
+/  Port forwarding
+/
+/ ----------------------------------------------------------------------
+
+tp_link_td_8840tv4_p7 = "现在您已为您的计算机完成端口转发的配置！";
+tp_link_tl_wr886n_p1 = "使用您的密码登录您的路由器（默认IP：<b>192.168.0.1</b>）";
+tp_link_tl_wr886n_p2 = "点击“应用管理”";
+tp_link_tl_wr886n_p3 = "点击“已安装应用”";
+tp_link_tl_wr886n_p4 = "找到“虚拟服务器”并点击“进入”按钮";
+tp_link_tl_wr886n_p5 = "点击“添加”按钮";
+tp_link_tl_wr886n_p6 = "常用服务器选择“HTTP”，并在“IP地址”字段中输入正在运行cFos Personal Net的计算机的（最好是静态）IP";
+tp_link_tl_wr886n_p7 = "点击“保存”按钮";
+tp_link_tl_wr886n_p8 = "选中复选框";
 
 /mailing lists
 announce_list = "cFos 邮件列表";

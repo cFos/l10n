@@ -38,12 +38,12 @@ freeware_text1 = "มีเวอร์ชั่นใหม่ของ cFosSpe
 freeware_text2 = "ปรับปรุง Traffic Shaping: แบนด์วิธสูงสุด, ping ต่ำสุด! ดาว์นโหลดเลย: ";
 product_overview = "ภาพรวมสินค้า";
 slogan = "ใช้ bandwidth จริงของคุณ:<br /> ความเร็วที่สูง, และค่า ping ที่ต่ำ";
-special_offer_xmas = "ข้อเสนอสำหรับคริสต์มาส! <span class=\"red\">ราคาพิเศษ</span> ถึง 21 ธันวาคมเท่านั้น!";
 special_offer_xmas_2 = "(เนื่องจากช่วงวันหยุดยาวถึงวันที่ 2 มกราคม 2554)";
 special_offer_spring = "โปรโมชั่นพิเศษ! ต้อนรับฤดูฝนจนถึงวันที่ 9 กุมภาพันธ์ 2554";
 special_offer_winter = "ราคาพิเศษเฉพาะช่วงหน้าหนาวนี้จนถึง 31 มกราคม 2012 นี้เท่านั้น";
 worldcup_sale = "ราคาพิเศษช่วงบอลโลก"; / FIFA Soccer World Cup
 winter_sale_ext = "ขยายเวลาไปจนถึงวันที่ 28 มกราคม - ขอบคุณการสนับสนุนของคุณเป็นอย่างมาก";
+xmas_sale_extended = "ขยายเวลาไปจนถึงวันที่ <span id=\"endsale\"></span>";
 style_light = "เบา";
 style_strong = "แรง";
 style_untranslated = "วิธีสำหรับบทความที่ยังไม่ได้แปล";
@@ -662,7 +662,7 @@ li_text_ppppoe_dial = "PPPoE Dial-up ไดรเวอร์สำหรับ 
 li_text_sessions = "หลายเซสชั่นพร้อมกัน (Multiple sessions), ไม่จำกัดจำนวนการเชื่อมต่อ (connections)";
 
 / cFos
-cfos_html_h1 = "Driver สูงสุดสำหรับ DSL และ ISDN Dial-up";
+cfos_html_h1 = "Driver สูงสุดสำหรับ ISDN Dial-up";
 /. Part of page's title (in name of the tab in web browser)
 link_text_0190 = "ป้องกันผู้โทร";
 link_text_budget = "เคาท์เตอร์ออนไลน์";

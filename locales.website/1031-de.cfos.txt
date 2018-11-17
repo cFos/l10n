@@ -20,6 +20,7 @@ input_lang = "de";
 
 link_text_contact = "Kontakt";
 link_text_impressum = " / Impressum";
+link_text_privacy ="Datenschutzerklärung";
 link_text_download = "Download";
 link_text_forum = "Forum";
 link_text_oem_version = "OEM-Version";
@@ -47,6 +48,7 @@ close = "Schließen";
 /. See for details: https://en.wikipedia.org/wiki/HTTP_cookie
 /. Check that wikipedia page in your language to find out best translation for your language
 cookie_bar_text = "Wir verwenden Cookies, um Inhalte und Anzeigen zu personalisieren, Funktionen für soziale Medien anbieten zu können und die Zugriffe auf unsere Website zu analysieren. Außerdem geben wir Informationen zu Ihrer Nutzung unserer Website an unsere Partner für soziale Medien, Werbung und Analysen weiter.";
+cookie_bar_text2 = "Sie müssen Cookies zulassen um unsere Website besuchen zu können.";
 
 /. Used as text of link, which leads to page with detailed explanations
 /. Depending on your language, you might drop `See` part
@@ -54,6 +56,7 @@ cookie_bar_details = "Details ansehen";
 
 /. Used as "I've understood"
 cookie_bar_got_it = "Verstanden";
+cookie_accept = "Ich stimme zu";
 
 desc_6link = "IPv6 Verbindung mit XP, Vista und Windows 7";
 desc_dialup = "Internet-Einwahl";
@@ -62,18 +65,23 @@ desc_freeware = "Kostenlose Tools und Services";
 desc_notifier = "Bleiben Sie auf dem Laufenden über neue Tweets in Ihrem Twitter-Account";
 desc_notifier_v2 = "Bleiben Sie auf dem Laufenden über neue E-Mails, Tweets und RSS Feeds";
 desc_speedtest = "Testen Sie die Geschwindigkeit Ihrer Internet-Verbindung";
+ending_soon = "Nur noch kurze Zeit!";
+equinox_sale = "Sonderpreise im cFos Äquinoktium Sale!";
 freeware_text1 = "Neue Version von cFosSpeed verfügbar:";
 freeware_text2 = "Verbessertes Traffic Shaping: Maximale Bandbreite, minimaler Ping! Jetzt herunterladen: ";
+nicholas_sale = "50% sparen bei unserer Nikolaus-Aktion!";
 product_overview = "Produkt-Übersicht";
 slogan = "Bandbreite wirklich nutzen:<br /> Hohe Geschwindgkeit, niedriger Ping.";
-special_offer_xmas = "Weihnachtsaktion! <span class=\"red\">Sonderpreise</span> nur bis zum 21. Dezember!";
+special_offer_xmas = "Weihnachtsaktion! <span class=\"red\">Sonderpreise</span> nur bis zum <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(wegen des Wochenendes verlängert bis zum 02. Januar 2011)";
 special_offer_spring = "Sonderpreise anläßlich des Frühlingsfestes! Gültig bis 9. Februar 2011";
 special_offer_winter = "Sonderpreise im Winter-Sale bis zum 31. Januar 2012";
+easter_sale = "<span class=\"red\">Sonderpreise im Oster-Sale</span> bis zum <span id=\"endsale\"></span>!";
 summer_sale = "Sonderpreise im Sommer-Sale bis zum 31. August";
 worldcup_sale = "Sonderpreise zur Fußball-WM";
 winter_sale = "Sonderpreise im Winter-Sale!";
 winter_sale_ext = "Verlängert bis 28. Januar - Danke für Ihre großartige Unterstützung!";
+xmas_sale_extended = "Weihnachtsaktion! Verlängert bis <span id=\"endsale\"></span>!";
 
 /. Mean text styles, like `light font` (thin), or `bold font` (strong)
 style_light = "Leicht";
@@ -121,6 +129,8 @@ oem_header = "<a href=\"/en/cfosspeed/cfosspeed.htm\" style=\"color: #fb7204\">c
 /. Please, keep line feed (`<br/>` tag, which stands for line break) at approx middle of the text,
 /. preferred directly before the link to the brand pages
 oem_info_asrock = "Wir haben zusätzliche Informationen für Sie als <a class=\"inline\" href=\"/en/asrock/index.htm\">Käufer eines <b>ASRock</b> Motherboards</a>!";
+oem_info_asrock_old_version = "Sie benutzen eine <b class=\"red\">alte Version</b> von <b>ASRock XFast LAN</b>! Ein <a class=\"inline\" href=\"/en/asrock/index.htm\"><b>Upgrade</b> auf eine neue Version</a> von <b>ASRock XFast LAN</b> oder <b>cFosSpeed</b> wird empfohlen.";
+oem_info_asrock_old_version_no_link = "Sie benutzen eine <b class=\"red\">alte Version</b> von <b>ASRock XFast LAN</b>! Ein <b>Upgrade</b> auf eine neue Version von <b>ASRock XFast LAN</b> oder <b>cFosSpeed</b> wird empfohlen.";
 oem_info_asus = "Wir haben zusätzliche Informationen für Sie als <a class=\"inline\" href=\"/en/asus/asus.htm\">Käufer eines <b>ASUS</b> Motherboards</a>!";
 oem_info_gigabyte = "Wir haben zusätzliche Informationen für Sie als <a class=\"inline\" href=\"/en/gigabyte/index.htm\">Käufer eines <b>Gigabyte</b> Motherboards</a>!";
 oem_info_msi = "Wir haben zusätzliche Informationen für Sie als <a class=\"inline\" href=\"/en/msi/index.htm\">Käufer eines <b>MSI</b> Motherboards</a>!";
@@ -245,6 +255,7 @@ twitter_follow = "cFos auf Twitter folgen";
 twitter_follow_short = "cFos Software folgen";
 language_files = "Sprachdateien";
 word_translation = "Übersetzung";
+windows_10_rs3 = "getestet für Windows 10 RS3";
 
 / ----------------------------------------------------------------------
 /
@@ -468,6 +479,26 @@ word_year = "Jahr";
 
 / ----------------------------------------------------------------------
 /
+/  MyCommerce
+/
+/ ----------------------------------------------------------------------
+
+mycommerce_order_h1 = "Bestellung über Digital River";
+mycommerce_order_p1 = "Sie werden in <span id=\"countdown\">00</span> Sekunden zu unserer <b>MyCommerce</b>-Bestellseite weitergeleitet.";
+mycommerce_order_p2 = "Falls die Weiterleitung nicht funktioniert, versuchen Sie bitte diesen <a class=\"inline\" id=\"order_link\" href=\"/en/order/order.htm\"><b>direkten Link</b></a>.";
+
+/ ----------------------------------------------------------------------
+/
+/  Forum Redirect
+/
+/ ----------------------------------------------------------------------
+
+forum_redirect_h1 = "Weiterleitung zum cFos-Forum";
+forum_redirect_p1 = "Sie werden in <span id=\"countdown\">00</span> Sekunden zu unserem Forum bei <b>forumieren.de</b> weitergeleitet.";
+forum_redirect_p2 = "Falls die Weiterleitung nicht funktioniert, versuchen Sie bitte diesen <a class=\"inline\" href=\"https://cfos.forumieren.de\"><b>direkten Link</b></a>.";
+
+/ ----------------------------------------------------------------------
+/
 /  Order and Announcelist Confirmation Email
 /
 / ----------------------------------------------------------------------
@@ -638,6 +669,7 @@ pnet_nat_p1 = "Hier unsere <a class=\"inline\" href=\"/en/cfos-personal-net/port
 pnet_nat_p2a = "Erhalten Sie eine Lizenz für cFosSpeed und cFos Personal Net gratis!";
 pnet_nat_p2b = "Helfen Sie uns, unseren <a class=\"inline\" href=\"/en/cfos-personal-net/port-forwarding.htm\"><b>Router-Guide</b></a> zu komplettieren.";
 pnet_nat_p2c = "Schreiben Sie eine Anleitung für das Einrichten von NAT Port-Forwarding bei Ihrem Router.";
+pnet_nat_p2d = "(Wenn Ihr Router hier noch nicht gelistet ist)";
 pnet_nat_p3 = "Ist Ihr Router bereits gelistet?";
 pnet_nat_p4 = "(<span id=\"router_counter\"> </span> Router gelistet)";
 pnet_wmi_add_p1 = "Der <a class=\"inline\" href=\"wmi.htm\"><b>cFos WMI Monitor</b></a> ist ein gratis Add-on für cFos Personal Net zur Anzeige nahezu aller WMI Werte Ihres Systems, z.B. CPU Auslastung, GPU Auslastung, Netzwerk-Nutzung, Ping-Zeit, etc. Zugriff auf diese Werte von überall her.";
@@ -907,6 +939,7 @@ cfout_p1f = "Nicht-laufzeitbeschränkte Version für kommerzielle Nutzer auf Anf
 cfout_a1 = "cFos Outlook DAV herunterladen";
 cfout_h2 = "cFos Outlook DAV einrichten";
 cfout_l1 = "Starten Sie den cFos Outlook DAV Installer, um cFos Outlook DAV als Outlook Add-in zu installieren. Es wurde mit Outlook 2013 getestet, sollte aber auch mit Outlook 2010 laufen.";
+cfout_l1_v2 = "Starten Sie den cFos Outlook DAV Installer, um cFos Outlook DAV als Outlook Add-in zu installieren. Es wurde mit Outlook 2016 und 2013 getestet, sollte aber auch mit Outlook 2010 laufen.";
 cfout_l2_v2 = "Starten Sie Outlook und erstellen einen Kalender Ordner. Wählen sie dann nach Rechtsklick auf den Ordner die Option \"Sync with CalDAV\". Danach können Sie den Ordner nach erneutem Rechtsklick mittels \"Config CalDAV Sync\" konfigurieren.";
 cfout_l2a = "In unserem Forum finden Sie eine <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>ausführliche illustrierte Anleitung</b></a> zu diesem Thema.";
 cfout_l3 = "Sobald der Ordner erzeugt ist, starten Sie Outlook neu. Jetzt sollte ein kleiner Setup-Dialog erscheinen. Selektieren Sie die zu Ihrem Ordner gehörige Konfigurationsdatei und geben Sie die URL Ihres CalDAV Kalender-Servers sowie Benutzername und Passwort ein. Sie können ebenfalls ein Zeitintervall für die Synchronisation angeben. Danach starten Sie Outlook noch einmal neu.";
@@ -948,6 +981,7 @@ cfout_p7c_v2 = "In <em>C:\\Users\\IHR_BENUTZERNAME\\AppData\\Local\\cFos\\outloo
 cfout_p8 = "cFos Outlook DAV nutzt die Proxy Einstellungen des Internet Explorer. Diese können Sie unter Systemsteuerung, Internet Optionen einstellen.";
 cfout_p9 = "Um SSL-Zertifikat-Fehlermeldungen zu ignorieren kann im Schlüssel <em>HKEY_LOCAL_MACHINE\\SOFTWARE\\cFos\\outlook_dav</em> der Windows-Registry der Wert <b>ignore_ssl_errors</b> = <b>1</b> gesetzt werden.";
 cfout_p10 = "Um Probleme mit <b>UTF-8 kodierten vCards</b> zu beheben, muss man <b>Datei</b> -> <b>Optionen</b> -> <b>Erweitert</b> -> <b>Internationale Optionen</b> -> <b>Bevorzugte Codierung ausgehender vCards</b> auf <b>UTF-8</b> setzen.";
+cfout_disclaimer = "Bei der Synchronisation von Outlook Daten mit CalDAV/CardDAV Servern können unerwartete Interoperabilitäts-Probleme und Datenverluste auftreten. Die Bestellung erfolgt unter der Voraussetzung, dass Sie cFos Outlook DAV erfolgreich für Ihr Einsatzgebiet vollständig getestet haben.";
 cfout_conf_title = "Synchronisieren sie einen CalDAV Kalender oder ein CardDAV Adressbuch mit Outlook in 5 Schritten";
 cfout_goto_help = "Lesen Sie unsere <b>detaillierte illustrierte Anleitung</b>.";
 cfout_server = "CalDAV/CardDAV Servertyp auswählen";
@@ -1075,10 +1109,10 @@ li_text_sessions = "Multi-Sessionfähig, ohne Kanalbeschränkung";
 /
 / ----------------------------------------------------------------------
 
-cfos_html_h1 = "ISDN &amp; DSL-Einwahltreiber mit Traffic Shaping";
+cfos_html_h1 = "ISDN-Einwahltreiber";
 
 /. Part of page's title (in name of the tab in web browser)
-cfos_professional_title = "cFos, Einwahl &amp; Beschleunigung f. DSL &amp; ISDN";
+cfos_professional_title = "cFos, Einwahltreiber für ISDN";
 
 link_text_budget = "Volumen &amp; Zeit-Zähler";
 link_text_cfos_features = "cFos Feature-Liste";
@@ -1174,6 +1208,26 @@ notifier_l5 = "Überwacht Ihre Listen zusätzlich zur Haupt Timeline";
 notifier_l6 = "Benachrichtigungen vorübergehend abschaltbar";
 notifier_l7 = "Auswählbarer Benachrichtigungsklang";
 notifier_l8 = "Accounts können hinzugefügt und entfernt werden";
+
+/ ----------------------------------------------------------------------
+/
+/  cFosICS
+/
+/ ----------------------------------------------------------------------
+
+cfosics_title = "cFosICS - Internetverbindungsfreigabe von Windows steuern";
+cfosics_h1 = "cFosICS";
+cfosics_p1 = "<b>cFosICS</b> ist ein Freeware-Tool um die Internetverbindungsfreigabe von Windows zu steuern.";
+cfosics_p2 = "Es bietet die folgenden Kommandozeilenbefehle:";
+cfosics_p3 = "<b>cFosICS.exe <span class=\"green\">list</span></b> - listet alle Internetverbindungen, die zur gemeinsamen Nutzung freigegeben werden können.";
+cfosics_p4 = "<b>cFosICS.exe <span class=\"green\">share &lt;public_GUID&gt; &lt;private_GUID&gt;</span></b> - richtet die gemeinsame Nutzung des Internetzugangs for zwei Verbindungen ein unter Benutzung der GUIDs, die man durch den Befehl <b>cFosICS.exe <span class=\"green\">list</span></b> erhalten hat.<br/>Die <b>&lt;public_GUID&gt;</b> bestimmt die Verbindung, die geteilt wird, die <b>&lt;private_GUID&gt;</b> wählt die Netzwerkverbindung / den Netzwerkadapter aus, der die geteilte Internetverbindung mitbenutzen soll.";
+cfosics_p5 = "<b>cFosICS.exe <span class=\"green\">disable</span></b> - entfernt eine eingerichtete Internetverbindungsfreigabe.";
+cfosics_p6 = "Neuere Versionen von Windows 10 enthalten einen Bug, der die Internetverbindungsfreigabe nach einem Neustart stoppen kann.";
+cfosics_p6a = "Daher bietet <b>cFosICS</b> die folgenden zusätzlichen Befehle an:";
+cfosics_p7 = "<b>cFosICS.exe <span class=\"green\">restart</span></b> - startet die Internetverbindungsfreigabe neu";
+cfosics_p8 = "<b>cFosICS.exe <span class=\"green\">autostart &lt;delay&gt;</span></b> - benutzt die Aufgabenplanung von Windows um \"cFosICS restart\"  automatisch bei einem Neustart des Systems aufzurufen. Dies geschieht mit einer Verzögerung von <b>&lt;delay&gt;</b> Sekunden - ein Start ohne Verzögerung wird in den meisten Fällen nicht funktionieren. Wird für<b> &lt;delay&gt;</b> kein Wert angegeben, wird der Default-Wert <b>60</b> benutzt.";
+cfosics_p9 = "<b>cFosICS.exe <span class=\"green\">uninstall</span></b> - entfernt das \"cFosICS restart\"-Kommando aus der Aufgabenplanung.";
+cfosics_p10 = "<b>Hinweis</b>: Alle Befehle müssen als Administrator ausgeführt werden, z.B. in einer PowerShell-Konsole die mittels \"Als Administrator ausführen\" gestartet wurde.";
 
 / ----------------------------------------------------------------------
 /
@@ -1286,8 +1340,8 @@ contact_form_p0 = "Kontaktieren Sie uns wegen <b>technischer Probleme</b>, Frage
 /. Refer to `speed_guide` language key in website's localization file to see how `cFos Speed Guide`
 /. has been translated in your language (here: https://github.com/cFos/l10n/tree/master/locales.website)
 contact_form_p0_a1 = "<b>Geschwindigkeit zu niedrig?</b><br/>Vielleicht kann der <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed-Guide</a> weiterhelfen";
-
 contact_form_p0_a2 = "<b>Wo ist mein Lizenzschlüssel?</b><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Kontaktieren Sie uns, wenn Ihre Bestellung zu lange dauert</a>";
+contact_form_p0_a2_v2 = "<b>Fragen zu Bestellung, Bezahlung und Lieferung?</b>";
 contact_form_p0_a3 = "<b>Statusfenster ausschalten?</b><br/><a class=\"inline\" href=\"//en/cfosspeed/documentation/status.htm\">Automatisches Öffnen des Statusfensters abschalten</a>";
 
 /. Used in our contact form on website, as possible choices, like:
@@ -1299,6 +1353,7 @@ contact_form_p0_a3 = "<b>Statusfenster ausschalten?</b><br/><a class=\"inline\" 
 contact_form_o1 = "Business Partner, Lizensierung, Bundling";
 contact_form_o2 = "Presse, Artwork, Heft-CD/DVD";
 contact_form_o3 = "Bestellung: Wo ist mein Lizenzschlüssel?";
+contact_form_o3_v2 = "Bestellung: Fragen zu Zahlung und Lieferung";
 contact_form_o4 = "Bestellung: Ich habe meinen Lizenzschlüssel verloren";
 contact_form_o5 = "Vorschläge / Andere Fragen";
 contact_form_o6 = "Ich kann cFosSpeed nicht auf 100% kalibrieren";
@@ -1319,6 +1374,7 @@ contact_form_l2 = "Kostenloses Artwork in drucktauglicher Auflösung finden Sie 
 contact_form_l3 = "Unsere letzten <a class=\"inline\" href=\"//en/press/press.htm\">Pressemitteilungen</a>";
 contact_form_l4 = "<a class=\"inline\" href=\"//en/press/reviews.htm\">Presseberichte und Tests</a> unserer Produkte";
 contact_form_p2 = "Bitte untersuchen Sie ihren Spam-Ordner. Ihr Lizenzschlüssel ist ein e-Mail-Anhang und könnte als Spam einsortiert worden sein.<br/><br/>Bitte gewähren Sie uns 2 Arbeitstage zur Bearbeitung Ihrer Bestellung. Sollten Sie Ihren Lizenzschlüssel nicht innerhalb von 2 Arbeitstagen erhalten, waren wir vielleicht nicht in der Lage Ihre Zahlung zuzuordnen. Oft erhalten wir Bestellungen unter einer und Zahlungen unter einer anderen e-Mail-Adresse. Bitte füllen Sie das unten verlinkte Formular so detailliert wie möglich aus - das wird uns helfen, Ihnen Ihren Lizenzschlüssel schnellstmöglich zuzuschicken.<br/><br/><a class=\"inline\" href=\"//en/contact/msgpost.htm\">Wo ist mein Lizenzschlüssel?</a>";
+contact_form_p2_v2 = "Alle Informationen zu Bestellung, Zahlung und Lieferung finden Sie hier:";
 contact_form_a1 = "Fordern sie Ihren verlorenen Lizenzschlüssel erneut an";
 contact_form_p3 = "Tipps zur Verbesserung Ihrer Internet-Geschwindigkeit finden Sie im <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Guide</a>.";
 contact_form_p4 = "In unserem <a class=\"inline\" href=\"//en/traffic-shaping/speed-guide.htm\">cFos Speed Guide</a> finden Sie Anleitungen um  cFosSpeed für <b>optimale Leistung</b> zu kalibrieren.";
@@ -1636,6 +1692,8 @@ ts_tsn_hov8 = "Erkennt die meisten gängigen Protokolle, wie HTTP, Mail, VoIP, F
 ts_tsn_a2 = "Unsere alten Traffic-Shaping-Seiten";
 ts_tsn_a4 = "cFos Traffic Shaping für Smartphones, Tablets und andere mobile Geräte";
 ts_3work_together = "Wie alle drei Einstellungen zusammenspielen";
+ts_paper_title = "Wie effektiv ist cFosSpeed Traffic-Shaping?";
+ts_paper_p1 = "Christoph Lüders & Christian Carazo, cFos Software GmbH - 26. Oktober 2018";
 youtube_speedwin7 = "Sehen Sie sich die cFosSpeed Installation unter Windows 7 an";
 net_talk_help = "Versende Traffic Statistiken in Ihrem LAN";
 net_talk_help_long = "Sende statistische Daten des Traffic Shaping an andere PCs im lokalen (Heim-)Netzwerk. Dies erhöht die Genauigkeit des Traffic Shaping. Es werden keine Daten ins Internet verschickt.";
@@ -1795,6 +1853,44 @@ sp_rwin_th3 = "Name der Software";
 sp_rwin_th4 = "Verbindungstyp /<br /> RX-Bandbreite [Kbyte/s]";
 sp_rwin_th5 = "ohne RWIN-Erh.<br /> [Kbyte/s]";
 sp_rwin_th6 = "mit RWIN-Erh.<br /> [Kbyte/s]";
+sp_shared_connection_title = "cFosSpeed behebt Datenstau bei geteilten Internet-Verbindungen";
+sp_shared_connection_h1 = "Wie verhindert man Datenstau, wenn sich viele Benutzer eine Internetverbindung teilen?";
+sp_shared_connection_p1 = "In Restaurants, Hostels, Hotels, Gästehäusern, auf Universitäts-Campussen, in Großraumbüros - immer, wenn sich viele Menschen eine Internetverbindung teilen - ist diese Internetverbindung oftmals überlastet und die Benutzer leiden unter Verzögerungen von manchmal mehreren Sekunden.";
+sp_shared_connection_p2 = "Hier kann cFosSpeed einen großen Unterschied machen, indem es den Datenverkehr vom und zum Internet priorisiert. Es kann zum Beispiel erkennen, wenn ein Benutzer eine Anzahl Fotos hochlädt oder ein einzelnes Gerät gerade ein großes Software-Update herunterlädt. cFosSpeed schränkt diese großen Up- oder Downloads dann durch Reduzierung der verfügbaren Bandbreite um 1-2 Prozent ein. Dies verringert die Ping-Zeit der gesamten Internetverbindung und erlaubt zügige Webnutzung und sogar Medien-Streaming, VoIP-Anrufe und Online-Gaming.";
+sp_shared_connection_p3 = "Der übliche Aufbau von geteilten Internetverbindungen.";
+sp_shared_connection_alt1 = "Diagramm des üblichen Aufbaus einer geteilten Internetverbindung";
+sp_shared_connection_p4 = "Diese Konfiguration führt zu großen Verzögerungen im Datenverkehr, wenn eines der verbundenen Geräte massive Up- oder Downloads beginnt, also z.B Fotos oder Videos in die Cloud hoch- oder Software-Updates herunterlädt.";
+sp_shared_connection_p5 = "Das Problem kann gelöst werden, indem man den Original-Router (<b>Router A</b>) exclusiv für den <b>Windows PC</b> einsetzt und einen billigen zweiten WLAN-Router (<b>WLAN Router B</b>) für den geteilten Zugang kauft.";
+sp_shared_connection_alt2 = "Diagramm einer geteilten Internetverbindung mit cFosSpeed";
+sp_shared_connection_p6 = "Die neue Konfiguration, in der cFosSpeed den gesamten Datenverkehr des WLAN-Netzwerks priorisiert.";
+sp_shared_connection_p7 = "Um die Gesamt-Performance weiter zu verbessern, kann der <b>Windows PC</b> eine zusätzliche Netzwerkschnittstelle für die Verbindung mit <b>Router A</b> erhalten. Grundsätzlich empfehlen wir Kabelverbindungen, da sie eine geringere Latenz aufweisen als WLAN.";
+sp_shared_connection_alt3 = "Diagramm einer geteilten Internetverbindung mit cFosSpeed, einer zweiten LAN-Verbindung und einem weiteren WLAN-Router";
+sp_shared_connection_p8 = "Erweiterte Konfiguration mit cFosSpeed, einer zweiten LAN-Verbindung und zusätzlichem WLAN-Router zur Vergrößerung der Reichweite.";
+sp_shared_connection_pct = "Die Wirkung dieser Konfiguration wurde durch das Computermagazin <b>c't</b> getestet.<br/><b>c't - magazin für computer technik</b>, Ausgabe 18/2018, Seiten 152-155, Copyright by Heise Medien:<br/><a target=\"_blank\" class=\"inline\" href=\"/files/ct.1818-100579-.pdf\">Windows 10 als Router mit Internet Connection Sharing</a>";
+sp_shared_connection_h2 = "Den WLAN-Router anschließen";
+sp_shared_connection_p9 = "Verbinden Sie den WAN-Anschluss von <b>WLAN Router B</b> Netzwerkanschluss des <b>Windows PC</b>";
+sp_shared_connection_p11 = "Mit unserem Freeware-Tool <a class=\"inline\" href=\"/en/cfosspeed/cfosics.htm\"><b>cFosICS</b></a>können Sie dies beheben.";
+sp_shared_connection_alt4 = "Diagramm mit der Position des WAN-Anschlusses des Routers";
+sp_shared_connection_h3 = "Den Windows PC konfigurieren";
+sp_shared_connection_l1 = "Installieren Sie cFosSpeed, folgen Sie dafür den <a class=\"inline\" href=\"/en/cfosspeed/documentation/installation.htm\">Installationsanweisungen</a>";
+sp_shared_connection_l2 = "Drücken Sie die \"Windows\"-Taste und geben Sie dann <b>ncpa.cpl</b> ein";
+sp_shared_connection_l3 = "Klicken Sie auf das angezeigte Systemsteuerungselement";
+sp_shared_connection_l4 = "Rechts-klicken Sie dann auf das Netzwerkgerät, das Sie freigeben wollen. Es ist dasjenige, das den <b>Windows PC</b> mit dem Internet verbindet";
+sp_shared_connection_l5 = "Klicken Sie auf \"Eigenschaften\"";
+sp_shared_connection_l6 = "Klicken Sie auf \"Freigabe\"";
+sp_shared_connection_l7 = "Setzen Sie einen Haken in der oberen Checkbox um die Verbindungsfreigabe zu aktivieren. Die untere Checkbox sollte nicht gesetzt sein";
+sp_shared_connection_l8 = "Klicken Sie auf \"OK\"";
+sp_shared_connection_p10 = "Die Internetverbindung dieses Netzwerkgrätes ist jetzt freigegeben.";
+sp_shared_connection_h4 = "Den WLAN-Router einrichten";
+sp_shared_connection_p12 = "Diese spezielle Anleitung ist für den ASUS RT-N12E, den wir wegen seines niedrigen Preises und einfachen Setups ausgewählt haben. Unser Aufbau für priorisierte Internetfreigabe sollte aber auch mit den meisten anderen erhältlichen WLAN-Routern realisierbar sein.";
+sp_shared_connection_l9 = "Verbinden Sie sich mit Ihrem Router über ein Netzwerkkabel oder sein WLAN-Netzwerk. Der Router erstellt ein offenes (nicht passwortgeschütztes) WLAN-Netzwerk mit der SSID <b>ASUS_60</b>. Geben sie die IP-Adresse des Routers (<b>192.168.1.1</b>) in die Adressleiste Ihres Browsers ein, um mit der Einrichtung zu beginnen";
+sp_shared_connection_l10 = "Klicken Sie auf \"Automatic Setting\"";
+sp_shared_connection_l11 = "Geben Sie einen <em>Router Kontonamen</em> und ein <em>Neues Kennwort</em> ein";
+sp_shared_connection_l12 = "Klicken Sie auf \"Weiter\"";
+sp_shared_connection_l13 = "Geben Sie eine neue<em> SSID</em> (z.B. GuestWiFi) und ein WLAN-Kennwort ein";
+sp_shared_connection_l14 = "Klicken Sie auf \"Anwenden\"";
+sp_shared_connection_l15 = "Der Router zeigt nun eine Seite mit der neuen WLAN-Konfiguration an. Schreiben Sie diese Informationen auf, denn sie werden von nun an gebraucht um sich mit dem Router zu verbinden";
+sp_shared_connection_l16 = "Nach erneuter Verbindung mit dem neu konfigurierten WLAN-Netzwerk, zeigt der Router ein Seite mit der aktuellen Konfiguration und dem Verbindungsstatus an";
 sp_doc_archive = "Archiv";
 sp_doc_cdm_h1 = "Class Delay Management";
 sp_doc_cdm_p1 = "There are many different options for prioritizing a connection while it is currently running. For all of them, however, you need to right-click on your status window and click on Current Connections";
@@ -2167,6 +2263,12 @@ sp_news_p2 = "Wir werden pro Jahr nur einige wenige Meldungen veröffentlichen."
 sp_news_h0 = "cFosSpeed Neuigkeiten";
 sp_news_h1 = "cFosSpeed<br/>News-Richtlinien";
 sp_news_p3 = "Da es mittlerweile schwierig geworden ist viele Personen über e-Mail zu erreichen und die Verbreitung der sozialen Netzwerke zunimmt, haben wir uns entschieden, Twitter zur Verbreitung unserer Kurzmitteilungen einzusetzen. Bei Neuigkeiten, z.B. Erscheinen einer neuen cFosSpeed Betaversion, werden wir diese zukünftig auf Twitter posten. Dies wird maximal einige Male pro Woche geschehen. Sollten sie also noch keinen Twitter-Account haben, möchten wir sie bitten einen einzurichten und dort <a class=\"inline\" target=\"_blank\" href=\"https://twitter.com/cFosSoftware\"><b>@cFosSoftware</b></a> zu folgen um die letzten Neuigkeiten zu erfahren. Dann können sie den <a href=\"/en/cfos-notifier/cfos-notifier.htm\"><b>cFos Notifier</b></a> benutzen, um unter anderem auch unsere Mitteilungen auf Twitter zu verfolgen.<br/><br/>Darüber hinaus haben wir eine Benachrichtigungsfunktion in cFosSpeed eingebaut. Wenn wichtige Neuigkeiten verfügbar sind (nur wenige Male pro Jahr), wie z.B. neue cFosSpeed Release-Versionen, werden wir die cFosSpeed News-Seite aktualisieren. Ab Version 7.01, build 1921 wird in diesem Fall im cFosSpeed-Statusfenster ein neues Symbol erscheinen, das nach Anklicken die cFosSpeed News-Seite öffnet.";
+
+/. Start of cFosSpeed news
+
+sp_news_20180917 = "17. September 2018";
+sp_news_20180917_text1 = "<b>Das Freeware Tool cFosICS steuert die Internetverbindungsfreigabe von Windows</b><br/><b>cFosICS</b> stellt Kommandos zur Verfügung um den Bug in Windows 10 Versionen zu fixen, der die Internetverbindungsfreigabe nach einem Neustart stoppen kann.";
+sp_news_20180917_text2 = "Vorgestellt in <b>c't - magazin für computer technik</b>, Ausgabe 18/2018, Seiten 152-155, Copyright by Heise Medien:<br/><a target=\"_blank\" class=\"inline\" href=\"/files/ct.1818-100579-.pdf\">Windows 10 als Router mit Internet Connection Sharing</a>";
 sp_news_20160629 = "29. Juni 2016";
 sp_news_20160629_text1 = "<b>Bugfix</b><br/>Fehler in <em>expand_rwin</em>-Feature für IPv6 bei Servern, die kein windows scaling unterstützen, behoben. Vielen Dank an Thomas Adamczyk für seine Hilfe.";
 sp_news_20160629_text2 = "<b>DNS-Anfragen reduziert</b><br/>DNS-Namen werden nicht gespeichert, wenn auf die Anfrage eine Fehlermeldung zurückgegeben wurde. Dies sollte die periodischen DNS-Anfragen ein gutes Stück verringern.";
@@ -2562,9 +2664,14 @@ cont_cont_t3 = "Standardklausel";
 cont_cont_p4 = "cFos Software GmbH, Bonn (Deutschland) entwickelt und verbessert seit 1993 Kommunikationstreiber für verschiedene Betriebssysteme. Zu unseren Produkten gehört cFosSpeed, ein fortschrittlicher Traffic Shaping-Treiber für Breitband-Internet und der IPv6 Dial-Up-Treiber / Software-Router IPv6 Link ebenso wie cFos und cFos Broadband Connect, leistungsstarke DSL und ISDN Dial-Up Treiber.";
 cont_cont_p4_v2 = "cFos Software GmbH, Bonn (Deutschland) entwickelt und verbessert seit 1993 Kommunikationssoftware für Windows. Zu unseren Produkten gehört cFosSpeed, ein fortschrittlicher Traffic Shaping Treiber, cFos Personal Net, der persönliche Web- und Cloud Server, cFos IPv6  Link, der IPv6 Dial-Up-Treiber / Software-Router, sowie cFos und cFos Broadband Connect, die leistungsstarke DSL und ISDN Dial-Up Software.";
 cont_cont_p5 = "Gemäß § 28 des Bundesdatenschutzgesetzes (BDSG) machen wir darauf aufmerksam, dass die im Rahmen der Geschäftsabwicklung notwendigen Daten mittels einer EDV-Anlage gemäß § 33 (BDSG) verarbeitet und gespeichert werden und zwar unter strenger Beachtung der einschlägigen Vorschriften der Bundesdatenschutzgesetze (BDSG) und des Teledienstdatenschutzgesetzes (TDDSG).";
-cont_cont_t4 = "Datenschutz";
+cont_cont_t4 = "Vertraulichkeit";
 cont_cont_p6 = "Selbstverständlich behandeln wir Ihre Bestandsdaten absolut vertraulich und ausschließlich zur Abwicklung Ihrer Bestellung.";
 cont_cont_t5 = "Cookies";
+cont_cont_t6 = "Datenschutz";
+cont_cont_ac_cfos = "Cookies für <b>cfos.de</b> erlauben - um die von Ihnen für cfos.de ausgewählte Sprache zu speichern";
+cont_cont_ac_google = "Cookies für <b>Google Analytics</b> erlauben";
+cont_cont_ac_adsense = "Cookies und Tracking für <b>Google Adsense</b> erlauben";
+cont_cont_ac_text = "(Diese Einstellung wird in einem Cookie gespeichert)";
 cont_cont_p6_cookies = "Drittanbieter können Cookies in Ihrem Browser platzieren und lesen, sowie Web-Beacons verwenden, um Daten zu sammen, die sie durch die Platzierung von Werbung auf unseren Seiten erhalten. Falls Sie dies nicht möchten, können Sie in Ihrem Browser Cookies für unsere Webseiten deaktivieren.";
 cont_cont_p6_google1 = "Wir werten die Nutzung unserer Webseiten mittels eigener Cookies und Google Analytics aus.";
 cont_cont_p6_google2 = "IP-Addressen werden von Google anonymisiert. Sie können Google Analytics vollständig deaktivieren indem Sie ein von Google angebotenes Add-On zur Deaktivierung von Google Analytics in Ihren Browser installieren. Näheres finden Sie <a class=\"inline\" href=\"http://tools.google.com/dlpage/gaoptout?hl=de\">hier</a>.";
@@ -2915,10 +3022,43 @@ port_forwarding_no_instruction_p2 = "Die Anleitung sollte einige Screenshots und
 port_forwarding_no_instruction_p3 = "Die Ziffern zum <b>Markieren der einzelnen Schritte</b> in Ihren Screenshots finden sie <a class=\"inline\" href=\"/files/port-forwarding-step-numbers.zip\"><b>hier</b></a>.";
 port_forwarding_no_instruction_p4 = "Die Screenshots sollten unskaliert als 24-bit PNGs oder JPGs mit hoher Qualität vorliegen.";
 port_forwarding_no_instruction_p5 = "Bitte betten Sie die Screenshots <b>nicht</b> in andere Dateien (z.B. DOC, PDF oder HTML-Mail) ein, sondern senden Sie sie einzeln oder in einem ZIP-Archiv. Für die Beschreibung der einzelnen Schritte reicht eine einfache Textdatei oder ihre Mail.";
+port_forwarding_no_instruction_p6 = "Bitte benutzen Sie <b>keine anderen Methoden</b> (z.B. Pfeile oder Kreise) um die Schritte zu markieren.";
 port_forwarding_contact_us = "Kontaktieren Sie uns";
 coming_soon_title = "Bald verfügbar!";
 coming_soon_p1 = "Für diesen Router haben wir eine Anleitung in Vorbereitung.<br/><b>Sie wird in Kürze verfügbar sein.</b>";
+avm_fritzbox_3370_title = "Port-Forwarding für die AVM FRITZ!Box 3370 einrichten";
+avm_fritzbox_3370_p1 = "Melden sie sich bitte mit ihrem Passwort an der Fritzbox an";
+avm_fritzbox_3370_p2 = "Navigieren sie nun auf das Menü \"Internet\"";
+avm_fritzbox_3370_p3 = "Hier navigieren sie weiter auf die Option \"Freigaben\"";
+avm_fritzbox_3370_p4 = "Jetzt wählen sie den Punkt \"Portfreigaben\" aus";
+avm_fritzbox_3370_p5 = "Betätigen sie nun den Button \"Neue Portfreigabe\"";
+avm_fritzbox_3370_p6 = "Wählen sie hier bitte \"HTTP-Server\" aus";
+avm_fritzbox_3370_p7 = "Nun wählen sie den PC aus, auf dem cFos Personal Net ausgeführt wird";
+avm_fritzbox_3370_p8 = "Klicken sie nun auf \"OK\", damit ihre Eingaben übernommen werden";
+avm_fritzbox_3370_p9 = "Klicken sie bitte auf \"Übernehmen\", somit wird die Konfiguration in Betrieb genommen";
+avm_fritzbox_3370_p10 = "Klicken sie bitte nun noch auf die 3 Punkte und auf \"Abmelden\"";
+avm_fritzbox_3390_title = "Port-Forwarding für die AVM FRITZ!Box 3390 einrichten";
+avm_fritzbox_3390_p1 = "Rufen Sie in Ihrem Browser die Fritz-Box 3390 auf, indem sie in die Kommandozeile \"fritz.box\" eintippen";
+avm_fritzbox_3390_p2 = "Geben Sie das Kennwort in das dafür vorgesehene Fenster ein";
+avm_fritzbox_3390_p3 = "Klicken Sie in der linken Menü-Leiste auf den Eintrag \"Internet\"";
+avm_fritzbox_3390_p4 = "Klicken Sie in der linken Menü-Leiste auf den Eintrag \"Freigaben\"";
+avm_fritzbox_3390_p5 = "Wählen Sie oben den Karteikartenreiter \"Portfreigaben\" aus";
+avm_fritzbox_3390_p6 = "Klicken Sie unten rechts auf \"neue Portfreigabe\"";
+avm_fritzbox_3390_p7 = "Setzen Sie den Haken bei \"Portfreigabe aktiv für\" und wählen Sie <em>HTTP-Server</em> aus";
+avm_fritzbox_3390_p8 = "Suchen Sie aus der Liste eine Zeile tiefer den Computer aus, für den die Portfreigabe gelten soll. Die IP-Adresse sollte die Fritz-Box selbständig einfügen.";
+avm_fritzbox_3390_p9 = "Klicken Sie auf \"OK\". In der Liste der Porfreigaben sollte jetzt der Computer mit der entsprechenden Freigabe auftauchen.";
+avm_fritzbox_3390_p10 = "Klicken Sie auf \"Übernehmen\". Damit ist eine Portfreigabe für den ausgewählten Computer eingerichtet";
+avm_fritzbox_3390_p11 = "Sie können sich jetzt wieder von der Fritz-Box abmelden, indem Sie rechts oben auf die drei Streifen und damm auf \"Abmelden\" klicken.<br/>Beachten Sie, dass nur eine Portfreigabe für einen bestimmten Port (in diesem Falle Port:80 für HTTP) zu einem Gerät möglich ist.";
 avm_fritzbox_6490_cable_title = "Port-Forwarding für die AVM FRITZ!Box 6490 Cable einrichten";
+avm_fritzbox_7113_title = "Port-Forwarding für die AVM FRITZ!Box 7113 einrichten";
+avm_fritzbox_7113_p1 = "Geben Sie in Ihrem Browser \"http://fritz.box\" ein. Geben Sie Ihr Passwort ein. Klicken Sie auf \"Anmelden\"";
+avm_fritzbox_7113_p2 = "Klicken Sie auf den Reiter \"Einstellungen\"";
+avm_fritzbox_7113_p3 = "Klicken Sie auf \"Erweiterte Einstellungen\"";
+avm_fritzbox_7113_p4 = "Klicken Sie auf \"Internet\"";
+avm_fritzbox_7113_p5 = "Klicken Sie auf \"Freigabe\"";
+avm_fritzbox_7113_p6 = "Klicken Sie auf den Button \"Neue Portfreigabe\"";
+avm_fritzbox_7113_p7 = "Wählen sie \"HTTP-Server\" und dann den Computer, auf dem cFos Personal Net läuft, aus der Optionsliste";
+avm_fritzbox_7113_p8 = "Klicken Sie auf \"Übernehmen\"";
 avm_fritzbox_7270_title = "Port-Forwarding für die AVM FRITZ!Box 7270 einrichten";
 avm_fritzbox_7270_p1 = "Melden Sie Sich mit Ihrem Passwort bei Ihrer FRITZ!Box an";
 avm_fritzbox_7270_p2 = "Klicken Sie auf \"Internet\" im Hauptmenü (links)";
@@ -2935,6 +3075,8 @@ avm_fritzbox_7312_p4 = "Klicken Sie auf \"Neue Portfreigabe\"";
 avm_fritzbox_7312_p5 = "Wählen Sie \"HTTP-Server\" im oberen und Ihren PC, auf dem cFos Personal Net läuft, im unteren Dropdown-Menü aus";
 avm_fritzbox_7312_p6 = "Bestätigen Sie mit einem Klick auf \"OK\"";
 avm_fritzbox_7312_p7 = "Aktivieren Sie die Portfreigabe durch einen Klick auf \"Übernehmen\"";
+avm_fritzbox_7360_title = "Port-Forwarding für die AVM FRITZ!Box 7360 einrichten";
+avm_fritzbox_7362_sl_title = "Port-Forwarding für die AVM FRITZ!Box 7362 SL einrichten";
 avm_fritzbox_7390_title = "Port-Forwarding für die AVM FRITZ!Box 7390 einrichten";
 avm_fritzbox_7490_title = "Port-Forwarding für die AVM FRITZ!Box 7490 einrichten";
 avm_fritzbox_7490_p1 = "Melden Sie Sich mit Ihrem Benutzernamen und Passwort bei Ihrer FRITZ!Box an";
@@ -2963,6 +3105,7 @@ d_link_dsl_2730u_p5 = "Wählen Sie \"Web Server(HTTP)\"aus dem Dropdown-Menü";
 d_link_dsl_2730u_p6 = "Geben Sie die (vorzugsweise statische) IP-Adresse des Computers, auf dem cFos Personal Net läuft, in das Feld \"Server IP Address\" ein";
 d_link_dsl_2730u_p7 = "Klicken Sie auf den \"Apply\" Button";
 d_link_dsl_2730u_p8 = "Melden Sie Sich vonn Ihrem Router ab, indem Sie auf \"Logout\" in dem Menü links klicken";
+d_link_dsl_2730u_title = "Port-Forwarding für den D-Link DSL-2750 einrichten";
 edimax_br6228n_title = "Port-Forwarding für den Edimax BR6228N einrichten";
 edimax_br6228n_p1 = "Melden Sie Sich mit Ihrem Benutzernamen und Passwort bei Ihrem Router an (Default-IP <b>192.168.1.1</b> - Benutzername <b>admin</b>, Kennwort <b>1234</b>)";
 edimax_br6228n_p2 = "Klicken Sie auf \"Allgemeines Setup\"";
@@ -3014,6 +3157,43 @@ mitrastar_hgw_2501gn_r2_p6 = "Aktivieren Sie die \"Active\" Checkbox";
 mitrastar_hgw_2501gn_r2_p7 = "Wählen Sie Select \"WWW\" als \"Service Name\" und geben Sie die (vorzugsweise statische) IP-Adresse des Computers, auf dem cFos Personal Net läuft, in das Feld \"Server IP Address\" ein";
 mitrastar_hgw_2501gn_r2_p8 = "Klicken Sie auf den \"Apply\" Button";
 mitrastar_hgw_2501gn_r2_p9 = "Melden Sie Sich von Ihrem Router ab, indem Sie auf das \"Logout\" Icon oben rechts auf der Seite klicken";
+netgear_wndr3700_n600_p1 = "Geben Sie <em>www.routerlogin.net</em> oder die entsprechende IP (Standart-IP ist <b>192.168.1.1</b>) in die Addresszeile ein und drücken Sie \"Enter\"";
+netgear_wndr3700_n600_p2 = "Geben Sie ihre Logindaten für den Router ein ( Standart Nutzername : <b>admin</b>, Standart Passwort: <b>password</b>) und klicken Sie auf \"Anmelden\"";
+netgear_wndr3700_n600_p3 = "Klicken Sie in der linken Spalte unter \"Erweitert\" auf \"Portweiterleitung / Port-Triggering\"";
+netgear_wndr3700_n600_p4 = "Wählen Sie \"Portweiterleitung\" aus";
+netgear_wndr3700_n600_p5 = "Wählen Sie als Dienstnamen \"HTTP\" aus";
+netgear_wndr3700_n600_p6 = "Geben Sie die IP Addresse des Rechners ein, auf dem cFos Personal Net läuft";
+netgear_wndr3700_n600_p7 = "Klicken Sie auf \"Hinzufügen\"";
+netgear_wndr3700_n600_p8 = "Port-Forwarding ist jetzt für Ihren Computer eingerichtet";
+o2_homebox_6641_title = "Port-Forwarding für die O2 Homebox 6641 (Homebox II) einrichten";
+o2_homebox_6641_p1 = "Melden Sie sich mit Ihrem Kennwort an der Homebox an";
+o2_homebox_6641_p2 = "Wählen Sie im Menü auf der linken Seite \"Heimnetz\" aus";
+o2_homebox_6641_p3 = "Klicken Sie auf \"Port Forwarding\"";
+o2_homebox_6641_p4 = "Klicken Sie auf den Button \"Neu\"";
+o2_homebox_6641_p5 = "Wählen Sie den Dienst \"HTTP\"";
+o2_homebox_6641_p6 = "Geben Sie die Endziffer der IP-Adresse Ihren Rechners ein, auf dem cFos Personal Net läuft";
+o2_homebox_6641_p7 = "Klicken Sie auf den Button \"Speichern\"";
+o2_homebox_6641_p8 = "Wählen Sie \"Port Forwarding aktivieren\"";
+o2_homebox_6641_p9 = "Klicken Sie auf den Button \"Speichern\"";
+speedport_w_724v_title = "Port-Forwarding für den Speedport W 724V einrichten";
+speedport_w_724v_p1 = "In die Adressleiste des Browsers <b>speedport.ip</b> (ohne www) oder <b>192.168.2.1</b> eintragen und die EINGABE-Taste betätigen";
+speedport_w_724v_p2 = "Das Passwort für die Routereinstellungen eintragen. Im Lieferzustand steht es auf der Rückseite des Routers";
+speedport_w_724v_p3 = "Danach unten auf die Schaltfläche \"Login\" klicken";
+speedport_w_724v_p4 = "Jetzt oben auf \"Internet\" klicken";
+speedport_w_724v_p5 = "Danach links auf \"Portfreischaltung\"";
+speedport_w_724v_p6 = "Und dann rechts auf \"Port-Umleitungen und Port-Weiterleitungen\"";
+speedport_w_724v_p7 = "Jetzt im oberen Abschnitt \"TCP Umleitungen\" jeweils links und rechts den Port oder die Ports eintragen, die weitergeleitet werden sollen (standardmäßig für HTTP: 80). Sollte das Feld für die Porteingabe nicht sichtbar sein, muss man auf \"Weitere TCP Umleitung anlegen\" klicken";
+speedport_w_724v_p8 = "Rechts daneben muss man in der DropDown-Liste \"Gerät wählen\" den Computer im lokalen Netzwerk wählen, auf dem cFos Personal Net läuft";
+speedport_w_724v_p9 = "Anschließend auf die Schaltfläche \"Speichern\" klicken und etwas abwarten. Die Routereinstellungen kann man danach verlassen";
+speedport_w_921v_title = "Port-Forwarding für den Speedport W 921V einrichten";
+synology_rt1900ac_title = "Port-Forwarding für den Synology RT1900ac einrichten";
+synology_rt1900ac_p1 = "Melden Sie Sich mit Ihrem Benutzernamen und Passwort bei Ihrem RT1900ac an";
+synology_rt1900ac_p2 = "Klicken Sie auf \"Netzwerk-Center\"";
+synology_rt1900ac_p3 = "Klicken Sie dann auf \"Portweiterleitung\"";
+synology_rt1900ac_p4 = "Klicken Sie auf den Button \"Erstellen\"";
+synology_rt1900ac_p5 = "Wählen Sie \"HTTP\" und die IP oder das Zielgerät, auf dem cFos Personal Net läuft, aus den Optionslisten";
+synology_rt1900ac_p6 = "Klicken Sie auf \"Erstellen\"";
+synology_rt1900ac_p7 = "Speichern Sie die neuen Einstellungen durch Klick auf den Button \"Speichern\"";
 tp_link_td_8840tv4_title = "Port-Forwarding für den TP-LINK TD-8840Tv4 einrichten";
 tp_link_td_8840tv4_p0 = "Die folgende Anleitung ist gedacht für die letzte offizielle Firmware (TD-8840Tv4_0.8.0_2.3_up(150917)_2015-09-18_09.14.43.bin), die Sie <a class=\"inline\" href=\"http://www.tp-link.de/res/down/soft/TD-8840TV4_150917.zip\"><b>hier</b></a> herunterladen können.";
 tp_link_td_8840tv4_p1 = "Melden Sie Sich mit Ihrem Benutzernamen und Passwort bei Ihrem Router an (Default-IP: <b>192.168.1.1</b> - Default-Benutzername/Passwort: <b>admin</b>)";
@@ -3080,6 +3260,7 @@ broadband_connect_support_desc = "cFos Broadband Connect Support Seite.";
 broadband_connect_uninstall_desc = "cFos Broadband Connect Deinstallations-Seite. Bitte geben Sie uns Feedback, warum Sie deinstalliert haben.";
 broadband_connect_whats_new_desc = "Was ist neu bei cFos Broadband Connect. Liste aller neuen Funktionen und Verbesserungen.";
 broadband_connect_documentation_faq_desc = "Liste der häufigsten Fragen zu cFos Broadband Connect.";
+cfosics_desc = "cFosICS startet das Internet Connection Sharing für Windows neu";
 cfos_ipv6_link_activation_failed_desc = "Was tun, wenn die Aktivierung von cFos IPv6 Link fehlschägt.";
 cfos_ipv6_link_cfos_ipv6_link_desc = "cFos IPv6 Link Produkt Übersicht.";
 cfos_ipv6_link_documentation_desc = "cFos IPv6 Link Produkt Dokumentation.";
@@ -3124,7 +3305,9 @@ contact_msgpost_desc = "Formular für Fragen zu Ihrer Bestellung.";
 contact_order_status_request_desc = "Formular für Fragen über den Status Ihrer Bestellung.";
 contact_otherpost_desc = "Formular für andere Fragen zu Ihrer Bestellung.";
 contact_priopost_desc = "Formular um uns ein neues Program für die Priorisierungsliste zu melden.";
+forum_redirect_desc = "Weiterleitung zum cFos-Forum bei forumieren.de";
 gmx_gmx_desc = "Informationen für GMX Nutzer zum Upgrade ihrer cFos Version.";
+mycommerce_order_desc = "cFos Bestellung: Weiterleitung zu Digital River Bestellseite";
 order_confirm_desc = "cFos Bestellung: Bestätigungsseite.";
 order_danke_desc = "Vielen Dank für Ihre Bestellung.";
 order_form_desc = "cFos Software Bestellformular.";
@@ -3159,6 +3342,7 @@ cfosspeed_uninstall_desc = "cFosSpeed Deinstallations-Seite. Bitte geben Sie uns
 cfosspeed_expiration_desc = "Die Testzeit von cFosSpeed is beendet. Hier erfahren Sie Gründe, jetzt zu kaufen.";
 cfosspeed_activation_failed_desc = "Die Aktivierung von cFosSpeed ist fehlgeschlagen. Was Sie jetzt tun können.";
 cfosspeed_technical_question_desc = "Ihr Draht zum cFos Support Team. Hier können Sie technische Fragen über cFosSpeed stellen.";
+cfosspeed_shared_connection_desc = "Datenstau beheben bei geteilten Internet-Verbindungen in Hotels, Hostels, Büros, oder Restaurants";
 cfosspeed_documentation_cdm_desc = "missing meta description";
 cfosspeed_documentation_index_desc = "cFosSpeed Dokumentation. Inhaltsverzeichnis.";
 cfosspeed_documentation_games_desc = "Online games mit cFosSpeed / Traffic Shaping beschleunigen.";
@@ -3199,59 +3383,154 @@ cfos_notifier_desc = "cFos Notifier Produktübersicht";
 cfos_notifier_whats_new_desc = "Welche Neuerungen gibt es beim cFos Notifier? Liste aller neuen Funktionen, Verbesserungen und Bugfixes.";
 upload_desc = "Upload-Seite für Dumps und andere Dateien";
 port_forwarding_desc = "Anleitungen zum Einrichten des Port-Forwarding für verschiedene Router";
+pf_2wire_2701hg_g_desc = "Anleitungen zum Einrichten des Port-Forwarding für den 2Wire 2701HG-G";
+pf_8level_awrt_300_desc = "Anleitungen zum Einrichten des Port-Forwarding für den 8level AWRT-300";
+pf_arcadyan_vgv7519_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Arcadyan VGV7519";
+pf_arris_tg1692a_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Arris TG1692A";
+pf_arris_tg2472_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Arris TG2472";
+pf_arris_tg862_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Arris TG862";
+pf_arris_touchstone_dg1670_desc = "Anleitungen zum Einrichten des Port-Forwarding fur den Arris Touchstone DG1670";
 pf_asus_dsl_n12u_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS DSL-N12U";
+pf_asus_dsl_n12u_c1_desc = "Anleitungen zum Einrichten des Port-Forwarding fur den ASUS DSL-N12U_C1";
 pf_asus_dsl_n55u_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS DSL-N55U";
 pf_asus_dsl_n55u_c1_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS DSL-N55U_C1";
+pf_asus_dsl_n55u_d1_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS DSL-N55U_D1";
 pf_asus_rt_ac5300_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS RT-AC5300";
+pf_asus_rt_ac54u_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS RT-AC54U";
 pf_asus_rt_ac66u_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS RT-AC66U";
+pf_asus_rt_n12hp_desc = "Anleitungen zum Einrichten des Port-Forwarding fur den ASUS RT-N12HP";
 pf_asus_rt_n56u_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS RT-N56U";
 pf_asus_rt_n66u_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS RT-N66U";
+pf_asus_rt_n68u_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS RT-N68U";
+pf_asus_rt_n87u_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS RT-N87U";
+pf_asus_rt_n88u_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS RT-N88U";
 pf_asus_wl_330n3g_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ASUS WL-330N3G";
+pf_aterm_wg1400hp_desc = "Anleitungen zum Einrichten des Port-Forwarding fur den Aterm WG1400HP";
+pf_avm_fritzbox_3370_desc = "Anleitungen zum Einrichten des Port-Forwarding für die AVM FRITZ!Box 3370";
+pf_avm_fritzbox_3390_desc = "Anleitungen zum Einrichten des Port-Forwarding für die AVM FRITZ!Box 3390";
 pf_avm_fritzbox_6490_cable_desc = "Anleitungen zum Einrichten des Port-Forwarding für die AVM FRITZ!Box 6490 Cable";
+pf_avm_fritzbox_7113_desc = "Anleitungen zum Einrichten des Port-Forwarding für die AVM FRITZ!Box 7113";
 pf_avm_fritzbox_7170_desc = "Anleitungen zum Einrichten des Port-Forwarding für die AVM FRITZ!Box 7170";
 pf_avm_fritzbox_7270_desc = "Anleitungen zum Einrichten des Port-Forwarding für die AVM FRITZ!Box 7270";
 pf_avm_fritzbox_7312_desc = "Anleitungen zum Einrichten des Port-Forwarding für die AVM FRITZ!Box 7312";
+pf_avm_fritzbox_7360_desc = "Anleitungen zum Einrichten des Port-Forwarding für die AVM FRITZ!Box 7360";
+pf_avm_fritzbox_7362_sl_desc = "Anleitungen zum Einrichten des Port-Forwarding für die AVM FRITZ!Box 7362 SL";
 pf_avm_fritzbox_7390_desc = "Anleitungen zum Einrichten des Port-Forwarding für die AVM FRITZ!Box 7390";
 pf_avm_fritzbox_7490_desc = "Anleitungen zum Einrichten des Port-Forwarding für die AVM FRITZ!Box 7490";
 pf_belkin_f9k1102_v3_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Belkin F9K1102 V3";
+pf_belkin_f9k1105_v1_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Belkin F9K1105 V1";
+pf_belkin_f9k1115_v2_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Belkin F9K1115 V2";
 pf_belkin_nplus_wireless_router_f5d8235_4_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Belkin N+ Wireless Router (F5D8235-4) ";
+pf_binatone_dt910w_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Binatone DT910W";
 pf_bt_home_hub_5_type_a_desc = "Anleitungen zum Einrichten des Port-Forwarding für den BT Home Hub 5 (Type A)";
+pf_cisco_epc3925_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Cisco EPC3925";
+pf_cisco_valet_model_m10_v2_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Cisco Valet Model M10 V2";
+pf_compal_ch7465lg_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Compal CH7465LG";
 pf_dasan_h640w_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Dasan H640W";
 pf_dd_wrt_dd_wrt_desc = "Anleitungen zum Einrichten des Port-Forwarding für Router, auf denen DD-WRT läuft";
+pf_digisol_dg_hr3300_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Digisol DG-HR3300";
 pf_draytek_vigor_2830n_desc = "Anleitungen zum Einrichten des Port-Forwarding für den DRAYTEK VIGOR 2830n";
+pf_d_link_dir_300nru_rev_b5_b6_desc = "Anleitungen zum Einrichten des Port-Forwarding für den DIR-300NRU-rev.B5-B6";
 pf_d_link_dir_605lw_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-605LW";
 pf_d_link_dir_615_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-615";
 pf_d_link_dir_655_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-655";
+pf_d_link_dir_809_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-809";
+pf_d_link_dir_820l_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-820L";
+pf_d_link_dir_818lw_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-818LW";
 pf_d_link_dir_825_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-825";
+pf_d_link_dir_842_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-842";
+pf_d_link_dir_862l_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-862L";
+pf_d_link_dir_880l_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DIR-880L";
 pf_d_link_dsl_2730u_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DSL-2730U";
+pf_d_link_dsl_2750_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DSL-2750";
 pf_d_link_dsl_2640t_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DSL-2640T";
+pf_d_link_dsl_2900al_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link Viper DSL-2900AL Dual Band AC1900";
 pf_d_link_dsl_520b_se_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DSL-520B-SE";
+pf_d_link_dvg_5102s_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DVG-5102S";
 pf_d_link_dwr_116_desc = "Anleitungen zum Einrichten des Port-Forwarding für den D-Link DWR-116";
 pf_edimax_br6228n_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Edimax BR6228N";
+pf_fast_fwr200_desc = "Anleitungen zum Einrichten des Port-Forwarding für den FAST FWR200";
+pf_fiberhome_an5506_04_f_desc = "Anleitungen zum Einrichten des Port-Forwarding für den FiberHome AN5506-04-F";
 pf_hitron_cgnf_twn_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Hitron CGNF-TWN";
 pf_huawei_b315s_936_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Huawei B315s-936";
 pf_huawei_hg532e_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Huawei HG532E";
 pf_huawei_hg633_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Huawei HG633";
 pf_huawei_ws319_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Huawei WS319";
+pf_intelbras_wrn_150_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Intelbras WRN 150";
+pf_jio_jiofi_2_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Jio JioFi 2";
+pf_kozumi_km_4150nr_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Kozumi KM-4150NR";
+pf_lb_link_bl_mp02_desc = "Anleitungen zum Einrichten des Port-Forwarding für den LB-LINK BL-MP02";
 pf_linksys_e2500_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Linksys E2500";
 pf_linksys_ea6900_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Linksys EA6900";
+pf_linksys_n750_ea3500_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Linksys N750 (EA3500)";
 pf_linksys_wrt1900acs_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Linksys WRT1900ACS";
+pf_linksys_wrt600n_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Linksys WRT600N";
+pf_mikrotik_rb2011uias_2hnd_in_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Mikrotik RB2011UiAS-2HnD-IN";
+pf_mikrotik_rb951g_2hnd_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Mikrotik MIKROTIK RB951G-2HnD";
 pf_mitrastar_hgw_2501gn_r2_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Mitrastar HGW-2501GN-R2";
 pf_multilaser_n_150mbps_desc = "Anleitung zum Aktivieren von NAT Port-Freigabe für den Multilaser N 150mbps";
+pf_netcomm_adsl2plus_wireless_n300_desc = "Anleitung zum Aktivieren von NAT Port-Freigabe für den Netcomm ADSL2+ Wireless N300";
+pf_netgear_dg834n_desc = "Anleitung zum Aktivieren von NAT Port-Freigabe für den Netgear DG834N";
+pf_netgear_jwnr2010_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Netgear JWNR2010";
 pf_netgear_r6300v2_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Netgear R6300v2";
 pf_netgear_centria_wndr4700_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Netgear CENTRIA WNDR4700";
 pf_netgear_wnr2000v2_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Netgear WNR2000V2";
+pf_netgear_wndr3400v2_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Netgear WNDR3400v2";
+pf_netgear_wndr3700_n600_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Netgear WNDR3700 N600";
 pf_netgear_wndr3800_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Netgear WNDR3800";
+pf_netmaster_cbw_383z4_desc = "Anleitungen zum Einrichten des Port-Forwarding für den NetMaster CBW-383Z4";
+pf_o2_homebox_6641_desc = "Anleitungen zum Einrichten des Port-Forwarding für die O2 Homebox 6641 (Homebox II)";
+pf_observa_bra14nr_h2_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Observa BRA14NR_H2";
+pf_openwrt_desc = "Anleitungen zum Einrichten des Port-Forwarding für OpenWrt";
+pf_orange_livebox_3_0_desc = "Anleitungen zum Einrichten des Port-Forwarding für die Orange Livebox 3.0";
+pf_pace_5168n_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Pace 5168N";
+pf_pandorabox_sdk_version_14_09_desc = "Anleitungen zum Einrichten des Port-Forwarding für Pandorabox SDK version 14.09";
+pf_peplink_balance_one_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Peplink Balance One";
+pf_prolink_h5004nk_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Prolink H5004NK";
+pf_proximus_bbox3_desc = "Anleitungen zum Einrichten des Port-Forwarding für die Proximus BBox3";
+pf_sagemcom_2764_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Sagemcom 2764";
+pf_sercoom_vd625_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Sercoom VD625";
+pf_sky_hub_sr101_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Sky Hub (SR101)";
+pf_speedport_w_724v_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Speedport W 724V";
+pf_speedport_w_921v_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Speedport W 921V";
+pf_synology_rt1900ac_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Synology RT1900ac";
+pf_technicolor_tc7200_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Technicolor TC7200";
+pf_technicolor_tc8715d_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Technicolor TC8715D";
+pf_technicolor_tg589vn_v3_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Technicolor TG589VN v3";
+pf_tenda_ac15_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Tenda AC15";
+pf_tenda_fh1202_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Tenda FH1202";
+pf_thomson_tg789vn_v1_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Thomson TG789vn v1";
+pf_tomato_desc = "Anleitungen zum Einrichten des Port-Forwarding für Tomato";
+pf_tp_link_ac750_archer_c20i_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link AC750 Archer C20i";
+pf_tp_link_archer_c1200_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link Archer C1200";
+pf_tp_link_dsl_2700e_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link DSL 2700E";
 pf_tp_link_td_8840tv4_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TD-8840Tv4";
 pf_tp_link_td_w8951nd_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TD-W8951ND";
 pf_tp_link_td_w8970_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TD-W8970";
+pf_tp_link_tl_mr3040_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TL-MR3040";
 pf_tp_link_tl_mr3420_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link MR3420";
+pf_tp_link_tl_wdr4300_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TL-WDR4300";
 pf_tp_link_tl_wr1043nd_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TL-WR1043ND";
+pf_tp_link_tl_wr541g_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TL-WR541G";
 pf_tp_link_tl_wr740n_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TL-WR740N";
+pf_tp_link_tl_wr741nd_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TL-WR741ND";
+pf_tp_link_tl_wr840n_desc = "Instructions on the activation of Port Forwarding for the TP-Link TL-WR840N";
+pf_tp_link_tl_wr841n_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TL-WR841N";
+pf_tp_link_tl_wr842n_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TL-WR842N";
+pf_tp_link_tl_wr845n_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TL-WR845N";
+pf_tp_link_tl_wr886n_desc = "Anleitungen zum Einrichten des Port-Forwarding für den TP-Link TL-WR886N";
+pf_unifi_security_gateway_3p_desc = "Anleitungen zum Einrichten des Port-Forwarding für das UniFi Security Gateway 3P";
+pf_unitymedia_horizon_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Unitymedia Horizon";
+pf_virgin_media_hub_30_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Virgin Media Hub 3.0";
 pf_virgin_super_hub_2_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Virgin Super Hub 2";
 pf_vodafone_station_revolution_desc = "Anleitungen zum Einrichten des Port-Forwarding für die Vodafone Station Revolution";
+pf_wolflink_hc5661_wolflink_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Wolflink HC5661-Wolflink";
+pf_xiaomi_mi_3c_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Xiaomi Mi 3C";
 pf_xiaomi_miwifi_mini_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Xiaomi MiWiFi Mini";
+pf_zhone_znid_gpon_2426a_2ts_desc = "Anleitungen zum Einrichten des Port-Forwarding für den Zhone ZNID-GPON-2426A-2TS";
 pf_zte_f609_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ZTE F609";
+pf_zte_zxhn_h108n_v25_desc = "Anleitungen zum Einrichten des Port-Forwarding für den ZTE ZHXN H108N V2.5";
+pf_zyxel_keenetic_giga_desc = "Anleitungen zum Einrichten des Port-Forwarding für das Zyxel Keenetic Giga";
 pf_coming_soon_desc = "Vorläufige Seite für Router-Anleitungen in Bearbeitung";
 video_page_desc = "Liste alle YouTube-Videos von cFos Software";
 cfosspeed_features_title = "Liste der wichtigsten cFosSpeed-Features.";

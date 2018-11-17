@@ -41,13 +41,14 @@ freeware_text1 = "Nova versão do cFosSpeed disponível:";
 freeware_text2 = "Traffic Shaping melhorado: Máxima largura de banda, ping mínimo! Faça o download agora: ";
 product_overview = "Vista geral do produto";
 slogan = "Use a sua verdadeira largura de banda:<br /> alta velocidade, ping baixo.";
-special_offer_xmas = "Oferta de Natal! <span class=\"red\">Preços especiais</span> apenas até 21 de Dezembro!";
+special_offer_xmas = "Oferta de Natal! <span class=\"red\">Preços especiais</span> apenas até <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(devido ao fim de semana prolongado até 2 de Janeiro de 2011)";
 special_offer_spring = "Oferta especial para o festival de Primavera! até 9 de Fevereiro de 2011";
 special_offer_winter = "Oferta especial durante os saldos de Inverto até 31 de Janeiro de 2012";
 worldcup_sale = "Preços especiais durante a Copa do Mundo!"; / FIFA Soccer World Cup
 winter_sale = "Oferta especial durante os saldos de Inverto!";
 winter_sale_ext = "Prolongada até 28 de janeiro - Muito obrigado pelo enorme apoio!";
+xmas_sale_extended = "Oferta de Natal! Prolongada até <span id=\"endsale\"></span>!";
 style_light = "Suave";
 style_strong = "Forte";
 style_untranslated = "Modo destacado para texto não traduzido";
@@ -740,9 +741,9 @@ li_text_ppppoe_dial = "Driver Dial-Up PPPoE para o Windows";
 li_text_sessions = "Múltiplas sessões, sem limite para o números de conexões";
 
 / cFos
-cfos_html_h1 = "Dial-in driver de DSL e ISDN com Traffic Shaping";
+cfos_html_h1 = "Dial-in driver de ISDN";
 /. Part of page's title (in name of the tab in web browser)
-cfos_professional_title = "cFos, Acesso Telefónico &amp; Aceleração para DSL &amp; RDIS";
+cfos_professional_title = "cFos, Acesso Telefónico para RDIS";
 link_text_budget = "Balcão online";
 link_text_cfos_features = "Lista de funcionalidades do cFos";
 link_text_cfos_priolist = "Atribua prioridades a programas com o cFos (&#187; program list)";

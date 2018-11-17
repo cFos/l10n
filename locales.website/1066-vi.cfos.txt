@@ -35,13 +35,14 @@ freeware_text1 = "Phiên bản mới của cFosSpeed đã sẵn sàng:";
 freeware_text2 = "Traffic Shaping đã được cải tiến: Băng thông tối đa, ping thấp nhất!<br />Tải về ngay: ";
 product_overview = "Tổng quan sản phẩm";
 slogan = "Sử dụng băng thông thật của bạn :<br /> tốc độ cao, ping thấp.";
-special_offer_xmas = "Khuyến mãi đặc biệt cho lễ Giáng Sinh! <span class=\"red\">Giá Đặc Biệt</span> chỉ có tới ngày 21 tháng 12!";
+special_offer_xmas = "Khuyến mãi đặc biệt cho lễ Giáng Sinh! <span class=\"red\">Giá Đặc Biệt</span> chỉ có tới <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(quyền được hưởng kéo dài tới ngày 2 tháng một năm 2011)";
 special_offer_spring = "Giảm giá đặc biệt nhân dịp lễ hội mùa xuân ! Kéo dài tới ngày 9 tháng hai năm 2011";
 special_offer_winter = "Giá đặc biệt cho đợt giảm giá mùa Đông cho đến 31 tháng Một,2012";
 worldcup_sale = "Giá khuyến mại đặc biệt cho mùa World Cup!"; / FIFA Soccer World Cup
 winter_sale = "Gía đặc biệt cho mùa đông"; / New Years Sale for China
 winter_sale_ext = "Kéo dài tới 28 tháng 1- Cảm ơn sự quan tâm của khách hàng";
+xmas_sale_extended = "Khuyến mãi đặc biệt cho lễ Giáng Sinh! Kéo dài tới <span id=\"endsale\"></span>";
 style_light = "Nhẹ";
 style_strong = "Mạnh mẽ";
 style_untranslated = "Chế độ highlight cho các dòng chưa được dịch";
@@ -702,7 +703,8 @@ cfout_p1c = "Các phiên bản phát hành không chính thức không hỗ tr�
 cfout_p1d = "Phiên bản chính thức sẽ có giá khoảng 10 Euro.";
 cfout_a1 = "Tải về cFos Outlook DAV";
 cfout_h2 = "Làm thế nào để thiết lập cFos Outlook DAV";
-cfout_l1 = "Chạy trình cài đặt cFos Outlook DAV thêm cFos Outlook DAV như Outlook Add-in. Nó được thử nghiệm với Outlook 2013, nhưng cũng sẽ làm việc với Outlook 2010..";
+cfout_l1 = "Chạy trình cài đặt cFos Outlook DAV thêm cFos Outlook DAV như Outlook Add-in. Nó được thử nghiệm với Outlook 2013, nhưng cũng sẽ làm việc với Outlook 2010.";
+cfout_l1_v2 = "Chạy trình cài đặt cFos Outlook DAV thêm cFos Outlook DAV như Outlook Add-in. Nó được thử nghiệm với Outlook 2016 và 2013, nhưng cũng sẽ làm việc với Outlook 2010.";
 cfout_l2_v2 = "Bắt đầu Outlook và tạo một thư mục lịch mới. Bây giờ nhấp chuột phải vào thư mục và chọn \"Đồng bộ với CalDAV\". Bây giờ bạn có thể cấu hình các thư mục bằng cách kích chuột phải vào nó một lần nữa và chọn \"Cấu hình CalDAV Sync\".";
 cfout_l2a = "Để biết thêm thông tin bạn có thể xem <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>hướng dẫn minh hoạ</b></a> của chúng tôi.";
 cfout_l3 = "Ngay sau khi các thư mục được tạo ra, hãy khởi động lại Outlook. Bây giờ một hộp thoại thiết lập bật lên. Chọn tập tin cấu hình tương ứng với thư mục Outlook mới được tạo ra và nhập địa chỉ URL của máy chủ CalDAV của bạn, tên người dùng và mật khẩu. Bạn cũng có thể chỉ định đồng bộ khoảng thời gian. Sau đó khởi động lại Outlook một lần nữa.";
@@ -764,8 +766,8 @@ li_text_ppppoe_dial = "PPPoE Dial-Up driver cho Windows";
 li_text_sessions = "Hỗ trợ nhiều tác vụ đồng thời, không giới hạn số lượng kết nối";
 
 / cFos
-cfos_html_h1 = "driver DSL và ISDN dial-in Traffic Shaping";
-cfos_professional_title = "cFos, Kết nối quay số &amp; Tăng tốc độ cho Đường dây thuê bao kỹ thuật số &amp; Mạng số các dịch vụ tích hợp";
+cfos_html_h1 = "driver ISDN dial-in";
+cfos_professional_title = "cFos, Kết nối quay số  Mạng số các dịch vụ tích hợp";
 link_text_budget = "Bộ đếm trực tuyến";
 link_text_cfos_features = "danh sách tính năng của cFos";
 link_text_cfos_priolist = "Đặt mức ưu tiên cho các chương trình vói cFos (&#187; danh sách chương trình)";

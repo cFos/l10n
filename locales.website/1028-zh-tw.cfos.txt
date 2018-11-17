@@ -68,7 +68,7 @@ freeware_text1 = "有新版的 cFosSpeed 可供下載:";
 freeware_text2 = "改進後的流量塑型: 頻寬最大化、反應時間最小化！馬上下載: ";
 product_overview = "產品概觀";
 slogan = "取得真正的頻寬：<br />高速，低 ping 值。";
-special_offer_xmas = "聖誕節特惠方案！<span class=\"red\">特價</span> 時間到 12/21 為止！";
+special_offer_xmas = "聖誕節特惠方案！<span class=\"red\">特價</span> 時間到 <span id=\"endsale\"></span> 為止！";
 special_offer_xmas_2 = "（由於週末，時間延長至 2011 年 1 月 2 日）";
 special_offer_spring = "春節特價優惠！<span class=\"red\">2011 年 2 月 9 日止</span>";
 special_offer_winter = "冬季特價優惠！<span class=\"red\">2012 年 1 月 31 日止</span>";
@@ -76,6 +76,7 @@ summer_sale = "夏季特價優惠，只到八月底止！";
 worldcup_sale = "世界盃足球賽特價！"; / FIFA Soccer World Cup
 winter_sale = "冬季特價優惠！"; / New Years Sale for China
 winter_sale_ext = "延期至 1 月 28 日結束 - 感謝你的大力支援！";
+xmas_sale_extended = "聖誕節特惠方案！延期至 <span id=\"endsale\"></span>結束！";
 speed_linktext = "cFosSpeed";
 
 /. Mean text styles, like `light font` (thin), or `bold font` (strong)
@@ -934,6 +935,7 @@ cfout_p1f = "商業使用者可向我們申請使用無使用期限的版本:";
 cfout_a1 = "下載 cFos Outlook DAV";
 cfout_h2 = "如何設定 cFos Outlook DAV";
 cfout_l1 = "執行 cFos Outlook DAV 安裝程序來添加 cFos Outlook DAV 於 Outlook 的擴充。目前使用 Outlook 2013 為進行測試，但應該可以正常工作於 Outlook 2010。";
+cfout_l1_v2 = "執行 cFos Outlook DAV 安裝程序來添加 cFos Outlook DAV 於 Outlook 的擴充。目前使用 Outlook 2016和2013 為進行測試，但應該可以正常工作於 Outlook 2010。";
 cfout_l2_v2 = "執行 Outlook 並建立一個新的日曆資料夾。接著右鍵點選資料夾並選擇 \"與 CalDAV 同步 (Sync with CalDAV)\"。您現在可以再次點選右鍵選擇 \"設定 CalDAV 同步 (Config CalDAV Sync)\" 來對資料夾進行設定。";
 cfout_l2a = "若需更詳細的資訊，請參考我們網站上的 <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>詳細圖片說明</b></a>。";
 cfout_l3 = "一旦資料夾被建立，請重新執行 Outlook。現在會有一個設定對話框彈出。選擇新建立的 Outlook 資料夾中的設定檔，並鍵入您的 CalDAV 日曆伺服器，以及使用者名稱與密碼。您也可以指定同步的間格時間。接著再重新執行 Outlook 一次。";
@@ -959,6 +961,7 @@ cfout_p7b = "密碼的開頭有「!」時就代表已被即時加密，cFos Outl
 cfout_p7c = "您可以在 <em>C:\\ProgramData\\cFos\\outlook_dav</em> 找到一個名為 <em>trace.txt</em> 的檔案，其中是最近的同步動作日誌。";
 cfout_p7c_v2 = "您可以在 <em>C:\\Users\\YOUR_USERNAME\\AppData\\Local\\cFos\\outlook_dav</em> 找到一個名為 <em>trace.txt</em> 的檔案，其中是最近的同步動作日誌。";
 cfout_p8 = "cFos Outlook DAV 是使用 Internet Explorer 瀏覽器的代理伺服器設定。您可以於控制台中的網際網路選項進行修改。";
+cfout_disclaimer = "與 CalDAV/CardDAV 伺服器同步 Outlook 資料可能會有未預期的相容性問題，造成資料損失。您應該只在完全測試後再使用 cFos Outlook DAV。";
 cfout_conf_title = "如何在五步驟內與 Outlook 同步 CalDAV 行事曆或 CardDAV 通訊錄";
 cfout_goto_help = "請參考我們的 <b>詳細圖片說明</b>。";
 cfout_server = "選擇您的 CalDAV/CardDAV 伺服器類型";
@@ -1080,10 +1083,10 @@ li_text_sessions = "多路連線，無連線數限制";
 /
 / ----------------------------------------------------------------------
 
-cfos_html_h1 = "有流量塑型功能的 ISDN 和 DSL 撥號網路驅動程式";
+cfos_html_h1 = "ISDN 撥號網路驅動程式";
 
 /. Part of page's title (in name of the tab in web browser)
-cfos_professional_title = "cFos，撥號到 DSL 與 ISDN 網路並加速";
+cfos_professional_title = "cFos，撥號到 ISDN 網路";
 
 link_text_0190 = "禁撥高收費電話功能";
 link_text_budget = "流量計數器及計時器";
@@ -2917,6 +2920,28 @@ port_forwarding_no_instruction_p3 = "可在 <a class=\"inline\" href=\"/files/po
 port_forwarding_contact_us = "連絡我們";
 coming_soon_title = "即將推出！";
 coming_soon_p1 = "我們正在為此路由器撰寫教學。<br/><b>很快就會推出。</b>";
+asus_rt_ac54u_title = "在ASUS RT-AC54U上设置端口映射";
+asus_rt_ac54u_p1 = "登陆路由器ip（默认账号密码为admin）";
+asus_rt_ac54u_p2 = "点击外部网络";
+asus_rt_ac54u_p3 = "点击端口转发";
+asus_rt_ac54u_p4 = "打开IGDUPDP";
+asus_rt_ac54u_p5 = "打开手动转发";
+asus_rt_ac54u_p6 = "设置服务器名称为http";
+asus_rt_ac54u_p7 = "源ip设置为所有ip（*）";
+asus_rt_ac54u_p8 = "端口为80";
+asus_rt_ac54u_p9 = "内网ip 192.168.1.2";
+asus_rt_ac54u_p10 = "本地转发端口80";
+asus_rt_ac54u_p11 = "点击＋添加 并保存设置";
+fast_fwr200_title = "在FAST_FWR200上设置端口映射";
+fast_fwr200_p = "登陆管理界面";
+fast_fwr200_p = "点击高级设置";
+fast_fwr200_p = "点击高级用户";
+fast_fwr200_p = "点击虚拟服务器";
+fast_fwr200_p = "按下添加";
+fast_fwr200_p = "选择“HTTP”并在电脑上运行 cFos Personal Net";
+fast_fwr200_p = "输入端口信息";
+fast_fwr200_p = "点按保存";
+fast_fwr200_p = "端口映射配置完毕，退出路由管理界面";
 huawei_hg633_title = "設定 Huawei HG633 的通訊埠轉遞功能";
 huawei_hg633_p1 = "登入至路由器";
 huawei_hg633_p2 = "點擊「Internet」分頁";
@@ -2935,6 +2960,17 @@ mitrastar_hgw_2501gn_r2_p6 = "勾選「Active」選取盒";
 mitrastar_hgw_2501gn_r2_p7 = "在「Service Name」選擇「WWW」，然後在「Server IP Address」欄位輸入要執行 cFos Personal Net 的電腦的（最好是固定）IP";
 mitrastar_hgw_2501gn_r2_p8 = "點擊「Apply」按鈕";
 mitrastar_hgw_2501gn_r2_p9 = "點擊右上角的「Logout」登出路由器";
+tp_link_td_8840tv4_p7 = "現在您已為您的計算機完成端口轉發的配置！";
+tp_link_tl_wr886n_title = "設定 TP-LINK TL-WR886N 的通訊埠轉遞功能";
+tp_link_tl_wr886n_p1 = "使用您的密碼登錄您的路由器（默認IP：<b>192.168.0.1</b>）";
+tp_link_tl_wr886n_p2 = "點擊“應用管理”";
+tp_link_tl_wr886n_p3 = "點擊“已安裝應用”";
+tp_link_tl_wr886n_p4 = "找到“虛擬服務器”並點擊“進入”按鈕";
+tp_link_tl_wr886n_p5 = "點擊“添加”按鈕";
+tp_link_tl_wr886n_p6 = "常用服務器選擇“HTTP”，並在“IP地址”字段中輸入正在運行cFos Personal Net的計算機的（最好是靜態）IP";
+tp_link_tl_wr886n_p7 = "點擊“保存”按鈕";
+tp_link_tl_wr886n_p8 = "選中復選框";
+
 
 / ----------------------------------------------------------------------
 /

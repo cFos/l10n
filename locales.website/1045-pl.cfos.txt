@@ -37,13 +37,14 @@ freeware_text1 = "Dostępna nowa wersja cFosSpeed:";
 freeware_text2 = "Ulepszony Traffic Shaping: Maksymalna przepustowość, minimalny ping! Pobierz teraz: ";
 product_overview = "Przegląd Produktu";
 slogan = "Wykorzystaj pełne pasmo:<br />Surfuj szybko, z niskim pingiem.";
-special_offer_xmas = "Oferta Świąteczna! <span class=\"red\">Specjalne ceny</span> do 21 Grudnia!";
+special_offer_xmas = "Oferta Świąteczna! <span class=\"red\">Specjalne ceny</span> do <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(z powodu weekendu przedłużona do 2 stycznia 2011)";
 special_offer_spring = "Specjalna oferta na festiwal wiosny! Promocja ważna do 9 lutego 2011";
 special_offer_winter = "Specjalne ceny podczas Zimowej Wyprzedaży do 31 Stycznia, 2012";
 worldcup_sale = "Specjalne ceny podczas trwania Mistrzostw Świata w Piłce Nożnej!"; / FIFA Soccer World Cup
 winter_sale = "Specjalne ceny podczas Zimowej Wyprzedaży!";
 winter_sale_ext = "Przedłużona do 28 stycznia - Dziękujemy za państwa ogromne wsparcie!";
+xmas_sale_extended = "Oferta Świąteczna! Przedłużona do <span id=\"endsale\"></span>!";
 style_light = "Lekkie";
 style_strong = "Silne";
 style_untranslated = "Tryb wyróżniania nieprzetłumaczonego tekstu";
@@ -659,8 +660,8 @@ li_text_ppppoe_dial = "PPPoE Dial-Up sterownik dla Windows";
 li_text_sessions = "Wiele sesji, brak limitu ilości połączeń";
 
 / cFos
-cfos_html_h1 = "Sterownik dla łącz ISDN oraz DSL";
-cfos_professional_title = "cFos, Dial-Up &amp; Przyspieszenie dla DSL &amp; ISDN";
+cfos_html_h1 = "Sterownik dla łącz ISDN";
+cfos_professional_title = "cFos, Dial-Up dla ISDN";
 link_text_0190 = "Ochrona przed połączeniami 0700";
 link_text_budget = "Licznik przesyłanych danych oraz czasu połączeń";
 link_text_cfos_features = "cFos - zalety dla łącz DSL/ISDN";

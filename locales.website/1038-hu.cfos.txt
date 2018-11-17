@@ -42,7 +42,7 @@ freeware_text1 = "A cFosSpeed új verziója elérhető:";
 freeware_text2 = "Továbbfejlesztett Traffic Shaping: Maximális sebesség, minimális ping mellett! Töltse el most: ";
 product_overview = "Termékáttekintés";
 slogan = "Használja ki a valós sávszélességet:<br /> nagy sebesség, alacsony ping.";
-special_offer_xmas = "Karácsonyi ajánlat! <span class=\"red\">Különleges árak</span>December 21!";
+special_offer_xmas = "Karácsonyi ajánlat! <span class=\"red\">Különleges árak</span><span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(hétvége miatt meghosszabítva 2011. január 2-ig)";
 special_offer_spring = "Különleges tavaszi ajánlat! 2010. február 9-ig";
 special_offer_winter = "Különleges kedvezmények a Téli Kiárusítás idején 2012 január 31-ig";
@@ -50,6 +50,7 @@ summer_sale = "Speciális árak a Nyári Akció alatt augusztus 31-ig";
 worldcup_sale = "Alkalmi ár a Világbajnokság idejére!"; / FIFA Soccer World Cup
 winter_sale = "Különleges kedvezmények a Téli Kiárusítás idején!"; / New Years Sale for China
 winter_sale_ext = "Meghosszabbítva január 28-ig - Köszönjük a támogatását!";
+xmas_sale_extended = "Karácsonyi ajánlat! Meghosszabbítva <span id=\"endsale\"></span>!";
 
 /. Mean text styles, like `light font` (thin), or `bold font` (strong)
 style_light = "Világos";
@@ -827,6 +828,7 @@ cfout_p1f = "Idõkorlát nélküli verzió kereskedelmi felhasználóknak kéré
 cfout_a1 = "cFos Outlook DAV letöltése";
 cfout_h2 = "Hogyan kell beállítani a cFos Outlook DAV-ot";
 cfout_l1 = "Futtassa a cFos Outlook DAV telepítőt, hogy hozzáadhassa, mint Outlook kiegészítő. Le lett tesztelve az Outlook 2013-al, de működnie kell az Outlook 2010-el is.";
+cfout_l1_v2 = "Futtassa a cFos Outlook DAV telepítőt, hogy hozzáadhassa, mint Outlook kiegészítő. Le lett tesztelve az Outlook 2016 és 2013-al, de működnie kell az Outlook 2010-el is.";
 cfout_l2_v2 = "Indítsa el az Outlook-ot, majd hozzon létre egy új naptár mappát. Ezután kattintson jobb egérgombbal ezen a mappán, és válassza a \"Sync with CalDAV\"-ot. Most már beállíthatja a mappát, ha rajta jobb egérkattintás után kiválasztja a \"Config CalDAV Sync\"-et.";
 cfout_l2a = "További információkért, érdemes egy pillantást vetnie a honlapunkon található <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>részletesen illusztrált bemutatónkra</b></a>.";
 cfout_l3 = "Miután létrehozta a mappát, kérjük indítsa újra az Outlook-ot. Most egy kis beállító párbeszédablak fog felugrani. Ezután, válassza azt a beállítást, amely megfelelő önnek az újonnan létrehozott Outlook mappához, majd adja meg az ön CalDAV calendar szerver URL címét, felhasználónevét és jelszavát. A szinkronizálás gyakoriságát is megadhatja itt. A beállítások után, indítsa újra még egyszer az Outlook-ot a változások érvényesítéséhez!";
@@ -936,10 +938,10 @@ li_text_ppppoe_dial = "PPPoE tárcsázó Windows alá";
 li_text_sessions = "Korlátlan számú kezelt program, korlátlan számú nyitott kapcsolat";
 
 / cFos
-cfos_html_h1 = "DSL és ISDN Dial-in meghajtó Traffic Shapingel";
+cfos_html_h1 = "ISDN Dial-in meghajtó";
 
 /. Part of page's title (in name of the tab in web browser)
-cfos_professional_title = "cFos, Dial-Up &amp; Gyorsítás DSL-hez &amp; ISDN";
+cfos_professional_title = "cFos, Dial-Up ISDN-hez";
 
 link_text_0190 = "Tárcsázó programok elleni védelem";
 link_text_budget = "Online számláló";
@@ -2627,6 +2629,21 @@ cfosspeed_features_title = "A legfontosabb cFosSpeed-funkciók listája.";
 
 /mailing lists
 announce_list = "cFos levelezés-lista";
+
+/ ----------------------------------------------------------------------
+/
+/  Port forwarding
+/
+/ ----------------------------------------------------------------------
+tp_link_archer_c1200_p1 = "Lépj be a routerbe. Ha még sosem léptél be, akkor az alapértelmezett adatokkal tudsz bejelentkezni: Böngészodbe írd be: <b>http://192.168.0.1</b> (bizonyos esetekben <b>http://192.168.1.1</b>), Username (felhasználónév): <b>admin</b>, Password (jelszó): <b>admin</b>";
+tp_link_archer_c1200_p2 = "Válaszd ki az \"Advanced\" fület középen felül.";
+tp_link_archer_c1200_p3 = "Baloldali menüben a \"NAT Forwarding\" és utána a \"Virtual Servers\"";
+tp_link_archer_c1200_p4 = "\"Add\" gomb a táblázat felett jobboldalt";
+tp_link_archer_c1200_p5 = "Kattints \"View Existing Service\" gombra, és válaszd ki a \"HTTP\"-t. Az External Port és az Internal Port automatikusan kitöltodik (80)";
+tp_link_archer_c1200_p6 = "Válaszd a \"Protocol\" legördüloben a TCP-t";
+tp_link_archer_c1200_p7 = "\"Internal IP\" mezobe írd be a hálózaton lévo, azon számítógép IP címét, amin a cFos Personal Net szoftver fut.  Érdemes a számítógépnek statikus IP címet állítani";
+tp_link_archer_c1200_p8 = "Kattints az \"OK\" gombra";
+tp_link_archer_c1200_p9 = "Jelentkezz ki a routerbol a \"Logout\" gombbal (jobboldalt felül)";
 
 / countrynames
 countryname_bg = "Bulgária";

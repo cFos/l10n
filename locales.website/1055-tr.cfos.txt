@@ -43,7 +43,7 @@ freeware_text1 = "cFosSpeed'in yeni versiyonu hazır:";
 freeware_text2 = "Geliştirilmiş Traffic Shaping: Maksimum bant genişliği, minimum ping! Hemen indir: ";
 product_overview = "Ürüne Genel Bakış";
 slogan = "Gerçek band genişliğinizi kullanın:<br /> yüksek hız, düşük ping.";
-special_offer_xmas = "Noel teklifi! <span class=\"red\">Özel fiyatlar</span> yalnızca 21 Aralığa kadar!";
+special_offer_xmas = "Noel teklifi! <span class=\"red\">Özel fiyatlar</span> yalnızca <span id=\"endsale\"></span> kadar!";
 special_offer_xmas_2 = "(haftasonu nedeniyle 2 Ocak 2011 tarihine kadar uzatıldı)";
 special_offer_spring = "Bahar festivali için özel teklif! 9 Şubat 2011 tarihine kadar";
 special_offer_winter = "Kış İndirimi nedeniyle 31 Ocak 2012 tarihine kadar özel fiyatlar";
@@ -51,6 +51,7 @@ summer_sale = "31 Ağustosa kadar özel fiyatlar";
 worldcup_sale = "Dünya kupası süresince özel fiyatlar!"; / FIFA Soccer World Cup
 winter_sale = "Kış Satışı süresince özel fiyatlar!"; / New Years Sale for China
 winter_sale_ext = "28 Eylüle kadar uzatıldı - Büyük desteğiniz için teşekkürler!";
+xmas_sale_extended = "Noel teklifi! <span id=\"endsale\"></span> kadar uzatıldı!";
 
 /. Mean text styles, like `light font` (thin), or `bold font` (strong)
 style_light = "Hafif";
@@ -732,6 +733,7 @@ cfout_p1d = "Son sürüm (beta sonrasındaki gerçek sürüm) yaklaşık 10 Euro
 cfout_a1 = "cFos Outlook DAV indir";
 cfout_h2 = "cFos Outlook DAV nasıl kurulur";
 cfout_l1 = "cFos Outlook DAV'ı Outlook eklentisi olarak eklemek için cFos Outlook DAV kurucusunu çalıştırın. Outlook 2013 ile test edilmiştir, ancak Outlook 2010 ile de çalışması beklenir.";
+cfout_l1_v2 = "cFos Outlook DAV'ı Outlook eklentisi olarak eklemek için cFos Outlook DAV kurucusunu çalıştırın. Outlook 2016 ve 2013 ile test edilmiştir, ancak Outlook 2010 ile de çalışması beklenir.";
 
 /. Used as title
 /. Litrelly means "How cFos Outlook DAV works"
@@ -777,10 +779,10 @@ li_text_ppppoe_dial = "Windows için PPPoE çevirmeli-arama sürücüsü";
 li_text_sessions = "Çoklu oturumlar, bağlantı sayısı sınırlaması yok";
 
 / cFos
-cfos_html_h1 = "Traffic Shaping özellikli DSL ve ISDN çevirmeli arama sürücüsü";
+cfos_html_h1 = "ISDN çevirmeli arama sürücüsü";
 
 /. Part of page's title (in name of the tab in web browser)
-cfos_professional_title = "cFos, Çevirmeli Bağlantı &amp; DSL için hızlandırma &amp; ISDN";
+cfos_professional_title = "cFos, Çevirmeli Bağlantı ISDN";
 
 link_text_0190 = "0190er Engelleyici";
 link_text_budget = "Online counter";
@@ -1855,7 +1857,6 @@ bc_faq1 = "Hangi durumda <em>cFos Broadband Connect</em>'i kullanmalıyım?";
 bc_faq1_answer = "Bilgisayarınız internete bağlanmak için PPPoE bağlantısı kullanıyorsa <em>cFos Genişbant Bağlantısı</em> kullanır.(Bu bağlantıyı gerçekleştiren bir router (yönlendirici) kullanıyorsanız, Genişbant Bağlantısını kullanamazsınız (!!) Bu durumda cFosSpeed kullanmalısınız). As High-Performance dial-up the usage is especially reasonable with bandwidths above 4,5 Mbyte/s (= 36 Mbit/s). Compared to cFos/Professional, <em>cFos Broadband connect</em> has the advantage off using less  CPU.<br/><br/>You can find a decision support page <a class=\"inline\" href=\"/en/support/decision.htm\">here</a>.";
 bc_faq2 = "<em>cFos Broadband Connect</em> ile ilgili soruları nerede sorabilirim?";
 bc_faq2_answer = "cFos Genişbant bağlantı için lütfen çevrim içi destek formunu kullanın: <a class=\"inline\" href=\"/en/broadband-connect/technical-question.htm\">Online support form</a> ";
-bc_faq3 = "Wich cFos product should I use?";
 bc_faq3_answer = "Karar destek sayfasını <a class=\"inline\" href=\"/en/support/decision.htm\">burada</a> bulabilirsiniz.";
 bc_param_max_frame = "   max_frame_size=x            maksimum kare hızı (MTU), varsayılan 1492";
 
@@ -1899,14 +1900,10 @@ oem_t8 = "İletişim:";
 oem_t9 = "OEM ortaklarımız";
 
 / asus
-asus_p1 = "As a customer of certain ASUS motherboards you have the right to use and benefit from ASUS ROG GameFirst! (I&amp;II). This is a full-featured, unlimited Traffic Shaping solution powered by cFosSpeed. We hope you enjoy the speed-up possible with your version of ASUS ROG GameFirst! (I&amp;II).";
-asus_p2 = "For additional fine-tuning options there is also the most recent professional cFosSpeed version available.";
 asus_a1 = "cFosSpeed'i <a class=\"inline\" href=\"/en/download/download.htm\">buradan indirebilirsiniz</a>.";
 asus_a2 = "Here is a <a class=\"inline\" href=\"features.htm\">list of additional features</a>.";
 asus_af_title = "cFosSpeed'in ek özellikleri";
 asus_af_l1 = "<b>Çoklu kullanıcı sürümü</b>, Bir yönlendiriciyle internet bağlantısı kullanımını birkaç PC ile destekler.";
-asus_af_l2 = "<b>Improved detection and traffic classification</b> with Layer-7 Protocol prioritization, HTTP, SSL, SSH bulk detection, RX prioritization. Improved Voice over IP (VoIP) support.";
-asus_af_l3 = "<b>New Pinger</b> for a more reliable detection of line congestion and bandwidth.";
 asus_af_l4 = "Durum penceresinde <b>Gerçek Zamanlı Trafik Analizi</b>.";
 asus_af_l5 = "<b>İnce Ayar Seçenekleri</b>: Bağlantı seçimi, RX &amp; TX speed limits, DSCP / VLAN tagging / filtering.";
 asus_af_l6 = "<b>Ek işlevler</b>: Tam ekranda otomatik gizleme (Oyun Modu), Güvenlik Duvarı, volume &amp; çevrim içi zaman sayaçları, IP filtre listesi / engelli listesi.";

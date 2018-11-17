@@ -34,13 +34,14 @@ freeware_text1 = "Налична нова версия на cFosSpeed:";
 freeware_text2 = "Подобрен Traffic Shaping: Максимален капацитет на връзката, минимален пинг! Свалете сега: ";
 product_overview = "Описание на продукта";
 slogan = "Използвайте своя реален капацитет на връзката:<br /> висока скорост,  минимален пинг.";
-special_offer_xmas = "Коледна оферта! <span class=\"red\">Специални цени</span> само до 21 Декември!";
+special_offer_xmas = "Коледна оферта! <span class=\"red\">Специални цени</span> само до <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(поради удължаването на почивните дни до 2 януари 2011)";
 special_offer_spring = "Специална оферта за пролетния фестивал! Валидна до 09 Февруари 2011";
 special_offer_winter = "Специална цена през Зимната разпродажба до 31 Януари 2012";
 worldcup_sale = "Специални цени през Световното първенство!"; / FIFA Soccer World Cup
 winter_sale = "Специална цена през Зимната разпродажба!"; / New Years Sale for China
 winter_sale_ext = "Удължен до 28 Януари - Благодарим за Вашата изумителна подкрепа!";
+xmas_sale_extended = "Коледна оферта! Удължен до <span id=\"endsale\"></span>!";
 style_light = "Олекотен";
 style_strong = "Одебелен";
 style_untranslated = "Режем на осветяване на непреведен текст";
@@ -567,8 +568,8 @@ li_text_ppppoe_dial = "PPPoE Dial-Up драйвър за Windows";
 li_text_sessions = "Множество сесии, без лимит за броя връзки";
 
 / cFos
-cfos_html_h1 = "DSL и ISDN dial-in драйвър с трафик контролер";
-cfos_professional_title = "cFos, Dial-Up &amp; ускорение за DSL &amp; ISDN";
+cfos_html_h1 = "ISDN dial-in драйвър";
+cfos_professional_title = "cFos, Dial-Up за ISDN";
 link_text_budget = "Онлайн брояч";
 link_text_cfos_features = "cFos списък";
 link_text_cfos_priolist = "Приоритизирай програми с cFos (&#187; списък програми)";

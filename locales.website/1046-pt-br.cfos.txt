@@ -65,13 +65,14 @@ freeware_text1 = "Uma nova versão do cFosSpeed está  disponível:";
 freeware_text2 = "Traffic Shapping melhorado: Largura de banda máxima e um ping extremadamente reduzido. Baixe agora: ";
 product_overview = "Visão Geral do Produto";
 slogan = "Utilize sua verdadeira velocidade:<br /> Alta velocidade e ping baixo.";
-special_offer_xmas = "Oferta de Natal! <span class=\"red\">Preços especiais</span> Somente até 21 de dezembro!";
+special_offer_xmas = "Oferta de Natal! <span class=\"red\">Preços especiais</span> Somente até <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(devido ao fim de semana prolongado até 2 de janeiro de 2011)";
 special_offer_spring = "Oferta especial para Festival da Primavera! até fevereiro 9th, 2011";
 special_offer_winter = "Preços especiais durante as vendas de inverno até 31 de Janeiro, 2012";
 worldcup_sale = "Preços especiais durante a Copa do Mundo!"; / FIFA Soccer World Cup
 winter_sale = "Preços especiais durante as vendas de inverno!"; / New Years Sale for China
 winter_sale_ext = "Prorrogado até dia 28 de Janeiro - Graças ao seu apoio esmagador!";
+xmas_sale_extended = "Oferta de Natal! Prorrogado até dia <span id=\"endsale\"></span>!";
 
 /. Mean text styles, like `light font` (thin), or `bold font` (strong)
 style_light = "Fino";
@@ -860,6 +861,7 @@ cfout_p1f = "Requisitar versão ilimitada para usuários comerciais:";
 cfout_a1 = "Baixar cFos Outlook DAV";
 cfout_h2 = "Como instalar o cFos Outlook DAV";
 cfout_l1 = "Execute o instalador do cFos Outlook DAV para adicionar o cFos Outlook DAV como complemento do Outlook. Foi testado com o Outlook 2013, mas deve funcionar com o Outlook 2010.";
+cfout_l1_v2 = "Execute o instalador do cFos Outlook DAV para adicionar o cFos Outlook DAV como complemento do Outlook. Foi testado com o Outlook 2016 e 2013, mas deve funcionar com o Outlook 2010.";
 cfout_l2_v2 = "Inicie o Outlook e crie uma nova pasta de calendário. Agora clique com o botão direito nesta pasta e selecione \"Sync with CalDAV\". Você pode agora configurar a pasta clicando com o botão direito novamente e selecionando \"Config CalDAV Sync\".";
 cfout_l2a = "Para maiores informações de uma olhada nas nossas <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>Instruções Ilustradas Detalhadas</b></a>.";
 cfout_l3 = "Assim que a pasta for criada, por favor reinicie o Outlook. Agora uma pequena caixa de diálogo deve aparecer. Selecione o arquivo de configuração correspondente a sua nova pasta criada do Outlook e insira o URL do seu servidor de calendário CalDAV, seu nome de usuário e senha. Você também pode especificar o intervalo de sincronização. Depois reinicie o Outlook mais uma vez.";
@@ -975,10 +977,10 @@ li_text_sessions = "Sessões múltiplas, sem limite para o numero de conexões";
 /
 / ----------------------------------------------------------------------
 
-cfos_html_h1 = "Controlador de discagem DSL e ISDN com  Traffic Shaping";
+cfos_html_h1 = "Controlador de discagem ISDN";
 
 /. Part of page's title (in name of the tab in web browser)
-cfos_professional_title = "cFos, Acesso telefônico &amp; Aceleração para DSL &amp; ISDN";
+cfos_professional_title = "cFos, Acesso telefônico para ISDN";
 
 link_text_budget = "Contador online";
 link_text_cfos_features = "Lista de funções do cFos";
@@ -2743,6 +2745,15 @@ videos_text17 = "cFosSpeed ​​Versão 5.00 - Instalação no Windows 7";
 /
 / ----------------------------------------------------------------------
 
+d_link_dir_809_title = "Habilitar redirecionamento de porta para o D-Link DIR-809";
+d_link_dir_809_p0 = "Este guia de redirecionamento é direcionado para a versão oficial do firmware 1.09.";
+d_link_dir_809_p1 = "Logar no seu roteador com o usuário e senha( padrão IP: <b>192.168.0.1</b> - usuário padrão: <b>admin</b> senha: em branco )";
+d_link_dir_809_p2 = "Clique em \"AVANÇADO\" dentro no menu principal no topo";
+d_link_dir_809_p3 = "Selecione \"HTTP\" na caixa de opções";
+d_link_dir_809_p4 = "Clique \"&lt;&lt;\" para aplicar o perfil selecionado";
+d_link_dir_809_p5 = "Entre o IP do computador que esta rodando o cFos Personal Net";
+d_link_dir_809_p6 = "Clique na caixa de seleção para habilitar o regra de redirecionamento de porta";
+d_link_dir_809_p7 = "Click no botão \"Salvar Configurações\"";
 
 / ----------------------------------------------------------------------
 /

@@ -65,7 +65,7 @@ freeware_text1 = "Versi terbaru dari cFosSpeed tersedia:";
 freeware_text2 = "Pembaruan Traffic Shaping : Bandwidth maksimal, ping minimum! unduh sekarang: ";
 product_overview = "Peninjaun Produk";
 slogan = "Gunakan bandwidth anda yang sesungguhnya:<br /> kecepatan tinggi, ping rendah.";
-special_offer_xmas = "Penawaran Natal! <span class=\"red\">Harga spesial</span> hanya sampai 21 Desember!";
+special_offer_xmas = "Penawaran Natal! <span class=\"red\">Harga spesial</span> hanya sampai <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(dikarenakan akhir pekan diperpanjang sampai 2 Januari 2011)";
 special_offer_spring = "Penawaran khusus untuk festival musim semi! sampai 9 Februari 2011";
 special_offer_winter = "Harga khusus selama musim dingin sampai 31 January 2012";
@@ -73,6 +73,7 @@ summer_sale = "Harga spesial selama musim panas hingga 31 Agustus";
 worldcup_sale = "Harga spesial selama Piala Dunia!"; / FIFA Soccer World Cup
 winter_sale = "Harga spesial selama musim dingin!"; / Tahun baru China
 winter_sale_ext = "Diperpanjang hingga 28 Januari - Terima kasih atas dukungan anda!";
+xmas_sale_extended = "Penawaran Natal! Diperpanjang hingga <span id=\"endsale\"></span>!";
 
 /. Mean text styles, like `light font` (thin), or `bold font` (strong)
 style_light = "Tipis";
@@ -885,6 +886,7 @@ cfout_p1f = "Not time-limited version untuk pengguna komersial sesuai pesanan:";
 cfout_a1 = "Unduh cFos Outlook DAV";
 cfout_h2 = "Bagaimana mempersiapkan cFos Outlook DAV";
 cfout_l1 = "Jalankan cFos Outlook DAV installer untuk menambahkan cFos Outlook DAV menjadi penggaya Outlook. Ini teruji pada Outlook 2013, tapi seharusnya juga berkerja pada Outlook 2010.";
+cfout_l1_v2 = "Jalankan cFos Outlook DAV installer untuk menambahkan cFos Outlook DAV menjadi penggaya Outlook. Ini teruji pada Outlook 2016 dan 2013, tapi seharusnya juga berkerja pada Outlook 2010.";
 cfout_l2_v2 = "Mulai membuka Outlook dan buat berkas kalender baru. Sekarang klik-kanan pada berkas ini dan pilih \"Sync with CalDAV\". Anda sekarang dapat mengatur berkas dengan klik-kanan lagi dan memilih \"Config CalDAV Sync\".";
 cfout_l2a = "Untuk informasi lebih lanjut anda dapat melihat pada <a class=\"inline\" href=\"http://www.cfos.de/cgi-bin/yabb2/YaBB.pl?num=1417105368\"><b>ilustrasi detail instruksi</b></a>.";
 cfout_l3 = "Segera setelah berkas dibuat, silahkan mulai kembali Outlook. Sekarang sebuah dialog kecil pengaturan akan keluar. Pilih file konfigurasu yang sesuai dengan berkas yang dibuat Outlook anda dan masukkan URL dari CalDAV calendar server Anda, username dan password Anda. Anda juga dapat menentukan sync interval. Kemudian mulai ulang Outlook satu kali lagi.";
@@ -966,10 +968,10 @@ li_text_sessions = "Sesi berulangkali, tidak ada batasan jumlah koneksi";
 /
 / ----------------------------------------------------------------------
 
-cfos_html_h1 = "Driver dial-in DSL dan ISDN dengan Traffic Shaping";
+cfos_html_h1 = "Driver dial-in ISDN";
 
 /. Part of page's title (in name of the tab in web browser)
-cfos_professional_title = "cFos, Dial-Up &amp; Percepatan untuk DSL &amp; ISDN";
+cfos_professional_title = "cFos, Dial-Up untuk ISDN";
 
 link_text_budget = "penghitung Online";
 link_text_cfos_features = "daftar fitur cFos";

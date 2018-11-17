@@ -30,7 +30,7 @@ freeware_text1 = "Nieuwe versie van cFosSpeed beschrikbaar:";
 freeware_text2 = "Verbeterde Traffic Shaping: Maximale benwidt, minimale ping! Download nu: ";
 product_overview = "Product Overzicht";
 slogan = "Gebruik uw volledige snelheid:<br /> hoge snelheid, lage ping.";
-special_offer_xmas = "Kerst aanbieding! <span class=\"red\">Speciale prijzen</span> Alleen tot 21 December!";
+special_offer_xmas = "Kerst aanbieding! <span class=\"red\">Speciale prijzen</span> Alleen tot <span id=\"endsale\"></span>!";
 special_offer_xmas_2 = "(vanwege het weekend uitgesteld tot 2 Januari 2011)";
 special_offer_spring = "Speciaal aanbod voor spring festival tot 9. Februari 2011";
 style_light = "Licht";
@@ -427,8 +427,8 @@ li_text_ppppoe_dial = "PPPoE Dial-Up driver voor Windows";
 li_text_sessions = "Meerdere sessies, geen limiet op aantal connectie’s";
 
 / cFos
-cfos_html_h1 = "DSL en ISDN dial-in driver met Traffic Shaping";
-cfos_professional_title = "cFos, Dial-Up &amp; Acceleratie voor DSL &amp; ISDN";
+cfos_html_h1 = "ISDN dial-in driver";
+cfos_professional_title = "cFos, Dial-Up voor ISDN";
 link_text_cfos_features = "cFos functie lijst";
 link_text_cfos_priolist = "Prioritariseer programma’s met cFos (&#187; programma lijst)";
 link_text_feature_list = "functies voor DSL en ISDN";
