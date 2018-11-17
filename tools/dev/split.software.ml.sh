@@ -12,7 +12,7 @@ tempBat="_temp.$TYPE.bat"
 rm -r $tempDir
 mkdir $tempDir
 
-sh awk < $sourceMlFile -v d="\\$tempDir\\" "/#language/{x=d "F"++i;}{print > x\".cfos.txt\";}"
+awk < $sourceMlFile -v d="\\$tempDir\\" "/#language/{x=d "F"++i;}{print > x\".cfos.txt\";}"
 
 printf "set type=$TYPE\n set lang_prefix=$PREFIX\n set destDir=$destDir\n set tempDir=$tempDir\n set tempBat=$tempBat\n call \"../scripts/finilize.split.ml.bat\"" > $tempBat
 
