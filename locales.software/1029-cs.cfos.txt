@@ -814,9 +814,9 @@ err_port_in_use = "Port serveru %? je již používán jiným programemm.\n\nPro
 
 / warning messages
 wrn_oem_update = "Licencovaný %p je již instalován.\n\n"
-  "Pokoušíte se nainstalovat shareware verzi. Pokud budete pokračovat\n"
-  "s instalací, příjdete o vaši licencovanou verzi.\n"
-  "Aktualizaci licencované verze %p lze získat na stejném místě\n"
+  "Pokoušíte se nainstalovat shareware verzi. Pokud budete pokračovat "
+  "s instalací, příjdete o vaši licencovanou verzi.  "
+  "Aktualizaci licencované verze %p lze získat na stejném místě "
   "kde jste koupili původní licenci.\n\n"
   "Opravdu si přejete pokračovat v instalaci?";
 wrn_close_application = "Doporučujeme zavřít následující aplikace předtím, než budete pokračovat:";
@@ -904,7 +904,7 @@ virtual_wifi_autostart = "Spouštět automaticky při startu počítače.";
 
 order_oem = "Objednejte si profesionální verzi ještě dnes!";
 cfos_endsoon = "Vaše testovací doba brzy skončí.\nKupte %p Professional ještě dnes!\nPřejděte pro %p na stránku\n\nhttps://www.cfos.de/cs/order/order.htm\n";
-cfos_expired  = "Skončila testovací doba produktu %p.\nZakupte %p/Professional ještě dnes!\nPřejděte na objednací stránku %p na\n\nhttps://www.cfos.de/cs/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-228-7669827.";
+cfos_expired  = "Skončila testovací doba produktu %p.\nZakupte %p/Professional ještě dnes!\nPřejděte na objednací stránku %p na\n\nhttps://www.cfos.de/cs/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-911-30844-76698.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
 
 

@@ -1030,7 +1030,7 @@ virtual_wifi_deactivate_autostart = "Nonaktifkan start otomatis pada sistem.";
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/id/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/id/order/cfos-professional-c.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
 

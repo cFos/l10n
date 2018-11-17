@@ -409,7 +409,7 @@ vista_warn_image = "vista_en.bmp";
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/sv/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/sv/order/cfos-professional-c.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
 invkey = "invkey_e.htm";
@@ -425,7 +425,7 @@ features_htm = "techinfo\\features_e.htm";
 
 order_oem = "Köp den professionella versionen nu!";
 cfos_endsoon = "Din test period kommer avslutas snart.\nKöp %p  Professional nu!\nÖppna %p order sidan här\n\nhttps://www.cfos.de/sv/order/order.htm\n";
-cfos_expired = "Denna %p version har löpt ut.\nKöp %p/Professional nu!\nÖppna %p order sidan här\n\nhttps://www.cfos.de/sv/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-228-7669827.";
+cfos_expired = "Denna %p version har löpt ut.\nKöp %p/Professional nu!\nÖppna %p order sidan här\n\nhttps://www.cfos.de/sv/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-911-30844-76698.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
 
 

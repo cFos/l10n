@@ -915,7 +915,7 @@ virtual_wifi_deactivate_autostart = "Deactivează startul automat la pornirea si
 
 order_oem = "Cumpăraţiversiunea profesionalăacum!";
 cfos_endsoon = "Perioada de test expiră curând.\nCumpăraţi %p Professional acum!\nStart pentru %p pagina de cumparare la\n\nhttps://www.cfos.de/en/order/order.htm\n";
-cfos_expired = "Această %p versiune a expirat.\nCumpăraţi %p/Professional acum!\nStart pentru %p pagina de cumparare la\n\nhttps://www.cfos.de/en/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-228-7669827.";
+cfos_expired = "Această %p versiune a expirat.\nCumpăraţi %p/Professional acum!\nStart pentru %p pagina de cumparare la\n\nhttps://www.cfos.de/en/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-911-30844-76698.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
 
 

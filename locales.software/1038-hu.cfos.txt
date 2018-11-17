@@ -825,7 +825,7 @@ eml_checking_domain = "Az e-mail Domain ellenőrzése...";
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/hu/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/hu/order/cfos-professional-c.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
 invkey = "invkey_e.htm";
@@ -841,7 +841,7 @@ features_htm = "techinfo\\features_e.htm";
 
 order_oem = "Professional verzió megvásárlása most!";
 cfos_endsoon = "A próbaidőszak hamarosan lejár.\nVásárolja meg a %p Professional verzióját most!\n %p megrendelő oldal meglátogatása\n\nhttps://www.cfos.de/hu/order/order.htm\n";
-cfos_expired = "A %p próbaverzió lejárt.\nVárásolja meg a %p/Professional verzióját most!\n %p megrendelő oldal meglátogatása\n\nhttps://www.cfos.de/hu/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-228-7669827.";
+cfos_expired = "A %p próbaverzió lejárt.\nVárásolja meg a %p/Professional verzióját most!\n %p megrendelő oldal meglátogatása\n\nhttps://www.cfos.de/hu/order/order.htm\n\nTelefon: +49-228-7669826\nFax: +49-911-30844-76698.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
 
 

@@ -884,10 +884,10 @@ err_port_in_use = "El puerto %? del servidor se encuentra en uso por otro progra
 
 / warning messages
 wrn_oem_update = "Usted ya posee una licencia  %p instalada.\n\n"
-  "Esta por instalar una versión común de Shareware. Si continúa \n"
-  "Con esta instalación, su licencia no funcionará.\n"
-  "Puede obtener una actualización para su licencia %p en el mismo lugar donde \n"
-  "adquirió el programa originariamente .\n\n"
+  "Esta por instalar una versión común de Shareware. Si continúa "
+  "Con esta instalación, su licencia no funcionará.  "
+  "Puede obtener una actualización para su licencia %p en el mismo lugar donde "
+  "adquirió el programa originariamente.\n\n"
   "¿Desea continuar con la instalación de todos los modos?";
 wrn_close_application = "Se recomienda cerrar las siguientes aplicaciones antes de continuar:";
 
@@ -963,7 +963,7 @@ virtual_wifi_deactivate_autostart = "Deshabilitar el inicio automático al arran
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/es/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/es/order/cfos-professional-c.htm";
 budget_file = "budget_es.cfhta";
 report_tpl = "report_es.tpl";
 invkey = "invkey_e.htm";
@@ -1022,7 +1022,7 @@ cfos_expired =
  "https://www.cfos.de/es/order/order.htm.\n"
  "\n"
  "Teléfono: +49-228-7669826\n"
- "Fax: +49-228-7669827.";
+ "Fax: +49-911-30844-76698.";
 actionwait = "Vuestra acción será ejecutada la próxima vez que serán online.";
 discask = "Quieren verdaderamente colgar la conexión?";
 dial_warn = "Permitir marca de %1?";

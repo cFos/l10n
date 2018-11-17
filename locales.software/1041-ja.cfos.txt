@@ -873,7 +873,7 @@ virtual_wifi_stopped = "仮想Wi-Fiを停止しました。";
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/ja/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/ja/order/cfos-professional-c.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
 invkey = "invkey_e.htm";
@@ -915,7 +915,7 @@ closemsg =
  "シフォス・プロフェッショナル　完全バージョンではこのウィンドウは自動的に閉じ、必要に応じたときにのみ開きます。\n"
  "シフォス　ウィンドウをもしくはシフォス　タスクバーのシンボルを右クリックくるとすぐに注文に移動できます。";
 cfos_endsoon = "評価期間がまもなく終了します\nすぐに %p プロフェッショナル仕様を購入しましょう!!\nご購入は%p以下のページで \n\nhttps://www.cfos.de/ja/order/order.htm\n";
-cfos_expired = "この %p は評価期間がまもなく終了しました\n %p/プロフェッショナル仕様を購入しましょう!\nご購入は %p以下のページで at\n\nhttps://www.cfos.de/ja/order/order.htm\n\n電話番号: +49-228-7669826\nFax番号:  +49-228-7669827.";
+cfos_expired = "この %p は評価期間がまもなく終了しました\n %p/プロフェッショナル仕様を購入しましょう!\nご購入は %p以下のページで at\n\nhttps://www.cfos.de/ja/order/order.htm\n\n電話番号: +49-228-7669826\nFax番号:  +49-911-30844-76698.";
 actionwait = "オンラインの状態になるとすぐに、選択された動作が機能します。";
 discask = "本当にこの接続を切りますか？";
 dial_warn = "%1の選択を認可しますか？";

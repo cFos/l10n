@@ -1025,7 +1025,7 @@ virtual_wifi_deactivate_autostart = "Также отключить автома�
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/ru/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/ru/order/cfos-professional-c.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
 invkey = "invkey_e.htm";
@@ -1041,7 +1041,7 @@ features_htm = "techinfo\\features_e.htm";
 
 order_oem = "Купить профессиональную версию прямо сейчас!";
 cfos_endsoon = "Ваш тестовый период скоро закончится.\nКупите %p Professional сейчас!\nПриступите к заказу %p на странице\n\nhttps://www.cfos.de/ru/order/order.htm\n";
-cfos_expired = "Срок этой версии %p истек.\nКупите %p/Professional сейчас!\nПриступите к заказу %p на странице\n\nhttps://www.cfos.de/ru/order/order.htm\n\nТелефон: +49-228-7669826\nФакс: +49-228-7669827.";
+cfos_expired = "Срок этой версии %p истек.\nКупите %p/Professional сейчас!\nПриступите к заказу %p на странице\n\nhttps://www.cfos.de/ru/order/order.htm\n\nТелефон: +49-228-7669826\nФакс: +49-911-30844-76698.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
 
 

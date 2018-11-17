@@ -641,7 +641,7 @@ eml_checking_domain = "E-mail 도메인 확인중...";
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/ko/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/ko/order/cfos-professional-c.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
 invkey = "invkey_e.htm";
@@ -688,7 +688,7 @@ closemsg =
  "필요시에만 열립니다. 마우스 오른쪽 키를 이용, %p 창이나\n"
  "%p 태스크바 아이콘을 클릭하면 주문 페이지를 바로 시작할 수 있습니다. ";
 cfos_endsoon = "시험 기간이 곧 종료 됩니다.\n%p 프로페셔널을(를) 지금 구입 하세요!\n다음 %p 주문 페이지를 방문 하세요\n\nhttps://www.cfos.de/ko/order/order.htm";
-cfos_expired = "%p 버전이 만료 되었습니다.\n%p/프로페셔널을 지금 구입 하세요!\n다음 %p 주문 페이지를 방문 하세요\n\nhttps://www.cfos.de/ko/order/order.htm\n\nPhone: +49-228-7669826\nFax: +49-228-7669827.";
+cfos_expired = "%p 버전이 만료 되었습니다.\n%p/프로페셔널을 지금 구입 하세요!\n다음 %p 주문 페이지를 방문 하세요\n\nhttps://www.cfos.de/ko/order/order.htm\n\nPhone: +49-228-7669826\nFax: +49-911-30844-76698.";
 actionwait = "귀하가 언라인 접속을 하시는 데로 선택하신 사양이 실행될 것입니다.";
 discask = "다음의 연결을 종료하시겠습니까?";
 dial_warn = "%1의 연결을 허용하시겠습니까?";

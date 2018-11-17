@@ -563,7 +563,7 @@ eml_checking_domain = "Перевірка домена E-mail...";
 
 / %1 = max. allowed time difference in minutes, %2 = current time difference in minutes
 
-cfos_expired = "Тестовий період %p закінчився.\nПридбайте %p/Professional зараз!\nВеб-сторінка для замовлення %p -\n\nhttps://www.cfos.de/ru/order/order.htm\n\nТелефон: +49-228-7669826\nФакс: +49-228-7669827.";
+cfos_expired = "Тестовий період %p закінчився.\nПридбайте %p/Professional зараз!\nВеб-сторінка для замовлення %p -\n\nhttps://www.cfos.de/ru/order/order.htm\n\nТелефон: +49-228-7669826\nФакс: +49-911-30844-76698.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
 
 

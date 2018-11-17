@@ -860,9 +860,9 @@ err_port_in_use = "Le port %? du serveur est déjà utilisé par un autre progra
 
 / warning messages
 wrn_oem_update = "Vous avez déjà une installation de %p possédant une licence.\n\n"
-      "Vous êtes sur le point d'installer une version d'évaluation. Si vous\n"
-      "continuez cette installation, votre ancienne licence ne va plus fonctionner.\n"
-      "Une mise à jour de votre ancienne license %p peut être obtenue\n"
+      "Vous êtes sur le point d'installer une version d'évaluation. Si vous "
+      "continuez cette installation, votre ancienne licence ne va plus fonctionner.  "
+      "Une mise à jour de votre ancienne license %p peut être obtenue "
       "au même endroit que là où avez obtenue l'originale.\n\n"
       "Voulez-vous quand même continuer l'installation?";
 wrn_close_application = "Il est recommandé de fermer les applications suivantes avant de continuer :";
@@ -943,7 +943,7 @@ virtual_wifi_deactivate_autostart = "Désactiver le démarrage automatique aussi
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/fr/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/fr/order/cfos-professional-c.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
 invkey = "invkey_e.htm";

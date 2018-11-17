@@ -472,7 +472,7 @@ eml_checking_domain = "Sprawdzanie domeny adresu E-mail...";
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/pl/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/pl/order/cfos-professional-c.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
 invkey = "invkey_e.htm";
@@ -514,7 +514,7 @@ closemsg = "Sorry, ale to okno pozostaje zawsze otwarte abyś\n"
    "klik w okno %p lub ikonę %p możesz \n"
    "otworzyć stronę zamówień %p teraz!";
 cfos_endsoon = "Twój okres testowy wygasa wkrótce.\nKup %p Professional już teraz!\nDokonaj zakupu %p na\n\nhttps://www.cfos.de/pl/order/order.htm\n";
-cfos_expired = "Ta wersja %p wygasła.\nKup %p/Professional już teraz!\nDokonaj zakupu %p na\n\nhttps://www.cfos.de/pl/order/order.htm\n\nTelefonicznie: +49-228-7669826\nFax: +49-228-7669827.";
+cfos_expired = "Ta wersja %p wygasła.\nKup %p/Professional już teraz!\nDokonaj zakupu %p na\n\nhttps://www.cfos.de/pl/order/order.htm\n\nTelefonicznie: +49-228-7669826\nFax: +49-911-30844-76698.";
 actionwait = "Wybrana akcja zostanie wykonana gdy połaczyś się z Internetem.";
 discask = "Czy napewno chcesz rozłączyć to połączenie?";
 dial_warn = "Zezwalasz na wybranie połączenia %1?";

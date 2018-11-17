@@ -22,6 +22,8 @@ htm_lang_prefix = "de";
 /  i.e. "%url/traffic-shaping/traffic-shaping.htm" is expanded to
 /  "http://www.cfos.de/" + "en" + "/traffic-shaping/traffic-shaping.htm"
 /
+/  "%h" contains only htm_prefix.
+/
 / ----------------------------------------------------------------------
 
 / must end with a slash ('/') and is used to set value of "%url"
@@ -457,6 +459,18 @@ disable_speed_shaping = "Traffic Shaping deaktivieren";
 yes = "Ja";
 no = "Nein";
 help = "Hilfe";
+allow_meta_dumps = "Senden von anonymen Metadaten von Paketen und Verbindungen an cFos erlauben?";
+/ see "usage_stats_metadata_info" key below
+allow_meta_dumps_help = "%p erlauben, zur Produktverbesserung selten (weniger als einmal pro Jahr) "
+   "folgende anonymen Metadaten der Pakete von Verbindungen mitzuschneiden "
+   "und zum cFos Server zu schicken: "
+   "lokaler Port, entfernte IP-Adresse && Port, Paket- && Headergröße, "
+   "Zeit, Programmname, L7-Protokoll und TLS/QUIC/DNS Daten, um "
+   "die Gegenstelle zu identifizieren. "
+   "Weitere Daten "
+   "(speziell Ihre IP-Adresse) werden nicht erhoben. "
+   "Detaillierte Informationen finden Sie <a href=\"%h/collected-data.txt\">hier</a>.";
+
 
 /: cFosSpeed context menu -> Usage Graph
 /. Used as one of dropdown menu entries
@@ -745,7 +759,21 @@ hangup_disco = "Trennen";
 / usage statistics
 usage_stats = "Nutzungsstatistiken";
 usage_stats_subheader = "Behandlung von Nutzungsstatistiken.";
-usage_stats_chk = "Anonyme Nutzungsstatistiken an cFos senden, um bei der Produkt-Verbesserung zu helfen.";
+usage_stats_chk = "Anonyme Nutzungsstatistiken an cFos senden, um bei der Produkt-Verbesserung zu helfen. (Empfohlen)";
+usage_stats_metadata_chk = "%p erlauben, zur Produktverbesserung selten "
+   "anonymisierte Metadaten zu sammeln und zum cFos Server zu schicken. (Empfohlen)";
+usage_stats_metadata_info = "%p kann selten (weniger als einmal pro Jahr) "
+   "folgende anonymen Metadaten von Paketen und Verbindungen sammeln und zum cFos Server schicken: "
+   "lokaler Port, entfernte IP-Adresse && Port, Paket- && Headergröße, "
+   "Zeit, Programmname, L7-Protokoll und TLS/QUIC/DNS Daten, um "
+   "die Gegenstelle zu identifizieren. "
+   "\n\n"
+   "Weitere Daten "
+   "(speziell Ihre IP-Adresse) werden nicht erhoben. "
+   "Sie können diese Einstellung jederzeit im Kontext-Menu unter "
+   "Einstellungen/Einstellungen ändern. "
+   "Detaillierte Informationen finden Sie <a>hier</a>.";
+usage_stats_metadata_url = "%h/collected-data.txt";
 
 / port forwarding (translators: see http://en.wikipedia.org/wiki/Port_forwarding for an explanation)
 port_forwarding_chk = "Automatische Portweiterleitung verwenden, falls verfügbar.";
@@ -964,10 +992,10 @@ err_port_in_use = "Der Server-Port %? wird bereits von einem anderen Programm ve
 
 / warning messages
 wrn_oem_update = "Sie haben bereits ein lizensiertes %p installiert.\n\n"
-  "Sie sind im Begriff, eine normale Shareware Version zu installieren.\n"
-  "Wenn Sie die Installation fortsetzen, kann Ihre alte Lizenz nicht übernommen\n"
-  "werden. Ein Update für Ihr lizensiertes %p können Sie an der\n"
-  "gleichen Stelle bekommen, an der Sie Ihre lizensierte Version ursprünglich\n"
+  "Sie sind im Begriff, eine normale Shareware Version zu installieren.  "
+  "Wenn Sie die Installation fortsetzen, kann Ihre alte Lizenz nicht übernommen "
+  "werden.  Ein Update für Ihr lizensiertes %p können Sie an der "
+  "gleichen Stelle bekommen, an der Sie Ihre lizensierte Version ursprünglich "
   "bezogen haben.\n\n"
   "Wollen Sie trotzdem mit der Installation fortfahren?";
 wrn_close_application = "Es wird empfohlen, die folgenden Anwendungen zu schließen, bevor Sie forfahren:";
@@ -1050,7 +1078,7 @@ virtual_wifi_deactivate_autostart = "Automatischen Start bei jedem Systemstart e
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/de/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/de/order/cfos-professional-c.htm";
 budget_file = "budget.cfhta";
 report_tpl = "report.tpl";
 invkey = "invkey.htm";
@@ -1110,7 +1138,7 @@ cfos_expired =
  "https://www.cfos.de/de/order/order.htm\n"
  "\n"
  "Telefon: +49-228-7669826\n"
- "Fax: +49-228-7669827.";
+ "Fax: +49-911-30844-76698.";
 actionwait = "Die von Ihnen gewählte Aktion wird ausgeführt, sobald sie online sind";
 discask = "Möchten Sie wirklich diese Verbindung beenden?";
 dial_warn = "Anwahl von %1 erlaubt?";

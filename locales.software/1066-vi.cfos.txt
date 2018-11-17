@@ -853,7 +853,7 @@ virtual_wifi_dialup_ics = "Để kết nối quay số bạn cần kích hoạt 
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/vi/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/vi/order/cfos-professional-c.htm";
 budget_file = "budget_e.cfhta";
 report_tpl = "report_e.tpl";
 invkey = "invkey_e.htm";
@@ -869,7 +869,7 @@ features_htm = "techinfo\\features_e.htm";
 
 order_oem = "Đặt mua phiên bản chuyên nghiệp ngay bây giờ!";
 cfos_endsoon = "Bạn sắp hết thời hạn dùng thử.\n Đặt mua %p Professional ngay hôm nay\n Đặt hàng %p tại\n\nhttps://www.cfos.de/vi/order/order.htm\n";
-cfos_expired = "Phiên bản %p này đã hết hạn.\nĐặt mua %p Professional ngay hôm nay!\nĐặt hàng %p tại\n\nhttps://www.cfos.de/vi/order/order.htm\n\nĐiện thoại: +49-228-7669826\nFax: +59-228-7669827.";
+cfos_expired = "Phiên bản %p này đã hết hạn.\nĐặt mua %p Professional ngay hôm nay!\nĐặt hàng %p tại\n\nhttps://www.cfos.de/vi/order/order.htm\n\nĐiện thoại: +49-228-7669826\nFax: +59-911-30844-76698.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
 
 

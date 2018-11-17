@@ -563,7 +563,7 @@ eml_checking_domain = "Controleren van E-mail domein...";
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/nl/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/nl/order/cfos-professional-c.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
 
@@ -571,7 +571,7 @@ cfos_orderurl = "https://www.cfos.de/nl/order/cfos-professional-n.htm";
 
 order_oem = "Koop de professionele versie nu!";
 cfos_endsoon = "Je probeerperiode gaat binnekort verlopen.\nKoop %p Professional nu!\nStart de %p bestel pagina op\n\nhttps://www.cfos.de/nl/order/order.htm\n";
-cfos_expired = "Deze %p versie is verlopen.\nKoop %p/Professional nu!\nStart de %p bestel pagina op\n\nhttps://www.cfos.de/nl/order/order.htm\n\ntelefoon: +49-228-7669826\nFax: +49-228-7669827.";
+cfos_expired = "Deze %p versie is verlopen.\nKoop %p/Professional nu!\nStart de %p bestel pagina op\n\nhttps://www.cfos.de/nl/order/order.htm\n\ntelefoon: +49-228-7669826\nFax: +49-911-30844-76698.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
 
 

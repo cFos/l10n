@@ -886,7 +886,7 @@ virtual_wifi_error_not_present = "未发现Wi-Fi界面。\n\n为了设定一个�
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/zh-cn/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/zh-cn/order/cfos-professional-c.htm";
 budget_file = "budget_cn.cfhta";
 report_tpl = "report_cn.tpl";
 invkey = "invkey_e.htm";
@@ -933,7 +933,7 @@ closemsg =
    "并仅仅在您需要的时候才会打开。为打开订购 %p 的网页，请用鼠标右键\n"
    "点击 %p 窗口或者任务栏中的 %p 图标。";
 cfos_endsoon = "%p 的试用期即将期满。\n请您现在购买 %p Professional（专业）版本!\n请您打开订购 %p 程序的网页\n\nhttps://www.cfos.de/zh-cn/order/order.htm\n";
-cfos_expired = "此 %p 版本的试用期已期满。\n请您现在购买 %p Professional（专业）版本!\n请您打开订购 %p 的网页\n\nhttps://www.cfos.de/zh-cn/order/order.htm\n\n电话: +49-228-7669826\n传真: +49-228-7669827.";
+cfos_expired = "此 %p 版本的试用期已期满。\n请您现在购买 %p Professional（专业）版本!\n请您打开订购 %p 的网页\n\nhttps://www.cfos.de/zh-cn/order/order.htm\n\n电话: +49-228-7669826\n传真: +49-911-30844-76698.";
 actionwait = "一旦连上网络之后，便执行您所选的行动。";
 discask = "您确实想断开此连接吗？";
 dial_warn = "允许拨打 %1 吗?";

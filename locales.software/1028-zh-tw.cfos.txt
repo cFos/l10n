@@ -883,7 +883,7 @@ virtual_wifi_deactivate_autostart = "不在系統啟動時自動啟動。";
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/zh-tw/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/zh-tw/order/cfos-professional-c.htm";
 budget_file = "budget_tw.cfhta";
 report_tpl = "report_tw.tpl";
 invkey = "invkey_e.htm";
@@ -922,7 +922,7 @@ upgrade_easy = "下載新的 %p 驅動程式！";
 ipmtu = "已調整撥號網路設定以最佳化您的網路連線。\n調整將在下次重開機之後生效。";
 closemsg = "很抱歉，為了提供您試用期限資訊，此視窗將不會被隱藏。\n這樣您就能夠即時得知您的試用期將於何時結束。\n\n在 %p/Professional 的完整版本中，將不會顯示此視窗，\n僅在您需要的時候才會顯示。只要對視窗點擊滑鼠右鍵\n點擊 %p 視窗或者工具列中的 %p 圖示即可開啟 %p 的訂購網頁！";
 cfos_endsoon = "%p 的試用期即將結束。\n立即訂購 %p 專業版！\n您可透過以下方式購買 %p：\n\nhttps://www.cfos.de/zh-tw/order/order.htm";
-cfos_expired = "此 %p 版本已過期。\n立即訂購 %p/Professional！\n您可透過以下方式購買 %p：\n\nhttps://www.cfos.de/zh-tw/order/order.htm\n\n電話: +49-228-7669826\n傳真: +49-228-7669827。";
+cfos_expired = "此 %p 版本已過期。\n立即訂購 %p/Professional！\n您可透過以下方式購買 %p：\n\nhttps://www.cfos.de/zh-tw/order/order.htm\n\n電話: +49-228-7669826\n傳真: +49-911-30844-76698。";
 actionwait = "連上網路之後，將執行您指定的行為。";
 discask = "確定要中斷此連線？";
 dial_warn = "允許撥打 %1 嗎?";

@@ -604,7 +604,7 @@ eml_checking_domain = "בודק שרת דואר...";
 /
 / ----------------------------------------------------------------------
 
-cfos_orderurl = "https://www.cfos.de/he/order/cfos-professional-n.htm";
+cfos_orderurl = "https://www.cfos.de/he/order/cfos-professional-c.htm";
 
 / %1 = number of seconds, %2 = "late"/"early"
 
@@ -612,7 +612,7 @@ cfos_orderurl = "https://www.cfos.de/he/order/cfos-professional-n.htm";
 
 order_oem = "רכוש את הגרסא המקצועית עכשיו!";
 cfos_endsoon = " תקופת הנסיון עומדת להסתיים בקרוב.\nקנה %p Professional עכשיו!\nפתח את דף הזמנת %p בכתובת\n\nhttps://www.cfos.de/he/order/order.htm\n";
-cfos_expired = "גרסת %p הסתיים.\nרכוש %p/Professional עכשיו!\nפתח את דף הזמנת %p בכתובת \n\nhttps://www.cfos.de/he/order/order.htm\n\nטלפון: +49-228-7669826\nפקס:     +49-228-7669827.";
+cfos_expired = "גרסת %p הסתיים.\nרכוש %p/Professional עכשיו!\nפתח את דף הזמנת %p בכתובת \n\nhttps://www.cfos.de/he/order/order.htm\n\nטלפון: +49-228-7669826\nפקס:     +49-911-30844-76698.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
 
 

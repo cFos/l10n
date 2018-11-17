@@ -900,7 +900,7 @@ features_htm = "techinfo\\features_e.htm";
 
 order_oem = "Compre a versão Professional agora!";
 cfos_endsoon = "O seu periode de teste acaba brevemente.\nCompre %p Professional     agora!\nComeçe na %p compra na página \n\nhttps://www.cfos.de/pt/order/order.htm\n";
-cfos_expired = "Esta %p versão expirou.\nCompre %p/Professional     agora!\nComeçe na %p compre na página \n\nhttps://www.cfos.de/pt/order/order.htm\n\nPhone: +49-228-7669826\nFax:     +49-228-7669827.";
+cfos_expired = "Esta %p versão expirou.\nCompre %p/Professional     agora!\nComeçe na %p compre na página \n\nhttps://www.cfos.de/pt/order/order.htm\n\nPhone: +49-228-7669826\nFax:     +49-911-30844-76698.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
 
 

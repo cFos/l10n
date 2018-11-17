@@ -623,7 +623,7 @@ eml_checking_domain = "Проверување E-mail домен...";
 
 order_oem = "Купете ја професионалната верзија сега!";
 cfos_endsoon = "Вашиот тест период ќе заврши наскоро.\nКупете ја %p Професионалната верзија сега!\nЗапочнете ја %p нарачката на страна на\n\nhttps://www.cfos.de/mk/order/order.htm\n";
-cfos_expired = "Ова %p верзија е истечена.\nКупете го %p/Професионал сега!\nЗапочнете ја %p нарачката на\n\nhttps://www.cfos.de/mk/order/order.htm\n\nPhone: +49-228-7669826\nFax: +49-228-7669827.";
+cfos_expired = "Ова %p верзија е истечена.\nКупете го %p/Професионал сега!\nЗапочнете ја %p нарачката на\n\nhttps://www.cfos.de/mk/order/order.htm\n\nPhone: +49-228-7669826\nFax: +49-911-30844-76698.";
 / %1, %2 are Windows version, e.g. "Windows 95", "Windows XP"
 
 
